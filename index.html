@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akta Miasta Kraśnika (XVI–XVIII w.) – Portal Kompendiów Źródłowych</title>
+    <meta name="description" content="Kompletne cyfrowe kompendia źródłowo-genealogiczne ksiąg miejskich Kraśnika z Archiwum Państwowego w Lublinie.">
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-dark: #0f172a;
+            --primary-light: #2563eb;
+            --accent: #b45309;
+            --accent-light: #d97706;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%);
+            color: white;
+            padding: 3rem 1.5rem 2.5rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .badge-bar {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 1.2rem;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.025em;
+        }
+
+        .badge-gold {
+            background: rgba(245, 158, 11, 0.25);
+            border-color: rgba(245, 158, 11, 0.5);
+            color: #fef08a;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.025em;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: #cbd5e1;
+            max-width: 780px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        main {
+            flex: 1;
+            max-width: 1300px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+
+        .controls-card {
+            background: white;
+            border-radius: 14px;
+            padding: 1.25rem 1.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .search-box {
+            flex: 1 1 320px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            font-size: 0.95rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-light);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+
+        .stats-summary {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1.75rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: #cbd5e1;
+        }
+
+        .card-header {
+            padding: 1.5rem 1.5rem 1rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .unit-tag {
+            background: #eff6ff;
+            color: var(--primary);
+            font-weight: 800;
+            font-size: 0.85rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .unit-tag-highlight {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .year-tag {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 0.4rem;
+            line-height: 1.35;
+        }
+
+        .card-signature {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-family: monospace;
+            background: #f8fafc;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .card-body {
+            padding: 1.25rem 1.5rem;
+            flex: 1;
+            font-size: 0.92rem;
+            color: #334155;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .meta-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            margin-top: 0.5rem;
+            font-size: 0.88rem;
+        }
+
+        .meta-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-icon {
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+
+        .card-footer {
+            padding: 1rem 1.5rem 1.5rem;
+            background: #fafafa;
+            border-top: 1px solid #f1f5f9;
+        }
+
+        .btn-launch {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            text-decoration: none;
+            padding: 0.85rem 1.25rem;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(30, 58, 138, 0.2);
+        }
+
+        .btn-launch:hover {
+            opacity: 0.95;
+            box-shadow: 0 4px 10px rgba(30, 58, 138, 0.35);
+            transform: translateY(-1px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            background: white;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+
+        footer strong {
+            color: var(--primary-dark);
+        }
+
+        @media (max-width: 768px) {
+            header { padding: 2.2rem 1rem 1.8rem; }
+            h1 { font-size: 1.7rem; }
+            .subtitle { font-size: 0.98rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="badge-bar">
+                <span class="badge">Archiwum Państwowe w Lublinie</span>
+                <span class="badge badge-gold">Akta Miasta Kraśnika (Zespół 35/40/0)</span>
+                <span class="badge">8 Opracowanych Jednostek</span>
+                <span class="badge">Ponad 15 000 Rekordów Osobowych</span>
+            </div>
+            <h1>Archiwum Akt Dawnych Miasta Kraśnika</h1>
+            <p class="subtitle">Cyfrowy Portal Kompendiów Źródłowych, Indeksów i Prozopografii z Ksiąg Radzieckich, Wójtowsko-Ławniczych i Wieczystych (XVI–XVIII w.)</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="controls-card">
+            <div class="search-box">
+                <input type="text" id="filterInput" placeholder="Filtruj jednostki (rok, sygnatura, rodzaj księgi, skany)..." oninput="filterUnits()">
+            </div>
+            <div class="stats-summary" id="statsText">
+                Wyświetlono 8 z 8 jednostek
+            </div>
+        </div>
+
+        <div class="grid" id="unitsGrid">
+
+            <!-- JEDNOSTKA 01 -->
+            <div class="card" data-search="jednostka 01 j1 1555 1712 radziecka wojtowska 35/40/0/1/1 tom 1">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 01</span>
+                        <span class="year-tag">1555–1712</span>
+                    </div>
+                    <h2 class="card-title">Księga Radziecka i Wójtowska</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/1 (Tom 1)</span>
+                </div>
+                <div class="card-body">
+                    <p>Najstarsze wpisy miejskie Kraśnika: wilkierze, konstytucje miejskie, sprawy przed wójtem i radą, przywileje rzemieślnicze.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>161</strong> skanów archiwalnych</li>
+                        <li><span class="meta-icon">👥</span> Baza genealogiczna mieszczan XVI/XVII w.</li>
+                        <li><span class="meta-icon">🏛️</span> Instancja radziecka i wójtowska</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j1_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J01 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 02 -->
+            <div class="card" data-search="jednostka 02 j2 1558 1662 1723 1748 wojtowska lawnicza 35/40/0/1/2 tom 2">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 02</span>
+                        <span class="year-tag">1558–1662 & 1723–1748</span>
+                    </div>
+                    <h2 class="card-title">Księga Wójtowsko-Ławnicza</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/2 (Tom 2)</span>
+                </div>
+                <div class="card-body">
+                    <p>Monograficzna księga transakcji majątkowych, sporów sąsiedzkich, testamentów i spraw cechowych z okresu renesansu i baroku.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>1 019</strong> skanów archiwalnych</li>
+                        <li><span class="meta-icon">👥</span> <strong>4 200+</strong> rekordów genealogicznych</li>
+                        <li><span class="meta-icon">🏛️</span> Instancja wójtowsko-ławnicza</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j2_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J02 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 03 -->
+            <div class="card" data-search="jednostka 03 j3 1562 1690 kryminalna zloczyncow 35/40/0/1/3">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 03</span>
+                        <span class="year-tag">1562–1690</span>
+                    </div>
+                    <h2 class="card-title">Księga Spraw Spornych i Deliktów</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/3</span>
+                </div>
+                <div class="card-body">
+                    <p>Zeznania sądowe, sprawy kryminalne, delikty, rzemiosło, spory handlowe oraz jurysdykcja miejska na przestrzeni ponad stulecia.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>232</strong> skany archiwalne</li>
+                        <li><span class="meta-icon">👥</span> Kompletna indeksacja osób i świadków</li>
+                        <li><span class="meta-icon">🏛️</span> Sąd wójtowski i ratuszowy</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j3_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J03 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 04 -->
+            <div class="card" data-search="jednostka 04 j4 1661 1699 wojtowska 35/40/0/1/4 potop">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 04</span>
+                        <span class="year-tag">1661–1699</span>
+                    </div>
+                    <h2 class="card-title">Księga Miejska Doby Odbudowy</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/4</span>
+                </div>
+                <div class="card-body">
+                    <p>Kraśnik w II połowie XVII wieku po zniszczeniach potopu szwedzkiego: intromisje, odbudowa kamienic, transakcje rolne na Podlesiu.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>750</strong> skanów archiwalnych</li>
+                        <li><span class="meta-icon">👥</span> Baza genealogiczna patrycjatu epoki Sobieskiego</li>
+                        <li><span class="meta-icon">🏛️</span> Rezygnacje i akta wieczyste</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j4_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J04 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 05 -->
+            <div class="card" data-search="jednostka 05 j5 1589 1600 1662 radziecka wojtowska 35/40/0/1/5">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 05</span>
+                        <span class="year-tag">1589–1600 & 1662</span>
+                    </div>
+                    <h2 class="card-title">Księga Radziecka i Wójtowska</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/5</span>
+                </div>
+                <div class="card-body">
+                    <p>Przełom złotego wieku: ordynacje radzieckie, wybory urzędników, transakcje mieszczańskie i relacje z Ordynacją Zamojską.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>335</strong> skanów archiwalnych</li>
+                        <li><span class="meta-icon">👥</span> Indeks urzędników, cechów i rajców</li>
+                        <li><span class="meta-icon">🏛️</span> Rada Miejska i Ława</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j5_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J05 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 07 -->
+            <div class="card" data-search="jednostka 07 j7 1606 1611 wojtowska lawnicza 35/40/0/1/7">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 07</span>
+                        <span class="year-tag">1606–1611</span>
+                    </div>
+                    <h2 class="card-title">Księga Wójtowsko-Ławnicza</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/7 (Dawny Tom 3)</span>
+                </div>
+                <div class="card-body">
+                    <p>Złoty wiek handlu i rzemiosła kraśnickiego: spławy mąki do Opoki nad Wisłą, transakcje browarne, spory kupieckie, testamenty.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>278</strong> skanów archiwalnych</li>
+                        <li><span class="meta-icon">👥</span> Kompletna prozopografia i indeks rzeczowy</li>
+                        <li><span class="meta-icon">🏛️</span> Officium Advocatiale et Scabinale</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j7_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J07 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 08 -->
+            <div class="card" style="border: 2px solid var(--primary-light);" data-search="jednostka 08 j8 1608 1647 wieczysta wojtowska lawnicza 35/40/0/1/8 tom 5">
+                <div class="card-header" style="background: #f0f7ff;">
+                    <div class="card-top">
+                        <span class="unit-tag unit-tag-highlight">Jednostka 08 ★ Finał</span>
+                        <span class="year-tag">1608–1647</span>
+                    </div>
+                    <h2 class="card-title">Wielka Księga Wieczysta Wójtowska</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/8 (Dawny Tom 5)</span>
+                </div>
+                <div class="card-body">
+                    <p>Monumentalna księga wieczysta I połowy XVII w.: rezygnacje domów, intromisje, posagi, kontrakty, inwentarze pośmiertne.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>1 392</strong> skany (100% zindeksowane)</li>
+                        <li><span class="meta-icon">👥</span> <strong>6 611</strong> rekordów osobowych (J8_P0001–P6611)</li>
+                        <li><span class="meta-icon">🏛️</span> Kancelaria notariuszy miejskich Kraśnika</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j8_kompendium_calosc.html" class="btn-launch" style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);">
+                        Otwórz Kompendium J08 ➔
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEDNOSTKA 40 -->
+            <div class="card" data-search="jednostka 40 j40 1761 1788 1780 1797 stanislawowska 35/40/0/1/40">
+                <div class="card-header">
+                    <div class="card-top">
+                        <span class="unit-tag">Jednostka 40</span>
+                        <span class="year-tag">1761–1788 (1797)</span>
+                    </div>
+                    <h2 class="card-title">Księga Miejska Epoki Stanisławowskiej</h2>
+                    <span class="card-signature">Sygn. 35/40/0/1/40</span>
+                </div>
+                <div class="card-body">
+                    <p>Schyłek I Rzeczypospolitej: cechy garbarskie, kuśnierskie, inwentarze mieszczańskie, reformy oświeceniowe i akta z końca XVIII w.</p>
+                    <ul class="meta-list">
+                        <li><span class="meta-icon">📄</span> <strong>252</strong> skany archiwalne</li>
+                        <li><span class="meta-icon">👥</span> Baza genealogiczna mieszczan doby Sejmu Wielkiego</li>
+                        <li><span class="meta-icon">🏛️</span> Akta miejskie i cechowe</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="krasnik_j40_kompendium_calosc.html" class="btn-launch">
+                        Otwórz Kompendium J40 ➔
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Projekt Indeksacji Akt Dawnych Miasta Kraśnika (XVI–XVIII w.)</strong></p>
+        <p>Opracowanie Autonomiczne oparte o zasób Archiwum Państwowego w Lublinie (Zespół 35/40/0)</p>
+    </footer>
+
+    <script>
+        function filterUnits() {
+            const query = document.getElementById('filterInput').value.toLowerCase().trim();
+            const cards = document.querySelectorAll('.card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const searchStr = (card.getAttribute('data-search') + ' ' + card.innerText).toLowerCase();
+                if (!query || searchStr.includes(query)) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('statsText').innerText = `Wyświetlono ${visibleCount} z ${cards.length} jednostek`;
+        }
+    </script>
+</body>
+</html>
