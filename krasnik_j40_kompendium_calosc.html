@@ -660,8 +660,8 @@
               <th onclick="sortMain('nr_skanu')">Skan ↕</th>
               <th onclick="sortMain('strona_pagina')">Pagina ↕</th>
               <th onclick="sortMain('data_rok')">Rok ↕</th>
-              <th onclick="sortMain('kategoria')">Kategoria ↕</th>
               <th>Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')">Kategoria ↕</th>
               <th>Opis Sprawy / Treść Aktu</th>
               <th>Kwoty / Podatki</th>
             </tr>
@@ -1030,8 +1030,8 @@
             <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${r.nr_skanu}</td>
             <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina)}</td>
             <td><span class="badge-years">${escapeHtml(r.data_rok)}</span></td>
-            <td><span style="font-size:0.8rem; font-weight:600; color:#cbd5e1;">${escapeHtml(r.kategoria)}</span></td>
             <td>${osobyDisplay}</td>
+            <td><span style="font-size:0.8rem; font-weight:600; color:#cbd5e1;">${escapeHtml(r.kategoria)}</span></td>
             <td style="color:#cbd5e1; font-size:0.85rem;">${escapeHtml(r.opis_pozycji)}</td>
             <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#e2e8f0;">${escapeHtml(r.kwoty_miary || '—')}</td>
           </tr>
