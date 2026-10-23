@@ -664,6 +664,15 @@
       color: #fff !important;
       border-color: var(--gold-primary);
     }
+    
+    .swa-instruction-box {
+      background: rgba(212, 175, 55, 0.08);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-left: 3px solid var(--gold-primary);
+      border-radius: 6px;
+      padding: 1rem 1.15rem;
+      margin-top: 1rem;
+    }
     .swa-hint {
       font-size: 0.78rem;
       color: var(--text-muted);
@@ -1279,7 +1288,8 @@
         </div>
       `;
 
-      const swaUrl = item.link_swa || (item.id_obiektu ? `https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6990354/obiekty/${item.id_obiektu}#opis_obiektu` : 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6990354');
+      const swaUnitUrl = 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6990354';
+      const swaFondUrl = 'https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890';
 
       const linkHtml = `
         <div class="modal-section">
@@ -1293,7 +1303,7 @@
                   <div style="color:var(--gold-primary); font-size:0.85rem;">Zespół 35/40/0 • Akta miasta Kraśnika</div>
                 </div>
               </div>
-              <span class="badge-source">Oryginał online</span>
+              <span class="badge-source">Jednostka 40</span>
             </div>
 
             <div class="swa-meta-grid">
@@ -1306,33 +1316,38 @@
                 <span class="swa-meta-val">Księga elekcji, rachunków i podatków 1761–1792</span>
               </div>
               <div class="swa-meta-item">
-                <span class="swa-meta-label">Numer skanu:</span>
-                <span class="swa-meta-val">Skan #${item.nr_skanu} (${item.strona_pagina})</span>
+                <span class="swa-meta-label">Docelowy skan:</span>
+                <span class="swa-meta-val" style="color:var(--gold-primary); font-weight:700;">Skan #${item.nr_skanu} (${item.strona_pagina})</span>
               </div>
               <div class="swa-meta-item">
-                <span class="swa-meta-label">ID obiektu cyfrowego (SwA):</span>
-                <span class="swa-meta-val">${item.id_obiektu || '—'}</span>
+                <span class="swa-meta-label">ID jednostki w SwA:</span>
+                <span class="swa-meta-val" style="font-family:'JetBrains Mono', monospace; color:var(--gold-primary);">6990354</span>
               </div>
               <div class="swa-meta-item" style="grid-column: 1 / -1;">
                 <span class="swa-meta-label">Plik źródłowy w archiwum:</span>
-                <span class="swa-meta-val" style="font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:var(--gold-primary);">${item.plik_skanu || '35_40_0_1_40_' + item.nr_skanu + '.jpg'}</span>
+                <span class="swa-meta-val" style="font-family:'JetBrains Mono', monospace; font-size:0.82rem;">${item.plik_skanu || '35_40_0_1_40_' + item.nr_skanu + '.jpg'}</span>
               </div>
             </div>
 
             <div class="swa-actions">
-          <a href="${swaUrl}" target="_blank" rel="noopener noreferrer" class="btn-swa-primary">
-            🏛️ Otwórz Skan #${item.nr_skanu} (SwA) ↗
-          </a>
-          <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6990354" target="_blank" rel="noopener noreferrer" class="btn-swa-secondary">
-            📂 Jednostka 40 (Skany) ↗
-          </a>
-          <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" rel="noopener noreferrer" class="btn-swa-secondary">
-            🏛️ Zespół 35/40/0 (Kraśnik) ↗
-          </a>
-        </div>
+              <a href="${swaUnitUrl}" target="_blank" rel="noopener noreferrer" class="btn-swa-primary">
+                🏛️ Otwórz Jednostkę 40 w Szukaj w Archiwach ↗
+              </a>
+              <a href="${swaFondUrl}" target="_blank" rel="noopener noreferrer" class="btn-swa-secondary">
+                📂 Cały Zespół 35/40/0 (Akta m. Kraśnika) ↗
+              </a>
+            </div>
 
-            <div class="swa-hint">
-              ℹ️ Kliknięcie otworzy oficjalną stronę Jednostki 40 w portalu <em>szukajwarchiwach.gov.pl</em>. W zakładce <strong>„Skany”</strong> znajdziesz Skan #${item.nr_skanu} do badania w pełnej rozdzielczości.
+            <div class="swa-instruction-box">
+              <div style="font-weight:700; color:var(--gold-primary); margin-bottom:0.4rem; display:flex; align-items:center; gap:0.4rem;">
+                <span>💡</span> Instrukcja wyświetlenia Skanu #${item.nr_skanu} w portalu:
+              </div>
+              <ol style="margin:0; padding-left:1.25rem; line-height:1.65; color:#e2e8f0; font-size:0.85rem;">
+                <li>Kliknij powyższy złoty przycisk <strong>„Otwórz Jednostkę 40 w Szukaj w Archiwach”</strong>.</li>
+                <li>W portalu kliknij zakładkę <strong>„Skany”</strong> (znajduje się tam komplet 252 skanów księgi).</li>
+                <li>Wybierz miniaturę oznaczoną pozycją <strong>#${item.nr_skanu}</strong> (odpowiadającą temu skanowi).</li>
+                <li>Kliknięcie miniatury otworzy pełny podgląd rękopisu w wysokiej rozdzielczości z możliwością maksymalnego powiększenia.</li>
+              </ol>
             </div>
           </div>
         </div>
