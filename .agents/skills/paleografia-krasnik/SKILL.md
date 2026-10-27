@@ -105,6 +105,11 @@ Skorowidz genealogiczny to baza konkretnych osób fizycznych żyjących i dział
   * Silnik wyszukiwarki przeszukuje równolegle oba pola:
     `d.nazwisko.toLowerCase().includes(query) || (d.wariant_nazwiska && d.wariant_nazwiska.toLowerCase().includes(query))`
   * Wpisanie zarówno formy głównej (*Drąś*), jak i alternatywnej (*Drozd*) natychmiast filtruje i wyświetla ten sam jeden rekord.
+* **Żelazna Zasada 100% Synchronizacji Onomastycznej (Automatyczny Audyt Wariantów)**:
+  * **Bezwzględny nakaz mapowania z nawiasów `[...]` do `wariant_nazwiska`**: Każde nazwisko, imię lub przezwisko posiadające w transkrypcji alternatywną lekcję paleograficzną w nawiasie kwadratowym (np. `Antoni Łyżik [Łyżwa / Łyżik? / Pyzik?]`, `Wojciech Drąś [Draj?]`, `Wawrzyniec Starobrat [Starosrat?]`, `Walenty Jordel [Gorgiel?]`) **MUSI natychmiast posiadać zaktualizowane pole `wariant_nazwiska` w tablicy `genData`**.
+  * **Zakaz pozostawiania `wariant_nazwiska: null`** dla osób z wątpliwościami źródłowymi. Jeśli w transkrypcji podano wariant, brak wpisania go w `wariant_nazwiska` jest traktowany jako błąd krytyczny.
+  * **Obowiązkowy programistyczny test weryfikacyjny**: Przed zamknięciem jakiejkolwiek partii skanów agent ma bezwzględny obowiązek uruchomić automatyczny test (Python/Node) sprawdzający, czy 100% wariantów z nawiasów kwadratowych w danej partii zwraca trafienie w wyszukiwarce `genData`. Brak trafienia blokuje zakończenie partii.
+  * **Równoległy eksport do pliku CSV**: Po każdej partii stan bazy `genData` jest eksportowany do pliku `krasnik_jXX_slownik_genealogiczny.csv` z dedykowaną kolumną `Wariant nazwiska`.
 * **Okno szczegółów osoby (Modal Genealogiczny)**:
   * Po kliknięciu wiersza w tabeli, w oknie modalnym prezentowana jest sekcja:
     *Warianty nazwiska i uwagi paleograficzne: [Drąś / Drozd?]. Przyczyna wątpliwości: litery -ąś/-ozd zatarte w zgięciu karty rękopisu na Skanie #41.*
