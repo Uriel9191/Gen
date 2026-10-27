@@ -2,13 +2,16 @@
 name: paleografia-krasnik
 description: >-
   Kompleksowy przewodnik i metodyka paleografii staropolskiej XVIII w.,
-  transkrypcji dyplomatycznej akt miejskich (Akta Miasta Kraśnika) oraz
-  budowy baz genealogiczno-indeksowych i kompendiów cyfrowych.
+  transkrypcji dyplomatycznej akt miejskich (Akta Miasta Kraśnika),
+  budowy baz genealogiczno-indeksowych, procedury opracowania nowych jednostek
+  oraz architektury UI/UX kompendiów cyfrowych na wzór Jednostki 40.
 ---
 
-# Metodyka Paleografii, Transkrypcji Dyplomatycznej i Indeksowania Genealogicznego (Akta Miasta Kraśnika)
+# Metodyka Paleografii, Transkrypcji Dyplomatycznej, Indeksowania Genealogicznego i Standardu UI Kompendiów (Akta Miasta Kraśnika)
 
-Niniejszy dokument stanowi oficjalny kanon metodyczny pracy z osiemnastowiecznymi rękopisami miejskimi (w szczególności zespołem Akta Miasta Kraśnika z Archiwum Państwowego w Lublinie, sygn. 35/40/0/1/40 i pokrewne). Łączy on zasady rygorystycznej edycji źródeł historycznych, wytyczne genealogiczne kuzyna oraz wymogi techniczno-interfejsowe użytkownika.
+Niniejszy dokument stanowi oficjalny, nienaruszalny kanon metodyczny pracy z osiemnastowiecznymi rękopisami miejskimi (w szczególności zespołem Akta Miasta Kraśnika z Archiwum Państwowego w Lublinie, sygn. 35/40/0/1/40 i jednostkami pokrewnymi). 
+
+Łączy on zasady rygorystycznej edycji źródeł historycznych, wytyczne genealogiczne kuzyna, procedurę weryfikacji post-transkrypcyjnej oraz wymogi techniczno-interfejsowe użytkownika zrealizowane w Jednostce 40.
 
 --------------------------------------------------------------------------------
 
@@ -87,19 +90,81 @@ Skorowidz genealogiczny to baza konkretnych osób fizycznych żyjących i dział
 
 --------------------------------------------------------------------------------
 
-## III. Wymogi Techniczne i Interfejsowe (Wytyczne Użytkownika)
+## III. Procedura Opracowania Nowej Jednostki (End-to-End Workflow)
 
-1. **Struktura Trzyczęściowa Modalu Skanu w HTML**:
-   * **Zakładka 1: Opis i metadane** (data, pagina, kategoria, osoby/podmioty, kwoty, uwagi).
-   * **Zakładka 2: Transkrypcja źródłowa** (pełna, rygorystyczna transkrypcja dyplomatyczna z zachowaniem kolumn).
-   * **Zakładka 3: Link do oryginału** (oficjalne odnośniki do portalu Szukaj w Archiwach dla danej jednostki i obiektu cyfrowego).
-2. **Czytelność Prezentacji Finansowej**:
-   * Kwoty w tabelach ułożone pionowo jedna pod drugą, bez nadmiaru poziomych przecinków.
-   * Redukcja zbędnych skrótów utrudniających lekturę.
-3. **Paginacja i Wyszukiwanie**:
-   * Rejestry skanów muszą umożliwiać bezpośrednie przejście do konkretnego numeru strony/skanu, a nie tylko nawigację Poprzednia/Następna.
-   * Domyślne sortowanie alfabetyczne nazwisk z możliwością sortowania po innych kolumnach.
-4. **Zasady Pracy w Parze z Użytkownikiem**:
-   * Najpierw rzetelna analiza problemu, wyjaśnienie wątpliwości i przedstawienie opcji z bilansem zysków i strat.
-   * **Ścisła bramka akceptacji**: Żadnego kodowania ani wprowadzania zmian w plikach bez wyraźnej zgody użytkownika w czacie.
-   * Po zatwierdzeniu planu etapowego: w pełni autonomiczna realizacja partiami aż do sfinalizowania zadania.
+Każda nowa jednostka archiwalna przechodzi przez ustrukturyzowany, 6-etapowy proces badawczy:
+
+### Krok 1: Inwentaryzacja i Kodykologia Surowych Skanów
+* Pobranie paczki skanów (Google Drive lub portal *Szukaj w Archiwach*), rozpakowanie do katalogu roboczego (`krasnik_skany_jX`).
+* Sprawdzenie ciągłości numeracji plików, odnalezienie klatek metryk archiwalnych (początkowej i końcowej) oraz identyfikacja klatek podwójnych (dubletów mikrofilmu).
+* Rozpoznanie charakteru jednostki: księga elekcji/rachunków, protokoły sądowe radzieckie/wójtowskie, regestry podatkowe czy fascykuły luźne.
+* Sprawdzenie układu foliacji i paginacji (karty paginowane, nieliczbowane, pagina vs folio).
+
+### Krok 2: Przygotowanie Planu Etapowego i Bramka Akceptacji
+* Podział jednostki na logiczne partie robocze (zwykle po 15–20 skanów).
+* Przedstawienie szczegółowego planu w czacie i oczekiwanie na wyraźną akceptację użytkownika przed rozpoczęciem modyfikacji kodu.
+
+### Krok 3: Rygorystyczna Transkrypcja 100% Skanów i Linki do Szukaj w Archiwach
+* **Każdy skan jednostki bez wyjątku** musi posiadać:
+  * Wypełnione pole `transkrypcja`: rygorystyczny, pełny odczyt dyplomatyczny z zachowaniem kolumn i notacją `[opcja?]`.
+  * Wypełnione pole `link_swa`: bezpośredni odnośnik do portalu *Szukaj w Archiwach* (`https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/.../obiekty/...#opis_obiektu`).
+* Matematyczne bilansowanie kolumn skarbowych (`Latus`, 1 zł = 30 gr).
+
+### Krok 4: Równoległe Zasilanie Skorowidza Genealogicznego
+* Wraz z transkrypcją każdego skanu prowadzona jest systematyczna ekstrakcja osób do tablicy `genData` zgodnie ze standardem z Rozdziału II.
+
+### Krok 5: Post-Transkrypcyjna Weryfikacja i Uzgodnienie (Reconciliation Pass)
+* **Po ukończeniu pełnej transkrypcji wszystkich skanów jednostki**:
+  * Przeprowadzana jest całościowa konfrontacja wstępnych opisów (`opis_pozycji`), kategorii (`kategoria`), dat rocznych (`data_rok`) oraz syntezy monograficznej z gotowymi transkrypcjami.
+  * **Obowiązkowa korekta rozbieżności**: Wszelkie błędy datowania wynikające ze wstępnego szacowania (np. akt z marca 1766 r. błędnie oznaczony wcześniej jako 1764 r.), niedokładności streszczeń lub przeoczone nazwiska stron transakcji są bezwzględnie poprawiane w metadanych i monografii.
+
+### Krok 6: Testy Integralności i Wdrożenie do Repozytorium
+* Audyt składni i integralności JSON za pomocą Node.js / Python (`mainData` i `genData`).
+* Sprawdzenie, czy 100% skanów posiada transkrypcję i poprawne linki.
+* Sukcesywne commity i push do zdalnego repozytorium GitHub na gałęzi `main`.
+
+--------------------------------------------------------------------------------
+
+## IV. Standard Architektury i UI / UX Kompendium (Wzorzec J40)
+
+Każde kompendium jednostki (np. `krasnik_j40_kompendium_calosc.html`) musi zachowywać **identyczną szatę graficzną, ergonomię i układ komponentów**:
+
+### 1. Stylistyka i Paleta Kolorów (Dark Slate Theme)
+* Tło strony i kontenerów: głęboki grafit/granat (`#0f172a`, `#1e293b`),
+* Krawędzie kart i separatory: stonowany łupek (`#334155`),
+* Akcenty, nagłówki i przyciski aktywne: ciepły bursztyn/złoto (`#f59e0b`, `#d97706`),
+* Statusy i wskaźniki pomyślności: szmaragdowa zieleń (`#10b981`),
+* Czcionki: nowoczesny, bezszeryfowy krój systemowy (Inter, Segoe UI) dla interfejsu; czcionka stałej szerokości (*monospace*: Menlo, Consolas, Monaco) dla pola transkrypcji.
+
+### 2. Górny Pasek Metryk KPI
+* 4 karty statystyk u góry strony:
+  1. *Liczba skanów jednostki*,
+  2. *Zakres chronologiczny (daty skrajne)*,
+  3. *Liczba zidentyfikowanych osób fizycznych*,
+  4. *Wolumen transkrypcji dyplomatycznej (100% ukończenia)*.
+
+### 3. Sekcja Monograficzna i Odkrycia Źródłowe
+* Zorganizowana w przejrzyste, zwijane panele (Accordion) obejmujące:
+  * Kodykologię i charakterystykę źródłoznawczą,
+  * Ustrój samorządowy i elity władzy,
+  * Gospodarkę, finanse i wielkie bilanse,
+  * Odkrycia społeczno-religijne i oświatowe,
+  * Tablicę chronologiczną przełomowych faktów.
+
+### 4. Tabela Rejestru Skanów
+* Kolumny tabeli: *Nr skanu, Pagina, Data/Rok, Kategoria, Osoby/Podmioty, Opis pozycji, Kwoty/Miary, Akcje (Szczegóły)*.
+* Wyszukiwarka tekstowa na żywo filtrująca wszystkie pola rekordu.
+* Filtry kategoryczne i chronologiczne.
+* **Paginacja ze skokiem bezpośrednim**: Kontrolki Poprzednia / Następna oraz pole tekstowe umożliwiające **wpisanie z klawiatury dokładnego numeru skanu i natychmiastowe przejście do niego**.
+* Kwoty w kolumnie *Kwoty/Miary* formatowane pionowo, jedna pod drugą, z redukcją nadmiaru skrótów.
+
+### 5. Trzyczęściowy Modal Skanu (Pop-up)
+Każdy rekord po kliknięciu otwiera modal z trzema zakładkami:
+* **Zakładka 1: Opis i metadane** (kompletna metryka archiwalna, pagina, data, osoby, kwoty, uwagi).
+* **Zakładka 2: Transkrypcja źródłowa** (pełny tekst z przyciskiem kopiowania do schowka, zachowaniem podziału na kolumny i notacją wątpliwości `[opcja?]`).
+* **Zakładka 3: Link do oryginału** (oficjalne kafle przekierowujące do jednostki oraz bezpośredniego widoku skanu w portalu *Szukaj w Archiwach*).
+
+### 6. Tabela Skorowidza Genealogicznego
+* Dedykowana tabela osób fizycznych zintegrowana z bazą `genData`.
+* Sortowanie po dowolnej kolumnie (domyślnie alfabetycznie po nazwisku).
+* Modal/okno szczegółów osoby prezentujące wszystkie wystąpienia na skanach oraz oryginalny zapis źródłowy.
