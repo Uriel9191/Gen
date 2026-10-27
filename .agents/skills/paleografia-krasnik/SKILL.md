@@ -151,9 +151,22 @@ Każda nowa jednostka archiwalna przechodzi przez ustrukturyzowany, 6-etapowy pr
   * Przeprowadzana jest całościowa konfrontacja wstępnych opisów (`opis_pozycji`), kategorii (`kategoria`), dat rocznych (`data_rok`) oraz syntezy monograficznej z gotowymi transkrypcjami.
   * **Obowiązkowa korekta rozbieżności**: Wszelkie błędy datowania wynikające ze wstępnego szacowania (np. akt z marca 1766 r. błędnie oznaczony wcześniej jako 1764 r.), niedokładności streszczeń lub przeoczone nazwiska stron transakcji są bezwzględnie poprawiane w metadanych i monografii.
 
-### Krok 6: Testy Integralności i Wdrożenie do Repozytorium
+### Krok 6: Obowiązkowa Aktualizacja Syntezy Monograficznej, Kluczowych Odkryć oraz Weryfikacja Techniczna UI (Standard J40)
+* **Po zakończeniu transkrypcji 100% skanów jednostki bezwzględnie wymagana jest całościowa finalizacja obu zakładek analitycznych**:
+  1. **Zakładka «Pełna Synteza Monograficzna»**:
+     * Nie może pozostać wstępnym szkicem z początku prac. Musi stanowić dojrzałą monografię naukową woluminu (rozdziały: kodykologia i proweniencja, ustrój i elity władzy, gospodarka i skarbowość, oświata i walka z analfabetyzmem, relacje chrześcijańsko-żydowskie i cechy, sądownictwo i dyscyplina, pełna tablica chronologiczna).
+  2. **Zakładka «Kluczowe Odkrycia i Przełomy»**:
+     * Musi zawierać wyczerpujące, wielopunktowe omówienie przełomów faktograficznych, ustrojowych i genealogicznych jednostki (m.in. demistyfikacja etykiety archiwalnej, udział Żydów w zarządach cechów, modelowa księgowość miejska, fundusze oświatowe KEN, organizacja straży ogniowej).
+  3. **Rygorystyczny Audyt Interfejsu i Liczników Genealogicznych**:
+     * **Integralność DOM zakładek**: Każda zakładka w pasku nawigacyjnym (`tabs-nav`) musi posiadać odpowiadający jej element `<section id="..." class="tab-content">`. Zabronione jest pomijanie tagu otwierającego `<section>` lub błędy w ID powodujące rzucenie wyjątku JavaScript przy `switchTab`.
+     * **Dynamiczna synchronizacja liczników (Zero Hardcodowania)**: Licznik osób w przycisku Słownika Genealogicznego (`.tab-badge`) oraz na kartach KPI musi być powiązany dynamicznie z `genData.length` (oraz `mainData.length`). Niedopuszczalne są zdezaktualizowane, statyczne liczby (np. 780 zamiast rzeczywistej liczby 975 osób).
+     * **Odporność wyszukiwarki genealogicznej**: Funkcja filtrująca (`filterGenData`) musi bezpiecznie obsługiwać pola opcjonalne (zabezpieczenie przed błędem `Cannot read properties of undefined (reading 'toLowerCase')`), przeszukiwać wszystkie metadane (imię, nazwisko, warianty, dzielnica, funkcje, skany, biogram) oraz wspierać zapytania wielowyrazowe.
+     * **Brak sztucznych limitów**: Paginacja skorowidza genealogicznego musi obejmować pełny zbiór `genData` bez odcinania końcowych rekordów.
+
+### Krok 7: Testy Integralności i Wdrożenie do Repozytorium
 * Audyt składni i integralności JSON za pomocą Node.js / Python (`mainData` i `genData`).
 * Sprawdzenie, czy 100% skanów posiada transkrypcję i poprawne linki.
+* Uruchomienie testów onomastycznych dla wszystkich partii badawczych (100% PASS).
 * Sukcesywne commity i push do zdalnego repozytorium GitHub na gałęzi `main`.
 
 --------------------------------------------------------------------------------
