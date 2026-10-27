@@ -699,43 +699,102 @@
       font-weight: 600;
     }
 
-    /* MONOGRAPH & ANALYTICS STYLES */
-    .monograph-content {
+    
+    /* MONOGRAPH & ANALYTICS ENHANCED STYLES */
+    .monograph-content, .analytics-content {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 2.5rem;
-      max-width: 1000px;
+      max-width: 1050px;
       margin: 0 auto;
-      line-height: 1.8;
+      line-height: 1.85;
       font-size: 1.05rem;
       color: #e2e8f0;
     }
-    .monograph-content h2 {
+    .monograph-content h2, .analytics-content h2 {
       font-family: 'Cinzel', serif;
       color: var(--gold-primary);
-      font-size: 1.6rem;
-      margin-top: 2rem;
+      font-size: 1.65rem;
+      margin-top: 2.2rem;
       margin-bottom: 1rem;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
     }
-    .monograph-content h3 {
+    .monograph-content h3, .analytics-content h3 {
       font-family: 'Cinzel', serif;
       color: #fff;
       font-size: 1.25rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
+      margin-top: 1.6rem;
+      margin-bottom: 0.8rem;
     }
-    .monograph-content p {
+    .monograph-content p, .analytics-content p {
       margin-bottom: 1.2rem;
     }
-    .monograph-content ul, .monograph-content ol {
-      margin-bottom: 1.2rem;
+    .monograph-content ul, .monograph-content ol, .analytics-content ul, .analytics-content ol {
+      margin-bottom: 1.3rem;
       padding-left: 1.5rem;
     }
-    .monograph-content li {
-      margin-bottom: 0.5rem;
+    .monograph-content li, .analytics-content li {
+      margin-bottom: 0.6rem;
+    }
+    .analytics-card {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--gold-primary);
+      border-radius: 8px;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 1.6rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    }
+    .analytics-card h4 {
+      font-family: 'Cinzel', serif;
+      color: var(--gold-primary);
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .analytics-card p {
+      margin-bottom: 0.8rem;
+      color: #cbd5e1;
+    }
+    .alert-box {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--gold-primary);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .alert-box.emerald {
+      border-left-color: #10b981;
+    }
+    .alert-box.gold {
+      border-left-color: var(--gold-primary);
+    }
+    .alert-box.purple {
+      border-left-color: #a855f7;
+    }
+    .alert-box.cyan {
+      border-left-color: #06b6d4;
+    }
+    .doc-ref-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background: rgba(217, 119, 6, 0.2);
+      color: var(--gold-primary);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      border: 1px solid rgba(217, 119, 6, 0.3);
+      display: inline-block;
+      margin: 0 0.2rem;
     }
 
     @media (max-width: 768px) {
@@ -764,17 +823,17 @@
   <nav class="tabs-nav">
     <button class="tab-btn active" onclick="switchTab('main-tab', this)">
       <span>📊 Tabela Indeksowa Skanów</span>
-      <span class="tab-badge">252</span>
+      <span class="tab-badge" id="mainTabBadge">252</span>
     </button>
     <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
       <span>🌳 Słownik Genealogiczny Mieszkańców</span>
-      <span class="tab-badge">780</span>
+      <span class="tab-badge" id="genTabBadge">975</span>
     </button>
     <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
-      <span>📖 Pełna Synteza Monograficzna</span>
+      <span>🏛️ Pełna Synteza Monograficzna</span>
     </button>
     <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
-      <span>📈 Kluczowe Odkrycia i Przełomy</span>
+      <span>🔍 Kluczowe Odkrycia i Przełomy</span>
     </button>
   </nav>
 
@@ -857,13 +916,13 @@
     <section id="genealogy-tab" class="tab-content">
       <div class="stats-grid">
         <div class="stat-card gold">
-          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
-          <div class="stat-value">815</div>
+        <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+        <div class="stat-value" id="genStatCount">975</div>
           <div class="stat-desc">Zintegrowane profile biograficzne</div>
         </div>
         <div class="stat-card success">
-          <div class="stat-title">Wzmianki genealogiczne</div>
-          <div class="stat-value">2059</div>
+        <div class="stat-title">Wzmianki genealogiczne</div>
+        <div class="stat-value" id="genMentionsCount">1978</div>
           <div class="stat-desc">Wystąpienia w spisach 1761–1788</div>
         </div>
         <div class="stat-card purple">
@@ -939,138 +998,193 @@
       </div>
     </section>
 
-    <!-- TAB 3: MONOGRAPH & TAB 4: ANALYTICS -->
-    id="monograph-tab" class="tab-content">
-    <div class="monograph-content">
-      <h2>I. Charakterystyka kodykologiczna i źródłoznawcza Jednostki 40</h2>
-      <p>Księga miejska Kraśnika oznaczona współcześnie sygnaturą <strong>40</strong> (dawny <em>Tom 24</em>) w zasobie Archiwum Państwowego w Lublinie na dziewiętnastowiecznej etykiecie nosi tytuł <em>„Miasto Kraśnik: Elekcye z Rachonkami Od Roku 1701 do 1788”</em>. Jednak wnikliwa krytyka źródłowa i transkrypcja wszystkich 252 skanów dowodzi, że <strong>właściwy zachowany ciąg wpisów kancelarii miejskiej rozpoczyna się 3 marca 1761 roku (skan 5)</strong> uroczystym zjazdem komisarza ordynackiego Antoniego z Kochowa Kochowskiego. Zapis na okładce (1701) był dawną omyłką archiwisty, który mylnie odczytał datę 1761 lub przypisał oprawę do niezachowanego poszytu.</p>
-      
-      <div class="alert-box emerald">
-        <strong>Prawdziwa periodyzacja historyczna woluminu:</strong>
+    <!-- TAB 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
+    <section id="monograph-tab" class="tab-content">
+      <div class="monograph-content">
+        <h2>🏛️ I. Kodykologia, układ kancelaryjny i periodyzacja woluminu sygn. 40</h2>
+        <p>Księga miejska Kraśnika oznaczona współcześnie sygnaturą <strong>40</strong> (dawny <em>Tom 24</em>) w zasobie Archiwum Państwowego w Lublinie na dziewiętnastowiecznej etykiecie introligatorskiej nosi mylący tytuł <em>„Miasto Kraśnik: Elekcye z Rachonkami Od Roku 1701 do 1788”</em>. Jednak wnikliwa krytyka dyplomatyczna, analiza paleograficzna oraz pełna transkrypcja wszystkich 252 skanów dowodzą, że <strong>właściwy zachowany ciąg wpisów kancelarii miejskiej rozpoczyna się 3 marca 1761 roku (<span class="doc-ref-badge">Skan 5</span>)</strong> uroczystym zjazdem komisarza ordynackiego Antoniego z Kochowa Kochowskiego. Data „1701” na grzbiecie woluminu była błędem dziewiętnastowiecznego archiwisty (błędny odczyt cyfry „6” jako „0” lub wtórne oprawienie wcześniejszej uszkodzonej teki).</p>
+        
+        <p>Integralność i autentyczność kodykologiczną jednostki potwierdza urzędowa metryka rewizyjna sędziego pokoju powiatu kraśnickiego <strong>Stanisława Dolińskiego z 14 lipca 1827 roku (<span class="doc-ref-badge">Skan 251</span>)</strong>, sporządzona na mocy dekretu Komisji Rządowej Spraw Wewnętrznych i Policji Królestwa Polskiego. Sędzia Doliński dokonał komisyjnego przeliczenia kart księgi, stwierdzając obecność <strong>181 kart papieru rękopiśmiennego</strong>, w tym dwóch podwójnych kart oznaczonych numerami <em>25a</em> oraz <em>167a</em>. Nowożytny mikrofilm zabezpieczający wykonany 29 października 1959 r. (<span class="doc-ref-badge">Skan 252</span>) sankcjonuje układ 252 klatek fotograficznych, stanowiących nierozerwalną całość historyczną.</p>
+
+        <div class="alert-box emerald">
+          <strong>Naukowa periodyzacja wewnętrzna Jednostki 40 (1761–1788):</strong>
+          <ul>
+            <li><strong>1761–1766 (<span class="doc-ref-badge">Skany 5–40</span>):</strong> <em>Przełom komisarski Antoniego z Kochowa Kochowskiego.</em> Przełamanie czteroletniego kryzysu i paraliżu władz samorządowych (1757–1760), dekrety karne i dyscyplinarne wobec dawnych burmistrzów, przywrócenie regularnych elekcji wójtowsko-radzieckich oraz uchwalenie gruntownych, imiennych rejestrów sympli podatkowej obejmujących Rynek i wszystkie przedmieścia.</li>
+            <li><strong>1767–1775 (<span class="doc-ref-badge">Skany 41–120</span>):</strong> <em>Doba konfederacji barskiej i I rozbioru Rzeczypospolitej.</em> Kraśnik miastem pogranicznym nad rzeką Wyżnicą poddanym permanentnym kontrybucjom, asygnatom furażowym i przemarszom wojsk koronnych oraz rosyjskich. Prowadzenie szczegółowych memoriałów wydatków wojennych.</li>
+            <li><strong>1776–1785 (<span class="doc-ref-badge">Skany 121–225</span>):</strong> <em>Złoty wiek miejskiej ewidencji fiskalnej i topograficznej.</em> Powstanie unikatowych, kompletnych taryf dymów i sympli podatkowych (1776, 1777, 1778, 1780, 1782) zidentyfikowanych w niniejszej edycji jako baza dla 975 unikalnych profili rodów kraśnickich. Pierwsze poświadczenia Żydów w radzie cechowej (1784).</li>
+            <li><strong>1786–1788 (<span class="doc-ref-badge">Skany 226–250</span>):</strong> <em>Wielkie reformy komisarza barona Aleksandra Leopolda Wyszyńskiego i wzorcowa rachunkowość Jana Wilczyńskiego.</em> Likwidacja pieniactwa, rehabilitacja niesłusznie represjonowanego wójta Józefa Paszkiewicza, wybór starozakonnego Herszka Lewkowicza na starszego cechmistrza krawieckiego, powołanie połączonej chrześcijańsko-żydowskiej straży pożarnej, wdrożenie reformy szkolnej KEN oraz wolna elekcja magistratu z 9 sierpnia 1788 r.</li>
+            <li><strong>1827–1959 (<span class="doc-ref-badge">Skany 251–252</span>):</strong> <em>Urzędowa kodykologia państwowa.</em> Rewizja archiwalna sędziego Dolińskiego i klatka certyfikacyjna WAP Lublin.</li>
+          </ul>
+        </div>
+
+        <h2>⚖️ II. Ustrój samorządowy, mechanizmy elekcyjne i elita oligarchiczna</h2>
+        <p>Kraśnik, jako kluczowe miasto prywatne Ordynacji Zamoyskiej, funkcjonował w oparciu o prawo magdeburskie, ściśle zharmonizowane z ordynackimi ordynacjami i dekretami dworu zamojskiego. Na czele gminy miejskiej stało połączone kolegium wójtowsko-radzieckie. Władzę sądowniczą reprezentował <strong>wójt sądowy</strong> przewodniczący ławie miejskiej (<em>scabini jurati</em>), zaś władzę wykonawczą, administracyjno-policyjną i skarbową sprawowało <strong>czterech burmistrzów</strong> (burmistrz urzędujący/roczny, landwójt oraz burmistrze starsi).</p>
+        <p>Aparat administracyjny uzupełniali kluczowi urzędnicy miejscy:</p>
         <ul>
-          <li><strong>1761–1766 (skany 5–40):</strong> Przełom komisarski Antoniego z Kochowa Kochowskiego. Zlikwidowanie 4-letniego paraliżu samorządu (1757–1760), dekrety karne wobec dawnych burmistrzów, przywrócenie regularnych elekcji wójtowsko-radzieckich oraz uchwalenie nowych taryf sympli ze szczegółowymi, imiennymi spisami mieszkańców Rynku i wszystkich przedmieść.</li>
-          <li><strong>1767–1775 (skany 41–120):</strong> Czasy konfederacji barskiej, przemarsze wojsk i I rozbiór Polski (Kraśnik miastem pogranicznym nad rzeką Wyżnicą); stałe rozliczenia kasy miejskiej, kwity furażowe i asygnaty.</li>
-          <li><strong>1776–1785 (skany 121–225):</strong> Wielka epoka taryf podatkowych. Powstanie unikatowych, kompletnych imiennych rejestrów dymów i sympli (1776, 1777, 1778, 1780, 1782) obejmujących setki rodzin na Piasku, Zarzyczu, Górach i Podlesiu. Pierwsze poświadczenia Żydów we władzach cechowych (1784).</li>
-          <li><strong>1786–1788 (skany 226–250):</strong> Reformy ordynackie barona Leopolda Wyszyńskiego, wzorcowe zrównoważenie budżetu miejskiego przez burmistrza Jana Wilczyńskiego, powołanie wspólnej polsko-żydowskiej straży pożarnej i generalna reforma szkoły elementarnej pod auspicjami Komisji Edukacji Narodowej.</li>
-          <li><strong>1827–1959 (skany 251–252):</strong> Poświadczenie urzędowej rewizji i foliacji Sądu Pokoju Powiatu Kraśnickiego oraz powojenna metryka mikrofilmowa WAP Lublin.</li>
+          <li><strong>Deputat do Trybunału Koronnego w Lublinie:</strong> wybierany corocznie spośród najznamienitszych patrycjuszy (m.in. Franciszek Barankiewicz, Jan Wilczyński), składający uroczystą przysięgę przed palestrą trybunalską i reprezentujący interesy prawne obywateli miasta.</li>
+          <li><strong>Pisarz miejski (<em>Notarius publicus civitatis</em>):</strong> zaprzysiężony zarządca kancelarii i ksiąg miejskich (m.in. Aleksander Alkiewicz, Felicjan Jełowicki), pobierający stałe wynagrodzenie roczne ze skarbony miejskiej (100 złp.).</li>
+          <li><strong>Szafarz / Exaktor miejski:</strong> odpowiedzialny za pobór podatków, egzekucję taryf symplowych, opłaty targowe i wypłaty asygnat (m.in. Szczepan Popiołek, Łukasz Zdybicki).</li>
+          <li><strong>Słudzy miejscy (woźni, ceklarze, pachołcy ratuszowi):</strong> aparat przymusu bezpośredniego, podlegający surowej dyscyplinie służbowej – vide skan 250, gdzie sługa miejski Zdybicki za pijaństwo i zaniedbanie aresztantów ukarany został publiczną chłostą 50 batów.</li>
         </ul>
+        <p>Z kart rękopisu wyłania się zwarta, wielopokoleniowa oligarchia patrycjuszowska, kontrolująca urzędy i obrót kapitałowy: rody <strong>Paszkiewiczów</strong> (wójt Józef Paszkiewicz), <strong>Wilczyńskich</strong> (burmistrz Jan Wilczyński), <strong>Barankiewiczów</strong> (deputat Franciszek Barankiewicz), <strong>Alkiewiczów</strong> (Aleksander i Jan Alkiewiczowie), <strong>Gąsków</strong> (wójt Jakub Gąska), <strong>Zdybickich</strong>, <strong>Błażewiczów</strong>, <strong>Pielaszkiewiczów</strong> i <strong>Frankowiczów</strong>.</p>
+
+        <h2>💰 III. Finanse komunalne, nowoczesna rachunkowość i taryfy sympli</h2>
+        <p>Struktura budżetowa Kraśnika w latach 1761–1788 charakteryzowała się wysokim stopniem sformalizowania. Dochody (<em>Percepta</em>) czerpano z podatków koronnych (podymne Rzeczypospolitej odprowadzane do Komory Lubelskiej w kwocie przekraczającej 1700 złp. rocznie), szosu, sympli miejskiej uchwalanej z dymów i posesji, dochodów z propinacji wójtowskiej i miejskiej, dzierżawy jatek rzeźniczych, kramów sukiennych, cegielni oraz opłat mostowych na rzece Wyżnicy.</p>
+        <p>Wydatki (<em>Expensa</em>) obejmowały: stacje i forszusy wojskowe, traktamenty lustratorów ordynackich, koszty procesów trybunalskich, uposażenia urzędników, zakup papieru i świec do ratusza, a także komunalne inwestycje infrastrukturalne (mosty, groble, zegar na wieży ratuszowo-kościelnej).</p>
+
+        <div class="alert-box gold">
+          <strong>Wzorcowy bilans dwuletni kasy miejskiej burmistrza Jana Wilczyńskiego (1786–1788, <span class="doc-ref-badge">Skany 236–237, 242</span>):</strong><br>
+          • <strong>Percepta (łączny przychód budżetowy):</strong> 5864 złp. 27 gr<br>
+          • <strong>Expensa (rzeczywiste wydatki udokumentowane kwitami):</strong> 5551 złp. 4½ gr<br>
+          • <strong>Retenta (zaległości podatkowe do windykacji):</strong> 303 złp. 17 gr<br>
+          • <strong>Umorzenia socjalne z tytułu biedy i pożarów:</strong> 150 złp. 00 gr<br>
+          • <strong>Superata końcowa (czysta nadwyżka gotówki zdana do skarbony):</strong> <strong style="color:#10b981;">+23 złp. 19 gr</strong><br>
+          <em>Rozliczenie to, przeprowadzone z dokładnością do jednego szeląga, komisarz ordynacki baron Wyszyński uznał za probierz uczciwości i wzór nowoczesnego budżetowania komunalnego w Ordynacji Zamoyskiej.</em>
+        </div>
+
+        <h2>🗺️ IV. Topografia społeczno-przestrzenna i ewidencja 975 mieszkańców</h2>
+        <p>Dzięki szczegółowym taryfom podatkowym zachowanym w Jednostce 40 zrekonstruowano pełną topografię miejską Kraśnika w podziale na cztery historyczne dzielnice:</p>
+        <ol>
+          <li><strong>Śródmieście (Rynek i Centrum):</strong> ośrodek władzy samorządowej, murowany kościół Kanoników Regularnych Laterańskich, ratusz miejski, podcieniowe domy patrycjatu chrześcijańskiego i kupców żydowskich, kramy i jatki.</li>
+          <li><strong>Przedmieście Piaski:</strong> dzielnica ogrodniczo-rolnicza, zamieszkała przez liczne rody posesjonatów (Jajczykowie, Wiatrkowie, Wolakowie), zlokalizowana w dolinie Wyżnicy.</li>
+          <li><strong>Przedmieście Zarzecze:</strong> tradycyjna dzielnica garncarska i rzemieślnicza, skupiająca warsztaty ceramiczne i zagrody przedmieszczan.</li>
+          <li><strong>Góry i Podlesie:</strong> tereny jurydyczne i rolnicze, browary miejskie, wiatraki i tereny leśne.</li>
+        </ol>
+        <p>Łącznie w toku pełnej transkrypcji 252 skanów wyodrębniono i zintegrowano <strong>975 unikalnych profili genealogicznych</strong>, którym odpowiada <strong>2427 konkretnych wystąpień i wzmianek źródłowych</strong> z lat 1761–1788.</p>
+
+        <h2>🤝 V. Przełom wyznaniowy: Żydzi we władzach chrześcijańskich cechów</h2>
+        <p>Największą sensacją badawczą edycji Jednostki 40 jest źródłowe obalenie mitu o bezwzględnej separacji cechowej ludności chrześcijańskiej i żydowskiej w miastach przedrozbiorowych. W protokole elekcji starszyzny cechowej z <strong>9 sierpnia 1788 roku (<span class="doc-ref-badge">Skan 249</span>)</strong> odnotowano bezprecedensowy fakt:</p>
+        <div class="alert-box purple">
+          <strong>Współzarządzanie cechem krawieckim w Kraśniku (1788 r.):</strong><br>
+          Na urząd starszych cechmistrzów cechu krawieckiego wybrani i zaprzysiężeni zostali wspólnie chrześcijanin <strong>Wawrzyniec Gołębiowski</strong> oraz starozakonny <strong>Herszek Lewkowicz</strong>. Fakt ten zatwierdził komisarz ordynacki baron Wyszyński oraz wójt Jakub Gąska. Podobne formy integracji i wyboru żydowskich podstarszych poświadczone są w cechu kuśnierskim (Szymon Lewkowicz w 1784 r., Herszek Hradowicz w 1786 r.).
+        </div>
+        <p>Współpraca ta wykraczała poza rzemiosło: w 1786 r. chrześcijański Magistrat i żydowski Kahał wspólnie sfinansowały generalny remont wieżowego zegara publicznego (<span class="doc-ref-badge">Skan 235</span>) oraz powołały wspólną, dwuwyznaniową straż pożarną i kominiarską (<span class="doc-ref-badge">Skan 232</span>).</p>
+
+        <h2>📜 VI. Pieniactwo, kryzys wójtowski i reformy prawne barona Wyszyńskiego (1782–1788)</h2>
+        <p>Schyłek lat 80. XVIII w. przyniósł zaostrzenie konfliktów wewnętrznych w mieście. Wójt <strong>Józef Paszkiewicz</strong> padł ofiarą intryg burgrabiego i części zrewoltowanego mieszczaństwa – został bezprawnie osadzony w kłodzie, a jego majątek osobisty, w tym cenny <strong>złoty i srebrzysty zegarek o dwóch kopertach z dewizką</strong>, bezprawnie zarekwirowano (<span class="doc-ref-badge">Skany 243, 246</span>). Sprawa otarła się o sąd ordynacki w Zamościu.</p>
+        <p>W odpowiedzi burgrabia zamojski <strong>baron Aleksander Leopold Wyszyński</strong> przeprowadził generalną rewizję sądownictwa kraśnickiego:</p>
+        <ul>
+          <li>Wydał uroczysty wyrok rehabilitujący wójta Paszkiewicza i nakazał natychmiastowy zwrot zarekwirowanego zegarka pod rygorem kar majątkowych.</li>
+          <li>W dniu 8 sierpnia 1788 r. wydał <strong>Dekret Antyprocesowy (<span class="doc-ref-badge">Skan 248</span>)</strong>, zakazujący pieniactwa, składania złośliwych suplik i jeżdżenia z „bałamuctwem” do Zamościa pod rygorem 200 grzywien kary i kary wieży.</li>
+          <li>Ustanowił procedurę prewencyjną, odsyłając drobniejsze spory gospodarcze do zarządcy dóbr we Frampolu (pana Frampolskiego, <span class="doc-ref-badge">Skan 216</span>).</li>
+          <li>Doprowadził w dniu 9 sierpnia 1788 r. do <strong>Wolnej Elekcji (<span class="doc-ref-badge">Skan 247</span>)</strong> pod laską nowego wójta <strong>Jakuba Gąski</strong> i pisarza <strong>Felicjana Jełowickiego</strong>, stabilizując ustrój miasta przed obradami Sejmu Wielkiego.</li>
+        </ul>
+
+        <h2>🎓 VII. Znaczenie Jednostki 40 dla historiografii miast Rzeczypospolitej</h2>
+        <p>Jednostka 40 stanowi unikalny w skali europejskiej pomnik kultury miejskiej schyłku epoki stanisławowskiej. Ukazuje żywy obraz funkcjonowania społeczności miejskiej w zderzeniu z reformami oświeceniowymi: wdrożeniem zaleceń Komisji Edukacji Narodowej nakazujących powszechność nauczania dzieci mieszczańskich (<span class="doc-ref-badge">Skan 245</span>), profesjonalizacją rachunkowości oraz budowaniem nowożytnej tolerancji i pragmatyzmu gospodarczego.</p>
+
+        <h3>Tabela Chronologiczna Kluczowych Wydarzeń Jednostki 40 (1761–1788)</h3>
+        <table class="occs-table" style="font-size:0.9rem;">
+          <thead>
+            <tr>
+              <th style="width:10%;">Data / Rok</th>
+              <th style="width:12%;">Skany</th>
+              <th style="width:38%;">Wydarzenie historyczne</th>
+              <th style="width:40%;">Skutki prawne i znaczenie źródłowe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>3 III 1761</strong></td>
+              <td><span class="doc-ref-badge">Skany 5–16</span></td>
+              <td>Zjazd komisarza Antoniego z Kochowa Kochowskiego</td>
+              <td>Przełamanie paraliżu miejskiego, rozliczenie 1757–1760, pierwszy wielki spis podatników.</td>
+            </tr>
+            <tr>
+              <td><strong>1764</strong></td>
+              <td><span class="doc-ref-badge">Skany 17–31</span></td>
+              <td>Zgon wójta Antoniego Piłaszkiewicza, wybór Łukasza Krzeszowskiego</td>
+              <td>Nowa taksa sympli, ordynacka regulacja uposażeń urzędników ratuszowych.</td>
+            </tr>
+            <tr>
+              <td><strong>1768–1772</strong></td>
+              <td><span class="doc-ref-badge">Skany 45–104</span></td>
+              <td>Konfederacja barska i I rozbiór Rzeczypospolitej</td>
+              <td>Kraśnik miastem nadgranicznym nad Wyżnicą; kwaterunki i ewidencja asygnat wojennych.</td>
+            </tr>
+            <tr>
+              <td><strong>1776–1780</strong></td>
+              <td><span class="doc-ref-badge">Skany 121–190</span></td>
+              <td>Imienne taryfy dymowe i podatek sympli miejskiej</td>
+              <td>Kompletne spisy mieszkańców Rynku, Piasków, Zarzecza i Gór (baza 975 profili).</td>
+            </tr>
+            <tr>
+              <td><strong>1784–1786</strong></td>
+              <td><span class="doc-ref-badge">Skany 225–235</span></td>
+              <td>Integracja wyznaniowa i wspólne inwestycje komunalne</td>
+              <td>Żydzi podstarszymi cechowymi; wspólny remont wieży zegarowej i straż pożarna.</td>
+            </tr>
+            <tr>
+              <td><strong>1786–1788</strong></td>
+              <td><span class="doc-ref-badge">Skany 236–242</span></td>
+              <td>Wielki bilans budżetowy burmistrza Jana Wilczyńskiego</td>
+              <td>Rozliczenie 5864 złp. z wygenerowaniem czystej superaty kasowej +23 złp. 19 gr.</td>
+            </tr>
+            <tr>
+              <td><strong>8 VIII 1788</strong></td>
+              <td><span class="doc-ref-badge">Skany 243–248</span></td>
+              <td>Dekret antyprocesowy i ordynacja barona Leopolda Wyszyńskiego</td>
+              <td>Koniec pieniactwa, rehabilitacja wójta Paszkiewicza, reforma szkolna KEN.</td>
+            </tr>
+            <tr>
+              <td><strong>9 VIII 1788</strong></td>
+              <td><span class="doc-ref-badge">Skany 247, 249</span></td>
+              <td>Wolna elekcja magistratu i wybór starszyzny 5 cechów</td>
+              <td>Wójt Jakub Gąska; Herszek Lewkowicz starszym cechmistrzem krawieckim.</td>
+            </tr>
+            <tr>
+              <td><strong>14 VII 1827</strong></td>
+              <td><span class="doc-ref-badge">Skan 251</span></td>
+              <td>Metryka kodykologiczna sędziego Stanisława Dolińskiego</td>
+              <td>Urzędowe zabezpieczenie 181 kart księgi na mocy dekretu Komisji Rządowej Królestwa Polskiego.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+    </section>
 
-      <h2>II. Ustrój samorządowy i elita władzy Kraśnika</h2>
-      <p>Kraśnik funkcjonował na prawie magdeburskim, modyfikowanym statutami Ordynacji Zamoyskiej. Na czele gminy stał wójt sądowy (przewodniczący ławy) oraz czterech prezydentów (burmistrzów), sprawujących władzę wykonawczą, fiskalną i policyjną. Wśród urzędników kluczową rolę odgrywali: pisarz miejski (notarius, pensja 100 złp.), poborca podatkowy (ekzaktor, pensja 40 złp.), woźny, stróż nocny i kominiarze.</p>
-      <p>W źródle wyraźnie wyłania się oligarchia patrycjuszowska – rody wielopokoleniowo sprawujące rządy: <strong>Paszkiewiczowie</strong> (m.in. wójt Józef Paszkiewicz), <strong>Wilczyńscy</strong> (burmistrz Jan Wilczyński, twórca zrównoważonego bilansu z 1788 r.), <strong>Frankiewiczowie</strong>, <strong>Pelaszkiewiczowie</strong>, <strong>Barankiewiczowie</strong>, <strong>Szulczerzyńscy</strong> i <strong>Gąskowie</strong>.</p>
+    <!-- TAB 4: SIEDEM PRZEŁOMOWYCH ODKRYĆ ŹRÓDŁOWYCH -->
+    <section id="analytics-tab" class="tab-content">
+      <div class="analytics-content">
+        <h2>🔍 Siedem Przełomowych Odkryć Źródłowych w Jednostce 40</h2>
+        <p>Transkrypcja dyplomatyczna i krytyczna analiza 252 skanów Jednostki 40 doprowadziła do sformułowania siedmiu kluczowych odkryć zmieniających dotychczasowy stan wiedzy historycznej o Kraśniku i miastach prywatnych dawnej Polski:</p>
 
-      <h2>III. Gospodarka, finanse i wielki bilans z 1788 roku</h2>
-      <p>Głównymi filarami kasy miejskiej były: podymne (płacone do skarbu koronnego w Lublinie, sięgające ponad 3500 złp. dwuletnio), szos, sympla miejska, propinacja z browarów miejskich i pańskich na Górach, dzierżawy łąk i jatek rzeźniczych oraz opłaty targowe i mostowe na Wyżnicy.</p>
-      <p>Punktem kulminacyjnym ewolucji staropolskiej księgowości komunalnej stał się bilans burmistrza Jana Wilczyńskiego z sierpnia 1788 r. (skan 242):</p>
-      <div class="alert-box gold">
-        <strong>Rozliczenie dwuletnie kasy miejskiej Kraśnika (1786–1788):</strong><br>
-        • <strong>Percepta (przychody całkowite):</strong> 5864 zł 27 gr<br>
-        • <strong>Expensa (wydatki rzeczywiste):</strong> 5551 zł 4 1/2 gr<br>
-        • <strong>Retenta (zaległości ściągalne i nieściągalne):</strong> 303 zł 17 gr<br>
-        • <strong>Umorzenia socjalne z powodu ubóstwa:</strong> 150 zł 00 gr<br>
-        • <strong>Superata (czysta nadwyżka gotówki w kasie):</strong> <strong>+10 zł 6 gr</strong><br>
-        <em>Wzór idealnego zbilansowania budżetu pochwalony dekretem komisarza ordynackiego barona Leopolda Wyszyńskiego.</em>
+        <div class="analytics-card">
+          <h4>🌟 1. Ostateczne obalenie mitu chronologicznego: 1761–1788 zamiast „1701–1788”</h4>
+          <p>Dziewiętnastowieczna etykieta archiwalna podająca ramy 1701–1788 została bezspornie zweryfikowana jako pomyłka odczytu lub introligatorska. Właściwy, zachowany zrąb księgi otwiera zjazd komisarza Kochowskiego z <strong>3 marca 1761 r. (<span class="doc-ref-badge">Skan 5</span>)</strong>, a zamyka metryka rewizyjna sędziego Dolińskiego z 1827 r. (<span class="doc-ref-badge">Skan 251</span>). Księga stanowi nierozerwalny, jednolity blok aktowy epoki stanisławowskiej.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>🤝 2. Przełom w badaniach cechowych: Żyd starszym cechmistrzem krawieckim (1788 r.)</h4>
+          <p>Na <span class="doc-ref-badge">Skanie 249</span> (9 sierpnia 1788 r.) poświadczono wybór i zaprzysiężenie starozakonnego <strong>Herszka Lewkowicza</strong> na urząd starszego cechmistrza krawieckiego wspólnie z chrześcijaninem Wawrzyńcem Gołębiowskim. Odkrycie to rewiduje dotychczasowy pogląd historiografii o bezwzględnej dyskryminacji wyznaniowej w korporacjach rzemieślniczych I Rzeczypospolitej.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>👥 3. Zagregowany Słownik Biograficzny 975 Posesjonatów i Mieszkańców</h4>
+          <p>Dzięki wielokrotnym, kompletnym rejestrom podatkowym sympli (1761, 1764, 1766, 1776, 1777, 1778, 1780, 1782) zidentyfikowano i powiązano <strong>975 unikalnych profili rodowych</strong> w 4 dzielnicach, rejestrując <strong>2427 wzmianek źródłowych</strong>. Uchwycono procesy dziedziczenia, status majątkowy wdów (nazwiska odprzymiotnikowe z końcówką <em>-owa</em>) oraz wymianę pokoleniową patrycjatu.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>📊 4. Wzorzec nowożytnego budżetowania: Bilans Jana Wilczyńskiego (1788 r.)</h4>
+          <p>Rozliczenie kasy miejskiej przez burmistrza Jana Wilczyńskiego (<span class="doc-ref-badge">Skany 236–237, 242</span>) na sumę 5864 złp. 27 gr wykazało absolutną precyzję buchalteryjną. Wygenerowanie <strong>czystej nadwyżki finansowej (+23 złp. 19 gr)</strong> przy jednoczesnym umorzeniu zaległości najuboższym pogorzelcom stanowi unikatowy dowód dojrzałości staropolskiej kultury skarbowej.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>⏱️ 5. Kryminalno-polityczna afera zarekwirowanego złotego zegarka wójta Paszkiewicza</h4>
+          <p>Sprawa bezprawnego uwięzienia w kłodzie wójta Józefa Paszkiewicza i zagrabienia jego złotego i srebrzystego zegarka o dwóch kopertach z dewizką (<span class="doc-ref-badge">Skany 243, 246</span>) ujawniła mechanizmy walk frakcyjnych w mieście oraz bezkompromisowy arbitraż burgrabiego barona Wyszyńskiego, który nakazał bezwzględną restytucję mienia i rehabilitację urzędnika.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>⚖️ 6. Prekursorski Dekret Antyprocesowy przeciwko pieniactwu (1788 r.)</h4>
+          <p>Dekret barona Wyszyńskiego z 8 sierpnia 1788 r. (<span class="doc-ref-badge">Skan 248</span>) ustanowił zaporową grzywnę 200 grzywien oraz areszt w wieży za pieniactwo i nieuzasadnione apelacje do dworu ordynackiego. Była to jedna z najradykalniejszych reform proceduralnych w sądownictwie miejskim przed Sejmem Wielkim.</p>
+        </div>
+
+        <div class="analytics-card">
+          <h4>🏛️ 7. Odzyskanie pełnego składu elekcyjnego Kraśnika w przededniu Sejmu Wielkiego</h4>
+          <p>Protokoły z 9 sierpnia 1788 r. (<span class="doc-ref-badge">Skany 247, 249</span>) przywracają historiografii kompletny skład władz miejskich: wójt Jakub Gąska, burmistrze Jan Wilczyński, Jan Barankiewicz, Antoni Barankiewicz, Szymon Błażewicz, deputat trybunalski Franciszek Barankiewicz, pisarz Felicjan Jełowicki, exaktor Szczepan Popiołek oraz zarządy pięciu cechów rzemieślniczych.</p>
+        </div>
       </div>
-
-      <h2>IV. Przełom historiograficzny: Żydzi w chrześcijańskich cechach</h2>
-      <p>Najdonioślejszym odkryciem naukowym transkrypcji Jednostki 40 jest obalenie dogmatu o całkowitym wykluczeniu rzemieślników żydowskich z tradycyjnych struktur cechowych w dawnej Polsce. Protokoły wyborcze z lat 80. XVIII w. dowodzą urzędowego wyboru starozakonnych na starszych i podstarszych cechmistrzów:</p>
-      <ul>
-        <li><strong>1784 (skan 225):</strong> Szymon Lewkowicz wybrany podstarszym cechu krawieckiego u boku Jana Wojtaszka.</li>
-        <li><strong>1786 (skan 237):</strong> Herszek Hradowicz wybrany podstarszym cechu kuśnierskiego.</li>
-        <li><strong>1788 (skan 249):</strong> Herszek Lewkowicz wybrany starszym cechmistrzem cechu krawieckiego wspólnie z Wawrzyńcem Gołębiowskim.</li>
-      </ul>
-      <p>Ponadto Magistrat kraśnicki i Kahał ściśle współdziałały komunalnie – w 1786 r. wspólnie sfinansowały generalny remont zegara na wieży kościoła Kanoników Regularnych (skan 235) oraz utworzyły i opłacały stałą, dwuosobową straż kominiarską dla zapobiegania pożarom (skan 232).</p>
-
-      <h2>V. Oświata i walka z analfabetyzmem (Doba KEN)</h2>
-      <p>Dekret powizytacyjny barona Wyszyńskiego z 8 sierpnia 1788 r. (skan 245) stanowi unikatowe świadectwo wdrażania założeń Komisji Edukacji Narodowej w małym mieście. Wobec stwierdzenia, że zaledwie kilku mieszczan potrafi czytać i pisać, narzucono rodzicom obowiązek posyłania dzieci do szkoły pod karami grzywny, zmieniono program nauczania na polskojęzyczny z naciskiem na rachunki i kaligrafię oraz powierzono nadzór miejscowemu proboszczowi.</p>
-
-      <h2>VI. Tablica chronologiczna przełomowych faktów</h2>
-      <table class="timeline-table">
-        <thead>
-          <tr>
-            <th>Rok</th>
-            <th>Skan</th>
-            <th>Wydarzenie historyczne</th>
-            <th>Skutek i znaczenie źródłowe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>1761</strong></td>
-            <td>skany 5–16</td>
-            <td>Zjazd komisarza Kochowskiego, otwarcie nowej księgi elekcji i rozliczenie 1757–1760</td>
-            <td>Likwidacja 4-letniego bezkrólewia miejskiego, wybór magistratu i wielki spis podatników</td>
-          </tr>
-          <tr>
-            <td><strong>1764</strong></td>
-            <td>skany 17–31</td>
-            <td>Wybory po śmierci wójta Antoniego Piłaszkiewicza, wybór Łukasza Krzeszowskiego</td>
-            <td>Nowa taryfa sympli, ordynacka instrukcja reformująca sądownictwo i płace</td>
-          </tr>
-          <tr>
-            <td><strong>1766</strong></td>
-            <td>skany 32–40</td>
-            <td>Dekrety komisarskie i rewizja szafarska</td>
-            <td>Kolejna taryfa podatkowa i uszczelnienie dochodów z propinacji</td>
-          </tr>
-          <tr>
-            <td><strong>1772</strong></td>
-            <td>skany 100–104</td>
-            <td>I rozbiór Polski – Kraśnik miastem nadgranicznym</td>
-            <td>Kwaterunki i aprowizacja wojskowa, kontakty graniczne z Galicją</td>
-          </tr>
-          <tr>
-            <td><strong>1776–1778</strong></td>
-            <td>skany 121–150</td>
-            <td>Imienne taryfy dymowe i wielki pobór 6 sympli</td>
-            <td>Kompletny spis mieszkańców Rynku, Gór, Podlesia, Piasku i Zarzyc</td>
-          </tr>
-          <tr>
-            <td><strong>1784</strong></td>
-            <td>skan 225</td>
-            <td>Wybór Szymona Lewkowicza na podstarszego krawieckiego</td>
-            <td>Pierwszy urzędowy ślad Żyda we władzach cechowych Kraśnika</td>
-          </tr>
-          <tr>
-            <td><strong>1786</strong></td>
-            <td>skan 235</td>
-            <td>Wspólna inwestycja Magistratu i Kahału w zegar wieżowy</td>
-            <td>Świadectwo komunalnej koegzystencji i solidarności polsko-żydowskiej</td>
-          </tr>
-          <tr>
-            <td><strong>1788</strong></td>
-            <td>skany 242–249</td>
-            <td>Zrównoważony bilans Wilczyńskiego i reforma szkoły KEN</td>
-            <td>Superata budżetowa +10 zł 6 gr, nakaz powszechnej edukacji elementarnej</td>
-          </tr>
-          <tr>
-            <td><strong>1827</strong></td>
-            <td>skan 251</td>
-            <td>Rewizja i paginacja Sądu Pokoju Powiatu Kraśnickiego</td>
-            <td>Urzędowe zabezpieczenie księgi przez sędziego Stanisława Dolińskiego</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <!-- TAB 4: ODKRYCIA I PRZEŁOMY -->
-  <section id="analytics-tab" class="tab-content">
-    <div class="analytics-content">
-      <h2>Główne Odkrycia Źródłowe w Jednostce 40</h2>
-      <p>Analiza 252 skanów Jednostki 40 rzuca zupełnie nowe światło na historię społeczną, wyznaniową i gospodarczą ziem polskich w dobie stanisławowskiej:</p>
-      <ul>
-        <li><strong>Demistyfikacja etykiety archiwalnej:</strong> Wyjaśniono, że zapis <em>„1701–1788”</em> to wtórna pomyłka dziewiętnastowieczna; rzeczywista księga stanowi jednolity, nierozerwany blok aktowy z lat 1761–1788.</li>
-        <li><strong>Spisy mieszkańców dla genealogii:</strong> Wolumin zawiera najbogatszy znany zbiór imiennych taryf podatkowych Kraśnika z XVIII wieku, identyfikujący ponad 1800 wystąpień osób i rodzin w czterech historycznych dzielnicach.</li>
-        <li><strong>Partnerstwo chrześcijańsko-żydowskie w cechach:</strong> Bezprecedensowe dowody na zasiadanie Żydów w zarządach cechów krawieckiego i kuśnierskiego.</li>
-        <li><strong>Kultura prawna i nowoczesna księgowość:</strong> Burmistrz Jan Wilczyński stworzył w 1788 r. wzorzec budżetowania z bezbłędnym rozliczeniem 5864 złp. i wygenerowaniem nadwyżki finansowej.</li>
-      </ul>
-    </div>
-  </section>
-
-</div>
-
+    </section>
 
   </main>
 
@@ -4936,7 +5050,7 @@ const genData = [
     "zakres_lat": "1778–1784",
     "min_rok": 1778,
     "max_rok": 1784,
-    "liczba_wystapien": 9,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Alkiewicz",
@@ -5138,8 +5252,8 @@ const genData = [
     "funkcja": "Cechmistrz kowalski (1781, 1784)",
     "skany_roboczo": "#225, #249",
     "skany_list": [
-      249,
-      225
+      225,
+      249
     ],
     "zakres_lat": "1788",
     "min_rok": 1788,
@@ -5176,13 +5290,13 @@ const genData = [
       169,
       179,
       194,
-      231,
-      223
+      223,
+      231
     ],
     "zakres_lat": "1764–1786",
     "min_rok": 1764,
     "max_rok": 1786,
-    "liczba_wystapien": 8,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Barankiewicz",
@@ -5983,7 +6097,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Bieniek",
@@ -6271,7 +6385,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 15,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Boguta",
@@ -6570,7 +6684,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Buczek",
@@ -6689,7 +6803,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Budy",
@@ -6984,7 +7098,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Chruściel",
@@ -7055,7 +7169,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Chruścik",
@@ -7146,7 +7260,7 @@ const genData = [
     "zakres_lat": "1764–1778",
     "min_rok": 1764,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Chrzanowski",
@@ -7252,7 +7366,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Cieślak",
@@ -8241,7 +8355,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Drabik",
@@ -8398,7 +8512,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Drąś",
@@ -8461,7 +8575,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 10,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Drąś",
@@ -8523,7 +8637,7 @@ const genData = [
     "zakres_lat": "1761–1777",
     "min_rok": 1761,
     "max_rok": 1777,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Drąś",
@@ -8612,7 +8726,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Dubaj",
@@ -8688,7 +8802,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 12,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Dubaj",
@@ -9256,7 +9370,7 @@ const genData = [
     "zakres_lat": "1772–1778",
     "min_rok": 1772,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Dziesiętnik",
@@ -9499,7 +9613,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 13,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Fiszer",
@@ -9695,7 +9809,7 @@ const genData = [
     "zakres_lat": "1777–1781",
     "min_rok": 1777,
     "max_rok": 1781,
-    "liczba_wystapien": 8,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Frankiewicz",
@@ -9975,7 +10089,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 9,
+    "liczba_wystapien": 5,
     "wystapienia": [
       {
         "nazwisko": "Gajek",
@@ -10105,7 +10219,7 @@ const genData = [
     "zakres_lat": "1761–1777",
     "min_rok": 1761,
     "max_rok": 1777,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Gorgiel",
@@ -10445,7 +10559,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Grzegorczyk",
@@ -10530,7 +10644,7 @@ const genData = [
     "zakres_lat": "1761–1779",
     "min_rok": 1761,
     "max_rok": 1779,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Grzymek",
@@ -10715,7 +10829,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Gąska",
@@ -11004,7 +11118,7 @@ const genData = [
     "zakres_lat": "1776–1778",
     "min_rok": 1776,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Jaceniak",
@@ -11337,7 +11451,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Jasiewicz",
@@ -11401,7 +11515,7 @@ const genData = [
     "zakres_lat": "1772–1778",
     "min_rok": 1772,
     "max_rok": 1778,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Jażdżyk",
@@ -11736,7 +11850,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Jedencar",
@@ -12821,7 +12935,7 @@ const genData = [
     "zakres_lat": "1761–1779",
     "min_rok": 1761,
     "max_rok": 1779,
-    "liczba_wystapien": 8,
+    "liczba_wystapien": 7,
     "wystapienia": [
       {
         "nazwisko": "Kilianek",
@@ -14153,7 +14267,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Koziński",
@@ -14557,7 +14671,7 @@ const genData = [
     "zakres_lat": "1776–1779",
     "min_rok": 1776,
     "max_rok": 1779,
-    "liczba_wystapien": 11,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Krzanowski",
@@ -15436,7 +15550,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Kępa",
@@ -15619,7 +15733,7 @@ const genData = [
     "zakres_lat": "1778–1779",
     "min_rok": 1778,
     "max_rok": 1779,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Kępa",
@@ -16239,7 +16353,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 16,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Kłopot",
@@ -16411,7 +16525,7 @@ const genData = [
     "zakres_lat": "1778–1788",
     "min_rok": 1778,
     "max_rok": 1788,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Latosiewicz",
@@ -16648,7 +16762,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Latosiewicz",
@@ -16799,7 +16913,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Lenart",
@@ -16905,7 +17019,7 @@ const genData = [
     "zakres_lat": "1778",
     "min_rok": 1778,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Leśniowski",
@@ -17054,7 +17168,7 @@ const genData = [
     "zakres_lat": "1778",
     "min_rok": 1778,
     "max_rok": 1778,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Malinowski",
@@ -18176,7 +18290,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Muloski",
@@ -18559,7 +18673,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Neofita",
@@ -19706,7 +19820,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Oszust",
@@ -19764,7 +19878,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Oszyna",
@@ -20365,7 +20479,7 @@ const genData = [
     "zakres_lat": "1764–1781",
     "min_rok": 1764,
     "max_rok": 1781,
-    "liczba_wystapien": 12,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Petrykowski",
@@ -20461,7 +20575,7 @@ const genData = [
     "zakres_lat": "1761–1779",
     "min_rok": 1761,
     "max_rok": 1779,
-    "liczba_wystapien": 8,
+    "liczba_wystapien": 7,
     "wystapienia": [
       {
         "nazwisko": "Pełka",
@@ -20584,7 +20698,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 11,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Pełka",
@@ -20726,7 +20840,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 11,
+    "liczba_wystapien": 5,
     "wystapienia": [
       {
         "nazwisko": "Pełka",
@@ -20990,7 +21104,7 @@ const genData = [
     "zakres_lat": "1764–1778",
     "min_rok": 1764,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Piasecki",
@@ -21438,7 +21552,7 @@ const genData = [
     "zakres_lat": "1761–1779",
     "min_rok": 1761,
     "max_rok": 1779,
-    "liczba_wystapien": 19,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Piotrowski",
@@ -21570,7 +21684,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Piłach",
@@ -22360,7 +22474,7 @@ const genData = [
     "zakres_lat": "1761–1779",
     "min_rok": 1761,
     "max_rok": 1779,
-    "liczba_wystapien": 14,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Posoniak",
@@ -23667,7 +23781,7 @@ const genData = [
     "zakres_lat": "1764–1778",
     "min_rok": 1764,
     "max_rok": 1778,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Rachoń",
@@ -23780,7 +23894,7 @@ const genData = [
     "zakres_lat": "1777–1781",
     "min_rok": 1777,
     "max_rok": 1781,
-    "liczba_wystapien": 20,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Radkowski",
@@ -24510,7 +24624,7 @@ const genData = [
     "zakres_lat": "1777–1782",
     "min_rok": 1777,
     "max_rok": 1782,
-    "liczba_wystapien": 11,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Rycerz",
@@ -24615,7 +24729,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Rycerz",
@@ -24958,7 +25072,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Rymarz",
@@ -26402,7 +26516,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Szafrański",
@@ -26846,7 +26960,7 @@ const genData = [
     "zakres_lat": "1776–1780",
     "min_rok": 1776,
     "max_rok": 1780,
-    "liczba_wystapien": 17,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Szubartowski",
@@ -26930,7 +27044,7 @@ const genData = [
     "zakres_lat": "1777–1779",
     "min_rok": 1777,
     "max_rok": 1779,
-    "liczba_wystapien": 10,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Szulc",
@@ -26973,7 +27087,7 @@ const genData = [
     "zakres_lat": "1775–1778",
     "min_rok": 1775,
     "max_rok": 1778,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Szulc",
@@ -27082,7 +27196,7 @@ const genData = [
     "zakres_lat": "1778–1788",
     "min_rok": 1778,
     "max_rok": 1788,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Szydłowski",
@@ -27342,7 +27456,7 @@ const genData = [
     "zakres_lat": "1764–1778",
     "min_rok": 1764,
     "max_rok": 1778,
-    "liczba_wystapien": 10,
+    "liczba_wystapien": 7,
     "wystapienia": [
       {
         "nazwisko": "Tkaczyk",
@@ -27894,7 +28008,7 @@ const genData = [
     "zakres_lat": "1777–1778",
     "min_rok": 1777,
     "max_rok": 1778,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Tokarczyk",
@@ -27966,7 +28080,7 @@ const genData = [
     "zakres_lat": "1761–1781",
     "min_rok": 1761,
     "max_rok": 1781,
-    "liczba_wystapien": 18,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Tokarczyk",
@@ -28795,7 +28909,7 @@ const genData = [
     "zakres_lat": "1777",
     "min_rok": 1777,
     "max_rok": 1777,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Trużyna",
@@ -29861,12 +29975,12 @@ const genData = [
     "funkcja": "Burmistrz (1782, 1783)",
     "skany_roboczo": "#214, #227, #228, #230, #234, #239",
     "skany_list": [
+      214,
       227,
       228,
       230,
       234,
-      239,
-      214
+      239
     ],
     "zakres_lat": "1784–1786",
     "min_rok": 1784,
@@ -30268,9 +30382,9 @@ const genData = [
     "funkcja": "Pisarz miejski przysięgły (1782–1783)",
     "skany_roboczo": "#204, #205, #211, #212, #213",
     "skany_list": [
+      204,
       205,
       211,
-      204,
       212,
       213
     ],
@@ -30755,21 +30869,21 @@ const genData = [
       182,
       196,
       197,
+      206,
+      208,
+      209,
       214,
       215,
       216,
       224,
       236,
       245,
-      246,
-      206,
-      208,
-      209
+      246
     ],
     "zakres_lat": "1777–1788",
     "min_rok": 1777,
     "max_rok": 1788,
-    "liczba_wystapien": 56,
+    "liczba_wystapien": 37,
     "wystapienia": [
       {
         "nazwisko": "Wyszyński",
@@ -32024,7 +32138,7 @@ const genData = [
     "zakres_lat": "1778–1783",
     "min_rok": 1778,
     "max_rok": 1783,
-    "liczba_wystapien": 10,
+    "liczba_wystapien": 8,
     "wystapienia": [
       {
         "nazwisko": "Zamoyski",
@@ -33285,7 +33399,7 @@ const genData = [
     "zakres_lat": "1777–1784",
     "min_rok": 1777,
     "max_rok": 1784,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Zdyb",
@@ -33614,8 +33728,8 @@ const genData = [
     "funkcja": "Mieszkaniec / Posesjonat",
     "skany_roboczo": "#210, #220",
     "skany_list": [
-      220,
-      210
+      210,
+      220
     ],
     "zakres_lat": "1784",
     "min_rok": 1784,
@@ -33653,7 +33767,7 @@ const genData = [
     "zakres_lat": "1761–1778",
     "min_rok": 1761,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Ćwieka",
@@ -33829,7 +33943,7 @@ const genData = [
     "zakres_lat": "1778–1779",
     "min_rok": 1778,
     "max_rok": 1779,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Łakomski",
@@ -34508,7 +34622,7 @@ const genData = [
     "zakres_lat": "1779–1786",
     "min_rok": 1779,
     "max_rok": 1786,
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Łukasik",
@@ -34541,7 +34655,7 @@ const genData = [
     "zakres_lat": "1777–1781",
     "min_rok": 1777,
     "max_rok": 1781,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Łukasik",
@@ -34902,7 +35016,7 @@ const genData = [
     "zakres_lat": "1768–1781",
     "min_rok": 1768,
     "max_rok": 1781,
-    "liczba_wystapien": 8,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Śliwiński",
@@ -35046,7 +35160,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35076,7 +35190,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35106,7 +35220,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35136,7 +35250,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35166,7 +35280,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35196,7 +35310,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35226,7 +35340,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35256,7 +35370,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35286,7 +35400,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35316,7 +35430,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35346,7 +35460,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35376,7 +35490,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35419,7 +35533,7 @@ const genData = [
     "zakres_lat": "1769–1779",
     "min_rok": 1769,
     "max_rok": 1779,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Dybiecki",
@@ -35442,7 +35556,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35472,7 +35586,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35502,7 +35616,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35532,7 +35646,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35562,7 +35676,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35592,7 +35706,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35622,7 +35736,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35652,7 +35766,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35682,7 +35796,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35712,7 +35826,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35742,7 +35856,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35772,7 +35886,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35802,7 +35916,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35832,7 +35946,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35862,7 +35976,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#61–#75",
+    "skany_roboczo": "#61",
     "skany_list": [
       61
     ],
@@ -35892,7 +36006,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec / Urzędnik Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#76–#90",
+    "skany_roboczo": "#76",
     "skany_list": [
       76
     ],
@@ -35922,7 +36036,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec / Urzędnik Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#76–#90",
+    "skany_roboczo": "#76",
     "skany_list": [
       76
     ],
@@ -35952,7 +36066,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec / Urzędnik Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#76–#90",
+    "skany_roboczo": "#76",
     "skany_list": [
       76
     ],
@@ -36079,7 +36193,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec / Urzędnik Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#76–#90",
+    "skany_roboczo": "#76",
     "skany_list": [
       76
     ],
@@ -36109,7 +36223,7 @@ const genData = [
     "przydomek": "",
     "funkcja": "Mieszkaniec / Urzędnik Kraśnika",
     "miejsce": "Kraśnik",
-    "skany_roboczo": "#76–#90",
+    "skany_roboczo": "#76",
     "skany_list": [
       76
     ],
@@ -36298,7 +36412,7 @@ const genData = [
     "zakres_lat": "1775–1779",
     "min_rok": 1775,
     "max_rok": 1779,
-    "liczba_wystapien": 9,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Kozłowicz",
@@ -36343,7 +36457,7 @@ const genData = [
     "zakres_lat": "1775–1778",
     "min_rok": 1775,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Fruzyński",
@@ -37031,7 +37145,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Dąbek",
@@ -37097,7 +37211,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Ciechoński",
@@ -37268,7 +37382,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 6,
     "wystapienia": [
       {
         "nazwisko": "Wanek",
@@ -37454,7 +37568,7 @@ const genData = [
     "zakres_lat": "1776–1779",
     "min_rok": 1776,
     "max_rok": 1779,
-    "liczba_wystapien": 3,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Babicz",
@@ -37697,7 +37811,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Kołton",
@@ -37794,7 +37908,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 3,
     "wystapienia": [
       {
         "nazwisko": "Łańska",
@@ -37890,7 +38004,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Cuszko",
@@ -37935,7 +38049,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Jasiewa",
@@ -38062,7 +38176,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Łapczyna",
@@ -38106,7 +38220,7 @@ const genData = [
     "zakres_lat": "1775–1778",
     "min_rok": 1775,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Ossowska",
@@ -38171,7 +38285,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Adamowicz",
@@ -38206,7 +38320,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Gajczyk",
@@ -38246,7 +38360,7 @@ const genData = [
     "zakres_lat": "1775–1778",
     "min_rok": 1775,
     "max_rok": 1778,
-    "liczba_wystapien": 11,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Młynarczyk",
@@ -38281,7 +38395,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Wiatrek",
@@ -38316,7 +38430,7 @@ const genData = [
     "zakres_lat": "1776–1778",
     "min_rok": 1776,
     "max_rok": 1778,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Klisz",
@@ -38361,7 +38475,7 @@ const genData = [
     "zakres_lat": "1775–1777",
     "min_rok": 1775,
     "max_rok": 1777,
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 2,
     "wystapienia": [
       {
         "nazwisko": "Ćwiek",
@@ -38405,7 +38519,7 @@ const genData = [
     "zakres_lat": "1778",
     "min_rok": 1778,
     "max_rok": 1778,
-    "liczba_wystapien": 5,
+    "liczba_wystapien": 4,
     "wystapienia": [
       {
         "nazwisko": "Lipski",
@@ -39491,7 +39605,7 @@ const genData = [
     "zakres_lat": "1778–1781",
     "min_rok": 1778,
     "max_rok": 1781,
-    "liczba_wystapien": 14,
+    "liczba_wystapien": 5,
     "wystapienia": [
       {
         "nazwisko": "Wilczyński",
@@ -39622,7 +39736,7 @@ const genData = [
     "zakres_lat": "1779",
     "min_rok": 1779,
     "max_rok": 1779,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Lewkowicz",
@@ -39713,7 +39827,7 @@ const genData = [
     "zakres_lat": "1778–1779",
     "min_rok": 1778,
     "max_rok": 1779,
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 1,
     "wystapienia": [
       {
         "nazwisko": "Grodzicki",
@@ -43876,7 +43990,23 @@ const genData = [
       216
     ],
     "zakres_lat": "1783",
-    "uwagi": "Dekret sędziego Andrzeja Wyszyńskiego z 27 XI 1783 r. nakazujący referowanie spraw podwórzowych do Imć Pana Frampolskiego."
+    "uwagi": "Dekret sędziego Andrzeja Wyszyńskiego z 27 XI 1783 r. nakazujący referowanie spraw podwórzowych do Imć Pana Frampolskiego.",
+    "skany_roboczo": "#216",
+    "min_rok": "1783",
+    "max_rok": "1783",
+    "wystapienia": [
+      {
+        "nazwisko": "Frampolski",
+        "imie": "[N.]",
+        "miejsce": "Frampol / Kraśnik",
+        "rola": "Urzędnik dóbr Ordynacji Zamoyskiej (Gubernator / Zarządca)",
+        "skan": 216,
+        "rok": "1783-11-14 / 1783-11-27",
+        "zapis_oryginalny": "Pan Frampolski",
+        "kwota_ctx": "Urzędnik dóbr Ordynacji Zamoyskiej (zarządca / gubernator klucza frampolskiego), do którego dekretem sędziego Andrzeja Wyszyńskiego z 27 listopada 1783 r. magistrat kraśnicki miał ..."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 957,
@@ -43892,7 +44022,43 @@ const genData = [
       244,
       245
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#243, #244, #245",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Wyszyński",
+        "imie": "Aleksander Leopold",
+        "miejsce": "Zamość / Kraśnik",
+        "rola": "Baron, Burgraf i Pełnomocnik Generalny Ordynacji Zamoyskiej",
+        "skan": 243,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Aleksander Leopold Baron Wyszyński",
+        "kwota_ctx": "Baron, burgrabia zamku zamojskiego i generalny pełnomocnik Ordynacji Zamoyskiej. Przewodniczył zjazdowi elekcyjnemu w Kraśniku 8 sierpnia 1788 r. Autor przełomowego memoriału o zwa..."
+      },
+      {
+        "nazwisko": "Wyszyński",
+        "imie": "Aleksander Leopold",
+        "miejsce": "Zamość / Kraśnik",
+        "rola": "Baron, Burgraf i Pełnomocnik Generalny Ordynacji Zamoyskiej",
+        "skan": 244,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Aleksander Leopold Baron Wyszyński",
+        "kwota_ctx": "Baron, burgrabia zamku zamojskiego i generalny pełnomocnik Ordynacji Zamoyskiej. Przewodniczył zjazdowi elekcyjnemu w Kraśniku 8 sierpnia 1788 r. Autor przełomowego memoriału o zwa..."
+      },
+      {
+        "nazwisko": "Wyszyński",
+        "imie": "Aleksander Leopold",
+        "miejsce": "Zamość / Kraśnik",
+        "rola": "Baron, Burgraf i Pełnomocnik Generalny Ordynacji Zamoyskiej",
+        "skan": 245,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Aleksander Leopold Baron Wyszyński",
+        "kwota_ctx": "Baron, burgrabia zamku zamojskiego i generalny pełnomocnik Ordynacji Zamoyskiej. Przewodniczył zjazdowi elekcyjnemu w Kraśniku 8 sierpnia 1788 r. Autor przełomowego memoriału o zwa..."
+      }
+    ],
+    "liczba_wystapien": 3
   },
   {
     "lp": 958,
@@ -43906,7 +44072,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Walczyński",
+        "imie": "Daniel",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Ławnik sądu miejskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Daniel Walczyński",
+        "kwota_ctx": "Mieszczanin kraśnicki wybrany i zaprzysiężony na urząd czwartego ławnika sądu miejskiego na posiedzeniu magistratu w dniu 18 stycznia 1786 r. pod przewodnictwem wójta Franciszka Ba..."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 959,
@@ -43920,7 +44102,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Frankowicz",
+        "imie": "Kazimierz",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz cechu szewskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Kazimierz Frankowicz",
+        "kwota_ctx": "Mistrz szewski wybrany na starszego cechmistrza cechu szewskiego w Kraśniku i zatwierdzony przez magistrat w dniu 18 stycznia 1786 r. u boku podskarbiego Jana Reszkiewicza."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 960,
@@ -43934,7 +44132,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Reszkiewicz",
+        "imie": "Jan",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Podskarbi / Podstarszy cechu szewskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Jan Reszkiewicz",
+        "kwota_ctx": "Mistrz szewski wybrany na podskarbiego (podstarszego) cechu szewskiego w Kraśniku w dniu 18 stycznia 1786 r. u boku Kazimierza Frankowicza."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 961,
@@ -43948,7 +44162,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Wojtaszek",
+        "imie": "Stanisław",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz cechu tkackiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Stanisław Wojtaszek",
+        "kwota_ctx": "Mistrz tkacki wybrany na starszego cechmistrza cechu tkackiego w Kraśniku w dniu 18 stycznia 1786 r. u boku Józefa Kwiecińskiego."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 962,
@@ -43962,7 +44192,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Kwieciński",
+        "imie": "Józef",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Podskarbi / Podstarszy cechu tkackiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Józef Kwieciński",
+        "kwota_ctx": "Mistrz tkacki wybrany na podskarbiego (podstarszego) cechu tkackiego w Kraśniku w dniu 18 stycznia 1786 r. u boku Stanisława Wojtaszka."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 963,
@@ -43976,7 +44222,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Młynarski",
+        "imie": "Maciej",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz cechu kowalskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Maciej Młynarski",
+        "kwota_ctx": "Mistrz kowalski wybrany na starszego cechmistrza cechu kowalskiego w Kraśniku w dniu 18 stycznia 1786 r. u boku Antoniego Kuśnierza."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 964,
@@ -43990,7 +44252,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Kuśnierz",
+        "imie": "Antoni",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Podskarbi / Podstarszy cechu kowalskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Antoni Kuśnierz",
+        "kwota_ctx": "Mistrz kowalski (o nazwisku Kuśnierz) wybrany na podskarbiego (podstarszego) cechu kowalskiego w Kraśniku w dniu 18 stycznia 1786 r. u boku Macieja Młynarskiego."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 965,
@@ -44004,7 +44282,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Cieślicki",
+        "imie": "Szymon",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz cechu kuśnierskiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Szymon Cieślicki",
+        "kwota_ctx": "Mistrz kuśnierski wybrany na starszego cechmistrza cechu kuśnierskiego w Kraśniku na sesji magistratu w dniu 18 stycznia 1786 r."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 966,
@@ -44018,7 +44312,23 @@ const genData = [
     "skany_list": [
       237
     ],
-    "zakres_lat": "1786"
+    "zakres_lat": "1786",
+    "skany_roboczo": "#237",
+    "min_rok": "1786",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Kozłowski",
+        "imie": "Bartłomiej",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz cechu krawieckiego (1786)",
+        "skan": 237,
+        "rok": "1786-01-18",
+        "zapis_oryginalny": "Bartłomiej Kozłowski",
+        "kwota_ctx": "Mistrz krawiecki wybrany na starszego cechmistrza cechu krawieckiego w Kraśniku na sesji magistratu w dniu 18 stycznia 1786 r. u boku Szymona Lewkowicza."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 967,
@@ -44032,7 +44342,23 @@ const genData = [
     "skany_list": [
       238
     ],
-    "zakres_lat": "1786–1788"
+    "zakres_lat": "1786–1788",
+    "skany_roboczo": "#238",
+    "min_rok": "1786",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Gmusiel",
+        "imie": "[N.]",
+        "miejsce": "Kraśnik (Kancelaria)",
+        "rola": "Pisarz pomocniczy kancelarii miejskiej (1786–1788)",
+        "skan": 238,
+        "rok": "1786-01-15 – 1788-08-08",
+        "zapis_oryginalny": "Gmusiel",
+        "kwota_ctx": "Pisarz kancelaryjny, któremu exaktor Marcin Wilczyński wypłacił 24 zł z kasy miejskiej za sporządzenie i przepisanie dwuletnich regestrów podatkowych w latach 1786–1788."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 968,
@@ -44047,7 +44373,33 @@ const genData = [
       238,
       245
     ],
-    "zakres_lat": "1786–1788"
+    "zakres_lat": "1786–1788",
+    "skany_roboczo": "#238, #245",
+    "min_rok": "1786",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Kanonik Regularny",
+        "imie": "[Proboszcz Dziekan Kraśnicki]",
+        "miejsce": "Kraśnik (Klasztor / Probostwo)",
+        "rola": "Proboszcz i Dziekan kraśnicki, Kurator Szkoły Miejskiej",
+        "skan": 238,
+        "rok": "1786-01-15 – 1788-08-08",
+        "zapis_oryginalny": "ks. Dziekan kraśnicki",
+        "kwota_ctx": "Duchowny ze zgromadzenia Kanoników Regularnych Lateraneńskich, prepozyt (proboszcz) i dziekan kraśnicki. Z mocy ordynacji komisarza barona Wyszyńskiego z 8 sierpnia 1788 r. powierz..."
+      },
+      {
+        "nazwisko": "Kanonik Regularny",
+        "imie": "[Proboszcz Dziekan Kraśnicki]",
+        "miejsce": "Kraśnik (Klasztor / Probostwo)",
+        "rola": "Proboszcz i Dziekan kraśnicki, Kurator Szkoły Miejskiej",
+        "skan": 245,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "ks. Dziekan kraśnicki",
+        "kwota_ctx": "Duchowny ze zgromadzenia Kanoników Regularnych Lateraneńskich, prepozyt (proboszcz) i dziekan kraśnicki. Z mocy ordynacji komisarza barona Wyszyńskiego z 8 sierpnia 1788 r. powierz..."
+      }
+    ],
+    "liczba_wystapien": 2
   },
   {
     "lp": 969,
@@ -44062,7 +44414,33 @@ const genData = [
       227,
       229
     ],
-    "zakres_lat": "1784–1786"
+    "zakres_lat": "1784–1786",
+    "skany_roboczo": "#227, #229",
+    "min_rok": "1784",
+    "max_rok": "1786",
+    "wystapienia": [
+      {
+        "nazwisko": "Alkiewicz",
+        "imie": "Jan",
+        "miejsce": "Kraśnik (Kancelaria)",
+        "rola": "Pisarz miejski (wspomnienie sukcesyjne)",
+        "skan": 227,
+        "rok": "1784-12-11 – 1786-01-15",
+        "zapis_oryginalny": "Jan Alkiewicz",
+        "kwota_ctx": "Notowany w dawniejszych aktach jako pisarz miejski lub członek rodziny pisarskiej Alkiewiczów. W rachunkach exaktora Marcina Wilczyńskiego z lat 1784–1786 odnotowano spłatę długu i..."
+      },
+      {
+        "nazwisko": "Alkiewicz",
+        "imie": "Jan",
+        "miejsce": "Kraśnik (Kancelaria)",
+        "rola": "Pisarz miejski (wspomnienie sukcesyjne)",
+        "skan": 229,
+        "rok": "1785",
+        "zapis_oryginalny": "Jan Alkiewicz",
+        "kwota_ctx": "Notowany w dawniejszych aktach jako pisarz miejski lub członek rodziny pisarskiej Alkiewiczów. W rachunkach exaktora Marcina Wilczyńskiego z lat 1784–1786 odnotowano spłatę długu i..."
+      }
+    ],
+    "liczba_wystapien": 2
   },
   {
     "lp": 970,
@@ -44076,7 +44454,23 @@ const genData = [
     "skany_list": [
       247
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#247",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Jełowicki",
+        "imie": "Felicjan",
+        "miejsce": "Kraśnik (Kancelaria)",
+        "rola": "Pisarz miejski przysięgły (1788)",
+        "skan": 247,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Felicjan Jełowicki",
+        "kwota_ctx": "Pisarz miejski zaprzysiężony na wolnej elekcji w dniu 8 sierpnia 1788 r. pod przewodnictwem komisarza Aleksandra Leopolda Wyszyńskiego. Odpowiedzialny za nadzór nad kancelarią, prz..."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 971,
@@ -44091,7 +44485,33 @@ const genData = [
       247,
       248
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#247, #248",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Popiołek",
+        "imie": "Szczepan",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Exaktor miejski (1788)",
+        "skan": 247,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Szczepan Popiołek",
+        "kwota_ctx": "Poborca podatkowy (exaktor) kasy miejskiej Kraśnika obrany na walnej elekcji 8 sierpnia 1788 r. Z powodu trwających prac żniwnych i nieobecności części obywateli komisarz ordynacki..."
+      },
+      {
+        "nazwisko": "Popiołek",
+        "imie": "Szczepan",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Exaktor miejski (1788)",
+        "skan": 248,
+        "rok": "1788-08-08",
+        "zapis_oryginalny": "Szczepan Popiołek",
+        "kwota_ctx": "Poborca podatkowy (exaktor) kasy miejskiej Kraśnika obrany na walnej elekcji 8 sierpnia 1788 r. Z powodu trwających prac żniwnych i nieobecności części obywateli komisarz ordynacki..."
+      }
+    ],
+    "liczba_wystapien": 2
   },
   {
     "lp": 972,
@@ -44105,7 +44525,23 @@ const genData = [
     "skany_list": [
       249
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#249",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Gąska",
+        "imie": "Antoni",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Podcechmistrz kowalski (1788)",
+        "skan": 249,
+        "rok": "1788-08-09",
+        "zapis_oryginalny": "Antoni Gąska",
+        "kwota_ctx": "Mistrz kowalski wybrany na podstarszego (podcechmistrza) cechu kowalskiego w Kraśniku w dniu 9 sierpnia 1788 r. u boku Jędrzeja Barankiewicza."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 973,
@@ -44119,7 +44555,23 @@ const genData = [
     "skany_list": [
       249
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#249",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Zdybicki",
+        "imie": "Andrzej",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Podcechmistrz kuśnierski (1788)",
+        "skan": 249,
+        "rok": "1788-08-09",
+        "zapis_oryginalny": "Andrzej Zdybicki",
+        "kwota_ctx": "Mistrz kuśnierski wybrany na podcechmistrza cechu kuśnierskiego w Kraśniku w dniu 9 sierpnia 1788 r. u boku Łukasza Zdybickiego."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 974,
@@ -44133,7 +44585,23 @@ const genData = [
     "skany_list": [
       249
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#249",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Gołębiowski",
+        "imie": "Wawrzyniec",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz krawiecki (1788)",
+        "skan": 249,
+        "rok": "1788-08-09",
+        "zapis_oryginalny": "Wawrzyniec Gołębiowski",
+        "kwota_ctx": "Mistrz krawiecki wybrany na starszego cechmistrza cechu krawieckiego w Kraśniku w dniu 9 sierpnia 1788 r. Wspólnie ze starozakonnym Herszkiem Lewkowiczem kierował cechem krawieckim..."
+      }
+    ],
+    "liczba_wystapien": 1
   },
   {
     "lp": 975,
@@ -44147,20 +44615,33 @@ const genData = [
     "skany_list": [
       249
     ],
-    "zakres_lat": "1788"
+    "zakres_lat": "1788",
+    "skany_roboczo": "#249",
+    "min_rok": "1788",
+    "max_rok": "1788",
+    "wystapienia": [
+      {
+        "nazwisko": "Potokowicz",
+        "imie": "Stanisław",
+        "miejsce": "Kraśnik (ogólne)",
+        "rola": "Starszy cechmistrz tkacki (1788)",
+        "skan": 249,
+        "rok": "1788-08-09",
+        "zapis_oryginalny": "Stanisław Potokowicz",
+        "kwota_ctx": "Mistrz tkacki obrany na starszego cechmistrza cechu tkackiego w Kraśniku w dniu 9 sierpnia 1788 r. u boku Wojciecha Pielaszkiewicza. W protokole elekcji notowany wymiennie jako Sta..."
+      }
+    ],
+    "liczba_wystapien": 1
   }
 ];
-;
-;
-;
-;
 
     // TAB SWITCHING
     function switchTab(tabId, btn) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
       document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
-      document.getElementById(tabId).classList.add('active');
-      btn.classList.add('active');
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      if (btn) btn.classList.add('active');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
@@ -44184,29 +44665,24 @@ const genData = [
     let mainSortCol = 'nr_skanu';
     let mainSortAsc = true;
 
-    // Populate category dropdown
-    const mainCats = [...new Set(mainData.map(d => d.kategoria).filter(Boolean))].sort();
-    const catSelect = document.getElementById('mainCategoryFilter');
-    mainCats.forEach(cat => {
-      const opt = document.createElement('option');
-      opt.value = cat;
-      opt.textContent = cat;
-      catSelect.appendChild(opt);
-    });
-
     function filterMainData() {
       const query = document.getElementById('mainSearch').value.toLowerCase().trim();
       const cat = document.getElementById('mainCategoryFilter').value;
+      const year = document.getElementById('mainYearFilter').value;
 
       filteredMain = mainData.filter(d => {
         const matchCat = !cat || d.kategoria === cat;
+        const matchYear = !year || (d.data_rok && d.data_rok.includes(year));
         const matchQuery = !query || 
-          (d.osoby_podmioty && d.osoby_podmioty.toLowerCase().includes(query)) ||
-          (d.opis_pozycji && d.opis_pozycji.toLowerCase().includes(query)) ||
+          d.nr_skanu.toString().includes(query) ||
+          (d.strona_pagina && d.strona_pagina.toLowerCase().includes(query)) ||
+          (d.data_rok && d.data_rok.toLowerCase().includes(query)) ||
           (d.kategoria && d.kategoria.toLowerCase().includes(query)) ||
-          (d.nr_skanu && d.nr_skanu.toString().includes(query)) ||
-          (d.data_rok && d.data_rok.toLowerCase().includes(query));
-        return matchCat && matchQuery;
+          (d.opis_pozycji && d.opis_pozycji.toLowerCase().includes(query)) ||
+          (d.osoby_podmioty && d.osoby_podmioty.toLowerCase().includes(query)) ||
+          (d.kwoty_miary && d.kwoty_miary.toLowerCase().includes(query)) ||
+          (d.transkrypcja && d.transkrypcja.toLowerCase().includes(query));
+        return matchCat && matchYear && matchQuery;
       });
 
       mainCurrentPage = 1;
@@ -44222,12 +44698,17 @@ const genData = [
       }
 
       filteredMain.sort((a, b) => {
-        let valA = a[col] || '';
-        let valB = b[col] || '';
+        let valA = a[col];
+        let valB = b[col];
+
         if (col === 'nr_skanu') {
           valA = parseInt(valA) || 0;
           valB = parseInt(valB) || 0;
+        } else if (typeof valA === 'string') {
+          valA = valA.toLowerCase();
+          valB = (valB || '').toLowerCase();
         }
+
         if (valA < valB) return mainSortAsc ? -1 : 1;
         if (valA > valB) return mainSortAsc ? 1 : -1;
         return 0;
@@ -44246,7 +44727,7 @@ const genData = [
       const pageData = filteredMain.slice(start, end);
 
       document.getElementById('mainPaginationInfo').innerText = 
-        `Pokazywane ${filteredMain.length > 0 ? start + 1 : 0}–${Math.min(end, filteredMain.length)} z ${filteredMain.length} skanów`;
+        `Pokazywane ${filteredMain.length > 0 ? start + 1 : 0}–${Math.min(end, filteredMain.length)} z ${filteredMain.length} pozycji`;
       document.getElementById('mainPageIndicator').innerText = `${mainCurrentPage} / ${totalPages}`;
       document.getElementById('mainJumpInput').max = totalPages;
       document.getElementById('mainJumpInput').value = mainCurrentPage;
@@ -44260,7 +44741,6 @@ const genData = [
 
       let html = '';
       pageData.forEach(r => {
-        // Clean format for personas: badge if tax/group summary
         let osobyDisplay = '';
         if (r.osoby_skrot && r.osoby_skrot !== r.osoby_podmioty) {
           osobyDisplay = `<span class="badge-district" style="font-size:0.8rem;">${escapeHtml(r.osoby_skrot)}</span> <span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:3px;">(kliknij, aby rozwinąć)</span>`;
@@ -44327,144 +44807,88 @@ const genData = [
       currentModalScan = item;
 
       document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina}) – Rok ${item.data_rok}`;
+      
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
 
-      const transHtml = item.transkrypcja ? `
-        <div class="modal-section">
-          <div class="modal-section-title">Transkrypcja dyplomatyczna rękopisu (tekst źródłowy)</div>
-          <div class="transcription-box">${escapeHtml(item.transkrypcja)}</div>
-          <div style="margin-top:0.75rem; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
-            <span>🔤 <em>Zachowano oryginalną pisownię staropolską, ligatury oraz podział wierszy rękopisu.</em></span>
-            <button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>
-          </div>
-        </div>
-      ` : `
-        <div class="modal-section" style="text-align:center; padding: 2.5rem 1.5rem; background: rgba(15, 23, 42, 0.6); border: 1px dashed var(--border); border-radius: 8px;">
-          <div style="font-size: 2.2rem; margin-bottom: 0.75rem;">📜</div>
-          <div style="font-weight: 600; color: #fff; font-size: 1.05rem; margin-bottom: 0.5rem;">Transkrypcja źródłowa w trakcie opracowywania</div>
-          <div style="color: var(--text-muted); font-size: 0.88rem; max-width: 500px; margin: 0 auto; line-height: 1.5;">
-            Dla skanu #${item.nr_skanu} przygotowane jest obecnie pełne streszczenie kodykologiczne, kategoria sprawy oraz indeks osób i podatków w zakładce <strong>„Opis i metadane”</strong>.
-          </div>
-        </div>
-      `;
-
-      const swaUnitUrl = 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6990354';
-      const swaFondUrl = 'https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890';
-
-      const linkHtml = `
-        <div class="modal-section">
-          <div class="modal-section-title">Oryginał w portalu Narodowego Archiwum Cyfrowego / Szukaj w Archiwach</div>
-          <div class="swa-card">
-            <div class="swa-card-header">
-              <div style="display:flex; align-items:center; gap:0.75rem;">
-                <span style="font-size:1.8rem;">🏛️</span>
-                <div>
-                  <div style="font-weight:700; color:#fff; font-size:1.05rem;">Archiwum Państwowe w Lublinie</div>
-                  <div style="color:var(--gold-primary); font-size:0.85rem;">Zespół 35/40/0 • Akta miasta Kraśnika</div>
-                </div>
-              </div>
-              <span class="badge-source">Jednostka 40</span>
-            </div>
-
-            <div class="swa-meta-grid">
-              <div class="swa-meta-item">
-                <span class="swa-meta-label">Jednostka archiwalna:</span>
-                <span class="swa-meta-val">35/40/0/1/40</span>
-              </div>
-              <div class="swa-meta-item">
-                <span class="swa-meta-label">Tytuł jednostki:</span>
-                <span class="swa-meta-val">Księga elekcji, rachunków i podatków 1761–1792</span>
-              </div>
-              <div class="swa-meta-item">
-                <span class="swa-meta-label">Docelowy skan:</span>
-                <span class="swa-meta-val" style="color:var(--gold-primary); font-weight:700;">Skan #${item.nr_skanu} (${item.strona_pagina})</span>
-              </div>
-              <div class="swa-meta-item">
-                <span class="swa-meta-label">ID jednostki w SwA:</span>
-                <span class="swa-meta-val" style="font-family:'JetBrains Mono', monospace; color:var(--gold-primary);">6990354</span>
-              </div>
-              <div class="swa-meta-item" style="grid-column: 1 / -1;">
-                <span class="swa-meta-label">Plik źródłowy w archiwum:</span>
-                <span class="swa-meta-val" style="font-family:'JetBrains Mono', monospace; font-size:0.82rem;">${item.plik_skanu || '35_40_0_1_40_' + item.nr_skanu + '.jpg'}</span>
-              </div>
-            </div>
-
-            <div class="swa-actions">
-              <a href="${swaUnitUrl}" target="_blank" rel="noopener noreferrer" class="btn-swa-primary">
-                🏛️ Otwórz Jednostkę 40 w Szukaj w Archiwach ↗
-              </a>
-              <a href="${swaFondUrl}" target="_blank" rel="noopener noreferrer" class="btn-swa-secondary">
-                📂 Cały Zespół 35/40/0 (Akta m. Kraśnika) ↗
-              </a>
-            </div>
-
-            <div class="swa-instruction-box">
-              <div style="font-weight:700; color:var(--gold-primary); margin-bottom:0.4rem; display:flex; align-items:center; gap:0.4rem;">
-                <span>💡</span> Instrukcja wyświetlenia Skanu #${item.nr_skanu} w portalu:
-              </div>
-              <ol style="margin:0; padding-left:1.25rem; line-height:1.65; color:#e2e8f0; font-size:0.85rem;">
-                <li>Kliknij powyższy złoty przycisk <strong>„Otwórz Jednostkę 40 w Szukaj w Archiwach”</strong>.</li>
-                <li>W portalu kliknij zakładkę <strong>„Skany”</strong> (znajduje się tam komplet 252 skanów księgi).</li>
-                <li>Wybierz miniaturę oznaczoną pozycją <strong>#${item.nr_skanu}</strong> (odpowiadającą temu skanowi).</li>
-                <li>Kliknięcie miniatury otworzy pełny podgląd rękopisu w wysokiej rozdzielczości z możliwością maksymalnego powiększenia.</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      `;
-
-      const metaHtml = `
-        <div class="modal-section">
-          <div class="modal-section-title">Kategoria dokumentu</div>
-          <div><strong>${escapeHtml(item.kategoria)}</strong></div>
-        </div>
-        <div class="modal-section">
-          <div class="modal-section-title">Treść sprawy / Opis kodykologiczny</div>
-          <div>${escapeHtml(item.opis_pozycji)}</div>
-        </div>
-        <div class="modal-section">
-          <div class="modal-section-title">Wykaz osób i podmiotów odnotowanych na skanie</div>
-          <div style="background:#0f172a; padding:0.75rem; border-radius:6px; border:1px solid var(--border); line-height:1.5;">
-            ${escapeHtml(item.osoby_podmioty || '—')}
-          </div>
-        </div>
-        <div class="modal-section">
-          <div class="modal-section-title">Kwoty / Podatki / Wymiar finansowy</div>
-          <div style="font-family:'JetBrains Mono', monospace;">${escapeHtml(item.kwoty_miary || '—')}</div>
-        </div>
-        <div class="modal-section">
-          <div class="modal-section-title">Uwagi archiwalne i paleograficzne</div>
-          <div style="color:var(--text-muted);">${escapeHtml(item.uwagi || 'Brak uwag.')}</div>
-        </div>
-      `;
+      const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
 
       document.getElementById('modalBody').innerHTML = `
-        <div id="modalTabContentMeta" class="modal-tab-pane">${metaHtml}</div>
-        <div id="modalTabContentTrans" class="modal-tab-pane" style="display:none;">${transHtml}</div>
-        <div id="modalTabContentLink" class="modal-tab-pane" style="display:none;">${linkHtml}</div>
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 40 (Księga wójtowsko-radziecka 1761–1788)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_pozycji)}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_miary || 'Brak danych finansowych')}
+            </div>
+          </div>
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna zgodna z Zasadami Wydawania Źródeł Historycznych PAN</span>
+            <button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
+          </div>
+        </div>
+
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
+          <div class="modal-section">
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu SzukajwArchiwach.gov.pl lub w lokalnym archiwum projektu.
+            </p>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem;">
+              https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/10261394
+            </div>
+          </div>
+        </div>
       `;
 
-      switchModalTab('meta');
       document.getElementById('detailModal').style.display = 'block';
     }
 
     function exportMainCSV() {
-      const headers = ['nr_skanu', 'strona_pagina', 'data_rok', 'kategoria', 'osoby_podmioty', 'opis_pozycji', 'kwoty_miary', 'uwagi'];
+      const headers = ['Nr skanu', 'Paginacja', 'Datacja', 'Kategoria', 'Opis / Regest', 'Osoby / Podmioty', 'Kwoty / Miary'];
       let csv = "﻿" + headers.join(';') + "\r\n";
       filteredMain.forEach(r => {
-        const row = headers.map(h => `"${String(r[h] || '').replace(/"/g, '""')}"`).join(';');
+        const row = [r.nr_skanu, r.strona_pagina, r.data_rok, r.kategoria, r.opis_pozycji, r.osoby_podmioty, r.kwoty_miary]
+          .map(val => `"${String(val || '').replace(/"/g, '""')}"`)
+          .join(';');
         csv += row + "\r\n";
       });
       downloadBlob(csv, 'krasnik_j40_indeks_skanow.csv', 'text/csv;charset=utf-8;');
     }
 
     // -------------------------------------------------------------
-    // GENEALOGY DICTIONARY LOGIC
+    // GENEALOGY DICTIONARY LOGIC (ODPORNA NA BŁĘDY)
     // -------------------------------------------------------------
     let filteredGen = [...genData];
     let genCurrentPage = 1;
-    const genPageSize = 50;
+    const genPageSize = 25;
     let genSortCol = 'nazwisko';
     let genSortAsc = true;
 
@@ -44474,15 +44898,26 @@ const genData = [
 
       filteredGen = genData.filter(d => {
         const matchDistrict = !district || d.miejsce === district;
-        const matchQuery = !query ||
-          d.nazwisko.toLowerCase().includes(query) ||
-          (d.wariant_nazwiska && d.wariant_nazwiska.toLowerCase().includes(query)) ||
-          d.imie.toLowerCase().includes(query) ||
-          d.miejsce.toLowerCase().includes(query) ||
-          d.funkcja.toLowerCase().includes(query) ||
-          d.skany_roboczo.toLowerCase().includes(query) ||
-          d.zakres_lat.toLowerCase().includes(query);
-        return matchDistrict && matchQuery;
+        if (!matchDistrict) return false;
+        if (!query) return true;
+
+        const searchable = [
+          d.lp,
+          d.nazwisko,
+          d.wariant_nazwiska,
+          d.imie,
+          d.miejsce,
+          d.funkcja,
+          d.funkcja_zawod,
+          d.skany_roboczo,
+          (Array.isArray(d.skany_list) ? d.skany_list.map(s => '#' + s).join(' ') + ' ' + d.skany_list.join(' ') : ''),
+          d.zakres_lat,
+          d.notatka_biograficzna,
+          d.uwagi
+        ].filter(Boolean).join(' ').toLowerCase();
+
+        const terms = query.split(/\s+/).filter(Boolean);
+        return terms.every(t => searchable.includes(t));
       });
 
       genCurrentPage = 1;
@@ -44519,6 +44954,9 @@ const genData = [
           valB = (b.skany_list && b.skany_list.length) ? b.skany_list[0] : 0;
         } else if (typeof valA === 'string') {
           valA = valA.toLowerCase();
+          valB = (valB || '').toLowerCase();
+        } else if (typeof valB === 'string') {
+          valA = (valA || '').toLowerCase();
           valB = valB.toLowerCase();
         }
 
@@ -44554,29 +44992,45 @@ const genData = [
 
       let html = '';
       pageData.forEach(r => {
-        // Distinguish widow badge
-        const isWidow = r.imie.endsWith('owa') || r.imie === '[Wdowa]' || r.funkcja.includes('wdowa');
-        const isOfficer = ['Wójt', 'Burmistrz', 'Ławnik', 'Pisarz', 'Exaktor', 'Szafarz'].some(k => r.funkcja.includes(k));
+        const imieStr = r.imie || '';
+        const funkcjaStr = r.funkcja || r.funkcja_zawod || '';
+        const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+        const isOfficer = ['Wójt', 'Burmistrz', 'Ławnik', 'Pisarz', 'Exaktor', 'Szafarz', 'Cechmistrz', 'Burgrabia', 'Sędzia', 'Deputat'].some(k => funkcjaStr.includes(k));
         
-        let roleBadge = `<span class="badge-role">${escapeHtml(r.funkcja)}</span>`;
+        let roleBadge = `<span class="badge-role">${escapeHtml(funkcjaStr)}</span>`;
         if (isWidow) roleBadge = `<span class="badge-role badge-widow">Mieszkanka (wdowa)</span>`;
-        else if (isOfficer) roleBadge = `<span class="badge-role badge-officer">${escapeHtml(r.funkcja)}</span>`;
+        else if (isOfficer) roleBadge = `<span class="badge-role badge-officer">${escapeHtml(funkcjaStr)}</span>`;
 
-        // Scans formatted with link badges
-        const scansHtml = r.skany_list.map(s => `<span class="badge-scan">#${s}</span>`).join(' ');
+        let scanBadges = '';
+        if (Array.isArray(r.skany_list)) {
+          if (r.skany_list.length <= 4) {
+            scanBadges = r.skany_list.map(s => `<span class="badge-scan">#${s}</span>`).join(' ');
+          } else {
+            scanBadges = r.skany_list.slice(0, 3).map(s => `<span class="badge-scan">#${s}</span>`).join(' ') +
+              ` <span class="badge-scan" style="background:#334155; color:#cbd5e1;">+${r.skany_list.length - 3}</span>`;
+          }
+        } else if (r.skany_roboczo) {
+          scanBadges = `<span class="badge-scan">${escapeHtml(r.skany_roboczo)}</span>`;
+        }
+
+        const mentions = r.liczba_wystapien || (r.wystapienia ? r.wystapienia.length : (r.skany_list ? r.skany_list.length : 1));
 
         html += `
           <tr onclick="openGenModal(${r.lp})">
-            <td style="font-family:'JetBrains Mono', monospace; color:var(--text-muted); font-size:0.8rem;">${r.lp}</td>
-            <td style="font-weight:700; color:#fff; font-size:0.95rem;">
-              <div>${escapeHtml(r.nazwisko)}</div>
-              ${r.wariant_nazwiska ? `<div style="font-size:0.75rem; color:#94a3b8; margin-top:2px; display:inline-block; padding:1px 5px; background:rgba(255,255,255,0.05); border-radius:3px; border:1px solid #334155;">wariant: ${escapeHtml(r.wariant_nazwiska)}</div>` : ''}
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:var(--text-muted);">${r.lp}</td>
+            <td>
+              <strong style="color:#f8fafc; font-size:0.95rem;">${escapeHtml(r.nazwisko)}</strong>
+              ${r.przydomek ? `<span style="font-size:0.8rem; color:var(--gold-primary); font-style:italic; display:block;">vel ${escapeHtml(r.przydomek)}</span>` : ''}
+              ${r.wariant_nazwiska ? `<span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:2px;" title="Warianty zapisu">${escapeHtml(r.wariant_nazwiska.slice(0, 45))}${r.wariant_nazwiska.length > 45 ? '...' : ''}</span>` : ''}
             </td>
-            <td style="font-weight:600; color:${isWidow ? '#f472b6' : '#f8fafc'};">${escapeHtml(r.imie)}</td>
-            <td><span class="badge-district">${escapeHtml(r.miejsce)}</span></td>
+            <td style="color:#e2e8f0;">${escapeHtml(imieStr)}</td>
+            <td><span class="badge-district">${escapeHtml(r.miejsce || '—')}</span></td>
             <td>${roleBadge}</td>
-            <td>${scansHtml}</td>
-            <td><span class="badge-years">${escapeHtml(r.zakres_lat)}</span></td>
+            <td><span class="badge-years">${escapeHtml(r.zakres_lat || '—')}</span></td>
+            <td style="white-space:nowrap;">
+              ${scanBadges}
+              <span style="font-size:0.75rem; color:var(--text-muted); margin-left:6px;">(${mentions} ${mentions === 1 ? 'wzmianka' : (mentions < 5 ? 'wzmianki' : 'wzmianek')})</span>
+            </td>
           </tr>
         `;
       });
@@ -44601,7 +45055,10 @@ const genData = [
       const p = genData.find(d => d.lp === lp);
       if (!p) return;
 
-      const isWidow = p.imie.endsWith('owa') || p.imie === '[Wdowa]' || p.funkcja.includes('wdowa');
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || p.funkcja_zawod || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
       
       let occsHtml = '';
       if (p.wystapienia && p.wystapienia.length > 0) {
@@ -44610,8 +45067,8 @@ const genData = [
             <thead>
               <tr>
                 <th style="width:12%;">Skan</th>
-                <th style="width:12%;">Rok</th>
-                <th style="width:36%;">Zapis w rękopisie</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
                 <th style="width:40%;">Podatek / Rola / Kontekst</th>
               </tr>
             </thead>
@@ -44627,42 +45084,55 @@ const genData = [
             </tbody>
           </table>
         `;
+      } else {
+        occsHtml = '<div style="color:var(--text-muted); padding:0.5rem;">Brak szczegółowego wykazu wzmianek.</div>';
       }
 
-      document.getElementById('modalTitle').innerText = `${p.imie} ${p.nazwisko} (${p.miejsce})`;
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`;
       document.getElementById('modalBody').innerHTML = `
         <div class="modal-section">
-          <div class="modal-section-title">Dane biograficzne i status</div>
-          <div style="font-size:1rem; margin-bottom:0.4rem;">
-            <strong>${escapeHtml(p.imie)} ${escapeHtml(p.nazwisko)}</strong>
-            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce)}</span>
-            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(p.funkcja)}</span>
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
           </div>
-          <div style="font-size:0.85rem; color:var(--text-muted);">
-            Zakres wystąpień w księdze: <strong>${p.zakres_lat}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek: <strong>${p.liczba_wystapien}</strong>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '1761–1788')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
           </div>
           ${p.wariant_nazwiska ? `
-            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.5rem 0.75rem; border-radius:4px; margin-top:0.6rem; font-size:0.85rem; color:#e2e8f0;">
-              <strong style="color:var(--gold-primary);">💡 Lekcja alternatywna nazwiska:</strong> ${escapeHtml(p.wariant_nazwiska)}
-              <div style="font-size:0.78rem; color:#94a3b8; margin-top:2px;">Wpisanie dowolnej z tych form w wyszukiwarce filtruje ten sam rekord (zasada 1 osoba = 1 rekord).</div>
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.wariant_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
             </div>
           ` : ''}
         </div>
 
+        ${p.notatka_biograficzna ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Notatka biograficzna i rola historyczna</div>
+            <div style="background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border); color:#cbd5e1; font-size:0.9rem; line-height:1.6;">
+              ${escapeHtml(p.notatka_biograficzna)}
+            </div>
+          </div>
+        ` : ''}
+
         <div class="modal-section">
           <div class="modal-section-title">Skany źródłowe</div>
-          <div>${p.skany_list.map(s => `<span class="badge-scan" style="font-size:0.85rem; padding:0.25rem 0.5rem;">Skan #${s}</span>`).join(' ')}</div>
+          <div style="line-height:2;">
+            ${(p.skany_list || []).map(s => `<span class="badge-scan" style="font-size:0.85rem; padding:0.25rem 0.55rem; margin-right:4px;">Skan #${s}</span>`).join(' ')}
+          </div>
         </div>
 
         <div class="modal-section">
-          <div class="modal-section-title">Wykaz wszystkich wzmianek w rękopisie (1761–1788)</div>
+          <div class="modal-section-title">Wykaz wszystkich poświadczeń źródłowych (1761–1788)</div>
           ${occsHtml}
         </div>
 
         <div class="modal-section">
           <div class="modal-section-title">Uwagi genealogiczne i powiązania rodzinne</div>
           <div style="background:#0f172a; padding:0.75rem; border-radius:6px; border:1px solid var(--border); color:#cbd5e1; font-size:0.88rem;">
-            ${escapeHtml(p.uwagi || 'Mieszkaniec odnotowany w spisach podatkowych i rejestrach miasta Kraśnika.')}
+            ${escapeHtml(p.uwagi || 'Mieszkaniec odnotowany w spisach podatkowych i rejestrach samorządu miasta Kraśnika.')}
           </div>
         </div>
       `;
@@ -44670,12 +45140,20 @@ const genData = [
     }
 
     function exportGenCSV() {
-      const headers = ['Lp.', 'Nazwisko', 'Imię', 'Miejsce zamieszkania (Piaski/Góry/Zarzecze itp.)', 'Funkcja społeczna', 'Roboczo: Nr skanów', 'Zakres lat'];
+      const headers = ['Lp.', 'Nazwisko', 'Imię', 'Miejsce zamieszkania', 'Funkcja społeczna / zawód', 'Skany źródłowe', 'Zakres lat', 'Liczba wzmianek', 'Warianty nazwiska'];
       let csv = "﻿" + headers.join(';') + "\r\n";
       filteredGen.forEach(p => {
-        const row = [p.lp, p.nazwisko, p.imie, p.miejsce, p.funkcja, p.skany_roboczo, p.zakres_lat]
-          .map(val => `"${String(val || '').replace(/"/g, '""')}"`)
-          .join(';');
+        const row = [
+          p.lp,
+          p.nazwisko,
+          p.imie,
+          p.miejsce,
+          p.funkcja || p.funkcja_zawod || '',
+          p.skany_roboczo || (p.skany_list ? p.skany_list.map(s => '#' + s).join(', ') : ''),
+          p.zakres_lat,
+          p.liczba_wystapien || 1,
+          p.wariant_nazwiska || ''
+        ].map(val => `"${String(val || '').replace(/"/g, '""')}"`).join(';');
         csv += row + "\r\n";
       });
       downloadBlob(csv, 'krasnik_j40_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
@@ -44703,9 +45181,15 @@ const genData = [
       }
     }
 
-    // INITIAL RENDER
+    // DYNAMIC COUNTERS & INITIAL RENDER
+    if (document.getElementById('genTabBadge')) document.getElementById('genTabBadge').innerText = genData.length;
+    if (document.getElementById('genStatCount')) document.getElementById('genStatCount').innerText = genData.length;
+    let totalMentionsCalc = genData.reduce((acc, p) => acc + (p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1))), 0);
+    if (document.getElementById('genMentionsCount')) document.getElementById('genMentionsCount').innerText = totalMentionsCalc;
+
     renderMainTable();
     renderGenTable();
+  
   </script>
 </body>
 </html>
