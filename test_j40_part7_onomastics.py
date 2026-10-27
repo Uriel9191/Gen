@@ -16,13 +16,16 @@ HTML_PATH = '/home/ubuntu/workspace/Gen/krasnik_j40_kompendium_calosc.html'
 with open(HTML_PATH, 'r', encoding='utf-8') as f:
     text = f.read()
 
-m_start = text.find('const mainData = [')
-m_end = text.find('];', m_start) + 1
-main_data = json.loads(text[m_start + len('const mainData = '):m_end])
+m_prefix = 'const mainData = '
+m_start = text.find(m_prefix)
+g_prefix = 'const genData = '
+g_start = text.find(g_prefix)
 
-g_start = text.find('const genData = [')
-g_end = text.find('];', g_start) + 1
-gen_data = json.loads(text[g_start + len('const genData = '):g_end])
+m_end = text.rfind('];', m_start, g_start) + 1
+g_end = text.find('\n];', g_start) + 2
+
+main_data = json.loads(text[m_start + len(m_prefix):m_end])
+gen_data = json.loads(text[g_start + len(g_prefix):g_end])
 
 print(f"Załadowano dane: mainData={len(main_data)}, genData={len(gen_data)}")
 
