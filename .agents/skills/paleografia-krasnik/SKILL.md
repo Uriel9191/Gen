@@ -88,6 +88,12 @@ Skorowidz genealogiczny to baza konkretnych osób fizycznych żyjących i dział
 * **Zakaz zgadywania zawodu po nazwisku**: Nie wnioskować zawodu szewca z nazwiska *Szewc/Szewczyk*, rymarza z *Rymarczyk* itp. Jeśli zawód wynika z kontekstu, ale nie jest pewny, opatrywać go symbolem `[?]`.
 * **Ograniczenie łaciny**: Krótkie glosy łacińskie dopuszczalne wyłącznie w nawiasie w szczegółach rekordu.
 
+### 5. Postępowanie z Nazwiskami Niepewnymi i Alternatywnymi Lekcjami
+* **Zasada: 1 fizyczna osoba = 1 rekord w bazie**: Pod żadnym pozorem nie wolno tworzyć sztucznych, osobnych wierszy w skorowidzu dla wariantów nazwiska tej samej osoby (np. zakaz tworzenia osobnego rekordu dla *Jan Drąś* i osobnego dla *Jan Drozd*). Tworzenie zdublowanych wierszy zniekształca statystyki demograficzne i tworzy nieistniejące w rzeczywistości „osoby-widma”.
+* **Zapis w kolumnie „Nazwisko”**: Warianty zapisujemy w ramach jednego rekordu w formacie `NazwiskoGłówne [WariantAlternatywny?]` (np. `Drąś [Drozd?]`) lub w wydzielonym polu wariantu renderowanym subtelnie pod nazwiskiem głównym w tej samej komórce.
+* **Wymóg wyszukiwarki genealogicznej**: Silnik wyszukiwarki w kompendium musi zwracać dany wiersz niezależnie od tego, czy badacz wpisze w pole wyszukiwania formę główną (np. `Drąś`), czy alternatywną (np. `Drozd`).
+* **Dokumentacja kodykologiczna w uwagach**: W oknie szczegółów osoby (`uwagi`) podajemy dokładne paleograficzne uzasadnienie wątpliwości (np. *„litery -ąś/-ozd na załamaniu karty w skanie 41”*).
+
 --------------------------------------------------------------------------------
 
 ## III. Procedura Opracowania Nowej Jednostki (End-to-End Workflow)
@@ -104,10 +110,17 @@ Każda nowa jednostka archiwalna przechodzi przez ustrukturyzowany, 6-etapowy pr
 * Podział jednostki na logiczne partie robocze (zwykle po 15–20 skanów).
 * Przedstawienie szczegółowego planu w czacie i oczekiwanie na wyraźną akceptację użytkownika przed rozpoczęciem modyfikacji kodu.
 
-### Krok 3: Rygorystyczna Transkrypcja 100% Skanów i Linki do Szukaj w Archiwach
+### Krok 3: Rygorystyczna Transkrypcja 100% Skanów i Zasady Linkowania do Szukaj w Archiwach
 * **Każdy skan jednostki bez wyjątku** musi posiadać:
-  * Wypełnione pole `transkrypcja`: rygorystyczny, pełny odczyt dyplomatyczny z zachowaniem kolumn i notacją `[opcja?]`.
-  * Wypełnione pole `link_swa`: bezpośredni odnośnik do portalu *Szukaj w Archiwach* (`https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/.../obiekty/...#opis_obiektu`).
+  * Wypełnione pole `transkrypcja`: rygorystyczny, pełny odczyt dyplomatyczny z zachowaniem kolumn i notacją wątpliwości `[opcja 1? / opcja 2?]` (bezwzględny zakaz zgadywania liter; szczególny rygor dla imion, nazwisk, toponimów i kwot).
+  * Wypełnione pole `link_swa`: oficjalny odnośnik do **całej jednostki archiwalnej** w portalu *Szukaj w Archiwach* (`https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/{id_jednostki}`).
+* **Zasada techniczna linkowania do Szukaj w Archiwach (SwA)**:
+  * Portal SwA działa w architekturze Single Page Application – otwarcie skanu w przeglądarce portalu nie modyfikuje adresu URL jednostki.
+  * **Kategoryczny zakaz linkowania do poszczególnych plików/obiektów cyfrowych** (odnośniki do `obiekty/ID` prowadzą jedynie do ubogiej metryczki tekstowej, a nie do przeglądarki skanu).
+  * Obowiązuje standard wypracowany w J40:
+    1. Przycisk główny (złoty): link do **całej jednostki archiwalnej** (`https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/{id_jednostki}`).
+    2. Przycisk pomocniczy: link do **całego Zespołu 35/40/0 (Akta m. Kraśnika)** (`https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890`).
+    3. Boks instrukcji nawigacji: krok po kroku informujący użytkownika, aby w portalu przeszedł do zakładki **„Skany”** i wybrał miniaturę oznaczoną numerem **#{item.nr_skanu}**.
 * Matematyczne bilansowanie kolumn skarbowych (`Latus`, 1 zł = 30 gr).
 
 ### Krok 4: Równoległe Zasilanie Skorowidza Genealogicznego
@@ -162,7 +175,7 @@ Każde kompendium jednostki (np. `krasnik_j40_kompendium_calosc.html`) musi zach
 Każdy rekord po kliknięciu otwiera modal z trzema zakładkami:
 * **Zakładka 1: Opis i metadane** (kompletna metryka archiwalna, pagina, data, osoby, kwoty, uwagi).
 * **Zakładka 2: Transkrypcja źródłowa** (pełny tekst z przyciskiem kopiowania do schowka, zachowaniem podziału na kolumny i notacją wątpliwości `[opcja?]`).
-* **Zakładka 3: Link do oryginału** (oficjalne kafle przekierowujące do jednostki oraz bezpośredniego widoku skanu w portalu *Szukaj w Archiwach*).
+* **Zakładka 3: Link do oryginału** (oficjalne kafle przekierowujące do całej jednostki w SwA i zespołu 35/40/0, wraz z instrukcją przejścia do zakładki «Skany» i wyboru miniatury danego skanu).
 
 ### 6. Tabela Skorowidza Genealogicznego
 * Dedykowana tabela osób fizycznych zintegrowana z bazą `genData`.
