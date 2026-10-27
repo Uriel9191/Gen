@@ -91,10 +91,10 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 90,Drąś,Draj? / Dras?,Adam,,Mieszkaniec / Posesjonat,Piaski,1,1777,132,Zapisy oryginalne w rękopisie: Adam Dras
 91,Drąś,Draj? / Dras?,Maciej,,Mieszkaniec / Posesjonat,Piaski,1,1777,133,Zapisy oryginalne w rękopisie: Matys Dras
 92,Drąś,Draj? / Dras? / Dras? / Draz? / Dmyś?,Marcin,,Mieszkaniec / Posesjonat,Zarzecze,4,1761–1778,"14, 26, 42, 137",Zapisy oryginalne w rękopisie: Marcin Drąś; Marcin Dras
-93,Drąś,Draj? / Dras? / Dras? / Draz? / Dmyś?,Wojciech,,Mieszkaniec / Posesjonat,Piaski,3,1761–1766,"13, 25, 41",Zapisy oryginalne w rękopisie: Wojciech Drąś; Woyciech Drąś
+93,Drąś,Draj? / Dras? / Dras? / Draz? / Dmyś? / Dras? / Drąś (Dziesiątnik Piaskowy),Wojciech,,Mieszkaniec / Posesjonat,Piaski,3,1761–1766,"13, 25, 41",Zapisy oryginalne w rękopisie: Wojciech Drąś; Woyciech Drąś
 94,Drąś,Draj? / Dras? / Dras? / Draz? / Dmyś?,Wojciech,,Mieszkaniec / Posesjonat,Zarzecze,2,1775–1777,"87, 128",Zapisy oryginalne w rękopisie: Wojciech Drąś; Wojciech Dras
 95,Dubaj,,Adam,,Mieszkaniec / Posesjonat,Zarzecze,1,1777,130,Zapisy oryginalne w rękopisie: Adam Dubaj
-96,Dubaj,,Józef,,Mieszkaniec / Posesjonat,Piaski,2,1772–1777,"75, 133",Zapisy oryginalne w rękopisie: Józef Dubaj
+96,Dubaj,Dubaj (Dziesiątnik Zarzyczny),Józef,,Mieszkaniec / Posesjonat,Piaski,2,1772–1777,"75, 133",Zapisy oryginalne w rękopisie: Józef Dubaj
 97,Dubaj,,Józef,,Mieszkaniec / Posesjonat,Zarzecze,6,1761–1778,"14, 26, 42, 63, 130, 137",Zapisy oryginalne w rękopisie: Józef Dubay; Józef Dubaj
 98,Dubaj,,Sebastian,,Mieszkaniec / Posesjonat,Zarzecze,3,1761–1766,"14, 26, 42",Zapisy oryginalne w rękopisie: Sobek Dubay; Sobestyan Dubaj; Sobek Dubaj
 99,Dudek,,Andrzej,,Mieszkaniec / Posesjonat,Piaski,1,1777,127,Zapisy oryginalne w rękopisie: Andrzej Dudek
@@ -174,7 +174,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 173,Kapnik,,Szczepan,,Mieszkaniec / Posesjonat,Piaski,2,1769–1772,"66, 74",Zapisy oryginalne w rękopisie: Stefan Kapnik
 174,Karabaczyk,,Joachim,,Mieszkaniec / Posesjonat,Piaski,3,1761–1766,"13, 25, 41",Zapisy oryginalne w rękopisie: Jachym (Jachim) Karabaczyk; Jachym Karabacz; Joachim Karabacz
 175,Kasper,,[Wdowa],,Mieszkanka (wdowa),Śródmieście,1,1761,15,Wdowa (rodzina Kasper). Zapisy oryginalne: Kasprowa Wdowa
-176,Kawka,,Augustyn,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1772,76,Zapisy oryginalne w rękopisie: Augustyn Kawka
+176,Kawka,Kawka (Dziesiątnik Podleski),Augustyn,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1772,76,Zapisy oryginalne w rękopisie: Augustyn Kawka
 177,Kawka,,Augustyn,,Mieszkaniec / Posesjonat,Zarzecze,1,1775,87,Zapisy oryginalne w rękopisie: Augustyn Kawka)
 178,Kawka,,Baltazar,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1761–1766,"14, 26, 42",Zapisy oryginalne w rękopisie: Baltazar Kawka
 179,Kawka,,Maciej,,Mieszkaniec / Posesjonat,Góry i Podlesie,2,1777,"130, 134",Zapisy oryginalne w rękopisie: Maciej Kawka
@@ -357,7 +357,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 356,Pagacz,Rajana? / Pagana?,Jan,,Mieszkaniec / Posesjonat,Piaski,1,1761,13,Zapisy oryginalne w rękopisie: Jan Pagana | Wariant lekcji paleograficznej w taryfie 1761 r. (skan #13): Jan Pagacz [Rajana? / Pagana?] (21 gr)
 357,Panek,Ponek?,Antoni,,Mieszkaniec / Posesjonat,Zarzecze,3,1761–1766,"13, 26, 41",Zapisy oryginalne w rękopisie: Antoni Panek
 358,Paprocki,,[Pisarz miejski],,Pisarz miejski,Kraśnik (ogólne),1,1775,81,Zapisy oryginalne w rękopisie: pisarz Paprocki
-359,Paszkiewicz,,Józef,,Wójt,Kraśnik (ogólne),12,1775–1784,"80, 81, 86, 88, 140, 165, 174, 194, 204, 206, 207, 221",Zapisy oryginalne w rękopisie: Józef Paszkiewicz (szafarz); szafarz Józef Paszkiewicz; Józef Paszkiewicz (szafarz miejski); Józef Paszkiewicz
+359,Paszkiewicz,Paszkiewicz (Szafarz miejski 1772–1775),Józef,,Wójt,Kraśnik (ogólne),12,1775–1784,"80, 81, 86, 88, 140, 165, 174, 194, 204, 206, 207, 221",Zapisy oryginalne w rękopisie: Józef Paszkiewicz (szafarz); szafarz Józef Paszkiewicz; Józef Paszkiewicz (szafarz miejski); Józef Paszkiewicz
 360,Paszkiewicz,,Józef,,Mieszkaniec / Posesjonat,Piaski,1,1777,132,Zapisy oryginalne w rękopisie: Józef Paśkiewicz
 361,Paszkiewicz,,Józef,,Szafarz miejski,Zarzecze,1,1775,87,Zapisy oryginalne w rękopisie: Józef Paszkiewicz (szafarz)
 362,Paszkiewicz,,Józef,,Mieszkaniec / Posesjonat,Śródmieście,1,1778,136,Zapisy oryginalne w rękopisie: Józef Paśkiewicz
@@ -427,7 +427,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 426,Pośkiewicz,,Józef,,Mieszkaniec / Posesjonat,Piaski,1,1777,127,Zapisy oryginalne w rękopisie: Józef Pośkiewicz
 427,Przesławski,,Jan,,Mieszkaniec / Posesjonat,Śródmieście,1,1761,15,Zapisy oryginalne w rękopisie: Jan Przesławski
 428,Prządka,,Bartłomiej,,Mieszkaniec / Posesjonat,Zarzecze,4,1761–1768,"14, 26, 42, 54",Zapisy oryginalne w rękopisie: Bartłomiey Prządka; Bartłomiej Prządka
-429,Prządka,,Grzegorz,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1761–1766,"14, 27, 42",Zapisy oryginalne w rękopisie: Grzegorz Prządka
+429,Prządka,Prządka (Góry 1772),Grzegorz,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1761–1766,"14, 27, 42",Zapisy oryginalne w rękopisie: Grzegorz Prządka
 430,Prządka,,Krzysztof,,Mieszkaniec / Posesjonat,Śródmieście,1,1761,15,Zapisy oryginalne w rękopisie: Krzysztof Prządka
 431,Prządka,Przędza? / Przepiórka?,[Wdowa],,Mieszkanka (wdowa),Piaski,1,1761,13,Wdowa (rodzina Prządka). Zapisy oryginalne: Trządczyna wdowa
 432,Prządka,Przędza? / Przepiórka?,[Wdowa],,Mieszkanka (wdowa),Zarzecze,3,1761–1766,"14, 26, 42",Wdowa (rodzina Prządka). Zapisy oryginalne: Prządkowa Wdowa
@@ -509,11 +509,11 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 508,Strażnik,Prażnik?,Maciej,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1761–1766,"14, 26, 42",Zapisy oryginalne w rękopisie: Maciey Strażnik; Maciej Strażnik
 509,Suchodolski,,Józef,,Mieszkaniec / Posesjonat,Kraśnik (ogólne),1,1769,67,Zapisy oryginalne w rękopisie: Józef Suchodolski (ekonom klucza kraśnickiego)
 510,Suliciński,,Krzysztof,,Szafarz miejski,Kraśnik (ogólne),1,1775,89,Zapisy oryginalne w rękopisie: Krzysztof Suliciński (szafarze)
-511,Suliczyński,Suliszowski?,Krzysztof,,Burmistrz,Kraśnik (ogólne),5,1778–1781,"141, 145, 166, 168, 194",Zapisy oryginalne w rękopisie: Krzysztof Suliczyński; Krzysztof Suliczyński (były exaktor); Krzysztof Suliczyński (były szafarz); Krzysztof Suliczyński (burmistrzowie)
+511,Suliczyński,Suliszowski? / Tuliciński? / Suliczyński (Szafarz 1775),Krzysztof,,Burmistrz,Kraśnik (ogólne),5,1778–1781,"141, 145, 166, 168, 194",Zapisy oryginalne w rękopisie: Krzysztof Suliczyński; Krzysztof Suliczyński (były exaktor); Krzysztof Suliczyński (były szafarz); Krzysztof Suliczyński (burmistrzowie)
 512,Suliczyński,Suliszowski?,Krzysztof,,Mieszkaniec / Posesjonat,Śródmieście,1,1778,135,Zapisy oryginalne w rękopisie: Krzysztof Suliczyński
 513,Sulik,,Antoni,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1777,131,Zapisy oryginalne w rękopisie: Antoni Sulik
 514,Sulik,,Antoni,,Mieszkaniec / Posesjonat,Śródmieście,1,1777,126,Zapisy oryginalne w rękopisie: Antoni Sulik
-515,Szadzik,,Józef,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1777–1778,"130, 134, 136",Zapisy oryginalne w rękopisie: Józef Szadzik
+515,Szadzik,Szadzik (Dziesiątnik Gór i Podlesia),Józef,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1777–1778,"130, 134, 136",Zapisy oryginalne w rękopisie: Józef Szadzik
 516,Szafrański,,Walenty,,Mieszkaniec / Posesjonat,Śródmieście,2,1764–1766,"27, 43",Zapisy oryginalne w rękopisie: Walenty Szafrański
 517,Szajewski,Zaięwki? / Szajewski?,Grzegorz,,Mieszkaniec / Posesjonat,Śródmieście,4,1764–1772,"27, 43, 65, 73",Zapisy oryginalne w rękopisie: Grzegorz Szajewski; Grzegorz Szajowski
 518,Szajewski,,Szymon,,Mieszkaniec / Posesjonat,Śródmieście,1,1761,15,Zapisy oryginalne w rękopisie: Szymon Szajewski
@@ -523,7 +523,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 522,Szlachowicz,,Wojciech,,Mieszkaniec / Posesjonat,Śródmieście,3,1761–1766,"15, 27, 43",Zapisy oryginalne w rękopisie: Woyciech Szlachowicz (Stachowicz); Woyciech Szlachowicz
 523,Szubartowski,Skubartowski?,Jan,,Mieszkaniec / Posesjonat,Góry i Podlesie,3,1761–1766,"14, 26, 42",Zapisy oryginalne w rękopisie: Jan Szubartowski
 524,Szubartowski,,Paweł,,Wójt,Kraśnik (ogólne),9,1775–1781,"89, 142, 153, 156, 164, 194, 195",Zapisy oryginalne w rękopisie: Sebestyan Szubartowski; Paweł Szubartowski; wójt Szubartowski; Szubartowski wójt
-525,Szubartowski,,Sebastian,,Wójt,Kraśnik (ogólne),6,1776–1780,"122, 128, 133, 137, 155, 191",Zapisy oryginalne w rękopisie: Maciej Szubartowski; Szubartowski
+525,Szubartowski,Szubartofski? (Burmistrz 1775),Sebastian,,Wójt,Kraśnik (ogólne),6,1776–1780,"122, 128, 133, 137, 155, 191",Zapisy oryginalne w rękopisie: Maciej Szubartowski; Szubartowski
 526,Szulc,,Jakub,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1777,131,Zapisy oryginalne w rękopisie: Jakub Szulc
 527,Szulc,,Jakub,,Mieszkaniec / Posesjonat,Śródmieście,3,1777–1778,"126, 135, 142",Zapisy oryginalne w rękopisie: Jakub Szulc
 528,Szulczerzyński,,Jan,,Mieszkaniec / Posesjonat,Kraśnik (ogólne),1,1788,242,Zapisy oryginalne w rękopisie: Jan Szulczerzyński (pisarz)
@@ -589,7 +589,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 588,Wiatrek,,Wojciech,,Mieszkaniec / Posesjonat,Piaski,4,1761–1777,"13, 25, 41, 132",Zapisy oryginalne w rękopisie: Wojciech Wiatrek; Woyciech Wiatrek
 589,Wilczyński,,Kazimierz,,Mieszkaniec / Posesjonat,Śródmieście,1,1778,147,Zapisy oryginalne w rękopisie: Kazimierz Rycerz i Franciszek Wilczyński (nowi exaktorzy)
 590,Wileński,,Kazimierz,,Mieszkaniec / Posesjonat,Kraśnik (ogólne),3,1779,"161, 165, 166",Zapisy oryginalne w rękopisie: Kazimierz Rycerz i Franciszek Wileński (exaktorowie 1778–1779); Kazimierz Rycerz i Franciszek Wileński (exaktorzy); Kazimierz Rycerz i Franciszek Wileński (exaktorowie 1778-1779)
-591,Wilk,,Antoni,,Burmistrz,Góry i Podlesie,4,1761–1772,"14, 26, 42, 76",Zapisy oryginalne w rękopisie: Antoni Wilk; Antoni Wilk burmistrz
+591,Wilk,Wilczyński? / Wilk (Burmistrz 1775),Antoni,,Burmistrz,Góry i Podlesie,4,1761–1772,"14, 26, 42, 76",Zapisy oryginalne w rękopisie: Antoni Wilk; Antoni Wilk burmistrz
 592,Wilk,,Antoni,,Mieszkaniec / Posesjonat,Kraśnik (ogólne),2,1775,"84, 89",Zapisy oryginalne w rękopisie: Antoni Wilczyński
 593,Wilk,,Franciszek,,Mieszkaniec / Posesjonat,Piaski,1,1777,132,Zapisy oryginalne w rękopisie: Franciszek Wilk
 594,Wilk,,Franciszek,,Mieszkaniec / Posesjonat,Śródmieście,2,1777–1778,"126, 135",Zapisy oryginalne w rękopisie: Franciszek Wilk
@@ -636,7 +636,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 635,Zdyb,Dybiona? / Zdyb?,Bartłomiej,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1761,14,Gospodarz kraśnicki (odnotowana w późniejszych spisach wdowa Bartłomiejowa Zdyb). Zapisy: Bartłomiej Zdyb
 636,Zdyb,Dybiona? / Zdyb?,Bartłomiej,,Mieszkaniec / Posesjonat,Piaski,3,1776–1778,"122, 132, 138",Gospodarz kraśnicki (odnotowana w późniejszych spisach wdowa Bartłomiejowa Zdyb). Zapisy: Bartłomiej Zdyb); Bartłomiej Zdyb
 637,Zdyb,Dybiona? / Zdyb?,Bartłomiej,,Mieszkaniec / Posesjonat,Zarzecze,1,1777,128,Gospodarz kraśnicki (odnotowana w późniejszych spisach wdowa Bartłomiejowa Zdyb). Zapisy: Bartłomiej Zdyb
-638,Zdyb,,Bartłomiejowa,,Mieszkanka (wdowa),Góry i Podlesie,2,1764–1766,"26, 42",Wdowa po Bartłomiejie Zdyb (odnotowana w księdze po zgonie męża). Zapisy oryginalne: Bartłomiejowa Zdybina
+638,Zdyb,Dybicura? / Dybiczywa? / Zdybiowa,Bartłomiejowa,,Mieszkanka (wdowa),Góry i Podlesie,3,1764–1772,"26, 42, 76",Wdowa po Bartłomiejie Zdyb (odnotowana w księdze po zgonie męża). Zapisy oryginalne: Bartłomiejowa Zdybina | Wzmiankowana w taryfie 1772 r. (skan 76) jako Bartłomiejowa Dybicura (3 gr).
 639,Zdyb,,Grzegorz,,Mieszkaniec / Posesjonat,Góry i Podlesie,1,1777,131,Zapisy oryginalne w rękopisie: Grzegorz Zdyb
 640,Zdyb,,Grzegorz,,Mieszkaniec / Posesjonat,Śródmieście,6,1761–1778,"15, 27, 43, 113, 126, 135",Zapisy oryginalne w rękopisie: Grzegorz Zdyb
 641,Zdyb,,Jan,,Mieszkaniec / Posesjonat,Śródmieście,1,1761,15,Zapisy oryginalne w rękopisie: Jan Zdyb
@@ -662,7 +662,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 661,[Żydzi kraśniccy],,Rubin,,Mieszkaniec / Posesjonat,Kraśnik (ogólne),1,1784,220,Zapisy oryginalne w rękopisie: Rubin (Żyd kraśnicki
 662,Ćwiek,Ćwicha?,Katarzyna,,Mieszkanka (wdowa),Góry i Podlesie,1,1761,14,Zapisy oryginalne w rękopisie: Katarzyna Ćwieczyna
 663,Ćwiek,Ćwicha?,Kazimierz,,Mieszkaniec / Posesjonat,Zarzecze,4,1761–1768,"13, 26, 41, 54",Zapisy oryginalne w rękopisie: Kazimierz Ćwieka
-664,Ćwiek,Ćwicha?,Wojciech,,Mieszkaniec / Posesjonat,Piaski,3,1761–1766,"13, 25, 41",Zapisy oryginalne w rękopisie: Wojciech Ćwieka; Woyciech Ćwieka
+664,Ćwiek,Ćwicha? / Cwiecha? / Ćwieka (Dziesiątnik Piaskowy),Wojciech,,Mieszkaniec / Posesjonat,Piaski,3,1761–1766,"13, 25, 41",Zapisy oryginalne w rękopisie: Wojciech Ćwieka; Woyciech Ćwieka
 665,Ćwiekla,,Wojciech,,Mieszkaniec / Posesjonat,Zarzecze,1,1775,87,Zapisy oryginalne w rękopisie: Wojciech Ćwiekla
 666,Łakomski,,Jakub,,Pisarz miejski,Śródmieście,1,1778,147,Zapisy oryginalne w rękopisie: Jakub Łakomski (pisarz miejski)
 667,Łapka,,Józef,,Mieszkaniec / Posesjonat,Zarzecze,3,1761–1766,"14, 26, 42",Zapisy oryginalne w rękopisie: Józef Łapka
@@ -696,8 +696,8 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 695,Śliwiński,,[Pisarz miejski],,Pisarz miejski,Kraśnik (ogólne),6,1768–1781,"48, 174, 189",Zapisy oryginalne w rękopisie: Józef Śliwiński (deputat/pisarz); pisarz Śliwiński; Kazimierz Rycerz (były burmistrz/exaktor); Pisarz Śliwiński
 696,Żelazny,,Krzysztof,,Mieszkaniec / Posesjonat,Piaski,1,1777,132,Zapisy oryginalne w rękopisie: Krzych Żelazny
 697,Bębenkowicz,Bogenkowicz? / Bębenkowa? / Bogenkowicz? / Bębenkowicz (Ławnik 1769),Maciej,,Mieszkaniec / Posesjonat,Śródmieście,2,1766–1768,"43, 56","Mieszkaniec śródmieścia Kraśnika. Płatnik sympli 1766 r. (jako Maciey Bogenkowicz, 3 gr) oraz 1768 r. (jako Maciey Bębenkowicz, 3 gr)."
-698,Madejczyk,Madeyczyk?,Grzegorz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Madeyczyk?.
-699,Pielaszkiewicz,Pielaszkiewicz (Substitut),Wawrzyniec,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Pielaszkiewicz (Substitut).
+698,Madejczyk,Madeyczyk? / Madeyski? / Madeyczyk (Pisarz 1775),Grzegorz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Madeyczyk?.
+699,Pielaszkiewicz,Pielaszkiewicz (Substitut) / Pilaszkowicz? / Pielaszkiewicz (Szafarz 1775),Wawrzyniec,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Pielaszkiewicz (Substitut).
 700,Grzymek,Przymek? / Grzymek? (Ławnik 1769),Szymon,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Przymek? / Grzymek? (Ławnik 1769).
 701,Pyzik,Byzik? / Pyzik?,Mateusz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Byzik? / Pyzik?.
 702,Brzozowski,Brzozofski?,Antoni,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Brzozofski?.
@@ -707,7 +707,7 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 706,Ziemniak,Ziemniaczka? / Zimniak,Jakub,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Ziemniaczka? / Zimniak.
 707,Krzywicki,Krzywicki (Śródmieście),Dominik,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Krzywicki (Śródmieście).
 708,Lewicki,Lewicki (Śródmieście),Piotr,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Lewicki (Śródmieście).
-709,Tokarski,Tokarski (Śródmieście),Józef,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Tokarski (Śródmieście).
+709,Tokarski,Tokarski (Śródmieście) / Tokarski (Wójt 1775),Józef,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Tokarski (Śródmieście).
 710,Dybiecki,Dybicki? / Dybiecki,Grzegorz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Dybicki? / Dybiecki.
 711,Frankowicz,Frankowicz (Śródmieście),Franciszek,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Frankowicz (Śródmieście).
 712,Olechowicz,Olechowicz (Śródmieście),Grzegorz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Olechowicz (Śródmieście).
@@ -724,3 +724,11 @@ LP,Nazwisko,Wariant nazwiska,Imię,Przydomek / Tytuł,Rola / Urząd,Miejsce w Kr
 723,Bojarski,Bujalski? / Bojarski? / Bouiartki?,Aleksander,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Bujalski? / Bojarski? / Bouiartki?.
 724,Rzadkowski,Rzadkowski (Zarzyce),Tomasz,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Rzadkowski (Zarzyce).
 725,Rudzonek,Rudzonek (Zarzyce),Kasper,,Mieszkaniec Kraśnika,Kraśnik,1,1769–1772,61,Wzmiankowany w taryfach lub elekcjach lat 1769–1772 (skany 61–75). Wariant zapisu: Rudzonek (Zarzyce).
+726,Bocheński,Bocheński (Komisarz ordynacki 1772),A.,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Bocheński (Komisarz ordynacki 1772)."
+727,Stechowski,Stechoski? (Pogorzałek z Zarzycza),Antoni,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Stechoski? (Pogorzałek z Zarzycza)."
+728,Gołębiowski,Gołembiewski? / Gołębiowski (Wójt 1775),Wojciech,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Gołembiewski? / Gołębiowski (Wójt 1775)."
+729,Bielach,Bielak? / Bielach (1772),Stanisław,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Bielak? / Bielach (1772)."
+730,Potokowicz,Polokowicz? / Potokowicz (1772),Maciej,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Polokowicz? / Potokowicz (1772)."
+731,Potokowicz,Połokowicz? / Potokowicz,Piotr,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Połokowicz? / Potokowicz."
+732,Bąk,Bąk (Góry 1772),Jędrzej,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Bąk (Góry 1772)."
+733,Skoracz,Skoracz (Góry 1772),Maciej,,Mieszkaniec / Urzędnik Kraśnika,Kraśnik,1,1772–1775,76,"Wzmiankowany w aktach lustracyjnych, pożarowych lub elekcyjnych lat 1772–1775 (skany 76–90). Wariant: Skoracz (Góry 1772)."
