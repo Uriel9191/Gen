@@ -1,0 +1,1084 @@
+[
+  {
+    "lp": 781,
+    "nazwisko": "Lipski",
+    "wariant_nazwiska": "Lipski / Karol Lipski Delegat mpp / Woyski Latyczewski",
+    "imie": "Karol",
+    "przydomek": "Komisarz Generalny Ordynacji Zamoyskiej",
+    "funkcja": "Komisarz generalny Ordynacji Zamojskiej / Wojski latyczewski / Delegat dziedzica",
+    "miejsce": "Ordynacja Zamojska / Kraśnik",
+    "skany_roboczo": "#139, #140, #141, #144, #145",
+    "skany_list": [
+      139,
+      140,
+      141,
+      144,
+      145
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "nazwisko": "Lipski",
+        "imie": "Karol",
+        "miejsce": "Kraśnik",
+        "rola": "Komisarz ordynacki delegowany",
+        "skan": 139,
+        "rok": "1778",
+        "zapis_oryginalny": "Karol Lipski Woyski Latyczewski",
+        "kwota_ctx": "Mandat ordynacki"
+      },
+      {
+        "nazwisko": "Lipski",
+        "imie": "Karol",
+        "miejsce": "Kraśnik",
+        "rola": "Delegat rewizyjny",
+        "skan": 140,
+        "rok": "1778",
+        "zapis_oryginalny": "Karol Lipski Delegat mpp",
+        "kwota_ctx": "Rewizja kasy miejskiej"
+      },
+      {
+        "nazwisko": "Lipski",
+        "imie": "Karol",
+        "miejsce": "Kraśnik",
+        "rola": "Zatwierdzający Perceptę",
+        "skan": 141,
+        "rok": "1778",
+        "zapis_oryginalny": "Karol Lipski Delegat mpp",
+        "kwota_ctx": "8765 zł"
+      },
+      {
+        "nazwisko": "Lipski",
+        "imie": "Karol",
+        "miejsce": "Kraśnik",
+        "rola": "Zamknięcie bilansu Expensy",
+        "skan": 145,
+        "rok": "1778",
+        "zapis_oryginalny": "Karol Lipski Delegat mpp",
+        "kwota_ctx": "8765 zł"
+      }
+    ]
+  },
+  {
+    "lp": 782,
+    "nazwisko": "Zamoyski",
+    "wariant_nazwiska": "Zamoyski / Jan Jakob na Zamosciu Ordynat / J O Zamoyski W P",
+    "imie": "Jan Jakub",
+    "przydomek": "IX Ordynat Zamoyski",
+    "funkcja": "IX Ordynat Zamoyski / Wojewoda Podolski / Starosta rostocki / Dziedzic Kraśnika",
+    "miejsce": "Zwierzyniec / Zamość / Kraśnik",
+    "skany_roboczo": "#139",
+    "skany_list": [
+      139
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Zamoyski",
+        "imie": "Jan Jakub",
+        "miejsce": "Zwierzyniec",
+        "rola": "Dziedzic miasta Kraśnika / Ordynat",
+        "skan": 139,
+        "rok": "1778",
+        "zapis_oryginalny": "Jan Jakob na Zamosciu Ordynat Zamoyski Wojewoda Podolski (J O Zamoyski W P)",
+        "kwota_ctx": "Mandat ordynacki"
+      }
+    ]
+  },
+  {
+    "lp": 783,
+    "nazwisko": "Deyk",
+    "wariant_nazwiska": "Deyk / Deyka / Dayk / Deik",
+    "imie": "Jacek",
+    "przydomek": "",
+    "funkcja": "Mieszkaniec / Posesjonat",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#127, #136",
+    "skany_list": [
+      127,
+      136
+    ],
+    "zakres_lat": "1777–1778",
+    "min_rok": 1777,
+    "max_rok": 1778,
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "nazwisko": "Deyk",
+        "imie": "Jacek",
+        "miejsce": "Śródmieście",
+        "rola": "Płatnik podymnego",
+        "skan": 127,
+        "rok": "1777",
+        "zapis_oryginalny": "Jacek Deyk",
+        "kwota_ctx": "3 zł"
+      },
+      {
+        "nazwisko": "Deyk",
+        "imie": "Jacek",
+        "miejsce": "Śródmieście",
+        "rola": "Płatnik dymowego",
+        "skan": 136,
+        "rok": "1778",
+        "zapis_oryginalny": "Jacek Deyk",
+        "kwota_ctx": "3 zł"
+      }
+    ]
+  },
+  {
+    "lp": 784,
+    "nazwisko": "Deyk",
+    "wariant_nazwiska": "Deyk / Deyka / Ksiądz Deyk",
+    "imie": "Kazimierz",
+    "przydomek": "Ksiądz",
+    "funkcja": "Duchowny / Posesjonat",
+    "miejsce": "Zarzyce",
+    "skany_roboczo": "#130, #133",
+    "skany_list": [
+      130,
+      133
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "nazwisko": "Deyk",
+        "imie": "Kazimierz",
+        "miejsce": "Zarzyce",
+        "rola": "Płatnik podymnego",
+        "skan": 130,
+        "rok": "1777",
+        "zapis_oryginalny": "Ksiądz Deyk",
+        "kwota_ctx": "3 zł"
+      },
+      {
+        "nazwisko": "Deyk",
+        "imie": "Kazimierz",
+        "miejsce": "Zarzyce",
+        "rola": "Płatnik 6 sympli",
+        "skan": 133,
+        "rok": "1777",
+        "zapis_oryginalny": "Kazimierz Deyk",
+        "kwota_ctx": "3 zł"
+      }
+    ]
+  },
+  {
+    "lp": 785,
+    "nazwisko": "Pętek",
+    "wariant_nazwiska": "Pętek / Petek / Pentek",
+    "imie": "Mateusz",
+    "przydomek": "",
+    "funkcja": "Mieszkaniec / Płatnik sympli",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#131",
+    "skany_list": [
+      131
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Pętek",
+        "imie": "Mateusz",
+        "miejsce": "Śródmieście",
+        "rola": "Płatnik 6 sympli",
+        "skan": 131,
+        "rok": "1777",
+        "zapis_oryginalny": "Mateusz Pętek",
+        "kwota_ctx": "1 zł 6 gr"
+      }
+    ]
+  },
+  {
+    "lp": 786,
+    "nazwisko": "Chabus",
+    "wariant_nazwiska": "Chabus / Chabus Żyd / Z Marcowiczowej kamienicy",
+    "imie": "Chabus",
+    "przydomek": "Żyd",
+    "funkcja": "Kupiec / Lokator w kamienicy Marcowiczowej / Płatnik sympli",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#131",
+    "skany_list": [
+      131
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Chabus",
+        "imie": "Chabus",
+        "miejsce": "Śródmieście",
+        "rola": "Płatnik 6 sympli",
+        "skan": 131,
+        "rok": "1777",
+        "zapis_oryginalny": "Tamże Chabus",
+        "kwota_ctx": "1 zł"
+      }
+    ]
+  },
+  {
+    "lp": 787,
+    "nazwisko": "Bujarska",
+    "wariant_nazwiska": "Bujarska / Bvyarska / Wdowa Bujarska",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Posesjonatka / Mieszczka",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#132",
+    "skany_list": [
+      132
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Bujarska",
+        "imie": "[Wdowa]",
+        "miejsce": "Śródmieście",
+        "rola": "Płatniczka 6 sympli",
+        "skan": 132,
+        "rok": "1777",
+        "zapis_oryginalny": "Bujarska",
+        "kwota_ctx": "1 zł 6 gr"
+      }
+    ]
+  },
+  {
+    "lp": 788,
+    "nazwisko": "Bańka",
+    "wariant_nazwiska": "Bańka / Banka / z Budy",
+    "imie": "Józef",
+    "przydomek": "",
+    "funkcja": "Szynkarz / Mieszkaniec Budy miejskiej",
+    "miejsce": "Buda miejska",
+    "skany_roboczo": "#132",
+    "skany_list": [
+      132
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Bańka",
+        "imie": "Józef",
+        "miejsce": "Buda miejska",
+        "rola": "Płatnik 6 sympli",
+        "skan": 132,
+        "rok": "1777",
+        "zapis_oryginalny": "Jozef Bańka z Budy",
+        "kwota_ctx": "15 gr"
+      }
+    ]
+  },
+  {
+    "lp": 789,
+    "nazwisko": "Wójcik",
+    "wariant_nazwiska": "Woycik / Wójcik / Szczepan Woycik",
+    "imie": "Szczepan",
+    "przydomek": "",
+    "funkcja": "Mieszkaniec / Płatnik sympli",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#132",
+    "skany_list": [
+      132
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Wójcik",
+        "imie": "Szczepan",
+        "miejsce": "Śródmieście",
+        "rola": "Płatnik 6 sympli",
+        "skan": 132,
+        "rok": "1777",
+        "zapis_oryginalny": "Szczepan Woycik",
+        "kwota_ctx": "1 zł 6 gr"
+      }
+    ]
+  },
+  {
+    "lp": 790,
+    "nazwisko": "Trojczak",
+    "wariant_nazwiska": "Trojczak / Gaspar Trojczak / Kasper",
+    "imie": "Kacper",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Posesjonat",
+    "miejsce": "Zarzyce",
+    "skany_roboczo": "#133, #137",
+    "skany_list": [
+      133,
+      137
+    ],
+    "zakres_lat": "1777–1778",
+    "min_rok": 1777,
+    "max_rok": 1778,
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "nazwisko": "Trojczak",
+        "imie": "Kacper",
+        "miejsce": "Zarzyce",
+        "rola": "Płatnik 6 sympli",
+        "skan": 133,
+        "rok": "1777",
+        "zapis_oryginalny": "Gaspar Trojczak",
+        "kwota_ctx": "2 zł"
+      },
+      {
+        "nazwisko": "Trojczak",
+        "imie": "Kacper",
+        "miejsce": "Zarzyce",
+        "rola": "Płatnik dymowego",
+        "skan": 137,
+        "rok": "1778",
+        "zapis_oryginalny": "Kasper Trojczak",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 791,
+    "nazwisko": "Dubaj",
+    "wariant_nazwiska": "Dubajowa / Dubayowa / Dubajowa Wdowa / Wdowa",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanka / Płatniczka 6 sympli",
+    "miejsce": "Zarzyce",
+    "skany_roboczo": "#133",
+    "skany_list": [
+      133
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Dubaj",
+        "imie": "[Wdowa]",
+        "miejsce": "Zarzyce",
+        "rola": "Płatniczka 6 sympli",
+        "skan": 133,
+        "rok": "1777",
+        "zapis_oryginalny": "Dubayowa",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 792,
+    "nazwisko": "Mikoś",
+    "wariant_nazwiska": "Mikoś / Mikos / Adam Mikoś",
+    "imie": "Adam",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Płatnik 6 sympli",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#134",
+    "skany_list": [
+      134
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Mikoś",
+        "imie": "Adam",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatnik 6 sympli",
+        "skan": 134,
+        "rok": "1777",
+        "zapis_oryginalny": "Adam Mikoś",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 793,
+    "nazwisko": "Tokarz",
+    "wariant_nazwiska": "Tokarz / Augustyn Tokarz",
+    "imie": "Augustyn",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Rzemieślnik / Płatnik sympli",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#134",
+    "skany_list": [
+      134
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Tokarz",
+        "imie": "Augustyn",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatnik 6 sympli",
+        "skan": 134,
+        "rok": "1777",
+        "zapis_oryginalny": "Augustyn Tokarz",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 794,
+    "nazwisko": "Pawliczka",
+    "wariant_nazwiska": "Pawliczka / Wdowa Pawliczka",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanka / Płatniczka sympli",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#134",
+    "skany_list": [
+      134
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Pawliczka",
+        "imie": "[Wdowa]",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatniczka 6 sympli",
+        "skan": 134,
+        "rok": "1777",
+        "zapis_oryginalny": "Pawliczka",
+        "kwota_ctx": "1 zł 10 gr"
+      }
+    ]
+  },
+  {
+    "lp": 795,
+    "nazwisko": "Grządziel",
+    "wariant_nazwiska": "Grzączyna / Grządzielowa / Grządzina / Wdowa Grzączyna",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanka / Płatniczka sympli",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#134",
+    "skany_list": [
+      134
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Grządziel",
+        "imie": "[Wdowa]",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatniczka 6 sympli",
+        "skan": 134,
+        "rok": "1777",
+        "zapis_oryginalny": "Grzączyna",
+        "kwota_ctx": "1 zł 10 gr"
+      }
+    ]
+  },
+  {
+    "lp": 796,
+    "nazwisko": "Zimniak",
+    "wariant_nazwiska": "Zimniakowa / Wdowa Zimniakowa",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanka / Płatniczka sympli",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#134",
+    "skany_list": [
+      134
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Zimniak",
+        "imie": "[Wdowa]",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatniczka 6 sympli",
+        "skan": 134,
+        "rok": "1777",
+        "zapis_oryginalny": "Zimniakowa",
+        "kwota_ctx": "1 zł 10 gr"
+      }
+    ]
+  },
+  {
+    "lp": 797,
+    "nazwisko": "Chmiel",
+    "wariant_nazwiska": "Chmielowa / Chmielowa wdowa / Wdowa",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Mieszczka / Płatniczka dymowego",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#135",
+    "skany_list": [
+      135
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Chmiel",
+        "imie": "[Wdowa]",
+        "miejsce": "Śródmieście",
+        "rola": "Płatniczka dymowego",
+        "skan": 135,
+        "rok": "1778",
+        "zapis_oryginalny": "Chmielowa wdowa",
+        "kwota_ctx": "1 zł 15 gr"
+      }
+    ]
+  },
+  {
+    "lp": 798,
+    "nazwisko": "Dyrda",
+    "wariant_nazwiska": "Dyrdowa / Pytlikowa? / Wdowa Dyrdowa",
+    "imie": "[Wdowa]",
+    "przydomek": "",
+    "funkcja": "Mieszczka / Płatniczka dymowego",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#135",
+    "skany_list": [
+      135
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Dyrda",
+        "imie": "[Wdowa]",
+        "miejsce": "Śródmieście",
+        "rola": "Płatniczka dymowego",
+        "skan": 135,
+        "rok": "1778",
+        "zapis_oryginalny": "Dyrdowa",
+        "kwota_ctx": "1 zł 20 gr"
+      }
+    ]
+  },
+  {
+    "lp": 799,
+    "nazwisko": "Lenart",
+    "wariant_nazwiska": "Lenart / Woyciech Lenart",
+    "imie": "Wojciech",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Płatnik podymnego",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#131",
+    "skany_list": [
+      131
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Lenart",
+        "imie": "Wojciech",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Płatnik podymnego",
+        "skan": 131,
+        "rok": "1777",
+        "zapis_oryginalny": "Woyciech Lenart",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 800,
+    "nazwisko": "Czekin",
+    "wariant_nazwiska": "Czelinkarimir / Czelinkarimira / Czekin / Czekina / Stanisław Czekin / Stanisława Czekina",
+    "imie": "Stanisław",
+    "przydomek": "",
+    "funkcja": "Mieszkaniec / Dłużnik zaległości miejskich z lat 1772–1775",
+    "miejsce": "Śródmieście",
+    "skany_roboczo": "#140",
+    "skany_list": [
+      140
+    ],
+    "zakres_lat": "1775–1778",
+    "min_rok": 1775,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Czekin",
+        "imie": "Stanisław",
+        "miejsce": "Śródmieście",
+        "rola": "Dłużnik retentów miejskich",
+        "skan": 140,
+        "rok": "1778",
+        "zapis_oryginalny": "Czelinkarimira",
+        "kwota_ctx": "21 zł 16 gr"
+      }
+    ]
+  },
+  {
+    "lp": 801,
+    "nazwisko": "Dryzder",
+    "wariant_nazwiska": "Dryzder / Woyciech Dryzder Piaskowy",
+    "imie": "Wojciech",
+    "przydomek": "Dziesiętnik Piaskowy",
+    "funkcja": "Dziesiętnik przedmieścia Piasek / Poborca retentów",
+    "miejsce": "Piasek",
+    "skany_roboczo": "#140",
+    "skany_list": [
+      140
+    ],
+    "zakres_lat": "1775–1778",
+    "min_rok": 1775,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Dryzder",
+        "imie": "Wojciech",
+        "miejsce": "Piasek",
+        "rola": "Dziesiętnik poborca",
+        "skan": 140,
+        "rok": "1778",
+        "zapis_oryginalny": "Woyciecha Dryzdra Piaskowego",
+        "kwota_ctx": "41 zł 19 gr"
+      }
+    ]
+  },
+  {
+    "lp": 802,
+    "nazwisko": "Cywka",
+    "wariant_nazwiska": "Cywka / Woyciech Cywka Dziesiętnik",
+    "imie": "Wojciech",
+    "przydomek": "Dziesiętnik Piaskowy",
+    "funkcja": "Dziesiętnik przedmieścia Piasek / Poborca retentów",
+    "miejsce": "Piasek",
+    "skany_roboczo": "#140",
+    "skany_list": [
+      140
+    ],
+    "zakres_lat": "1775–1778",
+    "min_rok": 1775,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Cywka",
+        "imie": "Wojciech",
+        "miejsce": "Piasek",
+        "rola": "Dziesiętnik poborca",
+        "skan": 140,
+        "rok": "1778",
+        "zapis_oryginalny": "Woyciecha Cywki Dziesiętnika Piaskowie",
+        "kwota_ctx": "25 zł 12 gr"
+      }
+    ]
+  },
+  {
+    "lp": 803,
+    "nazwisko": "Siedlik",
+    "wariant_nazwiska": "Siedlik / Jozef Siedlik Dziesiętnik",
+    "imie": "Józef",
+    "przydomek": "Dziesiętnik",
+    "funkcja": "Dziesiętnik Gór i Podlesia / Poborca retentów",
+    "miejsce": "Góry i Podlesie",
+    "skany_roboczo": "#140",
+    "skany_list": [
+      140
+    ],
+    "zakres_lat": "1775–1778",
+    "min_rok": 1775,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Siedlik",
+        "imie": "Józef",
+        "miejsce": "Góry i Podlesie",
+        "rola": "Dziesiętnik poborca",
+        "skan": 140,
+        "rok": "1778",
+        "zapis_oryginalny": "Jozefa Siedlika Dziesiętnika Gory y Podles",
+        "kwota_ctx": "52 zł 19½ gr"
+      }
+    ]
+  },
+  {
+    "lp": 804,
+    "nazwisko": "Szubartowski",
+    "wariant_nazwiska": "Zubarzewski / Zubarzewskiemu / Szubartowski / Szubartowskiemu / Sławetny Zubarzewski",
+    "imie": "Paweł",
+    "przydomek": "",
+    "funkcja": "Mieszczanin / Wierzyciel kasy miejskiej (zwrot długu 60 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Szubartowski",
+        "imie": "Paweł",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Sławet: Zubarzewskiemu",
+        "kwota_ctx": "60 zł długu"
+      }
+    ]
+  },
+  {
+    "lp": 805,
+    "nazwisko": "Benyś",
+    "wariant_nazwiska": "Benyś / Beniuś / Benysiowi / Berek? / Pożyczkodawca",
+    "imie": "Benyś",
+    "przydomek": "Finansista",
+    "funkcja": "Kupiec / Finansista kraśnicki (pożyczka na interes miejski)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Benyś",
+        "imie": "Benyś",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel / Pożyczkodawca",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Beniusiowi od pożyczanych pieniędzy na interess Mieyski",
+        "kwota_ctx": "17 zł prowizji"
+      }
+    ]
+  },
+  {
+    "lp": 806,
+    "nazwisko": "Abus",
+    "wariant_nazwiska": "Abus / Abusowi / Abus Żyd / Abraham / Abusiowi Zydowi",
+    "imie": "Abus",
+    "przydomek": "Żyd",
+    "funkcja": "Kupiec żydowski / Wierzyciel kasy miejskiej (spłata 102 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Abus",
+        "imie": "Abus",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Abusiowi Zydowi",
+        "kwota_ctx": "102 zł spłaty"
+      }
+    ]
+  },
+  {
+    "lp": 807,
+    "nazwisko": "Mądrzycki",
+    "wariant_nazwiska": "Mądrzycki / Mądrzyckiemu / Nadeycki / Nadeyckiemu / Sławetny Nadeycki",
+    "imie": "[Brak imienia]",
+    "przydomek": "",
+    "funkcja": "Mieszczanin / Wierzyciel kasy miejskiej (spłata długu 57 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Mądrzycki",
+        "imie": "[Brak imienia]",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Sławet: Nadeyckiemu",
+        "kwota_ctx": "57 zł spłaty długu"
+      }
+    ]
+  },
+  {
+    "lp": 808,
+    "nazwisko": "Dyrektor Szkoły",
+    "wariant_nazwiska": "Dyrektor Szkoły / Dyrektorek Szkolny / Rektor / Rektorowi szkoły / Rektorowi",
+    "imie": "[Brak imienia]",
+    "przydomek": "Dyrektorek Szkolny",
+    "funkcja": "Dyrektor / Rektor szkoły parafialnej w Kraśniku (spłata 20 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Dyrektor Szkoły",
+        "imie": "[Brak imienia]",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu / Szkolnictwo",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Dyrektorkowi Szkolnemu",
+        "kwota_ctx": "20 zł reszty oddanych"
+      }
+    ]
+  },
+  {
+    "lp": 809,
+    "nazwisko": "Herszek",
+    "wariant_nazwiska": "Herszek / Henczek / Henczkowi Herszkowi",
+    "imie": "Herszek",
+    "przydomek": "Żyd",
+    "funkcja": "Mieszkaniec / Wierzyciel miejski (spłata 7 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Herszek",
+        "imie": "Herszek",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Henczkowi Herszkowi",
+        "kwota_ctx": "7 zł długu"
+      }
+    ]
+  },
+  {
+    "lp": 810,
+    "nazwisko": "Sora",
+    "wariant_nazwiska": "Sora / Sorze / Sora Żydówka / Sera / Serze Zydowce",
+    "imie": "Sora",
+    "przydomek": "Żydówka",
+    "funkcja": "Mieszczka żydowska / Wierzycielka kasy miejskiej (spłata 16 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Sora",
+        "imie": "Sora",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzycielka magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Serze Zydowce",
+        "kwota_ctx": "16 zł długu"
+      }
+    ]
+  },
+  {
+    "lp": 811,
+    "nazwisko": "Gstęblowski",
+    "wariant_nazwiska": "Gstęblowski / Gęblewski / Gęblewskiemu / Stembowski / Gstęmblewski",
+    "imie": "[Brak imienia]",
+    "przydomek": "",
+    "funkcja": "Mieszczanin / Wierzyciel kasy miejskiej (spłata 5 zł)",
+    "miejsce": "Kraśnik",
+    "skany_roboczo": "#143",
+    "skany_list": [
+      143
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Gstęblowski",
+        "imie": "[Brak imienia]",
+        "miejsce": "Kraśnik",
+        "rola": "Wierzyciel magistratu",
+        "skan": 143,
+        "rok": "1778",
+        "zapis_oryginalny": "Sławet: Gstęblowskiemu",
+        "kwota_ctx": "5 zł in vim Długu"
+      }
+    ]
+  },
+  {
+    "lp": 812,
+    "nazwisko": "Kaznowski",
+    "wariant_nazwiska": "Kaznowski / JmP. Kaznowski / Parkanowy",
+    "imie": "[Brak imienia]",
+    "przydomek": "JmP.",
+    "funkcja": "Parkanowy ordynacki / Poborca podatku parkanowego dla skarbu Zamoyskich",
+    "miejsce": "Ordynacja Zamojska / Kraśnik",
+    "skany_roboczo": "#144",
+    "skany_list": [
+      144
+    ],
+    "zakres_lat": "1775–1778",
+    "min_rok": 1775,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Kaznowski",
+        "imie": "[Brak imienia]",
+        "miejsce": "Kraśnik",
+        "rola": "Poborca parkanowego ordynackiego",
+        "skan": 144,
+        "rok": "1775",
+        "zapis_oryginalny": "JmP. Kaznowskiego Parkanowego",
+        "kwota_ctx": "208 zł + 49 zł 10 gr egzekucji"
+      }
+    ]
+  },
+  {
+    "lp": 813,
+    "nazwisko": "Marzycki",
+    "wariant_nazwiska": "Marzycki / JmP. Marzycki / Rewizor",
+    "imie": "[Brak imienia]",
+    "przydomek": "JmP.",
+    "funkcja": "Komisarz / Geometra ordynacki (rewizja pól czynszowych Kraśnika)",
+    "miejsce": "Kraśnik / Ordynacja Zamojska",
+    "skany_roboczo": "#145",
+    "skany_list": [
+      145
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Marzycki",
+        "imie": "[Brak imienia]",
+        "miejsce": "Kraśnik",
+        "rola": "Rewizor pól czynszowych",
+        "skan": 145,
+        "rok": "1778",
+        "zapis_oryginalny": "JmP. Marzyckiego będącego na Rewizyi Pol Cynszowych",
+        "kwota_ctx": "5 zł 9 gr expensy"
+      }
+    ]
+  },
+  {
+    "lp": 814,
+    "nazwisko": "Kozak",
+    "wariant_nazwiska": "Kozak / Łukasz Kozak",
+    "imie": "Łukasz",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Płatnik podymnego",
+    "miejsce": "Zarzyce",
+    "skany_roboczo": "#128",
+    "skany_list": [
+      128
+    ],
+    "zakres_lat": "1777",
+    "min_rok": 1777,
+    "max_rok": 1777,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Kozak",
+        "imie": "Łukasz",
+        "miejsce": "Zarzyce",
+        "rola": "Płatnik podymnego",
+        "skan": 128,
+        "rok": "1777",
+        "zapis_oryginalny": "Łukasz Kozak",
+        "kwota_ctx": "2 zł"
+      }
+    ]
+  },
+  {
+    "lp": 815,
+    "nazwisko": "Łopiński",
+    "wariant_nazwiska": "Łopiński / Łopinski / Woy: Łopinski / Wojciech Łopiński",
+    "imie": "Wojciech",
+    "przydomek": "",
+    "funkcja": "Przedmieszczanin / Posesjonat na Piasku",
+    "miejsce": "Piasek",
+    "skany_roboczo": "#138",
+    "skany_list": [
+      138
+    ],
+    "zakres_lat": "1778",
+    "min_rok": 1778,
+    "max_rok": 1778,
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "nazwisko": "Łopiński",
+        "imie": "Wojciech",
+        "miejsce": "Piasek",
+        "rola": "Płatnik dymowego",
+        "skan": 138,
+        "rok": "1778",
+        "zapis_oryginalny": "Woy: Łopinski",
+        "kwota_ctx": "5 zł"
+      }
+    ]
+  }
+]
