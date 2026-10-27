@@ -88,11 +88,26 @@ Skorowidz genealogiczny to baza konkretnych osób fizycznych żyjących i dział
 * **Zakaz zgadywania zawodu po nazwisku**: Nie wnioskować zawodu szewca z nazwiska *Szewc/Szewczyk*, rymarza z *Rymarczyk* itp. Jeśli zawód wynika z kontekstu, ale nie jest pewny, opatrywać go symbolem `[?]`.
 * **Ograniczenie łaciny**: Krótkie glosy łacińskie dopuszczalne wyłącznie w nawiasie w szczegółach rekordu.
 
-### 5. Postępowanie z Nazwiskami Niepewnymi i Alternatywnymi Lekcjami
-* **Zasada: 1 fizyczna osoba = 1 rekord w bazie**: Pod żadnym pozorem nie wolno tworzyć sztucznych, osobnych wierszy w skorowidzu dla wariantów nazwiska tej samej osoby (np. zakaz tworzenia osobnego rekordu dla *Jan Drąś* i osobnego dla *Jan Drozd*). Tworzenie zdublowanych wierszy zniekształca statystyki demograficzne i tworzy nieistniejące w rzeczywistości „osoby-widma”.
-* **Zapis w kolumnie „Nazwisko”**: Warianty zapisujemy w ramach jednego rekordu w formacie `NazwiskoGłówne [WariantAlternatywny?]` (np. `Drąś [Drozd?]`) lub w wydzielonym polu wariantu renderowanym subtelnie pod nazwiskiem głównym w tej samej komórce.
-* **Wymóg wyszukiwarki genealogicznej**: Silnik wyszukiwarki w kompendium musi zwracać dany wiersz niezależnie od tego, czy badacz wpisze w pole wyszukiwania formę główną (np. `Drąś`), czy alternatywną (np. `Drozd`).
-* **Dokumentacja kodykologiczna w uwagach**: W oknie szczegółów osoby (`uwagi`) podajemy dokładne paleograficzne uzasadnienie wątpliwości (np. *„litery -ąś/-ozd na załamaniu karty w skanie 41”*).
+### 5. Postępowanie z Nazwiskami Niepewnymi i Alternatywnymi Lekcjami (Wariant 2 - Obowiązujący Standard)
+* **Zasada bezwzględna: 1 fizyczna osoba = 1 rekord w bazie**:
+  * Kategoryczny zakaz tworzenia sztucznych, zdublowanych wierszy w skorowidzu dla wariantów nazwiska tej samej osoby (np. zakaz tworzenia jednego rekordu dla *Jan Drąś* i drugiego dla *Jan Drozd*).
+  * Zdublowane wpisy tworzą nieistniejące „osoby-widma” i zniekształcają statystyki zaludnienia, podatków oraz posesjonatów.
+* **Struktura danych i pole `wariant_nazwiska`**:
+  * W obiekcie `genData` wprowadzamy dedykowane pole:
+    `"nazwisko": "Drąś", "wariant_nazwiska": "Drozd?"`
+* **Prezentacja wizualna w komórce tabeli (Dwupoziomowy układ)**:
+  * W komórce „Nazwisko” renderujemy formę główną w `<strong>`, a bezpośrednio pod nią subtelny, ciemny badge z wariantem:
+    ```html
+    <strong>Drąś</strong>
+    <div style="font-size:0.75rem; color:#94a3b8; margin-top:2px; display:inline-block; padding:1px 5px; background:rgba(255,255,255,0.05); border-radius:3px; border:1px solid #334155;">wariant: Drozd?</div>
+    ```
+* **Integracja z wyszukiwarką na żywo**:
+  * Silnik wyszukiwarki przeszukuje równolegle oba pola:
+    `d.nazwisko.toLowerCase().includes(query) || (d.wariant_nazwiska && d.wariant_nazwiska.toLowerCase().includes(query))`
+  * Wpisanie zarówno formy głównej (*Drąś*), jak i alternatywnej (*Drozd*) natychmiast filtruje i wyświetla ten sam jeden rekord.
+* **Okno szczegółów osoby (Modal Genealogiczny)**:
+  * Po kliknięciu wiersza w tabeli, w oknie modalnym prezentowana jest sekcja:
+    *Warianty nazwiska i uwagi paleograficzne: [Drąś / Drozd?]. Przyczyna wątpliwości: litery -ąś/-ozd zatarte w zgięciu karty rękopisu na Skanie #41.*
 
 --------------------------------------------------------------------------------
 
