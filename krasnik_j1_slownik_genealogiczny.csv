@@ -1,378 +1,399 @@
-﻿Lp.;Nazwisko;Imię;Miejsce zamieszkania (Piaski/Góry/Zarzecze itp.);Funkcja społeczna;Roboczo: Nr skanów;Zakres lat
-1;Abramowicz;Eliasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#130;1708
-2;Abramowicz;Lewek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-3;Abramowicz;Marek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#130;1708
-4;Alamanus;Dominik;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#15;1558
-5;Arendarz;Melech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-6;August;Zygmunt;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#38;1569
-7;Baran;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#100;1705
-8;Baran;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-9;Baran;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#38;1569
-10;Baran;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#30, #32;1561–1568
-11;Baran;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#148, #153;1709–1710
-12;Barański;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#100;1705
-13;Bartoszek;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133, #141;1708–1709
-14;Baruchowa;Żydówka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#21;1561
-15;Baszta;Percepta;Kraśnik (ogólne);Wójt;#66;1585
-16;Batory;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#54;1577
-17;Bednarzczyk;Spirydion;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#36;1568
-18;Bialiński;Dziedzic;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#88;1597
-19;Bialiński;Wojciech;Śródmieście;Mieszkaniec / Posesjonat;#69;1589
-20;Białej;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#73;1590
-21;Biezaj;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17, #18, #23;1559–1562
-22;Biskup;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#45;1573
-23;Bogaty;Gregor;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-24;Bogaty;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-25;Boromowa;Katarzyna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#138;1709
-26;Bramski;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#42;1571
-27;Bratkiewicz;Rzeźnik;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#110;1706
-28;Brodkowski;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157;1711
-29;Brodkowski;Bartłomiej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#149;1710
-30;Brodkowski;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#145, #147, #155, #158;1709–1711
-31;Brzoskiewicz;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#20;1560
-32;Bukiet;Zmarły;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#101;1705
-33;Buta;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#13;1558
-34;Butha;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#101, #104;1705–1706
-35;Carscy;Żołnierze;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#123;1708
-36;Cechowi;Mistrzowie;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#153;1710
-37;Chmiel;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#117;1706
-38;Chmielowszonka;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#155;1710
-39;Chorąży;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#90;1597
-40;Chotecki;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#46;1574
-41;Ciechomski;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#116;1706
-42;Cieśliowa;Katarzyna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-43;Cieśliński;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#28, #33;1565–1567
-44;Cilorzanka;Zofia;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-45;Cygan;Borek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#62;1581
-46;Cygan;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#46;1574
-47;Cygański;Jan;Kraśnik (ogólne);Wójt;#46;1574
-48;Cygański;Kacper;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#47;1574
-49;Czarny;Kowal;Kraśnik (ogólne);Kowal;#51;1576
-50;Czarny;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-51;Czaski;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#15;1558
-52;Czerwiński;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#113;1706
-53;Czopka;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10, #12;1557–1558
-54;Czopownik;Hieronim;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#20;1560
-55;Dampsz;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-56;Daszkiewicz;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17;1559
-57;Dobrany;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10;1557
-58;Dobrany;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-59;Drozdowic;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10;1557
-60;Drągalski;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#33;1567
-61;Ducha;Tomasz;Kraśnik (ogólne);Szafarz;#33;1567
-62;Dusiło;Mikołaj;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#85;1594
-63;Dworzyk;Marcin;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#26;1564
-64;Dydyjczat;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#29;1561
-65;Dzwonkowic;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-66;Dóbr;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#140;1709
-67;Dąbek;Jan;Kraśnik (ogólne);Szewc;#6;1555
-68;Efraim;Szynkarz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#147;1709
-69;Faktor;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#154;1710
-70;Faktor;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#113;1706
-71;Fedrowicz;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#13;1558
-72;Foxowa;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#100, #101, #104;1705–1706
-73;Frankowski;Felicjan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-74;Fryderykowskiego;Rota;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#73;1590
-75;Furman;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18, #35;1560–1568
-76;Furman;Kazimierz;Śródmieście;Mieszkaniec / Posesjonat;#31;1561
-77;Gielas;Bartłomiej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#35;1568
-78;Gierek;Niewierny;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157;1711
-79;Gnotkowa;Katarzyna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#112;1706
-80;Golich;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-81;Gorajczyk;Szapser;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-82;Gorajski;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#87;1596
-83;Grabowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#25;1563
-84;Grodzicki;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#15;1558
-85;Grudynia;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-86;Grzegorz;Icek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-87;Grzymałowski;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157, #158;1711
-88;Górnik;Suflicza;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#36;1568
-89;Głodowicz;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#143;1709
-90;Głębocki;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-91;Haracz;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#8;1556
-92;Hempla;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-93;Hetmanowa;Pani;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#97;1602
-94;Howadko;Kacper;Kraśnik (ogólne);Burmistrz;#143;1709
-95;Izraelita;Jonis;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-96;Jagiełka;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-97;Jagiełko;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#49;1576
-98;Jagiełło;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#26;1564
-99;Jagiełło;Mateusz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#144;1709
-100;Jakubkowa;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-101;Jakubowicz;Lewek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#49;1576
-102;Jurek;Maciej;Śródmieście;Mieszkaniec / Posesjonat;#31;1561
-103;Kanapkowicz;Wojciech;Kraśnik (ogólne);Ławnik;#158;1711
-104;Katarzyną;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-105;Kiciarkowa;Marianna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-106;Kieljanek;Karniech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-107;Kieljanek;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#23;1562
-108;Kieljanik;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-109;Kmieć;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#29;1561
-110;Kofcza;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#44, #57;1572–1578
-111;Kolico;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10;1557
-112;Koniarski;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-113;Koronnego;Deputat;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#134;1708
-114;Koronnego;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#143;1709
-115;Koronni;Żołnierze;Śródmieście;Mieszkaniec / Posesjonat;#84;1594
-116;Koronny;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#75;1590
-117;Koronny;Trybunał;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#14;1558
-118;Kostka;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#57;1578
-119;Kot;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10;1557
-120;Kot;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7, #17;1556–1559
-121;Kotermon;Krzysztof;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-122;Kotermonowa;Katharina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#135;1709
-123;Kotlarka;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-124;Kotlarz;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-125;Kowal;Jakub;Kraśnik (ogólne);Kowal;#145;1709
-126;Kowal;Jan;Kraśnik (ogólne);Kowal;#154, #156;1710–1711
-127;Kowal;Józef;Kraśnik (ogólne);Kowal;#132;1708
-128;Kowal;Stanisław;Kraśnik (ogólne);Burmistrz;#39, #49;1570–1576
-129;Koza;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#9;1556
-130;Koza;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#86;1595
-131;Kołodziejowa;Regina;Śródmieście;Mieszkaniec / Posesjonat;#31;1561
-132;Kościelny;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#149;1710
-133;Krajowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#138;1709
-134;Kraśniccy;Karczmarze;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#125;1708
-135;Kraśniccy;Mieszczanie;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#124;1707
-136;Kraśniccy;Pogorzelcy;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#118;1706
-137;Kraśniccy;Rzeźnicy;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#122, #154;1708–1710
-138;Kraśnicki;Andrzej;Kraśnik (ogólne);Młynarz;#109;1706
-139;Kraśnicki;Kacper;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#152;1710
-140;Kraśnicki;Kotlarz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#127;1709
-141;Kraśnicki;Podstarości;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#107;1706
-142;Kraśnicki;Rurmistrz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#79, #86;1592–1595
-143;Kraśnickiego;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#139;1709
-144;Kraśnickiego;Sędzia;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#5;1555
-145;Kraśnika;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#74;1589
-146;Kraśnika;Żydzi;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#116;1706
-147;Kropielowska;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#155;1710
-148;Kropielowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#145, #148;1709
-149;Kropielowski;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#135;1709
-150;Krupka;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-151;Krupkowa;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-152;Krystianowa;Helena;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#118;1706
-153;Krótki;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17;1559
-154;Kseńkowa;Stanisławowa;Kraśnik (ogólne);Mieszkanka (wdowa);#134;1708
-155;Kupidura;Antoni;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#112;1706
-156;Kułaczkiewiczowa;Zofia;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#44;1572
-157;Kuśmierz;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#49;1576
-158;Kłobowski;Mularz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#23;1562
-159;Kłobucki;Mularz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#36;1568
-160;Kłys;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#43;1572
-161;Laskowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#113;1706
-162;Latart;Chirurg;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#91;1598
-163;Lellio;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-164;Liatko;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#85;1594
-165;Lubecki;Franciszek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-166;Lubelska;Brama;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#103;1706
-167;Lubelskiego;Felicjan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#28;1565
-168;Lubelskiego;Trybunał;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#160;1709
-169;Lublinie;Konwent;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#120;1708
-170;Luterek;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#134;1708
-171;Luterek;Stanisław;Kraśnik (ogólne);Burmistrz;#140, #145, #147;1709
-172;Luterkowa;Dorota;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#147;1709
-173;Lądymuż;Rotmistrz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#95;1601
-174;Macal;Jurek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-175;Macal;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-176;Maciejczyk;Sebastian;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#10, #23, #25;1557–1563
-177;Maciejkowa;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#21;1561
-178;Martin;Rotmistrz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#97;1602
-179;Małkowicz;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-180;Małżańscy;Dymitr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-181;Miasta;Rynka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#88;1597
-182;Miejski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#35;1568
-183;Miejski;Zmarły;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#106;1706
-184;Morowi;Grabarze;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#78;1591
-185;Morzkowski;Antoni;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#120;1708
-186;Morzkowski;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#119;1707
-187;Morzkowski;Zygmunt;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#120;1708
-188;Mroczkowski;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#119;1707
-189;Mrok;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#145, #148, #153;1709–1710
-190;Mularski;Daniel;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-191;Murarz;[Wdowa];Śródmieście;Mieszkanka (wdowa);#24;1562
-192;Mącałowa;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#134;1708
-193;Młyna;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#110;1706
-194;Nogaj;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-195;Ochmałczy;Rotmistrz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#97;1602
-196;Olbiński;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-197;Olchowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#113;1706
-198;Ostroróg;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#144;1709
-199;Ostrowski;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#32, #87;1568–1596
-200;Pachowiczowa;Agnieszka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#111;1706
-201;Pajewski;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#111;1706
-202;Pajonek;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#23;1562
-203;Pancernej;Towarzysz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#100;1705
-204;Pellio;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#53, #59;1577–1579
-205;Piaskowy;Jakub;Kraśnik (ogólne);Wójt;#18;1560
-206;Piekarczyk;Marcin;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#53;1577
-207;Piestrzykowic;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157;1711
-208;Pietraszkowic;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-209;Pietrzyk;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-210;Pieńkowski;Sobestian;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#144;1709
-211;Pinkus;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17;1559
-212;Piskorzyc;Adam;Kraśnik (ogólne);Wójt;#158;1711
-213;Piwo;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#15;1558
-214;Piąta;Franciszek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157;1711
-215;Plewnik;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#152;1710
-216;Podgórski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-217;Podkraśnicki;Jan;Kraśnik (ogólne);Młynarz;#114;1706
-218;Pogorzelec;Suffleda;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#14;1558
-219;Polan;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-220;Polaskowski;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#32, #35;1568
-221;Polaskowski;Wawrzyniec;Śródmieście;Mieszkaniec / Posesjonat;#31;1561
-222;Popek;Dymitr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#157;1711
-223;Popkowic;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#141;1709
-224;Pospieszny;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#26;1564
-225;Potencjalicielska;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#29;1561
-226;Przedmieścia;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#110;1706
-227;Pustyłka;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-228;Pęzioł;Kazimierz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#39;1570
-229;Pławnik;Szymon;Kraśnik (ogólne);Ławnik;#103;1706
-230;Pławnik;Wawrzyniec;Kraśnik (ogólne);Ławnik;#113;1706
-231;Rabat;Józef;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#108, #109;1706
-232;Rabatowa;Katarzyna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-233;Rabatowa;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-234;Radca;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12;1558
-235;Radca;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-236;Radzimski;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#27;1565
-237;Rataj;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#148;1709
-238;Ratajowa;Agnieszka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#148;1709
-239;Rodzeństwem;Franciszek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#138;1709
-240;Rurmistrz;Jurek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#88;1597
-241;Rurmusowi;Młynarze;Kraśnik (ogólne);Młynarz;#83;1594
-242;Rybitwa;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#59;1579
-243;Rymarz;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-244;Rzeczycy;Michaś;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#117;1706
-245;Rzepniak;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-246;Salomonik;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7, #36;1556–1568
-247;Sankowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-248;Sapała;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#85;1594
-249;Sapała;Stanisław;Śródmieście;Mieszkaniec / Posesjonat;#69;1589
-250;Sara;Żydówka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#28;1565
-251;Serdak;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#53;1577
-252;Skoreński;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-253;Skorupa;Augustyn;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#152;1710
-254;Skorupa;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#118;1706
-255;Skorupa;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#118;1706
-256;Skorupiana;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-257;Skrzynna;Szmul;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-258;Smoczek;Maryan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-259;Sobiech;Grzegorz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#32;1568
-260;Sochaczewski;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#85;1594
-261;Sokołowski;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#104;1706
-262;Sołek;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#144;1709
-263;Spustu;Orzeł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#23;1562
-264;Starosta;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#26;1564
-265;Stary;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#20;1560
-266;Stefan;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#9;1556
-267;Stępień;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#25;1563
-268;Sustwał;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#49, #53, #59;1576–1579
-269;Sustwał;Matusz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#57;1578
-270;Synagonik;Jusiek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#155;1710
-271;Szapkowicz;Niewierny;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#145;1709
-272;Szczepan;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-273;Szczerbic;[Wdowa];Kraśnik (ogólne);Mieszkanka (wdowa);#102;1705
-274;Szlecki;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#110;1706
-275;Szopkowicz;Berek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#143;1709
-276;Szopkowicz;Chaim;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#135;1709
-277;Szopkowicz;Efraim;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#149;1710
-278;Szostak;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#113;1706
-279;Szpilnakowski;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#14;1558
-280;Szramkowa;Anna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-281;Szuiarek;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#136;1709
-282;Szymańska;Agnieszka;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#139;1709
-283;Szymonowicz;Żyd;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#14;1558
-284;Szłus;Wojciech;Śródmieście;Mieszkaniec / Posesjonat;#31;1561
-285;Słomczanka;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#105;1706
-286;Słonik;Jerzy;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-287;Słotwiński;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#38;1569
-288;Słowik;Zamordowany;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#65;1584
-289;Słucka;Katarzyna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#64;1582
-290;Słucka;Księżna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#93;1599
-291;Słucki;Aleksander;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#77;1591
-292;Tarasewicz;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#117;1706
-293;Tarnawska;Dorota;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#32;1568
-294;Tarzyk;Sebastian;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#138;1709
-295;Tatar;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#25;1563
-296;Tkaczyk;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#117;1706
-297;Tokarczyk;Mikołaj;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-298;Tokarczyk;Wawrzyniec;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#18;1560
-299;Tokarczyk;Wojciech;Kraśnik (ogólne);Wójt;#117;1706
-300;Tomczyk;Maciej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-301;Torba;Maciek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-302;Toruński;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-303;Troydelek;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#150, #151;1710
-304;Troydelek;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#135;1709
-305;Troydelek;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#150, #151;1710
-306;Troydelkowa;Benigna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#135;1709
-307;Truszczyk;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#102;1705
-308;Truszkowski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-309;Trzęsakowski;Szymon;Kraśnik (ogólne);Wójt;#140;1709
-310;Tyrawska;Marianna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#140;1709
-311;Tyrnanowicz;Staszek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#143;1709
-312;Ungier;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#6;1555
-313;Voreł;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#26;1564
-314;Walsch;Zygmunt;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-315;Warchołowiczowa;Marianna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#139;1709
-316;Wardęga;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-317;Wawrzyńc;Mularzowa;Kraśnik (ogólne);Mieszkanka (wdowa);#15;1558
-318;Wawrzyńcowy;Mularz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#19;1560
-319;Waza;Jkm;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#97;1602
-320;Wiatrek;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#23;1562
-321;Wielki;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#109;1706
-322;Wielwiński;Grzegorz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#13;1558
-323;Wierzbowski;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17;1559
-324;Wilch;[Wdowa];Kraśnik (ogólne);Mieszkanka (wdowa);#128;1709
-325;Wilczek;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#36;1568
-326;Wilk;Adam;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-327;Wilk;Andrzej;Kraśnik (ogólne);Młynarz;#128;1709
-328;Wilk;Józef;Kraśnik (ogólne);Młynarz;#30, #132, #155;1561–1710
-329;Wilk;Marianna;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#141;1709
-330;Wilk;Młynarz;Kraśnik (ogólne);Młynarz;#102;1705
-331;Winicki/pióro;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#120;1708
-332;Witalisowie;Małżonkowie;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#111;1706
-333;Wojciechowski;Adam;Kraśnik (ogólne);Wójt;#30;1561
-334;Wojskowe;Roty;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#76;1591
-335;Wolsch;Zygmunt;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-336;Wozy;Percepta;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#61;1580
-337;Wybrany;Stanisław;Kraśnik (ogólne);Burmistrz;#144;1709
-338;Wójtowicz;Wojciech;Kraśnik (ogólne);Wójt;#111;1706
-339;Wąsaluś;Marcin;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#7;1556
-340;Wąsał;Marcin;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12, #18;1558–1560
-341;Wąssowski;Pan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#27;1565
-342;Wąż;Marcin;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#53;1577
-343;Węgrzyn;Bałazy;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#75;1590
-344;Włoch;Bernat;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#38;1569
-345;Włoch;Szafarz;Kraśnik (ogólne);Szafarz;#65;1584
-346;Zaborowic;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-347;Zaborowicz;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#150;1710
-348;Zaklikowa;Stefan / szczepan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#79;1592
-349;Zakrzówek;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#111;1706
-350;Zawadzki;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#13;1558
-351;Zawidzki;Franciszek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-352;Zawidzy;Tatarzy;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#110;1706
-353;Zbiegły;Rurmistrz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#81;1593
-354;Zdebiowicz;Tomasz;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-355;Zembrzuski;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#42;1571
-356;Zielarski;Stanisław;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#35;1568
-357;Ziętek;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#133;1708
-358;Ziętka;Paweł;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#132;1708
-359;Zolecka;Regina;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#156;1711
-360;Zygmunt;Walenty;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#134;1708
-361;Łapicki;Bartłomiej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-362;Łowacka;Marcela;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#27;1565
-363;Łętowski;Jakub;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#158;1711
-364;Ślepy;Wojciech;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#140;1709
-365;Śmigorz;Andrzej;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#17;1559
-366;Świder;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#12, #23, #25;1558–1563
-367;Świętek;Piotr;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#85;1594
-368;Żarnowca;Wizytator;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#82;1594
-369;Żminda;Jan;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#138;1709
-370;Żołnierza;Świadkowie;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#130;1708
-371;Żyd;Berek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#142;1709
-372;Żyd;Herszko;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#137;1709
-373;Żyd;Juda;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#139;1709
-374;Żyd;Józef;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#144;1709
-375;Żyd;Lewek;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#155;1710
-376;Żyd;Noiechym;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#131;1709
-377;Żyd;Szymon;Kraśnik (ogólne);Mieszkaniec / Posesjonat;#141, #153;1709–1710
+"Lp";"Nazwisko";"Imię";"Miejsce";"Funkcja społeczna / zawód";"Skany źródłowe";"Zakres lat";"Liczba wzmianek";"Warianty nazwiska"
+"1";"[Burmistrz]";"Jan";"Kraśnik";"Burmistrz kraśnicki";"#7";"1556";"1";"Pan Jan Burmistrz / Jan Burmistrz Kraśnicki"
+"2";"[Burmistrz]";"Mikołaj";"Kraśnik";"Burmistrz kraśnicki";"#9";"1557";"1";"Pan Mikołaj Burmistrz / Mikołaj Burmistrz Kraśnicki"
+"3";"[Burmistrz]";"Paweł";"Kraśnik";"Burmistrz kraśnicki";"#5";"1555";"1";"Pan Paweł Burmistrz / Paweł Burmistrz Kraśnicki / Pawel Proconsul"
+"4";"[Wójt]";"Bartłomiej";"Kraśnik";"Wójt kraśnicki";"#5";"1555";"1";"Pan Bartłomiej Wójt / Bartłomiej Wójt Kraśnicki / Bartlomiej Voyt"
+"5";"[Wójt]";"Jakub";"Kraśnik";"Wójt kraśnicki";"#9";"1557";"1";"Pan Jakub Wójt / Jakub Wójt Kraśnicki"
+"6";"[Wójt]";"Stanisław";"Kraśnik";"Wójt kraśnicki";"#7";"1556";"1";"Pan Stanisław Wójt / Stanisław Wójt Kraśnicki"
+"7";"Abramowicz";"Eliasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#130";"1708";"1";""
+"8";"Abramowicz";"Lewek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"9";"Abramowicz";"Marek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#130";"1708";"1";""
+"10";"Alamanus";"Dominik";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#15";"1558";"1";""
+"11";"Andrysko";"[—]";"Kraśnik";"Mieszkaniec / Płatnik szarwarku";"#16";"1559";"1";"Andrysko / Jędrzej / Andrys / Od Andryska"
+"12";"Arendarz";"Melech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"13";"August";"Zygmunt";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12, #38";"1558–1564";"2";"Zygmunt August Król / Jego Królewska Mość / Król w Lublinie"
+"14";"Baran";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#100";"1705";"1";""
+"15";"Baran";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#38";"1569";"1";""
+"16";"Baran";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#30, #32";"1561–1568";"2";""
+"17";"Baran";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#148, #153";"1709–1710";"2";""
+"18";"Barankiewicz";"Kazimierz";"Kraśnik";"Garncarz / Rzemieślnik kraśnicki";"#18";"1712–1713";"2";"Kazimierz Barankiewicz / Kazimierz Barankiewicz garncarz / [Baran Kazimierz?]"
+"19";"Barański";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#100";"1705";"1";""
+"20";"Bartoszek";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133, #141";"1708–1709";"2";""
+"21";"Baruchowa";"Żydówka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#21";"1561";"1";""
+"22";"Baszta";"Percepta";"Kraśnik (ogólne)";"Wójt";"#66";"1585";"1";""
+"23";"Batory";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#54";"1577";"1";""
+"24";"Bednarzczyk";"Spirydion";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#36";"1568";"1";""
+"25";"Bialiński";"Dziedzic";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#88";"1597";"1";""
+"26";"Bialiński";"Wojciech";"Śródmieście";"Mieszkaniec / Posesjonat";"#69";"1589";"1";""
+"27";"Białej";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#73";"1590";"1";""
+"28";"Biegaj";"Stanisław";"Przedmieście Piaski (Kraśnik)";"Mieszkaniec Piasków / Arbiter";"#18";"1713";"1";"Stanisław Biegaj / Biegaj / [Biezaj?]"
+"29";"Biezaj";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17, #18, #23";"1559–1562";"3";""
+"30";"Biskup";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#45";"1573";"1";""
+"31";"Bogaty";"Gregor";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"32";"Bogaty";"Kazimierz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"33";"Boromowa";"Katarzyna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#138";"1709";"1";""
+"34";"Bramski";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#42";"1571";"1";""
+"35";"Bratkiewicz";"Rzeźnik";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#110";"1706";"1";""
+"36";"Brodkowski";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157";"1711";"1";""
+"37";"Brodkowski";"Bartłomiej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#149";"1710";"1";""
+"38";"Brodkowski";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#145, #147, #155, #158";"1709–1711";"4";""
+"39";"Brzoskiewicz";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#20";"1560";"1";""
+"40";"Bukiet";"Zmarły";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#101";"1705";"1";""
+"41";"Buta";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#13";"1558";"1";""
+"42";"Butha";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#101, #104";"1705–1706";"2";""
+"43";"Carscy";"Żołnierze";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#123";"1708";"1";""
+"44";"Cechowi";"Mistrzowie";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#153";"1710";"1";""
+"45";"Chmiel";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#117";"1706";"1";""
+"46";"Chmielowszonka";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#155";"1710";"1";""
+"47";"Chorąży";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#90";"1597";"1";""
+"48";"Chotecki";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#46";"1574";"1";""
+"49";"Ciechomski";"Kazimierz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#116";"1706";"1";""
+"50";"Cieśliowa";"Katarzyna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"51";"Cieśliński";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#28, #33";"1565–1567";"2";""
+"52";"Cilorzanka";"Zofia";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"53";"Cygan";"Borek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#62";"1581";"1";""
+"54";"Cygan";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#46";"1574";"1";""
+"55";"Cygański";"Jan";"Kraśnik (ogólne)";"Wójt";"#46";"1574";"1";""
+"56";"Cygański";"Kacper";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#47";"1574";"1";""
+"57";"Czarny";"Kowal";"Kraśnik (ogólne)";"Kowal";"#51";"1576";"1";""
+"58";"Czarny";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"59";"Czaski";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#15";"1558";"1";""
+"60";"Czerwiński";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#113";"1706";"1";""
+"61";"Czopka";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10, #12";"1557–1558";"2";""
+"62";"Czopownik";"Hieronim";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#20";"1560";"1";""
+"63";"Dampsz";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"64";"Daszkiewicz";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17";"1559";"1";""
+"65";"Dobrany";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10";"1557";"1";""
+"66";"Dobrany";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"67";"Doctor";"Joseph";"Kraśnik";"Lekarz żydowski (medyk miejski)";"#16";"1559";"1";"Joseph Doctor / Iudaeus Joseph Doctor / Józef Doktor / Joseph Doctoris / Żyd Joseph Lekarz"
+"68";"Doliński";"Stanisław";"Kraśnik (Powiat Kraśnicki)";"Sędzia Pokoju Powiatu Kraśnickiego (S.P.P.K.)";"#5";"1827";"1";"Stan. Doliński S.P.P.K. / Stanisław Doliński Sędzia Pokoju / Dolinski"
+"69";"Drozdowic";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10";"1557";"1";""
+"70";"Drągalski";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#33";"1567";"1";""
+"71";"Ducha";"Tomasz";"Kraśnik (ogólne)";"Szafarz";"#33";"1567";"1";""
+"72";"Dusiło";"Mikołaj";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#85";"1594";"1";""
+"73";"Dworzyk";"Marcin";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#26";"1564";"1";""
+"74";"Dydyjczat";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#29";"1561";"1";""
+"75";"Dzwonkowic";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"76";"Dóbr";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#140";"1709";"1";""
+"77";"Dąbek";"Jan";"Kraśnik (ogólne)";"Szewc";"#6";"1555";"1";""
+"78";"Efraim";"Szynkarz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#147";"1709";"1";""
+"79";"Faktor";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#154";"1710";"1";""
+"80";"Faktor";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#113";"1706";"1";""
+"81";"Fedrowicz";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#13";"1558";"1";""
+"82";"Foxowa";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#100, #101, #104";"1705–1706";"3";""
+"83";"Frankowski";"Felicjan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"84";"Fryderykowskiego";"Rota";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#73";"1590";"1";""
+"85";"Furman";"Kazimierz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#18, #35";"1560–1568";"2";""
+"86";"Furman";"Kazimierz";"Śródmieście";"Mieszkaniec / Posesjonat";"#31";"1561";"1";""
+"87";"Gielas";"Bartłomiej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#35";"1568";"1";""
+"88";"Gierek";"Niewierny";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157";"1711";"1";""
+"89";"Gnotkowa";"Katarzyna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#112";"1706";"1";""
+"90";"Gokisz";"Szymon";"Kraśnik";"Konsul (rajca miejski)";"#5, #18";"1555–1560";"2";"Szymon Gokisz / Simon Gokisz / Gokisz / [Golich?]"
+"91";"Golich";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#18";"1560";"1";""
+"92";"Gorajczyk";"Szapser";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"93";"Gorajski";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#87";"1596";"1";""
+"94";"Grabowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#25";"1563";"1";""
+"95";"Grodzicki";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#15";"1558";"1";""
+"96";"Grudynia";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"97";"Grzegorz";"Icek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"98";"Grzymałowski";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157, #158";"1711";"2";""
+"99";"Górnik";"Suflicza";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#36";"1568";"1";""
+"100";"Głodowicz";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#143";"1709";"1";""
+"101";"Głębocki";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#18";"1560";"1";""
+"102";"Haracz";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#8";"1556";"1";""
+"103";"Hempla";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"104";"Hetmanowa";"Pani";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#97";"1602";"1";""
+"105";"Howadko";"Kacper";"Kraśnik (ogólne)";"Burmistrz";"#143";"1709";"1";""
+"106";"Izraelita";"Jonis";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"107";"Jagiełka";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"1";""
+"108";"Jagiełko";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#49";"1576";"1";""
+"109";"Jagiełło";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#26";"1564";"1";""
+"110";"Jagiełło";"Mateusz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#144";"1709";"1";""
+"111";"Jakubkowa";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"112";"Jakubowicz";"Lewek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#49";"1576";"1";""
+"113";"Jurek";"Maciej";"Śródmieście";"Mieszkaniec / Posesjonat";"#31";"1561";"1";""
+"114";"Kanapkowicz";"Wojciech";"Kraśnik (ogólne)";"Ławnik";"#158";"1711";"1";""
+"115";"Katarzyną";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"116";"Kiciarkowa";"Marianna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"117";"Kieljanek";"Karniech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"118";"Kieljanek";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#23";"1562";"1";""
+"119";"Kieljanik";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"120";"Kmieć";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#29";"1561";"1";""
+"121";"Kofcza";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#44, #57";"1572–1578";"2";""
+"122";"Kolico";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10";"1557";"1";""
+"123";"Koniarski";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"124";"Koronnego";"Deputat";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#134";"1708";"1";""
+"125";"Koronnego";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#143";"1709";"1";""
+"126";"Koronni";"Żołnierze";"Śródmieście";"Mieszkaniec / Posesjonat";"#84";"1594";"1";""
+"127";"Koronny";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#75";"1590";"1";""
+"128";"Koronny";"Trybunał";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#14";"1558";"1";""
+"129";"Kostka";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#57";"1578";"1";""
+"130";"Kot";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10";"1557";"1";""
+"131";"Kot";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7, #17";"1556–1559";"2";""
+"132";"Kotermon";"Krzysztof";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"133";"Kotermonowa";"Katharina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#135";"1709";"1";""
+"134";"Kotlarka";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"135";"Kotlarz";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"136";"Kowal";"Jakub";"Kraśnik (ogólne)";"Kowal";"#145";"1709";"1";""
+"137";"Kowal";"Jan";"Kraśnik (ogólne)";"Kowal";"#154, #156";"1710–1711";"2";""
+"138";"Kowal";"Józef";"Kraśnik (ogólne)";"Kowal";"#132";"1708";"1";""
+"139";"Kowal";"Stanisław";"Kraśnik (ogólne)";"Burmistrz";"#39, #49";"1570–1576";"2";""
+"140";"Koza";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#9";"1556";"1";""
+"141";"Koza";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#86";"1595";"1";""
+"142";"Kołodziejowa";"Regina";"Śródmieście";"Mieszkaniec / Posesjonat";"#31";"1561";"1";""
+"143";"Kościelny";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#149";"1710";"1";""
+"144";"Krajowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#138";"1709";"1";""
+"145";"Kraśniccy";"Karczmarze";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#125";"1708";"1";""
+"146";"Kraśniccy";"Mieszczanie";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#124";"1707";"1";""
+"147";"Kraśniccy";"Pogorzelcy";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#118";"1706";"1";""
+"148";"Kraśniccy";"Rzeźnicy";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#122, #154";"1708–1710";"2";""
+"149";"Kraśnicki";"Andrzej";"Kraśnik (ogólne)";"Młynarz";"#109";"1706";"1";""
+"150";"Kraśnicki";"Kacper";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#152";"1710";"1";""
+"151";"Kraśnicki";"Kotlarz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#127";"1709";"1";""
+"152";"Kraśnicki";"Podstarości";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#107";"1706";"1";""
+"153";"Kraśnicki";"Rurmistrz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#79, #86";"1592–1595";"2";""
+"154";"Kraśnickiego";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#139";"1709";"1";""
+"155";"Kraśnickiego";"Sędzia";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#5";"1555";"1";""
+"156";"Kraśnika";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#74";"1589";"1";""
+"157";"Kraśnika";"Żydzi";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#116";"1706";"1";""
+"158";"Kropielowska";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#155";"1710";"1";""
+"159";"Kropielowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#145, #148";"1709";"2";""
+"160";"Kropielowski";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#135";"1709";"1";""
+"161";"Krupka";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"1";""
+"162";"Krupkowa";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"163";"Krystianowa";"Helena";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#118";"1706";"1";""
+"164";"Krótki";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17";"1559";"1";""
+"165";"Kseńkowa";"Stanisławowa";"Kraśnik (ogólne)";"Mieszkanka (wdowa)";"#134";"1708";"1";""
+"166";"Kupidura";"Antoni";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#112";"1706";"1";""
+"167";"Kułaczkiewiczowa";"Zofia";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#44";"1572";"1";""
+"168";"Kuśmierz";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#49";"1576";"1";""
+"169";"Kłobowski";"Mularz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#23";"1562";"1";""
+"170";"Kłobucki";"Mularz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#36";"1568";"1";""
+"171";"Kłys";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#43";"1572";"1";""
+"172";"Laskowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#113";"1706";"1";""
+"173";"Latart";"Chirurg";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#91";"1598";"1";""
+"174";"Lellio";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#18";"1560";"1";""
+"175";"Letho";"Piotr";"Kraśnik";"Konsul (rajca miejski)";"#5, #18";"1555–1560";"2";"Piotr Letho / Petrus Letho / Petrus Cetho / [Cetho? / Letho?] / [Lellio?]"
+"176";"Liatko";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#85";"1594";"1";""
+"177";"Lubecki";"Franciszek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"178";"Lubelska";"Brama";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#103";"1706";"1";""
+"179";"Lubelskiego";"Felicjan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#28";"1565";"1";""
+"180";"Lubelskiego";"Trybunał";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#160";"1709";"1";""
+"181";"Lublinie";"Konwent";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#120";"1708";"1";""
+"182";"Luterek";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#134";"1708";"1";""
+"183";"Luterek";"Stanisław";"Kraśnik (ogólne)";"Burmistrz";"#140, #145, #147";"1709";"3";""
+"184";"Luterkowa";"Dorota";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#147";"1709";"1";""
+"185";"Lądymuż";"Rotmistrz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#95";"1601";"1";""
+"186";"Macal";"Jurek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"187";"Macal";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"188";"Maciejczyk";"Sebastian";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#10, #23, #25";"1557–1563";"3";""
+"189";"Maciejkowa";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#21";"1561";"1";""
+"190";"Maki";"Jan";"Kraśnik";"Konsul (rajca miejski)";"#18";"1560";"1";"Jan Maki / Fanmaki / [Fanmaki? / Jan Maki?]"
+"191";"Martin";"Rotmistrz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#97";"1602";"1";""
+"192";"Małkowicz";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"193";"Małżańscy";"Dymitr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"194";"Miasta";"Rynka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#88";"1597";"1";""
+"195";"Miejski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#35";"1568";"1";""
+"196";"Miejski";"Zmarły";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#106";"1706";"1";""
+"197";"Morowi";"Grabarze";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#78";"1591";"1";""
+"198";"Morzkowski";"Antoni";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#120";"1708";"1";""
+"199";"Morzkowski";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#119";"1707";"1";""
+"200";"Morzkowski";"Zygmunt";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#120";"1708";"1";""
+"201";"Mroczkowski";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#119";"1707";"1";""
+"202";"Mrok";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#145, #148, #153";"1709–1710";"3";""
+"203";"Mularski";"Daniel";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"204";"Mularz";"Wawrzyniec";"Kraśnik";"Mistrz mularski / Budowniczy miejski";"#5, #7, #9, #14";"1555–1559";"4";"Wawrzyniec Mularz / Wawrzyniec Murarz / Mularz / [Wawrzyńc Mularzowa?]"
+"205";"Murarz";"[Wdowa]";"Śródmieście";"Mieszkanka (wdowa)";"#24";"1562";"1";""
+"206";"Mącałowa";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#134";"1708";"1";""
+"207";"Młyna";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#110";"1706";"1";""
+"208";"Nogaj";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"209";"Ochmałczy";"Rotmistrz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#97";"1602";"1";""
+"210";"Olbiński";"[Pan]";"Olbierzowice / Kraśnik";"Szlachcic / Darczyńca muru miejskiego";"#18";"1560";"1";"Pan Olbiński / Olbiński / Olbinski"
+"211";"Olchowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#113";"1706";"1";""
+"212";"Ostroróg";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#144";"1709";"1";""
+"213";"Ostrowski";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#32, #87";"1568–1596";"2";""
+"214";"Pachowiczowa";"Agnieszka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#111";"1706";"1";""
+"215";"Pajewski";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#111";"1706";"1";""
+"216";"Pajonek";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#23";"1562";"1";""
+"217";"Pancernej";"Towarzysz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#100";"1705";"1";""
+"218";"Pellio";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#53, #59";"1577–1579";"2";""
+"219";"Piaskowy";"Jakub";"Kraśnik (ogólne)";"Wójt";"#18";"1560";"1";""
+"220";"Piekarczyk";"Marcin";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#53";"1577";"1";""
+"221";"Pielaszkowicz";"Wawrzyniec";"Kraśnik";"Burmistrz kraśnicki";"#18";"1712–1713";"2";"Wawrzyniec Pielaszkowicz / Pielaszkowicz Burmistrz / [Tokarz Wawrzyniec?]"
+"222";"Piestrzykowic";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157";"1711";"1";""
+"223";"Pietraszkowic";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"224";"Pietrzyk";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"225";"Pieńkowski";"Sobestian";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#144";"1709";"1";""
+"226";"Pinkus";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17";"1559";"1";""
+"227";"Piskorzyc";"Adam";"Kraśnik (ogólne)";"Wójt";"#158";"1711";"1";""
+"228";"Piwo";"Kazimierz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#15";"1558";"1";""
+"229";"Piąta";"Franciszek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157";"1711";"1";""
+"230";"Plewnik";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#152";"1710";"1";""
+"231";"Podgórski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"232";"Podkraśnicki";"Jan";"Kraśnik (ogólne)";"Młynarz";"#114";"1706";"1";""
+"233";"Pogorzelec";"Suffleda";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#14";"1558";"1";""
+"234";"Polan";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"235";"Polaskowski";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#32, #35";"1568";"2";""
+"236";"Polaskowski";"Wawrzyniec";"Śródmieście";"Mieszkaniec / Posesjonat";"#31";"1561";"1";""
+"237";"Popek";"Dymitr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#157";"1711";"1";""
+"238";"Popkowic";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#141";"1709";"1";""
+"239";"Pospieszny";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#26";"1564";"1";""
+"240";"Potencjalicielska";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#29";"1561";"1";""
+"241";"Przedmieścia";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#110";"1706";"1";""
+"242";"Pustyłka";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"243";"Pęzioł";"Kazimierz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#39";"1570";"1";""
+"244";"Pławnik";"Szymon";"Kraśnik (ogólne)";"Ławnik";"#103";"1706";"1";""
+"245";"Pławnik";"Wawrzyniec";"Kraśnik (ogólne)";"Ławnik";"#113";"1706";"1";""
+"246";"Rabat";"Józef";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#108, #109";"1706";"2";""
+"247";"Rabatowa";"Katarzyna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"248";"Rabatowa";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"249";"Radca";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12";"1558";"1";""
+"250";"Radca";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"2";""
+"251";"Radzimski";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#27";"1565";"1";""
+"252";"Rataj";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#148";"1709";"1";""
+"253";"Ratajowa";"Agnieszka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#148";"1709";"1";""
+"254";"Rodzeństwem";"Franciszek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#138";"1709";"1";""
+"255";"Rosółkówna";"Marianna";"Kraśnik (przedmieście)";"Mieszkanka przedmieścia / Powódka";"#17";"1714";"1";"Marianna Rosółkówna / Rosółkówna / Rosół / Rosol"
+"256";"Rurmistrz";"Jurek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#88";"1597";"1";""
+"257";"Rurmusowi";"Młynarze";"Kraśnik (ogólne)";"Młynarz";"#83";"1594";"1";""
+"258";"Rybitwa";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#59";"1579";"1";""
+"259";"Rymarz";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"260";"Rzeczycy";"Michaś";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#117";"1706";"1";""
+"261";"Rzepka";"Andrzej";"Kraśnik";"Konsul (rajca miejski)";"#5, #18";"1555–1560";"2";"Andrzej Rzepka / Andreas Rzepka / Rzepka / [Rzepniak?]"
+"262";"Rząśliński";"Marcin";"Kraśnik";"Konsul (rajca miejski)";"#5, #18";"1555–1560";"2";"Marcin Rząśliński / Martinus Rzaslinski / [Rzaslinski? / Rząśliński?] / [Wąsałowicz?]"
+"263";"Salomonik";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7, #36";"1556–1568";"2";""
+"264";"Sankowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"265";"Sapała";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#85";"1594";"1";""
+"266";"Sapała";"Stanisław";"Śródmieście";"Mieszkaniec / Posesjonat";"#69";"1589";"1";""
+"267";"Sara";"Żydówka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#28";"1565";"1";""
+"268";"Serdak";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#53";"1577";"1";""
+"269";"Skoreński";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"270";"Skorupa";"Augustyn";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#152";"1710";"1";""
+"271";"Skorupa";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#118";"1706";"1";""
+"272";"Skorupa";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#118";"1706";"1";""
+"273";"Skorupiana";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"274";"Skrzynna";"Szmul";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"1";""
+"275";"Smoczek";"Maryan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"276";"Sobiech";"Grzegorz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#32";"1568";"1";""
+"277";"Sochaczewski";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#85";"1594";"1";""
+"278";"Sokołowski";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#104";"1706";"1";""
+"279";"Sołek";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#144";"1709";"1";""
+"280";"Sołtys";"Wojciech";"Kraśnik";"Mieszkaniec / Arbiter burmistrza";"#18";"1713";"1";"Wojciech Sołtys / Wojciech Soltys / Sołtys"
+"281";"Spustu";"Orzeł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#23";"1562";"1";""
+"282";"Starosta";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#26";"1564";"1";""
+"283";"Stary";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#20";"1560";"1";""
+"284";"Stefan";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#9";"1556";"1";""
+"285";"Stępień";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#25";"1563";"1";""
+"286";"Sustwał";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#49, #53, #59";"1576–1579";"3";""
+"287";"Sustwał";"Matusz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#57";"1578";"1";""
+"288";"Synagonik";"Jusiek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#155";"1710";"1";""
+"289";"Szapkowicz";"Niewierny";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#145";"1709";"1";""
+"290";"Szczepan";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"291";"Szczerbic";"[Wdowa]";"Kraśnik (ogólne)";"Mieszkanka (wdowa)";"#102";"1705";"1";""
+"292";"Szlecki";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#110";"1706";"1";""
+"293";"Szopkowicz";"Berek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#143";"1709";"1";""
+"294";"Szopkowicz";"Chaim";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#135";"1709";"1";""
+"295";"Szopkowicz";"Efraim";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#149";"1710";"1";""
+"296";"Szostak";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#113";"1706";"1";""
+"297";"Szpilnakowski";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#14";"1558";"1";""
+"298";"Szramkowa";"Anna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"299";"Szuiarek";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#136";"1709";"1";""
+"300";"Szymańska";"Agnieszka";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#139";"1709";"1";""
+"301";"Szymonowicz";"Żyd";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#14";"1558";"1";""
+"302";"Szłus";"Wojciech";"Śródmieście";"Mieszkaniec / Posesjonat";"#31";"1561";"1";""
+"303";"Słomczanka";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#105";"1706";"1";""
+"304";"Słonik";"Jerzy";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"305";"Słotwiński";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#38";"1569";"1";""
+"306";"Słowik";"Zamordowany";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#65";"1584";"1";""
+"307";"Słucka";"Katarzyna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#64";"1582";"1";""
+"308";"Słucka";"Księżna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#93";"1599";"1";""
+"309";"Słucki";"Aleksander";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#77";"1591";"1";""
+"310";"Tarasewicz";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#117";"1706";"1";""
+"311";"Tarnawska";"Dorota";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#32";"1568";"1";""
+"312";"Tarzyk";"Sebastian";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#138";"1709";"1";""
+"313";"Tatar";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#25";"1563";"1";""
+"314";"Tkaczyk";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#117";"1706";"1";""
+"315";"Tokarczyk";"Mikołaj";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"316";"Tokarczyk";"Wawrzyniec";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#18";"1560";"1";""
+"317";"Tokarczyk";"Wojciech";"Kraśnik (ogólne)";"Wójt";"#117";"1706";"1";""
+"318";"Tomczyk";"Maciej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"319";"Torba";"Maciek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"1";""
+"320";"Toruński";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"321";"Troydelek";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#150, #151";"1710";"2";""
+"322";"Troydelek";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#135";"1709";"1";""
+"323";"Troydelek";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#150, #151";"1710";"2";""
+"324";"Troydelkowa";"Benigna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#135";"1709";"1";""
+"325";"Truszczyk";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#102";"1705";"1";""
+"326";"Truszkowski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"327";"Trzęsakowski";"Szymon";"Kraśnik (ogólne)";"Wójt";"#140";"1709";"1";""
+"328";"Tyrawska";"Marianna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#140";"1709";"1";""
+"329";"Tyrnanowicz";"Staszek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#143";"1709";"1";""
+"330";"Tęczyński";"Jan";"Kraśnik (właściciel / dziedzic miasta)";"Wojewoda Krakowski / Dziedzic Kraśnika";"#5, #9, #10";"1555–1558";"3";"Jan Tęczyński / Pan Wojewoda Krakowski / Wojewoda Lubelski / Tęczyński Jan hrabia"
+"331";"Ungier";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#6";"1555";"1";""
+"332";"Voreł";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#26";"1564";"1";""
+"333";"Walsch";"Zygmunt";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"334";"Warchołowiczowa";"Marianna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#139";"1709";"1";""
+"335";"Wardęga";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"336";"Waza";"Jkm";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#97";"1602";"1";""
+"337";"Wiatrek";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#23";"1562";"1";""
+"338";"Wiatroszek";"Szymon";"Kraśnik";"Mieszkaniec / Arbiter burmistrza";"#18";"1713";"1";"Szymon Wiatroszek / Wiatroszek Szymon"
+"339";"Wielki";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#109";"1706";"1";""
+"340";"Wielwiński";"Grzegorz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#13";"1558";"1";""
+"341";"Wierzbowski";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17";"1559";"1";""
+"342";"Wilch";"[Wdowa]";"Kraśnik (ogólne)";"Mieszkanka (wdowa)";"#128";"1709";"1";""
+"343";"Wilczek";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#36";"1568";"1";""
+"344";"Wilk";"Adam";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"345";"Wilk";"Andrzej";"Kraśnik (ogólne)";"Młynarz";"#128";"1709";"1";""
+"346";"Wilk";"Józef";"Kraśnik (ogólne)";"Młynarz";"#30, #132, #155";"1561–1710";"3";""
+"347";"Wilk";"Marianna";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#141";"1709";"1";""
+"348";"Wilk";"Młynarz";"Kraśnik (ogólne)";"Młynarz";"#102";"1705";"1";""
+"349";"Winicki/pióro";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#120";"1708";"1";""
+"350";"Witalisowie";"Małżonkowie";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#111";"1706";"1";""
+"351";"Wojciechowski";"Adam";"Kraśnik (ogólne)";"Wójt";"#30";"1561";"1";""
+"352";"Wojskowe";"Roty";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#76";"1591";"1";""
+"353";"Wolsch";"Zygmunt";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"354";"Wozy";"Percepta";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#61";"1580";"1";""
+"355";"Wybrany";"Stanisław";"Kraśnik (ogólne)";"Burmistrz";"#144";"1709";"1";""
+"356";"Wójtowicz";"Wojciech";"Kraśnik (ogólne)";"Wójt";"#111";"1706";"1";""
+"357";"Wąsaluś";"Marcin";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#7";"1556";"1";""
+"358";"Wąsał";"Marcin";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12, #18";"1558–1560";"2";""
+"359";"Wąssowski";"Pan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#27";"1565";"1";""
+"360";"Wąż";"Marcin";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#53";"1577";"1";""
+"361";"Węgrzyn";"Bałazy";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#75";"1590";"1";""
+"362";"Włoch";"Bernat";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#38";"1569";"1";""
+"363";"Włoch";"Szafarz";"Kraśnik (ogólne)";"Szafarz";"#65";"1584";"1";""
+"364";"Zaborowic";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"365";"Zaborowicz";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#150";"1710";"1";""
+"366";"Zaklikowa";"Stefan / szczepan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#79";"1592";"1";""
+"367";"Zakrzówek";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#111";"1706";"1";""
+"368";"Zawadzki";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#13";"1558";"1";""
+"369";"Zawidzki";"Franciszek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"370";"Zawidzy";"Tatarzy";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#110";"1706";"1";""
+"371";"Zbiegły";"Rurmistrz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#81";"1593";"1";""
+"372";"Zdebiowicz";"Tomasz";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"373";"Zdybicki";"Wawrzyniec";"Kraśnik";"Mieszkaniec / Obwiniony w sprawie obyczajowej";"#17";"1714";"1";"Wawrzyniec Zdybicki / Zdybicki Wawrzyniec"
+"374";"Zembrzuski";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#42";"1571";"1";""
+"375";"Zielarski";"Stanisław";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#35";"1568";"1";""
+"376";"Zięba";"Jakub";"Przedmieście Piaski (Kraśnik)";"Wójt Piaskowy / Arbiter polubowny";"#18";"1713";"1";"Jakub Zięba / Jakub Zięba Wóyt Piaskowy / [Ziętko Jakub?] / Jakub Biegaj"
+"377";"Ziętek";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#133";"1708";"1";""
+"378";"Ziętka";"Paweł";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#132";"1708";"1";""
+"379";"Zolecka";"Regina";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#156";"1711";"1";""
+"380";"Zygmunt";"Walenty";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#134";"1708";"1";""
+"381";"Złobicki";"Paweł";"Kraśnik";"Właściciel roli miejskiej";"#18";"1560";"1";"Paweł Złobicki / Złobicki Paweł / [Głębocki? / Złobicki?]"
+"382";"Łapicki";"Bartłomiej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"383";"Łowacka";"Marcela";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#27";"1565";"1";""
+"384";"Łętowski";"Jakub";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#158";"1711";"1";""
+"385";"Ślepy";"Wojciech";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#140";"1709";"1";""
+"386";"Śmigorz";"Andrzej";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#17";"1559";"1";""
+"387";"Świder";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#12, #23, #25";"1558–1563";"3";""
+"388";"Świętek";"Piotr";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#85";"1594";"1";""
+"389";"Żarnowca";"Wizytator";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#82";"1594";"1";""
+"390";"Żminda";"Jan";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#138";"1709";"1";""
+"391";"Żołnierza";"Świadkowie";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#130";"1708";"1";""
+"392";"Żyd";"Berek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#142";"1709";"1";""
+"393";"Żyd";"Herszko";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#137";"1709";"1";""
+"394";"Żyd";"Juda";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#139";"1709";"1";""
+"395";"Żyd";"Józef";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#144";"1709";"1";""
+"396";"Żyd";"Lewek";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#155";"1710";"1";""
+"397";"Żyd";"Noiechym";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#131";"1709";"1";""
+"398";"Żyd";"Szymon";"Kraśnik (ogólne)";"Mieszkaniec / Posesjonat";"#141, #153";"1709–1710";"2";""
