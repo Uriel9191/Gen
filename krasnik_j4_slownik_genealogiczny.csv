@@ -636,7 +636,7 @@
 635;Komięga;Matyjasz;Kraśnik;Mieszkaniec / Posesjonat;#777;1664
 636;Komiężyna;Justyna;Kraśnik;Mieszkaniec / Posesjonat;#224;1663
 637;Komiężyna;Komiężyna;Kraśnik;Mieszkaniec / Posesjonat;#399;1664
-638;Kondracki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#59;1661
+638;Kondracki;Jan;Kraśnik;Mistrz Rzeźnicki Starszy;#59;1661
 639;Kondrat;Barthoł;Kraśnik;Szewc;#155;1663
 640;Kondupto;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#294;1663
 641;Konieczny;Maciej;Kraśnik;Rajca;#107, #79;1662
@@ -744,7 +744,7 @@
 743;Kozioł;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#345;1664
 744;Kozioł;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#233;1663
 745;Kozioł;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#56;1661
-746;Kozioł;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#58;1661
+746;Kozioł;Marcin;Kraśnik;Starszy Cechmistrz Rzeźnicki;#58;1661
 747;Kozioł;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#57;1661
 748;Koziołek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#204;1663
 749;Koziołek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#716;1665
@@ -1278,7 +1278,7 @@
 1277;Ryznerowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#453;1664
 1278;Rzepiołko;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
 1279;Rzepka;Augustyn;Kraśnik;Ławnik;#506;1661
-1280;Rzepka;Błażej;Kraśnik;Mieszkaniec / Posesjonat;#53;1661
+1280;Rzepka;Błażej;Kraśnik;Sługa radziecki / Woźny miejski;#53, #55, #60;1661
 1281;Rzepka;Jan;Blinów;Mieszkaniec / Posesjonat;#189;1663
 1282;Rzepowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#212;1663
 1283;Rzepski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#277, #229;1663
@@ -1293,7 +1293,7 @@
 1292;Różyński;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#388;1664
 1293;Rączka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#506;1661
 1294;Rączkowa;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#508;1661
-1295;Rębek;Paweł;Kraśnik;Pisarz;#60;1661
+1295;Rębek;Paweł;Kraśnik;Pisarz Miejski / Notariusz Przysięgły;#32, #60;1661
 1296;Sadalka;Stanisław;Wilkołaz;Mieszkaniec / Posesjonat;#177;1663
 1297;Sadułka;Stanisław;Zaklików;Mieszkaniec / Posesjonat;#329;1663
 1298;Sadzik;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#777, #475;1664
@@ -1322,596 +1322,598 @@
 1321;Sierocki;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#53;1661
 1322;Sierocki;Marcin;Kraśnik;Rajca;#26;1661
 1323;Sierocki;Marek;Kraśnik;Rajca;#8;1661
-1324;Siewierowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#248;1663
-1325;Siewiorek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#358;1663
-1326;Sikawski;Marcin;Kraśnik;Rajca;#264;1663
-1327;Sikorski;Fryderyk;Kraśnik;Rajca;#290;1663
-1328;Sikorski;N.;Kraśnik;Mieszkaniec / Posesjonat;#581;1664
-1329;Simci;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#764;1666
-1330;Siotow;Jan;Wilkołaz;Mieszkaniec / Posesjonat;#195;1663
-1331;Sitarczyk;Walenty;Kraśnik;Wójt;#145;1663
-1332;Sitarsi;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#757;1666
-1333;Sitarski;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#841;1699
-1334;Sitarski;Jan marcin;Kraśnik;Rajca;#440;1664
-1335;Sitarski;Marcin;Kraśnik;Rajca;#482, #647, #78, #119, #660, #661, #471, #666;1662–1665
-1336;Sitarz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#348;1664
-1337;Sitarz;Stanisław;Biłgoraj;Mieszkaniec / Posesjonat;#342;1664
-1338;Sitkarz;Szymon;Kraśnik;Wójt;#839;1699
-1339;Sitkowski;Franciszek;Kraśnik;Krawiec;#829;1699
-1340;Siudey;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
-1341;Siwek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#601;1664
-1342;Siwy;Jan;Kraśnik;Mieszkaniec / Posesjonat;#622;1664
-1343;Skaryszek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#59;1661
-1344;Skała;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#185;1663
-1345;Skałka;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#60;1661
-1346;Skowroński;Marcin;Kraśnik;Ławnik;#315;1663
-1347;Skrzypek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#637;1664
-1348;Skrzypek;N.;Kraśnik;Mieszkaniec / Posesjonat;#242;1663
-1349;Skrzypek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#633;1664
-1350;Skrzypk;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#638;1664
-1351;Skrzypkowa grzebienna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#250;1663
-1352;Skrzypkowska;Dorota;Góry i Podlesie;Mieszkaniec / Posesjonat;#238;1663
-1353;Skrzypkowski;Grzegorz;Góry i Podlesie;Mieszkaniec / Posesjonat;#238;1663
-1354;Skrzyński;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#511;1664
-1355;Skwarczyk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#290;1663
-1356;Skórna;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#538;1664
-1357;Smoczan;Jakub;Piaski;Mieszkaniec / Posesjonat;#608;1664
-1358;Smoczanowski;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
-1359;Smoczek;N.;Kraśnik;Mieszkaniec / Posesjonat;#623;1664
-1360;Smoczek;Sebastian;"Budzyń; Bychawka; Wyżnica";Mieszkaniec / Posesjonat;#137, #171, #319, #473, #533;1662–1664
-1361;Smoczek;Tomasz;"Budzyń; Wyżnica";Mieszkaniec / Posesjonat;#137, #167, #319;1662–1663
-1362;Smoczkowa;N.;Bychawka;Mieszkaniec / Posesjonat;#533;1664
-1363;Smoczkowa wolakowa oleszkowa;Jadwiga;Piaski;Mieszkaniec / Posesjonat;#608;1664
-1364;Smoczkowna;Dorota;Wyżnica;Mieszkaniec / Posesjonat;#137;1662
-1365;Smoczyński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
-1366;Smolarka;N.;Kraśnik;Mieszkaniec / Posesjonat;#256;1663
-1367;Smolarz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
-1368;Smolarz;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#214;1663
-1369;Smolarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#256;1663
-1370;Smolarzanka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
-1371;Smolnkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
-1372;Smotan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#377;1664
-1373;Smołkowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
-1374;Snagierowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
-1375;Snarsz;Tomasz;Góry i Podlesie;Mieszkaniec / Posesjonat;#595;1664
-1376;Snarszowa;Zofia;Góry i Podlesie;Mieszkaniec / Posesjonat;#595;1664
-1377;Sobieski;Marek;Lublin;Mieszkaniec / Posesjonat;#421;1601
-1378;Sobieszczański;Zygmunt;Sobieszczany;Mieszkaniec / Posesjonat;#173;1663
-1379;Sobieszek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#57;1661
-1380;Sobieszkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#67;1661
-1381;Sobkowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
-1382;Sobocha;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#276;1663
-1383;Sobolczyk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#307;1663
-1384;Sobolczyk;N.;Kraśnik;Mieszkaniec / Posesjonat;#232;1663
-1385;Sobolowic;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#191;1663
-1386;Sobotka;Icek;Góry i Podlesie;Mieszkaniec / Posesjonat;#592;1664
-1387;Sobotka;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#292;1663
-1388;Sochanczyna;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
-1389;Sokolnik;Szmul;Kraśnik;Mieszkaniec / Posesjonat;#612;1664
-1390;Sokółek smolarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#216;1663
-1391;Solecki;Stanisław;Kraśnik;Rajca;#842, #803;1698–1699
-1392;Solikowski;Jan dymitr;Lwów;Mieszkaniec / Posesjonat;#421;1601
-1393;Sołtys;Jan;Kraśnik;Mieszkaniec / Posesjonat;#522;1664
-1394;Sońka;Marcin;Budzyń;Mieszkaniec / Posesjonat;#301;1663
-1395;Sroka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#387;1664
-1396;Stach;N.;Kraśnik;Mieszkaniec / Posesjonat;#531;1664
-1397;Stalmach;Jan;Kraśnik;Ławnik;#506;1661
-1398;Stankowski;Jan;Rzepków;Mieszkaniec / Posesjonat;#183;1663
-1399;Starczyska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#550;1664
-1400;Starczyski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#550;1664
-1401;Staropolska;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#241;1663
-1402;Staropolski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#241;1663
-1403;Starosteński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#544;1664
-1404;Stary brat;N.;Kraśnik;Mieszkaniec / Posesjonat;#279;1663
-1405;Starybracik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#655, #602, #196, #596;1663–1665
-1406;Starybrat;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#600, #202, #379, #230;1663–1664
-1407;Starzyński;Marcin;"Dzierzkowice; Kraśnik";Wójt;#71, #151, #183, #201, #235, #359, #380, #444, #468, #481, #696, #722;1662–1665
-1408;Staszek;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#848;1699
-1409;Storkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#253;1663
-1410;Strawski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#816;1699
-1411;Stryjbracik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#520;1664
-1412;Stryjbracik;N.;Kraśnik;Mieszkaniec / Posesjonat;#528;1664
-1413;Stryjbracik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
-1414;Stryjcowicz;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#666;1665
-1415;Stryjeński;Grzegorz;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#400, #401;1664
-1416;Stryjowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#543;1664
-1417;Stryjowski;Grzegorz;Kraśnik;Kowal;#216, #565, #543;1663–1664
-1418;Stryk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#581;1664
-1419;Strykowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#291;1663
-1420;Strykówna;Marina;Kraśnik;Mieszkaniec / Posesjonat;#852;1699
-1421;Strzałkowski;Jan;Rząchów;Mieszkaniec / Posesjonat;#334, #335;1664
-1422;Strzelecki;N.;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
-1423;Strzuchłowicz;Feliks;Kraśnik;Mieszkaniec / Posesjonat;#215;1663
-1424;Strzuchłowicz;Stanisław;Kraśnik;Ławnik;#233, #207;1663
-1425;Strzyżewski;Grzegorz;Kraśnik;Kowal;#163;1663
-1426;Strzyżowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#691;1665
-1427;Strzyżowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#641;1664
-1428;Strzyżowski;Grzegorz;Kraśnik;Kowal;#641, #737, #687;1664–1665
-1429;Sudzień;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#737;1665
-1430;Sukienniczka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#261;1663
-1431;Sukiennik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#750, #190, #262;1663–1666
-1432;Surmańkówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#154;1663
-1433;Sustewalonizowna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#391;1664
-1434;Suszwał;Jan;Kraśnik;Mieszkaniec / Posesjonat;#79;1662
-1435;Suszwałowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#79;1662
-1436;Sułkowniczka;Janina;Kraśnik;Mieszkaniec / Posesjonat;#631;1664
-1437;Syrena;Jan;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
-1438;Szabla;Jan;"Kraśnik; Wilkołaz";Mieszkaniec / Posesjonat;#177, #329;1663
-1439;Szadek;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#206;1663
-1440;Szadek alias trojczak;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#227;1663
-1441;Szadk;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#206;1663
-1442;Szadko;N.;Góry i Podlesie;Mieszkaniec / Posesjonat;#405;1663
-1443;Szadkowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#497;1664
-1444;Szadkowa trojczakowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#227;1663
-1445;Szadzek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#464;1664
-1446;Szadzic;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#260, #198, #230, #206, #283;1663
-1447;Szadzic;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
-1448;Szadzik;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#345, #354, #349;1663–1664
-1449;Szadzik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#501;1664
-1450;Szadzik;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#370;1663
-1451;Szadzik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#827;1699
-1452;Szadzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#102, #519;1662–1664
-1453;Szadzikowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#489;1664
-1454;Szafranek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104, #474, #762, #618;1662–1666
-1455;Szafranek;N.;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
-1456;Szafranek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#392;1664
-1457;Szafranek;Wojciech;Kraśnik;Burmistrz;#645;1664
-1458;Szafraniec;Adam;Kraśnik;Mieszkaniec / Posesjonat;#67;1661
-1459;Szafraniec;N.;Kraśnik;Mieszkaniec / Posesjonat;#440;1664
-1460;Szafraniec;Stanisław;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#143, #440;1663–1664
-1461;Szafraniec;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
-1462;Szafrankowa;Manna;Kraśnik;Mieszkaniec / Posesjonat;#657;1665
-1463;Szafrankowicz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#563;1664
-1464;Szafrankowicz;Baltazar;Kraśnik;Wójt;#745;1666
-1465;Szafrankowicz;Bartłomiej;Kraśnik;Rajca;#693;1665
-1466;Szafrankowicz;Grzegorz;Kraśnik;Ławnik;#395;1664
-1467;Szafrankowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#659;1665
-1468;Szafrankowicz;Stanisław;Kraśnik;Rajca;#215;1663
-1469;Szafrankowicz;Wojciech;Kraśnik;Wójt;#390, #663, #585, #459, #688, #658, #659, #660, #215, #664, #665, #670;1663–1665
-1470;Szajda;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#562;1664
-1471;Szantyczanka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#225, #226;1663
-1472;Szapca;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#849;1699
-1473;Szarki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#548;1664
-1474;Szarogrodzki;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#263;1663
-1475;Szatkowic;Wojciech;Kraśnik;Rajca;#48, #59;1661
-1476;Szawłowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#517;1664
-1477;Szawłowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#532;1664
-1478;Szaykowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1662
-1479;Szałach;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#23;1661
-1480;Szałasmark;Stanisław;Kraśnik;Krawiec;#588;1664
-1481;Szański;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#13;1661
-1482;Szczecbuś;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#675;1664
-1483;Szczepanowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#583;1664
-1484;Szczerbiewicz;Stanisław;Kraśnik;Rajca;#812, #831;1699
-1485;Szczerbowicz;N.;Kraśnik;Ławnik;#292;1663
-1486;Szczesnowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#109;1662
-1487;Szczurkowicz;Stanisław;Kraśnik;Ławnik;#642, #700, #380, #461;1664–1665
-1488;Szczurowski;Stanisław;Kraśnik;Ławnik;#362;1663
-1489;Szczygieł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
-1490;Szczygieł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#120;1662
-1491;Szczygłowa;Helżbieta;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
-1492;Szczygłowna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
-1493;Szczypieł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#317;1663
-1494;Szczypiołek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#609;1664
-1495;Szczęsnowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#566;1664
-1496;Szeibowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#302;1663
-1497;Szeptowski;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#18;1661
-1498;Szereuchowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#294;1663
-1499;Szetela;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
-1500;Szetela;N.;Kraśnik;Mieszkaniec / Posesjonat;#528;1664
-1501;Szewc;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#326;1663
-1502;Szewcowic;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#558;1664
-1503;Szewczyk;Jan;Kraśnik;Szewc;#330;1663
-1504;Szewczyk;Sebastian;Rudnik;Mieszkaniec / Posesjonat;#623;1664
-1505;Szewczyk;Stanisław;Kraśnik;Szewc;#340;1664
-1506;Szewkowicz;Jan;Kraśnik;Ławnik;#651;1665
-1507;Szewkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#579;1664
-1508;Szewuboinicz;Stanisław;Kraśnik;Ławnik;#292;1663
-1509;Szmoyłowicz;Nosan;"Tarnogród; Podhajce";Mieszkaniec / Posesjonat;#269;1663
-1510;Szmul;Szmul;Kraśnik;Mieszkaniec / Posesjonat;#384;1664
-1511;Szmuler;Józef;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
-1512;Szmulerko;Joseph;Kraśnik;Mieszkaniec / Posesjonat;#741;1666
-1513;Szmulewicz;Jonasz;Kraśnik;Mieszkaniec / Posesjonat;#646;1664
-1514;Szmulowicz;Menasza;Wysokie;Mieszkaniec / Posesjonat;#160;1663
-1515;Szneidrowicz;Wojciech;Kraśnik;Rajca;#679;1664
-1516;Sznepowski;Jan;Kraśnik;Wójt;#582;1664
-1517;Szornel;Jerzy;Lublin;Mieszkaniec / Posesjonat;#173;1663
-1518;Szostak;N.;Kraśnik;Mieszkaniec / Posesjonat;#253;1663
-1519;Szostracki;Wojciech;Kraśnik;Rajca;#15;1661
-1520;Szot;Józef;Kraśnik;Kuśnierz;#740;1666
-1521;Szota;Wojciech;Kraśnik;Kuśnierz;#748;1666
-1522;Sztumerel;Józef;Kraśnik;Mieszkaniec / Posesjonat;#131;1662
-1523;Szudulic;Stanisław;Kraśnik;Młynarz;#818;1699
-1524;Szurgotowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#678;1664
-1525;Szurmańkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#297;1663
-1526;Szurski;Stanisław;Kraśnik;Rajca;#823;1699
-1527;Szyba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#515;1664
-1528;Szykowicz;Mattiasz;Kraśnik;Mieszkaniec / Posesjonat;#683;1664
-1529;Szymon;Krawiec;Kraśnik;Krawiec;#577;1664
-1530;Szymura;Daniel;Kraśnik;Ławnik;#801;1684
-1531;Szymura;Stanisław;Kraśnik;Rajca;#801;1684
-1532;Szymułka;Jan;Kraśnik;Szewc;#440;1664
-1533;Szypulski;N.;Kraśnik;Mieszkaniec / Posesjonat;#280;1663
-1534;Szypułka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
-1535;Szypułka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
-1536;Szyszkowicz;Maciej;Kraśnik;Szafarz;#627;1664
-1537;Sówka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#326, #331, #301, #178, #276, #344;1663–1664
-1538;Sądecka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#835;1699
-1539;Słabostka;Maciej;Ślinów;Mieszkaniec / Posesjonat;#299;1663
-1540;Słaboszek;Maciej;Blinów;Mieszkaniec / Posesjonat;#156;1663
-1541;Słanowski;Marek;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
-1542;Słanowski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#544;1664
-1543;Słoma;Słoma;Kraśnik;Mieszkaniec / Posesjonat;#378;1664
-1544;Słomkowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#371, #692;1663–1665
-1545;Słomkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#672, #673, #801, #678, #776, #363, #632, #828, #671;1663–1699
-1546;Słomkowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#844;1699
-1547;Słonkowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#188;1663
-1548;Słonkowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#87;1662
-1549;Słonkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#105, #187, #87;1662–1663
-1550;Tarsa;Maciej;Kraśnik;Rajca;#740, #701, #469, #679;1664–1666
-1551;Tarsza;Maciej;Kraśnik;Kuśnierz;#121;1662
-1552;Taryba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#392;1664
-1553;Tarło;Jan;Kraśnik;Mieszkaniec / Posesjonat;#514;1664
-1554;Tarło;Maciej;Kraśnik;Rajca;#526;1664
-1555;Tatary;Jan;Kraśnik;Mieszkaniec / Posesjonat;#620;1664
-1556;Tawurkowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#711;1665
-1557;Thomas regulec;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#258;1663
-1558;Tkacz;Feliks;Kraśnik;Mieszkaniec / Posesjonat;#833;1699
-1559;Tkacz;Izaak;Kraśnik;Mieszkaniec / Posesjonat;#243;1663
-1560;Tkacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#327;1663
-1561;Tkacz;Wawrzyk;Kraśnik;Mieszkaniec / Posesjonat;#69;1661
-1562;Tkaczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#404;1663
-1563;Tkaczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#840, #858;1699
-1564;Tkarczyk;Maciej;Kraśnik;Rajca;#107;1662
-1565;Tokarczyk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#582;1664
-1566;Tokarczyk;N.;Budzyń;Mieszkaniec / Posesjonat;#139;1662
-1567;Tokarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
-1568;Tokarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#102;1662
-1569;Tokarz;Jan klemens;Kraśnik;Mieszkaniec / Posesjonat;#572;1664
-1570;Tokarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#162, #677, #566, #191;1663–1664
-1571;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
-1572;Tokarz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#810, #279;1663–1699
-1573;Tomaszkowicz;Walenty;Kraśnik;Wójt;#542;1664
-1574;Tomkociński;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
-1575;Torcha;Maciej;Kraśnik;Rajca;#10;1661
-1576;Tołtek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#446;1664
-1577;Tracek;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
-1578;Trawiński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#836;1699
-1579;Trawostka;Wojciech;Dzierzkowice;Mieszkaniec / Posesjonat;#525;1664
-1580;Treba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#622;1664
-1581;Trela;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#163, #227, #293, #504, #315;1663–1664
-1582;Trojan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#509;1661
-1583;Trojczak;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#312, #133;1662–1663
-1584;Trojczak;N.;Kraśnik;Mieszkaniec / Posesjonat;#104;1662
-1585;Trojczakowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#278;1663
-1586;Trot;Józef;Kraśnik;Szewc;#747;1666
-1587;Trotowa;Maryna;Góry i Podlesie;Mieszkaniec / Posesjonat;#758;1666
-1588;Trębacz;Ignacy;Kraśnik;Mieszkaniec / Posesjonat;#801, #787;1684
-1589;Trętowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#242;1663
-1590;Turski;Matyjasz;Kraśnik;Mieszkaniec / Posesjonat;#248;1663
-1591;Turski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#98;1662
-1592;Turzkowska;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#222;1663
-1593;Tuszyński;Mikołaj;Kraśnik;Kuśnierz;#546;1664
-1594;Twardy;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#557;1664
-1595;Tyszowiecki;Marcin;Zamość;Ławnik;#794;1684
-1596;Tyza;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
-1597;Ulanowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#639;1664
-1598;Ulanowski;Marek;Kraśnik;Mieszkaniec / Posesjonat;#472, #639;1664
-1599;Ustrzyt;N.;Kraśnik;Mieszkaniec / Posesjonat;#252;1663
-1600;Ułanowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#290;1663
-1601;Wanda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#806;1699
-1602;Wardęga;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#504, #226;1663–1664
-1603;Waza;Zygmunt iii;"Kraków, Warszawa, Wilno; Warszawa";Mieszkaniec / Posesjonat;#415, #426;1604–1661
-1604;Wcisłówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#757;1666
-1605;Wdowa młynarka;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#643;1664
-1606;Wdowiak;Jakub;Góry i Podlesie;Mieszkaniec / Posesjonat;#819;1699
-1607;Wesołowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
-1608;Wesłowski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#639;1664
-1609;Wiecha;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#381;1664
-1610;Wieczorkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
-1611;Wieczorkowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#856;1699
-1612;Wiekha;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#366;1663
-1613;Wielka;Agnieszka;Budzyń;Mieszkaniec / Posesjonat;#115;1662
-1614;Wiercioch;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#500;1664
-1615;Wierciochowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#500;1664
-1616;Wierzbicki;Karol;Kraśnik;Mieszkaniec / Posesjonat;#852;1699
-1617;Wierzbicki;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#546;1664
-1618;Wilczek;Andrzej;Kraśnik;Młynarz;#394;1664
-1619;Wilczek;Bartłomiej;"Grzebień; Kraśnik";Młynarz;#101, #358, #385, #449;1662–1664
-1620;Wilczek;Jan;Kraśnik;Młynarz;#394;1664
-1621;Wilczek;Marcin;"Kraśnik; Śląsk";Mieszkaniec / Posesjonat;#249, #358, #394;1663–1664
-1622;Wilczek;Piotr;Kraśnik;Młynarz;#394;1664
-1623;Wilczek;Thomas;Kraśnik;Młynarz;#394;1664
-1624;Wilczkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#249, #394, #449, #358;1663–1664
-1625;Wilczniewski  dyszanczyk;Bartłomiej;Kraśnik;Młynarz;#613;1664
-1626;Wilk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#830;1699
-1627;Wilk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#832, #818;1699
-1628;Wilk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#101;1662
-1629;Wilkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#836;1699
-1630;Wincenty;N.;Kraśnik;Mieszkaniec / Posesjonat;#608;1664
-1631;Witek;Bartłomiej;Kraśnik;Młynarz;#516;1664
-1632;Witek;Tomasz;Kraśnik;Młynarz;#516;1664
-1633;Witkowa;Dorota;Kraśnik;Młynarz;#516;1664
-1634;Witkowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#351;1663
-1635;Wiącek;Szymon;Kraśnik;Szewc;#574;1664
-1636;Wiączkomicowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
-1637;Więcek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1662
-1638;Więckowa;Katarzyna;Góry i Podlesie;Mieszkaniec / Posesjonat;#143;1663
-1639;Więckowic;Szymon;Góry i Podlesie;Mieszkaniec / Posesjonat;#143;1663
-1640;Więckowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#461;1664
-1641;Więckowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#588;1664
-1642;Wnuk;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#306;1663
-1643;Wnęk;Urban;Kraśnik;Mieszkaniec / Posesjonat;#69;1661
-1644;Wodawic;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
-1645;Wojciech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#602;1664
-1646;Wojtas;Józef;"Bielko; Spławy";Mieszkaniec / Posesjonat;#99, #582;1662–1664
-1647;Wojtaszkowa;N.;Bielko;Mieszkaniec / Posesjonat;#582;1664
-1648;Wolak;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#362, #555, #252;1663–1664
-1649;Wolak;Jakub;"Kraśnik; Popkowice";Krawiec;#38, #285;1661–1663
-1650;Wolak;Maciej;Kraśnik;Krawiec;#40;1661
-1651;Wolak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#185;1663
-1652;Wolak;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#555;1664
-1653;Wolak;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#608;1664
-1654;Wolakowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#40;1661
-1655;Wolakowa;N.;Popkowice;Mieszkaniec / Posesjonat;#286;1663
-1656;Wolakowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#406;1664
-1657;Wolakowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#578;1664
-1658;Wolanowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
-1659;Worgenten;Dawid;Lublin;Mieszkaniec / Posesjonat;#271;1663
-1660;Wosik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#342;1664
-1661;Woszczatyńska;N.;Kraśnik;Mieszkaniec / Posesjonat;#477;1664
-1662;Woszczatyński;N.;Kraśnik;Mieszkaniec / Posesjonat;#566;1664
-1663;Woszczatyński;Wojciech;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#178, #475, #529, #765;1663–1666
-1664;Wotałowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#184;1663
-1665;Wotochała;Sebastian;Goraj;Mieszkaniec / Posesjonat;#568;1664
-1666;Woycik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#233;1663
-1667;Wołowek;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#322;1663
-1668;Woźniczek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#282;1663
-1669;Woźniczko;Maciej;Kraśnik;Kowal;#207;1663
-1670;Wronka;Matyjas;Byrznica;Mieszkaniec / Posesjonat;#603;1664
-1671;Wrzesińska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#733;1665
-1672;Wrzesiński;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#732;1665
-1673;Wypychowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#70;1661
-1674;Wysocki;Jan;Wrzawy;Mieszkaniec / Posesjonat;#319;1663
-1675;Wysocki;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#177;1663
-1676;Wysocki;N.;Rudnik;Mieszkaniec / Posesjonat;#623;1664
-1677;Wytoniówna;Elżbieta;Niedrzwica;Mieszkaniec / Posesjonat;#730;1665
-1678;Wójcik;Jan;Budzyń;Mieszkaniec / Posesjonat;#161, #301;1663
-1679;Wójcik;Maciej;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#176, #299, #304, #329;1663
-1680;Wójcik;Marcin;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #299, #304, #329;1663
-1681;Wójcik;Matyjasz;Blinów;Mieszkaniec / Posesjonat;#173;1663
-1682;Wójcik;Mikołaj;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#155, #176, #299, #304, #329;1663
-1683;Wójcik;Stanisław;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #299, #304, #329;1663
-1684;Wójcikowa;Maryna;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #304, #329;1663
-1685;Wójtowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#561;1664
-1686;Wójtowic;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#561;1664
-1687;Wójtowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#68;1661
-1688;Wójtowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#68;1661
-1689;Wąsorkowic;Sobestian;Kraśnik;Mieszkaniec / Posesjonat;#849;1699
-1690;Wątłowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#264;1663
-1691;Węgorchowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#484;1664
-1692;Węgorchowiczowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#496;1664
-1693;Węgorkowic;Sebastian;"Kraśnik; Stróża";Mieszkaniec / Posesjonat;#76, #102;1662
-1694;Węgorkowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#152, #256, #202, #243;1663
-1695;Węgorkowicz;Sobest;Kraśnik;Mieszkaniec / Posesjonat;#200;1663
-1696;Węgorkowiczowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#217;1663
-1697;Węgorzek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#221;1663
-1698;Węgorzkowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#279;1663
-1699;Węgorzowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#641, #676, #661, #662, #731, #701;1664–1665
-1700;Węgrzynowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#352, #625;1663–1664
-1701;Władzyński;Błażej;Kraśnik;Mieszkaniec / Posesjonat;#24, #35;1661
-1702;Włochowicz;Marek;Kraśnik;Mieszkaniec / Posesjonat;#612;1664
-1703;Włodarz;Jan;Pasieka;Mieszkaniec / Posesjonat;#561;1664
-1704;Włodarzowa;Marianna;Pasieka;Mieszkaniec / Posesjonat;#561;1664
-1705;Xender;N.;Kraśnik;Mieszkaniec / Posesjonat;#610;1664
-1706;Z dąbrowy;Jan;Kraśnik;Mieszkaniec / Posesjonat;#449;1664
-1707;Z podleszcza;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#401;1664
-1708;Z rusina;Stanisław;Kałusz;Mieszkaniec / Posesjonat;#426;1604
-1709;Z zamościa;Mikołaj;Lublin;Mieszkaniec / Posesjonat;#426;1604
-1710;Zabebel;Jan;Kraśnik;Ławnik;#506;1661
-1711;Zabłotny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
-1712;Zachorkowic tokarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
-1713;Zacierzycha;Szymonowa;Kraśnik;Mieszkanka (wdowa);#633;1664
-1714;Zadatka;Andrzej;Popkowice;Mieszkaniec / Posesjonat;#285;1663
-1715;Zadułka;Wojciech;Zaklików;Mieszkaniec / Posesjonat;#312;1663
-1716;Zajorek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#10;1661
-1717;Zając;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
-1718;Zając;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#51;1661
-1719;Zając;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#467;1664
-1720;Zając;Wawrzyniec;Kraśnik;Ławnik;#467, #68, #389;1661–1664
-1721;Zając;Zającowa;Kraśnik;Mieszkanka (wdowa);#389;1664
-1722;Zajączek;Augustyn;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
-1723;Zajączek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#576, #569;1664
-1724;Zajączek;Wawrzyniec;Kraśnik;Krawiec;#584;1664
-1725;Zaklikowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#479;1664
-1726;Zaklikowski;Szymon;Góry i Podlesie;Mieszkaniec / Posesjonat;#478;1664
-1727;Zaleski;Piotr;Goraj;Mieszkaniec / Posesjonat;#568;1664
-1728;Zamoyska;Barbara;Zamość, Tarnów;Mieszkaniec / Posesjonat;#415;1661
-1729;Zamoyska;Zofia;Zamość;Mieszkaniec / Posesjonat;#408;1661
-1730;Zamoyski;Feliks;Zamość;Mieszkaniec / Posesjonat;#430;1604
-1731;Zamoyski;Florian;"Zamość; Zamość, Chełm";Mieszkaniec / Posesjonat;#408, #426;1604–1661
-1732;Zamoyski;Jan;"Kraśnik; Zamość";Mieszkaniec / Posesjonat;#408, #426, #429, #538, #789;1604–1684
-1733;Zamoyski;Jerzy;Chełm, Zamość;Mieszkaniec / Posesjonat;#421;1601
-1734;Zamoyski;Krzysztof;Zamość;Mieszkaniec / Posesjonat;#430;1604
-1735;Zamoyski;Maciej;Zamość;Mieszkaniec / Posesjonat;#409, #429;1604–1661
-1736;Zamoyski;Paweł;Zamość;Mieszkaniec / Posesjonat;#429;1604
-1737;Zamoyski;Stanisław;Skokówka, Zamość;Mieszkaniec / Posesjonat;#424;1661
-1738;Zamoyski;Tomasz;"Kraśnik; Zamość";Mieszkaniec / Posesjonat;#52, #417, #427;1601–1661
-1739;Zamoyski;Wacław;Zamość;Mieszkaniec / Posesjonat;#429;1604
-1740;Zapnik;Augustyn;Kraśnik;Mieszkaniec / Posesjonat;#642;1664
-1741;Zapruśny;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#563;1664
-1742;Zaprzowski;Hieronim;Kraśnik;Mieszkaniec / Posesjonat;#512;1664
-1743;Zaranowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#365;1663
-1744;Zarzanowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
-1745;Zarzanowski;Łukasz;Kraśnik;Ławnik;#254, #278;1663
-1746;Zarzymbkowicz;Wojciech;Kraśnik;Kowal;#687;1664
-1747;Zarzymbłowicz;Wojciech;Kraśnik;Kowal;#675;1664
-1748;Zarzębski;Wojciech;Kraśnik;Kowal;#207;1663
-1749;Zarzędzki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#261;1663
-1750;Zaręba;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#455;1664
-1751;Zastawska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#438;1664
-1752;Zastawski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#451;1664
-1753;Zawila;N.;Kraśnik;Mieszkaniec / Posesjonat;#534;1664
-1754;Zawiła;Marek;Kraśnik;Mieszkaniec / Posesjonat;#145;1663
-1755;Zayczyk;Frans;Kraśnik;Mieszkaniec / Posesjonat;#830;1699
-1756;Zayczyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#839;1699
-1757;Zazanowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
-1758;Zazanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#528, #579, #517, #575;1664
-1759;Zaziembłowa;Jadwiga;Kraśnik;Kowal;#770;1666
-1760;Zaziembłowicz;Wojciech;Kraśnik;Kowal;#723, #726;1665
-1761;Zaziąblik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
-1762;Zaziąbłowicz;Paweł;Kraśnik;Wójt;#512, #526;1664
-1763;Zaziębło;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#138;1662
-1764;Zaziębłowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#260, #215;1663
-1765;Zaziębłowiczowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#215;1663
-1766;Załasikowie;N.;Zaklików;Mieszkaniec / Posesjonat;#300;1663
-1767;Załuskowa;Chruścia;Kraśnik;Mieszkaniec / Posesjonat;#546;1664
-1768;Zborowski;Andrzej;Szczebrzeszyn, Radom;Mieszkaniec / Posesjonat;#414;1661
-1769;Zbrojowic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#571;1664
-1770;Zbyszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#854;1699
-1771;Zdebek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#686;1664
-1772;Zdebek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#708;1665
-1773;Zdebik;Adam;Kraśnik;Mieszkaniec / Posesjonat;#662, #663;1665
-1774;Zdebik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#179;1663
-1775;Zdebiowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
-1776;Zdun;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#492, #205;1663–1664
-1777;Zdunowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#489;1664
-1778;Zdunówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#492, #205;1663–1664
-1779;Zdziebło;Adam;Kraśnik;Mieszkaniec / Posesjonat;#626;1664
-1780;Zebrzydowski;Mikołaj;"Lublin; Lublin, Kraków";Mieszkaniec / Posesjonat;#415, #426;1604–1661
-1781;Zegart;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#178;1663
-1782;Zelda;Joseph;Kraśnik;Mieszkaniec / Posesjonat;#197;1663
-1783;Zelda;N.;Kraśnik;Mieszkaniec / Posesjonat;#538, #623;1664
-1784;Zelman;N.;Kraśnik;Mieszkaniec / Posesjonat;#568, #577;1664
-1785;Zelman;Zelman;Kraśnik;Mieszkaniec / Posesjonat;#381;1664
-1786;Zgajowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#307;1663
-1787;Zgłobicki;Marcin;Kraśnik;Rajca;#48;1661
-1788;Zieliczan;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#406;1663
-1789;Zielińska;N.;Kraśnik;Mieszkaniec / Posesjonat;#281;1663
-1790;Zieliński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#281;1663
-1791;Zielonka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#46;1661
-1792;Ziobrosczanka;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
-1793;Ziółkiewicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#247;1663
-1794;Zięba;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#630;1664
-1795;Zięba;Wojciech;Rudnik;Mieszkaniec / Posesjonat;#192;1663
-1796;Ziębka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#237;1663
-1797;Zięziętek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#576;1664
-1798;Zięziętka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#587;1664
-1799;Zmięda;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
-1800;Zmiędz;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#124;1662
-1801;Zmiędz;Łukaszowa;Kraśnik;Mieszkanka (wdowa);#124;1662
-1802;Zmiędzina;N.;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
-1803;Zobadek;Joel;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
-1804;Zofia;Jałmużnica;Kraśnik;Mieszkaniec / Posesjonat;#585;1664
-1805;Zomięga;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#676;1664
-1806;Zomięga;Maciej;Kraśnik;Rajca;#710, #682, #659, #628, #663, #664, #730;1664–1665
-1807;Zomięzina;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#641;1664
-1808;Zomiężyna;N. (wdowa);Kraśnik;Ławnik / Wdowa;#699;1665
-1809;Zotowik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#353;1663
-1810;Zotowikowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#353;1663
-1811;Zrobek;N.;Kraśnik;Mieszkaniec / Posesjonat;#551;1664
-1812;Zrzebłowicz;Wojciech;Rzeczyca;Mieszkaniec / Posesjonat;#578;1664
-1813;Zwierzchowski;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
-1814;Zychowicz szewkowicz;Matyjasz;Kraśnik;Szewc;#574;1664
-1815;Zydłukowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#192;1663
-1816;Złom;Lewek;Kraśnik;Mieszkaniec / Posesjonat;#824;1699
-1817;Złotarzowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#626;1664
-1818;Złotocki;Wojciech;Kraśnik;Krawiec;#328, #347, #339, #333;1663–1664
-1819;Złotowic;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#589;1664
-1820;Złotowicowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#621;1664
-1821;Złotowicz;Szymon;Kraśnik;Krawiec;#381;1664
-1822;Złotowiczowa;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#386;1664
-1823;Ćwikiełka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
-1824;Ćwikła;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#475, #477;1664
-1825;Ćwiliczka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#133;1662
-1826;Łabanek;Sebastian;Kraśnik;Wójt;#822;1699
-1827;Łabanek;Szepan;Góry i Podlesie;Wójt;#822;1699
-1828;Łabanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#743;1666
-1829;Łabędziowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#577;1664
-1830;Łabędź;Adam;Kraśnik;Mieszkaniec / Posesjonat;#577;1664
-1831;Łach;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#163;1663
-1832;Łakasionka;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#700;1665
-1833;Łamigłówka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
-1834;Łapatka;Iwasz;Kraśnik;Mieszkaniec / Posesjonat;#42;1661
-1835;Łapatka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#582;1664
-1836;Łapatka;Wojciech;Kraśnik;Szewc;#42;1661
-1837;Łapka;Błażej;Kraśnik;Mieszkaniec / Posesjonat;#49;1661
-1838;Łapka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#39;1661
-1839;Łaskawska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#701;1665
-1840;Łaskawski;Jan;Kraśnik;Ławnik;#701;1665
-1841;Łatka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#555;1664
-1842;Łayski;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#191;1663
-1843;Łaziszcze;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#367;1663
-1844;Łaziński;N.;Tomkowice;Mieszkaniec / Posesjonat;#431;1604
-1845;Łepczyna;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#375;1664
-1846;Łepka;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#376;1664
-1847;Łepkowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#375;1664
-1848;Łoboda;Icek;Kraśnik;Mieszkaniec / Posesjonat;#490, #203, #364, #628, #501, #253;1663–1664
-1849;Łoboda;N.;Kraśnik;Mieszkaniec / Posesjonat;#499;1664
-1850;Łoboda;Samuel;Kraśnik;Mieszkaniec / Posesjonat;#213;1663
-1851;Łoboda;Zendel;Kraśnik;Mieszkaniec / Posesjonat;#538;1664
-1852;Łobodzi;Icek;Kraśnik;Mieszkaniec / Posesjonat;#199;1663
-1853;Łomięga;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#466;1664
-1854;Łopata;Wawrzyniec;Słodków;Mieszkaniec / Posesjonat;#310;1663
-1855;Łucki;Jan;Turobin;Mieszkaniec / Posesjonat;#122;1662
-1856;Łuczek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#14;1661
-1857;Łyjaywołow;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
-1858;Łyjaywołow;Stanisław;Kraśnik;Wójt;#586;1664
-1859;Łypcik;Matyjasz;Tarłów;Młynarz;#613;1664
-1860;Łypcikowa;Dorota;Tarłów;Młynarz;#614;1664
-1861;Łypieko;Maciej;Tarłów;Młynarz;#385;1664
-1862;Łypiekowa;Dorota;Tarłów;Mieszkaniec / Posesjonat;#385;1664
-1863;Łytałka;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#547;1664
-1864;Łączanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#368;1663
-1865;Łączko;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#123;1662
-1866;Łączyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#203;1663
-1867;Łązik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#724, #726;1665
-1868;Ślosarek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#43;1661
-1869;Ślosarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#131;1662
-1870;Ślosarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#363;1663
-1871;Ślusarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
-1872;Ślusarczykowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
-1873;Ślusarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#579;1664
-1874;Ślusarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#491, #204, #254;1663–1664
-1875;Śmiedowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#682, #627;1664
-1876;Śmieszek;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#845;1699
-1877;Śmietankowicz;Wojciech;Kraśnik;Rajca;#526;1664
-1878;Śmigiel;Szczepan;Wilkołaz;Mieszkaniec / Posesjonat;#174;1663
-1879;Śnieżycowic;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#390;1664
-1880;Śnieżycowic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#391;1664
-1881;Świderek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#252;1663
-1882;Świdurska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
-1883;Świdurski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
-1884;Świdziona;Anna;Kraśnik;Mieszkaniec / Posesjonat;#224;1663
-1885;Świeboda;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#323;1663
-1886;Świebrawin;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
-1887;Świecznik;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#365;1663
-1888;Świerczek;Maciej;Kraśnik;Wójt;#68;1661
-1889;Świezbojer;Kasper;Kraśnik;Rajca;#359;1663
-1890;Świrski;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#243;1663
-1891;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
-1892;Świątek;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
-1893;Świątkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
-1894;Święchowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#368;1663
-1895;Święcicki;Stanisław jacek;Wilkołaz;Mieszkaniec / Posesjonat;#351;1663
-1896;Świętoch;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
-1897;Żelda;Józef;Budzyń;Mieszkaniec / Posesjonat;#114;1662
-1898;Żelda;Zelman;Kraśnik;Mieszkaniec / Posesjonat;#114;1662
-1899;Żelka;Józef;Kraśnik;Mieszkaniec / Posesjonat;#314, #283;1663
-1900;Żewdziuszek;Szymon;Kraśnik;Wójt;#225;1663
-1901;Żołwik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#252, #220, #188, #244;1663
-1902;Żołwikowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#252, #245;1663
-1903;Żołędź;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#302, #295;1663
-1904;Żurawski;N.;Tomaszów;Mieszkaniec / Posesjonat;#533;1664
-1905;Żurowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#312;1663
-1906;Żydkowic;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#62;1661
-1907;Żydkowicz;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#619;1664
-1908;Żydkowicz;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#457;1664
-1909;Żydkowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#521, #387, #454;1664
-1910;Żydlewicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#749;1666
-1911;Żydowina;Regina;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
-1912;Żydowski;Stanisław;Budzyń;Mieszkaniec / Posesjonat;#805;1699
-1913;Żyłkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#644;1664
-1914;Żółkiewski;Mikołaj;Lwów;Mieszkaniec / Posesjonat;#426;1604
-1915;Żółkiewski;Stanisław;Lwów, Żółkiew;Mieszkaniec / Posesjonat;#415;1661
-1916;Żółwik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#503;1664
+1324;Sierocki;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#60;1661
+1325;Siewierowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#248;1663
+1326;Siewiorek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#358;1663
+1327;Sikawski;Marcin;Kraśnik;Rajca;#264;1663
+1328;Sikorski;Fryderyk;Kraśnik;Rajca;#290;1663
+1329;Sikorski;N.;Kraśnik;Mieszkaniec / Posesjonat;#581;1664
+1330;Simci;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#764;1666
+1331;Siotow;Jan;Wilkołaz;Mieszkaniec / Posesjonat;#195;1663
+1332;Sitarczyk;Walenty;Kraśnik;Wójt;#145;1663
+1333;Sitarsi;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#757;1666
+1334;Sitarski;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#841;1699
+1335;Sitarski;Jan marcin;Kraśnik;Rajca;#440;1664
+1336;Sitarski;Marcin;Kraśnik;Rajca;#482, #647, #78, #119, #660, #661, #471, #666;1662–1665
+1337;Sitarz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#348;1664
+1338;Sitarz;Stanisław;Biłgoraj;Mieszkaniec / Posesjonat;#342;1664
+1339;Sitkarz;Szymon;Kraśnik;Wójt;#839;1699
+1340;Sitkowski;Franciszek;Kraśnik;Krawiec;#829;1699
+1341;Siudey;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
+1342;Siwek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#601;1664
+1343;Siwy;Jan;Kraśnik;Mieszkaniec / Posesjonat;#622;1664
+1344;Skaryszek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#59;1661
+1345;Skała;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#185;1663
+1346;Skałka;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#60;1661
+1347;Skliarski;N.;Kraśnik / Zamość;Pachołek dworski / Sprawca deliktu;#52;1661
+1348;Skowroński;Marcin;Kraśnik;Ławnik;#315;1663
+1349;Skrzypek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#637;1664
+1350;Skrzypek;N.;Kraśnik;Mieszkaniec / Posesjonat;#242;1663
+1351;Skrzypek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#633;1664
+1352;Skrzypk;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#638;1664
+1353;Skrzypkowa grzebienna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#250;1663
+1354;Skrzypkowska;Dorota;Góry i Podlesie;Mieszkaniec / Posesjonat;#238;1663
+1355;Skrzypkowski;Grzegorz;Góry i Podlesie;Mieszkaniec / Posesjonat;#238;1663
+1356;Skrzyński;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#511;1664
+1357;Skwarczyk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#290;1663
+1358;Skórna;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#538;1664
+1359;Smoczan;Jakub;Piaski;Mieszkaniec / Posesjonat;#608;1664
+1360;Smoczanowski;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
+1361;Smoczek;N.;Kraśnik;Mieszkaniec / Posesjonat;#623;1664
+1362;Smoczek;Sebastian;"Budzyń; Bychawka; Wyżnica";Mieszkaniec / Posesjonat;#137, #171, #319, #473, #533;1662–1664
+1363;Smoczek;Tomasz;"Budzyń; Wyżnica";Mieszkaniec / Posesjonat;#137, #167, #319;1662–1663
+1364;Smoczkowa;N.;Bychawka;Mieszkaniec / Posesjonat;#533;1664
+1365;Smoczkowa wolakowa oleszkowa;Jadwiga;Piaski;Mieszkaniec / Posesjonat;#608;1664
+1366;Smoczkowna;Dorota;Wyżnica;Mieszkaniec / Posesjonat;#137;1662
+1367;Smoczyński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
+1368;Smolarka;N.;Kraśnik;Mieszkaniec / Posesjonat;#256;1663
+1369;Smolarz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
+1370;Smolarz;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#214;1663
+1371;Smolarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#256;1663
+1372;Smolarzanka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#382;1664
+1373;Smolnkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
+1374;Smotan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#377;1664
+1375;Smołkowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
+1376;Snagierowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
+1377;Snarsz;Tomasz;Góry i Podlesie;Mieszkaniec / Posesjonat;#595;1664
+1378;Snarszowa;Zofia;Góry i Podlesie;Mieszkaniec / Posesjonat;#595;1664
+1379;Sobieski;Marek;Lublin;Mieszkaniec / Posesjonat;#421;1601
+1380;Sobieszczański;Zygmunt;Sobieszczany;Mieszkaniec / Posesjonat;#173;1663
+1381;Sobieszek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#57;1661
+1382;Sobieszkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#67;1661
+1383;Sobkowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
+1384;Sobocha;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#276;1663
+1385;Sobolczyk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#307;1663
+1386;Sobolczyk;N.;Kraśnik;Mieszkaniec / Posesjonat;#232;1663
+1387;Sobolowic;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#191;1663
+1388;Sobotka;Icek;Góry i Podlesie;Mieszkaniec / Posesjonat;#592;1664
+1389;Sobotka;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#292;1663
+1390;Sochanczyna;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
+1391;Sokolnik;Szmul;Kraśnik;Mieszkaniec / Posesjonat;#612;1664
+1392;Sokółek smolarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#216;1663
+1393;Solecki;Stanisław;Kraśnik;Rajca;#842, #803;1698–1699
+1394;Solikowski;Jan dymitr;Lwów;Mieszkaniec / Posesjonat;#421;1601
+1395;Sołtys;Jan;Kraśnik;Mieszkaniec / Posesjonat;#522;1664
+1396;Sońka;Marcin;Budzyń;Mieszkaniec / Posesjonat;#301;1663
+1397;Sroka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#387;1664
+1398;Stach;N.;Kraśnik;Mieszkaniec / Posesjonat;#531;1664
+1399;Stalmach;Jan;Kraśnik;Ławnik;#506;1661
+1400;Stankowski;Jan;Rzepków;Mieszkaniec / Posesjonat;#183;1663
+1401;Starczyska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#550;1664
+1402;Starczyski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#550;1664
+1403;Staropolska;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#241;1663
+1404;Staropolski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#241;1663
+1405;Starosteński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#544;1664
+1406;Stary brat;N.;Kraśnik;Mieszkaniec / Posesjonat;#279;1663
+1407;Starybracik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#655, #602, #196, #596;1663–1665
+1408;Starybrat;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#600, #202, #379, #230;1663–1664
+1409;Starzyński;Marcin;"Dzierzkowice; Kraśnik";Wójt;#71, #151, #183, #201, #235, #359, #380, #444, #468, #481, #696, #722;1662–1665
+1410;Staszek;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#848;1699
+1411;Storkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#253;1663
+1412;Strawski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#816;1699
+1413;Stryjbracik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#520;1664
+1414;Stryjbracik;N.;Kraśnik;Mieszkaniec / Posesjonat;#528;1664
+1415;Stryjbracik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
+1416;Stryjcowicz;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#666;1665
+1417;Stryjeński;Grzegorz;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#400, #401;1664
+1418;Stryjowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#543;1664
+1419;Stryjowski;Grzegorz;Kraśnik;Kowal;#216, #565, #543;1663–1664
+1420;Stryk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#581;1664
+1421;Strykowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#291;1663
+1422;Strykówna;Marina;Kraśnik;Mieszkaniec / Posesjonat;#852;1699
+1423;Strzałkowski;Jan;Rząchów;Mieszkaniec / Posesjonat;#334, #335;1664
+1424;Strzelecki;N.;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
+1425;Strzuchłowicz;Feliks;Kraśnik;Mieszkaniec / Posesjonat;#215;1663
+1426;Strzuchłowicz;Stanisław;Kraśnik;Ławnik;#233, #207;1663
+1427;Strzyżewski;Grzegorz;Kraśnik;Kowal;#163;1663
+1428;Strzyżowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#691;1665
+1429;Strzyżowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#641;1664
+1430;Strzyżowski;Grzegorz;Kraśnik;Kowal;#641, #737, #687;1664–1665
+1431;Sudzień;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#737;1665
+1432;Sukienniczka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#261;1663
+1433;Sukiennik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#750, #190, #262;1663–1666
+1434;Surmańkówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#154;1663
+1435;Sustewalonizowna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#391;1664
+1436;Suszwał;Jan;Kraśnik;Mieszkaniec / Posesjonat;#79;1662
+1437;Suszwałowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#79;1662
+1438;Sułkowniczka;Janina;Kraśnik;Mieszkaniec / Posesjonat;#631;1664
+1439;Syrena;Jan;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
+1440;Szabla;Jan;"Kraśnik; Wilkołaz";Mieszkaniec / Posesjonat;#177, #329;1663
+1441;Szadek;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#206;1663
+1442;Szadek alias trojczak;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#227;1663
+1443;Szadk;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#206;1663
+1444;Szadko;N.;Góry i Podlesie;Mieszkaniec / Posesjonat;#405;1663
+1445;Szadkowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#497;1664
+1446;Szadkowa trojczakowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#227;1663
+1447;Szadzek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#464;1664
+1448;Szadzic;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#260, #198, #230, #206, #283;1663
+1449;Szadzic;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
+1450;Szadzik;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#345, #354, #349;1663–1664
+1451;Szadzik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#501;1664
+1452;Szadzik;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#370;1663
+1453;Szadzik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#827;1699
+1454;Szadzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#102, #519;1662–1664
+1455;Szadzikowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#489;1664
+1456;Szafranek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104, #474, #762, #618;1662–1666
+1457;Szafranek;N.;Kraśnik;Mieszkaniec / Posesjonat;#195;1663
+1458;Szafranek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#392;1664
+1459;Szafranek;Wojciech;Kraśnik;Burmistrz;#645;1664
+1460;Szafraniec;Adam;Kraśnik;Mieszkaniec / Posesjonat;#67;1661
+1461;Szafraniec;N.;Kraśnik;Mieszkaniec / Posesjonat;#440;1664
+1462;Szafraniec;Stanisław;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#143, #440;1663–1664
+1463;Szafraniec;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
+1464;Szafrankowa;Manna;Kraśnik;Mieszkaniec / Posesjonat;#657;1665
+1465;Szafrankowicz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#563;1664
+1466;Szafrankowicz;Baltazar;Kraśnik;Wójt;#745;1666
+1467;Szafrankowicz;Bartłomiej;Kraśnik;Rajca;#693;1665
+1468;Szafrankowicz;Grzegorz;Kraśnik;Ławnik;#395;1664
+1469;Szafrankowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#659;1665
+1470;Szafrankowicz;Stanisław;Kraśnik;Rajca;#215;1663
+1471;Szafrankowicz;Wojciech;Kraśnik;Wójt;#390, #663, #585, #459, #688, #658, #659, #660, #215, #664, #665, #670;1663–1665
+1472;Szajda;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#562;1664
+1473;Szantyczanka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#225, #226;1663
+1474;Szapca;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#849;1699
+1475;Szarki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#548;1664
+1476;Szarogrodzki;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#263;1663
+1477;Szatkowic;Wojciech;Kraśnik;Rajca;#48, #59;1661
+1478;Szawłowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#517;1664
+1479;Szawłowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#532;1664
+1480;Szaykowska;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1662
+1481;Szałach;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#23;1661
+1482;Szałasmark;Stanisław;Kraśnik;Krawiec;#588;1664
+1483;Szański;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#13;1661
+1484;Szczecbuś;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#675;1664
+1485;Szczepanowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#583;1664
+1486;Szczerbiewicz;Stanisław;Kraśnik;Rajca;#812, #831;1699
+1487;Szczerbowicz;N.;Kraśnik;Ławnik;#292;1663
+1488;Szczesnowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#109;1662
+1489;Szczurkowicz;Stanisław;Kraśnik;Ławnik;#642, #700, #380, #461;1664–1665
+1490;Szczurowski;Stanisław;Kraśnik;Ławnik;#362;1663
+1491;Szczygieł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
+1492;Szczygieł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#120;1662
+1493;Szczygłowa;Helżbieta;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
+1494;Szczygłowna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#121;1662
+1495;Szczypieł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#317;1663
+1496;Szczypiołek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#609;1664
+1497;Szczęsnowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#566;1664
+1498;Szeibowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#302;1663
+1499;Szeptowski;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#18;1661
+1500;Szereuchowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#294;1663
+1501;Szetela;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
+1502;Szetela;N.;Kraśnik;Mieszkaniec / Posesjonat;#528;1664
+1503;Szewc;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#326;1663
+1504;Szewcowic;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#558;1664
+1505;Szewczyk;Jan;Kraśnik;Szewc;#330;1663
+1506;Szewczyk;Sebastian;Rudnik;Mieszkaniec / Posesjonat;#623;1664
+1507;Szewczyk;Stanisław;Kraśnik;Szewc;#340;1664
+1508;Szewkowicz;Jan;Kraśnik;Ławnik;#651;1665
+1509;Szewkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#579;1664
+1510;Szewuboinicz;Stanisław;Kraśnik;Ławnik;#292;1663
+1511;Szmoyłowicz;Nosan;"Tarnogród; Podhajce";Mieszkaniec / Posesjonat;#269;1663
+1512;Szmul;Szmul;Kraśnik;Mieszkaniec / Posesjonat;#384;1664
+1513;Szmuler;Józef;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
+1514;Szmulerko;Joseph;Kraśnik;Mieszkaniec / Posesjonat;#741;1666
+1515;Szmulewicz;Jonasz;Kraśnik;Mieszkaniec / Posesjonat;#646;1664
+1516;Szmulowicz;Menasza;Wysokie;Mieszkaniec / Posesjonat;#160;1663
+1517;Szneidrowicz;Wojciech;Kraśnik;Rajca;#679;1664
+1518;Sznepowski;Jan;Kraśnik;Wójt;#582;1664
+1519;Szornel;Jerzy;Lublin;Mieszkaniec / Posesjonat;#173;1663
+1520;Szostak;N.;Kraśnik;Mieszkaniec / Posesjonat;#253;1663
+1521;Szostracki;Wojciech;Kraśnik;Rajca;#15;1661
+1522;Szot;Józef;Kraśnik;Kuśnierz;#740;1666
+1523;Szota;Wojciech;Kraśnik;Kuśnierz;#748;1666
+1524;Sztumerel;Józef;Kraśnik;Mieszkaniec / Posesjonat;#131;1662
+1525;Szudulic;Stanisław;Kraśnik;Młynarz;#818;1699
+1526;Szurgotowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#678;1664
+1527;Szurmańkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#297;1663
+1528;Szurski;Stanisław;Kraśnik;Rajca;#823;1699
+1529;Szyba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#515;1664
+1530;Szykowicz;Mattiasz;Kraśnik;Mieszkaniec / Posesjonat;#683;1664
+1531;Szymon;Krawiec;Kraśnik;Krawiec;#577;1664
+1532;Szymura;Daniel;Kraśnik;Ławnik;#801;1684
+1533;Szymura;Stanisław;Kraśnik;Rajca;#801;1684
+1534;Szymułka;Jan;Kraśnik;Szewc;#440;1664
+1535;Szypulski;N.;Kraśnik;Mieszkaniec / Posesjonat;#280;1663
+1536;Szypułka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
+1537;Szypułka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
+1538;Szyszkowicz;Maciej;Kraśnik;Szafarz;#627;1664
+1539;Sówka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#326, #331, #301, #178, #276, #344;1663–1664
+1540;Sądecka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#835;1699
+1541;Słabostka;Maciej;Ślinów;Mieszkaniec / Posesjonat;#299;1663
+1542;Słaboszek;Maciej;Blinów;Mieszkaniec / Posesjonat;#156;1663
+1543;Słanowski;Marek;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
+1544;Słanowski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#544;1664
+1545;Słoma;Słoma;Kraśnik;Mieszkaniec / Posesjonat;#378;1664
+1546;Słomkowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#371, #692;1663–1665
+1547;Słomkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#672, #673, #801, #678, #776, #363, #632, #828, #671;1663–1699
+1548;Słomkowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#844;1699
+1549;Słonkowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#188;1663
+1550;Słonkowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#87;1662
+1551;Słonkowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#105, #187, #87;1662–1663
+1552;Tarsa;Maciej;Kraśnik;Rajca;#740, #701, #469, #679;1664–1666
+1553;Tarsza;Maciej;Kraśnik;Kuśnierz;#121;1662
+1554;Taryba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#392;1664
+1555;Tarło;Jan;Kraśnik;Mieszkaniec / Posesjonat;#514;1664
+1556;Tarło;Maciej;Kraśnik;Rajca;#526;1664
+1557;Tatary;Jan;Kraśnik;Mieszkaniec / Posesjonat;#620;1664
+1558;Tawurkowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#711;1665
+1559;Thomas regulec;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#258;1663
+1560;Tkacz;Feliks;Kraśnik;Mieszkaniec / Posesjonat;#833;1699
+1561;Tkacz;Izaak;Kraśnik;Mieszkaniec / Posesjonat;#243;1663
+1562;Tkacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#327;1663
+1563;Tkacz;Wawrzyk;Kraśnik;Mieszkaniec / Posesjonat;#69;1661
+1564;Tkaczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#404;1663
+1565;Tkaczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#840, #858;1699
+1566;Tkarczyk;Maciej;Kraśnik;Rajca;#107;1662
+1567;Tokarczyk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#582;1664
+1568;Tokarczyk;N.;Budzyń;Mieszkaniec / Posesjonat;#139;1662
+1569;Tokarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
+1570;Tokarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#102;1662
+1571;Tokarz;Jan klemens;Kraśnik;Mieszkaniec / Posesjonat;#572;1664
+1572;Tokarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#162, #677, #566, #191;1663–1664
+1573;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
+1574;Tokarz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#810, #279;1663–1699
+1575;Tomaszkowicz;Walenty;Kraśnik;Wójt;#542;1664
+1576;Tomkociński;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
+1577;Torcha;Maciej;Kraśnik;Rajca;#10;1661
+1578;Tołtek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#446;1664
+1579;Tracek;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
+1580;Trawiński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#836;1699
+1581;Trawostka;Wojciech;Dzierzkowice;Mieszkaniec / Posesjonat;#525;1664
+1582;Treba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#622;1664
+1583;Trela;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#163, #227, #293, #504, #315;1663–1664
+1584;Trojan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#509;1661
+1585;Trojczak;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#312, #133;1662–1663
+1586;Trojczak;N.;Kraśnik;Mieszkaniec / Posesjonat;#104;1662
+1587;Trojczakowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#278;1663
+1588;Trot;Józef;Kraśnik;Szewc;#747;1666
+1589;Trotowa;Maryna;Góry i Podlesie;Mieszkaniec / Posesjonat;#758;1666
+1590;Trębacz;Ignacy;Kraśnik;Mieszkaniec / Posesjonat;#801, #787;1684
+1591;Trętowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#242;1663
+1592;Turski;Matyjasz;Kraśnik;Mieszkaniec / Posesjonat;#248;1663
+1593;Turski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#98;1662
+1594;Turzkowska;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#222;1663
+1595;Tuszyński;Mikołaj;Kraśnik;Kuśnierz;#546;1664
+1596;Twardy;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#557;1664
+1597;Tyszowiecki;Marcin;Zamość;Ławnik;#794;1684
+1598;Tyza;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
+1599;Ulanowska;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#639;1664
+1600;Ulanowski;Marek;Kraśnik;Mieszkaniec / Posesjonat;#472, #639;1664
+1601;Ustrzyt;N.;Kraśnik;Mieszkaniec / Posesjonat;#252;1663
+1602;Ułanowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#290;1663
+1603;Wanda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#806;1699
+1604;Wardęga;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#504, #226;1663–1664
+1605;Waza;Zygmunt iii;"Kraków, Warszawa, Wilno; Warszawa";Mieszkaniec / Posesjonat;#415, #426;1604–1661
+1606;Wcisłówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#757;1666
+1607;Wdowa młynarka;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#643;1664
+1608;Wdowiak;Jakub;Góry i Podlesie;Mieszkaniec / Posesjonat;#819;1699
+1609;Wesołowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#567;1664
+1610;Wesłowski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#639;1664
+1611;Wiecha;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#381;1664
+1612;Wieczorkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
+1613;Wieczorkowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#856;1699
+1614;Wiekha;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#366;1663
+1615;Wielka;Agnieszka;Budzyń;Mieszkaniec / Posesjonat;#115;1662
+1616;Wiercioch;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#500;1664
+1617;Wierciochowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#500;1664
+1618;Wierzbicki;Karol;Kraśnik;Mieszkaniec / Posesjonat;#852;1699
+1619;Wierzbicki;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#546;1664
+1620;Wilczek;Andrzej;Kraśnik;Młynarz;#394;1664
+1621;Wilczek;Bartłomiej;"Grzebień; Kraśnik";Młynarz;#101, #358, #385, #449;1662–1664
+1622;Wilczek;Jan;Kraśnik;Młynarz;#394;1664
+1623;Wilczek;Marcin;"Kraśnik; Śląsk";Mieszkaniec / Posesjonat;#249, #358, #394;1663–1664
+1624;Wilczek;Piotr;Kraśnik;Młynarz;#394;1664
+1625;Wilczek;Thomas;Kraśnik;Młynarz;#394;1664
+1626;Wilczkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#249, #394, #449, #358;1663–1664
+1627;Wilczniewski  dyszanczyk;Bartłomiej;Kraśnik;Młynarz;#613;1664
+1628;Wilk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#830;1699
+1629;Wilk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#832, #818;1699
+1630;Wilk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#101;1662
+1631;Wilkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#836;1699
+1632;Wincenty;N.;Kraśnik;Mieszkaniec / Posesjonat;#608;1664
+1633;Witek;Bartłomiej;Kraśnik;Młynarz;#516;1664
+1634;Witek;Tomasz;Kraśnik;Młynarz;#516;1664
+1635;Witkowa;Dorota;Kraśnik;Młynarz;#516;1664
+1636;Witkowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#351;1663
+1637;Wiącek;Szymon;Kraśnik;Szewc;#574;1664
+1638;Wiączkomicowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
+1639;Więcek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1662
+1640;Więckowa;Katarzyna;Góry i Podlesie;Mieszkaniec / Posesjonat;#143;1663
+1641;Więckowic;Szymon;Góry i Podlesie;Mieszkaniec / Posesjonat;#143;1663
+1642;Więckowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#461;1664
+1643;Więckowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#588;1664
+1644;Wnuk;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#306;1663
+1645;Wnęk;Urban;Kraśnik;Mieszkaniec / Posesjonat;#69;1661
+1646;Wodawic;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
+1647;Wojciech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#602;1664
+1648;Wojtas;Józef;"Bielko; Spławy";Mieszkaniec / Posesjonat;#99, #582;1662–1664
+1649;Wojtaszkowa;N.;Bielko;Mieszkaniec / Posesjonat;#582;1664
+1650;Wolak;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#362, #555, #252;1663–1664
+1651;Wolak;Jakub;"Kraśnik; Popkowice";Krawiec;#38, #285;1661–1663
+1652;Wolak;Maciej;Kraśnik;Krawiec;#40;1661
+1653;Wolak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#185;1663
+1654;Wolak;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#555;1664
+1655;Wolak;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#608;1664
+1656;Wolakowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#40;1661
+1657;Wolakowa;N.;Popkowice;Mieszkaniec / Posesjonat;#286;1663
+1658;Wolakowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#406;1664
+1659;Wolakowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#578;1664
+1660;Wolanowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#575;1664
+1661;Worgenten;Dawid;Lublin;Mieszkaniec / Posesjonat;#271;1663
+1662;Wosik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#342;1664
+1663;Woszczatyńska;N.;Kraśnik;Mieszkaniec / Posesjonat;#477;1664
+1664;Woszczatyński;N.;Kraśnik;Mieszkaniec / Posesjonat;#566;1664
+1665;Woszczatyński;Wojciech;"Góry i Podlesie; Kraśnik";Mieszkaniec / Posesjonat;#178, #475, #529, #765;1663–1666
+1666;Wotałowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#184;1663
+1667;Wotochała;Sebastian;Goraj;Mieszkaniec / Posesjonat;#568;1664
+1668;Woycik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#233;1663
+1669;Wołowek;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#322;1663
+1670;Woźniczek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#282;1663
+1671;Woźniczko;Maciej;Kraśnik;Kowal;#207;1663
+1672;Wronka;Matyjas;Byrznica;Mieszkaniec / Posesjonat;#603;1664
+1673;Wrzesińska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#733;1665
+1674;Wrzesiński;Kazimierz;Kraśnik;Mieszkaniec / Posesjonat;#732;1665
+1675;Wypychowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#70;1661
+1676;Wysocki;Jan;Wrzawy;Mieszkaniec / Posesjonat;#319;1663
+1677;Wysocki;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#177;1663
+1678;Wysocki;N.;Rudnik;Mieszkaniec / Posesjonat;#623;1664
+1679;Wytoniówna;Elżbieta;Niedrzwica;Mieszkaniec / Posesjonat;#730;1665
+1680;Wójcik;Jan;Budzyń;Mieszkaniec / Posesjonat;#161, #301;1663
+1681;Wójcik;Maciej;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#176, #299, #304, #329;1663
+1682;Wójcik;Marcin;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #299, #304, #329;1663
+1683;Wójcik;Matyjasz;Blinów;Mieszkaniec / Posesjonat;#173;1663
+1684;Wójcik;Mikołaj;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#155, #176, #299, #304, #329;1663
+1685;Wójcik;Stanisław;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #299, #304, #329;1663
+1686;Wójcikowa;Maryna;"Blinów; Ślinów";Mieszkaniec / Posesjonat;#173, #176, #304, #329;1663
+1687;Wójtowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#561;1664
+1688;Wójtowic;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#561;1664
+1689;Wójtowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#68;1661
+1690;Wójtowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#68;1661
+1691;Wąsorkowic;Sobestian;Kraśnik;Mieszkaniec / Posesjonat;#849;1699
+1692;Wątłowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#264;1663
+1693;Węgorchowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#484;1664
+1694;Węgorchowiczowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#496;1664
+1695;Węgorkowic;Sebastian;"Kraśnik; Stróża";Mieszkaniec / Posesjonat;#76, #102;1662
+1696;Węgorkowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#152, #256, #202, #243;1663
+1697;Węgorkowicz;Sobest;Kraśnik;Mieszkaniec / Posesjonat;#200;1663
+1698;Węgorkowiczowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#217;1663
+1699;Węgorzek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#221;1663
+1700;Węgorzkowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#279;1663
+1701;Węgorzowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#641, #676, #661, #662, #731, #701;1664–1665
+1702;Węgrzynowicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#352, #625;1663–1664
+1703;Władzyński;Błażej;Kraśnik;Mieszkaniec / Posesjonat;#24, #35;1661
+1704;Włochowicz;Marek;Kraśnik;Mieszkaniec / Posesjonat;#612;1664
+1705;Włodarz;Jan;Pasieka;Mieszkaniec / Posesjonat;#561;1664
+1706;Włodarzowa;Marianna;Pasieka;Mieszkaniec / Posesjonat;#561;1664
+1707;Xender;N.;Kraśnik;Mieszkaniec / Posesjonat;#610;1664
+1708;Z dąbrowy;Jan;Kraśnik;Mieszkaniec / Posesjonat;#449;1664
+1709;Z podleszcza;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#401;1664
+1710;Z rusina;Stanisław;Kałusz;Mieszkaniec / Posesjonat;#426;1604
+1711;Z zamościa;Mikołaj;Lublin;Mieszkaniec / Posesjonat;#426;1604
+1712;Zabebel;Jan;Kraśnik;Ławnik;#506;1661
+1713;Zabłotny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
+1714;Zachorkowic tokarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
+1715;Zacierzycha;Szymonowa;Kraśnik;Mieszkanka (wdowa);#633;1664
+1716;Zadatka;Andrzej;Popkowice;Mieszkaniec / Posesjonat;#285;1663
+1717;Zadułka;Wojciech;Zaklików;Mieszkaniec / Posesjonat;#312;1663
+1718;Zajorek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#10;1661
+1719;Zając;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
+1720;Zając;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#51;1661
+1721;Zając;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#467;1664
+1722;Zając;Wawrzyniec;Kraśnik;Ławnik;#467, #68, #389;1661–1664
+1723;Zając;Zającowa;Kraśnik;Mieszkanka (wdowa);#389;1664
+1724;Zajączek;Augustyn;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
+1725;Zajączek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#576, #569;1664
+1726;Zajączek;Wawrzyniec;Kraśnik;Krawiec;#584;1664
+1727;Zaklikowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#479;1664
+1728;Zaklikowski;Szymon;Góry i Podlesie;Mieszkaniec / Posesjonat;#478;1664
+1729;Zaleski;Piotr;Goraj;Mieszkaniec / Posesjonat;#568;1664
+1730;Zamoyska;Barbara;Zamość, Tarnów;Mieszkaniec / Posesjonat;#415;1661
+1731;Zamoyska;Zofia;Zamość;Mieszkaniec / Posesjonat;#408;1661
+1732;Zamoyski;Feliks;Zamość;Mieszkaniec / Posesjonat;#430;1604
+1733;Zamoyski;Florian;"Zamość; Zamość, Chełm";Mieszkaniec / Posesjonat;#408, #426;1604–1661
+1734;Zamoyski;Jan;"Kraśnik; Zamość";Mieszkaniec / Posesjonat;#408, #426, #429, #538, #789;1604–1684
+1735;Zamoyski;Jerzy;Chełm, Zamość;Mieszkaniec / Posesjonat;#421;1601
+1736;Zamoyski;Krzysztof;Zamość;Mieszkaniec / Posesjonat;#430;1604
+1737;Zamoyski;Maciej;Zamość;Mieszkaniec / Posesjonat;#409, #429;1604–1661
+1738;Zamoyski;Paweł;Zamość;Mieszkaniec / Posesjonat;#429;1604
+1739;Zamoyski;Stanisław;Skokówka, Zamość;Mieszkaniec / Posesjonat;#424;1661
+1740;Zamoyski;Tomasz;"Kraśnik; Zamość";Mieszkaniec / Posesjonat;#52, #417, #427;1601–1661
+1741;Zamoyski;Wacław;Zamość;Mieszkaniec / Posesjonat;#429;1604
+1742;Zapnik;Augustyn;Kraśnik;Mieszkaniec / Posesjonat;#642;1664
+1743;Zapruśny;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#563;1664
+1744;Zaprzowski;Hieronim;Kraśnik;Mieszkaniec / Posesjonat;#512;1664
+1745;Zaranowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#365;1663
+1746;Zarzanowska;N.;Kraśnik;Mieszkaniec / Posesjonat;#287;1663
+1747;Zarzanowski;Łukasz;Kraśnik;Ławnik;#254, #278;1663
+1748;Zarzymbkowicz;Wojciech;Kraśnik;Kowal;#687;1664
+1749;Zarzymbłowicz;Wojciech;Kraśnik;Kowal;#675;1664
+1750;Zarzębski;Wojciech;Kraśnik;Kowal;#207;1663
+1751;Zarzędzki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#261;1663
+1752;Zaręba;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#455;1664
+1753;Zastawska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#438;1664
+1754;Zastawski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#451;1664
+1755;Zawila;N.;Kraśnik;Mieszkaniec / Posesjonat;#534;1664
+1756;Zawiła;Marek;Kraśnik;Mieszkaniec / Posesjonat;#145;1663
+1757;Zayczyk;Frans;Kraśnik;Mieszkaniec / Posesjonat;#830;1699
+1758;Zayczyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#839;1699
+1759;Zazanowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
+1760;Zazanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#528, #579, #517, #575;1664
+1761;Zaziembłowa;Jadwiga;Kraśnik;Kowal;#770;1666
+1762;Zaziembłowicz;Wojciech;Kraśnik;Kowal;#723, #726;1665
+1763;Zaziąblik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
+1764;Zaziąbłowicz;Paweł;Kraśnik;Wójt;#512, #526;1664
+1765;Zaziębło;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#138;1662
+1766;Zaziębłowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#260, #215;1663
+1767;Zaziębłowiczowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#215;1663
+1768;Załasikowie;N.;Zaklików;Mieszkaniec / Posesjonat;#300;1663
+1769;Załuskowa;Chruścia;Kraśnik;Mieszkaniec / Posesjonat;#546;1664
+1770;Zborowski;Andrzej;Szczebrzeszyn, Radom;Mieszkaniec / Posesjonat;#414;1661
+1771;Zbrojowic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#571;1664
+1772;Zbyszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#854;1699
+1773;Zdebek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#686;1664
+1774;Zdebek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#708;1665
+1775;Zdebik;Adam;Kraśnik;Mieszkaniec / Posesjonat;#662, #663;1665
+1776;Zdebik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#179;1663
+1777;Zdebiowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#810;1699
+1778;Zdun;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#492, #205;1663–1664
+1779;Zdunowa;N.;Kraśnik;Mieszkaniec / Posesjonat;#489;1664
+1780;Zdunówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#492, #205;1663–1664
+1781;Zdziebło;Adam;Kraśnik;Mieszkaniec / Posesjonat;#626;1664
+1782;Zebrzydowski;Mikołaj;"Lublin; Lublin, Kraków";Mieszkaniec / Posesjonat;#415, #426;1604–1661
+1783;Zegart;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#178;1663
+1784;Zelda;Joseph;Kraśnik;Mieszkaniec / Posesjonat;#197;1663
+1785;Zelda;N.;Kraśnik;Mieszkaniec / Posesjonat;#538, #623;1664
+1786;Zelman;N.;Kraśnik;Mieszkaniec / Posesjonat;#568, #577;1664
+1787;Zelman;Zelman;Kraśnik;Mieszkaniec / Posesjonat;#381;1664
+1788;Zgajowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#307;1663
+1789;Zgłobicki;Marcin;Kraśnik;Rajca;#48;1661
+1790;Zieliczan;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#406;1663
+1791;Zielińska;N.;Kraśnik;Mieszkaniec / Posesjonat;#281;1663
+1792;Zieliński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#281;1663
+1793;Zielonka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#46;1661
+1794;Ziobrosczanka;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
+1795;Ziółkiewicz;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#247;1663
+1796;Zięba;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#630;1664
+1797;Zięba;Wojciech;Rudnik;Mieszkaniec / Posesjonat;#192;1663
+1798;Ziębka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#237;1663
+1799;Zięziętek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#576;1664
+1800;Zięziętka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#587;1664
+1801;Zmięda;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
+1802;Zmiędz;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#124;1662
+1803;Zmiędz;Łukaszowa;Kraśnik;Mieszkanka (wdowa);#124;1662
+1804;Zmiędzina;N.;Kraśnik;Mieszkaniec / Posesjonat;#129;1662
+1805;Zobadek;Joel;Kraśnik;Mieszkaniec / Posesjonat;#628;1664
+1806;Zofia;Jałmużnica;Kraśnik;Mieszkaniec / Posesjonat;#585;1664
+1807;Zomięga;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#676;1664
+1808;Zomięga;Maciej;Kraśnik;Rajca;#710, #682, #659, #628, #663, #664, #730;1664–1665
+1809;Zomięzina;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#641;1664
+1810;Zomiężyna;N. (wdowa);Kraśnik;Ławnik / Wdowa;#699;1665
+1811;Zotowik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#353;1663
+1812;Zotowikowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#353;1663
+1813;Zrobek;N.;Kraśnik;Mieszkaniec / Posesjonat;#551;1664
+1814;Zrzebłowicz;Wojciech;Rzeczyca;Mieszkaniec / Posesjonat;#578;1664
+1815;Zwierzchowski;N.;Kraśnik;Mieszkaniec / Posesjonat;#257;1663
+1816;Zychowicz szewkowicz;Matyjasz;Kraśnik;Szewc;#574;1664
+1817;Zydłukowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#192;1663
+1818;Złom;Lewek;Kraśnik;Mieszkaniec / Posesjonat;#824;1699
+1819;Złotarzowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#626;1664
+1820;Złotocki;Wojciech;Kraśnik;Krawiec;#328, #347, #339, #333;1663–1664
+1821;Złotowic;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#589;1664
+1822;Złotowicowa;Marina;Kraśnik;Mieszkaniec / Posesjonat;#621;1664
+1823;Złotowicz;Szymon;Kraśnik;Krawiec;#381;1664
+1824;Złotowiczowa;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#386;1664
+1825;Ćwikiełka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#134;1662
+1826;Ćwikła;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#475, #477;1664
+1827;Ćwiliczka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#133;1662
+1828;Łabanek;Sebastian;Kraśnik;Wójt;#822;1699
+1829;Łabanek;Szepan;Góry i Podlesie;Wójt;#822;1699
+1830;Łabanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#743;1666
+1831;Łabędziowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#577;1664
+1832;Łabędź;Adam;Kraśnik;Mieszkaniec / Posesjonat;#577;1664
+1833;Łach;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#163;1663
+1834;Łakasionka;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#700;1665
+1835;Łamigłówka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#811;1699
+1836;Łapatka;Iwasz;Kraśnik;Mieszkaniec / Posesjonat;#42;1661
+1837;Łapatka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#582;1664
+1838;Łapatka;Wojciech;Kraśnik;Szewc;#42;1661
+1839;Łapka;Błażej;Kraśnik;Mieszkaniec / Posesjonat;#49;1661
+1840;Łapka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#39;1661
+1841;Łaskawska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#701;1665
+1842;Łaskawski;Jan;Kraśnik;Ławnik;#701;1665
+1843;Łatka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#555;1664
+1844;Łayski;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#191;1663
+1845;Łaziszcze;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#367;1663
+1846;Łaziński;N.;Tomkowice;Mieszkaniec / Posesjonat;#431;1604
+1847;Łepczyna;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#375;1664
+1848;Łepka;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#376;1664
+1849;Łepkowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#375;1664
+1850;Łoboda;Icek;Kraśnik;Mieszkaniec / Posesjonat;#490, #203, #364, #628, #501, #253;1663–1664
+1851;Łoboda;N.;Kraśnik;Mieszkaniec / Posesjonat;#499;1664
+1852;Łoboda;Samuel;Kraśnik;Mieszkaniec / Posesjonat;#213;1663
+1853;Łoboda;Zendel;Kraśnik;Mieszkaniec / Posesjonat;#538;1664
+1854;Łobodzi;Icek;Kraśnik;Mieszkaniec / Posesjonat;#199;1663
+1855;Łomięga;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#466;1664
+1856;Łopata;Wawrzyniec;Słodków;Mieszkaniec / Posesjonat;#310;1663
+1857;Łucki;Jan;Turobin;Mieszkaniec / Posesjonat;#122;1662
+1858;Łuczek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#14;1661
+1859;Łyjaywołow;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#600;1664
+1860;Łyjaywołow;Stanisław;Kraśnik;Wójt;#586;1664
+1861;Łypcik;Matyjasz;Tarłów;Młynarz;#613;1664
+1862;Łypcikowa;Dorota;Tarłów;Młynarz;#614;1664
+1863;Łypieko;Maciej;Tarłów;Młynarz;#385;1664
+1864;Łypiekowa;Dorota;Tarłów;Mieszkaniec / Posesjonat;#385;1664
+1865;Łytałka;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#547;1664
+1866;Łączanowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#368;1663
+1867;Łączko;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#123;1662
+1868;Łączyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#203;1663
+1869;Łązik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#724, #726;1665
+1870;Ślosarek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#43;1661
+1871;Ślosarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#131;1662
+1872;Ślosarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#363;1663
+1873;Ślusarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
+1874;Ślusarczykowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#214;1663
+1875;Ślusarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#579;1664
+1876;Ślusarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#491, #204, #254;1663–1664
+1877;Śmiedowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#682, #627;1664
+1878;Śmieszek;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#845;1699
+1879;Śmietankowicz;Wojciech;Kraśnik;Rajca;#526;1664
+1880;Śmigiel;Szczepan;Wilkołaz;Mieszkaniec / Posesjonat;#174;1663
+1881;Śnieżycowic;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#390;1664
+1882;Śnieżycowic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#391;1664
+1883;Świderek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#252;1663
+1884;Świdurska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
+1885;Świdurski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#596;1664
+1886;Świdziona;Anna;Kraśnik;Mieszkaniec / Posesjonat;#224;1663
+1887;Świeboda;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#323;1663
+1888;Świebrawin;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#625;1664
+1889;Świecznik;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#365;1663
+1890;Świerczek;Maciej;Kraśnik;Wójt;#68;1661
+1891;Świezbojer;Kasper;Kraśnik;Rajca;#359;1663
+1892;Świrski;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#243;1663
+1893;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
+1894;Świątek;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
+1895;Świątkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#738;1666
+1896;Święchowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#368;1663
+1897;Święcicki;Stanisław jacek;Wilkołaz;Mieszkaniec / Posesjonat;#351;1663
+1898;Świętoch;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#513;1664
+1899;Żelda;Józef;Budzyń;Mieszkaniec / Posesjonat;#114;1662
+1900;Żelda;Zelman;Kraśnik;Mieszkaniec / Posesjonat;#114;1662
+1901;Żelka;Józef;Kraśnik;Mieszkaniec / Posesjonat;#314, #283;1663
+1902;Żewdziuszek;Szymon;Kraśnik;Wójt;#225;1663
+1903;Żołwik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#252, #220, #188, #244;1663
+1904;Żołwikowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#252, #245;1663
+1905;Żołędź;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#302, #295;1663
+1906;Żurawski;N.;Tomaszów;Mieszkaniec / Posesjonat;#533;1664
+1907;Żurowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#312;1663
+1908;Żydkowic;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#62;1661
+1909;Żydkowicz;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#619;1664
+1910;Żydkowicz;N. (wdowa);Kraśnik;Mieszkaniec / Posesjonat / Wdowa;#457;1664
+1911;Żydkowicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#521, #387, #454;1664
+1912;Żydlewicz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#749;1666
+1913;Żydowina;Regina;Kraśnik;Mieszkaniec / Posesjonat;#325;1663
+1914;Żydowski;Stanisław;Budzyń;Mieszkaniec / Posesjonat;#805;1699
+1915;Żyłkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#644;1664
+1916;Żółkiewski;Mikołaj;Lwów;Mieszkaniec / Posesjonat;#426;1604
+1917;Żółkiewski;Stanisław;Lwów, Żółkiew;Mieszkaniec / Posesjonat;#415;1661
+1918;Żółwik;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#503;1664
