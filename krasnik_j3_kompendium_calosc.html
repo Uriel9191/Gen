@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
 
+
     :root {
       --bg-primary: #0f172a;
       --bg-secondary: #1e293b;
@@ -808,6 +809,7 @@
       .pagination-bar { flex-direction: column; align-items: stretch; }
     }
   
+  
   </style>
 </head>
 <body>
@@ -815,46 +817,56 @@
   <header>
     <a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Jednostek</a><br>
     <div class="header-badge">ARCHIWUM PAŃSTWOWE W LUBLINIE • SYGN. 35/40/0/1/3 (KSIĘGA 2 / N. 2)</div>
-    <h1>Akta Miasta Kraśnika – Sygnatura 3</h1>
-    <div class="header-sub">Dekreta, Rezygnacje, Wizje, Manifestacje i Inkwizycje z lat 1562–1690 (wraz z aktami Potopu Szwedzkiego)</div>
-    
-    <div class="stats-row">
-      <div class="stat-box">
-        <span class="stat-val">232</span>
-        <span class="stat-lbl">Skanów Archiwalnych</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-val">927</span>
-        <span class="stat-lbl">Biogramów (Wariant 2)</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-val" id="genMentionsCount">—</span>
-        <span class="stat-lbl">Wzmianek Źródłowych</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-val">1562–1690</span>
-        <span class="stat-lbl">Cezura Chronologiczna</span>
-      </div>
-    </div>
+    <h1>Akta Miasta Kraśnika – Sygnatura 3 (1562–1690)</h1>
+    <p class="header-subtitle">
+      Księga wójtowsko-radziecka: Dekreta, rezygnacje, wizje ran, manifestacje, inkwizycje kryminalne (w tym proces o czary 1629 r.),
+      ewakuacja archiwum ratusza do krypty kościoła NMP (1655), autentyczny uniwersał króla szwedzkiego Karola X Gustawa z Lublina
+      oraz wielka ordynacja akcyzowa Jana Sobiepana Zamoyskiego na Twierdzę Zamość (1656).
+    </p>
   </header>
 
-  <nav class="nav-bar">
-    <div class="nav-container">
-      <button class="nav-btn active" onclick="switchMainTab('tab-main')">📋 Rejestr Skanów i Indeks Rzeczowy</button>
-      <button class="nav-btn" onclick="switchMainTab('tab-gen')">👥 Słownik Genealogiczny (Wariant 2)</button>
-      <button class="nav-btn" onclick="switchMainTab('tab-monograph')">📖 Monografia Synteza (1562–1690)</button>
-      <button class="nav-btn" onclick="switchMainTab('tab-analytics')">🔍 Odkrycia Źródłowe (Karty Analityczne)</button>
-    </div>
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('main-tab', this)">
+      <span>📊 Tabela Indeksowa Skanów</span>
+      <span class="tab-badge" id="mainTabBadge">232</span>
+    </button>
+    <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
+      <span>🌳 Słownik Genealogiczny Mieszkańców</span>
+      <span class="tab-badge" id="genTabBadge">927</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
+      <span>🏛️ Pełna Synteza Monograficzna</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
+      <span>🔍 Kluczowe Odkrycia Źródłowe i Przełomy</span>
+    </button>
   </nav>
 
-  <main class="content-container">
-    <!-- TAB 1: REJESTR SKANÓW -->
-    <div id="tab-main" class="tab-pane active">
-      <div class="section-desc">
-        <h3>Rejestr Transakcji, Wizji i Inkwizycji (skany 1–232)</h3>
-        <p>
-          Wszystkie 232 skany posiadają wygenerowane wycinki cyfrowe, aparaty krytyczne i paginację. Transkrypcje dyplomatyczne wdrażane są sukcesywnie partiami w toku autopsji paleograficznej. Kliknij dowolny wiersz tabeli, aby otworzyć interaktywny modal z wycinkami cyfrowymi oraz aparatem archiwalnym.
-        </p>
+  <main class="main-container">
+
+    <!-- TAB 1: MAIN SCANS TABLE -->
+    <section id="main-tab" class="tab-content active">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Liczba skanów jednostki</div>
+          <div class="stat-value">232</div>
+          <div class="stat-desc">Kompletna seria mikrofilmu AP Lublin (nr 110394)</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Zakres chronologiczny</div>
+          <div class="stat-value">1562–1690</div>
+          <div class="stat-desc">Wraz z drukami Sądu Pokoju z 1820 r.</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Sądy Piotra Pichonia</div>
+          <div class="stat-value">1562–1594</div>
+          <div class="stat-desc">Renesansowe sądy gajone i dekreta</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Akta Potopu Szwedzkiego</div>
+          <div class="stat-value">1655–1656</div>
+          <div class="stat-desc">Uniwersał Karola Gustawa i ordynacja akcyzowa</div>
+        </div>
       </div>
 
       <div class="controls-panel">
@@ -868,45 +880,99 @@
             <option value="">-- Wszystkie kategorie --</option>
           </select>
         </div>
+        <button class="btn btn-gold" onclick="exportMainCSV()">📥 Pobierz Indeks CSV</button>
+      </div>
+
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()" disabled>&laquo; Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna &raquo;</button>
+          <span style="font-size:0.85rem; color:var(--text-muted); margin-left:0.5rem;">Idź do:</span>
+          <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage()">
+        </div>
       </div>
 
       <div class="table-container">
         <table>
           <thead>
             <tr>
-              <th style="width: 80px;">Skan</th>
-              <th style="width: 110px;">Foliacja</th>
-              <th style="width: 90px;">Rok</th>
-              <th style="width: 250px;">Osoby i podmioty</th>
-              <th style="width: 240px;">Kategoria aktu</th>
-              <th>Regest i treść czynności prawnej</th>
+              <th onclick="sortMain('nr_skanu')" style="width: 8%;">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')" style="width: 10%;">Foliacja ↕</th>
+              <th onclick="sortMain('data_rok')" style="width: 9%;">Datacja ↕</th>
+              <th onclick="sortMain('kategoria')" style="width: 18%;">Kategoria ↕</th>
+              <th style="width: 32%;">Regest i opis historyczno-dyplomatyczny</th>
+              <th style="width: 23%;">Występujące osoby / podmioty</th>
             </tr>
           </thead>
           <tbody id="mainTableBody"></tbody>
         </table>
       </div>
-      <div class="pagination-bar" id="mainPagination"></div>
-    </div>
 
-    <!-- TAB 2: SŁOWNIK GENEALOGICZNY -->
-    <div id="tab-gen" class="tab-pane">
-      <div class="section-desc">
-        <h3>Indeks Onomastyczny i Słownik Genealogiczny Mieszkańców Kraśnika (Wariant 2)</h3>
-        <p>
-          Słownik realizuje bezwzględny rygor Wariantu 2 (jedna osoba fizyczna = jeden unikalny biogram, 0 duplikatów). Wszystkie oboczności, role i funkcje społeczne zintegrowano w polu wariantów nazwiska. Kliknięcie w odnośnik skanu przenosi do właściwego aktu.
-        </p>
+      <div class="pagination-bar" style="margin-top:1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()" disabled>&laquo; Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna &raquo;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: GENEALOGY DICTIONARY -->
+    <section id="genealogy-tab" class="tab-content">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+          <div class="stat-value" id="genStatCount">927</div>
+          <div class="stat-desc">Zintegrowane profile biograficzne (Wariant 2)</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Wzmianki źródłowe</div>
+          <div class="stat-value" id="genMentionsCount">1 352</div>
+          <div class="stat-desc">Wystąpienia w źródłach jednostki</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Zakres lat aktywności</div>
+          <div class="stat-value">1562–1690</div>
+          <div class="stat-desc">Wraz z aktami Potopu Szwedzkiego</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Rygor onomastyczny</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">Brak dubletów, 1 osoba = 1 profil</div>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <strong>💡 Metodyka słownika genealogicznego (Wariant 2 – Standard J40):</strong>
+        Wszystkie osoby fizyczne zostały zintegrowane w unikalne profile biograficzne z wyeliminowaniem duplikatów onomastycznych.
+        Kliknij w dowolny profil, aby otworzyć szczegółową kartę mieszkańca ze spisem wszystkich wzmianek archiwalnych, powiązanymi skanami oraz pełnym aparatem źródłowym.
       </div>
 
       <div class="controls-panel">
         <div class="control-group wide">
-          <label for="genSearch">Szukaj w bazie genealogicznej (nazwisko, imię, rola, warianty)</label>
-          <input type="text" id="genSearch" placeholder="np. Pichoń, Fox, Mzygłód, Chwałek, wójt, rajca..." oninput="filterGenData()">
+          <label for="genSearch">Wyszukaj w słowniku (nazwisko, imię, funkcja, zawód, warianty, skan #)</label>
+          <input type="text" id="genSearch" placeholder="np. Nawrocki, szewc, burmistrz, Kosiński, #195, Zamoyski, Saag..." oninput="filterGenData()">
         </div>
         <div class="control-group">
-          <label for="genDistrictFilter">Rejon / Miejsce</label>
+          <label for="genDistrictFilter">Miejsce zamieszkania</label>
           <select id="genDistrictFilter" onchange="filterGenData()">
-            <option value="">-- Wszystkie rejony --</option>
+            <option value="">-- Wszystkie miejscowości --</option>
           </select>
+        </div>
+        <button class="btn btn-gold" onclick="exportGenCSV()">📥 Pobierz Słownik CSV</button>
+      </div>
+
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()" disabled>&laquo; Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna &raquo;</button>
+          <span style="font-size:0.85rem; color:var(--text-muted); margin-left:0.5rem;">Idź do:</span>
+          <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage()">
         </div>
       </div>
 
@@ -914,26 +980,33 @@
         <table>
           <thead>
             <tr>
-              <th style="width: 60px;">Lp.</th>
-              <th style="width: 220px;">Nazwisko i Imię</th>
-              <th style="width: 140px;">Miejsce</th>
-              <th style="width: 200px;">Funkcja / Rola społeczna</th>
-              <th style="width: 130px;">Skany źródłowe</th>
-              <th style="width: 100px;">Lata</th>
-              <th style="width: 80px;">Wzmianki</th>
-              <th>Warianty zapisu i koligacje</th>
+              <th onclick="sortGen('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGen('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGen('imie')" style="width: 15%;">Imię ↕</th>
+              <th onclick="sortGen('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
+              <th onclick="sortGen('funkcja')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th onclick="sortGen('skany_list')" style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGen('zakres_lat')" style="width: 12%;">Zakres lat ↕</th>
             </tr>
           </thead>
           <tbody id="genTableBody"></tbody>
         </table>
       </div>
-      <div class="pagination-bar" id="genPagination"></div>
-    </div>
 
-    <!-- TAB 3: MONOGRAFIA SYNTEZA -->
-    <div id="tab-monograph" class="tab-pane">
-      
-<div class="monograph-content">
+      <div class="pagination-bar" style="margin-top:1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()" disabled>&laquo; Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna &raquo;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: MONOGRAPH -->
+    <section id="monograph-tab" class="tab-content">
+      <div class="monograph-content">
+        <div class="monograph-content">
         <h2>🏛️ I. Kodykologia, oprawa z epoki, makulatura Sądu Pokoju 1827 r. i układ kancelaryjny (1562–1690)</h2>
         <p>
           Księga miejska Kraśnika oznaczona współcześnie w zasobie Archiwum Państwowego w Lublinie sygnaturą <strong>35/40/0/1/3</strong> 
@@ -1356,13 +1429,13 @@
           </li>
         </ul>
       </div>
+      </div>
+    </section>
 
-    </div>
-
-    <!-- TAB 4: KARTY ANALITYCZNE -->
-    <div id="tab-analytics" class="tab-pane">
-      
-<div class="analytics-grid">
+    <!-- TAB 4: ANALYTICS -->
+    <section id="analytics-tab" class="tab-content">
+      <div class="analytics-content">
+        <div class="analytics-grid">
         <div class="analytics-card">
           <h4>⚖️ 1. Renesansowe sądy gajone Piotra Pichonia i testament notariusza zamku kraśnickiego (skany 6–10, 1562 r.)</h4>
           <p>
@@ -1587,23 +1660,26 @@
           </p>
         </div>
       </div>
+      </div>
+    </section>
 
-    </div>
   </main>
 
-  <!-- MODAL GŁÓWNY W STANDARDZIE J40 -->
-  <div id="mainModal" class="modal-backdrop" onclick="closeMainModal(event)">
-    <div class="modal-window" onclick="event.stopPropagation()">
+  <!-- MODAL DETAILS (STANDARD J40) -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
       <div class="modal-header">
-        <div class="modal-title" id="modalTitle">Karta archiwalna skanu</div>
-        <button class="modal-close-btn" onclick="closeMainModalForce()">&times;</button>
+        <h3 id="modalTitle">Szczegóły</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
       </div>
-      <div class="modal-nav-tabs" id="modalTabsBar">
-        <button class="modal-nav-tab active" id="modalTabBtnCrops" onclick="switchModalTab('crops')">🖼️ Podgląd wycinków cyfrowych</button>
-        <button class="modal-nav-tab" id="modalTabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja dyplomatyczna</button>
-        <button class="modal-nav-tab" id="modalTabBtnMeta" onclick="switchModalTab('meta')">📋 Aparat krytyczny i kodykologia</button>
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnCrops" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja dyplomatyczna</button>
+        <button class="modal-tab-btn" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Aparat krytyczny</button>
       </div>
-      <div id="modalBody"></div>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamic content -->
+      </div>
     </div>
   </div>
 
@@ -29819,7 +29895,8 @@
         "kontekst": "Przedmieszczanin kraśnicki, ofiara brutalnego pobicia przez Tomasza Jędrzyka; obdukcja urzędowa 7 ciężkich ran."
       }
     ],
-    "uwagi": "Przedmieszczanin kraśnicki, ofiara brutalnego pobicia przez Tomasza Jędrzyka; obdukcja urzędowa 7 ciężkich ran."
+    "uwagi": "Przedmieszczanin kraśnicki, ofiara brutalnego pobicia przez Tomasza Jędrzyka; obdukcja urzędowa 7 ciężkich ran.",
+    "lp": 761
   },
   {
     "id": 762,
@@ -29848,7 +29925,8 @@
         "kontekst": "Pozwany o inwentarz spadkowy po Ulryku Bogaczyku; sąsiad roli Jana Rzadkowskiego na Zanadstawiu."
       }
     ],
-    "uwagi": "Pozwany o inwentarz spadkowy po Ulryku Bogaczyku; sąsiad roli Jana Rzadkowskiego na Zanadstawiu."
+    "uwagi": "Pozwany o inwentarz spadkowy po Ulryku Bogaczyku; sąsiad roli Jana Rzadkowskiego na Zanadstawiu.",
+    "lp": 762
   },
   {
     "id": 763,
@@ -29898,7 +29976,8 @@
         "kontekst": "Pozwany przez Gabriela Kłopota o długi; sprawca zbrojnego najazdu z pistoletem na Jakuba Liska i zniszczenia klatki z lisami."
       }
     ],
-    "uwagi": "Pozwany przez Gabriela Kłopota o długi; sprawca zbrojnego najazdu z pistoletem na Jakuba Liska i zniszczenia klatki z lisami."
+    "uwagi": "Pozwany przez Gabriela Kłopota o długi; sprawca zbrojnego najazdu z pistoletem na Jakuba Liska i zniszczenia klatki z lisami.",
+    "lp": 763
   },
   {
     "id": 764,
@@ -29934,7 +30013,8 @@
         "kontekst": "Właściciel budy przy cmentarzu i 2 żywych lisów w klatce; ofiara napadu z pistoletem ze strony Macieja Pcionka."
       }
     ],
-    "uwagi": "Właściciel budy przy cmentarzu i 2 żywych lisów w klatce; ofiara napadu z pistoletem ze strony Macieja Pcionka."
+    "uwagi": "Właściciel budy przy cmentarzu i 2 żywych lisów w klatce; ofiara napadu z pistoletem ze strony Macieja Pcionka.",
+    "lp": 764
   },
   {
     "id": 765,
@@ -29963,7 +30043,8 @@
         "kontekst": "Prepozyt kraśnicki Kanoników Regularnych Laterańskich, odbiorca wieczystej darowizny kamienicy przy ul. Lubelskiej od Komiegów."
       }
     ],
-    "uwagi": "Prepozyt kraśnicki Kanoników Regularnych Laterańskich, odbiorca wieczystej darowizny kamienicy przy ul. Lubelskiej od Komiegów."
+    "uwagi": "Prepozyt kraśnicki Kanoników Regularnych Laterańskich, odbiorca wieczystej darowizny kamienicy przy ul. Lubelskiej od Komiegów.",
+    "lp": 765
   },
   {
     "id": 766,
@@ -29985,7 +30066,8 @@
         "kontekst": "Kanonik Regularny Laterański, pozywał Stalmachowiczów o włamanie do sadu klasztornego i rozbicie pieców."
       }
     ],
-    "uwagi": "Kanonik Regularny Laterański, pozywał Stalmachowiczów o włamanie do sadu klasztornego i rozbicie pieców."
+    "uwagi": "Kanonik Regularny Laterański, pozywał Stalmachowiczów o włamanie do sadu klasztornego i rozbicie pieców.",
+    "lp": 766
   },
   {
     "id": 767,
@@ -30007,7 +30089,8 @@
         "kontekst": "Brat zakonny klasztoru Kanoników Regularnych Laterańskich w Kraśniku."
       }
     ],
-    "uwagi": "Brat zakonny klasztoru Kanoników Regularnych Laterańskich w Kraśniku."
+    "uwagi": "Brat zakonny klasztoru Kanoników Regularnych Laterańskich w Kraśniku.",
+    "lp": 767
   },
   {
     "id": 768,
@@ -30029,7 +30112,8 @@
         "kontekst": "Syn ławnika Stanisława Stalmachowicza, pozwany przez kanoników CRL o rozbicie pieców klasztornych."
       }
     ],
-    "uwagi": "Syn ławnika Stanisława Stalmachowicza, pozwany przez kanoników CRL o rozbicie pieców klasztornych."
+    "uwagi": "Syn ławnika Stanisława Stalmachowicza, pozwany przez kanoników CRL o rozbicie pieców klasztornych.",
+    "lp": 768
   },
   {
     "id": 769,
@@ -30058,7 +30142,8 @@
         "kontekst": "Zmarły zamożny przedmieszczanin kraśnicki; właściciel zagrody z browarem na Zanadstawiu, wołów, krów i 30 kop zboża."
       }
     ],
-    "uwagi": "Zmarły zamożny przedmieszczanin kraśnicki; właściciel zagrody z browarem na Zanadstawiu, wołów, krów i 30 kop zboża."
+    "uwagi": "Zmarły zamożny przedmieszczanin kraśnicki; właściciel zagrody z browarem na Zanadstawiu, wołów, krów i 30 kop zboża.",
+    "lp": 769
   },
   {
     "id": 770,
@@ -30080,7 +30165,8 @@
         "kontekst": "Syn zmarłego Jana Rzadkowskiego pod opieką Pawła Chmary i Krzysztofa Przyjrałka."
       }
     ],
-    "uwagi": "Syn zmarłego Jana Rzadkowskiego pod opieką Pawła Chmary i Krzysztofa Przyjrałka."
+    "uwagi": "Syn zmarłego Jana Rzadkowskiego pod opieką Pawła Chmary i Krzysztofa Przyjrałka.",
+    "lp": 770
   },
   {
     "id": 771,
@@ -30102,7 +30188,8 @@
         "kontekst": "Syn zmarłego Jana Rzadkowskiego pod opieką cechową."
       }
     ],
-    "uwagi": "Syn zmarłego Jana Rzadkowskiego pod opieką cechową."
+    "uwagi": "Syn zmarłego Jana Rzadkowskiego pod opieką cechową.",
+    "lp": 771
   },
   {
     "id": 772,
@@ -30124,7 +30211,8 @@
         "kontekst": "Opiekun małoletnich sierot po zmarłym Janie Rzadkowskim."
       }
     ],
-    "uwagi": "Opiekun małoletnich sierot po zmarłym Janie Rzadkowskim."
+    "uwagi": "Opiekun małoletnich sierot po zmarłym Janie Rzadkowskim.",
+    "lp": 772
   },
   {
     "id": 773,
@@ -30160,7 +30248,8 @@
         "kontekst": "Żona byłego ławnika Macieja Komiegi; współfundatorka darowizny kamienicy na rzecz klasztoru CRL."
       }
     ],
-    "uwagi": "Żona byłego ławnika Macieja Komiegi; współfundatorka darowizny kamienicy na rzecz klasztoru CRL."
+    "uwagi": "Żona byłego ławnika Macieja Komiegi; współfundatorka darowizny kamienicy na rzecz klasztoru CRL.",
+    "lp": 773
   },
   {
     "id": 774,
@@ -30189,7 +30278,8 @@
         "kontekst": "Żydowski dzierżawca myta i szynku, brutalnie pobity kijem przez burmistrza Andrzeja Gzymkowskiego."
       }
     ],
-    "uwagi": "Żydowski dzierżawca myta i szynku, brutalnie pobity kijem przez burmistrza Andrzeja Gzymkowskiego."
+    "uwagi": "Żydowski dzierżawca myta i szynku, brutalnie pobity kijem przez burmistrza Andrzeja Gzymkowskiego.",
+    "lp": 774
   },
   {
     "id": 775,
@@ -30211,7 +30301,8 @@
         "kontekst": "Żydowski wierzyciel dochodzący sum dłużnych przed sądem ławniczym."
       }
     ],
-    "uwagi": "Żydowski wierzyciel dochodzący sum dłużnych przed sądem ławniczym."
+    "uwagi": "Żydowski wierzyciel dochodzący sum dłużnych przed sądem ławniczym.",
+    "lp": 775
   },
   {
     "id": 776,
@@ -30233,7 +30324,8 @@
         "kontekst": "Rzemieślnik tkacz i wiejski/miejski muzykant; sprawca bójki w gospodzie o taniec, spoliczkował Jana Maciążka."
       }
     ],
-    "uwagi": "Rzemieślnik tkacz i wiejski/miejski muzykant; sprawca bójki w gospodzie o taniec, spoliczkował Jana Maciążka."
+    "uwagi": "Rzemieślnik tkacz i wiejski/miejski muzykant; sprawca bójki w gospodzie o taniec, spoliczkował Jana Maciążka.",
+    "lp": 776
   },
   {
     "id": 777,
@@ -30255,7 +30347,8 @@
         "kontekst": "Uczestnik zapustnej zabawy w szynku żądający muzyki do tańca od Banacha."
       }
     ],
-    "uwagi": "Uczestnik zapustnej zabawy w szynku żądający muzyki do tańca od Banacha."
+    "uwagi": "Uczestnik zapustnej zabawy w szynku żądający muzyki do tańca od Banacha.",
+    "lp": 777
   },
   {
     "id": 778,
@@ -30277,7 +30370,8 @@
         "kontekst": "Kowal kraśnicki oskarżający Wojciecha Ciepielę o potwarz i zarzut kradzieży."
       }
     ],
-    "uwagi": "Kowal kraśnicki oskarżający Wojciecha Ciepielę o potwarz i zarzut kradzieży."
+    "uwagi": "Kowal kraśnicki oskarżający Wojciecha Ciepielę o potwarz i zarzut kradzieży.",
+    "lp": 778
   },
   {
     "id": 779,
@@ -30299,7 +30393,8 @@
         "kontekst": "Uczestniczka awantury i rękoczynów w domu ławnika Andrzeja Jurczyka."
       }
     ],
-    "uwagi": "Uczestniczka awantury i rękoczynów w domu ławnika Andrzeja Jurczyka."
+    "uwagi": "Uczestniczka awantury i rękoczynów w domu ławnika Andrzeja Jurczyka.",
+    "lp": 779
   },
   {
     "id": 780,
@@ -30321,7 +30416,8 @@
         "kontekst": "Przedmieszczanin na Zanadstawiu, sąsiad zagrody i ćwierci roli Jana Rzadkowskiego."
       }
     ],
-    "uwagi": "Przedmieszczanin na Zanadstawiu, sąsiad zagrody i ćwierci roli Jana Rzadkowskiego."
+    "uwagi": "Przedmieszczanin na Zanadstawiu, sąsiad zagrody i ćwierci roli Jana Rzadkowskiego.",
+    "lp": 780
   },
   {
     "id": 781,
@@ -30350,7 +30446,8 @@
         "kontekst": "Wdowa po Błażeju Bednarzu dochodząca cechowych narzędzi bednarskich po zmarłym mężu."
       }
     ],
-    "uwagi": "Wdowa po Błażeju Bednarzu dochodząca cechowych narzędzi bednarskich po zmarłym mężu."
+    "uwagi": "Wdowa po Błażeju Bednarzu dochodząca cechowych narzędzi bednarskich po zmarłym mężu.",
+    "lp": 781
   },
   {
     "id": 782,
@@ -30379,7 +30476,8 @@
         "kontekst": "Uboga wdowa zmarła w szpitalu miejskim; inwentarz obejmował komorę, żyto, siekierę i ćwierć roli na Niwie."
       }
     ],
-    "uwagi": "Uboga wdowa zmarła w szpitalu miejskim; inwentarz obejmował komorę, żyto, siekierę i ćwierć roli na Niwie."
+    "uwagi": "Uboga wdowa zmarła w szpitalu miejskim; inwentarz obejmował komorę, żyto, siekierę i ćwierć roli na Niwie.",
+    "lp": 782
   },
   {
     "id": 783,
@@ -30401,7 +30499,8 @@
         "kontekst": "Mieszczanin kraśnicki, strona sporu o woły z Andrzejem Raganką."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki, strona sporu o woły z Andrzejem Raganką."
+    "uwagi": "Mieszczanin kraśnicki, strona sporu o woły z Andrzejem Raganką.",
+    "lp": 783
   },
   {
     "id": 784,
@@ -30430,7 +30529,8 @@
         "kontekst": "Rzeźnik kraśnicki, sprawca gwałtownego tumultu w jatkach mięsnych; groził nożem rzeźnickim Janowi Foxowi."
       }
     ],
-    "uwagi": "Rzeźnik kraśnicki, sprawca gwałtownego tumultu w jatkach mięsnych; groził nożem rzeźnickim Janowi Foxowi."
+    "uwagi": "Rzeźnik kraśnicki, sprawca gwałtownego tumultu w jatkach mięsnych; groził nożem rzeźnickim Janowi Foxowi.",
+    "lp": 784
   },
   {
     "id": 785,
@@ -30452,7 +30552,8 @@
         "kontekst": "Żona Stanisława Kozika z Batorza, oskarżona o poturbowanie Marcina Krawczykowskiego."
       }
     ],
-    "uwagi": "Żona Stanisława Kozika z Batorza, oskarżona o poturbowanie Marcina Krawczykowskiego."
+    "uwagi": "Żona Stanisława Kozika z Batorza, oskarżona o poturbowanie Marcina Krawczykowskiego.",
+    "lp": 785
   },
   {
     "id": 786,
@@ -30474,7 +30575,8 @@
         "kontekst": "Mieszka kraśnicka warząca piwo; powódka w procesie o wyciek piwa z nieszczelnej kadzi browarnej."
       }
     ],
-    "uwagi": "Mieszka kraśnicka warząca piwo; powódka w procesie o wyciek piwa z nieszczelnej kadzi browarnej."
+    "uwagi": "Mieszka kraśnicka warząca piwo; powódka w procesie o wyciek piwa z nieszczelnej kadzi browarnej.",
+    "lp": 786
   },
   {
     "id": 787,
@@ -30496,7 +30598,8 @@
         "kontekst": "Żona ławnika Stanisława Płaykowicza, pozwana o uszkodzenie kadzi piwnej w browarze."
       }
     ],
-    "uwagi": "Żona ławnika Stanisława Płaykowicza, pozwana o uszkodzenie kadzi piwnej w browarze."
+    "uwagi": "Żona ławnika Stanisława Płaykowicza, pozwana o uszkodzenie kadzi piwnej w browarze.",
+    "lp": 787
   },
   {
     "id": 788,
@@ -30518,7 +30621,8 @@
         "kontekst": "Żona tkacza Stanisława Skórki; współwłaścicielka domu drewnianego sprzedanego Pawłowi Bednarzowi za 135 marek."
       }
     ],
-    "uwagi": "Żona tkacza Stanisława Skórki; współwłaścicielka domu drewnianego sprzedanego Pawłowi Bednarzowi za 135 marek."
+    "uwagi": "Żona tkacza Stanisława Skórki; współwłaścicielka domu drewnianego sprzedanego Pawłowi Bednarzowi za 135 marek.",
+    "lp": 788
   },
   {
     "id": 789,
@@ -30540,7 +30644,8 @@
         "kontekst": "Kupiec i wierzyciel żydowski dochodzący roszczeń finansowych od rajcy Wojciecha Gyzica."
       }
     ],
-    "uwagi": "Kupiec i wierzyciel żydowski dochodzący roszczeń finansowych od rajcy Wojciecha Gyzica."
+    "uwagi": "Kupiec i wierzyciel żydowski dochodzący roszczeń finansowych od rajcy Wojciecha Gyzica.",
+    "lp": 789
   },
   {
     "id": 790,
@@ -30562,7 +30667,8 @@
         "kontekst": "Córka Grajcara, oskarżona o krwawe pobicie Zuzanny Dymkowej."
       }
     ],
-    "uwagi": "Córka Grajcara, oskarżona o krwawe pobicie Zuzanny Dymkowej."
+    "uwagi": "Córka Grajcara, oskarżona o krwawe pobicie Zuzanny Dymkowej.",
+    "lp": 790
   },
   {
     "id": 791,
@@ -30584,7 +30690,8 @@
         "kontekst": "Mieszka osadzona w lochu więziennym na ratuszu za niespłacony dług 10 florenów u Żyda Dawida."
       }
     ],
-    "uwagi": "Mieszka osadzona w lochu więziennym na ratuszu za niespłacony dług 10 florenów u Żyda Dawida."
+    "uwagi": "Mieszka osadzona w lochu więziennym na ratuszu za niespłacony dług 10 florenów u Żyda Dawida.",
+    "lp": 791
   },
   {
     "id": 792,
@@ -30606,7 +30713,8 @@
         "kontekst": "Rzemieślniczka krawcowa odbierająca należność 5 florenów za roboty krawieckie od Stanisława Rymarczyka."
       }
     ],
-    "uwagi": "Rzemieślniczka krawcowa odbierająca należność 5 florenów za roboty krawieckie od Stanisława Rymarczyka."
+    "uwagi": "Rzemieślniczka krawcowa odbierająca należność 5 florenów za roboty krawieckie od Stanisława Rymarczyka.",
+    "lp": 792
   },
   {
     "id": 793,
@@ -30628,7 +30736,8 @@
         "kontekst": "Mamka w domu Jana Foxa, świadek naoczny w procesie o bójkę domową u Zapałkowiczów."
       }
     ],
-    "uwagi": "Mamka w domu Jana Foxa, świadek naoczny w procesie o bójkę domową u Zapałkowiczów."
+    "uwagi": "Mamka w domu Jana Foxa, świadek naoczny w procesie o bójkę domową u Zapałkowiczów.",
+    "lp": 793
   },
   {
     "id": 794,
@@ -30650,7 +30759,8 @@
         "kontekst": "Uczestniczka awantury domowej; uderzyła pięścią w twarz żonę Zapałki."
       }
     ],
-    "uwagi": "Uczestniczka awantury domowej; uderzyła pięścią w twarz żonę Zapałki."
+    "uwagi": "Uczestniczka awantury domowej; uderzyła pięścią w twarz żonę Zapałki.",
+    "lp": 794
   },
   {
     "id": 795,
@@ -30672,7 +30782,8 @@
         "kontekst": "Żona Stanisława Zapałkowica, uczestniczka rękoczynów i napaści na Jakuba Kwasika."
       }
     ],
-    "uwagi": "Żona Stanisława Zapałkowica, uczestniczka rękoczynów i napaści na Jakuba Kwasika."
+    "uwagi": "Żona Stanisława Zapałkowica, uczestniczka rękoczynów i napaści na Jakuba Kwasika.",
+    "lp": 795
   },
   {
     "id": 796,
@@ -30694,7 +30805,8 @@
         "kontekst": "Żołnierz wymieniony w rejestrze wierzycieli po zmarłym Janie Grymuzie (kwota 1 fl. 15 gr.)."
       }
     ],
-    "uwagi": "Żołnierz wymieniony w rejestrze wierzycieli po zmarłym Janie Grymuzie (kwota 1 fl. 15 gr.)."
+    "uwagi": "Żołnierz wymieniony w rejestrze wierzycieli po zmarłym Janie Grymuzie (kwota 1 fl. 15 gr.).",
+    "lp": 796
   },
   {
     "id": 797,
@@ -30717,7 +30829,8 @@
         "kontekst": "Mieszczanin kraśnicki uczestniczący w bójce z Szymonem Łajką i Maciejem Paluszkiem."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki uczestniczący w bójce z Szymonem Łajką i Maciejem Paluszkiem."
+    "uwagi": "Mieszczanin kraśnicki uczestniczący w bójce z Szymonem Łajką i Maciejem Paluszkiem.",
+    "lp": 797
   },
   {
     "id": 798,
@@ -30739,7 +30852,8 @@
         "kontekst": "Mieszka uwięziona w wieży ratuszowej na skargę Wojciecha Soboty o przywłaszczenie 10 florenów na dług żydowski."
       }
     ],
-    "uwagi": "Mieszka uwięziona w wieży ratuszowej na skargę Wojciecha Soboty o przywłaszczenie 10 florenów na dług żydowski."
+    "uwagi": "Mieszka uwięziona w wieży ratuszowej na skargę Wojciecha Soboty o przywłaszczenie 10 florenów na dług żydowski.",
+    "lp": 798
   },
   {
     "id": 799,
@@ -30761,7 +30875,8 @@
         "kontekst": "Mieszka osadzona w areszcie miejskim za zniesławienie Stanisława Zapały."
       }
     ],
-    "uwagi": "Mieszka osadzona w areszcie miejskim za zniesławienie Stanisława Zapały."
+    "uwagi": "Mieszka osadzona w areszcie miejskim za zniesławienie Stanisława Zapały.",
+    "lp": 799
   },
   {
     "id": 800,
@@ -30783,7 +30898,8 @@
         "kontekst": "Żona balwierza Szymona, ukarana grzywną 5 florenów 10 groszy przez sąd wójtowski."
       }
     ],
-    "uwagi": "Żona balwierza Szymona, ukarana grzywną 5 florenów 10 groszy przez sąd wójtowski."
+    "uwagi": "Żona balwierza Szymona, ukarana grzywną 5 florenów 10 groszy przez sąd wójtowski.",
+    "lp": 800
   },
   {
     "id": 801,
@@ -30819,7 +30935,8 @@
         "kontekst": "Oskarżona o czary (crimen veneficij) przez wójta Stróży Jana Bełżyckiego o bieganie nocą po zagonach, koła na piasku i niszczenie zbóż; nakaz oczyszczenia przysięgą."
       }
     ],
-    "uwagi": "Oskarżona o czary (crimen veneficij) przez wójta Stróży Jana Bełżyckiego o bieganie nocą po zagonach, koła na piasku i niszczenie zbóż; nakaz oczyszczenia przysięgą."
+    "uwagi": "Oskarżona o czary (crimen veneficij) przez wójta Stróży Jana Bełżyckiego o bieganie nocą po zagonach, koła na piasku i niszczenie zbóż; nakaz oczyszczenia przysięgą.",
+    "lp": 801
   },
   {
     "id": 802,
@@ -30855,7 +30972,8 @@
         "kontekst": "Mąż Katarzyny Kajdowej oskarżonej o praktyki czarnoksięskie na polach przed św. Zofią."
       }
     ],
-    "uwagi": "Mąż Katarzyny Kajdowej oskarżonej o praktyki czarnoksięskie na polach przed św. Zofią."
+    "uwagi": "Mąż Katarzyny Kajdowej oskarżonej o praktyki czarnoksięskie na polach przed św. Zofią.",
+    "lp": 802
   },
   {
     "id": 803,
@@ -30877,7 +30995,8 @@
         "kontekst": "Świadek zaprzysiężony lat 50 w głośnym procesie o czary przeciwko Katarzynie Kajdowej."
       }
     ],
-    "uwagi": "Świadek zaprzysiężony lat 50 w głośnym procesie o czary przeciwko Katarzynie Kajdowej."
+    "uwagi": "Świadek zaprzysiężony lat 50 w głośnym procesie o czary przeciwko Katarzynie Kajdowej.",
+    "lp": 803
   },
   {
     "id": 804,
@@ -30899,7 +31018,8 @@
         "kontekst": "Wraz z mężem Janem Rybką nabyła dom drewniany przy ul. Lubelskiej od Anny Grymuzianki za 250 florenów."
       }
     ],
-    "uwagi": "Wraz z mężem Janem Rybką nabyła dom drewniany przy ul. Lubelskiej od Anny Grymuzianki za 250 florenów."
+    "uwagi": "Wraz z mężem Janem Rybką nabyła dom drewniany przy ul. Lubelskiej od Anny Grymuzianki za 250 florenów.",
+    "lp": 804
   },
   {
     "id": 805,
@@ -30921,7 +31041,8 @@
         "kontekst": "Oblany piwem w twarz podczas gwałtownej bójki i rzucania pieniędzmi przez Panka Paduszkowego w szynku u Łoska."
       }
     ],
-    "uwagi": "Oblany piwem w twarz podczas gwałtownej bójki i rzucania pieniędzmi przez Panka Paduszkowego w szynku u Łoska."
+    "uwagi": "Oblany piwem w twarz podczas gwałtownej bójki i rzucania pieniędzmi przez Panka Paduszkowego w szynku u Łoska.",
+    "lp": 805
   },
   {
     "id": 806,
@@ -30943,7 +31064,8 @@
         "kontekst": "Właściciel szynku, w którym doszło do burdy i rozbicia dzbana piwa przez Paducha."
       }
     ],
-    "uwagi": "Właściciel szynku, w którym doszło do burdy i rozbicia dzbana piwa przez Paducha."
+    "uwagi": "Właściciel szynku, w którym doszło do burdy i rozbicia dzbana piwa przez Paducha.",
+    "lp": 806
   },
   {
     "id": 807,
@@ -30965,7 +31087,8 @@
         "kontekst": "Sługa zeznający w sprawie kradzieży płótna zdeponowanego przy kominie w domu Fiera."
       }
     ],
-    "uwagi": "Sługa zeznający w sprawie kradzieży płótna zdeponowanego przy kominie w domu Fiera."
+    "uwagi": "Sługa zeznający w sprawie kradzieży płótna zdeponowanego przy kominie w domu Fiera.",
+    "lp": 807
   },
   {
     "id": 808,
@@ -30987,7 +31110,8 @@
         "kontekst": "Właściciel domu z kominem, z którego skradziono płótno; sprawa przysięgi Żyda Dawida Markowicza."
       }
     ],
-    "uwagi": "Właściciel domu z kominem, z którego skradziono płótno; sprawa przysięgi Żyda Dawida Markowicza."
+    "uwagi": "Właściciel domu z kominem, z którego skradziono płótno; sprawa przysięgi Żyda Dawida Markowicza.",
+    "lp": 808
   },
   {
     "id": 809,
@@ -31009,7 +31133,8 @@
         "kontekst": "Matka żony po zmarłym stolarzu Kamyku; winna 2 floreny długu Zygmuntowi Kamykowi."
       }
     ],
-    "uwagi": "Matka żony po zmarłym stolarzu Kamyku; winna 2 floreny długu Zygmuntowi Kamykowi."
+    "uwagi": "Matka żony po zmarłym stolarzu Kamyku; winna 2 floreny długu Zygmuntowi Kamykowi.",
+    "lp": 809
   },
   {
     "id": 810,
@@ -31031,7 +31156,8 @@
         "kontekst": "Mieszka kraśnicka skarżąca młynarza o stratę 3 ćwierci i zwartka mąki w młynie Gyzebin."
       }
     ],
-    "uwagi": "Mieszka kraśnicka skarżąca młynarza o stratę 3 ćwierci i zwartka mąki w młynie Gyzebin."
+    "uwagi": "Mieszka kraśnicka skarżąca młynarza o stratę 3 ćwierci i zwartka mąki w młynie Gyzebin.",
+    "lp": 810
   },
   {
     "id": 811,
@@ -31053,7 +31179,8 @@
         "kontekst": "Pozwany przez Zygmunta Kamyka o krowę niedzielną."
       }
     ],
-    "uwagi": "Pozwany przez Zygmunta Kamyka o krowę niedzielną."
+    "uwagi": "Pozwany przez Zygmunta Kamyka o krowę niedzielną.",
+    "lp": 811
   },
   {
     "id": 812,
@@ -31075,7 +31202,8 @@
         "kontekst": "Organizatorka zbiórki funduszy (20 fl.) na srebrne obrazy i wota sakralne do kościoła parafialnego."
       }
     ],
-    "uwagi": "Organizatorka zbiórki funduszy (20 fl.) na srebrne obrazy i wota sakralne do kościoła parafialnego."
+    "uwagi": "Organizatorka zbiórki funduszy (20 fl.) na srebrne obrazy i wota sakralne do kościoła parafialnego.",
+    "lp": 812
   },
   {
     "id": 813,
@@ -31097,7 +31225,8 @@
         "kontekst": "Przedmieszczanin oskarżony o paserstwo i skup kradzionych siekier mrożonych od chłopca Janaszka."
       }
     ],
-    "uwagi": "Przedmieszczanin oskarżony o paserstwo i skup kradzionych siekier mrożonych od chłopca Janaszka."
+    "uwagi": "Przedmieszczanin oskarżony o paserstwo i skup kradzionych siekier mrożonych od chłopca Janaszka.",
+    "lp": 813
   },
   {
     "id": 814,
@@ -31119,7 +31248,8 @@
         "kontekst": "Młody chłopiec oferujący kradzione siekiery w kuźni Jana Różańczyka."
       }
     ],
-    "uwagi": "Młody chłopiec oferujący kradzione siekiery w kuźni Jana Różańczyka."
+    "uwagi": "Młody chłopiec oferujący kradzione siekiery w kuźni Jana Różańczyka.",
+    "lp": 814
   },
   {
     "id": 815,
@@ -31141,7 +31271,8 @@
         "kontekst": "Właściciel bądrozki zboża utraconej w młynie."
       }
     ],
-    "uwagi": "Właściciel bądrozki zboża utraconej w młynie."
+    "uwagi": "Właściciel bądrozki zboża utraconej w młynie.",
+    "lp": 815
   },
   {
     "id": 816,
@@ -31163,7 +31294,8 @@
         "kontekst": "Uwięziony w wieży ratuszowej za niestawiennictwo w sporze z Pawłem Lepskim o zbiegłego parobka."
       }
     ],
-    "uwagi": "Uwięziony w wieży ratuszowej za niestawiennictwo w sporze z Pawłem Lepskim o zbiegłego parobka."
+    "uwagi": "Uwięziony w wieży ratuszowej za niestawiennictwo w sporze z Pawłem Lepskim o zbiegłego parobka.",
+    "lp": 816
   },
   {
     "id": 817,
@@ -31185,7 +31317,8 @@
         "kontekst": "Mieszczanin toczący spór graniczny i zastawny o grządki warzywne z Pstrągiem."
       }
     ],
-    "uwagi": "Mieszczanin toczący spór graniczny i zastawny o grządki warzywne z Pstrągiem."
+    "uwagi": "Mieszczanin toczący spór graniczny i zastawny o grządki warzywne z Pstrągiem.",
+    "lp": 817
   },
   {
     "id": 818,
@@ -31207,7 +31340,8 @@
         "kontekst": "Strona sporu sąsiedzkiego o grządki warzywne w Kraśniku."
       }
     ],
-    "uwagi": "Strona sporu sąsiedzkiego o grządki warzywne w Kraśniku."
+    "uwagi": "Strona sporu sąsiedzkiego o grządki warzywne w Kraśniku.",
+    "lp": 818
   },
   {
     "id": 819,
@@ -31236,7 +31370,8 @@
         "kontekst": "Sprawca krwawej napaści na gościńcu koło kościołka; nożem siekał Byrana po zębach i powalił go kijem; skazany na wieżę."
       }
     ],
-    "uwagi": "Sprawca krwawej napaści na gościńcu koło kościołka; nożem siekał Byrana po zębach i powalił go kijem; skazany na wieżę."
+    "uwagi": "Sprawca krwawej napaści na gościńcu koło kościołka; nożem siekał Byrana po zębach i powalił go kijem; skazany na wieżę.",
+    "lp": 819
   },
   {
     "id": 820,
@@ -31265,7 +31400,8 @@
         "kontekst": "Ofiara zmasakrowania nożem po zębach przez Liszkę; ocalony przez panią Bojanowską; osadzony w wieży za bójkę."
       }
     ],
-    "uwagi": "Ofiara zmasakrowania nożem po zębach przez Liszkę; ocalony przez panią Bojanowską; osadzony w wieży za bójkę."
+    "uwagi": "Ofiara zmasakrowania nożem po zębach przez Liszkę; ocalony przez panią Bojanowską; osadzony w wieży za bójkę.",
+    "lp": 820
   },
   {
     "id": 821,
@@ -31287,7 +31423,8 @@
         "kontekst": "Szlachcianka, której osobista interwencja na gościńcu zapobiegła zabójstwu Byrana przez nożownika Liszkę."
       }
     ],
-    "uwagi": "Szlachcianka, której osobista interwencja na gościńcu zapobiegła zabójstwu Byrana przez nożownika Liszkę."
+    "uwagi": "Szlachcianka, której osobista interwencja na gościńcu zapobiegła zabójstwu Byrana przez nożownika Liszkę.",
+    "lp": 821
   },
   {
     "id": 822,
@@ -31309,7 +31446,8 @@
         "kontekst": "Poddany urzędowej obdukcji ran głowy po uderzeniu kamieniem przez Kruzka."
       }
     ],
-    "uwagi": "Poddany urzędowej obdukcji ran głowy po uderzeniu kamieniem przez Kruzka."
+    "uwagi": "Poddany urzędowej obdukcji ran głowy po uderzeniu kamieniem przez Kruzka.",
+    "lp": 822
   },
   {
     "id": 823,
@@ -31331,7 +31469,8 @@
         "kontekst": "Sprawca zranienia Ulebskiego kamieniem w głowę z krwawym rozcięciem."
       }
     ],
-    "uwagi": "Sprawca zranienia Ulebskiego kamieniem w głowę z krwawym rozcięciem."
+    "uwagi": "Sprawca zranienia Ulebskiego kamieniem w głowę z krwawym rozcięciem.",
+    "lp": 823
   },
   {
     "id": 824,
@@ -31353,7 +31492,8 @@
         "kontekst": "Właściciel kóz, które niszczyły zasiewy i ogród mistrza szewskiego Jana Buty."
       }
     ],
-    "uwagi": "Właściciel kóz, które niszczyły zasiewy i ogród mistrza szewskiego Jana Buty."
+    "uwagi": "Właściciel kóz, które niszczyły zasiewy i ogród mistrza szewskiego Jana Buty.",
+    "lp": 824
   },
   {
     "id": 825,
@@ -31375,7 +31515,8 @@
         "kontekst": "Uczestnik sporu sąsiedzkiego o szkody wyrządzone przez kozy."
       }
     ],
-    "uwagi": "Uczestnik sporu sąsiedzkiego o szkody wyrządzone przez kozy."
+    "uwagi": "Uczestnik sporu sąsiedzkiego o szkody wyrządzone przez kozy.",
+    "lp": 825
   },
   {
     "id": 826,
@@ -31397,7 +31538,8 @@
         "kontekst": "Oskarżony przez Żyda Mojżesza o wyzwiska ('złodzieju') i naruszenie miru targowego."
       }
     ],
-    "uwagi": "Oskarżony przez Żyda Mojżesza o wyzwiska ('złodzieju') i naruszenie miru targowego."
+    "uwagi": "Oskarżony przez Żyda Mojżesza o wyzwiska ('złodzieju') i naruszenie miru targowego.",
+    "lp": 826
   },
   {
     "id": 827,
@@ -31419,7 +31561,8 @@
         "kontekst": "Komornik zeznający o inwentarzu i depozytach zmarłego Pawła Daniołka."
       }
     ],
-    "uwagi": "Komornik zeznający o inwentarzu i depozytach zmarłego Pawła Daniołka."
+    "uwagi": "Komornik zeznający o inwentarzu i depozytach zmarłego Pawła Daniołka.",
+    "lp": 827
   },
   {
     "id": 828,
@@ -31442,7 +31585,8 @@
         "kontekst": "Dostawca snopów żelaza kowalskiego dla ślusarza Marcina."
       }
     ],
-    "uwagi": "Dostawca snopów żelaza kowalskiego dla ślusarza Marcina."
+    "uwagi": "Dostawca snopów żelaza kowalskiego dla ślusarza Marcina.",
+    "lp": 828
   },
   {
     "id": 829,
@@ -31464,7 +31608,8 @@
         "kontekst": "Syn Barbary Maciówny Wróblowej z jej małżeństwa z Korycińskim; obdarowany szatami i naczyniami miedzianymi w testamencie matki."
       }
     ],
-    "uwagi": "Syn Barbary Maciówny Wróblowej z jej małżeństwa z Korycińskim; obdarowany szatami i naczyniami miedzianymi w testamencie matki."
+    "uwagi": "Syn Barbary Maciówny Wróblowej z jej małżeństwa z Korycińskim; obdarowany szatami i naczyniami miedzianymi w testamencie matki.",
+    "lp": 829
   },
   {
     "id": 830,
@@ -31486,7 +31631,8 @@
         "kontekst": "Wytoczył proces sąsiedzki Szymonowi Koszyczce o naruszenie granicy i postawienie płotu na gruncie miejskim."
       }
     ],
-    "uwagi": "Wytoczył proces sąsiedzki Szymonowi Koszyczce o naruszenie granicy i postawienie płotu na gruncie miejskim."
+    "uwagi": "Wytoczył proces sąsiedzki Szymonowi Koszyczce o naruszenie granicy i postawienie płotu na gruncie miejskim.",
+    "lp": 830
   },
   {
     "id": 831,
@@ -31508,7 +31654,8 @@
         "kontekst": "Oskarżony przez instygatora miejskiego o buntownicze zaoranie pastwiska miejskiego i zbrojny napad na czeladź miejską."
       }
     ],
-    "uwagi": "Oskarżony przez instygatora miejskiego o buntownicze zaoranie pastwiska miejskiego i zbrojny napad na czeladź miejską."
+    "uwagi": "Oskarżony przez instygatora miejskiego o buntownicze zaoranie pastwiska miejskiego i zbrojny napad na czeladź miejską.",
+    "lp": 831
   },
   {
     "id": 832,
@@ -31530,7 +31677,8 @@
         "kontekst": "Uczestnik buntu leśnego i zbrojnego pościgu za sługami magistratu pod bramę wójtostwa w 1628 r."
       }
     ],
-    "uwagi": "Uczestnik buntu leśnego i zbrojnego pościgu za sługami magistratu pod bramę wójtostwa w 1628 r."
+    "uwagi": "Uczestnik buntu leśnego i zbrojnego pościgu za sługami magistratu pod bramę wójtostwa w 1628 r.",
+    "lp": 832
   },
   {
     "id": 833,
@@ -31552,7 +31700,8 @@
         "kontekst": "Świadek w sprawie sporu o baranka i obdukcji sukiennika Piotra z Wolborza."
       }
     ],
-    "uwagi": "Świadek w sprawie sporu o baranka i obdukcji sukiennika Piotra z Wolborza."
+    "uwagi": "Świadek w sprawie sporu o baranka i obdukcji sukiennika Piotra z Wolborza.",
+    "lp": 833
   },
   {
     "id": 834,
@@ -31574,7 +31723,8 @@
         "kontekst": "Poddany proboszcza kraśnickiego doręczający urzędowe wezwania sądowe w sporze szlachty Koźmianów z mieszczanami."
       }
     ],
-    "uwagi": "Poddany proboszcza kraśnickiego doręczający urzędowe wezwania sądowe w sporze szlachty Koźmianów z mieszczanami."
+    "uwagi": "Poddany proboszcza kraśnickiego doręczający urzędowe wezwania sądowe w sporze szlachty Koźmianów z mieszczanami.",
+    "lp": 834
   },
   {
     "id": 835,
@@ -31596,7 +31746,8 @@
         "kontekst": "Pozwany zbiorowo przez instygatora miejskiego o bezprawny wyrąb lasu świerkowego i napad na sługi ratuszowe."
       }
     ],
-    "uwagi": "Pozwany zbiorowo przez instygatora miejskiego o bezprawny wyrąb lasu świerkowego i napad na sługi ratuszowe."
+    "uwagi": "Pozwany zbiorowo przez instygatora miejskiego o bezprawny wyrąb lasu świerkowego i napad na sługi ratuszowe.",
+    "lp": 835
   },
   {
     "id": 836,
@@ -31618,7 +31769,8 @@
         "kontekst": "Pobity i znieważony przez Jacha podczas wypasu wspólnego stada bydła na pastwisku miejskim."
       }
     ],
-    "uwagi": "Pobity i znieważony przez Jacha podczas wypasu wspólnego stada bydła na pastwisku miejskim."
+    "uwagi": "Pobity i znieważony przez Jacha podczas wypasu wspólnego stada bydła na pastwisku miejskim.",
+    "lp": 836
   },
   {
     "id": 837,
@@ -31640,7 +31792,8 @@
         "kontekst": "Uczestnik zbiorowych rozruchów pastwiskowych i zbrojnego starcia z personelem wójtowskim."
       }
     ],
-    "uwagi": "Uczestnik zbiorowych rozruchów pastwiskowych i zbrojnego starcia z personelem wójtowskim."
+    "uwagi": "Uczestnik zbiorowych rozruchów pastwiskowych i zbrojnego starcia z personelem wójtowskim.",
+    "lp": 837
   },
   {
     "id": 838,
@@ -31663,7 +31816,8 @@
         "kontekst": "Brat Gabriela; oskarżony przez instygatora miejskiego o samowolny wyrąb drewna w lesie miejskim i zbiegowisko."
       }
     ],
-    "uwagi": "Brat Gabriela; oskarżony przez instygatora miejskiego o samowolny wyrąb drewna w lesie miejskim i zbiegowisko."
+    "uwagi": "Brat Gabriela; oskarżony przez instygatora miejskiego o samowolny wyrąb drewna w lesie miejskim i zbiegowisko.",
+    "lp": 838
   },
   {
     "id": 839,
@@ -31685,7 +31839,8 @@
         "kontekst": "Uczestnik krwawej bójki w warsztacie szewskim mistrza Klemensa, w której zraniono czeladnika Błażeja."
       }
     ],
-    "uwagi": "Uczestnik krwawej bójki w warsztacie szewskim mistrza Klemensa, w której zraniono czeladnika Błażeja."
+    "uwagi": "Uczestnik krwawej bójki w warsztacie szewskim mistrza Klemensa, w której zraniono czeladnika Błażeja.",
+    "lp": 839
   },
   {
     "id": 840,
@@ -31714,7 +31869,8 @@
         "kontekst": "Doktor medycyny i lekarz miejski w Kraśniku; leczył malarza Stanisława Majowskiego i udzielił pożyczki 135 złp sukiennikowi Sienkowskiemu."
       }
     ],
-    "uwagi": "Doktor medycyny i lekarz miejski w Kraśniku; leczył malarza Stanisława Majowskiego i udzielił pożyczki 135 złp sukiennikowi Sienkowskiemu."
+    "uwagi": "Doktor medycyny i lekarz miejski w Kraśniku; leczył malarza Stanisława Majowskiego i udzielił pożyczki 135 złp sukiennikowi Sienkowskiemu.",
+    "lp": 840
   },
   {
     "id": 841,
@@ -31736,7 +31892,8 @@
         "kontekst": "Współsprawca napaści na czeladnika szewskiego Błażeja w kwietniu 1629 r."
       }
     ],
-    "uwagi": "Współsprawca napaści na czeladnika szewskiego Błażeja w kwietniu 1629 r."
+    "uwagi": "Współsprawca napaści na czeladnika szewskiego Błażeja w kwietniu 1629 r.",
+    "lp": 841
   },
   {
     "id": 842,
@@ -31758,7 +31915,8 @@
         "kontekst": "Uzyskał od sądu radzieckiego zabezpieczenie miru wadium 50 marek od ośmiu agresywnych sąsiadów zwalnianych z aresztu."
       }
     ],
-    "uwagi": "Uzyskał od sądu radzieckiego zabezpieczenie miru wadium 50 marek od ośmiu agresywnych sąsiadów zwalnianych z aresztu."
+    "uwagi": "Uzyskał od sądu radzieckiego zabezpieczenie miru wadium 50 marek od ośmiu agresywnych sąsiadów zwalnianych z aresztu.",
+    "lp": 842
   },
   {
     "id": 843,
@@ -31780,7 +31938,8 @@
         "kontekst": "Oskarżony o dotkliwe pobicie Macieja Kulczyka w noworocznej awanturze w styczniu 1630 r."
       }
     ],
-    "uwagi": "Oskarżony o dotkliwe pobicie Macieja Kulczyka w noworocznej awanturze w styczniu 1630 r."
+    "uwagi": "Oskarżony o dotkliwe pobicie Macieja Kulczyka w noworocznej awanturze w styczniu 1630 r.",
+    "lp": 843
   },
   {
     "id": 844,
@@ -31802,7 +31961,8 @@
         "kontekst": "Sprawca pobicia sukiennika Piotra z Wolborza i uczestnik sporu o baranka z Ciepką."
       }
     ],
-    "uwagi": "Sprawca pobicia sukiennika Piotra z Wolborza i uczestnik sporu o baranka z Ciepką."
+    "uwagi": "Sprawca pobicia sukiennika Piotra z Wolborza i uczestnik sporu o baranka z Ciepką.",
+    "lp": 844
   },
   {
     "id": 845,
@@ -31824,7 +31984,8 @@
         "kontekst": "Szlachcic posiadający kamienicę w Kraśniku, w której sieni doszło do bójki Buty z Sandomierskim."
       }
     ],
-    "uwagi": "Szlachcic posiadający kamienicę w Kraśniku, w której sieni doszło do bójki Buty z Sandomierskim."
+    "uwagi": "Szlachcic posiadający kamienicę w Kraśniku, w której sieni doszło do bójki Buty z Sandomierskim.",
+    "lp": 845
   },
   {
     "id": 846,
@@ -31846,7 +32007,8 @@
         "kontekst": "Współsprawca krwawego napadu na wędrownego sukiennika Piotra z Wolborza."
       }
     ],
-    "uwagi": "Współsprawca krwawego napadu na wędrownego sukiennika Piotra z Wolborza."
+    "uwagi": "Współsprawca krwawego napadu na wędrownego sukiennika Piotra z Wolborza.",
+    "lp": 846
   },
   {
     "id": 847,
@@ -31868,7 +32030,8 @@
         "kontekst": "Uczestnik zbrojnego buntu przeciwko magistratowi i bezprawnego zaorania pastwiska miejskiego."
       }
     ],
-    "uwagi": "Uczestnik zbrojnego buntu przeciwko magistratowi i bezprawnego zaorania pastwiska miejskiego."
+    "uwagi": "Uczestnik zbrojnego buntu przeciwko magistratowi i bezprawnego zaorania pastwiska miejskiego.",
+    "lp": 847
   },
   {
     "id": 848,
@@ -31890,7 +32053,8 @@
         "kontekst": "Świadek zaprzysiężony w procesie o zniewagę władzy; zeznawał o wyzwaniu rajcy Jana Foxa na krwawy pojedynek przez Miłka."
       }
     ],
-    "uwagi": "Świadek zaprzysiężony w procesie o zniewagę władzy; zeznawał o wyzwaniu rajcy Jana Foxa na krwawy pojedynek przez Miłka."
+    "uwagi": "Świadek zaprzysiężony w procesie o zniewagę władzy; zeznawał o wyzwaniu rajcy Jana Foxa na krwawy pojedynek przez Miłka.",
+    "lp": 848
   },
   {
     "id": 849,
@@ -31912,7 +32076,8 @@
         "kontekst": "Czeladnik w warsztacie Klemensa; ofiara krwawego pobicia przez Tomasza Kamyka, Nowaka i Majurka."
       }
     ],
-    "uwagi": "Czeladnik w warsztacie Klemensa; ofiara krwawego pobicia przez Tomasza Kamyka, Nowaka i Majurka."
+    "uwagi": "Czeladnik w warsztacie Klemensa; ofiara krwawego pobicia przez Tomasza Kamyka, Nowaka i Majurka.",
+    "lp": 849
   },
   {
     "id": 850,
@@ -31934,7 +32099,8 @@
         "kontekst": "Sługa dworu arcybiskupa gnieźnieńskiego; odebrał zabezpieczenie długu 12 złp od malarza Stanisława Majowskiego."
       }
     ],
-    "uwagi": "Sługa dworu arcybiskupa gnieźnieńskiego; odebrał zabezpieczenie długu 12 złp od malarza Stanisława Majowskiego."
+    "uwagi": "Sługa dworu arcybiskupa gnieźnieńskiego; odebrał zabezpieczenie długu 12 złp od malarza Stanisława Majowskiego.",
+    "lp": 850
   },
   {
     "id": 851,
@@ -31956,7 +32122,8 @@
         "kontekst": "Mistrz młyński dochodzący należności za przemiał zboża od Żyda Dawida."
       }
     ],
-    "uwagi": "Mistrz młyński dochodzący należności za przemiał zboża od Żyda Dawida."
+    "uwagi": "Mistrz młyński dochodzący należności za przemiał zboża od Żyda Dawida.",
+    "lp": 851
   },
   {
     "id": 852,
@@ -31978,7 +32145,8 @@
         "kontekst": "Sukiennik przybyły z Wolborza; poszkodowany w napaści sługi Śnieżki, Turgaja i Sada."
       }
     ],
-    "uwagi": "Sukiennik przybyły z Wolborza; poszkodowany w napaści sługi Śnieżki, Turgaja i Sada."
+    "uwagi": "Sukiennik przybyły z Wolborza; poszkodowany w napaści sługi Śnieżki, Turgaja i Sada.",
+    "lp": 852
   },
   {
     "id": 853,
@@ -32000,7 +32168,8 @@
         "kontekst": "Czeladnik tkacki u Jana Bomby skatowany przez parobka Śnieżki w kwietniu 1629 r."
       }
     ],
-    "uwagi": "Czeladnik tkacki u Jana Bomby skatowany przez parobka Śnieżki w kwietniu 1629 r."
+    "uwagi": "Czeladnik tkacki u Jana Bomby skatowany przez parobka Śnieżki w kwietniu 1629 r.",
+    "lp": 853
   },
   {
     "id": 854,
@@ -32022,7 +32191,8 @@
         "kontekst": "Zawodowy piwowar powołany na biegłego sądu do oszacowania szkód wyrządzonych w warzywach przez stado owiec."
       }
     ],
-    "uwagi": "Zawodowy piwowar powołany na biegłego sądu do oszacowania szkód wyrządzonych w warzywach przez stado owiec."
+    "uwagi": "Zawodowy piwowar powołany na biegłego sądu do oszacowania szkód wyrządzonych w warzywach przez stado owiec.",
+    "lp": 854
   },
   {
     "id": 855,
@@ -32045,7 +32215,8 @@
         "kontekst": "Mularz miejski zeznający w sprawach transportu słodu i długów stelmacha Stanisława."
       }
     ],
-    "uwagi": "Mularz miejski zeznający w sprawach transportu słodu i długów stelmacha Stanisława."
+    "uwagi": "Mularz miejski zeznający w sprawach transportu słodu i długów stelmacha Stanisława.",
+    "lp": 855
   },
   {
     "id": 856,
@@ -32067,7 +32238,8 @@
         "kontekst": "Kierownik kraśnickiej szkoły miejskiej; obecny oficjalnie przy obdukcji ran krwawej bójki braci Jurków w październiku 1629 r."
       }
     ],
-    "uwagi": "Kierownik kraśnickiej szkoły miejskiej; obecny oficjalnie przy obdukcji ran krwawej bójki braci Jurków w październiku 1629 r."
+    "uwagi": "Kierownik kraśnickiej szkoły miejskiej; obecny oficjalnie przy obdukcji ran krwawej bójki braci Jurków w październiku 1629 r.",
+    "lp": 856
   },
   {
     "id": 857,
@@ -32096,7 +32268,8 @@
         "kontekst": "Woźny i sługa wójtowski relacjonujący przed radą pozwy szewca Buty przeciwko burmistrzowi oraz doręczenia wadiów."
       }
     ],
-    "uwagi": "Woźny i sługa wójtowski relacjonujący przed radą pozwy szewca Buty przeciwko burmistrzowi oraz doręczenia wadiów."
+    "uwagi": "Woźny i sługa wójtowski relacjonujący przed radą pozwy szewca Buty przeciwko burmistrzowi oraz doręczenia wadiów.",
+    "lp": 857
   },
   {
     "id": 858,
@@ -32118,7 +32291,8 @@
         "kontekst": "Brat Jana Łaszy; pozwany przez instygatora o udział w buncie pastwiskowym w 1628 r."
       }
     ],
-    "uwagi": "Brat Jana Łaszy; pozwany przez instygatora o udział w buncie pastwiskowym w 1628 r."
+    "uwagi": "Brat Jana Łaszy; pozwany przez instygatora o udział w buncie pastwiskowym w 1628 r.",
+    "lp": 858
   },
   {
     "id": 859,
@@ -32140,7 +32314,8 @@
         "kontekst": "Rajca kraśnicki delegowany wraz z Szymonem Świeszowiczem do oszacowania budynków i placu po zm. Jaroszu."
       }
     ],
-    "uwagi": "Rajca kraśnicki delegowany wraz z Szymonem Świeszowiczem do oszacowania budynków i placu po zm. Jaroszu."
+    "uwagi": "Rajca kraśnicki delegowany wraz z Szymonem Świeszowiczem do oszacowania budynków i placu po zm. Jaroszu.",
+    "lp": 859
   },
   {
     "id": 860,
@@ -32162,7 +32337,8 @@
         "kontekst": "Żona rajcy Jakuba Pisarzkowicza; współsprzedawczyni kamienicy w rynku szlachcicowi Jerzemu Krasowskiemu za 600 florenów."
       }
     ],
-    "uwagi": "Żona rajcy Jakuba Pisarzkowicza; współsprzedawczyni kamienicy w rynku szlachcicowi Jerzemu Krasowskiemu za 600 florenów."
+    "uwagi": "Żona rajcy Jakuba Pisarzkowicza; współsprzedawczyni kamienicy w rynku szlachcicowi Jerzemu Krasowskiemu za 600 florenów.",
+    "lp": 860
   },
   {
     "id": 861,
@@ -32191,7 +32367,8 @@
         "kontekst": "Mieszczanin obecny przy sporach handlowych Wytywaka oraz transakcjach gruntowych w radzie."
       }
     ],
-    "uwagi": "Mieszczanin obecny przy sporach handlowych Wytywaka oraz transakcjach gruntowych w radzie."
+    "uwagi": "Mieszczanin obecny przy sporach handlowych Wytywaka oraz transakcjach gruntowych w radzie.",
+    "lp": 861
   },
   {
     "id": 862,
@@ -32213,7 +32390,8 @@
         "kontekst": "Wytoczył proces przeciwko Miodałce i Krystkowi o kalumnie i zniewagi w rynku."
       }
     ],
-    "uwagi": "Wytoczył proces przeciwko Miodałce i Krystkowi o kalumnie i zniewagi w rynku."
+    "uwagi": "Wytoczył proces przeciwko Miodałce i Krystkowi o kalumnie i zniewagi w rynku.",
+    "lp": 862
   },
   {
     "id": 863,
@@ -32235,7 +32413,8 @@
         "kontekst": "Świadek zaprzysiężony zeznający wraz z czeladnikiem Nierywielkim o nocnych awanturach Stanisława Buty."
       }
     ],
-    "uwagi": "Świadek zaprzysiężony zeznający wraz z czeladnikiem Nierywielkim o nocnych awanturach Stanisława Buty."
+    "uwagi": "Świadek zaprzysiężony zeznający wraz z czeladnikiem Nierywielkim o nocnych awanturach Stanisława Buty.",
+    "lp": 863
   },
   {
     "id": 864,
@@ -32257,7 +32436,8 @@
         "kontekst": "Wdowa po mistrzu tkackim Wawrzyńcu; prowadziła spór o piekarnię i wyszynk piwa."
       }
     ],
-    "uwagi": "Wdowa po mistrzu tkackim Wawrzyńcu; prowadziła spór o piekarnię i wyszynk piwa."
+    "uwagi": "Wdowa po mistrzu tkackim Wawrzyńcu; prowadziła spór o piekarnię i wyszynk piwa.",
+    "lp": 864
   },
   {
     "id": 865,
@@ -32279,7 +32459,8 @@
         "kontekst": "Bednarz kraśnicki pozwany przez Ponczosnka o zwrot złotego pierścienia danego w zastaw."
       }
     ],
-    "uwagi": "Bednarz kraśnicki pozwany przez Ponczosnka o zwrot złotego pierścienia danego w zastaw."
+    "uwagi": "Bednarz kraśnicki pozwany przez Ponczosnka o zwrot złotego pierścienia danego w zastaw.",
+    "lp": 865
   },
   {
     "id": 866,
@@ -32301,7 +32482,8 @@
         "kontekst": "Służący pozwany przez Walentę Malarkę o przywłaszczenie poduszki i bielizny."
       }
     ],
-    "uwagi": "Służący pozwany przez Walentę Malarkę o przywłaszczenie poduszki i bielizny."
+    "uwagi": "Służący pozwany przez Walentę Malarkę o przywłaszczenie poduszki i bielizny.",
+    "lp": 866
   },
   {
     "id": 867,
@@ -32323,7 +32505,8 @@
         "kontekst": "Uczestnik krwawej bójki pastuszej o wypasanie inwentarza na ugorach miejskich."
       }
     ],
-    "uwagi": "Uczestnik krwawej bójki pastuszej o wypasanie inwentarza na ugorach miejskich."
+    "uwagi": "Uczestnik krwawej bójki pastuszej o wypasanie inwentarza na ugorach miejskich.",
+    "lp": 867
   },
   {
     "id": 868,
@@ -32345,7 +32528,8 @@
         "kontekst": "Właściciel placu i domu graniczącego z pustym placem Petrysowiczowej sprzedanym Pisarzkowiczowi."
       }
     ],
-    "uwagi": "Właściciel placu i domu graniczącego z pustym placem Petrysowiczowej sprzedanym Pisarzkowiczowi."
+    "uwagi": "Właściciel placu i domu graniczącego z pustym placem Petrysowiczowej sprzedanym Pisarzkowiczowi.",
+    "lp": 868
   },
   {
     "id": 869,
@@ -32367,7 +32551,8 @@
         "kontekst": "Oskarżony o pobieranie nadmiernych odsetek (lichwę) przez Stanisława Jaykołkę."
       }
     ],
-    "uwagi": "Oskarżony o pobieranie nadmiernych odsetek (lichwę) przez Stanisława Jaykołkę."
+    "uwagi": "Oskarżony o pobieranie nadmiernych odsetek (lichwę) przez Stanisława Jaykołkę.",
+    "lp": 869
   },
   {
     "id": 870,
@@ -32389,7 +32574,8 @@
         "kontekst": "Świadek i uczestnik postępowań w sprawach myta i kradzieży konia."
       }
     ],
-    "uwagi": "Świadek i uczestnik postępowań w sprawach myta i kradzieży konia."
+    "uwagi": "Świadek i uczestnik postępowań w sprawach myta i kradzieży konia.",
+    "lp": 870
   },
   {
     "id": 871,
@@ -32411,7 +32597,8 @@
         "kontekst": "Kupiec z Mikołajewa oskarżający aptekarza Aleksandra Janaszka o przywłaszczenie należności."
       }
     ],
-    "uwagi": "Kupiec z Mikołajewa oskarżający aptekarza Aleksandra Janaszka o przywłaszczenie należności."
+    "uwagi": "Kupiec z Mikołajewa oskarżający aptekarza Aleksandra Janaszka o przywłaszczenie należności.",
+    "lp": 871
   },
   {
     "id": 872,
@@ -32433,7 +32620,8 @@
         "kontekst": "Osadzony w ratuszowej wieży za zlekceważenie wyroku sądu w sporze z Prokopkową i Kwiatkowskim."
       }
     ],
-    "uwagi": "Osadzony w ratuszowej wieży za zlekceważenie wyroku sądu w sporze z Prokopkową i Kwiatkowskim."
+    "uwagi": "Osadzony w ratuszowej wieży za zlekceważenie wyroku sądu w sporze z Prokopkową i Kwiatkowskim.",
+    "lp": 872
   },
   {
     "id": 873,
@@ -32455,7 +32643,8 @@
         "kontekst": "Pozwany przez cyrulika o zapłatę za leczenie ran i kuracje medyczne."
       }
     ],
-    "uwagi": "Pozwany przez cyrulika o zapłatę za leczenie ran i kuracje medyczne."
+    "uwagi": "Pozwany przez cyrulika o zapłatę za leczenie ran i kuracje medyczne.",
+    "lp": 873
   },
   {
     "id": 874,
@@ -32477,7 +32666,8 @@
         "kontekst": "Występuje w rozliczeniach z cyrulikiem i ławnikami."
       }
     ],
-    "uwagi": "Występuje w rozliczeniach z cyrulikiem i ławnikami."
+    "uwagi": "Występuje w rozliczeniach z cyrulikiem i ławnikami.",
+    "lp": 874
   },
   {
     "id": 875,
@@ -32499,7 +32689,8 @@
         "kontekst": "Uczestnik poręczeń i sporów rzemieślniczych w cechu bednarzy."
       }
     ],
-    "uwagi": "Uczestnik poręczeń i sporów rzemieślniczych w cechu bednarzy."
+    "uwagi": "Uczestnik poręczeń i sporów rzemieślniczych w cechu bednarzy.",
+    "lp": 875
   },
   {
     "id": 876,
@@ -32521,7 +32712,8 @@
         "kontekst": "Uczestnik sporu o rozliczenia zbożowe i młynarskie ze Stróży."
       }
     ],
-    "uwagi": "Uczestnik sporu o rozliczenia zbożowe i młynarskie ze Stróży."
+    "uwagi": "Uczestnik sporu o rozliczenia zbożowe i młynarskie ze Stróży.",
+    "lp": 876
   },
   {
     "id": 877,
@@ -32543,7 +32735,8 @@
         "kontekst": "Służąca u Marty Jurkowej; sprawa o niedopełnienie warunków służby domowej."
       }
     ],
-    "uwagi": "Służąca u Marty Jurkowej; sprawa o niedopełnienie warunków służby domowej."
+    "uwagi": "Służąca u Marty Jurkowej; sprawa o niedopełnienie warunków służby domowej.",
+    "lp": 877
   },
   {
     "id": 878,
@@ -32565,7 +32758,8 @@
         "kontekst": "Obrzuciła kamieniami seniorów miejskich Bartłomieja Płazę i Stanisława Sokoła podczas sporu o pszenicę."
       }
     ],
-    "uwagi": "Obrzuciła kamieniami seniorów miejskich Bartłomieja Płazę i Stanisława Sokoła podczas sporu o pszenicę."
+    "uwagi": "Obrzuciła kamieniami seniorów miejskich Bartłomieja Płazę i Stanisława Sokoła podczas sporu o pszenicę.",
+    "lp": 878
   },
   {
     "id": 879,
@@ -32587,7 +32781,8 @@
         "kontekst": "Świadek w sporach majątkowych i transakcjach gruntowych wójtostwa."
       }
     ],
-    "uwagi": "Świadek w sporach majątkowych i transakcjach gruntowych wójtostwa."
+    "uwagi": "Świadek w sporach majątkowych i transakcjach gruntowych wójtostwa.",
+    "lp": 879
   },
   {
     "id": 880,
@@ -32609,7 +32804,8 @@
         "kontekst": "Powód w sprawie przeciwko aresztowanemu w wieży Klimaszkowi."
       }
     ],
-    "uwagi": "Powód w sprawie przeciwko aresztowanemu w wieży Klimaszkowi."
+    "uwagi": "Powód w sprawie przeciwko aresztowanemu w wieży Klimaszkowi.",
+    "lp": 880
   },
   {
     "id": 881,
@@ -32631,7 +32827,8 @@
         "kontekst": "Ofiara zmasakrowania twarzy i ran ciętych zadanych przez Macieja Ciepłowego."
       }
     ],
-    "uwagi": "Ofiara zmasakrowania twarzy i ran ciętych zadanych przez Macieja Ciepłowego."
+    "uwagi": "Ofiara zmasakrowania twarzy i ran ciętych zadanych przez Macieja Ciepłowego.",
+    "lp": 881
   },
   {
     "id": 882,
@@ -32653,7 +32850,8 @@
         "kontekst": "Występuje przy wielkiej pożyczce 440 florenów od doktora Łajgowskiego."
       }
     ],
-    "uwagi": "Występuje przy wielkiej pożyczce 440 florenów od doktora Łajgowskiego."
+    "uwagi": "Występuje przy wielkiej pożyczce 440 florenów od doktora Łajgowskiego.",
+    "lp": 882
   },
   {
     "id": 883,
@@ -32675,7 +32873,8 @@
         "kontekst": "Malarz rzemieślniczy rozliczający roboty malarskie i drewno z tokarzem."
       }
     ],
-    "uwagi": "Malarz rzemieślniczy rozliczający roboty malarskie i drewno z tokarzem."
+    "uwagi": "Malarz rzemieślniczy rozliczający roboty malarskie i drewno z tokarzem.",
+    "lp": 883
   },
   {
     "id": 884,
@@ -32697,7 +32896,8 @@
         "kontekst": "Arendarz i kupiec w sporze z młynarzem ze Stróży."
       }
     ],
-    "uwagi": "Arendarz i kupiec w sporze z młynarzem ze Stróży."
+    "uwagi": "Arendarz i kupiec w sporze z młynarzem ze Stróży.",
+    "lp": 884
   },
   {
     "id": 885,
@@ -32719,7 +32919,8 @@
         "kontekst": "Pozwany przez Żyda Abrama o zniewagę słowną i oszczerstwo w rynku."
       }
     ],
-    "uwagi": "Pozwany przez Żyda Abrama o zniewagę słowną i oszczerstwo w rynku."
+    "uwagi": "Pozwany przez Żyda Abrama o zniewagę słowną i oszczerstwo w rynku.",
+    "lp": 885
   },
   {
     "id": 886,
@@ -32741,7 +32942,8 @@
         "kontekst": "Mistrz młyński ze Stróży prowadzący bójkę i proces z Żydem Mieszkiem."
       }
     ],
-    "uwagi": "Mistrz młyński ze Stróży prowadzący bójkę i proces z Żydem Mieszkiem."
+    "uwagi": "Mistrz młyński ze Stróży prowadzący bójkę i proces z Żydem Mieszkiem.",
+    "lp": 886
   },
   {
     "id": 887,
@@ -32770,7 +32972,8 @@
         "kontekst": "Dłużnik balwierza za opatrzenie ran oraz poręczyciel przy pomiarach geometry."
       }
     ],
-    "uwagi": "Dłużnik balwierza za opatrzenie ran oraz poręczyciel przy pomiarach geometry."
+    "uwagi": "Dłużnik balwierza za opatrzenie ran oraz poręczyciel przy pomiarach geometry.",
+    "lp": 887
   },
   {
     "id": 888,
@@ -32792,7 +32995,8 @@
         "kontekst": "Oracz i przedmieszczanin; kluczowy świadek krwawej bójki pastuchów o ugory miejskie."
       }
     ],
-    "uwagi": "Oracz i przedmieszczanin; kluczowy świadek krwawej bójki pastuchów o ugory miejskie."
+    "uwagi": "Oracz i przedmieszczanin; kluczowy świadek krwawej bójki pastuchów o ugory miejskie.",
+    "lp": 888
   },
   {
     "id": 889,
@@ -32814,7 +33018,8 @@
         "kontekst": "Szlachcic z Rzeczycy kwitujący spłatę długu 18 florenów po zmarłej Barbarze Paterkowej."
       }
     ],
-    "uwagi": "Szlachcic z Rzeczycy kwitujący spłatę długu 18 florenów po zmarłej Barbarze Paterkowej."
+    "uwagi": "Szlachcic z Rzeczycy kwitujący spłatę długu 18 florenów po zmarłej Barbarze Paterkowej.",
+    "lp": 889
   },
   {
     "id": 890,
@@ -32836,7 +33041,8 @@
         "kontekst": "Wytoczył proces bednarzowi Błażejowi o zwrot zastawionego złotego pierścienia."
       }
     ],
-    "uwagi": "Wytoczył proces bednarzowi Błażejowi o zwrot zastawionego złotego pierścienia."
+    "uwagi": "Wytoczył proces bednarzowi Błażejowi o zwrot zastawionego złotego pierścienia.",
+    "lp": 890
   },
   {
     "id": 891,
@@ -32858,7 +33064,8 @@
         "kontekst": "Świadek w sporach spichrzowych doktora Alberta Łajgowskiego."
       }
     ],
-    "uwagi": "Świadek w sporach spichrzowych doktora Alberta Łajgowskiego."
+    "uwagi": "Świadek w sporach spichrzowych doktora Alberta Łajgowskiego.",
+    "lp": 891
   },
   {
     "id": 892,
@@ -32887,7 +33094,8 @@
         "kontekst": "Dłużnik zobowiązany do wypłaty 10 marek głowszczyzny rodzinie zamordowanego Jakuba Buty."
       }
     ],
-    "uwagi": "Dłużnik zobowiązany do wypłaty 10 marek głowszczyzny rodzinie zamordowanego Jakuba Buty."
+    "uwagi": "Dłużnik zobowiązany do wypłaty 10 marek głowszczyzny rodzinie zamordowanego Jakuba Buty.",
+    "lp": 892
   },
   {
     "id": 893,
@@ -32909,7 +33117,8 @@
         "kontekst": "Młody Płazik uczestniczący wraz ze starym Płazą w interwencji polnej przeciwko Krzikom."
       }
     ],
-    "uwagi": "Młody Płazik uczestniczący wraz ze starym Płazą w interwencji polnej przeciwko Krzikom."
+    "uwagi": "Młody Płazik uczestniczący wraz ze starym Płazą w interwencji polnej przeciwko Krzikom.",
+    "lp": 893
   },
   {
     "id": 894,
@@ -32931,7 +33140,8 @@
         "kontekst": "Zobowiązał się zapłacić 75 złp Mikołajowi Wronie kuśnierzowi za 30 korcy żyta."
       }
     ],
-    "uwagi": "Zobowiązał się zapłacić 75 złp Mikołajowi Wronie kuśnierzowi za 30 korcy żyta."
+    "uwagi": "Zobowiązał się zapłacić 75 złp Mikołajowi Wronie kuśnierzowi za 30 korcy żyta.",
+    "lp": 894
   },
   {
     "id": 895,
@@ -32953,7 +33163,8 @@
         "kontekst": "Występuje w sporach browarniczych i rzemieślniczych wokół szpitala św. Ducha."
       }
     ],
-    "uwagi": "Występuje w sporach browarniczych i rzemieślniczych wokół szpitala św. Ducha."
+    "uwagi": "Występuje w sporach browarniczych i rzemieślniczych wokół szpitala św. Ducha.",
+    "lp": 895
   },
   {
     "id": 896,
@@ -32975,7 +33186,8 @@
         "kontekst": "Prowadziła proces ze szlachcicem Jerzym Krasowskim o należności za sukno i jedwab."
       }
     ],
-    "uwagi": "Prowadziła proces ze szlachcicem Jerzym Krasowskim o należności za sukno i jedwab."
+    "uwagi": "Prowadziła proces ze szlachcicem Jerzym Krasowskim o należności za sukno i jedwab.",
+    "lp": 896
   },
   {
     "id": 897,
@@ -32997,7 +33209,8 @@
         "kontekst": "Świadek w sprawach długów Stanisława Buty u rajcy Pisarzkowicza."
       }
     ],
-    "uwagi": "Świadek w sprawach długów Stanisława Buty u rajcy Pisarzkowicza."
+    "uwagi": "Świadek w sprawach długów Stanisława Buty u rajcy Pisarzkowicza.",
+    "lp": 897
   },
   {
     "id": 898,
@@ -33019,7 +33232,8 @@
         "kontekst": "Komornica pozwana przez Pawła Durdę o szkody i zadośćuczynienie."
       }
     ],
-    "uwagi": "Komornica pozwana przez Pawła Durdę o szkody i zadośćuczynienie."
+    "uwagi": "Komornica pozwana przez Pawła Durdę o szkody i zadośćuczynienie.",
+    "lp": 898
   },
   {
     "id": 899,
@@ -33041,7 +33255,8 @@
         "kontekst": "Sprzedawca wołów rzeźnych pozwany przez rzeźnika Stanisława Skroczka."
       }
     ],
-    "uwagi": "Sprzedawca wołów rzeźnych pozwany przez rzeźnika Stanisława Skroczka."
+    "uwagi": "Sprzedawca wołów rzeźnych pozwany przez rzeźnika Stanisława Skroczka.",
+    "lp": 899
   },
   {
     "id": 900,
@@ -33063,7 +33278,8 @@
         "kontekst": "Szewc kraśnicki uczestniczący w bójce ulicznej z rzucaniem kijami."
       }
     ],
-    "uwagi": "Szewc kraśnicki uczestniczący w bójce ulicznej z rzucaniem kijami."
+    "uwagi": "Szewc kraśnicki uczestniczący w bójce ulicznej z rzucaniem kijami.",
+    "lp": 900
   },
   {
     "id": 901,
@@ -33085,7 +33301,8 @@
         "kontekst": "Świadek transakcji winnych węgierskiego szlachcica Thorensa Gutaia."
       }
     ],
-    "uwagi": "Świadek transakcji winnych węgierskiego szlachcica Thorensa Gutaia."
+    "uwagi": "Świadek transakcji winnych węgierskiego szlachcica Thorensa Gutaia.",
+    "lp": 901
   },
   {
     "id": 902,
@@ -33107,7 +33324,8 @@
         "kontekst": "Tokarz kraśnicki rozliczający roboty drewniane i malarskie."
       }
     ],
-    "uwagi": "Tokarz kraśnicki rozliczający roboty drewniane i malarskie."
+    "uwagi": "Tokarz kraśnicki rozliczający roboty drewniane i malarskie.",
+    "lp": 902
   },
   {
     "id": 903,
@@ -33129,7 +33347,8 @@
         "kontekst": "Zmarły tkacz kraśnicki, którego majątek i piekarnię procesowała wdowa Anna."
       }
     ],
-    "uwagi": "Zmarły tkacz kraśnicki, którego majątek i piekarnię procesowała wdowa Anna."
+    "uwagi": "Zmarły tkacz kraśnicki, którego majątek i piekarnię procesowała wdowa Anna.",
+    "lp": 903
   },
   {
     "id": 904,
@@ -33151,7 +33370,8 @@
         "kontekst": "Procesował się z Adamem Szebierą o myto za szybę i skradzionego konia."
       }
     ],
-    "uwagi": "Procesował się z Adamem Szebierą o myto za szybę i skradzionego konia."
+    "uwagi": "Procesował się z Adamem Szebierą o myto za szybę i skradzionego konia.",
+    "lp": 904
   },
   {
     "id": 905,
@@ -33173,7 +33393,8 @@
         "kontekst": "Poręczyciel przy opłatach geometry za podział pól miejskich."
       }
     ],
-    "uwagi": "Poręczyciel przy opłatach geometry za podział pól miejskich."
+    "uwagi": "Poręczyciel przy opłatach geometry za podział pól miejskich.",
+    "lp": 905
   },
   {
     "id": 906,
@@ -33195,7 +33416,8 @@
         "kontekst": "Poszkodowana w obdukcji uderzenia w czoło przez Alberta Okunia."
       }
     ],
-    "uwagi": "Poszkodowana w obdukcji uderzenia w czoło przez Alberta Okunia."
+    "uwagi": "Poszkodowana w obdukcji uderzenia w czoło przez Alberta Okunia.",
+    "lp": 906
   },
   {
     "id": 907,
@@ -33217,7 +33439,8 @@
         "kontekst": "Szewc i były arendarz sklepu w kamienicy Anny Linginy."
       }
     ],
-    "uwagi": "Szewc i były arendarz sklepu w kamienicy Anny Linginy."
+    "uwagi": "Szewc i były arendarz sklepu w kamienicy Anny Linginy.",
+    "lp": 907
   },
   {
     "id": 908,
@@ -33239,7 +33462,8 @@
         "kontekst": "Osadzony w wieży ratuszowej w sporze z Rusakiem o owies i kłódki."
       }
     ],
-    "uwagi": "Osadzony w wieży ratuszowej w sporze z Rusakiem o owies i kłódki."
+    "uwagi": "Osadzony w wieży ratuszowej w sporze z Rusakiem o owies i kłódki.",
+    "lp": 908
   },
   {
     "id": 909,
@@ -33261,7 +33485,8 @@
         "kontekst": "Świadek w sprawach karnych Stanisława Buty i Butowej."
       }
     ],
-    "uwagi": "Świadek w sprawach karnych Stanisława Buty i Butowej."
+    "uwagi": "Świadek w sprawach karnych Stanisława Buty i Butowej.",
+    "lp": 909
   },
   {
     "id": 910,
@@ -33283,7 +33508,8 @@
         "kontekst": "Powódka w procesie przeciwko uwięzionemu w wieży Klimaszkowi."
       }
     ],
-    "uwagi": "Powódka w procesie przeciwko uwięzionemu w wieży Klimaszkowi."
+    "uwagi": "Powódka w procesie przeciwko uwięzionemu w wieży Klimaszkowi.",
+    "lp": 910
   },
   {
     "id": 911,
@@ -33312,7 +33538,8 @@
         "kontekst": "Przedmieszczanin kraśnicki składający uroczystą przysięgę na krucyfiks w ratuszu w sporze o granice i grunty."
       }
     ],
-    "uwagi": "Przedmieszczanin kraśnicki składający uroczystą przysięgę na krucyfiks w ratuszu w sporze o granice i grunty."
+    "uwagi": "Przedmieszczanin kraśnicki składający uroczystą przysięgę na krucyfiks w ratuszu w sporze o granice i grunty.",
+    "lp": 911
   },
   {
     "id": 912,
@@ -33334,7 +33561,8 @@
         "kontekst": "Instygator miejski wnoszący oskarżenie o naruszenie pokoju publicznego podczas jarmarku kraśnickiego."
       }
     ],
-    "uwagi": "Instygator miejski wnoszący oskarżenie o naruszenie pokoju publicznego podczas jarmarku kraśnickiego."
+    "uwagi": "Instygator miejski wnoszący oskarżenie o naruszenie pokoju publicznego podczas jarmarku kraśnickiego.",
+    "lp": 912
   },
   {
     "id": 913,
@@ -33357,7 +33585,8 @@
         "kontekst": "Rotmistrz chorągwi koronnej, na rzecz której magistrat kraśnicki uchwalił lauda i pobór 800 zł w 1655 r."
       }
     ],
-    "uwagi": "Rotmistrz chorągwi koronnej, na rzecz której magistrat kraśnicki uchwalił lauda i pobór 800 zł w 1655 r. | Rotmistrz wojsk koronnych; rozliczenie konia zabranego na podwodę."
+    "uwagi": "Rotmistrz chorągwi koronnej, na rzecz której magistrat kraśnicki uchwalił lauda i pobór 800 zł w 1655 r. | Rotmistrz wojsk koronnych; rozliczenie konia zabranego na podwodę.",
+    "lp": 913
   },
   {
     "id": 914,
@@ -33379,7 +33608,8 @@
         "kontekst": "Mieszczanin kraśnicki obciążony kontrybucją wojenną w okresie szwedzkim."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki obciążony kontrybucją wojenną w okresie szwedzkim."
+    "uwagi": "Mieszczanin kraśnicki obciążony kontrybucją wojenną w okresie szwedzkim.",
+    "lp": 914
   },
   {
     "id": 915,
@@ -33401,7 +33631,8 @@
         "kontekst": "Mieszczanin kraśnicki wymieniony w rejestrach podatków wojennych 1656 r."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki wymieniony w rejestrach podatków wojennych 1656 r."
+    "uwagi": "Mieszczanin kraśnicki wymieniony w rejestrach podatków wojennych 1656 r.",
+    "lp": 915
   },
   {
     "id": 916,
@@ -33423,7 +33654,8 @@
         "kontekst": "Mieszka kraśnicka występująca w sprawach majątkowych i sąsiedzkich rodu Piotrowskich."
       }
     ],
-    "uwagi": "Mieszka kraśnicka występująca w sprawach majątkowych i sąsiedzkich rodu Piotrowskich."
+    "uwagi": "Mieszka kraśnicka występująca w sprawach majątkowych i sąsiedzkich rodu Piotrowskich.",
+    "lp": 916
   },
   {
     "id": 917,
@@ -33445,7 +33677,8 @@
         "kontekst": "Mieszczanin kraśnicki składający zeznania w sprawach karnych i sąsiedzkich."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki składający zeznania w sprawach karnych i sąsiedzkich."
+    "uwagi": "Mieszczanin kraśnicki składający zeznania w sprawach karnych i sąsiedzkich.",
+    "lp": 917
   },
   {
     "id": 918,
@@ -33467,7 +33700,8 @@
         "kontekst": "Szlachcic uczestniczący w transakcjach zbożowych i rozliczeniach miejskich."
       }
     ],
-    "uwagi": "Szlachcic uczestniczący w transakcjach zbożowych i rozliczeniach miejskich."
+    "uwagi": "Szlachcic uczestniczący w transakcjach zbożowych i rozliczeniach miejskich.",
+    "lp": 918
   },
   {
     "id": 919,
@@ -33489,7 +33723,8 @@
         "kontekst": "Rzemieślnik kraśnicki cechu sitarskiego uczestniczący w rozliczeniach cechowych."
       }
     ],
-    "uwagi": "Rzemieślnik kraśnicki cechu sitarskiego uczestniczący w rozliczeniach cechowych."
+    "uwagi": "Rzemieślnik kraśnicki cechu sitarskiego uczestniczący w rozliczeniach cechowych.",
+    "lp": 919
   },
   {
     "id": 920,
@@ -33511,7 +33746,8 @@
         "kontekst": "Dłużnik Krzysztofa Piątka aresztowany w domu żydowskim pod kaucją Alberta Gyzgi."
       }
     ],
-    "uwagi": "Dłużnik Krzysztofa Piątka aresztowany w domu żydowskim pod kaucją Alberta Gyzgi."
+    "uwagi": "Dłużnik Krzysztofa Piątka aresztowany w domu żydowskim pod kaucją Alberta Gyzgi.",
+    "lp": 920
   },
   {
     "id": 921,
@@ -33533,7 +33769,8 @@
         "kontekst": "Mieszczanin kraśnicki wymieniony w protokołach obdukcyjnych burmistrza Nawrockiego."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki wymieniony w protokołach obdukcyjnych burmistrza Nawrockiego."
+    "uwagi": "Mieszczanin kraśnicki wymieniony w protokołach obdukcyjnych burmistrza Nawrockiego.",
+    "lp": 921
   },
   {
     "id": 922,
@@ -33555,7 +33792,8 @@
         "kontekst": "Mieszczanin kraśnicki składający zeznania przed urzędem wójtowsko-ławniczym."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki składający zeznania przed urzędem wójtowsko-ławniczym."
+    "uwagi": "Mieszczanin kraśnicki składający zeznania przed urzędem wójtowsko-ławniczym.",
+    "lp": 922
   },
   {
     "id": 923,
@@ -33577,7 +33815,8 @@
         "kontekst": "Kupiec kramny poszkodowany w bójce targowej w dzień jarmarczny."
       }
     ],
-    "uwagi": "Kupiec kramny poszkodowany w bójce targowej w dzień jarmarczny."
+    "uwagi": "Kupiec kramny poszkodowany w bójce targowej w dzień jarmarczny.",
+    "lp": 923
   },
   {
     "id": 924,
@@ -33599,7 +33838,8 @@
         "kontekst": "Mistrz szewski poszkodowany pobiciem przez Alberta Trzacza, okazujący sińce i rany przed sądem."
       }
     ],
-    "uwagi": "Mistrz szewski poszkodowany pobiciem przez Alberta Trzacza, okazujący sińce i rany przed sądem."
+    "uwagi": "Mistrz szewski poszkodowany pobiciem przez Alberta Trzacza, okazujący sińce i rany przed sądem.",
+    "lp": 924
   },
   {
     "id": 925,
@@ -33621,7 +33861,8 @@
         "kontekst": "Zmarły przedmieszczanin kraśnicki; jego majątek i dzieci pozostawały pod kuratelą Kłopota i Leski, procesowanymi przez radcę Sitańskiego o 59 zł długu."
       }
     ],
-    "uwagi": "Zmarły przedmieszczanin kraśnicki; jego majątek i dzieci pozostawały pod kuratelą Kłopota i Leski, procesowanymi przez radcę Sitańskiego o 59 zł długu."
+    "uwagi": "Zmarły przedmieszczanin kraśnicki; jego majątek i dzieci pozostawały pod kuratelą Kłopota i Leski, procesowanymi przez radcę Sitańskiego o 59 zł długu.",
+    "lp": 925
   },
   {
     "id": 926,
@@ -33643,7 +33884,8 @@
         "kontekst": "Przedmieszczanin kraśnicki pozwany przez żyda Abrahama Bytomskiego o konia zabranego podczas paniki wojennej przy najeździe moskiewsko-kozackim na Lublin."
       }
     ],
-    "uwagi": "Przedmieszczanin kraśnicki pozwany przez żyda Abrahama Bytomskiego o konia zabranego podczas paniki wojennej przy najeździe moskiewsko-kozackim na Lublin."
+    "uwagi": "Przedmieszczanin kraśnicki pozwany przez żyda Abrahama Bytomskiego o konia zabranego podczas paniki wojennej przy najeździe moskiewsko-kozackim na Lublin.",
+    "lp": 926
   },
   {
     "id": 927,
@@ -33665,7 +33907,8 @@
         "kontekst": "Oficer / towarzysz chorągwi litewskiej maszerującej pod Lublin, który dokonał gwałtownej rekwizycji koni i furażów na przedmieściu kraśnickim."
       }
     ],
-    "uwagi": "Oficer / towarzysz chorągwi litewskiej maszerującej pod Lublin, który dokonał gwałtownej rekwizycji koni i furażów na przedmieściu kraśnickim."
+    "uwagi": "Oficer / towarzysz chorągwi litewskiej maszerującej pod Lublin, który dokonał gwałtownej rekwizycji koni i furażów na przedmieściu kraśnickim.",
+    "lp": 927
   },
   {
     "id": 928,
@@ -33687,7 +33930,8 @@
         "kontekst": "Mieszczanin kraśnicki występujący w zapisach rozliczeń majątku po zmarłym Sebastianie Decu."
       }
     ],
-    "uwagi": "Mieszczanin kraśnicki występujący w zapisach rozliczeń majątku po zmarłym Sebastianie Decu."
+    "uwagi": "Mieszczanin kraśnicki występujący w zapisach rozliczeń majątku po zmarłym Sebastianie Decu.",
+    "lp": 928
   },
   {
     "id": 929,
@@ -33709,35 +33953,27 @@
         "kontekst": "Urzędnik / oficer rozkazujący dziesiętnikowi Kulbackiemu zamianę i rekwizycję konia na szkodę poborcy Grzegorza Foxa."
       }
     ],
-    "uwagi": "Urzędnik / oficer rozkazujący dziesiętnikowi Kulbackiemu zamianę i rekwizycję konia na szkodę poborcy Grzegorza Foxa."
+    "uwagi": "Urzędnik / oficer rozkazujący dziesiętnikowi Kulbackiemu zamianę i rekwizycję konia na szkodę poborcy Grzegorza Foxa.",
+    "lp": 929
   }
 ];
 
-    let filteredMain = [...mainData];
-    let filteredGen = [...genData];
-
-    let mainCurrentPage = 1;
-    const mainPageSize = 25;
-
-    let genCurrentPage = 1;
-    const genPageSize = 50;
-
     let currentModalScan = null;
 
-    function normStr(s) {
-      if (!s) return '';
-      return s.toString()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
-        .replace(/ł/g, 'l')
-        .replace(/Ł/g, 'l')
-        .trim();
+    // TAB SWITCHING
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      if (btn) btn.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    // ESCAPE HTML
     function escapeHtml(str) {
       if (!str) return '';
-      return str.toString()
+      return String(str)
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
@@ -33745,38 +33981,163 @@
         .replace(/'/g, '&#039;');
     }
 
-    function switchMainTab(tabId) {
-      document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
-      document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
-      
-      const pane = document.getElementById(tabId);
-      if (pane) pane.classList.add('active');
+    // -------------------------------------------------------------
+    // MAIN INDEX TABLE LOGIC
+    // -------------------------------------------------------------
+    let filteredMain = [...mainData];
+    let mainCurrentPage = 1;
+    const mainPageSize = 25;
+    let mainSortCol = 'nr_skanu';
+    let mainSortAsc = true;
 
-      const btns = document.querySelectorAll('.nav-btn');
-      btns.forEach(b => {
-        if (b.getAttribute('onclick').includes(tabId)) b.classList.add('active');
+    function filterMainData() {
+      const query = document.getElementById('mainSearch').value.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+      const cat = document.getElementById('mainCategoryFilter').value;
+
+      filteredMain = mainData.filter(d => {
+        const matchCat = !cat || d.kategoria === cat;
+        if (!matchCat) return false;
+        if (!query) return true;
+
+        const terms = query.split(/\s+/).filter(Boolean);
+        const searchable = [
+          d.nr_skanu,
+          '#' + d.nr_skanu,
+          d.strona_pagina,
+          d.data_rok,
+          d.kategoria,
+          d.opis_pozycji,
+          d.opis_sprawy,
+          d.opis,
+          d.tytul,
+          d.osoby_podmioty,
+          d.osoby_skrot,
+          d.kwoty_miary,
+          d.uwagi,
+          d.aparat_krytyczny,
+          d.transkrypcja,
+          d.transkrypcja_dyplomatyczna
+        ].filter(Boolean).join(' ').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+        return terms.every(t => searchable.includes(t));
       });
 
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function sortMain(col) {
+      if (mainSortCol === col) {
+        mainSortAsc = !mainSortAsc;
+      } else {
+        mainSortCol = col;
+        mainSortAsc = true;
+      }
+
+      filteredMain.sort((a, b) => {
+        let valA = a[col];
+        let valB = b[col];
+
+        if (col === 'nr_skanu') {
+          valA = parseInt(valA) || 0;
+          valB = parseInt(valB) || 0;
+        } else if (typeof valA === 'string') {
+          valA = valA.toLowerCase();
+          valB = (valB || '').toLowerCase();
+        }
+
+        if (valA < valB) return mainSortAsc ? -1 : 1;
+        if (valA > valB) return mainSortAsc ? 1 : -1;
+        return 0;
+      });
+
+      renderMainTable();
+    }
+
+    function renderMainTable() {
+      const tbody = document.getElementById('mainTableBody');
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (mainCurrentPage > totalPages) mainCurrentPage = totalPages;
+
+      const start = (mainCurrentPage - 1) * mainPageSize;
+      const end = start + mainPageSize;
+      const pageData = filteredMain.slice(start, end);
+
+      const infoText = `Pokazywane ${filteredMain.length > 0 ? start + 1 : 0}–${Math.min(end, filteredMain.length)} z ${filteredMain.length} pozycji`;
+      document.getElementById('mainPaginationInfo').innerText = infoText;
+      if (document.getElementById('mainPaginationInfoBot')) document.getElementById('mainPaginationInfoBot').innerText = infoText;
+
+      const pageIndicator = `${mainCurrentPage} / ${totalPages}`;
+      document.getElementById('mainPageIndicator').innerText = pageIndicator;
+      if (document.getElementById('mainPageIndicatorBot')) document.getElementById('mainPageIndicatorBot').innerText = pageIndicator;
+
+      document.getElementById('mainJumpInput').max = totalPages;
+      document.getElementById('mainJumpInput').value = mainCurrentPage;
+
+      document.getElementById('mainPrevBtn').disabled = (mainCurrentPage <= 1);
+      document.getElementById('mainNextBtn').disabled = (mainCurrentPage >= totalPages);
+      if (document.getElementById('mainPrevBtnBot')) document.getElementById('mainPrevBtnBot').disabled = (mainCurrentPage <= 1);
+      if (document.getElementById('mainNextBtnBot')) document.getElementById('mainNextBtnBot').disabled = (mainCurrentPage >= totalPages);
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      pageData.forEach(r => {
+        let osobyDisplay = '';
+        if (r.osoby_skrot && r.osoby_skrot !== r.osoby_podmioty) {
+          osobyDisplay = `<span class="badge-district" style="font-size:0.8rem;">${escapeHtml(r.osoby_skrot)}</span> <span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:3px;">(kliknij, aby rozwinąć)</span>`;
+        } else {
+          osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
+        }
+
+        const hasTrans = !!(r.transkrypcja || r.transkrypcja_dyplomatyczna);
+
+        html += `
+          <tr onclick="openMainModal(${r.nr_skanu})">
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">
+              #${r.nr_skanu}
+              ${hasTrans ? '<span style="font-size:0.7rem; color:var(--success); display:block;">📜 Transkr.</span>' : ''}
+            </td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem;">${escapeHtml(r.strona_pagina || '—')}</td>
+            <td><span class="badge-years">${escapeHtml(r.data_rok || '—')}</span></td>
+            <td><span class="badge-role">${escapeHtml(r.kategoria || 'Inne')}</span></td>
+            <td style="font-size:0.9rem; line-height:1.5;">${escapeHtml(r.opis_pozycji || r.opis_sprawy || r.opis || '—')}</td>
+            <td>${osobyDisplay}</td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize); if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage() {
+      const val = parseInt(document.getElementById('mainJumpInput').value);
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize);
+      if (val >= 1 && val <= totalPages) {
+        mainCurrentPage = val;
+        renderMainTable();
+      }
     }
 
     function switchModalTab(tabKey) {
       const tabs = ['crops', 'trans', 'meta'];
       tabs.forEach(t => {
-        const btn = document.getElementById('modalTabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
         const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
-        if (btn) {
-          if (t === tabKey) btn.classList.add('active');
-          else btn.classList.remove('active');
-        }
+        if (btn) btn.classList.toggle('active', t === tabKey);
         if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
       });
     }
 
     function copyTranscription() {
-      const transText = currentModalScan ? (currentModalScan.transkrypcja || currentModalScan.transkrypcja_dyplomatyczna) : '';
-      if (!transText) return;
-      navigator.clipboard.writeText(transText).then(() => {
+      if (!currentModalScan) return;
+      const trans = currentModalScan.transkrypcja || currentModalScan.transkrypcja_dyplomatyczna || '';
+      if (!trans) return;
+      navigator.clipboard.writeText(trans).then(() => {
         const btn = document.querySelector('.btn-copy-trans');
         if (btn) {
           const orig = btn.innerText;
@@ -33794,14 +34155,15 @@
 
       currentModalScan = item;
 
-      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina}) – ${item.data_rok}`;
+      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`;
       
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
-      switchModalTab('crops');
 
-      const transRaw = item.transkrypcja || item.transkrypcja_dyplomatyczna;
-      const transFormatted = transRaw ? escapeHtml(transRaw).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są sukcesywnie partiami w toku autopsji paleograficznej).</em>';
+      const transRaw = item.transkrypcja || item.transkrypcja_dyplomatyczna || '';
+      const transFormatted = transRaw 
+        ? escapeHtml(transRaw).replace(/\n/g, '<br>') 
+        : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
 
       document.getElementById('modalBody').innerHTML = `
         <!-- TAB 1: WYCINKI CYFROWE -->
@@ -33811,38 +34173,38 @@
           </div>
           <div style="margin-bottom:1.25rem;">
             <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
-            <img src="/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='crops_j3/s${item.nr_skanu}_top.jpg';">
+            <img src="crops_j3/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_top.jpg';">
           </div>
           <div>
             <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
-            <img src="/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='crops_j3/s${item.nr_skanu}_bot.jpg';">
+            <img src="crops_j3/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_bot.jpg';">
           </div>
         </div>
 
         <!-- TAB 2: TRANSKRYPCJA DYPLOMATYCZNA -->
         <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
-            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna zgodna z Instrukcją Wydawniczą Źródeł Historycznych PAN</span>
-            ${(item.transkrypcja || item.transkrypcja_dyplomatyczna) ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna (Instrukcja Wydawnicza PAN)</span>
+            ${transRaw ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
           </div>
           <div class="transcription-box">
             ${transFormatted}
           </div>
         </div>
 
-        <!-- TAB 3: APARAT KRYTYCZNY I IDENTYFIKACJA -->
+        <!-- TAB 3: APARAT KRYTYCZNY I METADANE -->
         <div id="modalTabContentMeta" class="modal-tab-content" style="display:none;">
           <div class="modal-section">
             <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
-            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 3 (Księga wójtowska: Dekreta, Wizje, Manifestacje 1562–1690)</div>
-            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Foliacja / Karta:</strong> ${escapeHtml(item.strona_pagina)}</div>
-            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 3 (Księga 2 / N. 2, 1562–1690)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Foliacja / Karta:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok || '—')}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria || '—')}</span></div>
           </div>
 
           <div class="modal-section">
             <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
             <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
-              ${escapeHtml(item.opis_pozycji || item.opis_sprawy || '')}
+              ${escapeHtml(item.opis_pozycji || item.opis_sprawy || item.opis || '—')}
             </div>
           </div>
 
@@ -33853,244 +34215,331 @@
             </div>
           </div>
 
+          ${item.kwoty_miary ? `
           <div class="modal-section">
             <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
             <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
-              ${escapeHtml(item.kwoty_miary || 'Brak danych finansowych')}
+              ${escapeHtml(item.kwoty_miary)}
             </div>
-          </div>
+          </div>` : ''}
 
-          ${item.uwagi ? `
-            <div class="modal-section">
-              <div class="modal-section-title">Uwagi kodykologiczne i paleograficzne</div>
-              <div style="font-size:0.88rem; color:#94a3b8;">
-                ${escapeHtml(item.uwagi)}
-              </div>
+          ${(item.uwagi || item.aparat_krytyczny) ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Uwagi kodykologiczne i aparat krytyczny</div>
+            <div style="font-size:0.88rem; color:#94a3b8;">
+              ${escapeHtml(item.aparat_krytyczny || item.uwagi)}
             </div>
-          ` : ''}
+          </div>` : ''}
 
           <div class="modal-section">
             <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
-            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
-              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, przejdź do jednostki sygn. 35/40/0/1/3 w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong> (karta: ${escapeHtml(item.strona_pagina)}).
-            </p>
-            <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2067710" target="_blank" rel="noopener noreferrer" class="portal-back-link" style="display:inline-block; margin-top:0.5rem; text-decoration:none; padding:8px 16px; border-radius:6px; font-weight:600;">
-              🌐 Otwórz jednostkę sygn. 35/40/0/1/3 w Szukaj w Archiwach ➔
-            </a>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:0.5rem;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989713" target="_blank" class="btn btn-gold" style="display:inline-block; text-decoration:none;">
+                🌐 Otwórz Jednostkę 3 w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-block; text-decoration:none; background:#334155; color:#f8fafc; border:1px solid #475569;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
           </div>
         </div>
       `;
 
-      document.getElementById('mainModal').classList.add('active');
+      switchModalTab('crops');
+      document.getElementById('detailModal').style.display = 'block';
     }
 
-    function closeMainModal(event) {
-      if (event.target.id === 'mainModal') {
-        document.getElementById('mainModal').classList.remove('active');
-      }
-    }
-
-    function closeMainModalForce() {
-      document.getElementById('mainModal').classList.remove('active');
-    }
-
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closeMainModalForce();
-    });
-
-    // RENDEROWANIE TABELI GŁÓWNEJ
-    function renderMainTable() {
-      const tbody = document.getElementById('mainTableBody');
-      tbody.innerHTML = '';
-
-      const start = (mainCurrentPage - 1) * mainPageSize;
-      const end = start + mainPageSize;
-      const pageData = filteredMain.slice(start, end);
-
-      if (pageData.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:2rem; color:#94a3b8;">Brak wyników spełniających kryteria wyszukiwania.</td></tr>`;
-        renderMainPagination();
-        return;
-      }
-
-      let html = '';
-      pageData.forEach(r => {
-        let osobyDisplay = '';
-        if (r.osoby_podmioty && r.osoby_podmioty.length > 90) {
-          osobyDisplay = `<span class="badge-district" style="font-size:0.8rem;">${escapeHtml(r.osoby_skrot)}</span> <span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:3px;">(kliknij, aby rozwinąć)</span>`;
-        } else {
-          osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
-        }
-
-        const hasTrans = !!(r.transkrypcja || r.transkrypcja_dyplomatyczna);
-
-        html += `
-          <tr onclick="openMainModal(${r.nr_skanu})">
-            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">
-              #${r.nr_skanu}
-              ${hasTrans ? '<span style="font-size:0.7rem; color:var(--success); display:block;">📜 Transkr.</span>' : ''}
-            </td>
-            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina)}</td>
-            <td><span class="badge-years">${escapeHtml(r.data_rok)}</span></td>
-            <td>${osobyDisplay}</td>
-            <td><span style="font-size:0.8rem; font-weight:600; color:#cbd5e1;">${escapeHtml(r.kategoria)}</span></td>
-            <td style="font-size:0.85rem; line-height:1.5;">${escapeHtml(r.opis_pozycji || r.opis_sprawy || '')}</td>
-          </tr>
-        `;
+    function exportMainCSV() {
+      const headers = ['Nr skanu', 'Paginacja', 'Datacja', 'Kategoria', 'Opis / Regest', 'Osoby / Podmioty', 'Kwoty / Miary'];
+      let csv = "\ufeff" + headers.join(';') + "\r\n";
+      filteredMain.forEach(r => {
+        const row = [r.nr_skanu, r.strona_pagina, r.data_rok, r.kategoria, r.opis_pozycji || r.opis_sprawy, r.osoby_podmioty, r.kwoty_miary]
+          .map(val => `"${String(val || '').replace(/"/g, '""')}"`)
+          .join(';');
+        csv += row + "\r\n";
       });
-
-      tbody.innerHTML = html;
-      renderMainPagination();
+      downloadBlob(csv, 'krasnik_j3_indeks_skanow.csv', 'text/csv;charset=utf-8;');
     }
 
-    function renderMainPagination() {
-      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
-      const container = document.getElementById('mainPagination');
-      container.innerHTML = `
-        <button class="page-btn" ${mainCurrentPage === 1 ? 'disabled' : ''} onclick="changeMainPage(1)">«</button>
-        <button class="page-btn" ${mainCurrentPage === 1 ? 'disabled' : ''} onclick="changeMainPage(${mainCurrentPage - 1})">‹ Poprzednia</button>
-        <span class="page-info">Strona ${mainCurrentPage} z ${totalPages} (Znaleziono: ${filteredMain.length})</span>
-        <button class="page-btn" ${mainCurrentPage === totalPages ? 'disabled' : ''} onclick="changeMainPage(${mainCurrentPage + 1})">Następna ›</button>
-        <button class="page-btn" ${mainCurrentPage === totalPages ? 'disabled' : ''} onclick="changeMainPage(${totalPages})">»</button>
-      `;
-    }
-
-    function changeMainPage(p) {
-      mainCurrentPage = p;
-      renderMainTable();
-    }
-
-    function filterMainData() {
-      const searchRaw = document.getElementById('mainSearch').value;
-      const catVal = document.getElementById('mainCategoryFilter').value;
-
-      const terms = normStr(searchRaw).split(' ').filter(Boolean);
-
-      filteredMain = mainData.filter(d => {
-        if (catVal && d.kategoria !== catVal) return false;
-        if (terms.length === 0) return true;
-
-        const searchable = [
-          d.nr_skanu,
-          d.strona_pagina,
-          d.data_rok,
-          d.kategoria,
-          d.opis_pozycji,
-          d.opis_sprawy,
-          d.osoby_podmioty,
-          d.kwoty_miary,
-          d.uwagi,
-          d.transkrypcja,
-          d.transkrypcja_dyplomatyczna
-        ].filter(Boolean).join(' ');
-        const searchableNorm = normStr(searchable);
-
-        return terms.every(t => searchableNorm.includes(t));
-      });
-
-      mainCurrentPage = 1;
-      renderMainTable();
-    }
-
-    // RENDEROWANIE TABELI GENEALOGICZNEJ
-    function renderGenTable() {
-      const tbody = document.getElementById('genTableBody');
-      tbody.innerHTML = '';
-
-      const start = (genCurrentPage - 1) * genPageSize;
-      const end = start + genPageSize;
-      const pageData = filteredGen.slice(start, end);
-
-      if (pageData.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding:2rem; color:#94a3b8;">Brak biogramów spełniających kryteria.</td></tr>`;
-        renderGenPagination();
-        return;
-      }
-
-      let html = '';
-      pageData.forEach(p => {
-        let scansLinks = '';
-        if (p.skany_list && p.skany_list.length > 0) {
-          scansLinks = p.skany_list.map(s => `<a href="javascript:void(0)" class="scan-pill" onclick="openMainModal(${s})">#${s}</a>`).join(' ');
-        } else if (p.skany_roboczo) {
-          scansLinks = escapeHtml(p.skany_roboczo);
-        } else {
-          scansLinks = '—';
-        }
-
-        html += `
-          <tr>
-            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#94a3b8;">${p.lp}</td>
-            <td style="font-weight:700; color:var(--text-main);">${escapeHtml(p.nazwisko)} ${escapeHtml(p.imie || '')}</td>
-            <td><span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span></td>
-            <td><span class="badge-role">${escapeHtml(p.rola_funkcja || p.funkcja || 'Mieszkaniec')}</span></td>
-            <td>${scansLinks}</td>
-            <td><span class="badge-years">${escapeHtml(p.zakres_lat || '—')}</span></td>
-            <td style="text-align:center; font-weight:700; color:var(--gold-primary); font-family:'JetBrains Mono', monospace;">${p.liczba_wystapien || 1}</td>
-            <td style="font-size:0.85rem; color:#cbd5e1;">${escapeHtml(p.wariant_nazwiska || p.uwagi || '—')}</td>
-          </tr>
-        `;
-      });
-
-      tbody.innerHTML = html;
-      renderGenPagination();
-    }
-
-    function renderGenPagination() {
-      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
-      const container = document.getElementById('genPagination');
-      container.innerHTML = `
-        <button class="page-btn" ${genCurrentPage === 1 ? 'disabled' : ''} onclick="changeGenPage(1)">«</button>
-        <button class="page-btn" ${genCurrentPage === 1 ? 'disabled' : ''} onclick="changeGenPage(${genCurrentPage - 1})">‹ Poprzednia</button>
-        <span class="page-info">Strona ${genCurrentPage} z ${totalPages} (Profili: ${filteredGen.length})</span>
-        <button class="page-btn" ${genCurrentPage === totalPages ? 'disabled' : ''} onclick="changeGenPage(${genCurrentPage + 1})">Następna ›</button>
-        <button class="page-btn" ${genCurrentPage === totalPages ? 'disabled' : ''} onclick="changeGenPage(${totalPages})">»</button>
-      `;
-    }
-
-    function changeGenPage(p) {
-      genCurrentPage = p;
-      renderGenTable();
-    }
+    // -------------------------------------------------------------
+    // GENEALOGY DICTIONARY LOGIC
+    // -------------------------------------------------------------
+    let filteredGen = [...genData];
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let genSortCol = 'nazwisko';
+    let genSortAsc = true;
 
     function filterGenData() {
-      const searchRaw = document.getElementById('genSearch').value;
-      const distVal = document.getElementById('genDistrictFilter').value;
+      const query = document.getElementById('genSearch').value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+      const district = document.getElementById('genDistrictFilter').value;
 
-      const terms = normStr(searchRaw).split(' ').filter(Boolean);
+      filteredGen = genData.filter(d => {
+        const matchDistrict = !district || d.miejsce === district;
+        if (!matchDistrict) return false;
+        if (!query) return true;
 
-      filteredGen = genData.filter(p => {
-        if (distVal && p.miejsce !== distVal) return false;
-        if (terms.length === 0) return true;
-
+        const terms = query.split(/\s+/).filter(Boolean);
         const searchable = [
-          p.nazwisko,
-          p.imie,
-          p.miejsce,
-          p.funkcja,
-          p.rola_funkcja,
-          p.wariant_nazwiska,
-          p.uwagi,
-          p.skany_roboczo
-        ].filter(Boolean).join(' ');
-        const searchableNorm = normStr(searchable);
+          d.lp,
+          d.id,
+          d.nazwisko,
+          d.wariant_nazwiska,
+          d.imie,
+          d.miejsce,
+          d.funkcja,
+          d.rola,
+          d.rola_funkcja,
+          d.skany_roboczo,
+          (Array.isArray(d.skany_list) ? d.skany_list.map(s => '#' + s).join(' ') + ' ' + d.skany_list.join(' ') : ''),
+          d.zakres_lat,
+          d.uwagi
+        ].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-        return terms.every(t => searchableNorm.includes(t));
+        return terms.every(t => searchable.includes(t));
       });
 
       genCurrentPage = 1;
       renderGenTable();
     }
 
-    // Obliczenie łącznej liczby wzmianek źródłowych
-    let totalMentionsCalc = genData.reduce((acc, p) => acc + (p.liczba_wystapien || (p.skany_list ? p.skany_list.length : 1)), 0);
-    if (document.getElementById('genMentionsCount')) document.getElementById('genMentionsCount').innerText = totalMentionsCalc;
+    function sortGen(col) {
+      if (genSortCol === col) {
+        genSortAsc = !genSortAsc;
+      } else {
+        genSortCol = col;
+        genSortAsc = true;
+      }
 
-    // Inicjalizacja filtrów kategorii i rejonów
+      filteredGen.sort((a, b) => {
+        let valA = a[col];
+        let valB = b[col];
+
+        if (col === 'lp' || col === 'id' || col === 'min_rok') {
+          valA = parseInt(valA) || 0;
+          valB = parseInt(valB) || 0;
+        } else if (col === 'skany_list') {
+          valA = (a.skany_list && a.skany_list.length) ? a.skany_list[0] : 0;
+          valB = (b.skany_list && b.skany_list.length) ? b.skany_list[0] : 0;
+        } else if (typeof valA === 'string') {
+          valA = valA.toLowerCase();
+          valB = (valB || '').toLowerCase();
+        }
+
+        if (valA < valB) return genSortAsc ? -1 : 1;
+        if (valA > valB) return genSortAsc ? 1 : -1;
+        return 0;
+      });
+
+      renderGenTable();
+    }
+
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = start + genPageSize;
+      const pageData = filteredGen.slice(start, end);
+
+      const infoText = `Pokazywane ${filteredGen.length > 0 ? start + 1 : 0}–${Math.min(end, filteredGen.length)} z ${filteredGen.length} profili`;
+      document.getElementById('genPaginationInfo').innerText = infoText;
+      if (document.getElementById('genPaginationInfoBot')) document.getElementById('genPaginationInfoBot').innerText = infoText;
+
+      const pageIndicator = `${genCurrentPage} / ${totalPages}`;
+      document.getElementById('genPageIndicator').innerText = pageIndicator;
+      if (document.getElementById('genPageIndicatorBot')) document.getElementById('genPageIndicatorBot').innerText = pageIndicator;
+
+      document.getElementById('genJumpInput').max = totalPages;
+      document.getElementById('genJumpInput').value = genCurrentPage;
+
+      document.getElementById('genPrevBtn').disabled = (genCurrentPage <= 1);
+      document.getElementById('genNextBtn').disabled = (genCurrentPage >= totalPages);
+      if (document.getElementById('genPrevBtnBot')) document.getElementById('genPrevBtnBot').disabled = (genCurrentPage <= 1);
+      if (document.getElementById('genNextBtnBot')) document.getElementById('genNextBtnBot').disabled = (genCurrentPage >= totalPages);
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak profili spełniających kryteria.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      pageData.forEach(p => {
+        const imieStr = p.imie || '';
+        const funkcjaStr = p.funkcja || p.funkcja_zawod || p.rola || p.rola_funkcja || 'Mieszkaniec';
+        const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+        const roleClass = isWidow ? 'badge-role badge-widow' : 'badge-role';
+        const scansStr = p.skany_roboczo || (p.skany_list ? p.skany_list.map(s => '#' + s).join(', ') : '—');
+        const lpVal = p.lp || p.id;
+
+        html += `
+          <tr onclick="openGenModal(${lpVal})">
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:var(--text-muted);">${lpVal}</td>
+            <td style="font-weight:600; color:var(--gold-primary);">
+              ${escapeHtml(p.nazwisko)}
+              ${p.wariant_nazwiska ? '<span style="display:block; font-size:0.75rem; color:#94a3b8; font-weight:normal;">(' + escapeHtml(p.wariant_nazwiska.split('/')[0].trim()) + ')</span>' : ''}
+            </td>
+            <td>${escapeHtml(imieStr)}</td>
+            <td><span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span></td>
+            <td><span class="${roleClass}">${escapeHtml(funkcjaStr)}</span></td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#38bdf8;">${escapeHtml(scansStr)}</td>
+            <td><span class="badge-years">${escapeHtml(p.zakres_lat || '1562–1690')}</span></td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize); if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage() {
+      const val = parseInt(document.getElementById('genJumpInput').value);
+      const totalPages = Math.ceil(filteredGen.length / genPageSize);
+      if (val >= 1 && val <= totalPages) {
+        genCurrentPage = val;
+        renderGenTable();
+      }
+    }
+
+    function openGenModal(lp) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+
+      const p = genData.find(d => d.lp === lp || d.id === lp);
+      if (!p) return;
+
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || p.funkcja_zawod || p.rola || p.rola_funkcja || 'Mieszkaniec';
+      const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
+
+      let occsHtml = '';
+      if (p.wystapienia && p.wystapienia.length > 0) {
+        occsHtml = `
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:12%;">Skan</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:34%;">Kategoria / Rola</th>
+                <th style="width:40%;">Kontekst źródłowy i sprawa</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.wystapienia.map(o => `
+                <tr>
+                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${o.skan}</td>
+                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok || '—')}</td>
+                  <td><span class="badge-role">${escapeHtml(o.kategoria || o.rola || '—')}</span></td>
+                  <td>${escapeHtml(o.kontekst || o.uwagi || '—')}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      } else {
+        occsHtml = '<div style="color:var(--text-muted); padding:0.5rem;">Brak szczegółowego wykazu wzmianek.</div>';
+      }
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`;
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
+          </div>
+          <div style="font-size:0.88rem; color:#94a3b8;">
+            Identyfikator: <strong>LP #${p.lp || p.id}</strong> &nbsp;|&nbsp; 
+            Liczba odnotowanych wzmianek: <strong>${mentions}</strong> &nbsp;|&nbsp; 
+            Aktywność: <strong>${escapeHtml(p.zakres_lat || '1562–1690')}</strong>
+          </div>
+          ${p.wariant_nazwiska ? `<div style="font-size:0.85rem; color:#cbd5e1; margin-top:0.4rem;">Warianty lekcji i formy zapisu: <em>${escapeHtml(p.wariant_nazwiska)}</em></div>` : ''}
+        </div>
+
+        ${p.uwagi ? `
+        <div class="modal-section">
+          <div class="modal-section-title">Kontekst biograficzny i archiwalny</div>
+          <div style="font-size:0.9rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+            ${escapeHtml(p.uwagi)}
+          </div>
+        </div>` : ''}
+
+        <div class="modal-section">
+          <div class="modal-section-title">Wystąpienia w źródłach Jednostki 3 (skany i kontekst)</div>
+          ${occsHtml}
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function exportGenCSV() {
+      const headers = ['Lp', 'Nazwisko', 'Imię', 'Miejsce', 'Funkcja społeczna / zawód', 'Skany źródłowe', 'Zakres lat', 'Liczba wzmianek', 'Warianty nazwiska'];
+      let csv = "\ufeff" + headers.join(';') + "\r\n";
+      filteredGen.forEach(p => {
+        const row = [
+          p.lp || p.id,
+          p.nazwisko,
+          p.imie,
+          p.miejsce,
+          p.funkcja || p.funkcja_zawod || p.rola || p.rola_funkcja || '',
+          p.skany_roboczo || (p.skany_list ? p.skany_list.map(s => '#' + s).join(', ') : ''),
+          p.zakres_lat,
+          p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1)),
+          p.wariant_nazwiska || ''
+        ].map(val => `"${String(val || '').replace(/"/g, '""')}"`).join(';');
+        csv += row + "\r\n";
+      });
+      downloadBlob(csv, 'krasnik_j3_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
+    }
+
+    function downloadBlob(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const pom = document.createElement('a');
+      pom.href = url;
+      pom.setAttribute('download', filename);
+      pom.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('detailModal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+
+    window.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
+
+    // INICJALIZACJA PORTALU
+    // Zliczanie wzmianek
+    let totalMentions = 0;
+    genData.forEach(p => {
+      totalMentions += p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
+    });
+    if (document.getElementById('genMentionsCount')) {
+      document.getElementById('genMentionsCount').innerText = totalMentions.toLocaleString('pl-PL');
+    }
+
+    // Wypełnienie filtrów kategorii i miejscowości
     const catSelect = document.getElementById('mainCategoryFilter');
     if (catSelect) {
-      const cats = Array.from(new Set(mainData.map(d => d.kategoria).filter(Boolean))).sort();
-      cats.forEach(c => {
+      const categories = [...new Set(mainData.map(d => d.kategoria).filter(Boolean))].sort();
+      categories.forEach(c => {
         const opt = document.createElement('option');
         opt.value = c;
         opt.textContent = c;
@@ -34100,8 +34549,8 @@
 
     const distSelect = document.getElementById('genDistrictFilter');
     if (distSelect) {
-      const dists = Array.from(new Set(genData.map(d => d.miejsce).filter(Boolean))).sort();
-      dists.forEach(d => {
+      const districts = [...new Set(genData.map(d => d.miejsce).filter(Boolean))].sort();
+      districts.forEach(d => {
         const opt = document.createElement('option');
         opt.value = d;
         opt.textContent = d;
