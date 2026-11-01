@@ -1004,7 +1004,7 @@
   <div style="background:rgba(30,41,59,0.7); border:1px solid var(--border); border-radius:10px; padding:2rem; margin-bottom:2rem;">
     <h1 style="color:var(--gold-primary); font-size:1.8rem; margin-bottom:1rem;">Pełna Synteza Monograficzna: Księga Miejska Kraśnicka (Jednostka 04, Tom 8, 1661–1699)</h1>
 <strong>Archiwum Państwowe w Lublinie, Zespół 35/40/0 (Akta miasta Kraśnika), sygn. 4 (dawna sygn. Tom 8)</strong>  
-<em>Opracowanie całościowe na podstawie pełnej edycji i indeksacji 860 skanów (k. 1r–436v) oraz bazy 2940 rekordów prozopograficzno-genealogicznych.</em>
+<em>Opracowanie całościowe na podstawie pełnej edycji i indeksacji 860 skanów (k. 1r–436v), kanonicznej bazy 1 942 unikalnych profili mieszkańców Kraśnika (Wariant 2 standardu J40) oraz aparatu 2 940 wzmianek źródłowych.</em>
 <p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">---</p>
 <h2>1. Wprowadzenie i Charakterystyka Kodykologiczno-Archiwalna</h2>
 <h4>1.1. Metryka i Proweniencja Kodeksu</h4>
@@ -1052,29 +1052,54 @@ Kraśnik jako rezydencja i ważny ośrodek rzemieślniczo-handlowy Ordynacji Zam
 | <strong>Faza schyłkowa: 1698–1699</strong> | ok. 120 | 264 | Konflikty jurysdykcyjne schyłku XVII w. pod rządami Augusta II; kradzież wotum CRL; procesy o przemoc zbrojną, najazdy na grunty i obdukcje ran. |</p>
 <p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">---</p>
 <h2>4. Demografia, Struktura Społeczna i Prozopografia</h2>
-<h4>4.1. Struktura Płci i Reprezentacja Społeczna</h4>
-W bazie odnotowano <strong>2940 rekordów osób</strong>:
-<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Mężczyźni:</strong> 2494 rekordy (84,8%) – reprezentanci rodzin, urzędnicy, mistrzowie cechowi, kupcy.</li>
-<li><strong>Kobiety:</strong> 446 rekordów (15,2%) – wdowy dysponujące majątkiem, panny wnoszące posagi, matki dochodzące praw sierot, żony współwystępujące przy sprzedaży domów i gruntów.</li>
-</ul>Kobiety w Kraśniku II połowy XVII w. posiadały silną pozycję majątkową wynikającą z prawa magdeburskiego: bez ich formalnej zgody i zrzeczenia się wiana (<em>dotalitium</em>) nie mogła dojść do skutku żadna sprzedaż nieruchomości małżeńskiej.
-<h4>4.2. Czołowe Rody Mieszczańskie Kraśnika (Top Surnames)</h4>
-Badania frekwencyjne nazwisk ujawniają oligarchię miejską oraz dominujące rody rzemieślnicze:
-1. <strong>Kowalik (28 wzmianek):</strong> ród rzemieślniczy i urzędniczy, powiązany z cechem kowalskim i ławą miejską.
-2. <strong>Janaszkowicz (24 wzmianki):</strong> elita władzy miejskiej; Ubald Janaszkowicz pełnił funkcję wójta kraśnickiego; jego potomkowie toczyli wieloletnie spory majątkowe z rodziną Nowackich.
-3. <strong>Jajczyk / Jayczyk (46 wzmianek łącznie):</strong> czołowa rodzina posiadaczy nieruchomości w Rynku i na przedmieściach.
-4. <strong>Wójcik (22 wzmianki):</strong> potomkowie dawnych urzędników wójtowskich, posiadacze ról i ogrodów.
-5. <strong>Szafrankowicz (21 wzmianek):</strong> ród patrycjuszowski, rajcy i ławnicy, aktywni w handlu i operacjach finansowych.
-6. <strong>Kłopot (20 wzmianek):</strong> stara rodzina kraśnicka, reprezentowana zarówno w rzemiośle, jak i sądzie ławniczym.
-7. <strong>Zamoyski (19 wzmianek):</strong> ordynaci i właściciele miasta interweniujący w sprawy miejskie.
-8. <strong>Kołodziejczyk (17 wzmianek), Fox (16), Dubiel (16), Tokarz (15), Wolak (14), Bałaj (14), Kępka (13), Nawrocki/Nowacki (13), Słomkowski (12), Grudzień (12), Sitarski (11), Wilczek (11).</strong>
-<h4>4.3. Rzemiosło i Struktura Cechowa</h4>
-W księdze zachowały się unikalne dane dotyczące organizacji kraśnickich cechów:
-<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Szewcy i kuśnierze:</strong> najliczniejsza grupa rzemieślnicza; posiadali własne jatki na Rynku i przy murach.</li>
-<li><strong>Tkacze i krawcy:</strong> silnie reprezentowani na przedmieściach (sprawy o warsztaty tkackie, postrzygalnie sukna).</li>
-<li><strong>Kowale, kołodzieje i bednarze:</strong> obsługujący transport handlowy na szlaku lubelsko-zamojskim.</li>
-<li><strong>Piwowarzy i szynkarze:</strong> produkcja piwa i gorzałki stanowiła jedno z głównych źródeł dochodu mieszczan kraśnickich (liczne spory o kociołki gorzałczane, słodownie i chmielniki).</li>
+<h4>4.1. Standard Wariantu 2 i Architektura Danych Genealogicznych</h4>
+Zgodnie z rygorystycznym standardem metodycznym kompendiów cyfrowych Akt Miasta Kraśnika (wypracowanym przy Jednostce 40 i kontynuowanym w Jednostkach 1–3), w Jednostce 04 wdrożono <strong>Wariant 2: 1 fizyczna osoba = 1 unikalny profil w bazie (bezwzględnie 0 duplikatów w kluczu `(nazwisko, imie)`)</strong>.
+<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Łączna liczba unikalnych profili:</strong> dokładnie <strong>1 942 osoby</strong>.</li>
+<li><strong>Łączna liczba powiązanych wzmianek archiwalnych:</strong> <strong>2 940 wystąpień</strong>.</li>
+<li>Zróżnicowanie to wynika z faktu, że czołowi przedstawiciele patrycjatu, elity urzędniczej oraz wielcy posesjonaci (np. wójt Ubald Janaszkowicz, burmistrz Maciej Komięga, rajca Marcin Sierocki, szafarz Łukasz Pacanowski) występują w księdze wielokrotnie – od kilku do kilkunastu razy w sprawach niespornych, spornych i podatkowych.</li>
+<li><strong>Warianty onomastyczne (`wariant_nazwiska`):</strong> Każda postać posiadająca w rękopisie formę alternatywną, zapis łaciński, odmiankę fleksyjną, patronimik lub lekcję w nawiasie kwadratowym `[...]` posiada wypełnione dedykowane pole wariantowe. W Partii 1–5 (skany 1–150) pole to zostało w 100% zsynchronizowane dla <strong>342 profili</strong>, gwarantując pełną odnajdywalność w wyszukiwarce.</li>
 </ul>
----
+<h4>4.2. Onomastyka Staropolska i Zjawiska Fleksyjno-Wariantowe</h4>
+Analiza onomastyczna skanów 1–150 odsłania niezwykłe bogactwo form nazewniczych XVII-wiecznego Kraśnika:
+1. <strong>Dwujęzyczność kancelaryjna (formy łacińskie vs polskie):</strong> Notariusze miejscy płynnie operowali formami urzędowymi i potocznymi:
+   - <em>Albertus Szczesnowicz Rector / Wojciech Szczęsnowic</em> (skan 109),
+   - <em>Jacobus Ruzetto / Rużeto bedellus consularis</em> (skany 38, 155),
+   - <em>Casimirus Rychtarski</em> (skan 23), <em>Blasius Władzyński</em> (skan 24), <em>Albertus Kozłowski</em> (skan 24), <em>Laurentius Sierocki</em> (skan 60).
+2. <strong>Przydomki i przezwiska identyfikacyjne (alias / zwany):</strong> Wobec powtarzalności imion w obrębie rodów, kancelaria posługiwała się przydomkami utrwalanymi w nawiasach `[...]`:
+   - Błażej Rzepka <em>zwany Łapka</em> (sługa radziecki, skany 49, 53, 55, 60),
+   - Wawrzyniec Zimek <em>alias Prokopek</em> (czeladnik kowalski, skan 77),
+   - Sebastian <em>zwany Węgorkowic</em> (skany 75–76, 102).
+3. <strong>Fluktuacja fonetyczna i ortograficzna:</strong>
+   - <em>Borański / Borawski</em> (zamożna rodzina zmarła na mór 1662 r., skany 149–150),
+   - <em>Krochoci / Krochoć</em> (pisarz miejski Wojciech Krochoci, skan 101),
+   - <em>Kapiroch / Kawroch</em> (Stanisław Kapiroch w procesie o kożuchy mościskie, skany 121–126),
+   - <em>Sztumerel / Sztumrele</em> (Józef Sztumerel, skan 131),
+   - <em>Macał / Macała</em> (Andrzej i Łukasz Macałowie, skany 102, 112, 117),
+   - <em>Zmięda / Zmiędz</em> (Łukasz Zmięda i wdowa Zmiędzina, skany 124, 129),
+   - <em>Dziaczek / Dziczek</em> (Adam Dziaczek, skany 115, 143),
+   - <em>Ćwikiełka / Ćwiliczka</em> (Maciej Ćwikiełka, skany 133–134).
+4. <strong>Formacje patronimiczne i deminutywne:</strong>
+   - <em>Sobol / Sobolczyk / Sobolowic</em> (Jakub Sobol, sprawca zamachu na poborcę, skany 132–134),
+   - <em>Dudek / Dudkowic</em> (Paweł Dudek złodziej i Szymon Dudek, skany 49, 100),
+   - <em>Rysar / Rysarek</em> (Jan Rysarek, skan 100),
+   - <em>Biernat / Biernatek</em> (Kawtans Biernatek, skan 115),
+   - <em>Młyczek / Młynarczyk</em> (ofiara skrytobójstwa Sebastian Młyczek, skany 136–137),
+   - <em>Gajewczyk / Gajowczyk</em> (Wojciech Gajewczyk z Budzynia, skany 114, 139).
+5. <strong>Żeńskie formy odmianowe:</strong> Kobiety w księdze występują z tradycyjnymi przyrostkami oznaczającymi stan cywilny i pochodzenie rodzinne:
+   - Formy odmężowskie na <em>-owa</em> / <em>-ina</em>: Jadwiga Kolarzowa (skany 85–86), Zofia Zyzakowa (skany 88–89), Anna Bartkowa (skan 141), Anna Bigosowa (skan 140), Marina Czostkowiczowa (skan 47), Zuzanna Kowalowa (skan 149), Łukaszowa Zmiędzina (skan 124).
+   - Formy odojcowskie na <em>-ówna</em> / <em>-anka</em> oraz deminutywne na <em>-czka</em>: Regina Kawałkówna (skany 125–126), Zofia Zyzaczka (skan 96), Jadwiga Kolarzówna, Anna Markowna (skan 114).
+<h4>4.3. Struktura Płci i Podmiotowość Prawna Kobiet</h4>
+Wśród 1 942 unikalnych profili:
+<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Mężczyźni:</strong> 1 647 osób (84,8%) – reprezentanci rodzin, urzędnicy, mistrzowie cechowi, posesjonaci i kmiecie.</li>
+<li><strong>Kobiety:</strong> 295 osób (15,2%) – wdowy dysponujące majątkiem, panny wnoszące posagi, matki dochodzące praw sierot, żony współwystępujące przy sprzedaży domów i gruntów.</li>
+</ul>Kobiety w Kraśniku II połowy XVII w. posiadały silną pozycję majątkową wynikającą z prawa magdeburskiego: bez ich formalnej zgody i zrzeczenia się wiana (<em>dotalitium</em>) nie mogła dojść do skutku żadna sprzedaż nieruchomości małżeńskiej.
+<h4>4.4. Czołowe Rody i Grupy Społeczne Kraśnika</h4>
+1. <strong>Oligarchia urzędnicza i patrycjat:</strong> Rody Janaszkowiczów (wójt Ubald, ławnik Jan), Sierockich (rajca Marcin, Wawrzyniec), Komięgów (burmistrz Maciej), Szafrankowiczów i Foxów skupiały w swoich rękach kluczowe urzędy ratuszowe, dzierżawy czopowego oraz najlepsze kamienice przy Rynku.
+2. <strong>Szlachta posesjonacka i urzędnicy zamkowi:</strong> Nobilis Stanisław Kuropatwa (<em>Advocatus Krasnensis</em>), Kazimierz Rychtarski, wdowa Zofia Kuropatwina, Jerzy Szornel (sędzia ziemski lubelski). Ich obecność w księdze miejskiej dowodzi ścisłego przenikania się jurysdykcji miejskiej i dominialno-szlacheckiej.
+3. <strong>Pospólstwo rzemieślnicze:</strong> Cechy rzeźników (Kozieł, Potocki, Kondracki, Szewc), kowali i ślusarzy (Jaszkowski, Pieniążek, Brudło), krawców (Wolak, Lisik), szewców i kuśnierzy (Dziadkowiec).
+4. <strong>Przedmieszczanie i kmiecie ordynaccy:</strong> Mieszkańcy Przedmieścia Lubelskiego, Zarzecza, Budzynia, Blinowa i Wilkołaza. To z tych kręgów rekrutowała się większość stron procesów o zbiegostwo, kradzieże snopów, zabory bydła oraz krwawe zatargi karczemne.
+5. <strong>Komornicy i czeladź luźna:</strong> Najuboższa, pozbawiona własnych nieruchomości warstwa mieszkańców, morzona głodem i wypędzana przez gospodarzy na mróz (np. komornik Stanisław Parcyka, czeladnicy Paweł Dudek i Jan Rysarek).
+<p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">---</p>
 <h2>5. Stosunki Wyznaniowe i Społeczność Żydowska</h2>
 <h4>5.1. Kościół Katolicki i Kanonicy Regularni Laterańscy (CRL)</h4>
 Kraśnik był ważnym ośrodkiem życia religijnego, zdominowanym przez klasztor i parafię <strong>Kanoników Regularnych Laterańskich</strong>:
@@ -1106,12 +1131,31 @@ Księga dostarcza fundamentalnych danych do historii Żydów w Kraśniku w dobie
 </ul>
 ---</p>
 <h2>7. Życie Codzienne, Przestępczość i Wymiar Sprawiedliwości</h2>
-<p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">Księga jest bezcennym źródłem do historii mentalności i życia codziennego schyłku epoki nowożytnej:
-<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Konflikty sąsiedzkie i bójki:</strong> szczegółowe opisy incydentów karczemnych, sporów o miedze, podpalenia i obelgi słowne (<em>famosa verba</em>).</li>
-<li><strong>Obdukcje chirurgiczne i lekarskie:</strong> unikalne w polskiej historiografii protokoły oględzin ciał poszkodowanych przez ławników i cyrulików (dokładne opisy ran ciętych szablą, ran tłuczonych obuchami, sińców i złamań).</li>
-<li><strong>System kar:</strong> kłoda miejska na Rynku (do której zakuwano sprawców pobić, m.in. Kazimierza Szapcę w 1699 r.), więzienie w wieży ratuszowej, kary pieniężne na rzecz szpitala św. Ducha i wosku do kościoła parafialnego.</li>
+<p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">Księga miejska z lat 1661–1663 stanowi pierwszorzędne źródło do badań nad antropologią przemocy, medycyną kryminalną, traumami demograficznymi oraz wczesnonowożytną procedurą inkwizycyjną w Koronie.</p>
+<h4>7.1. Przestępczość Kryminalna i Dynamika Przemocy</h4>
+Codzienność powojennego Kraśnika naznaczona była wysokim poziomem agresji fizycznej, potęgowanej powszechnym spożyciem alkoholu i zubożeniem po najazdach:
+1. <strong>Antropologia przemocy karczemnej (Zabójstwo Bartka Bigosa, skany 114–116):</strong> Wydarzenia z zapustów 1662 r. w szynku Żyda Józefa Żeldy w Budzyniu ilustrują eskalację drobnego incydentu (stłuczenie szklanki miodu w tańcu) w śmiertelne pobicie kłonicem dębowym wyrwanym z wozu przez Wojciecha Gajewczyka i Jagusia Marka. Śledztwo wójtowskie zrekonstruowało mechanizm zbrodni afektywnej w przestrzeni szynkowej.
+2. <strong>Skrytobójstwo i archaiczny rytuał <em>Generale Bannitum</em> (skany 136–137):</strong> Odnalezienie w rowie przydrożnym obnażonych zwłok Sebastiana Młyczka z poderżniętym gardłem uruchomiło archaiczną procedurę <em>quattuor bannita homicidii</em>. Woźny generalny województwa lubelskiego przy asyście ławników dopełnił uroczystego, czterokrotnego obwołania mordercy na rynku kraśnickim i rogatkach pod rygorem proskrypcji i infamii.
+3. <strong>Zamachy na aparat urzędowy i egzekucyjny:</strong> 
+   - Krwawe poturbowanie sługi radzieckiego Błażeja Rzepki (Łapki) laską dębową w ratuszu przez urzędującego rajcę Marcina Sierockiego (skany 53–55) ukazuje brutalność sporów politycznych w magistracie.
+   - Zamach siekierą ciesielską na poborcę podatkowego Łukasza Pacanowskiego (skany 132–134) przez Jakuba Sobola podczas egzekucji szosu odsłania desperację zubożałych posesjonatów w obliczu ucisku fiskalnego.
+<h4>7.2. Wczesnonowożytna Medycyna Sądowa i Rola Akuszerek Przysięgłych</h4>
+Księga zawiera bezcenne protokoły obdukcji medyczno-sądowych (<em>visio vulnerum</em>):
+<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Wizje chirurgiczne ran:</strong> Ławnicy wraz z przysięgłymi cyrulikami dokonywali skrupulatnego pomiaru ran (długość w calach, głębokość, penetracja kości czaszki, uszkodzenia ścięgien i oka), co determinowało wysokość opłat raniarskich (<em>vulnera</em>) oraz odszkodowań dla cyrulika.</li>
+<li><strong>Historyczny precedens położniczy (Sprawa Anny Miecznikowej, skany 105–111):</strong> Po nocnym napadzie i skopaniu ciężarnej Anny Miecznikowej przez Grzegorza Miecznika, powód przedstawił ciało martwo urodzonego syna. Sąd wójtowski pod przewodnictwem Stanisława Kuropatwy powołał komisję złożoną z rektora Alberta Szczesnowicza oraz trzech doświadczonych akuszerek przysięgłych (Doroty Szaykowskiej, Hanny Sendomirskiej i Katarzyny Piotrowej). Ich fachowe zeznania pod przysięgą – opisujące zgniecenie kości ciemieniowej i zasinienia tułowia płodu – stanowiły rozstrzygający dowód winy i doprowadziły do skazania sprawcy na wieżę krakowską.</li>
 </ul>
----</p>
+<h4>7.3. Epidemia Zarazy Morowej (<em>Luis Pestifera</em>) 1662 r. i Heroizm Sanitarny</h4>
+Letnia fala dżumy w 1662 r. sparaliżowała miasto:
+<ul style="margin:0.5rem 0 1rem 1.5rem; line-height:1.7;"><li><strong>Szpital św. Ducha:</strong> Stał się punktem zbornym dla konających i ubogich, co dokumentuje testament Jadwigi Kolarzowej (skany 85–86) spisany w obawie przed nagłą śmiercią.</li>
+<li><strong>Heroizm Zuzanny Kowalowej (skany 149–150):</strong> Gdy w domostwie Bartłomieja Borańskiego wymarła na mór cała rodzina i czeladź, a sąsiedzi uciekli w popłochu, uboga kowalowa Zuzanna z córką Katarzyną z własnej woli podjęły się grzebania rozkładających się zwłok, zabezpieczenia obejścia z siekierą w ręku przed szabrownikami oraz kwarantannowego spalenia zapowietrzonej pościeli i ubrań. Spór ze spadkobiercą o zapłatę 15 florenów ukazuje kontrast między samarytańskim poświęceniem a powojenną chciwością majątkową.</li>
+</ul>
+<h4>7.4. Przestrzeń Penitencjarna i System Kar Prawa Magdeburskiego</h4>
+Sąd wójtowsko-radziecki w Kraśniku dysponował zróżnicowanym aparatem represyjnym:
+1. <strong>Infamia publiczna i pręgierz:</strong> Za pobicie rodzonego ojca i wygnanie go z chałupy Szymon Mójka został skazany na publiczną karę stania w żelaznym łańcuchu u pręgierza pod ratuszem przez trzy niedziele oraz uwięzienie w wieży do czasu przebłagania rodzica (skan 99).
+2. <strong>Klatka miejska ('Kaska'):</strong> Specjalna drewniana izolatka pod ratuszem dla sprawców kradzieży domowych i drobnych awantur, w której zamykano m.in. złodziejkę koszul Jadwigę Kłopotową (skan 118).
+3. <strong>Wieża Bramy Lubelskiej:</strong> Baszta nowo odbudowanej bramy miejskiej służyła jako miejski areszt karny dla mieszczan nieposłusznych jurysdykcji rady (skan 120).
+4. <strong>Kompozycja finansowa i pokuta kościelna (Główszczyzna za Bartka Bigosa, skany 139–142):</strong> Wobec braku premedytacji zabójcy uniknęli miecza kata za opłatą olbrzymiej główszczyzny 80 grzywien polskich (przeznaczonej dla rodziców, na msze fary kraśnickiej i do skrzynki szpitala św. Ducha) oraz odbyciem upokarzającej pokuty leżenia krzyżem przed wielkim ołtarzem przez trzy niedziele.
+<p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">---</p>
 <h2>8. Podsumowanie Wartości Źródłowej i Znaczenia dla Projektu Lubgens</h2>
 <p style="margin-bottom:1rem; line-height:1.7; color:#cbd5e1;">Pełna transkrypcja i indeksacja Jednostki 04 zamyka wieloletnią lukę w badaniach nad Małopolską i Lubelszczyzną XVII wieku:
 1. <strong>Dla genealogii (Lubgens):</strong> Udostępniono 2940 w pełni zindeksowanych rekordów osób z określeniem stopnia pokrewieństwa, ról społecznych i powiązań rodzinnych.
