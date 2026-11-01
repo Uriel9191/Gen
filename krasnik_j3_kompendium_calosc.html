@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
 
-
     :root {
       --bg-primary: #0f172a;
       --bg-secondary: #1e293b;
@@ -809,7 +808,6 @@
       .pagination-bar { flex-direction: column; align-items: stretch; }
     }
   
-  
   </style>
 </head>
 <body>
@@ -898,12 +896,13 @@
         <table>
           <thead>
             <tr>
-              <th onclick="sortMain('nr_skanu')" style="width: 8%;">Skan ↕</th>
-              <th onclick="sortMain('strona_pagina')" style="width: 10%;">Foliacja ↕</th>
-              <th onclick="sortMain('data_rok')" style="width: 9%;">Datacja ↕</th>
-              <th onclick="sortMain('kategoria')" style="width: 18%;">Kategoria ↕</th>
-              <th style="width: 32%;">Regest i opis historyczno-dyplomatyczny</th>
-              <th style="width: 23%;">Występujące osoby / podmioty</th>
+              <th onclick="sortMain('nr_skanu')">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')">Pagina ↕</th>
+              <th onclick="sortMain('data_rok')">Rok ↕</th>
+              <th>Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')">Kategoria ↕</th>
+              <th>Opis Sprawy / Treść Aktu</th>
+              <th>Kwoty / Podatki</th>
             </tr>
           </thead>
           <tbody id="mainTableBody"></tbody>
@@ -1006,660 +1005,16 @@
     <!-- TAB 3: MONOGRAPH -->
     <section id="monograph-tab" class="tab-content">
       <div class="monograph-content">
-        <div class="monograph-content">
-        <h2>🏛️ I. Kodykologia, oprawa z epoki, makulatura Sądu Pokoju 1827 r. i układ kancelaryjny (1562–1690)</h2>
-        <p>
-          Księga miejska Kraśnika oznaczona współcześnie w zasobie Archiwum Państwowego w Lublinie sygnaturą <strong>35/40/0/1/3</strong> 
-          (dawna sygnatura: <em>Księga 2 / N. 2</em>, mikrofilm WAP Lublin nr 110394 naświetlony 29 X 1959 r.) 
-          stanowi jeden z najbardziej dramatycznych pomników piśmiennictwa staropolskiego na Lubelszczyźnie. 
-          Obejmuje 112 kart rękopiśmiennych w formacie folio (33 × 21,5 cm), zawartych w <strong>232 jednostkach skanowych</strong>. 
-          Na oryginalnej oprawie tekturowo-skórzanej zachował się odręczny szyldzik kancelaryjny: 
-          <em>„N. 2. Akta rożnych – sprzedaży – kupna – Wizyow – Manifestow – Inkwizycyow – Miasta Kraśnika Z Lat: 1562–1594. 1628. 1666. 1629. 1656–1655. Kart 111”</em>.
-        </p>
-        <p>
-          Szczególne świadectwo XIX-wiecznych prac introligatorskich stanowi wszyty na początku formularz przysięgi świadków Sądu Pokoju Powiatu Kraśnickiego z 1827 r. (skan 5) 
-          oraz makulatura aktowa z pieczęcią opłaty stemplowej „DZIESIĘĆ GROSZY” z 1820 r. wszyta w grzbiet na końcu kodeksu (skany 230–231). 
-          Księga posiada wyraźną stratyfikację czasową: nieliczne, bezcenne wpisy z 1562 r., rejestr spraw z lat 1594 i 1601, 
-          intensywny zrąb wczesnobarokowy z lat 1628–1630 oraz kulminacyjną partię Potopu szwedzkiego z lat 1655–1656.
-        </p>
-
-        <h2>⚖️ II. Sądy gajone Piotra Pichonia i najstarsze akta renesansowe Kraśnika z 1562 r. (skany 6–14)</h2>
-        <p>
-          Otwarcie sesji sądów gajonych generalnych (<em>Iudicium Generale Bannitum</em>) w środę po przewodniej niedzieli wielkanocnej 1562 r. 
-          odsłania dojrzałą strukturę prawną renesansowego Kraśnika pod rządami wójta Piotra Pichonia i ławników przysięgłych. 
-          Wpisy przynoszą kapitalne świadectwa życia codziennego:
-        </p>
-        <ul>
-          <li>
-            <strong>Transakcje parcelami i rzemiosło:</strong> Zbycie domu na roli po zmarłym Kacprze przez rodzeństwo Kasprowiczów na rzecz Jakuba Ogorzałego za 8 grzywien (skan 6), 
-            sprzedaż ogrodu przez Żyda Herszka kowalowi Stanisławowi za 9 grzywien oraz zamiana placów między tkaczem Szymonem a Stanisławem Osiętkiem (skany 6, 9).
-          </li>
-          <li>
-            <strong>Testament notariusza zamkowego Andrzeja (skan 10):</strong> Unikatowy dyplomatycznie akt ostatniej woli spisany na łożu śmierci przez notariusza zamku kraśnickiego 
-            (<em>Andreas scriba arcis Crasniriensis</em>) w obecności żony Jadwigi, fundujący legaty na fabrykę kościoła parafialnego i jałmużnę dla ubogich.
-          </li>
-          <li>
-            <strong>Zabezpieczenie starości i dożywocie synowskie (skan 8):</strong> Solenna darowizna Wawrzyńca Chwałka dla matki Katarzyny Chwałkowej 
-            w postaci rocznego dożywocia 16 grzywien z sumy 60 grzywien oraz wolnego mieszkania w komorze z prawem do ogrodu z miłości i wdzięczności synowskiej.
-          </li>
-          <li>
-            <strong>Testament mieszczki Anny Mzygłodkowej (skan 12):</strong> Dyspozycje posagowe, zapis domu przy bramie miejskiej dla męża Bartłomieja, 
-            legat dla Szpitala Ubogich św. Ducha oraz podział cynowych naczyń, pościeli i szat między siostry.
-          </li>
-        </ul>
-
-        <h2>📜 III. Rejestr wokandy wójtowskiej, elita mieszczańska i finanse epoki Zygmunta III Wazy (1594–1601)</h2>
-        <p>
-          Skany 15–20 przynoszą oficjalny indeks i kalendarz spraw sądu radziecko-wójtowskiego z 1594 r., dokumentujący funkcjonowanie magistratu w dobie srebrnego wieku. 
-          W aktach przewijają się najświetniejsze rody patrycjuszowskie Kraśnika: Bernard Włoch Calabroza (handel winem i suknem), bracia Albert i Jan Kluczowie, 
-          rajca Marcin Borowski oraz ród Gąseczków i Zająców. 
-          Wyjątkową wartość przedstawiają adnotacje o sieci kredytowej bankierów żydowskich: Mojżesza Feliksowicza z Krakowa oraz Byszka Koszczyca, 
-          posiadających obligi i zabezpieczenia hipoteczne na kamienicy Cząstkowskiej i posesjach w Rynku (skan 19).
-        </p>
-
-        <h2>⚔️ IV. Wczesnobarokowa wokanda sądu wójtowskiego (1628–1630) i proces o czary z 1629 r. (skany 21–25)</h2>
-        <p>
-          Akta z lat 1628–1630 ukazują codzienne napięcia, konflikty rzemieślnicze oraz funkcjonowanie staropolskiego wymiaru sprawiedliwości karnej:
-        </p>
-        <ul>
-          <li>
-            <strong>Sensacyjny proces o czary (veneficium) z 20 II 1629 r. (skan 22):</strong> Formalne oskarżenie mieszczki Paruszowej przez Nowackiego (Nowakowskiego) 
-            o rzucenie uroków na dzieci i bydło. Oskarżona broniła się, dowodząc stosowania jedynie naturalnych ziół i chrześcijańskich modlitw, 
-            co skłoniło magistrat do zarządzenia inkwizycji świadków pod rygorem aresztu.
-          </li>
-          <li>
-            <strong>Obdukcje krwawych pobić i kradzieże:</strong> Drobiazgowy opis ran odniesionych w bójce domowej braci Gleszczyków sporządzony przez ławników Jurkowicza i Stogniewa (skan 24) 
-            oraz proces aresztancki wyrobnika Pawła o kradzież sukna (skan 23).
-          </li>
-          <li>
-            <strong>Poręka sąsiedzka i rota przysięgi oczyszczającej (skan 25):</strong> Uwolnienie Niestojka z aresztu za generalnym poręczeniem majątkowym sześciu zamożnych mieszczan 
-            oraz spisana po polsku rota przysięgi oczyszczającej (<em>„Jakom te rzeczy nie kradł, anim o nich wiedział...”</em>).
-          </li>
-        </ul>
-
-        <h2>🛡️ V. Kraśnik w obliczu Potopu szwedzkiego (1655–1656) i autentyczny Uniwersał Karola X Gustawa (skany 195–223)</h2>
-        <p>
-          Najcenniejsza historycznie część kodeksu. Jesienią 1655 r. rajcy kraśniccy Bartłomiej Janaszkowic, Wojciech Karwosica i Stanisław Nawrocki podjęli decyzję 
-          o zabezpieczeniu archiwum ratuszowego, wpisując do księgi kompletny inwentarz przywilejów królewskich i zamurowując skrzynie w krypcie kościoła parafialnego (fol. 95r–95v). 
-          Na skanie 202 (fol. 98r) zachowała się autentyczna kopia <strong>uniwersału wojennego króla szwedzkiego Karola X Gustawa wydanego w Lublinie 10 marca 1656 r.</strong>, 
-          nakładającego drakońskie kontrybucje furażowe (mąka, owies, piwo, barany) na 14 wsi klucza kraśnickiego pod groźbą militarnej egzekucji i pożogi.
-        </p>
-
-        <h2>🏰 VI. Ordynacja Akcyzowa Jana Sobiepana Zamoyskiego (1656) i dramat najazdu na arendę w Blinowie (1666 r., skany 26–30, 224–227)</h2>
-        <p>
-          Wobec zagrożenia Twierdzy Zamość III Ordynat Jan Sobiepan Zamoyski wydał 13 czerwca 1656 r. generalną Ordynację Akcyzową nakładającą podatek na obronę twierdzy (fol. 109r–111r). 
-          Z kolei wpisy oblatowane w 1666 r. (skany 26–30) przynoszą wstrząsający opis napaści na arendę w Blinowie: 
-          Żyd Józef Sztumer został zbrojnie napadnięty, skuty w kajdany i wtrącony do lochu zamkowego, a jego ciężarna córka broniąca ojca została uderzona, co doprowadziło do poronienia. 
-          Akta te stanowią bezcenny materiał do badań nad wymiarem sprawiedliwości i stosunkami agrarnymi w zrujnowanej Rzeczypospolitej doby powojennego bezprawia.
-        </p>
-
-        <h2>👞 VII. Rzemiosło miejskie, cech szewski i grabieże wojskowe po Potopie (1666 r., skany 31–37)</h2>
-        <p>
-          Wpisy z połowy 1666 r. ukazują realia życia gospodarczego Kraśnika dźwigającego się ze zniszczeń wojennych. 
-          Kluczowym problemem miasta były niekontrolowane kwaterunki wojskowe i grabieże. W procesie przedmieszczanina Macieja Ćwilkiela z kupcem żydowskim Berkiem (Ferencem) Zoplikiem o 4 skóry wołowe (skany 33–34), Ćwilkiel dowiódł, że towary zostały zrabowane w szabat przez stacjonującą w jego domu chorągiew pana Chojnackiego z wojsk Jana Sobiepana Zamoyskiego. 
-          Jednocześnie kodeks rejestruje ostry kryzys wewnętrzny w cechu szewskim (skany 35–37): podstarszy Michał Dubicki i starsi majstrowie zbojkotowali skargę pobitego czeladnika Wojciecha Karaszka, odmawiając ukarania majstra Wojciecha Nogaja, co zmusiło czeladnika do wystąpienia na drogę sądu wójtowskiego (obdukcja wykazała 4 rany cięte na czole, podbite oczy i wyrwane garściami włosy).
-        </p>
-
-        <h2>🌾 VIII. Prawo przyumarcia (ius accrescendi), opieka społeczna szpitala i kultura materialna Zanadstawia (1666 r., skany 38–49)</h2>
-        <p>
-          Spory majątkowe i inwentarze z 1666 r. stanowią wybitne źródło do historii prawa i kultury materialnej:
-        </p>
-        <ul>
-          <li>
-            <strong>Kazus prawa przyumarcia (skany 37–40):</strong> Długoletni proces Wojciecha Kondupka z Zuzanną Stasicową o łan roli po zmarłej bezdzietnie żonie Agnieszce Stasicy. Sąd wójtowsko-ławnicki przyznał rację Kondupkowi, stosując rzadką normę prawa magdeburskiego o prawie przyumarcia (<em>ius successionis deburiosi in sinu patris</em>) z uwagi na fakt, że zrodzona z małżeństwa córka przeżyła matkę, przez co prawo do gruntu przeszło w ręce ojca.
-          </li>
-          <li>
-            <strong>Darowizna na rzecz klasztoru Kanoników Regularnych CRL (skany 43–45):</strong> Były ławnik Maciej Komiega z żoną Krystyną zapisali wieczystą darowizną na rzecz klasztoru CRL i prepozyta ks. dr. Ludwika Jasieńskiego murowany dom przy ul. Lubelskiej, z jednoczesnym zabezpieczeniem 100 złp posagu dla Anny Dubikowej i jej małoletniego syna Wojciecha Tuszyńskiego.
-          </li>
-          <li>
-            <strong>Przemoc na Przedmieściu Lubelskim (skany 45–47):</strong> Zbrojna napaść Macieja Pcionka z pistoletem i żelastwem na przedmieszczanina Jakuba Liska przy cmentarzu, zakończona zniszczeniem budy i pobiciem dwóch żywych lisów trzymanych w klatce.
-          </li>
-          <li>
-            <strong>Inwentarze pośmiertne Wójcikowej i Rzadkowskiego (skany 47–49):</strong> Zestawienie mienia ubogiej pensjonariuszki szpitala św. Ducha (komora, zboże w szpitalu, ćwierć roli na Niwie) oraz drobiazgowy inwentarz zagrody przedmieszczanina Jana Rzadkowskiego na Zanadstawiu (dom kryty słomą, browar, piekarnia, stodoła chruściana, 2 woły, 2 krowy, wieprze, 4 kaczki i 30 kop żyta).
-          </li>
-        </ul>
-
-        <h2>🔨 IX. Warsztat bednarski, dobra klasztorne CRL i mikrohistoria obyczajowa wczesnego baroku (1629 r., skany 50–60)</h2>
-        <p>
-          Powrót chronologiczny do roku 1629 odsłania fascynujący obraz wczesnobarokowej codzienności Kraśnika:
-        </p>
-        <ul>
-          <li>
-            <strong>Inwentarz warsztatu bednarskiego Błażeja Bednarza (skan 50):</strong> Unikatowy spis narzędzi cechowych: wielka piła poprzeczna, seba, ława heglarska, świdry, noże dolatoryjne, zięgi, cyrkle żelazne i drewniane, watornik, a także odzież zmarłego majstra (sukienny żupan lazurowy).
-          </li>
-          <li>
-            <strong>Konflikt klasztoru CRL z rzemieślnikami (skan 55):</strong> Ks. Andrzej Karłowski i br. Jakub CRL pozwali ławnika Stanisława Stalmachowicza i jego syna Stefana o włamanie do sadu klasztornego, kradzież owoców i rozbicie pieców (<em>fractio fornicis</em>).
-          </li>
-          <li>
-            <strong>Zbrojny najazd szlachcica Tomasza Wybranowskiego na dom ławnika (skan 56):</strong> Nocny tumult i wtargnięcie zbrojnych sług szlacheckich do domu ławnika Andrzeja Jurkowicza, zakończone ugodą przed radą i ławą pod wadium 100 grzywien.
-          </li>
-          <li>
-            <strong>Pobicie arendarza żydowskiego przez burmistrza (skany 57–58):</strong> Burmistrz Andrzej Gzymkowski (Szymkowski) w trakcie kłótni o pobór myta w karczmie skatował laską po głowie i plecach arendarza Moszka i wyrzucił go na ulicę.
-          </li>
-          <li>
-            <strong>Tyrania domowa i bójki zapustne (skany 59–60):</strong> Skazanie do lochu w wieży Andrzeja Kręgowica za zadanie żonie Dorocie 20 krwawych ran, a także awantura w gospodzie o muzykę do tańca z udziałem tkacza i muzykanta Banacha oraz pijanego młodzieńca Fortunki.
-          </li>
-        </ul>
-
-        <h2>⚔️ X. Zbrojne najazdy, konflikty o honor i samowola patrycjatu za Zygmunta III (1628–1629, skany 61–71)</h2>
-        <p>
-          Akta z lat 1628–1629 rysują niezwykle dynamiczny obraz konfliktów stanowych, honorowych i politycznych w Kraśniku epoki Zygmunta III Wazy:
-        </p>
-        <ul>
-          <li>
-            <strong>Zbrojny atak pod kościołem (skan 61):</strong> Wstrząsające wydarzenie z października 1629 r. – hajduk Jordan, uzbrojony sługa szlachcianki pani Janikowej, na placu przed kościołem parafialnym w Kraśniku zaatakował szewca Adama Kamyka i mieczem rozciął mu głowę aż do gołej kości czaszki (<em>usque ad nudum os cranij</em>).
-          </li>
-          <li>
-            <strong>Zbrojny najazd na dom ławnika i bunt przeciw burmistrzowi (skany 70–71):</strong> W nocy 2 sierpnia 1628 r. oficjał zamkowy Jan Fox wtargnął ze sztyletem do domu Marcina Miłka, powalił go na ziemię i barbarzyńsko wydarł mu brodę pod nosem, raniąc także spieszącego na pomoc ławnika Stanisława Płaykowicza. Następnego dnia ławnicy Marcin Kwaszowicz i Andrzej Jurkowicz wnieśli uroczystą manifestację przeciwko samemu burmistrzowi Andrzejowi Gzymkowskiemu, który samowolnie wypuścił z lochu wieży groźnego przestępcę Jana Ślepiarza z pogwałceniem prawa miejskiego.
-          </li>
-          <li>
-            <strong>Napad w polu na Abrahama z Pniowa (skan 63):</strong> Szlachcic Łukasz Skotnicki z Jakubowic z ośmioma uzbrojonymi sługami i sforą psów napadł w polu pod Kraśnikiem na kupca/żołnierza Abrahama z Pniowa, szczuł bydło, zrabował szaty i fanadie, co wywołało proces przed urzędem wójtowskim.
-          </li>
-        </ul>
-
-        <h2>🩸 XI. Medycyna sądowa balwierza Fiałka, szkoła kraśnicka i defenestracja bakałarza (1628–1629, skany 72–75)</h2>
-        <p>
-          Szczególne miejsce w aktach zajmują kwestie medycyny sądowej oraz szkolnictwa parafialnego:
-        </p>
-        <ul>
-          <li>
-            <strong>Obdukcja chirurgiczna balwierza Marcina Fiałka (skan 72):</strong> W grudniu 1628 r. urzędowy balwierz miejski Marcin Fiałek badał leżącą w łożu mieszczkę Zapałkową, stwierdzając siedem głębokich ran ciętych palców i prawego ramienia z postępującym zakażeniem, zagrażającym gangreną i śmiercią (<em>gangraena et mortis periculum</em>).
-          </li>
-          <li>
-            <strong>Defenestracja bakałarza szkoły kraśnickiej (skany 72–73):</strong> Niezwykły incydent w dziejach oświaty kraśnickiej. Kierownik szkoły parafialnej (<em>discretus Baccalaureus scholae Crasniciensis</em>) został podczas kłótni zelżony najgorszymi słowami i wyrzucony przez okno budynku przez Bartłomieja Rżanego. Sąd wójtowski skazał sprawcę na surową karę 12 dni bezwzględnego aresztu w ciemnej wieży ratuszowej oraz 3 marki grzywny.
-          </li>
-          <li>
-            <strong>Losy miejskiego żebraka (skan 75):</strong> Wpis dokumentujący instytucję opieki społecznej – magistrat zawarł umowę z Benedyktem Tragarzem na zapewnienie stancji, wyżywienia i ciepłego przykrycia dla miejskiego dziada (żebraka) Macieja.
-          </li>
-        </ul>
-
-        <h2>🪙 XII. Kredyt żydowski, loch dłużniczy, browarnictwo i fundacja szpitalna Stogniewów (1629, skany 76–90)</h2>
-        <p>
-          Końcowa partia wpisów z 1629 r. rejestruje strukturę gospodarczą miasta, obrót kapitałowy i dobroczynność:
-        </p>
-        <ul>
-          <li>
-            <strong>Szkody browarnicze i miara gnieźnieńska (skan 76):</strong> Proces mieszczki Włastki przeciw Płaykowiczowej o wyciek piwa z przegniłej i nieszczelnej kadzi browarnej w browarze Jana Foxa oraz zeznania o piciu gorzałki mierzonej miarą gnieźnieńską.
-          </li>
-          <li>
-            <strong>Fundacja dobroczynna ławnika Adama Stogniewa (skan 80):</strong> Ławnik Adam Stogniew zwany Kamieńskim wraz z żoną Zofią Barchówną (córką zmarłego wójta Barcha) ufundowali wieczysty roczny czynsz na stajniach i placu przy bramie miejskiej na rzecz ubogich pensjonariuszy Szpitala św. Ducha w Kraśniku.
-          </li>
-          <li>
-            <strong>Loch dłużniczy i kapitał żydowski (skany 77, 82, 83, 90):</strong> Udział kupców żydowskich w życiu kredytowym (Mojżesz, Jezko Markowicz, Dawid). Skan 82 dokumentuje osadzenie w lochu dłużniczym mieszczki Borowskiej na wniosek Żyda Dawida o 10 fl., a skan 90 – uwięzienie w wieży Karkutowej o przywłaszczenie pieniędzy na spłatę wierzytelności żydowskiej.
-          </li>
-          <li>
-            <strong>Wielki rejestr wierzycieli Jana Grymuzy (skany 88, 90):</strong> Sporządzony po zgonie Jana Grymuzy (Kotargila) katalog wierzycieli obejmujący szlachtę, rzemieślników (malarz Andrzej Farba 76 fl., Jan Bełżycki 40 fl.), wójta Alberta Janaszkowica, żołnierza Gąsiora i chłopów z podkraśnickiego Sułowa.
-          </li>
-        </ul>
-
-        <h2>🧹 XIII. Proces o czary (crimen veneficij) w Stróży i Kraśniku: kręgi na piasku, niszczenie zbóż i przysięga oczyszczająca (1628 r., skany 115–117)</h2>
-        <p>
-          Jeden z najbardziej fascynujących i drobiazgowo udokumentowanych procesów o czary w aktach miejskich Lubelszczyzny wczesnego baroku:
-        </p>
-        <ul>
-          <li>
-            <strong>Oskarżenie wójta ze Stróży:</strong> W maju 1628 r. Jan Bełżycki, wójt wsi Stróża pod Kraśnikiem, wniósł przed sąd radziecki kraśnicki formalną skargę przeciwko Katarzynie Kajdowej (żonie Piotra Kajdy) o rzucanie uroków i niszczenie upraw w nocy przed dniem św. Zofii.
-          </li>
-          <li>
-            <strong>Zeznania zaprzysiężonych świadków:</strong> Sebastian Kmita (lat 50), Maciej Biegacz, Stanisław Synowiec i Marcin Kozieł zeznali pod przysięgą, że widzieli oskarżoną biegającą po polach jak opętana, kreślącą znaki i tajemnicze koła na piasku raz boso, raz w butach przez jedenaście staj/zagonów, oraz zakopującą nieznane przedmioty na miedzach w celu zniszczenia zboża.
-          </li>
-          <li>
-            <strong>Obrona i wyrok sądu:</strong> Podczas przesłuchania Katarzyna Kajdowa stanowczo wyparła się czarnoksięstwa, tłumacząc swoje nocne wędrówki zbieraniem ziół leczniczych i poszukiwaniem zagubionego inwentarza. Sąd radziecki kraśnicki pod przewodnictwem wójta nakazał jej oczyszczenie się z hańbiącego zarzutu uroczystą przysięgą w kościele wraz z dwiema współprzysiężnicami pod rygorem banicji.
-          </li>
-        </ul>
-
-        <h2>🧵 XIV. Kultura materialna trzech małżeństw Barbary Maciówny Wróblowej i konflikty z cyrulikiem (1629 r., skany 111–113)</h2>
-        <p>
-          Wpisy z grudnia 1629 r. odsłaniają intymny świat zamożnego mieszczaństwa kraśnickiego i kulturę cechową:
-        </p>
-        <ul>
-          <li>
-            <strong>Monumentalny testament kuśnierzowej:</strong> Barbara Maciówna rodem z Rzeczycy, żona mistrza kuśnierskiego Jana Wróbla (wcześniej wdowa po Walentym Kwaszku i Jakubie Szewcu), spisała drobiazgowy akt ostatniej woli. Zgromadzony przez trzy małżeństwa majątek – odzież sukienna, kożuchy, pierzyny, miedziane garnki i gotówkę w skrzyni – podzieliła sprawiedliwie między synów Jana Kwaszka, Jaśka i Korycińskiego, legując jednocześnie fundusze na msze święte i Szpital św. Ducha.
-          </li>
-          <li>
-            <strong>Spór pracowniczy u chirurga:</strong> Sługa Wojciech pozwał mistrza cyrulika i chirurga Marcina Barbitonsorisa o niewypłacenie rocznego wynagrodzenia do Bożego Narodzenia oraz niewydanie obiecanej w kontrakcie sukni służebnej i koszul lnianych.
-          </li>
-        </ul>
-
-        <h2>🌲 XV. Bezprawie na gościńcach, leśnictwo ordynacji Zamoyskich i Bractwo Różańcowe (1628–1629, skany 91–110, 118–120)</h2>
-        <p>
-          Księga dokumentuje codzienne realia funkcjonowania miasta i jego przedmieść w dobie srebrnego wieku:
-        </p>
-        <ul>
-          <li>
-            <strong>Przemoc na gościńcach i leśnictwo Zamoyskich (skany 94, 102–103):</strong> Odzyskanie skradzionego łysatego płowego konia chłopów z Kolczyc w borach ordynackich przez gajowego Jana Bygosa ze służby podkanclerzego Tomasza Zamoyskiego, a także krwawy napad Liszki na Byrana podmiejskim gościńcem koło kościołka (siekanie nożem po zębach i interwencja pani Bojanowskiej).
-          </li>
-          <li>
-            <strong>Religia i instytucje wyznaniowe (skany 97, 101, 110):</strong> Uroczysta przysięga Żyda Dawida złożona w bóżnicy kraśnickiej według rytu mojżeszowego; sądowa intromisja Bractwa Różańcowego w fundum po zmarłym krawcu Miszczaku oraz kontrakt zbycia wójtostwa w Bystrzycy (dobra opactwa koprzywnickiego) szlachcicowi Strzeszkowskiemu za 200 złp.
-          </li>
-        </ul>
-
-        <h2>⚖️ XVI. Patologie władzy, nocne awantury i obdukcja pobicia stróża miejskiego przez burmistrza Jana Foxa (1628–1629, skany 123–127, 141)</h2>
-        <p>
-          Lata 1628–1629 przynoszą bezprecedensowy wgląd w kulisy funkcjonowania elity rządzącej miastem:
-        </p>
-        <ul>
-          <li>
-            <strong>Precedensowe uwięzienie rajcy w ratuszu (skany 123, 126):</strong> Karczemna kłótnia rajcy Jana Foxa z Janem Miłkiem i Stanisławem Płaykowiczem, pełna soczystych obelg rzucanych przez pijaną Miłkową oraz wyzwania na krwawy pojedynek z mieczem w dłoni, zakończyła się wyrokiem sądu wójtowskiego skazującym obu rywali – w tym urzędującego rajcę magistratu – na karę dwóch dni więzienia w ratuszowej wieży.
-          </li>
-          <li>
-            <strong>Inauguracja burmistrza i odprowadzenie do domu (skan 127):</strong> Mimo wyroku aresztu, 27 października 1628 r. Jan Fox został uroczyście zaprzysiężony na nowego burmistrza (proconsula), a ustępujący burmistrz Andrzej Gymkowski przekazał mu insygnia władzy w obecności całego senatu i pospólstwa, które według prastarego obyczaju miejskiego odprowadziło go z honorami do domu.
-          </li>
-          <li>
-            <strong>Pijany burmistrz bije kijem stróża nocnego (skan 141):</strong> Pod koniec 1629 r. księga rejestruje dramatyczną obdukcję ran stróża nocnego Mikołaja Mikuły. Pełniący nocną wachtę przy bramie stróż został zaatakowany i skatowany kijem przez wracającego w stanie zamroczenia alkoholowego burmistrza Jana Foxa, co wywołało oficjalne śledztwo radzieckie pod przewodnictwem rajcy Walentego Świeszowicza.
-          </li>
-        </ul>
-
-        <h2>🎨 XVII. Sztuka, medycyna i cechy: malarz Stanisław Majowski, lekarz Meisner i przyjęcie wielkopolskiego kowala (1629–1630, skany 134, 135, 145, 149)</h2>
-        <p>
-          Akta dokumentują wysoki poziom specjalizacji zawodowej i kontakty międzyregionalne kraśnickich rzemieślników:
-        </p>
-        <ul>
-          <li>
-            <strong>Malarz kraśnicki Stanisław Majowski (PICTOR) i medyk miejski (skany 135, 145):</strong> Zapisy długu i wierzytelności ukazują działalność zawodowego malarza Stanisława Majowskiego, który zabezpieczał zobowiązania u miejskiego lekarza Meyzsena (Meisnera) oraz sługi arcybiskupa gnieźnieńskiego Kaspra, zastawiając obrazy i sprzęty domowe na funduszach u rajcy Kaczmarskiego.
-          </li>
-          <li>
-            <strong>Dyplomowany lekarz jako bankier miejski (skan 149):</strong> Doktor medycyny Meyzsen występował jako kluczowy wierzyciel w mieście, udzielając mistrzowi sukienniczemu Janowi Sienkowskiemu dużej pożyczki 135 złp spłacanej w ratach tygodniowych pod zastaw całego warsztatu i nieruchomości.
-          </li>
-          <li>
-            <strong>Kowal z Wielkopolski i ius civile (skan 134):</strong> Mistrz kowalski Wawrzyniec Piętnicki (ferrifaber de Maiori Polonia) po złożeniu uroczystej przysięgi wierności ordynatowi Tomaszowi Zamoyskiemu i miastu został oficjalnie przyjęty do prawa miejskiego i cechu kowali.
-          </li>
-        </ul>
-
-        <h2>⚔️ XVIII. Solidarność czeladnicza, bunty przedmieszczan i krwawe spory braterskie przed obliczem rektora szkoły (1628–1629, skany 124, 133, 136, 138)</h2>
-        <p>
-          Napięcia społeczne między patrycjatem a pospólstwem i młodzieżą cechową:
-        </p>
-        <ul>
-          <li>
-            <strong>Bunt przedmieszczan i proces instygatora miejskiego (skan 124):</strong> Zbiorowy proces przeciwko 10 mieszkańcom (m.in. Bałusz, bracia Kłopocikowie, Liszek, Całuszek, Kaliszek) za bezprawne zaoranie miejskiego pastwiska, wyrąb chrustu w lesie i zbrojny pościg z drągami za czeladzią ratuszową pod samą bramę wójtostwa.
-          </li>
-          <li>
-            <strong>Braterobójcze bójki i interwencja rektora szkoły (skan 138):</strong> Krwawa obdukcja pobicia Jana Jurka przez brata Walentego z żoną (wyrwanie kłębu włosów z głowy i zmasakrowanie twarzy) oraz udział wójta Janaszkowicza i rektora szkoły miejskiej (rector scholae) w przywracaniu porządku.
-          </li>
-          <li>
-            <strong>Wielki podział majątku Stogniewów (skan 133):</strong> Sukcesorowie rajcy Wawrzyńca Stogniewa (rodzeństwo Królów oraz siostry z mężami z Łojowic i Polichny) dokonali polubownego działu kamienicy i ról z wujem Walentym Stogniewem.
-          </li>
-        </ul>
-
-        <h2>💊 XIX. Farmacja, medycyna i pożyczki samorządowe: aptekarz Aleksander Janaszek i doktor medycyny Albert Łajgowski (1629, skany 159, 160, 164–166, 170)</h2>
-        <p>
-          Akta z 1629 r. rzucają bezprecedensowe światło na instytucje ochrony zdrowia, status lekarzy i zaopatrzenie farmaceutyczne:
-        </p>
-        <ul>
-          <li>
-            <strong>Najwcześniejsza wzmianka o aptece kraśnickiej (skan 159):</strong> Wpis procesowy z udziałem kupca żydowskiego Jydka z Mikołajewa wymienia Aleksandra Janaszka z oficjalnym tytułem zawodowym: <em>Alexandrum apoteker Janaszek</em>. Jest to fundamentalne odkrycie źródłowe poświadczające funkcjonowanie zorganizowanej apteki miejskiej w Kraśniku już w I połowie XVII w.
-          </li>
-          <li>
-            <strong>Doktor medycyny bankierem magistratu (skan 164):</strong> Cały Magistrat Kraśnicki pod przewodnictwem wójta Alberta Janaszkowicza oraz rajców Gizy, Gymkowskiego i Świeszowicza zaciągnął u wybitnego lekarza doktora Alberta Łajgowskiego (<em>Excellens Albertus Laygowski Medicinae Doctor</em>) olbrzymią pożyczkę 440 florenów polskich na uregulowanie pilnych podatków i kontrybucji publicznych, zabezpieczając spłatę roczną prowizją 10% na dochodach miejskich.
-          </li>
-          <li>
-            <strong>Posiadłości i spory doktora Łajgowskiego (skany 160, 165, 166):</strong> Medyk Łajgowski prowadził ożywioną działalność gospodarczą – posiadał ogrody podmiejskie, sprzedawał role na polach lubelskich kołodziejom i toczył spory ze Stanisławem Ostrzejskim o zabór kluczy do spichrza.
-          </li>
-        </ul>
-
-        <h2>⛓️ XX. Wymiar sprawiedliwości i kary hańbiące: kara „Baby” (gąsiora), areszty w wieży i spory o głowszczyznę rodu Butów (1629, skany 151, 155, 156, 161, 162)</h2>
-        <p>
-          Sąd wójtowsko-radziecki z pełną surowością stosował tradycyjne kary porządkowe i magdeburskie procedury odszkodowawcze:
-        </p>
-        <ul>
-          <li>
-            <strong>Kara kuny miejskiej czyli „Baby” (skany 156, 162):</strong> Sąd skazał Stanisława Butę oraz jego żonę Butową na publiczne siedzenie w gąsiorze/kunie ratuszowej (<em>in compedibus dictis Baba</em>) za nocne awantury domowe, tłuczenie naczyń, grożenie nożem i sianie zgorszenia w rynku miejskim.
-          </li>
-          <li>
-            <strong>Spory o głowszczyznę (capitigium) po Jakubie Bucie (skany 155, 158, 163):</strong> Wdowa Zofia Butowa (powtórnie zamężna za Stanisławem Kamieńskim) dochodziła 15 grzywien głowszczyzny za zabicie pierwszego męża Jakuba Buty od jego brata Jana oraz dłużnika Pyzyny, co zakończyło się ostateczną ugodą i wypłatą 10 złp gotówką przed radą miejską.
-          </li>
-          <li>
-            <strong>Świadectwo czeladnika szewskiego (skan 161):</strong> Czeladnik Kasper Nierywielki złożył przed sądem dramatyczne zeznanie pod przysięgą opisujące przemoc domową i pijaństwo w warsztatach rzemieślniczych.
-          </li>
-        </ul>
-
-        <h2>🌍 XXI. Społeczność wieloetniczna i kultura materialna: Cyganie „wywołani z Korony”, szlachcic węgierski Thorens Gutai oraz pośmiertny inwentarz Doroty Hynkowej (1629, skany 172, 173, 176, 179–180)</h2>
-        <p>
-          Kraśnik doby Wazów jako miasto wieloetniczne, węzeł handlu międzynarodowego i zamożności mieszczańskiej:
-        </p>
-        <ul>
-          <li>
-            <strong>Romowie i prawo koronne (skan 172):</strong> Sprawa napaści na wozie z udziałem Jędrzeja Cygana przynosi urzędowe odwołanie do konstytucji sejmowych o Cyganach jako osobach wywołanych banicją z Korony Polskiej (<em>banniti e Regno</em>), co stanowi unikatowe świadectwo egzekwowania prawa wobec grup wędrownych.
-          </li>
-          <li>
-            <strong>Handel winem węgierskim (skan 173):</strong> Szlachcic węgierski Thorens Gutai (<em>Ungarus, nobilis</em>) osobiście kwitował kraśnickiego bednarza Jana Mroczka z rozliczeń za beczki i dostawy węgierskiego wina.
-          </li>
-          <li>
-            <strong>Rzemiosło artystyczne kobiet i monumentalny inwentarz (skany 176, 179–180):</strong> Wzmianka o Walencie Malarce (<em>Walenta pictrix</em>) toczącej proces o jedwab i pościel oraz dwustronicowy, bezcenny inwentarz ruchomości Doroty Hynkowej: suknia lazurowa z lamówkami, czepiec perłowy ze złotem, srebrny agnusek z potrójnymi paciorkami, fartuchy okoliste, malowane skrzynie, cynowe misy i gęślikowe pierzyny.
-          </li>
-        </ul>
-
-        <h2>⚔️ XXII. W przededniu wojennej zawieruchy: zamknięcie synagogi w Kraśniku, Bractwo Różańcowe i walka o mir targowy (1629, skany 181–190)</h2>
-        <p>
-          Schyłek lat dwudziestych XVII wieku ukazuje narastające napięcia religijno-społeczne oraz wzmożoną aktywność pobożności barokowej w Kraśniku:
-        </p>
-        <ul>
-          <li>
-            <strong>Zapieczętowanie synagogi kraśnickiej (skan 185):</strong> Pod datą 1629 r. wiceburmistrz Albert Gyzga i rajca Jakub Pisarzkowicz wnoszą solenną protestację przeciwko bezprawnemu opieczętowaniu i zamknięciu synagogi przez Bojanowskiego, faktora dóbr świeciechowskich. Magistrat broni miejskiej jurysdykcji i wolności kultu ludności żydowskiej przed arbitralną ingerencją szlacheckiego administratora.
-          </li>
-          <li>
-            <strong>Fundacja na Bractwo Różańcowe (skan 184):</strong> Anna, wdowa po Andrzeju Tłaczu z Luchini, stając przed sądem miejskim, dokonuje uroczystego legatu 10 florenów na rzecz Bractwa Najświętszego Różańca (<em>Fraternitas Sanctissimi Rosarii</em>) przy kościele parafialnym w Kraśniku, fundując msze święte za spokój duszy zmarłego męża.
-          </li>
-          <li>
-            <strong>Nocne napaści i obrona miru targowego (skany 181, 183):</strong> Księga notuje krwawe zajścia w dzień czwartkowego jarmarku (najście zbrojnych sług Ostrowskiego na dom żydowski) oraz nocne włamanie do szewca Wojciecha Kotowskiego z barbarzyńskim pocięciem jego szkarłatnego żupana (<em>vestis coccinea</em>), co skutkowało interwencją cechu i ławy miejskiej.
-          </li>
-        </ul>
-
-        <h2>🛡️ XXIII. Potop szwedzki w Kraśniku: ewakuacja archiwum ratusza do krypt kościoła i lauda wojenne na obronę Rzeczypospolitej (1655, skany 191–196)</h2>
-        <p>
-          Jesień 1655 roku przyniosła najazd wojsk Karola X Gustawa i załamanie obrony Korony. Kraśnicki samorząd stanął na wysokości zadania w obliczu śmiertelnego zagrożenia substancji miejskiej:
-        </p>
-        <ul>
-          <li>
-            <strong>Ewakuacja archiwum miejskiego i depozyt w krypcie kościoła NMP (skany 195–196):</strong> Burmistrz Stanisław Nawrocki wraz z rajcami Wojciechem Karwosicą i Bartłomiejem Janaszkowicem podjęli bezprecedensową decyzję o zabezpieczeniu pamięci ustrojowej miasta. 27 października 1655 r. sporządzono epokowy inwentarz wszystkich przywilejów monarszych, ksiąg wójtowskich, radzieckich i cechowych od XV stulecia, po czym zdeponowano je w metalowych skrzyniach w zamurowanej krypcie kościoła parafialnego pw. Wniebowzięcia NMP. To heroiczne działanie uratowało wielowiekowy zasób źródłowy przed pożogą i grabieżą szwedzką.
-          </li>
-          <li>
-            <strong>Wojenne lauda podatkowe (skany 195, 196):</strong> Magistrat uchwalił nadzwyczajny pobór 800 złotych na utrzymanie i zapłatę dla chorągwi rotmistrza Zaliwskiego, operującej w obronie ziemi lubelskiej.
-          </li>
-        </ul>
-
-        <h2>🔥 XXIV. Pod szwedzkim jarzmem i w ogniu walk: uniwersał Karola X Gustawa, kontrybucje wojenne i żołnierze Stefana Czarnieckiego pod Sandomierzem (1656, skany 197–210)</h2>
-        <p>
-          Rok 1656 przyniósł bezpośrednią okupację szwedzką oraz dramatyczny teatr działań wojennych wojsk Stefana Czarnieckiego:
-        </p>
-        <ul>
-          <li>
-            <strong>Autentyczny uniwersał króla Karola X Gustawa z Lublina (skany 200, 202):</strong> W kwaterze polowej w Lublinie 10 marca 1656 r. król szwedzki Karol Gustaw wydał uniwersał wojenny nakazujący mieszkańcom Kraśnika i okolicznych wsi uległość i natychmiastowe dostarczenie kontrybucji żywnościowych (mąka, owies, piwo, barany, masło, słonina, jaja) dla czterech pułków armii inwazyjnej pod rygorem bezwzględnego spalenia miasta i egzekucji. Wpis tego dokumentu do księgi miejskiej 24 marca 1656 r. stanowi perłę dyplomatyki wojennej.
-          </li>
-          <li>
-            <strong>Towarzysz chorągwi Stefana Czarnieckiego w Kraśniku (skany 197–199):</strong> Ludwik Olszowski, towarzysz spod chorągwi kasztelana kijowskiego i regimentarza Stefana Czarnieckiego, wytoczył proces krawcowi Stefanowi Dzierbickiemu o odzyskanie koni bojowych (oraz ekwipunku) utraconych podczas manewrów i walk w widłach Wisły i Sanu pod Sandomierzem, które czeladź sprzedała w Kraśniku.
-          </li>
-          <li>
-            <strong>Przetrwanie samorządu i podatki na marszałka Lubomirskiego (skany 199, 210):</strong> Mimo okupacji w 1656 r. odbyły się wolne wybory nowego burmistrza Ubalda Saaga (ustępował Marcin Barba), a miasto opłaciło kolejną taksę wojskową (204 zł 12 gr) na rzecz chorągwi marszałka wielkiego koronnego Jerzego Sebastiana Lubomirskiego.
-          </li>
-        </ul>
-
-        <h2>🛡️ XXV. Ostatnie miesiące wojny i obrona substancji miejskiej: opieka pupilarna nad sierotą Łyckowną, banicja szlachcica Tokarzyka i przyjęcia do prawa miejskiego (1656, skany 211–216)</h2>
-        <p>
-          Wiosna 1656 roku to w Kraśniku okres wytężonej pracy samorządu nad utrzymaniem ładu prawnego, pomocy najsłabszym i integracji mieszkańców:
-        </p>
-        <ul>
-          <li>
-            <strong>Translacja urzędu burmistrza i skarb miejski (skan 211):</strong> Stanisław Nawrocki, sterany wiekiem i trudami wojny, uroczyście przekazał urząd burmistrza Marcinowi Barbie, oddając klucze do metalowej kasy miejskiej, księgi oraz przywileje w obecności rajców Wojciecha Karwosicy, Alberta Łuczowica i Bartłomieja Janaszkowica.
-          </li>
-          <li>
-            <strong>Opieka pupilarna i losy domku sierocego (skany 212–213):</strong> Magistrat roztoczył formalną kuratelę nad małoletnią sierotą Zofią Łyckowną po zmarłych rodzicach Janie i Agnieszce. Urząd dokonał taksacji zrujnowanego domku drewnianego (30 zł) i sprzedał go kupcom Andrzejowi i Jadwidze Wronkom, lokując uzyskany kapitał na edukację i posag sieroty.
-          </li>
-          <li>
-            <strong>Przyjęcie szlachty i rzemieślników do prawa magdeburskiego (skan 216):</strong> Szlachcic Stanisław Kosiński (<em>generosus Kosiński</em>) oraz mistrz kowalsko-ślusarski Andrzej Pieniążek złożyli uroczystą przysięgę mieszczańską według roty prawa magdeburskiego, wiążąc swoje losy z obroną miasta.
-          </li>
-          <li>
-            <strong>Banicja krewkiego szlachcica Piotra Tokarzyka (skany 222–223):</strong> Szlachcic Piotr Tokarzyk, winny krwawych burd, zranień mieszczan i ostentacyjnego lekceważenia wezwań sądu, po trzykrotnym pozwaniu przez woźnego Pawła Fudorka został skazany na bezwzględną banicję miejską i pozbawienie wszelkich praw.
-          </li>
-        </ul>
-
-        <h2>🏰 XXVI. Wielka Ordynacja Akcyzowa Jana Sobiepana Zamoyskiego: Kraśnik zapleczem twierdzy w Zamościu w dobie najazdu szwedzkiego (1656, skany 217, 221–227)</h2>
-        <p>
-          Szczytowy moment zaangażowania Kraśnika w system obronny Ordynacji Zamojskiej podczas Potopu Szwedzkiego:
-        </p>
-        <ul>
-          <li>
-            <strong>Uniwersał akcyzowy na Fortecę Zamojską (skany 224–227):</strong> Gdy szwedzkie i sojusznicze zagony zagroziły twierdzy w Zamościu, III Ordynat Jan Sobiepan Zamoyski wydał w Zamościu 13 czerwca 1656 r. generalny uniwersał ustanawiający powszechny podatek akcyzowy (<em>ACCIZA pro munitione et defensione fortalitii Zamoscensis</em>). Dokument, oblatowany w Kraśniku przez rządcę Wawrzyńca Witatka Szafrankowica Międzyrzeczanina, zawiera własnoręczny podpis i pieczęć ordynata.
-          </li>
-          <li>
-            <strong>Szczegółowa taryfa akcyzowa (skany 225–226):</strong> Ordynacja wprowadziła precyzyjne stawki fiskalne: od waru piwa wareckiego i pospolitego, garnca gorzałki prostej i dubeltowej, beczki miodu i wina, uboju wołów wołoskich (3 zł), bydła prostego, skór, kamienia łoju (15 gr), beczki soli (6 gr), transportów zbóż, owoców oraz korzeni aptekarskich, powołując Grzegorza Foxa na poborcę i wprowadzając surowe rewizje składów.
-          </li>
-          <li>
-            <strong>Kraśnicki most prowiantowy do Zamościa (skany 217, 221–222):</strong> Miasto sfinansowało i wyprawiło konwoje z żywnością, wołami, mąką i chlebem o łącznej wartości setek florenów na bezpośrednie zaopatrzenie garnizonu zamojskiego.
-          </li>
-        </ul>
-
-        <h2>📜 XXVII. W obliczu zniszczeń wojennych: przemarsze wojsk litewskich, echa inwazji kozacko-moskiewskiej, podatek na piechotę ordynacką oraz losy księgi do czasów współczesnych (1656–1959, skany 218–220, 228–232)</h2>
-        <p>
-          Dramatyczny finał zapisów staropolskich i nowożytne losy zabytku rękopiśmiennego:
-        </p>
-        <ul>
-          <li>
-            <strong>Przemarsze sojuszniczych wojsk litewskich i rabunki koni (skan 218):</strong> Wójt przedmiejski Marcin Bzyk złożył oficjalny protest przeciwko towarzyszowi Ciecierskiemu z dywizji litewskiej maszerującej pod Lublin za brutalne wymuszenia i kradzież koni roboczych.
-          </li>
-          <li>
-            <strong>Panika wojenna najazdu kozacko-moskiewskiego (skan 220):</strong> Niezwykły zapis sporu żyda Abrahama Bytomskiego z przedmieszczaninem Janem Orłem o konia zarekwirowanego przez porucznika koronnego w trakcie powszechnej ucieczki ludności przed czupurnym najazdem moskiewsko-kozackim pod Lublinem.
-          </li>
-          <li>
-            <strong>Wielkie laudum na piechotę zamojską (skany 228–229):</strong> Wspólne zgromadzenie mieszczan i przedmieszczan u burmistrza Nawrockiego 29 czerwca 1656 r. uchwaliło nadzwyczajny podatek 180 fl. 10 gr na utrzymanie piechoty ordynackiej, zamykając epokę wojennego wysiłku miasta.
-          </li>
-          <li>
-            <strong>Dzieje księgi: od makulatury Królestwa Polskiego po mikrofilm WAP (skany 230–232):</strong> Podczas XIX-wiecznej konserwacji oprawy wklejono druki Sądu Pokoju Powiatu Kraśnickiego z 1820 r. w sprawie poboru rekruta-jedynaka z pieczęcią stemplową „DZIESIĘĆ GROSZY”. Całość zamyka metryczka Laboratorium Mikrofilmowego z 1959 r., wieńcząca 232 skany cyfrowe tego bezcennego pomnika piśmiennictwa Kraśnika.
-          </li>
-        </ul>
-      </div>
+        ') + 20
+pos_m_end = old_code.find('
       </div>
     </section>
 
     <!-- TAB 4: ANALYTICS -->
     <section id="analytics-tab" class="tab-content">
       <div class="analytics-content">
-        <div class="analytics-grid">
-        <div class="analytics-card">
-          <h4>⚖️ 1. Renesansowe sądy gajone Piotra Pichonia i testament notariusza zamku kraśnickiego (skany 6–10, 1562 r.)</h4>
-          <p>
-            Uroczysta inauguracja sesji sądów gajonych (Iudicium Generale Bannitum) w środę po przewodniej niedzieli wielkanocnej 1562 r. pod przewodnictwem wójta Piotra Pichonia i 6 ławników przysięgłych. Księga rejestruje obrót parcelami rolnymi (dom Kasprowiczów na roli sprzedany za 8 grzywien Jakubowi Ogorzałemu), dożywocie synowskie Wawrzyńca Chwałka dla matki Katarzyny (16 grzywien rocznie z sumy 60 grzywien) oraz unikatowy testament notariusza zamku kraśnickiego Andrzeja (Andreas scriba arcis Crasniriensis) z legatami na kościół parafialny, szpital św. Ducha i zabezpieczeniem wdowy Jadwigi.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏡 2. Topografia suburbialna i testament Anny Mzygłodkowej (skany 11–14, 1562 r.)</h4>
-          <p>
-            Struktura własnościowa przedmieść kraśnickich w dobie Zygmunta Augusta. Sprzedaż domu z ogrodem Pyszandowskim przez Barbarę Sobieską na rzecz Anny Barszczówny za 23 floreny 10 groszy (skan 11), testament mieszczki Anny Mzygłodkowej legującej dom przy bramie miejskiej mężowi Bartłomiejowi pod warunkiem odprawienia 10 mszy i wsparcia ubogich szpitala św. Ducha (skan 12) oraz transakcje gruntowe braci Krzysztofa i Jana Stańków (ćwierć roli za 16 złp, skan 14).
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>📜 3. Rejestr wokandy wójtowskiej i elita finansowa epoki Zygmunta III Wazy (skany 15–20, 1594–1601 r.)</h4>
-          <p>
-            Oficjalny indeks i kalendarz spraw sądu radziecko-wójtowskiego z 1594 r. W aktach odnotowano sprawy czołowych rodów miejskich: Bernarda Włocha Calabrozy, braci Kluczów, rajcy Marcina Borowskiego i Gąseczków. Kluczowym odkryciem są zapisy o kapitale żydowskim: transakcje bankierskie Mojżesza Feliksowicza z Krakowa oraz Byszka Koszczyca zabezpieczone na kurii Cząstkowskiej, a także urzędowa wizja szkód polnych wyrządzonych przez bydło szlachcica Jana Rzeczyckiego na polach Szymona Świerczowicza (skan 20).
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🩸 4. Kryminalistyka wczesnego baroku: proces o czary (veneficium) 1629 r. oraz najazd na arendę w Blinowie 1666 r. (skany 21–30)</h4>
-          <p>
-            Dwa wybitne świadectwa staropolskiego sądownictwa karnego. Skan 22 przynosi proces o czary (veneficium) z 20 II 1629 r., w którym Nowakowski oskarżył Paruszową o rzucenie uroków na dzieci i inwentarz, co wywołało śledztwo magistratu. Skany 27–30 dokumentują wstrząsający proces z 1666 r. po zbrojnym najeździe na arendę w Blinowie: urzędową obdukcję ran pobitego Żyda Józefa Sztumera (rana cięta na 3 cale, wyłamany palec), wtrącenie w kajdanach do podziemnego lochu zamkowego oraz spowodowanie pobiciem poronienia u ciężarnej córki Sztumera.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>👞 5. Konflikty cechu szewskiego, bezprawie militarne chorągwi Chojnackiego i obdukcja 7 ran Tomasza Szarego Brata (skany 31–37, 1666 r.)</h4>
-          <p>
-            Skany 31–37 odsłaniają realia powojennego Kraśnika w 1666 r. Po zniszczeniach wojennych przez miasto przetaczały się oddziały wojskowe ordynata Zamoyskiego: w sporze Macieja Ćwilkiela z kupcem żydowskim Berkiem Zoplikiem ujawniono rabunek 4 skór wołowych przez kwaterującą chorągiew Chojnackiego. Ławnicy Kuczenik i Szczurkowicz dokonali makabrycznej obdukcji 7 ciężkich ran Tomasza Szarego Brata zadanych przez Jędrzyka (przebity do kości nadgarstek, obdarta ze skóry goleń od kolana do pięty, złamany mały palec, nacięte ucho). Skany 35–37 rejestrują bojkot sądu cechowego przez majstrów szewskich chroniących majstra Wojciecha Nogaja przed karą za zmasakrowanie czeladnika Wojciecha Karaszka (4 rany cięte czoła, podbite oczy, wyrwane włosy).
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🌾 6. Staropolskie prawo o przyumarciu potomstwa (ius accrescendi), inwentarz szpitalny ubogiej Wójcikowej i zagroda Rzadkowskiego na Zanadstawiu (skany 38–49, 1666 r.)</h4>
-          <p>
-            Wybitna seria wpisów z zakresu prawa rzeczowego i kultury materialnej. W procesie Wojciecha Kondupka z Zuzanną Stasicową (skany 38–40) sąd wójtowski rozstrzygnął precedensowy spór o spadek po bezdzietnej zmarłej na korzyść męża w oparciu o zasadę przyumarcia potomstwa (<em>ius successionis in sinu patris</em>). Skany 43–45 dokumentują wieczystą darowiznę kamienicy przy ul. Lubelskiej przez byłego ławnika Macieja Komiegę i żonę Krystynę na rzecz klasztoru CRL ks. dr. Ludwika Jasieńskiego. Skany 47–49 przynoszą bezcenne inwentarze: majątek pensjonariuszki szpitala św. Ducha ubogiej Wójcikowej oraz kompletną zagrodę przedmieszczanina Jana Rzadkowskiego na Zanadstawiu (dom słomiany, browar z piekarnią, chruściana stodoła, para wołów, 2 krowy, wieprze, 4 kaczki i 30 kop żyta).
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🔨 7. Rzemiosło bednarskie, ochrona dóbr klasztornych CRL i przemoc sąsiedzka (skany 46–47, 50–55, 1629–1666 r.)</h4>
-          <p>
-            Akta przynoszą unikatowe dane do historii rzemiosła i obyczajowości. Skan 50 rejestruje kompletny warsztat bednarski zmarłego majstra Błażeja Bednarza (Bednarczyka): wielka piła poprzeczna, seba, ława heglarska, noże dolatoryjne, zięgi, cyrkle i niebieski lazurowy żupan. Skany 46–47 dokumentują zbrojny napad Macieja Pcionka z pistoletem na Jakuba Liska przy cmentarzu i pobicie dwóch żywych lisów w klatce. Z kolei na skanie 55 zakonnicy Kanoników Regularnych CRL ks. Andrzej Karłowski i br. Jakub pozywają ławnika Stanisława Stalmachowicza i syna Stefana o włamanie do sadu klasztornego, kradzież owoców i rozbicie pieców. Skan 52 notuje obdukcję skatowanej nahajką Doroty Mogiliny, której plecy i ciało były 'sine jako błękit'.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚖️ 8. Wymiar sprawiedliwości w dobie wczesnego baroku: zbrojny najazd szlachcica Wybranowskiego, pobicie arendarza Moszka i tyrania Kręgowica (skany 56–60, 1629 r.)</h4>
-          <p>
-            Skany 56–60 odsłaniają funkcjonowanie kraśnickiego wymiaru sprawiedliwości w 1629 r. Skan 56 zawiera ugodę po nocnym najeździe szlachcica Tomasza Wybranowskiego i jego zbrojnych sług na dom ławnika Andrzeja Jurkowicza pod wadium 100 grzywien. Skany 57–58 dokumentują proces kryminalny przeciwko samemu burmistrzowi Andrzejowi Gzymkowskiemu (Szymkowskiemu), który w karczmie skatował laską po głowie i plecach żydowskiego arendarza Moszka przy poborze myta. Skan 59 rejestruje wyrok osadzenia w lochu w wieży Andrzeja Kręgowica za bestialską tyranię domową i zadanie 20 ran żonie Dorocie, a skan 60 – bójkę zapustną w gospodzie o muzykę do tańca z udziałem tkacza i wiejskiego skrzypka/muzykanta Banacha, spoliczkowanie Maciążka i poręczenie 10 fl. za uwolnienie Kręgowica.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚔️ 9. Zbrojne porachunki wczesnego baroku: napaść hajduka Jordana z mieczem na szewca pod kościołem, wyrwanie brody ławnikowi Miłkowi i bunt przeciw burmistrzowi Gzymkowskiemu (skany 61, 70–71)</h4>
-          <p>
-            Seria bezprecedensowych wpisów ukazujących brutalność starć ulicznych i kryzys praworządności. W październiku 1629 r. (skan 61) hajduk Jordan ze służby pani Janikowej na placu kościelnym ciął mieczem w głowę szewca Adama Kamyka aż do obnażenia kości czaszki. Na skanie 70 ławnicy protokołują nocny najazd oficjała zamkowego Jana Foxa, który ze sztyletem w dłoni wdarł się do domu ławnika Marcina Miłka, powalił go i wyrwał mu garściami brodę pod nosem, raniąc także ławnika Płaykowicza. Dzień później (skan 71) ławnicy Kwaszowicz i Jurkowicz wnieśli manifestację przeciw burmistrzowi Andrzejowi Gzymkowskiemu, który samowolnie uwolnił z lochu wieży przestępcę Ślepiarza.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🩸 10. Kryminalistyka medyczna i szkoła miejska: obdukcja ran Zapałkowej przez balwierza Marcina Fiałka i defenestracja bakałarza kraśnickiego (skany 72–73)</h4>
-          <p>
-            Wybitne świadectwa staropolskiej medycyny sądowej i życia szkolnego. Na skanie 72 balwierz przysięgły Marcin Fiałek składa urzędową relację z oględzin 7 głębokich ran ciętych palców i ręki leżącej w łóżku mieszczki Zapałkowej, alarmując sąd o postępującej gangrenie zagrażającej amputacją lub zgonem. Skany 72–73 dokumentują głośny skandal w szkole parafialnej: Bartłomiej Rżany po karczemnej awanturze znieważył bakałarza szkoły kraśnickiej i wyrzucił go przez okno na ulicę (defenestracja bakałarza). Sąd wójtowski ukarał sprawcę 12 dniami bezwzględnego uwięzienia w wieży ratuszowej i grzywną.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏥 11. Społeczność ubogich a dobroczynność patrycjatu: kwatera dziada Macieja, fundacja Stogniewów dla szpitala św. Ducha i loch dłużniczy (skany 75, 80, 82, 90)</h4>
-          <p>
-            Zróżnicowanie kondycji społecznej mieszkańców Kraśnika. Skan 75 przynosi unikatową umowę alimentacyjną o zapewnienie izby, stancji i odzieży dla miejskiego dziada/żebraka Macieja u Benedykta Tragarza. W opozycji do nędzy miejskiej skan 80 przynosi akt panny i pobożnej fundacji ławnika Adama Stogniewa (Kamieńskiego) i jego żony Zofii Barchówny, zabezpieczający wieczysty roczny czynsz ze stajni na rzecz pensjonariuszy Szpitala Ubogich św. Ducha. Z kolei skany 82 i 90 ukazują bezwzględność egzekucji długów: uwięzienie w wilgotnym lochu ratuszowym mieszczki Borowskiej za 10 fl. długu u Żyda Dawida oraz osadzenie w wieży Karkutowej.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🪙 12. Rzemiosło, spory browarnicze i sieć kredytowa: groźby nożownicze w jatkach Kurpiela, kadź browarna Włastki i rejestr wierzycieli Grymuzy (skany 64–65, 76, 77, 83, 88)</h4>
-          <p>
-            Obraz gospodarki miejskiej, rzemiosła i handlu. Skany 64–65 rejestrują burdę w miejskich jatkach mięsnych, gdzie rzeźnik Kurpiel z nożem rzeźnickim w ręku groził śmiercią Janowi Foxowi ('bodajże mu drugie oko wybiło'). Skan 76 odsłania realia cechu browarników: pęknięcie i wyciek piwa Włastki z przegniłej kadzi w browarze Foxa oraz picie gorzałki mierzonej miarą gnieźnieńską. Skany 77, 83 i 88 ukazują rozwinięty rynek wekslowy i obrót kapitałem przez kupców żydowskich (Mojżesza i Jezka Markowicza) oraz monumentalny rejestr wierzycieli zmarłego Jana Grymuzy obejmujący długi u malarza Andrzeja Farby, wójta Janaszkowica i żołnierza Gąsiora.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🧹 13. Proces o czary (crimen veneficij) w Stróży i Kraśniku: nocne kręgi na piasku, niszczenie zboża i rota przysięgi oczyszczającej Katarzyny Kajdowej (skany 115–117, 1628 r.)</h4>
-          <p>
-            Najwyższej rangi odkrycie źródłowe do historii wierzeń i wymiaru sprawiedliwości. W maju 1628 r. wójt Stróży Jan Bełżycki oskarżył przed sądem radzieckim w Kraśniku Katarzynę Kajdową o praktyki czarnoksięskie na polach przed św. Zofią. Świadkowie zeznali pod przysięgą o jej bieganiu jak szalona po zagonach, kreśleniu znaków i kół na piasku raz boso, raz w butach przez 11 staj/zagonów oraz zakopywaniu czarów. Oskarżona broniła się zbieraniem ziół leczniczych i szukaniem bydła. Sąd wydał formalny dekret nakazujący jej oczyszczenie się przysięgą z 2 współprzysiężnicami po św. Bartłomieju.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🧵 14. Testament mieszczki Barbary Maciówny Wróblowej: kultura materialna trzech małżeństw, kuśnierstwo i spór ze szpitalnym cyrulikiem Marcinem (skany 111–113, 1629 r.)</h4>
-          <p>
-            Wybitne świadectwo życia prywatnego i kultury materialnej kobiet staropolskich. Barbara Maciówna rodem z Rzeczycy, żona kuśnierza Jana Wróbla (wcześniej wdowa po Walentym Kwaszku i Jakubie Szewcu), spisała drobiazgowy testament dzielący zgromadzoną odzież, kożuchy, pierzyny, garnki miedziane i gotówkę w skrzyni między synów z 3 małżeństw (Jan Kwaszek, Jasiek, Koryciński) oraz legaty na Szpital św. Ducha. Poniżej wpisano spór sługi Wojciecha z cyrulikiem i chirurgiem Marcinem Barbitonsorisem o roczne wynagrodzenie do Bożego Narodzenia, suknię i koszule służebne.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🌲 15. Przemoc, bory ordynackie i głodownia miejska: pobicie Żyda suchym wiosłem, pocięcie nożem Byrana i interwencja leśnika Zamoyskiego (skany 93–94, 98, 102–103, 1629 r.)</h4>
-          <p>
-            Kryminalistyka miejska i leśnictwo włości zamojskiej. Skany 93 i 98 rejestrują pobicie Żyda Jakuba Dawidowicza suchym wiosłem w miejskiej piwnicy/głodowni przez Szymona Siwiołkowica (Rybkę). Skan 94 dokumentuje odzyskanie w lasach ordynackich skradzionego konia chłopów z Kolczyc przez leśnika podkanclerzego Tomasza Zamoyskiego Jana Bygosa. Skany 102–103 przynoszą krwawy napad na gościńcu podmiejskim: Liszka siekał nożem Byrana po zębach i powalił go kijem; interwencja pani Bojanowskiej zapobiegła zabójstwu, po czym obaj sprawcy trafili do wieży ratuszowej.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⛪ 16. Bractwa religijne, przysięga w bóżnicy i wójtostwo bystrzyckie: intromisja Bractwa Różańcowego, ryt żydowski i poddani opactwa koprzywnickiego (skany 97, 101, 108, 110, 1628–1629 r.)</h4>
-          <p>
-            Instytucje prawne i wspólnoty wyznaniowe Kraśnika. Skan 101 dokumentuje rytualną przysięgę Żyda Dawida w bóżnicy według rytu mojżeszowego. Skan 110 przynosi urzędową intromisję ławnika Stanisława Płaykowicza wprowadzającego Bractwo Różańcowe (Confraternitas SS. Rosarii) na plac i dom po zmarłym krawcu Miszczaku. Skan 97 zawiera autentyczny polski kontrakt wójtowski: Walenty Sosnowski ceduje dzierżawę wójtostwa w Bystrzycy (dobra klasztoru koprzywnickiego) z 2 poddanymi szlachcicowi Stanisławowi Płonce Strzeszkowskiemu za 200 złp pod wadium 200 zł.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏛️ 17. Skandal na ratuszu: uwięzienie rajcy, inauguracja burmistrza i nocne pobicie stróża Mikuły przez pijanego Jana Foxa (skany 123, 126, 127, 141, 1628–1629 r.)</h4>
-          <p>
-            Niezwykłe studium obyczajowości i patologii władzy samorządowej w XVII w. W lipcu 1628 r. rajca Jan Fox po karczemnej kłótni z Miłkami został skazany przez sąd wójtowski na 2 dni więzienia w ratuszu. W październiku tego samego roku został uroczyście wybrany i zaprzysiężony na nowego burmistrza (proconsula), odprowadzony do domu z asystą senatu. Rok później (pod koniec 1629 r.) pijany burmistrz Fox w nocy pobił kijem pełniącego służbę przy bramie stróża nocnego Mikołaja Mikułę, raniąc go dotkliwie w głowę i plecy, co stało się przedmiotem oficjalnej obdukcji i skandalu w mieście.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🎨 18. Malarstwo, medycyna i przyjęcie do prawa miejskiego: kraśnicki artysta Stanisław Majowski (PICTOR) i kowal Wawrzyniec Piętnicki z Wielkopolski (skany 134, 135, 145, 149, 1629–1630 r.)</h4>
-          <p>
-            Rzemiosło artystyczne, ochrona zdrowia i migracje rzemieślnicze. Stanisław Majowski określony expressis verbis jako malarz kraśnicki (PICTOR) zabezpieczał należności u miejskiego lekarza Meyzsena (Meisnera) i sługi arcybiskupa gnieźnieńskiego, zastawiając obrazy i sprzęty. Doktor Meyzsen kredytował także cech sukienników (pożyczka 135 złp dla Jana Sienkowskiego). Na skanie 134 odnotowano uroczyste przyjęcie do obywatelstwa miejskiego (ius civile) kowala Wawrzyńca Piętnickiego przybyłego z Wielkopolski.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>📜 19. Wielki podział majątku rodu Stogniewów i sieć powiązań z Łojowicami i Polichną (skany 133–134, 1628–1629 r.)</h4>
-          <p>
-            Kluczowy dokument genealogiczno-majątkowy elity kraśnickiej. Rodzeństwo Marcin Król, panna Zofia Królówna, Maciej Król oraz ich zamężne siostry Anna Jaczkowa z Łojowic i Maryna Wiąskowa z Polichny/Polikowic zbywają prawa spadkowe po zmarłym rajcy Wawrzyńcu Stogniewie na rzecz wuja Walentego Stogniewa, co pozwoliło scalić rodowy majątek i zabezpieczyć posagi córek w okolicznych wsiach ordynacji.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚔️ 20. Bunt czeladników przed sądem instygatora miejskiego, bójka braci Jurków i interwencja rektora szkoły (skany 124, 136, 138, 1628–1629 r.)</h4>
-          <p>
-            Przestępczość i dynamika konfliktów społecznych. Skan 124 dokumentuje zbiorowy proces karny 10 przedmieszczan o bezprawne zaoranie pastwiska miejskiego i zbrojny pościg z drągami za sługami magistratu. Skany 136 i 138 przynoszą serię krwawych pobić wśród czeladników sukienniczych i szewskich oraz zmasakrowanie twarzy i wyrwanie włosów z głowy w bójce braci Jurków, przy której obdukcji asystował rektor szkoły kraśnickiej (rector scholae).
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>💊 21. Kraśnicka medycyna i farmacja: apteka Aleksandra Janaszka oraz pożyczka 440 florenów od doktora medycyny Alberta Łajgowskiego (skany 159, 160, 164–166, 170, 1629 r.)</h4>
-          <p>
-            Odkrycie o randze fundamentalnej dla dziejów medycyny i farmacji. Skan 159 zawiera najwcześniejszą znaną wzmiankę o aptece kraśnickiej i jej mistrzu Aleksandrze Janaszku (Alexandrum apoteker Janaszek). Na skanie 164 cały Magistrat Kraśnicki (wójt Janaszkowicz i rajcy) pożycza od wybitnego lekarza doktora medycyny Alberta Łajgowskiego olbrzymią sumę 440 florenów pod zastaw dochodów miejskich na opłacenie podatków publicznych. Akta odnotowują także podmiejskie ogrody i spory majątkowe doktora Łajgowskiego.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⛓️ 22. Kary hańbiące i przemoc domowa: zakuwanie w „Babę” (gąsior), spory o głowszczyznę i zeznania czeladnika szewskiego (skany 155, 156, 161, 162, 1629 r.)</h4>
-          <p>
-            Egzekucja prawa karnego i obyczajowość małżeńska. Sąd wójtowski skazuje Stanisława Butę i Butową na karę siedzenia w gąsiorze przed ratuszem (in compedibus dictis Baba) za nocne awantury, gorszące krzyki i grożenie nożem domownikom, co zaprzysiągł m.in. czeladnik szewski Kasper Nierywielki. Skany 155 i 163 rejestrują długoletni proces wdowy Zofii Butowej (secundo voto Kamieńskiej) o 15 grzywien głowszczyzny po zamordowanym mężu Jakubie Bucie, uwieńczony ostateczną ugodą finansową.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🌍 23. Obcy w Kraśniku: status Cyganów (Romów) „wywołanych z Korony” i wizyta węgierskiego szlachcica Thorensa Gutaia (skany 172, 173, 1629 r.)</h4>
-          <p>
-            Wielokulturowość i migracje w XVII-wiecznym Kraśniku. Skan 172 przynosi proces o zbrojny napad na wozie z udziałem Jędrzeja Cygana oraz urzędowe przytoczenie prawnego zakazu pobytu Romów jako ludzi objętych banicją z Korony (banniti e Regno). Na skanie 173 odnotowano obecność węgierskiego szlachcica Thorensa Gutaia, który kwitował miejscowego mistrza bednarskiego Jana Mroczka z dostaw beczek i rozliczeń za wino węgierskie.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>👗 24. Prywatny świat mieszczki: monumentalny inwentarz ruchomości, odzieży i przędziwa Doroty Hynkowej (skany 179–180, 1629 r.)</h4>
-          <p>
-            Wybitny zabytek polszczyzny i kultury materialnej kobiet staropolskich. Spisany przez męża Adama dwustronicowy inwentarz po zmarłej Dorocie Hynkowej rejestruje luksusową odzież mieszczańską: suknię lazurową z sukna, czepiec szyty perłami i złotogłowiem, srebrny agnusek z potrójnymi paciorkami, fartuchy okoliste, przędziwo lniane i konopne, pościel z pierzyną gęślikową, malowane skrzynie, naczynia cynowe i spiżowe oraz stan inwentarza żywego.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏛️ 25. W obliczu Potopu: ratowanie archiwum miejskiego i zamurowanie ksiąg w krypcie kościoła NMP (skany 195–196, 1655 r.)</h4>
-          <p>
-            Pomnik odpowiedzialności obywatelskiej magistratu kraśnickiego. W obliczu marszu armii szwedzkiej burmistrz Stanisław Nawrocki z rajcami Wojciechem Karwosicą i Bartłomiejem Janaszkowicem sporządzili kompletny, historyczny inwentarz przywilejów królewskich (od Jagiellonów po Wazów) i ksiąg sądowych, po czym ukryli i zamurowali całe archiwum w krypcie kościoła parafialnego Wniebowzięcia NMP. To dzięki temu aktowi księgi miejskie Kraśnika przetrwały do naszych czasów.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>👑 26. Autentyczny uniwersał wojenny króla szwedzkiego Karola X Gustawa z Lublina do Kraśnika (skany 200–202, 1656 r.)</h4>
-          <p>
-            Unikatowy dokument wojenny Karola Gustawa (<em>Carolus Gustavus Rex Sueciae</em>) wydany w Lublinie 10 marca 1656 r. Król nakazał miastu i kluczowi kraśnickiemu natychmiastowe uiszczenie gigantycznej kontrybucji w naturze dla 4 pułków szwedzkich (mąka, piwo, owies, barany, masło, słonina, jaja) pod groźbą totalnej pożogi i splądrowania. Na magistrat nałożono natychmiastowy pobór 350 złotych.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚔️ 27. Chorągiew Stefana Czarnieckiego i walki pod Sandomierzem: proces towarzysza Ludwika Olszowskiego o konie (skany 197–199, 1656 r.)</h4>
-          <p>
-            Bezpośrednie echa manewrów Stefana Czarnieckiego w widłach Wisły i Sanu wiosną 1656 r. Towarzysz spod chorągwi kasztelana kijowskiego Czarnieckiego, szlachcic Ludwik Olszowski, stanął przed sądem burmistrza Nawrockiego, dochodząc zwrotu koni wojskowych zbiegłych w zamieszaniu bitewnym pod Sandomierzem i bezprawnie kupionych przez kraśnickiego krawca Stefana Dzierbickiego za 14 florenów.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🕊️ 28. Obrona synagogi kraśnickiej i legat testamentowy na Bractwo Różańcowe (skany 181, 184, 185, 1629 r.)</h4>
-          <p>
-            Świadectwo kraśnickiego pluralizmu i kultury prawnej. Z jednej strony protestacja wiceburmistrza Alberta Gyzgi przeciwko samowolnemu zapieczętowaniu bóżnicy żydowskiej przez szlacheckiego faktora ze Świeciechowa, z drugiej – uroczysty legat wdowy Anny Tłaczowej z Luchini przeznaczający 10 florenów na ołtarz Bractwa Różańcowego przy kościele farnym na intencję zmarłego męża.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏰 29. Wielka Ordynacja Akcyzowa Jana Sobiepana Zamoyskiego na Fortecę Zamojską (skany 224–227, 1656 r.)</h4>
-          <p>
-            Pomnik prawa gospodarczego i obronności Rzeczypospolitej. Autentyczny uniwersał z własnoręcznym podpisem III Ordynata Zamojskiego Jana Sobiepana Zamoyskiego z 13 czerwca 1656 r., nakładający podatek akcyzowy na obronę Twierdzy Zamość. Przynosi kompletną taryfę fiskalną od trunków (piwo wareckie, gorzałka, wino), rzezi bydła, skór, łoju, soli, sukna oraz towarów korzennych i aptekarskich.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>💰 30. Skarb miejski, translacja proconsulatus i arenda słodowni przez Mośka Jarosławskiego na podatki wojenne (skany 211, 214, 215, 1656 r.)</h4>
-          <p>
-            Mechanizmy staropolskiej bankowości i samorządu w czasie kryzysu wojennego. Uroczysta translacja urzędu i przekazanie klucza do kasy miejskiej przez Stanisława Nawrockiego Marcinowi Barbie, kontrakt arendy słodowni miejskiej przez żydowskiego przedsiębiorcę Mośka Jarosławskiego oraz uchwalenie powszechnego lauda na 350 florenów na opłacenie kontrybucji.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚖️ 31. Prawo miejskie, sąsiedzi i przemoc: banicja szlachcica Piotra Tokarzyka oraz nobilitacja mieszczańska szlachcica Kosińskiego (skany 216, 222–223, 1656 r.)</h4>
-          <p>
-            Wyraziste oblicza staropolskiej jurysdykcji miejskiej: z jednej strony uroczysta przysięga magdeburska szlachcica Stanisława Kosińskiego i kowala Andrzeja Pieniążka wstępujących w szeregi obywateli miasta, z drugiej – surowy wyrok banicji miejskiej dla awanturniczego szlachcica Piotra Tokarzyka za zranienia i znieważenie majestatu sądu.
-          </p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>📚 32. Dzieje księgi i archiwum: od opieki nad sierotą Zofią Łyckowną po metryczkę mikrofilmową WAP w Lublinie z 1959 r. (skany 212–213, 230–232)</h4>
-          <p>
-            Materialna kodykologia i losy woluminu przez stulecia: od wrażliwości społecznej samorządu ratującego majątek osieroconej Zofii Łyckowny w 1656 r., przez XIX-wieczne druki urzędowe Sądu Pokoju Powiatu Kraśnickiego z pieczęcią stemplową „DZIESIĘĆ GROSZY” wszyte przy naprawie oprawy, po certyfikat mikrofilmowy Wojewódzkiego Archiwum Państwowego w Lublinie z 1959 r. wieńczący 232 skany cyfrowe.
-          </p>
-        </div>
-      </div>
+        ') + 20
+pos_a_end = old_code.find('
       </div>
     </section>
 
@@ -1673,9 +1028,10 @@
         <button class="modal-close" onclick="closeModal()">&times;</button>
       </div>
       <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
-        <button class="modal-tab-btn active" id="tabBtnCrops" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
-        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja dyplomatyczna</button>
-        <button class="modal-tab-btn" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Aparat krytyczny</button>
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+        <button class="modal-tab-btn" id="tabBtnCrops" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
       </div>
       <div class="modal-body" id="modalBody">
         <!-- Dynamic content -->
@@ -34080,14 +33436,14 @@
       if (document.getElementById('mainNextBtnBot')) document.getElementById('mainNextBtnBot').disabled = (mainCurrentPage >= totalPages);
 
       if (pageData.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
         return;
       }
 
       let html = '';
       pageData.forEach(r => {
         let osobyDisplay = '';
-        if (r.osoby_skrot && r.osoby_skrot !== r.osoby_podmioty) {
+        if (r.osoby_skrot && r.osoby_skrot !== r.osoby_podmioty && r.osoby_skrot !== '-') {
           osobyDisplay = `<span class="badge-district" style="font-size:0.8rem;">${escapeHtml(r.osoby_skrot)}</span> <span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:3px;">(kliknij, aby rozwinąć)</span>`;
         } else {
           osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
@@ -34096,16 +33452,17 @@
         const hasTrans = !!(r.transkrypcja || r.transkrypcja_dyplomatyczna);
 
         html += `
-          <tr onclick="openMainModal(${r.nr_skanu})">
+          <tr onclick="openMainModal(${r.nr_skanu})" style="cursor:pointer;">
             <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">
               #${r.nr_skanu}
-              ${hasTrans ? '<span style="font-size:0.7rem; color:var(--success); display:block;">📜 Transkr.</span>' : ''}
+              ${hasTrans ? '<br><span style="font-size:0.7rem; color:var(--success); font-weight:700;">📜 Transkr.</span>' : ''}
             </td>
-            <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem;">${escapeHtml(r.strona_pagina || '—')}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina || '—')}</td>
             <td><span class="badge-years">${escapeHtml(r.data_rok || '—')}</span></td>
-            <td><span class="badge-role">${escapeHtml(r.kategoria || 'Inne')}</span></td>
-            <td style="font-size:0.9rem; line-height:1.5;">${escapeHtml(r.opis_pozycji || r.opis_sprawy || r.opis || '—')}</td>
             <td>${osobyDisplay}</td>
+            <td><span style="font-size:0.8rem; font-weight:600; color:#cbd5e1;">${escapeHtml(r.kategoria || '—')}</span></td>
+            <td style="color:#cbd5e1; font-size:0.85rem;">${escapeHtml(r.opis_pozycji || r.opis_sprawy || r.opis || '—')}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#e2e8f0;">${escapeHtml(r.kwoty_miary || r.kwoty_podatki || '—')}</td>
           </tr>
         `;
       });
@@ -34124,7 +33481,7 @@
     }
 
     function switchModalTab(tabKey) {
-      const tabs = ['crops', 'trans', 'meta'];
+      const tabs = ['meta', 'trans', 'link', 'crops'];
       tabs.forEach(t => {
         const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
         const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
@@ -34155,49 +33512,24 @@
 
       currentModalScan = item;
 
-      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`;
+      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || 'brak'}) – Rok ${item.data_rok || '—'}`;
       
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
 
       const transRaw = item.transkrypcja || item.transkrypcja_dyplomatyczna || '';
       const transFormatted = transRaw 
-        ? escapeHtml(transRaw).replace(/\n/g, '<br>') 
+        ? escapeHtml(transRaw).split(String.fromCharCode(10)).join("<br>") 
         : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
 
       document.getElementById('modalBody').innerHTML = `
-        <!-- TAB 1: WYCINKI CYFROWE -->
-        <div id="modalTabContentCrops" class="modal-tab-content">
-          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
-            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/3).
-          </div>
-          <div style="margin-bottom:1.25rem;">
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
-            <img src="crops_j3/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_top.jpg';">
-          </div>
-          <div>
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
-            <img src="crops_j3/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_bot.jpg';">
-          </div>
-        </div>
-
-        <!-- TAB 2: TRANSKRYPCJA DYPLOMATYCZNA -->
-        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
-            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna (Instrukcja Wydawnicza PAN)</span>
-            ${transRaw ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
-          </div>
-          <div class="transcription-box">
-            ${transFormatted}
-          </div>
-        </div>
-
-        <!-- TAB 3: APARAT KRYTYCZNY I METADANE -->
-        <div id="modalTabContentMeta" class="modal-tab-content" style="display:none;">
+        <!-- TAB 1: OPIS I METADANE -->
+        <div id="modalTabContentMeta" class="modal-tab-content">
           <div class="modal-section">
             <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
             <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 3 (Księga 2 / N. 2, 1562–1690)</div>
-            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Foliacja / Karta:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
             <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok || '—')}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria || '—')}</span></div>
           </div>
 
@@ -34215,13 +33547,12 @@
             </div>
           </div>
 
-          ${item.kwoty_miary ? `
           <div class="modal-section">
             <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
             <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
-              ${escapeHtml(item.kwoty_miary)}
+              ${escapeHtml(item.kwoty_miary || item.kwoty_podatki || 'Brak danych finansowych')}
             </div>
-          </div>` : ''}
+          </div>
 
           ${(item.uwagi || item.aparat_krytyczny) ? `
           <div class="modal-section">
@@ -34230,22 +33561,59 @@
               ${escapeHtml(item.aparat_krytyczny || item.uwagi)}
             </div>
           </div>` : ''}
+        </div>
 
+        <!-- TAB 2: TRANSKRYPCJA DYPLOMATYCZNA -->
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna (Instrukcja Wydawnicza PAN)</span>
+            ${transRaw ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
+          </div>
+        </div>
+
+        <!-- TAB 3: LINK DO ORYGINAŁU -->
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
           <div class="modal-section">
             <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
-            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:0.5rem;">
-              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989713" target="_blank" class="btn btn-gold" style="display:inline-block; text-decoration:none;">
-                🌐 Otwórz Jednostkę 3 w Szukaj w Archiwach
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w portalu Szukaj w Archiwach (Archiwum Państwowe w Lublinie, Zespół 35/40/0, Jednostka 3).
+            </p>
+            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989713" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:var(--gold-primary); color:#000; font-weight:700; padding:0.6rem 1.2rem; border-radius:6px;">
+                🏛️ Otwórz Jednostkę 3 w Szukaj w Archiwach
               </a>
-              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-block; text-decoration:none; background:#334155; color:#f8fafc; border:1px solid #475569;">
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:#334155; color:#fff; padding:0.6rem 1.2rem; border-radius:6px;">
                 📁 Zespół 35/40/0 (Akta m. Kraśnika)
               </a>
             </div>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); font-size:0.85rem; color:#94a3b8; line-height:1.5;">
+              <strong style="color:var(--gold-primary);">Instrukcja lokalizacji skanu:</strong><br>
+              1. Kliknij powyższy złoty przycisk, aby otworzyć jednostkę w portalu SwA.<br>
+              2. Przejdź do zakładki <strong>«Skany»</strong> (lub «Zawartość cyfrowa»).<br>
+              3. Wybierz miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>.
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 4: WYCINKI CYFROWE -->
+        <div id="modalTabContentCrops" class="modal-tab-content" style="display:none;">
+          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
+            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/3).
+          </div>
+          <div style="margin-bottom:1.25rem;">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
+            <img src="crops_j3/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_top.jpg';">
+          </div>
+          <div>
+            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
+            <img src="crops_j3/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_bot.jpg';">
           </div>
         </div>
       `;
 
-      switchModalTab('crops');
       document.getElementById('detailModal').style.display = 'block';
     }
 

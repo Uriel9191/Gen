@@ -827,7 +827,7 @@
     </button>
     <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
       <span>🌳 Słownik Genealogiczny Mieszkańców</span>
-      <span class="tab-badge" id="genTabBadge">975</span>
+      <span class="tab-badge" id="genTabBadge">972</span>
     </button>
     <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
       <span>🏛️ Pełna Synteza Monograficzna</span>
@@ -917,7 +917,7 @@
       <div class="stats-grid">
         <div class="stat-card gold">
         <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
-        <div class="stat-value" id="genStatCount">975</div>
+        <div class="stat-value" id="genStatCount">972</div>
           <div class="stat-desc">Zintegrowane profile biograficzne</div>
         </div>
         <div class="stat-card success">
@@ -7049,7 +7049,7 @@ const genData = [
     ],
     "uwagi": "Wdowa (rodzina Chmiel). Zapisy oryginalne: Chmielowa wdowa",
     "lp": 48,
-    "wariant_nazwiska": "Wojciech Celej / Woyciech Celey / Woyciech Celej / Wojciech Celey"
+    "wariant_nazwiska": "Chmielowa / Chmielowa wdowa / Wdowa"
   },
   {
     "nazwisko": "Chruściel",
@@ -9114,7 +9114,8 @@ const genData = [
       }
     ],
     "uwagi": "Wdowa (rodzina Dyrda). Zapisy oryginalne: Dyrdowa [Pytlikowa?]",
-    "lp": 103
+    "lp": 103,
+    "wariant_nazwiska": "Dyrdowa / Pytlikowa? / Wdowa Dyrdowa"
   },
   {
     "nazwisko": "Dziad",
@@ -16928,7 +16929,7 @@ const genData = [
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Wojciech Lenart",
     "lp": 280,
-    "wariant_nazwiska": "Mikołay Łapa Ławnik / Łapa"
+    "wariant_nazwiska": "Lenart / Woyciech Lenart / Wojciech Lenart"
   },
   {
     "nazwisko": "Lesnioski",
@@ -39033,93 +39034,6 @@ const genData = [
   },
   {
     "lp": 797,
-    "nazwisko": "Chmiel",
-    "wariant_nazwiska": "Chmielowa / Chmielowa wdowa / Wdowa",
-    "imie": "[Wdowa]",
-    "przydomek": "",
-    "funkcja": "Mieszczka / Płatniczka dymowego",
-    "miejsce": "Śródmieście",
-    "skany_roboczo": "#135",
-    "skany_list": [
-      135
-    ],
-    "zakres_lat": "1778",
-    "min_rok": 1778,
-    "max_rok": 1778,
-    "liczba_wystapien": 1,
-    "wystapienia": [
-      {
-        "nazwisko": "Chmiel",
-        "imie": "[Wdowa]",
-        "miejsce": "Śródmieście",
-        "rola": "Płatniczka dymowego",
-        "skan": 135,
-        "rok": "1778",
-        "zapis_oryginalny": "Chmielowa wdowa",
-        "kwota_ctx": "1 zł 15 gr"
-      }
-    ]
-  },
-  {
-    "lp": 798,
-    "nazwisko": "Dyrda",
-    "wariant_nazwiska": "Dyrdowa / Pytlikowa? / Wdowa Dyrdowa",
-    "imie": "[Wdowa]",
-    "przydomek": "",
-    "funkcja": "Mieszczka / Płatniczka dymowego",
-    "miejsce": "Śródmieście",
-    "skany_roboczo": "#135",
-    "skany_list": [
-      135
-    ],
-    "zakres_lat": "1778",
-    "min_rok": 1778,
-    "max_rok": 1778,
-    "liczba_wystapien": 1,
-    "wystapienia": [
-      {
-        "nazwisko": "Dyrda",
-        "imie": "[Wdowa]",
-        "miejsce": "Śródmieście",
-        "rola": "Płatniczka dymowego",
-        "skan": 135,
-        "rok": "1778",
-        "zapis_oryginalny": "Dyrdowa",
-        "kwota_ctx": "1 zł 20 gr"
-      }
-    ]
-  },
-  {
-    "lp": 799,
-    "nazwisko": "Lenart",
-    "wariant_nazwiska": "Lenart / Woyciech Lenart / Wojciech Lenart",
-    "imie": "Wojciech",
-    "przydomek": "",
-    "funkcja": "Przedmieszczanin / Płatnik podymnego",
-    "miejsce": "Góry i Podlesie",
-    "skany_roboczo": "#131",
-    "skany_list": [
-      131
-    ],
-    "zakres_lat": "1777",
-    "min_rok": 1777,
-    "max_rok": 1777,
-    "liczba_wystapien": 1,
-    "wystapienia": [
-      {
-        "nazwisko": "Lenart",
-        "imie": "Wojciech",
-        "miejsce": "Góry i Podlesie",
-        "rola": "Płatnik podymnego",
-        "skan": 131,
-        "rok": "1777",
-        "zapis_oryginalny": "Woyciech Lenart",
-        "kwota_ctx": "2 zł"
-      }
-    ]
-  },
-  {
-    "lp": 800,
     "nazwisko": "Czekin",
     "wariant_nazwiska": "Czelinkarimir / Czelinkarimira / Czekin / Czekina / Stanisław Czekin / Stanisława Czekina",
     "imie": "Stanisław",
@@ -39148,7 +39062,7 @@ const genData = [
     ]
   },
   {
-    "lp": 801,
+    "lp": 798,
     "nazwisko": "Dryzder",
     "wariant_nazwiska": "Dryzder / Woyciech Dryzder Piaskowy / Wojciech Dryzder Piaskowy",
     "imie": "Wojciech",
@@ -39177,7 +39091,7 @@ const genData = [
     ]
   },
   {
-    "lp": 802,
+    "lp": 799,
     "nazwisko": "Cywka",
     "wariant_nazwiska": "Cywka / Woyciech Cywka Dziesiętnik / Wojciech Cywka Dziesiętnik",
     "imie": "Wojciech",
@@ -39206,7 +39120,7 @@ const genData = [
     ]
   },
   {
-    "lp": 803,
+    "lp": 800,
     "nazwisko": "Siedlik",
     "wariant_nazwiska": "Siedlik / Jozef Siedlik Dziesiętnik",
     "imie": "Józef",
@@ -39235,7 +39149,7 @@ const genData = [
     ]
   },
   {
-    "lp": 804,
+    "lp": 801,
     "nazwisko": "Szubartowski",
     "wariant_nazwiska": "Zubarzewski / Zubarzewskiemu / Szubartowski / Szubartowskiemu / Sławetny Zubarzewski",
     "imie": "Paweł",
@@ -39264,7 +39178,7 @@ const genData = [
     ]
   },
   {
-    "lp": 805,
+    "lp": 802,
     "nazwisko": "Benyś",
     "wariant_nazwiska": "Benyś / Beniuś / Benysiowi / Berek? / Pożyczkodawca",
     "imie": "Benyś",
@@ -39293,7 +39207,7 @@ const genData = [
     ]
   },
   {
-    "lp": 806,
+    "lp": 803,
     "nazwisko": "Abus",
     "wariant_nazwiska": "Abus / Abusowi / Abus Żyd / Abraham / Abusiowi Zydowi",
     "imie": "Abus",
@@ -39322,7 +39236,7 @@ const genData = [
     ]
   },
   {
-    "lp": 807,
+    "lp": 804,
     "nazwisko": "Mądrzycki",
     "wariant_nazwiska": "Mądrzycki / Mądrzyckiemu / Nadeycki / Nadeyckiemu / Sławetny Nadeycki",
     "imie": "[Brak imienia]",
@@ -39351,7 +39265,7 @@ const genData = [
     ]
   },
   {
-    "lp": 808,
+    "lp": 805,
     "nazwisko": "Dyrektor Szkoły",
     "wariant_nazwiska": "Dyrektor Szkoły / Dyrektorek Szkolny / Rektor / Rektorowi szkoły / Rektorowi",
     "imie": "[Brak imienia]",
@@ -39380,7 +39294,7 @@ const genData = [
     ]
   },
   {
-    "lp": 809,
+    "lp": 806,
     "nazwisko": "Herszek",
     "wariant_nazwiska": "Herszek / Henczek / Henczkowi Herszkowi",
     "imie": "Herszek",
@@ -39409,7 +39323,7 @@ const genData = [
     ]
   },
   {
-    "lp": 810,
+    "lp": 807,
     "nazwisko": "Sora",
     "wariant_nazwiska": "Sora / Sorze / Sora Żydówka / Sera / Serze Zydowce",
     "imie": "Sora",
@@ -39438,7 +39352,7 @@ const genData = [
     ]
   },
   {
-    "lp": 811,
+    "lp": 808,
     "nazwisko": "Gstęblowski",
     "wariant_nazwiska": "Gstęblowski / Gęblewski / Gęblewskiemu / Stembowski / Gstęmblewski",
     "imie": "[Brak imienia]",
@@ -39467,7 +39381,7 @@ const genData = [
     ]
   },
   {
-    "lp": 812,
+    "lp": 809,
     "nazwisko": "Kaznowski",
     "wariant_nazwiska": "Kaznowski / JmP. Kaznowski / Parkanowy",
     "imie": "[Brak imienia]",
@@ -39496,7 +39410,7 @@ const genData = [
     ]
   },
   {
-    "lp": 813,
+    "lp": 810,
     "nazwisko": "Marzycki",
     "wariant_nazwiska": "Marzycki / JmP. Marzycki / Rewizor",
     "imie": "[Brak imienia]",
@@ -39525,7 +39439,7 @@ const genData = [
     ]
   },
   {
-    "lp": 814,
+    "lp": 811,
     "nazwisko": "Kozak",
     "wariant_nazwiska": "Kozak / Łukasz Kozak",
     "imie": "Łukasz",
@@ -39554,7 +39468,7 @@ const genData = [
     ]
   },
   {
-    "lp": 815,
+    "lp": 812,
     "nazwisko": "Łopiński",
     "wariant_nazwiska": "Łopiński / Łopinski / Woy: Łopinski / Wojciech Łopiński / Woyciech Łopiński",
     "imie": "Wojciech",
@@ -39583,7 +39497,7 @@ const genData = [
     ]
   },
   {
-    "lp": 816,
+    "lp": 813,
     "nazwisko": "Wilczyński",
     "wariant_nazwiska": "Wilczynski / Franciszek Wilczyński / Franciszek Wileński / Wileński / Exaktor / Wileńskiego / Maciey Wilczyński / Wilczyński",
     "imie": "Franciszek",
@@ -39661,7 +39575,7 @@ const genData = [
     "uwagi": "Nowy egzaktor miejski wybrany i zaprzysiężony 3 IV 1778 r. wspólnie z Kazimierzem Rycerzem pod komisarzem Karolem Lipskim; prowadził kasę miejską do 26 XI 1779 r."
   },
   {
-    "lp": 817,
+    "lp": 814,
     "nazwisko": "Wilczyński",
     "wariant_nazwiska": "Wilczynski / Jan Wilczyński",
     "imie": "Jan",
@@ -39691,7 +39605,7 @@ const genData = [
     "uwagi": "Jeden z czterech kandydatów wysuniętych przez pospólstwo kraśnickie na urząd burmistrza 3 IV 1778 r."
   },
   {
-    "lp": 818,
+    "lp": 815,
     "nazwisko": "Wadowicz",
     "wariant_nazwiska": "Eliasz Wadowicz / Eli Wadowicz / Eli / Wadowicz niewierny",
     "imie": "Eliasz",
@@ -39721,7 +39635,7 @@ const genData = [
     "uwagi": "Kuśnierz starozakonny obrany podstarszym (młodszym) cechmistrzem cechu kuśnierskiego 28 X 1778 r. u boku Grzegorza Zdybickiego."
   },
   {
-    "lp": 819,
+    "lp": 816,
     "nazwisko": "Lewkowicz",
     "wariant_nazwiska": "Herszek Lewkowicz / Herszek / Lewkowicz starozakonny / Herszek Lewkowicz Cechmistrz / Cechmistrz Krawiecki",
     "imie": "Herszek",
@@ -39752,7 +39666,7 @@ const genData = [
     "uwagi": "Cechmistrz krawiecki wybrany 12 IV 1779 r. ze strony krawców żydowskich do wspólnego chrześcijańsko-żydowskiego zarządu cechu krawieckiego w Kraśniku u boku Jakuba Grzymka."
   },
   {
-    "lp": 820,
+    "lp": 817,
     "nazwisko": "Ciutkowski",
     "wariant_nazwiska": "Ciutkowski / Dawny Dyrektor Szkoły / Ciutkowskiego",
     "imie": "[N.]",
@@ -39782,7 +39696,7 @@ const genData = [
     "uwagi": "Pierwszy nauczyciel nowo erygowanej Szkoły Miejskiej na Bramie Murowanej, który zbiegł ze służby; resztę jego pensji 8 zł wypłacono sukcesorom."
   },
   {
-    "lp": 821,
+    "lp": 818,
     "nazwisko": "Ciałkowski",
     "wariant_nazwiska": "Ciałkowski / P. Ciałkowski / Ciałkowskiego",
     "imie": "[N.]",
@@ -39812,7 +39726,7 @@ const genData = [
     "uwagi": "Mieszkaniec Kraśnika lub urzędnik, za pośrednictwem którego uregulowano należność po zbiegłym dyrektorze szkoły Ciutkowskim."
   },
   {
-    "lp": 822,
+    "lp": 819,
     "nazwisko": "Grodzicki",
     "wariant_nazwiska": "Grodzicki / Jan Grodzicki / Pisarz Prowentowy Zamoyski / Imć Pan Grodzicki Leśniczy / Ziębiński",
     "imie": "Jan",
@@ -39843,7 +39757,7 @@ const genData = [
     "uwagi": "Urzędnik skarbowy Ordynacji Zamojskiej w Zamościu, odbierający od władz Kraśnika roczny podatek parkanowy na sumę 200 zł."
   },
   {
-    "lp": 823,
+    "lp": 820,
     "nazwisko": "Skrzelowski",
     "wariant_nazwiska": "Skrzelowski / Ekonom Zamkowy / Skrzelowskiego",
     "imie": "[N.]",
@@ -39873,7 +39787,7 @@ const genData = [
     "uwagi": "Ekonom ordynacki na zamku kraśnickim, obdarowany świąteczną kolędą z kasy miejskiej Kraśnika w 1779 r."
   },
   {
-    "lp": 824,
+    "lp": 821,
     "nazwisko": "Bęgas",
     "wariant_nazwiska": "Bęgasina / Aleksandrowa Bęgasina / Aleksandrowa Wdowa / Alexanrowa Bęgasina",
     "imie": "Aleksandrowa",
@@ -39903,7 +39817,7 @@ const genData = [
     "uwagi": "Wdowa po Aleksandrze Bęgasie w Śródmieściu Kraśnika płacąca symplę miejską w 1778 r."
   },
   {
-    "lp": 825,
+    "lp": 822,
     "nazwisko": "Zdyb",
     "wariant_nazwiska": "Zdybowa Adamowa / Adamowa Zdybowa / Adamowa",
     "imie": "Adamowa",
@@ -39933,7 +39847,7 @@ const genData = [
     "uwagi": "Wdowa po Adamie Zdybie w centrum Kraśnika odnotowana w taryfie sympli miejskiej z 3 IV 1778 r."
   },
   {
-    "lp": 826,
+    "lp": 823,
     "nazwisko": "Łukawski",
     "wariant_nazwiska": "Łukawski / Jędrzey Łukawski / Jędrzej Łukawski",
     "imie": "Jędrzej",
@@ -39963,7 +39877,7 @@ const genData = [
     "uwagi": "Gospodarz na Przedmieściu Piasek ujęty w taryfie sympli z 1778 r."
   },
   {
-    "lp": 827,
+    "lp": 824,
     "nazwisko": "Ciepły",
     "wariant_nazwiska": "Ciepłowa / Ciepłowa Wdowa / Ciepła Wdowa",
     "imie": "[Wdowa]",
@@ -39993,7 +39907,7 @@ const genData = [
     "uwagi": "Wdowa na Przedmieściu Piasek opodatkowana w rejestrze sympli z 1778 r."
   },
   {
-    "lp": 828,
+    "lp": 825,
     "nazwisko": "Podgórski",
     "wariant_nazwiska": "Podgórski / Grzegorz Podgórski / Podgorski",
     "imie": "Grzegorz",
@@ -40023,7 +39937,7 @@ const genData = [
     "uwagi": "Gospodarz na Przedmieściu Zarzyce notowany w sympli z 1778 r."
   },
   {
-    "lp": 829,
+    "lp": 826,
     "nazwisko": "Łazarz",
     "wariant_nazwiska": "Łazarz / Andrzey Łazarz / Andrzej Łazarz",
     "imie": "Andrzej",
@@ -40053,7 +39967,7 @@ const genData = [
     "uwagi": "Mieszkaniec Przedmieścia Piasek ujęty w rejestrze symplowym z 3 IV 1778 r."
   },
   {
-    "lp": 830,
+    "lp": 827,
     "nazwisko": "Tokarz",
     "wariant_nazwiska": "Tokarz / Andrzey Tokarz / Andrzej Tokarz",
     "imie": "Andrzej",
@@ -40083,7 +39997,7 @@ const genData = [
     "uwagi": "Rzemieślnik (tokarz) lub posesjonat na Przedmieściu Piasek notowany w sympli z 1778 r."
   },
   {
-    "lp": 831,
+    "lp": 828,
     "nazwisko": "Krajewski",
     "wariant_nazwiska": "Krajewski / Krayewski / Grzegorz Krayewski / Grzegorz Krajewski",
     "imie": "Grzegorz",
@@ -40113,7 +40027,7 @@ const genData = [
     "uwagi": "Szewc kraśnicki ukarany dyscyplinarnie przez sędziego Wyszyńskiego 26 XI 1779 r. za pijaństwo i pobicie żony, pod rygorem dyb i 50 plag."
   },
   {
-    "lp": 832,
+    "lp": 829,
     "nazwisko": "Krajewska",
     "wariant_nazwiska": "Krajewska / Żona Grzegorza Krajewskiego / Żonie swoiey",
     "imie": "[N.]",
@@ -40143,7 +40057,7 @@ const genData = [
     "uwagi": "Żona szewca Grzegorza Krajewskiego, ofiara pobicia (skaleczenie ręki) odnotowana w dekrecie sądowym sędziego Wyszyńskiego 26 XI 1779 r."
   },
   {
-    "lp": 833,
+    "lp": 830,
     "nazwisko": "Bora",
     "wariant_nazwiska": "Bora / Jędrzejowa Bora / Jędrzeyowey Borze / Bora Wdowa",
     "imie": "Jędrzejowa [Wdowa]",
@@ -40173,7 +40087,7 @@ const genData = [
     "uwagi": "Wdowa po Jędrzeju Borze, wierzycielka kasy miejskiej Kraśnika na sumę 12 zł za żupan i wyprawę do Kielc po kamień."
   },
   {
-    "lp": 834,
+    "lp": 831,
     "nazwisko": "Trojanowicz",
     "wariant_nazwiska": "Trojanowicz / Wolew Trojanowicz / Wolew Troianowicz / Troymowicz / Trojanowicz starozakonny",
     "imie": "Wolew",
@@ -40203,7 +40117,7 @@ const genData = [
     "uwagi": "Kuśnierz starozakonny wybrany 27 XI 1779 r. na podstarszego cechu kuśnierskiego w Kraśniku u boku Grzegorza Zdyba."
   },
   {
-    "lp": 835,
+    "lp": 832,
     "nazwisko": "Rosicki",
     "wariant_nazwiska": "Rosicki / Jakob Rosicki / Jakub Rosicki / Jakób Rosicki",
     "imie": "Jakub",
@@ -40233,7 +40147,7 @@ const genData = [
     "uwagi": "Posesjonat w Śródmieściu Kraśnika płacący symplę 5 gr w rejestrze z 26 XI 1779 r."
   },
   {
-    "lp": 836,
+    "lp": 833,
     "nazwisko": "Pachciarz",
     "wariant_nazwiska": "Pachciarz / Pachciarzowa Wdowa / Pachciarz Wdowa",
     "imie": "[Wdowa]",
@@ -40263,7 +40177,7 @@ const genData = [
     "uwagi": "Wdowa po pachciarzu miejskim ujęta w rejestrze sympli z 1779 r. ze stawką 1 gr."
   },
   {
-    "lp": 837,
+    "lp": 834,
     "nazwisko": "Podstolski",
     "wariant_nazwiska": "Podstolski / Piotr Podstolski",
     "imie": "Piotr",
@@ -40293,7 +40207,7 @@ const genData = [
     "uwagi": "Posesjonat w centrum Kraśnika opodatkowany kwotą 6 gr w taryfie sympli z 1779 r."
   },
   {
-    "lp": 838,
+    "lp": 835,
     "nazwisko": "Stanisz",
     "wariant_nazwiska": "Stanisz / Wawrzyniec Stanisz",
     "imie": "Wawrzyniec",
@@ -40323,7 +40237,7 @@ const genData = [
     "uwagi": "Znaczniejszy posesjonat w Rynku kraśnickim płacący najwyższą stawkę sympli 7 zł 1½ gr w 1779 r."
   },
   {
-    "lp": 839,
+    "lp": 836,
     "nazwisko": "Rzęcimorski",
     "wariant_nazwiska": "Rzęcimorski / Mikołay Rzęcimorski / Mikołaj Rzęcimorski",
     "imie": "Mikołaj",
@@ -40353,7 +40267,7 @@ const genData = [
     "uwagi": "Mieszkaniec Kraśnika płacący 1 zł sympli miejskiej w 1779 r."
   },
   {
-    "lp": 840,
+    "lp": 837,
     "nazwisko": "Piątkowski",
     "wariant_nazwiska": "Piątkowski / Piatkowski / Woyciech Piatkowski / Wojciech Piątkowski / Wojciech Piatkowski / Woyciech Piątkowski",
     "imie": "Wojciech",
@@ -40383,7 +40297,7 @@ const genData = [
     "uwagi": "Mieszkaniec Śródmieścia ujęty w rejestrze sympli z 1779 r. ze stawką 2 gr."
   },
   {
-    "lp": 841,
+    "lp": 838,
     "nazwisko": "Królicka",
     "wariant_nazwiska": "Królicka / Krulicka / Jakubowa Krulicka / Królicka Wdowa / Jakóbowa Krulicka",
     "imie": "Jakubowa [Wdowa]",
@@ -40413,7 +40327,7 @@ const genData = [
     "uwagi": "Wdowa po Jakubie Królickim na Przedmieściu Piasek płacąca 7½ gr sympli w 1779 r."
   },
   {
-    "lp": 842,
+    "lp": 839,
     "nazwisko": "Ciurka",
     "wariant_nazwiska": "Ciurka / Ciurkowa Wdowa / Ciurkowa / Ciurka Wdowa",
     "imie": "[Wdowa]",
@@ -40443,7 +40357,7 @@ const genData = [
     "uwagi": "Wdowa po Ciurce na Przedmieściu Piasek notowana w sympli 1779 r. ze składką 12 gr."
   },
   {
-    "lp": 843,
+    "lp": 840,
     "nazwisko": "Jęczorek",
     "wariant_nazwiska": "Jęczorek / Wawrzyniec Jęczorek",
     "imie": "Wawrzyniec",
@@ -40473,7 +40387,7 @@ const genData = [
     "uwagi": "Gospodarz na Przedmieściu Piasek płacący 12 gr sympli w 1779 r."
   },
   {
-    "lp": 844,
+    "lp": 841,
     "nazwisko": "Rądrab",
     "wariant_nazwiska": "Rądrab / Tomasz Rądrab / Rondrab / Rądrąb",
     "imie": "Tomasz",
@@ -40503,7 +40417,7 @@ const genData = [
     "uwagi": "Gospodarz na Górach i Podlesiu opodatkowany symplą 15 gr w rejestrze z 26 XI 1779 r."
   },
   {
-    "lp": 845,
+    "lp": 842,
     "nazwisko": "Cukierka",
     "wariant_nazwiska": "Cukierka / Szymon Cukierka",
     "imie": "Szymon",
@@ -40533,7 +40447,7 @@ const genData = [
     "uwagi": "Posesjonat w dzielnicy Góry i Podlesie płacący 14 gr sympli w 1779 r."
   },
   {
-    "lp": 846,
+    "lp": 843,
     "nazwisko": "Bułka",
     "wariant_nazwiska": "Bułka / Tomasz Bułka / Tomek Bułka",
     "imie": "Tomasz",
@@ -40563,7 +40477,7 @@ const genData = [
     "uwagi": "Gospodarz na Górach i Podlesiu płacący 13 gr sympli w 1779 r."
   },
   {
-    "lp": 847,
+    "lp": 844,
     "nazwisko": "Gąska",
     "wariant_nazwiska": "Gąska / Franciszek Gąska / Franek Gąska",
     "imie": "Franciszek",
@@ -40593,7 +40507,7 @@ const genData = [
     "uwagi": "Mieszkaniec dzielnicy Góry i Podlesie ujęty w rejestrze sympli z 1779 r."
   },
   {
-    "lp": 848,
+    "lp": 845,
     "nazwisko": "Zięba",
     "wariant_nazwiska": "Zięba / Walenty Zięba / Walwet Ziębica / Ziębica / Tomasz Zięmba / Tomasz Zięba",
     "imie": "Walenty",
@@ -40623,7 +40537,7 @@ const genData = [
     "uwagi": "Gospodarz na Górach i Podlesiu notowany w rejestrze symplowym z 1779 r."
   },
   {
-    "lp": 849,
+    "lp": 846,
     "nazwisko": "Dejka",
     "wariant_nazwiska": "Dejka / Kazimierz Dejka / Kazimierz Deyka / Deyka",
     "imie": "Kazimierz",
@@ -40653,7 +40567,7 @@ const genData = [
     "uwagi": "Gospodarz na Przedmieściu Piasek opodatkowany kwotą 7½ gr sympli w 1779 r."
   },
   {
-    "lp": 850,
+    "lp": 847,
     "nazwisko": "Laszczyk",
     "wariant_nazwiska": "Laszczyk / Laszczykowa Wdowa / Laszczyka Wdowa",
     "imie": "[Wdowa]",
@@ -40683,7 +40597,7 @@ const genData = [
     "uwagi": "Wdowa na Przedmieściu Piasek płacąca 7½ gr sympli w 1779 r."
   },
   {
-    "lp": 851,
+    "lp": 848,
     "nazwisko": "Zarzycka",
     "wariant_nazwiska": "Zarzycka / Zarzycka Wdowa / Michałowa Zariska",
     "imie": "Michałowa [Wdowa]",
@@ -40713,7 +40627,7 @@ const genData = [
     "uwagi": "Wdowa po Michale Zarzyckim w Śródmieściu Kraśnika notowana w sympli 1779 r."
   },
   {
-    "lp": 852,
+    "lp": 849,
     "nazwisko": "Stachera",
     "wariant_nazwiska": "Stachera / Stachera Wdowa / Stacherwa Wdowa",
     "imie": "[Wdowa]",
@@ -40743,7 +40657,7 @@ const genData = [
     "uwagi": "Wdowa po Stacherze na Przedmieściu Piasek ujęta w sympli z 1779 r."
   },
   {
-    "lp": 853,
+    "lp": 850,
     "nazwisko": "Tarnawska",
     "wariant_nazwiska": "Tarnawska / Antoniowa Tarnawska / Tarnawska Wdowa",
     "imie": "Antoniowa [Wdowa]",
@@ -40848,7 +40762,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Franciszek Chrzanowski / Franciszkowi Chrzanowskiemu / Dyrektor Szkoły / Dyrektor / P. Dyrektor / Dyrektorowi Szkoły Mieyskiey / Nauczyciel. Dyrektor Szkoły Miejskiej na Bramie Murowanej w latach 1779–1782. Pobierał roczną pensję 200 zł (później zredukowaną dekretem sędziego Wyszyńskiego do 100 zł) oraz 16 zł dodatku na stancję izby szkolnej.",
-    "lp": 854,
+    "lp": 851,
     "wariant_nazwiska": "Franciszek Chrzanowski / Franciszkowi Chrzanowskiemu / Dyrektor Szkoły / Dyrektor / P. Dyrektor / Dyrektorowi Szkoły Mieyskiey / Nauczyciel / Dyrektor Mieyski"
   },
   {
@@ -40908,7 +40822,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kotton / Woźny Kotton / Kottonowi / Sługa Mieyski Kotton / Kotton Woźny Mieyski. Woźny i sługa magistratu kraśnickiego w latach 1781–1782. Otrzymywał roczne utrzymanie i strawne (5 zł 20 gr miesięcznie) oraz pełne umundurowanie miejskie (barwa, buty, kożuch, suknia, spodnie, pół żupana) uregulowane ordynacją sędziego Wyszyńskiego na kwotę 64 zł rocznie.",
-    "lp": 855,
+    "lp": 852,
     "wariant_nazwiska": "Kotton / Woźny Kotton / Kottonowi / Sługa Mieyski Kotton / Kotton Woźny Mieyski"
   },
   {
@@ -40937,7 +40851,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Wawrzyniec Kielaszkiewicz / Kielaszkiewicz / Ławnik Kielaszkiewicz. Wybrany i aprobowany jako trzeci ławnik sądu radziecko-wójtowskiego na sesji elekcyjnej w dniu 18 maja 1781 r.",
-    "lp": 856,
+    "lp": 853,
     "wariant_nazwiska": "Wawrzyniec Kielaszkiewicz / Kielaszkiewicz / Ławnik Kielaszkiewicz"
   },
   {
@@ -40966,7 +40880,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Herszek Zeluśkowicz / Zeluśkowicz / Herszek / Cechmistrz Kuśnierski. Starszy żydowski cechu kuśnierskiego w Kraśniku, wybrany na funkcję wtórego cechmistrza w dniu 18 maja 1781 r. u boku chrześcijańskiego starszego Łukasza Dybickiego.",
-    "lp": 857,
+    "lp": 854,
     "wariant_nazwiska": "Herszek Zeluśkowicz / Zeluśkowicz / Herszek / Cechmistrz Kuśnierski"
   },
   {
@@ -40996,7 +40910,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Łuczyński / P. Łuczyński / Łuczyńskiemu / Pisarz Przysięgły Łuczyński. Pisarz przysięgły kancelarii miejskiej, któremu 10 listopada 1782 r. asygnowano z kasy gotówkowej 39 zł za ekspedycję i spisywanie dekretów sądowych.",
-    "lp": 858,
+    "lp": 855,
     "wariant_nazwiska": "Łuczyński / P. Łuczyński / Łuczyńskiemu / Pisarz Przysięgły Łuczyński / Pisarz Łuczyński"
   },
   {
@@ -41025,7 +40939,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Konopka / P. Konopka / Konopce / Pisarz Aktowy Konopka. Pisarz aktowy Trybunału Koronnego w Lublinie, wynagrodzony przez magistrat sumą 37 zł 15 gr za prowadzenie spraw prawnych i obronę interesów Kraśnika przed Trybunałem.",
-    "lp": 859,
+    "lp": 856,
     "wariant_nazwiska": "Konopka / P. Konopka / Konopce / Pisarz Aktowy Konopka / Pisarz Konopka"
   },
   {
@@ -41054,7 +40968,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Dégin / Degin / Jan Dégin / JP Dégin / Degina. Urzędnik ordynacki wizytujący Kraśnik w celu zrewidowania kasy miejskiej i skontrolowania rachunków egzakcji w 1780/1781 r.",
-    "lp": 860,
+    "lp": 857,
     "wariant_nazwiska": "Dégin / Degin / Jan Dégin / JP Dégin / Degina / Jan Degin / JP Degin"
   },
   {
@@ -41083,7 +40997,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Czarnicki / JP Czarnicki / Czarnickiego. Szlachcic pobierający od miasta roczny czynsz dzierżawny z łąk miejskich w kwocie 8 zł 15 gr.",
-    "lp": 861,
+    "lp": 858,
     "wariant_nazwiska": "Czarnicki / JP Czarnicki / Czarnickiego"
   },
   {
@@ -41112,7 +41026,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kotlarz / Żyd Kotlarz / Kotlarza. Rzemieślnik żydowski poszkodowany przez przechodzące wojska carskie, które zarekwirowały mu worek miedziany; otrzymał w 1780 r. odszkodowanie 18 zł z kasy miejskiej.",
-    "lp": 862,
+    "lp": 859,
     "wariant_nazwiska": "Kotlarz / Żyd Kotlarz / Kotlarza"
   },
   {
@@ -41141,7 +41055,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Rzepcicka / Rzepcicka Wdowa / Wdowa Rzepcicka. Wdowa posiadająca dom w centrum Kraśnika, opłacająca w regestrze sympli z 23 września 1780 r. składkę 2 grosze.",
-    "lp": 863,
+    "lp": 860,
     "wariant_nazwiska": "Rzepcicka / Rzepcicka Wdowa / Wdowa Rzepcicka"
   },
   {
@@ -41170,7 +41084,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kasprowa / Kasprowa Wdowa / Wdowa Kasprowa. Wdowa miejska w rynku kraśnickim, opłacająca symplę 4 grosze w 1780 r.",
-    "lp": 864,
+    "lp": 861,
     "wariant_nazwiska": "Kasprowa / Kasprowa Wdowa / Wdowa Kasprowa"
   },
   {
@@ -41199,7 +41113,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Katarzyna Zaniewska / Zaniewska / Daniewska. Właścicielka posesji w rynku kraśnickim, opłacająca symplę 3 grosze w 1780 r.",
-    "lp": 865,
+    "lp": 862,
     "wariant_nazwiska": "Katarzyna Zaniewska / Zaniewska / Daniewska"
   },
   {
@@ -41228,7 +41142,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Zofia Kłusowska Wdowa / Zofia Kłusowska / Kłusowska / Kłusowska Wdowa. Uboga wdowa rynkowa opłacająca minimalną symplę 1 grosza w regestrze z 1780 r.",
-    "lp": 866,
+    "lp": 863,
     "wariant_nazwiska": "Zofia Kłusowska Wdowa / Zofia Kłusowska / Kłusowska / Kłusowska Wdowa"
   },
   {
@@ -41257,7 +41171,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Józef Korzepski / Korzepski. Posiadacz parceli w rynku kraśnickim opłacający symplę 1 grosza w 1780 r.",
-    "lp": 867,
+    "lp": 864,
     "wariant_nazwiska": "Józef Korzepski / Korzepski"
   },
   {
@@ -41286,7 +41200,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Józef Słotka / Słotka / Slotka. Posesjonat rynkowy w Kraśniku, opłacający 5 groszy sympli w 1780 r.",
-    "lp": 868,
+    "lp": 865,
     "wariant_nazwiska": "Józef Słotka / Słotka / Slotka"
   },
   {
@@ -41315,7 +41229,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Grzegorz Leonorowski / Leonorowski / Lenartowski. Zamożniejszy posesjonat w centrum miasta, uiszczający 10 groszy sympli w 1780 r.",
-    "lp": 869,
+    "lp": 866,
     "wariant_nazwiska": "Grzegorz Leonorowski / Leonorowski / Lenartowski"
   },
   {
@@ -41344,7 +41258,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Mutowski / Mutowski. Posiadacz domu w drugiej kolumnie rynkowej, opłacający 3 grosze sympli w 1780 r.",
-    "lp": 870,
+    "lp": 867,
     "wariant_nazwiska": "Jan Mutowski / Mutowski"
   },
   {
@@ -41373,7 +41287,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Szymon Niewiadzski / Niewiadzski / Niewiadomski. Posesjonat w centrum miasta, uiszczający 1 grosz sympli w 1780 r.",
-    "lp": 871,
+    "lp": 868,
     "wariant_nazwiska": "Szymon Niewiadzski / Niewiadzski / Niewiadomski"
   },
   {
@@ -41402,7 +41316,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jgnacy Szalenczyński / Ignacy Szalenczyński / Szalenczyński / Szaleńczyński. Posesjonat rynkowy w Kraśniku, opłacający 3 grosze sympli w 1780 r.",
-    "lp": 872,
+    "lp": 869,
     "wariant_nazwiska": "Jgnacy Szalenczyński / Ignacy Szalenczyński / Szalenczyński / Szaleńczyński"
   },
   {
@@ -41431,7 +41345,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Woyciech Brzeszowski / Wojciech Brzeszowski / Brzeszowski. Właściciel nieruchomości przy ulicy Lubelskiej, opłacający 4 grosze sympli w 1780 r.",
-    "lp": 873,
+    "lp": 870,
     "wariant_nazwiska": "Woyciech Brzeszowski / Wojciech Brzeszowski / Brzeszowski"
   },
   {
@@ -41460,7 +41374,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Piotr Małczyński / Małczyński / Malczyński. Posiadacz domu przy ulicy Lubelskiej, opłacający 4 grosze sympli w 1780 r.",
-    "lp": 874,
+    "lp": 871,
     "wariant_nazwiska": "Piotr Małczyński / Małczyński / Malczyński"
   },
   {
@@ -41489,7 +41403,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Antoni Oleynik / Antoni Olejnik / Oleynik / Olejnik. Posesjonat i wytwórca oleju przy ulicy Lubelskiej, opłacający 2 grosze sympli w 1780 r.",
-    "lp": 875,
+    "lp": 872,
     "wariant_nazwiska": "Antoni Oleynik / Antoni Olejnik / Oleynik / Olejnik"
   },
   {
@@ -41518,7 +41432,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Sukcesor Manczewicza / Manczewicz / Manczewicza. Spadkobierca dawnej posesji mieszczańskiej Manczewicza przy ul. Lubelskiej, opłacający 1 grosz sympli.",
-    "lp": 876,
+    "lp": 873,
     "wariant_nazwiska": "Sukcesor Manczewicza / Manczewicz / Manczewicza"
   },
   {
@@ -41547,7 +41461,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Sukcesorowie z Andlosza / Andlosz / Andlosza. Sukcesorowie nieruchomości po Andloszu przy ulicy Lubelskiej, uiszczający 5 groszy sympli w 1780 r.",
-    "lp": 877,
+    "lp": 874,
     "wariant_nazwiska": "Sukcesorowie z Andlosza / Andlosz / Andlosza"
   },
   {
@@ -41576,7 +41490,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Fratkowska / Marianna Fratkowska / Fratkowska. Właścicielka domu przy ulicy Lubelskiej, opłacająca 3 grosze sympli w 1780 r.",
-    "lp": 878,
+    "lp": 875,
     "wariant_nazwiska": "Maryanna Fratkowska / Marianna Fratkowska / Fratkowska"
   },
   {
@@ -41605,7 +41519,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Paweł Jeś / Jeś / Jes. Zamożny gospodarz przedmiejski na Piasku, opłacający wysoką stawkę 18 groszy sympli w 1780 r.",
-    "lp": 879,
+    "lp": 876,
     "wariant_nazwiska": "Paweł Jeś / Jeś / Jes"
   },
   {
@@ -41634,7 +41548,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Szymon Antczyk / Antczyk / Anczyk. Przedmieszczanin na Piasku, opłacający 13 groszy sympli w 1780 r.",
-    "lp": 880,
+    "lp": 877,
     "wariant_nazwiska": "Szymon Antczyk / Antczyk / Anczyk"
   },
   {
@@ -41663,7 +41577,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Ciezkowa / Marianna Ciezkowa / Ciezkowa / Ciężkowa. Posiadaczka gospodarstwa na Piasku, opłacająca 14 groszy sympli w 1780 r.",
-    "lp": 881,
+    "lp": 878,
     "wariant_nazwiska": "Maryanna Ciezkowa / Marianna Ciezkowa / Ciezkowa / Ciężkowa"
   },
   {
@@ -41692,7 +41606,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Łukasz Lapsa / Lapsa. Przedmieszczanin piaskowy opłacający znaczną sumę 19 groszy sympli w 1780 r.",
-    "lp": 882,
+    "lp": 879,
     "wariant_nazwiska": "Łukasz Lapsa / Lapsa"
   },
   {
@@ -41721,7 +41635,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Stanisławowa Witkowa / Witkowa / Stanisławowa Witkowa Wdowa. Wdowa gospodarująca na Przedmieściu Piasek, płacąca 10 groszy sympli w 1780 r.",
-    "lp": 883,
+    "lp": 880,
     "wariant_nazwiska": "Stanisławowa Witkowa / Witkowa / Stanisławowa Witkowa Wdowa"
   },
   {
@@ -41750,7 +41664,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Piotr Buńcyk / Buńcyk / Bunczyk. Przedmieszczanin na Piasku, płacący 7 groszy sympli w 1780 r.",
-    "lp": 884,
+    "lp": 881,
     "wariant_nazwiska": "Piotr Buńcyk / Buńcyk / Bunczyk"
   },
   {
@@ -41779,7 +41693,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jurowa / Jurowa Wdowa / Wdowa Jurowa. Zamożna wdowa na Piasku, opłacająca wysoką składkę 20 groszy sympli w 1780 r.",
-    "lp": 885,
+    "lp": 882,
     "wariant_nazwiska": "Jurowa / Jurowa Wdowa / Wdowa Jurowa"
   },
   {
@@ -41808,7 +41722,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Antoni Tkaczyk / Tkaczyk. Przedmieszczanin i rzemieślnik tkacki na Piasku, płacący 21 groszy sympli w 1780 r.",
-    "lp": 886,
+    "lp": 883,
     "wariant_nazwiska": "Antoni Tkaczyk / Tkaczyk"
   },
   {
@@ -41837,7 +41751,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jakub Jasionek / Jasionek. Zamożny gospodarz na Przedmieściu Piasek, płacący 24 grosze sympli w 1780 r.",
-    "lp": 887,
+    "lp": 884,
     "wariant_nazwiska": "Jakub Jasionek / Jasionek / Jakób Jasionek"
   },
   {
@@ -41866,7 +41780,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Tomasz Jądrzyk / Jądrzyk / Jadrzyk / Jołdzyk. Gospodarz na Piasku opłacający 24 grosze sympli w 1780 r.",
-    "lp": 888,
+    "lp": 885,
     "wariant_nazwiska": "Tomasz Jądrzyk / Jądrzyk / Jadrzyk / Jołdzyk"
   },
   {
@@ -41895,7 +41809,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Büntek / Büntek / Buntek / Bintek. Przedmieszczanin na Piasku płacący 25 groszy sympli w 1780 r.",
-    "lp": 889,
+    "lp": 886,
     "wariant_nazwiska": "Jan Büntek / Büntek / Buntek / Bintek"
   },
   {
@@ -41924,7 +41838,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Wądzik / Wądzik / Wandzik. Przedmieszczanin na Piasku opłacający 13 groszy sympli w 1780 r.",
-    "lp": 890,
+    "lp": 887,
     "wariant_nazwiska": "Jan Wądzik / Wądzik / Wandzik"
   },
   {
@@ -41953,7 +41867,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Anna Tokarzowa Wdowa / Anna Tokarzowa / Tokarzowa / Tokarzowa Wdowa. Wdowa na Piasku opłacająca 19 groszy sympli w 1780 r.",
-    "lp": 891,
+    "lp": 888,
     "wariant_nazwiska": "Anna Tokarzowa Wdowa / Anna Tokarzowa / Tokarzowa / Tokarzowa Wdowa"
   },
   {
@@ -41982,7 +41896,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Katarzyna Jaczkowa / Jaczkowa. Przedmieszczanka piaskowa uiszczająca 15 groszy sympli w 1780 r.",
-    "lp": 892,
+    "lp": 889,
     "wariant_nazwiska": "Katarzyna Jaczkowa / Jaczkowa"
   },
   {
@@ -42011,7 +41925,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Woyciech Drag / Wojciech Drąg / Drag / Drąg. Przedmieszczanin piaskowy opłacający 14 groszy sympli w 1780 r.",
-    "lp": 893,
+    "lp": 890,
     "wariant_nazwiska": "Woyciech Drag / Wojciech Drąg / Drag / Drąg / Wojciech Drag / Woyciech Drąg"
   },
   {
@@ -42040,7 +41954,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Joachim Karobacz / Karobacz. Przedmieszczanin na Piasku opłacający 7 groszy sympli w 1780 r.",
-    "lp": 894,
+    "lp": 891,
     "wariant_nazwiska": "Joachim Karobacz / Karobacz"
   },
   {
@@ -42069,7 +41983,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Rozalia Zielińska / Zielińska. Przedmieszczanka piaskowa płacąca 7 groszy sympli w 1780 r.",
-    "lp": 895,
+    "lp": 892,
     "wariant_nazwiska": "Rozalia Zielińska / Zielińska"
   },
   {
@@ -42098,7 +42012,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Woycechowa Wdowa / Marianna Wojciechowa / Woycechowa / Wojciechowa. Wdowa na Piasku opłacająca 7 groszy sympli w 1780 r.",
-    "lp": 896,
+    "lp": 893,
     "wariant_nazwiska": "Maryanna Woycechowa Wdowa / Marianna Wojciechowa / Woycechowa / Wojciechowa / Marianna Woycechowa Wdowa / Maryanna Wojciechowa / Marianna Woyciechowa / Woyciechowa / Maryanna Woycechowa"
   },
   {
@@ -42127,7 +42041,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Barbara Bielikowa / Bielikowa. Przedmieszczanka piaskowa uiszczająca 10 groszy sympli w 1780 r.",
-    "lp": 897,
+    "lp": 894,
     "wariant_nazwiska": "Barbara Bielikowa / Bielikowa"
   },
   {
@@ -42156,7 +42070,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Stanisław Woycika Żona / Stanisławowa Wójcikowa / Woycika Żona / Wójcikowa. Gospodyni na Piasku płacąca 23 grosze sympli w 1780 r.",
-    "lp": 898,
+    "lp": 895,
     "wariant_nazwiska": "Stanisław Woycika Żona / Stanisławowa Wójcikowa / Woycika Żona / Wójcikowa / Stanisław Wójcika żona / Stanisław Woycika żona / Wójcika / Woycika"
   },
   {
@@ -42185,7 +42099,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Stanisław Smolecki / Smolecki. Gospodarz na Zarzycach opłacający 6 groszy sympli w 1780 r.",
-    "lp": 899,
+    "lp": 896,
     "wariant_nazwiska": "Stanisław Smolecki / Smolecki"
   },
   {
@@ -42214,7 +42128,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Lygakowa / Marianna Lygakowa / Lygakowa / Łygakowa. Przedmieszczanka na Zarzycach uiszczająca 17 groszy sympli w 1780 r.",
-    "lp": 900,
+    "lp": 897,
     "wariant_nazwiska": "Maryanna Lygakowa / Marianna Lygakowa / Lygakowa / Łygakowa"
   },
   {
@@ -42243,7 +42157,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Kiliszkowa / Marianna Kiliszkowa / Kiliszkowa. Przedmieszczanka na Zarzycach opłacająca 14 groszy sympli w 1780 r.",
-    "lp": 901,
+    "lp": 898,
     "wariant_nazwiska": "Maryanna Kiliszkowa / Marianna Kiliszkowa / Kiliszkowa"
   },
   {
@@ -42272,7 +42186,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maciey Szubartowski / Maciej Szubartowski / Szubartowski. Przedmieszczanin na Zarzycach opłacający 7 groszy sympli w 1780 r.",
-    "lp": 902,
+    "lp": 899,
     "wariant_nazwiska": "Maciey Szubartowski / Maciej Szubartowski / Szubartowski"
   },
   {
@@ -42301,7 +42215,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Bartłomiey Wiaterko / Bartłomiej Wiaterko / Wiaterko. Przedmieszczanin zarzycki opłacający 15 groszy sympli w 1780 r.",
-    "lp": 903,
+    "lp": 900,
     "wariant_nazwiska": "Bartłomiey Wiaterko / Bartłomiej Wiaterko / Wiaterko"
   },
   {
@@ -42330,7 +42244,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Grzegorz Jarzynka / Jarzynka. Zamożny gospodarz na Zarzycach płacący 22 grosze sympli w 1780 r.",
-    "lp": 904,
+    "lp": 901,
     "wariant_nazwiska": "Grzegorz Jarzynka / Jarzynka"
   },
   {
@@ -42359,7 +42273,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Cwiczkowa Wdowa / Marianna Ćwiczkowa / Cwiczkowa / Ćwiczkowa. Wdowa gospodarująca na Zarzycach, opłacająca 14 groszy sympli w 1780 r.",
-    "lp": 905,
+    "lp": 902,
     "wariant_nazwiska": "Maryanna Cwiczkowa Wdowa / Marianna Ćwiczkowa / Cwiczkowa / Ćwiczkowa / Marianna Cwiczkowa Wdowa / Maryanna Ćwiczkowa / Maryanna Cwiczkowa"
   },
   {
@@ -42388,7 +42302,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maciey Rydzynek / Maciej Rydzynek / Rydzynek. Przedmieszczanin zarzycki płacący 19 groszy sympli w 1780 r.",
-    "lp": 906,
+    "lp": 903,
     "wariant_nazwiska": "Maciey Rydzynek / Maciej Rydzynek / Rydzynek"
   },
   {
@@ -42417,7 +42331,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Mathiasz Piotrzkowski / Maciej Piotrzkowski / Piotrzkowski. Gospodarz na Zarzycach opłacający 14 groszy sympli w 1780 r.",
-    "lp": 907,
+    "lp": 904,
     "wariant_nazwiska": "Mathiasz Piotrzkowski / Maciej Piotrzkowski / Piotrzkowski / Matiasz Piotrzkowski"
   },
   {
@@ -42446,7 +42360,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Marcin Rymarczyk / Rymarczyk. Rzemieślnik rymarski na Zarzycach, opłacający 7 groszy sympli w 1780 r.",
-    "lp": 908,
+    "lp": 905,
     "wariant_nazwiska": "Marcin Rymarczyk / Rymarczyk"
   },
   {
@@ -42475,7 +42389,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Rymarzowa Wdowa / Marianna Rymarzowa / Rymarzowa / Rymarzowa Wdowa. Wdowa przedmiejska na Zarzycach płacąca 7 groszy sympli w 1780 r.",
-    "lp": 909,
+    "lp": 906,
     "wariant_nazwiska": "Maryanna Rymarzowa Wdowa / Marianna Rymarzowa / Rymarzowa / Rymarzowa Wdowa / Marianna Rymarzowa Wdowa / Maryanna Rymarzowa"
   },
   {
@@ -42504,7 +42418,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Kotworkowna / Marianna Kotworkówna / Kotworkowna / Kotworkówna. Posiadaczka parceli na Zarzycach opłacająca 12 groszy sympli w 1780 r.",
-    "lp": 910,
+    "lp": 907,
     "wariant_nazwiska": "Maryanna Kotworkowna / Marianna Kotworkówna / Kotworkowna / Kotworkówna / Marianna Kotworkowna / Maryanna Kotworkówna"
   },
   {
@@ -42533,7 +42447,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Anna Łozina Wdowa / Anna Łozina / Łozina / Łozina Wdowa. Wdowa na Zarzycach płacąca 10 groszy sympli w 1780 r.",
-    "lp": 911,
+    "lp": 908,
     "wariant_nazwiska": "Anna Łozina Wdowa / Anna Łozina / Łozina / Łozina Wdowa"
   },
   {
@@ -42562,7 +42476,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Krystyna Merkowa Wdowa / Krystyna Merkowa / Merkowa / Merkowa Wdowa. Wdowa na Zarzycach uiszczająca 14 groszy sympli w 1780 r.",
-    "lp": 912,
+    "lp": 909,
     "wariant_nazwiska": "Krystyna Merkowa Wdowa / Krystyna Merkowa / Merkowa / Merkowa Wdowa"
   },
   {
@@ -42591,7 +42505,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jakob Łatczyk / Jakub Łatczyk / Łatczyk. Przedmieszczanin zarzycki płacący 5 groszy sympli w 1780 r.",
-    "lp": 913,
+    "lp": 910,
     "wariant_nazwiska": "Jakob Łatczyk / Jakub Łatczyk / Łatczyk / Jakób Łatczyk"
   },
   {
@@ -42620,7 +42534,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Sebestyan Łygak / Sebastian Łygak / Łygak. Przedmieszczanin zarzycki opłacający 5 groszy sympli w 1780 r.",
-    "lp": 914,
+    "lp": 911,
     "wariant_nazwiska": "Sebestyan Łygak / Sebastian Łygak / Łygak"
   },
   {
@@ -42649,7 +42563,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kazimierz Decza / Decza. Przedmieszczanin zarzycki płacący 5 groszy sympli w 1780 r.",
-    "lp": 915,
+    "lp": 912,
     "wariant_nazwiska": "Kazimierz Decza / Decza"
   },
   {
@@ -42678,7 +42592,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Józef Rozpędzisz z Dziećmi / Józef Rozpędzisz / Rozpędzisz. Przedmieszczanin gospodarujący z dziećmi na Zarzycach, opłacający 12 groszy sympli w 1780 r.",
-    "lp": 916,
+    "lp": 913,
     "wariant_nazwiska": "Józef Rozpędzisz z Dziećmi / Józef Rozpędzisz / Rozpędzisz"
   },
   {
@@ -42707,7 +42621,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Antoni Rozpędzisz / Rozpędzisz. Przedmieszczanin zarzycki płacący 12 groszy sympli w 1780 r.",
-    "lp": 917,
+    "lp": 914,
     "wariant_nazwiska": "Antoni Rozpędzisz / Rozpędzisz"
   },
   {
@@ -42736,7 +42650,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kacper Bączonka / Bączonka / Bąk. Zamożniejszy gospodarz na Zarzycach opłacający 18 groszy sympli w 1780 r.",
-    "lp": 918,
+    "lp": 915,
     "wariant_nazwiska": "Kacper Bączonka / Bączonka / Bąk"
   },
   {
@@ -42765,7 +42679,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Matyasz Kuśnierz / Maciej Kuśnierz / Kuśnierz. Rzemieślnik kuśnierski na Zarzycach, opłacający 12 groszy sympli w 1780 r.",
-    "lp": 919,
+    "lp": 916,
     "wariant_nazwiska": "Matyasz Kuśnierz / Maciej Kuśnierz / Kuśnierz / Matiasz Kuśnierz"
   },
   {
@@ -42794,7 +42708,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Wawrzyniec Owczarzyk / Owczarzyk. Przedmieszczanin na Zarzycach opłacający 10 groszy sympli w 1780 r.",
-    "lp": 920,
+    "lp": 917,
     "wariant_nazwiska": "Wawrzyniec Owczarzyk / Owczarzyk"
   },
   {
@@ -42823,7 +42737,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Sukcesor Ziomkowski / Ziomkowski / Ziomkowskiego. Spadkobierca posesji po Ziomkowskim na Górach, płacący 10 groszy sympli w 1780 r.",
-    "lp": 921,
+    "lp": 918,
     "wariant_nazwiska": "Sukcesor Ziomkowski / Ziomkowski / Ziomkowskiego"
   },
   {
@@ -42852,7 +42766,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Sebestyan Tygryczak / Sebastian Tygryczak / Tygryczak. Przedmieszczanin na Górach opłacający 5 groszy sympli w 1780 r.",
-    "lp": 922,
+    "lp": 919,
     "wariant_nazwiska": "Sebestyan Tygryczak / Sebastian Tygryczak / Tygryczak"
   },
   {
@@ -42881,7 +42795,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jozef Sadzik / Józef Sadzik / Sadzik. Gospodarz na Górach opłacający 10 groszy sympli w 1780 r.",
-    "lp": 923,
+    "lp": 920,
     "wariant_nazwiska": "Jozef Sadzik / Józef Sadzik / Sadzik"
   },
   {
@@ -42910,7 +42824,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Tomasz Ręwka / Ręwka / Rewka. Przedmieszczanin na Górach opłacający 12 groszy sympli w 1780 r.",
-    "lp": 924,
+    "lp": 921,
     "wariant_nazwiska": "Tomasz Ręwka / Ręwka / Rewka"
   },
   {
@@ -42939,7 +42853,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Antoni Polgrezyk / Polgrezyk / Pogrzebyk. Przedmieszczanin na Górach opłacający 10 groszy sympli w 1780 r.",
-    "lp": 925,
+    "lp": 922,
     "wariant_nazwiska": "Antoni Polgrezyk / Polgrezyk / Pogrzebyk"
   },
   {
@@ -42968,7 +42882,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jozefowa Paszczyna Wdowa / Paszczyna / Paszczyna Wdowa. Zamożna wdowa gospodarująca na Górach, opłacająca wysoką stawkę 20 groszy sympli w 1780 r.",
-    "lp": 926,
+    "lp": 923,
     "wariant_nazwiska": "Jozefowa Paszczyna Wdowa / Paszczyna / Paszczyna Wdowa / Józefowa Paszczyna / Jozefowa Paszczyna"
   },
   {
@@ -42997,7 +42911,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Maryanna Kopeciowa / Marianna Kopeciowa / Kopeciowa. Przedmieszczanka na Górach opłacająca 4 grosze sympli w 1780 r.",
-    "lp": 927,
+    "lp": 924,
     "wariant_nazwiska": "Maryanna Kopeciowa / Marianna Kopeciowa / Kopeciowa"
   },
   {
@@ -43026,7 +42940,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Ewa Tręfczyna / Tręfczyna / Trefczyna. Przedmieszczanka na Górach opłacająca 5 groszy sympli w 1780 r.",
-    "lp": 928,
+    "lp": 925,
     "wariant_nazwiska": "Ewa Tręfczyna / Tręfczyna / Trefczyna"
   },
   {
@@ -43055,7 +42969,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Zoffia Ziemlakowa Wdowa / Zofia Ziemlakowa / Ziemlakowa / Ziemlakowa Wdowa. Wdowa na Górach opłacająca 10 groszy sympli w 1780 r.",
-    "lp": 929,
+    "lp": 926,
     "wariant_nazwiska": "Zoffia Ziemlakowa Wdowa / Zofia Ziemlakowa / Ziemlakowa / Ziemlakowa Wdowa / Zoffia Ziemlakowa"
   },
   {
@@ -43084,7 +42998,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Franciszek Szupia / Szupia. Przedmieszczanin na Górach opłacający 13 groszy sympli w 1780 r.",
-    "lp": 930,
+    "lp": 927,
     "wariant_nazwiska": "Franciszek Szupia / Szupia"
   },
   {
@@ -43113,7 +43027,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jozef Stonkowski / Józef Stonkowski / Stonkowski. Przedmieszczanin na Górach opłacający 6 groszy sympli w 1780 r.",
-    "lp": 931,
+    "lp": 928,
     "wariant_nazwiska": "Jozef Stonkowski / Józef Stonkowski / Stonkowski"
   },
   {
@@ -43153,7 +43067,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Paweł Wawrecki / Wawrecki. Przedmieszczanin na Górach opłacający 7 groszy sympli w 1780 r.",
-    "lp": 932,
+    "lp": 929,
     "wariant_nazwiska": "Paweł Wawrecki / Wawrecki"
   },
   {
@@ -43193,7 +43107,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Stanisław Bilartowicz / Bilartowicz. Przedmieszczanin na Górach uiszczający 14 groszy sympli w 1780 r.",
-    "lp": 933,
+    "lp": 930,
     "wariant_nazwiska": "Stanisław Bilartowicz / Bilartowicz"
   },
   {
@@ -43233,7 +43147,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Franciszek Rodzyn / Rodzyn / Rodzonek. Przedmieszczanin na Górach opłacający 5 groszy sympli w 1780 r.",
-    "lp": 934,
+    "lp": 931,
     "wariant_nazwiska": "Franciszek Rodzyn / Rodzyn / Rodzonek"
   },
   {
@@ -43273,7 +43187,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Reina Cwielinowa / Reina Ćwielinowa / Cwielinowa / Ćwielinowa. Zamożna gospodyni na Górach opłacająca wysoką składkę 24 groszy sympli w 1780 r.",
-    "lp": 935,
+    "lp": 932,
     "wariant_nazwiska": "Reina Cwielinowa / Reina Ćwielinowa / Cwielinowa / Ćwielinowa"
   },
   {
@@ -43302,7 +43216,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Kacper Kirszlicz / Kirszlicz. Posiadacz nieruchomości przy ulicy Lubelskiej, opłacający 8 groszy sympli w 1780 r.",
-    "lp": 936,
+    "lp": 933,
     "wariant_nazwiska": "Kacper Kirszlicz / Kirszlicz"
   },
   {
@@ -43331,7 +43245,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jędrzey z Pogorzałych / Jędrzej z Pogorzałych / Pogorzały. Pogorzelec z Przedmieścia Piasek, który po pożarze odbudował parcelę i opłacał 10 groszy sympli w 1780 r.",
-    "lp": 937,
+    "lp": 934,
     "wariant_nazwiska": "Jędrzey z Pogorzałych / Jędrzej z Pogorzałych / Pogorzały"
   },
   {
@@ -43360,7 +43274,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Michał Wyszyński / Baron Michał Wyszyński / Major Wyszyński / Sędzia Michał Wyszyński / Wyszyńskiego. Baron, major wojsk królewskich i komisarz sędziowski Ordynacji Zamojskiej. Przewodniczył sesji elekcyjnej w Kraśniku w grudniu 1784 r., wydał dekret nakazujący spłatę dwuletniej zaległej pensji dyrektora szkoły i chroniący ubogich mieszczan przed nadmiernymi podatkami.",
-    "lp": 938,
+    "lp": 935,
     "wariant_nazwiska": "Michał Wyszyński / Baron Michał Wyszyński / Major Wyszyński / Sędzia Michał Wyszyński / Wyszyńskiego"
   },
   {
@@ -43433,7 +43347,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Antoni Okoń / Antoni Okuń / Okoń / Okuń / Okonia / Okunia / Szafarz Antoni Okoń / Exaktor Okoń. Szafarz i poborca podatkowy (exaktor) kasy miejskiej Kraśnika wybrany 14 listopada 1783 r. Odpowiedzialny za pobór podymnego i sympli w 1784 r., budowę baraków, spłatę pożyczek wójtowi Paszkiewiczowi i arendarzowi Rubinowi oraz akcję ratunkową podczas pożaru miasta.",
-    "lp": 939,
+    "lp": 936,
     "wariant_nazwiska": "Antoni Okoń / Antoni Okuń / Okoń / Okuń / Okonia / Okunia / Szafarz Antoni Okoń / Exaktor Okoń"
   },
   {
@@ -43517,7 +43431,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Augustyn Starkiewicz / Augustyn Chartkiewicz / Augustyn Charkiewicz / Starkiewicz / Chartkiewicz / Charkiewicz / Pisarz Chartkiewicz / Pisarz Charkiewicz / Charkiewicza. Pisarz miejski przysięgły zaprzysiężony 14 listopada 1783 r. z pensją 150 zł rocznie. W dokumentach jego nazwisko zapisywano wymiennie jako Starkiewicz, Chartkiewicz lub Charkiewicz. Otrzymał z kasy miejskiej przydział sukna na ubranie urzędowe (24 zł 20 gr).",
-    "lp": 940,
+    "lp": 937,
     "wariant_nazwiska": "Augustyn Starkiewicz / Augustyn Chartkiewicz / Augustyn Charkiewicz / Starkiewicz / Chartkiewicz / Charkiewicz / Pisarz Chartkiewicz / Pisarz Charkiewicz / Charkiewicza"
   },
   {
@@ -43546,7 +43460,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Pikuwiński / JP Pikuwiński / Pikuwińskiemu / Burgrabia Pikuwiński. Burgrabia zamku kraśnickiego z ramienia Ordynacji Zamoyskiej, któremu magistrat wypłacił w 1783 r. asygnację w kwocie 23 zł 1 gr.",
-    "lp": 941,
+    "lp": 938,
     "wariant_nazwiska": "Pikuwiński / JP Pikuwiński / Pikuwińskiemu / Burgrabia Pikuwiński"
   },
   {
@@ -43575,7 +43489,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Broniszewski / JP Broniszewski / Broniszewskiego / Rewizor Broniszewski. Rewizor skarbowy i polny wizytujący Kraśnik w 1784 r., któremu wypłacono dietę 21 zł podług kwitu podpisanego przez magistrat.",
-    "lp": 942,
+    "lp": 939,
     "wariant_nazwiska": "Broniszewski / JP Broniszewski / Broniszewskiego / Rewizor Broniszewski"
   },
   {
@@ -43615,7 +43529,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Grzegorz Dybicki / Grzegorz Zdybicki / Dybicki / Zdybicki. Wybrany na ławnika sądu miejskiego 27 listopada 1783 r., a następnie obrany pierwszym starszym (cechmistrzem) cechu kuśnierskiego na sesji w dniu 16 grudnia 1784 r.",
-    "lp": 943,
+    "lp": 940,
     "wariant_nazwiska": "Grzegorz Dybicki / Grzegorz Zdybicki / Dybicki / Zdybicki"
   },
   {
@@ -43644,7 +43558,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Potokowicz / Potokowicz. Wybrany i zaprzysiężony na urząd ławnika miejskiego w dniu 27 listopada 1783 r. u boku Walentego Łukasika i Grzegorza Dybickiego.",
-    "lp": 944,
+    "lp": 941,
     "wariant_nazwiska": "Jan Potokowicz / Potokowicz"
   },
   {
@@ -43684,7 +43598,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Piotr Potokiewicz / Piotr Potokowicz / Potokiewicz. Mistrz rzemieślniczy. Wybrany wtórym cechmistrzem tkackim 27 listopada 1783 r., a w 1784 r. zatwierdzony jako pierwszy starszy cechu krawieckiego.",
-    "lp": 945,
+    "lp": 942,
     "wariant_nazwiska": "Piotr Potokiewicz / Piotr Potokowicz / Potokiewicz"
   },
   {
@@ -43713,7 +43627,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Grzegorz Leśniowski / Leśniowski / Cechmistrz Leśniowski. Mistrz kowalski obrany pierwszym cechmistrzem kowalskim na sesji miejskiej w dniu 27 listopada 1783 r. u boku Macieja Rycerza.",
-    "lp": 946,
+    "lp": 943,
     "wariant_nazwiska": "Grzegorz Leśniowski / Leśniowski / Cechmistrz Leśniowski"
   },
   {
@@ -43742,7 +43656,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Kołakiewicz / Kołakiewicz / Podcechmistrz Kołakiewicz. Obrany wtórym cechmistrzem cechu tkackiego w Kraśniku w dniu 16 grudnia 1784 r. u boku Franciszka Frankiewicza.",
-    "lp": 947,
+    "lp": 944,
     "wariant_nazwiska": "Jan Kołakiewicz / Kołakiewicz / Podcechmistrz Kołakiewicz"
   },
   {
@@ -43771,7 +43685,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Hieronim Kozakowicz / Kozakowicz / Podcechmistrz Kozakowicz. Mistrz kuśnierski wybrany na wtórego cechmistrza kuśnierskiego na sesji w dniu 16 grudnia 1784 r. u boku Grzegorza Dybickiego.",
-    "lp": 948,
+    "lp": 945,
     "wariant_nazwiska": "Hieronim Kozakowicz / Kozakowicz / Podcechmistrz Kozakowicz"
   },
   {
@@ -43800,7 +43714,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Mikołay Jażdżykowski / Mikołaj Jażdżykowski / Jażdżykowski / Jazdzykowski. Mistrz kowalski zatwierdzony jako wtóry cechmistrz cechu kowalskiego w dniu 16 grudnia 1784 r. u boku Jędrzeja Barankiewicza.",
-    "lp": 949,
+    "lp": 946,
     "wariant_nazwiska": "Mikołay Jażdżykowski / Mikołaj Jażdżykowski / Jażdżykowski / Jazdzykowski"
   },
   {
@@ -43829,7 +43743,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Szymon Lewkowicz / Szymon Lefkowicz / Lewkowicz / Lefkowicz / Cechmistrz Krawiecki. Żydowski starszy cechu krawieckiego w Kraśniku, zatwierdzony na sesji w dniu 16 grudnia 1784 r. jako wtóry cechmistrz krawiecki u boku Piotra Potokiewicza.",
-    "lp": 950,
+    "lp": 947,
     "wariant_nazwiska": "Szymon Lewkowicz / Szymon Lefkowicz / Lewkowicz / Lefkowicz / Cechmistrz Krawiecki"
   },
   {
@@ -43858,7 +43772,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Woyciech Drusiołka / Wojciech Drusiołka / Drusiołka / Drusiołce. Mieszczanin kraśnicki, któremu szafarz Łukasz Dybicki wypłacił w 1784 r. 2 zł 15 gr za słomę dostarczoną dla komitetu miejskiego.",
-    "lp": 951,
+    "lp": 948,
     "wariant_nazwiska": "Woyciech Drusiołka / Wojciech Drusiołka / Drusiołka / Drusiołce"
   },
   {
@@ -43887,7 +43801,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Józef Żyd / Jozef Żyd / Józefowi Żydowi. Żydowski wierzyciel magistratu kraśnickiego, któremu w 1784 r. spłacono 18 zł zaległego długu miejskiego za kwitem z retentów Franciszka Frankiewicza.",
-    "lp": 952,
+    "lp": 949,
     "wariant_nazwiska": "Józef Żyd / Jozef Żyd / Józefowi Żydowi"
   },
   {
@@ -43916,7 +43830,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Wdowa Łazarzowa / Łazarzowa / Łazarzowa Wdowa. Uboga wdowa na Zarzycach, której dekretem sędziego Andrzeja Wyszyńskiego z 10 listopada 1782 r. darowano i skasowano 4 zł zaległości podatkowych.",
-    "lp": 953,
+    "lp": 950,
     "wariant_nazwiska": "Wdowa Łazarzowa / Łazarzowa / Łazarzowa Wdowa"
   },
   {
@@ -43945,7 +43859,7 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Wdowa Błażejowa / Błażejowa / Błażejowa Wdowa. Uboga wdowa kraśnicka, której dekretem sędziego Andrzeja Wyszyńskiego z 10 listopada 1782 r. darowano 2 zł zaległości podatkowych.",
-    "lp": 954,
+    "lp": 951,
     "wariant_nazwiska": "Wdowa Błażejowa / Błażejowa / Błażejowa Wdowa"
   },
   {
@@ -43974,11 +43888,11 @@ const genData = [
       }
     ],
     "uwagi": "Zapisy oryginalne w rękopisie: Jan Frankowicz / Jan Frankiewicz / Frankowicz / Frankiewicz. Wybrany na czwartego burmistrza (prezydenta) Kraśnika na uroczystej elekcji w dniu 10 grudnia 1784 r. pod przewodnictwem sędziego ordynackiego.",
-    "lp": 955,
+    "lp": 952,
     "wariant_nazwiska": "Jan Frankowicz / Jan Frankiewicz / Frankowicz / Frankiewicz"
   },
   {
-    "lp": 956,
+    "lp": 953,
     "nazwisko": "Frampolski",
     "imie": "[N.]",
     "miejsce": "Frampol / Kraśnik",
@@ -44009,7 +43923,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 957,
+    "lp": 954,
     "nazwisko": "Wyszyński",
     "imie": "Aleksander Leopold",
     "miejsce": "Zamość / Kraśnik",
@@ -44061,7 +43975,7 @@ const genData = [
     "liczba_wystapien": 3
   },
   {
-    "lp": 958,
+    "lp": 955,
     "nazwisko": "Walczyński",
     "imie": "Daniel",
     "miejsce": "Kraśnik (ogólne)",
@@ -44091,7 +44005,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 959,
+    "lp": 956,
     "nazwisko": "Frankowicz",
     "imie": "Kazimierz",
     "miejsce": "Kraśnik (ogólne)",
@@ -44121,7 +44035,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 960,
+    "lp": 957,
     "nazwisko": "Reszkiewicz",
     "imie": "Jan",
     "miejsce": "Kraśnik (ogólne)",
@@ -44151,7 +44065,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 961,
+    "lp": 958,
     "nazwisko": "Wojtaszek",
     "imie": "Stanisław",
     "miejsce": "Kraśnik (ogólne)",
@@ -44181,7 +44095,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 962,
+    "lp": 959,
     "nazwisko": "Kwieciński",
     "imie": "Józef",
     "miejsce": "Kraśnik (ogólne)",
@@ -44211,7 +44125,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 963,
+    "lp": 960,
     "nazwisko": "Młynarski",
     "imie": "Maciej",
     "miejsce": "Kraśnik (ogólne)",
@@ -44241,7 +44155,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 964,
+    "lp": 961,
     "nazwisko": "Kuśnierz",
     "imie": "Antoni",
     "miejsce": "Kraśnik (ogólne)",
@@ -44271,7 +44185,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 965,
+    "lp": 962,
     "nazwisko": "Cieślicki",
     "imie": "Szymon",
     "miejsce": "Kraśnik (ogólne)",
@@ -44301,7 +44215,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 966,
+    "lp": 963,
     "nazwisko": "Kozłowski",
     "imie": "Bartłomiej",
     "miejsce": "Kraśnik (ogólne)",
@@ -44331,7 +44245,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 967,
+    "lp": 964,
     "nazwisko": "Gmusiel",
     "imie": "[N.]",
     "miejsce": "Kraśnik (Kancelaria)",
@@ -44361,7 +44275,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 968,
+    "lp": 965,
     "nazwisko": "Kanonik Regularny",
     "imie": "[Proboszcz Dziekan Kraśnicki]",
     "miejsce": "Kraśnik (Klasztor / Probostwo)",
@@ -44402,7 +44316,7 @@ const genData = [
     "liczba_wystapien": 2
   },
   {
-    "lp": 969,
+    "lp": 966,
     "nazwisko": "Alkiewicz",
     "imie": "Jan",
     "miejsce": "Kraśnik (Kancelaria)",
@@ -44443,7 +44357,7 @@ const genData = [
     "liczba_wystapien": 2
   },
   {
-    "lp": 970,
+    "lp": 967,
     "nazwisko": "Jełowicki",
     "imie": "Felicjan",
     "miejsce": "Kraśnik (Kancelaria)",
@@ -44473,7 +44387,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 971,
+    "lp": 968,
     "nazwisko": "Popiołek",
     "imie": "Szczepan",
     "miejsce": "Kraśnik (ogólne)",
@@ -44514,7 +44428,7 @@ const genData = [
     "liczba_wystapien": 2
   },
   {
-    "lp": 972,
+    "lp": 969,
     "nazwisko": "Gąska",
     "imie": "Antoni",
     "miejsce": "Kraśnik (ogólne)",
@@ -44544,7 +44458,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 973,
+    "lp": 970,
     "nazwisko": "Zdybicki",
     "imie": "Andrzej",
     "miejsce": "Kraśnik (ogólne)",
@@ -44574,7 +44488,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 974,
+    "lp": 971,
     "nazwisko": "Gołębiowski",
     "imie": "Wawrzyniec",
     "miejsce": "Kraśnik (ogólne)",
@@ -44604,7 +44518,7 @@ const genData = [
     "liczba_wystapien": 1
   },
   {
-    "lp": 975,
+    "lp": 972,
     "nazwisko": "Potokowicz",
     "imie": "Stanisław",
     "miejsce": "Kraśnik (ogólne)",

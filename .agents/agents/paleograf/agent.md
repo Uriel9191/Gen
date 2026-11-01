@@ -140,12 +140,60 @@ Twoim celem jest bezbłędne, rygorystyczne opracowywanie kolejnych jednostek ak
 
 --------------------------------------------------------------------------------
 
-## IV. STANDARD ARCHITEKTURY I UI / UX KOMPENDIUM (WZORZEC J40)
+## IV. STANDARD ARCHITEKTURY I UI / UX KOMPENDIUM (ŻELAZNY WZORZEC J40)
 
-1. **Szata graficzna Dark Slate Theme**: Tło głęboki grafit/granat (`#0f172a`, `#1e293b`), akcenty ciepły bursztyn/złoto (`#f59e0b`, `#d97706`), czcionka monospace dla transkrypcji.
-2. **Karty metryk KPI**: 4 dynamiczne karty podsumowujące u góry strony.
+1. **Szata graficzna Dark Slate Theme**: Tło głęboki grafit/granat (`#0f172a`, `#1e293b`), obramowania (`#334155`), akcenty ciepły bursztyn/złoto (`#f59e0b`, `#d97706`), czcionka monospace dla transkrypcji.
+2. **Karty metryk KPI**: 4 dynamiczne karty podsumowujące u góry strony powiązane z danymi jednostki.
 3. **Sekcja monograficzna i odkrycia**: Przejrzyste panele analityczne z tablicami faktów.
-4. **Tabela Rejestru Skanów**: Wyszukiwarka na żywo, filtry, paginacja z bezpośrednim skokiem po numerze skanu, kwoty formatowane pionowo pod sobą.
-5. **3-częściowy Modal Skanu**: 1. Opis i metadane, 2. Transkrypcja źródłowa z przyciskiem kopiowania, 3. Linki do jednostki i zespołu w SwA z boksem instrukcji.
-6. **Tabela Słownika Genealogicznego**: Wyszukiwarka wielopolowa, sortowanie kolumn, odznaki ról i wdów, modal osoby z notatką biograficzną i wykazem wszystkich wystąpień.
-7. **Tryb pracy**: Zawsze analiza najpierw, przedstawienie planu z opcjami, ścisła bramka akceptacji przed modyfikacją kodu, a po zatwierdzeniu partii – praca w pełni autonomiczna i rygorystyczna.
+4. **Tabela Rejestru Skanów – Rygor Dokładnie 7 Kolumn J40**:
+   - Ściśle określone 7 kolumn: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty` (z fioletową pigułką `.badge-district` dla wpisów wieloosobowych), `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
+   - Kategoryczny zakaz redukcji do 6 kolumn i samowolnej zmiany nazw nagłówków.
+   - Wyszukiwarka na żywo, filtry kategoryczne, paginacja z bezpośrednim skokiem (`Skocz do: [ ] Idź`).
+5. **Trzyczęściowy Modal Skanu (Standard Zakładek i Mechanizm Wyświetlania)**:
+   - **Zakładka 1: `📋 Opis i metadane` – DOMYŚLNA I ZAWSZE AKTYWNA PRZY OTWARCIU**. Cztery bloki: identyfikacja archiwalna, regest, osoby, kwoty.
+   - **Zakładka 2: `📜 Transkrypcja`** (lub transkrypcja dyplomatyczna) z przyciskiem `📋 Kopiuj transkrypcję`.
+   - **Zakładka 3: `🔗 Link do oryginału`**: Kafle do jednostki w SwA i zespołu 35/40/0 oraz boks instrukcji miniatury Skanu #{item.nr_skanu}.
+   - **Zakładka 4 (wyłącznie opcjonalna): `🖼️ Wycinki cyfrowe`**. Kategoryczny zakaz ustawiania jej jako 1. lub domyślnej!
+   - Mechanizm otwierania: `detailModal.style.display = 'block'; switchModalTab('meta');`. Zamykanie: `detailModal.style.display = 'none';`.
+6. **Tabela Słownika Genealogicznego**: Wyszukiwarka wielopolowa, sortowanie kolumn, odznaki ról i wdów, modal osoby (`openGenModal(lp)`) ukrywający pasek zakładek skanu, z tabelą wystąpień powracającą do skanu.
+
+--------------------------------------------------------------------------------
+
+## V. BEZWZGLĘDNY PAKIET 7 AUTOMATYCZNYCH TESTÓW WERYFIKACYJNYCH (KRYTERIA ODBIORU)
+
+Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zautomatyzowany skrypt testowy weryfikujący zgodność z wzorcem J40. Jakikolwiek błąd (FAIL) blokuje zakończenie zadania:
+
+1. **Test 1: Architektura DOM i Rygor 7 Kolumn Tabeli Głównej**:
+   - Weryfikacja 7 nagłówków `<th>`: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty`, `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
+   - Weryfikacja pigułek `.badge-district` dla wpisów wieloosobowych.
+2. **Test 2: Symulacja Kliknięcia i Otwierania Modalu Skanu (`openMainModal`)**:
+   - Sprawdzenie wywołania `openMainModal(nr_skanu)`: `#detailModal.style.display === 'block'`.
+   - Sprawdzenie domyślnej zakładki: `meta` aktywna (`tabBtnMeta.classList.contains('active')`, `modalTabContentMeta.style.display === 'block'`).
+   - Obecność 3 kanonicznych zakładek (`meta`, `trans`, `link`).
+   - Sprawdzenie `closeModal()`: `#detailModal.style.display === 'none'`.
+3. **Test 3: Działanie Modalu Genealogicznego (`openGenModal`)**:
+   - Sprawdzenie wywołania `openGenModal(lp)`: ukrycie `#modalTabsBar.style.display === 'none'`, otwarcie `#detailModal.style.display === 'block'`.
+   - Obecność siatki profilu, wariantów i tabeli `.occs-table`.
+4. **Test 4: Integralność Wariantu 2 i 100% Synchronizacji Onomastycznej**:
+   - 0 duplikatów tożsamości w `genData`.
+   - 100% lekcji wariantowych z nawiasów `[...]` w transkrypcjach partii odpytywanych przez tablicę `tokens_to_test` zwraca trafienie w `genData`.
+5. **Test 5: Kanoniczny Format Słownika CSV**:
+   - Sprawdzenie nagłówka pliku CSV: dokładnie 9 kolumn, separator `;`, kodowanie `UTF-8-SIG` (BOM).
+6. **Test 6: Spójność Monografii i Kart Analitycznych**:
+   - Minimum 4 Karty Analityczne na partię 30 skanów.
+   - Obecność Aneksu Badawczego dla partii w Monografii.
+   - Dynamiczne liczniki osób i skanów w UI (brak rozbieżności z bazą).
+7. **Test 7: Składnia i Wykonanie w Node.js VM**:
+   - Pełna walidacja skryptu JavaScript pod kątem braku SyntaxError i poprawnego parsowania struktur.
+
+--------------------------------------------------------------------------------
+
+## VI. PROCEDURA PRACY AGENTA „ZASADA PRZED I PO” (ZERO IMPROWIZACJI)
+
+1. **Przed zadaniem (Obowiązkowa Lektura)**:
+   - Agent ma bezwzględny obowiązek otworzyć i przeczytać `SKILL.md` oraz `agent.md` przed przystąpieniem do jakiejkolwiek pracy.
+2. **W trakcie zadania (Kopiowanie z Wzorca J40 zamiast Pisania z Pamięci)**:
+   - Kategoryczny zakaz pisania struktur tabel i modali z pamięci. Kopiowanie 1:1 z `krasnik_j40_kompendium_calosc.html`.
+3. **Po zadaniu (Obowiązkowa Automatyczna Weryfikacja Testami)**:
+   - Uruchomienie skryptu weryfikacyjnego badającego wszystkie 7 testów z Sekcji V.
+   - Tylko wynik 100% PASS uprawnia do zakończenia partii i przedstawienia wyników użytkownikowi.

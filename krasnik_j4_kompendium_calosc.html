@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
 
-
     :root {
       --bg-primary: #0f172a;
       --bg-secondary: #1e293b;
@@ -809,7 +808,6 @@
       .pagination-bar { flex-direction: column; align-items: stretch; }
     }
   
-  
   </style>
 </head>
 <body>
@@ -899,12 +897,13 @@
         <table>
           <thead>
             <tr>
-              <th onclick="sortMain('nr_skanu')" style="width: 8%;">Skan ↕</th>
-              <th onclick="sortMain('strona_pagina')" style="width: 10%;">Foliacja ↕</th>
-              <th onclick="sortMain('data_rok')" style="width: 9%;">Datacja ↕</th>
-              <th onclick="sortMain('kategoria')" style="width: 18%;">Kategoria ↕</th>
-              <th style="width: 32%;">Regest i opis historyczno-dyplomatyczny</th>
-              <th style="width: 23%;">Występujące osoby / podmioty</th>
+              <th onclick="sortMain('nr_skanu')">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')">Pagina ↕</th>
+              <th onclick="sortMain('data_rok')">Rok ↕</th>
+              <th>Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')">Kategoria ↕</th>
+              <th>Opis Sprawy / Treść Aktu</th>
+              <th>Kwoty / Podatki</th>
             </tr>
           </thead>
           <tbody id="mainTableBody"></tbody>
@@ -1588,35 +1587,23 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
 
   </main>
 
-  <!-- DETAIL MODAL FOR SCANS -->
-  <div id="detailModal" class="modal" onclick="if(event.target===this) closeModal()">
+  <!-- DETAIL MODAL FOR SCANS & RESIDENTS -->
+  <div id="detailModal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 id="modalTitle">Szczegóły Skanu</h3>
+        <h3 id="modalTitle">Szczegóły</h3>
         <button class="modal-close" onclick="closeModal()">&times;</button>
       </div>
 
-      <div class="modal-tabs" id="modalTabsBar">
-        <button id="tabBtnCrops" class="modal-tab-btn active" onclick="switchModalTab('crops')">🖼️ Wycinki Cyfrowe</button>
-        <button id="tabBtnTrans" class="modal-tab-btn" onclick="switchModalTab('trans')">📜 Transkrypcja Dyplomatyczna</button>
-        <button id="tabBtnMeta" class="modal-tab-btn" onclick="switchModalTab('meta')">📋 Aparat Krytyczny i Metadane</button>
+      <div class="modal-tabs-bar" id="modalTabsBar" style="display: none;">
+        <button id="tabBtnMeta" class="modal-tab-btn active" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button id="tabBtnTrans" class="modal-tab-btn" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button id="tabBtnLink" class="modal-tab-btn" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+        <button id="tabBtnCrops" class="modal-tab-btn" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
       </div>
 
       <div class="modal-body" id="modalBody">
-        <!-- Zawartość generowana w JS -->
-      </div>
-    </div>
-  </div>
-
-  <!-- RESIDENT MODAL FOR GENEALOGY -->
-  <div id="genModal" class="modal" onclick="if(event.target===this) closeModal()">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 id="genModalTitle">Profil Mieszkańca Kraśnika</h3>
-        <button class="modal-close" onclick="closeModal()">&times;</button>
-      </div>
-      <div class="modal-body" id="genModalBody">
-        <!-- Zawartość generowana w JS -->
+        <!-- Content filled dynamically -->
       </div>
     </div>
   </div>
@@ -1747,32 +1734,36 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
       document.getElementById('mainJumpInput').value = mainCurrentPage;
 
       if (pageData.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
         return;
       }
 
-      pageData.forEach(d => {
-        const tr = document.createElement('tr');
-        tr.className = 'clickable-row';
-        tr.onclick = () => openMainModal(parseInt(d.nr_skanu));
+      let html = '';
+      pageData.forEach(r => {
+        let osobyDisplay = '';
+        if (r.osoby_skrot && r.osoby_skrot !== r.osoby_podmioty && r.osoby_skrot !== '-') {
+          osobyDisplay = `<span class="badge-district" style="font-size:0.8rem;">${escapeHtml(r.osoby_skrot)}</span> <span style="font-size:0.75rem; color:#94a3b8; display:block; margin-top:3px;">(kliknij, aby rozwinąć)</span>`;
+        } else {
+          osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
+        }
 
-        const transIcon = (d.transkrypcja && d.transkrypcja.length > 50 && !d.transkrypcja.includes('sukcesywnie wdrażana'))
-          ? '<span title="Dostępna pełna transkrypcja dyplomatyczna" style="display:inline-block; margin-top:3px; font-size:0.75rem; color:#10b981; font-weight:700;">📜 Transkr.</span>'
+        const transBadge = (r.transkrypcja && r.transkrypcja.length > 50 && !r.transkrypcja.includes('sukcesywnie wdrażana'))
+          ? '<br><span style="font-size:0.7rem; color:var(--success); font-weight:700;">📜 Transkr.</span>'
           : '';
 
-        tr.innerHTML = `
-          <td><strong style="color:var(--gold-primary);">#${d.nr_skanu}</strong><br>${transIcon}</td>
-          <td>${escapeHtml(d.strona_pagina || '-')}</td>
-          <td><span class="badge-years">${escapeHtml(d.data_rok || '-')}</span></td>
-          <td><span class="badge-role">${escapeHtml(d.kategoria || '-')}</span></td>
-          <td>
-            <div style="font-weight:600; color:#f1f5f9; margin-bottom:4px;">${escapeHtml(d.opis_pozycji || d.opis_sprawy || '')}</div>
-            <div style="font-size:0.85rem; color:var(--text-muted);">${escapeHtml(d.opis_sprawy ? d.opis_sprawy.substring(0, 120) + (d.opis_sprawy.length > 120 ? '...' : '') : '')}</div>
-          </td>
-          <td>${escapeHtml(d.osoby_skrot || d.osoby_podmioty || '-')}</td>
+        html += `
+          <tr onclick="openMainModal(${r.nr_skanu})" style="cursor:pointer;">
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${r.nr_skanu}${transBadge}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina || '—')}</td>
+            <td><span class="badge-years">${escapeHtml(r.data_rok || '—')}</span></td>
+            <td>${osobyDisplay}</td>
+            <td><span style="font-size:0.8rem; font-weight:600; color:#cbd5e1;">${escapeHtml(r.kategoria || '—')}</span></td>
+            <td style="color:#cbd5e1; font-size:0.85rem;">${escapeHtml(r.opis_pozycji || r.opis_sprawy || '—')}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#e2e8f0;">${escapeHtml(r.kwoty_miary || r.kwoty_podatki || '—')}</td>
+          </tr>
         `;
-        tbody.appendChild(tr);
       });
+      tbody.innerHTML = html;
     }
 
     function prevMainPage() {
@@ -1800,7 +1791,7 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
     }
 
     function switchModalTab(tabKey) {
-      const tabs = ['crops', 'trans', 'meta'];
+      const tabs = ['meta', 'trans', 'link', 'crops'];
       tabs.forEach(t => {
         const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
         const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
@@ -1831,29 +1822,46 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
 
       currentModalScan = item;
 
-      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`;
+      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || 'brak'}) – Rok ${item.data_rok || '—'}`;
       
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
 
       const transRaw = item.transkrypcja || item.transkrypcja_dyplomatyczna || '';
       const transFormatted = transRaw 
-        ? escapeHtml(transRaw).replace(/\n/g, '<br>') 
+        ? escapeHtml(transRaw).split(String.fromCharCode(10)).join("<br>") 
         : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
 
       document.getElementById('modalBody').innerHTML = `
-        <!-- TAB 1: WYCINKI CYFROWE -->
-        <div id="modalTabContentCrops" class="modal-tab-content">
-          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
-            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/4).
+        <!-- TAB 1: OPIS I METADANE -->
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 4 (Tom 8, Księga wójtowska i radziecka 1661–1699)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok || '—')}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria || '—')}</span></div>
           </div>
-          <div style="margin-bottom:1.25rem;">
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
-            <img src="crops_j4/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_top.jpg';">
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_pozycji || item.opis_sprawy || '—')}
+            </div>
           </div>
-          <div>
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
-            <img src="crops_j4/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_bot.jpg';">
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_miary || item.kwoty_podatki || 'Brak danych finansowych')}
+            </div>
           </div>
         </div>
 
@@ -1868,55 +1876,47 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
           </div>
         </div>
 
-        <!-- TAB 3: APARAT KRYTYCZNY I METADANE -->
-        <div id="modalTabContentMeta" class="modal-tab-content" style="display:none;">
+        <!-- TAB 3: LINK DO ORYGINAŁU -->
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
           <div class="modal-section">
-            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
-            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 4 (Tom 8, 1661–1699)</div>
-            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Foliacja / Karta:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
-            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok || '—')}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria || '—')}</span></div>
-          </div>
-
-          <div class="modal-section">
-            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
-            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
-              ${escapeHtml(item.opis_pozycji || item.opis_sprawy || item.opis || '—')}
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w portalu Szukaj w Archiwach (Archiwum Państwowe w Lublinie, Zespół 35/40/0, Jednostka 4).
+            </p>
+            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/10261358" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:var(--gold-primary); color:#000; font-weight:700; padding:0.6rem 1.2rem; border-radius:6px;">
+                🏛️ Otwórz Jednostkę 4 w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:#334155; color:#fff; padding:0.6rem 1.2rem; border-radius:6px;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); font-size:0.85rem; color:#94a3b8; line-height:1.5;">
+              <strong style="color:var(--gold-primary);">Instrukcja lokalizacji skanu:</strong><br>
+              1. Kliknij powyższy złoty przycisk, aby otworzyć jednostkę w portalu SwA.<br>
+              2. Przejdź do zakładki <strong>«Skany»</strong> (lub «Zawartość cyfrowa»).<br>
+              3. Wybierz miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>.
             </div>
           </div>
+        </div>
 
-          <div class="modal-section">
-            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
-            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
-              ${escapeHtml(item.osoby_podmioty || '—')}
-            </div>
+        <!-- TAB 4: WYCINKI CYFROWE -->
+        <div id="modalTabContentCrops" class="modal-tab-content" style="display:none;">
+          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
+            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/4).
           </div>
-
-          ${item.kwoty_miary ? `
-          <div class="modal-section">
-            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
-            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
-              ${escapeHtml(item.kwoty_miary)}
-            </div>
-          </div>` : ''}
-
-          ${(item.uwagi || item.aparat_krytyczny) ? `
-          <div class="modal-section">
-            <div class="modal-section-title">Uwagi kodykologiczne i aparat krytyczny</div>
-            <div style="font-size:0.88rem; color:#94a3b8;">
-              ${escapeHtml(item.uwagi || item.aparat_krytyczny)}
-            </div>
-          </div>` : ''}
-
-          <div style="margin-top:1.5rem; text-align:right;">
-            <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/1489025" target="_blank" rel="noopener" style="color:var(--gold-primary); text-decoration:none; font-size:0.85rem;">
-              Otwórz w portalu Szukaj w Archiwach ↗
-            </a>
+          <div style="margin-bottom:1.25rem;">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
+            <img src="crops_j4/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_top.jpg';">
+          </div>
+          <div>
+            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
+            <img src="crops_j4/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_bot.jpg';">
           </div>
         </div>
       `;
 
-      switchModalTab('crops');
-      document.getElementById('detailModal').classList.add('active');
+      document.getElementById('detailModal').style.display = 'block';
     }
 
     function exportMainCSV() {
@@ -2068,109 +2068,115 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
     }
 
     function openGenModal(profileId) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+
       const p = genData.find(d => d.lp === profileId);
       if (!p) return;
 
-      document.getElementById('genModalTitle').innerText = `${p.nazwisko} ${p.imie} – Biogram Mieszkańca`;
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || p.funkcja_zawod || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
 
-      let wystapieniaHtml = '';
+      let occsHtml = '';
       if (p.wystapienia && p.wystapienia.length > 0) {
-        wystapieniaHtml = `
-          <div style="margin-top:1.25rem;">
-            <div style="font-size:0.85rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); margin-bottom:0.75rem;">
-              Wzmianki źródłowe w aktach sprawy (${p.wystapienia.length}):
-            </div>
-            <div style="display:flex; flex-direction:column; gap:0.6rem;">
-              ${p.wystapienia.map(w => `
-                <div style="background:#0f172a; border:1px solid var(--border); border-radius:6px; padding:0.75rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem;">
-                  <div>
-                    <div style="font-weight:600; color:#f1f5f9; font-size:0.9rem;">
-                      ${escapeHtml(w.rola || p.funkcja || 'Występujący')}
-                    </div>
-                    <div style="font-size:0.85rem; color:#94a3b8; margin-top:2px;">
-                      ${escapeHtml(w.ctx || w.opis || '')}
-                    </div>
-                  </div>
-                  <button class="btn btn-gold" style="padding:4px 10px; font-size:0.75rem; white-space:nowrap;" onclick="closeModal(); openMainModal(${w.skan})">
-                    Otwórz skan #${w.skan} ➔
-                  </button>
-                </div>
+        occsHtml = `
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:14%;">Skan</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:36%;">Zapis w rękopisie</th>
+                <th style="width:36%;">Rola / Kontekst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.wystapienia.map(o => `
+                <tr onclick="openMainModal(${parseInt(o.skan) || 1})" style="cursor:pointer;" title="Kliknij, aby otworzyć ten skan">
+                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${o.skan}</td>
+                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok || '—')}</td>
+                  <td style="font-style:italic;"><strong>${escapeHtml(o.zapis_oryginalny || '—')}</strong></td>
+                  <td>${escapeHtml(o.rola || o.kwota_ctx || '—')}</td>
+                </tr>
               `).join('')}
-            </div>
+            </tbody>
+          </table>
+        `;
+      } else if (p.skany_list && p.skany_list.length > 0) {
+        occsHtml = `
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.5rem;">
+            ${p.skany_list.map(s => `
+              <button onclick="openMainModal(${s})" class="page-btn" style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; padding:0.3rem 0.6rem; background:rgba(217,119,6,0.15); color:var(--gold-primary); border:1px solid rgba(217,119,6,0.3); border-radius:4px; cursor:pointer;">
+                Skan #${s}
+              </button>
+            `).join('')}
           </div>
         `;
+      } else {
+        occsHtml = '<div style="color:var(--text-muted); padding:0.5rem;">Brak szczegółowego wykazu wzmianek.</div>';
       }
 
-      document.getElementById('genModalBody').innerHTML = `
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1rem; margin-bottom:1.25rem;">
-          <div style="background:rgba(15,23,42,0.8); border:1px solid var(--border); border-radius:6px; padding:0.85rem;">
-            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Imię i Nazwisko</div>
-            <div style="font-size:1.15rem; font-weight:700; color:var(--gold-primary); margin-top:2px;">${escapeHtml(p.nazwisko)} ${escapeHtml(p.imie)}</div>
+      const wariantBadge = p.wariant_nazwiska 
+        ? `<div style="font-size:0.85rem; color:#94a3b8; margin-top:4px; display:inline-block; padding:2px 8px; background:rgba(255,255,255,0.05); border-radius:4px; border:1px solid #334155;">wariant: <strong>${escapeHtml(p.wariant_nazwiska)}</strong></div>`
+        : '';
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`;
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr || 'Mieszkaniec')}</span>
           </div>
-          <div style="background:rgba(15,23,42,0.8); border:1px solid var(--border); border-radius:6px; padding:0.85rem;">
-            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Funkcja społeczna / Rola</div>
-            <div style="font-size:1rem; font-weight:600; color:#f1f5f9; margin-top:2px;">${escapeHtml(p.funkcja || 'Mieszkaniec')}</div>
-          </div>
-          <div style="background:rgba(15,23,42,0.8); border:1px solid var(--border); border-radius:6px; padding:0.85rem;">
-            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Miejsce / Przedmieście</div>
-            <div style="font-size:1rem; font-weight:600; color:#f1f5f9; margin-top:2px;">${escapeHtml(p.miejsce || 'Kraśnik')}</div>
-          </div>
-          <div style="background:rgba(15,23,42,0.8); border:1px solid var(--border); border-radius:6px; padding:0.85rem;">
-            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Zakres chronologiczny</div>
-            <div style="font-size:1rem; font-weight:600; color:#38bdf8; margin-top:2px;">${escapeHtml(p.zakres_lat || '-')}</div>
+          ${wariantBadge}
+          <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.6rem;">
+            <span>Zakres lat aktywności: <strong>${escapeHtml(p.zakres_lat || '1661–1699')}</strong></span>
+            &nbsp;•&nbsp; <span>Liczba wzmianek w jednostce: <strong>${mentions}</strong></span>
           </div>
         </div>
 
         ${p.wariant_nazwiska ? `
-        <div style="background:rgba(245,158,11,0.08); border:1px solid rgba(245,158,11,0.3); padding:0.75rem 1rem; border-radius:6px; margin-bottom:1rem; font-size:0.9rem; color:#fde68a;">
-          <strong style="color:var(--gold-primary);">Warianty nazwiska i formy oboczne:</strong> ${escapeHtml(p.wariant_nazwiska)}
-        </div>` : ''}
+        <div class="modal-section">
+          <div class="modal-section-title">Warianty nazwiska i uwagi paleograficzne</div>
+          <div style="font-size:0.9rem; line-height:1.5; color:#cbd5e1; background:#0f172a; padding:0.75rem; border-radius:6px; border:1px solid var(--border);">
+            Lekcja główna: <strong>${escapeHtml(p.nazwisko)}</strong> &nbsp;|&nbsp; Odnotowane warianty: <strong>${escapeHtml(p.wariant_nazwiska)}</strong>
+            ${p.uwagi ? `<div style="margin-top:0.4rem; color:#94a3b8;">${escapeHtml(p.uwagi)}</div>` : ''}
+          </div>
+        </div>
+        ` : ''}
 
-        ${p.uwagi ? `
-        <div style="background:rgba(15,23,42,0.6); border-left:3px solid var(--gold-primary); padding:0.75rem 1rem; border-radius:0 6px 6px 0; margin-bottom:1rem; font-size:0.88rem; color:#cbd5e1;">
-          <strong>Uwagi onomastyczne i kontekst:</strong> ${escapeHtml(p.uwagi)}
-        </div>` : ''}
+        <div class="modal-section">
+          <div class="modal-section-title">Wykaz spraw i wystąpień w aktach jednostki</div>
+          ${occsHtml}
+        </div>
 
-        ${wystapieniaHtml}
+        ${p.notatka_biograficzna ? `
+        <div class="modal-section">
+          <div class="modal-section-title">Kontekst historyczny i rola w życiu miasta</div>
+          <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+            ${escapeHtml(p.notatka_biograficzna)}
+          </div>
+        </div>
+        ` : ''}
       `;
 
-      document.getElementById('genModal').classList.add('active');
-    }
-
-    function exportGenCSV() {
-      let csv = '\uFEFF"Lp";"Nazwisko";"Imię";"Miejsce";"Funkcja społeczna / zawód";"Skany źródłowe";"Zakres lat";"Liczba wzmianek";"Warianty nazwiska"\n';
-      genFiltered.forEach(d => {
-        const row = [
-          d.lp,
-          (d.nazwisko || '').replace(/"/g, '""'),
-          (d.imie || '').replace(/"/g, '""'),
-          (d.miejsce || 'Kraśnik').replace(/"/g, '""'),
-          (d.funkcja || 'Mieszkaniec').replace(/"/g, '""'),
-          (d.skany_roboczo || (d.skany_list ? d.skany_list.map(s => '#' + s).join(', ') : '')).replace(/"/g, '""'),
-          (d.zakres_lat || '').replace(/"/g, '""'),
-          d.liczba_wystapien || (d.skany_list ? d.skany_list.length : 1),
-          (d.wariant_nazwiska || '').replace(/"/g, '""')
-        ];
-        csv += row.map(v => `"${v}"`).join(';') + '\n';
-      });
-      downloadBlob(csv, 'krasnik_j4_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
-    }
-
-    function downloadBlob(content, filename, contentType) {
-      const blob = new Blob([content], { type: contentType });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      document.getElementById('detailModal').style.display = 'block';
     }
 
     function closeModal() {
-      document.querySelectorAll('.modal').forEach(m => m.classList.remove('active'));
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
     }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('detailModal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
 
     // Keydown ESC
     document.addEventListener('keydown', e => {
