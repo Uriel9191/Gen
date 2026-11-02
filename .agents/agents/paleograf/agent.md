@@ -142,26 +142,85 @@ Twoim celem jest bezbłędne, rygorystyczne opracowywanie kolejnych jednostek ak
 
 ## IV. STANDARD ARCHITEKTURY I UI / UX KOMPENDIUM (ŻELAZNY WZORZEC J40)
 
-1. **Szata graficzna Dark Slate Theme**: Tło głęboki grafit/granat (`#0f172a`, `#1e293b`), obramowania (`#334155`), akcenty ciepły bursztyn/złoto (`#f59e0b`, `#d97706`), czcionka monospace dla transkrypcji.
-2. **Karty metryk KPI**: 4 dynamiczne karty podsumowujące u góry strony powiązane z danymi jednostki.
-3. **Sekcja monograficzna i odkrycia**: Przejrzyste panele analityczne z tablicami faktów.
+Każde kompendium jednostki (np. `krasnik_j40_kompendium_calosc.html`) musi zachowywać **identyczną szatę graficzną, ergonomię i układ komponentów „kropka w kropkę jak J40”**. Samowolne modyfikacje liczby kolumn, zmiana nazw nagłówków lub przestawianie domyślnych zakładek są traktowane jako błąd krytyczny. Każda jednostka analizowana przez dowolnego agenta na dowolnym komputerze musi dać identyczny rezultat.
+
+1. **Szata graficzna i Import Fontów Google Fonts**:
+   - W nagłówku `<head>` przed stylami:
+     `<link rel="preconnect" href="https://fonts.googleapis.com">`
+     `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`
+     `<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">`
+   - Nagłówki (`h1`, `h2`, `h3`, modal): `font-family: 'Cinzel', serif;`
+   - Tekst główny i interfejs: `font-family: 'Inter', -apple-system, sans-serif;`
+   - Numery skanów, paginacja, kwoty, KPI: `font-family: 'JetBrains Mono', monospace;`
+
+2. **Kanoniczne Zmienne CSS `:root` (Dark Slate Theme – skopiować 1:1)**:
+   ```css
+   :root {
+     --bg-primary: #0f172a;
+     --bg-secondary: #1e293b;
+     --bg-tertiary: #334155;
+     --text-main: #f8fafc;
+     --text-muted: #94a3b8;
+     --gold-primary: #f59e0b;
+     --gold-glow: rgba(245, 158, 11, 0.25);
+     --purple-accent: #8b5cf6;
+     --accent-cyan: #06b6d4;
+     --border: #334155;
+     --card-bg: rgba(30, 41, 59, 0.85);
+     --success: #10b981;
+   }
+   ```
+
+3. **Struktura DOM i Pasek Nawigacji**:
+   - W nagłówku: link powrotny `<a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Jednostek</a>`.
+   - Główny pasek nawigacji: `<nav class="tabs-nav">` z dokładnie 4 przyciskami `.tab-btn` (w tym `.gold-tab` dla Słownika):
+     - `📊 Tabela Indeksowa Skanów` (`#mainTabBadge`)
+     - `🌳 Słownik Genealogiczny Mieszkańców` (`#genTabBadge`)
+     - `🏛️ Pełna Synteza Monograficzna`
+     - `🔍 Kluczowe Odkrycia i Przełomy`
+   - Kontener główny wyśrodkowany: `<main class="container">` (z CSS `max-width: 1500px; margin: 0 auto; padding: 1.5rem;`). Kategoryczny zakaz `main-container`.
+   - Kontener tabeli: `<div class="table-wrapper">`. Kategoryczny zakaz `table-container`.
+
 4. **Tabela Rejestru Skanów – Rygor Dokładnie 7 Kolumn J40**:
    - Ściśle określone 7 kolumn: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty` (z fioletową pigułką `.badge-district` dla wpisów wieloosobowych), `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
    - Kategoryczny zakaz redukcji do 6 kolumn i samowolnej zmiany nazw nagłówków.
-   - Układ wyśrodkowany: `<main class="container">` (z CSS `max-width: 1500px; margin: 0 auto; padding: 1.5rem;`; zakaz `main-container`), `<div class="table-wrapper">` (zakaz `table-container`).
-   - Pierwsza kolumna tabeli: czysty numer `#${r.nr_skanu}` bez odznak typu `📜 Transkr.`.
-   - Wyszukiwarka na żywo, filtry kategoryczne, paginacja z bezpośrednim skokiem (`Skocz do: [ ] Idź`).
-5. **Trzyczęściowy Modal Skanu (Standard Dokładnie 3 Zakładek i Mechanizm Wyświetlania)**:
-   - **Zakładka 1: `📋 Opis i metadane` – DOMYŚLNA I ZAWSZE AKTYWNA PRZY OTWARCIU**. Cztery bloki: identyfikacja archiwalna, regest, osoby, kwoty.
-   - **Zakładka 2: `📜 Transkrypcja`** (lub transkrypcja dyplomatyczna) z przyciskiem `📋 Kopiuj transkrypcję`.
-   - **Zakładka 3: `🔗 Link do oryginału`**: Kafle do jednostki w SwA i zespołu 35/40/0 oraz boks instrukcji miniatury Skanu #{item.nr_skanu}.
-   - **Kategoryczny zakaz lokalnych wycinków cyfrowych (`crops`)**: Prawa archiwalne Archiwów Państwowych zabraniają samowolnego hostowania lokalnych wycinków/skanów. Jedyną legalną i wydajną formą dostępu jest oficjalny link do SwA. Liczba zakładek modalu wynosi ZAWSZE dokładnie 3.
+   - Pierwsza kolumna tabeli: czysty numer `#${r.nr_skanu}` font monospace w kolorze złotym – bez odznak typu `📜 Transkr.`.
+   - Wyszukiwarka na żywo, panel `.controls-panel`, paginacja `.pagination-bar` ze skokiem bezpośrednim (`Skocz do: [ ] Idź`).
+
+5. **Trzyczęściowy Modal Skanu (Standard Dokładnie 3 Zakładek – ZAKAZ CROPS)**:
+   - **Zakładka 1: `📋 Opis i metadane` (`tabBtnMeta`) – DOMYŚLNA I ZAWSZE AKTYWNA PRZY OTWARCIU**. Cztery bloki: identyfikacja archiwalna, regest, osoby, kwoty.
+   - **Zakładka 2: `📜 Transkrypcja` (`tabBtnTrans`)**: transkrypcja dyplomatyczna w `.transcription-box` z przyciskiem `📋 Kopiuj transkrypcję` (`.btn-copy-trans`).
+   - **Zakładka 3: `🔗 Link do oryginału` (`tabBtnLink`)**: kafle `.swa-card` prowadzące do portalu Szukaj w Archiwach (jednostka + zespół) oraz instrukcja klatki `#{item.nr_skanu}`.
+   - **Kategoryczny zakaz lokalnych wycinków cyfrowych (`crops`)**: prawa archiwalne Archiwów Państwowych zabraniają samowolnego hostowania lokalnych wycinków/skanów. Liczba zakładek modalu wynosi ZAWSZE dokładnie 3 (`const tabs = ['meta', 'trans', 'link'];`).
    - Mechanizm otwierania: `detailModal.style.display = 'block'; switchModalTab('meta');`. Zamykanie: `detailModal.style.display = 'none';`.
-6. **Tabela Słownika Genealogicznego**: Wyszukiwarka wielopolowa, sortowanie kolumn, odznaki ról i wdów, modal osoby (`openGenModal(lp)`) ukrywający pasek zakładek skanu, z tabelą wystąpień powracającą do skanu.
+
+6. **Tabela Słownika Genealogicznego i Modal Osoby**:
+   - Dokładnie 7 kolumn: `Lp. ↕`, `Nazwisko ↕`, `Imię ↕`, `Miejsce zamieszkania ↕`, `Funkcja społeczna ↕`, `Roboczo: Nr skanów ↕`, `Zakres lat ↕`.
+   - Wyszukiwarka wielopolowa, sortowanie kolumn, odznaki ról i wdów (`.badge-role`, `.badge-widow`, `.badge-officer`).
+   - Modal osoby (`openGenModal(lp)`): bezwzględnie ukrywa pasek zakładek skanu (`tabsBar.style.display = 'none'`), prezentuje siatkę biograficzną, warianty i tabelę wszystkich wystąpień (`.occs-table`) z klikalnymi odnośnikami do skanów.
+
+7. **Kanon Sprawdzeniowy (Żelazna Tabela Reguł DO / NIE RÓB)**:
+
+| Obszar | ✅ ZAWSZE STOSUJ (Standard J40) | ❌ KATEGORYCZNIE ZABRONIONE |
+|---|---|---|
+| **Kontener główny** | `<main class="container">` (max-width: 1500px, margin auto) | `<main class="main-container">`, nieostylowany `<main>` |
+| **Kontener tabel** | `<div class="table-wrapper">` | `<div class="table-container">` |
+| **Pasek zakładek** | `<nav class="tabs-nav">` z klasami `.tab-btn` | `<nav class="nav-tabs">`, `.nav-tab` |
+| **Liczba zakładek strony** | Dokładnie 4 zakładki (`main-tab`, `genealogy-tab`, `monograph-tab`, `analytics-tab`) | Pomijanie zakładek, tworzenie 2 lub 3 zakładek |
+| **Kolumny tabeli głównej** | Dokładnie 7 kolumn: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty`, `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki` | 6 kolumn, brak kwot, zamiana nazw nagłówków |
+| **Pierwsza kolumna** | Czysty numer `#${r.nr_skanu}` w kolorze złotym font monospace | Doklejanie odznak `📜 Transkr.`, badge'ów |
+| **Zakładki modalu** | Dokładnie 3 zakładki: `tabBtnMeta`, `tabBtnTrans`, `tabBtnLink` | Dodawanie 4. zakładki `crops`, dodawanie wycinków |
+| **Wycinki cyfrowe** | ZAKAZ lokalnych wycinków. Wyłącznie oficjalne linki do portalu SwA | Tworzenie folderów crops, linki do lokalnych .png/.jpg |
+| **Ciemny motyw (Dark Slate)** | `--bg-primary: #0f172a`, tło ciemne, obramowania `#334155` | Jasny motyw, białe tło `#ffffff`, systemowe szarości |
+| **Fonty Google Fonts** | Import `Cinzel` + `Inter` + `JetBrains Mono` | Brak importu, brak fontu Cinzel w nagłówkach |
+| **Przycisk powrotu** | `.portal-back-link` prowadzący do `index.html` | Brak linku powrotu do portalu głównego |
+| **Kodowanie CSV** | `UTF-8-SIG` (BOM `\ufeff`), separator średnik (`;`) | `UTF-8` bez BOM (krzaczy polskie znaki w Excelu) |
+| **Kolumny tabeli genealogicznej** | Dokładnie 7 kolumn: `Lp. ↕`, `Nazwisko ↕`, `Imię ↕`, `Miejsce zamieszkania ↕`, `Funkcja społeczna ↕`, `Roboczo: Nr skanów ↕`, `Zakres lat ↕` | Łączenie nazwiska i imienia w 1 kolumnę, redukcja do 6 kolumn |
+| **Modal osoby** | `tabsBar.style.display = 'none'` (ukrycie paska skanu) | Pozostawienie widocznego paska zakładek skanu w modalu osoby |
 
 --------------------------------------------------------------------------------
 
-## V. BEZWZGLĘDNY PAKIET 7 AUTOMATYCZNYCH TESTÓW WERYFIKACYJNYCH (KRYTERIA ODBIORU)
+## V. BEZWZGLĘDNY PAKIET 12 AUTOMATYCZNYCH TESTÓW WERYFIKACYJNYCH (KRYTERIA ODBIORU)
 
 Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zautomatyzowany skrypt testowy weryfikujący zgodność z wzorcem J40. Jakikolwiek błąd (FAIL) blokuje zakończenie zadania:
 
@@ -190,6 +249,16 @@ Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zau
    - Dynamiczne liczniki osób i skanów w UI (brak rozbieżności z bazą).
 7. **Test 7: Składnia i Wykonanie w Node.js VM**:
    - Pełna walidacja skryptu JavaScript pod kątem braku SyntaxError i poprawnego parsowania struktur.
+8. **Test 8: Import Fontów Google Fonts (Cinzel, Inter, JetBrains Mono)**:
+   - Weryfikacja obecności tagu link z fontami `Cinzel`, `Inter`, `JetBrains Mono`.
+9. **Test 9: Kanoniczne Zmienne CSS :root (Dark Slate Theme)**:
+   - Weryfikacja zmiennych `--bg-primary`, `--gold-primary`, `--purple-accent`, `--card-bg`.
+10. **Test 10: Przycisk Powrotu do Portalu**:
+    - Weryfikacja linku `.portal-back-link` prowadzącego do `index.html`.
+11. **Test 11: Rygor Paska Zakładek Głównych (Dokładnie 4 Zakładki)**:
+    - Weryfikacja 4 przycisków `.tab-btn` w `<nav class="tabs-nav">`.
+12. **Test 12: Kanoniczne 7 Kolumn Tabeli Słownika Genealogicznego**:
+    - Weryfikacja 7 nagłówków tabeli osób w `#genealogy-tab`.
 
 --------------------------------------------------------------------------------
 
@@ -200,5 +269,5 @@ Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zau
 2. **W trakcie zadania (Kopiowanie z Wzorca J40 zamiast Pisania z Pamięci)**:
    - Kategoryczny zakaz pisania struktur tabel i modali z pamięci. Kopiowanie 1:1 z `krasnik_j40_kompendium_calosc.html`.
 3. **Po zadaniu (Obowiązkowa Automatyczna Weryfikacja Testami)**:
-   - Uruchomienie skryptu weryfikacyjnego badającego wszystkie 7 testów z Sekcji V.
+   - Uruchomienie skryptu weryfikacyjnego badającego wszystkie 12 testów z Sekcji V.
    - Tylko wynik 100% PASS uprawnia do zakończenia partii i przedstawienia wyników użytkownikowi.

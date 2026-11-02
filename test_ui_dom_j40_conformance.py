@@ -174,7 +174,7 @@ def test_unit(unit_id, html_path, csv_path):
     # ---------------------------------------------------------
     # TEST 7: Składnia i Wykonanie w Node.js VM
     # ---------------------------------------------------------
-    print("[TEST 7/7] Weryfikacja składni JavaScript w Node.js VM...")
+    print("[TEST 7/12] Weryfikacja składni JavaScript w Node.js VM...")
     scripts = re.findall(r'<script>(.*?)</script>', html, re.DOTALL)
     assert len(scripts) > 0, "FAIL: Brak bloku <script> w dokumencie!"
     
@@ -199,10 +199,66 @@ def test_unit(unit_id, html_path, csv_path):
     assert res.returncode == 0, f"FAIL: Błąd składni JS w Node.js VM: {res.stderr}"
     print("  -> PASS: Składnia JavaScript w 100% poprawna (zweryfikowana w Node.js VM).")
 
-    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 7/7 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
+    # ---------------------------------------------------------
+    # TEST 8: Import Fontów Google Fonts (Cinzel, Inter, JetBrains Mono)
+    # ---------------------------------------------------------
+    print("[TEST 8/12] Weryfikacja importu Google Fonts (Cinzel, Inter, JetBrains Mono)...")
+    assert 'fonts.googleapis.com' in html, f"FAIL: W pliku {html_path} brak linku do fonts.googleapis.com!"
+    assert 'Cinzel' in html, f"FAIL: W pliku {html_path} brak deklaracji fontu Cinzel!"
+    assert 'Inter' in html, f"FAIL: W pliku {html_path} brak deklaracji fontu Inter!"
+    assert 'JetBrains' in html, f"FAIL: W pliku {html_path} brak deklaracji fontu JetBrains Mono!"
+    print("  -> PASS: Wszystkie 3 kanoniczne rodziny fontów (Cinzel, Inter, JetBrains Mono) obecne.")
+
+    # ---------------------------------------------------------
+    # TEST 9: Kanoniczne Zmienne CSS :root (Dark Slate Theme)
+    # ---------------------------------------------------------
+    print("[TEST 9/12] Weryfikacja kanonicznych zmiennych CSS :root...")
+    assert '--bg-primary: #0f172a' in html, f"FAIL: W pliku {html_path} brak kanonicznej zmiennej --bg-primary: #0f172a!"
+    assert '--gold-primary: #f59e0b' in html, f"FAIL: W pliku {html_path} brak kanonicznej zmiennej --gold-primary: #f59e0b!"
+    assert '--purple-accent: #8b5cf6' in html, f"FAIL: W pliku {html_path} brak kanonicznej zmiennej --purple-accent: #8b5cf6!"
+    assert 'rgba(30, 41, 59' in html, f"FAIL: W pliku {html_path} brak kanonicznego koloru tła kart rgba(30, 41, 59...!"
+    print("  -> PASS: Zmienne CSS :root są w 100% zgodne z paletą Dark Slate Theme J40.")
+
+    # ---------------------------------------------------------
+    # TEST 10: Przycisk Powrotu do Portalu Głównego (.portal-back-link)
+    # ---------------------------------------------------------
+    print("[TEST 10/12] Weryfikacja przycisku powrotu do portalu głównego...")
+    assert 'class="portal-back-link"' in html, f"FAIL: W pliku {html_path} brak linku powrotnego z klasą .portal-back-link!"
+    assert 'href="index.html"' in html, f"FAIL: W pliku {html_path} link powrotny nie prowadzi do index.html!"
+    print("  -> PASS: Przycisk .portal-back-link do index.html obecny i prawidłowo ostylowany.")
+
+    # ---------------------------------------------------------
+    # TEST 11: Rygor Paska Zakładek Głównych (Dokładnie 4 Zakładki)
+    # ---------------------------------------------------------
+    print("[TEST 11/12] Weryfikacja paska nawigacji <nav class=\"tabs-nav\">...")
+    nav_match = re.search(r'<nav class="tabs-nav">(.*?)</nav>', html, re.DOTALL)
+    assert nav_match, f"FAIL: W pliku {html_path} brak elementu <nav class=\"tabs-nav\">!"
+    tab_buttons = re.findall(r'<button[^>]*class="tab-btn[^"]*"', nav_match.group(1))
+    assert len(tab_buttons) == 4, f"FAIL: W pasku nawigacji znaleziono {len(tab_buttons)} zakładek zamiast dokładnie 4!"
+    assert 'main-tab' in nav_match.group(1), f"FAIL: Brak przełącznika do main-tab!"
+    assert 'genealogy-tab' in nav_match.group(1), f"FAIL: Brak przełącznika do genealogy-tab!"
+    assert 'monograph-tab' in nav_match.group(1), f"FAIL: Brak przełącznika do monograph-tab!"
+    assert 'analytics-tab' in nav_match.group(1), f"FAIL: Brak przełącznika do analytics-tab!"
+    print("  -> PASS: Pasek zakładek <nav class=\"tabs-nav\"> posiada dokładnie 4 kanoniczne przyciski .tab-btn.")
+
+    # ---------------------------------------------------------
+    # TEST 12: Tabela Słownika Genealogicznego w sekcji #genealogy-tab
+    # ---------------------------------------------------------
+    print("[TEST 12/12] Weryfikacja tabeli Słownika Genealogicznego...")
+    gen_thead = re.search(r'id="genealogy-tab".*?<thead>(.*?)</thead>', html, re.DOTALL)
+    assert gen_thead, f"FAIL: W sekcji #genealogy-tab pliku {html_path} brak thead tabeli!"
+    gen_ths = re.findall(r'<th[^>]*>(.*?)</th>', gen_thead.group(1), re.DOTALL)
+    clean_gen_ths = [re.sub(r'<[^>]*>', '', t).replace('↕', '').strip() for t in gen_ths]
+    assert len(clean_gen_ths) >= 6, f"FAIL: Tabela genealogiczna ma za mało kolumn ({len(clean_gen_ths)})!"
+    assert 'Lp.' in clean_gen_ths[0], f"FAIL: Pierwsza kolumna tabeli genealogicznej to nie Lp. ({clean_gen_ths[0]})"
+    if unit_id == 'j40':
+        assert len(clean_gen_ths) == 7, f"FAIL: Wzorzec J40 musi posiadać dokładnie 7 kolumn genealogicznych, ma {len(clean_gen_ths)}!"
+    print(f"  -> PASS: Tabela Słownika Genealogicznego obecna z poprawnymi nagłówkami: {clean_gen_ths}")
+
+    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 12/12 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
 
 def main():
-    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (7 TESTÓW WERYFIKACYJNYCH)...")
+    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (12 TESTÓW WERYFIKACYJNYCH)...")
     
     units = [
         ('j40', '/home/ubuntu/workspace/Gen/krasnik_j40_kompendium_calosc.html', '/home/ubuntu/workspace/Gen/krasnik_j40_slownik_genealogiczny.csv'),
