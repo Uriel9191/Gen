@@ -929,34 +929,47 @@
           <div class="stat-desc">Zintegrowane profile biograficzne (Wariant 2)</div>
         </div>
         <div class="stat-card success">
-          <div class="stat-title">Wzmianki źródłowe</div>
+          <div class="stat-title">Wzmianki genealogiczne</div>
           <div class="stat-value" id="genMentionsCount">2 940</div>
-          <div class="stat-desc">Łączna liczba powiązań ze sprawami</div>
+          <div class="stat-desc">Wystąpienia w aktach 1661–1699</div>
         </div>
         <div class="stat-card purple">
-          <div class="stat-title">Zakres lat wzmianek</div>
-          <div class="stat-value">1661–1699</div>
-          <div class="stat-desc">Druga połowa XVII wieku (doba sarmatyzmu)</div>
+          <div class="stat-title">Przedmieścia i rejon</div>
+          <div class="stat-value">4 dzielnice</div>
+          <div class="stat-desc">Śródmieście, Piaski, Zarzecze, Budzyń / Podlesie</div>
         </div>
         <div class="stat-card cyan">
-          <div class="stat-title">Rygor onomastyczny</div>
-          <div class="stat-value">Wariant 2 (0 dup.)</div>
-          <div class="stat-desc">1 osoba fizyczna = 1 unikalny biogram</div>
+          <div class="stat-title">Rygor genealogiczny</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">Wariant 2 (0 dup., pełna de-duplikacja)</div>
         </div>
+      </div>
+
+      <div class="info-box">
+        <strong>🌳 Słownik Biograficzno-Genealogiczny Mieszkańców Kraśnika (sygn. 4):</strong><br>
+        Zgodnie z nowym kanonem badawczym Jednostki 40 oraz zasadą <strong>Wariantu 2</strong>, skorowidz został przekształcony z listy pojedynczych wystąpień w <strong>zagregowany słownik mieszkańców</strong>. 
+        Każda pojedyncza osoba fizyczna posiada dokładnie <strong>jeden unikalny profil biograficzny</strong>, do którego dołączane są kolejne wystąpienia w aktach oraz skany źródłowe. 
+        Wszelkie warianty fonetyczne i paleograficzne z nawiasów <code>[...]</code> są w 100% zsynchronizowane i przeszukiwane na żywo. 
+        Kliknij w wiersz danej osoby, aby zobaczyć wszystkie szczegółowe wzmianki i wystąpienia w sprawach.
       </div>
 
       <div class="controls-panel">
         <div class="control-group wide">
-          <label for="genSearch">Wyszukaj mieszkańca (nazwisko, imię, przydomek, profesja, przedmieście)</label>
-          <input type="text" id="genSearch" placeholder="np. Sierocki, Kleparz, Rychtarski, Kłopot, Szewc, Piaski..." oninput="filterGenData()">
+          <label for="genSearch">Szukaj mieszkańca (nazwisko, imię, przedmieście, urząd, nr skanu)</label>
+          <input type="text" id="genSearch" placeholder="np. Komięga, Zegart, Kawrocki, Fox, Sówka, Piaski, #155..." oninput="filterGenData()">
         </div>
         <div class="control-group">
-          <label for="genRoleFilter">Funkcja / status</label>
-          <select id="genRoleFilter" onchange="filterGenData()">
-            <option value="">-- Wszystkie grupy --</option>
+          <label for="genDistrictFilter">Miejsce zamieszkania (Dzielnica)</label>
+          <select id="genDistrictFilter" onchange="filterGenData()">
+            <option value="">-- Wszystkie przedmieścia i dzielnice --</option>
+            <option value="Kraśnik">Kraśnik (Śródmieście / Rynek)</option>
+            <option value="Piaski">Przedmieście Piaski</option>
+            <option value="Zarzecze">Przedmieście Zarzecze</option>
+            <option value="Budzyń">Góry i Podlesie / Budzyń</option>
+            <option value="Wilkołaz">Wilkołaz / Blinów (okolice)</option>
           </select>
         </div>
-        <button class="btn btn-gold" onclick="exportGenCSV()">📥 Pobierz Słownik CSV</button>
+        <button class="btn btn-gold" onclick="exportGenCSV()">📥 Pobierz Słownik Genealogiczny (CSV)</button>
       </div>
 
       <div class="pagination-bar">
@@ -974,25 +987,17 @@
         <table>
           <thead>
             <tr>
-              <th onclick="sortGen('lp')" style="width: 7%;">Lp. ↕</th>
-              <th onclick="sortGen('nazwisko')" style="width: 25%;">Nazwisko i Imię ↕</th>
+              <th onclick="sortGen('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGen('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGen('imie')" style="width: 15%;">Imię ↕</th>
               <th onclick="sortGen('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
-              <th onclick="sortGen('funkcja')" style="width: 20%;">Rola / Funkcja społeczna ↕</th>
-              <th style="width: 15%;">Wystąpienia w skanach</th>
-              <th onclick="sortGen('min_rok')" style="width: 15%;">Zakres lat ↕</th>
+              <th onclick="sortGen('funkcja')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th onclick="sortGen('skany_list')" style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGen('min_rok')" style="width: 12%;">Zakres lat ↕</th>
             </tr>
           </thead>
           <tbody id="genTableBody"></tbody>
         </table>
-      </div>
-
-      <div class="pagination-bar" style="margin-top:1rem;">
-        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
-        <div class="pagination-controls">
-          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()" disabled>&laquo; Poprzednia</button>
-          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
-          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna &raquo;</button>
-        </div>
       </div>
     </section>
 
@@ -1997,19 +2002,23 @@ Kontrakt sprzedaży murowano-drewnianej kamienicy przez wdowę Annę Karczmarzyk
     // GENEALOGY DATA LOGIC
     function filterGenData() {
       const q = norm(document.getElementById('genSearch').value);
-      const role = document.getElementById('genRoleFilter').value;
+      const districtSelect = document.getElementById('genDistrictFilter');
+      const district = districtSelect ? norm(districtSelect.value) : '';
 
       genFiltered = genData.filter(d => {
-        if (role && d.funkcja !== role) return false;
+        if (district && !norm(d.miejsce || '').includes(district)) return false;
         if (!q) return true;
         const text = norm([
+          d.lp,
           d.nazwisko,
-          d.imie,
           d.wariant_nazwiska,
+          d.imie,
+          d.przydomek,
           d.miejsce,
           d.funkcja,
           d.zakres_lat,
           d.skany_roboczo,
+          (Array.isArray(d.skany_list) ? d.skany_list.map(s => '#' + s).join(' ') + ' ' + d.skany_list.join(' ') : ''),
           d.uwagi,
           JSON.stringify(d.wystapienia || [])
         ].join(' '));
@@ -2056,23 +2065,27 @@ Kontrakt sprzedaży murowano-drewnianej kamienicy przez wdowę Annę Karczmarzyk
       const end = Math.min(start + genPageSize, total);
       const pageData = genFiltered.slice(start, end);
 
-      const infoText = `Wyświetlanie ${total > 0 ? start + 1 : 0}–${end} z ${total} osób`;
-      document.getElementById('genPaginationInfo').innerText = infoText;
-      document.getElementById('genPaginationInfoBot').innerText = infoText;
+      const infoText = `Pokazywane ${total > 0 ? start + 1 : 0}–${end} z ${total} mieszkańców`;
+      if (document.getElementById('genPaginationInfo')) {
+        document.getElementById('genPaginationInfo').innerText = infoText;
+      }
 
-      const pageIndicator = `${genCurrentPage} / ${totalPages}`;
-      document.getElementById('genPageIndicator').innerText = pageIndicator;
-      document.getElementById('genPageIndicatorBot').innerText = pageIndicator;
-
-      document.getElementById('genPrevBtn').disabled = (genCurrentPage <= 1);
-      document.getElementById('genPrevBtnBot').disabled = (genCurrentPage <= 1);
-      document.getElementById('genNextBtn').disabled = (genCurrentPage >= totalPages);
-      document.getElementById('genNextBtnBot').disabled = (genCurrentPage >= totalPages);
-      document.getElementById('genJumpInput').max = totalPages;
-      document.getElementById('genJumpInput').value = genCurrentPage;
+      if (document.getElementById('genPageIndicator')) {
+        document.getElementById('genPageIndicator').innerText = `${genCurrentPage} / ${totalPages}`;
+      }
+      if (document.getElementById('genPrevBtn')) {
+        document.getElementById('genPrevBtn').disabled = (genCurrentPage <= 1);
+      }
+      if (document.getElementById('genNextBtn')) {
+        document.getElementById('genNextBtn').disabled = (genCurrentPage >= totalPages);
+      }
+      if (document.getElementById('genJumpInput')) {
+        document.getElementById('genJumpInput').max = totalPages;
+        document.getElementById('genJumpInput').value = genCurrentPage;
+      }
 
       if (pageData.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników w słowniku genealogicznym.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak mieszkańców spełniających kryteria.</td></tr>';
         return;
       }
 
@@ -2081,23 +2094,64 @@ Kontrakt sprzedaży murowano-drewnianej kamienicy przez wdowę Annę Karczmarzyk
         tr.className = 'clickable-row';
         tr.onclick = () => openGenModal(d.lp);
 
-        const skany = (d.skany_list && d.skany_list.length > 0)
-          ? d.skany_list.map(s => `<span class="scan-pill" onclick="event.stopPropagation(); openMainModal(${s})">#${s}</span>`).join(' ')
-          : escapeHtml(d.skany_roboczo || '-');
+        const imieStr = d.imie || '';
+        const funkcjaStr = d.funkcja || d.funkcja_zawod || 'Mieszkaniec';
+        const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+        const isOfficer = ['Wójt', 'Burmistrz', 'Ławnik', 'Pisarz', 'Exaktor', 'Szafarz', 'Cechmistrz', 'Burgrabia', 'Sędzia', 'Deputat'].some(k => funkcjaStr.includes(k));
+
+        let roleBadge = `<span class="badge-role">${escapeHtml(funkcjaStr)}</span>`;
+        if (isWidow) roleBadge = `<span class="badge-role badge-widow">Mieszkanka (wdowa)</span>`;
+        else if (isOfficer) roleBadge = `<span class="badge-role badge-officer">${escapeHtml(funkcjaStr)}</span>`;
+
+        let scanBadges = '';
+        if (Array.isArray(d.skany_list) && d.skany_list.length > 0) {
+          if (d.skany_list.length <= 4) {
+            scanBadges = d.skany_list.map(s => `<span class="badge-scan" onclick="event.stopPropagation(); openMainModal(${s})" title="Otwórz skan #${s}">#${s}</span>`).join(' ');
+          } else {
+            scanBadges = d.skany_list.slice(0, 3).map(s => `<span class="badge-scan" onclick="event.stopPropagation(); openMainModal(${s})" title="Otwórz skan #${s}">#${s}</span>`).join(' ') +
+              ` <span class="badge-scan" style="background:#334155; color:#cbd5e1;">+${d.skany_list.length - 3}</span>`;
+          }
+        } else if (d.skany_roboczo) {
+          scanBadges = `<span class="badge-scan">${escapeHtml(d.skany_roboczo)}</span>`;
+        } else {
+          scanBadges = '—';
+        }
 
         tr.innerHTML = `
-          <td><span style="font-family:'JetBrains Mono'; font-size:0.85rem; color:var(--text-muted);">${d.lp}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:var(--text-muted);">${d.lp}</td>
           <td>
-            <strong style="color:var(--gold-primary); font-size:0.95rem;">${escapeHtml(d.nazwisko)}</strong> ${escapeHtml(d.imie)}
-            ${d.wariant_nazwiska ? `<div style="font-size:0.75rem; color:#94a3b8; margin-top:2px; display:inline-block; padding:1px 5px; background:rgba(255,255,255,0.05); border-radius:3px; border:1px solid #334155;">wariant: ${escapeHtml(d.wariant_nazwiska)}</div>` : ''}
+            <strong style="color:var(--gold-primary); font-size:0.95rem;">${escapeHtml(d.nazwisko)}</strong>
+            ${d.przydomek ? `<span style="font-size:0.8rem; color:var(--gold-primary); font-style:italic; display:block;">vel ${escapeHtml(d.przydomek)}</span>` : ''}
+            ${d.wariant_nazwiska ? `<div style="font-size:0.75rem; color:#94a3b8; margin-top:2px; display:inline-block; padding:1px 5px; background:rgba(255,255,255,0.05); border-radius:3px; border:1px solid #334155;" title="Warianty zapisu">wariant: ${escapeHtml(d.wariant_nazwiska)}</div>` : ''}
           </td>
-          <td>${escapeHtml(d.miejsce || 'Kraśnik')}</td>
-          <td><span class="badge-role">${escapeHtml(d.funkcja || 'Mieszkaniec')}</span></td>
-          <td>${skany}</td>
-          <td><span class="badge-years">${escapeHtml(d.zakres_lat || '-')}</span></td>
+          <td style="color:#e2e8f0;">${escapeHtml(imieStr)}</td>
+          <td><span class="badge-district">${escapeHtml(d.miejsce || 'Kraśnik')}</span></td>
+          <td>${roleBadge}</td>
+          <td style="white-space:nowrap;">${scanBadges}</td>
+          <td><span class="badge-years">${escapeHtml(d.zakres_lat || '—')}</span></td>
         `;
         tbody.appendChild(tr);
       });
+    }
+
+    function exportGenCSV() {
+      const headers = ['Lp', 'Nazwisko', 'Imię', 'Miejsce', 'Funkcja społeczna / zawód', 'Skany źródłowe', 'Zakres lat', 'Liczba wzmianek', 'Warianty nazwiska'];
+      let csv = "\ufeff" + headers.join(';') + "\r\n";
+      genFiltered.forEach(p => {
+        const row = [
+          p.lp,
+          p.nazwisko,
+          p.imie,
+          p.miejsce,
+          p.funkcja || p.funkcja_zawod || '',
+          p.skany_roboczo || (p.skany_list ? p.skany_list.map(s => '#' + s).join(', ') : ''),
+          p.zakres_lat,
+          p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1)),
+          p.wariant_nazwiska || ''
+        ].map(val => `"${String(val || '').replace(/"/g, '""')}"`).join(';');
+        csv += row + "\r\n";
+      });
+      downloadBlob(csv, 'krasnik_j4_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
     }
 
     function prevGenPage() {
@@ -2252,15 +2306,26 @@ Kontrakt sprzedaży murowano-drewnianej kamienicy przez wdowę Annę Karczmarzyk
         catSelect.appendChild(opt);
       });
 
-      // Setup Roles filter
+      // Setup Roles filter if present
       const roleSelect = document.getElementById('genRoleFilter');
-      const roles = Array.from(new Set(genData.map(d => d.funkcja).filter(Boolean))).sort();
-      roles.forEach(r => {
-        const opt = document.createElement('option');
-        opt.value = r;
-        opt.innerText = r;
-        roleSelect.appendChild(opt);
-      });
+      if (roleSelect) {
+        const roles = Array.from(new Set(genData.map(d => d.funkcja).filter(Boolean))).sort();
+        roles.forEach(r => {
+          const opt = document.createElement('option');
+          opt.value = r;
+          opt.innerText = r;
+          roleSelect.appendChild(opt);
+        });
+      }
+
+      // Dynamic KPI stats
+      if (document.getElementById('genStatCount')) {
+        document.getElementById('genStatCount').innerText = genData.length;
+      }
+      const totalMentionsCalc = genData.reduce((acc, p) => acc + (p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1))), 0);
+      if (document.getElementById('genMentionsCount')) {
+        document.getElementById('genMentionsCount').innerText = totalMentionsCalc.toLocaleString('pl-PL');
+      }
 
       // Initial Renders
       renderMainTable();

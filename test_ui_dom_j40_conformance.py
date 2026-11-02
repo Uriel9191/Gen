@@ -249,11 +249,11 @@ def test_unit(unit_id, html_path, csv_path):
     assert gen_thead, f"FAIL: W sekcji #genealogy-tab pliku {html_path} brak thead tabeli!"
     gen_ths = re.findall(r'<th[^>]*>(.*?)</th>', gen_thead.group(1), re.DOTALL)
     clean_gen_ths = [re.sub(r'<[^>]*>', '', t).replace('↕', '').strip() for t in gen_ths]
-    assert len(clean_gen_ths) >= 6, f"FAIL: Tabela genealogiczna ma za mało kolumn ({len(clean_gen_ths)})!"
+    assert len(clean_gen_ths) == 7, f"FAIL: Tabela genealogiczna dla {unit_id.upper()} musi posiadać dokładnie 7 kolumn (standard J40), a ma {len(clean_gen_ths)}: {clean_gen_ths}!"
     assert 'Lp.' in clean_gen_ths[0], f"FAIL: Pierwsza kolumna tabeli genealogicznej to nie Lp. ({clean_gen_ths[0]})"
-    if unit_id == 'j40':
-        assert len(clean_gen_ths) == 7, f"FAIL: Wzorzec J40 musi posiadać dokładnie 7 kolumn genealogicznych, ma {len(clean_gen_ths)}!"
-    print(f"  -> PASS: Tabela Słownika Genealogicznego obecna z poprawnymi nagłówkami: {clean_gen_ths}")
+    assert clean_gen_ths[1] == 'Nazwisko', f"FAIL: Druga kolumna to nie Nazwisko ({clean_gen_ths[1]})"
+    assert clean_gen_ths[2] == 'Imię', f"FAIL: Trzecia kolumna to nie Imię ({clean_gen_ths[2]})"
+    print(f"  -> PASS: Tabela Słownika Genealogicznego posiada dokładnie 7 kanonicznych kolumn: {clean_gen_ths}")
 
     print(f"\n>>> WYNIK DLA {unit_id.upper()}: 12/12 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
 
