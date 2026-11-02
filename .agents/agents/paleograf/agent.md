@@ -148,6 +148,8 @@ Twoim celem jest bezbłędne, rygorystyczne opracowywanie kolejnych jednostek ak
 4. **Tabela Rejestru Skanów – Rygor Dokładnie 7 Kolumn J40**:
    - Ściśle określone 7 kolumn: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty` (z fioletową pigułką `.badge-district` dla wpisów wieloosobowych), `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
    - Kategoryczny zakaz redukcji do 6 kolumn i samowolnej zmiany nazw nagłówków.
+   - Układ wyśrodkowany: `<main class="container">` (z CSS `max-width: 1500px; margin: 0 auto; padding: 1.5rem;`; zakaz `main-container`), `<div class="table-wrapper">` (zakaz `table-container`).
+   - Pierwsza kolumna tabeli: czysty numer `#${r.nr_skanu}` bez odznak typu `📜 Transkr.`.
    - Wyszukiwarka na żywo, filtry kategoryczne, paginacja z bezpośrednim skokiem (`Skocz do: [ ] Idź`).
 5. **Trzyczęściowy Modal Skanu (Standard Dokładnie 3 Zakładek i Mechanizm Wyświetlania)**:
    - **Zakładka 1: `📋 Opis i metadane` – DOMYŚLNA I ZAWSZE AKTYWNA PRZY OTWARCIU**. Cztery bloki: identyfikacja archiwalna, regest, osoby, kwoty.
@@ -166,6 +168,8 @@ Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zau
 1. **Test 1: Architektura DOM i Rygor 7 Kolumn Tabeli Głównej**:
    - Weryfikacja 7 nagłówków `<th>`: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty`, `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
    - Weryfikacja pigułek `.badge-district` dla wpisów wieloosobowych.
+   - Weryfikacja obecności `<main class="container">` i `.table-wrapper` oraz braku `main-container` i `table-container`.
+   - Weryfikacja braku odznaki `📜 Transkr.` w 1. kolumnie tabeli.
 2. **Test 2: Symulacja Kliknięcia i Otwierania Modalu Skanu (`openMainModal`)**:
    - Sprawdzenie wywołania `openMainModal(nr_skanu)`: `#detailModal.style.display === 'block'`.
    - Sprawdzenie domyślnej zakładki: `meta` aktywna (`tabBtnMeta.classList.contains('active')`, `modalTabContentMeta.style.display === 'block'`).

@@ -841,7 +841,7 @@
     </button>
   </nav>
 
-  <main class="main-container">
+  <main class="container">
 
     <!-- TAB 1: MAIN SCANS TABLE -->
     <section id="main-tab" class="tab-content active">
@@ -893,7 +893,7 @@
         </div>
       </div>
 
-      <div class="table-container">
+      <div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -970,7 +970,7 @@
         </div>
       </div>
 
-      <div class="table-container">
+      <div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -1746,13 +1746,9 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
           osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
         }
 
-        const transBadge = (r.transkrypcja && r.transkrypcja.length > 50 && !r.transkrypcja.includes('sukcesywnie wdrażana'))
-          ? '<br><span style="font-size:0.7rem; color:var(--success); font-weight:700;">📜 Transkr.</span>'
-          : '';
-
         html += `
           <tr onclick="openMainModal(${r.nr_skanu})" style="cursor:pointer;">
-            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${r.nr_skanu}${transBadge}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${r.nr_skanu}</td>
             <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina || '—')}</td>
             <td><span class="badge-years">${escapeHtml(r.data_rok || '—')}</span></td>
             <td>${osobyDisplay}</td>

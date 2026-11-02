@@ -840,7 +840,7 @@
     </button>
   </nav>
 
-  <main class="main-container">
+  <main class="container">
 
     <!-- TAB 1: MAIN SCANS TABLE -->
     <section id="main-tab" class="tab-content active">
@@ -137108,14 +137108,9 @@
           osobyDisplay = escapeHtml(r.osoby_podmioty || '—');
         }
 
-        const hasTrans = !!(r.transkrypcja || r.transkrypcja_dyplomatyczna);
-
         html += `
           <tr onclick="openMainModal(${r.nr_skanu})">
-            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">
-              #${r.nr_skanu}
-              ${hasTrans ? '<span style="font-size:0.7rem; color:var(--success); display:block;">📜 Transkr.</span>' : ''}
-            </td>
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${r.nr_skanu}</td>
             <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem;">${escapeHtml(r.strona_pagina)}</td>
             <td><span class="badge-years">${escapeHtml(r.data_rok)}</span></td>
             <td>${osobyDisplay}</td>

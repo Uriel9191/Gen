@@ -55,7 +55,15 @@ def test_unit(unit_id, html_path, csv_path):
     
     # Sprawdzenie obecności reguł/użycia badge-district dla wpisów wieloosobowych
     assert 'badge-district' in html, "FAIL: Brak klasy .badge-district dla osób w tabeli głównej!"
+    
+    # Sprawdzenie estetyki i centrowania kontenera głównego: <main class="container">
+    assert '<main class="container">' in html, f"FAIL: W pliku {html_path} znacznik <main> nie posiada klasy 'container'!"
+    assert 'main-container' not in html, f"FAIL: W pliku {html_path} znaleziono nieprawidłową klasę 'main-container'!"
+    assert 'class="table-wrapper"' in html, f"FAIL: W pliku {html_path} brak kontenera .table-wrapper!"
+    assert 'table-container' not in html, f"FAIL: W pliku {html_path} znaleziono nieprawidłową klasę 'table-container'!"
+    assert 'Transkr.</span>' not in html, f"FAIL: W pliku {html_path} znaleziono zbędną odznakę transBadge w 1. kolumnie tabeli!"
     print(f"  -> PASS: Tabela główna posiada dokładnie 7 kanonicznych kolumn: {clean_ths}")
+    print(f"  -> PASS: Układ posiada wycentrowany kontener główny <main class=\"container\"> i .table-wrapper.")
 
     # ---------------------------------------------------------
     # TEST 2: Symulacja Kliknięcia i Otwierania Modalu Skanu
