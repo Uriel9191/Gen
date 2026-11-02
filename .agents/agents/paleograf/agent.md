@@ -149,11 +149,11 @@ Twoim celem jest bezbłędne, rygorystyczne opracowywanie kolejnych jednostek ak
    - Ściśle określone 7 kolumn: `Skan ↕`, `Pagina ↕`, `Rok ↕`, `Osoby i Podmioty` (z fioletową pigułką `.badge-district` dla wpisów wieloosobowych), `Kategoria ↕`, `Opis Sprawy / Treść Aktu`, `Kwoty / Podatki`.
    - Kategoryczny zakaz redukcji do 6 kolumn i samowolnej zmiany nazw nagłówków.
    - Wyszukiwarka na żywo, filtry kategoryczne, paginacja z bezpośrednim skokiem (`Skocz do: [ ] Idź`).
-5. **Trzyczęściowy Modal Skanu (Standard Zakładek i Mechanizm Wyświetlania)**:
+5. **Trzyczęściowy Modal Skanu (Standard Dokładnie 3 Zakładek i Mechanizm Wyświetlania)**:
    - **Zakładka 1: `📋 Opis i metadane` – DOMYŚLNA I ZAWSZE AKTYWNA PRZY OTWARCIU**. Cztery bloki: identyfikacja archiwalna, regest, osoby, kwoty.
    - **Zakładka 2: `📜 Transkrypcja`** (lub transkrypcja dyplomatyczna) z przyciskiem `📋 Kopiuj transkrypcję`.
    - **Zakładka 3: `🔗 Link do oryginału`**: Kafle do jednostki w SwA i zespołu 35/40/0 oraz boks instrukcji miniatury Skanu #{item.nr_skanu}.
-   - **Zakładka 4 (wyłącznie opcjonalna): `🖼️ Wycinki cyfrowe`**. Kategoryczny zakaz ustawiania jej jako 1. lub domyślnej!
+   - **Kategoryczny zakaz lokalnych wycinków cyfrowych (`crops`)**: Prawa archiwalne Archiwów Państwowych zabraniają samowolnego hostowania lokalnych wycinków/skanów. Jedyną legalną i wydajną formą dostępu jest oficjalny link do SwA. Liczba zakładek modalu wynosi ZAWSZE dokładnie 3.
    - Mechanizm otwierania: `detailModal.style.display = 'block'; switchModalTab('meta');`. Zamykanie: `detailModal.style.display = 'none';`.
 6. **Tabela Słownika Genealogicznego**: Wyszukiwarka wielopolowa, sortowanie kolumn, odznaki ról i wdów, modal osoby (`openGenModal(lp)`) ukrywający pasek zakładek skanu, z tabelą wystąpień powracającą do skanu.
 
@@ -169,7 +169,8 @@ Każda partia lub jednostka przed oddaniem użytkownikowi **musi** przejść zau
 2. **Test 2: Symulacja Kliknięcia i Otwierania Modalu Skanu (`openMainModal`)**:
    - Sprawdzenie wywołania `openMainModal(nr_skanu)`: `#detailModal.style.display === 'block'`.
    - Sprawdzenie domyślnej zakładki: `meta` aktywna (`tabBtnMeta.classList.contains('active')`, `modalTabContentMeta.style.display === 'block'`).
-   - Obecność 3 kanonicznych zakładek (`meta`, `trans`, `link`).
+   - Obecność dokładnie 3 kanonicznych zakładek (`tabBtnMeta`, `tabBtnTrans`, `tabBtnLink`).
+   - 0 odwołań do wycinków cyfrowych (`crops`) oraz 0 lokalnych tagów `<img>` skanów w kodzie HTML.
    - Sprawdzenie `closeModal()`: `#detailModal.style.display === 'none'`.
 3. **Test 3: Działanie Modalu Genealogicznego (`openGenModal`)**:
    - Sprawdzenie wywołania `openGenModal(lp)`: ukrycie `#modalTabsBar.style.display === 'none'`, otwarcie `#detailModal.style.display === 'block'`.

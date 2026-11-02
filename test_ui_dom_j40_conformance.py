@@ -71,14 +71,12 @@ def test_unit(unit_id, html_path, csv_path):
     clean_tab_ids = [t[0] for t in tab_btns]
     clean_tab_labels = [re.sub(r'<[^>]*>', '', t[1]).strip() for t in tab_btns]
     
-    assert len(clean_tab_ids) >= 3, f"FAIL: Zbyt mało zakładek w modalu ({clean_tab_ids})!"
-    assert clean_tab_ids[0] == 'tabBtnMeta', f"FAIL: Pierwszą zakładką musi być tabBtnMeta, a jest: {clean_tab_ids[0]}!"
+    assert len(clean_tab_ids) == 3, f"FAIL: Modal musi posiadać dokładnie 3 kanoniczne zakładki J40, a ma {len(clean_tab_ids)} ({clean_tab_ids})!"
+    assert clean_tab_ids == ['tabBtnMeta', 'tabBtnTrans', 'tabBtnLink'], f"FAIL: Nieprawidłowe ID zakładek modalu: {clean_tab_ids}!"
     assert 'Opis i metadane' in clean_tab_labels[0] or 'Opis' in clean_tab_labels[0], f"FAIL: Nieprawidłowa nazwa 1. zakładki: {clean_tab_labels[0]}"
-    assert clean_tab_ids[1] == 'tabBtnTrans', f"FAIL: Drugą zakładką musi być tabBtnTrans, a jest: {clean_tab_ids[1]}!"
-    assert clean_tab_ids[2] == 'tabBtnLink', f"FAIL: Trzecią zakładką musi być tabBtnLink, a jest: {clean_tab_ids[2]}!"
-    
-    if len(clean_tab_ids) > 3:
-        assert clean_tab_ids[3] == 'tabBtnCrops', f"FAIL: Czwartą opcjonalną zakładką mogą być tylko wycinki cyfrowe, a jest: {clean_tab_ids[3]}"
+    assert 'Transkrypcja' in clean_tab_labels[1], f"FAIL: Nieprawidłowa nazwa 2. zakładki: {clean_tab_labels[1]}"
+    assert 'Link do oryginału' in clean_tab_labels[2] or 'Link' in clean_tab_labels[2], f"FAIL: Nieprawidłowa nazwa 3. zakładki: {clean_tab_labels[2]}"
+    assert 'crops' not in html.lower(), f"FAIL: Plik {html_path} zawiera niedozwolone odwołania do crops!"
 
     # Weryfikacja funkcji JS: openMainModal, switchModalTab, closeModal
     assert "document.getElementById('detailModal').style.display = 'block';" in html or \

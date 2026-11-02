@@ -1599,7 +1599,6 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
         <button id="tabBtnMeta" class="modal-tab-btn active" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
         <button id="tabBtnTrans" class="modal-tab-btn" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
         <button id="tabBtnLink" class="modal-tab-btn" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
-        <button id="tabBtnCrops" class="modal-tab-btn" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
       </div>
 
       <div class="modal-body" id="modalBody">
@@ -1791,7 +1790,7 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
     }
 
     function switchModalTab(tabKey) {
-      const tabs = ['meta', 'trans', 'link', 'crops'];
+      const tabs = ['meta', 'trans', 'link'];
       tabs.forEach(t => {
         const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
         const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
@@ -1897,21 +1896,6 @@ Inwentarz wyprawy ślubnej ze skanu 125 stanowi perłę źródłoznawczą dla ba
               2. Przejdź do zakładki <strong>«Skany»</strong> (lub «Zawartość cyfrowa»).<br>
               3. Wybierz miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>.
             </div>
-          </div>
-        </div>
-
-        <!-- TAB 4: WYCINKI CYFROWE -->
-        <div id="modalTabContentCrops" class="modal-tab-content" style="display:none;">
-          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
-            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/4).
-          </div>
-          <div style="margin-bottom:1.25rem;">
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
-            <img src="crops_j4/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_top.jpg';">
-          </div>
-          <div>
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
-            <img src="crops_j4/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j4/s${item.nr_skanu}_bot.jpg';">
           </div>
         </div>
       `;

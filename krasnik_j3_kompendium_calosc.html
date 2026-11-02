@@ -1031,7 +1031,6 @@ pos_a_end = old_code.find('
         <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
         <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
         <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
-        <button class="modal-tab-btn" id="tabBtnCrops" onclick="switchModalTab('crops')">🖼️ Wycinki cyfrowe</button>
       </div>
       <div class="modal-body" id="modalBody">
         <!-- Dynamic content -->
@@ -33481,7 +33480,7 @@ pos_a_end = old_code.find('
     }
 
     function switchModalTab(tabKey) {
-      const tabs = ['meta', 'trans', 'link', 'crops'];
+      const tabs = ['meta', 'trans', 'link'];
       tabs.forEach(t => {
         const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
         const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
@@ -33595,21 +33594,6 @@ pos_a_end = old_code.find('
               2. Przejdź do zakładki <strong>«Skany»</strong> (lub «Zawartość cyfrowa»).<br>
               3. Wybierz miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>.
             </div>
-          </div>
-        </div>
-
-        <!-- TAB 4: WYCINKI CYFROWE -->
-        <div id="modalTabContentCrops" class="modal-tab-content" style="display:none;">
-          <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:0.75rem;">
-            Cyfrowy podgląd wycinków skanu #${item.nr_skanu} (Archiwum Państwowe w Lublinie, sygn. 35/40/0/1/3).
-          </div>
-          <div style="margin-bottom:1.25rem;">
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">GÓRNA CZĘŚĆ KARTY (TOP):</div>
-            <img src="crops_j3/s${item.nr_skanu}_top.jpg" alt="Skan ${item.nr_skanu} góra" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_top.jpg';">
-          </div>
-          <div>
-            <div style="font-size:0.8rem; font-weight:700; color:var(--gold-primary); margin-bottom:4px;">DOLNA CZĘŚĆ KARTY (BOTTOM):</div>
-            <img src="crops_j3/s${item.nr_skanu}_bot.jpg" alt="Skan ${item.nr_skanu} dół" style="width:100%; border-radius:6px; border:1px solid var(--border); display:block;" onerror="this.src='/home/ubuntu/.gemini/antigravity-cli/scratch/crops_j3/s${item.nr_skanu}_bot.jpg';">
           </div>
         </div>
       `;
