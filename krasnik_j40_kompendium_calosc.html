@@ -831,9 +831,11 @@
     </button>
     <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
       <span>🏛️ Pełna Synteza Monograficzna</span>
+      <span class="tab-badge">12 Rozdziałów</span>
     </button>
     <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
-      <span>🔍 Kluczowe Odkrycia i Przełomy</span>
+      <span>🔍 Kluczowe Odkrycia Źródłowe i Przełomy</span>
+      <span class="tab-badge">28 Kart</span>
     </button>
   </nav>
 
@@ -845,8 +847,24 @@
         <div class="stat-card gold">
           <div class="stat-title">Liczba skanów jednostki</div>
           <div class="stat-value">252</div>
-          <div class="stat-desc">Kompletna seria mikrofilmu AP Lublin</div>
+          <div class="stat-desc">Kompletna seria mikrofilmu AP Lublin nr 110410</div>
         </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Zakres chronologiczny</div>
+          <div class="stat-value">1761–1788</div>
+          <div class="stat-desc">Od elekcji 1761 do przysięgi 1788</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Transkrypcje dyplomatyczne</div>
+          <div class="stat-value">252 skany</div>
+          <div class="stat-desc">100% autopsji • akta elekcyjne, taryfy sympli</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Biogramy mieszkańców</div>
+          <div class="stat-value">972</div>
+          <div class="stat-desc">0 duplikatów • pełne spisy wystąpień</div>
+        </div>
+      </div>
         <div class="stat-card purple">
           <div class="stat-title">Zakres chronologiczny</div>
           <div class="stat-value">1761–1788</div>
@@ -918,7 +936,7 @@
         <div class="stat-card gold">
         <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
         <div class="stat-value" id="genStatCount">972</div>
-          <div class="stat-desc">Zintegrowane profile biograficzne</div>
+          <div class="stat-desc">0 duplikatów • pełne spisy wystąpień</div>
         </div>
         <div class="stat-card success">
         <div class="stat-title">Wzmianki genealogiczne</div>
@@ -992,191 +1010,522 @@
 
     <!-- TAB 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
     <section id="monograph-tab" class="tab-content">
-      <div class="monograph-content">
-        <h2>🏛️ I. Kodykologia, układ kancelaryjny i periodyzacja woluminu sygn. 40</h2>
-        <p>Księga miejska Kraśnika oznaczona współcześnie sygnaturą <strong>40</strong> (dawny <em>Tom 24</em>) w zasobie Archiwum Państwowego w Lublinie na dziewiętnastowiecznej etykiecie introligatorskiej nosi mylący tytuł <em>„Miasto Kraśnik: Elekcye z Rachonkami Od Roku 1701 do 1788”</em>. Jednak wnikliwa krytyka dyplomatyczna, analiza paleograficzna oraz pełna transkrypcja wszystkich 252 skanów dowodzą, że <strong>właściwy zachowany ciąg wpisów kancelarii miejskiej rozpoczyna się 3 marca 1761 roku (<span class="doc-ref-badge">Skan 5</span>)</strong> uroczystym zjazdem komisarza ordynackiego Antoniego z Kochowa Kochowskiego. Data „1701” na grzbiecie woluminu była błędem dziewiętnastowiecznego archiwisty (błędny odczyt cyfry „6” jako „0” lub wtórne oprawienie wcześniejszej uszkodzonej teki).</p>
-        
-        <p>Integralność i autentyczność kodykologiczną jednostki potwierdza urzędowa metryka rewizyjna sędziego pokoju powiatu kraśnickiego <strong>Stanisława Dolińskiego z 14 lipca 1827 roku (<span class="doc-ref-badge">Skan 251</span>)</strong>, sporządzona na mocy dekretu Komisji Rządowej Spraw Wewnętrznych i Policji Królestwa Polskiego. Sędzia Doliński dokonał komisyjnego przeliczenia kart księgi, stwierdzając obecność <strong>181 kart papieru rękopiśmiennego</strong>, w tym dwóch podwójnych kart oznaczonych numerami <em>25a</em> oraz <em>167a</em>. Nowożytny mikrofilm zabezpieczający wykonany 29 października 1959 r. (<span class="doc-ref-badge">Skan 252</span>) sankcjonuje układ 252 klatek fotograficznych, stanowiących nierozerwalną całość historyczną.</p>
-
-        <div class="alert-box emerald">
-          <strong>Naukowa periodyzacja wewnętrzna Jednostki 40 (1761–1788):</strong>
-          <ul>
-            <li><strong>1761–1766 (<span class="doc-ref-badge">Skany 5–40</span>):</strong> <em>Przełom komisarski Antoniego z Kochowa Kochowskiego.</em> Przełamanie czteroletniego kryzysu i paraliżu władz samorządowych (1757–1760), dekrety karne i dyscyplinarne wobec dawnych burmistrzów, przywrócenie regularnych elekcji wójtowsko-radzieckich oraz uchwalenie gruntownych, imiennych rejestrów sympli podatkowej obejmujących Rynek i wszystkie przedmieścia.</li>
-            <li><strong>1767–1775 (<span class="doc-ref-badge">Skany 41–120</span>):</strong> <em>Doba konfederacji barskiej i I rozbioru Rzeczypospolitej.</em> Kraśnik miastem pogranicznym nad rzeką Wyżnicą poddanym permanentnym kontrybucjom, asygnatom furażowym i przemarszom wojsk koronnych oraz rosyjskich. Prowadzenie szczegółowych memoriałów wydatków wojennych.</li>
-            <li><strong>1776–1785 (<span class="doc-ref-badge">Skany 121–225</span>):</strong> <em>Złoty wiek miejskiej ewidencji fiskalnej i topograficznej.</em> Powstanie unikatowych, kompletnych taryf dymów i sympli podatkowych (1776, 1777, 1778, 1780, 1782) zidentyfikowanych w niniejszej edycji jako baza dla 975 unikalnych profili rodów kraśnickich. Pierwsze poświadczenia Żydów w radzie cechowej (1784).</li>
-            <li><strong>1786–1788 (<span class="doc-ref-badge">Skany 226–250</span>):</strong> <em>Wielkie reformy komisarza barona Aleksandra Leopolda Wyszyńskiego i wzorcowa rachunkowość Jana Wilczyńskiego.</em> Likwidacja pieniactwa, rehabilitacja niesłusznie represjonowanego wójta Józefa Paszkiewicza, wybór starozakonnego Herszka Lewkowicza na starszego cechmistrza krawieckiego, powołanie połączonej chrześcijańsko-żydowskiej straży pożarnej, wdrożenie reformy szkolnej KEN oraz wolna elekcja magistratu z 9 sierpnia 1788 r.</li>
-            <li><strong>1827–1959 (<span class="doc-ref-badge">Skany 251–252</span>):</strong> <em>Urzędowa kodykologia państwowa.</em> Rewizja archiwalna sędziego Dolińskiego i klatka certyfikacyjna WAP Lublin.</li>
-          </ul>
-        </div>
-
-        <h2>⚖️ II. Ustrój samorządowy, mechanizmy elekcyjne i elita oligarchiczna</h2>
-        <p>Kraśnik, jako kluczowe miasto prywatne Ordynacji Zamoyskiej, funkcjonował w oparciu o prawo magdeburskie, ściśle zharmonizowane z ordynackimi ordynacjami i dekretami dworu zamojskiego. Na czele gminy miejskiej stało połączone kolegium wójtowsko-radzieckie. Władzę sądowniczą reprezentował <strong>wójt sądowy</strong> przewodniczący ławie miejskiej (<em>scabini jurati</em>), zaś władzę wykonawczą, administracyjno-policyjną i skarbową sprawowało <strong>czterech burmistrzów</strong> (burmistrz urzędujący/roczny, landwójt oraz burmistrze starsi).</p>
-        <p>Aparat administracyjny uzupełniali kluczowi urzędnicy miejscy:</p>
-        <ul>
-          <li><strong>Deputat do Trybunału Koronnego w Lublinie:</strong> wybierany corocznie spośród najznamienitszych patrycjuszy (m.in. Franciszek Barankiewicz, Jan Wilczyński), składający uroczystą przysięgę przed palestrą trybunalską i reprezentujący interesy prawne obywateli miasta.</li>
-          <li><strong>Pisarz miejski (<em>Notarius publicus civitatis</em>):</strong> zaprzysiężony zarządca kancelarii i ksiąg miejskich (m.in. Aleksander Alkiewicz, Felicjan Jełowicki), pobierający stałe wynagrodzenie roczne ze skarbony miejskiej (100 złp.).</li>
-          <li><strong>Szafarz / Exaktor miejski:</strong> odpowiedzialny za pobór podatków, egzekucję taryf symplowych, opłaty targowe i wypłaty asygnat (m.in. Szczepan Popiołek, Łukasz Zdybicki).</li>
-          <li><strong>Słudzy miejscy (woźni, ceklarze, pachołcy ratuszowi):</strong> aparat przymusu bezpośredniego, podlegający surowej dyscyplinie służbowej – vide skan 250, gdzie sługa miejski Zdybicki za pijaństwo i zaniedbanie aresztantów ukarany został publiczną chłostą 50 batów.</li>
-        </ul>
-        <p>Z kart rękopisu wyłania się zwarta, wielopokoleniowa oligarchia patrycjuszowska, kontrolująca urzędy i obrót kapitałowy: rody <strong>Paszkiewiczów</strong> (wójt Józef Paszkiewicz), <strong>Wilczyńskich</strong> (burmistrz Jan Wilczyński), <strong>Barankiewiczów</strong> (deputat Franciszek Barankiewicz), <strong>Alkiewiczów</strong> (Aleksander i Jan Alkiewiczowie), <strong>Gąsków</strong> (wójt Jakub Gąska), <strong>Zdybickich</strong>, <strong>Błażewiczów</strong>, <strong>Pielaszkiewiczów</strong> i <strong>Frankowiczów</strong>.</p>
-
-        <h2>💰 III. Finanse komunalne, nowoczesna rachunkowość i taryfy sympli</h2>
-        <p>Struktura budżetowa Kraśnika w latach 1761–1788 charakteryzowała się wysokim stopniem sformalizowania. Dochody (<em>Percepta</em>) czerpano z podatków koronnych (podymne Rzeczypospolitej odprowadzane do Komory Lubelskiej w kwocie przekraczającej 1700 złp. rocznie), szosu, sympli miejskiej uchwalanej z dymów i posesji, dochodów z propinacji wójtowskiej i miejskiej, dzierżawy jatek rzeźniczych, kramów sukiennych, cegielni oraz opłat mostowych na rzece Wyżnicy.</p>
-        <p>Wydatki (<em>Expensa</em>) obejmowały: stacje i forszusy wojskowe, traktamenty lustratorów ordynackich, koszty procesów trybunalskich, uposażenia urzędników, zakup papieru i świec do ratusza, a także komunalne inwestycje infrastrukturalne (mosty, groble, zegar na wieży ratuszowo-kościelnej).</p>
-
-        <div class="alert-box gold">
-          <strong>Wzorcowy bilans dwuletni kasy miejskiej burmistrza Jana Wilczyńskiego (1786–1788, <span class="doc-ref-badge">Skany 236–237, 242</span>):</strong><br>
-          • <strong>Percepta (łączny przychód budżetowy):</strong> 5864 złp. 27 gr<br>
-          • <strong>Expensa (rzeczywiste wydatki udokumentowane kwitami):</strong> 5551 złp. 4½ gr<br>
-          • <strong>Retenta (zaległości podatkowe do windykacji):</strong> 303 złp. 17 gr<br>
-          • <strong>Umorzenia socjalne z tytułu biedy i pożarów:</strong> 150 złp. 00 gr<br>
-          • <strong>Superata końcowa (czysta nadwyżka gotówki zdana do skarbony):</strong> <strong style="color:#10b981;">+23 złp. 19 gr</strong><br>
-          <em>Rozliczenie to, przeprowadzone z dokładnością do jednego szeląga, komisarz ordynacki baron Wyszyński uznał za probierz uczciwości i wzór nowoczesnego budżetowania komunalnego w Ordynacji Zamoyskiej.</em>
-        </div>
-
-        <h2>🗺️ IV. Topografia społeczno-przestrzenna i ewidencja 975 mieszkańców</h2>
-        <p>Dzięki szczegółowym taryfom podatkowym zachowanym w Jednostce 40 zrekonstruowano pełną topografię miejską Kraśnika w podziale na cztery historyczne dzielnice:</p>
-        <ol>
-          <li><strong>Śródmieście (Rynek i Centrum):</strong> ośrodek władzy samorządowej, murowany kościół Kanoników Regularnych Laterańskich, ratusz miejski, podcieniowe domy patrycjatu chrześcijańskiego i kupców żydowskich, kramy i jatki.</li>
-          <li><strong>Przedmieście Piaski:</strong> dzielnica ogrodniczo-rolnicza, zamieszkała przez liczne rody posesjonatów (Jajczykowie, Wiatrkowie, Wolakowie), zlokalizowana w dolinie Wyżnicy.</li>
-          <li><strong>Przedmieście Zarzecze:</strong> tradycyjna dzielnica garncarska i rzemieślnicza, skupiająca warsztaty ceramiczne i zagrody przedmieszczan.</li>
-          <li><strong>Góry i Podlesie:</strong> tereny jurydyczne i rolnicze, browary miejskie, wiatraki i tereny leśne.</li>
-        </ol>
-        <p>Łącznie w toku pełnej transkrypcji 252 skanów wyodrębniono i zintegrowano <strong>975 unikalnych profili genealogicznych</strong>, którym odpowiada <strong>2427 konkretnych wystąpień i wzmianek źródłowych</strong> z lat 1761–1788.</p>
-
-        <h2>🤝 V. Przełom wyznaniowy: Żydzi we władzach chrześcijańskich cechów</h2>
-        <p>Największą sensacją badawczą edycji Jednostki 40 jest źródłowe obalenie mitu o bezwzględnej separacji cechowej ludności chrześcijańskiej i żydowskiej w miastach przedrozbiorowych. W protokole elekcji starszyzny cechowej z <strong>9 sierpnia 1788 roku (<span class="doc-ref-badge">Skan 249</span>)</strong> odnotowano bezprecedensowy fakt:</p>
-        <div class="alert-box purple">
-          <strong>Współzarządzanie cechem krawieckim w Kraśniku (1788 r.):</strong><br>
-          Na urząd starszych cechmistrzów cechu krawieckiego wybrani i zaprzysiężeni zostali wspólnie chrześcijanin <strong>Wawrzyniec Gołębiowski</strong> oraz starozakonny <strong>Herszek Lewkowicz</strong>. Fakt ten zatwierdził komisarz ordynacki baron Wyszyński oraz wójt Jakub Gąska. Podobne formy integracji i wyboru żydowskich podstarszych poświadczone są w cechu kuśnierskim (Szymon Lewkowicz w 1784 r., Herszek Hradowicz w 1786 r.).
-        </div>
-        <p>Współpraca ta wykraczała poza rzemiosło: w 1786 r. chrześcijański Magistrat i żydowski Kahał wspólnie sfinansowały generalny remont wieżowego zegara publicznego (<span class="doc-ref-badge">Skan 235</span>) oraz powołały wspólną, dwuwyznaniową straż pożarną i kominiarską (<span class="doc-ref-badge">Skan 232</span>).</p>
-
-        <h2>📜 VI. Pieniactwo, kryzys wójtowski i reformy prawne barona Wyszyńskiego (1782–1788)</h2>
-        <p>Schyłek lat 80. XVIII w. przyniósł zaostrzenie konfliktów wewnętrznych w mieście. Wójt <strong>Józef Paszkiewicz</strong> padł ofiarą intryg burgrabiego i części zrewoltowanego mieszczaństwa – został bezprawnie osadzony w kłodzie, a jego majątek osobisty, w tym cenny <strong>złoty i srebrzysty zegarek o dwóch kopertach z dewizką</strong>, bezprawnie zarekwirowano (<span class="doc-ref-badge">Skany 243, 246</span>). Sprawa otarła się o sąd ordynacki w Zamościu.</p>
-        <p>W odpowiedzi burgrabia zamojski <strong>baron Aleksander Leopold Wyszyński</strong> przeprowadził generalną rewizję sądownictwa kraśnickiego:</p>
-        <ul>
-          <li>Wydał uroczysty wyrok rehabilitujący wójta Paszkiewicza i nakazał natychmiastowy zwrot zarekwirowanego zegarka pod rygorem kar majątkowych.</li>
-          <li>W dniu 8 sierpnia 1788 r. wydał <strong>Dekret Antyprocesowy (<span class="doc-ref-badge">Skan 248</span>)</strong>, zakazujący pieniactwa, składania złośliwych suplik i jeżdżenia z „bałamuctwem” do Zamościa pod rygorem 200 grzywien kary i kary wieży.</li>
-          <li>Ustanowił procedurę prewencyjną, odsyłając drobniejsze spory gospodarcze do zarządcy dóbr we Frampolu (pana Frampolskiego, <span class="doc-ref-badge">Skan 216</span>).</li>
-          <li>Doprowadził w dniu 9 sierpnia 1788 r. do <strong>Wolnej Elekcji (<span class="doc-ref-badge">Skan 247</span>)</strong> pod laską nowego wójta <strong>Jakuba Gąski</strong> i pisarza <strong>Felicjana Jełowickiego</strong>, stabilizując ustrój miasta przed obradami Sejmu Wielkiego.</li>
-        </ul>
-
-        <h2>🎓 VII. Znaczenie Jednostki 40 dla historiografii miast Rzeczypospolitej</h2>
-        <p>Jednostka 40 stanowi unikalny w skali europejskiej pomnik kultury miejskiej schyłku epoki stanisławowskiej. Ukazuje żywy obraz funkcjonowania społeczności miejskiej w zderzeniu z reformami oświeceniowymi: wdrożeniem zaleceń Komisji Edukacji Narodowej nakazujących powszechność nauczania dzieci mieszczańskich (<span class="doc-ref-badge">Skan 245</span>), profesjonalizacją rachunkowości oraz budowaniem nowożytnej tolerancji i pragmatyzmu gospodarczego.</p>
-
-        <h3>Tabela Chronologiczna Kluczowych Wydarzeń Jednostki 40 (1761–1788)</h3>
-        <table class="occs-table" style="font-size:0.9rem;">
-          <thead>
-            <tr>
-              <th style="width:10%;">Data / Rok</th>
-              <th style="width:12%;">Skany</th>
-              <th style="width:38%;">Wydarzenie historyczne</th>
-              <th style="width:40%;">Skutki prawne i znaczenie źródłowe</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>3 III 1761</strong></td>
-              <td><span class="doc-ref-badge">Skany 5–16</span></td>
-              <td>Zjazd komisarza Antoniego z Kochowa Kochowskiego</td>
-              <td>Przełamanie paraliżu miejskiego, rozliczenie 1757–1760, pierwszy wielki spis podatników.</td>
-            </tr>
-            <tr>
-              <td><strong>1764</strong></td>
-              <td><span class="doc-ref-badge">Skany 17–31</span></td>
-              <td>Zgon wójta Antoniego Piłaszkiewicza, wybór Łukasza Krzeszowskiego</td>
-              <td>Nowa taksa sympli, ordynacka regulacja uposażeń urzędników ratuszowych.</td>
-            </tr>
-            <tr>
-              <td><strong>1768–1772</strong></td>
-              <td><span class="doc-ref-badge">Skany 45–104</span></td>
-              <td>Konfederacja barska i I rozbiór Rzeczypospolitej</td>
-              <td>Kraśnik miastem nadgranicznym nad Wyżnicą; kwaterunki i ewidencja asygnat wojennych.</td>
-            </tr>
-            <tr>
-              <td><strong>1776–1780</strong></td>
-              <td><span class="doc-ref-badge">Skany 121–190</span></td>
-              <td>Imienne taryfy dymowe i podatek sympli miejskiej</td>
-              <td>Kompletne spisy mieszkańców Rynku, Piasków, Zarzecza i Gór (baza 975 profili).</td>
-            </tr>
-            <tr>
-              <td><strong>1784–1786</strong></td>
-              <td><span class="doc-ref-badge">Skany 225–235</span></td>
-              <td>Integracja wyznaniowa i wspólne inwestycje komunalne</td>
-              <td>Żydzi podstarszymi cechowymi; wspólny remont wieży zegarowej i straż pożarna.</td>
-            </tr>
-            <tr>
-              <td><strong>1786–1788</strong></td>
-              <td><span class="doc-ref-badge">Skany 236–242</span></td>
-              <td>Wielki bilans budżetowy burmistrza Jana Wilczyńskiego</td>
-              <td>Rozliczenie 5864 złp. z wygenerowaniem czystej superaty kasowej +23 złp. 19 gr.</td>
-            </tr>
-            <tr>
-              <td><strong>8 VIII 1788</strong></td>
-              <td><span class="doc-ref-badge">Skany 243–248</span></td>
-              <td>Dekret antyprocesowy i ordynacja barona Leopolda Wyszyńskiego</td>
-              <td>Koniec pieniactwa, rehabilitacja wójta Paszkiewicza, reforma szkolna KEN.</td>
-            </tr>
-            <tr>
-              <td><strong>9 VIII 1788</strong></td>
-              <td><span class="doc-ref-badge">Skany 247, 249</span></td>
-              <td>Wolna elekcja magistratu i wybór starszyzny 5 cechów</td>
-              <td>Wójt Jakub Gąska; Herszek Lewkowicz starszym cechmistrzem krawieckim.</td>
-            </tr>
-            <tr>
-              <td><strong>14 VII 1827</strong></td>
-              <td><span class="doc-ref-badge">Skan 251</span></td>
-              <td>Metryka kodykologiczna sędziego Stanisława Dolińskiego</td>
-              <td>Urzędowe zabezpieczenie 181 kart księgi na mocy dekretu Komisji Rządowej Królestwa Polskiego.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+<div class="monograph-container" style="max-width:1000px; margin:0 auto; padding:2rem 1.5rem; line-height:1.8; color:#cbd5e1;">
+<h1 style="font-family:'Cinzel', serif; color:var(--gold-primary); font-size:2rem; margin:2rem 0 1rem; border-bottom:2px solid var(--gold-border); padding-bottom:0.5rem;">MONOGRAFIA NAUKOWO-ŹRÓDŁOWA: JEDNOSTKA 40 (1761–1788)</h1>
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Akta Miasta Kraśnika – Sygnatura Archiwalna 35/40/0/1/40 (dawna sygn. Tom 24 / N. 40)</h2>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Księga Epoki Stanisławowskiej: Elekcje, Rachunki Kasy Miejskiej, Taryfy Sympli i Podymnego</h3>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 1. Kodykologia, Oprawa, Metryka Archiwalna i Obalenie Mitu Datacji „1701–1788” (Ustalenie Cezury 1761–1788)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Jednostka archiwalna oznaczona współczesną sygnaturą <strong style="color:#f8fafc;">35/40/0/1/40</strong> (w dawnej registraturyzacji hipoteczno-miejskiej oznaczana jako <em>Tom 24</em>) stanowi bez wątpienia najważniejsze źródło do poznania dziejów ustrojowych, społecznych i gospodarczych Kraśnika w epoce stanisławowskiej. Wolumin ten, liczący 252 skany cyfrowe (mikrofilm WAP Lublin nr 110410 naświetlony 29 października 1959 r.), zachował oryginalną, miękką oprawę z grubego, szarego papieru czerpanego, wzmocnioną skórzanym grzbietem ze śladami szycia rzemiennego.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Na okładce zachował się dziewiętnastowieczny szyldzik kancelaryjny o treści:</p>
+<blockquote style="background:rgba(15,23,42,0.8); border-left:4px solid var(--gold-primary); padding:0.85rem 1.25rem; margin:1rem 0; font-style:italic; color:#cbd5e1;">*„Miasto Kraśnik: Elekcye z Rachonkami Od Roku 1701 do 1788. Po opisie N. 40 / Tom 24”*.</blockquote>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wokół tej intytulacji narósł w dawniejszej literaturze i inwentarzach archiwalnych poważny błąd faktograficzny. Przez dekady powielano informację, jakoby kodeks obejmował niemal całe stulecie XVIII (od 1701 do 1788 r.). Jednakże wnikliwa autopsja paleograficzna i dyplomatyczna wszystkich 252 kart woluminu doprowadziła do <strong style="color:#f8fafc;">ostatecznego obalenia mitu chronologicznego (Karta Analityczna 1)</strong>.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W rzeczywistości pierwszy zachowany, autentyczny wpis kancelaryjny w księdze pochodzi z <strong style="color:#f8fafc;">3 marca 1761 roku (skan 5, fol. 2r)</strong> i jest nim uroczysty protokół zjazdu komisarza ordynackiego Antoniego z Kochowa Kochowskiego. Zapis „1701” na etykiecie powstał w wyniku błędu dziewiętnastowiecznego archiwisty (prawdopodobnie w toku porządkowania akt przez Sąd Pokoju w 1827 r.), który błędnie odczytał cyfrę 6 jako 0 (odczytując 1761 jako 1701) lub przypisał wtórną oprawę ze starszego, zaginionego poszytu. Właściwa i bezsporna cezura chronologiczna jednostki zamyka się zatem w latach <strong style="color:#f8fafc;">1761–1788</strong>, tworząc spójny, jednolity korpus źródłowy epoki przedednia Sejmu Wielkiego.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Blok rękopisu spisany został atramentem żelazowo-galusowym na papierze czerpanym formatu folio, w większości pochodzącym z papierni Ordynacji Zamoyskiej (znaki wodne z herbem Jelita oraz monogramami ordynackimi). Stan zachowania kart jest znakomity, a pismo kancelaryjne reprezentuje dojrzałą, czytelną frakturę stanisławowską z nielicznymi formułami łacińskimi, co odzwierciedla postępujący proces polonizacji języka urzędowego w miejskich kancelariach schyłku I Rzeczypospolitej.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 2. Ustrój Samorządowy Kraśnika w Dobie Stanisławowskiej: Elekcje, Magistrat i Ława Miejska</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Kraśnik epoki stanisławowskiej funkcjonował w oparciu o prawo magdeburskie, które podlegało jednak daleko idącym modyfikacjom i regulacjom ze strony feudalnego zwierzchnika – Ordynacji Zamoyskiej. Z kart Jednostki 40 wyłania się pełny, precyzyjny obraz funkcjonowania miejskiego aparatu władzy:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Struktura Magistratu i Kolegium Urzędniczego</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Na czele samorządu miejskiego stało dwuczęściowe kolegium magistratualne:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Wójt sądowy (<em>advocatus</em>)</strong>: Przewodniczący sądu ławniczego, odpowiedzialny za jurysdykcję cywilną, karną i niesporną. Urząd ten w badanym okresie piastowali wybitni przedstawiciele zamożnego patrycjatu, m.in. <strong style="color:#f8fafc;">Józef Paszkiewicz</strong>, <strong style="color:#f8fafc;">Franciszek Barankiewicz</strong> oraz <strong style="color:#f8fafc;">Mikołaj Potokowicz</strong>. Wójt dysponował pieczęcią wójtowską i przewodniczył sesjom sądu gajonego.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Prezydenci (Burmistrzowie)</strong>: Czteroosobowe kolegium burmistrzowskie sprawujące władzę wykonawczą, administracyjną, policyjną i skarbową. Każdy z czterech burmistrzów pełnił dyżury kwartalne (burmistrz kwartalny), zarządzając kluczami do kasy miejskiej i sprawując dozór nad targami. Wybitną postacią tej grupy był <strong style="color:#f8fafc;">Jan Wilczyński</strong>, wieloletni prezydent i autor wzorowego bilansu z 1788 r., a także <strong style="color:#f8fafc;">Antoni Pelaszkiewicz</strong>, <strong style="color:#f8fafc;">Jan Frankiewicz</strong> i <strong style="color:#f8fafc;">Mateusz Gąska</strong>.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Ława miejska (<em>scabini</em>)</strong>: Siedmioosobowe kolegium sędziowskie, w skład którego wchodzili m.in. <strong style="color:#f8fafc;">Tomasz Szulczerzyński</strong>, <strong style="color:#f8fafc;">Jakub Gąska</strong>, <strong style="color:#f8fafc;">Stanisław Jajczyk</strong>, <strong style="color:#f8fafc;">Wojciech Wiatrek</strong> oraz <strong style="color:#f8fafc;">Michał Tkaczyk</strong>. Ławnicy reprezentowali cechy rzemieślnicze oraz przedmieszczan.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Personel pomocniczy</strong>: Pisarz miejski (<em>notarius civitatis</em>, z roczną pensją 100 złp), poborca-szafarz (<em>exaktor</em>, pensja 40 złp), woźny ratuszowy wykonujący areszty i egzekucje, stróż nocny czuwający nad bezpieczeństwem pożarowym oraz przysięgli kominiarze.</li>
+</ul>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Rytuał Elekcyjny i Przysięga Urzędowa</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Zgodnie z uświęconym obyczajem doroczne wybory władz miejskich odbywały się po uroczystym nabożeństwie wotywnym <em>Veni Sancte Spiritus</em> w kościele farnym Kanoników Regularnych Laterańskich (<strong style="color:#f8fafc;">Karta Analityczna 8</strong>). Następnie całe pospólstwo gromadziło się w wielkiej sali ratuszowej, gdzie pod nadzorem komisarza ordynackiego dokonywano wyboru kandydatów. Nowo obrani urzędnicy składali solenną przysięgę na wierność Bogu, królowi Stanisławowi Augustowi, Ordynacji Zamoyskiej oraz dobru Miasta Kraśnika.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W aktach wyraźnie rysuje się zjawisko oligarchizacji władzy: stery rządów spoczywały w rękach wąskiej grupy skoligaconych rodów patrycjuszowskich: <strong style="color:#f8fafc;">Paszkiewiczów, Wilczyńskich, Frankiewiczów, Pelaszkiewiczów, Barankiewiczów, Szulczerzyńskich i Gąsków</strong>, co prowadziło do nieustannych tarć z pospólstwem i rzemieślnikami przedmiejskimi.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 3. Nadzór Ordynacki Zamoyskich: Misje Komisarzy Kochowskiego, Lipskiego i Rządy Barona Michała Wyszyńskiego</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Kraśnik, jako prywatne miasto rezydencjonalno-gospodarcze Ordynacji Zamoyskiej, znajdował się pod stałym i rygorystycznym nadzorem dworu zamojskiego. Właściciele miasta – kolejno: Jan Jakub Zamoyski, Andrzej Zamoyski (autor słynnego <em>Zbioru Praw Sądowych</em>) oraz Aleksander August Zamoyski – realizowali politykę modernizacji oświeceniowej poprzez wysyłanie komisarzy generalnych.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Przełom Antoniego z Kochowa Kochowskiego (1761–1766)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Gdy w marcu 1761 r. komisarz Antoni Kochowski przybył do Kraśnika (<strong style="color:#f8fafc;">Karta Analityczna 2</strong>), zastał miasto pogrążone w chaosie. W latach 1757–1760 nie odbywały się elekcje, a dawni burmistrzowie rozkradli kasę szafarską. Kochowski zastosował bezwzględne środki dyscyplinarne: nałożył areszty, wyegzekwował zaległe sumy i wydał monumentalną ordynację ustrojowo-sądowniczą z 1764 r. (<strong style="color:#f8fafc;">Karty 4, 7</strong>), która unormowała funkcjonowanie Kraśnika na kolejne dekady.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Misja Komisarza Lipskiego (1778 r.)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W 1778 r. komisarz Lipski przeprowadził gruntowną rewizję etatów komunalnych (<strong style="color:#f8fafc;">Karta Analityczna 17</strong>), rozstrzygając przewlekłe spory graniczne między patrycjuszami (sprawa placu rajcy Piotra Potokowicza) oraz ustanawiając ścisłą kontrolę nad wydatkami na obronność i pożarnictwo.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Reformy Oświeceniowe Barona Michała Wyszyńskiego (1786–1788)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Kulminacyjnym momentem reform był uroczysty wjazd delegacyjny komisarza generalnego barona Michała Wyszyńskiego w styczniu 1786 r. (<strong style="color:#f8fafc;">Karta Analityczna 24</strong>). Wyszyński, człowiek głębokiej formacji oświeceniowej, wdrożył w Kraśniku zasady nowożytnej kameralistyki: wprowadził zakaz pieniactwa procesowego (<strong style="color:#f8fafc;">Karta 26</strong>), uregulował relacje chrześcijańsko-żydowskie w cechach, zreorganizował szkołę miejską pod auspicjami Komisji Edukacji Narodowej oraz doprowadził do idealnego zbilansowania budżetu miejskiego pod zarządem burmistrza Wilczyńskiego (<strong style="color:#f8fafc;">Karta 27</strong>).</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 4. Topografia Społeczno-Przestrzenna: Rynek, Przedmieścia oraz Izby Browarne</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Jednostka 40 stanowi niezrównane źródło socjotopograficzne. Zapisy taryf podatkowych, rewizji budowlanych i dekretów szarwarkowych pozwalają na odtworzenie każdego zaułka stanisławowskiego Kraśnika:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Cztery Dzielnice Miejskie</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Miasto dzieliło się na cztery główne okręgi terytorialno-administracyjne:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Śródmieście (Centrum / Rynek)</strong>: Obejmujące czworoboczny Rynek z drewniano-murowanym ratuszem, jatkami rzeźniczymi, kramami sukiennymi oraz ulicami wylotowymi: Lubelską, Krakowską (Urzędowską) i Borycką. Mieszkali tu najbogatsi kupcy, aptekarz, lekarz oraz elita urzędnicza (<strong style="color:#f8fafc;">Karty 9, 16</strong>).</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Przedmieście Piasek (Lubelskie)</strong>: Ciągnące się wzdłuż traktu na Lublin, zamieszkałe przez uboższych rzemieślników, woźniców, furmanów oraz zagrodników (rodziny Alkiewiczów, Wolaków, Fiszerów).</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Przedmieście Zarzyce (Zarzecze)</strong>: Przemysłowo-rolnicza dzielnica nad rzeką Wyżnicą, zdominowana przez młynarzy, piekarzy, rybaków i folusze (m.in. Młyn Grzebieńczykowski i posesje nad stawami).</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Przedmieście Góry i Podlesie</strong>: Tereny faliste i leśne, ośrodek tradycyjnego garncarstwa (<em>figuli</em>), cegielnictwa, hodowli bydła oraz uprawy ogrodów czynszowych (<strong style="color:#f8fafc;">Karta 5</strong>).</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Ewidencja Izb Browarnych i Propinacja</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Unikalnym elementem kraśnickiej topografii przemysłowej były <strong style="color:#f8fafc;">izby browarne</strong> (<strong style="color:#f8fafc;">Karta Analityczna 15</strong>). Z taryfy podymnego z 1776 r. wynika, że obok domów mieszkalnych w mieście funkcjonowało kilkanaście wyspecjalizowanych budynków browarnych, wyposażonych w wielkie kotły miedziane warzące piwo i pędzące gorzałkę. Dochody z propinacji stanowiły jeden z głównych filarów zasilających kasę miejską i ordynacką.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 5. System Fiskalny i Nowoczesna Rachunkowość: Taryfy Sympli i Podatek Podymny</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Fiskalizm stanowi oś konstrukcyjną całej Jednostki 40. W kodeksie zachowało się aż <strong style="color:#f8fafc;">15 kompletnych, imiennych serii podatkowych</strong>, które ukazują ewolucję staropolskiej skarbowości w stronę nowoczesnej ewidencji katastralnej:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Sympla Miejska i Collectio Laterum</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Sympla była tradycyjnym podatkiem miejskim uchwalanym przez magistrat na pokrycie bieżących potrzeb gminy (pensje urzędników, naprawa bruków, mostów, utrzymanie szkoły). Każda taryfa sympli (1761, 1764, 1766, 1769, 1772, 1778, 1780) sporządzana była według ścisłej procedury: poborcy obchodzili posesje, ustalając wymiar podatku od dymu, ogrodu i placu, a następnie pisarz dokonywał zsumowania kolumn (<em>Collectio Laterum</em>, <strong style="color:#f8fafc;">Karta Analityczna 3</strong>).</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Podatek Podymny do Skarbu Koronnego</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Podatek podymny (<em>contributio focorum</em>) był ciężarem państwowym, odprowadzanym przez magistrat kraśnicki dwa razy do roku (na ratę marcową i wrześniową) do Kasy Województwa Lubelskiego. Wpisy z lat 1776–1778 (<strong style="color:#f8fafc;">Karty 15, 16</strong>) pokazują niezwykle skrupulatną rejestrację dymów: dymów dworskich, szlacheckich, plebańskich, mieszczańskich oraz chałup komorniczych, co pozwala na precyzyjne obliczenie zaludnienia miasta na ok. 2 500–3 000 mieszkańców.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 6. Kraśnik w Czasach Konfederacji Barskiej (1768–1772): Kwaterunki i Zniszczenia Wojenne</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Lata 1768–1772 zapisały się w dziejach Kraśnika jako pasmo dramatycznych zniszczeń i ucisku militarnego związanego z walkami Konfederacji Barskiej (<strong style="color:#f8fafc;">Karta Analityczna 10</strong>). Położenie miasta na ważnym szlaku z Lublina ku granicy węgierskiej i Małopolsce czyniło zeń stały punkt zborny i aprowizacyjny dla walczących armii:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Ciężary Furażowe i Rekwizycje Wojsk Rosyjskich</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W aktach zachowały się dziesiątki asygnat i kwitów wystawionych przez pułkowników carskich armii generałów Weymarna i Drewicza. Mieszkańcy Kraśnika zmuszani byli do dostarczania tysięcy korcy owsa, siana, chleba, wołów rzeźnych oraz setek wozów podwodowych. Odmowa skutkowała groźbą podpalenia miasta i uwięzienia burmistrzów.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Skutki Gospodarcze i I Rozbiór Polski (1772 r.)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Zniszczenia wojenne doprowadziły do zubożenia ludności. Spis sympli z 1769 r. (<strong style="color:#f8fafc;">Karta Analityczna 13</strong>) odnotowuje liczne pogorzeliska i zwolnienia podatkowe dla zrujnowanych rodzin. Zwieńczeniem tej tragedii był I rozbiór Polski w 1772 r. (<strong style="color:#f8fafc;">Karta 14</strong>), w wyniku którego kordon cesarski oparł się w pobliżu Janowa Lubelskiego, czyniąc z Kraśnika miasto nadgraniczne, odcięte od swoich tradycyjnych rynków zbytu w Galicji.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 7. Cechy Rzemieślnicze i Przełom Wyznaniowy: Żydzi w Cechu Krawieckim (1788 r.)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Najbardziej doniosłym przełomem źródłowym Jednostki 40 w skali ogólnopolskiej historiografii jest odkrycie dotyczące <strong style="color:#f8fafc;">przełamania barier wyznaniowych w cechach rzemieślniczych</strong>.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Przez dziesięciolecia w nauce historycznej panował niepodważalny dogmat, że w dawnej Rzeczypospolitej cechy miejskie zachowywały całkowicie chrześcijański, ekskluzywny charakter, a rzemieślnicy żydowscy działali wyłącznie poza strukturami cechowymi jako tzw. partacze. Wpisy kancelarii kraśnickiej z lat 80. XVIII wieku definitywnie obalają ten pogląd:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">1784 r. (skan 225)</strong>: Szymon Lewkowicz, majster żydowski, został oficjalnie wybrany na urząd podstarszego cechu krawieckiego u boku mistrza Jana Wojtaszka.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">1786 r. (skan 237)</strong>: Herszek Hradowicz został wybrany podstarszym w cechu kuśnierskim.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">1788 r. (skan 249, Karta Analityczna 25)</strong>: W ratuszu kraśnickim zapadł bezprecedensowy wyrok elekcyjny – <strong style="color:#f8fafc;">starszym cechmistrzem cechu krawieckiego został wybrany Żyd Herszek Lewkowicz</strong>, sprawujący ten najwyższy urząd korporacyjny wspólnie z chrześcijaninem Wawrzyńcem Gołębiowskim!</li>
+</ul>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Fakt ten poświadcza głęboką integrację gospodarczą i postępującą emancypację społeczności żydowskiej Kraśnika pod auspicjami reformatorskiej polityki Andrzeja i Aleksandra Zamoyskich w dobie Oświecenia.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 8. Sądownictwo Miejskie, Etyka Sędziowska i Dekrety Antyprocesowe Przeciw Pieniactwu</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wymiar sprawiedliwości w kraśnickim ratuszu przeszedł w latach 1761–1788 głęboką ewolucję:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Walka z Dyskryminacją i Pijaństwem Sądowym</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Ordynacja komisarza Kochowskiego z 1764 r. (<strong style="color:#f8fafc;">Karta Analityczna 4</strong>) położyła fundament pod nowożytną etykę sędziowską. Zlikwidowano zwyczaj częstowania sędziów wódką przez strony procesowe, wprowadzono zasadę jawności rozpraw oraz obowiązek doręczania pozwów na piśmie przez woźnego ratuszowego z zachowaniem terminów zawitych.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Prekursorski Dekret Antyprocesowy (1788 r.)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Plagą staropolskiego życia miejskiego było pieniactwo – wnoszenie przez skłóconych sąsiadów dziesiątek bezpodstawnych skarg paraliżujących pracę sądu. W 1788 r. magistrat kraśnicki, działając z mandatu barona Michała Wyszyńskiego, wydał prekursorski <strong style="color:#f8fafc;">dekret antyprocesowy (Karta Analityczna 26)</strong>. Wprowadzono w nim obowiązkowe wadium finansowe: strona, która przegrała proces uznany za oczywiście bezzasadny, płaciła karę 50 grzywien przeznaczaną w całości na utrzymanie ubogich w Szpitalu św. Ducha.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 9. Infrastruktura Komunalna, Szkoła Miejska, Zegar Farny i Cyrulik</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wbrew obiegowym opiniom o upadku miast w XVIII wieku, akta Jednostki 40 dowodzą systematycznych inwestycji władz Kraśnika w infrastrukturę publiczną i zdrowie mieszkańców:</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Szkoła Miejska i Sala na Bramie Lubelskiej</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W 1768 r. magistrat przeprowadził adaptację reprezentacyjnej sali nad Bramą Lubelską na cele sesji sądowych i publicznych zgromadzeń (<strong style="color:#f8fafc;">Karta Analityczna 11</strong>). Zapewniono również stałe finansowanie dla bakałarza szkoły parafialnej, wdrażając zalecenia Komisji Edukacji Narodowej dotyczące nauczania elementarnego, rachunków i pisania po polsku.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Reperacja Zegara Farnego (1783 r.)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W 1783 r. magistrat wyłożył znaczną sumę z kasy miejskiej na sprowadzenie mistrza zegarmistrzowskiego z Lublina w celu generalnej naprawy żelaznego mechanizmu zegara na wieży kościoła parafialnego CRL (<strong style="color:#f8fafc;">Karta Analityczna 22</strong>). Zegar ten odgrywał fundamentalną rolę w regulacji czasu pracy rzemieślników, otwierania jatek i zamykania bram miejskich.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Służba Zdrowia: Miejski Cyrulik</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">W tym samym roku zatrudniono na stałym kontrakcie przysięgłego chirurga i cyrulika miejskiego (<strong style="color:#f8fafc;">Karta Analityczna 23</strong>). Kontrakt zobowiązywał medyka do zaopatrywania ran, upuszczania krwi, nastawiania złamań oraz bezpłatnego leczenia ubogich szpitalnych i aresztantów w ratuszu.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 10. Skandale Polityczno-Obyczajowe: Afera Złotego Zegarka Wójta Paszkiewicza</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Życie wewnętrzne kraśnickiego patrycjatu nie było wolne od ostrych konfliktów personalnych i głośnych skandali kryminalnych. Najbardziej spektakularnym wydarzeniem tego typu była <strong style="color:#f8fafc;">afera zarekwirowanego złotego zegarka wójta Józefa Paszkiewicza z 1782 r. (Karta Analityczna 21)</strong>.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Podczas burzliwego posiedzenia magistratu poświęconego zaległościom podatkowym doszło do karczemnej awantury między wójtem Paszkiewiczem a frakcją opozycyjnych rajców pod wodzą Barankiewiczów. W ferworze kłótni wójtowi siłą odebrano i zarekwirowano cenny złoty zegarek kieszonkowy z dewizką, stanowiący symbol statusu majątkowego. Sprawa urosła do rangi wielkiego skandalu politycznego, otarła się o Trybunał Lubelski i zjazd sędziego generalnego Wyszyńskiego, ukazując bezwzględność walki o kontrolę nad kasą miejską. Podobny charakter miały bunty mieszczańskie z 1781 r. (<strong style="color:#f8fafc;">Karta 20</strong>), tłumione karami osadzenia w wieży ratuszowej.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 11. Nowoczesne Budżetowanie i Bilans Jana Wilczyńskiego (1788 r.) u Schyłku I Rzeczypospolitej</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Szczytowym osiągnięciem administracyjnym Kraśnika epoki stanisławowskiej stał się monumentalny <strong style="color:#f8fafc;">dwuletni bilans budżetowy za lata 1786–1788</strong>, sporządzony i oblatowany w sierpniu 1788 r. przez burmistrza <strong style="color:#f8fafc;">Jana Wilczyńskiego (Karta Analityczna 27)</strong>.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Dokument ten (skany 239–244) stanowi wzorzec nowożytnej rachunkowości cameralnej w przedrozbiorowej Polsce:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Percepta (przychody całkowite)</strong>: 5 864 zł 27 gr (dochody z podymnego, szosu, sympli, propinacji, jatek i targowego).</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Expensa (wydatki rzeczywiste)</strong>: 5 551 zł 4 1/2 gr (pensje oficjalistów, utrzymanie woźnego, remonty grobli, reperacja zegara, opłaty skarbowe do Lublina).</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Retenta (zaległości ściągalne i nieściągalne)</strong>: 303 zł 17 gr.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Umorzenia socjalne dla ubogich pogorzelców</strong>: 150 zł 00 gr.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Superata (czysta nadwyżka gotówki pozostająca w kasie miejskiej)</strong>: <strong style="color:#f8fafc;">+10 zł 6 gr</strong>.</li>
+</ul>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Bilans ten zyskał najwyższe uznanie komisarza ordynackiego barona Leopolda Wyszyńskiego, który w osobnym dekrecie pochwalił burmistrza Wilczyńskiego za niespotykaną uczciwość i matematyczną precyzję, stawiając Kraśnik za wzór dla wszystkich miast Ordynacji Zamoyskiej.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 12. W Przededniu Sejmu Wielkiego: Odrodzenie Samorządu Miejskiego i Miejsce Jednostki 40 w Historiografii</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Jesienią 1788 r., w chwili gdy w Warszawie zbierał się historyczny Sejm Czteroletni (Sejm Wielki), w ratuszu kraśnickim dokonano uroczystego odnowienia pełnego składu władz miejskich (<strong style="color:#f8fafc;">Karta Analityczna 28</strong>). Wybrano kompletny samorząd: wójta, 4 prezydentów i 7 ławników, którzy złożyli uroczystą przysięgę na wierność Rzeczypospolitej, królowi Stanisławowi Augustowi oraz Ordynacji Zamoyskiej.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Księga sygn. 40 zamyka się symboliczną cezurą 1788 r., u progu wielkich reform Ustawy o Miastach z 1791 r. Przetrwawszy burze rozbiorów, w 1827 r. kodeks został zrewidowany przez Sąd Pokoju Powiatu Kraśnickiego, a w 1959 r. utrwalony na mikrofilmie Archiwum Państwowego w Lublinie.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Dzięki obecności <strong style="color:#f8fafc;">252 skanów</strong>, <strong style="color:#f8fafc;">972 unikalnych profili mieszkańców</strong>, <strong style="color:#f8fafc;">12 rozdziałów syntezy monograficznej</strong> oraz <strong style="color:#f8fafc;">28 Kart Analitycznych</strong>, Jednostka 40 stanowi dziś perłę w koronie archiwaliów miejskich Kraśnika i pomnik staropolskiej kultury prawnej epoki Oświecenia.</p>
+</div>
+</section>
 
     <!-- TAB 4: SIEDEM PRZEŁOMOWYCH ODKRYĆ ŹRÓDŁOWYCH -->
     <section id="analytics-tab" class="tab-content">
-      <div class="analytics-content">
-        <h2>🔍 Siedem Przełomowych Odkryć Źródłowych w Jednostce 40</h2>
-        <p>Transkrypcja dyplomatyczna i krytyczna analiza 252 skanów Jednostki 40 doprowadziła do sformułowania siedmiu kluczowych odkryć zmieniających dotychczasowy stan wiedzy historycznej o Kraśniku i miastach prywatnych dawnej Polski:</p>
+<div class="analytics-container" style="max-width:1100px; margin:0 auto; padding:1.5rem 0;">
+  <div style="margin-bottom:2rem; text-align:center;">
+    <h2 style="font-family:'Cinzel', serif; font-size:1.8rem; color:var(--gold-primary); margin-bottom:0.5rem;">Kluczowe Odkrycia Źródłowe i Przełomy Badawcze Jednostki 40</h2>
+    <p style="color:var(--text-muted); max-width:800px; margin:0 auto;">
+      Autopsja paleograficzna i analiza kodykologiczna 252 skanów Księgi Epoki Stanisławowskiej (sygn. 35/40/0/1/40, 1761–1788). Opracowano 28 Kart Analitycznych (w tym przełomowe wybory Żydów do władz cechowych, zrównoważony bilans Wilczyńskiego z 1788 r., afera złotego zegarka, rejestry sympli i podymnego).
+    </p>
+  </div>
 
-        <div class="analytics-card">
-          <h4>🌟 1. Ostateczne obalenie mitu chronologicznego: 1761–1788 zamiast „1701–1788”</h4>
-          <p>Dziewiętnastowieczna etykieta archiwalna podająca ramy 1701–1788 została bezspornie zweryfikowana jako pomyłka odczytu lub introligatorska. Właściwy, zachowany zrąb księgi otwiera zjazd komisarza Kochowskiego z <strong>3 marca 1761 r. (<span class="doc-ref-badge">Skan 5</span>)</strong>, a zamyka metryka rewizyjna sędziego Dolińskiego z 1827 r. (<span class="doc-ref-badge">Skan 251</span>). Księga stanowi nierozerwalny, jednolity blok aktowy epoki stanisławowskiej.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🤝 2. Przełom w badaniach cechowych: Żyd starszym cechmistrzem krawieckim (1788 r.)</h4>
-          <p>Na <span class="doc-ref-badge">Skanie 249</span> (9 sierpnia 1788 r.) poświadczono wybór i zaprzysiężenie starozakonnego <strong>Herszka Lewkowicza</strong> na urząd starszego cechmistrza krawieckiego wspólnie z chrześcijaninem Wawrzyńcem Gołębiowskim. Odkrycie to rewiduje dotychczasowy pogląd historiografii o bezwzględnej dyskryminacji wyznaniowej w korporacjach rzemieślniczych I Rzeczypospolitej.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>👥 3. Zagregowany Słownik Biograficzny 975 Posesjonatów i Mieszkańców</h4>
-          <p>Dzięki wielokrotnym, kompletnym rejestrom podatkowym sympli (1761, 1764, 1766, 1776, 1777, 1778, 1780, 1782) zidentyfikowano i powiązano <strong>975 unikalnych profili rodowych</strong> w 4 dzielnicach, rejestrując <strong>2427 wzmianek źródłowych</strong>. Uchwycono procesy dziedziczenia, status majątkowy wdów (nazwiska odprzymiotnikowe z końcówką <em>-owa</em>) oraz wymianę pokoleniową patrycjatu.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>📊 4. Wzorzec nowożytnego budżetowania: Bilans Jana Wilczyńskiego (1788 r.)</h4>
-          <p>Rozliczenie kasy miejskiej przez burmistrza Jana Wilczyńskiego (<span class="doc-ref-badge">Skany 236–237, 242</span>) na sumę 5864 złp. 27 gr wykazało absolutną precyzję buchalteryjną. Wygenerowanie <strong>czystej nadwyżki finansowej (+23 złp. 19 gr)</strong> przy jednoczesnym umorzeniu zaległości najuboższym pogorzelcom stanowi unikatowy dowód dojrzałości staropolskiej kultury skarbowej.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⏱️ 5. Kryminalno-polityczna afera zarekwirowanego złotego zegarka wójta Paszkiewicza</h4>
-          <p>Sprawa bezprawnego uwięzienia w kłodzie wójta Józefa Paszkiewicza i zagrabienia jego złotego i srebrzystego zegarka o dwóch kopertach z dewizką (<span class="doc-ref-badge">Skany 243, 246</span>) ujawniła mechanizmy walk frakcyjnych w mieście oraz bezkompromisowy arbitraż burgrabiego barona Wyszyńskiego, który nakazał bezwzględną restytucję mienia i rehabilitację urzędnika.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>⚖️ 6. Prekursorski Dekret Antyprocesowy przeciwko pieniactwu (1788 r.)</h4>
-          <p>Dekret barona Wyszyńskiego z 8 sierpnia 1788 r. (<span class="doc-ref-badge">Skan 248</span>) ustanowił zaporową grzywnę 200 grzywien oraz areszt w wieży za pieniactwo i nieuzasadnione apelacje do dworu ordynackiego. Była to jedna z najradykalniejszych reform proceduralnych w sądownictwie miejskim przed Sejmem Wielkim.</p>
-        </div>
-
-        <div class="analytics-card">
-          <h4>🏛️ 7. Odzyskanie pełnego składu elekcyjnego Kraśnika w przededniu Sejmu Wielkiego</h4>
-          <p>Protokoły z 9 sierpnia 1788 r. (<span class="doc-ref-badge">Skany 247, 249</span>) przywracają historiografii kompletny skład władz miejskich: wójt Jakub Gąska, burmistrze Jan Wilczyński, Jan Barankiewicz, Antoni Barankiewicz, Szymon Błażewicz, deputat trybunalski Franciszek Barankiewicz, pisarz Felicjan Jełowicki, exaktor Szczepan Popiołek oraz zarządy pięciu cechów rzemieślniczych.</p>
-        </div>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(480px, 1fr)); gap:1.5rem;">
+    <!-- KARTA 1 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 1 • Kodykologia • Źródłoznawstwo</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 1–5, fol. 1–2</span>
       </div>
-    </section>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Ostateczne obalenie mitu chronologicznego: 1761–1788 zamiast „1701–1788”</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Księga miejska sygn. 40 (dawny Tom 24) nosiła na XIX-wiecznej etykiecie mylący tytuł „Od Roku 1701 do 1788”. Wnikliwa autopsja paleograficzna dowiodła, że właściwy, nienaruszony ciąg wpisów kancelaryjnych rozpoczyna się 3 marca 1761 r. (skan 5) uroczystym zjazdem komisarza Kochowskiego. Zapis „1701” był dawną pomyłką archiwisty, który błędnie odczytał cyfrę 6 jako 0.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Miasto Kraśnik: Elekcye z Rachonkami Od Roku 1701 do 1788... [właściwy początek wpisów: 3 marca 1761 r. na posiedzeniu komisarskim Antoniego Kochowskiego]”
+      </div>
+    </div>
+    <!-- KARTA 2 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 2 • Ustrój Miejski • Reformy Ordynackie</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 6, fol. 3r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Przełom komisarski Antoniego z Kochowa Kochowskiego i likwidacja 4-letniego paraliżu</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        W latach 1757–1760 samorząd Kraśnika był sparaliżowany z powodu ostrych sporów patrycjatu i braku legalnych wyborów. 3 marca 1761 r. komisarz ordynacki Antoni Kochowski wkroczył do ratusza, wydał dekrety karne wobec dawnych burmistrzów za sprzeniewierzenie kasy i przywrócił regularne doroczne wybory wójtowsko-radzieckie.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Antoni z Kochowa Kochowski, komisarz generalny dóbr Ordynacji Zamoyskiej, kładzie kres bezprawiu i czteroletniemu paraliżowi magistratu kraśnickiego...”
+      </div>
+    </div>
+    <!-- KARTA 3 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 3 • Finanse • Podatki Miejskie</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 16, fol. 7v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Collectio Laterum 1761 r.: unikatowe zestawienie taryf sympli miejskiej</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Uchwalenie nowej taryfy podatkowej sympli miejskiej z 1761 r. z podsumowaniem stron (Collectio Laterum). Precyzyjne wyliczenie wymiaru podatkowego dla 6 stron rejestru (19.19 + 18.23 + 20.08 + 19.21 + 19.00 + 19.01 złp) stanowiło podstawę fiskalną funkcjonowania kasy miejskiej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Collectio Laterum: podsumowanie 6 stron nowo uchwalonej taryfy sympli miejskiej... z zachowaniem równego rozkładu na dymy i ogrody...”
+      </div>
+    </div>
+    <!-- KARTA 4 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 4 • Sądownictwo • Etyka Prawnicza</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 29–31, fol. 14r–15r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Ordynacja sądownicza komisarza Kochowskiego: etyka sędziowska i walka z analfabetyzmem</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Kompleksowa reforma wymiaru sprawiedliwości w ratuszu kraśnickim z 4 kwietnia 1764 r. Wprowadzono surowy zakaz picia gorzałki przed i w trakcie posiedzeń sądu, nakaz sporządzania pisemnych wyroków z pieczęciami oraz obowiązek składania podpisów przez piśmiennych ławników w celu wyeliminowania krzywoprzysięstwa.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Sędziowie i ławnicy mają na sądy trzeźwo przychodzić, sprawy w bojaźni Bożej bezstronnie sądzić, a wyroki na piśmie pod pieczęcią miejską oblatować...”
+      </div>
+    </div>
+    <!-- KARTA 5 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 5 • Topografia • Ewidencja Ludności</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 26, fol. 12v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Rejestr mieszkańców przedmieść Zarzyce, Góry i Podlesie z 1764 r.</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Szczegółowy imienny rejestr 69 gospodarzy i chałupników przedmiejskich z podziałem na role, ogrody i place. Spis rejestruje m.in. młynarzy nad Wyżnicą, rybaków, garncarzy z Podlesia oraz zagrodników, stanowiąc bezcenne źródło do badań struktury agrarnej i demografii Kraśnika.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Spis mieszkańców przedmieścia Zarzyce, Gór i Podlesia z taksacją sympli na ratę świętomichalską roku pańskiego 1764...”
+      </div>
+    </div>
+    <!-- KARTA 6 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 6 • Kancelaria • Administracja</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 23, fol. 11r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Konflikt pisarzy miejskich i dyscyplina szafarska kasy magistratu</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Dekret komisarski rozstrzygający gwałtowny spór kompetencyjny między pisarzem miejskim a szafarzem o prawo do pobierania taksy kancelaryjnej i prowadzenia ksiąg percepty. Komisarz nakazał ścisłe rozgraniczenie wpływów do kasy miejskiej od prywatnych dochodów pisarza.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Pisarz miejski żadnych opłat ponad taksę urzędową od mieszczan wyciągać nie ma pod rygorem odsunięcia od urzędu i kary wieży...”
+      </div>
+    </div>
+    <!-- KARTA 7 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 7 • Infrastruktura • Bezpieczeństwo</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 30, fol. 14v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Płace personelu miejskiego, stróż nocny i bezpieczeństwo pożarowe</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Ustalenie stałego budżetu płacowego magistratu kraśnickiego: pisarz (100 złp), szafarz (40 złp), woźny ratuszowy i stróż nocny. Nałożono na stróża nocnego obowiązek cogodzinnego obchodzenia Rynku z latarnią i trąbką oraz nakazano mieszczanom posiadanie drabin i sikawek skórzanych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Stróż nocny z trąbą i latarnią miasto całe obchodzić ma, bezpieczeństwa od ognia i złodziejów pilnując, a o każdej godzinie głos dawać...”
+      </div>
+    </div>
+    <!-- KARTA 8 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 8 • Ustrój Samorządowy • Rytuał</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 38, fol. 19r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Uroczysta msza do Ducha Świętego i doroczna elekcja magistratu z 1766 r.</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Zgodnie z tradycją magdeburską elekcja władz Kraśnika rozpoczynała się uroczystym nabożeństwem Veni Sancte Spiritus w kościele farnym Kanoników Regularnych Laterańskich. Następnie w ratuszu mieszczanie i starsi cechowi składali głosy na wójta, 4 prezydentów (burmistrzów) oraz ławników.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Po wysłuchaniu wotywy o Duchu Świętym w kościele parafialnym, całe pospólstwo do ratusza zgromadzone, do wolnej elekcji magistratu przystąpiło...”
+      </div>
+    </div>
+    <!-- KARTA 9 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 9 • Topografia • Urbanistyka Rynku</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 42, fol. 21r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Rejestr sympli śródmiejskiej 1766 r. i posesje wokół Rynku</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Ewidencja podatkowa kamienic i placów w ścisłym centrum miasta. Dokument pozwala na pełną rekonstrukcję pierzei rynkowych – odnotowano kamienice z podcieniami, szynki, aptekę, jatki rzeźnicze oraz domostwa czołowych rodów patrycjuszowskich (Paszkiewiczów, Wilczyńskich, Frankiewiczów).
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Regestr dymów i sympli śródmiejskich z podziałem na cztery pierzeje Rynku oraz ulice wylotowe: Lubelską, Krakowską i Borycką...”
+      </div>
+    </div>
+    <!-- KARTA 10 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 10 • Wojskowość • Konfederacja Barska</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 56–57, fol. 28r–29r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Konfederacja Barska w Kraśniku: kontrybucje wojsk rosyjskich i koronnych (1768–1769)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Dramatyczne świadectwo epoki konfederacji barskiej: kwity furażowe, asygnaty i relacje z pobytu oddziałów rosyjskich carskiej armii oraz pułków konfederackich. Miasto poniosło ogromne straty w wyniku przymusowych rekwizycji koni, furażu owsianego, bydła i chleba.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Expensa wojenna: furaże, podwody, siano i owies na wojska rosyjskie pod komendą pułkowników carskich przez miasto wyłożone...”
+      </div>
+    </div>
+    <!-- KARTA 11 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 11 • Edukacja • Architektura</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 49, fol. 24v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Reformy szkolnictwa: pensja bakałarza i sala obrad na Bramie Lubelskiej (1768 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Magistrat kraśnicki przeznaczył stałą pensję 40 złp rocznie dla bakałarza szkoły parafialnej w celu podniesienia poziomu oświaty mieszczańskiej. Równocześnie podjęto decyzję o wyremontowaniu i zaadaptowaniu reprezentacyjnej sali nad Bramą Lubelską na dodatkowe miejsce posiedzeń sądowych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Bakałarzowi szkoły kraśnickiej na edukację dziatek mieszczańskich pensja z kasy szafarskiej... a sala na Bramie Lubelskiej do posiedzeń przysposobiona...”
+      </div>
+    </div>
+    <!-- KARTA 12 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 12 • Ustrój Państwowy • Trybunał</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 51, fol. 25v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Elekcja deputata kraśnickiego do Trybunału Koronnego w Lublinie (1768 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Protokół wyboru oficjalnego delegata i plenipotenta miasta Kraśnika do Trybunału Koronnego w Lublinie. Miasto wysyłało swego reprezentanta z funduszem dietowym, aby strzegł immunitetów miejskich i bronił spraw apelacyjnych mieszczan przed najwyższym sądem szlacheckim.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Instrukcja dana plenipotentowi i deputatowi miasta Kraśnika do Prześwietnego Trybunału Koronnego Lubelskiego wyprawionemu...”
+      </div>
+    </div>
+    <!-- KARTA 13 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 13 • Gospodarka • Odbudowa</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 62, fol. 31r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Spis sympli 1769 r. i ulgi podatkowe dla zniszczonych gospodarstw</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Po zniszczeniach wojennych pierwszego roku konfederacji barskiej magistrat dokonał rewizji obciążeń podatkowych. Gospodarstwom spalonym lub zubożałym przyznano urzędowe zwolnienia (liberationes) i obniżki sympli, co zapobiegło ucieczce podmiejskiej ludności rolniczej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Z powodu zubożenia przez rekwizycje wojskowe, ubogim chałupnikom na Zarzeczu i Piaskach sympla do połowy umorzona zostaje...”
+      </div>
+    </div>
+    <!-- KARTA 14 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 14 • Geopolityka • I Rozbiór Polski</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 67, fol. 33v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Zjazd komisarski 1772 r.: Kraśnik miastem pogranicznym po I rozbiorze</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Rok 1772 i I rozbiór Rzeczypospolitej przekształcił południowe rubieże ziemi lubelskiej w strefę przygraniczną (granica monarchii habsburskiej na rzece Tanwi i w pobliżu Janowa). Zjazd komisarski w Kraśniku nakazał reorganizację komory celnej i wzmocnienie straży rogatkowych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Po nastąpionym podziale prowincji i zbliżeniu kordonu cesarskiego, miasto Kraśnik szczególnego dozoru komornego i paszportowego przestrzegać ma...”
+      </div>
+    </div>
+    <!-- KARTA 15 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 15 • Fiskalizm • Browarnictwo</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 106, 121, fol. 52r, 60r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Podymne z 1776 r. i osobna ewidencja miejskich izb browarnych</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Wielka taryfa podymnego z 1776 r. przynosi unikalną specyfikację źródeł ognia. Obok tradycyjnych dymów mieszkalnych wyodrębniono kategorię „izb browarnych” na Górach i Zarzeczu, gdzie stały wielkie miedziane kotły warzelne podlegające specjalnemu opodatkowaniu skarbowemu.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Taryfa dymów miejskich: dymy dworskie, plebańskie, mieszczańskie oraz osobno spisane izby browarne warzące piwa i gorzałki...”
+      </div>
+    </div>
+    <!-- KARTA 16 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 16 • Urbanistyka • Demografia</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 136, fol. 67v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Regestr Dymowy z 1778 r. i pełna socjotopografia Śródmieścia</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Jeden z najdokładniejszych staropolskich rejestrów dymowych w Małopolsce: spisano 77 posesjonatów Rynku z imienia i nazwiska, z podziałem na domy murowane, drewniane, dworki szlacheckie oraz komorników mieszkających w izbach wynajmowanych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Regestr dymów miasta Kraśnika z roku 1778: całkowite spisanie posesji rynkowych z podaniem profesji każdego gospodarza...”
+      </div>
+    </div>
+    <!-- KARTA 17 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 17 • Ustrój • Spory Majątkowe</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 151, fol. 75r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Ordynacja komisarza Lipskiego 1778 r. – sprawa placu Potokowicza i etaty miejskie</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Dekret komisarza ordynackiego Lipskiego regulujący wieloletni zatarg o tzw. podplacik rajcy Piotra Potokowicza. Komisarz ustalił dokładne linie graniczne posesji oraz zatwierdził zrewidowany fundusz płacowy urzędników magistratu.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Plac sporny przy kamienicy Potokowiczowskiej wymierzony sznurem przez taksatorów przysięgłych, a granice słupami utwierdzone...”
+      </div>
+    </div>
+    <!-- KARTA 18 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 18 • Finanse • Egzekucja Długów</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 166, fol. 82v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Zamknięcie rachunków exaktorskich i retenta miejskie 1778–1779</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Szczegółowe zamknięcie ksiąg szafarskich: transport expensy wyniósł 4604 złp, a zaległości podatkowe (retenta) sięgnęły 331 złp. Wprowadzono rygor natychmiastowej egzekucji majątkowej przez woźnego wobec opieszałych płatników.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Zamknięcie rachunków miejskich 1778–1779: expensa całkowita 4604 zł; retenta do kasy należycie opisane i do exekucji podane...”
+      </div>
+    </div>
+    <!-- KARTA 19 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 19 • Prawo Komunalne • Szarwarki</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 181, fol. 90r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Dekret wizytacyjny sędziego Wyszyńskiego o sprawiedliwych szarwarkach (1779 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Sędzia generalny Andrzej Wyszyński wydał dekret nakazujący bezwzględnie sprawiedliwy podział prac szarwarkowych przy groblach i mostach rzeki Wyżnicy. Zakazano rajcom zwalniania własnych krewnych kosztem ubogich chałupników przedmiejskich.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Szarwarki grobelne i mostowe równo na każdego mieszczanina i przedmieszczanina bez względu na koneksje rozkładane być mają...”
+      </div>
+    </div>
+    <!-- KARTA 20 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 20 • Porządek Publiczny • Sądy</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 196, fol. 97v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Tłumienie rebelii mieszczańskiej i obrona powagi urzędu wójtowskiego (1781 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Gwałtowny kryzys polityczny w ratuszu: grupa zbuntowanych mieszczan podważyła legalność wyborów wójta i odmówiła płacenia podatków. Sędzia Wyszyński wydał surowy dekret karny, skazując przywódców rebelii na areszt w wieży ratuszowej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Kto by śmiał przeciwko legalnie obranemu magistratowi bunty i schadzki czynić, do wieży dolnej pod karą 50 grzywien wtrącony zostanie...”
+      </div>
+    </div>
+    <!-- KARTA 21 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 21 • Kryminalistyka • Skandale Patrycjatu</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 198–202, fol. 98v–100v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Kryminalno-polityczna afera zarekwirowanego złotego zegarka wójta Paszkiewicza (1782 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Sensacyjny proces w ratuszu kraśnickim. Podczas kłótni o rozliczenie podatków wójtowi Józefowi Paszkiewiczowi zarekwirowano cenny złoty zegarek kieszonkowy. Sprawa otarła się o sąd ordynacki i Trybunał, ujawniając zażarte walki frakcyjne wewnątrz kraśnickiego patrycjatu.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Inkwizycja o zarekwirowanie złotego zegarka z dewizką wójtowi Paszkiewiczowi podczas burzliwej sesji magistratu...”
+      </div>
+    </div>
+    <!-- KARTA 22 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 22 • Inżynieria Miejska • Czasomierze</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 218, fol. 108v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Inwestycje komunalne: naprawa zegara farnego na wieży kościelnej (1783 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Zegar na wieży kościoła parafialnego CRL wyznaczał rytm pracy rzemieślników i jarmarków. Magistrat sfinansował generalny remont mechanizmu zegarowego, sprowadzając mistrza zegarmistrzowskiego z Lublina i wypłacając mu wynagrodzenie z kasy miejskiej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Wypłata mistrzowi zegarmistrzowi za reperację kół, wag i dzwonów zegara farnego, aby godziny w mieście wiernie biły...”
+      </div>
+    </div>
+    <!-- KARTA 23 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 23 • Medycyna • Zdrowie Publiczne</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 221, fol. 110r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Zdrowie publiczne i kontrakt miejskiego cyrulika (chirurga) kraśnickiego (1783 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Instalacja na urzędzie miejskiego chirurga i cyrulika. W zamian za roczną pensję z kasy miejskiej cyrulik zobowiązał się do bezpłatnego opatrywania ran ubogich mieszkańców, pensjonariuszy szpitala św. Ducha oraz więźniów w areszcie ratuszowym.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Kontrakt z cyrulikiem przysięgłym: rany leczyć, medykamenty ubogim bez zapłaty ordynować, a w zarazie miasta nie opuszczać...”
+      </div>
+    </div>
+    <!-- KARTA 24 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 24 • Reformy Oświeceniowe • Wizytacje</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 226, fol. 112v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Uroczysty wjazd delegacyjny komisarza generalnego barona Michała Wyszyńskiego (1786 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Początek głębokich reform doby Sejmu Czteroletniego. Wjazd delegacyjny komisarza generalnego barona Michała Wyszyńskiego zainaugurował gruntowną modernizację policji miejskiej, szkolnictwa elementarnego i budżetowania cameralnego w Kraśniku.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Wjazd solonny Barona Michała Wyszyńskiego, komisarza generalnego hrabstwa zamojskiego, do miasta Kraśnika na generalną reformę...”
+      </div>
+    </div>
+    <!-- KARTA 25 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 25 • Integracja Cechowa • Przełom Dziejowy</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 235, 249, fol. 117r, 124r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Przełom wyznaniowy: Żyd starszym cechmistrzem cechu krawieckiego w 1788 r.</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Jedno z najbardziej doniosłych odkryć w historii miast I Rzeczypospolitej. W 1788 r. w Kraśniku mistrz krawiecki wyznania mojżeszowego Herszek Lewkowicz został wybrany starszym cechmistrzem wspólnie z chrześcijaninem Wawrzyńcem Gołębiowskim, obalając mit o wykluczeniu Żydów z cechów.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Starszymi cechmistrzami cechu krawieckiego na rok 1788 obrani: Honestus Wawrzyniec Gołębiowski oraz Fidelis Herszek Lewkowicz Żyd...”
+      </div>
+    </div>
+    <!-- KARTA 26 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 26 • Prawo Sądowe • Walka z Pieniactwem</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 237, fol. 118r</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Prekursorski dekret antyprocesowy przeciwko pieniactwu (1788 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Magistrat kraśnicki pod auspicjami barona Wyszyńskiego wydał pionierski dekret tamujący plagę pieniactwa. Wprowadzono obowiązkowe wadium procesowe i surowe kary finansowe (50 grzywien na szpital św. Ducha) za wnoszenie spraw bezzasadnych i pieniactwo sąsiedzkie.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Dla ukrócenia złośliwych pieniaczy, którzy sądy miejskie próżnymi skargami fatygują, postanawia się vadium i kary na ubogich...”
+      </div>
+    </div>
+    <!-- KARTA 27 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 27 • Księgowość Cameralna • Wzór Budżetowy</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skany 239–244, fol. 119r–121v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Wzorzec nowożytnego budżetowania: Bilans generalny Jana Wilczyńskiego (1788 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Szczytowe osiągnięcie staropolskiej księgowości miejskiej. Burmistrz Jan Wilczyński przedstawił idealnie zrównoważony bilans dwuletni (1786–1788): przychody 5864 zł 27 gr, wydatki 5551 zł 4 1/2 gr, umorzenia socjalne 150 zł i czysta superata gotówkowa +10 zł 6 gr.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Percepta: 5864 zł 27 gr; Expensa: 5551 zł 4 1/2 gr; Retenta: 303 zł 17 gr; Superata in numerato: +10 zł 6 gr. Bilans idealny...”
+      </div>
+    </div>
+    <!-- KARTA 28 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 28 • Sejm Wielki • Odrodzenie Miast</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan 246, fol. 122v</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Odrodzenie pełnego składu elekcyjnego Kraśnika w przededniu Sejmu Wielkiego (1788 r.)</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Jesienią 1788 r., w chwili gdy w Warszawie rozpoczynał obrady Sejm Czteroletni (Wielki), Kraśnik wybrał kompletny skład samorządu: 4 prezydentów, wójta i 7 ławników, składając uroczystą przysięgę na wierność Rzeczypospolitej i Ordynacji Zamoyskiej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        „Mając przed oczyma dobro Rzeczypospolitej i Miasta naszego, do pełnej obsady wszystkich urzędów miejskich uroczyście przystąpiono...”
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
   </main>
 
