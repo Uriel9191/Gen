@@ -1,606 +1,607 @@
-﻿Lp.;Nazwisko;Imię;Miejsce zamieszkania (Piaski/Góry/Zarzecze itp.);Funkcja społeczna;Roboczo: Nr skanów;Zakres lat
-1;Abraham żyd kraśnicki;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#85;1599
-2;Augustynek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#26;1595
-3;Augustynek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11, #62, #138;1595–1597
-4;Augustynkówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#51;1598
-5;Augustynowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#42;1596
-6;Babicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#63;1597
-7;Bak;Stanisław;Kraśnik;Wójt;#119;1599
-8;Balneator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-9;Baluś;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#103;1599
-10;Balwierczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-11;Balwierz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#112;1600
-12;Barcik;Wojciech;Kraśnik;Ławnik;#22;1595
-13;Bargielówna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-14;Bargieł;Wojciech;Kraśnik;Ławnik;#75;1599
-15;Barszczowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-16;Bartnik;Sebastian;Kraśnik;Szewc;#92;1599
-17;Bartolan;Stanisław;Bydgoszcz;Mieszkaniec / Posesjonat;#15;1595
-18;Bartos;Jan;Kraśnik;Ławnik;#17, #29, #62;1595–1597
-19;Bartos;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#12;1595
-20;Bartos;Wojciech;Kraśnik;Ławnik;#70;1598
-21;Bartosowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#12;1595
-22;Bartosz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-23;Bartosz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-24;Bartosz;Valenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-25;Bartosz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-26;Bartoszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-27;Bartoszowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-28;Bartoszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595
-29;Bartoszyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-30;Bartoszyk dictus zamieszała;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26;1595
-31;Barty;Wojciech;Kraśnik;Ławnik;#135;1589
-32;Barzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#158;1597
-33;Barzoł;Wojciech;Kraśnik;Ławnik;#155;1597
-34;Bastrzykowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#82;1599
-35;Bednarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#7;1595
-36;Bednarz;Szymon;Kraśnik;Bednarz;#87;1599
-37;Białobrzeski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#137;1597
-38;Białynia;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595
-39;Białyński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26;1595
-40;Białyński;Maciej;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#52;1598
-41;Bieniek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-42;Bilia;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599
-43;Bilia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599
-44;Borowczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#119;1599
-45;Borowski;Marcin;Kraśnik;Ławnik;#22, #34, #141;1595–1598
-46;Borzecki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#109;1600
-47;Bryzik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#56;1598
-48;Brzycki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-49;Burmistrz;Jerzy;Kraśnik;Burmistrz;#19;1595
-50;Buta;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#9;1595
-51;Buta;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#124;1594
-52;Butha;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#155;1597
-53;Bzdręga;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-54;Cantorek;Adam;Kraśnik;Kowal;#122;1600
-55;Cantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#47;1597
-56;Chabajowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#21, #26;1595
-57;Chaimowicz;Abram;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-58;Chomentowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-59;Chorobołka;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596
-60;Chrapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#57;1597
-61;Chrapek;Marcin;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#40;1596
-62;Curek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#106;1599
-63;Cybuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597
-64;Cyganowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-65;Cyrogowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#48;1597
-66;Cyrulik;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-67;Czajek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#148;1597
-68;Czapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-69;Czarnucha;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599
-70;Czerwonka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599
-71;Czerwonka;Mikołaj;Kraśnik;Wójt;#129;1594
-72;Czerwonka;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101;1599
-73;De pągów;Josek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597
-74;Doktorowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-75;Dolezaj;Stanisław;Liszonek;Mieszkaniec / Posesjonat;#50;1598
-76;Dorohostajski;Piotr;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#111;1600
-77;Dralewski;Maciej;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#8;1595
-78;Dubajtok;Jan;Kraśnik;Mieszkaniec / Posesjonat;#145;1589
-79;Dubas;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#119;1599
-80;Dubasik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#119;1599
-81;Dubasik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#119;1599
-82;Dubasina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#119;1599
-83;Dubielek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-84;Dudzic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#103;1599
-85;Dul;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#6;1595
-86;Dul;Jan andrzej;Kraśnik;Mieszkaniec / Posesjonat;#33;1595
-87;Dygański;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-88;Dyl;Jan;Kraśnik;Ławnik;#75;1598
-89;Dymowski;Szymon;Dymowce;Mieszkaniec / Posesjonat;#43;1596
-90;Dziadatorzyna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-91;Dziekciowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#119;1600
-92;Dziekieć;Matysek;Kraśnik;Mieszkaniec / Posesjonat;#119;1600
-93;Dzierżeka;Adam;Kraśnik;Mieszkaniec / Posesjonat;#34;1595
-94;Dębiński;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#153;1597
-95;Fugler zrąbca;Janusz;Zrąbce;Mieszkaniec / Posesjonat;#43;1596
-96;Gardziczkowic;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#18;1595
-97;Gardziel;Mateusz;Kraśnik;Szewc;#66;1599
-98;Giebuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597
-99;Giedyminowicz;Świdrygiełło;Łuck / Wilno;Mieszkaniec / Posesjonat;#30;1595
-100;Giszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#98;1599
-101;Giza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#49, #115;1598–1600
-102;Giza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#73, #94;1598–1599
-103;Giza;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#49, #94;1598–1599
-104;Gomolczanka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#65;1599
-105;Gomolczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-106;Gomolczyk;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-107;Gomolczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#94;1599
-108;Gomolczyna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#94;1599
-109;Gorajski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-110;Gorolek;Jura;Kraśnik;Kowal;#122;1600
-111;Gosal;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-112;Gołumuń;Jakub;Kraśnik;Rajca;#131;1594
-113;Gościerowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#101;1599
-114;Grabys;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#105;1599
-115;Grek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#69;1598
-116;Grobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#50;1598
-117;Gromek;Krzysztof;Kraśnik;Kuśnierz;#99;1599
-118;Grychtal;Mikołaj;Kraśnik;Ławnik;#67;1599
-119;Gryczyna;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#127;1594
-120;Grygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#99;1599
-121;Grymza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#142;1597
-122;Grzebieniowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#61, #104, #150;1597–1599
-123;Gwikło;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-124;Gwiżdż;Mikołaj;Kraśnik;Ławnik;#77;1599
-125;Gyrinkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-126;Górski;Jan;Kraśnik;Rajca;#124;1595
-127;Gąsczyna;Dorota;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#89;1599
-128;Gąsiorek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#7;1595
-129;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#88;1599
-130;Gębala;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#153;1597
-131;Hajduk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595
-132;Hinck;Jan;Kraśnik;Mieszkaniec / Posesjonat;#131;1594
-133;Hinckowa;Zofia elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#131;1594
-134;Iwanówna małofiejowiczówna;Hanusia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-135;Iwanówna małofiejowiczówna;Nastia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-136;Jagiellon;Zygmunt august;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-137;Jaimkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#63;1597
-138;Janas;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595
-139;Janaszek;Stanisław;Kraśnik;Wójt;#11, #85, #129;1594–1599
-140;Janaszkowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1595
-141;Jankowski;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#65;1599
-142;Janusz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#53;1598
-143;Janusz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#53;1598
-144;Januszowa z zająców;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#48;1597
-145;Januszowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#26, #65, #133;1595–1599
-146;Jasek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-147;Jasionic;[wdowa];Kraśnik;Kowal;#81;1599
-148;Jasionicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-149;Jasionka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-150;Jasionka;Jakub;Kraśnik;Ławnik;#135;1589
-151;Jasionowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#152;1597
-152;Jaskowicz rudny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#37;1595
-153;Jaskółka;Jakub;Kraśnik;Ławnik;#71;1598
-154;Jaśkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-155;Jaśkowicz;Jaskowa;Kraśnik;Mieszkanka (wdowa);#34;1595
-156;Jaśkowicz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-157;Jaśkowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599
-158;Jaśkowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#35;1595
-159;Jaśkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-160;Jaśkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-161;Jaśkowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595
-162;Jaśkowiczówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595
-163;Joszkowicz;Abraham;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#96;1599
-164;Judaeus;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#134;1589
-165;Judaeus;Kalim;Kraśnik;Mieszkaniec / Posesjonat;#155;1597
-166;Judaeus;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#155;1597
-167;Judaeus;Lipman;Kraśnik;Mieszkaniec / Posesjonat;#67;1599
-168;Judaeus;Majer;Kraśnik;Mieszkaniec / Posesjonat;#140;1597
-169;Judaeus;Marek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597
-170;Judaeus;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-171;Jurkowicz;Andrzej;Kraśnik;Ławnik;#161;1589
-172;Kalinka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#7;1595
-173;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#80, #159;1589–1599
-174;Kamieński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-175;Kamieński;Marcin;Kraśnik;Szewc;#66;1599
-176;Kamieński;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-177;Kamieński;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-178;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-179;Kamyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-180;Kamykowa z jaśkowiczów;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-181;Kamykówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-182;Kantorek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1600
-183;Kantorzy;Trzej;Kraśnik;Mieszkaniec / Posesjonat;#109;1600
-184;Kanyk;Stanisławowa;Kraśnik;Mieszkanka (wdowa);#118;1600
-185;Kanykowna;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#117;1600
-186;Karczmarczykowa;Regina;Kraśnik;Mieszkaniec / Posesjonat;#55;1598
-187;Karczmarka;Róża;Kraśnik;Mieszkaniec / Posesjonat;#22;1595
-188;Karpik;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#56;1598
-189;Karski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#79;1599
-190;Kaskorowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1599
-191;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-192;Kendra;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-193;Kierzek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#136;1596
-194;Kiik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-195;Kiik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-196;Kiikowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-197;Klimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#44, #65, #146;1596–1599
-198;Kmora;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596
-199;Kobal;Wojciechowa;Kraśnik;Mieszkanka (wdowa);#46;1596
-200;Kobiel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#134;1589
-201;Kocbor;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595
-202;Koczonek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-203;Koczorowicz;Chacko;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-204;Komornik;Thomas;Kraśnik;Wójt;#107;1599
-205;Komornik jancza sulowa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1599
-206;Komornik tomasza skrzypka;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-207;Komorowska;Maryna;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595
-208;Komorowski;Andrzej;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595
-209;Koniarka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#162;1589
-210;Koniecpolski;Jerzy;Kraśnik;Młynarz;#102;1599
-211;Konkol;Jakub;Góry i Podlesie;Wójt;#51;1598
-212;Konopka;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#41;1596
-213;Korz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595
-214;Korz;Jacenty;Kraśnik;Mieszkaniec / Posesjonat;#166;1595
-215;Korz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595
-216;Korzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#166;1595
-217;Kosiński;Adam;Kraśnik;Wójt;#105;1599
-218;Koskowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#77;1599
-219;Kowal;Michał;Kraśnik;Kowal;#121;1600
-220;Kowal;Wojciech;Kraśnik;Kowal;#68;1598
-221;Kowalik;Mateusz;Kraśnik;Kowal;#160;1589
-222;Koza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#140;1597
-223;Kozak;Michał;Kraśnik;Mieszkaniec / Posesjonat;#120;1600
-224;Kozan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#122;1595
-225;Kozanowicz;Italsik;Kraśnik;Mieszkaniec / Posesjonat;#122;1595
-226;Koziarzowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#23;1595
-227;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#134;1597
-228;Kozieł;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-229;Kołodziej;Jan;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-230;Kościelna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#75;1598
-231;Kośka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#145;1589
-232;Koźmian;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-233;Kramarz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#106;1599
-234;Kramarz z rzędowa;Jakub;Rzędów;Mieszkaniec / Posesjonat;#39;1596
-235;Kramarzowa;Elżbieta;Rzędów;Mieszkaniec / Posesjonat;#39;1596
-236;Krasnostawski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#146;1589
-237;Krawc;Augustynowa;Kraśnik;Mieszkanka (wdowa);#142;1597
-238;Krawcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-239;Krawczyk;Sebastian;Góry i Podlesie;Krawiec;#156;1597
-240;Krawiec;Augustyn;Kraśnik;Krawiec;#62, #140;1597–1598
-241;Ksawerycki;Józef;Kraśnik;Mieszkaniec / Posesjonat;#16;1595
-242;Kudełka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600
-243;Kula;Stanisław;Kraśnik;Kowal;#26;1595
-244;Kulia;Jan;Kraśnik;Mieszkaniec / Posesjonat;#72;1598
-245;Kulia;Knuć;Kraśnik;Mieszkaniec / Posesjonat;#72;1598
-246;Kulina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-247;Kunczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#55;1598
-248;Kup;Mikołaj;Kraśnik;Wójt;#151;1597
-249;Kupiec z kamionki;Maciej;Kamionka;Mieszkaniec / Posesjonat;#12;1595
-250;Kupiec z sokołowa;Andrzej;Sokołów;Mieszkaniec / Posesjonat;#12;1595
-251;Kuśnierzowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#57;1598
-252;Kędra;Wincenty;Kraśnik;Ławnik;#14;1595
-253;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#57;1598
-254;Kłos;Maciej;Kraśnik;Ławnik;#50;1598
-255;Lasocina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#133;1597
-256;Lasota;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-257;Lasota;Paweł;województwo lubelskie;Mieszkaniec / Posesjonat;#23;1595
-258;Latoch;Simon;Kraśnik;Mieszkaniec / Posesjonat;#105;1599
-259;Liatszkowiczowna;Jagwieszka;Kraśnik;Mieszkaniec / Posesjonat;#112;1600
-260;Lieszkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#95;1599
-261;Lisielec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#153;1597
-262;Liszkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#14;1595
-263;Liszpin;Jan;Kraśnik;Mieszkaniec / Posesjonat;#63;1597
-264;Liszyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-265;Ludźwiaczek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599
-266;Maluszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-267;Markowic;Urban;Kraśnik;Mieszkaniec / Posesjonat;#87;1599
-268;Matys;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-269;Matysowicz;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#105;1599
-270;Mazur;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-271;Mazur;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#34;1595
-272;Mazur;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-273;Mazur;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#128;1594
-274;Mazurek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-275;Mazurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-276;Małofiejowicz;Iwan;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-277;Mech;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#60;1597
-278;Michałowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#121;1600
-279;Miedziak;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-280;Miedziak;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-281;Mieruszyńca;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#152;1597
-282;Mieszczanin szczebrzeszyński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#53;1598
-283;Mitek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#69, #139;1597–1598
-284;Mitkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#141;1598
-285;Mitkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#140;1597
-286;Międzygóra;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#129;1594
-287;Miłosz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#28;1595
-288;Mniszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-289;Mniszek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#26;1595
-290;Modzelowski szczurzykowic;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596
-291;Moskalowna;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#158;1597
-292;Mrówka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-293;Mularz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599
-294;Mularzka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-295;Murator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-296;Myszanka;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#122;1600
-297;Myszanka;Felicja;Kraśnik;Mieszkaniec / Posesjonat;#122;1600
-298;Myśliszowski;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-299;Młynarz;Marcin;Kraśnik;Młynarz;#76;1599
-300;Młynarz;Wojciech;Kraśnik;Młynarz;#102;1599
-301;Nietyxa;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#111;1600
-302;Niezabitowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#59;1597
-303;Niezgoda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#87;1599
-304;Niezgodzina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#87;1599
-305;Niski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595
-306;Nowaczek;Hryczko;Kraśnik;Mieszkaniec / Posesjonat;#56;1598
-307;Odwłoczybrzuch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#153;1597
-308;Ogon;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#73;1598
-309;Orlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#49;1598
-310;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#36, #60;1595–1597
-311;Orłówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#60;1597
-312;Ostrowski;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#20;1595
-313;Ostrynowski;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-314;Ozimek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#119;1600
-315;Pagiel;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#56;1598
-316;Pająk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#24, #27;1595
-317;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#25, #29;1595
-318;Parnus;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#39;1596
-319;Pasiaszek;Vincenty;Kraśnik;Mieszkaniec / Posesjonat;#122;1595
-320;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#153;1597
-321;Petrykowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-322;Piaszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-323;Piaszkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#78;1599
-324;Piechurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#132;1594
-325;Piekarczyk;Marcin;Kraśnik;Rajca;#79, #158;1597–1599
-326;Pielaszek;Marcin;Kraśnik;Rajca;#146;1589
-327;Piotrowska;Pawłowa;Kraśnik;Mieszkanka (wdowa);#142;1662
-328;Piotrowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599
-329;Piotrowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#142;1640
-330;Piotrowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9, #151;1595–1597
-331;Piotrowski;Stanisław;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#52;1598
-332;Pisarszyna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#90;1599
-333;Pisarzanka;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#21;1595
-334;Piskorz;Stanisław;Kraśnik;Ławnik;#67;1599
-335;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-336;Podmurna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#39;1596
-337;Podmurny;Jakub;Kraśnik;Rajca;#39;1596
-338;Pomsta;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1597
-339;Pomyski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#16;1595
-340;Posmysz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98;1599
-341;Postrzygacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-342;Postrzygacz;Simon;Kraśnik;Mieszkaniec / Posesjonat;#111;1600
-343;Postrzygaczka;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600
-344;Postrzygaczowic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-345;Postrzygaczowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#11, #111;1595–1600
-346;Pousek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-347;Proboszcz kraśnicki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#75;1598
-348;Procek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#113;1600
-349;Prochoński;Lenart;Kraśnik;Mieszkaniec / Posesjonat;#33;1595
-350;Prochoński;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#33;1595
-351;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-352;Prokopek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#150;1597
-353;Prokopkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#150;1597
-354;Prokopówna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#75;1599
-355;Prokopówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-356;Przekaza;Adam;Góry i Podlesie;Mieszkaniec / Posesjonat;#58;1597
-357;Przełkowicz;Michel;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-358;Przybyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-359;Przykora;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#154;1597
-360;Przytoczka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#94;1599
-361;Przęsna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-362;Pstrak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595
-363;Pszcząg;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1589
-364;Pszonka;Marcin;Babin;Mieszkaniec / Posesjonat;#27;1595
-365;Puk;Leonard;Góry i Podlesie;Mieszkaniec / Posesjonat;#124;1595
-366;Pustek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-367;Pustek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#154;1597
-368;Pustkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-369;Pustkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-370;Puszkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#132;1597
-371;Pyróg;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44;1596
-372;Pyszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595
-373;Pyszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#22;1595
-374;Pęzik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599
-375;Płaczek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597
-376;Płodowny;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-377;Ratoska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#42;1596
-378;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#42, #51;1596–1598
-379;Rodzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#54;1598
-380;Rodzonkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-381;Rodzonkowa z ratoskich;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#42;1596
-382;Rogałek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594
-383;Rozdroż;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#96;1599
-384;Rozdroż;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#96;1599
-385;Rozdroż;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599
-386;Rozdrożyna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#96;1599
-387;Rudnicka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-388;Rudnicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1599
-389;Rudnicki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#88;1599
-390;Rudny;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#6;1595
-391;Rudny jaśkowicz;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-392;Rupik;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-393;Rurmistrz;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#13;1595
-394;Ruski;Benedykt;Kraśnik;Mieszkaniec / Posesjonat;#60;1597
-395;Rybczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#134;1597
-396;Rybitw;Andrzej;Kraśnik;Wójt;#135;1589
-397;Rybitw;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#136;1596
-398;Rybitwek;Andrzej;Kraśnik;Rajca;#103;1599
-399;Rybitwek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599
-400;Rybitwowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-401;Rybka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-402;Ryk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-403;Rymarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600
-404;Rzepka;Andrzej;Kraśnik;Ławnik;#109;1600
-405;Rzepka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#94;1599
-406;Rzepka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600
-407;Rączka;Bartłomiej;Góry i Podlesie;Mieszkaniec / Posesjonat;#164;1589
-408;Sadek;Melchior;Kraśnik;Mieszkaniec / Posesjonat;#131;1594
-409;Samszecki;Mikołaj;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595
-410;Sapal;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#126;1594
-411;Sapalina;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#10;1595
-412;Sapała;Stanisław;Kraśnik;Burmistrz;#9, #45, #124, #151;1594–1597
-413;Sapała;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1594
-414;Sapałka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#151;1597
-415;Sapałka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#135;1589
-416;Sebastjanek;Stanisław;Kraśnik;Wójt;#128;1594
-417;Seraszkiewicz;Baltazar;Kraśnik;Wójt;#144;1665
-418;Sierwa;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#106;1599
-419;Siniec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599
-420;Siniecz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595
-421;Sinricz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597
-422;Siwczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-423;Siwczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-424;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #29;1595
-425;Skala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#102;1599
-426;Skopel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#18;1595
-427;Skrobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#98;1599
-428;Skropek;Mikołaj;Kraśnik;Krawiec;#50;1598
-429;Skrzynnik, kupiec żydowski;Bysko;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-430;Skrzypek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#156;1597
-431;Skrzypek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#63;1597
-432;Smielik;Andrzej;Kraśnik;Stelmach;#23;1595
-433;Sobiecki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#33;1595
-434;Solarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#71;1598
-435;Sosnowa z jaśkowiczów;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595
-436;Sowa;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1595
-437;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599
-438;Sowa;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#152;1597
-439;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#136;1596
-440;Sowikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#75;1598
-441;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#152;1597
-442;Spigańczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#159;1589
-443;Spyrzik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#113;1600
-444;Stalinka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#122;1595
-445;Starczewski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#16;1595
-446;Starybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#50;1598
-447;Starzybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#14;1595
-448;Stogniew;Adam;Kraśnik;Ławnik;#161;1589
-449;Strach;Jakub;Kraśnik;Wójt;#6;1595
-450;Strych;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#6;1595
-451;Strykowski;Grzegorz;Rudnik;Mieszkaniec / Posesjonat;#12;1595
-452;Stypuła;Jan;Rzędowice;Mieszkaniec / Posesjonat;#24;1595
-453;Stęzanka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600
-454;Sulowa;Janczo;Kraśnik;Mieszkaniec / Posesjonat;#78;1599
-455;Surma;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#84;1599
-456;Suszko;Jakub;Kraśnik;Ławnik;#129;1594
-457;Suślik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#95;1599
-458;Szabatka;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#128;1594
-459;Szabatka;Stanisław;Kraśnik;Ławnik;#86;1599
-460;Szapała;Stanisław;Kraśnik;Rajca;#96;1599
-461;Szarfankiewicz;Wojciech;Kraśnik;Krawiec;#144;1665
-462;Szatłowska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#12;1595
-463;Szałowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#146;1589
-464;Szczecina;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#71;1598
-465;Szczecinina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73;1598
-466;Szewczyk;Jan;Kraśnik;Szewc;#99;1599
-467;Szewczyk;Stanisław;Kraśnik;Szewc;#99;1599
-468;Szmigiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594
-469;Szpala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#129;1594
-470;Szymczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597
-471;Szymonowicz dictus marcik;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#49;1598
-472;Sówka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#7;1595
-473;Tentore;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#140;1598
-474;Tentorówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#140;1598
-475;Tokarczyk;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#67;1599
-476;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#56;1598
-477;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#57;1598
-478;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1597
-479;Trojanek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#26;1595
-480;Trzemiodkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#157;1597
-481;Twardek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-482;Twarogowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-483;Twaróg;Jan;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-484;Twaróg;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-485;Uliwas;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9;1595
-486;Ungorzycki;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-487;Wagłowski;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#159;1589
-488;Waza;Zygmunt iii;Kraków;Mieszkaniec / Posesjonat;#30;1595
-489;Wesołowski;Mateusz;Kraśnik;Krawiec;#61;1597
-490;Wełna;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#22;1595
-491;Wielguszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#86;1599
-492;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#97;1599
-493;Wilga;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#109;1600
-494;Witek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-495;Wnuk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#52;1598
-496;Wnuk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#49;1598
-497;Wnuk klimkowy;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#67;1599
-498;Wojewódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#150;1597
-499;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #59;1595–1597
-500;Wolak;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#17, #34, #58;1595–1597
-501;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#17;1595
-502;Wolakówna;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#17;1595
-503;Wolski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595
-504;Wolwacz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-505;Woycieszowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-506;Woygłowski;Tomasz;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597
-507;Wozorowski;Lenart;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#138;1596
-508;Wrobik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-509;Wrobik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-510;Wronczyna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-511;Wronka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#127;1594
-512;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#142;1597
-513;Wronka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#100;1599
-514;Wróbel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#70;1598
-515;Wygasły;Marcin;Kraśnik;Wójt;#136;1597
-516;Wyglądatka;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-517;Wójcicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599
-518;Wójcik;Stanisław;Kraśnik;Ławnik;#70, #157;1597–1598
-519;Wójcikowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#138;1596
-520;Wójt;Jan;Kraśnik;Wójt;#83;1599
-521;Wójt;Szczepan;Kraśnik;Wójt;#10, #18;1595
-522;Wójtowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-523;Wągalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-524;Wągała;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#83;1599
-525;Wężik;Abram;Kraśnik;Mieszkaniec / Posesjonat;#113;1600
-526;Włoch;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#7;1595
-527;Z borku;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#100;1599
-528;Z budzynia;Janas;Budzyń;Mieszkaniec / Posesjonat;#34;1595
-529;Z czarnopola;Sienko;Czarnopol;Mieszkaniec / Posesjonat;#43;1596
-530;Z turobina;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#122;1600
-531;Z zamościa;Mikołaj;Zamość;Mieszkaniec / Posesjonat;#12;1595
-532;Zajczyk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#16;1595
-533;Zając;Adam;Kraśnik;Mieszkaniec / Posesjonat;#54;1598
-534;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#54;1598
-535;Zając;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#54;1598
-536;Zającowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#48;1597
-537;Zaleski;Wawrzyniec;Babin;Mieszkaniec / Posesjonat;#27;1595
-538;Zamieszalina;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#25;1595
-539;Zastawnik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#68;1598
-540;Zawalisz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595
-541;Zawaliszowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#34;1595
-542;Zaziębło;Walenty;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595
-543;Zbogusławic;Adam;Bogusławice;Mieszkaniec / Posesjonat;#43;1596
-544;Zdeb;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#82;1599
-545;Zdebkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-546;Zdonkowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-547;Zepka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#146;1589
-548;Zgoda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#131;1594
-549;Zgodebny;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#132;1594
-550;Zgódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#140;1598
-551;Ziarnek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#13, #52;1595–1598
-552;Zięba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#79;1599
-553;Ziętek;Walenty;Kraśnik;Wójt;#146;1597
-554;Zmierzch;Jan;Kraśnik;Mieszkaniec / Posesjonat;#99;1599
-555;Zmierzch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#99;1599
-556;Zmierzchana;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#110;1600
-557;Zondra;Wincenty;Kraśnik;Ławnik;#129;1594
-558;Zołniowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#58;1597
-559;Złoszczyk;Janowa;Kraśnik;Mieszkanka (wdowa);#141;1598
-560;Ćwikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595
-561;Ćwikła;Mikołaj;Kraśnik;Ławnik;#14;1595
-562;Łauza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599
-563;Łaziebnik;Nikodem;Kraśnik;Mieszkaniec / Posesjonat;#12;1595
-564;Łuczyczewna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-565;Łukaszowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#160;1589
-566;Łycz;Tomasz;Skrzynno;Mieszkaniec / Posesjonat;#43;1596
-567;Ścigło;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11;1595
-568;Ślosarczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-569;Ślosarka;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#80;1599
-570;Ślusarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#135;1589
-571;Ślusarz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#135;1589
-572;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#101;1599
-573;Świeczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#50;1598
-574;Świszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#147;1597
-575;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#150;1597
-576;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-577;Świętek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#69;1598
-578;Świętek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#29, #65;1595–1599
-579;Świętowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#161;1589
-580;Żaba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#13;1595
-581;Żołw;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-582;Żołwik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-583;Żołwina;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-584;Żołwiówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-585;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#20;1595
-586;Żyd;Bano;Kraśnik;Mieszkaniec / Posesjonat;#114;1600
-587;Żyd;Bati;Kraśnik;Mieszkaniec / Posesjonat;#13;1595
-588;Żyd;Bysiek;Kraśnik;Mieszkaniec / Posesjonat;#23;1595
-589;Żyd;Chaim;Kraśnik;Mieszkaniec / Posesjonat;#104;1599
-590;Żyd;Chamek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595
-591;Żyd;Chano;Kraśnik;Mieszkaniec / Posesjonat;#15;1595
-592;Żyd;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#21;1595
-593;Żyd;Gatki;Kraśnik;Mieszkaniec / Posesjonat;#115;1600
-594;Żyd;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#106;1599
-595;Żyd;Koza;Kraśnik;Mieszkaniec / Posesjonat;#20;1595
-596;Żyd;Liezman;Kraśnik;Mieszkaniec / Posesjonat;#120;1600
-597;Żyd;Teodor;Kraśnik;Mieszkaniec / Posesjonat;#9;1595
-598;Żyd;Zelman;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#120;1600
-599;Żyd kraśnicki, kupiec w rynku;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#90;1599
-600;Żyd kraśnicki, sąsiad w rynku;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#90;1599
-601;Żyd spod bóżnicy kraśnickiej;Marek;Kraśnik;Mieszkaniec / Posesjonat;#87;1599
-602;Żydówka;Hodyszka;Kraśnik;Mieszkaniec / Posesjonat;#20;1595
-603;Żydówka;Tatlinina;Kraśnik;Mieszkaniec / Posesjonat;#120;1600
-604;Żydówka kraśnicka;Hendelka;Kraśnik;Mieszkaniec / Posesjonat;#90;1599
-605;Żydówka kraśnicka;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#85;1599
+﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
+1;Abraham żyd kraśnicki;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;
+2;Augustynek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
+3;Augustynek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11, #62, #138;1595–1597;3;
+4;Augustynkówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#51;1598;1;
+5;Augustynowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;
+6;Babicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;
+7;Bak;Stanisław;Kraśnik;Wójt;#119;1599;1;
+8;Balneator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+9;Baluś;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+10;Balwierczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;uczeń cyrulicki
+11;Balwierz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#112;1600;1;
+12;Barcik;Wojciech;Kraśnik;Ławnik;#22;1595;1;
+13;Bargielówna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+14;Bargieł;Wojciech;Kraśnik;Ławnik;#75;1599;1;
+15;Barszczowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+16;Bartnik;Sebastian;Kraśnik;Szewc;#92;1599;1;
+17;Bartolan;Stanisław;Bydgoszcz;Mieszkaniec / Posesjonat;#15;1595;1;
+18;Bartos;Jan;Kraśnik;Ławnik;#17, #29, #62;1595–1597;3;
+19;Bartos;Katarzyna;Kraśnik;Mieszczanka;#12;1595;1;Bartosówna, Bartosowna
+20;Bartos;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
+21;Bartos;Wojciech;Kraśnik;Ławnik;#70;1598;1;
+22;Bartosowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
+23;Bartosz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+24;Bartosz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+25;Bartosz;Valenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+26;Bartosz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+27;Bartoszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+28;Bartoszowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+29;Bartoszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
+30;Bartoszyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+31;Bartoszyk dictus zamieszała;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
+32;Barty;Wojciech;Kraśnik;Ławnik;#135;1589;1;
+33;Barzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
+34;Barzoł;Wojciech;Kraśnik;Ławnik;#155;1597;1;
+35;Bastrzykowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
+36;Bednarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Andreas Doliator, bednarz
+37;Bednarz;Szymon;Kraśnik;Bednarz;#87;1599;1;
+38;Białobrzeski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#137;1597;1;
+39;Białynia;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Ioannes Białynia tenutarius, dzierżawca kraśnicki
+40;Białyński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26, #52;1595–1598;2;
+41;Bieniek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+42;Bilia;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+43;Bilia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+44;Borowczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+45;Borowski;Marcin;Kraśnik;Ławnik;#22, #34, #141;1595–1598;3;
+46;Borzecki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
+47;Bryzik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;
+48;Brzycki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+49;Burmistrz;Jerzy;Kraśnik;Burmistrz;#19;1595;1;Georgius Proconsul, proconsul Krasnensis
+50;Buta;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Butha, rzeźnik kraśnicki
+51;Buta;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
+52;Butha;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+53;Bzdręga;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+54;Cantorek;Adam;Kraśnik;Kowal;#122;1600;1;
+55;Cantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#47;1597;1;
+56;Chabajowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#21, #26;1595;2;
+57;Chaimowicz;Abram;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+58;Chomentowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+59;Chorobołka;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;
+60;Chrapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#40, #57;1596–1597;2;
+61;Curek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+62;Cybuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+63;Cyganowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+64;Cyrogowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;
+65;Cyrulik;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Franciscus Cyrulik, mistrz balwierski
+66;Czajek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#148;1597;1;
+67;Czapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+68;Czarnucha;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+69;Czerwonka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+70;Czerwonka;Mikołaj;Kraśnik;Wójt;#129;1594;1;
+71;Czerwonka;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+72;De pągów;Josek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;
+73;Doktorowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+74;Dolezaj;Stanisław;Liszonek;Mieszkaniec / Posesjonat;#50;1598;1;
+75;Dorohostajski;Piotr;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#111;1600;1;
+76;Dralewski;Maciej;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#8;1595;1;subcapitaneus Krasnensis, podstarości kraśnicki
+77;Dubajtok;Jan;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
+78;Dubas;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+79;Dubasik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+80;Dubasik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+81;Dubasina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+82;Dubielek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+83;Dudzic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+84;Dul;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Dyl, mistrz kunsztu piekarskiego
+85;Dul;Jan andrzej;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;
+86;Dygański;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+87;Dyl;Jan;Kraśnik;Ławnik;#75;1598;1;
+88;Dymowski;Szymon;Dymowce;Mieszkaniec / Posesjonat;#43;1596;1;
+89;Dziadatorzyna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+90;Dziekciowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
+91;Dziekieć;Matysek;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
+92;Dzierżeka;Adam;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;
+93;Dębiński;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+94;Fugler zrąbca;Janusz;Zrąbce;Mieszkaniec / Posesjonat;#43;1596;1;
+95;Gardziczkowic;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Gardziczkowicz
+96;Gardziel;Mateusz;Kraśnik;Szewc;#66;1599;1;
+97;Giebuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+98;Giedyminowicz;Świdrygiełło;Łuck / Wilno;Mieszkaniec / Posesjonat;#30;1595;1;
+99;Giszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;
+100;Giza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#49, #115;1598–1600;2;
+101;Giza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#73, #94;1598–1599;2;
+102;Giza;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#49, #94;1598–1599;2;
+103;Gomolczanka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;
+104;Gomolczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+105;Gomolczyk;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+106;Gomolczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+107;Gomolczyna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+108;Gorajski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+109;Gorolek;Jura;Kraśnik;Kowal;#122;1600;1;
+110;Gosal;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+111;Gołumuń;Jakub;Kraśnik;Rajca;#131;1594;1;
+112;Gościerowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+113;Grabys;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;
+114;Grek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;
+115;Grobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;
+116;Gromek;Krzysztof;Kraśnik;Kuśnierz;#99;1599;1;
+117;Grychtal;Mikołaj;Kraśnik;Ławnik;#67;1599;1;
+118;Gryczyna;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
+119;Grygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;
+120;Grymza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
+121;Grzebieniowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#61, #104, #150;1597–1599;3;
+122;Gwikło;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+123;Gwiżdż;Mikołaj;Kraśnik;Ławnik;#77;1599;1;
+124;Gyrinkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+125;Górski;Jan;Kraśnik;Rajca;#124;1595;1;
+126;Gąsczyna;Dorota;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#89;1599;1;
+127;Gąsiorek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
+128;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;
+129;Gębala;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+130;Hajduk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+131;Hanus;N.;Kraśnik;Mieszkaniec;#18;1595;1;Hanusius
+132;Hinck;Jan;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+133;Hinckowa;Zofia elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+134;Iwanówna małofiejowiczówna;Hanusia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+135;Iwanówna małofiejowiczówna;Nastia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+136;Jagiellon;Zygmunt august;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+137;Jaimkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;
+138;Janas;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;
+139;Janaszek;Stanisław;Kraśnik;Wójt;#11, #85, #129;1594–1599;3;
+140;Janaszkowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Janaszkowa z Wolaków
+141;Jankowski;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#65;1599;1;
+142;Janusz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
+143;Janusz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#53;1598;1;
+144;Januszowa z zająców;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;
+145;Januszowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#26, #65, #133;1595–1599;3;
+146;Jasek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+147;Jasionic;[wdowa];Kraśnik;Kowal;#81;1599;1;
+148;Jasionicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+149;Jasionka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+150;Jasionka;Jakub;Kraśnik;Ławnik;#135;1589;1;
+151;Jasionowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+152;Jaskowicz rudny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#37;1595;1;
+153;Jaskółka;Jakub;Kraśnik;Ławnik;#71;1598;1;
+154;Jaśkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+155;Jaśkowicz;Jaskowa;Kraśnik;Mieszkanka (wdowa);#34;1595;1;
+156;Jaśkowicz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+157;Jaśkowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+158;Jaśkowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+159;Jaśkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+160;Jaśkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+161;Jaśkowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+162;Jaśkowiczówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+163;Joszkowicz;Abraham;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#96;1599;1;
+164;Judaeus;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
+165;Judaeus;Kalim;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+166;Judaeus;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+167;Judaeus;Lipman;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+168;Judaeus;Majer;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+169;Judaeus;Marek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;
+170;Judaeus;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+171;Jurkowicz;Andrzej;Kraśnik;Ławnik;#161;1589;1;
+172;Kalinka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
+173;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#80, #159;1589–1599;2;
+174;Kamieński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+175;Kamieński;Marcin;Kraśnik;Szewc;#66;1599;1;
+176;Kamieński;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+177;Kamieński;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+178;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+179;Kamyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+180;Kamykowa z jaśkowiczów;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+181;Kamykówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+182;Kantorek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
+183;Kantorzy;Trzej;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
+184;Kanyk;Stanisławowa;Kraśnik;Mieszkanka (wdowa);#118;1600;1;
+185;Kanykowna;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#117;1600;1;
+186;Karczmarczykowa;Regina;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;
+187;Karczmarka;Róża;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+188;Karpik;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;
+189;Karski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;
+190;Kaskorowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+191;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+192;Kendra;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+193;Kierzek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
+194;Kiik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+195;Kiik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+196;Kiikowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+197;Klimek;Jan;Kraśnik (Zastawie);Mieszkaniec / Rolnik;#20;1595;1;Klymek
+198;Klimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#44, #65, #146;1596–1599;3;
+199;Kmora;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;
+200;Kobal;Wojciechowa;Kraśnik;Mieszkanka (wdowa);#46;1596;1;
+201;Kobiel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
+202;Kocbor;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Koczbor
+203;Koczonek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;
+204;Koczorowicz;Chacko;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+205;Komornik;Thomas;Kraśnik;Wójt;#107;1599;1;
+206;Komornik jancza sulowa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+207;Komornik tomasza skrzypka;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+208;Komorowska;Maryna;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
+209;Komorowski;Andrzej;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
+210;Koniarka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#162;1589;1;
+211;Koniecpolski;Jerzy;Kraśnik;Młynarz;#102;1599;1;
+212;Konkol;Jakub;Góry i Podlesie;Wójt;#51;1598;1;
+213;Konopka;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#41;1596;1;
+214;Korz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+215;Korz;Jacenty;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+216;Korz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+217;Korzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+218;Kosiński;Adam;Kraśnik;Wójt;#105;1599;1;
+219;Koskowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#77;1599;1;
+220;Kowal;Michał;Kraśnik;Kowal;#121;1600;1;
+221;Kowal;Wojciech;Kraśnik;Kowal;#68;1598;1;
+222;Kowalik;Mateusz;Kraśnik;Kowal;#160;1589;1;
+223;Koza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+224;Kozak;Michał;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;
+225;Kozan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+226;Kozanowicz;Italsik;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+227;Koziarzowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;
+228;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
+229;Kozieł;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+230;Kołodziej;Jan;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+231;Kościelna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
+232;Kośka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
+233;Koźmian;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+234;Kramarz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+235;Kramarz z rzędowa;Jakub;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
+236;Kramarzowa;Elżbieta;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
+237;Krasnostawski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+238;Krawc;Augustynowa;Kraśnik;Mieszkanka (wdowa);#142;1597;1;
+239;Krawcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+240;Krawczyk;Sebastian;Góry i Podlesie;Krawiec;#156;1597;1;
+241;Krawiec;Augustyn;Kraśnik;Krawiec;#62, #140;1597–1598;2;
+242;Ksawerycki;Józef;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
+243;Kudełka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
+244;Kula;Stanisław;Kraśnik;Kowal;#26;1595;1;
+245;Kulia;Jan;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;
+246;Kulia;Knuć;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;
+247;Kulina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+248;Kunczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;
+249;Kup;Mikołaj;Kraśnik;Wójt;#151;1597;1;
+250;Kupiec z kamionki;Maciej;Kamionka;Mieszkaniec / Posesjonat;#12;1595;1;
+251;Kupiec z sokołowa;Andrzej;Sokołów;Mieszkaniec / Posesjonat;#12;1595;1;
+252;Kuśnierzowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;
+253;Kędra;Wincenty;Kraśnik;Ławnik;#14;1595;1;Kendra, ławnik przysięgły
+254;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;
+255;Kłos;Maciej;Kraśnik;Ławnik;#50;1598;1;
+256;Lasocina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#133;1597;1;
+257;Lasota;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+258;Lasota;Paweł;województwo lubelskie;Mieszkaniec / Posesjonat;#23;1595;1;
+259;Latoch;Simon;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;
+260;Liatszkowiczowna;Jagwieszka;Kraśnik;Mieszkaniec / Posesjonat;#112;1600;1;
+261;Lieszkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
+262;Lisielec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+263;Liszkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;Liskowa
+264;Liszpin;Jan;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;
+265;Liszyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+266;Ludźwiaczek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+267;Maluszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+268;Markowic;Urban;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+269;Matys;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+270;Matysowicz;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#105;1599;1;
+271;Mazur;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+272;Mazur;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;
+273;Mazur;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+274;Mazur;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+275;Mazurek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
+276;Mazurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
+277;Małofiejowicz;Iwan;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+278;Mech;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;
+279;Michałowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
+280;Miedziak;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+281;Miedziak;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+282;Mieruszyńca;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+283;Mieszczanin szczebrzeszyński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
+284;Mitek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#69, #139;1597–1598;2;
+285;Mitkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#141;1598;1;
+286;Mitkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+287;Międzygóra;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
+288;Miłosz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#28;1595;1;
+289;Mniszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+290;Mniszek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
+291;Modzelowski szczurzykowic;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596;1;
+292;Moskalowna;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
+293;Mrówka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Mrowka
+294;Mularz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+295;Mularzka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+296;Murator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+297;Myszanka;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+298;Myszanka;Felicja;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+299;Myśliszowski;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+300;Młynarz;Marcin;Kraśnik;Młynarz;#76;1599;1;
+301;Młynarz;Wojciech;Kraśnik;Młynarz;#102;1599;1;
+302;Nietyxa;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+303;Niezabitowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;
+304;Niezgoda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+305;Niezgodzina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+306;Niski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Nyski, uczeń piekarski u Dula
+307;Nowaczek;Hryczko;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;
+308;Odwłoczybrzuch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+309;Ogon;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;
+310;Orlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
+311;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#36, #60;1595–1597;2;
+312;Orłówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;
+313;Ostrowski;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#20;1595;1;Felix Ostrowski capitaneus, starosta zamkowy
+314;Ostrynowski;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+315;Ozimek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
+316;Ożóg;Mikołaj;Kraśnik;Rzemieślnik / Szewc;#17;1595;1;Ożga, Ożóg szewc
+317;Pagiel;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;
+318;Pająk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#24, #27;1595;2;
+319;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#25, #29;1595;2;
+320;Parnus;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;
+321;Pasiaszek;Vincenty;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+322;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+323;Petrykowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+324;Piaszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+325;Piaszkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;
+326;Piechurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
+327;Piekarczyk;Marcin;Kraśnik;Rajca;#79, #158;1597–1599;2;Kamieński, antiquus consul, b. rajca
+328;Pielaszek;Marcin;Kraśnik;Rajca;#146;1589;1;
+329;Piotrowska;Pawłowa;Kraśnik;Mieszkanka (wdowa);#142;1662;1;
+330;Piotrowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+331;Piotrowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#142;1640;1;
+332;Piotrowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9, #52, #151;1595–1598;3;
+333;Pisarszyna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+334;Pisarzanka;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;
+335;Piskorz;Stanisław;Kraśnik;Ławnik;#67;1599;1;
+336;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+337;Podmurna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;
+338;Podmurny;Jakub;Kraśnik;Rajca;#39;1596;1;
+339;Pomsta;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1597;1;
+340;Pomyski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Pomysthi, Pomyszki
+341;Posmysz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;
+342;Postrzygacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+343;Postrzygacz;Simon;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+344;Postrzygaczka;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+345;Postrzygaczowic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+346;Postrzygaczowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#11, #111;1595–1600;2;
+347;Pousek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+348;Proboszcz kraśnicki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
+349;Procek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+350;Prochoński;Lenart;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;
+351;Prochoński;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#33;1595;1;
+352;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+353;Prokopek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+354;Prokopkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+355;Prokopówna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#75;1599;1;
+356;Prokopówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+357;Przekaza;Adam;Góry i Podlesie;Mieszkaniec / Posesjonat;#58;1597;1;
+358;Przełkowicz;Michel;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+359;Przybyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+360;Przykora;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
+361;Przytoczka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+362;Przęsna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+363;Pstrak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;
+364;Pszcząg;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+365;Pszonka;Marcin;Babin;Mieszkaniec / Posesjonat;#27;1595;1;
+366;Puk;Leonard;Góry i Podlesie;Mieszkaniec / Posesjonat;#124;1595;1;
+367;Pustek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+368;Pustek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
+369;Pustkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+370;Pustkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+371;Puszkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+372;Pyróg;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;
+373;Pyszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+374;Pyszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+375;Pęzik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+376;Płaczek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+377;Płodowny;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+378;Ratoska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;
+379;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#42, #51;1596–1598;2;
+380;Rodzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
+381;Rodzonkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+382;Rodzonkowa z ratoskich;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;
+383;Rogałek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+384;Rozdroż;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+385;Rozdroż;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+386;Rozdroż;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+387;Rozdrożyna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+388;Rudnicka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+389;Rudnicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;
+390;Rudnicki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;
+391;Rudny;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Rudney, piekarz
+392;Rudny jaśkowicz;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+393;Rupik;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Jakubek Rupik Judaeus, Rupik Żyd
+394;Rurmistrz;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Georgius Magister canaliarius, magister canaliarius miejski
+395;Ruski;Benedykt;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;
+396;Rybczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
+397;Rybitw;Andrzej;Kraśnik;Wójt;#135;1589;1;
+398;Rybitw;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
+399;Rybitwek;Andrzej;Kraśnik;Rajca;#103;1599;1;
+400;Rybitwek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+401;Rybitwowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+402;Rybka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+403;Ryk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+404;Rymarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+405;Rzepka;Andrzej;Kraśnik;Ławnik;#109;1600;1;
+406;Rzepka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+407;Rzepka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
+408;Rączka;Bartłomiej;Góry i Podlesie;Mieszkaniec / Posesjonat;#164;1589;1;
+409;Sadek;Melchior;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+410;Samszecki;Mikołaj;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+411;Sapal;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#126;1594;1;
+412;Sapalina;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#10;1595;1;Sapałowa, żona Stanisława Sapały
+413;Sapała;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
+414;Sapała;Stanisław;Kraśnik;Burmistrz;#9, #45, #124, #151;1594–1597;4;
+415;Sapałka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+416;Sapałka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+417;Sebastjanek;Stanisław;Kraśnik;Wójt;#128;1594;1;
+418;Seraszkiewicz;Baltazar;Kraśnik;Wójt;#144;1665;1;
+419;Sierwa;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+420;Siniec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;
+421;Siniecz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
+422;Sinricz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
+423;Siwczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+424;Siwczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+425;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #29;1595;2;
+426;Skala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#102;1599;1;
+427;Skopel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Skopel
+428;Skrobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;
+429;Skropek;Mikołaj;Kraśnik;Krawiec;#50;1598;1;
+430;Skrzynnik, kupiec żydowski;Bysko;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+431;Skrzypek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#156;1597;1;
+432;Skrzypek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;
+433;Smielik;Andrzej;Kraśnik;Stelmach;#23;1595;1;
+434;Sobiecki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;
+435;Solarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;
+436;Sosnowa z jaśkowiczów;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+437;Sowa;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
+438;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+439;Sowa;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+440;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
+441;Sowikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
+442;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+443;Spigańczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#159;1589;1;
+444;Spyrzik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+445;Stalinka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#122;1595;1;
+446;Starczewski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
+447;Starybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;
+448;Starzybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;testator z 1595, zmarły mieszczanin
+449;Stogniew;Adam;Kraśnik;Ławnik;#161;1589;1;
+450;Strach;Jakub;Kraśnik;Wójt;#6;1595;1;Iacobus Strach minister civitatis, sługa miejski
+451;Strych;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Stryk, piekarz
+452;Strykowski;Grzegorz;Rudnik;Mieszkaniec / Posesjonat;#12;1595;1;ze Strykowa, kupiec z Rudnika
+453;Stypuła;Jan;Rzędowice;Mieszkaniec / Posesjonat;#24;1595;1;
+454;Stęzanka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+455;Sulowa;Janczo;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;
+456;Surma;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#84;1599;1;
+457;Suszko;Jakub;Kraśnik;Ławnik;#129;1594;1;
+458;Suślik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
+459;Szabatka;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+460;Szabatka;Stanisław;Kraśnik;Ławnik;#86;1599;1;
+461;Szapała;Stanisław;Kraśnik;Rajca;#96;1599;1;
+462;Szarfankiewicz;Wojciech;Kraśnik;Krawiec;#144;1665;1;
+463;Szatłowska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Szatlowska
+464;Szałowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+465;Szczecina;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;
+466;Szczecinina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;
+467;Szewczyk;Jan;Kraśnik;Szewc;#99;1599;1;
+468;Szewczyk;Stanisław;Kraśnik;Szewc;#99;1599;1;
+469;Szmigiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+470;Szpala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
+471;Szymczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+472;Szymonowicz dictus marcik;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
+473;Sówka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Sowka
+474;Tentore;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+475;Tentorówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+476;Tokarczyk;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+477;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;
+478;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;
+479;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;
+480;Trojanek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
+481;Trzemiodkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+482;Twardek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+483;Twarogowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+484;Twaróg;Jan;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+485;Twaróg;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+486;Uliwas;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Vliwas
+487;Ungorzycki;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+488;Wagłowski;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+489;Waza;Zygmunt iii;Kraków;Mieszkaniec / Posesjonat;#30;1595;1;
+490;Wesołowski;Mateusz;Kraśnik;Krawiec;#61;1597;1;
+491;Wełna;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+492;Wielguszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+493;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#97;1599;1;
+494;Wilga;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
+495;Witek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+496;Wnuk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#52;1598;1;
+497;Wnuk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
+498;Wnuk klimkowy;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+499;Wojewódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+500;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #59;1595–1597;2;
+501;Wolak;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#17, #34, #58;1595–1597;4;Mikołaj Wolak senior, zmarły posesjonat
+502;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
+503;Wolakówna;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Wolak Krystyna, Wolakowna panna
+504;Wolski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;
+505;Wolwacz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+506;Woycieszowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+507;Woygłowski;Tomasz;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
+508;Wozorowski;Lenart;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#138;1596;1;
+509;Wrobik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+510;Wrobik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+511;Wronczyna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+512;Wronka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
+513;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
+514;Wronka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;
+515;Wróbel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+516;Wygasły;Marcin;Kraśnik;Wójt;#136;1597;1;
+517;Wyglądatka;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Wyglandatka
+518;Wójcicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;
+519;Wójcik;Stanisław;Kraśnik;Ławnik;#70, #157;1597–1598;2;
+520;Wójcikowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#138;1596;1;
+521;Wójt;Jan;Kraśnik;Wójt;#83;1599;1;
+522;Wójt;Szczepan;Kraśnik;Wójt;#10, #18;1595;2;Stefan Wójt, Stephanus Advocatus, Stephani Woyto, dawny wójt
+523;Wójtowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Barbara Woytowa, wdowa po Stefanie Wójcie
+524;Wągalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+525;Wągała;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+526;Wężik;Abram;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+527;Włoch;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Bernardus Italus, Bernardyn Włoch
+528;Z borku;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;
+529;Z budzynia;Janas;Budzyń;Mieszkaniec / Posesjonat;#34;1595;1;
+530;Z czarnopola;Sienko;Czarnopol;Mieszkaniec / Posesjonat;#43;1596;1;
+531;Z turobina;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+532;Z zamościa;Mikołaj;Zamość;Mieszkaniec / Posesjonat;#12;1595;1;
+533;Zajczyk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Zayczyk
+534;Zając;Adam;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
+535;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
+536;Zając;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
+537;Zającowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;
+538;Zaleski;Wawrzyniec;Babin;Mieszkaniec / Posesjonat;#27;1595;1;
+539;Zamieszalina;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#25;1595;1;
+540;Zastawnik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+541;Zawalisz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;
+542;Zawaliszowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;
+543;Zaziębło;Walenty;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Zaziembło, Zazięblo
+544;Zbogusławic;Adam;Bogusławice;Mieszkaniec / Posesjonat;#43;1596;1;
+545;Zdeb;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
+546;Zdebkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+547;Zdonkowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+548;Zepka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+549;Zgoda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+550;Zgodebny;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
+551;Zgódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+552;Ziarnek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#13, #52;1595–1598;2;Zyarnek
+553;Zięba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;
+554;Ziętek;Walenty;Kraśnik;Wójt;#146;1597;1;
+555;Zmierzch;Jan;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;
+556;Zmierzch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;
+557;Zmierzchana;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+558;Zondra;Wincenty;Kraśnik;Ławnik;#129;1594;1;
+559;Zołniowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+560;Złoszczyk;Janowa;Kraśnik;Mieszkanka (wdowa);#141;1598;1;
+561;Ćwikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+562;Ćwikła;Mikołaj;Kraśnik;Ławnik;#14;1595;1;Cwikła, ławnik przysięgły
+563;Łauza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+564;Łaziebnik;Nikodem;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Nicodemus Balneator, Nikodem balneator
+565;Łuczyczewna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+566;Łukaszowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+567;Łycz;Tomasz;Skrzynno;Mieszkaniec / Posesjonat;#43;1596;1;
+568;Ścigło;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Scygło
+569;Ślosarczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+570;Ślosarka;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+571;Ślusarz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+572;Ślusarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+573;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+574;Świeczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;
+575;Świszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#147;1597;1;
+576;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+577;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Swiantek
+578;Świętek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;
+579;Świętek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#29, #65;1595–1599;2;
+580;Świętowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+581;Żaba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;
+582;Żołw;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+583;Żołwik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+584;Żołwina;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+585;Żołwiówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+586;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Aaron Judaeus gener Koza, zięć Kozy
+587;Żyd;Bano;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
+588;Żyd;Bati;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Bati Judaeus
+589;Żyd;Bysiek;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;
+590;Żyd;Chaim;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+591;Żyd;Chamek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Chamek Judaeus vigil nocturnus, stróż nocny
+592;Żyd;Chano;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Chano Judaeus
+593;Żyd;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;
+594;Żyd;Gatki;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+595;Żyd;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+596;Żyd;Koza;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Koza Judaeus, teść Aarona
+597;Żyd;Liezman;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;
+598;Żyd;Teodor;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Theodorus Judaeus
+599;Żyd;Zelman;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#120;1600;1;
+600;Żyd kraśnicki, kupiec w rynku;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+601;Żyd kraśnicki, sąsiad w rynku;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+602;Żyd spod bóżnicy kraśnickiej;Marek;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+603;Żydówka;Hodyszka;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Hodysza, córka Kozy, żona Aarona
+604;Żydówka;Tatlinina;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;
+605;Żydówka kraśnicka;Hendelka;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+606;Żydówka kraśnicka;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;
