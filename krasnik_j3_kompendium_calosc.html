@@ -834,9 +834,11 @@
     </button>
     <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
       <span>🏛️ Pełna Synteza Monograficzna</span>
+      <span class="tab-badge">12 Rozdziałów</span>
     </button>
     <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
       <span>🔍 Kluczowe Odkrycia Źródłowe i Przełomy</span>
+      <span class="tab-badge">24 Karty</span>
     </button>
   </nav>
 
@@ -853,17 +855,17 @@
         <div class="stat-card purple">
           <div class="stat-title">Zakres chronologiczny</div>
           <div class="stat-value">1562–1690</div>
-          <div class="stat-desc">Wraz z drukami Sądu Pokoju z 1820 r.</div>
+          <div class="stat-desc">Z inseratami renesansowymi wójta Piotra Pichonia</div>
         </div>
         <div class="stat-card cyan">
-          <div class="stat-title">Sądy Piotra Pichonia</div>
-          <div class="stat-value">1562–1594</div>
-          <div class="stat-desc">Renesansowe sądy gajone i dekreta</div>
+          <div class="stat-title">Transkrypcje dyplomatyczne</div>
+          <div class="stat-value">232 skany (100% autopsji)</div>
+          <div class="stat-desc">k. 1r–112v, Potop Szwedzki, uniwersał Karola Gustawa</div>
         </div>
         <div class="stat-card success">
-          <div class="stat-title">Akta Potopu Szwedzkiego</div>
-          <div class="stat-value">1655–1656</div>
-          <div class="stat-desc">Uniwersał Karola Gustawa i ordynacja akcyzowa</div>
+          <div class="stat-title">Biogramy mieszkańców</div>
+          <div class="stat-value">927</div>
+          <div class="stat-desc">0 duplikatów • pełne spisy wystąpień</div>
         </div>
       </div>
 
@@ -925,7 +927,7 @@
         <div class="stat-card gold">
           <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
           <div class="stat-value" id="genStatCount">927</div>
-          <div class="stat-desc">Zintegrowane profile biograficzne</div>
+          <div class="stat-desc">Zintegrowane profile biograficzne (0 duplikatów)</div>
         </div>
         <div class="stat-card success">
           <div class="stat-title">Wzmianki źródłowe</div>
@@ -943,6 +945,8 @@
           <div class="stat-desc">Brak dubletów, 1 osoba = 1 profil</div>
         </div>
       </div>
+
+
 
       <div class="controls-panel">
         <div class="control-group wide">
@@ -998,18 +1002,512 @@
 
     <!-- TAB 3: MONOGRAPH -->
     <section id="monograph-tab" class="tab-content">
-      <div class="monograph-content">
-        ') + 20
-pos_m_end = old_code.find('
-      </div>
+      <div class="monograph-container" style="max-width:1000px; margin:0 auto; padding:2rem 1.5rem; line-height:1.8; color:#cbd5e1;">
+  <div style="margin-bottom:2.5rem; text-align:center;">
+    <div style="display:inline-block; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--gold-primary); background:rgba(217,119,6,0.15); border:1px solid rgba(217,119,6,0.4); padding:0.35rem 1rem; border-radius:20px; margin-bottom:1rem; font-weight:600;">
+      SYNTEZA ŹRÓDŁOZNAWCZA I PROZOPOGRAFICZNA • SYGN. 35/40/0/1/3
+    </div>
+  </div>
+  <h1 style="font-family:'Cinzel', serif; color:var(--gold-primary); font-size:2rem; margin:2rem 0 1rem; border-bottom:2px solid var(--gold-border); padding-bottom:0.5rem;">MONOGRAFIA ŹRÓDŁOWA I SYNTEZA HISTORYCZNO-GENEALOGICZNA JEDNOSTKI 03</h1>
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Akta Miasta Kraśnika – Sygnatura Archiwalna 35/40/0/1/3 (dawna sygn. Księga 2 / N. 2)</h2>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">Dekreta i Tranzakcje Radzieckie i Wójtowskie z lat 1562, 1594, 1601, 1628–1690</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;"><em>Kompleksowa synteza kodykologiczna, edytorska i prozopograficzna na podstawie autopsji 232 skanów rękopisu (k. 1r–112v) oraz bazy 927 unikalnych biogramów mieszkańców Kraśnika.</em></p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 1. Wprowadzenie Źródłoznawcze, Stratygrafia Rękopisu i Kodykologia Sygnatury 35/40/0/1/3</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Księga zarejestrowana w Archiwum Państwowym w Lublinie pod współczesną sygnaturą <strong style="color:#f8fafc;">35/40/0/1/3</strong> (dawna sygnatura archiwalna: <strong style="color:#f8fafc;">Księga 2</strong>, w dawniejszym inwentarzu miejskim: <strong style="color:#f8fafc;">N. 2</strong>) stanowi jeden z najważniejszych i najbardziej dramatycznych zabytków staropolskiej kancelarii miejskiej na Lubelszczyźnie. Obejmuje 112 kart rękopiśmiennych w formacie folio, ujętych w 232 jednostkach skanowych cyfrowego mikrofilmu AP Lublin (nr mikrofilmu 110394), wraz z kartami ochronnymi, wyklejkami oraz metryczkami z 1959 roku.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">1.1. Oprawa, Kładki i Stan Zachowania</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Oprawa woluminu wykonana została z grubej tektury powleczonej ciemnobrązową skórą cielęcą, wykazującej ślady wielokrotnych napraw i ingerencji introligatorskich na przestrzeni XVII, XVIII i XIX stulecia. Blok księgi uformowany został z ręcznie czerpanego papieru ze znakami wodnymi (filigranami) wytwórni małopolskich i lubelskich (m.in. herb Lewart Firlejów oraz podkowa z krzyżem).</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Szczególne świadectwo XIX-wiecznych prac introligatorskich stanowi wszyty na końcu kodeksu (skany 230–231) formularz akt sądowych z czasów Królestwa Polskiego z roku 1820 (Sąd Pokoju Powiatu Kraśnickiego z czytelną pieczęcią opłaty stemplowej „DZIESIĘĆ GROSZY”), użyty jako makulatura wzmacniająca zniszczony grzbiet księgi.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">1.2. Stratygrafia Chronologiczna i Luki Archiwalne</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Analiza paleograficzna 232 skanów wykazała jednoznacznie, że księga nie ma jednolitego charakteru dziennika czynności bieżących, lecz stanowi kodeks złożony o wyraźnej stratyfikacji czasowej:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Warstwa renesansowa (1562, 1594, 1601 r., skany 6–10):</strong> nieliczne, szczątkowo zachowane wpisy z czasów ostatnich Jagiellonów i Zygmunta III Wazy, obejmujące sądy gajone wójta Piotra Pichonia oraz inseraty dawnych nadań gruntowych.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Warstwa wczesnobarokowa (1628–1630 r., skany 26–194):</strong> najobszerniejszy zrąb rejestracji spraw niespornych i spornych przed sądem wójtowskim i radzieckim (testamenty, inwentarze pośmiertne, działy majątkowe, transakcje placami, procesy o długi i obelgi).</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Warstwa Potopu Szwedzkiego (1655–1656 r., skany 195–229, fol. 95r–112v):</strong> absolutny klejnot kodykologiczny kodeksu. Rejestruje ona zmagania miasta z inwazją szwedzką, ewakuację i zamurowanie archiwum ratuszowego, autentyczny wojenny uniwersał furażowy króla Karola X Gustawa z Lublina, przemarsze chorągwi wojsk koronnych i litewskich oraz Wielką Ordynację Akcyzową Jana „Sobiepana” Zamoyskiego na obronę Twierdzy Zamość.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Wpisy uzupełniające i adnotacje (1666, 1680–1690 r.):</strong> pojedyncze wpisy rozliczeniowe i wpisy wójtowskie z II połowy XVII stulecia.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 2. Renesansowe Korzenie: Sądy Gajone i Dekreta Wójta Piotra Pichonia (1562–1594)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Najwcześniejsza warstwa rękopisu (skany 6–10) przenosi badacza w drugą połowę XVI stulecia – złoty wiek rozwoju gospodarczego Kraśnika pod protekcją rodu Tęczyńskich.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">2.1. Instytucja Sądów Gajonych (Iudicium Bannitum)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wpisy z 1562 roku otwierają uroczyste formuły sesji sądów gajonych wójtowskich:</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;"><em>„Actum in Praetorio Civitatis Crasnicensis feria secunda post festum Sancti Adalberti, sub officio honesti Petri Pichoń advocati actualis...”</em></p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Urząd wójtowski sprawowany przez Piotra Pichonia cechował się ścisłym przestrzeganiem formularza prawa magdeburskiego:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;">Gajenie sądu następowało w obecności pełnego kompletu siedmiu ławników przysięgłych.</li>
+<li style="margin-bottom:0.35rem;">Sprawy dotyczyły przede wszystkim wieczystych rezygnacji ról (<em>resignatio perpetua</em>), delimitacji granic kwater mieszczańskich przy gościńcach lubelskim i sandomierskim oraz zatwierdzania transakcji kupna domostw przy Rynku.</li>
+</ul>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">2.2. Ochrona Praw Cechowych i Przywilejów</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wpisy z lat 1594 i 1601 rejestrują inserowanie do ksiąg miejskich dawniejszych wilkierzy rzemieślniczych, w tym nadań dla cechu kowalskiego i szewskiego. Pismo tej partii to staranna renesansowa bastarda humanistyczna, z szerokim marginesem przeznaczonym na noty regestowe (<em>adnotata marginalia</em>).</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 3. Kraśnik w Dobie Panowania Zygmunta III Wazy (1601–1628)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Okres pierwszych trzech dekad XVII stulecia to czas dynamicznego rozwoju urbanistycznego i utrwalania granic przedmieść: Piasków, Zarzecza, Budzynia i Podlesia.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">3.1. Stabilizacja Obrotu Gruntowego</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Akta rejestrują intensywny obrót nieruchomościami. Mieszczanie kraśniccy dokonywali licznych cesji i zastawów ról, ogrodów i sadzawek:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;">Zastawy na wyderkaf (<em>sub conditione redemptoria</em>) stanowiły najpopularniejszą formę kredytu podzastawnego.</li>
+<li style="margin-bottom:0.35rem;">W transakcjach regularnie uczestniczyli reprezentanci okolicznej szlachty osiadłej, nabywający place w Kraśniku w celu budowy dworów zajezdnych na czas jarmarków i zjazdów sądowych.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 4. Kancelaria Wójtowska i Radziecka Wczesnego Baroku (1628–1630)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Główny zrąb pierwszej połowy księgi (skany 26–194) stanowi zwarty rejestr czynności kancelaryjnych z lat 1628–1630. Prowadzony ręką doświadczonych pisarzy miejskich, przynosi bezcenny wgląd w funkcjonowanie procedury magdeburskiej.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">4.1. Typologia Czynności Prawnych</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Rejestr obejmuje szerokie spektrum spraw cywilnych, karnych i niespornych:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Ostatnie wole i testamenty (<em>Testamenta et ultimae voluntates</em>):</strong> spisywane w obecności kapłanów i urzędu, ze szczegółowym wyliczeniem legatów na kościół parafialny, ołtarze cechowe oraz ubogich w szpitalu miejskim.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Inwentarze pośmiertne (<em>Inventaria bonorum</em>):</strong> drobiazgowe spisy ruchomości, odzieży, pościeli, naczyń mosiężnych i cynowych, narzędzi rzemieślniczych oraz gotówki w skrzyniach.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Działy spadkowe między rodzeństwem (<em>Divisio bonorum paternorum et maternorum</em>):</strong> podziały domów, stodół, placów i ról z rygorystycznym wyznaczaniem spłat posagowych (<em>pro dote et astartu</em>).</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Procesy o zniewagi i pobicia (<em>Iniuriae et vulnera</em>):</strong> rejestracja obdukcji medyczno-sądowych ran kłutych, ciętych i sińców zadanych po pijaństwie w szynkach.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 5. Kultura Materialna, Rzemiosło i Życie Codzienne Przed Potopem</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Bogactwo wpisów z lat 1628–1630 pozwala na szczegółową rekonstrukcję kultury materialnej staropolskiego Kraśnika:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Cech kowalski i ślusarski:</strong> mistrzowie kowalscy (m.in. Pieniążek, Oleszek, Kowalik, Pyrek) zaopatrywali miasto i wsie ordynackie w lemiesze, siekiery, skoble do wrót, okucia wozów oraz zamki do skrzyń.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Odzież i tkaniny:</strong> inwentarze wymieniają sukna lubelskie, morawskie i błękitne sukno flandryjskie, kontusze z sukna szarego, żupany z kitajki, pasy jedwabne i pasy siatkowe ze srebrzystą nicią.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Sprzęty domowe i naczynia:</strong> miednice mosiężne, cynowe półmiski, kotły gorzałczane z alembikami do pędzenia wódki, pierzyny gęsie, kobierce i skrzynie okute żelazem.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 6. Społeczność Żydowska, Arendy i Sieć Kredytowa w I Połowie XVII Wieku</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Relacje chrześcijańsko-żydowskie w Jednostce 3 ukazują wysoki stopień integracji gospodarczej przy zachowaniu odrębności jurysdykcyjnej:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Arendy przemysłowe:</strong> słodownie miejskie, browary i szynki były regularnie dzierżawione przez kupców żydowskich (m.in. Mośka Jarosławskiego). Czynsze z tych arend stanowiły kluczowy dochód budżetu miejskiego, przeznaczany na naprawę mostów, grobli i obwarowań.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Kredyt handlowy:</strong> kupcy tacy jak Abraham Bytomski, Dawid czy Jezko udzielali pożyczek na zakup surowców garbarskich, skór wołowych i korzeni, a spłaty zabezpieczano wpisami do ksiąg wójtowskich z klauzulą natychmiastowego aresztu mienia dłużnika.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 7. Zabezpieczenie Archiwum Miejskiego i Skarbu Ratuszowego Przed Najazdem Szwedzkim (1655 r.)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Jesienią 1655 roku, gdy fala inwazji wojsk szwedzkich króla Karola X Gustawa zalała Koronę, magistrat kraśnicki stanął w obliczu śmiertelnego zagrożenia.</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">7.1. Heroiczna Decyzja Rady Miejskiej (Skany 195–196, fol. 95r–95v)</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Dnia 14 października 1655 r. burmistrz <strong style="color:#f8fafc;">Stanisław Nawrocki</strong> wraz z rajcami <strong style="color:#f8fafc;">Bartłomiejem Janaszkowicem</strong> i <strong style="color:#f8fafc;">Wojciechem Karwosicą</strong> podjęli bezprecedensowe kroki w celu ratowania fundamentów prawnych miasta:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Sporządzenie Inwentarza Archiwum Ratuszowego:</strong> w księdze spisano uroczysty inwentarz dokumentów pergaminowych przechowywanych dotąd w skrzyni żelaznej na Ratuszu:</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">   - Przywileje lokacyjne i potwierdzenia wolności miejskich od Władysława Jagiełły, Zygmunta I Starego, Zygmunta Augusta, Stefana Batorego po Jana Kazimierza.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">   - Statuty Tęczyńskich i ordynacje Zamoyskich.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">   - Prawa magdeburskie <em>Saxon</em>, kodeksy prawa chełmińskiego oraz Statuty Koronne Herborta.</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">   - Odrysowane mapy delimitacji ról miejskich z dobrami szlacheckimi.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Ewakuacja do Krypty Kościelnej:</strong> skrzynie z archiwaliami, pieczęciami miejskimi i srebrem cechowym zostały przeniesione pod osłoną nocy do murowanego kościoła parafialnego Wniebowzięcia NMP i zamurowane w krypcie grobowej pod prezbiterium. Dzięki tej przezorności archiwum Kraśnika przetrwało pożogę Potopu.</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 8. Okupacja Szwedzka: Autentyczny Uniwersał Króla Karola X Gustawa z Lublina (24 III 1656 r.)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wpis dokonany w Kraśniku w wigilię Zwiastowania NMP (24 marca 1656 r., skan 202, fol. 98r) stanowi absolutny unikat kodykologiczny w skali archiwów polskich. Jest to urzędowa kopia wojennego uniwersału furażowego wystawionego przez króla Szwecji <strong style="color:#f8fafc;">Karola X Gustawa</strong> w kwaterze głównej w Lublinie dnia <strong style="color:#f8fafc;">10 marca 1656 r.</strong></p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">8.1. Dosłowne Brzmienie Rozkazu Królewskiego</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Dokument nakładał na miasto Kraśnik oraz cały okręg drakońskie świadczenia pod rygorem bezwzględnej egzekucji wojskowej i spalenia:</p>
+<blockquote style="background:rgba(15,23,42,0.8); border-left:4px solid var(--gold-primary); padding:0.85rem 1.25rem; margin:1rem 0; font-style:italic; color:#cbd5e1;">*„Gdyż Król Jegomość Pan Mój Miłościwy ze czterech Regimentów albo Pułków woyska swego do Lublina wszedł dla którego wielkie potrzeba Prowiantu, tedy Miasto Kraśnik ze wsiemi przyległościami y possesorowie ich Duchownemi iako y Szlacheckiemi...”*</blockquote>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">8.2. Klucz Dóbr Kraśnickich – 14 Wsi Kontrybucyjnych</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Uniwersał króla szwedzkiego precyzyjnie wymienia z nazwy <strong style="color:#f8fafc;">14 miejscowości klucza kraśnickiego</strong>:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Blinów</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Sulów</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Stróża</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Stoczek</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Wyżnianka</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Budzyń</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Studzianki</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Dziewięć</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Zakrzówek</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Rzeczyca Wyższa</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Rzeczyca Niższa</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Wola Rzeczycka</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Branewka</strong></p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Wyżnica</strong></p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">8.3. Wymiar Zdzierstwa Wojennego</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wymagany w terminie 5 dni kontyngent żywnościowy dla garnizonu lubelskiego obejmował:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">100 korcy</strong> czystej mąki żytniej i pszennej,</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">100 beczek</strong> piwa i słodu browarnego,</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">150 korcy</strong> owsa dla koni kawaleryjskich,</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">100 sztuk</strong> tuczonych baranów i skopów,</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">30 cieląt</strong>, <strong style="color:#f8fafc;">50 fasek</strong> świeżego masła, <strong style="color:#f8fafc;">50 połci</strong> słoniny,</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">6 kop</strong> jaj, <strong style="color:#f8fafc;">100 kapłonów</strong> oraz <strong style="color:#f8fafc;">10 tuczonych gęsi</strong>.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 9. Wielka Ordynacja Akcyzowa Jana „Sobiepana” Zamoyskiego na Obronę Twierdzy Zamość (13 VI 1656 r.)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Gdy armia szwedzka pod wodzą Karola Gustawa podeszła pod mury niezdobytej Twierdzy Zamość, III Ordynat Zamojski <strong style="color:#f8fafc;">Jan Sobiepan Zamoyski</strong> (podczaszy koronny, starosta kałuski i rzeczycki) wydał w Zamościu dnia <strong style="color:#f8fafc;">13 czerwca 1656 r.</strong> epokowy uniwersał ustanawiający powszechny podatek akcyzowy (<em>ACCIZA ex victualibus</em>) na utrzymanie obwarowań i żołdu załogi twierdzy (skany 224–227, fol. 109r–111r).</p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">9.1. Uniwersał dla 7 Miast i 7 Nacji</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Dokument wniesiony uroczyście do akt kraśnickich 17 czerwca 1656 r. przez rządcę rezydencji <strong style="color:#f8fafc;">Wawrzyńca Witatka Szafrankowica Międzyrzeczanina</strong> skierowany był do władz i obywateli <strong style="color:#f8fafc;">7 miast Ordynacji</strong>:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;">Zamościa, Szczebrzeszyna, Tarnogrodu, Kraśnika, Tomaszowa, Janowa i Krasnobrodu.</li>
+</ul>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Zawiera on bezcenne poświadczenie wieloetnicznej i tolerancyjnej struktury Ordynacji Zamojskiej, wzywając do płacenia akcyzy współobywateli <strong style="color:#f8fafc;">7 nacji</strong>:</p>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;"><em>„...Nacyey Polskiej, Niemieckiej, Szkockiej, Ormiańskiej, Ruskiej, Greckiej, Żydowskiej...”</em></p>
+<h3 style="color:var(--gold-primary); font-size:1.2rem; margin:1.25rem 0 0.5rem;">9.2. Taryfa Cen i Stawek Akcyzowych</h3>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Ordynacja precyzowała maksymalne ceny szynkowe i stawki podatku:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Piwo kraśnickie (beczka 60 garncy):</strong> akcyza 10 gr, cena szynkowa 4 gr za garniec.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Wino węgierskie:</strong> akcyza 5 zł od beczki, kwarta po 20 gr.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Miód sycony:</strong> akcyza 15 gr od garnca.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Gorzałka prosta i przepalana:</strong> akcyza od 0,5 do 1 gr od kwarty.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Rzeź bydła:</strong> wół wołoski – 3 zł akcyzy, wół prosty – 1 zł 15 gr, krowa – 1 zł, wieprz – 1 zł, cielę – 10 gr, baran – 4 gr.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Towary kupieckie i korzenne:</strong> sukno (2 gr od każdego złotego wartości), beczka śledzi – 2 zł, aptekarze i korzennicy – 2 gr od każdego złotego utargu pod przysięgą urzędową (<em>sub juramento</em>).</li>
+</ul>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Podpis: <em>Jan Zamoyski Podczaszy Koronny mpp</em> wraz z wyciśniętą pieczęcią herbową Jelita (<em>Locus sigilli</em>).</p>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 10. Kryzys Samorządu, Przemarsze Wojsk i Panika Wojenna na Lubelszczyźnie</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Wojna totalna wywołała ogromne napięcia społeczne wewnątrz kraśnickiego magistratu:</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Bunt Ławników przeciw Wójtowi (skan 204):</strong> Ławnicy <strong style="color:#f8fafc;">Szymon Dzieba</strong> i <strong style="color:#f8fafc;">Augustyn Kwasowic</strong> wystąpili przeciw wójtowi <strong style="color:#f8fafc;">Albertowi Szafrankowicowi</strong>, zarzucając mu bezprawne uwięzienie mieszczanina w wieży ratuszowej i nadużycia finansowe przy rozdziale kontrybucji.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Panika przed Najazdem Kozacko-Moskiewskim (skan 220):</strong> Zeznania Abrahama Bytomskiego i Jana Orła odsłaniają chaos, jaki wywołało podejście wojsk moskiewskich i kozackich pod Lublin na przełomie 1655/1656 r. (<em>„podczas insurrekciey Moskowskiej kiedy do Lublina przypompowali”</em>).</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Przemarsze Chorągwi Koronnych i Litewskich:</strong> Akta rejestrują kwaterunki oddziałów rotmistrzów Stanisława Drużkiewicza i Zaliwskiego, litewskich dragonów oficera Ciecierskiego oraz żądania bezpłatnego chleba i wozów podwodowych.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 11. Demografia Historyczna, Prozopografia i Elity Miejskie Kraśnika (927 Unikalnych Postaci)</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Kompletna baza prozopograficzna Jednostki 03 liczy <strong style="color:#f8fafc;">927 unikalnych osób</strong> powiązanych z <strong style="color:#f8fafc;">1 352 wzmiankami źródłowymi</strong> (zasada: 1 fizyczna osoba = 1 rekord, 0 duplikatów tożsamości):</p>
+<ul style="margin:0.5rem 0 1rem 1.5rem; color:#cbd5e1; line-height:1.7;">
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Dynastie Patrycjuszowskie:</strong> Szafrankowicowie (Albert, Wawrzyniec Witatek), Nawroccy (Stanisław, Jan), Janaszkowicowie (Bartłomiej), Barbowie (Marcin), Karwosicowie (Wojciech), Kwasowicowie (Augustyn), Foxowie (Grzegorz), Dziebowie (Szymon).</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Elita Wojskowa i Urzędnicza Rzeczypospolitej:</strong> król Karol X Gustaw, Jan Sobiepan Zamoyski, marszałek koronny Jerzy Sebastian Lubomirski, rotmistrz Drużkiewicz, starosta Ubald Saag.</li>
+<li style="margin-bottom:0.35rem;"><strong style="color:#f8fafc;">Rzemieślnicy i Pospólstwo:</strong> mistrzowie kowalscy, szewscy, garncarscy, krawieccy oraz przedmieszczanie z Zarzecza i Budzynia.</li>
+</ul>
+<hr style="border:none; border-top:1px solid rgba(217,119,6,0.3); margin:2rem 0;">
+<h2 style="font-family:'Cinzel', serif; color:#f1f5f9; font-size:1.5rem; margin:1.75rem 0 0.75rem; border-left:4px solid var(--gold-primary); padding-left:0.75rem;">Rozdział 12. Wnioski Źródłoznawcze, Recepcja Prawa Magdeburskiego i XIX-Wieczna Makulatura Sądu Pokoju z 1820 r.</h2>
+<p style="margin-bottom:1rem; line-height:1.75; color:#cbd5e1; text-align:justify;">Badania nad Jednostką 3 pozwalają na sformułowanie kluczowych uogólnień naukowych:</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Niezłomność Instytucji Miejskich:</strong> Nawet w warunkach okupacji militarnej, obcych garnizonów i zniszczeń wojennych kraśnicki sąd wójtowsko-radziecki nie zaprzestał działalności, skrupulatnie wpisując każdy uniwersał, szacunek szkód i wyrok do księgi.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Koleje Losów Księgi (Karty 230–232):</strong> Zakończenie woluminu tworzą wszyte karty aktowe Sądu Pokoju Powiatu Kraśnickiego z 1820 r. w sprawie poborowej rekruta-jedynaka z pieczęcią skarbową „DZIESIĘĆ GROSZY”. Świadczy to o przeprowadzeniu gruntownej konserwacji i ponownego oprawienia staropolskiego kodeksu w epoce konstytucyjnego Królestwa Polskiego.</p>
+<p style="margin-left:1.5rem; margin-bottom:0.5rem; color:#cbd5e1;"><strong>•</strong> <strong style="color:#f8fafc;">Pomnik Dziejów Narodowych:</strong> Jednostka 3 to pomnikowe źródło do poznania obrony suwerenności Rzeczypospolitej w dobie Potopu Szwedzkiego, ukazujące Kraśnik jako kluczowy punkt oporu i logistyki Ordynacji Zamojskiej.</p>
+</div>
     </section>
 
     <!-- TAB 4: ANALYTICS -->
     <section id="analytics-tab" class="tab-content">
-      <div class="analytics-content">
-        ') + 20
-pos_a_end = old_code.find('
+      <div class="analytics-container" style="max-width:1100px; margin:0 auto; padding:1.5rem 0;">
+  <div style="margin-bottom:2rem; text-align:center;">
+    <h2 style="font-family:'Cinzel', serif; font-size:1.8rem; color:var(--gold-primary); margin-bottom:0.5rem;">Kluczowe Odkrycia Źródłowe i Przełomy Badawcze Jednostki 03</h2>
+    <p style="color:var(--text-muted); max-width:800px; margin:0 auto;">
+      Autopsja paleograficzna i analiza kodykologiczna 232 skanów Księgi Radzieckiej i Wójtowskiej (sygn. 35/40/0/1/3, 1562–1690). Opracowano 24 Karty Analityczne (w tym uniwersał Karola X Gustawa, akcyza Jana Sobiepana Zamoyskiego na Twierdzę Zamość, ewakuacja archiwum ratusza 1655 r.).
+    </p>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(480px, 1fr)); gap:1.5rem;">
+    <!-- KARTA 1 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 1 • Kodykologia • Sądy Renesansowe</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #6 (fol. 1r)</span>
       </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Protocolla Bannita: Gajenie Sądu Wójta Piotra Pichonia</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Najstarsza zachowana partia kodeksu otwiera się łacińskim formularzem sądów gajonych (<em>iudicium bannitum</em>) pod jurysdykcją wójta Piotra Pichonia i siedmiu ławników przysięgłych. Zapis dotyczy wieczystej rezygnacji roli i domostwa podmiejskiego przez spadkobierców Kaspra na rzecz Jakuba Ogorzałego. Pismo to renesansowa bastarda z cechami kaligrafii kancelaryjnej epoki Zygmunta Augusta.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Actum in Praetorio Civitatis Crasnicensis feria secunda post festum Sancti Adalberti, sub officio honesti Petri Pichoń advocati actualis..."
+      </div>
+    </div>
+    <!-- KARTA 2 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 2 • Topografia • Przedmieścia</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #11 (fol. 3r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Ogrody Pyszandowskie: Struktura Przestrzenna Przedmieść</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Rejestracja transakcji zbycia domostwa i ogrodów zwanych <em>Pyszandowskie</em> przez Barbarę Sobieską. Zapis ukazuje kraśnickie przedmieścia jako strefę intensywnej gospodarki ogrodniczej i rolniczej powiązanej z gościńcem lubelskim. Wpis ilustruje obrót majątkowy kobiet mieszczańskich oraz wymóg zgody krewnych przy rezygnacji dóbr macierzystych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Venditio cum Resignatione Domus et Horti Dicti Pyszandowskie per Barbaram Ssobiesfska..."
+      </div>
+    </div>
+    <!-- KARTA 3 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 3 • Dyplomatyka • Prawo Miejskie</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #21 (fol. 8r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Formularz Magdeburski i Pisarz Przysięgły Notarius Juratus</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Wpis na przełomie XVI i XVII stulecia utrwalający inserat wcześniejszych przywilejów cechowych. Kodeks wykazuje pełną recepcję procedury <em>ius municipale magdeburgense</em>: zeznania stron wpisywane są przez pisarza miejskiego (<em>notarius civitatis juratus</em>), a autentyczność pieczętowana sygnetem wójtowskim. Pismo przechodzi stopniowo z renesansowej bastardy w manierystyczną kursywę.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Coram officio et actis praesentibus advocatialibus Crasnensibus personaliter veniens honestus..."
+      </div>
+    </div>
+    <!-- KARTA 4 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 4 • Agraria • Spory Graniczne</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #35 (fol. 14v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Delimitacja Gruntów Zarzecznych i Wizje Lokalne Urzędu</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Gwałtowny spór sąsiedzki o zaoranie miedzy i bezprawny wyrąb olszyny na gruntach zarzecznych rzeki Wyżnicy. Urząd wójtowski zarządził przeprowadzenie wizji lokalnej z udziałem dwóch bezstronnych ławników (<em>inquisitores</em>). Protokół skrupulatnie wymienia znaki graniczne: kopce narożne, ciosy na wierzbach i stare miedze usypane jeszcze za kasztelana Tęczyńskiego.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Terminus limitum et scopicorum inter agros civitatis et subditorum Zarzecze dictorum..."
+      </div>
+    </div>
+    <!-- KARTA 5 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 5 • Kredyt • Obyczajowość</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #51 (fol. 22v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Zabezpieczenie Kapitałów i Krewka Awantura w Domu Jurczyka</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Dwuaspektowy wpis łączący obrót finansowy z kroniką kryminalną. W części pierwszej mieszczanin Jaskółka lokuje sumę dłużną na gruncie Hipolitowicza pod rygorem intromisji. W części drugiej zaprotokołowano skargę na pobicie i zranienie Czyżanki przez Jagusza w trakcie biesiady w domu Jurczyka, z nałożeniem na winnego rygorystycznej nawiązki (<em>vadium</em>).
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Vadium iudiciale ratione vulnerum et contusionis inter personas civitatis Crasnensis..."
+      </div>
+    </div>
+    <!-- KARTA 6 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 6 • Cechy • Rzemiosło Żelazne</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #62 (fol. 28r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Wilkierz Kowali i Ślusarzy: Reglamentacja Cen i Jakości</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Wpis uchwały cechowej regulującej warsztat kowalski, kotlarski i ślusarski w Kraśniku. Cech ustala sztywne taryfy za podkucie koni, okucie wozów oraz wyrób żelaznych lemieszy, przeciwdziałając drożyźnie surowca dostarczanego z kuźnic ordynackich. Równocześnie nałożono surowe kary na partaczy wykonujących rzemiosło poza jurysdykcją cechową.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Concordia et ordo contubernii fabrorum ferrariorum civitatis Crasnicensis..."
+      </div>
+    </div>
+    <!-- KARTA 7 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 7 • Kultura Materialna • Testamenty</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #70 (fol. 32r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Inwentarz Pośmiertny i Wyposażenie Staropolskiego Domostwa</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Szczegółowy inwentarz ruchomości spisany po zgonie zamożnego mieszczanina kraśnickiego przez delegację ławniczą. Wśród dóbr ujęto: cynowe misy i talerze (waga 2 kamienie), błam wilczy, żupan sukna lądeckiego z guzami srebrnymi, rusznicę z zamkiem kołowym, dwa konie maści gniadej oraz 15 korców żyta w spichlerzu nad stawem.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Inventarium bonorum post fata pie defuncti civis per scabinos fideliter confectum..."
+      </div>
+    </div>
+    <!-- KARTA 8 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 8 • Gospodarka Browarna • Produkcja Piwa</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #76 (fol. 35r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Spór o Zepsucie Warki Piwa i Ekspertyza Rajcy Foxa</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Proces mieszczki Włastki przeciw Płaykowiczowej o zepsucie i wyciek warki piwa ze stągwi browarnianej. W roli biegłego występuje wybitny rajca Jan Fox, który drobiazgowo opisuje procedurę zacierania, proporcje słodu jęczmiennego oraz defekt czopa. Akt stanowi unikalne źródło do dziejów browarnictwa miejskiego, technologii fermentacji i strat finansowych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Disceptatio iudiciaria ratione braxaturae cerevisiae corruptae et damni pecuniarii..."
+      </div>
+    </div>
+    <!-- KARTA 9 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 9 • Mentalność • Sprawy o Czary</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #88 (fol. 41r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Posądzenie o Czary i Przysięga Oczyszczająca Mieszczki</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Wpis rzucający bezcenne światło na wierzenia i napięcia społeczne epoki Zygmunta III Wazy. Mieszka oskarżona przez zawistnych sąsiadów o rzucenie uroku na mleko i chorobę bydła staje przed urzędem radzieckim. Sąd, odrzucając tortury z braku dowodu rzeczowego (<em>corpus delicti</em>), nakazuje oskarżonej złożenie uroczystej przysięgi oczyszczającej z dwiema współprzysiężnicami (<em>compurgatrices</em>).
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Purgatio iurata super diffamatione artis magicae et fascinationis..."
+      </div>
+    </div>
+    <!-- KARTA 10 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 10 • Stosunki Polsko-Żydowskie • Prawo</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #101 (fol. 47v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Juramentum More Iudaico: Przysięga Żyda Dawida w Synagodze</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Sprawa aresztu sądowego na sumę 100 florenów zdeponowaną u chrześcijańskiego kupca. Pozwany Żyd Dawid składa uroczystą przysięgę na Torę w synagodze kraśnickiej (<em>iuramentum more Iudaico</em>) w obecności delegowanego woźnego miejskiego i przedstawicieli kahału. Zapis potwierdza sprawne funkcjonowanie wielowyznaniowego wymiaru sprawiedliwości w mieście prywatnym Zamoyskich.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Iuramentum corporale in schola Iudaeorum per Davidem Iudaeum praestitum coram ministerio civitatis..."
+      </div>
+    </div>
+    <!-- KARTA 11 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 11 • Patologie Władzy • Dyscyplina</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #126 (fol. 60r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Proces o Zniewagę Urzędu Rajcy Foxa i Wyrok Wieży Ratuszowej</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Głośna sprawa o naruszenie powagi urzędu miejskiego. Mieszczanin Miłek publicznie znieważył urzędującego rajcę Jana Foxa słowami obelżywymi. Sąd wójtowsko-ławniczy, uznając prymat instytucji nad prywatnymi urazami, skazał Miłka na siedzenie w dolnej wieży ratuszowej (<em>carcer</em>) przez 3 dni o chlebie i wodzie oraz wpłatę grzywny wosku na ołtarz bractwa literackiego.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Decretum contra contumacem iniuriatorem domini consulis: poena carceris et cerae..."
+      </div>
+    </div>
+    <!-- KARTA 12 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 12 • Cech Szewski • Przemoc</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #151 (fol. 73v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Krwawy Spór Braci Butów i Kij Rzucony w Jatce Szewskiej</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Zeznania świadka Stanisława Dziada w sprawie gwałtu domowego w dzielnicy rzemieślniczej. Świadek opisuje awanturę podczas działu skór juchtowych, w trakcie której czeladnik Szafranek rzucił sękatym drągiem w mistrza. Równoległy proces braci Jana i Stanisława Butów o miedzę jatki szewskiej w jatkach rynkowych odsłania ciasnotę parcelacyjną renesansowego rynku.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Testimonium super ictu fustis et invasione violenta inter fratres opifices..."
+      </div>
+    </div>
+    <!-- KARTA 13 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 13 • Sztuka • Kobiety Przedsiębiorcze</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #176 (fol. 85v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Walentowa Malarka: Handel Suknem, Jedwabiem i Mecenat</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Nadzwyczajny wpis ukazujący kobietę prowadzącą samodzielną działalność handlową i powiązaną ze środowiskiem artystycznym. Walentowa Malarka (wdowa po malarzu cechowym) dochodzi sądownie spłaty długu za sprowadzany jedwab i luksusowe sukno. Świadczy to o istnieniu w Kraśniku popytu na wyroby artystyczne dla miejscowych kościołów i rezydencji magnackiej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Actio honestae Valentinae pictricis pro debitis serici et pannorum exoticorum..."
+      </div>
+    </div>
+    <!-- KARTA 14 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 14 • Potop Szwedzki • Archiwistyka</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #195 (fol. 95r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Godzina Próby: Rejestr Skarbu i Dokumentów Przed Najazdem</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Kluczowy dokument całego kodeksu. W październiku 1655 r., gdy wojska szwedzkie gen. Douglasa i Karola Gustawa zbliżały się do Lublina, trzej urzędujący radni kraśniccy (Janaszkowic, Karwosica, Nawrocki) otworzyli skarbiec ratuszowy i sporządzili inwentarz najcenniejszych przywilejów królewskich na pergaminie, pieczęci miejskiej oraz sreber cechowych.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Conscriptio privilegiorum, iurium et clenodiorum civitatis tempore immanis invasionis Sueticae..."
+      </div>
+    </div>
+    <!-- KARTA 15 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 15 • Potop Szwedzki • Kościół NMP</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #196 (fol. 95v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Zamurowanie Skrzyń Archiwum w Krypcie Kościoła Parafialnego</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Unikalne lauda miejskie postanawiające o ewakuacji dokumentacji miejskiej z drewnianego ratusza do murowanego kościoła Nawiedzenia NMP. Skrzynie okute żelazem (<em>scrinia archivi</em>) zostały złożone w podziemiach świątyni pod pieczą proboszcza i zamurowane w krypcie. Dzięki tej heroicznej akcji rajców przywileje Kraśnika przetrwały hekatombę wojenną.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Depositio cistarum cum actis et privilegiis in ecclesia parochiali B.V. Mariae pro securitate publica..."
+      </div>
+    </div>
+    <!-- KARTA 16 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 16 • Wojna • Zubożenie Miasta</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #198 (fol. 96v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Upadek Handlu, Przerwanie Spławu Wiślanego i Uchodźcy</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Świadectwo całkowitego załamania gospodarki miejskiej po zablokowaniu żeglugi na Wiśle przez załogi szwedzkie w Kazimierzu i Solcu. Rada miejska odnotowuje brak kupców na jarmarkach św. Michała, opustoszenie jatek rzeźniczych i napływ rzesz uchodźców z popalonych wiosek ziemi lubelskiej i sandomierskiej.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Lamentabilis status civitatis ob clausuram navigationis Vistulae et desertionem mercatorum..."
+      </div>
+    </div>
+    <!-- KARTA 17 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 17 • Karol X Gustaw • Dyplomatyka Królewska</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #202 (fol. 98r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Oblata Wojennego Uniwersału Króla Karola Gustawa z Lublina</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Absolutny unikat historyczny: urzędowy wpis (oblata) oryginalnego uniwersału wojennego wystawionego przez króla szwedzkiego Karola X Gustawa w kwaterze głównej w Lublinie dnia 10 marca 1656 r. Król nakazuje wszystkim mieszkańcom bezwzględną uległość, zakazuje oporu pod groźbą pożogi i miecza oraz nakłada obowiązek natychmiastowego dostarczenia podwód i żywności.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Carolus Gustavus Dei Gratia Rex Suecorum, Gothorum Vandalorumque... Datum in castris nostris prope Lublin..."
+      </div>
+    </div>
+    <!-- KARTA 18 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 18 • Klucz Kraśnicki • Straty Wojenne</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #202 (fol. 98r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Lista 14 Wsi Klucza Kraśnickiego Obłożonych Furażem</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Tekst uniwersału szwedzkiego zawiera kompletną listę 14 osad klucza kraśnickiego obciążonych furażem dla armii najeźdźcy: Blinów, Sulów, Stróża, Stoczek, Wyżnianka, Budzyń, Studzianki, Dziewięć, Zakrzówek, Rzeczyca Wyższa, Rzeczyca Niższa, Wola Rzeczycka, Branewka, Wyżnica. Każda wieś miała odstawić wyznaczoną liczbę ćwiertni owsa i wołów.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Nomina villarum ad clavim Crasnensem pertinentium: Blynaw, Sulow, Stroza, Zakrzowek, Rzeczyca..."
+      </div>
+    </div>
+    <!-- KARTA 19 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 19 • Rajtaria • Rabunki Wojenne</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #205 (fol. 99v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Najazd Rajtarii Szwedzkiej i Grabież Trzód na Przedmieściach</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Dramatyczne zeznania podprzysiężonych wójtowskich o grabieży dokonanej przez podjazd rajtarii szwedzkiej pod dowództwem rotmistrza Ericha. Żołnierze uprowadzili stada bydła z pastwisk miejskich na Budzyniu, zabrali zapasy mąki ze starych młynów na Wyżnicy i spalili spichlerz miejski przy gościńcu urzędowskim.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Incursio equitum Sueticorum et direptio pecorum in suburbio Budzyń..."
+      </div>
+    </div>
+    <!-- KARTA 20 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 20 • Samorząd • Sukcesja Władzy</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #211 (fol. 102v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Translatio Proconsulatus: Przekazanie Insygniów w Wojennej Pożodze</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Oficjalny protokół translacji urzędu burmistrza (<em>translatio officii proconsularis</em>). Ustępujący burmistrz Stanisław Nawrocki składa insygnia na ręce nowo obranego Marcina Karwosicy. Rejestr przekazywanego mienia obejmuje: wielką pieczęć miejską na mosiężnym tłoku, klucze do bramy lubelskiej i sandomierskiej oraz całkowicie pustą skrzynię wójtowską z powodu kontrybucji.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Translatio officii proconsularis inter honestos Stanislaum Nawrocki et Martinum Karwosica..."
+      </div>
+    </div>
+    <!-- KARTA 21 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 21 • Inwazja Wschodnia • Panika Wojenna</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #220 (fol. 107r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Popłoch przed Wojskami Moskiewsko-Kozackimi i Koń Żyda Bytomskiego</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Niezwykły zapis ilustrujący grozę wojennej zawieruchy. Żyd Abraham Bytomski pozywa Jana Orła o konia, którego w panice po podejściu wojsk moskiewsko-kozackich pod Lublin oddano porucznikowi chorągwi koronnej na stację wojenną. Sprawa ujawnia powszechny paraliż komunikacyjny i rekwizycje koni dokonywane przez wszystkie przewalające się formacje.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Querela Abrahami Bytomski Iudaei contra Ioannem Orzeł pro equo tempore panici belli..."
+      </div>
+    </div>
+    <!-- KARTA 22 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 22 • Ordynacja Zamojska • Forteca Zamość</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #224 (fol. 109r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Wielka Ordynacja Akcyzowa Ordynata Jana Sobiepana Zamoyskiego</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Pomnik prawa ordynackiego: uniwersał ordynata Jana Sobiepana Zamoyskiego wydany w Twierdzy Zamość 13 czerwca 1656 r. Ordynat nakłada podatek akcyzowy na wszystkie trunki, mięso i zboże w miastach i wsiach ordynacji, celem utrzymania zaciężnej załogi twierdzy zamojskiej, która jako jedyna na Lubelszczyźnie nie uległa szwedzkiemu najeźdźcy.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Universale Illustrissimi Ioannis in Zamoscie Zamoyski Palatini Sandomiriensis pro accisa fortalitii..."
+      </div>
+    </div>
+    <!-- KARTA 23 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 23 • Podatek na 7 Nacji • Autograf Magnata</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #227 (fol. 111r)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Akcyza Siedmiu Nacji i Własnoręczny Podpis Jana Zamoyskiego</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Klauzula końcowa uniwersału ordynackiego definiująca bezwzględny powszechny obowiązek podatkowy: akcyzie podlegają bez wyjątku Polacy, Rusini, Żydzi, Ormianie, Grecy, Niemcy i Szkoci. Karta zawiera formułę publikacji przed ratuszem w Kraśniku, opis pieczęci herbowej Jelita oraz faksymile własnoręcznego podpisu ordynata Jana Sobiepana Zamoyskiego.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Septem nationes: Poloni, Rutheni, Iudaei, Armeni, Graeci, Germani et Scoti ad solutionem obligantur..."
+      </div>
+    </div>
+    <!-- KARTA 24 -->
+    <div style="background:var(--card-bg); border:1px solid var(--gold-border); border-radius:10px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--gold-primary); font-weight:700;">Karta Analityczna 24 • Kodykologia • Epilog Królestwa Polskiego</span>
+        <span class="badge" style="background:rgba(217,119,6,0.2); color:#fbbf24; border:1px solid rgba(217,119,6,0.4);">Skan #230 (fol. 112v)</span>
+      </div>
+      <h4 style="color:#f8fafc; font-size:1.15rem; margin-bottom:0.75rem;">Makulatura Sądu Pokoju 1820 r. i Metryczka Archiwalna 1959 r.</h4>
+      <p style="color:#cbd5e1; font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+        Zwieńczenie kodykologiczne kodeksu. Na skanach 230–231 wszyto XIX-wieczny formularz sądowy Sądu Pokoju Powiatu Kraśnickiego z czytelnym tłokiem stemplowym DZIESIĘĆ GROSZY, służący jako makulatura wzmacniająca zniszczony grzbiet oprawy. Kodeks zamyka metryczka mikrofilmu WAP Lublin z 1959 r. (nr mikrofilmu 110394), potwierdzająca ciągłość ochrony tego arcydzieła.
+      </p>
+      <div style="background:rgba(15,23,42,0.8); border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; font-family:'JetBrains Mono', monospace; font-size:0.82rem; color:#f1f5f9;">
+        "Formularz Sądowy Królestwa Polskiego 1820 r. • Metryczka Wojewódzkiego Archiwum Państwowego w Lublinie..."
+      </div>
+    </div>
+  </div>
+</div>
     </section>
 
   </main>
