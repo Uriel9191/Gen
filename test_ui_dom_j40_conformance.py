@@ -162,9 +162,9 @@ def test_unit(unit_id, html_path, csv_path):
     # ---------------------------------------------------------
     # TEST 6: Spójność Monografii i Dynamicznych Liczników
     # ---------------------------------------------------------
-    print("[TEST 6/7] Weryfikacja spójności Monografii, Kart Analitycznych i liczników...")
-    assert 'class="monograph-container"' in html or 'id="monograph-tab"' in html, "FAIL: Brak sekcji monografii!"
-    assert 'id="analytics-tab"' in html or 'analytics-container' in html, "FAIL: Brak sekcji odkryć źródłowych!"
+    print("[TEST 6/14] Weryfikacja spójności Monografii, Kart Analitycznych i liczników...")
+    assert re.search(r'<section\s+id="monograph-tab"', html), f"FAIL: W pliku {html_path} brak prawidłowego znacznika <section id=\"monograph-tab\">!"
+    assert re.search(r'<section\s+id="analytics-tab"', html), f"FAIL: W pliku {html_path} brak prawidłowego znacznika <section id=\"analytics-tab\">!"
     
     # Sprawdzenie czy w kodzie nie ma zdezaktualizowanych statycznych liczb
     assert f">{len(gen_data)}<" in html or f"{len(gen_data):,}".replace(',', ' ') in html or \
@@ -258,7 +258,7 @@ def test_unit(unit_id, html_path, csv_path):
     # ---------------------------------------------------------
     # TEST 13: Weryfikacja Symetrycznej Paginacji (Top + Bottom) w Obu Tabelach
     # ---------------------------------------------------------
-    print("[TEST 13/13] Weryfikacja symetrycznej paginacji (Top + Bottom) w Rejestrze i Słowniku...")
+    print("[TEST 13/14] Weryfikacja symetrycznej paginacji (Top + Bottom) w Rejestrze i Słowniku...")
     required_pag_ids = [
         'mainPrevBtn', 'mainNextBtn', 'mainJumpInput',
         'mainPrevBtnBot', 'mainNextBtnBot', 'mainJumpInputBot',
@@ -269,10 +269,30 @@ def test_unit(unit_id, html_path, csv_path):
     assert not missing_ids, f"FAIL: W pliku {html_path} brakuje kontrolek paginacji symetrycznej: {missing_ids}!"
     print(f"  -> PASS: Obie tabele posiadają pełną, symetryczną paginację na górze i na dole ({len(required_pag_ids)} kontrolek).")
 
-    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 13/13 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
+    # ---------------------------------------------------------
+    # TEST 14: Rygor Integralności i Bilansu Sekcji Zakładek (<section>)
+    # ---------------------------------------------------------
+    print("[TEST 14/14] Weryfikacja integralności strukturalnej sekcji <section class=\"tab-content\">...")
+    open_sections = len(re.findall(r'<section\b', html))
+    close_sections = len(re.findall(r'</section>', html))
+    assert open_sections == 4, f"FAIL: W pliku {html_path} liczba otwartych <section> wynosi {open_sections} zamiast dokładnie 4!"
+    assert close_sections == 4, f"FAIL: W pliku {html_path} liczba zamkniętych </section> wynosi {close_sections} zamiast dokładnie 4!"
+    
+    canonical_tabs = ['main-tab', 'genealogy-tab', 'monograph-tab', 'analytics-tab']
+    for t in canonical_tabs:
+        assert re.search(rf'<section\s+id=[\"\']{t}[\"\']\s+class=[\"\']tab-content(?:\s+active)?[\"\']>', html), \
+            f"FAIL: W pliku {html_path} brakuje poprawnego znacznika <section id=\"{t}\" class=\"tab-content\">!"
+            
+    # Weryfikacja braku wiszących atrybutów bez tagu otwierającego
+    for line_idx, line in enumerate(html.split('\n')):
+        assert not re.match(r'^\s*(?:id|class)=', line), \
+            f"FAIL: W pliku {html_path} na linii {line_idx+1} znaleziono wiszący atrybut bez znacznika HTML: {line.strip()}"
+    print(f"  -> PASS: Wszystkie 4 sekcje zakładek są idealnie zbalansowane (4:4) i poprawnie zdefiniowane.")
+
+    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 14/14 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
 
 def main():
-    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (13 TESTÓW WERYFIKACYJNYCH)...")
+    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (14 TESTÓW WERYFIKACYJNYCH)...")
     
     units = [
         ('j40', '/home/ubuntu/workspace/Gen/krasnik_j40_kompendium_calosc.html', '/home/ubuntu/workspace/Gen/krasnik_j40_slownik_genealogiczny.csv'),
