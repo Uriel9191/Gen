@@ -15,716 +15,746 @@
 14;Bargielówna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Helena Bargielówna, panna, żona Jana Piaszka, córka Bargiela mieszczanina
 15;Bargieł;Wojciech;Kraśnik;Ławnik;#75;1599;1;
 16;Barszczowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Katarzyna Barszczowa, siostra Wojciecha i zmarłego Tomasza Kiików, spór o wykup ćwierci roli
-17;Bartnik;Sebastian;Kraśnik;Szewc;#92;1599;1;
-18;Bartolan;Stanisław;Bydgoszcz;Mieszkaniec / Posesjonat;#15;1595;1;
-19;Bartos;Jan;Kraśnik;Ławnik;#17, #29, #62;1595–1597;3;
-20;Bartos;Katarzyna;Kraśnik;Mieszczanka;#12;1595;1;Bartosówna, Bartosowna
-21;Bartos;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
-22;Bartos;Wojciech;Kraśnik;Ławnik;#70;1598;1;
-23;Bartosowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
-24;Bartosz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Adam Bartosz, wierzyciel Pawła Zastawnika na 10 florenów długu
-25;Bartosz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Stanisław Bartosz, brat Adama Bartosza, poręczyciel
-26;Bartosz;Valenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
-27;Bartosz;Walenty syn Jana;Kraśnik;Młodzieniec / Sukcesor;#116, #117, #118;1600;3;Walenty Bartosz syn Jana, Walenty Bartoszewic
-28;Bartosz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
-29;Bartoszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
-30;Bartoszowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Małgorzata Bartoszowa, wdowa po Janie Bartoszu, walka o retrakt roli
-31;Bartoszyk;Andrzej;Kraśnik;Żołnierz / Mieszkaniec;#78;1598;1;Andrzej Bartoszyk żołnierz
-32;Bartoszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
-33;Bartoszyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Maciej Bartoszyk dictus Zamieszała, Matys Zamieszała, zabójca Elżbiety Chabajowej
-34;Bartoszyk dictus zamieszała;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
-35;Barty;Albert;Kraśnik;Urzędnik / Rajca miejski 1589;#135;1589;1;Albert Barty consul Krasnensis, Wojciech Barty, Albert Barty consul kraśnicki 1589, świadek długu żydowskiego
-36;Barty;Wojciech;Kraśnik;Ławnik;#135;1589;1;
-37;Barzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
-38;Barzoł;Wojciech;Kraśnik;Ławnik;#155;1597;1;
-39;Bastrzykowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
-40;Bednarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Andreas Doliator, bednarz
-41;Bednarz;Szymon;Kraśnik;Bednarz;#87;1599;1;
-42;Białobrzeski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#137;1597;1;
-43;Białynia;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Ioannes Białynia tenutarius, dzierżawca kraśnicki
-44;Białyński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26, #52;1595–1598;2;tenutarius bonorum Krasnensium, dzierżawca kraśnicki, sędzia apelacyjny wyższy prawa magdeburskiego, wystawca glejtu, salvum conductum
-45;Biel;Maciej;Kraśnik;Mieszkaniec;#86;1599;1;Maciej Biel, Maciej Bila
-46;Biel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;Stanisław Biel, Stanisław Bila
-47;Bieniek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-48;Bilia;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
-49;Bilia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
-50;Borowczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
-51;Borowski;Marcin;Kraśnik;Ławnik;#22, #34, #141;1595–1598;3;
-52;Borzecki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
-53;Brodela;Matys Mazur;Kraśnik;Mieszkaniec / Furman;#67;1597;1;Matys Mazur Brodela, Brodela Mazur
-54;Bryzek;Jakub;Rzeczyca;Mieszkaniec wsi Rzeczyca;#86;1599;1;Jakub Bryzek z Rzeczycy, Jakub Bryzek krawiec z Rzeczycy, sprawca pobicia młynarza z Niedrzwicy
-55;Bryzik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Jan Bryzik, sprawca pobicia czeladnika tokarskiego
-56;Brzycki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-57;Buchta;Felicjan;Kraśnik;Rzemieślnik / Czeladnik rzeźnicki;#126;1594;1;Felicjan Buchta czeladnik rzeźnicki, Felicjan Buchta czeladnik rzeźnicki, bójka w kamienicy Sapały
-58;Buda;Wojciech;Kraśnik;Mieszkaniec / Świadek;#126;1594;1;Wojciech Buda, krewny rzeźnika Matysa Budy, krewny rzeźnika Matysa Budy, świadek w browarze
-59;Burmistrz;Jerzy;Kraśnik;Burmistrz;#19;1595;1;Georgius Proconsul, proconsul Krasnensis
-60;Buta;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Butha, rzeźnik kraśnicki
-61;Buta;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
-62;Butha;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
-63;Bzdręga;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
-64;Cantorek;Adam;Kraśnik;Kowal;#122;1600;1;
-65;Cantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#47;1597;1;Agnieszka Cantorkowa, wdowa po kantorze miejskim, poszkodowana przez żaków szkolnych
-66;Chabajowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#21, #26;1595;2;Elżbieta Pająkowa, żona Jakuba Pająka, Pichowa, ofiara śmiertelnego pobicia
-67;Chaimowicz;Abram;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-68;Chomentowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Marcin Chomentowski ze szlachty, wierzyciel windykacyjny
-69;Chorobołka;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Bartosz Chorobołka, czeladnik Macieja Kmory, pobity drągiem
-70;Chrapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#40, #57;1596–1597;2;Marcin Chrapek mieszczanin, poszkodowany przez sługę zamkowego, oskarżony przez augustianów
-71;Ciężki;Andrzej;Kraśnik;Mieszkaniec / Poszkodowany;#55;1598;1;Andrzej Ciężki pasierb
-72;Ciężki;Wojciech;Kraśnik;Mieszkaniec;#55;1598;1;Wojciech Ciężki ojczym
-73;Curek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
-74;Cybusionka;Agnieszka;Kraśnik;Panna / Sukcesorka;#132, #133;1597;2;Agnieszka Cybusionka, Agnieszka Puszkówna, sierota naturalna, Agnieszka Cybusionka, Agnieszka Puszkówna, sierota pod opieką Maszowyny
-75;Cybuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
-76;Cyganowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-77;Cyrogowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;ksiądz Piotr Cyrogowic, duchowny kraśnicki
-78;Cyrulik;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Franciscus Cyrulik, mistrz balwierski
-79;Czajek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#148;1597;1;
-80;Czapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-81;Czarnucha;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;Matys Czarnucha, porządnik ze Stróży
-82;Czerwonka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
-83;Czerwonka;Mikołaj;Kraśnik;Wójt;#129;1594;1;
-84;Czerwonka;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
-85;De pągów;Josek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;
-86;Doktorowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-87;Dolezaj;Stanisław;Liszonek;Mieszkaniec / Posesjonat;#50;1598;1;Stanisław Dolezaj, zbiegły zabójca Jakuba Zdebia
-88;Dorohostajski;Piotr;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#111;1600;1;
-89;Dralewski;Maciej;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#8;1595;1;subcapitaneus Krasnensis, podstarości kraśnicki
-90;Dubajtok;Jan;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
-91;Dubas;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
-92;Dubasik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
-93;Dubasik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
-94;Dubasina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
-95;Dubielek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Jan Dubielek, świadek naoczny w sprawie częstochowskiej
-96;Dudzic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
-97;Dudzic;Wojciech syn;Kraśnik;Mieszkaniec;#103;1599;1;Wojciech syn Dudziców, Dudzicowic
-98;Dul;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Dyl, mistrz kunsztu piekarskiego
-99;Dul;Jan andrzej;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Joannes Andreas Dul, starszy mistrz cechu piekarskiego, senior contubernii
-100;Dusztowic;Stanisław;Kraśnik;Urzędnik / Notariusz i Pisarz Miejski;#92, #94;1599;2;Stanisław Dusztowic notariusz, notarius civitatis Krasnensis, Stanisław Dusztowic nowy notariusz miejski, iuramentum notarii
-101;Dygański;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
-102;Dyl;Jan;Kraśnik;Ławnik;#75;1598;1;
-103;Dymowski;Szymon;Dymowce;Mieszkaniec / Posesjonat;#43;1596;1;Szymon Dymowski, uczestnik spędu wołów z Wołynia
-104;Dziadatorzyna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-105;Dziekciowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;Jadwiga Dziekciowa, żona dziegciarza, rany twarzy i nosa
-106;Dziekieć;Matysek;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
-107;Dzierżeka;Adam;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Adam Dzierzeka, pobity kłonicą
-108;Dębiński;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
-109;Franciszek z Turobina;N.;Turobin / Kraśnik;Pełnomocnik prawny / Prokurator;#122, #123;1595;2;Franciszek z Turobina, procurator Myszonkarum, Franciszek z Turobina, procurator Myszonkarum, pełnomocnik spadkowy
-110;Fugler zrąbca;Janusz;Zrąbce;Mieszkaniec / Posesjonat;#43;1596;1;Janusz Fugler Zrąbca, szlachetny kupiec i hodowca wołów z Wołynia
-111;Gardziczkowic;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Gardziczkowicz
-112;Gardziel;Mateusz;Kraśnik;Szewc;#66;1599;1;Matys Gardziel szewc, mistrz szewski, strona sporu granicznego o płot z Pietruszkowicem
-113;Giebuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
-114;Giedyminowicz;Świdrygiełło;Łuck / Wilno;Mieszkaniec / Posesjonat;#30;1595;1;
-115;Gilarz;N. Włoch;Kraśnik;Kupiec włoski;#102;1599;1;Gilarze Włochowie, kupcy włoscy
-116;Giszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Tomasz Giszek chory, zastawca ogrodu Nawozowszczyzny
-117;Giza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#49, #115;1598–1600;2;Jakub Giza, brat Stanisława
-118;Giza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#73, #94;1598–1599;2;
-119;Giza;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#49, #94;1598–1599;2;Stanisław Giza Pez podżupan solny, areszt na barć Giżyńską
-120;Giza Jasik;Jan;Kraśnik;Mieszkaniec / Kupiec drzewny;#73;1598;1;Jan Giza Jasik, Jan Giza, Jan Giza Jasik, kupiec drzewny, dłużnik za drewno budowlane spławiane do Rzeczycy
-121;Gomolczanka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Dorota Gomolczanka, córka zmarłego Jana Gomolczyka, dział schedy i ogrodu
-122;Gomolczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Gomolczyk zmarły, spadkodawca Doroty Gomolczanki
-123;Gomolczyk;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-124;Gomolczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
-125;Gomolczyna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
-126;Gomoliński;Jakub;Kraśnik;Urzędnik / Konsul / Posesjonat;#131;1594;1;Jakub Gomoliński, Jakub Gołumuń rajca kraśnicki, Jakub Gomoliński, Jakub Gołumuń rajca kraśnicki, sąsiad posesji Hinckowskiej
-127;Gorajski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-128;Gorolek;Jura;Kraśnik;Kowal;#122;1600;1;
-129;Gosal;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
-130;Gołumuń;Jakub;Kraśnik;Rajca;#131;1594;1;
-131;Gościerowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
-132;Grabys;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;Matys Grabys, sprawca pobicia Żyda Abrama
-133;Grek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;Matys Grek starościc, syn Greka, ofiara pobicia przez Jana Świętka Gąskę
-134;Grobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;Stanisław Grobek, mistrz skórniczy
-135;Gromek;Krzysztof;Kraśnik;Kuśnierz;#99;1599;1;Krzysztof Gromek kuśnierzyk, czeladnik, sprawca napaści z tasakiem
-136;Grychtal;Mikołaj;Kraśnik;Ławnik;#67;1599;1;Mikołaj Grychtal ławnik, ławnik przysięgły, obdukcja piwnicy ratusznej i miodu wójtowskiego
-137;Gryczyna;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
-138;Grygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;
-139;Grymza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
-140;Grzebieniowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#61, #104, #150;1597–1599;3;Jadwiga Grzebieniowa, kramarka kraśnicka, pozwana o potwarz i zniesławienie na rynku przez Adama Świętka
-141;Grzebień;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;Adam Grzebień, mąż Jadwigi Grzebieniowej, właściciel dąbrowy
-142;Gwikło;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-143;Gwiżdż;Mikołaj;Kraśnik;Ławnik;#77;1599;1;
-144;Gyrinkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-145;Górski;Jan;Kraśnik;Rajca;#124;1595;1;
-146;Gąsczyna;Dorota;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#89;1599;1;Dorota Gąsczyna, żona Bartosza Gąski, zastaw stodoły podzamkowej
-147;Gąsiorek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
-148;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;Bartosz Gąska, poręczyciel finansowy pod zastaw roli przy kościele
-149;Gębala;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
-150;Hajduk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
-151;Hanus;N.;Kraśnik;Mieszkaniec;#18;1595;1;Hanusius
-152;Hendelka;żona Aarona;Kraśnik;Mieszkanka żydowska;#91;1599;1;Hendelka Iudaea, żona Aarona Żyda
-153;Hesterka;żona Abrusia;Kraśnik;Mieszkanka żydowska;#85;1599;1;Hesterka Iudaea, żona Abrusia Żyda
-154;Hinck;Jan;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
-155;Hinckowa;Zofia elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
-156;Iwanówna małofiejowiczówna;Hanusia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;Hanusia Iwanówna, Małofiejowiczówna
-157;Iwanówna małofiejowiczówna;Nastia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-158;Jagiellon;Zygmunt august;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-159;Jaimkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Agnieszka Jaimkowa vel Saimkowa, mieszczanka kwitująca Tomasza Skrzypka
-160;Jamanek;Wawrzyniec;Kraśnik (Zarzecze);Przedmieszczanin / Rolnik;#106;1599;1;Wawrzyniec Jamanek z Zarzecza
-161;Janas;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;
-162;Janaszek;Stanisław;Kraśnik;Wójt;#11, #85, #129;1594–1599;3;Stanisław Janaszek nowy wójt kraśnicki, prezydent sądu
-163;Janaszkowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Janaszkowa z Wolaków
-164;Jankowski;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#65;1599;1;szlachetny Maciej Jankowski, szlachcic, strona sporu o izbę w kamienicy Prokopowskiej
-165;Janusz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
-166;Janusz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#53;1598;1;Jan Janusz, dłużnik na ogrodzie pod zamkiem
-167;Janusz;komornik;Kraśnik;Urzędnik / Komornik miejski;#64;1597;1;Janusz komornik miejski, Janusz minister
-168;Januszowa z zająców;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;
-169;Januszowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#26, #65, #133;1595–1599;3;Tomasz Januszowicz rajca, kurator, plenipotent, obrońca w prawie magdeburskim
-170;Jasek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
-171;Jasionic;[wdowa];Kraśnik;Kowal;#81;1599;1;
-172;Jasionic;Matys;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;Matys Jasionic, Mateusz Jasionic
-173;Jasionicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-174;Jasionka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-175;Jasionka;Jakub;Kraśnik;Ławnik;#135;1589;1;
-176;Jasionowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
-177;Jaskowicz rudny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#37;1595;1;Bartosz Jaskowicz Rudny, testator, protoplasta rodu
-178;Jaskółka;Jakub;Kraśnik;Ławnik;#71;1598;1;Jakub Jaskółka ławnik, ławnik przysięgły kraśnicki, urzędowa obdukcja pogorzeliska Solarza
-179;Jaśkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Jakub Jaskowicz syn Jana Jaska
-180;Jaśkowicz;Jaskowa;Kraśnik;Mieszkanka (wdowa);#34;1595;1;
-181;Jaśkowicz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Maciej Jaskowicz syn Jana Jaska
-182;Jaśkowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;Matys Jaśkowicz, świadek urzędowej rewizji beczek miodowych w ratuszu
-183;Jaśkowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
-184;Jaśkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Stanisław Jaskowicz syn Jana Jaska
-185;Jaśkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Wojciech Jaskowicz syn Jana Jaska
-186;Jaśkowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
-187;Jaśkowiczówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
-188;Joszkowicz;Abraham;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#96;1599;1;Abraham Joszkowicz Żyd kraśnicki, kupiec, apelacja do zamku
-189;Judaeus;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
-190;Judaeus;Kalim;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
-191;Judaeus;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
-192;Judaeus;Lipman;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
-193;Judaeus;Majer;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
-194;Judaeus;Marek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;Marek Judaeus, Żydzi Markowi, kupiec żydowski, spór o napaść na krawca i piwnicę ratuszną
-195;Judaeus;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-196;Jurkowicz;Andrzej;Kraśnik;Ławnik;#161;1589;1;
-197;Jurkowicz;Stanisław;Kraśnik;Mieszkaniec / Sukcesor;#117, #118;1600;2;Stanisław syn Mikołaja Jurka, Stanisław Jurkowicz
-198;Kalinka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
-199;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#80, #159;1589–1599;2;Anna Kamieńska wdowa, matka żony Matysa Łaziebnika, kontrakt dożywocia i cesja łaźni
-200;Kamieński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
-201;Kamieński;Marcin;Kraśnik;Szewc;#66;1599;1;Marcin Kamieński szewc, rzemieślnik kraśnicki, świadek ugody
-202;Kamieński;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
-203;Kamieński;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-204;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
-205;Kamyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-206;Kamykowa;Katarzyna;Kraśnik;Mieszczanka;#38;1595;1;Katarzyna Kamykowa z Jaśkowiczów
-207;Kamykowa z jaśkowiczów;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
-208;Kamykówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
-209;Kantorek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
-210;Kantorzy;Trzej;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
-211;Kanyk;Matys;Kraśnik;Mieszkaniec;#81;1599;1;Matys Kanyk, Mateusz Kanyk
-212;Kanyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#81;1599;1;Stanisław Kanyk
-213;Kanyk;Stanisławowa;Kraśnik;Mieszkanka (wdowa);#118;1600;1;
-214;Kanykowna;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#117;1600;1;Hanna Kanykowna zmarła, matka Stanisława Jurkowicza
-215;Karczmarczyk;Adam;Kraśnik;Karczmarz / Mieszkaniec;#55, #56;1598;2;Adam Karczmarczyk, mąż Reginy
-216;Karczmarczykowa;Regina;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;Regina Karczmarczykowa, żona Adama Karczmarczyka
-217;Karczmarka;Róża;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
-218;Karpik;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Mikołaj Karpik, kupiec lubelski, odbiorca partii wełny
-219;Karski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;Marcin Karski kupiec z Kazimierza Dolnego, wierzyciel handlowy
-220;Kaskorowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
-221;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
-222;Kendra;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
-223;Kierzek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
-224;Kierzek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#137, #138, #139;1596–1597;3;Wojciech Kierzek, Albertus Kierzek, kontrahent frymarku, Wojciech Kierzek, frymark placu Workowskiego z rajcą Stanisławem Sapałą
-225;Kiik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Tomasz Kiik zmarły, brat Wojciecha Kiika i Katarzyny Barszczowej
-226;Kiik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Wojciech Kiik, mąż Hanny Kiikowej, apelujący do rady miejskiej
-227;Kiikowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Hanna Kiikowa, oskarżona o nieskromność w Majsdorfie i bójkę dzbankiem, skazana na wieżę
-228;Klimek;Jan;Kraśnik (Zastawie);Mieszkaniec / Rolnik;#20;1595;1;Klymek
-229;Klimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#44, #65, #146;1596–1599;3;
-230;Kmora;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Maciej Kmora, mistrz czeladnika Chorobołki
-231;Kobal;Wojciechowa;Kraśnik;Mieszkanka (wdowa);#46;1596;1;
-232;Kobalowa;Wojciechowa;Kraśnik;Mieszczanka;#46;1596;1;Kobalowa, żona Wojciecha Kobala
-233;Kobiel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
-234;Kobiel;Jan z Sułowa;Sułów;Szlachcic / Wierzyciel hipoteczny;#134, #135;1589;2;Jan Kobiel z Sułowa, nobilis Ioannes Kobiel de Sułow, Ioannes Kobiel de Sułow, szlachcic wierzyciel 20 grzywien u Żyda Abrusia
-235;Kocbor;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Koczbor
-236;Koczonek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;
-237;Koczorowicz;Chacko;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-238;Komornik;Thomas;Kraśnik;Wójt;#107;1599;1;
-239;Komornik jancza sulowa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
-240;Komornik tomasza skrzypka;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
-241;Komorowska;Maryna;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
-242;Komorowski;Andrzej;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
-243;Koniarka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#162;1589;1;
-244;Koniecpolski;Jerzy;Kraśnik;Młynarz;#102;1599;1;
-245;Konkol;Jakub;Góry i Podlesie;Wójt;#51;1598;1;
-246;Konopka;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#41;1596;1;Jan Konopka z Lasoczyna, kramarz poszkodowany na rynku
-247;Korz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
-248;Korz;Jacenty;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
-249;Korz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
-250;Korzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
-251;Kosiński;Adam;Kraśnik;Wójt;#105;1599;1;
-252;Koskowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#77;1599;1;Anna Koskowa wdowa po Kosku, kwitacja z sumy wiana i wyprawy
-253;Kowal;Michał;Kraśnik;Kowal;#121;1600;1;
-254;Kowal;Wojciech;Kraśnik;Kowal;#68;1598;1;Wojciech Kowal, mistrz kowalski kraśnicki, taksator żelaza
-255;Kowalik;Jan;Kraśnik;Rzemieślnik / Mistrz kowalski;#75;1598;1;Jan Kowalik kowal
-256;Kowalik;Mateusz;Kraśnik;Kowal;#160;1589;1;
-257;Kowalik;Stanisław;Kraśnik;Rzemieślnik / Kowal;#75;1598;1;Stanisław Kowalik kowal
-258;Koza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
-259;Kozak;Michał;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;Michał Kozak gienerał i sługa podkomorzego z Rzeczycy, ofiara napaści w łaźni
-260;Kozan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
-261;Kozanowicz;Italsik;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
-262;Kozarzewski;Matys;Zamek Kraśnicki;Sługa zamkowy / Żołnierz starościński;#40;1596;1;Matys Kozarzewski sługa zamku kraśnickiego, Matys Kozarzewski sługa zamku kraśnickiego, napaść tasakiem
-263;Koziarzowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;Koziarzowski Mateusz / Maciej
-264;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
-265;Kozieł;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Kozieł ze wsi Sulów, kupiec leśny, kontrakt na dostawę gontów i tarcic
-266;Kołodziej;Jan;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-267;Kościelna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
-268;Kościelna Kantorchowa;Regina;Kraśnik;Mieszczanka / Darczyńca;#75;1598;1;Regina Kościelna Kantorchowa, Kantorka Regina
-269;Kośka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
-270;Koźmian;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-271;Kramarz;Jakub;Rzędowice;Kupiec kramny;#39;1596;1;Jakub Kramarz z Rzędowa / Rzędowic
-272;Kramarz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
-273;kramarz u Pawłowskiej;Mikołaj;Kraśnik;Rzemieślnik / Kramarz;#106;1599;1;Mikołaj kramarz u Pawłowskiej
-274;Kramarz z rzędowa;Jakub;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
-275;Kramarzowa;Elżbieta;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
-276;Krasnostawski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
-277;Krawc;Augustynowa;Kraśnik;Mieszkanka (wdowa);#142;1597;1;
-278;Krawcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Jadwiga Krawcowa, żona mistrza Augustyna Krawca
-279;Krawczyk;Sebastian;Góry i Podlesie;Krawiec;#156;1597;1;
-280;Krawiec;Augustyn;Kraśnik;Krawiec;#62, #140;1597–1598;2;Augustyn Krawiec, mistrz krawiecki, asystent prawny Katarzyny Barszczowej
-281;Ksawerycki;Józef;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
-282;Kuc;N.;Kraśnik (Podlesie);Przedmieszczanin / Rolnik;#46;1596;1;Kuc z Podlesia, sąsiad roli
-283;Kudełka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
-284;Kula;Stanisław;Kraśnik;Kowal;#26;1595;1;Stanisław Kula kowal kraśnicki
-285;Kulia;Jan;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;Jan Kulia, brat Knucia, podział placu i budynków przy Bramie Drzewianej
-286;Kulia;Knuć;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;Knuć Kulia, współwłaściciel placu miejskiego przy Bramie Drzewianej
-287;Kulina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Zofia Kulina Mazurka, wdowa po Stanisławie Wróblu, komplanacja o dom i ogród
-288;Kunczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;Łukasz Kunczak z Łopiennika, wierzyciel długu 8 grzywien
-289;Kup;Mikołaj;Kraśnik;Wójt;#151;1597;1;
-290;Kupiec z kamionki;Maciej;Kamionka;Mieszkaniec / Posesjonat;#12;1595;1;
-291;Kupiec z sokołowa;Andrzej;Sokołów;Mieszkaniec / Posesjonat;#12;1595;1;
-292;Kuśnierz;Wojciech;Kraśnik;Rzemieślnik / Kuśnierz;#57;1597;1;Wojciech Kuśnierz, mąż Zofii
-293;Kuśnierzowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Zofia Kuśnierzowa, żona Wojciecha Kuśnierza
-294;Kędra;Wincenty;Kraśnik;Ławnik;#14;1595;1;Kendra, ławnik przysięgły
-295;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Wincenty Kłopocik, świadek pobicia
-296;Kłos;Maciej;Kraśnik;Ławnik;#50;1598;1;
-297;Lasocina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#133;1597;1;
-298;Lasota;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-299;Lasota;Paweł;województwo lubelskie;Mieszkaniec / Posesjonat;#23;1595;1;Paweł Liasota, Lasotha, woźny generalny ziemski lubelski, ministerialis generalis
-300;Latoch;Simon;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;
-301;Lenartek;N.;Kraśnik;Młodzieniec;#25;1595;1;chłopak, wspólnik Najduczka
-302;Liatszkowicz;Bartosz;Kraśnik;Mieszkaniec;#114;1600;1;Bartosz Liatszkowicz, Bartłomiej Lackowicz
-303;Liatszkowicz;Jędrzej;Kraśnik;Mieszkaniec / Posesjonat;#114, #120;1600;2;Jędrzej Liatszkowicz, Andrzej Lackowic / Lackowicz
-304;Liatszkowiczowna;Jagwieszka;Kraśnik;Mieszkaniec / Posesjonat;#112;1600;1;
-305;Lieszkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
-306;Lis;Jakub;Stróża;Mieszkaniec wsi Stróża;#103, #104;1599;2;Jakub Lis ze Stróży
-307;Lisielec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
-308;Liszkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;Liskowa
-309;Liszpin;Jan;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Jan Liszpin vel Liszkin, dłużnik Jakuba Babicza ze Stróży na 10 florenów
-310;Liszyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-311;Ludźwiaczek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;Bartosz Ludźwiaczek z Budzynia, poszkodowany siekierą
-312;Maluszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
-313;Marek;N.;Szczebrzeszyn;Kupiec szczebrzeszyński;#53;1598;1;Marek mieszczanin i kupiec ze Szczebrzeszyna
-314;Markowic;Urban;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
-315;Maszowyna;Iwan;Kraśnik;Mieszkaniec / Opiekun prawny;#133;1597;1;Iwan Maszowyna, tutor Agnieszki Puszkówny, Iwan Maszowyna tutor i opiekun prawny sieroty Puszkówny
-316;Matys;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
-317;Matysowicz;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#105;1599;1;
-318;Matysowicz Ratuszny;Jan;Kraśnik;Urzędnik / Szafarz Wagi Solnej;#105;1599;1;Jan Matysowicz Ratuszny, szafarz miejski kraśnicki
-319;Mazur;Albert;Kraśnik;Mieszkaniec / Świadek obdukcji;#128;1594;1;Albert Mazur, Wojciech Mazur, Albert Mazur, Wojciech Mazur, świadek obdukcji krwawych ran na polu
-320;Mazur;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
-321;Mazur;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Maciej Mazur rzeźnik kraśnicki
-322;Mazur;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Matys Mazur, świadek naoczny w sprawie częstochowskiej
-323;Mazur;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
-324;Mazurek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
-325;Mazurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
-326;Małofiejowicz;Iwan;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-327;Mech;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Wojciech Mech, świadek o podżeganiu do fałszywej przysięgi przez Marcina Chrapka
-328;Michałowa;Zofia córka;Kraśnik;Mieszczanka / Sukcesorka;#121, #122;1600;2;Zofia córka Michała Łysego Kowala, małżonka Jana Kantorka, Zofia córka Michała Łysego Kowala, żona Jana Kantorka, posag 24 grzywien
-329;Michałowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
-330;Miedziak;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-331;Miedziak;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-332;Mieruszyńca;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
-333;Mieszczanin szczebrzeszyński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
-334;Mitek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#69, #139;1597–1598;2;Marcin Mitek, poręczyciel finansowy za Matysa Greka
-335;Mitkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#141;1598;1;
-336;Mitkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
-337;Międzygóra;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
-338;Miłosz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#28;1595;1;
-339;Mniszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-340;Mniszek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;Wojciech Mniszek sprawca pobicia
-341;Modzelowski;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596;1;Adam Modzelowski dictus Szczurzykowic
-342;Modzelowski szczurzykowic;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596;1;
-343;Moskalowna;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
-344;Mrówka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Mrowka
-345;Mularz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;Matys Mularz (Murator), mistrz mularski kraśnicki
-346;Mularz;Matys z Rzeczycy;Rzeczyca;Mularz / Mieszkaniec wsi;#101;1599;1;Matys Mularz z Rzeczycy
-347;Mularzka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-348;Murator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-349;Myszanka;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
-350;Myszanka;Felicja;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
-351;Myśliszowski;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Tomasz Myśliszowski capitaneus Krasnensis, szlachetny starosta kraśnicki i urzędowski, zatwierdza wyroki i ugody wójtowskie
-352;Młynarz;Marcin;Kraśnik;Młynarz;#76;1599;1;Marcin Młynarz ze Stróży, kupiec mączny i zbożowy, zapis długu
-353;Młynarz;Wojciech;Kraśnik;Młynarz;#102;1599;1;
-354;Najduczek;N.;Kraśnik;Czeladnik krawiecki;#25;1595;1;syn Najdukowej, krawczyk
-355;Najdukowa;N.;Kraśnik;Mieszczanka;#25;1595;1;Naydukowa, wdowa krawiecka
-356;Nietyxa;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
-357;Niewola;Krzysztof;Kraśnik;Mieszkaniec;#21;1595;1;Krzysztof Niewola
-358;Niezabitowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;Szymon Niezabitowski, sprawca zbrojnego najazdu na dom Wolaków
-359;Niezgoda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
-360;Niezgodzina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
-361;Niski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Nyski, uczeń piekarski u Dula
-362;Nowaczek;Hryczko;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Hryczko Nowaczek, kwitujący Żyda Pagiela z długu
-363;Odwłoczybrzuch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
-364;Ogon;Piekop;Kraśnik (Podlesie);Przedmieszczanin / Rolnik;#46;1596;1;Piekop Ogon, posesjonat na Podlesiu
-365;Ogon;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;
-366;Ogonowa;N.;Kraśnik;Szlachcianka;#35;1595;1;pani Ogonowa
-367;Orlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;Jan Orlik, dzwonnik kościoła Najświętszej Panny Maryi w Kraśniku
-368;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#36, #60;1595–1597;2;Stanisław Orzeł poręczyciel
-369;Orłówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Zofia Orłówna, żona Benedykta Ruskiego, bezpotomna zmarła
-370;Ostrowski;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#20;1595;1;Felix Ostrowski capitaneus, starosta zamkowy
-371;Ostrynowski;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-372;Ozimek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
-373;Ozimek;Stanisław;Kraśnik;Mieszkaniec;#58;1597;1;Stanisław Ozimek
-374;Ożóg;Mikołaj;Kraśnik;Rzemieślnik / Szewc;#17;1595;1;Ożga, Ożóg szewc
-375;Pagiel;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Jakub Pagiel Judaeus, kupiec wełniany z Kraśnika
-376;Pająk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#24, #27;1595;2;Jakub Pajak, wdowiec po Elżbiecie Chabajowej
-377;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#25, #29;1595;2;Paweł Pajak, brat Jakuba
-378;Pantentore;Marcin;Kraśnik;Rzemieślnik / Postrzygacz sukna;#140;1598;1;Marcin Pantentore, magister scissor pannorum, postrzygacz sukna, Marcin Pantentore scissor pannorum, mistrz postrzygacz sukna, inwentarz 3 nożyc
-379;Pantentorówna;Katarzyna;Kraśnik;Mieszczanka / Sukcesorka cechowa;#140;1598;1;Katarzyna Pantentorówna, córka postrzygacza sukna, Katarzyna Pantentorówna, dziedziczka warsztatu postrzygackiego Marcina
-380;Parnus;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;Marcin Parnus sprawca najścia domowego
-381;Pasiaszek;Vincenty;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
-382;Pasiaszek;Wincenty;Kraśnik;Mieszkaniec / Dłużnik wekslowy;#122, #123;1595;2;Vincenty Pasiaszek, Wincenty Pasiaszek, Vincenty Pasiaszek, dłużnik Żyda Italsika syna Jakuba Kozana
-383;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
-384;Petrykowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
-385;Piaszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Piaszek, mieszkaniec kraśnicki, oprawił posag i wiano Heleny Bargielówny
-386;Piaszkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;Katarzyna Piaszkowa, mieszczanka, świadek i strona w sporze
-387;Piechurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
-388;Piekarczyk;Marcin;Kraśnik;Rajca;#79, #158;1597–1599;2;Kamieński, antiquus consul, b. rajca
-389;Pielaszek;Marcin;Kraśnik;Rajca;#146;1589;1;
-390;Pietruszkowic;Jantosz;Kraśnik;Mieszkaniec / Rolnik;#66;1597;1;Jantosz Pietruszkowic, Pietruszkowicz, Jantosz Pietruszkowic, mieszkaniec, spór o parkan posesji z szewcem Matysem Gardzielem
-391;Piotrowska;Pawłowa;Kraśnik;Mieszkanka (wdowa);#142;1662;1;
-392;Piotrowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
-393;Piotrowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#142;1640;1;
-394;Piotrowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9, #52, #151;1595–1598;3;Stanisław Piotrowski, strona sporu apelacyjnego z Szostkami
-395;Pisarszyna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
-396;Pisarzanka;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;Małgorzata Pisarzowa, Pisarzanka w Rynku
-397;Piskorz;Stanisław;Kraśnik;Ławnik;#67;1599;1;Stanisław Piskorz ławnik, ławnik przysięgły, obdukcja ubytku miodu
-398;Piszczek;Jan;Kraśnik;Mieszkaniec;#106;1599;1;Jan Piszczek
-399;Piwowar;Błażej;Kraśnik;Rzemieślnik / Piwowar;#31;1595;1;Błażej Piwowar miejski
-400;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Piątek, asystent i poręczyciel przy intercyzie małżeńskiej
-401;Podmurna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;Zofia Podmurna, żona rajcy Jakuba Podmurnego, obdukcja pobicia przez sługi Rudnickiego
-402;Podmurny;Jakub;Kraśnik;Rajca;#39;1596;1;Jakub Konkol Podmurny, rajca i wójt kraśnicki, inwestycje ratuszne
-403;Pogorzały;Szymon;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;#129, #130;1594;2;Szymon Pogorzały przedmieszczanin, Szymon Pogorzały przedmieszczanin, świadek zastawu domu Janaszka
-404;Pomsta;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1597;1;
-405;Pomyski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Pomysthi, Pomyszki
-406;Posmysz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Marcin Posmysz kramarz kraśnicki, towary łokciowe
-407;Postrzygacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
-408;Postrzygacz;Simon;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
-409;Postrzygaczka;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
-410;Postrzygaczowic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
-411;Postrzygaczowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#11, #111;1595–1600;2;
-412;Pousek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-413;Proboszcz kraśnicki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
-414;Procek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
-415;Prochoński;Lenart;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Leonardus Prochoński, szlachcic kraśnicki
-416;Prochoński;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#33;1595;1;Felix Prochoński capitaneus Krasnensis, starosta kraśnicki
-417;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Marcin Prokop z Rynku, właściciel kamienicy murowanej w Rynku
-418;Prokop;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#138;1596;1;Stanisław Prokop, sąsiad placu Workowskiego, Stanisław Prokop, posesjonat sąsiadujący z placem Workowskim
-419;Prokopek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
-420;Prokopkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
-421;Prokopowic;Knuć;Kraśnik;Mieszkaniec / Bartnik;#95;1599;1;Knuć Prokopowic, Knuć syn Prokopa
-422;Prokopówna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#75;1599;1;Dorota Prokopówna Szafrankowa, żona Adama Szafranka, córka Marcina Prokopa, współwłaścicielka kamienicy w Rynku
-423;Prokopówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
-424;Przekaza;Adam;Góry i Podlesie;Mieszkaniec / Posesjonat;#58;1597;1;Adam Przekaza, dłużnik Stanisława Ozimka na 14 grzywien
-425;Przełkowicz;Michel;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-426;Przybyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-427;Przykora;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
-428;Przytoczka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;Jakub Przytoczka szwagier, sprawca spustoszenia domu Augustynowskiego
-429;Przęsna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-430;Pstrak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;Szymon Pstrak poszkodowany
-431;Pszcząg;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
-432;Pszonka;Marcin;Babin;Mieszkaniec / Posesjonat;#27;1595;1;Marcin Pszonka z Babina, szlachetny plenipotent oskarżycieli
-433;Puk;Leonard;Góry i Podlesie;Mieszkaniec / Posesjonat;#124;1595;1;
-434;Pustek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-435;Pustek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
-436;Pustkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-437;Pustkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-438;Puszka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;Wojciech Puszka, Wojciech Puszka, zapis 15 florenów dla córki naturalnej Cybusionki
-439;Puszkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
-440;Pyróg;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Stanisław Pyróg, sprawca pobicia drągiem
-441;Pyszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
-442;Pyszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
-443;Pęzik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
-444;Płaczek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
-445;Płodowny;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-446;Racięcki;N.;Kraśnik;Dzierżawca / Szlachcic;#50;1598;1;pan Racięcki dzierżawca
-447;Ratoska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;Katarzyna Ratoska, matka Jadwigi Rodzonkowej i Stanisława Augustynowicza
-448;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#42, #51;1596–1598;2;Jakub Rodzonek, mąż Jadwigi z Ratoskich
-449;Rodzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Wawrzyniec Rodzonek, pozwany o prawo bliższości do roli
-450;Rodzonkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-451;Rodzonkowa;Jadwiga;Kraśnik;Mieszczanka;#42, #43;1596;2;Jadwiga Rodzonkowa z Ratoskich
-452;Rodzonkowa z ratoskich;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;
-453;Rogalek;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin / Rolnik;#128;1594;1;Stanisław Rogalek przedmieszczanin kraśnicki, Stanisław Rogalek przedmieszczanin, protestacja o zaoranie miedzy roli
-454;Rogałek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
-455;Rogowicówna;Barbara;Kraśnik;Mieszczanka;#49;1598;1;Barbara Rogowicowna, Rogownowna
-456;Rozdroż;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Bartosz Rozdroż, syn Katarzyny, poraniony maczugami
-457;Rozdroż;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
-458;Rozdroż;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Walenty Rozdroż, syn Katarzyny Rozdrożyny
-459;Rozdrożyna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Katarzyna Rozdrożyna wdowa, ofiara nocnego najazdu
-460;Rudnicka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Agnieszka Rudnicka, mieszczanka, kwitacja z oprawy posagowej
-461;Rudnicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;Jan Rudnicki ze szlachty z Rudnika, wierzyciel wielkich sum podzastawnych
-462;Rudnicki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;Mikołaj Rudnicki ze szlachty, brat stryjeczny Jana, współwierzyciel
-463;Rudny;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Rudney, piekarz
-464;Rudny jaśkowicz;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
-465;Rupik;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Jakubek Rupik Judaeus, Rupik Żyd
-466;Rurmistrz;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Georgius Magister canaliarius, magister canaliarius miejski
-467;Ruski;Benedykt;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Benedykt Ruski, szwagier Stanisława Orła
-468;Rybczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
-469;Rybitw;Andrzej;Kraśnik;Wójt;#135;1589;1;
-470;Rybitw;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
-471;Rybitw;Mikołaj wnuk;Kraśnik;Mieszkaniec / Sukcesor;#136;1596;1;Mikołaj wnuk Andrzeja Rybitwa, Nicolaus nepos Rybitw, Mikołaj wnuk Andrzeja Rybitwa, pozwany o zagrodzenie fosy miejskiej parkanem
-472;Rybitwek;Andrzej;Kraśnik;Rajca;#103;1599;1;
-473;Rybitwek;Thomas wnuk;Kraśnik;Mieszkaniec;#103;1599;1;Thomas wnuk Andrzeja Rybitwka, Tomasz Rybitwek
-474;Rybitwek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
-475;Rybitwowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-476;Rybitwowna;Matysowa;Kraśnik;Mieszczanka;#58;1597;1;Matysowa Rybitwowna, żona Rybitwy
-477;Rybka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-478;Rybkowic;Jan;Kraśnik;Mieszkaniec;#53;1598;1;Jan Rybkowic, przeciwnik Ziarnka
-479;Ryk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-480;Rymarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Marcin Rymarz, świadek kradzieży gęsi
-481;Rzepka;Andrzej;Kraśnik;Ławnik;#109;1600;1;
-482;Rzepka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
-483;Rzepka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
-484;Rączka;Bartłomiej;Góry i Podlesie;Mieszkaniec / Posesjonat;#164;1589;1;
-485;Sadek;Melchior;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
-486;Samszecki;Mikołaj;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
-487;Sapal;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#126;1594;1;
-488;Sapalina;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#10;1595;1;Sapałowa, żona Stanisława Sapały
-489;Sapała;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
-490;Sapała;Stanisław;Kraśnik;Burmistrz;#9, #45, #124, #151;1594–1597;4;
-491;Sapałka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
-492;Sapałka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
-493;Sapałka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#102;1599;1;Stanisław Sapałka, zięć Bernarda Włocha
-494;Sebastjanek;Stanisław;Kraśnik;Wójt;#128;1594;1;
-495;Seraszkiewicz;Baltazar;Kraśnik;Wójt;#144;1665;1;
-496;Sienko;N.;Czarnopol (Wołyń);Kupiec wołowy / Mieszczanin czarnopolski;#43, #44, #45, #46;1596;4;Sienko z Czarnopola na Wołyniu, kupiec wołowy
-497;Sierwa;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
-498;Siniec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Jan Siniecz
-499;Siniecz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
-500;Sinricz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
-501;Siwczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-502;Siwczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-503;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #29;1595;2;Jan Siwiec, mieszkaniec kraśnicki, kwitacja zobowiązań
-504;Skala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#102;1599;1;Bernard Skala vel Skalia, Bernardus Italus, kupiec włoski w Kraśniku
-505;Skopel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Skopel
-506;Skrobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Stanisław Skrobek tkacz z Krakowa, ofiara śmiertelnej napaści czeladzi krawieckiej
-507;Skropek;Mikołaj;Kraśnik;Krawiec;#50;1598;1;Mikołaj Skropek, mistrz cechu krawieckiego
-508;Skrzynnik, kupiec żydowski;Bysko;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-509;Skrzypek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#156;1597;1;
-510;Skrzypek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Tomasz Skrzypek, muzykant miejski, dłużnik Agnieszki Jaimkowej
-511;Smielik;Andrzej;Kraśnik;Stelmach;#23;1595;1;Smielik vel Szmielik stelmachowicz
-512;Sobiecki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Paweł Sobiecki baccalaureus scholae Krasnensis, bakałarz szkoły kraśnickiej
-513;Solarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;Bartosz Solarz, skazany na wieżę za oszczerstwo wagi solnej
-514;Sosnowa;Hanna;Kraśnik;Mieszczanka;#38;1595;1;Hanna Sosnowa z Jaśkowiczów
-515;Sosnowa z jaśkowiczów;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
-516;Sowa;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
-517;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
-518;Sowa;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
-519;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;Wojciech Sowka, świadek kontraktów i ugód sąsiedzkich w ratuszu
-520;Sowikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;Jan Sowikła, świadek urzędowy darowizny ogrodu na rzecz kościoła farnym
-521;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
-522;Spigańczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#159;1589;1;
-523;Spyrzik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
-524;Stalinka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#122;1595;1;
-525;Starczewski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
-526;Starybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;
-527;Starzybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;testator z 1595, zmarły mieszczanin
-528;Stepłucz;N.;Kraśnik;Mieszkaniec;#56;1598;1;Stepłucz wierzyciel
-529;Stogniew;Adam;Kraśnik;Ławnik;#161;1589;1;
-530;Strach;Jakub;Kraśnik;Wójt;#6;1595;1;Iacobus Strach minister civitatis, sługa miejski
-531;Strych;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Stryk, piekarz
-532;Strykowski;Grzegorz;Rudnik;Mieszkaniec / Posesjonat;#12;1595;1;ze Strykowa, kupiec z Rudnika
-533;Stróżyk;Wojciech;Kraśnik;Mieszkaniec;#65;1597;1;Wojciech Stróżyk, Strozyk
-534;Stręgowska;N.;Liszonek;Szlachcianka;#50;1598;1;pani Stręgowska z Liszonka
-535;Stypuła;Jan;Rzędowice;Mieszkaniec / Posesjonat;#24;1595;1;Jan Stypuła z Rzędowic
-536;Stęzanka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
-537;Such;Mikołaj;Kraśnik;Mieszkaniec;#81;1599;1;Mikołaj Such
-538;Such;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#81;1599;1;Stanisław Such
-539;Sulowa;Janczo;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;
-540;Supka;Wojciech;Kraśnik;Duchowny / Augustianin;#57, #58;1597;2;ksiądz Wojciech Supka augustianin, konwentualny kraśnicki
-541;Surma;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#84;1599;1;
-542;Suszko;Jakub;Kraśnik;Ławnik;#129;1594;1;
-543;Suszkowski;Tomasz;Kraśnik;Przedmieszczanin;#49;1598;1;Tomasz Suszkowski przedmieszczanin
-544;Suślik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
-545;Szabatka;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
-546;Szabatka;Stanisław;Kraśnik;Ławnik;#86;1599;1;
-547;Szafranek;Adam;Kraśnik;Mieszkaniec / Posesjonat w Rynku;#76;1598;1;Adam Szafranek z Rynku
-548;Szapała;Stanisław;Kraśnik;Rajca;#96;1599;1;
-549;Szarfankiewicz;Wojciech;Kraśnik;Krawiec;#144;1665;1;
-550;Szatłowska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Szatlowska
-551;Szałowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
-552;Szczecina;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;Marcin Szczecina, sąsiad Solarza, świadek naoczny wybuchu ognia
-553;Szczecinina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;Katarzyna Szczecinina wdowa, protestacja o szkody dachowe i zaciekanie wody
-554;Szczęsna Ślosarka;N.;Kraśnik;Mieszczanka / Wdowa cechowa;#80;1599;1;Szczęsna Ślosarka, wdowa po ślusarzu
-555;Szewczyk;Jan;Kraśnik;Szewc;#99;1599;1;
-556;Szewczyk;Stanisław;Kraśnik;Szewc;#99;1599;1;
-557;Szmigiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
-558;Szpala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
-559;Szymczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
-560;Szymonowicz;Antoni;Kraśnik;Mieszkaniec;#49;1598;1;Antoni Szymonowicz dictus Marcik
-561;Szymonowicz dictus marcik;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
-562;Sówka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Sowka
-563;Tatlinina;Żydówka;Kraśnik;Mieszkanka żydowska;#120;1600;1;Tatlinina Iudaea, Żydówka Tatlinina
-564;Tentore;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
-565;Tentorówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
-566;Tokarczyk;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;Kasper Tokarczyk z Bielin, czeladnik tokarski, świadek fałszowania czopu beczki
-567;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Marcin Tokarz, czeladnik tokarski, syn Stanisława, pobity kijem
-568;Tokarz;Stanisław;Kraśnik;Rzemieślnik / Mistrz tokarski;#56;1598;1;Stanisław Tokarz senior, mistrz tokarki kraśnickiej
-569;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Szymon Tokarz, mąż poszkodowanej w bójce z kuśnierzami
-570;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;Barbara Tokarzowa, poszkodowana brzemienna w najeździe Niezabitowskiego
-571;Trojanek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;Jakub Trojanek poszkodowany
-572;Trzciński;ks. N.;Wilkołaz;Duchowny / Pleban wilkołaski;#83;1599;1;ksiądz Trzciński pleban wilkołaski
-573;Trzemiodkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
-574;Twardek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-575;Twarogowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-576;Twaróg;Jan;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-577;Twaróg;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-578;Uliwas;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Vliwas
-579;Ungorzycki;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-580;Uszlarz;Stanisław;Kraśnik;Rzemieślnik / Wytwórca uszli i uprzęży;#132, #133;1597;2;Stanisław Uszlarz, rzemieślnik wytwórca uprzęży, Stanisław Uszlarz rzemieślnik uprzęży, poręczyciel opiekuńczy sieroty
-581;Wagłowski;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
-582;Wardęga;Andrzej;Kraśnik;Mieszkaniec / Lokator;#65;1597;1;Andrzej Wardęga, Wardega
-583;Waza;Zygmunt iii;Kraków;Mieszkaniec / Posesjonat;#30;1595;1;
-584;Wesołowski;Mateusz;Kraśnik;Krawiec;#61;1597;1;Matys Wesołowski krawiec z Bołtryc, krawiec kraśnicki, ofiara nocnej napaści sług Żyda Marka
-585;Wełna;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
-586;Wieczław;N.;Kraśnik;Sługa dworski;#35;1595;1;Wieczław sługa pani Ogonowej
-587;Wielguszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
-588;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#97;1599;1;Szymon Wierzbicki z Bielin, sprawca krwawego najazdu na dom Rozdrożów
-589;Wilga;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;Wincenty Wilga proconsul, burmistrz kraśnicki obierany na Rok 1600
-590;Witek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Sebastian Witek, świadek kontraktu ślubnego Piaszka z Bargielówną
-591;Wiązek;Matys;Kraśnik;Mieszkaniec;#24;1595;1;Matys Wiazek, mąż Matysowej
-592;Wiązkowa;Matysowa;Kraśnik;Mieszczanka;#24;1595;1;Wiazkowa, Matysowa Wiązkowna
-593;Wiązkówna;Katarzyna;Kraśnik;Mieszczanka;#24;1595;1;Wiazkowna, córka Matysa Wiązka
-594;Wnuk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#52;1598;1;Jan Wnuk, dzwonnik z Rybkowic, poturbowany w drodze z Tyczyna
-595;Wnuk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
-596;Wnuk klimkowy;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
-597;Wojciech z Borku;N.;Kraśnik;Duchowny / Kantor Parafialny;#100;1599;1;Wojciech z Borku kantor, magister cantus kościoła farnego
-598;Wojewódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
-599;Wojgłowski;Tomasz;Kraśnik (Zamek);Urzędnik zamkowy / Kapitan;#134;1597;1;Tomasz Wojgłowski capitaneus arcis, kapitan zamku kraśnickiego, Tomasz Wojgłowski kapitan zamku kraśnickiego, mandat starościński
-600;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #59;1595–1597;2;
-601;Wolak;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#17, #34, #58;1595–1597;4;Mikołaj Wolak senior, zmarły posesjonat
-602;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
-603;Wolakówna;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Wolak Krystyna, Wolakowna panna
-604;Wolski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;
-605;Wolwacz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-606;Woycieszowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-607;Woygłowski;Tomasz;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
-608;Wozorowski;Lenart;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#138;1596;1;
-609;Wrobik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Jan Wrobik, syn Stanisława Wróbla, ugoda z macochą Kuliną
-610;Wrobik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Tomasz Wrobik, syn Stanisława Wróbla, ugoda spadkowa z Zofią Kuliną
-611;Wronczyna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-612;Wronka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
-613;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
-614;Wronka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;Szymon Wronka zięć, sprawca pobicia teścia Jakuba Rodzonka
-615;Wróbel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Stanisław Wróbel zmarły, ojciec braci Wrobików, testator
-616;Wygasły;Marcin;Kraśnik;Wójt;#136;1597;1;
-617;Wyglądatka;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Wyglandatka
-618;Wójcicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Jan Wójcicki, asystent prawny Doroty Gomolczanki przed urzędem
-619;Wójcik;Matys;Kraśnik;Mieszkaniec;#107;1599;1;Matys Wójcik, Mateusz Wójcik
-620;Wójcik;Stanisław;Kraśnik;Ławnik;#70, #157;1597–1598;2;
-621;Wójcikowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#138;1596;1;
-622;Wójt;Jan;Kraśnik;Wójt;#83;1599;1;
-623;Wójt;Jan z Wilkołaza;Wilkołaz;Urzędnik / Wójt wiejski;#83;1599;1;Jan Wójt w Wilkołazie
-624;Wójt;Szczepan;Kraśnik;Wójt;#10, #18;1595;2;Stefan Wójt, Stephanus Advocatus, Stephani Woyto, dawny wójt
-625;Wójtowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Barbara Woytowa, wdowa po Stefanie Wójcie
-626;Wójtowicz;Thomas komornik;Kraśnik;Urzędnik / Komornik miejski;#107;1599;1;Thomas komornik Wójtowicza, Tomasz minister
-627;Wąg;Andrzej;Kraśnik;Mieszkaniec / Posesjonat w Rynku;#120;1600;1;Andrzej Wąg z Rynku
-628;Wągalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-629;Wągała;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
-630;Wężik;Abram;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
-631;Włoch;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Bernardus Italus, Bernardyn Włoch
-632;Z borku;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;
-633;Z budzynia;Janas;Budzyń;Mieszkaniec / Posesjonat;#34;1595;1;
-634;Z czarnopola;Sienko;Czarnopol;Mieszkaniec / Posesjonat;#43;1596;1;
-635;Z turobina;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
-636;Z zamościa;Mikołaj;Zamość;Mieszkaniec / Posesjonat;#12;1595;1;
-637;Zajczyk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Zayczyk
-638;Zając;Adam;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Adam Zając, syn Jakuba Zająca, powództwo o prawo bliższości
-639;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
-640;Zając;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Matys Zając, syn Jakuba Zająca, powództwo o prawo bliższości
-641;Zającowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;Anna Zającowa, wdowa, zbywczyni praw do roli podzamkowej
-642;Zaleski;Wawrzyniec;Babin;Mieszkaniec / Posesjonat;#27;1595;1;Wawrzyniec Zaleski, obrońca Jakuba Pająka
-643;Zamieszalina;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#25;1595;1;Hanna Zamieszalina, krewna Zamieszały
-644;Zastawnik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Paweł Zastawnik, dłużnik Bartosza na 10 florenów
-645;Zawalisz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;Szymon Zawalisz testator
-646;Zawaliszowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Zofia Zawaliszowa, wdowa po Szymonie Zawaliszu
-647;Zawisłak;Matys Bartosz alias;Kraśnik;Mieszkaniec / Posesjonat;#117, #118, #119;1600;3;Matys Bartosz alias Zawisłak, Mateusz Zawisłak
-648;Zaziębło;Walenty;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Zaziembło, Zazięblo
-649;Zbogusławic;Adam;Bogusławice;Mieszkaniec / Posesjonat;#43;1596;1;
-650;Zdeb;Jakub;Kraśnik;Mieszkaniec / Ofiara zabójstwa;#49, #50;1598;2;Jakub Zdeb, ofiara mordu na drodze
-651;Zdeb;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
-652;Zdeb vel Bastrzyk;Stanisław;Kraśnik;Mieszkaniec / Rolnik;#82;1599;1;Stanisław Zdeb vel Bastrzyk, Bastrzyk
-653;Zdebiówna Liasoczykowa;Zofia;Kraśnik;Mieszczanka;#82;1599;1;Zofia Zdebiówna, Zofia Liasoczykowa
-654;Zdebkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-655;Zdebowa;Hanna;Kraśnik;Mieszczanka / Wdowa;#82;1599;1;Hanna Zdebowa wdowa, matka Bastrzyka
-656;Zdonkowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
-657;Zepka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
-658;Zgoda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
-659;Zgodebny;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
-660;Zgroycza;Grzegorz;Kraśnik;Duchowny / Kanonik Regularny św. Augustyna;#33;1595;1;canonicorum regularium Sancti Augustini, ojciec Grzegorz duchak, augustianin, kanonik
-661;Zgódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
-662;Ziarnek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#13, #52;1595–1598;2;Zyarnek
-663;Zięba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;
-664;Ziętek;Walenty;Kraśnik;Wójt;#146;1597;1;
-665;Zmierzch;Jan;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;Jan Zmierzch, brat Wojciecha, dział sieni i izby w Rynku
-666;Zmierzch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;Wojciech Zmierzch, brat Jana, komora tylna
-667;Zmierzchana;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
-668;Zondra;Wincenty;Kraśnik;Ławnik;#129;1594;1;
-669;Zołniowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Małgorzata Zołniowa, oskarżycielka w sprawie częstochowskiej, skazana na wieżę
-670;Złoszczyk;Jan;Kraśnik;Mieszkaniec / Świadek;#137;1596;1;Jan Złoszczyk, Złoszczik, Jan Złoszczyk świadek w sporze spadkowym dzierżawcy Białobrzeskiego
-671;Złoszczyk;Janowa;Kraśnik;Mieszkanka (wdowa);#141;1598;1;
-672;Ćwikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
-673;Ćwikła;Mikołaj;Kraśnik;Ławnik;#14;1595;1;Mikołaj Gwikła starszy ławnik i cechmistrz słodowników
-674;Łauza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Łauza, świadek układu małżeńskiego i oprawy posagu w ratuszu
-675;Łaziebnik;Matys;Kraśnik;Rzemieślnik / Łaziebnik (Balneator);#80;1599;1;Matys Łaziebnik, Matys Balneator kraśnicki
-676;Łaziebnik;Nikodem;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Nicodemus Balneator, Nikodem balneator
-677;Łuczyczewna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-678;Łukaszowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
-679;Łycz;Tomasz;Skrzynno;Mieszkaniec / Posesjonat;#43;1596;1;Tomasz Łycz ze Skrzynna, kupiec wołowy
-680;Łysy Kowal;Michał;Kraśnik;Rzemieślnik / Mistrz kowalski;#121, #122;1600;2;Michał Łysy Kowal, magister contubernii fabrilem, mistrz kowalski kraśnicki, magister contubernii fabrilem, mistrz kowalski kraśnicki, autor testamentu kuźni
-681;Ścigło;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Scygło
-682;Ślosarczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Ślosarczyk mistrz ślusarski, syn Szczęsnej Ślosarki, objęcie kuźni i warsztatu
-683;Ślosarka;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
-684;Ślusarz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
-685;Ślusarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
-686;Ślusarzowa;wdowa N.;Kraśnik;Mieszczanka / Wdowa cechowa;#135;1589;1;wdowa Ślusarzowa, uxor relicta Stanislai ferrifabri, wdowa Ślusarzowa, spadkobierczyni warsztatu ślusarskiego i domostwa
-687;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
-688;Świeczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;Szymon Świeczyk, czeladnik rzeźnicki
-689;Świszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#147;1597;1;
-690;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
-691;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Swiantek
-692;Świętek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#61, #62;1597;2;Adam Swiętek, Adam Świętek
-693;Świętek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;Jan Swiętek Gąska, mieszkaniec kraśnicki, sprawca pobicia Matysa Greka
-694;Świętek;Piotr;Kraśnik;Władze miejskie / Rajca;#27;1595;1;Piotr Swiętek, rajca kraśnicki, Piotr Swiętek, rajca urzędujący
-695;Świętek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#29, #65;1595–1599;2;
-696;Świętowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
-697;Źrebie;Iwan;Kraśnik;Mieszkaniec / Sukcesor;#134;1597;1;Iwan Źrebie, brat Stanisława Bystrka, Iwan Źrebie sukcesor, proces o zabór ojczyzny przeciw Bystrkowi
-698;Źrebie zwany Bystrek;Stanisław;Kraśnik;Mieszkaniec / Pozwany;#134;1597;1;Stanisław Źrebie zwany Bystrek, Stanisław Bystrek, Stanisław Źrebie zwany Bystrek, pozwany o gwałtowny zabór ról ojczystych
-699;Żaba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;
-700;Żołw;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-701;Żołwik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-702;Żołwina;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-703;Żołwiówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
-704;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Aaron Żyd kraśnicki, kupiec sukienny i wełniany
-705;Żyd;Bano;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;Bano Żyd kraśnicki, kupiec miodowy, dom przy Bramie Murowanej
-706;Żyd;Bati;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Bati Judaeus
-707;Żyd;Bysiek;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;Bysiek Judaeus, syn Kozy, brat Hodyszki
-708;Żyd;Chaim;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
-709;Żyd;Chamek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Chamek Judaeus vigil nocturnus, stróż nocny
-710;Żyd;Chano;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Chano Judaeus
-711;Żyd;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;Dawid Judaeus, posesjonat w Rynku
-712;Żyd;Gatki;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;Gatki Żyd, syn Bana, kramarz przy Bramie Murowanej
-713;Żyd;Jakub z Pacanowa;Pacanów;Kupiec żydowski;#43, #44;1596;2;Jakub Judaeus de Pacanow, Jakub Żyd z Pacanowa
-714;Żyd;Josek z Pągowa;Kraśnik / Pągów;Kupiec żydowski / Posesjonat;#139, #140;1597;2;Josek z Pągowa Żyd, Iosek Iudaeus de Pangow, kupiec przy bóżnicy, Josek z Pągowa Żyd, sprzedawca domu przy bóżnicy Marcinowi Mitkowi
-715;Żyd;Koczman;Kraśnik;Kupiec / Faktor handlowy;#43, #44;1596;2;Koczman Judaeus, Koczman Żyd kraśnicki
-716;Żyd;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
-717;Żyd;Koza;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Koza Judaeus, teść Aarona
-718;Żyd;Liezman;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;Liezman Żyd kraśnicki, posesjonat w Rynku
-719;Żyd;Lipman;Kraśnik;Kupiec żydowski;#67;1597;1;Lipman Judaeus, Lipman Żyd kraśnicki
-720;Żyd;Majer;Kraśnik;Mieszkaniec żydowski / Poręczyciel;#140;1597;1;Majer Żyd kraśnicki, Mayer Iudaeus fideiussor, Majer Żyd kraśnicki, poręczyciel kahalny nienaruszalności domu
-721;Żyd;Teodor;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Theodorus Judaeus
-722;Żyd;Zelman;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#120;1600;1;Zelman Żyd kraśnicki, dłużnik starosty Myśliszowskiego na 15 zł
-723;Żyd kraśnicki, kupiec w rynku;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
-724;Żyd kraśnicki, sąsiad w rynku;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
-725;Żyd spod bóżnicy kraśnickiej;Marek;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
-726;Żydówka;Hodyszka;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Hodysza, córka Kozy, żona Aarona
-727;Żydówka;Tatlinina;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;
-728;Żydówka kraśnicka;Hendelka;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
-729;Żydówka kraśnicka;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;
+17;Barszczowna;Agnieszka;Kraśnik;Mieszczanka / Sukcesorka;#152, #153;1597;2;Agnieszka Barszczowna, córka Stanisława Barszcza, córka Stanisława Barszcza, zbywczyni domu nad fosą miejską
+18;Barszczowna;Roża;Kraśnik;Mieszczanka / Sukcesorka;#152;1597;1;Roża Barszczowna, córka Stanisława Barszcza, córka Stanisława Barszcza, zbywczyni stodoły
+19;Barteczko;Sebastian;Kraśnik;Mieszkaniec / Dłużnik;#155;1597;1;Sebastian Barteczko, dłużnik Buty, dłużnik rzeźnika Mikołaja Buty pod poręczeniem Piotrowskiego
+20;Bartnik;Sebastian;Kraśnik;Szewc;#92;1599;1;
+21;Bartolan;Stanisław;Bydgoszcz;Mieszkaniec / Posesjonat;#15;1595;1;
+22;Bartos;Jan;Kraśnik;Ławnik;#17, #29, #62;1595–1597;3;
+23;Bartos;Katarzyna;Kraśnik;Mieszczanka;#12;1595;1;Bartosówna, Bartosowna
+24;Bartos;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
+25;Bartos;Wojciech;Kraśnik;Ławnik;#70;1598;1;
+26;Bartosowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;
+27;Bartosz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Adam Bartosz, wierzyciel Pawła Zastawnika na 10 florenów długu
+28;Bartosz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Stanisław Bartosz, brat Adama Bartosza, poręczyciel
+29;Bartosz;Valenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+30;Bartosz;Walenty syn Jana;Kraśnik;Młodzieniec / Sukcesor;#116, #117, #118;1600;3;Walenty Bartosz syn Jana, Walenty Bartoszewic
+31;Bartosz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+32;Bartoszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+33;Bartoszowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Małgorzata Bartoszowa, wdowa po Janie Bartoszu, walka o retrakt roli
+34;Bartoszyk;Andrzej;Kraśnik;Żołnierz / Mieszkaniec;#78;1598;1;Andrzej Bartoszyk żołnierz
+35;Bartoszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
+36;Bartoszyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Maciej Bartoszyk dictus Zamieszała, Matys Zamieszała, zabójca Elżbiety Chabajowej
+37;Bartoszyk dictus zamieszała;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;
+38;Barty;Albert;Kraśnik;Urzędnik / Rajca miejski 1589;#135;1589;1;Albert Barty consul Krasnensis, Wojciech Barty, Albert Barty consul kraśnicki 1589, świadek długu żydowskiego
+39;Barty;Wojciech;Kraśnik;Ławnik;#135;1589;1;
+40;Barzik;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
+41;Barzoł;Wojciech;Kraśnik;Ławnik;#155;1597;1;
+42;Bastrzykowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
+43;Bednarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Andreas Doliator, bednarz
+44;Bednarz;Szymon;Kraśnik;Bednarz;#87;1599;1;
+45;Białobrzeski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#137;1597;1;
+46;Białynia;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Ioannes Białynia tenutarius, dzierżawca kraśnicki
+47;Białyński;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#26, #52;1595–1598;2;tenutarius bonorum Krasnensium, dzierżawca kraśnicki, sędzia apelacyjny wyższy prawa magdeburskiego, wystawca glejtu, salvum conductum
+48;Biel;Maciej;Kraśnik;Mieszkaniec;#86;1599;1;Maciej Biel, Maciej Bila
+49;Biel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;Stanisław Biel, Stanisław Bila
+50;Bieniek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+51;Bilia;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+52;Bilia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+53;Borowczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+54;Borowski;Marcin;Kraśnik;Ławnik;#22, #34, #141;1595–1598;3;
+55;Borzecki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
+56;Brodela;Matys Mazur;Kraśnik;Mieszkaniec / Furman;#67;1597;1;Matys Mazur Brodela, Brodela Mazur
+57;Bryzek;Jakub;Rzeczyca;Mieszkaniec wsi Rzeczyca;#86;1599;1;Jakub Bryzek z Rzeczycy, Jakub Bryzek krawiec z Rzeczycy, sprawca pobicia młynarza z Niedrzwicy
+58;Bryzik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Jan Bryzik, sprawca pobicia czeladnika tokarskiego
+59;Brzycki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+60;Buchta;Felicjan;Kraśnik;Rzemieślnik / Czeladnik rzeźnicki;#126;1594;1;Felicjan Buchta czeladnik rzeźnicki, Felicjan Buchta czeladnik rzeźnicki, bójka w kamienicy Sapały
+61;Buda;Wojciech;Kraśnik;Mieszkaniec / Świadek;#126;1594;1;Wojciech Buda, krewny rzeźnika Matysa Budy, krewny rzeźnika Matysa Budy, świadek w browarze
+62;Burmistrz;Jerzy;Kraśnik;Burmistrz;#19;1595;1;Georgius Proconsul, proconsul Krasnensis
+63;Buta;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Butha, rzeźnik kraśnicki
+64;Buta;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
+65;Butha;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+66;Bzdręga;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+67;Cantorek;Adam;Kraśnik;Kowal;#122;1600;1;
+68;Cantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#47;1597;1;Agnieszka Cantorkowa, wdowa po kantorze miejskim, poszkodowana przez żaków szkolnych
+69;Chabajowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#21, #26;1595;2;Elżbieta Pająkowa, żona Jakuba Pająka, Pichowa, ofiara śmiertelnego pobicia
+70;Chaimowicz;Abram;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+71;Chomentowski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Marcin Chomentowski ze szlachty, wierzyciel windykacyjny
+72;Chorobołka;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Bartosz Chorobołka, czeladnik Macieja Kmory, pobity drągiem
+73;Chrapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#40, #57;1596–1597;2;Marcin Chrapek mieszczanin, poszkodowany przez sługę zamkowego, oskarżony przez augustianów
+74;Ciężki;Andrzej;Kraśnik;Mieszkaniec / Poszkodowany;#55;1598;1;Andrzej Ciężki pasierb
+75;Ciężki;Wojciech;Kraśnik;Mieszkaniec;#55;1598;1;Wojciech Ciężki ojczym
+76;Curek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+77;Cybusionka;Agnieszka;Kraśnik;Panna / Sukcesorka;#132, #133;1597;2;Agnieszka Cybusionka, Agnieszka Puszkówna, sierota naturalna, Agnieszka Cybusionka, Agnieszka Puszkówna, sierota pod opieką Maszowyny
+78;Cybuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+79;Cyganowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+80;Cyrogowic;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;ksiądz Piotr Cyrogowic, duchowny kraśnicki
+81;Cyrulik;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Franciscus Cyrulik, mistrz balwierski
+82;Czajek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#148;1597;1;
+83;Czapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+84;Czarnucha;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;Matys Czarnucha, porządnik ze Stróży
+85;Czerwonka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+86;Czerwonka;Mikołaj;Kraśnik;Wójt;#129;1594;1;
+87;Czerwonka;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+88;De pągów;Josek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;
+89;Doktorowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+90;Dolezaj;Stanisław;Liszonek;Mieszkaniec / Posesjonat;#50;1598;1;Stanisław Dolezaj, zbiegły zabójca Jakuba Zdebia
+91;Dorohostajski;Piotr;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#111;1600;1;
+92;Dralewski;Maciej;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#8;1595;1;subcapitaneus Krasnensis, podstarości kraśnicki
+93;Dubajtok;Jan;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
+94;Dubas;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+95;Dubasik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+96;Dubasik;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+97;Dubasina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#119;1599;1;
+98;Dubielek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Jan Dubielek, świadek naoczny w sprawie częstochowskiej
+99;Dudzic;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+100;Dudzic;Wojciech syn;Kraśnik;Mieszkaniec;#103;1599;1;Wojciech syn Dudziców, Dudzicowic
+101;Dul;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Dyl, mistrz kunsztu piekarskiego
+102;Dul;Jan andrzej;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Joannes Andreas Dul, starszy mistrz cechu piekarskiego, senior contubernii
+103;Dusztowic;Stanisław;Kraśnik;Urzędnik / Notariusz i Pisarz Miejski;#92, #94;1599;2;Stanisław Dusztowic notariusz, notarius civitatis Krasnensis, Stanisław Dusztowic nowy notariusz miejski, iuramentum notarii
+104;Dygański;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+105;Dyl;Jan;Kraśnik;Ławnik;#75;1598;1;
+106;Dymowski;Szymon;Dymowce;Mieszkaniec / Posesjonat;#43;1596;1;Szymon Dymowski, uczestnik spędu wołów z Wołynia
+107;Dziadatorzyna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+108;Dziekciowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;Jadwiga Dziekciowa, żona dziegciarza, rany twarzy i nosa
+109;Dziekieć;Matysek;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
+110;Dzierżeka;Adam;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Adam Dzierzeka, pobity kłonicą
+111;Dębiński;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+112;Fox;Jan Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#144;1665;1;Jan Grzegorz Fox, gospodarz posiedzenia sądu deputatów, gospodarz sesji sądu deputatów miejskich w 1665 r.
+113;Franciszek z Turobina;N.;Turobin / Kraśnik;Pełnomocnik prawny / Prokurator;#122, #123;1595;2;Franciszek z Turobina, procurator Myszonkarum, Franciszek z Turobina, procurator Myszonkarum, pełnomocnik spadkowy
+114;Fugler zrąbca;Janusz;Zrąbce;Mieszkaniec / Posesjonat;#43;1596;1;Janusz Fugler Zrąbca, szlachetny kupiec i hodowca wołów z Wołynia
+115;Gardziczkowic;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Gardziczkowicz
+116;Gardziel;Mateusz;Kraśnik;Szewc;#66;1599;1;Matys Gardziel szewc, mistrz szewski, strona sporu granicznego o płot z Pietruszkowicem
+117;Giebuś;Jan;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+118;Giedyminowicz;Świdrygiełło;Łuck / Wilno;Mieszkaniec / Posesjonat;#30;1595;1;
+119;Gilarz;N. Włoch;Kraśnik;Kupiec włoski;#102;1599;1;Gilarze Włochowie, kupcy włoscy
+120;Giszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Tomasz Giszek chory, zastawca ogrodu Nawozowszczyzny
+121;Giza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#49, #115;1598–1600;2;Jakub Giza, brat Stanisława
+122;Giza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#73, #94;1598–1599;2;
+123;Giza;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#49, #94;1598–1599;2;Stanisław Giza Pez podżupan solny, areszt na barć Giżyńską
+124;Giza Jasik;Jan;Kraśnik;Mieszkaniec / Kupiec drzewny;#73;1598;1;Jan Giza Jasik, Jan Giza, Jan Giza Jasik, kupiec drzewny, dłużnik za drewno budowlane spławiane do Rzeczycy
+125;Gomolczanka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Dorota Gomolczanka, córka zmarłego Jana Gomolczyka, dział schedy i ogrodu
+126;Gomolczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Gomolczyk zmarły, spadkodawca Doroty Gomolczanki
+127;Gomolczyk;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+128;Gomolczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+129;Gomolczyna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+130;Gomoliński;Jakub;Kraśnik;Urzędnik / Konsul / Posesjonat;#131;1594;1;Jakub Gomoliński, Jakub Gołumuń rajca kraśnicki, Jakub Gomoliński, Jakub Gołumuń rajca kraśnicki, sąsiad posesji Hinckowskiej
+131;Gorajski;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+132;Gorolek;Jura;Kraśnik;Kowal;#122;1600;1;
+133;Gosal;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+134;Gołumuń;Jakub;Kraśnik;Rajca;#131;1594;1;
+135;Gościerowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+136;Grabys;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;Matys Grabys, sprawca pobicia Żyda Abrama
+137;Grek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;Matys Grek starościc, syn Greka, ofiara pobicia przez Jana Świętka Gąskę
+138;Grobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;Stanisław Grobek, mistrz skórniczy
+139;Gromek;Krzysztof;Kraśnik;Kuśnierz;#99;1599;1;Krzysztof Gromek kuśnierzyk, czeladnik, sprawca napaści z tasakiem
+140;Grychtal;Mikołaj;Kraśnik;Ławnik;#67;1599;1;Mikołaj Grychtal ławnik, ławnik przysięgły, obdukcja piwnicy ratusznej i miodu wójtowskiego
+141;Gryczyna;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
+142;Grygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;
+143;Grymza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
+144;Grzebieniowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#61, #104, #150;1597–1599;3;Jadwiga Grzebieniowa, kramarka kraśnicka, pozwana o potwarz i zniesławienie na rynku przez Adama Świętka
+145;Grzebień;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;Adam Grzebień, mąż Jadwigi Grzebieniowej, właściciel dąbrowy
+146;Gwikło;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+147;Gwiżdż;Mikołaj;Kraśnik;Ławnik;#77;1599;1;
+148;Gyrinkowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+149;Górski;Jan;Kraśnik;Rajca;#124;1595;1;
+150;Gąsczyna;Dorota;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#89;1599;1;Dorota Gąsczyna, żona Bartosza Gąski, zastaw stodoły podzamkowej
+151;Gąsiorek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
+152;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;Bartosz Gąska, poręczyciel finansowy pod zastaw roli przy kościele
+153;Gębala;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+154;Hajduk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+155;Hanus;N.;Kraśnik;Mieszkaniec;#18;1595;1;Hanusius
+156;Hendelka;żona Aarona;Kraśnik;Mieszkanka żydowska;#91;1599;1;Hendelka Iudaea, żona Aarona Żyda
+157;Hesterka;żona Abrusia;Kraśnik;Mieszkanka żydowska;#85;1599;1;Hesterka Iudaea, żona Abrusia Żyda
+158;Hinck;Jan;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+159;Hinckowa;Zofia elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+160;Iwanówna małofiejowiczówna;Hanusia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;Hanusia Iwanówna, Małofiejowiczówna
+161;Iwanówna małofiejowiczówna;Nastia;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+162;Jagiellon;Zygmunt august;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+163;Jaimkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Agnieszka Jaimkowa vel Saimkowa, mieszczanka kwitująca Tomasza Skrzypka
+164;Jamanek;Wawrzyniec;Kraśnik (Zarzecze);Przedmieszczanin / Rolnik;#106;1599;1;Wawrzyniec Jamanek z Zarzecza
+165;Janas;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;
+166;Janaszek;Stanisław;Kraśnik;Wójt;#11, #85, #129;1594–1599;3;Stanisław Janaszek nowy wójt kraśnicki, prezydent sądu
+167;Janaszkowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Janaszkowa z Wolaków
+168;Jankowski;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#65;1599;1;szlachetny Maciej Jankowski, szlachcic, strona sporu o izbę w kamienicy Prokopowskiej
+169;Janusz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
+170;Janusz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#53;1598;1;Jan Janusz, dłużnik na ogrodzie pod zamkiem
+171;Janusz;komornik;Kraśnik;Urzędnik / Komornik miejski;#64;1597;1;Janusz komornik miejski, Janusz minister
+172;Januszowa z zająców;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;
+173;Januszowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#26, #65, #133;1595–1599;3;Tomasz Januszowicz rajca, kurator, plenipotent, obrońca w prawie magdeburskim
+174;Jasek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+175;Jasionic;[wdowa];Kraśnik;Kowal;#81;1599;1;
+176;Jasionic;Matys;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;Matys Jasionic, Mateusz Jasionic
+177;Jasionicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+178;Jasionka;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+179;Jasionka;Jakub;Kraśnik;Ławnik;#135;1589;1;
+180;Jasionowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+181;Jaskowicz rudny;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#37;1595;1;Bartosz Jaskowicz Rudny, testator, protoplasta rodu
+182;Jaskółka;Jakub;Kraśnik;Ławnik;#71;1598;1;Jakub Jaskółka ławnik, ławnik przysięgły kraśnicki, urzędowa obdukcja pogorzeliska Solarza
+183;Jaśkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Jakub Jaskowicz syn Jana Jaska
+184;Jaśkowicz;Jaskowa;Kraśnik;Mieszkanka (wdowa);#34;1595;1;
+185;Jaśkowicz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Maciej Jaskowicz syn Jana Jaska
+186;Jaśkowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;Matys Jaśkowicz, świadek urzędowej rewizji beczek miodowych w ratuszu
+187;Jaśkowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+188;Jaśkowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Stanisław Jaskowicz syn Jana Jaska
+189;Jaśkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;Wojciech Jaskowicz syn Jana Jaska
+190;Jaśkowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+191;Jaśkowiczówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#35;1595;1;
+192;Joszkowicz;Abraham;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#96;1599;1;Abraham Joszkowicz Żyd kraśnicki, kupiec, apelacja do zamku
+193;Judaeus;Abruś;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
+194;Judaeus;Kalim;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+195;Judaeus;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#155;1597;1;
+196;Judaeus;Lipman;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+197;Judaeus;Majer;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+198;Judaeus;Marek;Kraśnik;Mieszkaniec / Posesjonat;#139;1597;1;Marek Judaeus, Żydzi Markowi, kupiec żydowski, spór o napaść na krawca i piwnicę ratuszną
+199;Judaeus;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+200;Jurkowicz;Andrzej;Kraśnik;Ławnik;#161;1589;1;
+201;Jurkowicz;Stanisław;Kraśnik;Mieszkaniec / Sukcesor;#117, #118;1600;2;Stanisław syn Mikołaja Jurka, Stanisław Jurkowicz
+202;Kalinka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;
+203;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#80, #159;1589–1599;2;Anna Kamieńska wdowa, matka żony Matysa Łaziebnika, kontrakt dożywocia i cesja łaźni
+204;Kamieński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+205;Kamieński;Marcin;Kraśnik;Szewc;#66;1599;1;Marcin Kamieński szewc, rzemieślnik kraśnicki, świadek ugody
+206;Kamieński;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+207;Kamieński;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+208;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+209;Kamyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+210;Kamykowa;Katarzyna;Kraśnik;Mieszczanka;#38;1595;1;Katarzyna Kamykowa z Jaśkowiczów
+211;Kamykowa z jaśkowiczów;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+212;Kamykówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+213;Kantorek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
+214;Kantorzy;Trzej;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;
+215;Kanyk;Matys;Kraśnik;Mieszkaniec;#81;1599;1;Matys Kanyk, Mateusz Kanyk
+216;Kanyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#81;1599;1;Stanisław Kanyk
+217;Kanyk;Stanisławowa;Kraśnik;Mieszkanka (wdowa);#118;1600;1;
+218;Kanykowna;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#117;1600;1;Hanna Kanykowna zmarła, matka Stanisława Jurkowicza
+219;Karchuk;Jan;Kraśnik;Mieszkaniec / Strona sporu;#164;1589;1;Jan Karchuk, strona sporu o zaoranie miedzy i żyto z Rączką
+220;Karczmarczyk;Adam;Kraśnik;Karczmarz / Mieszkaniec;#55, #56;1598;2;Adam Karczmarczyk, mąż Reginy
+221;Karczmarczykowa;Regina;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;Regina Karczmarczykowa, żona Adama Karczmarczyka
+222;Karczmarka;Róża;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+223;Karpik;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Mikołaj Karpik, kupiec lubelski, odbiorca partii wełny
+224;Karski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;Marcin Karski kupiec z Kazimierza Dolnego, wierzyciel handlowy
+225;Kaskorowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+226;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;
+227;Kendra;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;
+228;Kierzek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
+229;Kierzek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#137, #138, #139;1596–1597;3;Wojciech Kierzek, Albertus Kierzek, kontrahent frymarku, Wojciech Kierzek, frymark placu Workowskiego z rajcą Stanisławem Sapałą
+230;Kiik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Tomasz Kiik zmarły, brat Wojciecha Kiika i Katarzyny Barszczowej
+231;Kiik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Wojciech Kiik, mąż Hanny Kiikowej, apelujący do rady miejskiej
+232;Kiikowa;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Hanna Kiikowa, oskarżona o nieskromność w Majsdorfie i bójkę dzbankiem, skazana na wieżę
+233;Klimek;Jan;Kraśnik (Zastawie);Mieszkaniec / Rolnik;#20;1595;1;Klymek
+234;Klimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#44, #65, #146;1596–1599;3;
+235;Kmora;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Maciej Kmora, mistrz czeladnika Chorobołki
+236;Kobal;Wojciechowa;Kraśnik;Mieszkanka (wdowa);#46;1596;1;
+237;Kobalowa;Wojciechowa;Kraśnik;Mieszczanka;#46;1596;1;Kobalowa, żona Wojciecha Kobala
+238;Kobiel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#134;1589;1;
+239;Kobiel;Jan z Sułowa;Sułów;Szlachcic / Wierzyciel hipoteczny;#134, #135;1589;2;Jan Kobiel z Sułowa, nobilis Ioannes Kobiel de Sułow, Ioannes Kobiel de Sułow, szlachcic wierzyciel 20 grzywien u Żyda Abrusia
+240;Kocbor;Jan;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Koczbor
+241;Koczonek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;
+242;Koczorowicz;Chacko;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+243;Komornik;Thomas;Kraśnik;Wójt;#107;1599;1;
+244;Komornik jancza sulowa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+245;Komornik tomasza skrzypka;Janusz;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;
+246;Komorowska;Maryna;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
+247;Komorowski;Andrzej;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#32;1595;1;
+248;Koniarka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#162;1589;1;
+249;Koniecpolski;Jerzy;Kraśnik;Młynarz;#102;1599;1;
+250;Konkol;Jakub;Góry i Podlesie;Wójt;#51;1598;1;
+251;Konopka;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#41;1596;1;Jan Konopka z Lasoczyna, kramarz poszkodowany na rynku
+252;Korz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+253;Korz;Jacenty;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+254;Korz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+255;Korzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#166;1595;1;
+256;Kosiński;Adam;Kraśnik;Wójt;#105;1599;1;
+257;Koskowa;Anna;Góry i Podlesie;Mieszkaniec / Posesjonat;#77;1599;1;Anna Koskowa wdowa po Kosku, kwitacja z sumy wiana i wyprawy
+258;Kowal;Michał;Kraśnik;Kowal;#121;1600;1;
+259;Kowal;Wojciech;Kraśnik;Kowal;#68;1598;1;Wojciech Kowal, mistrz kowalski kraśnicki, taksator żelaza
+260;Kowalik;Jan;Kraśnik;Rzemieślnik / Mistrz kowalski;#75;1598;1;Jan Kowalik kowal
+261;Kowalik;Mateusz;Kraśnik;Kowal;#160;1589;1;
+262;Kowalik;Stanisław;Kraśnik;Rzemieślnik / Kowal;#75;1598;1;Stanisław Kowalik kowal
+263;Koza;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+264;Kozak;Michał;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;Michał Kozak gienerał i sługa podkomorzego z Rzeczycy, ofiara napaści w łaźni
+265;Kozan;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+266;Kozanowicz;Italsik;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+267;Kozarzewski;Matys;Zamek Kraśnicki;Sługa zamkowy / Żołnierz starościński;#40;1596;1;Matys Kozarzewski sługa zamku kraśnickiego, Matys Kozarzewski sługa zamku kraśnickiego, napaść tasakiem
+268;Koziarzowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;Koziarzowski Mateusz / Maciej
+269;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
+270;Kozieł;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Kozieł ze wsi Sulów, kupiec leśny, kontrakt na dostawę gontów i tarcic
+271;Kołodziej;Jan;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+272;Kościelna;Regina;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
+273;Kościelna Kantorchowa;Regina;Kraśnik;Mieszczanka / Darczyńca;#75;1598;1;Regina Kościelna Kantorchowa, Kantorka Regina
+274;Kośka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#145;1589;1;
+275;Koźmian;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+276;Kramarz;Jakub;Rzędowice;Kupiec kramny;#39;1596;1;Jakub Kramarz z Rzędowa / Rzędowic
+277;Kramarz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+278;kramarz u Pawłowskiej;Mikołaj;Kraśnik;Rzemieślnik / Kramarz;#106;1599;1;Mikołaj kramarz u Pawłowskiej
+279;Kramarz z rzędowa;Jakub;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
+280;Kramarzowa;Elżbieta;Rzędów;Mieszkaniec / Posesjonat;#39;1596;1;
+281;Krasnostawski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+282;Krawc;Augustynowa;Kraśnik;Mieszkanka (wdowa);#142;1597;1;
+283;Krawcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Jadwiga Krawcowa, żona mistrza Augustyna Krawca
+284;Krawczyk;Sebastian;Góry i Podlesie;Krawiec;#156;1597;1;
+285;Krawczyk;Sebastian syn Sobkowej;Kraśnik;Rzemieślnik / Sukcesor;#156;1597;1;Sebastian Krawczyk syn Sobkowej, rzemieślnik kraśnicki, rzemieślnik dochodzący praw do kamienicy rynkowej od Butów
+286;Krawczykowski;N.;Kraśnik;Mieszkaniec / Oskarżony o kradzież;#160, #164;1589;2;Krawczykowski z Kraśnika, oskarżony o kradzież 4 korcy żyta z gumna Anny Doktorowej
+287;Krawiec;Augustyn;Kraśnik;Krawiec;#62, #140;1597–1598;2;Augustyn Krawiec, mistrz krawiecki, asystent prawny Katarzyny Barszczowej
+288;Krzętka;Stefan;Kraśnik;Mieszkaniec / Poręczyciel;#161, #165;1589;2;Stefan Krzętka, poręczyciel sądowy, współporęczyciel kaucji 100 grzywien za zabójstwo Rybki
+289;ks. Marcin;proboszcz kraśnicki;Kraśnik;Duchowny / Prepozyt kościoła fary;#148, #150;1597;2;ks. Marcin prepozyt i proboszcz kościoła parafialnego w Kraśniku, prepozyt kościoła farnym w Kraśniku, windykacja dziesięcin i altaria
+290;Ksawerycki;Józef;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
+291;Kuc;N.;Kraśnik (Podlesie);Przedmieszczanin / Rolnik;#46;1596;1;Kuc z Podlesia, sąsiad roli
+292;Kudełka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
+293;Kula;Stanisław;Kraśnik;Kowal;#26;1595;1;Stanisław Kula kowal kraśnicki
+294;Kulia;Jan;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;Jan Kulia, brat Knucia, podział placu i budynków przy Bramie Drzewianej
+295;Kulia;Knuć;Kraśnik;Mieszkaniec / Posesjonat;#72;1598;1;Knuć Kulia, współwłaściciel placu miejskiego przy Bramie Drzewianej
+296;Kulina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Zofia Kulina Mazurka, wdowa po Stanisławie Wróblu, komplanacja o dom i ogród
+297;Kunczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#55;1598;1;Łukasz Kunczak z Łopiennika, wierzyciel długu 8 grzywien
+298;Kup;Mikołaj;Kraśnik;Wójt;#151;1597;1;
+299;Kupiec z kamionki;Maciej;Kamionka;Mieszkaniec / Posesjonat;#12;1595;1;
+300;Kupiec z sokołowa;Andrzej;Sokołów;Mieszkaniec / Posesjonat;#12;1595;1;
+301;Kuśnierz;Wojciech;Kraśnik;Rzemieślnik / Kuśnierz;#57;1597;1;Wojciech Kuśnierz, mąż Zofii
+302;Kuśnierzowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Zofia Kuśnierzowa, żona Wojciecha Kuśnierza
+303;Kędra;Wincenty;Kraśnik;Ławnik;#14;1595;1;Kendra, ławnik przysięgły
+304;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Wincenty Kłopocik, świadek pobicia
+305;Kłos;Maciej;Kraśnik;Ławnik;#50;1598;1;
+306;Lasocina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#133;1597;1;
+307;Lasota;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+308;Lasota;Paweł;województwo lubelskie;Mieszkaniec / Posesjonat;#23;1595;1;Paweł Liasota, Lasotha, woźny generalny ziemski lubelski, ministerialis generalis
+309;Latoch;Simon;Kraśnik;Mieszkaniec / Posesjonat;#105;1599;1;
+310;Lenartek;N.;Kraśnik;Młodzieniec;#25;1595;1;chłopak, wspólnik Najduczka
+311;Liatszkowicz;Bartosz;Kraśnik;Mieszkaniec;#114;1600;1;Bartosz Liatszkowicz, Bartłomiej Lackowicz
+312;Liatszkowicz;Jędrzej;Kraśnik;Mieszkaniec / Posesjonat;#114, #120;1600;2;Jędrzej Liatszkowicz, Andrzej Lackowic / Lackowicz
+313;Liatszkowiczowna;Jagwieszka;Kraśnik;Mieszkaniec / Posesjonat;#112;1600;1;
+314;Lieszkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
+315;Lis;Jakub;Stróża;Mieszkaniec wsi Stróża;#103, #104;1599;2;Jakub Lis ze Stróży
+316;Lisielec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+317;Liszkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;Liskowa
+318;Liszpin;Jan;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Jan Liszpin vel Liszkin, dłużnik Jakuba Babicza ze Stróży na 10 florenów
+319;Liszyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+320;Liszyk;Adam z Sulczyna;Sulczyn;Mieszkaniec / Dłużnik;#149;1597;1;Adam Liszyk z Sulczyna, Adam Liszyk z Sulczyna, dłużnik Jana Lasoty
+321;Ludźwiaczek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;Bartosz Ludźwiaczek z Budzynia, poszkodowany siekierą
+322;Maluszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+323;Marek;N.;Szczebrzeszyn;Kupiec szczebrzeszyński;#53;1598;1;Marek mieszczanin i kupiec ze Szczebrzeszyna
+324;Markowic;Urban;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+325;Maszowyna;Iwan;Kraśnik;Mieszkaniec / Opiekun prawny;#133;1597;1;Iwan Maszowyna, tutor Agnieszki Puszkówny, Iwan Maszowyna tutor i opiekun prawny sieroty Puszkówny
+326;Matys;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;
+327;Matysowicz;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#105;1599;1;
+328;Matysowicz Ratuszny;Jan;Kraśnik;Urzędnik / Szafarz Wagi Solnej;#105;1599;1;Jan Matysowicz Ratuszny, szafarz miejski kraśnicki
+329;Mazur;Albert;Kraśnik;Mieszkaniec / Świadek obdukcji;#128;1594;1;Albert Mazur, Wojciech Mazur, Albert Mazur, Wojciech Mazur, świadek obdukcji krwawych ran na polu
+330;Mazur;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;
+331;Mazur;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Maciej Mazur rzeźnik kraśnicki
+332;Mazur;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Matys Mazur, świadek naoczny w sprawie częstochowskiej
+333;Mazur;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+334;Mazurek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
+335;Mazurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;Mazurczek, mistrz tkacki
+336;Małofiejowicz;Iwan;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+337;Mech;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Wojciech Mech, świadek o podżeganiu do fałszywej przysięgi przez Marcina Chrapka
+338;Michałowa;Zofia córka;Kraśnik;Mieszczanka / Sukcesorka;#121, #122;1600;2;Zofia córka Michała Łysego Kowala, małżonka Jana Kantorka, Zofia córka Michała Łysego Kowala, żona Jana Kantorka, posag 24 grzywien
+339;Michałowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#121;1600;1;
+340;Miedziak;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+341;Miedziak;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+342;Mieruszyńca;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+343;Mieszczanin szczebrzeszyński;Marek;Kraśnik;Mieszkaniec / Posesjonat;#53;1598;1;
+344;Mitek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#69, #139;1597–1598;2;Marcin Mitek, poręczyciel finansowy za Matysa Greka
+345;Mitkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#141;1598;1;
+346;Mitkowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#140;1597;1;
+347;Międzygóra;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
+348;Miłosz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#28;1595;1;
+349;Mniszek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+350;Mniszek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;Wojciech Mniszek sprawca pobicia
+351;Modzelowski;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596;1;Adam Modzelowski dictus Szczurzykowic
+352;Modzelowski szczurzykowic;Adam;Kraśnik;Mieszkaniec / Posesjonat;#46;1596;1;
+353;Moskalowna;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#158;1597;1;
+354;Mrówka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Mrowka
+355;Mularz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;Matys Mularz (Murator), mistrz mularski kraśnicki
+356;Mularz;Matys z Rzeczycy;Rzeczyca;Mularz / Mieszkaniec wsi;#101;1599;1;Matys Mularz z Rzeczycy
+357;Mularzka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+358;Murator;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+359;Myszanka;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+360;Myszanka;Felicja;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+361;Myśliszowski;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Tomasz Myśliszowski capitaneus Krasnensis, szlachetny starosta kraśnicki i urzędowski, zatwierdza wyroki i ugody wójtowskie
+362;Młynarz;Marcin;Kraśnik;Młynarz;#76;1599;1;Marcin Młynarz ze Stróży, kupiec mączny i zbożowy, zapis długu
+363;Młynarz;Wojciech;Kraśnik;Młynarz;#102;1599;1;
+364;Nagórska;pani N.;Kraśnik;Szlachcianka / Wierzycielka;#156;1597;1;pani Nagórska z Kraśnika, szlachcianka, spór o zastaw kamienicy w Rynku
+365;Najduczek;N.;Kraśnik;Czeladnik krawiecki;#25;1595;1;syn Najdukowej, krawczyk
+366;Najdukowa;N.;Kraśnik;Mieszczanka;#25;1595;1;Naydukowa, wdowa krawiecka
+367;Nietyxa;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+368;Niewola;Krzysztof;Kraśnik;Mieszkaniec;#21;1595;1;Krzysztof Niewola
+369;Niezabitowski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;Szymon Niezabitowski, sprawca zbrojnego najazdu na dom Wolaków
+370;Niezgoda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+371;Niezgodzina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+372;Niski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Nyski, uczeń piekarski u Dula
+373;Nowaczek;Hryczko;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Hryczko Nowaczek, kwitujący Żyda Pagiela z długu
+374;Odwłoczybrzuch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+375;Ogon;Piekop;Kraśnik (Podlesie);Przedmieszczanin / Rolnik;#46;1596;1;Piekop Ogon, posesjonat na Podlesiu
+376;Ogon;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;
+377;Ogonowa;N.;Kraśnik;Szlachcianka;#35;1595;1;pani Ogonowa
+378;Olencki;Jan;Kraśnik;Mieszkaniec / Poręczyciel kryminalny;#161, #165;1589;2;Jan Olencki, fideiussor Walentego Barszcza na 100 grzywien, fideiussor Walentego Barszcza na kwotę 100 grzywien kaucji
+379;Orlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;Jan Orlik, dzwonnik kościoła Najświętszej Panny Maryi w Kraśniku
+380;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#36, #60;1595–1597;2;Stanisław Orzeł poręczyciel
+381;Orłówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Zofia Orłówna, żona Benedykta Ruskiego, bezpotomna zmarła
+382;Ostrowski;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#20;1595;1;Felix Ostrowski capitaneus, starosta zamkowy
+383;Ostrynowski;Jarosz;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+384;Ozimek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#119;1600;1;
+385;Ozimek;Stanisław;Kraśnik;Mieszkaniec;#58;1597;1;Stanisław Ozimek
+386;Ożóg;Mikołaj;Kraśnik;Rzemieślnik / Szewc;#17;1595;1;Ożga, Ożóg szewc
+387;Pagiel;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Jakub Pagiel Judaeus, kupiec wełniany z Kraśnika
+388;Pająk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#24, #27;1595;2;Jakub Pajak, wdowiec po Elżbiecie Chabajowej
+389;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#25, #29;1595;2;Paweł Pajak, brat Jakuba
+390;Pantentore;Marcin;Kraśnik;Rzemieślnik / Postrzygacz sukna;#140;1598;1;Marcin Pantentore, magister scissor pannorum, postrzygacz sukna, Marcin Pantentore scissor pannorum, mistrz postrzygacz sukna, inwentarz 3 nożyc
+391;Pantentorówna;Katarzyna;Kraśnik;Mieszczanka / Sukcesorka cechowa;#140;1598;1;Katarzyna Pantentorówna, córka postrzygacza sukna, Katarzyna Pantentorówna, dziedziczka warsztatu postrzygackiego Marcina
+392;Parnus;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;Marcin Parnus sprawca najścia domowego
+393;Pasiaszek;Vincenty;Kraśnik;Mieszkaniec / Posesjonat;#122;1595;1;
+394;Pasiaszek;Wincenty;Kraśnik;Mieszkaniec / Dłużnik wekslowy;#122, #123;1595;2;Vincenty Pasiaszek, Wincenty Pasiaszek, Vincenty Pasiaszek, dłużnik Żyda Italsika syna Jakuba Kozana
+395;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#153;1597;1;
+396;Petrykowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;
+397;Piaszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Piaszek, mieszkaniec kraśnicki, oprawił posag i wiano Heleny Bargielówny
+398;Piaszkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;Katarzyna Piaszkowa, mieszczanka, świadek i strona w sporze
+399;Piechurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
+400;Piekarczyk;Marcin;Kraśnik;Rajca;#79, #158;1597–1599;2;Kamieński, antiquus consul, b. rajca
+401;Pielaszek;Marcin;Kraśnik;Rajca;#146;1589;1;
+402;Pietruszkowic;Jantosz;Kraśnik;Mieszkaniec / Rolnik;#66;1597;1;Jantosz Pietruszkowic, Pietruszkowicz, Jantosz Pietruszkowic, mieszkaniec, spór o parkan posesji z szewcem Matysem Gardzielem
+403;Piotrowska;Pawłowa;Kraśnik;Mieszkanka (wdowa);#142;1662;1;
+404;Piotrowska;Pawłowa wdowa;Kraśnik (Przedmieście);Szlachcianka / Posesjonatka;#142, #143, #144, #145;1662–1665;4;pani Pawłowa Piotrowska, nobilis vidua Pauli Piotrowski, pani Pawłowa Piotrowska, nobilis vidua, rejestr szkód wojennych potopu
+405;Piotrowski;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+406;Piotrowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#142;1640;1;
+407;Piotrowski;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9, #52, #151;1595–1598;3;Stanisław Piotrowski, strona sporu apelacyjnego z Szostkami
+408;Pisarszyna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+409;Pisarzanka;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;Małgorzata Pisarzowa, Pisarzanka w Rynku
+410;Piskorz;Stanisław;Kraśnik;Ławnik;#67;1599;1;Stanisław Piskorz ławnik, ławnik przysięgły, obdukcja ubytku miodu
+411;Piszczek;Jan;Kraśnik;Mieszkaniec;#106;1599;1;Jan Piszczek
+412;Piwowar;Błażej;Kraśnik;Rzemieślnik / Piwowar;#31;1595;1;Błażej Piwowar miejski
+413;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Piątek, asystent i poręczyciel przy intercyzie małżeńskiej
+414;Podmurna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#39;1596;1;Zofia Podmurna, żona rajcy Jakuba Podmurnego, obdukcja pobicia przez sługi Rudnickiego
+415;Podmurny;Jakub;Kraśnik;Rajca;#39;1596;1;Jakub Konkol Podmurny, rajca i wójt kraśnicki, inwestycje ratuszne
+416;Podsianek;Michał;Kraśnik;Mieszkaniec / Sprawca najazdu;#147;1597;1;Michał Podsianek, sprawca gwałtu na gumnie Świszka, sprawca gwałtownego najazdu na gumno i połamania cepów
+417;Pogorzały;Szymon;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;#129, #130;1594;2;Szymon Pogorzały przedmieszczanin, Szymon Pogorzały przedmieszczanin, świadek zastawu domu Janaszka
+418;Pomsta;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1597;1;
+419;Pomyski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Pomysthi, Pomyszki
+420;Posmysz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Marcin Posmysz kramarz kraśnicki, towary łokciowe
+421;Postrzygacz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+422;Postrzygacz;Simon;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+423;Postrzygaczka;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+424;Postrzygaczowic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+425;Postrzygaczowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#11, #111;1595–1600;2;
+426;Pousek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+427;Pousek;Wojciech z Wierzchowisk;Wierzchowiska;Poddany szlachecki;#157;1597;1;Wojciech Pousek z Wierzchowisk, poddany Piotra Gorajskiego, poddany Piotra Gorajskiego z Wierzchowisk, poturbowany na jarmarku
+428;Proboszcz kraśnicki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;
+429;Procek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+430;Prochoński;Lenart;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Leonardus Prochoński, szlachcic kraśnicki
+431;Prochoński;Szczęsny;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#33;1595;1;Felix Prochoński capitaneus Krasnensis, starosta kraśnicki
+432;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;Marcin Prokop z Rynku, właściciel kamienicy murowanej w Rynku
+433;Prokop;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#138;1596;1;Stanisław Prokop, sąsiad placu Workowskiego, Stanisław Prokop, posesjonat sąsiadujący z placem Workowskim
+434;Prokopek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+435;Prokopkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+436;Prokopowic;Knuć;Kraśnik;Mieszkaniec / Bartnik;#95;1599;1;Knuć Prokopowic, Knuć syn Prokopa
+437;Prokopówna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#75;1599;1;Dorota Prokopówna Szafrankowa, żona Adama Szafranka, córka Marcina Prokopa, współwłaścicielka kamienicy w Rynku
+438;Prokopówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+439;Przekaza;Adam;Góry i Podlesie;Mieszkaniec / Posesjonat;#58;1597;1;Adam Przekaza, dłużnik Stanisława Ozimka na 14 grzywien
+440;Przełkowicz;Michel;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+441;Przybyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+442;Przykora;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
+443;Przytoczka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;Jakub Przytoczka szwagier, sprawca spustoszenia domu Augustynowskiego
+444;Przęsna;Maryna;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+445;Pstrak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;Szymon Pstrak poszkodowany
+446;Pszcząg;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+447;Pszonka;Marcin;Babin;Mieszkaniec / Posesjonat;#27;1595;1;Marcin Pszonka z Babina, szlachetny plenipotent oskarżycieli
+448;Puk;Leonard;Góry i Podlesie;Mieszkaniec / Posesjonat;#124;1595;1;
+449;Pustek;Bartosz;Kraśnik;Mieszkaniec / Sukcesor / Plenipotent;#151, #153, #154;1597;3;Bartosz Pustek, Bartłomiej Pustek, sukcesor schedy, Bartłomiej Pustek, plenipotent sióstr Pustkownych do schedy ojczystej
+450;Pustek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+451;Pustek;Simon;Kraśnik;Mieszkaniec / Posesjonat;#154;1597;1;
+452;Pustkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+453;Pustkowna;Dorota;Kraśnik;Panna / Sukcesorka;#151, #154;1597;2;Dorota Pustkowna, siostra Bartosza Pustka, Dorota Pustkowna, sukcesorka schedy ojczystej
+454;Pustkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+455;Puszka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;Wojciech Puszka, Wojciech Puszka, zapis 15 florenów dla córki naturalnej Cybusionki
+456;Puszkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#132;1597;1;
+457;Pyróg;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44;1596;1;Stanisław Pyróg, sprawca pobicia drągiem
+458;Pyszek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+459;Pyszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+460;Półtorak;N. burmistrz;Kraśnik;Urzędnik / Burmistrz kraśnicki;#149;1597;1;Półtorak proconsul Krasnensis, proconsul Krasnensis, pozwany o bezprawny areszt w kordegardzie
+461;Pęzik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+462;Płaczek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#62;1597;1;
+463;Płodowny;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+464;Racięcki;N.;Kraśnik;Dzierżawca / Szlachcic;#50;1598;1;pan Racięcki dzierżawca
+465;Ratoska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;Katarzyna Ratoska, matka Jadwigi Rodzonkowej i Stanisława Augustynowicza
+466;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#42, #51;1596–1598;2;Jakub Rodzonek, mąż Jadwigi z Ratoskich
+467;Rodzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Wawrzyniec Rodzonek, pozwany o prawo bliższości do roli
+468;Rodzonkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+469;Rodzonkowa;Jadwiga;Kraśnik;Mieszczanka;#42, #43;1596;2;Jadwiga Rodzonkowa z Ratoskich
+470;Rodzonkowa z ratoskich;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#42;1596;1;
+471;Rogalek;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin / Rolnik;#128;1594;1;Stanisław Rogalek przedmieszczanin kraśnicki, Stanisław Rogalek przedmieszczanin, protestacja o zaoranie miedzy roli
+472;Rogałek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+473;Rogowicówna;Barbara;Kraśnik;Mieszczanka;#49;1598;1;Barbara Rogowicowna, Rogownowna
+474;Rolnik;Piotr;Kraśnik;Przedmieszczanin / Rolnik;#164;1589;1;Piotr Rolnik z przedmieścia, świadek przysięgi o zboże i granice pola z przedmieścia
+475;Rozdroż;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Bartosz Rozdroż, syn Katarzyny, poraniony maczugami
+476;Rozdroż;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;
+477;Rozdroż;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Walenty Rozdroż, syn Katarzyny Rozdrożyny
+478;Rozdrożyna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#96;1599;1;Katarzyna Rozdrożyna wdowa, ofiara nocnego najazdu
+479;Rudnicka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Agnieszka Rudnicka, mieszczanka, kwitacja z oprawy posagowej
+480;Rudnicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;Jan Rudnicki ze szlachty z Rudnika, wierzyciel wielkich sum podzastawnych
+481;Rudnicki;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#88;1599;1;Mikołaj Rudnicki ze szlachty, brat stryjeczny Jana, współwierzyciel
+482;Rudny;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Rudney, piekarz
+483;Rudny jaśkowicz;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+484;Rupik;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Jakubek Rupik Judaeus, Rupik Żyd
+485;Rurmistrz;Jerzy;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Georgius Magister canaliarius, magister canaliarius miejski
+486;Ruski;Benedykt;Kraśnik;Mieszkaniec / Posesjonat;#60;1597;1;Benedykt Ruski, szwagier Stanisława Orła
+487;Rybczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#134;1597;1;
+488;Rybitw;Andrzej;Kraśnik;Wójt;#135;1589;1;
+489;Rybitw;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;
+490;Rybitw;Mikołaj wnuk;Kraśnik;Mieszkaniec / Sukcesor;#136;1596;1;Mikołaj wnuk Andrzeja Rybitwa, Nicolaus nepos Rybitw, Mikołaj wnuk Andrzeja Rybitwa, pozwany o zagrodzenie fosy miejskiej parkanem
+491;Rybitwek;Andrzej;Kraśnik;Rajca;#103;1599;1;
+492;Rybitwek;Thomas wnuk;Kraśnik;Mieszkaniec;#103;1599;1;Thomas wnuk Andrzeja Rybitwka, Tomasz Rybitwek
+493;Rybitwek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+494;Rybitwowna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+495;Rybitwowna;Matysowa;Kraśnik;Mieszczanka;#58;1597;1;Matysowa Rybitwowna, żona Rybitwy
+496;Rybka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+497;Rybka;Jan zamordowany;Kraśnik;Mieszkaniec / Ofiara zabójstwa;#161, #164, #165;1589;3;Jan Rybka zabity, ofiara ugodzenia nożem przez Barszcza, ofiara zabójstwa nożem przez Walentego Barszcza, proces gardłowy 1589
+498;Rybkowic;Jan;Kraśnik;Mieszkaniec;#53;1598;1;Jan Rybkowic, przeciwnik Ziarnka
+499;Ryk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+500;Ryk;Jan złotnik;Kraśnik;Rzemieślnik / Mistrz złotniczy;#149;1597;1;Jan Ryk aurifaber, mistrz kunsztu złotniczego, aurifaber Krasnensis, mistrz złotniczy, licytacja kamienicy
+501;Rykowa Złoszczykowa;Janowa wdowa;Kraśnik;Mieszczanka / Wdowa;#141;1598;1;Janowa Rykowa Złoszczykowa, wdowa po złotniku Janie Ryku, wdowa po złotniku Janie Ryku, spór o ruchomości wójta Wygasłego
+502;Rymarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#116;1600;1;Marcin Rymarz, świadek kradzieży gęsi
+503;Rzepka;Andrzej;Kraśnik;Ławnik;#109;1600;1;
+504;Rzepka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#94;1599;1;
+505;Rzepka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;
+506;Rączka;Bartłomiej;Góry i Podlesie;Mieszkaniec / Posesjonat;#164;1589;1;
+507;Sadek;Melchior;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+508;Samszecki;Mikołaj;Włodzimierz Wołyński;Mieszkaniec / Posesjonat;#30;1595;1;
+509;Sapal;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#126;1594;1;
+510;Sapalina;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#10;1595;1;Sapałowa, żona Stanisława Sapały
+511;Sapała;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1594;1;
+512;Sapała;Stanisław;Kraśnik;Burmistrz;#9, #45, #124, #151;1594–1597;4;
+513;Sapałka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#151;1597;1;
+514;Sapałka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+515;Sapałka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#102;1599;1;Stanisław Sapałka, zięć Bernarda Włocha
+516;Sebastjanek;Stanisław;Kraśnik;Wójt;#128;1594;1;
+517;Seraszkiewicz;Balcer;Kraśnik;Urzędnik / Wójt kraśnicki 1665;#144;1665;1;Balcer Seraszkiewicz, advocatus Krasnensis 1665, advocatus Krasnensis 1665, wójt przewodniczący sądu deputatów
+518;Seraszkiewicz;Baltazar;Kraśnik;Wójt;#144;1665;1;
+519;Sienko;N.;Czarnopol (Wołyń);Kupiec wołowy / Mieszczanin czarnopolski;#43, #44, #45, #46;1596;4;Sienko z Czarnopola na Wołyniu, kupiec wołowy
+520;Sierwa;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+521;Siniec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Jan Siniecz
+522;Siniecz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#27;1595;1;
+523;Sinricz;Jan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
+524;Siwczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+525;Siwczyk;Matys;Kraśnik;Mieszkaniec / Poszkodowany;#157, #158;1597;2;Matys Siwczyk, ofiara zmasakrowania i rozcięcia ucha, ofiara zmasakrowania kijami, ucięte ucho i pęknięcie czaszki
+526;Siwczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+527;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #29;1595;2;Jan Siwiec, mieszkaniec kraśnicki, kwitacja zobowiązań
+528;Skala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#102;1599;1;Bernard Skala vel Skalia, Bernardus Italus, kupiec włoski w Kraśniku
+529;Skopel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#18;1595;1;Skopel
+530;Skrobek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#98;1599;1;Stanisław Skrobek tkacz z Krakowa, ofiara śmiertelnej napaści czeladzi krawieckiej
+531;Skropek;Mikołaj;Kraśnik;Krawiec;#50;1598;1;Mikołaj Skropek, mistrz cechu krawieckiego
+532;Skrzynnik, kupiec żydowski;Bysko;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+533;Skrzypek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#156;1597;1;
+534;Skrzypek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#63;1597;1;Tomasz Skrzypek, muzykant miejski, dłużnik Agnieszki Jaimkowej
+535;Smielik;Andrzej;Kraśnik;Stelmach;#23;1595;1;Smielik vel Szmielik stelmachowicz
+536;Sobiecki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#33;1595;1;Paweł Sobiecki baccalaureus scholae Krasnensis, bakałarz szkoły kraśnickiej
+537;Solarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;Bartosz Solarz, skazany na wieżę za oszczerstwo wagi solnej
+538;Sosnowa;Hanna;Kraśnik;Mieszczanka;#38;1595;1;Hanna Sosnowa z Jaśkowiczów
+539;Sosnowa z jaśkowiczów;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#38;1595;1;
+540;Sowa;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
+541;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#103;1599;1;
+542;Sowa;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+543;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#136;1596;1;Wojciech Sowka, świadek kontraktów i ugód sąsiedzkich w ratuszu
+544;Sowikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#75;1598;1;Jan Sowikła, świadek urzędowy darowizny ogrodu na rzecz kościoła farnym
+545;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#152;1597;1;
+546;Spigańczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#159;1589;1;
+547;Spigańczyk;Wojciech z Blinowa;Blinów;Mieszkaniec wsi Blinów;#159, #162;1589;2;Wojciech Spigańczyk z Blinowa, deponent sukna z Blinowa w sporze z Kamieńskimi
+548;Spyrzik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+549;Stalinka;Sebastian;Góry i Podlesie;Mieszkaniec / Posesjonat;#122;1595;1;
+550;Starczewski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;
+551;Starybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;
+552;Starzybrat;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#14;1595;1;testator z 1595, zmarły mieszczanin
+553;Stepłucz;N.;Kraśnik;Mieszkaniec;#56;1598;1;Stepłucz wierzyciel
+554;Stogniew;Adam;Kraśnik;Ławnik;#161;1589;1;
+555;Strach;Jakub;Kraśnik;Wójt;#6;1595;1;Iacobus Strach minister civitatis, sługa miejski
+556;Strych;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;Stryk, piekarz
+557;Strykowski;Grzegorz;Rudnik;Mieszkaniec / Posesjonat;#12;1595;1;ze Strykowa, kupiec z Rudnika
+558;Stróżyk;Wojciech;Kraśnik;Mieszkaniec;#65;1597;1;Wojciech Stróżyk, Strozyk
+559;Stręgowska;N.;Liszonek;Szlachcianka;#50;1598;1;pani Stręgowska z Liszonka
+560;Stypuła;Jan;Rzędowice;Mieszkaniec / Posesjonat;#24;1595;1;Jan Stypuła z Rzędowic
+561;Stęzanka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#111;1600;1;
+562;Such;Mikołaj;Kraśnik;Mieszkaniec;#81;1599;1;Mikołaj Such
+563;Such;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#81;1599;1;Stanisław Such
+564;Sulowa;Janczo;Kraśnik;Mieszkaniec / Posesjonat;#78;1599;1;
+565;Supka;Wojciech;Kraśnik;Duchowny / Augustianin;#57, #58;1597;2;ksiądz Wojciech Supka augustianin, konwentualny kraśnicki
+566;Surma;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#84;1599;1;
+567;Suszko;Jakub;Kraśnik;Ławnik;#129;1594;1;
+568;Suszkowski;Tomasz;Kraśnik;Przedmieszczanin;#49;1598;1;Tomasz Suszkowski przedmieszczanin
+569;Suślik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#95;1599;1;
+570;Szabatka;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+571;Szabatka;Stanisław;Kraśnik;Ławnik;#86;1599;1;
+572;Szafranek;Adam;Kraśnik;Mieszkaniec / Posesjonat w Rynku;#76;1598;1;Adam Szafranek z Rynku
+573;Szapała;Stanisław;Kraśnik;Rajca;#96;1599;1;
+574;Szarfankiewicz;Wojciech;Kraśnik;Krawiec;#144;1665;1;
+575;Szatłowska;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Szatlowska
+576;Szałowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+577;Szałowska;Anna z Bodzentyna;Bodzentyn;Mieszczanka z Bodzentyna;#146;1597;1;Anna Szałowska z Bodzentyna, honesta vidua, honesta vidua de Bodzentyn, kwitacja z posagu 12 grzywien
+578;Szczecina;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#71;1598;1;Marcin Szczecina, sąsiad Solarza, świadek naoczny wybuchu ognia
+579;Szczecinina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73;1598;1;Katarzyna Szczecinina wdowa, protestacja o szkody dachowe i zaciekanie wody
+580;Szczęsna Ślosarka;N.;Kraśnik;Mieszczanka / Wdowa cechowa;#80;1599;1;Szczęsna Ślosarka, wdowa po ślusarzu
+581;Szewczyk;Jan;Kraśnik;Szewc;#99;1599;1;
+582;Szewczyk;Stanisław;Kraśnik;Szewc;#99;1599;1;
+583;Szmigiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#128;1594;1;
+584;Szpala;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#129;1594;1;
+585;Szymczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#149;1597;1;
+586;Szymonowicz;Antoni;Kraśnik;Mieszkaniec;#49;1598;1;Antoni Szymonowicz dictus Marcik
+587;Szymonowicz dictus marcik;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
+588;Sówka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Sowka
+589;Tatlinina;Żydówka;Kraśnik;Mieszkanka żydowska;#120;1600;1;Tatlinina Iudaea, Żydówka Tatlinina
+590;Tentore;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+591;Tentorówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+592;Tokarczyk;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;Kasper Tokarczyk z Bielin, czeladnik tokarski, świadek fałszowania czopu beczki
+593;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#56;1598;1;Marcin Tokarz, czeladnik tokarski, syn Stanisława, pobity kijem
+594;Tokarz;Stanisław;Kraśnik;Rzemieślnik / Mistrz tokarski;#56;1598;1;Stanisław Tokarz senior, mistrz tokarki kraśnickiej
+595;Tokarz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#57;1598;1;Szymon Tokarz, mąż poszkodowanej w bójce z kuśnierzami
+596;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1597;1;Barbara Tokarzowa, poszkodowana brzemienna w najeździe Niezabitowskiego
+597;Trojanek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#26;1595;1;Jakub Trojanek poszkodowany
+598;Trojanowna;Zofia;Kraśnik;Mieszczanka / Poszkodowana;#148;1597;1;Zofia Trojanowna, ofiara brutalnego pobicia przez Wolaka, ofiara brutalnego skatowania przez Mikołaja Wolaka, rany i sińce
+599;Trzciński;ks. N.;Wilkołaz;Duchowny / Pleban wilkołaski;#83;1599;1;ksiądz Trzciński pleban wilkołaski
+600;Trzemiodkowna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#157;1597;1;
+601;Twardek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+602;Twarogowa;Elżbieta;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+603;Twaróg;Jan;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+604;Twaróg;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+605;Uliwas;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Vliwas
+606;Ungorzycki;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+607;Uszlarz;Stanisław;Kraśnik;Rzemieślnik / Wytwórca uszli i uprzęży;#132, #133;1597;2;Stanisław Uszlarz, rzemieślnik wytwórca uprzęży, Stanisław Uszlarz rzemieślnik uprzęży, poręczyciel opiekuńczy sieroty
+608;Wagłowski;Laurenty;Kraśnik;Mieszkaniec / Posesjonat;#159;1589;1;
+609;Wardęga;Andrzej;Kraśnik;Mieszkaniec / Lokator;#65;1597;1;Andrzej Wardęga, Wardega
+610;Waza;Zygmunt iii;Kraków;Mieszkaniec / Posesjonat;#30;1595;1;
+611;Wesołowski;Mateusz;Kraśnik;Krawiec;#61;1597;1;Matys Wesołowski krawiec z Bołtryc, krawiec kraśnicki, ofiara nocnej napaści sług Żyda Marka
+612;Wełna;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#22;1595;1;
+613;Wieczław;N.;Kraśnik;Sługa dworski;#35;1595;1;Wieczław sługa pani Ogonowej
+614;Wielguszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#86;1599;1;
+615;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#97;1599;1;Szymon Wierzbicki z Bielin, sprawca krwawego najazdu na dom Rozdrożów
+616;Wilga;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#109;1600;1;Wincenty Wilga proconsul, burmistrz kraśnicki obierany na Rok 1600
+617;Witek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Sebastian Witek, świadek kontraktu ślubnego Piaszka z Bargielówną
+618;Wiązek;Matys;Kraśnik;Mieszkaniec;#24;1595;1;Matys Wiazek, mąż Matysowej
+619;Wiązkowa;Matysowa;Kraśnik;Mieszczanka;#24;1595;1;Wiazkowa, Matysowa Wiązkowna
+620;Wiązkówna;Katarzyna;Kraśnik;Mieszczanka;#24;1595;1;Wiazkowna, córka Matysa Wiązka
+621;Wnuk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#52;1598;1;Jan Wnuk, dzwonnik z Rybkowic, poturbowany w drodze z Tyczyna
+622;Wnuk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#49;1598;1;
+623;Wnuk klimkowy;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#67;1599;1;
+624;Wojciech z Borku;N.;Kraśnik;Duchowny / Kantor Parafialny;#100;1599;1;Wojciech z Borku kantor, magister cantus kościoła farnego
+625;Wojewódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+626;Wojgłowski;Tomasz;Kraśnik (Zamek);Urzędnik zamkowy / Kapitan;#134;1597;1;Tomasz Wojgłowski capitaneus arcis, kapitan zamku kraśnickiego, Tomasz Wojgłowski kapitan zamku kraśnickiego, mandat starościński
+627;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#17, #59;1595–1597;2;
+628;Wolak;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#17, #34, #58;1595–1597;4;Mikołaj Wolak senior, zmarły posesjonat
+629;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;
+630;Wolakówna;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#17;1595;1;Wolak Krystyna, Wolakowna panna
+631;Wolski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1595;1;
+632;Wolwacz;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+633;Woycieszowic;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+634;Woygłowski;Tomasz;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#134;1597;1;
+635;Wozorowski;Lenart;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#138;1596;1;
+636;Wrobik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Jan Wrobik, syn Stanisława Wróbla, ugoda z macochą Kuliną
+637;Wrobik;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Tomasz Wrobik, syn Stanisława Wróbla, ugoda spadkowa z Zofią Kuliną
+638;Wronczyna;Helena;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+639;Wronka;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#127;1594;1;
+640;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#142;1597;1;
+641;Wronka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;Szymon Wronka zięć, sprawca pobicia teścia Jakuba Rodzonka
+642;Wróbel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#70;1598;1;Stanisław Wróbel zmarły, ojciec braci Wrobików, testator
+643;Wygasły;Marcin;Kraśnik;Wójt;#136;1597;1;
+644;Wyglądatka;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Wyglandatka
+645;Wójcicki;Jan;Kraśnik;Mieszkaniec / Posesjonat;#65;1599;1;Jan Wójcicki, asystent prawny Doroty Gomolczanki przed urzędem
+646;Wójcik;Matys;Kraśnik;Mieszkaniec;#107;1599;1;Matys Wójcik, Mateusz Wójcik
+647;Wójcik;Stanisław;Kraśnik;Ławnik;#70, #157;1597–1598;2;
+648;Wójcikowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#138;1596;1;
+649;Wójt;Jan;Kraśnik;Wójt;#83;1599;1;
+650;Wójt;Jan z Wilkołaza;Wilkołaz;Urzędnik / Wójt wiejski;#83;1599;1;Jan Wójt w Wilkołazie
+651;Wójt;Szczepan;Kraśnik;Wójt;#10, #18;1595;2;Stefan Wójt, Stephanus Advocatus, Stephani Woyto, dawny wójt
+652;Wójtowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Barbara Woytowa, wdowa po Stefanie Wójcie
+653;Wójtowicz;Thomas komornik;Kraśnik;Urzędnik / Komornik miejski;#107;1599;1;Thomas komornik Wójtowicza, Tomasz minister
+654;Wąg;Andrzej;Kraśnik;Mieszkaniec / Posesjonat w Rynku;#120;1600;1;Andrzej Wąg z Rynku
+655;Wągalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+656;Wągała;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#83;1599;1;
+657;Wężik;Abram;Kraśnik;Mieszkaniec / Posesjonat;#113;1600;1;
+658;Włoch;Bernard;Kraśnik;Mieszkaniec / Posesjonat;#7;1595;1;Bernardus Italus, Bernardyn Włoch
+659;Z borku;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#100;1599;1;
+660;Z budzynia;Janas;Budzyń;Mieszkaniec / Posesjonat;#34;1595;1;
+661;Z czarnopola;Sienko;Czarnopol;Mieszkaniec / Posesjonat;#43;1596;1;
+662;Z turobina;Franciszek;Kraśnik;Mieszkaniec / Posesjonat;#122;1600;1;
+663;Z zamościa;Mikołaj;Zamość;Mieszkaniec / Posesjonat;#12;1595;1;
+664;Zajczyk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#16;1595;1;Zayczyk
+665;Zając;Adam;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Adam Zając, syn Jakuba Zająca, powództwo o prawo bliższości
+666;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;
+667;Zając;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#54;1598;1;Matys Zając, syn Jakuba Zająca, powództwo o prawo bliższości
+668;Zającowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#48;1597;1;Anna Zającowa, wdowa, zbywczyni praw do roli podzamkowej
+669;Zaleski;Wawrzyniec;Babin;Mieszkaniec / Posesjonat;#27;1595;1;Wawrzyniec Zaleski, obrońca Jakuba Pająka
+670;Zamieszalina;Hanna;Kraśnik;Mieszkaniec / Posesjonat;#25;1595;1;Hanna Zamieszalina, krewna Zamieszały
+671;Zastawnik;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#68;1598;1;Paweł Zastawnik, dłużnik Bartosza na 10 florenów
+672;Zawalisz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#36;1595;1;Szymon Zawalisz testator
+673;Zawaliszowna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#34;1595;1;Zofia Zawaliszowa, wdowa po Szymonie Zawaliszu
+674;Zawisłak;Matys Bartosz alias;Kraśnik;Mieszkaniec / Posesjonat;#117, #118, #119;1600;3;Matys Bartosz alias Zawisłak, Mateusz Zawisłak
+675;Zaziębło;Walenty;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#16;1595;1;Zaziembło, Zazięblo
+676;Zbogusławic;Adam;Bogusławice;Mieszkaniec / Posesjonat;#43;1596;1;
+677;Zdeb;Jakub;Kraśnik;Mieszkaniec / Ofiara zabójstwa;#49, #50;1598;2;Jakub Zdeb, ofiara mordu na drodze
+678;Zdeb;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#82;1599;1;
+679;Zdeb vel Bastrzyk;Stanisław;Kraśnik;Mieszkaniec / Rolnik;#82;1599;1;Stanisław Zdeb vel Bastrzyk, Bastrzyk
+680;Zdebiówna Liasoczykowa;Zofia;Kraśnik;Mieszczanka;#82;1599;1;Zofia Zdebiówna, Zofia Liasoczykowa
+681;Zdebkowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+682;Zdebowa;Hanna;Kraśnik;Mieszczanka / Wdowa;#82;1599;1;Hanna Zdebowa wdowa, matka Bastrzyka
+683;Zdonkowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;
+684;Zepka;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#146;1589;1;
+685;Zgoda;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#131;1594;1;
+686;Zgodebny;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#132;1594;1;
+687;Zgroycza;Grzegorz;Kraśnik;Duchowny / Kanonik Regularny św. Augustyna;#33;1595;1;canonicorum regularium Sancti Augustini, ojciec Grzegorz duchak, augustianin, kanonik
+688;Zgódka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#140;1598;1;
+689;Ziarnek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#13, #52;1595–1598;2;Zyarnek
+690;Zięba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#79;1599;1;
+691;Ziętek;Walenty;Kraśnik;Wójt;#146;1597;1;
+692;Zmierzch;Jan;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;Jan Zmierzch, brat Wojciecha, dział sieni i izby w Rynku
+693;Zmierzch;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#99;1599;1;Wojciech Zmierzch, brat Jana, komora tylna
+694;Zmierzchana;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#110;1600;1;
+695;Zondra;Wincenty;Kraśnik;Ławnik;#129;1594;1;
+696;Zołniowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#58;1597;1;Małgorzata Zołniowa, oskarżycielka w sprawie częstochowskiej, skazana na wieżę
+697;Złoszczyk;Jan;Kraśnik;Mieszkaniec / Świadek;#137;1596;1;Jan Złoszczyk, Złoszczik, Jan Złoszczyk świadek w sporze spadkowym dzierżawcy Białobrzeskiego
+698;Złoszczyk;Janowa;Kraśnik;Mieszkanka (wdowa);#141;1598;1;
+699;Ćwikła;Jan;Kraśnik;Mieszkaniec / Posesjonat;#8;1595;1;
+700;Ćwikła;Mikołaj;Kraśnik;Ławnik;#14;1595;1;Mikołaj Gwikła starszy ławnik i cechmistrz słodowników
+701;Łauza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#64;1599;1;Jan Łauza, świadek układu małżeńskiego i oprawy posagu w ratuszu
+702;Łaziebnik;Matys;Kraśnik;Rzemieślnik / Łaziebnik (Balneator);#80;1599;1;Matys Łaziebnik, Matys Balneator kraśnicki
+703;Łaziebnik;Nikodem;Kraśnik;Mieszkaniec / Posesjonat;#12;1595;1;Nicodemus Balneator, Nikodem balneator
+704;Łuczyczewna;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+705;Łukaszowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#160;1589;1;
+706;Łycz;Tomasz;Skrzynno;Mieszkaniec / Posesjonat;#43;1596;1;Tomasz Łycz ze Skrzynna, kupiec wołowy
+707;Łysy Kowal;Michał;Kraśnik;Rzemieślnik / Mistrz kowalski;#121, #122;1600;2;Michał Łysy Kowal, magister contubernii fabrilem, mistrz kowalski kraśnicki, magister contubernii fabrilem, mistrz kowalski kraśnicki, autor testamentu kuźni
+708;Ścigło;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#11;1595;1;Scygło
+709;Ślosarczyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;Jan Ślosarczyk mistrz ślusarski, syn Szczęsnej Ślosarki, objęcie kuźni i warsztatu
+710;Ślosarka;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#80;1599;1;
+711;Ślusarz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+712;Ślusarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#135;1589;1;
+713;Ślusarzowa;wdowa N.;Kraśnik;Mieszczanka / Wdowa cechowa;#135;1589;1;wdowa Ślusarzowa, uxor relicta Stanislai ferrifabri, wdowa Ślusarzowa, spadkobierczyni warsztatu ślusarskiego i domostwa
+714;Śmietanka;N. burmistrz;Kraśnik;Urzędnik / Burmistrz kraśnicki;#149;1597;1;Śmietanka proconsul Krasnensis, proconsul Krasnensis, oskarżony o samowolę aresztu mieszczanina
+715;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#101;1599;1;
+716;Świechowicz;Wojciech;Kraśnik;Urzędnik / Starszy ławnik miejski 1665;#144;1665;1;Wojciech Świechowicz, senior scabinorum Krasnensis, senior scabinorum Krasnensis 1665, starszy ławnik w domu Foxowskim
+717;Świeczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#50;1598;1;Szymon Świeczyk, czeladnik rzeźnicki
+718;Świszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#147;1597;1;
+719;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#150;1597;1;
+720;Świątek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Swiantek
+721;Świętek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#61, #62;1597;2;Adam Swiętek, Adam Świętek
+722;Świętek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#69;1598;1;Jan Swiętek Gąska, mieszkaniec kraśnicki, sprawca pobicia Matysa Greka
+723;Świętek;Piotr;Kraśnik;Władze miejskie / Rajca;#27;1595;1;Piotr Swiętek, rajca kraśnicki, Piotr Swiętek, rajca urzędujący
+724;Świętek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#29, #65;1595–1599;2;
+725;Świętowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#161;1589;1;
+726;Źrebie;Iwan;Kraśnik;Mieszkaniec / Sukcesor;#134;1597;1;Iwan Źrebie, brat Stanisława Bystrka, Iwan Źrebie sukcesor, proces o zabór ojczyzny przeciw Bystrkowi
+727;Źrebie zwany Bystrek;Stanisław;Kraśnik;Mieszkaniec / Pozwany;#134;1597;1;Stanisław Źrebie zwany Bystrek, Stanisław Bystrek, Stanisław Źrebie zwany Bystrek, pozwany o gwałtowny zabór ról ojczystych
+728;Żaba;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;
+729;Żołw;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+730;Żołwik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+731;Żołwina;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+732;Żołwiówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;
+733;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Aaron Żyd kraśnicki, kupiec sukienny i wełniany
+734;Żyd;Bano;Kraśnik;Mieszkaniec / Posesjonat;#114;1600;1;Bano Żyd kraśnicki, kupiec miodowy, dom przy Bramie Murowanej
+735;Żyd;Bati;Kraśnik;Mieszkaniec / Posesjonat;#13;1595;1;Bati Judaeus
+736;Żyd;Bysiek;Kraśnik;Mieszkaniec / Posesjonat;#23;1595;1;Bysiek Judaeus, syn Kozy, brat Hodyszki
+737;Żyd;Chaim;Kraśnik;Mieszkaniec / Posesjonat;#104;1599;1;
+738;Żyd;Chamek;Kraśnik;Mieszkaniec / Posesjonat;#19;1595;1;Chamek Judaeus vigil nocturnus, stróż nocny
+739;Żyd;Chano;Kraśnik;Mieszkaniec / Posesjonat;#15;1595;1;Chano Judaeus
+740;Żyd;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#21;1595;1;Dawid Judaeus, posesjonat w Rynku
+741;Żyd;Gatki;Kraśnik;Mieszkaniec / Posesjonat;#115;1600;1;Gatki Żyd, syn Bana, kramarz przy Bramie Murowanej
+742;Żyd;Jakub z Pacanowa;Pacanów;Kupiec żydowski;#43, #44;1596;2;Jakub Judaeus de Pacanow, Jakub Żyd z Pacanowa
+743;Żyd;Josek z Pągowa;Kraśnik / Pągów;Kupiec żydowski / Posesjonat;#139, #140;1597;2;Josek z Pągowa Żyd, Iosek Iudaeus de Pangow, kupiec przy bóżnicy, Josek z Pągowa Żyd, sprzedawca domu przy bóżnicy Marcinowi Mitkowi
+744;Żyd;Kalim;Kraśnik;Kupiec żydowski / Handlarz bronią;#155;1597;1;Kalim Żyd kraśnicki, Galin Iudaeus, kramarz strzał i łuków, kramarz żydowski, nielegalny handel strzałami i łukami myśliwskimi
+745;Żyd;Koczman;Kraśnik;Kupiec / Faktor handlowy;#43, #44;1596;2;Koczman Judaeus, Koczman Żyd kraśnicki
+746;Żyd;Kofman;Kraśnik;Mieszkaniec / Posesjonat;#106;1599;1;
+747;Żyd;Koza;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Koza Judaeus, teść Aarona
+748;Żyd;Liezman;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;Liezman Żyd kraśnicki, posesjonat w Rynku
+749;Żyd;Lipman;Kraśnik;Kupiec żydowski;#67;1597;1;Lipman Judaeus, Lipman Żyd kraśnicki
+750;Żyd;Majer;Kraśnik;Mieszkaniec żydowski / Poręczyciel;#140;1597;1;Majer Żyd kraśnicki, Mayer Iudaeus fideiussor, Majer Żyd kraśnicki, poręczyciel kahalny nienaruszalności domu
+751;Żyd;Teodor;Kraśnik;Mieszkaniec / Posesjonat;#9;1595;1;Theodorus Judaeus
+752;Żyd;Zelman;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#120;1600;1;Zelman Żyd kraśnicki, dłużnik starosty Myśliszowskiego na 15 zł
+753;Żyd kraśnicki, kupiec w rynku;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+754;Żyd kraśnicki, sąsiad w rynku;Dawid;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+755;Żyd spod bóżnicy kraśnickiej;Marek;Kraśnik;Mieszkaniec / Posesjonat;#87;1599;1;
+756;Żydówka;Hodyszka;Kraśnik;Mieszkaniec / Posesjonat;#20;1595;1;Hodysza, córka Kozy, żona Aarona
+757;Żydówka;Tatlinina;Kraśnik;Mieszkaniec / Posesjonat;#120;1600;1;
+758;Żydówka kraśnicka;Hendelka;Kraśnik;Mieszkaniec / Posesjonat;#90;1599;1;
+759;Żydówka kraśnicka;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#85;1599;1;
