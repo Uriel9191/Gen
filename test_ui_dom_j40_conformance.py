@@ -244,7 +244,7 @@ def test_unit(unit_id, html_path, csv_path):
     # ---------------------------------------------------------
     # TEST 12: Tabela Słownika Genealogicznego w sekcji #genealogy-tab
     # ---------------------------------------------------------
-    print("[TEST 12/12] Weryfikacja tabeli Słownika Genealogicznego...")
+    print("[TEST 12/13] Weryfikacja tabeli Słownika Genealogicznego...")
     gen_thead = re.search(r'id="genealogy-tab".*?<thead>(.*?)</thead>', html, re.DOTALL)
     assert gen_thead, f"FAIL: W sekcji #genealogy-tab pliku {html_path} brak thead tabeli!"
     gen_ths = re.findall(r'<th[^>]*>(.*?)</th>', gen_thead.group(1), re.DOTALL)
@@ -255,10 +255,24 @@ def test_unit(unit_id, html_path, csv_path):
     assert clean_gen_ths[2] == 'Imię', f"FAIL: Trzecia kolumna to nie Imię ({clean_gen_ths[2]})"
     print(f"  -> PASS: Tabela Słownika Genealogicznego posiada dokładnie 7 kanonicznych kolumn: {clean_gen_ths}")
 
-    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 12/12 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
+    # ---------------------------------------------------------
+    # TEST 13: Weryfikacja Symetrycznej Paginacji (Top + Bottom) w Obu Tabelach
+    # ---------------------------------------------------------
+    print("[TEST 13/13] Weryfikacja symetrycznej paginacji (Top + Bottom) w Rejestrze i Słowniku...")
+    required_pag_ids = [
+        'mainPrevBtn', 'mainNextBtn', 'mainJumpInput',
+        'mainPrevBtnBot', 'mainNextBtnBot', 'mainJumpInputBot',
+        'genPrevBtn', 'genNextBtn', 'genJumpInput',
+        'genPrevBtnBot', 'genNextBtnBot', 'genJumpInputBot'
+    ]
+    missing_ids = [pid for pid in required_pag_ids if f'id="{pid}"' not in html]
+    assert not missing_ids, f"FAIL: W pliku {html_path} brakuje kontrolek paginacji symetrycznej: {missing_ids}!"
+    print(f"  -> PASS: Obie tabele posiadają pełną, symetryczną paginację na górze i na dole ({len(required_pag_ids)} kontrolek).")
+
+    print(f"\n>>> WYNIK DLA {unit_id.upper()}: 13/13 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
 
 def main():
-    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (12 TESTÓW WERYFIKACYJNYCH)...")
+    print("ROZPOCZYNAM AUTOMATYCZNY AUDYT ZGODNOŚCI Z KANONEM J40 (13 TESTÓW WERYFIKACYJNYCH)...")
     
     units = [
         ('j40', '/home/ubuntu/workspace/Gen/krasnik_j40_kompendium_calosc.html', '/home/ubuntu/workspace/Gen/krasnik_j40_slownik_genealogiczny.csv'),

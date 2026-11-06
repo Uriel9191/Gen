@@ -917,6 +917,10 @@
           <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()" disabled>&laquo; Poprzednia</button>
           <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
           <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna &raquo;</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
         </div>
       </div>
     </section>
@@ -996,6 +1000,10 @@
           <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()" disabled>&laquo; Poprzednia</button>
           <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
           <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna &raquo;</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
         </div>
       </div>
     </section>
@@ -34229,8 +34237,7 @@
       document.getElementById('mainPageIndicator').innerText = pageIndicator;
       if (document.getElementById('mainPageIndicatorBot')) document.getElementById('mainPageIndicatorBot').innerText = pageIndicator;
 
-      document.getElementById('mainJumpInput').max = totalPages;
-      document.getElementById('mainJumpInput').value = mainCurrentPage;
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => { const el = document.getElementById(id); if (el) { el.max = totalPages; el.value = mainCurrentPage; } });
 
       document.getElementById('mainPrevBtn').disabled = (mainCurrentPage <= 1);
       document.getElementById('mainNextBtn').disabled = (mainCurrentPage >= totalPages);
@@ -34268,11 +34275,15 @@
 
     function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
     function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize); if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
-    function jumpMainPage() {
-      const val = parseInt(document.getElementById('mainJumpInput').value);
-      const totalPages = Math.ceil(filteredMain.length / mainPageSize);
-      if (val >= 1 && val <= totalPages) {
-        mainCurrentPage = val;
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
         renderMainTable();
       }
     }
@@ -34501,8 +34512,7 @@
       document.getElementById('genPageIndicator').innerText = pageIndicator;
       if (document.getElementById('genPageIndicatorBot')) document.getElementById('genPageIndicatorBot').innerText = pageIndicator;
 
-      document.getElementById('genJumpInput').max = totalPages;
-      document.getElementById('genJumpInput').value = genCurrentPage;
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => { const el = document.getElementById(id); if (el) { el.max = totalPages; el.value = genCurrentPage; } });
 
       document.getElementById('genPrevBtn').disabled = (genCurrentPage <= 1);
       document.getElementById('genNextBtn').disabled = (genCurrentPage >= totalPages);
@@ -34543,11 +34553,15 @@
 
     function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
     function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize); if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
-    function jumpGenPage() {
-      const val = parseInt(document.getElementById('genJumpInput').value);
-      const totalPages = Math.ceil(filteredGen.length / genPageSize);
-      if (val >= 1 && val <= totalPages) {
-        genCurrentPage = val;
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
         renderGenTable();
       }
     }

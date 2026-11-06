@@ -916,6 +916,10 @@
           <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()" disabled>&laquo; Poprzednia</button>
           <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
           <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna &raquo;</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
         </div>
       </div>
     </section>
@@ -990,6 +994,18 @@
           </thead>
           <tbody id="genTableBody"></tbody>
         </table>
+      </div>
+      <div class="pagination-bar" style="margin-top:1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()" disabled>&laquo; Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna &raquo;</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
       </div>
     </section>
 
@@ -3946,6 +3962,7 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
       document.getElementById('mainNextBtnBot').disabled = (mainCurrentPage >= totalPages);
       document.getElementById('mainJumpInput').max = totalPages;
       document.getElementById('mainJumpInput').value = mainCurrentPage;
+      if (document.getElementById('mainJumpInputBot')) { document.getElementById('mainJumpInputBot').max = totalPages; document.getElementById('mainJumpInputBot').value = mainCurrentPage; }
 
       if (pageData.length === 0) {
         tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
@@ -3991,11 +4008,16 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
       }
     }
 
-    function jumpMainPage() {
-      const val = parseInt(document.getElementById('mainJumpInput').value);
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const val_p = p;
       const totalPages = Math.ceil(mainFiltered.length / mainPageSize) || 1;
-      if (val >= 1 && val <= totalPages) {
-        mainCurrentPage = val;
+      if (val_p >= 1 && val <= totalPages) {
+        mainCurrentPage = val_p;
         renderMainTable();
       }
     }
@@ -4202,6 +4224,22 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
       if (document.getElementById('genPaginationInfo')) {
         document.getElementById('genPaginationInfo').innerText = infoText;
       }
+      if (document.getElementById('genPaginationInfoBot')) {
+        document.getElementById('genPaginationInfoBot').innerText = infoText;
+      }
+      if (document.getElementById('genPageIndicatorBot')) {
+        document.getElementById('genPageIndicatorBot').innerText = `${genCurrentPage} / ${totalPages}`;
+      }
+      if (document.getElementById('genPrevBtnBot')) {
+        document.getElementById('genPrevBtnBot').disabled = (genCurrentPage <= 1);
+      }
+      if (document.getElementById('genNextBtnBot')) {
+        document.getElementById('genNextBtnBot').disabled = (genCurrentPage >= totalPages);
+      }
+      if (document.getElementById('genJumpInputBot')) {
+        document.getElementById('genJumpInputBot').max = totalPages;
+        document.getElementById('genJumpInputBot').value = genCurrentPage;
+      }
 
       if (document.getElementById('genPageIndicator')) {
         document.getElementById('genPageIndicator').innerText = `${genCurrentPage} / ${totalPages}`;
@@ -4302,11 +4340,16 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
       }
     }
 
-    function jumpGenPage() {
-      const val = parseInt(document.getElementById('genJumpInput').value);
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const val_p = p;
       const totalPages = Math.ceil(genFiltered.length / genPageSize) || 1;
-      if (val >= 1 && val <= totalPages) {
-        genCurrentPage = val;
+      if (val_p >= 1 && val <= totalPages) {
+        genCurrentPage = val_p;
         renderGenTable();
       }
     }

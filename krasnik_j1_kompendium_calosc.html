@@ -808,7 +808,29 @@
       .pagination-bar { flex-direction: column; align-items: stretch; }
     }
   
-  </style>
+  
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
 </head>
 <body>
 
@@ -883,21 +905,23 @@
         <button class="btn btn-gold" onclick="exportMainCSV()">📥 Pobierz Indeks CSV</button>
       </div>
 
+      
+      </div>
+
       <div class="pagination-bar">
         <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
         <div class="pagination-controls">
-          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">Poprzednia</button>
-          <span id="mainPageIndicator" style="font-size:0.85rem; font-weight:600; padding:0 0.5rem;">1 / 1</span>
-          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna</button>
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
           <div class="page-jump">
             <span>Skocz do:</span>
-            <input type="number" id="mainJumpInput" min="1" max="1" value="1">
-            <button class="page-btn" onclick="jumpMainPage()">Idź</button>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
           </div>
         </div>
       </div>
 
-      <div class="table-wrapper">
+<div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -915,10 +939,23 @@
           </tbody>
         </table>
       </div>
+
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <!-- TAB 2: GENEALOGY DICTIONARY -->
-    <section id="genealogy-tab" class="tab-content">
+    id="genealogy-tab" class="tab-content">
       <div class="stats-grid">
         <div class="stat-card gold">
           <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
@@ -956,21 +993,23 @@
         <button class="btn btn-gold" onclick="exportGenCSV()">📥 Pobierz Słownik Genealogiczny (CSV)</button>
       </div>
 
+      
+      </div>
+
       <div class="pagination-bar">
         <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
         <div class="pagination-controls">
-          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">Poprzednia</button>
-          <span id="genPageIndicator" style="font-size:0.85rem; font-weight:600; padding:0 0.5rem;">1 / 1</span>
-          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna</button>
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
           <div class="page-jump">
             <span>Skocz do:</span>
-            <input type="number" id="genJumpInput" min="1" max="1" value="1">
-            <button class="page-btn" onclick="jumpGenPage()">Idź</button>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
           </div>
         </div>
       </div>
 
-      <div class="table-wrapper">
+<div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -988,10 +1027,23 @@
           </tbody>
         </table>
       </div>
+
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <!-- TAB 3: MONOGRAPH -->
-    <section id="monograph-tab" class="tab-content">
+    id="monograph-tab" class="tab-content">
 <div class="monograph-container" style="max-width:1000px; margin:0 auto; padding:2rem 1.5rem; line-height:1.8; color:#cbd5e1;">
   <div style="margin-bottom:2.5rem; text-align:center;">
     <div style="display:inline-block; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--gold-primary); background:rgba(217,119,6,0.15); border:1px solid rgba(217,119,6,0.4); padding:0.35rem 1rem; border-radius:20px; margin-bottom:1rem; font-weight:600;">
@@ -36647,21 +36699,65 @@
         `;
       });
       tbody.innerHTML = html;
+      const startRec = filteredMain.length > 0 ? start + 1 : 0;
+      const endRec = Math.min(start + mainPageSize, filteredMain.length);
+      const infoText = `Wyświetlanie ${startRec}–${endRec} z ${filteredMain.length} rekordów (Strona ${mainCurrentPage} z ${totalPages})`;
+      const pageIndicator = `${mainCurrentPage} / ${totalPages}`;
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot', 'mainPageInfo'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageIndicator;
+      });
+      ['mainPrevBtn', 'mainPrevBtnBot', 'prevMainBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage <= 1);
+      });
+      ['mainNextBtn', 'mainNextBtnBot', 'nextMainBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage >= totalPages);
+      });
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = mainCurrentPage; el.max = totalPages; }
+      });
+    
     }
 
+    
     function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
-    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize); if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
-    function jumpMainPage() {
-      const val = parseInt(document.getElementById('mainJumpInput').value);
-      const totalPages = Math.ceil(filteredMain.length / mainPageSize);
-      if (val >= 1 && val <= totalPages) {
-        mainCurrentPage = val;
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
         renderMainTable();
       }
     }
 
-    let currentModalScan = null;
-
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+    
     function switchModalTab(tabKey) {
       const tabs = ['meta', 'trans', 'link'];
       tabs.forEach(t => {
@@ -36907,6 +37003,32 @@
         `;
       });
       tbody.innerHTML = html;
+      const startRec = filteredGen.length > 0 ? start + 1 : 0;
+      const endRec = Math.min(start + genPageSize, filteredGen.length);
+      const infoText = `Wyświetlanie ${startRec}–${endRec} z ${filteredGen.length} profili (Strona ${genCurrentPage} z ${totalPages})`;
+      const pageIndicator = `${genCurrentPage} / ${totalPages}`;
+
+      ['genPaginationInfo', 'genPaginationInfoBot', 'genPageInfo'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageIndicator;
+      });
+      ['genPrevBtn', 'genPrevBtnBot', 'prevGenBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage <= 1);
+      });
+      ['genNextBtn', 'genNextBtnBot', 'nextGenBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage >= totalPages);
+      });
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = genCurrentPage; el.max = totalPages; }
+      });
+    
     }
 
     function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }

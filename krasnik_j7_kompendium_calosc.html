@@ -808,7 +808,29 @@
       .control-group { width: 100%; }
       .pagination-bar { flex-direction: column; align-items: stretch; }
     }
-  </style>
+  
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
 
 </head>
 <body>
@@ -846,7 +868,7 @@
         <div class="stat-card gold">
           <div class="stat-title">Liczba Skanów Jednostki</div>
           <div class="stat-value">278</div>
-          <div class="stat-desc">Kompletna księga archiwalna (Kompletna Jednostka 07: skany 1–278 w 100% przetranskrybowane in extenso)</div>
+          <div class="stat-desc">Kompletna księga archiwalna (skany 1–278 in extenso)</div>
         </div>
         <div class="stat-card purple">
           <div class="stat-title">Zakres Chronologiczny</div>
@@ -856,7 +878,7 @@
         <div class="stat-card cyan">
           <div class="stat-title">Unikalne Profile Mieszkańców</div>
           <div class="stat-value" id="genStatCount">891</div>
-          <div class="stat-desc">Zintegrowany indeks osobowy (0 duplikatów tożsamości)</div>
+          <div class="stat-desc">Zintegrowany indeks osobowy mieszkańców</div>
         </div>
         <div class="stat-card success">
           <div class="stat-title">Udokumentowane Wystąpienia</div>
@@ -883,7 +905,20 @@
         </div>
       </div>
 
-      <div class="table-wrapper">
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+<div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -902,28 +937,32 @@
         </table>
       </div>
 
-      <div class="pagination-bar">
-        <button class="page-btn" id="prevMainBtn" onclick="prevMainPage()">‹ Poprzednia</button>
-        <span id="mainPageInfo" class="page-info">Strona 1 z 1</span>
-        <button class="page-btn" id="nextMainBtn" onclick="nextMainPage()">Następna ›</button>
-        <div class="page-jump">
-          Skocz do: <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage()">
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
         </div>
       </div>
+
     </section>
 
-    <!-- TAB 2: SŁOWNIK GENEALOGICZNY -->
-    <section id="genealogy-tab" class="tab-content">
+    id="genealogy-tab" class="tab-content">
       <div class="stats-grid">
         <div class="stat-card gold">
           <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
           <div class="stat-value" id="genStatCountTab2">891</div>
-          <div class="stat-desc">Zintegrowane profile biograficzne (Wariant 2)</div>
+          <div class="stat-desc">Zintegrowane profile biograficzne</div>
         </div>
         <div class="stat-card success">
           <div class="stat-title">Standard De-duplikacji</div>
           <div class="stat-value">100%</div>
-          <div class="stat-desc">Dokładnie 0 duplikatów w bazie tożsamości</div>
+          <div class="stat-desc">Zweryfikowana baza tożsamości</div>
         </div>
         <div class="stat-card cyan">
           <div class="stat-title">Reprezentacja Społeczna</div>
@@ -949,7 +988,20 @@
         </div>
       </div>
 
-      <div class="table-wrapper">
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+<div class="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -968,18 +1020,22 @@
         </table>
       </div>
 
-      <div class="pagination-bar">
-        <button class="page-btn" id="prevGenBtn" onclick="prevGenPage()">‹ Poprzednia</button>
-        <span id="genPageInfo" class="page-info">Strona 1 z 1</span>
-        <button class="page-btn" id="nextGenBtn" onclick="nextGenPage()">Następna ›</button>
-        <div class="page-jump">
-          Skocz do: <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage()">
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
         </div>
       </div>
+
     </section>
 
-    <!-- TAB 3: SYNTEZA MONOGRAFICZNA -->
-    <section id="monograph-tab" class="tab-content">
+    id="monograph-tab" class="tab-content">
       <div class="monograph-container">
         
       <!-- ROZDZIAŁ 1 -->
@@ -3210,8 +3266,32 @@
       });
 
       tbody.innerHTML = html;
-      document.getElementById('mainPageInfo').innerText = `Strona ${mainCurrentPage} z ${totalPages} (${filteredMain.length} wpisów)`;
-      document.getElementById('mainJumpInput').max = totalPages;
+      const startRec = filteredMain.length > 0 ? start + 1 : 0;
+      const endRec = Math.min(start + mainPageSize, filteredMain.length);
+      const infoText = `Wyświetlanie ${startRec}–${endRec} z ${filteredMain.length} rekordów (Strona ${mainCurrentPage} z ${totalPages})`;
+      const pageIndicator = `${mainCurrentPage} / ${totalPages}`;
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot', 'mainPageInfo'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageIndicator;
+      });
+      ['mainPrevBtn', 'mainPrevBtnBot', 'prevMainBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage <= 1);
+      });
+      ['mainNextBtn', 'mainNextBtnBot', 'nextMainBtn'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage >= totalPages);
+      });
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = mainCurrentPage; el.max = totalPages; }
+      });
+    
     }
 
     function filterMainData() {
@@ -3253,60 +3333,37 @@
       renderMainTable();
     }
 
+    
     function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
     function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
-    function jumpMainPage() { const p = parseInt(document.getElementById('mainJumpInput').value, 10); const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (p >= 1 && p <= totalPages) { mainCurrentPage = p; renderMainTable(); } }
-
-    // GENEALOGY TABLE LOGIC
-    let genCurrentPage = 1;
-    const genPageSize = 25;
-    let filteredGen = [...genData];
-    let genSortCol = 'lp';
-    let genSortAsc = true;
-
-    function renderGenTable() {
-      const tbody = document.getElementById('genTableBody');
-      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
-      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
-
-      const start = (genCurrentPage - 1) * genPageSize;
-      const end = start + genPageSize;
-      const pageData = filteredGen.slice(start, end);
-
-      if (pageData.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak profili spełniających kryteria.</td></tr>';
-        return;
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
       }
-
-      let html = '';
-      pageData.forEach(p => {
-        let scansStr = p.skany_roboczo || '';
-        if (Array.isArray(p.skany_list)) {
-          if (p.skany_list.length <= 4) {
-            scansStr = p.skany_list.map(s => `#${s}`).join(', ');
-          } else {
-            scansStr = p.skany_list.slice(0, 3).map(s => `#${s}`).join(', ') + ` (+${p.skany_list.length - 3})`;
-          }
-        }
-
-        html += `
-          <tr onclick="openGenModal(${p.lp})" style="cursor:pointer;">
-            <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">${p.lp}</td>
-            <td style="font-weight:600; color:var(--gold-primary);">${escapeHtml(p.nazwisko)}</td>
-            <td style="color:#e2e8f0;">${escapeHtml(p.imie)}</td>
-            <td><span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span></td>
-            <td><span class="badge-role">${escapeHtml(p.funkcja || 'Mieszkaniec')}</span></td>
-            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#38bdf8;">${escapeHtml(scansStr)}</td>
-            <td><span class="badge-years">${escapeHtml(p.zakres_lat || '1606')}</span></td>
-          </tr>
-        `;
-      });
-
-      tbody.innerHTML = html;
-      document.getElementById('genPageInfo').innerText = `Strona ${genCurrentPage} z ${totalPages} (${filteredGen.length} profili)`;
-      document.getElementById('genJumpInput').max = totalPages;
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
+        renderMainTable();
+      }
     }
 
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+    
     function filterGenData() {
       const query = (document.getElementById('genSearchInput').value || '').toLowerCase().trim();
       filteredGen = genData.filter(p => {
