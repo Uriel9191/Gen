@@ -19,7 +19,7 @@
 18;Barszcz;Jan;Kraśnik;Burmistrz;#18, #106, #136, #170, #181, #214;1606–1610;6;Jan Barszcz consul Krasnensis, rajca kraśnicki, areszt na ogrodzie
 19;Barszcz;Krzysztof;Kraśnik;Szewc;#26, #96, #120, #185;1606–1609;4;Krzysztof Barszcz civis Crasnensis, obrona półłanka ojczystego brata Andrzeja
 20;Barszcz;Maciej;Góry i Podlesie;Mieszkaniec / Posesjonat;#136;1609;1;
-21;Barszcz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#53, #226;1607–1610;2;
+21;Barszcz;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#53, #226;1607–1610;2;Maciej Barszcz civis Crasnensis, obrońca przejazdu drogą w Kisielinie [skan 226, 227]
 22;Barszcz;Wojciech;Kraśnik;Ławnik;#76, #136, #201;1608–1610;3;
 23;Bartoszewicz;Jan;Kraśnik;Burmistrz;#257;1610;1;
 24;Barwierz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#59;1607;1;
@@ -33,13 +33,13 @@
 32;Batorz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#22;1606;1;
 33;Batorzyna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#22;1606;1;
 34;Bałas;Maciej;Kraśnik;Sługa zamkowy / Opiekun;#9;1606;1;Maciej Bałas opiekun urzędowy wdowy Doroty Sowiny
-35;Bańka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;Jan Bańka teść Wojciecha Klimczyka, poręczyciel długu śledziowego
+35;Bańka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;Jan Bańka teść Wojciecha Klimczyka, poręczyciel długu śledziowego, Jan Bania / Jan Bańka, teść Wojciecha Klimczyka, oskarżyciel w procesie o zgon zięcia w drodze do Opoki [skan 224, 225]
 36;Bańka;Misiek;Kluczkowice (wieś);Mieszkaniec / Posesjonat;#155;1609;1;
 37;Bechański;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#38;1607;1;
 38;Bednarczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#65;1607;1;Stanisław Bednarczyk discipulus doliatorius, oczyszczenie przysięgą z kradzieży kołpaka
 39;Bednarz;Andrzej;Kraśnik;Bednarz;#213;1610;1;Andrzej Bednarz de villa Opoka, świadek odstawy wozów ze zbożem
 40;Bednarz;Sebastian;Kraśnik;Bednarz;#65, #76, #131, #203, #226;1607–1610;5;Sebastian Bednarz / Doliator mistrz bednarski kraśnicki, spór o dom z Kołodziejką
-41;Bełski;Abraham;Bełz;Mieszkaniec / Posesjonat;#237;1610;1;
+41;Bełski;Abraham;Bełz;Mieszkaniec / Posesjonat;#237;1610;1;Abraham Bełski servitor Joannis Tryleski, zbiegły sługa posądzony o kradzież 12 czerwonych złotych [skan 237]
 42;Bełzycki;Mikołaj;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;Mikołaj Bełzycki ze Stróży, dostawca drewna sosnowego na targ
 43;Białomyślski;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#107;1608;1;
 44;Białynicki;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#29;1606;1;
@@ -69,8 +69,8 @@
 68;Chrapek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#50;1607;1;
 69;Chrapek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#25, #196;1606–1609;2;Marcin Chrapek powód przeciwko Hochmanowi o bezprawne zajęcie gorzelni i zepsucie wódki
 70;Chrapkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#50;1607;1;Katarzyna Chrapkowa uxor Martini, obrona wiana 300 złp na domu z gorzelnią
-71;Chrapkowicz;Jan;Kraśnik;Rajca;#96, #104, #134, #166, #210;1608–1610;5;Jan Chrapkowicz civis Crasnensis, spłata 50 złp Żydowi Eliaszowi i rewizja zalanej izby od Barszcza
-72;Chrapkowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#229;1610;1;
+71;Chrapkowicz;Jan;Kraśnik;Rajca;#96, #104, #134, #166, #210;1608–1610;5;Jan Chrapkowicz civis Crasnensis, dłużnik Kochmana podlegający dekretowi intromisji [skan 228, 229]
+72;Chrapkowicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#229;1610;1;Marcin Chrapkowicz civis Crasnensis, współwłaściciel narożnej kamienicy rynkowej obciążonej długiem Kochmana [skan 228, 229]
 73;Chrościel;Chrościel;Popkowice;Mieszkaniec / Posesjonat;#253;1610;1;
 74;Chrzanowski;Paweł;Kraśnik;Kuśnierz;#80, #110, #144;1608–1609;3;Paweł Chrzanowski pellio Crasnensis, kuśnierz kraśnicki, sprzedaż izdebki w rynku
 75;Chłabigowa;Regina;Kraśnik;Mieszkaniec / Posesjonat;#53;1607;1;Regina Chłabigowa vidua, sprzedaż posesji do boru Leszczyny za 110 złp Sprysikowi
@@ -134,707 +134,719 @@
 133;Giska;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
 134;Glaszanionka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#53;1607;1;
 135;Goleniowski;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#50;1607;1;Jakub Goleniowski Cantor Scholae Crasniciensis, kantor szkoły pobity przez Drozdowskiego
-136;Grabek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80, #111;1608;2;
-137;Grabka;brak;Podzagórze;Woźnica / Furman z Podzagórza;#218;1610;1;Grabka auriga de Podzagorze, właściciel chorego nosatego konia
-138;Grabkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-139;Gruczyk;Wojciech;Budzyń (wieś);Mieszkaniec / Posesjonat;#157, #185;1609;2;
-140;Gruczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;
-141;Gryczka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-142;Grymuza;Józef;Góry i Podlesie;Mieszkaniec / Posesjonat;#113;1608;1;
-143;Grymuza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#27, #159, #188;1606–1609;3;
-144;Grzegorczyk;Młot;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
-145;Grzymkowic;Jan;Kraśnik;Mieszkaniec / Posesjonat;#35;1606;1;
-146;Grzymkowicz;Jan;Kraśnik;Ławnik;#201;1610;1;
-147;Grzymkowski;Jan;Kraśnik;Ławnik;#43, #90, #264;1607–1610;3;Jan Grzymkowski incola kraśnicki, szymark domów z braćmi Kantorkowiczami
-148;Gurek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Jan Gurek incola kraśnicki, powód w sprawie o wycięcie dębiny
-149;Gurka;Stanisław;wieś Mikołaj;Mieszkaniec / Posesjonat;#159, #188;1609;2;
-150;Górka;Stanisław;Wilkołaz;Mieszkaniec / Posesjonat;#38;1607;1;
-151;Górka;Stanisław;Wilkołaz (wieś);Mieszkaniec / Posesjonat;#111;1608;1;Stanisław Górka cmeto de villa Wilkołaz, spłata 22 złp długu do puszki urzędowej
-152;Górski;Andrzej;Potok (wieś);Mieszkaniec / Posesjonat;#188;1609;1;Andrzej Górski nobilis de villa Potok, egzekucja wyroku urzędowskiego o delię podszytą lisami
-153;Gąsczyna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#43;1607;1;
-154;Gąsiorczyk;Stanisław;Budzyń;Mieszkaniec / Posesjonat;#58;1607;1;
-155;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#43, #162;1607–1609;2;
-156;Gębala;Gaspar;Kraśnik;Mieszkaniec / Posesjonat;#62;1607;1;Gaspar Gębala incola kraśnicki, zastawnik roli za 19 grzywien
-157;Gębusz;Jan;Stróża;Mieszkaniec / Posesjonat;#44;1607;1;Jan Gębusz cmeto de villa Stróża, kwitacja Tokarczyka z zastawy ogrodu
-158;Gęsek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#20;1606;1;Stanisław Gęsek, świadek zeznający o darciu żupana na kuśnierzu
-159;Gładys;Jan;Kraśnik;Mieszkaniec / Posesjonat;#157;1609;1;
-160;Hadyka;Żydówka;Kraśnik;Mieszkanka / Wierzycielka;#202;1610;1;Hadyka Judaea uxor Charon
-161;Heliaszowicz;Heliasz;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-162;Hesterowiczowa;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-163;Hieronimowicz;Abraham;Kraśnik;Mieszkaniec / Posesjonat;#201;1610;1;
-164;Hieronimowicz;Abraham;Turobin;Mieszkaniec / Posesjonat;#12;1606;1;Abraham Hieronimowicz civis Turobiensis, spłata długu szwagra u Żyda Charona i Hadyki
-165;Hochman;Żyd;Kraśnik;Kupiec / Gorzelnik;#25;1606;1;Hochman Judaeus Crasnensis, gorzelnik i intromisor gorzelni Chrapka
-166;Hoffman;Daniel;Urzędów;Mieszkaniec / Posesjonat;#55, #77;1607–1608;2;Daniel Hoffman civis et mercator Urzedoviensis, areszt 22 złp u Klimczyka
-167;Idzik;Wdowa;Zarzecze;Mieszkanka (wdowa);#231;1610;1;
-168;Iudaeus;Abraham;Góry i Podlesie;Mieszkaniec / Posesjonat;#190;1609;1;
-169;Iudaeus;Kochman;Kraśnik;Mieszkaniec / Posesjonat;#156;1609;1;
-170;Iudaeus;Litman;Kraśnik;Mieszkaniec / Posesjonat;#156;1609;1;
-171;Iudaeus senior;Harzym;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
-172;Iudaeus senior;Lazar;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
-173;Iudaeus senior;Marek;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
-174;Jabzo;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#167;1609;1;
-175;Jachymowicz;Jachymowa;Kraśnik;Mieszkanka (wdowa);#259;1610;1;
-176;Jaikowa;Zofia;Suchynia;Mieszkaniec / Posesjonat;#45;1607;1;Zofia Jaikowa incola de villa Suchynia, proces o legat siostry Róży na szpital
-177;Jakubek;Iczek;Kraśnik;Mieszkaniec / Posesjonat;#72;1608;1;Iczek Jakubek Iudaeus Crasnensis, wierzyciel 7 złp 2 gr za skóry wołowe
-178;Jakubkowicz;Jacek;Kraśnik;Mieszkaniec / Posesjonat;#187;1609;1;
-179;Jakubowicz;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#251;1610;1;
-180;Jamróz;Jan;Sułów;Mieszkaniec / Posesjonat;#26;1606;1;
-181;Janaponrawicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#91;1608;1;
-182;Janasek;Maciej;Budzyń;Mieszkaniec / Posesjonat;#219;1610;1;Maciej Janasek de villa Budzyń, kwitacja teściowej Kobielownej z 17 grzywien posagu
-183;Janaskowicz;Wojciech;Kraśnik;Wójt;#5, #107, #126, #151, #178, #257;1606–1610;6;Wojciech Janaskowicz notarius civitatis Krasnensis, pisarz miejski
-184;Janaszkowicz;Stanisław;Kraśnik;Wójt;#42;1607;1;
-185;Janaszkowicz;Wojciech;Kraśnik;Notariusz;#201;1610;1;Wojciech Janaszkowicz notarius civitatis Crasnensis, spór o drewno słodownicze
-186;Janiec;Jan;Sułów;Mieszkaniec / Posesjonat;#96;1608;1;
-187;Janiec;Wojciech;Sułów (wieś);Mieszkaniec / Posesjonat;#132;1609;1;
-188;Jantosek;Marcin;Opoka;Mieszkaniec / Posesjonat;#210;1610;1;Marcin Jantosek de villa Opoka, rolnik z Opoki, świadek i strona spraw zbożowych
-189;Janubowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
-190;Janusowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#28, #190;1606–1609;2;Agnieszka Janusowa zbiegła dłużniczka i przekupka masłem
-191;Janust;Stanisław;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
-192;Januszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-193;Januszowicz;Tomasz;Kraśnik;Pisarz;#227;1610;1;
-194;Jaroszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1608;1;
-195;Jarzynka;Mateusz;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
-196;Jasiek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#139, #157, #186;1609;3;
-197;Jasiek;Tomasz;Suchynia;Mieszkaniec / Posesjonat;#211;1610;1;Tomasz Jasiek de villa Suchynia, rozjemca pojednania o ranę w łaźni
-198;Jasieński;Wojciech;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#106;1608;1;
-199;Jasionowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
-200;Jasionowicz;Stanisław;Kraśnik;Przedmieszczanin / Posesjonat;#193;1609;1;Stanisław Jasionowicz incola Crasnensis
-201;Jasionowicz;Wojciech;Dzierzkowice (wieś);Mieszkaniec / Posesjonat;#124;1608;1;
-202;Jasionowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
-203;Jaskolczyk;Stanisław;Zarzecze;Kowal;#179;1609;1;
-204;Jaskółczanka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#91, #138;1608–1609;2;
-205;Jaskółczyk;Stanisław;Kraśnik;Kowal;#138;1609;1;
-206;Jaskółczyna;Anna;Kraśnik;Kowal;#109, #138;1604–1609;2;
-207;Jaskółka;Bartłomiej;Kraśnik;Kowal;#109;1608;1;
-208;Jaskółka;Jakub;Kraśnik;Kowal;#109, #138;1604–1609;2;
-209;Jaskółka;Stanisław;Kraśnik;Kowal;#73, #91, #108;1608;3;
-210;Jaskółka;Wojciech;Kraśnik;Kowal;#109;1608;1;
-211;Jasnicz;Jan;Sułów (wieś);Mieszkaniec / Posesjonat;#185;1609;1;
-212;Jasumski;Wojciech;Kraśnik;Prefekt zamku kraśnickiego;#106;1608;1;Albertus Jasumski praefectus arcis Crasnicensis
-213;Jaszczułtowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#58;1607;1;
-214;Jaszek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Piotr Jaszek przedmieszczanin kraśnicki, spór o żyto ze spławu wiślanego z Opoką
-215;Jaśkowicz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104;1608;1;
-216;Jażdż;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;
-217;Jażdż;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#28;1606;1;
-218;Jeskowicz;Jesko;Kraśnik;Mieszkaniec / Posesjonat;#258;1610;1;
-219;Jeziorczyk;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-220;Jurczyk;Albert;Kraśnik;Młodzieniec z Piasku / Sukcesor;#213;1610;1;Albert Jurczyk de Piasek, frater Mathiae
-221;Jurczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#206, #254;1610;2;Matys Jurczyk de Piasek juvenis, zraniony w głowę w łaźni miejskiej aż do mózgu, zmarły na łożu
-222;Jurczyk;Michał;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-223;Jurczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Wojciech Jurczyk de Piasek, ojciec zmarłego Matysa, ugoda z Papudańczykiem o 20 grzywien nawiązki
-224;Jurczykowa;Matka;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Jurczykowa matka Matysa Jurczyka de Piasek, czuwająca przy umierającym synu w łaźni miejskiej
-225;Jurek;Jan;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
-226;Jurek;Michał;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
-227;Jurek;Mikołaj;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
-228;Józefhołczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-229;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#132, #197;1609;2;Anna Kamieńska vidua institorix, przekupka kraśnicka, cesja zastawu na domu na wale
-230;Kamiński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1608;1;
-231;Kamyk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#134, #151;1609;2;
-232;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
-233;Kantor;Hieronim;Kraśnik;Krawiec;#7;1606;1;
-234;Kantor;Jarosz;Kraśnik;Krawiec (mistrz);#7;1606;1;Jarosz Kantor krawiec, sprawca obdukcji pod ratuszem
-235;Kantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
-236;Kantorkowicz;Adam;Kraśnik;Krawiec;#43, #186;1607–1609;2;Adam Kantorkowicz incola kraśnicki, zamiana domu za dom z Grzymkowskim
-237;Kantorkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#43, #161, #192;1607–1609;3;Jakub Kantorkowicz incola kraśnicki, szymark domów
-238;Kantorkowiczowa;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#161;1609;1;
-239;Kaper;Jan;Kraśnik;Mieszkaniec / Posesjonat;#205;1610;1;
-240;Karczmarczyk;Adam;Kraśnik;Ławnik;#201;1610;1;
-241;Karczmarczyk;Adam;Stróża;Mieszkaniec / Posesjonat;#258;1610;1;
-242;Karczmarzanka;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
-243;Karczmarzek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#27;1606;1;
-244;Karczmarzyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#44, #160, #190;1607–1609;3;
-245;Karczmarzyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
-246;Karczmarzyk;Szymon;Kraśnik;Szewc;#85, #132, #160, #190;1608–1609;4;
-247;Karnia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
-248;Karniecki;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#261;1610;1;
-249;Karzeł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-250;Kaufman;Żyd;Kraśnik;Kupiec / Dostawca żelaza;#110;1608;1;Kaufman Judaeus Crasnensis, dostawca gwoździ i żelaza budowlanego
-251;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;
-252;Kańka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Sebastian Kańka / Kanka ze wsi Suchynia, homicida skazany na ścięcie mieczem
-253;Kaśkonianka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;
-254;Kaśkonianka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;
-255;Kiepek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#57;1607;1;
-256;Kiepek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-257;Kiepek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-258;Kiepryk;Sebastian;Piaski;Mieszkaniec / Posesjonat;#219;1610;1;Sebastian Kiepryk de Piasek, sąsiad roli zastawnej na Piasku
-259;Kisiołek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
-260;Kitek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;
-261;Kitek;Walenty;Kraśnik;Mieszkaniec / Posesjonat (zmarły);#90;1608;1;Walenty Kitek zmarły mieszczanin, dawny posesjonat łąki Kitkowskiej pod Pustelnikowicami
-262;Kitek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
-263;Kitkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
-264;Kiwąs;Wojciech;Kraśnik;Ławnik;#185;1609;1;
-265;Kiziołkowa;Jadwiga;Góry i Podlesie;Mieszkaniec / Posesjonat;#127, #158;1608–1609;2;
-266;Klamicz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
-267;Klimczyk;Józef;Kraśnik;Mieszkaniec / Posesjonat;#55;1607;1;
-268;Klimczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#208;1610;1;
-269;Klimczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#220;1610;1;Wojciech Klimczyk olim incola Crasnensis, dłużnik schorowany na łożu boleści, zrzeczenie placu
-270;Klimczykowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#232;1610;1;
-271;Klimkowa;Agnieszka;Kraśnik;Mieszkanka / Wdowa;#99, #100;1608;2;Agnieszka Klimkowa vidua civis Crasnensis, babka sieroty, powódka o geradę
-272;Klimkowicz;Andrzej;Kraśnik;Mieszkaniec;#80;1608;1;Andrzej Klimkowicz incola kraśnicki, nabywca izdebki w rynku za 20 złp
-273;Klonowski;brak;Kraśnik;Szlachcic / Posesjonat (zmarły);#151;1609;1;olim dominus Klonowski, legator pościeli i obrusu
-274;Kluczkowski;Bosek vel mosek;Kluczkowice (wieś);Mieszkaniec / Posesjonat;#155;1609;1;
-275;Kmurzyna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#79;1608;1;
-276;Knap;Jakub;Kraśnik;Tkacz (mistrz);#40;1607;1;Jakub Knap / Tkacz mistrz tkacki, świadek obdukcji skradzionego ubrania
-277;Knap;Jan;Bełżyce;Mieszkaniec / Posesjonat;#31;1606;1;
-278;Kniek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
-279;Kobielowna;Katarzyna;Piaski;Mieszkaniec / Posesjonat;#219;1610;1;Katarzyna Kobielowna de Piasek, rolniczka z Piasku, zastaw roli zięciowi Drugiemu
-280;Kolibaba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#151;1609;1;
-281;Komarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Marcin Komarz de villa Opoka, świadek o kontraktach zbożowych
-282;Komieszka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#203;1610;1;Maciej Komieszka civis Crasnensis, hodowca bydła, oczyszczony z zarzutu kradzieży woła
-283;Komięga;Jan;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
-284;Komiężyna;Agnieszka;Kraśnik;Mieszkanka (zmarła);#97;1608;1;Agnieszka Komiężyna córka Komięgi, żona szewca Barszcza, bogata gerada dotalis
-285;Kondek;Paweł;Kraśnik;Ławnik;#152, #179;1609;2;
-286;Kondup;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
-287;Kondygerka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#34;1606;1;
-288;Kondyp;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;
-289;Kondypowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-290;Kondypowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-291;Konieczka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;
-292;Konieczka;Matys;Kraśnik;Mieszkaniec;#78, #79;1608;2;Matys Konieczka incola kraśnicki, dłużnik roli Głaczkowskiej
-293;Konop;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
-294;Konopowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
-295;Korszun;brak;Kraśnik;Mieszkaniec / Posesjonat w ul. Lubelskiej;#209;1610;1;Korszun incola Crasnensis, sąsiad w ulicy Lubelskiej
-296;Kosidło;Jakub;Blinów;Mieszkaniec / Posesjonat;#201;1609;1;
-297;Kosidło;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#200;1609;1;Jakub Kosidło incola Crasnensis, pozwany przez starego rajcę Kurzę
-298;Kotk;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#109;1608;1;
-299;Kowal;Jan;Stróża;Kowal;#79;1608;1;
-300;Kowal;Jan;Mikołaj (wieś);Kowal;#79;1608;1;Jan Kowal faber de villa Mikołaj, sprawca pobicia żelazem
-301;Kowal;Wawrzyniec;Leśnik (wieś);Kowal;#155;1609;1;
-302;Kowalik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#208;1610;1;Stanisław Kowalik incola Crasnensis, pożyczka 30 złp pod zastaw domu i ogrodu na Podlesiu
-303;Kowalik;Walerian;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;
-304;Kowalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
-305;Kowalówna;Katarzyna;Leśnik / Kluczkowice;Mieszkaniec / Posesjonat;#155;1609;1;
-306;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
-307;Kozicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#52, #215;1607–1610;2;
-308;Kozieł;Jan;Sułów;Wójt;#116, #265;1608–1610;2;
-309;Kozieł;Jan;Sułów (wieś);Wójt;#156;1609;1;
-310;Koziełek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;
-311;Kozioł;Jan;Sułów;Wójt;#206;1610;1;Jan Kozioł advocatus de villa Sułów, wójt sułowski, zastawnik ogrodu Sapałkowicza za 10 grzywien
-312;Kozłowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#15;1606;1;Jakub Kozłowicz, właściciel domu drewnianego wynajętego Gałkowi
-313;Kołacz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#211;1610;1;
-314;Kołobuch;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#219;1610;1;Mikołaj Kołobuch de Piasek, właściciel roli na Piasku przy miedzy popkowickiej
-315;Kołodziejczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#139;1609;1;
-316;Kołodziejczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#197;1609;1;
-317;Kołodziejczyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#23, #107, #204;1606–1610;3;Tomasz Kołodziejczyk gener Nagórskiej, zapis 30 grzywien posagu na domu w ul. Lubelskiej
-318;Kołodziejczyk;Wdowa;Kraśnik;Mieszkanka (wdowa);#217;1610;1;
-319;Kołodziejczykowa;brak;Kraśnik;Mieszkanka / Wdowa;#217;1610;1;Kołodziejczykowa vidua incola Crasnensis
-320;Kołodziejka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#35, #76, #131;1606–1609;3;
-321;Kołodziejka;Anna;Kraśnik;Mieszkanka / Wdowa;#131;1609;1;Anna Kołodziejka vidua civis Crasnensis
-322;Kołodziejka;Dorota;Kraśnik;Mieszkanka / Wdowa;#31;1606;1;Dorota Kołodziejka wdowa, zbywczyni domu z zastrzeżeniem dożywotniej komory na 6 lat
-323;Kołodziejska;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-324;Kościelski;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#77;1601;1;
-325;Krawczowski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#115;1608;1;
-326;Krawczowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#115;1608;1;
-327;Krawczyk;Mateusz;Kraśnik;Krawiec;#218;1610;1;Matys Krawczyk sartor et incola Crasnensis, nabywca zlicytowanego chorego konia do pługa za 7 złp
-328;Krogulecki;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
-329;Kroja;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#94;1608;1;
-330;Krzesionka;Zofia;Słodków;Mieszkaniec / Posesjonat;#68;1607;1;Zofia Krzesionka de villa Słodków, powódka o kożuch u szewca Ozimka
-331;Kuc;Adam;Kraśnik;Mieszkaniec / Posesjonat;#30;1606;1;
-332;Kudełka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#158, #187;1609;2;
-333;Kudła;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
-334;Kula;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#121, #230;1608–1610;2;
-335;Kula;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
-336;Kulonka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#260;1610;1;
-337;Kumaj;Adam;Dzierzkowice (wieś);Kuśnierz;#138;1609;1;
-338;Kupsz;Sebastian;Stróża;Mieszkaniec / Posesjonat;#261;1610;1;
-339;Kurczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;
-340;Kurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;
-341;Kuroń;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-342;Kurza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#221;1610;1;
-343;Kurza;Wojciech;Kraśnik;Rajca;#80, #132, #200, #201, #221;1608–1610;5;Wojciech Kurza consul antiquus Crasniciensis, stary rajca kraśnicki, pozew przeciw Kosidle
-344;Kuszka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#221;1610;1;
-345;Kuszka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
-346;Kusznicz;Kusznia;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-347;Kuszyna;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
-348;Kułak;Stanisław;Podlesie;Przedmieszczanin;#10;1606;1;Stanisław Kułak, kwitowany z pretensji domowych
-349;Kułak;Tomasz;Podlesie;Przedmieszczanin;#9;1604–1606;1;Tomasz Kułak z Podlesia, spór o dom z Wojciechem Płażykiem
-350;Kułakowa;Krystyna;Góry i Podlesie;Mieszkaniec / Posesjonat;#9;1604;1;Krystyna Kułakowa, synowa Tomasza Kułaka
-351;Kuża;Jan;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;Jan Kuża obywatel kraśnicki, inwestor kamienicy w rynku (kosztorys 42 złp 6 gr 15 d)
-352;Kuża;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
-353;Kuża;Wojciech;Kraśnik;Rajca;#32;1606;1;
-354;Kużanka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
-355;Kwalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;Katarzyna Kwalina incola Crasnensis, powódka o sukno
-356;Kwas;Wojciech;Kraśnik;Ławnik;#21, #106, #205;1606–1610;3;
-357;Kwasowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-358;Kwaśnica;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;Kasper Kwaśnica incola kraśnicki, spór o rolę Głaczkowską
-359;Kwiap;Wojciech;Kraśnik;Ławnik;#201, #227;1610;2;
-360;Kwiapowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#227;1610;1;
-361;Kąpa;Krzysztof;Jągrów;Mieszkaniec / Posesjonat;#29;1606;1;
-362;Kłopek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#245;1610;1;
-363;Kłopocik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Marcin Kłopocik, sprawca napaści z kijami na kuśnierza Mazurka
-364;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Wincenty Kłopocik, napastnik, osadzony w dolnej wieży ratusza
-365;Kłopotk;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#148;1609;1;
-366;Kłopotkowa;brak;Kraśnik;Mieszkanka / Posesjonatka;#148;1609;1;Kłopotkowa incola Crasnensis, sąsiadka roli na Podlesiu
-367;Kłos;Jakub;Łagów (wieś);Mieszkaniec / Posesjonat;#103;1608;1;
-368;Kłotnik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#255;1610;1;
-369;Latko;Wojciech;Kraśnik;Wójt;#97;1608;1;
-370;Latos;Jan;Rudnik;Mieszkaniec / Posesjonat;#276;1610;1;
-371;Ledwiak;Bartłomiej;Budzyń;Mieszkaniec / Posesjonat;#211;1610;1;Bartłomiej Ledwiak de villa Budzyń, arbiter i świadek ugody o ranę w łaźni
-372;Ledwiak;Jan;Budzyń;Mieszkaniec / Posesjonat;#211;1610;1;Jan Ledwiak de villa Budzyń, świadek pojednania w domu Świątka
-373;Lenartowicz;Andrzej;Kraśnik;Krawiec;#105;1608;1;
-374;Lesko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-375;Lewkowicz;Lewek;Kraśnik;Mieszkaniec / Posesjonat;#253, #256;1610;2;
-376;Leśniakowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1607;1;
-377;Liczmanik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-378;Ligęza;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#182;1609;1;
-379;Lisaiowska;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;
-380;Lisiecki;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
-381;Litman;Żyd;Kraśnik;Kupiec / Wierzyciel;#130;1609;1;Litman Judaeus Crasnensis, wierzyciel o kupno wozu
-382;Maj;Jan;Rzeczyca;Kmieć / Świadek sądu gajonego;#193;1609;1;Jan Maj subditus de Rzeczyca, testis in causa decimarum
-383;Makuch;Michał;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-384;Manusowicz;Manus;Kraśnik;Mieszkaniec / Posesjonat;#255;1610;1;
-385;Manusowicz;Manus;Lublin;Mieszkaniec / Posesjonat;#257;1610;1;
-386;Maraskowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
-387;Maraszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-388;Maraszkowa;Ewa;Kraśnik;Szewc;#246;1610;1;
-389;Maraszkowicz;Walenty;Kraśnik;Szewc;#246;1610;1;
-390;Marcz;Szczęsny;Rzeczyca;Kmieć / Świadek sądu gajonego;#192;1609;1;Szczęsny Marcz subditus conventualis de Rzeczyca
-391;Marek;Urban;Kraśnik;Mieszkaniec / Posesjonat;#55;1607;1;
-392;Marek;Żyd;Kraśnik;Kupiec / Wierzyciel;#25, #28;1606;2;Marek Judaeus Crasnensis, kupiec, cedent roli Ziarkowskiej i wierzyciel długu śledziowego
-393;Markowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
-394;Markowicz;Jakub;Stróża;Mieszkaniec / Posesjonat;#260;1610;1;
-395;Markowicz;Markowa;Kraśnik;Mieszkanka (wdowa);#259;1610;1;
-396;Markowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
-397;Markowicz;Urban;Kraśnik;Mieszkaniec / Posesjonat;#59, #77, #129, #151;1607–1609;4;
-398;Markowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
-399;Marszałkówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#93;1608;1;
-400;Matysiczkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#151;1609;1;
-401;Matysowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
-402;Mazurek;Jakub;Bieliny (wieś);Mieszkaniec / Posesjonat;#130, #155;1609;2;
-403;Mazurek;Marcin;Kraśnik;Kuśnierz;#18, #229;1606–1610;2;Marcin Mazurek kuśnierz kraśnicki, ofiara skatowania przed szpitalem
-404;Mazurkowa;Zofia;Kraśnik;Kuśnierz;#230;1610;1;
-405;Maćkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-406;Małek;Jan;Łagów (wieś);Mieszkaniec / Posesjonat;#104;1608;1;
-407;Menysowicz;Menys;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-408;Miastek;Stanisław;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;Stanisław Miastek ze Stróży, ojciec napastnika z orczykiem
-409;Miastka;Syn stanisława;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;
-410;Michulik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
-411;Miedziany;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;
-412;Mielecki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
-413;Migał;Jakub;Kraśnik;Przedmieszczanin / Sukcesor;#8, #12;1606;2;Jakub Migał, pasierb Doroty Sowiny, powód o ojcowiznę
-414;Mikuła;Michał;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-415;Milekowski;Marcin;Kraśnik;Prepozyt klasztoru Kanoników Regularnych;#54;1607;1;ks. Marcin Milekowski praepositus Conventus Crasnensis Canonicorum Regularium
-416;Milgowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
-417;Miodownik;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#66;1607;1;
-418;Mis;Jan;Kraśnik;Mieszkaniec / Posesjonat;#14;1606;1;
-419;Mis;Piotr;Kraśnik;Szewc (Szewczyk);#66;1607;1;Piotr Mis zwany Szewczyk, sprawca nocnego napadu siekierą na dom
-420;Mis szewczyk;Piotr;Kraśnik;Szewc;#66;1607;1;
-421;Misiarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Bartłomiej Misiarz, rodzony brat zamordowanego Wojciecha
-422;Misiarz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Jakub Misiarz, brat zamordowanego Wojciecha domagający się miecza
-423;Misiarz;Jan;Kraśnik;Przedmieszczanin;#14, #15;1606;2;Jan Mis / Misiarz senior, przedmieszczanin kraśnicki
-424;Misiarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Piotr Misiarz, brat zabitego Wojciecha
-425;Misiarz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Wojciech Misiarz vel Mis, ofiara morderstwa na ulicy publicznej
-426;Misiarz junior;Jan;Kraśnik;Mieszkaniec / Posesjonat;#14;1606;1;
-427;Misiarzowa;Katarzyna;Sulgostów;Mieszkaniec / Posesjonat;#13;1606;1;
-428;Misionic;Jan;Kraśnik;Przedmieszczanin;#14;1606;1;Jan Misionic / Misiarz junior, pocięty nożem i biczem przez sługę
-429;Misiotek;Wawrzyniec;Bieliny;Mieszkaniec / Posesjonat;#94;1608;1;
-430;Misiowa;Katarzyna;Sulgostów;Wdowa / Powódka;#13, #14;1606;2;Katarzyna Misiowa wdowa po Wojciechu Misiarzu z Sulgostowa
-431;Misiowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#139;1609;1;
-432;Mitka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#178;1609;1;Stanisław Mitka civis Crasnensis, pobity na drodze leśnej przez Rzepkę z Blinowa
-433;Mięciel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-434;Mięcielowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-435;Miłek;Marcin;Kraśnik;Rajca;#5, #240, #257;1606–1610;3;Marcin Miłek scabinus iuratus, ławnik kraśnicki 1606
-436;Miś;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#261;1610;1;
-437;Mnich;Wojciech;Kraśnik;Ławnik;#57, #118, #129, #157, #211;1607–1610;5;
-438;Mnich;Wojciech;Urzędów;Mieszkaniec / Posesjonat;#188;1609;1;Wojciech Mnich civis Vrzedouiensis, mieszczanin urzędowski skazany na zwrot delii
-439;Modzelowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;Anna Modzelowska tutrix pupillorum olim Nicolai Piotrowski, obrona ról na Podlesiu
-440;Modzelowski;Florian;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;
-441;Modzelowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#69;1607;1;Wojciech Modzelowski nobilis, proces o 20 florenów w złocie (aurei) z Żydem Markiem
-442;Modzeloński;Adam;Baby (wieś);Mieszkaniec / Posesjonat;#185;1609;1;Adam Modzeloński nobilis de villa Baby, proces o 3 grzywny żony z ogrodu
-443;Mordusiowicz;Marek;Lublin;Mieszkaniec / Posesjonat;#262;1610;1;
-444;Morek;Szymon;Urzędów;Mieszkaniec / Posesjonat;#134;1609;1;
-445;Morel;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-446;Morel;Szymon;Urzędów;Mieszkaniec / Posesjonat;#238;1610;1;
-447;Moskał;Wacław;Potok (wieś);Mieszkaniec / Posesjonat;#193;1609;1;
-448;Moskowicz;Mosko;Kraśnik;Mieszkaniec / Posesjonat;#260;1610;1;
-449;Moskowicz;Moskowa;Kraśnik;Mieszkanka (wdowa);#260;1610;1;
-450;Moskwa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#202;1610;1;
-451;Mozgołąska;Anna;Boby;Mieszkaniec / Posesjonat;#209;1610;1;Anna Mozgołąska de villa Boby, spór o sukno i tkaniny z Koziełkiem i Szową
-452;Mrygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#233;1610;1;
-453;Mrzygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
-454;Mućko;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Maciej Mućko, sprawca invasio domus i pobicia brzemiennej Siwcowej
-455;Mycitka;Młot;Lubaczów;Mieszkaniec / Posesjonat;#251;1610;1;
-456;Mzygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#162, #194;1609;2;
-457;Męcina;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-458;Mędala;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;Andrzej Mędala incola kraśnicki, ukarany za potwarz rzemieślnika
-459;Męzynek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#164, #239;1609–1610;2;
-460;Młynarz;Jan;Stróża;Młynarz;#60;1607;1;Jan Młynarz dictus Kozłowy de villa Mniszek, sprzedawca młyna wodnego na Kozłówce
-461;Młynarz grzebienny;Walenty;Kraśnik;Młynarz;#198;1609;1;Walenty Molendinator Grzebienny de Crasnik, młynarz ze Stawu Grzebień, nabywca młyna na Kozłówce
-462;Młynarz kozłowy;Jan;Mniszek (wieś), rzeka Kozłówka;Młynarz;#198;1609;1;
-463;Nagórska;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#190, #208;1609–1610;2;Jadwiga Nagórska vidua civis Crasnensis, zapis 32 grzywien posagu zięciowi w ul. Lubelskiej
-464;Nagłówek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;
-465;Najduk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#80, #101;1608;2;
-466;Najduk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#80, #101;1608;2;
-467;Najduk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#80, #101, #129, #157, #220;1608–1610;5;
-468;Najdukowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#79, #101;1608;2;Zofia Najdukowa przedmieszczanka kraśnicka, podział ról między synów Najduków
-469;Niedziałkowski;Tomasz;Góry i Podlesie;Mieszkaniec / Posesjonat;#9;1604;1;Tomasz Niedziałkowski capitaneus et regens arcis Crasnensis, starosta zamkowy
-470;Niemczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-471;Niewygląd;Jan;Kraśnik;Rajca;#21, #120;1606–1608;2;
-472;Niewygląd;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
-473;Niewyglądowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
-474;Niski;Jan;Piaski;Mieszkaniec / Posesjonat;#42;1607;1;
-475;Niski;Jan;Kraśnik;Mieszkaniec;#42;1607;1;Jan Niski incola kraśnicki, zastaw łąki na Piasku dla Janaszkowiców
-476;Ogonek;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#231;1610;1;
-477;Okasowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
-478;Okasowicz;Okas;Stróża;Mieszkaniec / Posesjonat;#258;1610;1;
-479;Olęcki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#12;1606;1;Paweł Olęcki nobilis, szlachcic kwitujący dług u Żyda Bofina
-480;Orzeł;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
-481;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;Stanisław Orzeł incola kraśnicki, donacja domu na Podgórzu córce Katarzynie
-482;Orłowa;Jadwiga;Kraśnik;Mieszkanka / Wdowa;#42, #43;1607;2;Jadwiga Orłowa relicta olim Laurentii Niewygląd, spór o dotalitium 5 grzywien
-483;Orłówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
-484;Ossowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
-485;Ostrowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#74;1608;1;
-486;Ozepek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-487;Ozimek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#162;1609;1;
-488;Ozimek;Szymon;Kraśnik;Szewc;#34, #190, #238;1606–1610;3;Szymon Ozimek sutor Crasnensis, szewc kraśnicki, areszt masła zbiegłej Janusowej w jego komorze
-489;Ozimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-490;Ożóg;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#53;1607;1;
-491;Ożóg;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-492;Pachoła;Marcin;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
-493;Paczkówna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
-494;Paczkówna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
-495;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#207, #265;1610;2;
-496;Pająk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#204, #276;1610;2;Wincenty Pająk lanio Crasnensis, rzeźnik kraśnicki, dłużnik Rzepki za zboże na pniu
-497;Pająkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-498;Papudańczyk;Wawrzyniec;Budzyń;Mieszkaniec / Posesjonat;#206;1610;1;Wawrzyniec Papudańczyk de villa Budzyń, sprawca zranienia Matysa Jurczyka w łaźni miejskiej
-499;Parada;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-500;Parkowicz;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
-501;Parkowicz;Marcin;Kraśnik;Mieszkaniec;#24;1606;1;Marcin Parkowicz świadek regestru budowlanego kamienicy w rynku
-502;Parus;Marcin;Kraśnik;Wójt;#201;1610;1;
-503;Pasierbek;Jan;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Jan Pasierbek subditus de Rzeczyca, świadek o poborze dziesięciny snopowej dla Pniowa
-504;Paszek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#116;1608;1;
-505;Paszek;Wincenty;Góry i Podlesie;Mieszkaniec / Posesjonat;#76;1608;1;
-506;Paszek;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
-507;Paszkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#242;1610;1;
-508;Pawik;Marcin;Kraśnik;Burmistrz;#53;1607;1;Marcin Pawik / Pawus advocatus Crasnensis 1608, nowo wybrany wójt kraśnicki
-509;Pawus;Marcin;Kraśnik;Wójt;#106, #158, #176;1608–1609;3;
-510;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#7, #144;1606–1609;2;Zofia Pawłowska honesta incola, poszkodowana kradzieżą domową
-511;Pańko;Wawrzyniec;Studzianki;Mieszkaniec / Posesjonat;#22;1606;1;
-512;Perzyna;Jan;Rzeczyca;Mieszkaniec / Posesjonat;#192;1609;1;Jan Perzyna subditus conventualis de villa Rzeczyca Księża, świadek sądu gajonego o dziesięciny
-513;Perzyna;Marcin;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Marcin Perzyna subditus de Rzeczyca, świadek pod przysięgą o dziesięcinach snopowych
-514;Petruszkowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
-515;Petruszkowicz;Janoszek;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;
-516;Petruszowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-517;Petruzonowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#45;1607;1;Antoni Petruzonowicz incola kraśnicki, spór o zniewagi słowne z Sówką
-518;Petruzowicz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1608;1;
-519;Petruzowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
-520;Piaszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
-521;Piaszkowicz;Stanisław;Kraśnik;Ławnik;#201;1610;1;
-522;Piaturn;Michał;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;
-523;Piegaty;Żyd;Kraśnik;Kupiec / Dłużnik;#51;1607;1;Piegaty Iudaeus Crasnensis, dłużnik 116 złp szlachcica Strzałkowskiego
-524;Piekarczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#30;1606;1;
-525;Piekarczykowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#36;1606;1;
-526;Piekrz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#267;1611;1;
-527;Pierogowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;
-528;Piotran;Michał;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
-529;Piotrowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#80;1608;1;
-530;Piotrowska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73, #91;1608;2;
-531;Piotrowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
-532;Piotrowski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#217;1610;1;
-533;Piotrowski;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#91, #217;1608–1610;2;
-534;Piotrowski;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#216;1610;1;Sebastian Piotrowski incola Crasnensis, przepadek sukni zastawnej u Żyda Marka
-535;Piotruń;Michał;Kraśnik;Mieszkaniec / Posesjonat;#99;1608;1;
-536;Piotruśkionka;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1608;1;
-537;Pipek;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#69;1607;1;
-538;Pipek;Wojciech;Górsko;Kmieć;#69;1607;1;Wojciech Pipek de villa Górsko, ugoda o furmankę z ławnikiem Ćwikłą
-539;Pisarkowic;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#145, #166;1609;2;
-540;Pistor;Jan;Kraśnik;Piekarz;#276;1610;1;
-541;Piwowar;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
-542;Piwowarczyk;Tomasz;Stróża;Mieszkaniec / Posesjonat;#261;1610;1;
-543;Piwowarowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
-544;Piątek;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#155;1609;1;
-545;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15, #89, #220, #258;1606–1610;4;Jan Piątek furman i woźnica kraśnicki, zabór konia na gościńcu
-546;Piątk;Janowa;Kraśnik;Mieszkanka (wdowa);#261;1610;1;
-547;Podnygałka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;
-548;Podrygałczyna;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#101;1608;1;
-549;Podrygałka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
-550;Pogorzały;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#140, #158, #187;1609;3;
-551;Pogorzelski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-552;Porada;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#130, #215;1609–1610;2;
-553;Poradka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#39, #104;1607–1608;2;
-554;Powałka;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#240;1610;1;
-555;Poznański;brak;Poznań;Kupiec / Mieszczanin poznański;#105;1608;1;civis Posnaniensis, kupiec poznański poszkodowany na jarmarku kraśnickim
-556;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#84;1608;1;
-557;Prokop;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#80, #235;1608–1610;2;
-558;Prokopowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-559;Prokopowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#228;1610;1;
-560;Prokopówna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;
-561;Prokopówna;Zuzanna;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;
-562;Prokopówna;Łucja;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;
-563;Przekaza;Jan;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
-564;Przybysławik;Jan;Kraśnik;Mieszkaniec / Opiekun;#80;1608;1;Jan Przybysławik incola kraśnicki, urzędowy opiekun Najdukowej
-565;Przybysławik;Przybysławik;Kraśnik;Mieszkaniec / Posesjonat;#80;1608;1;
-566;Przystęp;Jan;Potok (wieś);Mieszkaniec / Posesjonat;#193;1609;1;
-567;Pukarzowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-568;Pęzik;Błażej;Góry i Podlesie;Mieszkaniec / Posesjonat;#38;1607;1;
-569;Pęzik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#16;1606;1;Stanisław Pęzik, poszkodowany rozcięciem ucha i zwichnięciem ręki
-570;Płaczkowicz;Stanisław;Kraśnik;Ławnik;#126, #170, #176;1608–1609;3;
-571;Płatkowa;Helena;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-572;Płazik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
-573;Płażkowicz;Stanisław;Kraśnik;Ławnik;#106;1608;1;
-574;Płażyk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
-575;Płażyk;Jan;Piaski;Mieszkaniec / Posesjonat;#42;1607;1;
-576;Płażyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#9, #10, #17;1604–1606;3;Wojciech Płażyk obywatel kraśnicki, nabywca domu Kułaka i spór o łąkę
-577;Płażykowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
-578;Radek;Paweł;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
-579;Radwaczek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#168, #183;1609;2;Wawrzyniec Radwaczek serviens seu woźny civitatis Crasnensis, woźny miejski
-580;Radzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Jakub Radzonek przedmieszczanin, zbywca 6 stadiów roli synowi
-581;Radzonek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
-582;Radzonek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#18, #240;1606–1610;2;Szymon Radzonek sutor Crasnensis, szewc kraśnicki, wierzyciel Usarza
-583;Radzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#42, #247;1607–1610;2;
-584;Radzyński;Jan;Wilkołaz, Sandomierz;Mieszkaniec / Posesjonat;#203;1610;1;ks. Jan Radzyński canonicus Sandomiriensis et plebanus Vilkicensis, proces z Komieszką o woła
-585;Rezula;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#51;1607;1;
-586;Rezula;Matys;Kraśnik;Mieszkaniec;#51;1607;1;Matys Rezula incola kraśnicki, spór z furmanem Piątkiem
-587;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-588;Rodzonek;Krzysztoszek;Kraśnik;Mieszkaniec / Posesjonat;#161;1609;1;
-589;Rodzonek;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-590;Rodzonek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#144;1609;1;
-591;Rodzonek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-592;Rodzonkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-593;Rodzonkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-594;Rodzonkówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
-595;Rogoyski;Szczęsny;Olbięcin;Mieszkaniec / Posesjonat;#255;1610;1;
-596;Rudniczanka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#98;1608;1;
-597;Rudnik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98, #149;1608–1609;2;
-598;Rudnik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#98;1608;1;Walenty Rudnik vel Rudny olim civis Crasnensis, zmarły brat Anny Sosnowej, zamiana półłanka na Podlesiu
-599;Rudnik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#214, #215;1610;2;Wincenty Rudnik incola Crasnensis
-600;Rusin;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#22;1606;1;
-601;Rybitwik;Adam;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;
-602;Rybitwik;Adam;Stróża;Mieszkaniec / Posesjonat;#60;1607;1;Adam Rybitwik, pobity pod ratuszem przez krawca
-603;Rybitwik;Wojciech;Stróża;Mieszkaniec / Posesjonat;#60;1607;1;
-604;Rybitwik;Wojciech;Kraśnik;Przedmieszczanin / Sprawca;#60;1607;1;Wojciech Rybitwik syn Jadwigi, brat Adama, sprawca napaści z siekierą na młynarza
-605;Rybitwikowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#60;1607;1;
-606;Rybitwówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#182;1609;1;
-607;Rymarz;Marys;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-608;Rzeczycki;Krzysztof;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#163;1609;1;Krzysztof Rzeczycki capitaneus et curiae Crasnensis praefectus, dzierżawca kraśnicki
-609;Rzepczyński;Wincenty;Kraśnik;Notariusz;#257;1610;1;
-610;Rzepecki;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
-611;Rzepka;Andrzej;Kraśnik;Rajca;#170, #180;1609;2;
-612;Rzepka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#204;1610;1;
-613;Rzepka;Mikołaj;Blinów (wieś);Mieszkaniec / Posesjonat;#178;1609;1;Mikołaj Rzepka subditus de villa Blinow, sprawca krwawego pobicia na drodze
-614;Rzeźnik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#220;1610;1;Marcin Rzeźnik carnifex Crasnensis, rzeźnik miejski, areszt na mieniu Klimczyka
-615;Rzępka;Andrzej;Kraśnik;Rajca;#53;1607;1;
-616;Rzęsik;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#20;1606;1;Bartłomiej Rzęsik, świadek naoczny wrzucenia kuśnierza do wanny
-617;Rzęsowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
-618;Sado;Jan;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;
-619;Sado;Maciej;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
-620;Sado;Stanisław;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
-621;Sadowna;Katarzyna;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
-622;Safranek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-623;Safranek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#244;1610;1;
-624;Safranek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#218;1610;1;Wawrzyniec Safranek caupo Crasnensis, karczmarz kraśnicki, rewizja chorego nosatego konia
-625;Safranek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-626;Safrankowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;
-627;Sagalina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-628;Sagał;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#45;1607;1;
-629;Samborski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#88, #266;1608–1611;2;
-630;Sapała;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#80, #167;1608–1609;2;
-631;Sapałczyna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;
-632;Sapałkowicz;Stanisław;Kraśnik;Wójt;#5, #24, #78, #180, #205, #239;1606–1610;6;Stanisław Sapałkowicz advocatus Crasnensis, wójt kraśnicki 1606
-633;Sapałkowicz;Wojciech;Kraśnik;Wójt;#5, #78, #118, #181, #201, #205;1606–1610;6;Wojciech Sapałkowicz scabinus et tutor Zophiae pupillae, obrona praw osieroconej Zofii
-634;Sapałkowiczowa;Lukrecja;Kraśnik;Mieszkaniec / Posesjonat;#180;1609;1;
-635;Sapałkowiczowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;
-636;Sapałkówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#181;1609;1;Zofia Sapałkówna pupilla, osierocona córka wójta Stanisława Sapałkowicza
-637;Sarnka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
-638;Sasarz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#197;1609;1;
-639;Sasinek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
-640;Serafin;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
-641;Serafinek;Marcin;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Marcin Serafinek subditus de Rzeczyca, świadek sądu gajonego o dziesięciny
-642;Serafinowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
-643;Sergona;Regina;Kraśnik;Mieszkaniec / Posesjonat;#176;1609;1;Regina Sergona vidua de Szczebrzeszyn, powódka o błąd lekarski w łaźni
-644;Siewc;brak;Szczebrzeszyn;Mieszkaniec (zmarły) / Pacjent łaźni;#176;1609;1;olim Siewc civis Szczebrzesinensis, pacjent łaźni kraśnickiej
-645;Sieńczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#143;1609;1;
-646;Siurka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
-647;Siwcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Jadwiga Siwcowa, ofiara nocnego najazdu siekierami przez Mućkę
-648;Siwczyk;Tomasz;Kraśnik;Przedmieszczanin / Poszkodowany;#214, #215;1610;2;Tomasz Siwczyk incola Crasnensis, poszkodowany o zranienie dłoni
-649;Siwek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#128, #158;1608–1609;2;
-650;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
-651;Siwiec;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Maciej Siwiec, powód w sprawie zbrojnego najazdu na domostwo
-652;Skoryna;Jan;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-653;Skowronek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#240;1610;1;
-654;Skrobecki;brak;Pniów;Sługa kościelny / Poborca dziesięcin;#193;1609;1;Skrobecki famulus plebani Pniouiensis, poborca dziesięciny snopowej
-655;Skroczek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
-656;Skroczek;Wojciech;Kraśnik;Przedmieszczanin;#26, #27;1606;2;Wojciech Skroczek sukcesor roli po ojcu, szwagier Wojciecha Świstka
-657;Skroczkowa;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
-658;Skrzypek;Piotr;Kraśnik;Rajca;#82;1608;1;
-659;Skrzypek;Tomasz;Kraśnik;Burmistrz;#180;1609;1;
-660;Snopek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
-661;Snopkowski;Szczepan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#107, #133, #163;1608–1609;3;
-662;Sontka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1609;1;
-663;Sontka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#143;1609;1;
-664;Sontka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;
-665;Sosnowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#148;1609;1;
-666;Sosnowik;Kacper;Kraśnik;Mieszkaniec / Posesjonat;#190;1609;1;Kacper Sosnowik gener Nagórskiej, oprawa posagu na domu w ulicy Lubelskiej
-667;Sosnowik;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
-668;Sowa;Jarmuła;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-669;Sowa;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#122, #153;1608–1609;2;Marcin Sowa przedmieszczanin kraśnicki, sukcesor Matysa
-670;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;
-671;Sowa;Matys;Kraśnik;Mieszkaniec / Posesjonat (zmarły);#8, #9, #10, #11, #12;1606;5;Matys Sowa zmarły obywatel, właściciel 6 wołów roboczych i 6 krów
-672;Sowa;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Sowa mieszczanin ze Szczebrzeszyna, syn Matysa
-673;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-674;Sowianka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Jadwiga Sowianka, córka Matysa Sowy
-675;Sowina;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#9;1606;1;Dorota Sowina wdowa po Matysie Sowie, broni wiana 100 grzywien i dożywocia
-676;Sowina;Matysa;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;
-677;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#166;1609;1;
-678;Sołowicz;Iwan;Kraśnik;Mieszkaniec / Posesjonat;#196;1609;1;Iwan Sołowicz mercator Ruthenus de Ligęzopole, kupiec ruski zmarły nagle na jarmarku marcinkowskim
-679;Sołowicz;Jacko;Ligęzopole (wieś);Mieszkaniec / Posesjonat;#199;1609;1;Jacko Sołowicz de villa Ligęzopole, syn zmarłego Iwana, sukcesor mienia ojcowskiego
-680;Sołowicz;Masiej;Ligęzopole (wieś);Mieszkaniec / Posesjonat;#199;1609;1;Masiej Sołowicz de villa Ligęzopole, brat zmarłego Iwana, sukcesor mienia
-681;Sprysik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#61;1607;1;
-682;Sprysik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#53, #119;1607–1608;2;Stanisław Sprysik incola kraśnicki, nabywca posesji do boru Leszczyny
-683;Spycik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
-684;Spyt;Jakub;Bieliny;Mieszkaniec / Posesjonat;#52;1607;1;Jakub Spyt cmeto de villa Bieliny, zrzeczenie czwartej części ojcowizny bratu
-685;Stalmaska;brak;Kraśnik;Mieszkanka / Wdowa;#145;1609;1;Stalmaska vidua Crasnensis, sąsiadka sadu za murami miejskimi
-686;Starybrzuch;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#183, #235;1609–1610;2;Walenty Starybrzuch kupiec zbożowy, spław 30 korcy żyta nad Wisłę ad Vistulam
-687;Stańko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;Stanisław Stańko incola Crasnensis, areszt 20 kop żyta na pniu przez Żyda Kochmana
-688;Stropek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-689;Strzałkowski;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#51;1607;1;Bartłomiej Strzałkowski nobilis, ugoda na 116 złp z Żydem Piegatym
-690;Sufletka;Anna;Kraśnik;Mieszkanka / Wdowa;#27;1606;1;Anna Sufletka wdowa po Suflecie, spór graniczny o ogród za stodołami
-691;Sufletka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
-692;Susfeczonka;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#83;1608;1;
-693;Susfetka;Stanisław;Góry i Podlesie;Mieszkaniec / Posesjonat;#126;1608;1;
-694;Susfetka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#76;1608;1;
-695;Suszwalik;Paweł;Góry i Podlesie;Mieszkaniec / Posesjonat;#111;1608;1;
-696;Swiątkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#166;1609;1;
-697;Swiątkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#169;1609;1;
-698;Swiętkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#164;1609;1;
-699;Swiętkowicz;Samuel;Kraśnik;Mieszkaniec / Posesjonat;#162;1609;1;
-700;Sydorowicz;Wasiek;Bełz;Mieszkaniec / Posesjonat;#23;1606;1;Wasiek Sydorowicz kupiec bełski, hurtownik śledzi z Bełza na Rusi Czerwonej
-701;Syjka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#40;1607;1;Wojciech Syjka honestus incola, poszkodowany kradzieżą błękitnego sukna karazjowego
-702;Symonowa;Anna;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
-703;Szafranek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#24, #253;1606–1610;2;
-704;Szafraniek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Sebastian Szafraniek / Safraniek, pozwany o exscissio gaii
-705;Szafrankowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-706;Sznajpek;Maciej;Budzyń (wieś);Mieszkaniec / Posesjonat;#182;1609;1;Maciej Sznajpek de villa Budzyń, zięć Katarzyny Rybitwówny, cesja zastawu roli za 17 grzywien
-707;Szowa;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;
-708;Szpic;Tobiasz;Lublin;Mieszkaniec / Posesjonat;#66;1607;1;Tobiasz Szpic civis et mercator Lublinensis, rękojmia za konia
-709;Szpitalna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
-710;Szpygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1608;1;
-711;Szygiełek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#194;1609;1;Wojciech Szygiełek powód o spadek ojcowski, nakaz obiadu pogrzebowego
-712;Sąsiad;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;o. Wojciech Sąsiad Canonicus Regularis Ordinis S. Augustini de Conventu Crasnensi
-713;Słąpkowski;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;Krzysztof Słąpkowski nobilis, praefectus et capitaneus arcis Crasnensis 1607
-714;Tarnowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;ks. Wojciech Tarnowski praepositus Crasniciensis Canonicorum Regularium Lateranensium
-715;Textor;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-716;Tkacz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#106, #114;1608;2;
-717;Tkacz;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;
-718;Tkacz;Siemion;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;
-719;Tkaczowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#86;1608;1;
-720;Tokarczyk;Bartłomiej;Kraśnik;Przedmieszczanin;#44;1607;1;Bartłomiej Tokarczyk przedmieszczanin kraśnicki, spłata ogrodu Tokarzewskiego
-721;Tokarczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#88;1608;1;
-722;Tokarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1609;1;
-723;Tokarczykowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#44;1607;1;
-724;Tokarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#149;1609;1;
-725;Tokarz;Jan;Bieliny;Mieszkaniec / Posesjonat;#238;1610;1;
-726;Tokarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-727;Tokarz;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#120, #238;1608–1610;2;
-728;Tokarz;Marcin;Bieliny;Mieszkaniec / Posesjonat;#52;1607;1;
-729;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149, #204;1609–1610;2;
-730;Tokarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44, #149;1607–1609;2;
-731;Tokarz;Wojciech;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
-732;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#204;1610;1;Barbara Tokarzowa uxor Martini, protestacja posagowa o raty z domu w ul. Lubelskiej
-733;Trestka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
-734;Trestka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#37, #189;1606–1609;2;Marcin Trestka civis Crasnensis, spór o podwójny zastaw stajań roli pułłankowej
-735;Trojan;Hieronim;Kraśnik;Mieszkaniec / Posesjonat;#267;1611;1;
-736;Trojanek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#90;1608;1;
-737;Tryleski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;
-738;Trzennik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-739;Trzymska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
-740;Trzymski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
-741;Trzymski;Andrzej;Trzymiechy;Mieszkaniec / Posesjonat;#70;1607;1;Andrzej Trzymski nobilis de Trzymiechy, areszt 30 grzywien na domu Danielowicza
-742;Trzymski;Stanisław;Szczebrzeszyn;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Trzymski plenipotent ze Szczebrzeszyna
-743;Usarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#44, #240;1607–1610;2;Andrzej Usarz incola kraśnicki, pożyczka 12 złp od szewca Radzonka pod zastaw domu
-744;Usarzowej;Dziecko;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
-745;Wandza;Melchior;Kraśnik;Szewc;#87;1608;1;
-746;Warszycki;Andrzej;Góry i Podlesie;Mieszkaniec / Posesjonat;#208;1610;1;
-747;Weboris radomski;Gaspar;Radom / Jągrów;Mieszkaniec / Posesjonat;#29;1606;1;
-748;Wejslik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#122;1608;1;
-749;Wieczorkowic;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#35;1606;1;
-750;Wiejlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
-751;Wierzbicki;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Wierzbicki, zmarły dziadek Sowiców
-752;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;Szymon Wierzbicki z Bielin, poddany szpitala św. Ducha
-753;Wiezławek;Andrzej;Bieliny (wieś szpitalna);Mieszkaniec / Posesjonat;#94;1608;1;
-754;Wiezławkowa;Małgorzata;Bieliny;Mieszkaniec / Posesjonat;#95;1608;1;
-755;Wojda;Wojciech;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
-756;Wojtal;Marcin;Stróża;Mieszkaniec / Posesjonat;#160, #189;1609;2;
-757;Wojtal;Michał;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
-758;Wojtalówna;Barbara;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
-759;Wojtalówna;Katarzyna;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
-760;Wojtyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;
-761;Wolak;Adam;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
-762;Wolak;Flig;Kraśnik;Mieszkaniec / Posesjonat;#99;1608;1;
-763;Wolak;Jan;Bieliny;Mieszkaniec / Posesjonat;#22;1606;1;
-764;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
-765;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Stanisław Wolak, poszkodowany w krwawym pobiciu na gościńcu
-766;Wolak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
-767;Wolakowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
-768;Wołosowicz;Daniel;Lubaczów;Mieszkaniec / Posesjonat;#251;1610;1;
-769;Wrona;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#64;1607;1;Mikołaj Wrona incola kraśnicki, zastaw 4 stadiów łąki przy gościńcu sandomierskim
-770;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#132, #197;1609;2;
-771;Wróbel;Andrzej;Kraśnik;Mieszkaniec / Posesjonat na wale;#189;1609;1;Andrzej Wróbel incola Crasnensis, posesjonat na wale miejskim
-772;Wróblik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;
-773;Wybranowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-774;Wybranowski;Wojciech;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#228;1610;1;
-775;Wypchał;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#30, #213;1606–1610;2;Wojciech Wypchał de villa Opoka, świadek spraw zbożowych ze spławu
-776;Wyrzyski;brak;Pniów;Duchowny / Pleban pniowski (dawny);#192;1609;1;olim plebanus Pniouiensis Wyrzyski
-777;Wzołek;Stanisław;Popkowice;Mieszkaniec / Posesjonat;#245;1610;1;
-778;Wójcik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#66;1607;1;
-779;Wójcik;Wojciech;Popkowice;Mieszkaniec / Posesjonat;#30;1606;1;
-780;Wójcik;Wojciech;Popkowice (wieś);Mieszkaniec / Posesjonat;#191;1609;1;
-781;Wójtowa;Anna;Budzyń;Wójt;#206;1610;1;
-782;Wójtów;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;
-783;Wąsik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
-784;Wąslik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
-785;Wąstowik;Andrzej;Kraśnik;Przedmieszczanin / Posesjonat;#179;1609;1;Andrzej Wąstowik incola Crasnensis, posesjonat na Zarzeczu
-786;Węzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-787;Właszkic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#202;1610;1;Paweł Właszkic civis Crasnensis, szwagier Hieronimowicza z Turobina, zwolniony z cyrografu
-788;Włochówna;Regina Urszula;Kraśnik;Mieszkanka / Sukcesorka kamienicy rynkowej;#133, #134;1609;2;Regina Urszula Włochówna, filia olim Bernardi Itali Calabrisio
-789;Zając;Jakub;Góry i Podlesie;Mieszkaniec / Posesjonat;#185, #208;1609–1610;2;
-790;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
-791;Zającowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
-792;Zamieszała;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#16;1606;1;
-793;Zamieszała;Matys;Kraśnik;Mieszkaniec / Posesjonat;#16, #19;1606;2;Matys Zamieszała / Zamieszała Mateusz, pobity na rynku kołkiem z wozu o grosz zadatku, Matys Zamieszała, pobity na rynku kołkiem z wozu o grosz zadatku
-794;Zdziebłkowna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;Małgorzata Zdziebłkowna / Zdziebłkowa, służąca oskarżona o kradzież
-795;Zdziebłowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#88;1608;1;
-796;Ze stróży;Zyna;Stróża;Mieszkaniec / Posesjonat;#79;1608;1;
-797;Zięda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#217;1610;1;
-798;Zmienda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
-799;Złotnikowa;Zofia;Kraśnik;Mieszczka / Sukcesorka testamentowa;#194, #195;1609;2;Zofia Złotnikowa civis Crasnensis, heres testamentaria
-800;Ćwikła;Mikołaj;Kraśnik;Ławnik;#5, #82, #125, #126, #154, #184;1606–1609;6;Mikołaj Ćwikła / Cwikła scabinus iuratus, ławnik przysięgły 1606
-801;Łaszka;Józef;Kraśnik;Mieszkaniec / Posesjonat;#200;1609;1;Józef Łaszka famulus consulis Stanislai Sapała, świadek o handlu odzieżą w Zaklikowie
-802;Łaziebnik;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#152;1609;1;
-803;Łepek;Andrzej;Zarzecze;Mieszkaniec / Posesjonat;#231;1610;1;
-804;Łupiączek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#154;1609;1;
-805;Łysak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#70;1607;1;Szymon Łysak adolescens incola kraśnicki, areszt 30 grzywien z domu matki
-806;Łysak;Wojciech;Kraśnik;Ławnik;#5;1606;1;Wojciech Łysak scabinus iuratus, ławnik kraśnicki 1606
-807;Ływiec;Tomasz;Kraśnik;Rajca;#257;1610;1;
-808;Śliwa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
-809;Śliwina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
-810;Ślusarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
-811;Śniech;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
-812;Śniech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#117, #130;1608–1609;2;
-813;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#82, #125, #162, #213;1608–1610;4;Marcin Śpiewak de villa Opoka, świadek pod przysięgą o odstawie żyta
-814;Świech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#244;1610;1;
-815;Świercz;[wdowa];Góry i Podlesie;Mieszkaniec / Posesjonat;#127;1608;1;
-816;Świstek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
-817;Świstek;Wojciech;Kraśnik;Przedmieszczanin;#25, #27;1606;2;Wojciech Świstek przedmieszczanin, nabywca cesji roli Ziarkowskiej
-818;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#129, #217;1609–1610;2;
-819;Świątek;Marcin;Opoka (wieś);Mieszkaniec / Posesjonat;#183;1609;1;Marcin Świątek de villa Opoka, odbiorca 30 korcy żyta nad rzeką Wisłą
-820;Świątek;Piotr;Kraśnik;Rajca;#53, #211;1607–1610;2;
-821;Świątkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#123;1608;1;
-822;Świątkowicz;Samuel;Kazimierz (pod Krakowem);Mieszkaniec / Posesjonat;#122;1608;1;
-823;Świątkowicz;Samuel;Kazimierz pod Krakowem;Mieszkaniec / Posesjonat;#141;1609;1;
-824;Świętek;Adam;Kraśnik;Rajca;#118;1608;1;
-825;Świętek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
-826;Świętkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
-827;Żaczek;Jan;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;Jan Żaczek ze wsi Stróża, świadek naoczny bójki pod karczmą
-828;Żembroń;Jan;Zarzecze;Mieszkaniec / Posesjonat;#231;1610;1;
-829;Żmigród;Jan;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;
-830;Żupniczek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
-831;Żupniczkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
-832;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#106;1608;1;
-833;Żyd;Harzym;Kraśnik;Mieszkaniec / Posesjonat;#145;1609;1;
-834;Żyd;Józef;Kraśnik;Mieszkaniec / Posesjonat;#107;1608;1;
-835;Żyd;Kaufman;Kraśnik;Mieszkaniec / Posesjonat;#110;1608;1;
-836;Żyd;Kochman;Kraśnik;Mieszkaniec / Posesjonat;#106, #144;1608–1609;2;
-837;Żyd;Litman;Kraśnik;Mieszkaniec / Posesjonat;#130;1609;1;
-838;Żyd;Marek;Kraśnik;Mieszkaniec / Posesjonat;#96, #103;1608;2;
-839;Żyd;Michał;Kraśnik;Mieszkaniec / Posesjonat;#105;1608;1;
+136;Gomołka;Wojciech;Opatów;Mieszczanin opatowski / Plenipotent;#233;1610;1;Albertus Gomołka civis Opatoviensis
+137;Grabek;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#80, #111;1608;2;
+138;Grabka;brak;Podzagórze;Woźnica / Furman z Podzagórza;#218;1610;1;Grabka auriga de Podzagorze, właściciel chorego nosatego konia
+139;Grabkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+140;Gruczyk;Wojciech;Budzyń (wieś);Mieszkaniec / Posesjonat;#157, #185;1609;2;
+141;Gruczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;Wojciech Gruczyk cmetho de Budzyń, kmieć budzyński sprzedający 12 staj roli za 12 grzywien [skan 230]
+142;Gryczka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+143;Grymuza;Józef;Góry i Podlesie;Mieszkaniec / Posesjonat;#113;1608;1;
+144;Grymuza;Józef;Kraśnik;Mieszkaniec / Posesjonat;#27, #159, #188;1606–1609;3;
+145;Grzegorczyk;Młot;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
+146;Grzymkowic;Jan;Kraśnik;Mieszkaniec / Posesjonat;#35;1606;1;
+147;Grzymkowicz;Jan;Kraśnik;Ławnik;#201;1610;1;
+148;Grzymkowski;Jan;Kraśnik;Ławnik;#43, #90, #264;1607–1610;3;Jan Grzymkowski incola kraśnicki, szymark domów z braćmi Kantorkowiczami
+149;Gurek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Jan Gurek incola kraśnicki, powód w sprawie o wycięcie dębiny
+150;Gurka;Stanisław;wieś Mikołaj;Mieszkaniec / Posesjonat;#159, #188;1609;2;
+151;Górka;Stanisław;Wilkołaz;Mieszkaniec / Posesjonat;#38;1607;1;
+152;Górka;Stanisław;Wilkołaz (wieś);Mieszkaniec / Posesjonat;#111;1608;1;Stanisław Górka cmeto de villa Wilkołaz, spłata 22 złp długu do puszki urzędowej
+153;Górski;Andrzej;Potok (wieś);Mieszkaniec / Posesjonat;#188;1609;1;Andrzej Górski nobilis de villa Potok, egzekucja wyroku urzędowskiego o delię podszytą lisami
+154;Gąsczyna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#43;1607;1;
+155;Gąsiorczyk;Stanisław;Budzyń;Mieszkaniec / Posesjonat;#58;1607;1;
+156;Gąska;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#43, #162;1607–1609;2;
+157;Gębala;Gaspar;Kraśnik;Mieszkaniec / Posesjonat;#62;1607;1;Gaspar Gębala incola kraśnicki, zastawnik roli za 19 grzywien
+158;Gębusz;Jan;Stróża;Mieszkaniec / Posesjonat;#44;1607;1;Jan Gębusz cmeto de villa Stróża, kwitacja Tokarczyka z zastawy ogrodu
+159;Gęsek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#20;1606;1;Stanisław Gęsek, świadek zeznający o darciu żupana na kuśnierzu
+160;Gładys;Jan;Kraśnik;Mieszkaniec / Posesjonat;#157;1609;1;
+161;Hadyka;Żydówka;Kraśnik;Mieszkanka / Wierzycielka;#202;1610;1;Hadyka Judaea uxor Charon
+162;Heliaszowicz;Heliasz;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+163;Hesterowiczowa;Hesterka;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+164;Hieronimowicz;Abraham;Kraśnik;Mieszkaniec / Posesjonat;#201;1610;1;
+165;Hieronimowicz;Abraham;Turobin;Mieszkaniec / Posesjonat;#12;1606;1;Abraham Hieronimowicz civis Turobiensis, spłata długu szwagra u Żyda Charona i Hadyki
+166;Hochman;Żyd;Kraśnik;Kupiec / Gorzelnik;#25;1606;1;Hochman Judaeus Crasnensis, gorzelnik i intromisor gorzelni Chrapka
+167;Hoffman;Daniel;Urzędów;Mieszkaniec / Posesjonat;#55, #77;1607–1608;2;Daniel Hoffman civis et mercator Urzedoviensis, areszt 22 złp u Klimczyka
+168;Idzik;Wdowa;Zarzecze;Mieszkanka (wdowa);#231;1610;1;
+169;Idzikowa;brak;Kraśnik;Mieszkanka / Wdowa na Zarzeczu;#231;1610;1;Idzikowa vidua in Zarzecze
+170;Iudaeus;Abraham;Góry i Podlesie;Mieszkaniec / Posesjonat;#190;1609;1;
+171;Iudaeus;Kochman;Kraśnik;Mieszkaniec / Posesjonat;#156;1609;1;
+172;Iudaeus;Litman;Kraśnik;Mieszkaniec / Posesjonat;#156;1609;1;
+173;Iudaeus senior;Harzym;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
+174;Iudaeus senior;Lazar;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
+175;Iudaeus senior;Marek;Kraśnik;Mieszkaniec / Posesjonat;#186;1609;1;
+176;Jabzo;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#167;1609;1;
+177;Jachym;Żyd;Kraśnik;Kupiec / Dłużnik cechowy;#235, #236;1610;2;Jachym Judaeus Crasnensis / Joachim Judaeus
+178;Jachymowicz;Jachymowa;Kraśnik;Mieszkanka (wdowa);#259;1610;1;
+179;Jaikowa;Zofia;Suchynia;Mieszkaniec / Posesjonat;#45;1607;1;Zofia Jaikowa incola de villa Suchynia, proces o legat siostry Róży na szpital
+180;Jakubek;Iczek;Kraśnik;Mieszkaniec / Posesjonat;#72;1608;1;Iczek Jakubek Iudaeus Crasnensis, wierzyciel 7 złp 2 gr za skóry wołowe
+181;Jakubkowicz;Jacek;Kraśnik;Mieszkaniec / Posesjonat;#187;1609;1;
+182;Jakubowicz;Jakubek;Kraśnik;Mieszkaniec / Posesjonat;#251;1610;1;
+183;Jamróz;Jan;Sułów;Mieszkaniec / Posesjonat;#26;1606;1;
+184;Janaponrawicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#91;1608;1;
+185;Janasek;Maciej;Budzyń;Mieszkaniec / Posesjonat;#219;1610;1;Maciej Janasek de villa Budzyń, kwitacja teściowej Kobielownej z 17 grzywien posagu
+186;Janaskowicz;Wojciech;Kraśnik;Wójt;#5, #107, #126, #151, #178, #257;1606–1610;6;Wojciech Janaskowicz notarius civitatis Krasnensis, pisarz miejski
+187;Janaszkowicz;Stanisław;Kraśnik;Wójt;#42;1607;1;
+188;Janaszkowicz;Wojciech;Kraśnik;Notariusz;#201;1610;1;Wojciech Janaszkowicz notarius civitatis Crasnensis, spór o drewno słodownicze
+189;Janiec;Jan;Sułów;Mieszkaniec / Posesjonat;#96;1608;1;
+190;Janiec;Wojciech;Sułów (wieś);Mieszkaniec / Posesjonat;#132;1609;1;
+191;Jantosek;Marcin;Opoka;Mieszkaniec / Posesjonat;#210;1610;1;Marcin Jantosek de villa Opoka, rolnik z Opoki, świadek i strona spraw zbożowych
+192;Janubowicz;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
+193;Janusowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#28, #190;1606–1609;2;Agnieszka Janusowa zbiegła dłużniczka i przekupka masłem
+194;Janust;Stanisław;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
+195;Januszek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+196;Januszowicz;Tomasz;Kraśnik;Pisarz;#227;1610;1;
+197;Jaroszyk;Jan;Kraśnik;Mieszkaniec / Posesjonat;#86;1608;1;
+198;Jarzynka;Mateusz;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
+199;Jasiek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#139, #157, #186;1609;3;
+200;Jasiek;Tomasz;Suchynia;Mieszkaniec / Posesjonat;#211;1610;1;Tomasz Jasiek de villa Suchynia, rozjemca pojednania o ranę w łaźni
+201;Jasieński;Wojciech;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#106;1608;1;
+202;Jasionowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
+203;Jasionowicz;Stanisław;Kraśnik;Przedmieszczanin / Posesjonat;#193;1609;1;Stanisław Jasionowicz incola Crasnensis
+204;Jasionowicz;Wojciech;Dzierzkowice (wieś);Mieszkaniec / Posesjonat;#124;1608;1;
+205;Jasionowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
+206;Jaskolczyk;Stanisław;Zarzecze;Kowal;#179;1609;1;
+207;Jaskółczanka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#91, #138;1608–1609;2;
+208;Jaskółczyk;Stanisław;Kraśnik;Kowal;#138;1609;1;
+209;Jaskółczyna;Anna;Kraśnik;Kowal;#109, #138;1604–1609;2;
+210;Jaskółka;Bartłomiej;Kraśnik;Kowal;#109;1608;1;
+211;Jaskółka;Jakub;Kraśnik;Kowal;#109, #138;1604–1609;2;
+212;Jaskółka;Stanisław;Kraśnik;Kowal;#73, #91, #108;1608;3;
+213;Jaskółka;Wojciech;Kraśnik;Kowal;#109;1608;1;
+214;Jasnicz;Jan;Sułów (wieś);Mieszkaniec / Posesjonat;#185;1609;1;
+215;Jasumski;Wojciech;Kraśnik;Prefekt zamku kraśnickiego;#106;1608;1;Albertus Jasumski praefectus arcis Crasnicensis
+216;Jaszczułtowski;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#58;1607;1;
+217;Jaszek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Piotr Jaszek przedmieszczanin kraśnicki, spór o żyto ze spławu wiślanego z Opoką, Adam Jaszek civis Crasnensis, sąsiad roli Radzonkowskiej [skan 238]
+218;Jaśkowicz;Adam;Kraśnik;Mieszkaniec / Posesjonat;#104;1608;1;
+219;Jażdż;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;
+220;Jażdż;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#28;1606;1;
+221;Jeskowicz;Jesko;Kraśnik;Mieszkaniec / Posesjonat;#258;1610;1;
+222;Jeziorczyk;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+223;Jurczyk;Albert;Kraśnik;Młodzieniec z Piasku / Sukcesor;#213;1610;1;Albert Jurczyk de Piasek, frater Mathiae
+224;Jurczyk;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#206, #254;1610;2;Matys Jurczyk de Piasek juvenis, zraniony w głowę w łaźni miejskiej aż do mózgu, zmarły na łożu
+225;Jurczyk;Michał;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+226;Jurczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Wojciech Jurczyk de Piasek, ojciec zmarłego Matysa, ugoda z Papudańczykiem o 20 grzywien nawiązki
+227;Jurczykowa;Matka;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Jurczykowa matka Matysa Jurczyka de Piasek, czuwająca przy umierającym synu w łaźni miejskiej
+228;Jurek;Jan;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
+229;Jurek;Michał;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
+230;Jurek;Mikołaj;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
+231;Józefhołczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+232;Kamieńska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#132, #197;1609;2;Anna Kamieńska vidua institorix, przekupka kraśnicka, cesja zastawu na domu na wale
+233;Kamiński;Jan;Kraśnik;Mieszkaniec / Posesjonat;#85;1608;1;
+234;Kamyk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#134, #151;1609;2;
+235;Kamyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
+236;Kantor;Hieronim;Kraśnik;Krawiec;#7;1606;1;
+237;Kantor;Jarosz;Kraśnik;Krawiec (mistrz);#7;1606;1;Jarosz Kantor krawiec, sprawca obdukcji pod ratuszem
+238;Kantorkowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
+239;Kantorkowicz;Adam;Kraśnik;Krawiec;#43, #186;1607–1609;2;Adam Kantorkowicz incola kraśnicki, zamiana domu za dom z Grzymkowskim
+240;Kantorkowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#43, #161, #192;1607–1609;3;Jakub Kantorkowicz incola kraśnicki, szymark domów
+241;Kantorkowiczowa;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#161;1609;1;
+242;Kaper;Jan;Kraśnik;Mieszkaniec / Posesjonat;#205;1610;1;Jan Kaper civis Crasnensis, pożyczkodawca i dłużnik wójta sułowskiego na kamienicy w ul. Lubelskiej [skan 232, 233]
+243;Karczmarczyk;Adam;Kraśnik;Ławnik;#201;1610;1;
+244;Karczmarczyk;Adam;Stróża;Mieszkaniec / Posesjonat;#258;1610;1;
+245;Karczmarzanka;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
+246;Karczmarzek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#27;1606;1;
+247;Karczmarzyk;Adam;Kraśnik;Mieszkaniec / Posesjonat;#44, #160, #190;1607–1609;3;
+248;Karczmarzyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
+249;Karczmarzyk;Szymon;Kraśnik;Szewc;#85, #132, #160, #190;1608–1609;4;
+250;Karnia;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
+251;Karniecki;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#261;1610;1;
+252;Karzeł;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+253;Kaufman;Żyd;Kraśnik;Kupiec / Dostawca żelaza;#110;1608;1;Kaufman Judaeus Crasnensis, dostawca gwoździ i żelaza budowlanego
+254;Kawałko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;Stanisław Kawałko civis Crasnensis, dłużnik stolnika bełskiego Tryleskiego z aresztem zamkowym [skan 237]
+255;Kańka;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Sebastian Kańka / Kanka ze wsi Suchynia, homicida skazany na ścięcie mieczem
+256;Kaśkonianka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Anna Kaśkonianka filia Annae, oddaje grunt Janowi Żmigrodowi za wikt [skan 238]
+257;Kaśkonianka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Zofia Kaśkonianka filia Annae, ceduje część roli Radzonkowskiej za dożywocie [skan 238]
+258;Kiepek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#57;1607;1;
+259;Kiepek;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+260;Kiepek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+261;Kiepryk;Sebastian;Piaski;Mieszkaniec / Posesjonat;#219;1610;1;Sebastian Kiepryk de Piasek, sąsiad roli zastawnej na Piasku
+262;Kisiołek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
+263;Kitek;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;
+264;Kitek;Walenty;Kraśnik;Mieszkaniec / Posesjonat (zmarły);#90;1608;1;Walenty Kitek zmarły mieszczanin, dawny posesjonat łąki Kitkowskiej pod Pustelnikowicami
+265;Kitek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
+266;Kitkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
+267;Kiwąs;Wojciech;Kraśnik;Ławnik;#185;1609;1;
+268;Kiziołkowa;Jadwiga;Góry i Podlesie;Mieszkaniec / Posesjonat;#127, #158;1608–1609;2;
+269;Klamicz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
+270;Klimczyk;Józef;Kraśnik;Mieszkaniec / Posesjonat;#55;1607;1;
+271;Klimczyk;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#208;1610;1;
+272;Klimczyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#220;1610;1;Wojciech Klimczyk furman kraśnicki, zmarły na łożu boleści z pęknięcia trzewi przy dźwiganiu mąki do portu w Opoce [skan 224, 225]
+273;Klimczykowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#232;1610;1;
+274;Klimkowa;Agnieszka;Kraśnik;Mieszkanka / Wdowa;#99, #100;1608;2;Agnieszka Klimkowa vidua civis Crasnensis, babka sieroty, powódka o geradę
+275;Klimkowicz;Andrzej;Kraśnik;Mieszkaniec;#80;1608;1;Andrzej Klimkowicz incola kraśnicki, nabywca izdebki w rynku za 20 złp
+276;Klonowski;brak;Kraśnik;Szlachcic / Posesjonat (zmarły);#151;1609;1;olim dominus Klonowski, legator pościeli i obrusu
+277;Kluczkowski;Bosek vel mosek;Kluczkowice (wieś);Mieszkaniec / Posesjonat;#155;1609;1;
+278;Kmurzyna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#79;1608;1;
+279;Knap;Jakub;Kraśnik;Tkacz (mistrz);#40;1607;1;Jakub Knap / Tkacz mistrz tkacki, świadek obdukcji skradzionego ubrania
+280;Knap;Jan;Bełżyce;Mieszkaniec / Posesjonat;#31;1606;1;
+281;Kniek;Albert;Kraśnik;Przedmieszczanin / Rolnik;#234;1610;1;Albertus Kniek antecivicensis Crasnensis
+282;Kniek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#234;1610;1;
+283;Kobielowna;Katarzyna;Piaski;Mieszkaniec / Posesjonat;#219;1610;1;Katarzyna Kobielowna de Piasek, rolniczka z Piasku, zastaw roli zięciowi Drugiemu
+284;Kolibaba;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#151;1609;1;
+285;Komarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#213;1610;1;Marcin Komarz de villa Opoka, świadek o kontraktach zbożowych
+286;Komieszka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#203;1610;1;Maciej Komieszka civis Crasnensis, hodowca bydła, oczyszczony z zarzutu kradzieży woła
+287;Komięga;Jan;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
+288;Komiężyna;Agnieszka;Kraśnik;Mieszkanka (zmarła);#97;1608;1;Agnieszka Komiężyna córka Komięgi, żona szewca Barszcza, bogata gerada dotalis
+289;Kondek;Paweł;Kraśnik;Ławnik;#152, #179;1609;2;
+290;Kondup;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
+291;Kondygerka;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#34;1606;1;
+292;Kondyp;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;Andrzej Kondyp incola Crasnensis, ukarany 3 grzywnami za zaoranie drogi polnej w Kisielinie [skan 226, 227]
+293;Kondypowicz;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+294;Kondypowiczówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+295;Konieczka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;
+296;Konieczka;Matys;Kraśnik;Mieszkaniec;#78, #79;1608;2;Matys Konieczka incola kraśnicki, dłużnik roli Głaczkowskiej
+297;Konop;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
+298;Konopowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
+299;Korszun;brak;Kraśnik;Mieszkaniec / Posesjonat w ul. Lubelskiej;#209;1610;1;Korszun incola Crasnensis, sąsiad w ulicy Lubelskiej
+300;Kosidło;Jakub;Blinów;Mieszkaniec / Posesjonat;#201;1609;1;
+301;Kosidło;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#200;1609;1;Jakub Kosidło incola Crasnensis, pozwany przez starego rajcę Kurzę
+302;Kotk;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#109;1608;1;
+303;Kowal;Jan;Stróża;Kowal;#79;1608;1;
+304;Kowal;Jan;Mikołaj (wieś);Kowal;#79;1608;1;Jan Kowal faber de villa Mikołaj, sprawca pobicia żelazem
+305;Kowal;Wawrzyniec;Leśnik (wieś);Kowal;#155;1609;1;
+306;Kowalik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#208;1610;1;Stanisław Kowalik incola Crasnensis, pożyczka 30 złp pod zastaw domu i ogrodu na Podlesiu
+307;Kowalik;Walerian;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;Walerian Kowalik civis Crasnensis, nabywca roli Starybrzucha za 20 grzywien [skan 235, 236]
+308;Kowalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
+309;Kowalówna;Katarzyna;Leśnik / Kluczkowice;Mieszkaniec / Posesjonat;#155;1609;1;
+310;Kozic;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
+311;Kozicz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#52, #215;1607–1610;2;
+312;Kozieł;Jan;Sułów;Wójt;#116, #265;1608–1610;2;
+313;Kozieł;Jan;Sułów (wieś);Wójt;#156;1609;1;
+314;Koziełek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;
+315;Kozioł;Jan;Sułów;Wójt;#206;1610;1;Jan Kozioł advocatus de villa Sułow, wójt sułowski, pożycza 100 złp Janowi Kaprowi pod zastaw kamienicy [skan 233]
+316;Kozłowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#15;1606;1;Jakub Kozłowicz, właściciel domu drewnianego wynajętego Gałkowi
+317;Kołacz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#211;1610;1;
+318;Kołobuch;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#219;1610;1;Mikołaj Kołobuch de Piasek, właściciel roli na Piasku przy miedzy popkowickiej
+319;Kołodziejczyk;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#139;1609;1;
+320;Kołodziejczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#197;1609;1;
+321;Kołodziejczyk;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#23, #107, #204;1606–1610;3;Tomasz Kołodziejczyk gener Nagórskiej, zapis 30 grzywien posagu na domu w ul. Lubelskiej
+322;Kołodziejczyk;Wdowa;Kraśnik;Mieszkanka (wdowa);#217;1610;1;
+323;Kołodziejczykowa;brak;Kraśnik;Mieszkanka / Wdowa;#217;1610;1;Kołodziejczykowa vidua incola Crasnensis
+324;Kołodziejka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#35, #76, #131;1606–1609;3;
+325;Kołodziejka;Anna;Kraśnik;Mieszkanka / Wdowa;#131;1609;1;Anna Kołodziejka vidua civis Crasnensis
+326;Kołodziejka;Dorota;Kraśnik;Mieszkanka / Wdowa;#31;1606;1;Dorota Kołodziejka wdowa, zbywczyni domu z zastrzeżeniem dożywotniej komory na 6 lat
+327;Kołodziejska;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+328;Kościelski;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#77;1601;1;
+329;Krawczowski;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#115;1608;1;
+330;Krawczowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#115;1608;1;
+331;Krawczyk;Mateusz;Kraśnik;Krawiec;#218;1610;1;Matys Krawczyk sartor et incola Crasnensis, nabywca zlicytowanego chorego konia do pługa za 7 złp
+332;Krogulecki;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
+333;Kroja;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#94;1608;1;
+334;Krzesionka;Zofia;Słodków;Mieszkaniec / Posesjonat;#68;1607;1;Zofia Krzesionka de villa Słodków, powódka o kożuch u szewca Ozimka
+335;Kuc;Adam;Kraśnik;Mieszkaniec / Posesjonat;#30;1606;1;
+336;Kudełka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#158, #187;1609;2;
+337;Kudła;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
+338;Kula;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#121, #230;1608–1610;2;Andrzej Kula civis Crasnensis, skazany na zwrot futer lub 10 złp kuśnierzowi [skan 230, 231]
+339;Kula;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
+340;Kulonka;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#260;1610;1;
+341;Kumaj;Adam;Dzierzkowice (wieś);Kuśnierz;#138;1609;1;
+342;Kupsz;Sebastian;Stróża;Mieszkaniec / Posesjonat;#261;1610;1;
+343;Kurczak;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;
+344;Kurek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Szymon Kurek civis extraneus, sprzedaje dom retro moenia tkaczowi z Trzydnika [skan 238, 239]
+345;Kuroń;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+346;Kurza;Jan;Kraśnik;Mieszkaniec / Posesjonat;#221;1610;1;
+347;Kurza;Wojciech;Kraśnik;Rajca;#80, #132, #200, #201, #221;1608–1610;5;Wojciech Kurza consul antiquus Crasniciensis, stary rajca kraśnicki, pozew przeciw Kosidle
+348;Kuszka;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#221;1610;1;
+349;Kuszka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
+350;Kusznicz;Kusznia;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+351;Kuszyna;Szczęsna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
+352;Kułak;Stanisław;Podlesie;Przedmieszczanin;#10;1606;1;Stanisław Kułak, kwitowany z pretensji domowych
+353;Kułak;Tomasz;Podlesie;Przedmieszczanin;#9;1604–1606;1;Tomasz Kułak z Podlesia, spór o dom z Wojciechem Płażykiem
+354;Kułakowa;Krystyna;Góry i Podlesie;Mieszkaniec / Posesjonat;#9;1604;1;Krystyna Kułakowa, synowa Tomasza Kułaka
+355;Kuża;Jan;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;Jan Kuża obywatel kraśnicki, inwestor kamienicy w rynku (kosztorys 42 złp 6 gr 15 d)
+356;Kuża;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
+357;Kuża;Wojciech;Kraśnik;Rajca;#32;1606;1;
+358;Kużanka;Anna;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
+359;Kwalina;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;Katarzyna Kwalina incola Crasnensis, powódka o sukno
+360;Kwas;Wojciech;Kraśnik;Ławnik;#21, #106, #205;1606–1610;3;
+361;Kwasowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+362;Kwaśnica;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;Kasper Kwaśnica incola kraśnicki, spór o rolę Głaczkowską
+363;Kwiap;Wojciech;Kraśnik;Ławnik;#201, #227;1610;2;Wojciech Kwiap scabinus iuratus Crasnensis, mąż Zofii Kawalówny, strona podziału Kawalów [skan 225, 226, 227, 228, 232]
+364;Kwiapowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#227;1610;1;Zofia Kwiapowa filia olim Martini Kawal, uprawniona do 1/3 sukcesji Kawalowskiej [skan 227]
+365;Kąpa;Krzysztof;Jągrów;Mieszkaniec / Posesjonat;#29;1606;1;
+366;Kłopek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#245;1610;1;
+367;Kłopocik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Marcin Kłopocik, sprawca napaści z kijami na kuśnierza Mazurka
+368;Kłopocik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Wincenty Kłopocik, napastnik, osadzony w dolnej wieży ratusza
+369;Kłopotk;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#148;1609;1;
+370;Kłopotkowa;brak;Kraśnik;Mieszkanka / Posesjonatka;#148;1609;1;Kłopotkowa incola Crasnensis, sąsiadka roli na Podlesiu
+371;Kłos;Jakub;Łagów (wieś);Mieszkaniec / Posesjonat;#103;1608;1;
+372;Kłotnik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#255;1610;1;
+373;Latko;Wojciech;Kraśnik;Wójt;#97;1608;1;
+374;Latos;Jan;Rudnik;Mieszkaniec / Posesjonat;#276;1610;1;
+375;Ledwiak;Bartłomiej;Budzyń;Mieszkaniec / Posesjonat;#211;1610;1;Bartłomiej Ledwiak de villa Budzyń, arbiter i świadek ugody o ranę w łaźni
+376;Ledwiak;Jan;Budzyń;Mieszkaniec / Posesjonat;#211;1610;1;Jan Ledwiak de villa Budzyń, świadek pojednania w domu Świątka
+377;Lejzor;Żyd;Kraśnik;Kupiec / Wierzyciel;#226;1610;1;Lejzor Judaeus Crasnensis / Lazar
+378;Lenartowicz;Andrzej;Kraśnik;Krawiec;#105;1608;1;
+379;Lesko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+380;Lewkowicz;Lewek;Kraśnik;Mieszkaniec / Posesjonat;#253, #256;1610;2;
+381;Leśniakowna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#59;1607;1;
+382;Liczmanik;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+383;Ligęza;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#182;1609;1;
+384;Lisaiowska;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;
+385;Lisiecki;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
+386;Litman;Żyd;Kraśnik;Kupiec / Wierzyciel;#130;1609;1;Litman Judaeus Crasnensis, wierzyciel o kupno wozu
+387;Maj;Jan;Rzeczyca;Kmieć / Świadek sądu gajonego;#193;1609;1;Jan Maj subditus de Rzeczyca, testis in causa decimarum
+388;Makuch;Michał;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+389;Manusowicz;Manus;Kraśnik;Mieszkaniec / Posesjonat;#255;1610;1;
+390;Manusowicz;Manus;Lublin;Mieszkaniec / Posesjonat;#257;1610;1;
+391;Maraskowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
+392;Maraszek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+393;Maraszkowa;Ewa;Kraśnik;Szewc;#246;1610;1;
+394;Maraszkowicz;Walenty;Kraśnik;Szewc;#246;1610;1;
+395;Marcz;Szczęsny;Rzeczyca;Kmieć / Świadek sądu gajonego;#192;1609;1;Szczęsny Marcz subditus conventualis de Rzeczyca
+396;Marek;Urban;Kraśnik;Mieszkaniec / Posesjonat;#55;1607;1;
+397;Marek;Żyd;Kraśnik;Kupiec / Wierzyciel;#25, #28;1606;2;Marek Judaeus Crasnensis, kupiec, cedent roli Ziarkowskiej i wierzyciel długu śledziowego
+398;Markowicz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
+399;Markowicz;Jakub;Stróża;Mieszkaniec / Posesjonat;#260;1610;1;
+400;Markowicz;Markowa;Kraśnik;Mieszkanka (wdowa);#259;1610;1;
+401;Markowicz;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
+402;Markowicz;Urban;Kraśnik;Mieszkaniec / Posesjonat;#59, #77, #129, #151;1607–1609;4;
+403;Markowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#92, #137;1608–1609;2;
+404;Marszałkówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#93;1608;1;
+405;Matysiczkowa;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#151;1609;1;
+406;Matysowicz;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
+407;Mazurek;Jakub;Bieliny (wieś);Mieszkaniec / Posesjonat;#130, #155;1609;2;
+408;Mazurek;Marcin;Kraśnik;Kuśnierz;#18, #229;1606–1610;2;Marcin Mazurek magister artis pellificum, starszy cechu kuśnierskiego, testator srebrnego kielicha dla kościoła św. Mikołaja [skan 229, 230]
+409;Mazurkowa;Zofia;Kraśnik;Kuśnierz;#230;1610;1;Zofia Mazurkowa uxor Martini pellificis, uniwersalna spadkobierczyni aparatów gorzelniczych i dobytku [skan 230]
+410;Maćkowicz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+411;Małek;Jan;Łagów (wieś);Mieszkaniec / Posesjonat;#104;1608;1;
+412;Menysowicz;Menys;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+413;Miastek;Stanisław;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;Stanisław Miastek ze Stróży, ojciec napastnika z orczykiem
+414;Miastka;Syn stanisława;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;
+415;Michulik;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
+416;Miedziany;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;Andrzej Miedziany Wójcik vigilis civitatis, miejski stróż nocny i wierzyciel zaspokojony z transakcji [skan 235, 236]
+417;Mielecki;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
+418;Migał;Jakub;Kraśnik;Przedmieszczanin / Sukcesor;#8, #12;1606;2;Jakub Migał, pasierb Doroty Sowiny, powód o ojcowiznę
+419;Mikuła;Michał;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+420;Milekowski;Marcin;Kraśnik;Prepozyt klasztoru Kanoników Regularnych;#54;1607;1;ks. Marcin Milekowski praepositus Conventus Crasnensis Canonicorum Regularium
+421;Milgowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
+422;Miodownik;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#66;1607;1;
+423;Mis;Jan;Kraśnik;Mieszkaniec / Posesjonat;#14;1606;1;
+424;Mis;Piotr;Kraśnik;Szewc (Szewczyk);#66;1607;1;Piotr Mis zwany Szewczyk, sprawca nocnego napadu siekierą na dom
+425;Mis szewczyk;Piotr;Kraśnik;Szewc;#66;1607;1;
+426;Misiarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Bartłomiej Misiarz, rodzony brat zamordowanego Wojciecha
+427;Misiarz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Jakub Misiarz, brat zamordowanego Wojciecha domagający się miecza
+428;Misiarz;Jan;Kraśnik;Przedmieszczanin;#14, #15;1606;2;Jan Mis / Misiarz senior, przedmieszczanin kraśnicki
+429;Misiarz;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Piotr Misiarz, brat zabitego Wojciecha
+430;Misiarz;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#13;1606;1;Wojciech Misiarz vel Mis, ofiara morderstwa na ulicy publicznej
+431;Misiarz junior;Jan;Kraśnik;Mieszkaniec / Posesjonat;#14;1606;1;
+432;Misiarzowa;Katarzyna;Sulgostów;Mieszkaniec / Posesjonat;#13;1606;1;
+433;Misionic;Jan;Kraśnik;Przedmieszczanin;#14;1606;1;Jan Misionic / Misiarz junior, pocięty nożem i biczem przez sługę
+434;Misiotek;Wawrzyniec;Bieliny;Mieszkaniec / Posesjonat;#94;1608;1;
+435;Misiowa;Katarzyna;Sulgostów;Wdowa / Powódka;#13, #14;1606;2;Katarzyna Misiowa wdowa po Wojciechu Misiarzu z Sulgostowa
+436;Misiowicz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#139;1609;1;
+437;Mitka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#178;1609;1;Stanisław Mitka civis Crasnensis, pobity na drodze leśnej przez Rzepkę z Blinowa
+438;Mięciel;Jan;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+439;Mięcielowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+440;Miłek;Marcin;Kraśnik;Rajca;#5, #240, #257;1606–1610;3;Marcin Miłek scabinus iuratus, ławnik kraśnicki 1606
+441;Miś;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#261;1610;1;
+442;Mnich;Wojciech;Kraśnik;Ławnik;#57, #118, #129, #157, #211;1607–1610;5;
+443;Mnich;Wojciech;Urzędów;Mieszkaniec / Posesjonat;#188;1609;1;Wojciech Mnich civis Vrzedouiensis, mieszczanin urzędowski skazany na zwrot delii
+444;Modzelowska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;Anna Modzelowska nobilis, powódka o dział stodoły, sadu i roli po Stanisławie Kawalu [skan 225, 226, 227, 228, 232]
+445;Modzelowski;Florian;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;Florian Modzelowski de Boby nobilis, kurator i plenipotent w wielkim dziale Kawalów [skan 226, 227, 232]
+446;Modzelowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#69;1607;1;Wojciech Modzelowski nobilis, proces o 20 florenów w złocie (aurei) z Żydem Markiem
+447;Modzeloński;Adam;Baby (wieś);Mieszkaniec / Posesjonat;#185;1609;1;Adam Modzeloński nobilis de villa Baby, proces o 3 grzywny żony z ogrodu
+448;Mordusiowicz;Marek;Lublin;Mieszkaniec / Posesjonat;#262;1610;1;
+449;Morek;Szymon;Urzędów;Mieszkaniec / Posesjonat;#134;1609;1;
+450;Morel;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+451;Morel;Szymon;Urzędów;Mieszkaniec / Posesjonat;#238;1610;1;Szymon Morel civis Urzędoviensis, kupiec urzędowski kładący areszt na zboże Tokarza z Bielin w stodole kraśnickiej [skan 238]
+452;Moskał;Wacław;Potok (wieś);Mieszkaniec / Posesjonat;#193;1609;1;
+453;Moskowicz;Mosko;Kraśnik;Mieszkaniec / Posesjonat;#260;1610;1;
+454;Moskowicz;Moskowa;Kraśnik;Mieszkanka (wdowa);#260;1610;1;
+455;Moskwa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#202;1610;1;
+456;Mozgołąska;Anna;Boby;Mieszkaniec / Posesjonat;#209;1610;1;Anna Mozgołąska de villa Boby, spór o sukno i tkaniny z Koziełkiem i Szową
+457;Mrygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#233;1610;1;
+458;Mrzygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
+459;Mućko;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Maciej Mućko, sprawca invasio domus i pobicia brzemiennej Siwcowej
+460;Mycitka;Młot;Lubaczów;Mieszkaniec / Posesjonat;#251;1610;1;
+461;Mzygłód;Jan;Kraśnik;Mieszkaniec / Posesjonat;#162, #194;1609;2;
+462;Męcina;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+463;Mędala;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;Andrzej Mędala incola kraśnicki, ukarany za potwarz rzemieślnika
+464;Męzynek;Albert;Kraśnik;Mieszczanin / Kupiec;#239, #240;1610;2;Albertus Męzynek / Wojciech Męzynek civis Crasnensis
+465;Męzynek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#164, #239;1609–1610;2;
+466;Młynarz;Jan;Stróża;Młynarz;#60;1607;1;Jan Młynarz dictus Kozłowy de villa Mniszek, sprzedawca młyna wodnego na Kozłówce
+467;Młynarz grzebienny;Walenty;Kraśnik;Młynarz;#198;1609;1;Walenty Molendinator Grzebienny de Crasnik, młynarz ze Stawu Grzebień, nabywca młyna na Kozłówce
+468;Młynarz kozłowy;Jan;Mniszek (wieś), rzeka Kozłówka;Młynarz;#198;1609;1;
+469;Nagórska;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#190, #208;1609–1610;2;Jadwiga Nagórska vidua civis Crasnensis, zapis 32 grzywien posagu zięciowi w ul. Lubelskiej
+470;Nagłówek;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Andrzej Nagłówek curator virginum Kaśkonianek, asystuje przy umowie dożywocia [skan 238]
+471;Najduk;Grzegorz;Kraśnik;Mieszkaniec / Posesjonat;#80, #101;1608;2;
+472;Najduk;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#80, #101;1608;2;
+473;Najduk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#80, #101, #129, #157, #220;1608–1610;5;
+474;Najdukowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#79, #101;1608;2;Zofia Najdukowa przedmieszczanka kraśnicka, podział ról między synów Najduków
+475;Niedziałkowski;Tomasz;Góry i Podlesie;Mieszkaniec / Posesjonat;#9;1604;1;Tomasz Niedziałkowski capitaneus et regens arcis Crasnensis, starosta zamkowy
+476;Niemczyk;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+477;Niewygląd;Jan;Kraśnik;Rajca;#21, #120;1606–1608;2;
+478;Niewygląd;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
+479;Niewyglądowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
+480;Niski;Jan;Piaski;Mieszkaniec / Posesjonat;#42;1607;1;
+481;Niski;Jan;Kraśnik;Mieszkaniec;#42;1607;1;Jan Niski incola kraśnicki, zastaw łąki na Piasku dla Janaszkowiców
+482;Ogonek;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#231;1610;1;Piotr Ogonek rotifex Crasnensis, kołodziej nabywający grunt na Zarzeczu za 50 grzywien [skan 231]
+483;Okasowicz;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#259;1610;1;
+484;Okasowicz;Okas;Stróża;Mieszkaniec / Posesjonat;#258;1610;1;
+485;Olęcki;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#12;1606;1;Paweł Olęcki nobilis, szlachcic kwitujący dług u Żyda Bofina
+486;Orzeł;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
+487;Orzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;Stanisław Orzeł incola kraśnicki, donacja domu na Podgórzu córce Katarzynie
+488;Orłowa;Jadwiga;Kraśnik;Mieszkanka / Wdowa;#42, #43;1607;2;Jadwiga Orłowa relicta olim Laurentii Niewygląd, spór o dotalitium 5 grzywien
+489;Orłówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#41;1607;1;
+490;Ossowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
+491;Ostrowski;Łukasz;Kraśnik;Mieszkaniec / Posesjonat;#74;1608;1;
+492;Ozepek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+493;Ozimek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#162;1609;1;
+494;Ozimek;Szymon;Kraśnik;Szewc;#34, #190, #238;1606–1610;3;Szymon Ozimek plenipotens Kurka, finalizuje transakcję domu przy murach [skan 238, 239]
+495;Ozimek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+496;Ożóg;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#53;1607;1;
+497;Ożóg;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+498;Pachoła;Marcin;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;Marcin Pachoła de Urzędów, dawny kurator i świadek rozliczenia sierot Sadów [skan 237]
+499;Paczkówna;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
+500;Paczkówna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
+501;Pająk;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#207, #265;1610;2;
+502;Pająk;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#204, #276;1610;2;Wincenty Pająk lanio Crasnensis, rzeźnik kraśnicki, dłużnik Rzepki za zboże na pniu
+503;Pająkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+504;Papudańczyk;Wawrzyniec;Budzyń;Mieszkaniec / Posesjonat;#206;1610;1;Wawrzyniec Papudańczyk de villa Budzyń, sprawca zranienia Matysa Jurczyka w łaźni miejskiej
+505;Parada;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+506;Parkowicz;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
+507;Parkowicz;Marcin;Kraśnik;Mieszkaniec;#24;1606;1;Marcin Parkowicz świadek regestru budowlanego kamienicy w rynku
+508;Parus;Marcin;Kraśnik;Wójt;#201;1610;1;
+509;Pasierbek;Jan;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Jan Pasierbek subditus de Rzeczyca, świadek o poborze dziesięciny snopowej dla Pniowa
+510;Paszek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#116;1608;1;
+511;Paszek;Wincenty;Góry i Podlesie;Mieszkaniec / Posesjonat;#76;1608;1;
+512;Paszek;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
+513;Paszkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#242;1610;1;
+514;Pawik;Marcin;Kraśnik;Burmistrz;#53;1607;1;Marcin Pawik / Pawus advocatus Crasnensis 1608, nowo wybrany wójt kraśnicki
+515;Pawus;Marcin;Kraśnik;Wójt;#106, #158, #176;1608–1609;3;
+516;Pawłowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#7, #144;1606–1609;2;Zofia Pawłowska honesta incola, poszkodowana kradzieżą domową
+517;Pańko;Wawrzyniec;Studzianki;Mieszkaniec / Posesjonat;#22;1606;1;
+518;Perzyna;Jan;Rzeczyca;Mieszkaniec / Posesjonat;#192;1609;1;Jan Perzyna subditus conventualis de villa Rzeczyca Księża, świadek sądu gajonego o dziesięciny
+519;Perzyna;Marcin;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Marcin Perzyna subditus de Rzeczyca, świadek pod przysięgą o dziesięcinach snopowych
+520;Petruszkowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
+521;Petruszkowicz;Janoszek;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;
+522;Petruszowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+523;Petruzonowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#45;1607;1;Antoni Petruzonowicz incola kraśnicki, spór o zniewagi słowne z Sówką
+524;Petruzowicz;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#124;1608;1;
+525;Petruzowicz;Antoni;Kraśnik;Mieszkaniec / Posesjonat;#118;1608;1;
+526;Piaszkowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
+527;Piaszkowicz;Stanisław;Kraśnik;Ławnik;#201;1610;1;
+528;Piaturn;Michał;Kraśnik;Mieszkaniec / Posesjonat;#235;1610;1;
+529;Piegaty;Żyd;Kraśnik;Kupiec / Dłużnik;#51;1607;1;Piegaty Iudaeus Crasnensis, dłużnik 116 złp szlachcica Strzałkowskiego
+530;Piekarczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#30;1606;1;
+531;Piekarczykowna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#36;1606;1;
+532;Piekrz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#267;1611;1;
+533;Pierogowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;
+534;Piotran;Michał;Kraśnik;Mieszkaniec / Posesjonat;#256;1610;1;
+535;Piotrowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#80;1608;1;
+536;Piotrowska;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#73, #91;1608;2;
+537;Piotrowska;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
+538;Piotrowski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#217;1610;1;
+539;Piotrowski;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#91, #217;1608–1610;2;
+540;Piotrowski;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#216;1610;1;Sebastian Piotrowski incola Crasnensis, przepadek sukni zastawnej u Żyda Marka
+541;Piotruń;Michał;Kraśnik;Mieszkaniec / Posesjonat;#99;1608;1;
+542;Piotruśkionka;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#87;1608;1;
+543;Pipek;Wojciech;Góry i Podlesie;Mieszkaniec / Posesjonat;#69;1607;1;
+544;Pipek;Wojciech;Górsko;Kmieć;#69;1607;1;Wojciech Pipek de villa Górsko, ugoda o furmankę z ławnikiem Ćwikłą
+545;Pisarkowic;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#145, #166;1609;2;
+546;Pistor;Jan;Kraśnik;Piekarz;#276;1610;1;
+547;Piwowar;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
+548;Piwowarczyk;Tomasz;Stróża;Mieszkaniec / Posesjonat;#261;1610;1;
+549;Piwowarowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#95;1608;1;
+550;Piątek;Jan;Góry i Podlesie;Mieszkaniec / Posesjonat;#155;1609;1;
+551;Piątek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#15, #89, #220, #258;1606–1610;4;Jan Piątek furman i woźnica kraśnicki, zabór konia na gościńcu
+552;Piątk;Janowa;Kraśnik;Mieszkanka (wdowa);#261;1610;1;
+553;Podnygałka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;
+554;Podrygałczyna;[wdowa];Kraśnik;Mieszkaniec / Posesjonat;#101;1608;1;
+555;Podrygałka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
+556;Pogorzały;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#140, #158, #187;1609;3;
+557;Pogorzelski;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+558;Porada;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#130, #215;1609–1610;2;
+559;Poradka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#39, #104;1607–1608;2;
+560;Powałka;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#240;1610;1;Wincenty Powałka institor Crasnensis, kramarz w sporze o odstąpienie jatki łukowej [skan 240]
+561;Poznański;brak;Poznań;Kupiec / Mieszczanin poznański;#105;1608;1;civis Posnaniensis, kupiec poznański poszkodowany na jarmarku kraśnickim
+562;Prokop;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#84;1608;1;
+563;Prokop;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#80, #235;1608–1610;2;
+564;Prokopowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+565;Prokopowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#228;1610;1;Zofia Prokopowa olim uxor Jacobi Barszcz, zmarła matka panien Prokopówien [skan 228]
+566;Prokopówna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;Małgorzata Prokopówna filia Zofii, kwituje ojczyma ze spadku po matce [skan 228]
+567;Prokopówna;Zuzanna;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;Zuzanna Prokopówna filia Zofii, kwituje opiekę macierzystą [skan 228]
+568;Prokopówna;Łucja;Kraśnik;Mieszkaniec / Posesjonat;#167, #228;1609–1610;2;Łucja Prokopówna filia Zofii, zwalnia ojczyma Barszcza z wiana [skan 228]
+569;Przekaza;Jan;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
+570;Przybysławik;Jan;Kraśnik;Mieszkaniec / Opiekun;#80;1608;1;Jan Przybysławik incola kraśnicki, urzędowy opiekun Najdukowej
+571;Przybysławik;Przybysławik;Kraśnik;Mieszkaniec / Posesjonat;#80;1608;1;
+572;Przystęp;Jan;Potok (wieś);Mieszkaniec / Posesjonat;#193;1609;1;
+573;Pukarzowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+574;Pęzik;Błażej;Góry i Podlesie;Mieszkaniec / Posesjonat;#38;1607;1;
+575;Pęzik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#16;1606;1;Stanisław Pęzik, poszkodowany rozcięciem ucha i zwichnięciem ręki
+576;Płaczkowicz;Stanisław;Kraśnik;Ławnik;#126, #170, #176;1608–1609;3;
+577;Płatkowa;Helena;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+578;Płazik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
+579;Płażkowicz;Stanisław;Kraśnik;Ławnik;#106;1608;1;
+580;Płażyk;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#89;1608;1;
+581;Płażyk;Jan;Piaski;Mieszkaniec / Posesjonat;#42;1607;1;
+582;Płażyk;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#9, #10, #17;1604–1606;3;Wojciech Płażyk obywatel kraśnicki, nabywca domu Kułaka i spór o łąkę
+583;Płażykowicz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#32;1606;1;
+584;Radek;Paweł;Miastków;Mieszkaniec / Posesjonat;#251;1610;1;
+585;Radwaczek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#168, #183;1609;2;Wawrzyniec Radwaczek serviens seu woźny civitatis Crasnensis, woźny miejski
+586;Radzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#18;1606;1;Jakub Radzonek przedmieszczanin, zbywca 6 stadiów roli synowi
+587;Radzonek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
+588;Radzonek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#18, #240;1606–1610;2;Szymon Radzonek inquilinus apud Usarz, komornik poszkodowany runięciem komina [skan 240]
+589;Radzonek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#42, #247;1607–1610;2;
+590;Radzyński;Jan;Wilkołaz, Sandomierz;Mieszkaniec / Posesjonat;#203;1610;1;ks. Jan Radzyński canonicus Sandomiriensis et plebanus Vilkicensis, proces z Komieszką o woła
+591;Rezula;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#51;1607;1;
+592;Rezula;Matys;Kraśnik;Mieszkaniec;#51;1607;1;Matys Rezula incola kraśnicki, spór z furmanem Piątkiem
+593;Rodzonek;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+594;Rodzonek;Krzysztoszek;Kraśnik;Mieszkaniec / Posesjonat;#161;1609;1;
+595;Rodzonek;Piotr;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+596;Rodzonek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#144;1609;1;
+597;Rodzonek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+598;Rodzonkówna;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+599;Rodzonkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+600;Rodzonkówna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#160;1609;1;
+601;Rogoyski;Szczęsny;Olbięcin;Mieszkaniec / Posesjonat;#255;1610;1;
+602;Rudniczanka;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#98;1608;1;
+603;Rudnik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#98, #149;1608–1609;2;
+604;Rudnik;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#98;1608;1;Walenty Rudnik vel Rudny olim civis Crasnensis, zmarły brat Anny Sosnowej, zamiana półłanka na Podlesiu
+605;Rudnik;Wincenty;Kraśnik;Mieszkaniec / Posesjonat;#214, #215;1610;2;Wincenty Rudnik incola Crasnensis
+606;Rusin;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#22;1606;1;
+607;Rybitwik;Adam;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;
+608;Rybitwik;Adam;Stróża;Mieszkaniec / Posesjonat;#60;1607;1;Adam Rybitwik, pobity pod ratuszem przez krawca
+609;Rybitwik;Wojciech;Stróża;Mieszkaniec / Posesjonat;#60;1607;1;
+610;Rybitwik;Wojciech;Kraśnik;Przedmieszczanin / Sprawca;#60;1607;1;Wojciech Rybitwik syn Jadwigi, brat Adama, sprawca napaści z siekierą na młynarza
+611;Rybitwikowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#60;1607;1;
+612;Rybitwówna;Katarzyna;Kraśnik;Mieszkaniec / Posesjonat;#182;1609;1;
+613;Rymarz;Marys;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+614;Rzeczycki;Krzysztof;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#163;1609;1;Krzysztof Rzeczycki capitaneus et curiae Crasnensis praefectus, dzierżawca kraśnicki
+615;Rzepczyński;Wincenty;Kraśnik;Notariusz;#257;1610;1;
+616;Rzepecki;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#262;1610;1;
+617;Rzepka;Andrzej;Kraśnik;Rajca;#170, #180;1609;2;
+618;Rzepka;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#204;1610;1;
+619;Rzepka;Mikołaj;Blinów (wieś);Mieszkaniec / Posesjonat;#178;1609;1;Mikołaj Rzepka subditus de villa Blinow, sprawca krwawego pobicia na drodze
+620;Rzeźnik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#220;1610;1;Marcin Rzeźnik carnifex Crasnensis, rzeźnik miejski, oczyszczony ze śmierci furmana Klimczyka w drodze do Opoki [skan 224, 225]
+621;Rzępka;Andrzej;Kraśnik;Rajca;#53;1607;1;
+622;Rzęsik;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#20;1606;1;Bartłomiej Rzęsik, świadek naoczny wrzucenia kuśnierza do wanny
+623;Rzęsowski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
+624;Sado;Jan;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;Jan Sado civis Crasnicensis, składa przysięgę na dwa palce ku niebu o opiece nad bratanicami po Macieju z Urzędowa [skan 237]
+625;Sado;Maciej;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;Maciej Sado civis Urzędoviensis demortuus, zmarły mieszczanin urzędowski, ojciec sierot [skan 237]
+626;Sado;Stanisław;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
+627;Sadowna;Katarzyna;Urzędów;Mieszkaniec / Posesjonat;#237;1610;1;
+628;Safranek;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+629;Safranek;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#244;1610;1;
+630;Safranek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#218;1610;1;Wawrzyniec Safranek caupo Crasnensis, karczmarz kraśnicki, rewizja chorego nosatego konia
+631;Safranek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+632;Safrankowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;
+633;Sagalina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+634;Sagał;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#45;1607;1;
+635;Samborski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#88, #266;1608–1611;2;
+636;Sapała;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#80, #167;1608–1609;2;
+637;Sapałczyna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;Anna Sapałczyna vidua patricia Crasnensis, pobita pod ratuszem na kramach przez Męzynka [skan 239, 240]
+638;Sapałkowicz;Stanisław;Kraśnik;Wójt;#5, #24, #78, #180, #205, #239;1606–1610;6;Stanisław Sapałkowicz civis Crasnensis, powód z matką i żoną przeciw Męzynkowi o tumult rynkowy [skan 239, 240]
+639;Sapałkowicz;Wojciech;Kraśnik;Wójt;#5, #78, #118, #181, #201, #205;1606–1610;6;Wojciech Sapałkowicz scabinus et tutor Zophiae pupillae, obrona praw osieroconej Zofii
+640;Sapałkowiczowa;Lukrecja;Kraśnik;Mieszkaniec / Posesjonat;#180;1609;1;
+641;Sapałkowiczowa;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;Zofia Sapałkowiczowa uxor Stanislai iunioris, poszkodowana przez Męzynka na rynku [skan 239, 240]
+642;Sapałkówna;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#181;1609;1;Zofia Sapałkówna pupilla, osierocona córka wójta Stanisława Sapałkowicza
+643;Sarnka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
+644;Sasarz;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#197;1609;1;
+645;Sasinek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
+646;Serafin;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
+647;Serafinek;Marcin;Rzeczyca;Mieszkaniec / Posesjonat;#193;1609;1;Marcin Serafinek subditus de Rzeczyca, świadek sądu gajonego o dziesięciny
+648;Serafinowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#247;1610;1;
+649;Sergona;Regina;Kraśnik;Mieszkaniec / Posesjonat;#176;1609;1;Regina Sergona vidua de Szczebrzeszyn, powódka o błąd lekarski w łaźni
+650;Siewc;brak;Szczebrzeszyn;Mieszkaniec (zmarły) / Pacjent łaźni;#176;1609;1;olim Siewc civis Szczebrzesinensis, pacjent łaźni kraśnickiej
+651;Sieńczyk;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#143;1609;1;
+652;Siurka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#246;1610;1;
+653;Siwcowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Jadwiga Siwcowa, ofiara nocnego najazdu siekierami przez Mućkę
+654;Siwczyk;Tomasz;Kraśnik;Przedmieszczanin / Poszkodowany;#214, #215;1610;2;Tomasz Siwczyk incola Crasnensis, poszkodowany o zranienie dłoni
+655;Siwek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#128, #158;1608–1609;2;
+656;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
+657;Siwiec;Maciej;Kraśnik;Mieszkaniec / Posesjonat;#17;1606;1;Maciej Siwiec, powód w sprawie zbrojnego najazdu na domostwo
+658;Skoryna;Jan;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+659;Skowronek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#240;1610;1;Stanisław Skowronek carnifex Crasnensis, rzeźnik w sporze o jatkę z Mnichem [skan 240]
+660;Skrobecki;brak;Pniów;Sługa kościelny / Poborca dziesięcin;#193;1609;1;Skrobecki famulus plebani Pniouiensis, poborca dziesięciny snopowej
+661;Skroczek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
+662;Skroczek;Wojciech;Kraśnik;Przedmieszczanin;#26, #27;1606;2;Wojciech Skroczek sukcesor roli po ojcu, szwagier Wojciecha Świstka
+663;Skroczkowa;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
+664;Skrzypek;Piotr;Kraśnik;Rajca;#82;1608;1;
+665;Skrzypek;Tomasz;Kraśnik;Burmistrz;#180;1609;1;
+666;Snopczyk;Bartłomiej;Kraśnik;Rzeźnik / Mieszczanin kraśnicki;#221, #222, #235, #236;1610;4;Bartłomiej Snopczyk carnifex Crasnensis
+667;Snopek;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
+668;Snopkowski;Szczepan;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#107, #133, #163;1608–1609;3;
+669;Sontka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#146;1609;1;
+670;Sontka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#143;1609;1;
+671;Sontka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#140;1609;1;
+672;Sosnowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#148;1609;1;
+673;Sosnowik;Kacper;Kraśnik;Mieszkaniec / Posesjonat;#190;1609;1;Kacper Sosnowik gener Nagórskiej, oprawa posagu na domu w ulicy Lubelskiej
+674;Sosnowik;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#111;1608;1;
+675;Sowa;Jarmuła;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+676;Sowa;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#122, #153;1608–1609;2;Marcin Sowa przedmieszczanin kraśnicki, sukcesor Matysa
+677;Sowa;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#78;1608;1;
+678;Sowa;Matys;Kraśnik;Mieszkaniec / Posesjonat (zmarły);#8, #9, #10, #11, #12;1606;5;Matys Sowa zmarły obywatel, właściciel 6 wołów roboczych i 6 krów
+679;Sowa;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Sowa mieszczanin ze Szczebrzeszyna, syn Matysa
+680;Sowa;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+681;Sowianka;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Jadwiga Sowianka, córka Matysa Sowy
+682;Sowina;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#9;1606;1;Dorota Sowina wdowa po Matysie Sowie, broni wiana 100 grzywien i dożywocia
+683;Sowina;Matysa;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;
+684;Sowina;Zofia;Kraśnik;Mieszkaniec / Posesjonat;#166;1609;1;
+685;Sołowicz;Iwan;Kraśnik;Mieszkaniec / Posesjonat;#196;1609;1;Iwan Sołowicz mercator Ruthenus de Ligęzopole, kupiec ruski zmarły nagle na jarmarku marcinkowskim
+686;Sołowicz;Jacko;Ligęzopole (wieś);Mieszkaniec / Posesjonat;#199;1609;1;Jacko Sołowicz de villa Ligęzopole, syn zmarłego Iwana, sukcesor mienia ojcowskiego
+687;Sołowicz;Masiej;Ligęzopole (wieś);Mieszkaniec / Posesjonat;#199;1609;1;Masiej Sołowicz de villa Ligęzopole, brat zmarłego Iwana, sukcesor mienia
+688;Sprysik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#61;1607;1;
+689;Sprysik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#53, #119;1607–1608;2;Stanisław Sprysik incola kraśnicki, nabywca posesji do boru Leszczyny
+690;Spycik;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#252;1610;1;
+691;Spyt;Jakub;Bieliny;Mieszkaniec / Posesjonat;#52;1607;1;Jakub Spyt cmeto de villa Bieliny, zrzeczenie czwartej części ojcowizny bratu
+692;Stalmachowa;Jadwiga;Kraśnik;Mieszkanka / Wdowa;#223, #224;1610;2;Hedvigis Stalmachowa socra Adami Karczmarzyk
+693;Stalmaska;brak;Kraśnik;Mieszkanka / Wdowa;#145;1609;1;Stalmaska vidua Crasnensis, sąsiadka sadu za murami miejskimi
+694;Starybrzuch;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#183, #235;1609–1610;2;Walenty Starybrzuch antecivicensis, sprzedaje ćwierć roli Kowalikowi na spłatę stróża nocnego [skan 235, 236]
+695;Stańko;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;Stanisław Stańko incola Crasnensis, areszt 20 kop żyta na pniu przez Żyda Kochmana
+696;Stropek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+697;Strzałkowski;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#51;1607;1;Bartłomiej Strzałkowski nobilis, ugoda na 116 złp z Żydem Piegatym
+698;Sufletka;Anna;Kraśnik;Mieszkanka / Wdowa;#27;1606;1;Anna Sufletka wdowa po Suflecie, spór graniczny o ogród za stodołami
+699;Sufletka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#33;1606;1;
+700;Susfeczonka;Ewa;Kraśnik;Mieszkaniec / Posesjonat;#83;1608;1;
+701;Susfetka;Stanisław;Góry i Podlesie;Mieszkaniec / Posesjonat;#126;1608;1;
+702;Susfetka;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#76;1608;1;
+703;Suszwalik;Paweł;Góry i Podlesie;Mieszkaniec / Posesjonat;#111;1608;1;
+704;Swiątkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#166;1609;1;
+705;Swiątkowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#169;1609;1;
+706;Swiętkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#164;1609;1;
+707;Swiętkowicz;Samuel;Kraśnik;Mieszkaniec / Posesjonat;#162;1609;1;
+708;Sydorowicz;Wasiek;Bełz;Mieszkaniec / Posesjonat;#23;1606;1;Wasiek Sydorowicz kupiec bełski, hurtownik śledzi z Bełza na Rusi Czerwonej
+709;Syjka;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#40;1607;1;Wojciech Syjka honestus incola, poszkodowany kradzieżą błękitnego sukna karazjowego
+710;Symonowa;Anna;Piaski;Mieszkaniec / Posesjonat;#52;1607;1;
+711;Szafranek;Wawrzyniec;Kraśnik;Mieszkaniec / Posesjonat;#24, #253;1606–1610;2;
+712;Szafraniek;Sebastian;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Sebastian Szafraniek / Safraniek, pozwany o exscissio gaii
+713;Szafrankowa;Dorota;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+714;Sznajpek;Maciej;Budzyń (wieś);Mieszkaniec / Posesjonat;#182;1609;1;Maciej Sznajpek de villa Budzyń, zięć Katarzyny Rybitwówny, cesja zastawu roli za 17 grzywien
+715;Szowa;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#209;1610;1;
+716;Szpic;Tobiasz;Lublin;Mieszkaniec / Posesjonat;#66;1607;1;Tobiasz Szpic civis et mercator Lublinensis, rękojmia za konia
+717;Szpitalna;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#114;1608;1;
+718;Szpygiel;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#110;1608;1;
+719;Szygiełek;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#194;1609;1;Wojciech Szygiełek powód o spadek ojcowski, nakaz obiadu pogrzebowego
+720;Sąsiad;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#54;1607;1;o. Wojciech Sąsiad Canonicus Regularis Ordinis S. Augustini de Conventu Crasnensi
+721;Słąpkowski;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#39;1607;1;Krzysztof Słąpkowski nobilis, praefectus et capitaneus arcis Crasnensis 1607
+722;Tarnowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#243;1610;1;ks. Wojciech Tarnowski praepositus Crasniciensis Canonicorum Regularium Lateranensium
+723;Textor;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+724;Tkacz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#106, #114;1608;2;
+725;Tkacz;Krzysztof;Kraśnik;Mieszkaniec / Posesjonat;#239;1610;1;Krzysztof Tkacz de Trzydnik, tkacz osiadły pod murami kraśnickimi po kupnie domu od Kurka [skan 239]
+726;Tkacz;Siemion;Kraśnik;Mieszkaniec / Posesjonat;#226;1610;1;
+727;Tkaczowa;Agnieszka;Kraśnik;Mieszkaniec / Posesjonat;#86;1608;1;
+728;Tokarczyk;Albert;Kraśnik;Mieszczanin / Sukcesor;#222, #223, #224;1610;3;Albert Tokarczyk / Wojciech Tokarczyk
+729;Tokarczyk;Bartłomiej;Kraśnik;Przedmieszczanin;#44;1607;1;Bartłomiej Tokarczyk przedmieszczanin kraśnicki, spłata ogrodu Tokarzewskiego
+730;Tokarczyk;Jan;Kraśnik;Mieszczanin / Sukcesor;#222, #223, #224;1610;3;Jan Tokarczyk stryj sierot
+731;Tokarczyk;Maciej;Kraśnik;Mieszkaniec / Sierota;#222, #223, #224;1610;3;Maciej Tokarczyk pupillus et orphanus
+732;Tokarczyk;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#88;1608;1;
+733;Tokarczyk;Stanisław;Kraśnik;Mieszkaniec / Sierota;#222, #223, #224;1610;3;Stanisław Tokarczyk pupillus et orphanus
+734;Tokarczyk;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#149;1609;1;
+735;Tokarczykowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#44;1607;1;
+736;Tokarz;Bartłomiej;Kraśnik;Mieszkaniec / Posesjonat;#149;1609;1;
+737;Tokarz;Jan;Bieliny;Mieszkaniec / Posesjonat;#238;1610;1;
+738;Tokarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;Jan Tokarz de Bieliny demortuus, zmarły rolnik z Bielin ze zbożem w Kraśniku [skan 238]
+739;Tokarz;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#120, #238;1608–1610;2;Kasper Tokarz civis Crasnicensis, gospodarz stodoły z zaaresztowanym żytem bielińskim [skan 238]
+740;Tokarz;Marcin;Bieliny;Mieszkaniec / Posesjonat;#52;1607;1;
+741;Tokarz;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#149, #204;1609–1610;2;
+742;Tokarz;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#44, #149;1607–1609;2;
+743;Tokarz;Wojciech;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
+744;Tokarzowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#204;1610;1;Barbara Tokarzowa uxor Martini, protestacja posagowa o raty z domu w ul. Lubelskiej
+745;Trestka;Jan;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
+746;Trestka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#37, #189;1606–1609;2;Marcin Trestka civis Crasnensis, spór o podwójny zastaw stajań roli pułłankowej
+747;Trojan;Hieronim;Kraśnik;Mieszkaniec / Posesjonat;#267;1611;1;
+748;Trojanek;Walenty;Kraśnik;Mieszkaniec / Posesjonat;#90;1608;1;
+749;Tryleski;Jan;Kraśnik;Mieszkaniec / Posesjonat;#237;1610;1;Jan Tryleski dapifer Belsensis, stolnik bełski, kładzie areszt na mieniu Kawałki o sumę 12 czerwonych złotych [skan 235, 236, 237]
+750;Trzennik;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+751;Trzymska;Anna;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
+752;Trzymski;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#97;1608;1;
+753;Trzymski;Andrzej;Trzymiechy;Mieszkaniec / Posesjonat;#70;1607;1;Andrzej Trzymski nobilis de Trzymiechy, areszt 30 grzywien na domu Danielowicza
+754;Trzymski;Stanisław;Szczebrzeszyn;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Trzymski plenipotent ze Szczebrzeszyna
+755;Usarz;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#44, #240;1607–1610;2;Andrzej Usarz incola Crasnensis, gospodarz po rewizji przysiężnych z powodu zawalenia komina [skan 240]
+756;Usarzowej;Dziecko;Kraśnik;Mieszkaniec / Posesjonat;#241;1610;1;
+757;Wandza;Melchior;Kraśnik;Szewc;#87;1608;1;
+758;Warszycki;Andrzej;Góry i Podlesie;Mieszkaniec / Posesjonat;#208;1610;1;
+759;Weboris radomski;Gaspar;Radom / Jągrów;Mieszkaniec / Posesjonat;#29;1606;1;
+760;Wejslik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#122;1608;1;
+761;Wieczorkowic;Szczepan;Kraśnik;Mieszkaniec / Posesjonat;#35;1606;1;
+762;Wiejlik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#120;1608;1;
+763;Wierzbicki;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#8;1606;1;Stanisław Wierzbicki, zmarły dziadek Sowiców
+764;Wierzbicki;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;Szymon Wierzbicki z Bielin, poddany szpitala św. Ducha
+765;Wiezławek;Andrzej;Bieliny (wieś szpitalna);Mieszkaniec / Posesjonat;#94;1608;1;
+766;Wiezławkowa;Małgorzata;Bieliny;Mieszkaniec / Posesjonat;#95;1608;1;
+767;Wojda;Wojciech;Słodków;Mieszkaniec / Posesjonat;#47;1607;1;
+768;Wojtal;Marcin;Stróża;Mieszkaniec / Posesjonat;#160, #189;1609;2;
+769;Wojtal;Michał;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
+770;Wojtalówna;Barbara;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
+771;Wojtalówna;Katarzyna;Stróża;Mieszkaniec / Posesjonat;#160;1609;1;
+772;Wojtyłek;Jan;Kraśnik;Mieszkaniec / Posesjonat;#215;1610;1;
+773;Wolak;Adam;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
+774;Wolak;Flig;Kraśnik;Mieszkaniec / Posesjonat;#99;1608;1;
+775;Wolak;Jan;Bieliny;Mieszkaniec / Posesjonat;#22;1606;1;
+776;Wolak;Jan;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
+777;Wolak;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#6;1606;1;Stanisław Wolak, poszkodowany w krwawym pobiciu na gościńcu
+778;Wolak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#263;1610;1;
+779;Wolakowa;Jadwiga;Kraśnik;Mieszkaniec / Posesjonat;#23;1606;1;
+780;Wołosowicz;Daniel;Lubaczów;Mieszkaniec / Posesjonat;#251;1610;1;
+781;Wrona;Mikołaj;Kraśnik;Mieszkaniec / Posesjonat;#64;1607;1;Mikołaj Wrona incola kraśnicki, zastaw 4 stadiów łąki przy gościńcu sandomierskim
+782;Wronka;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#132, #197;1609;2;
+783;Wróbel;Andrzej;Kraśnik;Mieszkaniec / Posesjonat na wale;#189;1609;1;Andrzej Wróbel incola Crasnensis, posesjonat na wale miejskim
+784;Wróblik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;Jan Wróblik pellifex Crasnensis, kuśnierz procesujący się o skóry lisie i kunie [skan 230, 231]
+785;Wybranowski;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+786;Wybranowski;Wojciech;Kraśnik (Zamek);Mieszkaniec / Posesjonat;#228;1610;1;Wojciech Wybranowski de Wybranowice, nowy dzierżawca zamku i starostwa kraśnickiego, dekrety intromisji i aresztów [skan 228, 229, 230, 233, 234]
+787;Wypchał;Wojciech;Kraśnik;Mieszkaniec / Posesjonat;#30, #213;1606–1610;2;Wojciech Wypchał de villa Opoka, świadek spraw zbożowych ze spławu
+788;Wyrzyski;brak;Pniów;Duchowny / Pleban pniowski (dawny);#192;1609;1;olim plebanus Pniouiensis Wyrzyski
+789;Wzołek;Stanisław;Popkowice;Mieszkaniec / Posesjonat;#245;1610;1;
+790;Wójcik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#66;1607;1;
+791;Wójcik;Wojciech;Popkowice;Mieszkaniec / Posesjonat;#30;1606;1;
+792;Wójcik;Wojciech;Popkowice (wieś);Mieszkaniec / Posesjonat;#191;1609;1;
+793;Wójtowa;Anna;Budzyń;Wójt;#206;1610;1;
+794;Wójtów;Andrzej;Kraśnik;Mieszkaniec / Posesjonat;#230;1610;1;Andrzej Wójtów civis Crasnensis, nabywca 12 staj roli pod Budzyniem [skan 230]
+795;Wąsik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#42;1607;1;
+796;Wąslik;Jan;Kraśnik;Mieszkaniec / Posesjonat;#147;1609;1;
+797;Wąstowik;Andrzej;Kraśnik;Przedmieszczanin / Posesjonat;#179;1609;1;Andrzej Wąstowik incola Crasnensis, posesjonat na Zarzeczu
+798;Węzeł;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+799;Właszkic;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#202;1610;1;Paweł Właszkic civis Crasnensis, szwagier Hieronimowicza z Turobina, zwolniony z cyrografu
+800;Włochówna;Regina Urszula;Kraśnik;Mieszkanka / Sukcesorka kamienicy rynkowej;#133, #134;1609;2;Regina Urszula Włochówna, filia olim Bernardi Itali Calabrisio
+801;Zając;Jakub;Góry i Podlesie;Mieszkaniec / Posesjonat;#185, #208;1609–1610;2;
+802;Zając;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
+803;Zającowa;Krystyna;Kraśnik;Mieszkaniec / Posesjonat;#21;1606;1;
+804;Zamieszała;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#16;1606;1;
+805;Zamieszała;Matys;Kraśnik;Mieszkaniec / Posesjonat;#16, #19;1606;2;Matys Zamieszała / Zamieszała Mateusz, pobity na rynku kołkiem z wozu o grosz zadatku, Matys Zamieszała, pobity na rynku kołkiem z wozu o grosz zadatku
+806;Zdziebłkowna;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#7;1606;1;Małgorzata Zdziebłkowna / Zdziebłkowa, służąca oskarżona o kradzież
+807;Zdziebłowa;Barbara;Kraśnik;Mieszkaniec / Posesjonat;#88;1608;1;
+808;Ze stróży;Zyna;Stróża;Mieszkaniec / Posesjonat;#79;1608;1;
+809;Zięda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#217;1610;1;
+810;Zmienda;Jan;Kraśnik;Mieszkaniec / Posesjonat;#276;1610;1;
+811;Złotnikowa;Zofia;Kraśnik;Mieszczka / Sukcesorka testamentowa;#194, #195;1609;2;Zofia Złotnikowa civis Crasnensis, heres testamentaria
+812;Ćwikła;Mikołaj;Kraśnik;Ławnik;#5, #82, #125, #126, #154, #184;1606–1609;6;Mikołaj Ćwikła / Cwikła scabinus iuratus, ławnik przysięgły 1606
+813;Łaszka;Józef;Kraśnik;Mieszkaniec / Posesjonat;#200;1609;1;Józef Łaszka famulus consulis Stanislai Sapała, świadek o handlu odzieżą w Zaklikowie
+814;Łaziebnik;Mateusz;Kraśnik;Mieszkaniec / Posesjonat;#152;1609;1;
+815;Łepek;Andrzej;Zarzecze;Mieszkaniec / Posesjonat;#231;1610;1;
+816;Łupiączek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#154;1609;1;
+817;Łysak;Szymon;Kraśnik;Mieszkaniec / Posesjonat;#70;1607;1;Szymon Łysak adolescens incola kraśnicki, areszt 30 grzywien z domu matki
+818;Łysak;Wojciech;Kraśnik;Ławnik;#5;1606;1;Wojciech Łysak scabinus iuratus, ławnik kraśnicki 1606
+819;Ływiec;Tomasz;Kraśnik;Rajca;#257;1610;1;
+820;Śliwa;Jan;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
+821;Śliwina;Anna;Kraśnik;Mieszkaniec / Posesjonat;#31;1606;1;
+822;Ślusarz;Jan;Kraśnik;Mieszkaniec / Posesjonat;#257;1610;1;
+823;Śniech;Jakub;Kraśnik;Mieszkaniec / Posesjonat;#121;1608;1;
+824;Śniech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#117, #130;1608–1609;2;
+825;Śpiewak;Marcin;Kraśnik;Mieszkaniec / Posesjonat;#82, #125, #162, #213;1608–1610;4;Marcin Śpiewak de villa Opoka, świadek pod przysięgą o odstawie żyta
+826;Świech;Tomasz;Kraśnik;Mieszkaniec / Posesjonat;#244;1610;1;
+827;Świercz;[wdowa];Góry i Podlesie;Mieszkaniec / Posesjonat;#127;1608;1;
+828;Świstek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#24;1606;1;
+829;Świstek;Wojciech;Kraśnik;Przedmieszczanin;#25, #27;1606;2;Wojciech Świstek przedmieszczanin, nabywca cesji roli Ziarkowskiej
+830;Świątek;Adam;Kraśnik;Mieszkaniec / Posesjonat;#129, #217;1609–1610;2;
+831;Świątek;Marcin;Opoka (wieś);Mieszkaniec / Posesjonat;#183;1609;1;Marcin Świątek de villa Opoka, odbiorca 30 korcy żyta nad rzeką Wisłą
+832;Świątek;Piotr;Kraśnik;Rajca;#53, #211;1607–1610;2;
+833;Świątkowa;Małgorzata;Kraśnik;Mieszkaniec / Posesjonat;#123;1608;1;
+834;Świątkowicz;Samuel;Kazimierz (pod Krakowem);Mieszkaniec / Posesjonat;#122;1608;1;
+835;Świątkowicz;Samuel;Kazimierz pod Krakowem;Mieszkaniec / Posesjonat;#141;1609;1;Samuel Świątkowicz mercator de Casimiria apud Cracoviam, browarnik i posesjonat sadu wiśniowego [skan 233, 234]
+836;Świętek;Adam;Kraśnik;Rajca;#118;1608;1;
+837;Świętek;Stanisław;Kraśnik;Mieszkaniec / Posesjonat;#253;1610;1;
+838;Świętkówna;Anna;Kraśnik;Mieszkaniec / Posesjonat;#266;1611;1;
+839;Żaczek;Jan;Stróża;Mieszkaniec / Posesjonat;#16;1606;1;Jan Żaczek ze wsi Stróża, świadek naoczny bójki pod karczmą
+840;Żembroń;Jan;Zarzecze;Mieszkaniec / Posesjonat;#231;1610;1;Jan Żembroń cmetho de Sułow, kmieć sułowski sprzedający ćwierć roli na Zarzeczu [skan 231]
+841;Żmigród;Jan;Kraśnik;Mieszkaniec / Posesjonat;#238;1610;1;Jan Żmigród civis Crasnensis, przyjmuje panny Kaśkonianki na dożywotnie utrzymanie za rolę [skan 238]
+842;Żupniczek;Paweł;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
+843;Żupniczkowa;Anna;Kraśnik;Mieszkaniec / Posesjonat;#101, #202;1608–1610;2;
+844;Żyd;Aaron;Kraśnik;Mieszkaniec / Posesjonat;#106;1608;1;
+845;Żyd;Harzym;Kraśnik;Mieszkaniec / Posesjonat;#145;1609;1;
+846;Żyd;Józef;Kraśnik;Mieszkaniec / Posesjonat;#107;1608;1;
+847;Żyd;Kaufman;Kraśnik;Mieszkaniec / Posesjonat;#110;1608;1;
+848;Żyd;Kochman;Kraśnik;Mieszkaniec / Posesjonat;#106, #144;1608–1609;2;
+849;Żyd;Litman;Kraśnik;Mieszkaniec / Posesjonat;#130;1609;1;
+850;Żyd;Marek;Kraśnik;Mieszkaniec / Posesjonat;#96, #103;1608;2;
+851;Żyd;Michał;Kraśnik;Mieszkaniec / Posesjonat;#105;1608;1;
