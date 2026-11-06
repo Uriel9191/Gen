@@ -9,6 +9,40 @@ import csv
 import json
 import subprocess
 import sys
+from html.parser import HTMLParser
+
+class TagChecker(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.stack = []
+        self.errors = []
+        self.void_tags = {'meta', 'link', 'img', 'br', 'hr', 'input', 'col', 'source'}
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() not in self.void_tags:
+            self.stack.append((tag.lower(), self.getpos()))
+
+    def handle_endtag(self, tag):
+        t = tag.lower()
+        if t in self.void_tags:
+            return
+        if not self.stack:
+            self.errors.append(f'Line {self.getpos()[0]}: Unexpected closing </{t}> (empty stack)')
+            return
+        
+        matched_idx = None
+        for i in range(len(self.stack) - 1, -1, -1):
+            if self.stack[i][0] == t:
+                matched_idx = i
+                break
+        
+        if matched_idx is None:
+            self.errors.append(f'Line {self.getpos()[0]}: Closing </{t}> has no matching opening tag (top is <{self.stack[-1][0]}> opened at line {self.stack[-1][1][0]})')
+        else:
+            while len(self.stack) > matched_idx + 1:
+                unclosed = self.stack.pop()
+                self.errors.append(f'Line {self.getpos()[0]}: Unclosed <{unclosed[0]}> opened at line {unclosed[1][0]} before </{t}>')
+            self.stack.pop()
 
 CANONICAL_7_COLUMNS = [
     'Skan ↕',
@@ -270,9 +304,9 @@ def test_unit(unit_id, html_path, csv_path):
     print(f"  -> PASS: Obie tabele posiadają pełną, symetryczną paginację na górze i na dole ({len(required_pag_ids)} kontrolek).")
 
     # ---------------------------------------------------------
-    # TEST 14: Rygor Integralności i Bilansu Sekcji Zakładek (<section>)
+    # TEST 14: Rygor Integralności i Bilansu Sekcji Zakładek (<section>) oraz Drzewa DOM
     # ---------------------------------------------------------
-    print("[TEST 14/14] Weryfikacja integralności strukturalnej sekcji <section class=\"tab-content\">...")
+    print("[TEST 14/14] Weryfikacja integralności strukturalnej sekcji <section class=\"tab-content\"> i drzewa DOM...")
     open_sections = len(re.findall(r'<section\b', html))
     close_sections = len(re.findall(r'</section>', html))
     assert open_sections == 4, f"FAIL: W pliku {html_path} liczba otwartych <section> wynosi {open_sections} zamiast dokładnie 4!"
@@ -287,7 +321,14 @@ def test_unit(unit_id, html_path, csv_path):
     for line_idx, line in enumerate(html.split('\n')):
         assert not re.match(r'^\s*(?:id|class)=', line), \
             f"FAIL: W pliku {html_path} na linii {line_idx+1} znaleziono wiszący atrybut bez znacznika HTML: {line.strip()}"
-    print(f"  -> PASS: Wszystkie 4 sekcje zakładek są idealnie zbalansowane (4:4) i poprawnie zdefiniowane.")
+
+    # Weryfikacja pełnego drzewa tagów parserem HTML (0 unclosed tags, 0 mismatched tags)
+    tag_parser = TagChecker()
+    tag_parser.feed(html)
+    assert not tag_parser.errors, f"FAIL: W pliku {html_path} błędy struktury tagów HTML: {tag_parser.errors[:3]}"
+    assert not tag_parser.stack, f"FAIL: W pliku {html_path} niezamknięte tagi HTML: {[s[0] for s in tag_parser.stack]}"
+
+    print(f"  -> PASS: Wszystkie 4 sekcje zakładek są idealnie zbalansowane (4:4), a pełne drzewo DOM ma 0 błędów.")
 
     print(f"\n>>> WYNIK DLA {unit_id.upper()}: 14/14 TESTÓW ZALICZONYCH (100% PASS) <<<\n")
 
