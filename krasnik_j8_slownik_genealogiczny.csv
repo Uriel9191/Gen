@@ -1,7 +1,7 @@
 ﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
-1;Barszcz;Albert;Kraśnik;Ławnik przysięgły miejski;#14, #29, #40;1609;3;Barsz?
-2;Barszcz;Jan;Kraśnik (Podlesie);Mieszkaniec / Posesjonat na Podlesiu;#16, #36;1609;2;
-3;Barszcz;Matys;Kraśnik;Mieszczanin / Kupujący rolę i ogród;#13;1608;1;
+1;Barszcz;Albert;Kraśnik;Ławnik przysięgły miejski;#14, #29, #40, #42, #47, #48, #50, #51, #52, #53, #56;1609–1610;11;Barsz?
+2;Barszcz;Jan;Kraśnik (Podlesie);Mieszkaniec / Posesjonat na Podlesiu;#16, #36, #54;1609–1610;3;
+3;Barszcz;Matys;Kraśnik;Mieszczanin / Kupujący rolę i ogród;#13, #53, #54, #55;1608–1610;4;
 4;Bobek;Krzysztof;Kraśnik (Podlesie);Przedmieszczanin / Sukcesor Bobkowszczyzny;#6, #7, #8;1608;3;Bobkowie?
 5;Bobek;Matys;Kraśnik (Podlesie);Przedmieszczanin / Sukcesor Bobkowszczyzny;#6, #7, #8;1608;3;Bobkowie?
 6;Bułhaj;Albert;Kraśnik;Mieszczanin / Posesjonat;#10, #11;1608;2;
@@ -10,12 +10,12 @@
 9;Flacik;Bartłomiej;Kraśnik;Mieszczanin / Nabywca łąki i roli;#19, #20, #24, #38;1609;4;Flaczik?
 10;Grymuza;Józef;Kraśnik;Mieszczanin / Browarnik i posesjonat;#11, #14, #15;1608–1609;3;
 11;Hajgielowicz;Stanisław;Kraśnik;Ławnik przysięgły miejski;#14;1609;1;Haigielowicz / Hajdelowicz?
-12;Harron;[Senior];Kraśnik;Senior bóżnicy żydowskiej (Kahał);#4;1608;1;Aaron?
-13;Janaszkowicz;Albert;Kraśnik;Notariusz miejski / Starszy ławnik;#14, #29, #36, #39, #40;1609;5;Janaskowicz Starszy?
+12;Harron;[Senior];Kraśnik;Senior bóżnicy żydowskiej (Kahał);#4, #45, #60;1608–1610;3;Aaron?
+13;Janaszkowicz;Albert;Kraśnik;Notariusz miejski / Starszy ławnik;#14, #29, #36, #39, #40, #42, #47, #50, #52, #53, #56;1609–1610;11;Janaskowicz Starszy?
 14;Janiszola;Stanisław;Kraśnik;Niegdyś wójt kraśnicki (olim advocatus);#20;1609;1;Ganissola?
 15;Jasieński;Wojciech;Kraśnik (Zamek);Podstarości kraśnicki (szlachcic);#7, #8;1608;2;
 16;Jasiowicz;Stanisław;Kraśnik;Mieszczanin / Sąsiad posesji;#12;1608;1;
-17;Karczmarzyk;Adam;Kraśnik;Ławnik przysięgły / Mieszczanin;#8, #10, #11, #14, #29, #40;1608–1609;6;
+17;Karczmarzyk;Adam;Kraśnik;Ławnik przysięgły / Mieszczanin;#8, #10, #11, #14, #29, #40, #42, #43, #47, #48, #50, #52, #53, #56;1608–1610;14;
 18;Karczmarzyk;Szymon;Kraśnik;Mieszczanin / Strona zamiany domostw;#10, #11;1608;2;
 19;Kisiołek;Albert;Kraśnik;Młodzieniec (iuvenis) / Mieszczanin;#13;1608;1;Kissiołek?
 20;Klimaszek;Albert;Kraśnik (Podlesie);Przedmieszczanin / Sprzedający dom;#15, #16;1609;2;
@@ -52,12 +52,12 @@
 51;Niegowska;[Wdowa];Kraśnik;Wdowa / Właścicielka placu;#9;1608;1;
 52;Ozimek;Szymon;Kraśnik;Mieszczanin / Cech szewski;#5;1608;1;
 53;Pająk;Wincenty;Kraśnik (Podlesie);Mieszczanin / Nabywca posesji na Podlesiu;#15, #16;1609;2;Paiąk / Paięk?
-54;Piwowarek;Jan;Kraśnik;Mieszczanin / Browarnik i kupiec;#12;1608;1;
+54;Piwowarek;Jan;Kraśnik;Mieszczanin / Browarnik i kupiec;#12, #57, #58, #59;1608–1610;4;
 55;Prokopczyk;Andrzej;Kraśnik (Podlesie);Przedmieszczanin / Posesjonat;#16;1609;1;
 56;Rękawka;Maciej;Kraśnik;Mieszczanin / Sąsiad ogrodu nad Wyżnicą;#5;1608;1;
 57;Sapatkowicz;Albert;Kraśnik;Ławnik przysięgły miejski / Posesjonat;#14;1609;1;Sapałkowicz?
 58;Sarna;Jan;Kraśnik;Mieszczanin / Posesjonat;#14;1609;1;Sarnha?
-59;Sarna;Marcin;Kraśnik;Wójt i sędzia sądu gajonego (advocatus et judex);#6, #12, #14, #20, #21, #22, #29, #30, #35, #36, #39, #40;1608–1609;12;Parvus / Mały?
+59;Sarna;Marcin;Kraśnik;Wójt i sędzia sądu gajonego (advocatus et judex);#6, #12, #14, #20, #21, #22, #29, #30, #35, #36, #39, #40, #41, #42, #44, #47, #48, #49, #50, #52, #53, #56;1608–1610;22;Parvus / Mały?
 60;Staszkowicz;Stanisław;Kraśnik;Ławnik przysięgły / Kurator sądowy;#20;1609;1;
 61;Szeptycki;Stefan;Kraśnik (Zamek);Dzierżawca zamku kraśnickiego (szlachcic);#7;1608;1;
 62;Szumer;Abraham;Kraśnik;Mieszkaniec żydowski / Kupujący dom;#20, #21;1609;2;Schumer?
@@ -66,16 +66,16 @@
 65;Trojan;Walenty;Kraśnik;Mieszczanin / Sprzedający łąkę i rolę;#19, #20;1609;2;
 66;Zmienda;Albert;Kraśnik;Szewc (sutor) / Mieszczanin;#5;1608;1;Zmięda szewc?
 67;Pająk;Wojciech;Kraśnik (Górne);Mieszkaniec / Posesjonat;#21, #22;1609;2;Paiek? / Paiecz?
-68;Tkacz;Maciej;Kraśnik;Rzemieślnik / Tkacz;#21;1609;1;Textor? / Teuloriz?
+68;Tkacz;Maciej;Kraśnik;Rzemieślnik / Tkacz;#21, #41, #42;1609–1610;3;Textor? / Teuloriz?
 69;Podgórski;Wojciech;Kraśnik;Mieszczanin / Nabywca posesji;#21, #22;1609;2;Podgurski?
-70;Męzynek;Wojciech;Stróża / Kraśnik;Szlachcic / Sługa książęcy / Posesjonat cegielni;#22, #23, #35, #36, #37, #38, #39;1590–1609;7;Mezynek? / Mężyk? / Mezenko?
+70;Męzynek;Wojciech;Stróża / Kraśnik;Szlachcic / Sługa książęcy / Posesjonat cegielni;#22, #23, #35, #36, #37, #38, #39, #52, #55, #56;1590–1610;10;Mezynek? / Mężyk? / Mezenko?
 71;Olelkowicz Słucki;Aleksander;Słuck / Kopyl / Hłusk / Kraśnik;Książę / Pan i dziedzic Kraśnika;#22, #23;1590–1609;2;Xiążę Słuckie?
 72;Radziwiłł;Janusz;Birże / Dubinki / Kraśnik;Książę / Magnat / Pan na Birżach i Dubinkach;#22, #23;1590–1609;2;Janusz X. Radziwiłł?
 73;Olelkowiczówna Słucka;Zofia;Słuck / Kraśnik;Księżna / Dziedziczka hrabstwa słuckiego i kraśnickiego;#22, #23;1590–1609;2;Radziwiłłowa? / Zofia X. Słucka?
 74;Karczmarzowa;Ewa;Dzierzkowice / Kraśnik (Piaski);Mieszkanka / Wdowa posesjonatka;#23, #24;1609;2;Karczmarka? / de Dzerzkowicze?
 75;Kołodziejczyk;Jan;Kraśnik (Piaski);Mieszkaniec / Posesjonat;#24;1609;1;Kołodzieyczyk?
 76;Dubielik;Jan;Kraśnik;Mieszczanin / Posesjonat;#24;1609;1;Dubielczyk?
-77;Świerk;Jan;Kraśnik;Mieszczanin / Posesjonat;#24;1609;1;Swierk?
+77;Świerk;Jan;Kraśnik;Mieszczanin / Posesjonat;#24, #49, #50;1609–1610;3;Swierk?
 78;Dziwisz;Albert;Kraśnik;Mieszczanin / Zięć posesjonat;#24, #25;1609;2;Dziwiss?
 79;Dziwiszowa;Agnieszka;Kraśnik;Mieszkanka / Córka posesjonata;#24, #25;1609;2;Dubielikówna? / Agnes?
 80;Tłokarz;Stanisław;Kraśnik;Zmarły mieszczanin / Protoplasta rodu;#25;1609;1;Tłokarczyk?
@@ -97,16 +97,16 @@
 96;Jantopek;Marcin;Opoka / Kraśnik (Podlesie);Mieszkaniec Opoki / Zbywca posesji;#27;1609;1;Jantop? / de Opoka?
 97;Kołodziejczanka;Agnieszka;Kraśnik (Podlesie);Mieszkanka / Posesjonatka;#27;1609;1;Kołodzieyczykówna?
 98;Wronka;Andrzej;Kraśnik (Podlesie);Mieszkaniec / Posesjonat;#27;1609;1;Wrona?
-99;Jazd;Piotr;Kraśnik (Podlesie);Rzemieślnik / Kołodziej / Posesjonat;#24, #27, #32;1609;3;Jazda? / Kołodziey?
+99;Jazd;Piotr;Kraśnik (Podlesie);Rzemieślnik / Kołodziej / Posesjonat;#24, #27, #32, #56, #57;1609–1610;5;Jazda? / Kołodziey?
 100;Jazdowa;Elżbieta;Kraśnik (Podlesie);Mieszkanka / Żona kołodzieja;#27;1609;1;Elisabeth?
-101;Klimczyk;Wojciech;Kraśnik;Mieszczanin / Rolnik;#28, #29;1609;2;Klimczak? / Albertus?
-102;Gęba;Maciej;Kraśnik (Podlesie);Mieszkaniec / Posesjonat;#28, #30;1609;2;Gębczyk?
+101;Klimczyk;Wojciech;Kraśnik;Mieszczanin / Rolnik;#28, #29, #46;1609–1610;3;Klimczak? / Albertus?
+102;Gęba;Maciej;Kraśnik (Podlesie);Mieszkaniec / Posesjonat;#28, #30, #49;1609–1610;3;Gębczyk?
 103;Świątek;Tomasz;Kraśnik;Mieszkaniec / Rolnik;#28;1609;1;Swiątek?
 104;Krywoszyński;Maciej;Kraśnik (Brama Lubelska);Mieszczanin / Posesjonat;#29;1609;1;Krivizonski? / Krzywoszyński?
 105;Krywoszyńska;Katarzyna;Kraśnik (Brama Lubelska);Mieszkanka / Żona posesjonata;#29;1609;1;Catharina?
 106;Wojtkowicz;N.;Kraśnik (Brama Lubelska);Mieszczanin / Posesjonat;#29;1609;1;Woytkowicz?
 107;Kudelka;Wojciech;Kraśnik (Brama Lubelska);Mieszczanin / Posesjonat;#30;1609;1;Kudełka? / Kudlicki?
-108;Barszcz;Paweł;Kraśnik (Podlesie / Narwóz);Mieszczanin / Rzeźnik / Posesjonat;#30, #31;1609;2;Giszka? / Paulus Barsz?
+108;Barszcz;Paweł;Kraśnik (Podlesie / Narwóz);Mieszczanin / Rzeźnik / Posesjonat;#30, #31, #49, #50;1609–1610;4;Giszka? / Paulus Barsz?
 109;Barszcz;Stanisław;Kraśnik (Narwóz);Mieszczanin / Rolnik;#30, #31;1609;2;Giszka? / Stanislaus Barsz?
 110;Sapała;Stanisław;Kraśnik (Podlesie);Mieszkaniec / Posesjonat;#30;1609;1;Sapałkowicz?
 111;Szczygieł;Stanisław;Kraśnik;Mieszczanin / Testator;#31, #32;1609;2;Szygieł? / Szczygielski?
@@ -122,17 +122,17 @@
 121;Polak;Marcin;Kraśnik;Mieszkaniec / Rolnik;#33;1609;1;Polaczek?
 122;Modzelońska;Anna;Kraśnik;Mieszkanka / Posesjonatka;#33, #34;1609;2;Modzeleńska? / Anna?
 123;Modzeloński;Adam;Kraśnik;Mieszczanin / Mąż asystujący;#33;1609;1;Modzeleński?
-124;Grzymkowicz;Jan;Kraśnik;Ławnik przysięgły miejski / Posesjonat;#34;1609;1;Grzymek? / Joannes Grzymkowicz?
+124;Grzymkowicz;Jan;Kraśnik;Ławnik przysięgły miejski / Posesjonat;#34, #57, #58;1609–1610;3;Grzymek? / Joannes Grzymkowicz?
 125;Jaskółczyna;Anna;Kraśnik (Rynek);Mieszkanka / Wdowa posesjonatka;#34;1609;1;Jaskołczyna? / Anna?
 126;Jaskółka;Jakub;Kraśnik (Rynek);Zmarły mieszczanin / Posesjonat;#34;1609;1;Jaskołka?
 127;Jaskółczyk;Stanisław;Kraśnik (Rynek);Mieszczanin / Nabywca kamienicy;#34, #35;1609;2;Jaskołczyk? / Jaskółka?
-128;Libman;[Kupiec];Kraśnik (Rynek);Kupiec żydowski / Właściciel posesji w rynku;#34;1609;1;Liebman Judaeus?
+128;Libman;[Kupiec];Kraśnik (Rynek);Kupiec żydowski / Właściciel posesji w rynku;#34, #43, #44;1609–1610;3;Liebman Judaeus?
 129;Włoch;Bernard;Kraśnik / Lublin;Patrycjusz włoski / Kupiec / Właściciel cegielni i kamienic;#35, #36, #37, #38, #39, #40;1609;6;Bernardus Italus? / Bernat?
 130;Sapałkowicz;Stanisław;Kraśnik;Były wójt kraśnicki / Koligowany z rodem Włochów;#35;1609;1;Sapałkiewicz? / Advocatus?
 131;Mroczkowski;Bartłomiej;Lublin / Kraśnik;Patrycjusz lubelski / Zięć i sukcesor Bernarda Włocha;#35, #36, #37, #38, #39;1609;5;de Lublin? / Bartholomaeus?
 132;Mroczkowska;Justyna;Lublin / Kraśnik;Patrycjuszka / Córka Bernarda Włocha;#35, #36, #37, #38, #39;1609;5;Bernatówna? / Justina?
 133;Sapiga;Tobiasz;Lublin / Kraśnik;Patrycjusz lubelski / Sukcesor Bernarda Włocha;#35, #36, #37, #39;1609;4;Sapieha? / Tobiasz?
-134;Męzynkowa;Urszula;Stróża / Kraśnik;Szlachcianka / Córka Bernarda Włocha / Posesjonatka cegielni;#35, #36, #37, #39;1609;4;Bernatówna? / Ursula?
+134;Męzynkowa;Urszula;Stróża / Kraśnik;Szlachcianka / Córka Bernarda Włocha / Posesjonatka cegielni;#35, #36, #37, #39, #52;1609–1610;5;Bernatówna? / Ursula?
 135;Bąkalski;Wojciech;Kraśnik;Mieszczanin / Zięć i sukcesor Bernarda Włocha;#35, #36, #37, #39;1609;4;Bąkowski? / Albertus?
 136;Bąkalska;Elżbieta;Kraśnik;Mieszkanka / Córka Bernarda Włocha;#35, #36, #37, #39;1609;4;Bernatówna? / Elisabeth?
 137;Drozdowski;Stanisław;Kraśnik;Mieszczanin / Zięć i sukcesor Bernarda Włocha;#35, #36, #37, #39;1609;4;Drozd? / Stanislaus?
@@ -143,8 +143,77 @@
 142;Kraśnicki;Tomasz;Kraśnik (Zamek);Szlachcic / Komisarz zamkowy i arbiter;#35, #36;1609;2;Crasnicki? / Thomas?
 143;Mężyk;Marcin;Kraśnik;Burmistrz Kraśnika / Arbiter miejski;#35, #36, #39;1609;3;Mezyk? / Burmistrz?
 144;Stróżyk;Tomasz;Kraśnik;Mieszczanin / Arbiter i mąż zaufania;#35, #36, #39;1609;3;Strozyk? / Stróż?
-145;Juśniakowa;Katarzyna;Kraśnik (Podlesie);Mieszkanka / Wdowa testatorka;#40;1609;1;Giustniakowa? / Iustniakowa? / Juśniak?
+145;Juśniakowa;Katarzyna;Kraśnik (Podlesie);Mieszkanka / Wdowa testatorka;#40, #41;1609;2;Giustniakowa? / Iustniakowa? / Juśniak?
 146;Juśniak;Jan;Kraśnik;Zmarły mieszczanin / Protoplasta;#40;1609;1;Giustniak? / Iustniak?
 147;Piotr;Piotr;Budzyń;Mieszkaniec Budzynia / Zięć spadkobierca;#40;1609;1;de Budzyn? / zięć Juśniakowej?
 148;Juśniakówna;Agnieszka;Budzyń / Kraśnik;Mieszkanka / Córka spadkobierczyni;#40;1609;1;Piotrowa z Budzynia? / Agnes?
 149;Sarnina;Dorota;Kraśnik;Wójtowa kraśnicka / Córka spadkobierczyni;#40;1609;1;Juśniakówna? / Dorothea?
+150;Kazimierski;Matys;Kraśnik;Mieszczanin / Posesjonat;#41;1609;1;Kozimierski?
+151;Ciepiela;Stanisław;Kraśnik;Mieszczanin / Egzekutor testamentu;#41;1609;1;Czepiela?
+152;Proch;Albert;Kraśnik (Rynek);Kramarz / Kupiec kramny (institor);#41, #42;1609–1610;2;Proszek? / institor?
+153;Szewc;Sebastian;Kraśnik (Rynek);Rzemieślnik / Szewc (Sutor);#41, #42;1609–1610;2;Sutor? / Sebastianus?
+154;Gorzymińska;Anna;Kraśnik (Zamek);Szlachcianka / Posesorka i dzierżawczyni hrabstwa kraśnickiego;#42;1610;1;de Mogielnica? / Tenutaria Plenaria?
+155;Pląskowicz;Stanisław;Kraśnik;Ławnik przysięgły miejski (nowo obrany);#42, #46, #47, #48, #50, #51, #52, #53, #56;1610;9;Plaskowicz? / Pliąskoviz?
+156;Siwkowa;Dorota;Kraśnik;Mieszkanka / Córka posesjonata;#43;1610;1;Wierdżonka? / Dorothea?
+157;Siwek;Maciej;Kraśnik;Mieszczanin / Mąż asystujący;#43;1610;1;Siwiec?
+158;Wierdza;Augustyn;Kraśnik;Mieszczanin / Rolnik;#43, #44;1610;2;Wierdęga? / Augustinus?
+159;Siwek;Jan;Kraśnik (ul. Żydowska);Rzemieślnik / Bednarz (doliator);#43, #44;1610;2;Bednarz? / doliator?
+160;Chrapkowicz;Jan;Kraśnik (Kościół Św. Ducha);Mieszczanin / Posesjonat kamienicy;#45;1610;1;Chrapek? / Joannes?
+161;Przysuska;Małgorzata;Kraśnik (Kościół Św. Ducha);Zmarła mieszczka / Posesjonatka;#45;1610;1;Margaritha olim?
+162;Placik;Jan;Kraśnik (Kościół Św. Ducha);Mieszczanin / Nabywca kamienicy;#45;1610;1;Plicik? / Joannes?
+163;Kantorkowiczówna;Ewa;Kraśnik;Mieszkanka / Sukcesorka;#45, #46;1610;2;Hantorkowiczowa? / Eva?
+164;Kantorkowicz;Jakub;Kraśnik;Mieszkaniec / Mąż asystujący;#45, #46;1610;2;Hantorkowicz? / Jacobus?
+165;Jasionowicz;Mikołaj;Kraśnik;Zmarły mieszczanin / Spadkodawca;#45, #46;1610;2;Jasion? / Nicolaus olim?
+166;Jasionowicz;Stanisław;Kraśnik;Mieszczanin / Sukcesor;#46, #58, #59;1610;3;Jasion? / Stanislaus?
+167;Jasionowicz;Albert;Kraśnik;Mieszczanin / Sukcesor;#46;1610;1;Jasion? / Albertus?
+168;Jasionowicz;Jakub;Kraśnik;Mieszczanin / Sukcesor;#46;1610;1;Jasion? / Jacobus?
+169;Kuza;Albert;Kraśnik (Wygon);Mieszczanin / Chory testator;#47;1610;1;Kuzik? / Albertus?
+170;Kuza;Jan;Kraśnik (Wygon);Mieszczanin / Nabywca zagrody;#47;1610;1;Kuzik? / Joannes?
+171;Kuzina;Anna;Kraśnik (Wygon);Mieszkanka / Żona nabywcy;#47;1610;1;Kuźina? / Anna?
+172;Orlik;Marcin;Kraśnik (Rynek);Rzemieślnik / Cechmistrz lub mistrz kuśnierski / Testator;#48;1610;1;Orlik kuśnierz? / pellifex?
+173;Orlikowa;Agnieszka;Kraśnik (Rynek);Mieszkanka / Wdowa i egzekutorka;#48;1610;1;Agnieszka?
+174;Orlikówna;Jadwiga;Kraśnik;Panna mieszczańska / Córka testatora;#48;1610;1;Hedvigis virgo?
+175;Orlikówna;Zofia;Kraśnik;Panna mieszczańska / Córka testatora;#48;1610;1;Sophia virgo?
+176;Proch;Mikołaj;Wilkołaz;Kmieć z Wilkołaza / Dłużnik kuśnierza;#48;1610;1;de Wilkołaz?
+177;Dymitr;Dymitr;Stróża;Kmieć ze Stróży / Dłużnik kuśnierza;#48;1610;1;de Stroża?
+178;Prokop;Stanisław;Kraśnik;Zmarły mieszczanin / Spadkodawca;#49;1610;1;Prokopczyk? / Stanislaus olim?
+179;Prokopówna;Małgorzata;Kraśnik;Mieszkanka / Córka sukcesorka;#49;1610;1;Kulbiedzina? / Margaritha?
+180;Prokopówna;Łucja;Kraśnik;Mieszkanka / Córka sukcesorka;#49;1610;1;Młynarzowa? / Lucia?
+181;Młynarz;Matys;Kraśnik;Rzemieślnik / Młynarz;#49;1610;1;Molendinator? / Mathias?
+182;Prokopówna;Zuzanna;Kraśnik;Panna mieszczańska / Córka sukcesorka;#49;1610;1;Susanna virgo?
+183;Giski;Maciej;Kraśnik (Podlesie);Mieszczanin / Posesjonat;#50;1610;1;Giska? / Mathias?
+184;Trojanowa;Barbara;Kraśnik;Mieszczka / Testatorka;#51, #52;1610;2;Troyanowa? / Barbara?
+185;Trojan;Jakub;Kraśnik;Mieszczanin / Mąż testatorki;#51;1610;1;Troyan? / Jacobus?
+186;Ozimkowa;Barbara;Kraśnik;Mieszczka / Córka spadkobierczyni;#51;1610;1;Trojanówna? / Barbara?
+187;Piotrowicz;Michał;Kraśnik;Mieszczanin / Syn spadkobierca;#51;1610;1;Michał?
+188;Mniszek;Wojciech;Kraśnik;Mieszczanin / Brat testatorki;#51, #52;1610;2;Mniszkiewicz? / Albertus?
+189;Giussakowski;N.;Kraśnik;Mieszkaniec / Posesjonat;#51;1610;1;Giusakowski? / Juszakowski?
+190;Gąska;Bartłomiej;Kraśnik (Cmentarz Parafialny);Mieszczanin / Posesjonat;#52, #53;1610;2;Gąszcz? / Bartholomaeus?
+191;Stalmachczyk;Stanisław;Kraśnik (Cmentarz Parafialny);Rzemieślnik / Stalmach / Nabywca domu;#52, #53;1610;2;Stalmach? / Stanislaus?
+192;Stalmachczykowa;Zofia;Kraśnik;Mieszkanka / Córka nabywczyni;#52, #53;1610;2;Gąszczanka? / Sophia?
+193;Kossiorowski;N.;Kraśnik;Mieszkaniec / Posesjonat;#52;1610;1;Kosiorowski?
+194;Kandup;Mikołaj;Kraśnik;Mieszczanin / Posesjonat;#53, #54, #55;1610;3;Kantup? / Nicolaus?
+195;Kandupowa;Zofia;Kraśnik;Zmarła mieszczka / Posesjonatka;#53, #54;1610;2;Kisiełówna? / Sophia olim?
+196;Gębala;Kasper;Kraśnik;Mieszkaniec / Posesjonat;#53, #54;1610;2;Gębal? / Caspar?
+197;Knyba;Stoan;Kraśnik;Mieszkaniec / Posesjonat;#54;1610;1;Knybka? / Stoan?
+198;Czubaj;Jan;Kraśnik;Mieszkaniec / Posesjonat;#54;1610;1;Czubek? / Joannes?
+199;Skopel;Stanisław;Kraśnik (Piaski);Przedmieszczanin / Posesjonat;#54, #55;1610;2;Skopek? / Stanislaus?
+200;Paszek;Augustyn;Kraśnik (Piaski);Przedmieszczanin / Nabywca posesji;#54, #55;1610;2;Passek? / Augustinus?
+201;Midałła;Andrzej;Kraśnik (Piaski);Zmarły mieszczanin / Posesjonat;#54, #55;1610;2;Midała? / Andreas olim?
+202;Rozwałkowicz;Wawrzyniec;Kraśnik (Piaski);Mieszkaniec / Posesjonat;#54, #55;1610;2;Rozwałka? / Laurentius?
+203;Rzepka;Wincenty;Kraśnik (Zamek / Rynek);Sługa zamkowy (famulus) / Sukcesor kamienicy;#55, #56;1610;2;Vincentius Rzepka?
+204;Wybranowski;Albert;Kraśnik (Zamek);Szlachcic / Tenutariusz i urzędnik zamkowy;#55;1610;1;Albertus Tenutarius?
+205;Rzepczyna;Anna;Kraśnik (Rynek);Zmarła mieszczka / Posesjonatka kamienicy;#55;1610;1;Anna olim?
+206;Kawalina;Katarzyna;Kraśnik (Rynek);Mieszkanka / Córka sukcesorka;#55, #56;1610;2;Rzepczanka? / Catharina?
+207;Kurczyna;Felicja;Kraśnik (Rynek);Mieszkanka / Córka sukcesorka;#55, #56;1610;2;Rzepczanka? / Felicia?
+208;Kurcz;Wojciech;Kraśnik;Mieszczanin / Mąż asystujący;#55;1610;1;Albertus Kurcz?
+209;Samborski;Wojciech;Kraśnik (Rynek);Rzemieślnik / Mistrz tkacki (textor);#56, #57;1610;2;Textor? / Albertus?
+210;Kicpek;Maciej;Kraśnik (ul. Sandomierska);Rzemieślnik / Stolarz (mensator);#56, #57, #58;1610;3;Kicpak? / mensator? / Mathias?
+211;Kantorowicz;Jakub;Kraśnik (ul. Sandomierska);Mieszkaniec / Posesjonat;#57, #58;1610;2;Kantor? / Jacobus?
+212;Młynarczyk;Stanisław;Kraśnik (Wał);Komornik / Inquilinus miejski;#57, #58, #59;1610;3;inquilinus? / Stanislaus?
+213;Szyja;Albert;Kraśnik (Wał);Mieszkaniec / Posesjonat na wale;#57, #58, #59;1610;3;Szyba? / Albertus?
+214;Kozieł;Marcin;Kraśnik;Mieszczanin / Brat rozliczający schedę;#58, #59, #60;1610;3;Koziełek? / Martinus?
+215;Szyszowa;Elżbieta;Zaklików / Kraśnik;Mieszkanka Zaklikowa / Siostra sukcesorka;#58, #59, #60;1610;3;Kozłówna? / Elisabeth?
+216;Szysz;Andrzej;Zaklików;Rzemieślnik / Kowal z Zaklikowa (ferrifaber);#58, #59, #60;1610;3;ferrifaber de Zaklikow? / Andreas?
+217;Siwiec;Jan;Kraśnik;Mieszkaniec / Posesjonat ogrodu;#60;1610;1;Siwek? / Joannes?
+218;Paszkowa;Barbara;Kraśnik (Przedmieście);Mieszkanka / Wdowa nabywczyni dworku;#60;1610;1;Barbara vidua?
