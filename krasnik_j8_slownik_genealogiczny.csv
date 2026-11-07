@@ -1,6 +1,6 @@
 ﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
 1;Barszcz;Albert;Kraśnik;Ławnik przysięgły miejski;#14, #29, #40, #42, #47, #48, #50, #51, #52, #53, #56, #62, #64, #68, #70, #74, #78, #80;1609–1610–1611;18;Barsz?
-2;Barszcz;Jan;Kraśnik (Podlesie);Mieszkaniec / Posesjonat na Podlesiu;#16, #36, #54, #81, #83, #90, #91, #97, #100, #138, #199, #200, #201, #230;1609–1619;14;Joannes Barszcz Consul?, Jan Barysło, Joannes Barysło Consul
+2;Barszcz;Jan;Kraśnik (Podlesie);Mieszkaniec / Posesjonat na Podlesiu;#16, #36, #54, #81, #83, #90, #91, #97, #100, #138, #199, #200, #201, #230, #241, #242;1609–1619;16;Joannes Barszcz Consul?, Jan Barysło, Joannes Barysło Consul, Jan Barszcz konsul
 3;Barszcz;Matys;Kraśnik;Mieszczanin / Kupujący rolę i ogród;#13, #53, #54, #55, #207, #229;1608–1619;6;Mathias Barszcz, Maciej Barszcz
 4;Bobek;Krzysztof;Kraśnik (Podlesie);Przedmieszczanin / Sukcesor Bobkowszczyzny;#6, #7, #8;1608;3;Bobkowie?
 5;Bobek;Matys;Kraśnik (Podlesie);Przedmieszczanin / Sukcesor Bobkowszczyzny;#6, #7, #8;1608;3;Bobkowie?
@@ -11,11 +11,11 @@
 10;Grymuza;Józef;Kraśnik;Mieszczanin / Browarnik i posesjonat;#11, #14, #15;1608–1609;3;
 11;Hajgielowicz;Stanisław;Kraśnik;Ławnik przysięgły miejski;#14;1609;1;Haigielowicz / Hajdelowicz?
 12;Harron;[Senior];Kraśnik;Senior bóżnicy żydowskiej (Kahał);#4, #45, #60;1608–1610;3;Aaron?
-13;Janaszkowicz;Albert;Kraśnik;burmistrz i rajca kraśnicki (Proconsul et Consul Crasnisiensis);#14, #29, #36, #39, #40, #42, #47, #50, #52, #53, #56, #62, #63, #64, #68, #70, #71, #72, #74, #78, #80, #83, #87, #88, #99, #101, #102, #103, #104, #155, #157, #158, #226, #228, #240;1609–1619;35;Janaskowicz Starszy?, Albertus Janaszkowicz Proconsul, Wojciech Janaszkowicz burmistrz, Albert Janaskowic wójt, Albertus Janaszkowic Advocatus
+13;Janaszkowicz;Albert;Kraśnik;burmistrz i rajca kraśnicki (Proconsul et Consul Crasnisiensis);#14, #29, #36, #39, #40, #42, #47, #50, #52, #53, #56, #62, #63, #64, #68, #70, #71, #72, #74, #78, #80, #83, #87, #88, #99, #101, #102, #103, #104, #155, #157, #158, #226, #228, #240, #245, #247;1609–1619–1620;37;Janaskowicz Starszy?, Albertus Janaszkowicz Proconsul, Wojciech Janaszkowicz burmistrz, Albert Janaskowic wójt, Albertus Janaszkowic Advocatus, Albertus Janaskowic Advocatus
 14;Janiszola;Stanisław;Kraśnik;Niegdyś wójt kraśnicki (olim advocatus);#20;1609;1;Ganissola?
 15;Jasieński;Wojciech;Kraśnik (Zamek);Podstarości kraśnicki (szlachcic);#7, #8;1608;2;
 16;Jasiowicz;Stanisław;Kraśnik;Mieszczanin / Sąsiad posesji;#12;1608;1;
-17;Karczmarzyk;Adam;Kraśnik;Ławnik przysięgły / Mieszczanin;#8, #10, #11, #14, #29, #40, #42, #43, #47, #48, #50, #52, #53, #56, #64, #93, #200;1608–1617;17;Adamus Karczmarzyk Consul?, Adamus Karczmarzyk
+17;Karczmarzyk;Adam;Kraśnik;Ławnik przysięgły / Mieszczanin;#8, #10, #11, #14, #29, #40, #42, #43, #47, #48, #50, #52, #53, #56, #64, #93, #200, #255;1608–1617–1619–1620;18;Adamus Karczmarzyk Consul?, Adamus Karczmarzyk, Adam Kamarzyka konsul stary
 18;Karczmarzyk;Szymon;Kraśnik;Mieszczanin / Strona zamiany domostw;#10, #11, #202, #211;1608–1618;4;
 19;Kisiołek;Albert;Kraśnik;Młodzieniec (iuvenis) / Mieszczanin;#13;1608;1;Kissiołek?
 20;Klimaszek;Albert;Kraśnik (Podlesie);Przedmieszczanin / Sprzedający dom;#15, #16, #184, #185, #229;1609–1619;5;Wojciech Klimaszek, Albertus Klimaszek
@@ -107,7 +107,7 @@
 106;Wojtkowicz;N.;Kraśnik (Brama Lubelska);Mieszczanin / Posesjonat;#29;1609;1;Woytkowicz?
 107;Kudelka;Wojciech;Kraśnik (Brama Lubelska);Mieszczanin / Posesjonat;#30;1609;1;Kudełka? / Kudlicki?
 108;Barszcz;Paweł;Kraśnik (Podlesie / Narwóz);Mieszczanin / Rzeźnik / Posesjonat;#30, #31, #49, #50;1609–1610;4;Giszka? / Paulus Barsz?
-109;Barszcz;Stanisław;Kraśnik (Narwóz);Mieszczanin / Rolnik;#30, #31, #192;1609–1617;3;Giszka? / Stanislaus Barsz?, Stanislaus Barszcz
+109;Barszcz;Stanisław;Kraśnik (Narwóz);Mieszczanin / Rolnik;#30, #31, #192, #255;1609–1617–1619–1620;4;Giszka? / Stanislaus Barsz?, Stanislaus Barszcz
 110;Sapała;Stanisław;Kraśnik (Podlesie);Mieszkaniec / Posesjonat;#30, #78, #79, #202;1609–1617;4;Sapałkowicz?, Stanislaus Sapałka
 111;Szczygieł;Stanisław;Kraśnik;Mieszczanin / Testator;#31, #32;1609;2;Szygieł? / Szczygielski?
 112;Szczygieł;Wojciech;Kraśnik;Mieszczanin / Syn testatora;#31;1609;1;Albertus Szygieł?
@@ -125,7 +125,7 @@
 124;Grzymkowicz;Jan;Kraśnik;Ławnik przysięgły miejski / Posesjonat;#34, #57, #58;1609–1610;3;Grzymek? / Joannes Grzymkowicz?
 125;Jaskółczyna;Anna;Kraśnik (Rynek);Mieszkanka / Wdowa posesjonatka;#34;1609;1;Jaskołczyna? / Anna?
 126;Jaskółka;Jakub;Kraśnik (Rynek);Zmarły mieszczanin / Posesjonat;#34;1609;1;Jaskołka?
-127;Jaskółczyk;Stanisław;Kraśnik (Rynek);Mieszczanin / Nabywca kamienicy;#34, #35, #177, #186, #213, #232;1609–1619;6;Jaskołczyk? / Jaskółka?, Stanisław Jaskotka, Stanislaus Jaskotka
+127;Jaskółczyk;Stanisław;Kraśnik (Rynek);Mieszczanin / Nabywca kamienicy;#34, #35, #177, #186, #213, #232, #260;1609–1619–1620;7;Jaskołczyk? / Jaskółka?, Stanisław Jaskotka, Stanislaus Jaskotka, Stanislaus Jaskółka
 128;Libman;[Kupiec];Kraśnik (Rynek);Kupiec żydowski / Właściciel posesji w rynku;#34, #43, #44, #177;1609–1616;4;Liebman Judaeus?, Judaeus Litman, Litman Judaeus, Żyd Litman
 129;Włoch;Bernard;Kraśnik / Lublin;Patrycjusz włoski / Kupiec / Właściciel cegielni i kamienic;#35, #36, #37, #38, #39, #40;1609;6;Bernardus Italus? / Bernat?
 130;Sapałkowicz;Stanisław;Kraśnik;Były wójt kraśnicki / Koligowany z rodem Włochów;#35, #79;1609–1611;2;Sapałkiewicz? / Advocatus?
@@ -162,7 +162,7 @@
 161;Przysuska;Małgorzata;Kraśnik (Kościół Św. Ducha);Zmarła mieszczka / Posesjonatka;#45;1610;1;Margaritha olim?
 162;Placik;Jan;Kraśnik (Kościół Św. Ducha);Mieszczanin / Nabywca kamienicy;#45;1610;1;Plicik? / Joannes?
 163;Kantorkowiczówna;Ewa;Kraśnik;Mieszkanka / Sukcesorka;#45, #46;1610;2;Hantorkowiczowa? / Eva?
-164;Kantorkowicz;Jakub;Kraśnik;Mieszkaniec / Mąż asystujący;#45, #46, #209;1610–1617;3;Hantorkowicz? / Jacobus?, Jakub Kręcinos, Jacobus Kantorkowicz alias Kręcinos
+164;Kantorkowicz;Jakub;Kraśnik;Mieszkaniec / Mąż asystujący;#45, #46, #209, #242, #243;1610–1617;5;Hantorkowicz? / Jacobus?, Jakub Kręcinos, Jacobus Kantorkowicz alias Kręcinos, Jacobus Kantorkowicz
 165;Jasionowicz;Mikołaj;Kraśnik;Zmarły mieszczanin / Spadkodawca;#45, #46;1610;2;Jasion? / Nicolaus olim?
 166;Jasionowicz;Stanisław;Kraśnik;Mieszczanin / Sukcesor;#46, #58, #59;1610;3;Jasion? / Stanislaus?
 167;Jasionowicz;Albert;Kraśnik;Mieszczanin / Sukcesor;#46;1610;1;Jasion? / Albertus?
@@ -226,7 +226,7 @@
 225;Jędrzejkówna;Regina;Kraśnik (Przedmieście ku Stróży);Mieszka / Córka i legatariuszka posagu;#62, #63;1610;2;Regina filia?
 226;Gąska;Sebastian;Kraśnik (Przedmieście ku Stróży);Mieszczanin / Sąsiad posesji;#63;1610;1;Gąskowicz? / Sebastianus?
 227;Foła;Jan;Kraśnik;Urząd miejski / Ławnik przysięgły i posesjonat;#62, #63, #64, #68, #69, #70, #74, #78, #80;1610–1611;9;Fala? / Joannes Scabinus?
-228;Śpiewak;Marcin;Kraśnik;Mieszczanin / Opiekun testamentowy i wierzyciel;#63;1610;1;Martinus Śpiewak? / Cantor?
+228;Śpiewak;Marcin;Kraśnik;Mieszczanin / Opiekun testamentowy i wierzyciel;#63, #251;1610–1619–1620;2;Martinus Śpiewak? / Cantor?, Martinus Śpiewak
 229;Oszczyński;Paweł;Kraśnik (Rynek / Przedmieście);Mieszczanin / Kupiec nieruchomości i dłużnik;#63, #64, #74, #75;1610–1611;4;Oszczyc? / Chrzanowski? / Paulus?
 230;Pręgowicz;Andrzej;Kraśnik;Urząd miejski / Starszy ławnik sądu wójtowskiego (scabinus senior);#64, #100;1611–1612;2;Andreas Scabinus senior?
 231;Weysko;Jan;Kraśnik (Podlesie);Mieszczanin / Posesjonat ogrodu ze stodołą;#64, #65;1611;2;Weys? / Joannes?
@@ -252,7 +252,7 @@
 251;Szewc;Jan;Kraśnik;Rzemieślnik / Szewc (sutor) i dłużnik;#69, #108;1611–1613;2;Joannes Sutor?
 252;Dawid;Dawid;Kraśnik (ul. Żydowska);Mieszkaniec wyznania mojżeszowego / Posesjonat;#70, #86, #87;1611–1612;3;David Judaeus?
 253;Świątkowa;Anna;Kraśnik (ul. Żydowska);Mieszka / Wdowa po b. wójcie/pisarzu;#70, #105, #122, #204, #205;1611–1617;5;Anna vidua?, Anna Janaskowa, Anna Świątkowa Janaskowa
-254;Świątek;Piotr;Kraśnik;Zmarły urzędnik miejski / Dawny wójt lub pisarz;#70, #132;1611–1613;2;Petrus olim Scabinus/Advocatus?
+254;Świątek;Piotr;Kraśnik;Zmarły urzędnik miejski / Dawny wójt lub pisarz;#70, #132, #253, #254;1611–1613–1619–1620;4;Petrus olim Scabinus/Advocatus?, Petrus Swiętek consul antiquus
 255;Mroczkowiczowa;Dianna;Kraśnik / Lublin;Szlachetna / Córka i sukcesorka Bernarda Włocha;#71, #72, #73;1611;3;Dianna z Włochów? / Italica?
 256;Sapigowa;Justyna;Kraśnik;Mieszka / Córka i sukcesorka Bernarda Włocha;#71, #72, #73;1611;3;Justyna z Włochów? / Italica?
 257;Kozieł;Jan;Sułów / Kraśnik;Wójt wiejski / Wójt we wsi Sułów (Scultetus in Sułów);#71, #72, #73;1611;3;Joannes Scultetus de Sułów? / Kozioł?
@@ -260,7 +260,7 @@
 259;Ogonek;Piotr;Kraśnik (Podlesie);Mieszczanin przedmiejski / Posesjonat roli;#73, #74;1611;2;Petrus Ogonek?
 260;Kępka;Andrzej;Kraśnik (Podlesie);Mieszczanin przedmiejski / Sąsiad roli;#73;1611;1;Andreas Kępka?
 261;Bembarzowa;N.;Kraśnik (Podlesie);Mieszka przedmiejska / Wdowa i sąsiadka roli;#73;1611;1;Bembarzanka? / Relicta?
-262;Fox;Jan;Kraśnik;Urząd miejski / Ławnik przysięgły i posesjonat;#74, #81, #82, #105, #106, #134, #185;1611–1617;7;Foks? / Lis? / Joannes Scabinus?, Joannes Fox Scabinus
+262;Fox;Jan;Kraśnik;Urząd miejski / Ławnik przysięgły i posesjonat;#74, #81, #82, #105, #106, #134, #185, #251, #252;1611–1617–1619–1620;9;Foks? / Lis? / Joannes Scabinus?, Joannes Fox Scabinus, Joannes Fox consularis
 263;Rzążkowski;N.;Kraśnik;Mieszkaniec / Sąsiad posesji;#74;1611;1;Rzążca? / Rzążka?
 264;Grabka;Maciej;Kraśnik;Mieszkaniec / Sąsiad posesji;#74;1611;1;Mathias Grabka?
 265;Chrzanowska;Jadwiga;Kraśnik;Mieszka / Żona Pawła Oszczyńskiego Chrzanowskiego;#74, #75;1611;2;Hedvigis uxor Oszczyński?
@@ -271,7 +271,7 @@
 270;Krawcowa;Zofia;Kraśnik (Przy murach miejskich);Mieszka / Wdowa po krawcu Andrzeju;#76;1611;1;Sophia Sartorissa? / Relicta?
 271;Krawiec;Andrzej;Kraśnik;Rzemieślnik / Zmarły krawiec (sartor);#76;1611;1;Andreas Sartor olim?
 272;Górka;Stanisław;Kraśnik (Przy murach miejskich);Mieszczanin / Pośrednik i zbywca domu;#76, #77;1611;2;Stanislaus Górka?
-273;Sosnowik;Kasper;Kraśnik (Przy murach miejskich);Mieszczanin / Sąsiad domu przy murach;#76, #93, #94, #96, #99, #100, #106, #107, #200, #202;1611–1617;10;Casparus Sosnowik?
+273;Sosnowik;Kasper;Kraśnik (Przy murach miejskich);Mieszczanin / Sąsiad domu przy murach;#76, #93, #94, #96, #99, #100, #106, #107, #200, #202, #247;1611–1617–1619–1620;11;Casparus Sosnowik?, Casparus Sosnowic Scabinus
 274;Kania;Stanisław;Kraśnik (Przy murach miejskich);Mieszczanin / Sąsiad domu przy murach;#76, #133;1611–1613;2;Stanislaus Kania?
 275;Kołodziejczyk;Paweł;Kraśnik (Przy murach miejskich);Rzemieślnik / Kołodziejczyk i posesjonat;#76, #77, #100;1611–1612;3;Paulus Kołodziejczyk?
 276;Orzeł;Stanisław;Kraśnik (Podlesie);Mieszczanin / Nabywca ćwierci roli;#77, #109;1611–1613;2;Stanislaus Orzeł?
@@ -309,7 +309,7 @@
 308;Nagórska;Jadwiga;Kraśnik (Przedmieście lubelskie);Mieszka / Wdowa i powódka w sporze o rynnę;#93, #94, #96, #97;1612;4;Hedvigis vidua Nagórska?
 309;Ożyp;Wawrzyniec;Kraśnik (Przedmieście lubelskie);Mieszczanin / Zbywca domu;#94, #95;1612;2;Laurentius Ożyp? / Ożypkowicz?
 310;Pniak;Stanisław;Kraśnik (Przedmieście lubelskie);Mieszczanin / Nabywca domu;#94, #95;1612;2;Stanislaus Pniak? / Pniakowski?
-311;Sapała;Albert (Wojciech);Kraśnik (Przedmieście lubelskie);Mieszczanin / Posesjonat placu;#94, #134, #138, #139, #149, #169, #175, #185, #195, #196, #202, #226;1612–1619;12;Albertus Sapała? / Sapałkowicz?, Albert Sapała Scabinus, Wojciech Sapała starosta
+311;Sapała;Albert (Wojciech);Kraśnik (Przedmieście lubelskie);Mieszczanin / Posesjonat placu;#94, #134, #138, #139, #149, #169, #175, #185, #195, #196, #202, #226, #245, #247;1612–1619–1620;14;Albertus Sapała? / Sapałkowicz?, Albert Sapała Scabinus, Wojciech Sapała starosta, Albertus Sapała Scabinus
 312;Żupnikowa;Anna;Kraśnik;Mieszka / Zmarła po połogu testatorka;#95, #96;1612;2;Anna uxor Pauli Żupnik? / Żupniczka?
 313;Żupnik;Paweł;Kraśnik;Mieszczanin / Mąż Anny i powiernik córki;#95, #96;1612;2;Paulus Żupnik?
 314;Żupniczanka;Dorota (niemowlę);Kraśnik;Dziecko / Nowo narodzona córeczka i spadkobierczyni;#95, #96;1612;2;Dorothea filiola infans?
@@ -345,8 +345,8 @@
 344;Grzywaczyk;Jan;Kraśnik;Dawny urząd / Były rajca (consul antiquus) i nabywca ogrodu;#105, #110, #111;1612–1613;3;Joannes Grzywaczyk Consul antiquus?
 345;Świątek;Jakub (Solnik);Kraśnik (Rynek);Kupiec / Zmarły solnik kraśnicki;#105;1612;1;Jacobus Solnik olim?
 346;Stroikowic;Stanisław;Kraśnik;Urząd miejski / Ławnik sądu wójtowskiego;#105, #106;1612–1613;2;Stanislaus Stroikowic Scabinus?
-347;Danielkowic;Jan;Kraśnik;Urząd miejski / Ławnik sądu wójtowskiego;#105, #106, #149, #185, #202, #213;1612–1618;6;Joannes Danielkowic Scabinus?, Jan Danelek, Joannes Danelek Scabinus, Janek Danielek, Joannes Danielewicz Scabinus, Jan Daniełek
-348;Butha;Maciej;Kraśnik;Urząd miejski / Ławnik sądu wójtowskiego;#105, #106, #150, #185, #202;1612–1617;5;Mathias Butha Scabinus?, Mathias Butha Scabinus
+347;Danielkowic;Jan;Kraśnik;Urząd miejski / Ławnik sądu wójtowskiego;#105, #106, #149, #185, #202, #213, #244, #245, #247, #249;1612–1618–1619–1620;10;Joannes Danielkowic Scabinus?, Jan Danelek, Joannes Danelek Scabinus, Janek Danielek, Joannes Danielewicz Scabinus, Jan Daniełek, Joannes Daniełek Scabinus
+348;Butha;Maciej;Kraśnik;Urząd miejski / Ławnik sądu wójtowskiego;#105, #106, #150, #185, #202, #245, #247;1612–1617–1619–1620;7;Mathias Butha Scabinus?, Mathias Butha Scabinus, Matthias Butha Scabinus
 349;Breginik;Albert (Wojciech);Kraśnik (Rynek / ul. Piekarska);Mieszczanin / Sąsiad kamienicy w Rynku;#106;1613;1;Albertus Breginik? / Bryginek?
 350;Kołodziejczykowa;Zofia;Kraśnik;Mieszka / Żona Tomasza Kołodziejczyka;#107;1613;1;Sophia consors Thomae?
 351;Kuśnierz;Błażej;Kraśnik (Za kościołem);Rzemieślnik / Mistrz kuśnierski i zbywca placu;#108;1613;1;Blasius Pellifex? / Skórnik?
@@ -416,7 +416,7 @@
 415;Bojanik;Bartłomiej;Kraśnik (Budzyń);Mieszczanin / Nabywca roli na Budzyniu;#131;1613;1;Bartholomaeus Bojanik? / Bojanek?
 416;Wnukowicz;Stanisław;Kraśnik (Przedmieście lubelskie);Mieszczanin / Nabywca domu od Wojciecha Szyi;#131, #132, #142;1613–1614;3;Stanislaus Wnukowicz? / Wnuk?
 417;Sustwał;Jan;Kraśnik;Zmarły mieszczanin / Spadkodawca roli ku Popkowicom;#132, #133;1613;2;Joannes olim Sustwał? / Susfał?
-418;Młynarczyk;Marcin;Kraśnik (Przy murach miejskich);Mieszczanin / Nabywca domu przy murach;#133, #142;1613–1614;2;Martinus Młynarczyk?
+418;Młynarczyk;Marcin;Kraśnik (Przy murach miejskich);Mieszczanin / Nabywca domu przy murach;#133, #142, #247;1613–1614–1619–1620;3;Martinus Młynarczyk?, Martinus Młynarczyk
 419;Tarnowita;Wojciech (ks. Prepozyt);Kraśnik (Klasztor);Duchowieństwo / Prepozyt Klasztoru Kanoników Regularnych św. Augustyna;#134, #135, #136, #150, #151;1614–1615;5;Albertus Praepositus Canonicorum Regularium?, Albertus Tarnowita Praepositus, ks. Albert Tarnowita
 420;Żochowski;Wojciech (ks. Przeor);Kraśnik (Klasztor);Duchowieństwo / Przeor Klasztoru Kanoników Regularnych;#134;1614;1;Albertus Prior Conventus?
 421;Chmiel;Wawrzyniec (brat);Kraśnik (Klasztor);Duchowieństwo / Zakonnik profes Kanoników Regularnych;#134;1614;1;Laurentius Chmiel professus?
@@ -426,7 +426,7 @@
 425;Komieszek;Maciej;Kraśnik (Ku Rzycom);Mieszczanin / Sąsiad roli ku Rzycom;#137;1614;1;Mathias Komieszek?
 426;Komieszek;Jan;Kraśnik (Ku Rzycom);Mieszczanin / Sąsiad roli ku Rzycom;#137;1614;1;Joannes Komieszek?
 427;Kurza;Jan;Kraśnik (Podlesie / Ku Rzycom);Mieszczanin / Nabywca roli i ogrodu od Sapały;#137, #138, #139, #188, #198;1614–1617;5;Joannes Kurza? / Kurzonka?
-428;Piątek;Jan;Kraśnik (Podlesie);Mieszczanin przedmiejski / Zbywca półłanka na Podlesiu;#139, #140;1614;2;Joannes Piątek? / Piątkowicz?
+428;Piątek;Jan;Kraśnik (Podlesie);Mieszczanin przedmiejski / Zbywca półłanka na Podlesiu;#139, #140, #255;1614–1619–1620;3;Joannes Piątek? / Piątkowicz?, Joannes Piątek
 429;Giba;Marchia;Kraśnik (Podlesie);Mieszka / Sąsiadka półłanka na Podlesiu;#139;1614;1;Marchia Giba? / Gibina?
 430;Świech;Tomasz;Kraśnik (Podlesie);Mieszczanin / Sąsiad półłanka na Podlesiu;#139;1614;1;Thomas Świech?
 431;Majduk;Marcin;Kraśnik (Podlesie);Mieszczanin przedmiejski / Nabywca półłanka za 60 grzywien;#139, #140;1614;2;Martinus Majduk? / Najduk?
@@ -436,13 +436,13 @@
 435;Kapka;Albert;Kraśnik (przy murach miejskich);mieszczanin kraśnicki, nabywca domu przy murach za 35 grzywien;#142;1614;1;Wojciech Kapka, Albertus Kapka
 436;Wolarzyk;Andrzej;Kraśnik (ul. Młyńska / przedmieście);przedmieszczanin kraśnicki, zbywca i nabywca domów miejskich;#142, #143, #152, #153;1614–1615;4;Andrzej Wolarz, Andreas Wolarzyk
 437;Wolarzyk;Zofia;Kraśnik;mieszczka kraśnicka, żona Andrzeja Wolarzyka;#142;1614;1;Sophia Wolarzykowa
-438;Piekowicz;Andrzej;Kraśnik (Rada / Ława miejska);senior ławy wójtowskiej, asystent prawny i kurator transakcji;#142, #155, #185, #186, #197, #198;1614–1617;6;Andreas Piekowicz Senior Scabinorum, Andrzej Piechowicz, Andreas Piechowicz Senior
+438;Piekowicz;Andrzej;Kraśnik (Rada / Ława miejska);senior ławy wójtowskiej, asystent prawny i kurator transakcji;#142, #155, #185, #186, #197, #198, #252;1614–1617–1619–1620;7;Andreas Piekowicz Senior Scabinorum, Andrzej Piechowicz, Andreas Piechowicz Senior, Andreas Piechowicz olim consul
 439;Ślusarz;Piotr;Kraśnik (ul. Sandomierska pod kościołem);mieszczanin i rzemieślnik ślusarz, sprzedający plac Klasztorowi za 12 fl.;#143, #144;1614;2;Petrus Sericfaber, Piotr Ślusarzyk
 440;Jamanek;Tomasz;Kraśnik (ul. Sandomierska);mieszczanin kraśnicki, sąsiad placu pod kościołem;#143;1614;1;Thomas Jamanek
 441;Wiązek;Zofia;Kraśnik (ul. Sandomierska);mieszczka i wdowa, sprzedająca plac Klasztorowi za 12 florenów;#143, #144;1614;2;Sophia Wiązkowa, Zofia Wiązkowicowa
 442;Stelmach;Jan;Kraśnik (ul. Sandomierska);mieszczanin i krawiec (sartor), sprzedający plac Klasztorowi;#144, #145;1614;2;Joannes Stelmach sartor, Jan Krawiec
 443;Kwaśny;Jan;Kraśnik (ul. Sandomierska);mieszczanin kraśnicki, sąsiad placu na ul. Sandomierskiej;#145;1614;1;Joannes Kwaśny
-444;Stelmach;Stanisław;Kraśnik (brama klasztorna);mieszczanin kraśnicki, sąsiad placu przy bramie klasztornej;#146, #213, #232;1614–1619;3;Stanislaus Stelmach
+444;Stelmach;Stanisław;Kraśnik (brama klasztorna);mieszczanin kraśnicki, sąsiad placu przy bramie klasztornej;#146, #213, #232, #260;1614–1619–1620;4;Stanislaus Stelmach
 445;Kiszek;Katarzyna;Kraśnik (posesja przyklasztorna);mieszczka i wdowa, sprzedająca plac Konwentowi Kanoników Regularnych;#146, #147;1614;2;Catharina Kiszkowa, Katarzyna Kiszczanka
 446;Squilla;Tomasz;Kraśnik (posesje przyklasztorne);mieszczanin kraśnicki, sąsiad placu klasztornego;#147;1614;1;Thomas Squilla, Tomasz Skwara, Tomasz Skwira
 447;Krasnosz;Zofia;Kraśnik (posesja przyklasztorna);mieszczka i wdowa, sprzedająca plac Klasztorowi za 12 florenów;#147, #148;1614;2;Sophia Krasnoszowa, Zofia Krasnoszka
@@ -460,7 +460,7 @@
 459;Kijek;Agnieszka;Kraśnik (przedmieście);przedmieszczanka kraśnicka, żona Tomasza Kijka, uczestniczka zamiany ogrodów;#157, #158;1615;2;Agnes Kiejkowa, Agnieszka Kiejkowa
 460;Malarz;Szymon;Kraśnik (przedmieście);mieszczanin i artysta malarz kraśnicki (deliator/pictor), właściciel ogrodu;#158;1615;1;Simon Deliator, Simon Pictor, Szymon Delikat malarz
 461;Kwiatek;Paweł;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sąsiad ogrodów podmiejskich;#158;1615;1;Paulus Kwiatek
-462;Ozimek;Wawrzyniec;Kraśnik (droga publiczna);przedmieszczanin kraśnicki z rodu Ozimków, sąsiad roli z budynkiem;#159, #180, #181;1615–1616;3;Laurentius Ozimek
+462;Ozimek;Wawrzyniec;Kraśnik (droga publiczna);przedmieszczanin kraśnicki z rodu Ozimków, sąsiad roli z budynkiem;#159, #180, #181, #245, #246;1615–1616;5;Laurentius Ozimek
 463;Wołek;Jan;Kraśnik (droga publiczna);przedmieszczanin kraśnicki, sąsiad roli zbywanej za 134 grzywny;#159;1615;1;Joannes Wołek
 464;Snopek;Bartłomiej;Kraśnik (ku Popkowicom);przedmieszczanin kraśnicki, zbywca roli ku granicom wsi Popkowice;#159, #160, #184, #226;1615–1619;4;Bartholomaeus Snopek
 465;Warchoła;Augustyn;Kraśnik (ku Popkowicom);przedmieszczanin kraśnicki, sąsiad roli ku Popkowicom;#160;1615;1;Augustinus Warchoła, Augustyn Warchoł
@@ -474,7 +474,7 @@
 473;Grzebień;Adam;Kraśnik (przedmieście);przedmieszczanin kraśnicki, mąż Agnieszki Ożepówny, asystent transakcji;#161, #162;1615;2;Adamus Grzebień
 474;Tkacz;Kasper;Kraśnik (staw miejski);mieszczanin i rzemieślnik tkacz, nabywca roli przy stawie miejskim;#162;1615;1;Caspar Textor, Kasper Tkaczyk
 475;Szafranek;Wawrzyniec;Kraśnik (przedmieście);mieszczanin, opiekun sierót Zmięty, zbywca ról Ozimkowi i Trestce;#162, #163, #169, #175, #176, #177;1615–1616;6;Laurentius Szafranek, Wawrzek Szafran
-476;Barnatowicz;Tomasz;Kraśnik (przedmieście);przedmieszczanin kraśnicki, nabywca placu od Serkowicza za 10 florenów;#163, #164, #199, #200, #201;1615–1617;5;Thomas Barnatowicz, Tomasz Bernatowicz piekarz, Thomas Bernatowicz pistor
+476;Barnatowicz;Tomasz;Kraśnik (przedmieście);przedmieszczanin kraśnicki, nabywca placu od Serkowicza za 10 florenów;#163, #164, #199, #200, #201, #241, #242;1615–1617;7;Thomas Barnatowicz, Tomasz Bernatowicz piekarz, Thomas Bernatowicz pistor
 477;Czapnik;Jan;Kraśnik;mieszczanin i rzemieślnik czapnik, zbywca placu z domem Piotrowi Kołodziejczykowi;#165;1616;1;Joannes Czapnik, Jan Czapnikowicz
 478;Kołodziejczyk;Piotr;Kraśnik (przedmieście);przedmieszczanin kraśnicki, nabywca placu i domu od Jana Czapnika;#165;1616;1;Petrus Kołodziejczyk
 479;Chrapkowicz;Jakub;Kraśnik;mieszczanin kraśnicki, sąsiad posesji i domu Jana Czapnika;#165;1616;1;Jacobus Chrapkowicz
@@ -483,7 +483,7 @@
 482;Kozieł;Anastazja;Kraśnik (przedmieście);przedmieszczanka i wdowa po Marcinie Koźle, dożywotniczka na posesji;#166, #167;1616;2;Anastasia Kozłowa, Anastazja Kozłowa
 483;Zmięta;Wojciech;Kraśnik (przedmieście);przedmieszczanin kraśnicki, testator sporządzający ostatnią wolę in extremis;#167, #168, #169;1616;3;Albertus Zmięta, Wojciech Zmiętka
 484;Zmięta;Anna;Kraśnik (przedmieście);przedmieszczanka, żona Wojciecha Zmięty, dziedziczka roli Kawalińskiej;#168, #169;1616;2;Anna Zmięcina, Anna Zmiętowa
-485;Kwas;Wojciech;Kraśnik;mieszczanin kraśnicki, wierzyciel testatora Zmięty na 11 grzywien;#168, #185, #187, #202, #204, #210, #211, #234;1616–1619;8;Albertus Kwas, Albert Kwas Scabinus, Albertus Kwas Scabinus, Albert Kwas Senior
+485;Kwas;Wojciech;Kraśnik;mieszczanin kraśnicki, wierzyciel testatora Zmięty na 11 grzywien;#168, #185, #187, #202, #204, #210, #211, #234, #245, #247, #248, #255, #256;1616–1619–1620;13;Albertus Kwas, Albert Kwas Scabinus, Albertus Kwas Scabinus, Albert Kwas Senior
 486;Modzelewska;N.;Kraśnik (dwór / dobra ziemskie);szlachcianka / posesjonatka, wierzycielka Zmięty na 14 złotych polskich;#168;1616;1;Pani Modzelewska, Generosa Modzelewska
 487;Jasienic;Jakub;Kraśnik (przedmieście);przedmieszczanin kraśnicki, wierzyciel Zmięty na 13 złotych polskich;#168;1616;1;Jacobus Jasienic
 488;Zmięta;Jan;Kraśnik (przedmieście);syn Wojciecha Zmięty, legatariusz 10 grzywien na naukę i rzemiosło;#169;1616;1;Joannes Zmięta
@@ -513,12 +513,12 @@
 512;Majcher;N.;Kraśnik;mieszczanin kraśnicki, wierzyciel Barczyka na 4 złote polskie;#183;1616;1;Pan Majcher
 513;Giza;Stanisław;Kraśnik (ku Trzydnikowi);przedmieszczanin, sprzedający 1/4 roli ku granicom Trzydnika za 15 grz.;#184;1616;1;Stanislaus Giza
 514;Giza;Maciej;Kraśnik (ku Trzydnikowi);przedmieszczanin kraśnicki, sąsiad roli Stanisława Gizy;#184;1616;1;Mathias Giza
-515;Wolak;Stanisław;Kraśnik (ku Trzydnikowi);przedmieszczanin, nabywca roli pod Trzydnikiem za 15 grzywien;#184;1616;1;Stanislaus Wolak
+515;Wolak;Stanisław;Kraśnik (ku Trzydnikowi);przedmieszczanin, nabywca roli pod Trzydnikiem za 15 grzywien;#184, #254, #255, #256, #257;1616–1619–1620;5;Stanislaus Wolak
 516;Mazurek;Stanisław;Kraśnik (przedmieście);przedmieszczanin, brat Jana, współzbywca ogrodu Tomaszowi Skrzypkowi;#184, #185;1616–1617;2;Stanislaus Mazurek
 517;Mazurek;Anna;Kraśnik (przedmieście);przedmieszczanka z rodu Mazurków, żona Stanisława Snopka;#184, #185;1616–1617;2;Anna Mazurkówna Snopkowa
 518;Mazurek;Dorota;Kraśnik (przedmieście);przedmieszczanka z rodu Mazurków, żona Alberta Klimaszka;#184, #185;1616–1617;2;Dorota Mazurkówna Klimaszkowa
 519;Snopek;Stanisław;Kraśnik (przedmieście);przedmieszczanin, mąż Anny Mazurkówny, asystent transakcji;#184, #185;1616–1617;2;Stanislaus Snopek
-520;Płaczek;Stanisław;Kraśnik (Rada / Ława miejska);ławnik przysięgły, sąsiad posesji Sapały, asystent ugody pożarowej;#185, #195, #200, #202;1617;4;Stanislaus Płaczek, Stanisław Płaczkowic, Stanislaus Płaczkowic
+520;Płaczek;Stanisław;Kraśnik (Rada / Ława miejska);ławnik przysięgły, sąsiad posesji Sapały, asystent ugody pożarowej;#185, #195, #200, #202, #245, #247, #255;1617–1619–1620;7;Stanislaus Płaczek, Stanisław Płaczkowic, Stanislaus Płaczkowic, Stanislaus Płaczkowic Scabinus
 521;Kula;Stanisław;Kraśnik (droga do Urzędowa);syn śp. Jana Kuli, zbywca 1/4 roli ku Popkowicom za 48 grzywien;#186;1617;1;Stanislaus Kula
 522;Kula;Anna;Kraśnik;panna, córka śp. Jana Kuli, współzbywczyni roli dziedzicznej;#186;1617;1;Anna Kulanka
 523;Kula;Ewa;Kraśnik;panna, córka śp. Jana Kuli, współzbywczyni roli dziedzicznej;#186;1617;1;Ewa Kulanka
@@ -614,15 +614,15 @@
 613;Karchuk;Zofia;Kraśnik (Podlesie);przedmieszczanka kraśnicka, córka śp. Wawrzyńca Klimka, sprzedająca pół łanu na Podlesiu;#220;1618;1;Sophia Karchukowna, Zofia Klimkówna
 614;Klimek;Wawrzyniec;Kraśnik (Podlesie);olim przedmieszczanin kraśnicki, zmarły ojciec Zofii Karchukówny, posesjonat na Podlesiu;#220;1618;1;Laurentius Klimek
 615;Pietroń;Michał;Kraśnik (Podlesie);przedmieszczanin kraśnicki, sąsiad półłanku na Podlesiu;#220;1618;1;Michael Pietroń
-616;Juszko;Abraham;Jakubowice / Kraśnik;Żyd ze wsi Jakubowice, nabywca cesji praw do domu od Heliasowicza z Zamościa, strona ugody na 300 fl.;#223, #231, #232;1619;3;Infidelis Abrahamus Juszko Jacota, Abram Judkowicz, Abram Jushkowic
-617;Heliasowicz;Andrzej;Zaklików / Kraśnik;mieszczanin z Zaklikowa, dawniej z Kraśnika, dokonujący cesji praw do domu przed radą Zamościa;#223, #224, #232;1619;3;Andreas Heliasowicz de Zaklikow, Andrzej Heliaszowicz
+616;Juszko;Abraham;Jakubowice / Kraśnik;Żyd ze wsi Jakubowice, nabywca cesji praw do domu od Heliasowicza z Zamościa, strona ugody na 300 fl.;#223, #231, #232, #259, #260;1619–1620;5;Infidelis Abrahamus Juszko Jacota, Abram Judkowicz, Abram Jushkowic, Abram Juszkowic Judaeus de Jakubowice
+617;Heliasowicz;Andrzej;Zaklików / Kraśnik;mieszczanin z Zaklikowa, dawniej z Kraśnika, dokonujący cesji praw do domu przed radą Zamościa;#223, #224, #232, #260;1619–1620;4;Andreas Heliasowicz de Zaklikow, Andrzej Heliaszowicz, Andreas Heliaszowic de Załuchów
 618;Zamoyski;Tomasz;Zamość;Wojewoda Podolski, pan na Zamościu, zwierzchnik jurysdykcji zamojskiej zatwierdzający transsumpt;#223, #224, #225;1619;3;Thomas Zamoyski Palatinus Podoliae, Tomasz Zamoyski Wojewoda
 619;Prokopek;Marta;Kraśnik;mieszka kraśnicka, żona Stanisława Prokopka, współsprzedająca posesję miejską za 20 grz.;#225;1619;1;Martha Prokopkowa
 620;Postrzygacz;Szymon;Kraśnik;rzemieślnik postrzygacz sukna, mieszczanin kraśnicki, nabywca posesji od Prokopków;#225;1619;1;Simon Postrzygacz, Szymon Sukiennik
 621;Snopek;Katarzyna;Kraśnik (przedmieście);przedmieszczanka kraśnicka, wdowa po Bartłomieju Snopku, sprzedająca rolę Dzięgielowską Kosielowi;#226;1619;1;Catharina Snopkowa vidua
 622;Święch;Tomasz;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sąsiad roli Dzięgielowskiej, współsprzedający rolę po ojcu za 49 grz.;#226, #237, #239;1619;3;Thomas Święch
 623;Kłopocik;Wincenty;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sąsiad roli Dzięgielowskiej;#226, #237;1619;2;Vincentius Kłopocik
-624;Kosieł;Jan;Sułów / Kraśnik;rolnik ze wsi Sułów, nabywca roli Dzięgielowskiej za 15 fl. i zbywca rajcy Daniełkowi za 25 zł 15 gr;#226, #237;1619;2;Joannes Kosieł de villa Sulow, Jan Kozieł de Sulów
+624;Kosieł;Jan;Sułów / Kraśnik;rolnik ze wsi Sułów, nabywca roli Dzięgielowskiej za 15 fl. i zbywca rajcy Daniełkowi za 25 zł 15 gr;#226, #237, #249;1619–1620;3;Joannes Kosieł de villa Sulow, Jan Kozieł de Sulów, Joannes Kozieł de villa Sulów
 625;Wankowic;Stanisław;Kraśnik;mieszczanin kraśnicki, wnioskujący o wpisanie testamentu Adama Kryki do ksiąg;#227;1619;1;Stanislaus Wankowic
 626;Kryka;Wojciech;Kraśnik;mieszczanin kraśnicki, syn i opiekun testamentowy dzieci Adama Kryki;#227, #228;1619;2;Albertus Kryka
 627;Kryka;Adam;Kraśnik;olim mieszczanin kraśnicki, testator staropolskiego testamentu cechu kuśnierskiego;#227, #228;1619;2;Adam Kryka testator
@@ -641,7 +641,7 @@
 640;Pstrążek;Maciej;Kraśnik (przedmieście);przedmieszczanin kraśnicki, nabywca cząstki sadu od Kisielkówien za 10 florenów;#228, #229;1619;2;Mathias Pstrążek
 641;Markowic;Szymon;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sprzedający ogród ze stajaniem roli Albertowi Klimaszkowi za 38 grz.;#229;1619;1;Simon Markowic
 642;Pisarzowicz;Piotr;Kraśnik (Rynek);mieszczanin kraśnicki, syn pisarza, sąsiad placu w Rynku;#230;1619;1;Petrus Scripturis, Petrus Pisarzowicz
-643;Kozak;Szymon;Kraśnik;przedmieszczanin kraśnicki, nabywca placu z budynkiem w Rynku od Marcina Wronki za 38 grz.;#230, #231;1619;2;Simon Kozak
+643;Kozak;Szymon;Kraśnik;przedmieszczanin kraśnicki, nabywca placu z budynkiem w Rynku od Marcina Wronki za 38 grz.;#230, #231, #250;1619–1620;3;Simon Kozak
 644;Żyd;Siemsz;Kraśnik / Jakubowice;Żyd kraśnicki, strona ugody o dom w Rynku i długu 300 fl. z Abramem Juszką;#231, #232;1619;2;Infidelis Siemsz Judaeus, Szemsz Żyd
 645;Budka;Stanisław;Kraśnik (przedmieście);przedmieszczanin kraśnicki, świadek wpisów urzędowych;#233;1619;1;Stanislaus Budka
 646;Gębała;Kasper;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sąsiad ról podmiejskich;#233;1619;1;Caspar Gębała
@@ -654,10 +654,10 @@
 653;Kawal;Stanisław;Kraśnik;olim mieszczanin kraśnicki, zmarły mąż Katarzyny Karaliny/Kawaliny;#234;1619;1;Stanislaus Kawal, Stanisław Kawalec
 654;Miłek;Jadwiga;Kraśnik;patrycjuszka kraśnicka, żona rajcy Marcina Miłka, współzbywczyni 1/4 roli ku Popkowicom;#234, #235;1619;2;Hedvigis Miłkowa consors
 655;Miłek;Marcin;Kraśnik (Rada miejska);rajca (consul) kraśnicki, asystent żony Jadwigi przy zbyciu roli;#234;1619;1;Martinus Miłek Consul
-656;Borowski;Marcin;Kraśnik (Ława miejska);senior ławników kraśnickich (Senior Scabinatus), kurator i tutor prawny wdów;#234, #238, #239, #240;1619;4;Martinus Borowski Senior Scabinatus, Marcin Borowski senior ławy
+656;Borowski;Marcin;Kraśnik (Ława miejska);senior ławników kraśnickich (Senior Scabinatus), kurator i tutor prawny wdów;#234, #238, #239, #240, #242, #245, #247, #249, #257;1619–1620;9;Martinus Borowski Senior Scabinatus, Marcin Borowski senior ławy, Martinus Borowski Senior Scabinorum
 657;Bąkacz;Tomasz;Kraśnik (droga do Popkowic);przedmieszczanin kraśnicki, sąsiad roli od Błonia ku Popkowicom;#234;1619;1;Thomas Bąkacz
-658;Żminda;Albert;Kraśnik (droga do Popkowic);olim mieszczanin kraśnicki, zmarły sąsiad roli;#234;1619;1;Albertus Żminda, Albertus Zmiądz, Wojciech Żminda
-659;Żmudzina;Barbara;Kraśnik (przedmieście);przedmieszczanka kraśnicka, wdowa, nabywczyni 1/4 roli od Błonia do Popkowic w prawie magdeburskim;#234, #235;1619;2;Barbara Żmudzina vidua, Barbara Zmiadrina
+658;Żminda;Albert;Kraśnik (droga do Popkowic);olim mieszczanin kraśnicki, zmarły sąsiad roli;#234, #244;1619;2;Albertus Żminda, Albertus Zmiądz, Wojciech Żminda, Albertus Żminda olim maritus
+659;Żmudzina;Barbara;Kraśnik (przedmieście);przedmieszczanka kraśnicka, wdowa, nabywczyni 1/4 roli od Błonia do Popkowic w prawie magdeburskim;#234, #235, #244, #245;1619;4;Barbara Żmudzina vidua, Barbara Zmiadrina, Barbara Żmindzina vidua, Barbara Zmindzina
 660;Żyd;Marek;Kraśnik;Żyd kraśnicki, posesjonat, sprzedający z żoną plac z drzewami Mikołajowi Piotrowskiemu za 50 fl.;#236;1619;1;Infidelis Marek Judaeus, Marek Żyd posesjonat
 661;Hadyszka;N.;Kraśnik;Żydówka kraśnicka, żona Marka Żyda, współzbywczyni placu z drzewami za 50 fl.;#236;1619;1;Hadyszka uxor Marci Judaei
 662;Płaczek;Jan;Kraśnik;mieszczanin kraśnicki, sąsiad placu Marka Żyda;#236;1619;1;Joannes Płaczek
@@ -669,9 +669,51 @@
 668;Płaczek;Adam;Kraśnik;incola kraśnicki, nabywca części ogrodu z budynkiem od Barbary Kaczorki za 15 florenów;#238;1619;1;Adamus Płaczek incola
 669;Święch;Anna;Kraśnik (przedmieście);przedmieszczanka kraśnicka, córka śp. Adama Święcha, żona Alberta Kątka, zbywczyni 1/4 roli;#239;1619;1;Anna Święchowna, Anna Kątkowa
 670;Kątek;Albert;Kraśnik;mieszczanin kraśnicki, mąż Anny Święchówny, asystujący przy sprzedaży roli;#239;1619;1;Albertus Kątek
-671;Święch;Adam;Kraśnik (przedmieście);olim przedmieszczanin kraśnicki, zmarły ojciec Tomasza i Anny Święchów;#239;1619;1;Adamus Święch
+671;Święch;Adam;Kraśnik (przedmieście);olim przedmieszczanin kraśnicki, zmarły ojciec Tomasza i Anny Święchów;#239, #250;1619–1620;2;Adamus Święch, Adamus Święch olim
 672;Mrończyna;Łuczyna;Kraśnik (przedmieście);przedmieszczanka kraśnicka, wdowa, sąsiadka roli Święchów;#239;1619;1;Łuczyna Mrończyna vidua
 673;Piotrowski;Andrzej;Kraśnik (przedmieście);przedmieszczanin kraśnicki, sąsiad roli Święchów;#239;1619;1;Andreas Piotrowski
 674;Piotrowski;Sebastian;Kraśnik (przedmieście);przedmieszczanin kraśnicki, nabywca 1/4 roli po Adamie Święchu za 49 grzywien;#239, #240;1619;2;Sebastianus Piotrowski
 675;Kamiehorski;N.;Kraśnik;posesjonat kraśnicki, sąsiad placu Modzelowskiej na przedmieściu;#240;1619;1;Kamiehorski posesjonat
 676;Pilaszkiewicz;Tomasz;Kraśnik;rzemieślnik czapnik / sukiennik (Pileator), nabywca placu z domem od Anny Modzelowskiej z Bobów;#240;1619;1;Thomas Pilaszkiewicz Pileator, Tomasz Czapnik
+677;Barszcz;Krzysztof;Kraśnik;olim famatus, zmarły konsul kraśnicki, ojciec/poprzednik Jana Barszcza, właściciel spalonej posesji;#241, #242;1619;2;Christophorus Barszcz consul
+678;Wiąckowa;Zofia;Kraśnik;honesta oppidana, mieszczka kraśnicka, dokonująca dobrowolnej zamiany domostwa z Jakubem Kantorkowiczem z dopłatą 30 grzywien;#242, #243;1619;2;Zophia Wiąckowa oppidana
+679;Ćwiklina;Dorota;Kraśnik;honesta vidua, wdowa po śp. Mikołaju Ćwikle ławniku kraśnickim, zamieniająca dom miejski z Barbarą Żmindziną;#244, #245;1619;2;Dorothea Ćwiklina vidua
+680;Ćwikła;Mikołaj;Kraśnik;olim famatus, zmarły ławnik kraśnicki, mąż Doroty, dawny nabywca domu od Jana Daniełka i Walentego Kwasa;#244;1619;1;Nicolaus Ćwikła Scabinus
+681;Czerwonka;Walenty;Kraśnik;honestus civis, mieszczanin kraśnicki, dawny współzbywca domu nabytego przez Mikołaja Ćwikłę;#244;1619;1;Valentinus Kwas alias Czerwonka
+682;Flaszek;Bartłomiej;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin kraśnicki, sąsiad roli zbywanej przez Ozimka ku Tokarzowi;#246;1619;1;Bartholomaeus Flaszek
+683;Oleszkowic;Albert;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin kraśnicki, sąsiad roli zbywanej przez Ozimka;#246;1619;1;Albertus Oleszkowic
+684;Tokarz;Kasper;Kraśnik;honestus oppidanus, mistrz rzemiosła tokarskiego, nabywca 1/4 roli z budynkiem za 120 grzywien oraz kompromisarz i arbiter Wolaka;#246, #255;1619–1620;2;Casparus Tokarz pistor/torner
+685;Kempka;Albert;Stróża / Kraśnik (Porazów);honestus incola de villa Stróża, zbywca domu dziedzicznego przy murze miejskim w Porazowie za 13 grz. 8 gr;#246, #247;1619–1620;2;Albertus Kempka de villa Stróża
+686;Czuhajek;Andrzej;Kraśnik (Porazów);honestus oppidanus, mieszczanin kraśnicki, sąsiad domu w Porazowie pod murem miejskim;#247;1620;1;Andreas Czuhajek
+687;Murarz;Wawrzyniec;Kraśnik (Porazów);honestus civis, mistrz rzemiosła murarskiego, nabywca domu w Porazowie przy murze miejskim za 13 grz. 8 gr;#246, #247;1619–1620;2;Laurentius Murarz murator
+688;Safianek;Wawrzyniec;Kraśnik (przedmieście);honestus civis, rzemieślnik garbarz safiannik, sąsiad browaru Kwasa i Browaru Szpitalnego pod miastem;#248;1620;1;Laurentius Safianek alutarius
+689;Kmarek;Marcin;Kraśnik (przedmieście);providus oppidanus, syn ławnika Alberta Kwasa, browarnik, nabywca browaru pod miastem za 34 grzywny;#248;1620;1;Martinus Kmarek filius Alberti Kwas
+690;Kozłowa;Katarzyna;Sułów / Kraśnik;honesta coniunx, żona Jana Kozła ze wsi Sułów, współwłaścicielka i współzbywczyni wielkiej cegielni miejskiej za 300 florenów;#249;1620;1;Catharina Kozłowa uxor Joannis de Sulów
+691;Ofiara;Marcin;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin kraśnicki, sąsiad cegielni miejskiej zbywanej Daniełkowi;#249;1620;1;Martinus Ofiara
+692;Janaskowna;Zuzanna;Kraśnik;honesta virgo, córka wójta Alberta Janaskowica, właścicielka sąsiedniej cegielni podmiejskiej;#249;1620;1;Susanna Janaskowna filia Advocati
+693;Kamyk;Stanisław;Kraśnik (Popkowice);honestus suburbanus, przedmieszczanin kraśnicki, rolnik, sąsiad roli od Stawu Grzebieńskiego;#250;1620;1;Stanislaus Kamyk
+694;Święch;Bartłomiej;Kraśnik (Popkowice);honestus suburbanus, rolnik przedmiejski, brat/sukcesor zmarłego Adama Święcha, sąsiad roli ku Popkowicom;#250;1620;1;Bartholomaeus Święch
+695;Sustwał;Paweł;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin rolnik, nabywca połowy 1/4 roli od Stawu Grzebieńskiego za 41 grzywien;#250, #251;1620;2;Paulus Sustwał
+696;Miedziany;Marcin;Kraśnik (intra moenia);honestus civis, mieszczanin kraśnicki, sąsiad domu z ogrodem w murach miejskich zbywanego Janowi Foxowi;#251;1620;1;Martinus Miedziany
+697;Pelik;Maciej;Kraśnik;honestus civis, rodzony syn śp. konsula Andrzeja Piechowicza, kwitujący szwagra Andrzeja Jurczyka z 16 grzywien ojcowizny;#252, #253;1620;2;Mathias Pelik filius Andreae Piechowicz
+698;Jurczyk;Andrzej;Kraśnik;providus civis, mieszczanin kraśnicki, mąż Zofii Piechowiczówny, szwagier Macieja Pelika, przejmujący dom ojcowski po spłacie 16 grzywien;#252, #253;1620;2;Andreas Jurczyk civis
+699;Piechowiczówna;Zofia;Kraśnik;honesta uxor, córka śp. Andrzeja Piechowicza, żona Andrzeja Jurczyka, współspadkobierczyni kamienicy ojcowskiej;#252, #253;1620;2;Zophia Piechowiczowna uxor Andreae Jurczyk
+700;Czartorkowic;Adam;Kraśnik;honestus civis, mieszczanin kraśnicki, sąsiad domu dziedzicznego Piechowiczów;#252;1620;1;Adamus Czartorkowic
+701;Wronka;Mikołaj;Kraśnik (Błonie);honestus suburbanus, przedmieszczanin kraśnicki, sąsiad ogrodu Piotra Świętka przy drodze na Błonie;#253;1620;1;Nicolaus Wronka
+702;Bełzycki;Jan;Skorzyce / Kraśnik;laboriosus kmeto de villa Skorzyce, kmieć ze wsi Skorzyce, inwestor nabywający ogród dziedziczny ku Błoniu od konsula Świętka za 60 grzywien;#253, #254;1620;2;Joannes Bełzycki kmeto de villa Skorzyce
+703;Zazięblanka;Katarzyna;Kraśnik (przedmieście);honesta uxor, rodzona siostra śp. Walentego Zaziębły, żona Stanisława Wolaka, współsukcesorka majątku Zaziębłowskiego;#254, #255;1620;2;Catharina Zazięblanka uxor Stanislai Wolak
+704;Zaziębło;Walenty;Kraśnik;olim honestus suburbanus, zmarły przedmieszczanin kraśnicki, brat Katarzyny Wolakowej, mąż Małgorzaty Libiszowny, spadkodawca 1/4 roli i placu w Rynku;#254, #255;1620;2;Valentinus Zaziębło olim suburbanus
+705;Libiszowna;Małgorzata;Kraśnik (Rynek);honesta vidua, wdowa po Walentym Zazięble, matka sierot Krzysztofa i Zuzanny, strona ugody z Wolakiem, właścicielka połowy placu w Rynku;#254, #255, #256, #257;1620;4;Margarita Libiszowna vidua Zazięblina
+706;Zaziębło;Krzysztof;Kraśnik (Rynek);orphanus, małoletni syn śp. Walentego Zaziębły i Małgorzaty, współsukcesor połowy placu w Rynku pod opieką Wojciecha Kwasa;#254, #255, #256;1620;3;Christophorus Zaziębło orphanus
+707;Zaziębłówna;Zuzanna;Kraśnik (Rynek);orphana, małoletnia córka śp. Walentego Zaziębły i Małgorzaty, współsukcesorka placu w Rynku;#254, #255, #256;1620;3;Susanna Zaziębłowna orphana
+708;Rybułtowicz;Stanisław;Kraśnik;providus notarius, pisarz miejski i kompromisarz z ramienia Stanisława Wolaka w ugodzie o majątek Zaziębłów;#255;1620;1;Stanislaus Rybułtowicz notarius
+709;Rodzonek;Sebastian;Kraśnik;honestus civis, mieszczanin kraśnicki, mediator i kompromisarz z ramienia Stanisława Wolaka;#255;1620;1;Sebastianus Rodzonek
+710;Ołtarzyk;Marcin;Kraśnik;honestus sartor, mistrz cechu krawieckiego, kompromisarz i arbiter z ramienia wdowy Małgorzaty Zaziębliny;#255;1620;1;Martinus Ołtarzyk sartor
+711;Jaruzelska;Barbara;Kraśnik (przedmieście);honesta suburbana, przedmieszczanka kraśnicka, zbywczyni wyrobiska gliny (iliny) przy Dąbrowie Pańskiej za 7 grzywien;#257, #258;1620;2;Barbara Jaruzelska suburbana
+712;Jurch;Jan;Kraśnik (Dąbrowa Pańska);honestus suburbanus, przedmieszczanin kraśnicki, posiadacz sąsiedniego wyrobiska gliny (iliny);#257;1620;1;Joannes Jurch
+713;Grzymkowski;Jan;Kraśnik;honestus civis, mieszczanin kraśnicki, nabywca wyrobiska gliny (iliny) od Barbary Jaruzelskiej za 7 grzywien;#257, #258;1620;2;Joannes Grzymkowski civis
+714;Rudzic;Wincenty;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin kraśnicki, brat zmarłego Marcina Rudzica, sprzedający ogród z budynkami bratowej Krystynie za 26 grzywien;#258, #259;1620;2;Vincentius Rudzic suburbanus
+715;Rudzic;Marcin;Kraśnik (przedmieście);olim honestus suburbanus, zmarły brat rodzony Wincentego Rudzica, mąż Krystyny, posesjonat ogrodu podmiejskiego;#258, #259;1620;2;Martinus Rudzic olim suburbanus
+716;Rudzicowa;Krystyna;Kraśnik (przedmieście);honesta vidua, wdowa po Marcinie Rudzicu, bratowa Wincentego, nabywczyni ogrodu z zabudowaniami za 26 grzywien gotówką;#258, #259;1620;2;Christina Rudzicowa vidua
+717;Wolaczek;Jan;Kraśnik (przedmieście);honestus suburbanus, przedmieszczanin kraśnicki, sąsiad ogrodu Wincentego i Krystyny Rudziców;#259;1620;1;Joannes Wolaczek
+718;Kiełpiński;Krzysztof;Kraśnik / Kiełpice;Magnificus ac Generosus Nobilis polonus, szlachcic, nabywca praw do połowy domu w Rynku Kraśnika od Abrama Juszkowica za 200 florenów polskich;#259, #260;1620;2;Nobilis Christophorus Kiełpinski, Krzysztof Kiełpiński szlachcic
