@@ -2511,6 +2511,81 @@
       }
     }
 
+    // GENEALOGY TABLE LOGIC
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let filteredGen = [...genData];
+    let genSortCol = 'lp';
+    let genSortAsc = true;
+
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      const total = filteredGen.length;
+      const totalPages = Math.ceil(total / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+      if (genCurrentPage < 1) genCurrentPage = 1;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = Math.min(start + genPageSize, total);
+      const pageData = filteredGen.slice(start, end);
+
+      const infoText = total > 0 
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} profili (Strona ${genCurrentPage} z ${totalPages})`
+        : 'Brak profili do wyświetlenia';
+      const pageIndicator = `${genCurrentPage} / ${totalPages}`;
+
+      ['genPaginationInfo', 'genPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageIndicator;
+      });
+      ['genPrevBtn', 'genPrevBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage <= 1);
+      });
+      ['genNextBtn', 'genNextBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage >= totalPages);
+      });
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = genCurrentPage; el.max = totalPages; }
+      });
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak profili spełniających kryteria.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      pageData.forEach(p => {
+        const imieStr = p.imie || '';
+        const funkcjaStr = p.funkcja || p.funkcja_zawod || 'Mieszkaniec';
+        const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+        const roleClass = isWidow ? 'badge-role badge-widow' : 'badge-role';
+        const scansStr = p.skany_roboczo || (p.skany_list ? p.skany_list.map(s => '#' + s).join(', ') : '—');
+
+        html += `
+          <tr onclick="openGenModal(${p.lp})" style="cursor:pointer;">
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">${p.lp}</td>
+            <td style="font-weight:600; color:var(--gold-primary);">
+              ${escapeHtml(p.nazwisko)}
+              ${(p.wariant_nazwiska || p.warianty_nazwiska) ? '<span style="display:block; font-size:0.75rem; color:#94a3b8; font-weight:normal;">(' + escapeHtml((p.wariant_nazwiska || p.warianty_nazwiska).split('/')[0].trim()) + ')</span>' : ''}
+            </td>
+            <td style="color:#e2e8f0;">${escapeHtml(imieStr)}</td>
+            <td><span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span></td>
+            <td><span class="${roleClass}">${escapeHtml(funkcjaStr)}</span></td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:#38bdf8;">${escapeHtml(scansStr)}</td>
+            <td><span class="badge-years">${escapeHtml(p.zakres_lat || '—')}</span></td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
     function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
     function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
     function jumpGenPage(val) {
@@ -2560,10 +2635,6 @@
       });
       renderGenTable();
     }
-
-    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
-    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
-    function jumpGenPage() { const p = parseInt(document.getElementById('genJumpInput').value, 10); const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (p >= 1 && p <= totalPages) { genCurrentPage = p; renderGenTable(); } }
 
     // CSV EXPORTS
     function downloadBlob(content, filename, contentType) {

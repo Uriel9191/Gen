@@ -228,13 +228,12 @@ def test_unit(unit_id, html_path, csv_path):
     print("  -> PASS: Monografia, karty analityczne i dynamiczne liczniki są spójne.")
 
     # ---------------------------------------------------------
-    # TEST 7: Składnia i Wykonanie w Node.js VM
+    # TEST 7: Składnia i Pełne Wykonanie Runtime w Node.js VM
     # ---------------------------------------------------------
-    print("[TEST 7/12] Weryfikacja składni JavaScript w Node.js VM...")
-    scripts = re.findall(r'<script>(.*?)</script>', html, re.DOTALL)
+    print("[TEST 7/12] Weryfikacja składni i wykonania runtime JavaScript w Node.js VM...")
+    scripts = re.findall(r'<script\b[^>]*>(.*?)</script>', html, re.DOTALL)
     assert len(scripts) > 0, "FAIL: Brak bloku <script> w dokumencie!"
     
-    # Zapisujemy do pliku tymczasowego i sprawdzamy syntaktykę przez Node vm.Script
     temp_js_path = f'/tmp/test_script_{unit_id}.js'
     with open(temp_js_path, 'w', encoding='utf-8') as f:
         f.write(scripts[-1])
@@ -245,15 +244,74 @@ def test_unit(unit_id, html_path, csv_path):
     try {{
       const code = fs.readFileSync('{temp_js_path}', 'utf8');
       new vm.Script(code);
-      console.log('NODE_SYNTAX_VALID');
+      
+      // SYMULACJA RUNTIME W NODE.JS VM
+      const elements = {{}};
+      let domLoadedCb = null;
+      const sandbox = {{
+        document: {{
+          getElementById: (id) => elements[id] || (elements[id] = {{
+            style: {{}},
+            classList: {{ add: ()=>{{}}, remove: ()=>{{}}, toggle: ()=>{{}} }},
+            innerText: '',
+            innerHTML: '',
+            appendChild: ()=>{{}},
+            value: '',
+            disabled: false,
+            addEventListener: ()=>{{}}
+          }}),
+          createElement: () => ({{
+            style: {{}},
+            classList: {{ add: ()=>{{}}, remove: ()=>{{}}, toggle: ()=>{{}} }},
+            innerText: '',
+            innerHTML: '',
+            appendChild: ()=>{{}},
+            value: ''
+          }}),
+          querySelector: () => ({{ innerText: 'orig' }}),
+          querySelectorAll: () => [],
+          addEventListener: (e, cb) => {{ if (e === 'DOMContentLoaded') domLoadedCb = cb; }}
+        }},
+        window: {{
+          addEventListener: (e, cb) => {{ if (e === 'DOMContentLoaded') domLoadedCb = cb; }},
+          onclick: null
+        }},
+        navigator: {{ clipboard: {{ writeText: () => Promise.resolve() }} }},
+        console: {{ log: ()=>{{}}, error: console.error, warn: console.warn }}
+      }};
+
+      vm.createContext(sandbox);
+      vm.runInContext(code, sandbox);
+      if (domLoadedCb) domLoadedCb();
+
+      // Weryfikacja kluczowych funkcji w środowisku runtime
+      if (typeof sandbox.escapeHtml !== 'function') throw new Error('Brak zdefiniowanej funkcji escapeHtml()');
+      if (typeof sandbox.renderMainTable !== 'function') throw new Error('Brak zdefiniowanej funkcji renderMainTable()');
+      sandbox.renderMainTable();
+
+      if (typeof sandbox.renderGenTable !== 'function') throw new Error('Brak zdefiniowanej funkcji renderGenTable()');
+      sandbox.renderGenTable();
+
+      if (typeof sandbox.openMainModal !== 'function') throw new Error('Brak zdefiniowanej funkcji openMainModal()');
+      sandbox.openMainModal(1);
+
+      if (typeof sandbox.switchModalTab !== 'function') throw new Error('Brak zdefiniowanej funkcji switchModalTab()');
+      sandbox.switchModalTab('trans');
+      sandbox.switchModalTab('link');
+      sandbox.switchModalTab('meta');
+
+      if (typeof sandbox.openGenModal !== 'function') throw new Error('Brak zdefiniowanej funkcji openGenModal()');
+      sandbox.openGenModal(1);
+
+      console.log('NODE_RUNTIME_VALID');
     }} catch (e) {{
-      console.error('NODE_SYNTAX_ERROR:', e.message);
+      console.error('NODE_RUNTIME_ERROR:', e.message);
       process.exit(1);
     }}
     """
     res = subprocess.run(['node', '-e', check_js], capture_output=True, text=True)
-    assert res.returncode == 0, f"FAIL: Błąd składni JS w Node.js VM: {res.stderr}"
-    print("  -> PASS: Składnia JavaScript w 100% poprawna (zweryfikowana w Node.js VM).")
+    assert res.returncode == 0, f"FAIL: Błąd wykonania JS w Node.js VM: {res.stderr}"
+    print("  -> PASS: Składnia i pełne wykonanie runtime (escapeHtml, renderMainTable, renderGenTable, openMainModal, openGenModal) w 100% poprawne.")
 
     # ---------------------------------------------------------
     # TEST 8: Import Fontów Google Fonts (Cinzel, Inter, JetBrains Mono)
