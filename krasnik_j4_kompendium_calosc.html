@@ -3819,19 +3819,18 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
   </main>
 
   <!-- DETAIL MODAL FOR SCANS & RESIDENTS -->
+    <!-- MODAL DETAILS -->
   <div id="detailModal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
         <h3 id="modalTitle">Szczegóły</h3>
         <button class="modal-close" onclick="closeModal()">&times;</button>
       </div>
-
-      <div class="modal-tabs-bar" id="modalTabsBar" style="display: none;">
-        <button id="tabBtnMeta" class="modal-tab-btn active" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
-        <button id="tabBtnTrans" class="modal-tab-btn" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
-        <button id="tabBtnLink" class="modal-tab-btn" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
       </div>
-
       <div class="modal-body" id="modalBody">
         <!-- Content filled dynamically -->
       </div>
@@ -4033,10 +4032,8 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
     }
 
     function copyTranscription() {
-      if (!currentModalScan) return;
-      const trans = currentModalScan.transkrypcja || currentModalScan.transkrypcja_dyplomatyczna || '';
-      if (!trans) return;
-      navigator.clipboard.writeText(trans).then(() => {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      navigator.clipboard.writeText(currentModalScan.transkrypcja).then(() => {
         const btn = document.querySelector('.btn-copy-trans');
         if (btn) {
           const orig = btn.innerText;
@@ -4049,85 +4046,88 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
     }
 
     function openMainModal(scanNr) {
-      const item = mainData.find(d => parseInt(d.nr_skanu) === scanNr);
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
       if (!item) return;
 
       currentModalScan = item;
 
-      document.getElementById('modalTitle').innerText = `Skan #${item.nr_skanu} (${item.strona_pagina || 'brak'}) – Rok ${item.data_rok || '—'}`;
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
       
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
       switchModalTab('meta');
 
-      const transRaw = item.transkrypcja || item.transkrypcja_dyplomatyczna || '';
-      const transFormatted = transRaw 
-        ? escapeHtml(transRaw).split(String.fromCharCode(10)).join("<br>") 
-        : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
+      const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są partiami).</em>';
 
       document.getElementById('modalBody').innerHTML = `
-        <!-- TAB 1: OPIS I METADANE -->
         <div id="modalTabContentMeta" class="modal-tab-content">
           <div class="modal-section">
             <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
-            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 4 (Tom 8, Księga wójtowska i radziecka 1661–1699)</div>
-            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina || 'brak')}</div>
-            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok || '—')}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria || '—')}</span></div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 4 (Księga wójtowsko-radziecka 1591–1714)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
           </div>
 
           <div class="modal-section">
             <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
             <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
-              ${escapeHtml(item.opis_pozycji || item.opis_sprawy || '—')}
+              ${escapeHtml(item.opis_pozycji)}
             </div>
           </div>
 
           <div class="modal-section">
             <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
             <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
-              ${escapeHtml(item.osoby_podmioty || '—')}
+              ${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}
             </div>
           </div>
 
           <div class="modal-section">
             <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
             <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
-              ${escapeHtml(item.kwoty_miary || item.kwoty_podatki || 'Brak danych finansowych')}
+              ${escapeHtml(item.kwoty_miary || 'Brak danych finansowych')}
             </div>
           </div>
+
+          ${item.uwagi ? `
+            <div class="modal-section">
+              <div class="modal-section-title">Uwagi kodykologiczne i paleograficzne</div>
+              <div style="font-size:0.88rem; color:#94a3b8;">
+                ${escapeHtml(item.uwagi)}
+              </div>
+            </div>
+          ` : ''}
         </div>
 
-        <!-- TAB 2: TRANSKRYPCJA DYPLOMATYCZNA -->
         <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
-            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna (Instrukcja Wydawnicza PAN)</span>
-            ${transRaw ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna zgodna z Instrukcją Wydawniczą Źródeł Historycznych PAN</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
           </div>
           <div class="transcription-box">
             ${transFormatted}
           </div>
         </div>
 
-        <!-- TAB 3: LINK DO ORYGINAŁU -->
         <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
           <div class="modal-section">
             <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
             <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
-              Oryginalny skan w pełnej rozdzielczości dostępny jest w portalu Szukaj w Archiwach (Archiwum Państwowe w Lublinie, Zespół 35/40/0, Jednostka 4).
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
             </p>
-            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
-              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/10261358" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:var(--gold-primary); color:#000; font-weight:700; padding:0.6rem 1.2rem; border-radius:6px;">
-                🏛️ Otwórz Jednostkę 4 w Szukaj w Archiwach
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989714
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989714" target="_blank" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Jednostkę 4 w Szukaj w Archiwach
               </a>
-              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:#334155; color:#fff; padding:0.6rem 1.2rem; border-radius:6px;">
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
                 📁 Zespół 35/40/0 (Akta m. Kraśnika)
               </a>
-            </div>
-            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); font-size:0.85rem; color:#94a3b8; line-height:1.5;">
-              <strong style="color:var(--gold-primary);">Instrukcja lokalizacji skanu:</strong><br>
-              1. Kliknij powyższy złoty przycisk, aby otworzyć jednostkę w portalu SwA.<br>
-              2. Przejdź do zakładki <strong>«Skany»</strong> (lub «Zawartość cyfrowa»).<br>
-              3. Wybierz miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>.
             </div>
           </div>
         </div>
@@ -4354,38 +4354,37 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
       }
     }
 
-    function openGenModal(profileId) {
+    function openGenModal(lp) {
       currentModalScan = null;
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'none';
-
-      const p = genData.find(d => d.lp === profileId);
+      const p = genData.find(d => d.lp === lp);
       if (!p) return;
 
       const imieStr = p.imie || '';
       const funkcjaStr = p.funkcja || p.funkcja_zawod || '';
       const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
       const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
-
+      
       let occsHtml = '';
       if (p.wystapienia && p.wystapienia.length > 0) {
         occsHtml = `
           <table class="occs-table">
             <thead>
               <tr>
-                <th style="width:14%;">Skan</th>
+                <th style="width:12%;">Skan</th>
                 <th style="width:14%;">Rok</th>
-                <th style="width:36%;">Zapis w rękopisie</th>
-                <th style="width:36%;">Rola / Kontekst</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
+                <th style="width:40%;">Podatek / Rola / Kontekst</th>
               </tr>
             </thead>
             <tbody>
               ${p.wystapienia.map(o => `
-                <tr onclick="openMainModal(${parseInt(o.skan) || 1})" style="cursor:pointer;" title="Kliknij, aby otworzyć ten skan">
-                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);">#${o.skan}</td>
-                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok || '—')}</td>
-                  <td style="font-style:italic;"><strong>${escapeHtml(o.zapis_oryginalny || '—')}</strong></td>
-                  <td>${escapeHtml(o.rola || o.kwota_ctx || '—')}</td>
+                <tr>
+                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(o.skan)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${o.skan}</a></td>
+                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok)}</td>
+                  <td style="font-style:italic;"><strong>${escapeHtml(o.zapis_oryginalny || (imieStr + ' ' + (p.nazwisko || '')))}</strong></td>
+                  <td>${escapeHtml(o.kwota_ctx || o.rola || o.kontekst || o.ctx || o.uwagi || '—')}</td>
                 </tr>
               `).join('')}
             </tbody>
@@ -4393,60 +4392,75 @@ Wraz z transkrypcją skanów 841–860 projekt osiągnął historyczny kamień m
         `;
       } else if (p.skany_list && p.skany_list.length > 0) {
         occsHtml = `
-          <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.5rem;">
-            ${p.skany_list.map(s => `
-              <button onclick="openMainModal(${s})" class="page-btn" style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; padding:0.3rem 0.6rem; background:rgba(217,119,6,0.15); color:var(--gold-primary); border:1px solid rgba(217,119,6,0.3); border-radius:4px; cursor:pointer;">
-                Skan #${s}
-              </button>
-            `).join('')}
-          </div>
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:12%;">Skan</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
+                <th style="width:40%;">Podatek / Rola / Kontekst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.skany_list.map(sn => {
+                const mItem = mainData.find(d => parseInt(d.nr_skanu) === parseInt(sn));
+                const rok = mItem ? mItem.data_rok : (p.zakres_lat || '');
+                const ctx = mItem ? (mItem.opis_pozycji || mItem.kategoria || '') : (p.funkcja || '—');
+                return `
+                  <tr>
+                    <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(sn)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${sn}</a></td>
+                    <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(rok)}</td>
+                    <td style="font-style:italic;"><strong>${escapeHtml((p.imie || '') + ' ' + (p.nazwisko || ''))}</strong></td>
+                    <td>${escapeHtml(ctx)}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
         `;
       } else {
         occsHtml = '<div style="color:var(--text-muted); padding:0.5rem;">Brak szczegółowego wykazu wzmianek.</div>';
       }
 
-      const wariantBadge = p.wariant_nazwiska 
-        ? `<div style="font-size:0.85rem; color:#94a3b8; margin-top:4px; display:inline-block; padding:2px 8px; background:rgba(255,255,255,0.05); border-radius:4px; border:1px solid #334155;">wariant: <strong>${escapeHtml(p.wariant_nazwiska)}</strong></div>`
-        : '';
-
-      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`;
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
       document.getElementById('modalBody').innerHTML = `
         <div class="modal-section">
           <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
           <div style="font-size:1.05rem; margin-bottom:0.5rem;">
             <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
             &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
-            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr || 'Mieszkaniec')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
           </div>
-          ${wariantBadge}
-          <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.6rem;">
-            <span>Zakres lat aktywności: <strong>${escapeHtml(p.zakres_lat || '1661–1699')}</strong></span>
-            &nbsp;•&nbsp; <span>Liczba wzmianek w jednostce: <strong>${mentions}</strong></span>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
           </div>
+          ${(p.wariant_nazwiska || p.warianty_nazwiska) ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.wariant_nazwiska || p.warianty_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
         </div>
 
-        ${p.wariant_nazwiska ? `
-        <div class="modal-section">
-          <div class="modal-section-title">Warianty nazwiska i uwagi paleograficzne</div>
-          <div style="font-size:0.9rem; line-height:1.5; color:#cbd5e1; background:#0f172a; padding:0.75rem; border-radius:6px; border:1px solid var(--border);">
-            Lekcja główna: <strong>${escapeHtml(p.nazwisko)}</strong> &nbsp;|&nbsp; Odnotowane warianty: <strong>${escapeHtml(p.wariant_nazwiska)}</strong>
-            ${p.uwagi ? `<div style="margin-top:0.4rem; color:#94a3b8;">${escapeHtml(p.uwagi)}</div>` : ''}
+        ${(p.notatka_biograficzna || p.biogram) ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Notatka biograficzna i rola historyczna</div>
+            <div style="font-size:0.92rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(p.notatka_biograficzna || p.biogram)}
+            </div>
           </div>
-        </div>
         ` : ''}
 
         <div class="modal-section">
-          <div class="modal-section-title">Wykaz spraw i wystąpień w aktach jednostki</div>
+          <div class="modal-section-title">Wystąpienia w źródłach jednostki (poświadczenia)</div>
           ${occsHtml}
         </div>
 
-        ${p.notatka_biograficzna ? `
-        <div class="modal-section">
-          <div class="modal-section-title">Kontekst historyczny i rola w życiu miasta</div>
-          <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
-            ${escapeHtml(p.notatka_biograficzna)}
+        ${p.uwagi ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Uwagi krytyczno-źródłowe</div>
+            <div style="font-size:0.85rem; color:#94a3b8;">${escapeHtml(p.uwagi)}</div>
           </div>
-        </div>
         ` : ''}
       `;
 

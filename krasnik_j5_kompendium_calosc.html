@@ -2103,21 +2103,20 @@
   </main>
 
   <!-- MODAL SZCZEGÓŁÓW (3 KANONICZNE ZAKŁADKI) -->
-  <div id="detailModal" class="modal" onclick="if(event.target===this)closeModal()">
+    <!-- MODAL DETAILS -->
+  <div id="detailModal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 id="modalTitle">Szczegóły Aktu</h3>
-        <span class="modal-close" onclick="closeModal()">×</span>
+        <h3 id="modalTitle">Szczegóły</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
       </div>
-
-      <div class="modal-tabs-bar" id="modalTabsBar">
-        <button id="tabBtnMeta" class="modal-tab-btn active" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
-        <button id="tabBtnTrans" class="modal-tab-btn" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
-        <button id="tabBtnLink" class="modal-tab-btn" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
       </div>
-
       <div class="modal-body" id="modalBody">
-        <!-- Wypełniane dynamicznie przez JS -->
+        <!-- Content filled dynamically -->
       </div>
     </div>
   </div>
@@ -2149,172 +2148,233 @@
     // MODAL STATE
     let currentModalScan = null;
     function switchModalTab(tabKey) {
-      const metaBtn = document.getElementById('tabBtnMeta');
-      const transBtn = document.getElementById('tabBtnTrans');
-      const linkBtn = document.getElementById('tabBtnLink');
-
-      const metaContent = document.getElementById('modalTabContentMeta');
-      const transContent = document.getElementById('modalTabContentTrans');
-      const linkContent = document.getElementById('modalTabContentLink');
-
-      if (metaBtn) metaBtn.classList.remove('active');
-      if (transBtn) transBtn.classList.remove('active');
-      if (linkBtn) linkBtn.classList.remove('active');
-
-      if (metaContent) metaContent.style.display = 'none';
-      if (transContent) transContent.style.display = 'none';
-      if (linkContent) linkContent.style.display = 'none';
-
-      if (tabKey === 'meta') {
-        if (metaBtn) metaBtn.classList.add('active');
-        if (metaContent) metaContent.style.display = 'block';
-      } else if (tabKey === 'trans') {
-        if (transBtn) transBtn.classList.add('active');
-        if (transContent) transContent.style.display = 'block';
-      } else if (tabKey === 'link') {
-        if (linkBtn) linkBtn.classList.add('active');
-        if (linkContent) linkContent.style.display = 'block';
-      }
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      });
     }
 
     function closeModal() {
       document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
     }
 
     function copyTranscription() {
-      const textEl = document.getElementById('transcriptionText');
-      if (!textEl) return;
-      navigator.clipboard.writeText(textEl.innerText).then(() => {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      navigator.clipboard.writeText(currentModalScan.transkrypcja).then(() => {
         const btn = document.querySelector('.btn-copy-trans');
         if (btn) {
           const orig = btn.innerText;
-          btn.innerText = '✓ Skopiowano do schowka!';
+          btn.innerText = '✅ Skopiowano do schowka!';
           setTimeout(() => { btn.innerText = orig; }, 2000);
         }
+      }).catch(err => {
+        console.error('Błąd kopiowania:', err);
       });
     }
 
     function openMainModal(scanNr) {
-      const item = mainData.find(d => d.nr_skanu === scanNr);
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
       if (!item) return;
+
       currentModalScan = item;
 
-      const modal = document.getElementById('detailModal');
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
+      
       const tabsBar = document.getElementById('modalTabsBar');
-      const modalTitle = document.getElementById('modalTitle');
-      const modalBody = document.getElementById('modalBody');
+      if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
 
-      tabsBar.style.display = 'flex';
-      modalTitle.innerText = `Skan #${item.nr_skanu} — ${item.opis_pozycji || 'Akt Sądowy'}`;
+      const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są partiami).</em>';
 
-      modalBody.innerHTML = `
-        <!-- TAB 1: METADANE -->
+      document.getElementById('modalBody').innerHTML = `
         <div id="modalTabContentMeta" class="modal-tab-content">
-          <div class="modal-meta-grid">
-            <div class="meta-item"><label>Numer Skanu</label><span>#${item.nr_skanu}</span></div>
-            <div class="meta-item"><label>Foliacja / Pagina</label><span>${escapeHtml(item.strona_pagina)}</span></div>
-            <div class="meta-item"><label>Datowanie / Rok</label><span>${escapeHtml(item.data_rok)}</span></div>
-            <div class="meta-item"><label>Kategoria Kancelaryjna</label><span>${escapeHtml(item.kategoria)}</span></div>
-            <div class="meta-item"><label>Kwoty / Podatki</label><span>${escapeHtml(item.kwoty_miary)}</span></div>
-            <div class="meta-item"><label>Lokalizacja</label><span>${escapeHtml(item.uwagi)}</span></div>
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 5 (Księga wójtowska i ławnicza 1599–1605)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
           </div>
 
           <div class="modal-section">
-            <div class="modal-section-title">Osoby i Podmioty Występujące w Akcie</div>
-            <div>${escapeHtml(item.osoby_podmioty)}</div>
-          </div>
-
-          <div class="modal-section">
-            <div class="modal-section-title">Szczegółowy Regest / Treść Sprawy</div>
-            <p style="line-height:1.6; color:#cbd5e1;">${escapeHtml(item.opis_sprawy)}</p>
-          </div>
-        </div>
-
-        <!-- TAB 2: TRANSKRYPCJA -->
-        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
-          <div class="modal-section" style="position:relative;">
-            <div class="modal-section-title" style="display:flex; justify-content:space-between; align-items:center;">
-              <span>Dyplomatyczny Odczyt Rękopisu (In Extenso)</span>
-              <button class="page-btn btn-copy-trans" onclick="copyTranscription()" style="background:var(--gold-primary); color:#000; font-size:0.75rem; padding:0.3rem 0.6rem;">📋 Kopiuj</button>
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_pozycji)}
             </div>
-            <div class="transcription-box" id="transcriptionText">${escapeHtml(item.transkrypcja)}</div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_miary || 'Brak danych finansowych')}
+            </div>
+          </div>
+
+          ${item.uwagi ? `
+            <div class="modal-section">
+              <div class="modal-section-title">Uwagi kodykologiczne i paleograficzne</div>
+              <div style="font-size:0.88rem; color:#94a3b8;">
+                ${escapeHtml(item.uwagi)}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna zgodna z Instrukcją Wydawniczą Źródeł Historycznych PAN</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
           </div>
         </div>
 
-        <!-- TAB 3: LINK DO ORYGINAŁU -->
         <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
           <div class="modal-section">
-            <div class="modal-section-title">Dostęp do Skanu Cyfrowego w Portalu Szukaj w Archiwach</div>
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
             <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
-              Oryginalna księga w wysokiej rozdzielczości dostępna jest bezpłatnie w serwisie państwowym Szukaj w Archiwach (Archiwum Państwowe w Lublinie, Zespół 35/40/0, Jednostka 5).
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
             </p>
-            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
-              <a href="${item.link_swa}" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:var(--gold-primary); color:#000; font-weight:700; padding:0.6rem 1.2rem; border-radius:6px;">
-                🏛️ Otwórz Jednostkę 05 w Szukaj w Archiwach
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989715
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989715" target="_blank" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Jednostkę 5 w Szukaj w Archiwach
               </a>
-              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="page-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.5rem; background:#334155; color:#fff; padding:0.6rem 1.2rem; border-radius:6px;">
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
                 📁 Zespół 35/40/0 (Akta m. Kraśnika)
               </a>
-            </div>
-            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); font-size:0.85rem; color:#94a3b8; line-height:1.5;">
-              <strong style="color:var(--gold-primary);">Instrukcja nawigacji w portalu archiwalnym:</strong><br>
-              1. Kliknij powyższy złoty przycisk, aby otworzyć oficjalną kartę jednostki 05.<br>
-              2. Przejdź do zakładki <strong>«Skany»</strong> w górnym menu portalu.<br>
-              3. Odszukaj miniaturę oznaczoną numerem <strong>#${item.nr_skanu}</strong>, odpowiadającą analizowanemu dokumentowi.
             </div>
           </div>
         </div>
       `;
 
-      switchModalTab('meta');
       document.getElementById('detailModal').style.display = 'block';
     }
 
     function openGenModal(lp) {
-      const person = genData.find(p => p.lp === lp);
-      if (!person) return;
-
-      const modal = document.getElementById('detailModal');
+      currentModalScan = null;
       const tabsBar = document.getElementById('modalTabsBar');
-      const modalTitle = document.getElementById('modalTitle');
-      const modalBody = document.getElementById('modalBody');
+      if (tabsBar) tabsBar.style.display = 'none';
+      const p = genData.find(d => d.lp === lp);
+      if (!p) return;
 
-      tabsBar.style.display = 'none';
-      modalTitle.innerText = `${person.imie || ''} ${person.nazwisko || ''} — Profil Mieszkańca`;
-
-      let scansHtml = '';
-      if (Array.isArray(person.skany_list)) {
-        scansHtml = person.skany_list.map(s => `<button class="badge-scan" onclick="closeModal(); openMainModal(${s})" style="cursor:pointer; border:1px solid var(--gold-primary); background:rgba(245,158,11,0.1); margin-right:0.3rem;">#${s}</button>`).join(' ');
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || p.funkcja_zawod || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : (p.skany_list ? p.skany_list.length : 1));
+      
+      let occsHtml = '';
+      if (p.wystapienia && p.wystapienia.length > 0) {
+        occsHtml = `
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:12%;">Skan</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
+                <th style="width:40%;">Podatek / Rola / Kontekst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.wystapienia.map(o => `
+                <tr>
+                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(o.skan)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${o.skan}</a></td>
+                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok)}</td>
+                  <td style="font-style:italic;"><strong>${escapeHtml(o.zapis_oryginalny || (imieStr + ' ' + (p.nazwisko || '')))}</strong></td>
+                  <td>${escapeHtml(o.kwota_ctx || o.rola || o.kontekst || o.ctx || o.uwagi || '—')}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      } else if (p.skany_list && p.skany_list.length > 0) {
+        occsHtml = `
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:12%;">Skan</th>
+                <th style="width:14%;">Rok</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
+                <th style="width:40%;">Podatek / Rola / Kontekst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.skany_list.map(sn => {
+                const mItem = mainData.find(d => parseInt(d.nr_skanu) === parseInt(sn));
+                const rok = mItem ? mItem.data_rok : (p.zakres_lat || '');
+                const ctx = mItem ? (mItem.opis_pozycji || mItem.kategoria || '') : (p.funkcja || '—');
+                return `
+                  <tr>
+                    <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(sn)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${sn}</a></td>
+                    <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(rok)}</td>
+                    <td style="font-style:italic;"><strong>${escapeHtml((p.imie || '') + ' ' + (p.nazwisko || ''))}</strong></td>
+                    <td>${escapeHtml(ctx)}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        `;
+      } else {
+        occsHtml = '<div style="color:var(--text-muted); padding:0.5rem;">Brak szczegółowego wykazu wzmianek.</div>';
       }
 
-      modalBody.innerHTML = `
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
+      document.getElementById('modalBody').innerHTML = `
         <div class="modal-section">
-          <div class="modal-meta-grid">
-            <div class="meta-item"><label>Nazwisko</label><span style="color:var(--gold-primary); font-weight:700;">${escapeHtml(person.nazwisko)}</span></div>
-            <div class="meta-item"><label>Imię</label><span>${escapeHtml(person.imie)}</span></div>
-            <div class="meta-item"><label>Miejsce Zamieszkania</label><span>${escapeHtml(person.miejsce || 'Kraśnik')}</span></div>
-            <div class="meta-item"><label>Funkcja / Zawód</label><span>${escapeHtml(person.funkcja || 'Mieszkaniec')}</span></div>
-            <div class="meta-item"><label>Zakres Lat</label><span>${escapeHtml(person.zakres_lat || '1595')}</span></div>
-            <div class="meta-item"><label>Liczba Wzmianek</label><span>${person.liczba_wystapien || 1}</span></div>
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
           </div>
-
-          <div style="margin-top:1rem;">
-            <label style="font-size:0.8rem; color:#94a3b8; text-transform:uppercase;">Warianty Zapisu w Źródle:</label>
-            <div style="color:#cbd5e1; font-style:italic;">${escapeHtml(person.warianty_nazwiska || 'Brak wariantów obocznych')}</div>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
           </div>
-
-          <div style="margin-top:1rem;">
-            <label style="font-size:0.8rem; color:#94a3b8; text-transform:uppercase;">Powiązane Skany (kliknij aby otworzyć):</label>
-            <div style="margin-top:0.3rem;">${scansHtml}</div>
-          </div>
-
-          <div style="margin-top:1rem;">
-            <label style="font-size:0.8rem; color:#94a3b8; text-transform:uppercase;">Kontekst Biograficzny i Archiwalny:</label>
-            <p style="color:#cbd5e1; line-height:1.6; background:#0f172a; padding:0.8rem; border-radius:6px; border:1px solid var(--border); margin-top:0.3rem;">
-              ${escapeHtml(person.uwagi || 'Wzmiankowany w księdze wójtowsko-radzieckiej Kraśnika.')}
-            </p>
-          </div>
+          ${(p.wariant_nazwiska || p.warianty_nazwiska) ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.wariant_nazwiska || p.warianty_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
         </div>
+
+        ${(p.notatka_biograficzna || p.biogram) ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Notatka biograficzna i rola historyczna</div>
+            <div style="font-size:0.92rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(p.notatka_biograficzna || p.biogram)}
+            </div>
+          </div>
+        ` : ''}
+
+        <div class="modal-section">
+          <div class="modal-section-title">Wystąpienia w źródłach jednostki (poświadczenia)</div>
+          ${occsHtml}
+        </div>
+
+        ${p.uwagi ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Uwagi krytyczno-źródłowe</div>
+            <div style="font-size:0.85rem; color:#94a3b8;">${escapeHtml(p.uwagi)}</div>
+          </div>
+        ` : ''}
       `;
 
       document.getElementById('detailModal').style.display = 'block';

@@ -120,7 +120,7 @@ def test_unit(unit_id, html_path, csv_path):
     assert 'Link do oryginału' in clean_tab_labels[2] or 'Link' in clean_tab_labels[2], f"FAIL: Nieprawidłowa nazwa 3. zakładki: {clean_tab_labels[2]}"
     assert 'crops' not in html.lower(), f"FAIL: Plik {html_path} zawiera niedozwolone odwołania do crops!"
 
-    # Weryfikacja funkcji JS: openMainModal, switchModalTab, closeModal
+    # Weryfikacja funkcji JS: openMainModal, switchModalTab, closeModal, copyTranscription
     assert "document.getElementById('detailModal').style.display = 'block';" in html or \
            'document.getElementById("detailModal").style.display = "block";' in html, \
            "FAIL: openMainModal nie ustawia style.display = 'block' dla #detailModal!"
@@ -131,7 +131,26 @@ def test_unit(unit_id, html_path, csv_path):
     assert "document.getElementById('detailModal').style.display = 'none';" in html or \
            'document.getElementById("detailModal").style.display = "none";' in html, \
            "FAIL: closeModal nie ustawia style.display = 'none'!"
-    print(f"  -> PASS: Modal skanu posiada kanoniczny pasek zakładek {clean_tab_ids} i prawidłowe sterowanie display.")
+
+    # Weryfikacja przycisku i logiki kopiowania transkrypcji (Zrzut 3 ze standardu J1)
+    assert 'btn-copy-trans' in html, "FAIL: Brak klasy .btn-copy-trans dla przycisku kopiowania transkrypcji!"
+    assert 'function copyTranscription' in html, "FAIL: Brak funkcji copyTranscription w kodzie JavaScript!"
+    assert 'navigator.clipboard.writeText' in html, "FAIL: copyTranscription nie korzysta z navigator.clipboard.writeText!"
+    assert 'transcription-box' in html, "FAIL: Brak klasy .transcription-box dla odczytu dyplomatycznego!"
+
+    # Weryfikacja stylizacji sekcji i nagłówków modalu (Zrzut 1 ze standardu J1)
+    assert 'modal-section-title' in html, "FAIL: Brak klasy .modal-section-title w modalu!"
+    assert 'Identyfikacja archiwalna i kodykologiczna' in html or 'IDENTYFIKACJA ARCHIWALNA I KODYKOLOGICZNA' in html, \
+           "FAIL: Brak sekcji identyfikacji archiwalnej w modalu skanu!"
+
+    # Weryfikacja zakładki Szukaj w Archiwach (Zrzut 4 ze standardu J1)
+    assert 'Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego' in html or \
+           'DOSTĘP DO SKANU CYFROWEGO W ZASOBIE ARCHIWUM PAŃSTWOWEGO' in html, \
+           "FAIL: Brak nagłówka 'Dostęp do skanu cyfrowego' w 3. zakładce modalu!"
+    assert 'szukajwarchiwach.gov.pl' in html, "FAIL: Brak linku do portalu SzukajwArchiwach.gov.pl w 3. zakładce!"
+    assert 'Zespół 35/40/0' in html, "FAIL: Brak przycisku prowadzącego do zespołu 35/40/0!"
+
+    print(f"  -> PASS: Modal skanu posiada kanoniczny pasek zakładek {clean_tab_ids}, transkrypcję z kopiowaniem oraz kafelki SwA.")
 
     # ---------------------------------------------------------
     # TEST 3: Działanie Modalu Genealogicznego (openGenModal)
@@ -140,8 +159,11 @@ def test_unit(unit_id, html_path, csv_path):
     assert "function openGenModal" in html, "FAIL: Brak funkcji openGenModal!"
     assert "tabsBar.style.display = 'none'" in html or 'tabsBar.style.display = "none"' in html, \
            "FAIL: openGenModal musi ukrywać pasek zakładek skanu (tabsBar.style.display = 'none')!"
-    assert "occs-table" in html or "badge-scan" in html, "FAIL: Brak tabeli wystąpień occs-table w modalu osoby!"
-    print("  -> PASS: openGenModal poprawnie ukrywa pasek zakładek i renderuje profil osoby.")
+    assert "occs-table" in html, "FAIL: Brak tabeli wystąpień occs-table w modalu osoby!"
+    assert "openMainModal" in html, "FAIL: Wystąpienia w modalu genealogicznym muszą być klikalnymi linkami do openMainModal!"
+    assert "💡 Lekcje i warianty zapisu w rękopisie" in html, "FAIL: Brak boksu wariantów zapisu w rękopisie w modalu osoby!"
+    assert "Dane biograficzne i status społeczno-prawny" in html, "FAIL: Brak sekcji danych biograficznych w modalu osoby!"
+    print("  -> PASS: openGenModal poprawnie ukrywa pasek zakładek, posiada tabelę 4-kolumnową z klikalnymi odnośnikami i boks wariantów.")
 
     # ---------------------------------------------------------
     # TEST 4: Integralność Wariantu 2 i De-duplikacja Bazy Osób
