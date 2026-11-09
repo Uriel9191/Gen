@@ -22,7 +22,7 @@
 21;Fischer;Bartłomiej;Zamość;Szlachcic, sługa Podkanclerzego Koronnego;8;1633;1;
 22;Fox;Jan;Kraśnik;Rajca kraśnicki, wójt;83, 105, 106, 108, 122, 140, 149, 150, 151, 154, 186;1633–1634;11;Joannes Fox Consul Crasnensis
 23;Gnaciak;Jakub;Łopoka;Pracowity ze wsi Łopoka;9;1633;1;
-24;Grzymkowski;Andrzej;Kraśnik;Wójt sądowy kraśnicki, rajca;88, 92, 96, 102, 103, 105, 107, 108, 110, 113, 114, 115, 116, 127, 130, 131, 141, 142, 143, 147, 154, 161, 162, 167, 168, 169, 170, 171, 172, 174, 184, 185, 193, 201, 204, 209, 218;1633–1643;37;Andreas Grzymkowski Advocatus et Iudex Ordinarius Crasnensis, Andreas Grzymkowski Consul
+24;Grzymkowski;Andrzej;Kraśnik;Wójt sądowy kraśnicki, rajca;88, 92, 96, 102, 103, 105, 107, 108, 110, 113, 114, 115, 116, 127, 130, 131, 141, 142, 143, 147, 154, 161, 162, 167, 168, 169, 170, 171, 172, 174, 184, 185, 193, 201, 204, 209, 218, 221, 223, 224, 226;1633–1643;41;Andreas Grzymkowski Advocatus et Iudex Ordinarius Crasnensis, Andreas Grzymkowski Consul, Andreas Grzymkowski Proconsul
 25;Hłań;Stasiukowicz;Kamieniec;Kupiec / mieszkaniec Kamieńca;11, 12;1633;2;Alanius
 26;Ibałyziewicz;Wasian;Kamieniec;Kupiec kamieniecki;11;1633;1;
 27;Iłowiecki;Stanisław;Kraśnik;Szlachcic, sługa Podkanclerzego Koronnego;6, 7;1632;2;Nob. Iłowiecki
@@ -70,7 +70,7 @@
 69;Słucki;Bartłomiej vel Jurek;Kraśnik;Sługa miejski przysięgły, woźny;20, 91, 92, 93, 107, 135, 154, 155;1632–1634;8;Bartholomaeus Slucki vel Jurek Minister Juratus
 70;Sosnowicz;Kasper;Kraśnik;Złotnik kraśnicki;16;1633;1;Gaspar Sosnowicz aurifaber
 71;Szpathkowicz;Wojciech;Kraśnik;Ławnik przysięgły kraśnicki;13;1633;1;Albertus Szpathkowicz
-72;Szafranek;Stanisław;Kraśnik;Cechmistrz cechu szewskiego;1, 2, 4, 10, 11, 13, 16, 21, 24, 25, 26, 27, 33, 34, 40, 64, 68, 69, 73, 120, 122, 127, 163, 164, 177, 197, 218, 219;1632–1643;28;Stanislaus Szafranek Scabinus Juratus Crasnensis
+72;Szafranek;Stanisław;Kraśnik;Cechmistrz cechu szewskiego;1, 2, 4, 10, 11, 13, 16, 21, 24, 25, 26, 27, 33, 34, 40, 64, 68, 69, 73, 120, 122, 127, 163, 164, 177, 197, 218, 219, 221, 223, 224, 225, 226, 231, 237;1632–1643;35;Stanislaus Szafranek Scabinus Juratus Crasnensis, Stanislaus Szafranek Cechmistrz
 73;Sznicyerz;Jakub;Kraśnik;Snycerz, burmistrz kraśnicki;19;1634;1;Jacobus Sznicyerz
 74;Śmierzgniowa;;Kraśnik;Mieszka kraśnicka;9;1633;1;
 75;Śniechówna;Zofia;Kraśnik;Mieszka kraśnicka;18, 19;1634;2;Zophia Sniechowna
@@ -108,7 +108,7 @@
 107;Kucza;Wojciech;Kraśnik;Mieszczanin kraśnicki;24, 48;1632–1635;2;Albertus Kucza
 108;Kuczanka;Zofia;Kraśnik;Mieszka kraśnicka;24, 48;1632–1635;2;Zophia Kuczanka
 109;Kuczanka;Justyna;Kraśnik;Mieszka kraśnicka;24;1635;1;Iustina Kuczanka
-110;Kuczenowicz;Andrzej;Kraśnik;Ławnik przysięgły kraśnicki, urzędowy opiekun;6, 7, 8, 9, 11, 13, 14, 17, 19, 20, 21, 22, 24, 25, 27, 29, 31, 32, 36, 39, 41, 44, 45, 48, 51, 56, 57, 65, 67, 69, 70, 72, 80, 168, 178, 179, 182;1632–1634;37;Kuczenwicz, Andreas Kuczewicz Pellifex, Andreas Kuczewicz Pellifex Crasnensis
+110;Kuczenowicz;Andrzej;Kraśnik;Ławnik przysięgły kraśnicki, urzędowy opiekun;6, 7, 8, 9, 11, 13, 14, 17, 19, 20, 21, 22, 24, 25, 27, 29, 31, 32, 36, 39, 41, 44, 45, 48, 51, 56, 57, 65, 67, 69, 70, 72, 80, 168, 178, 179, 182, 223, 224, 225;1632–1643;40;Andreas Kuczenowicz Scabinus Juratus Crasnensis, Andreas Kuczewicz
 111;Kucza;Maciej;Kraśnik;Zmarły mieszczanin kraśnicki;24;1635;1;Mathias Kucza
 112;Szkaradek vel Szkernicz;Wojciech Jan;Kraśnik;Rajca i mieszczanin kraśnicki;25;1632;1;Szkernicz, Szkaradek
 113;Iersolko Żyd;;Kraśnik;Senior gminy żydowskiej;25;1632;1;Iersolka
@@ -190,7 +190,7 @@
 189;Butba;Jan;Kraśnik;Mistrz szewski;35, 37, 51;1632;3;Joannes Butba
 190;Kłęk;[Imię nieznane];Kraśnik;Czeladnik szewski;37;1632;1;
 191;Krassowski;Jerzy;Kraśnik;Szlachcic;28, 106;1632–1634;2;Nobilis Georgius Krassowski
-192;Szafranek;Wojciech;Kraśnik;Czeladnik / mieszczanin kraśnicki;37, 38, 103, 107, 120, 122, 123, 125, 131, 145, 179;1632–1634;11;Adalbertus Szafranek civis, Albertus Szafranek
+192;Szafranek;Wojciech;Kraśnik;Czeladnik / mieszczanin kraśnicki;37, 38, 103, 107, 120, 122, 123, 125, 131, 145, 179, 231, 232;1632–1643;13;Adalbertus Szafranek civis, Albertus Szafranek filius Stanislai
 193;Kmicic;[Imię nieznane];Kraśnik;Kmieć podmiejski;37;1632;1;
 194;Mąka;Jan;Kraśnik;Obywatel kraśnicki;38;1632;1;Jan Mąka
 195;Rodzenkowa;Zofia;Kraśnik;Przedmieszczanka kraśnicka;38;1632;1;
@@ -278,7 +278,7 @@
 277;Krupka;Stefan;Kraśnik;Mistrz krawiecki kraśnicki;59;1632;1;Stephanus Krupka Sartor
 278;Rybułtowicz;Marek;Kraśnik;Rektor szkoły kraśnickiej (rector scholae);49, 59, 60, 61, 62, 63, 64;1632;7;Marcus Rybułtowicz Rector Scholae
 279;Rybułtowicz;Wincenty;Opole Lubelskie / Kraśnik;Bakałarz zmarły w Opolu Lubelskim;60, 61, 62, 63;1632;4;Vincentius Rybułtowicz
-280;Bełżycki;Jan;Stróża / Kraśnik;Sołtys wsi Stróża, mieszczanin;64, 72, 92, 93, 217, 218;1632–1643;6;Joannes Bełżycki Scultetus Stróżensis, Joannes Betzycki Civis Crasnensis
+280;Bełżycki;Jan;Stróża / Kraśnik;Sołtys wsi Stróża, mieszczanin;64, 72, 92, 93, 217, 218, 230, 232, 234;1632–1643;9;Joannes Bełżycki Scultetus Stróżensis, Joannes Betzycki Civis Crasnensis
 281;Kosiowski;Wojciech;Kraśnik;Krawiec kraśnicki;63, 64;1632;2;Albertus Kosiowski
 282;Kotek;Jan;Kraśnik;Mieszkaniec kraśnicki;65;1632;1;Joannes Kotek
 283;Molitor ze Stróży;Andrzej;Stróża;Młynarz ze wsi Stróża;65;1632;1;Andreas Molitor de Stroza
@@ -324,11 +324,11 @@
 323;Kudlina;Anna;Kraśnik;Mieszka przededworska;77;1633;1;Anna Kudlina
 324;Mrowczak;Szymon;Kraśnik;Przedmieszczanin kraśnicki;77;1633;1;Simon Mrowczak
 325;Kendyia;[Imię nieznane];Kraśnik;Mieszkaniec przededworski;77;1633;1;Kendyia
-326;Poczesnowski;Stanisław;Kraśnik;Mieszkaniec kraśnicki;78, 81, 102, 181;1633–1634;4;Stanislaus Poczesnowski, Stanislaus Poczesnowski Civis Crasnensis
+326;Poczesnowski;Stanisław;Kraśnik;Mieszkaniec kraśnicki;78, 81, 102, 181, 226;1633–1643;5;Stanislaus Poczesnowski Civis Crasnensis
 327;Tokarz;Michał;Stoki;Rzemieślnik tokarz ze wsi Stoki;78;1633;1;Michael Tokarz de villa Stoki
 328;Mianowicz;Stanisław;Kraśnik;Mieszczanin kraśnicki;78;1633;1;Famatus Stanislaus Mianowicz
 329;Kossowski;Albert;Kraśnik;Mieszkaniec kraśnicki;78, 164, 165, 177;1633–1634;4;Albertus Kossowski
-330;Judaeus;Herszko;Kraśnik;Kupiec i faktor żydowski;79, 81, 88, 89, 90, 91, 92, 94, 96, 97, 105, 121, 133, 134, 135, 136, 137, 138, 139, 146, 147, 148, 149, 154, 162, 165, 166, 168, 175, 184, 185, 186, 188, 209, 210;1633–1634;35;Herszko Heliaszowicz Ber Senior Communitatis Judaeorum
+330;Judaeus;Herszko;Kraśnik;Kupiec i faktor żydowski;79, 81, 88, 89, 90, 91, 92, 94, 96, 97, 105, 121, 133, 134, 135, 136, 137, 138, 139, 146, 147, 148, 149, 154, 162, 165, 166, 168, 175, 184, 185, 186, 188, 209, 210, 238, 239;1633–1644;37;Herszko Heliaszowicz Senior Synagogae Crasnensis, Infidelis Herszko Judaeus
 331;Barszczowa;Ewa;Kraśnik;Mieszka kraśnicka;79;1633;1;Eva consors Valentini Barszcz
 332;Świebotówna;Zofia;Kraśnik;Dziewka służąca u żyda Łobody;80, 178, 179, 182;1633–1634;4;Zophia Świebotówna famula, Zophia Swiebolewna, Zophia Swiebolewna z Kliczkowic
 333;Judaeus;Łoboda;Kraśnik;Kupiec żydowski skórnik;80, 178, 179, 180, 182, 183, 185;1633–1634;7;Łoboda Judaeus, Łoboda Judaeus Crasnensis, Perfidus Loboda Judaeus Crasnensis
@@ -397,7 +397,7 @@
 396;Rychaler;Albert;Kraśnik;Ławnik przysięgły miejski;92, 93;1633;2;Albertus Rychaler Scabinus
 397;Latkowski;Szymon;Kraśnik;Ławnik przysięgły miejski;93, 99, 102, 110, 120, 121, 125, 131, 132, 133, 139, 140, 141, 144, 147, 148, 153, 168, 172, 173, 182, 184, 185, 186, 187, 190, 194, 195, 198;1633–1634;29;Simon Latkowski Scabinus Crasnensis, Symon Latkowski Scabinus Juratus, Simon Latkowski Scabinus Juratus Crasnensis
 398;Piezik;Sebastian;Kraśnik;Przedmieszczanin kraśnicki;93, 94;1633;2;Sebastianus Piezik Anteoppidanus
-399;Kwassowicz;Marcin;Kraśnik;Rajca i konsul kraśnicki;95, 96, 123, 130, 155, 176, 186, 198, 206, 207, 210;1633–1634;11;Martinus Kwassowicz Proconsul et Consul Crasnensis
+399;Kwassowicz;Marcin;Kraśnik;Rajca i konsul kraśnicki;95, 96, 123, 130, 155, 176, 186, 198, 206, 207, 210, 223, 224, 225, 237;1633–1643;15;Martinus Kwassowicz Proconsul et Consul Crasnensis
 400;Kwasikówna;Felicia;Kraśnik;Małoletnia sierota kraśnicka;95;1633;1;Pudica Felicia filia Valentini Kwas
 401;Kwasikówna;Szczęsna;Kraśnik;Mieszka kraśnicka;95;1633;1;Pudica Szczesna filia Valentini Kwas
 402;Marówna;Barbara;Kraśnik;Śp. mieszczka kraśnicka;95;1633;1;olim Barbara Marowna consors Wrobel
@@ -422,7 +422,7 @@
 421;Moszko;Judaeus;Kraśnik;Kupiec żydowski;102;1634;1;Moseko Judaeus
 422;Cyrulik;Jan Musza;Kraśnik;Cyrulik / balwierz kraśnicki;103;1634;1;Joannes Cyrulik Musza
 423;Sonka;Stanisław;Kraśnik;Przedmieszczanin kraśnicki, ofiara zabójstwa;103, 107, 120, 121, 123, 125, 131;1634;7;Stanislaus Sonka occisus
-424;Szafranek;Adam;Kraśnik;Mieszczanin kraśnicki, oskarżony o zabójstwo;107, 120, 122, 123, 125, 131, 145, 179, 182, 183, 195;1633–1634;11;Adam Szafranek civis / Albertus Szafranek, Adamus Szafranek, Adamus Szafranek Wybraniec Krasnensis
+424;Szafranek;Adam;Kraśnik;Mieszczanin kraśnicki, oskarżony o zabójstwo;107, 120, 122, 123, 125, 131, 145, 179, 182, 183, 195, 231, 232;1633–1643;13;Adamus Szafranek Wybraniec Krasnensis, Adam Szafranek civis
 425;Serwa;Wojciech;Kraśnik;Przedmieszczanin kraśnicki;103, 107, 125, 131;1634;4;Adalbertus Serwa pater defuncti Stanislai Sonka
 426;Kowalikówna;Jadwiga;Kraśnik;Przedmieszczanka, wdowa po ofierze zabójstwa;103, 120, 121, 123, 125, 131;1634;6;Hedvigis Kowalikowna relicta olim Stanislai Sonka
 427;Kowalik;Stanisław;Kraśnik;Przedmieszczanin kraśnicki;103;1634;1;Stanislaus Kowalik
@@ -447,7 +447,7 @@
 446;Koziełek;Andrzej;Kraśnik;Przedmieszczanin kraśnicki;106, 118, 123, 125;1634;4;Andreas Koziełek / Kozieczek Anteoppidanus
 447;Koziełek;Szymon;Kraśnik;Mieszkaniec kraśnicki;106;1634;1;Simon Koziełek
 448;Mazurek;Bartosz;Wilia;Mieszczanin z Wilia;107;1634;1;Bartholomaeus Mazurek Civis de Wilia
-449;Kamyk;Bartosz;Kraśnik;Mieszczanin kraśnicki;107, 137, 140, 141;1634;4;Bartholomaeus Kamyk
+449;Kamyk;Bartosz;Kraśnik;Mieszczanin kraśnicki;107, 137, 140, 141, 223, 224, 225;1633–1643;7;Bartholomaeus Kamyk Civis Crasnensis olim
 450;Barankowicz;Marcin;Kraśnik;Mieszczanin kraśnicki, plenipotent;107;1634;1;Martinus Barankowicz
 451;Wiśniowiecki;Jeremi;Krzemieniec / Wiśniowiec;Książę, starosta krzemieniecki;107, 108;1634;2;Illustrissimus Princeps Jeremias Wisniowiecki Capitaneus Cremenecensis
 452;Jozafat;[Nazwisko nieznane];Krzemieniec;Dworzanin / jeździec księcia Wiśniowieckiego;107;1634;1;Jozafat famulus Ducis Wisniowiecki
@@ -459,7 +459,7 @@
 458;Jagiełkowicz;Paweł;Goraj;Wójt miasta Goraja;108;1634;1;Paulus Jagiełkowicz Advocatus Gorayensis
 459;Mazurkiewicz;Albert;Goraj;Konsul / rajca miasta Goraja;108;1634;1;Albertus Mazurkiewicz Consul Gorayensis
 460;Panniiconsex;Szymon;Kraśnik;Rzemieślnik / sukiennik kraśnicki;108;1634;1;Simon Panniiconsex
-461;Zazięblik;Krzysztof;Kraśnik;Instygator miejski, reprezentant pospólstwa;108, 182;1634;2;Christophorus Zazięblik, Christophorus Zazięblik Arbiter
+461;Zazięblik;Krzysztof;Kraśnik;Instygator miejski, reprezentant pospólstwa;108, 182, 221, 226, 236, 238;1634–1643;6;Christophorus Zazięblik Instigator, Christophorus Zazięblik Scabinus Juratus Crasnensis
 462;Gawriszczyk;Matyasz;Budzyń;Poddany ze wsi Budzyń, przywódca buntu;108, 109, 110, 111, 112;1634;5;Matthias Gawriszczyk Principalis
 463;Gawriszczyk;Walenty;Budzyń;Poddany ze wsi Budzyń, zbójca;108, 110, 111, 112;1634;4;Valentinus Gawriszczyk
 464;Gawriszczyk;Wojciech;Budzyń;Poddany ze wsi Budzyń;109, 111, 112;1634;3;Adalbertus Gawriszczyk
@@ -755,7 +755,7 @@
 754;Janaszek;Piotr;Kraśnik;Żołnierz piechoty wybranieckiej, kłusownik;199;1634;1;Petrus Janaszek Wybraniec
 755;Rozla;Jan;Sulów;Zamożny kmieć, wierzyciel hipoteczny;201;1634;1;Joannes Rozla de villa Sulow
 756;Grzebieńczyk;Piotr;Kraśnik;Przedmieszczanin, spławnik wiślany;201, 202;1634;2;Petrus Grzebieńczyk filius
-757;Mrozek;Jan;Kraśnik;Mieszczanin, dylator, ławnik przysięgły (1643);202, 203, 208, 218, 219, 220;1634–1643;6;Joannes Mrozek Pieluszka, Joannes Mrozek Dylator, Joannes Mrozek Scabinus
+757;Mrozek;Jan;Kraśnik;Mieszczanin, dylator, ławnik przysięgły (1643);202, 203, 208, 218, 219, 220, 221, 226, 237, 238, 240;1634–1643;11;Joannes Mrozek Pieluszka, Joannes Mrozek Dylator, Joannes Mrozek Scabinus Juratus
 758;Panek;Paweł;Kraśnik;Mieszczanin, dłużnik;203;1634;1;Paulus Panek Civis Crasnensis
 759;Słopocik;Gabryel;Kraśnik;Żołnierz piechoty wybranieckiej;203;1634;1;Gabriel Słopocik Wybraniec Crasnensis
 760;Słopocik;Paweł;Kraśnik;Przedmieszczanin, brat wybrańca;203;1634;1;Paulus Słopocik
@@ -804,8 +804,66 @@
 803;Oziemek;Bartosz;Kraśnik;Ławnik przysięgły kraśnicki (1643);218;1643;1;Bartholomaeus Oziemek Scabinus Crasnensis
 804;Zybik;Grzegorz;Kraśnik;Mieszczanin kraśnicki;218;1643;1;Gregorius Zybik Civis Crasnensis
 805;Lewicki;Wojciech;Kraśnik;Opiekun prawny sierót;218;1643;1;Albertus Lewicki Tutor
-806;Borowiczowa;Agnieszka;Kraśnik;Zmarła mieszczka, dawniej Reszczyna;218, 219;1643;2;Agnes Borowiczowa Reszczyna olim
+806;Borowiczowa;Agnieszka;Kraśnik;Zmarła mieszczka, dawniej Reszczyna;218, 219, 221, 222;1643;4;Agnes Borowiczowa Reszczyna olim Civis Crasnensis
 807;Rembkowski;Wojciech;Kraśnik;Pisarz miejski kraśnicki (1643);218;1643;1;Albertus Rembkowski Notarius Crasnensis
 808;Sapatzina;Wojciechowa;Kraśnik;Mieszka, żona ławnika;219;1643;1;Woyciechowa Sapatzina Mieszczka
 809;Jurańczyk;Augustyn;Kraśnik (Podlesie);Syn mieszczanina, sprawca pobicia;219;1643;1;Augustinus Juranczyk filius Maciey Jurkowicz
 810;Marek z Dzierzkowic;brak;Dzierzkowice;Kupiec żydowski;220;1643;1;Marek Judaeus de Dzierzkowice
+811;Borowicz;Wawrzyniec;Kraśnik;Zmarły mieszczanin kraśnicki, mąż Agnieszki;221, 222;1643;2;Laurentius Borowicz Civis Crasnensis olim
+812;Sobek;Kmieć;Okolice Kraśnika;Włościanin, robotnik najemny;222;1643;1;Sobek Cmetho laboriosus
+813;Błasiak;Kmieć;Okolice Kraśnika;Włościanin, omłociciel;222;1643;1;Blasiak Cmetho
+814;Kuczewiczowa;Zofia;Kraśnik;Mieszka kraśnicka, dawniej Kamykowa;223, 224, 225;1643;3;Zophia Kuczewiczowa soror Martini Kwassowicz, olim Bartholomaei Kamyk relicta
+815;Kamyk;Jan;Kraśnik;Zmarłe dziecko mieszczańskie, syn Bartosza;224;1643;1;Joannes Kamyk infantulus olim
+816;Reszka;Stanisław;Blinów;Kmieć z Blinowa, stryj i opiekun sierot;223, 224, 226;1643;3;Stanislaus Reszka de Blinow patruus et tutor
+817;Reszka;Szymon;Blinów;Kmieć z Blinowa, stryj i opiekun sierot;223, 224, 226;1643;3;Simon Reszka de Blinow patruus
+818;Reszka;Jan;Blinów;Kmieć z Blinowa, stryj i opiekun sierot;223, 224, 226;1643;3;Joannes Reszka de Blinow patruus
+819;Reszkówna;Anna;Kraśnik / Blinów;Sierota mieszczańska;223, 224, 226;1643;3;Anna Reszkowna orphana
+820;Reszkówna;Ewa;Kraśnik / Blinów;Sierota (lat 9);223, 224, 226;1643;3;Eva Reszkowna infantula annorum 9
+821;Reszkówna;Regina;Kraśnik / Blinów;Sierota (lat 6);223, 224, 226;1643;3;Regina Reszkowna infantula annorum 6
+822;Reszka;Janek;Kraśnik;Sierota (lat 3);223, 224, 226;1643;3;Joannes Reszka infantulus annorum 3
+823;Reszka;Adam;Kraśnik;Sierota (lat 13), gospodarz;223, 224, 226;1643;3;Adamus Reszka iuvenis annorum 13
+824;Zołtonkowa;N.;Kraśnik;Mieszka kraśnicka, krewna sierot;223, 226;1643;2;Zoltonkowa consanguinea et tutrix
+825;Borowicz;Wojciech;Kraśnik;Mieszczanin kraśnicki;225;1643;1;Adalbertus Borowicz Civis Crasnensis
+826;Ptaszkowa;Katarzyna;Kraśnik;Mieszka kraśnicka;225;1643;1;Catharina Ptaszkowa Civis Crasnensis
+827;Pietrzęć;Jurek;Kraśnik;Przedmieszczanin kraśnicki;227, 229, 236;1643;3;Georgius Pietrzęć Anteoppidanus Crasnensis
+828;Zołotkowa;Marta;Kraśnik;Przedmieszczanka kraśnicka;227, 229;1643;2;Martha Zołotkowa glos Georgii Pietrzęć
+829;Cresztka;Jan;Kraśnik;Przedmieszczanin kraśnicki, zbywca roli;228, 229;1643;2;Joannes Cresztka Anteoppidanus Crasnensis
+830;Kufiński;Jan;Kraśnik / Ziemia Lubelska;Szlachcic, nabywca posiadłości rolnej;228, 229;1643;2;Generosus Joannes Kufiński Nobilis Polonus
+831;Pecik;Sebastian;Kraśnik;Przedmieszczanin kraśnicki;229, 230, 238;1643;3;Sebastianus Pecik vel Pezik Anteoppidanus Crasnensis
+832;Pecik;Łozen;Kraśnik;Przedmieszczanin kraśnicki;229, 230;1643;2;Łozen Pecik frater Sebastiani
+833;Sokół;Stanisław;Kraśnik;Stary rajca kraśnicki, patrycjusz;229;1643;1;Stanislaus Sokół antiquus Consul Crasnensis
+834;Celer;Tomasz;Kraśnik;Przedmieszczanin kraśnicki;229;1643;1;Thomas Celer Anteoppidanus
+835;Jach;Jan;Kraśnik;Przedmieszczanin kraśnicki;230;1643;1;Joannes Jach Anteoppidanus Crasnensis
+836;Mopel;Józef;Kraśnik;Żyd kraśnicki, wierzyciel zastawny;231;1643;1;Mopel Judaeus Crasnensis, Joseph Mopel
+837;Garncarz;Stanisław;Kraśnik;Rzemieślnik garncarski;232;1643;1;Stanislaus Figulus Crasnensis
+838;Młynarczyk;Grzegorz;Janów Lubelski / Kraśnik;Czeladnik młyński;232;1643;1;Gregorius Molitor iuvenis de Janow
+839;Fryga;Fedor;Kraśnik;Przedmieszczanin kraśnicki;232;1643;1;Theodorus Fryga Anteoppidanus
+840;Cieśla;Grzegorz;Kraśnik;Rzemieślnik ciesielski;233;1643;1;Gregorius Carpentarius Crasnensis
+841;Misiewicz;Andrzej;Kraśnik;Przedmieszczanin kraśnicki;233;1643;1;Andreas Misiewicz Anteoppidanus
+842;Gorecka;Katarzyna;Kraśnik;Wdowa mieszczańska;233;1643;1;Catharina Gorecka vidua
+843;Kozieła;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, powód;234, 236, 240;1643;3;Adalbertus Kozieła Anteoppidanus Crasnensis
+844;Kozelina;Zofia;Kraśnik;Przedmieszczanka kraśnicka, żona Wojciecha;234;1643;1;Zophia Kozelina uxor Adalberti Kozieła
+845;Płazianka;Anna;Kraśnik;Zmarła mieszczka, żona Cząstkowicza;234, 235;1643;2;Anna Płazianka Cząstkowiczowa olim Civis
+846;Łupek;Mikołaj;Kraśnik;Mieszczanin kraśnicki, nabywca roli;234, 235;1643;2;Nicolaus Łupek Civis Crasnensis
+847;Rogalowski;Wojciech;Kraśnik;Mieszczanin kraśnicki, sąsiad roli;235;1643;1;Adalbertus Rogalowski Civis Crasnensis
+848;Tepła;Wojciech;Kraśnik;Przedmieszczanin kraśnicki;235;1643;1;Adalbertus Tepła Anteoppidanus
+849;Kłopot;Wincenty;Kraśnik;Przedmieszczanin kraśnicki;236;1643;1;Vincentius Kłopot Anteoppidanus Crasnensis
+850;Hałas;Jan;Kraśnik;Przedmieszczanin kraśnicki;236, 237;1643;2;Joannes Hałas Anteoppidanus Crasnensis
+851;Hałasowa;Anna;Kraśnik;Przedmieszczanka kraśnicka, żona Jana;236, 237;1643;2;Anna Hałasowa uxor Joannis
+852;Nowatorska;Agnieszka;Kraśnik;Przedmieszczanka, siostra Hałasowej;236, 237;1643;2;Nowatorska soror uxoris Joannis Hałas
+853;Kiołek;Maciej;Kraśnik;Zmarły mieszczanin, cieśla i browarnik;237;1643;1;Matthias Kiołek Civis, Carpentarius et Braseator olim
+854;Kiołek;Wojciech;Kraśnik;Mieszczanin kraśnicki, syn Macieja;237;1643;1;Adalbertus Kiołek filius Matthiae
+855;Sapała;Wojciech;Kraśnik;Ławnik przysięgły kraśnicki;237;1643;1;Adalbertus Sapała Scabinus Juratus Crasnensis
+856;Młyński;Adam;Szczebrzeszyn / Kraśnik;Rektor szkoły w Szczebrzeszynie, mieszczanin;238;1643;1;Famosus Adamus Młyński Rector Scholae Szczebrzeszynensis et Civis Crasnensis
+857;Młodziany;Jan;Kraśnik;Mieszczanin kraśnicki, świadek;238;1643;1;Joannes Młodziany Civis Crasnensis
+858;Stróżeński;Żydek;Stróża;Żyd ze Stróży, rolnik / arendarz;238;1643;1;Judaeus de Stroza
+859;Giżyc;Wojciech;Kraśnik;Mieszczanin kraśnicki, dłużnik;238, 239;1644;2;Generosus et Famosus Adalbertus Giżyc vel Giżycki Civis Crasnensis
+860;Gorworski;Stanisław;Zamość;Mieszczanin zamojski, gospodarz;239;1644;1;Stanislaus Gorworski Civis Zamoscensis
+861;Kamieński;Adam;Zamość / Kraśnik;Szlachcic, świadek kontraktu;239;1644;1;Generosus Adamus Kamieński Nobilis testis manu propria
+862;Kołodziej;Piotr;Kraśnik;Mieszczanin kraśnicki, świadek testamentowy;240;1643;1;Petrus Kołodziey Civis Crasnensis
+863;Kierzch;Franciszek;Kraśnik;Zmarły mieszczanin kraśnicki;240;1643;1;Franciscus Kierzch Civis Crasnensis olim
+864;Kierzch;Albert;Kraśnik;Mieszczanin kraśnicki, brat Franciszka;240;1643;1;Albertus Kierzch frater Francisci
+865;Kierzchowa;Anna;Kraśnik;Wdowa mieszczańska po Franciszku;240;1643;1;Anna Francisci Kierzch relicta vidua
+866;Janaszkowicz;Jan;Kraśnik;Wójt urzędujący sądu kraśnickiego (1643);221, 234, 237, 240;1643;4;Joannes Janaszkowicz Advocatus Ordinarius Crasnensis
+867;Kostecki;Pan;Zamość / Kraśnik;Oficjalista dworski Ordynacji Zamojskiej;241;1643;1;Dominus Kostecki Servitor Ordinationis Zamoscensis
+868;Sokołowski;Błażej;Zamość / Kraśnik;Oficjalista dworski Ordynacji Zamojskiej;241;1643;1;Blasius Sokołowski Servitor Ordinationis Zamoscensis
