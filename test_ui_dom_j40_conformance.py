@@ -424,6 +424,7 @@ def main():
         ('j5',  '/home/ubuntu/workspace/Gen/krasnik_j5_kompendium_calosc.html',  '/home/ubuntu/workspace/Gen/krasnik_j5_slownik_genealogiczny.csv'),
         ('j7',  '/home/ubuntu/workspace/Gen/krasnik_j7_kompendium_calosc.html',  '/home/ubuntu/workspace/Gen/krasnik_j7_slownik_genealogiczny.csv'),
         ('j8',  '/home/ubuntu/workspace/Gen/krasnik_j8_kompendium_calosc.html',  '/home/ubuntu/workspace/Gen/krasnik_j8_slownik_genealogiczny.csv'),
+        ('j9',  '/home/ubuntu/workspace/Gen/krasnik_j9_kompendium_calosc.html',  '/home/ubuntu/workspace/Gen/krasnik_j9_slownik_genealogiczny.csv'),
     ]
 
     all_passed = True

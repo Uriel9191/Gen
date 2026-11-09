@@ -23,6 +23,7 @@ Jeśli repozytorium ma aktywną usługę **GitHub Pages**, wszystkie kompendia m
 | **J05** | 35/40/0/1/5 | 1589–1600 & 1662 | 335 skanów | [`krasnik_j5_kompendium_calosc.html`](krasnik_j5_kompendium_calosc.html) |
 | **J07** | 35/40/0/1/7 (Dawny Tom 3) | 1606–1611 | 278 skanów | [`krasnik_j7_kompendium_calosc.html`](krasnik_j7_kompendium_calosc.html) |
 | **J08** | 35/40/0/1/8 (Dawny Tom 5) | 1608–1647 | 1 392 skany | [`krasnik_j8_kompendium_calosc.html`](krasnik_j8_kompendium_calosc.html) |
+| **J09** | 35/40/0/1/9 (Dawny Tom 3) | 1632–1634 (1643) | 244 skany | [`krasnik_j9_kompendium_calosc.html`](krasnik_j9_kompendium_calosc.html) |
 | **J40** | 35/40/0/1/40 | 1761–1788 (1797) | 252 skany | [`krasnik_j40_kompendium_calosc.html`](krasnik_j40_kompendium_calosc.html) |
 
 ---

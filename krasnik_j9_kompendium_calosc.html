@@ -1,0 +1,2710 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Kraśnik – Fascykuł Czynności Cywilnych (1632–1634, wszywki do 1643) | Jednostka 09</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --gold-primary: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --purple-accent: #8b5cf6;
+      --accent-cyan: #06b6d4;
+      --border: #334155;
+      --card-bg: rgba(30, 41, 59, 0.85);
+      --success: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .portal-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gold-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      transition: all 0.2s;
+    }
+    .portal-back-link:hover {
+      background: rgba(245, 158, 11, 0.2);
+      transform: translateY(-1px);
+    }
+
+    header.hero {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* NAV TABS */
+    .tabs-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #fff;
+      background: var(--bg-tertiary);
+      border-color: var(--border);
+    }
+
+    .tab-btn.gold-tab.active {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold-primary);
+    }
+
+    .tab-badge {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.15rem 0.45rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KONTENER GŁÓWNY I ZAKŁADKI */
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* KARTY KPI */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card.gold { border-top: 3px solid var(--gold-primary); }
+    .stat-card.purple { border-top: 3px solid var(--purple-accent); }
+    .stat-card.cyan { border-top: 3px solid var(--accent-cyan); }
+    .stat-card.success { border-top: 3px solid var(--success); }
+
+    .stat-title {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .stat-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .info-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* KONTROLKI, WYSZUKIWARKA, PRZYCISKI */
+    .controls-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: flex-end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 200px;
+    }
+    .control-group.wide {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    input[type="text"], input[type="number"], select {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 0.6rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border 0.2s;
+    }
+    input[type="text"]:focus, input[type="number"]:focus, select:focus {
+      border-color: var(--gold-primary);
+    }
+
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* TABELA I KONTENER TABLE-WRAPPER */
+    .table-wrapper {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: rgba(15, 23, 42, 0.75);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: #fff; }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    tbody td {
+      padding: 0.85rem 1rem;
+      vertical-align: middle;
+    }
+
+    .badge-scan {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      color: var(--gold-primary);
+      background: rgba(245, 158, 11, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      display: inline-block;
+    }
+
+    .badge-district {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: rgba(139, 92, 246, 0.15);
+      color: #c4b5fd;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      margin: 0.1rem;
+    }
+
+    .badge-variant {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+      display: inline-block;
+      padding: 1px 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 3px;
+      border: 1px solid #334155;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      margin: 5vh auto;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .modal-header h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-close:hover { color: #fff; }
+
+    .modal-tabs-bar {
+      display: flex;
+      background: rgba(15, 23, 42, 0.75);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1rem;
+    }
+
+    .modal-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .modal-tab-btn:hover { color: #fff; }
+    .modal-tab-btn.active {
+      color: var(--gold-primary);
+      border-bottom-color: var(--gold-primary);
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .transcription-box {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: #e2e8f0;
+    }
+
+    .swa-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .swa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold-primary);
+      color: #000;
+      font-weight: 700;
+      padding: 0.65rem 1.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 0.75rem;
+      transition: all 0.2s;
+    }
+    .swa-btn:hover {
+      background: #d97706;
+      transform: translateY(-1px);
+    }
+
+    .occs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .occs-table th, .occs-table td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .occs-table th {
+      background: rgba(15, 23, 42, 0.5);
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    /* MONOGRAFIA I KARTY */
+    .monograph-content, .analytics-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .monograph-chapter, .analytic-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .analytic-card {
+      border-left: 4px solid var(--gold-primary);
+    }
+
+    .chapter-title, .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      color: var(--gold-primary);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(245, 158, 11, 0.25);
+      padding-bottom: 0.5rem;
+    }
+
+    .chapter-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: #e2e8f0;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    .monograph-content p, .analytics-content p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 1.6rem; }
+      .container { padding: 0.75rem; }
+      .tabs-nav { padding: 0.5rem; }
+      .tab-btn { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
+      .controls-panel { flex-direction: column; }
+      .control-group { width: 100%; }
+      .pagination-bar { flex-direction: column; align-items: stretch; }
+    }
+  
+    /* UNIFIED MODAL SECTION & BUTTON STYLES */
+    .modal-section {
+      margin-bottom: 1.25rem;
+    }
+    .modal-section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gold-primary);
+      margin-bottom: 0.4rem;
+    }
+    .btn-copy-trans {
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: var(--gold-primary);
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-copy-trans:hover {
+      background: var(--gold-primary);
+      color: #0f172a;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Kompendiów</a>
+    <div style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">
+      AP Lublin • Zespół 35/40/0 • Sygn. 35/40/0/1/9 (dawny Tom 3 / mikrofilm 110395)
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <header class="hero">
+    <h1>Fascykuł Czynności Cywilnych Miasta Kraśnika</h1>
+    <div class="subtitle">Księga Wójtowsko-Ławnicza i Radziecka 1632–1634 (wszywki do 1643) • Kupna, Sprzedaże, Kwitacje, Manifestacje • Sygn. 35/40/0/1/9</div>
+  </header>
+
+  <!-- PŁASKI PASEK GŁÓWNYCH ZAKŁADEK (DOKŁADNIE 4 ZAKŁADKI) -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('main-tab', this)">
+      <span>📊 Tabela Indeksowa Skanów</span>
+      <span class="tab-badge" id="mainTabBadge">20</span>
+    </button>
+    <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
+      <span>🌳 Słownik Genealogiczny Mieszkańców</span>
+      <span class="tab-badge" id="genTabBadge">82</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
+      <span>🏛️ Pełna Synteza Monograficzna</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
+      <span>🔍 Kluczowe Odkrycia i Przełomy</span>
+    </button>
+  </nav>
+
+  <!-- GŁÓWNY KONTENER Z 4 SEKRATAMI -->
+  <main class="container">
+
+    <!-- SEKCJA 1: TABELA INDEKSOWA SKANÓW -->
+    <section id="main-tab" class="tab-content active">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Liczba Skanów w Woluminie</div>
+          <div class="stat-value">244</div>
+          <div class="stat-desc">Kompletny fascykuł archiwalny (Partia 1: skany 1–20 in extenso)</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Ramy Chronologiczne</div>
+          <div class="stat-value" style="font-size:1.4rem;">1632–1634 [1643]</div>
+          <div class="stat-desc">Złoty wiek sądownictwa i handlu epoki Władysława IV</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Unikalne Profile Genealogiczne</div>
+          <div class="stat-value" id="genStatCount">82</div>
+          <div class="stat-desc">Zindeksowani mieszkańcy w Partii 1 (Wariant 2, 0 duplikatów)</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Transkrypcja Dyplomatyczna</div>
+          <div class="stat-value">100% P1</div>
+          <div class="stat-desc">Pełny odczyt łacińsko-polski in extenso z notacją wątpliwości</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="mainSearchInput">Wyszukiwarka spraw, osób i nieruchomości:</label>
+          <input type="text" id="mainSearchInput" placeholder="Szukaj po nazwisku, zawodzie, sygnaturze, kwocie..." oninput="filterMainData()">
+        </div>
+        <div class="control-group">
+          <label for="mainCategoryFilter">Kategoria aktu:</label>
+          <select id="mainCategoryFilter" onchange="filterMainData()">
+            <option value="">Wszystkie kategorie</option>
+          </select>
+        </div>
+        <div class="control-group" style="align-self: flex-end;">
+          <button class="page-btn" onclick="exportMainCSV()" style="background:var(--gold-primary); color:#000; font-weight:700;">
+            📥 Eksportuj Rejestr CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GŁÓWNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortMain('nr_skanu')" style="width: 8%;">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')" style="width: 10%;">Pagina ↕</th>
+              <th onclick="sortMain('data_rok')" style="width: 10%;">Rok ↕</th>
+              <th style="width: 20%;">Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')" style="width: 16%;">Kategoria ↕</th>
+              <th style="width: 24%;">Opis Sprawy / Treść Aktu</th>
+              <th onclick="sortMain('kwoty_miary')" style="width: 12%;">Kwoty / Podatki</th>
+            </tr>
+          </thead>
+          <tbody id="mainTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 2: SŁOWNIK GENEALOGICZNY -->
+    <section id="genealogy-tab" class="tab-content">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+          <div class="stat-value" id="genStatCountTab2">82</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Standard De-duplikacji</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">0 duplikatów tożsamości w bazie</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Synchronizacja Onomastyczna</div>
+          <div class="stat-value">100% PASS</div>
+          <div class="stat-desc">Wszystkie warianty z nawiasów kwadratowych zmapowane</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Elita Władzy i Rzemiosło</div>
+          <div class="stat-value">Wójt & Ława</div>
+          <div class="stat-desc">Burmistrz Pisarkowicz, wójt Grzymkowski, rajcy, kupcy</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="genSearchInput">Szukaj mieszkańca, zawodu lub wariantu nazwiska:</label>
+          <input type="text" id="genSearchInput" placeholder="Wpisz nazwisko, imię, przydomek, funkcję..." oninput="filterGenData()">
+        </div>
+        <div class="control-group" style="align-self: flex-end;">
+          <button class="page-btn" onclick="exportGenCSV()" style="background:var(--gold-primary); color:#000; font-weight:700;">
+            📥 Pobierz Słownik CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA GENEALOGII -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GENEALOGICZNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortGen('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGen('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGen('imie')" style="width: 15%;">Imię ↕</th>
+              <th onclick="sortGen('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
+              <th onclick="sortGen('funkcja')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th onclick="sortGen('skany_roboczo')" style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGen('zakres_lat')" style="width: 12%;">Zakres lat ↕</th>
+            </tr>
+          </thead>
+          <tbody id="genTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA GENEALOGII -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
+    <section id="monograph-tab" class="tab-content">
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział I: Kodykologiczna struktura i dyplomatyka Fascykułu Czynności Cywilnych Miasta Kraśnika (1632–1634)</h2>
+            <div class="chapter-content">
+                <p>W bogatym korpusie źródeł rękopiśmiennych Archiwum Państwowego w Lublinie zespół <strong>Akta miasta Kraśnika (35/40/0)</strong> wyróżnia się niezwykłą różnorodnością formularzy kancelaryjnych. Obok reprezentacyjnych, oprawnych w tłoczoną skórę ksiąg wójtowskich i radzieckich, <strong>Jednostka 09</strong> (dawny Tom 3, sygnatura archiwalna 3, mikrofilm nr 110395) reprezentuje odrębny, niezwykle cenny typ źródła: autentyczny <em>fascykuł czynności cywilnych</em> prowadzony na bieżąco w kancelarii ratuszowej w latach 1632–1634 (z późniejszymi wszywkami do 1643 r.).</p>
+                <p>Wolumin liczy <strong>dokładnie 244 skany cyfrowe</strong> (odpowiadające paginacji i foliacji rękopisu sięgającej fol. 128v). Na skanach 1–3 zachowała się pełna dokumentacja techniczna mikrofilmowania z 29 października 1959 r. w stacji ADM w Warszawie / WAP Lublin (236 zdjęć kodeksu, format papieru 33 × 21 cm, stwierdzone strony czyste: fol. 76v i fol. 119v). Skan 4 przedstawia oryginalną papierową okładkę fascykułu z epoki z historycznym napisem:</p>
+                <blockquote><em>„N 3. Fascykuł rożnych czynności cywilnych – kupna sprzedaży – kwitacyow – Relacion – Manifestow – Miasta Kraśnika z Lat 1632 – 1633 – 1634 – 1643. Kart 128 [74]”.</em></blockquote>
+                <p>Wewnętrzna wyklejka okładki (skan 5) kryje unikalną makulaturę introligatorską z fragmentem nowożytnego druku rot przysięgi sądowej w sprawach o krzywoprzysięstwo, co wskazuje na profesjonalną konserwację i zabezpieczenie woluminu w XIX stuleciu.</p>
+                <p>Od strony paleograficznej kodeks charakteryzuje się dynamiczną kursywą kancelaryjną pierwszej połowy XVII stulecia, kreśloną przez kilku pisarzy i notariuszy miejskich, w tym wieloletniego pisarza Walentyna Węgrzyckiego oraz burmistrza Jakuba Pisarkiewicza. Zapisy sporządzano w języku polskim z licznymi nagłówkami, formułami ingresowymi i glosami łacińskimi typowymi dla jurysdykcji prawa magdeburskiego i saskiego (<em>sub Iure Magdeburgensi et Saxonico</em>).</p>
+            </div>
+        </article>
+
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział II: Elity władzy, obronność miejska i handel wiślany do Gdańska w dobie wstąpienia na tron Władysława IV</h2>
+            <div class="chapter-content">
+                <p>Czas powstania pierwszej partii wpisów Jednostki 09 (jesień 1632 – lato 1634 r.) przypada na kluczowy moment w dziejach Rzeczypospolitej: bezkrólewie po zgonie Zygmunta III Wazy, sejm elekcyjny i koronację Władysława IV oraz wojnę smoleńską z Moskwą. Wpisy kodeksu odzwierciedlają te wielkie wydarzenia w skali lokalnej społeczności Kraśnika.</p>
+                
+                <h3>1. Ustrój miejski i Kustoszowie Prochu Miejskiego (Custodes pulveris Tormentarij)</h3>
+                <p>Władzę w mieście sprawowała zwarta elita patrycjuszowska, na czele której stali burmistrz Jakub Pisarkowicz (Pisarkiewicz), wójt Andrzej Grzymkowski oraz wpływowi rajcy: Marcin Kwasowicz, Marcin Miłek, Simon Sienkiewicz, Jan Fox i Adam Kamieński vel Stogniew. W grudniu 1633 r. (skan 17), w obliczu zagrożeń wojennych epoki, rada miejska podjęła przełomową uchwałę o utworzeniu urzędu <strong>Kustoszów Prochu Miejskiego i Dział</strong> (<em>Custodes pulveris Tormentarij</em>). Do ścisłego nadzoru miejskich zapasów prochu, saletry i dział powołano rajcę Sienkiewicza i ławnika Barzykowskiego, wprowadzając równocześnie ścisłą kontrolę poborców specjalnego podatku prochowego (<em>Exactores Prochowego</em>).</p>
+
+                <h3>2. Pozycja Kraśnika w strukturach państwowych: Asesor Trybunału Koronnego</h3>
+                <p>Niezwykłym dowodem prestiżu politycznego miasta było uroczyste laudum z 1634 r. (skan 19) w sprawie elekcji asesora miejskiego: <em>Electio Assessoris pro Tribunali</em>. Zgromadzenie rajców, wójta i starszych cechowych wybrało jednogłośnie rajcę Adama Kamieńskiego vel Stogniewa na reprezentanta miasta Kraśnika do składu orzekającego <strong>Najwyższego Trybunału Koronnego w Zamościu</strong> (<em>ad Judicia Suprema Tribunalia Zamoscensi</em>). Fakt ten dowodzi, że patrycjusze kraśniccy brali czynny udział w formowaniu najwyższego sądownictwa szlacheckiego Korony Polskiej.</p>
+
+                <h3>3. Mobilizacja obronna: Wilkierz Szarwarkowy na Bęben i Dzwon</h3>
+                <p>Równolegle wprowadzono bezprecedensowy rygor dyscypliny publicznej. <em>Laudum Strony Szárwarku</em> (skan 19) nakazywało wszystkim mieszkańcom, bez względu na stan i cech, natychmiastowe stawiennictwo przy pracach fortyfikacyjnych i naprawie wałów obronnych oraz mostów. Sygnałem do wymarszu było uderzenie w bęben miejski przez woźnego lub uderzenie w dzwon na ratuszu (<em>za uderzeniem w bęben lubo we dzwonek na szolty</em>), a niestawiennictwo karane było bezwzględną karą grzywny 1 złotego oraz 3 dniami więzienia w areszcie miejskim.</p>
+
+                <h3>4. Gospodarka, spory cechowe i spław towarów do Gdańska</h3>
+                <p>Pod względem gospodarczym Partia 1 dokumentuje dwa kluczowe zjawiska:</p>
+                <ul>
+                    <li><strong>Wielki spór cechowy kuśnierzy z szewcami (skany 14–15):</strong> Cechmistrz kuśnierzy Marcin Miłek oskarżył starszego cechu szewców Stanisława Szafranka o nielegalny skup i spekulacyjne podbijanie cen skór baranich. Rada miejska wydała salomonowy dekret dzielący asortyment (skóry gołe i strzyżone dla szewców, futrzarskie dla kuśnierzy), który szewcy zaskarżyli apelacją do Podkanclerzego Koronnego.</li>
+                    <li><strong>Handel wiślany i spław sukna do Gdańska (skany 19–20):</strong> Spór handlowy kupca żydowskiego Moszka Markowicza i jego synów Abrahama i Izraela z chrześcijańskim kupcem Stanisławem Kafarą odsłania powiązania Kraśnika z rynkiem bałtyckim. Towary (36 postawów sukna łańcuckiego i importowanego) ładowano na statki rzeczne (szkuty, komięgi) płynące Wisłą do Gdańska, gdzie wymieniano je na gotówkę i zboże.</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <!-- SEKCJA 4: KARTY ANALITYCZNE I ODKRYCIA -->
+    <section id="analytics-tab" class="tab-content">
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 1: Kodykologia i proweniencja Fascykułu Czynności Cywilnych Miasta Kraśnika (skany 1–5)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> 1632–1634 [oraz wszywki do 1643 r.]</span> | 
+                <span><strong>Kancelaria:</strong> Kancelaria radziecka i wójtowsko-ławnicza miasta Kraśnika</span> | 
+                <span><strong>Kategorie:</strong> Kodykologia, Archiwistyka, Konserwacja papieru, Mikrofilmowanie</span>
+            </div>
+            <div class="card-content">
+                <p>Jednostka 09 (sygn. archiwalna <strong>35/40/0/1/9</strong>, dawny Tom 3, sygnatura 3 / mikr. 110395) stanowi fascynujący zabytek staropolskiej archiwistyki miejskiej. W przeciwieństwie do oprawnych w skórę monumentalnych ksiąg wieczystych (J8) czy poszytów radzieckich (J1, J2), kodeks ten zachował oryginalną postać <em>fascykułu czynności niespornych i spornych</em>, oprawnego w gruby karton z epoki z zamaszystym, wykaligrafowanym tytułem:</p>
+                <blockquote><em>„N 3. Fascykuł rożnych czynności cywilnych – kupna sprzedaży – kwitacyow – Relacion – Manifestow – Miasta Kraśnika z Lat 1632 – 1633 – 1634 – 1643. Kart 128 [74]”.</em></blockquote>
+                <p>Na skanach 1–3 zachowała się pełna dokumentacja techniczna mikrofilmowania z 29 października 1959 r. w stacji ADM w Warszawie / WAP Lublin (236 zdjęć kodeksu, format papieru 33 × 21 cm, stwierdzone strony czyste: fol. 76v i fol. 119v). Skan 5 dokumentuje niezwykłą makulaturę introligatorską: wewnętrzna strona oprawy została podklejona drukiem rot przysiąg sądowych w sprawach o krzywoprzysięstwo. Kodeks otwiera unikalny wgląd w funkcjonowanie magistratu kraśnickiego w dobie bezkrólewia po śmierci Zygmunta III Wazy i elekcji Władysława IV.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 2: Dyscyplina miejska i jałmużna szpitalna: proces Jana Barzyka (skan 6, fol. 1r)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Jesień 1632 r.</span> | 
+                <span><strong>Kancelaria:</strong> Sąd radziecki i wójtowski kraśnicki (Officium Consulare)</span> | 
+                <span><strong>Kategorie:</strong> Prawo karne, Obraza majestatu urzędu, Szpitalnictwo miejskie, Prewencja</span>
+            </div>
+            <div class="card-content">
+                <p>Na fol. 1r (skan 6) inaugurację właściwych wpisów sądowych stanowi precedensowy dekret karny przeciwko Janowi Barzykowi. Mieszczanin ten dopuścił się publicznej zniewagi urzędu wójtowskiego i ławniczego, podważając powagę wyroków miejskich:</p>
+                <p>Sąd radziecki pod prezydującym wójtem Andrzejem Grzymkowskim zastosował surowy zestaw sankcji honorowych i materialnych: bezwzględną karę aresztu w miejskiej wieży więziennej (z zakazem opuszczenia aż do złożenia stosownego poręczenia majątkowego), obowiązek uroczystego odproszenia wójta, ławników i pisarza w asyście sześciu statecznych mężów miejskich (<em>per sex viros honestos et graves</em>) oraz uiszczenie grzywny pieniężnej w wysokości <strong>6 złotych polskich</strong> przeznaczonej w całości na <strong>Szpital Ubogich w Kraśniku</strong>.</p>
+                <p>Zapis ten unaocznia ścisłe powiązanie sądownictwa dyscyplinarnego z opieką społeczną i funduszami charytatywnymi miasta: grzywny karne za naruszenie spokoju publicznego stanowiły kluczowe źródło utrzymania pensjonariuszy kraśnickiego przytułku.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 3: Spór piwowarski Kierzów i rozgraniczenie jurysdykcji miejskich (skan 6, fol. 1r)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> 1632 / 1634 r.</span> | 
+                <span><strong>Kancelaria:</strong> Urząd Radziecki i Sąd Wójtowski</span> | 
+                <span><strong>Kategorie:</strong> Browarnictwo, Prawo magdeburskie, Rozgraniczenie forów sądowych, Cechy</span>
+            </div>
+            <div class="card-content">
+                <p>Zapis <em>Inter Albertum et Matthiam Kierzkowie</em> (skan 6) rzuca cenne światło na obrót piwem w Kraśniku i precyzyjne rozgraniczenie kompetencji sądu radzieckiego (<em>Officium Consulare</em>) oraz sądu wójtowskiego (<em>Officium Advocatiale</em>). Spór dotyczył pożyczonej w sąsiedzkim obrocie beczki piwa oraz wzajemnego roszczenia o połeć mięsa.</p>
+                <p>Podczas gdy w kwestii zwrotu beczki i uregulowania zapłaty za piwo urząd radziecki wydał bezpośredni nakaz egzekucyjny, w zakresie spornej pretensji mięsnej – wobec braku pisemnych dowodów i konieczności złożenia przysięgi oczyszczającej (<em>cum Juramento pacifice</em>) – odesłał strony do właściwego dla spraw spornych sądu wójtowskiego prawa magdeburskiego (<em>eo in passu partes ad Judicium Advocatiale amandat</em>).</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 4: Dworzanie Podkanclerzego Koronnego a ciężary przedmieszczan: sprawa Iłowieckiego (skany 6–7)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Listopad – grudzień 1632 r.</span> | 
+                <span><strong>Kancelaria:</strong> Urząd Radziecki Kraśnicki</span> | 
+                <span><strong>Kategorie:</strong> Podwody królewskie, Dwór magnacki, Podkanclerzy Koronny, Topografia Podlesia, Apelacje</span>
+            </div>
+            <div class="card-content">
+                <p>Jednym z najważniejszych procesów ustrojowych w początkowej partii kodeksu jest sprawa wytoczona przez szlachcica Stanisława Iłowieckiego, sługę Jaśnie Wielmożnego Podkanclerzego Koronnego, przeciwko przedmieszczanom kraśnickim z Podlesia: Wawrzyńcowi Koźmianowi i Wojciechowi Wolakowi (skany 6–7). Iłowiecki, powołując się na oficjalny Uniwersał podkanclerski, zażądał koni podwodowych i czeladnika na gwałtowną potrzebę podróży państwowej do Krakowa.</p>
+                <p>Pozwany Koźmian przedstawił drobiazgowe wyliczenie kosztów podwody (wałach, owies, leguminy w kobielach za 13 złp), zarzucając słudze podkanclerskiemu bezprawne przetrzymywanie konia przez tydzień w Deszkowicach u tamtejszego wójta oraz zaginięcie cennego siodła i uzdeczki. Zeznania czeladnika ujawniają realia podróży nowożytnej: postoje w Zamościu i Krakowie, opłaty przewozowe oraz noclegi dworskie.</p>
+                <p>Wyrok radziecki nakazujący przedmieszczanom dopłatę 8 złp spotkał się z natychmiastową apelacją Koźmiana bezpośrednio przed oblicze samego Podkanclerzego Koronnego po jego powrocie z sejmu warszawskiego.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 5: Zbrojownia miejska, Laudum Szarwarku i Asesor Trybunału Koronnego (skany 17–19)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Grudzień 1633 – czerwiec 1634 r.</span> | 
+                <span><strong>Kancelaria:</strong> Rada Miejska i Zgromadzenie Cechów</span> | 
+                <span><strong>Kategorie:</strong> Obronność miejska, Proch strzelniczy, Artyleria, Szarwark, Trybunał Koronny w Zamościu</span>
+            </div>
+            <div class="card-content">
+                <p>Skany 17–19 przynoszą trzy fundamentalne odkrycia ustrojowe dla historii Rzeczypospolitej miejskiej:</p>
+                <ol>
+                    <li><strong>Kustoszowie Prochu Miejskiego i Dział (skan 17):</strong> <em>Custodes pulveris Tormentarij</em> – Rada Miejska wyznaczyła specjalnych komisarzy (rajcę Symona Sienkiewicza i ławnika Marcina Barzykowskiego) do stałego dozoru magazynu prochowego, saletry i miejskich armat (<em>pulvis tormentarius</em>) oraz nakazała zbadanie rachunków poborców specjalnego podatku prochowego (<em>Exactores Prochowego</em>).</li>
+                    <li><strong>Wybór Asesora do Trybunału Koronnego (skan 19):</strong> W uroczystym akcie <em>Electio Assessoris pro Tribunali</em> burmistrz Jakub Pisarkowicz wraz ze starą i nową radą oraz cechmistrzami wybrali jednogłośnie rajcę Adama Kamieńskiego vel Stogniewa na reprezentanta miasta przy Najwyższym Trybunale Koronnym obradującym w Zamościu.</li>
+                    <li><strong>Wilkierz Szarwarkowy na Bęben i Dzwon (skan 19):</strong> Z powodu zaniedbywania napraw wałów i mostów magistrat uchwalił żelazne <em>Laudum Strony Szárwarku</em>: każdy mieszkaniec pod karą 1 złotego i 3 dni aresztu w wieży obowiązany jest stawić się do pracy natychmiast na dźwięk bębna woźnego lub uderzenie w dzwon ratuszowy.</li>
+                </ol>
+            </div>
+        </article>
+    </section>
+
+  </main>
+
+  <!-- MODAL SZCZEGÓŁÓW (3 ZAKŁADKI KANONU J40) -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Szczegóły</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Content filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    let currentModalScan = null;
+
+    // DANE GŁÓWNE (20 SKANÓW PARTII 1) I GENEALOGICZNE
+    const mainData = [
+  {
+    "nr_skanu": 1,
+    "strona_pagina": "brak (karta tytułowa mikrofilmu)",
+    "data_rok": "1959",
+    "osoby_podmioty": "<span class=\"badge-district\">WAP Lublin</span> <span class=\"badge-role\">Laboratorium ADM Warszawa</span>",
+    "kategoria": "Kodykologia / Metryczka mikrofilmu",
+    "opis_pozycji": "Karta tytułowa mikrofilmu sygn. 110395",
+    "opis_sprawy": "Oficjalna karta tytułowa mikrofilmu nr 110395 wykonanego w Pracowni Mikrofilmowej Archiwum Dokumentacji Mechanicznej dla Wojewódzkiego Archiwum Państwowego w Lublinie. Zespół archiwalny: Akta miasta Kraśnika, Nr tomu dawny: 3 [obecnie sygnatura 35/40/0/1/9]. Data mikrofilmowania: 29 października 1959 r.",
+    "kwoty_miary": "—",
+    "uwagi": "Kraśnik, Lublin, Warszawa",
+    "transkrypcja": "[Karta tytułowa mikrofilmu – Pracownia Mikrofilmowa Archiwum Dokumentacji Mechanicznej / WAP Lublin]\n\nWOJEWÓDZKIE ARCHIWUM PAŃSTWOWE\nLUBLIN\n\nAKTA MIASTA: KRAŚNIKA\n\nNR TOMU: 3\n\nNR MIKROFILMU: 1 1 0 3 9 5\n\nLAB. MIKROFILM. ARCH. DOKUM. MECHANICZNEJ\nPoczątek\n\nDN. 29 M-C 10 ROK 1959 r.",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 2,
+    "strona_pagina": "brak (metryczka akt Wzór Nr 1)",
+    "data_rok": "1959",
+    "osoby_podmioty": "<span class=\"badge-district\">Wojewódzkie Archiwum Państwowe w Lublinie</span>",
+    "kategoria": "Kodykologia / Metryka archiwalna",
+    "opis_pozycji": "Metryczka akt archiwalnych mikrofilmu (Wzór Nr 1)",
+    "opis_sprawy": "Urzędowa metryczka aktowa mikrofilmu nr 110.395. Zespół: Księga różnych czynności kupna sprzedaży m. Kraśnika. Sygnatura archiwalna dawna: 3 [obecna: 35/40/0/1/9]. Data przygotowania akt do mikrofilmowania: 8 IV 1959 r. Liczba ekspozycji negatywowych: 236 zdjęć kodeksu.",
+    "kwoty_miary": "—",
+    "uwagi": "Lublin, Kraśnik",
+    "transkrypcja": "[Wzór Nr 1 – Metryczka akt archiwalnych mikrofilmu]\n\nWojewódzkie Archiwum Państwowe w Lublinie\nul. Narutowicza 10, tel. 37-12\n\nMETRYCZKA AKT\n\nWypełnia archiwum:\n1. Nazwa Archiwum: Wojewódzkie Archiwum Państwowe w Lublinie\n2. Nazwa zespołu lub zbioru: Księga różnych czynności kupna sprzedaży m. Kraśnika\n3. Sygnatura archiwalna: 3 [obecnie: 35/40/0/1/9]\n4. Data przygotowania akt do mikrofilmowania: 8. IV. 1959 r.\n5. Ilość zdjęć: 236\n6. Nr książki kontrolnej: —\n\n110. 395\n\nWypełnia stacja mikrofilmowa:\n1. Fotografowano dnia: 29 X 1959\n2. Klatki przyjęte: całość\n3. Data przekazania do magazynu: —",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 3,
+    "strona_pagina": "brak (karta informacyjna)",
+    "data_rok": "1959",
+    "osoby_podmioty": "<span class=\"badge-district\">WAP Lublin</span>",
+    "kategoria": "Kodykologia / Karta kontrolna",
+    "opis_pozycji": "Karta kontrolna obmiaru i stron pustych niefilmowanych",
+    "opis_sprawy": "Karta informacyjna mikrofilmu jednostki Kraśnik 3. Łączna ilość zdjęć: 236 ujęć. Wykaz stron czystych niefilmowanych z powodu braku zapisu: fol. 76v oraz fol. 119v. Wymiary fizyczne kodeksu: 33 × 21 cm.",
+    "kwoty_miary": "33 × 21 cm",
+    "uwagi": "Kraśnik, Lublin",
+    "transkrypcja": "[Karta informacyjna mikrofilmu – WAP Lublin]\n\nKraśnik 3\n\nKARTA INFORMACYJNA\n\nŁączna ilość zdjęć: 236\nWykaz stron pustych niefilmowanych:\n76v, 119v.\n\nWymiary dokumentu, obmiar jednostki archiwalnej:\nw cm: wysokość x szerokość: 33 x 21",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 4,
+    "strona_pagina": "okładka przednia",
+    "data_rok": "1632–1643 [XIX w.]",
+    "osoby_podmioty": "<span class=\"badge-district\">Kancelaria Miejska Kraśnika</span>",
+    "kategoria": "Oprawa kodeksu / Karta tytułowa",
+    "opis_pozycji": "Oryginalna papierowa okładka fascykułu spraw cywilnych (1632–1643)",
+    "opis_sprawy": "Zewnętrzna karta okładkowa woluminu z epoki nowożytnej z dawnym odręcznym tytułem kancelaryjnym: 'N 3. Fascykuł rożnych czynności cywilnych – kupna sprzedaży – kwitacyow – Relacion – Manifestow – Miasta Kraśnika z Lat 1632 – 1633 – 1634 – 1643. Kart 128 [74]'.",
+    "kwoty_miary": "—",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[Oryginalna okładka papierowa kodeksu – XVII–XIX w.]\n\nN 3.\n\nFascykuł rożnych czynności cywilnych – kupna sprzedaży – kwitacyow – Relacion – Manifestow – Miasta Kraśnika\n\nZ Lat. – 1632 – 1633 – 1634 – 1643.\n\nKart 128\n74.",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 5,
+    "strona_pagina": "wyklejka przednia",
+    "data_rok": "XVII/XIX w.",
+    "osoby_podmioty": "<span class=\"badge-district\">WAP Lublin</span>",
+    "kategoria": "Kodykologia / Makulatura oprawna",
+    "opis_pozycji": "Wewnętrzna wyklejka okładki z fragmentem druku przysięgi",
+    "opis_sprawy": "Wewnętrzna strona przedniej okładki wzmocniona makulaturą drukarską z rotą przysięgi świadków wyznania rzymskokatolickiego ('Czego protokół spisany...'). Na prawym marginesie zachowany XIX-wieczny pasek ewidencyjny WAP Lublin.",
+    "kwoty_miary": "—",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[Wewnętrzna strona przedniej okładki – makulatura z drukiem odwróconym]\n\n[Fragment druku przysięgi:]\n...i całą Jego Familią\nPo czem obydwa Świadkowie upomnieni o ważności przysięgi i skutkach krzywo przysięstwa wykonali zwyczajem katolików Rzymskich przysięgę w rothę, „iako wszystko zeznałem rzetelnie i Sumiennie„\nCzego protokoł spisany\n\n[Po prawej pasek formularza archiwalnego:]\nWojewódzkie Archiwum Państwowe w Lublinie... Księga...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 6,
+    "strona_pagina": "pag. 1 (fol. 1r)",
+    "data_rok": "1632 [1634]",
+    "osoby_podmioty": "<span class=\"badge-role\">wójt Andrzej Grzymkowski</span>, <span class=\"badge-role\">Jan Barzyk</span>, <span class=\"badge-role\">Wojciech Kierz</span>, <span class=\"badge-role\">Maciej Kierz</span>, <span class=\"badge-role\">Stanisław Iłowiecki</span>, <span class=\"badge-district\">Podlesie</span>: <span class=\"badge-role\">Wawrzyniec Koźmian</span>, <span class=\"badge-role\">Wojciech Wolak</span>, <span class=\"badge-role\">Podkanclerzy Koronny</span>",
+    "kategoria": "Dekret radziecki / Sądownictwo karne i cywilne",
+    "opis_pozycji": "Inauguracja rocznika 1632: kary za zniewagę wójta, spór piwny Kierzów i pozew sługi Podkanclerzego o podwody",
+    "opis_sprawy": "Otwarcie wpisów z jesieni 1632 r. (fol. 1r): 1) Dekret radziecki: Jan Barzyk skazany na wieżę za zniewagę wójta i ławy oraz 6 złp winy na szpital kraśnicki; 2) Spór sąsiedzki Wojciecha i Macieja Kierzów o pożyczoną beczkę piwa i połcie mięsa (odesłanie do sądu wójtowskiego); 3) Pozew Stanisława Iłowieckiego sługi Podkanclerzego Koronnego przeciwko przedmieszczanom Wawrzyńcowi Koźmianowi i Wojciechowi Wolakowi o koszty podwody konnej do Krakowa na Uniwersał królewski (35 złp kosztów, 13 złp zarzutów obrończych).",
+    "kwoty_miary": "6 złp (kara na szpital), 35 złp, 13 złp (koszty podwody)",
+    "uwagi": "Kraśnik, Podlesie, Kraków",
+    "transkrypcja": "[fol. 1r, skan 6]\n\n1\n1. 6. 3. 2.\n\nInter Grzymkowski et Joan Barzyk.\nZ Decretu Urzędu ninieyszego Radzieckiego Kraś.: Jan Barzyk skarany iest na więzienie z ktorego nie zeydzie, asz się zaręczy iako Winę Złotych Sześć [6 złp] do Szpitala Kraśnickiego odda; Pana Wóyta z Ławnicą iego y Pisarzem przez mężow Sześciu Mieszczan statecznych publice przeprosi, y nakłady Prawne odda. Ktory Decret strony obiedwie przyjęły y o nim się uspokoiły.\n\nActum feria tertia post Festum S. Lucae Evangelistae proxima 1634.\nInter Albertum et Matthiam Kierzkowie.\nW sprawie y Actiey sądowey, między Uczciwymi Woyciechem Actorem a Matysem Kierzkami Pozwanym o beczkę pożyczoną przez Actora Pozwanemu, po miedzy sąsiedzkiemi kupuiąc piwa; Decretum od Urzędu ninieyszego nakazano beczkę oddać y piwo zapłacić. A że sobie Pozwany praetendował mieć dług u Actora za połeć mięsa, do ktorego się długu Actor nie zna, tedy z Juramentem pacifice, Urząd ninieyszy do sądu Woytowskiego eo in passu strony odsyła. Quod ab utrisque partibus susceptum est.\n\nFeria sexta post Festum Sanctorum Omnium proxima [5 listopada 1632 r.]\nInter Nob. Iłowiecky et Laurentium Koźmian et Wolak.\nW sprawie y Actiey, między Szlachetnym [Stanisławem?] Iłowieckim Sługą Jaśnie Wielmożnego Jego Mci Pana Podkanclerzego Koronnego Pana naszego Miłościwego Actorem, a Szlachetnym Wawrzyńcem Koźmianem y Woyciechem Wolakiem Przedmieszczanami Kraśnickimi Pozwanymi. Gdzież Actor skarzył się na Pozwanych o to, iż on maiąc Uniwersał od Jaśnie Wielmożnego do Urzędu Kraśnickiego, żeby na pilną potrzebę dworukoni Actorowi dano, gdzie dosieć czyniąc Urząd rozkazaniu Jaśnie Wielmożnego, rozkazał Pozwanym żeby dali dwoie koni Actorowi, y z nimi sługę takiego swego dla dozoru posłali, ktorey posławszy na sławę onemu nie medali. Actor sam sprawować do Krakowa y z Krakowa musiał, co sobie rachował na Złotych Trzydzieści Piętnaście [35 złp] na się samego y konia swego rachuiąc a piętnaście na konie Pozwanych y na Czeladnika. Na co Pozwany Wawrzyniec Koźmian (gdyż Wolaka dla podwody Warszawskiey nie było) tak odpowiedział: Już temu niedaleko dwiie lecie iakośmy dawali koń swoy do podwodu P. Iłowieckiemu, a lemia Czeladnikowi dał wałoch Złotych Pieniędzy, y putkorca owsa dla konia, krom legumin com w kobielach dał; kosztuie mię ta Podwoda na Złotych Trzynaście [13 złp] wyprawiona...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 7,
+    "strona_pagina": "pag. 1v (fol. 1v)",
+    "data_rok": "1632",
+    "osoby_podmioty": "<span class=\"badge-role\">Stanisław Iłowiecki</span>, <span class=\"badge-role\">Wawrzyniec Koźmian</span>, <span class=\"badge-role\">Jan Deszkowski wójt</span>, <span class=\"badge-role\">Doctor Żydowski</span>, <span class=\"badge-role\">Lorens Mularz</span>, <span class=\"badge-role\">Tomasz Boniecki</span>, <span class=\"badge-role\">Stanisław Derkaczyk</span>, <span class=\"badge-role\">Jakub Pisarkiewicz burmistrz</span>",
+    "kategoria": "Apelacja podkanclerska / Manifestacja lekarska / Wydanie zbiegłego poddanego",
+    "opis_pozycji": "Wyrok w sprawie podwód, manifestacja doktora żydowskiego o suknię i kwitacja ze zbiegłego poddanego",
+    "opis_sprawy": "Trzy czynności prawne z grudnia 1632 r. (fol. 1v): 1) Wyrok radziecki w sporze Iłowieckiego z Koźmianem: nakaz wypłaty 8 złp na ręce wójta Deszkowskiego i apelacja Koźmiana do Podkanclerzego; 2) 'Manifestatio Doctora Żydowskiego': uczony/lekarz żydowski protestuje w sprawie zielonej sukni bajotowej zastawionej na Litwie u kucharki zmarłego murarza Lorensa; 3) Szlachcic Tomasz Boniecki sługa kasztelanowej lubelskiej kwituje burmistrza Pisarkiewicza z ujęcia i wydania poddanego Stanisława Derkaczyka.",
+    "kwoty_miary": "8 złp, 1 złp 7 gr, 12 gr, 15 gr",
+    "uwagi": "Kraśnik, Deszkowice, Litwa, Lublin",
+    "transkrypcja": "[fol. 1v, skan 7]\n\n1v\n1. 6. 3. 2.\n\n[Kontynuacja sprawy Iłowiecki contra Koźmian et Wolak:]\n...rowiąc konia swego, gdy mi go Pan Iłowiecki hamował, y tydzień go w Deszkowicach u Wóyta trzymał. Siodło mi tamże zginęło za zł. 1 gr. 7, Uzdeczka za gr. 1. Okrom owsa com do Zamościa dał dla tych koni. A dla lepszego poparcia prawdy, tenże Pozwany stawił tegoż Czeladnika, co z Panem Iłowieckim jeździł, ktory będąc examinowany od Urzędu zeznał w te słowa a to pod przysięgą, że po dwa razy była dana strawa od P. Iłowieckiego dla tych koni: nasiano po gr. 6, co czyni gr. 12, a raz dał z Krakowa dał y dla swego konia y dla naszych na owies gr. 15, od przewozu dał koniom w Zamościu gdy mi konie zahamował dał gr. 4, więcey nic nie dawał, bo dobrze pamiętam. Sam się sam do Krakowa sprawował, bom miał Złoty, y pułkorca owsa; w Krakowie nic nie dał, bośmy się tam y pułdnia nie bawili, kazuiąc iadąc ustępował do dworow, y dawano nam obrok. Urząd tedy ninieyszy Radziecki Kraśnicki taki Decret uczynił, daiąc wiarę Panu Iłowieckiemu, ktory dotrzymaniem sumieniem affirmował, że tak wiele dał na strawę tych koni, nakazał stronie Pozwaney oddać Złotych ośm [8 złp] dobrey monety kłaney Panu Deszkowskiemu, zostawuiąc zdrowe prawo Pozwanemu tak z Wolakiem o połowicę, iako z Panem Iłowieckim o siodło y uzdeczkę. Ktory Decret Actor przyiął, a Pozwany czuiąc się być obciązonym do Jaśnie Wielmożnego Jego Mci Pana Podkanclerzego Koronnego Pana naszego Miłościwego appellował, ktorey dopuszczono, a mocą wnieść Appellacyą wtredzień po szczęśliwym wroceniu się z Warszawy Jaśnie Wielmożnego.\n\nManifestatio Doctora Żydowskiego.\nNiewierny Doctor Żydowski Urzędowi ninieyszemu Radzieckiemu Kraśnickiemu praesentował y okazał suknią zieloną baiątowską bez kształtu protestuiąc się przed tymże Urzędem, że tę suknią przed dwiema laty zastawił onego na Litwie, kucharce co była niegdy u Lorensa Mularza tu w Kraśniku służyła, żądaiąc żeby to iego oświadczenie do Ksiąg ninieyszych było przyjęte. O pamiętnym oświadczeniu otrzymał.\n\nActum die 20 Decembris Anno ut supra [1632].\nBoniecki quietat Civitatem de extradito sibi subdito Stanislao Derkaczyk.\nSzlachetny Tomasz Boniecki, sługa na ten czas Jey Mci Paniey Lubelskiey, przed Urzędem y Actami ninieyszymi publicznie stając... zeznał, że dnia dzisieyszego, z rąk Sławnego Jakuba Pisarkiewicza Burmistrza...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 8,
+    "strona_pagina": "pag. 2 (fol. 2r)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Bartłomiej Fischer</span>, <span class=\"badge-district\">Słupia</span>: <span class=\"badge-role\">Wawrzyniec Kisiel</span>, <span class=\"badge-role\">Walenty Kudła</span>, <span class=\"badge-role\">Mikołaj Kisielek</span>, <span class=\"badge-role\">Wawrzyniec Ćmiel</span>, <span class=\"badge-role\">Wojciech Ćmiel</span>, <span class=\"badge-role\">Grzegorz Dymek</span>, <span class=\"badge-role\">Stanisław Dymek</span>, <span class=\"badge-role\">Jakub Cieszka</span>; <span class=\"badge-role\">Szymon Postrzeleniec prowizor</span>, <span class=\"badge-role\">Marcin Miłek prowizor</span>, <span class=\"badge-role\">Jan Jazdzyk</span>, <span class=\"badge-role\">Jan Wrona wójt mikołajski</span>, <span class=\"badge-role\">Paweł Doliator</span>, <span class=\"badge-role\">Maciej Klebarski ślusarz</span>, <span class=\"badge-role\">Boruch Byszkowicz</span>, <span class=\"badge-role\">Stanisław Kurelik</span>, <span class=\"badge-role\">Świderski</span>",
+    "kategoria": "Przysięga oczyszczająca / Legat szpitalny / Burda rzemieślnicza / Skarga żydowska",
+    "opis_pozycji": "Przysięga ze Słupi o zabójstwo w obronie własnej, kwitacja ze zboża szpitalnego i kara aresztu za burdę",
+    "opis_sprawy": "Cztery wpisy z 1633 r. (fol. 2r): 1) Wawrzyniec Kisiel ze wsi Słupia z 6 współprzysiężnikami oczyszcza się przed sługą Podkanclerzego Fischerem z zarzutu złośliwego zabójstwa Walentego Kudły (obrona konieczna); 2) Prowizorowie szpitala Postrzeleniec i Miłek kwitują Jana Jazdzyka z 6 korców zboża z legatu wójta mikołajskiego Jana Wrony; 3) Wyrok w bójce Pawła Doliatora ze ślusarzem Maciejem Klebarskim: kary aresztu pod ratuszem i na Wieży Babie pod winą 5 grzywien; 4) Skarga Borucha Byszkowicza Żyda na Kurelika i Świderskiego o pobicie.",
+    "kwoty_miary": "6 korcy zboża, 5 grzywien kary",
+    "uwagi": "Kraśnik, Słupia, Mikołaj",
+    "transkrypcja": "[fol. 2r, skan 8]\n\n2\n1. 6. 3. 3.\n\n[Dokończenie przysięgi Kisiela:]\n...sedmią świadkow sąsiad swoich urodzaju sobie podobnych wykonać (czego mu sąd ninieyszy z dozwolenia Pana Bartłomieia Fischera sługi Jaśnie Wielmożnego Jego Mci Pana Podkanclerzego Koronnego dopuścił); Wykonał tedy pomieniony Wawrzyniec Kisiel przysięgam: „Panu Bogu w Troycy Jedynemu, żem Nieboszczyka Kudła Walentego w obronie zdrowia swego, nie z żadney złości ranił, y żem go zabić nie myślił, y nie tym umysłem ranił, żebym go miał zabić, ale żebym zdrowie swoie obronił. Tak mi Panie Boże dopomoż, y męka Jego święta”. Świadkowie zaś iego: Mikołay Kisielek, Wawrzyniec Cmuel, Woyciech Cmuel, Grzegorz Dymek, Stanisław Dymek, Jakub Cieszka, wszyscy z teyże Wsi Słupiey przysięgali rotą: „My Niżey Podpisani Przysięgamy Panu Bogu w Troycy Jedynemu, że Przysięga Wawrzyńca Kisiela iest we wszystkich punktach prawdziwa – tak nam Panie Boże dopomoż y męka Jego święta”.\n\nProvisores Hospitalis Quietant Joannem Jazdzyk.\nDo Urzędu y Sądu ninieyszego Wóytowskiego y Ławniczego Kraśnickiego oblicznie stanąwszy Sławetni Szymon Poszstrzeleniec y Marcin Miłek Provisorowie Szpitala Kraśnickiego, będąc zdrowi na ciele y na umyśle, jawnie, dobrowolnie, nie przymuszenie słowami urzędowymi zeznali, iż do rąk swoich od Uczciwego Jana Jazdzyka Przedmieszczanina Kraśnickiego odebrali Zboża rożnego Korcy Sześć [6 korcy]: Żyta Pułtora Korca, Jęczmienia także Pułtora, Tatarki Pułtora, Owsa Pułtora, ktore to Zboże Nieboszczyk Jan Wrona Wóyt Mikołayski w regestrze zapisał a na Jazdzyka przekazał był ubogim do szpitala Kraśnickiego. Z ktorego zboża wszyscy recognoscenci praeinsertum Joannem Jazdzyk na wieczne czasy uroczyście Quitowali y wolnym uczynili ninieyszym zeznaniem swoim. Quod ad Officium praesens susceptum et memoriali formatum est.\n\nInter Paulum Doliathorem et Matthiam Klebarski serrifabrum.\nPoniewasz świadkowie zeznali, że z obudwu stron sobie w poswarku nie cierpieli, y zonek swoich nie samowali wrony, tedy tak Actora iako y Pozwanego uznał bydź sąd winnych, y obudwu na więzienie skazał, Actora pod Ratusz a Pozwanego na Wieżę Babę, z ktorego obadwa ręczyć się maią, iako się zapolpólnie przed Urzędem przeproszą, y pokoy pod Winą Pięciu Grzywien [5 grz.] owoce kładzalnym siedzeniu w Masce, ktoby był na kogo przyczynę dał, a swiadectwem byłaby pokazana. Ktorzy Decret strony obiedwie przyjęły. Sollicitavit.\n\nStanislaus Kurelik et Świderski ex parte Boruch Certum cius.\nNiewierny Boruch Byszkowicz Żyd Kraśnicki oświadczał się naprzeciwko Stanisławowi Kurelikowi y Świderskiemu Kowalczykowi, że dwa razy będać przez sługę Mieyskiego...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 9,
+    "strona_pagina": "pag. 2v (fol. 2v)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Stanisław Kafara</span>, <span class=\"badge-district\">Łopoka</span>: <span class=\"badge-role\">Jakub Gnaciak</span>; <span class=\"badge-role\">Jan Barszczowicz</span>, <span class=\"badge-role\">Andrzej Jurkowicz ławnik</span>, <span class=\"badge-role\">Jan Kraiński</span>, <span class=\"badge-role\">Jan Macława</span>, <span class=\"badge-role\">Śmierzgniowa</span>",
+    "kategoria": "Obdukcja ran / Rozbój / Sprawa po zmarłym na zarazę / Manifestacja",
+    "opis_pozycji": "Obdukcja pobicia Kafary przez chłopa z Łopoki i skarga o sługę zmarłego w czasie zarazy",
+    "opis_sprawy": "Wpisy z września 1633 r. (fol. 2v): 1) Obdukcja krwawych ran mieszczanina Stanisława Kafary skatowanego przez Jakuba Gnaciaka z Łopoki (rabunek 3 talarów lekkich, 2 półtalarów i koczora baraniego); 2) Skarga Jana Barszczowicza na ławnika Andrzeja Jurkowicza o sługę zmarłego podczas morowego powietrza w Kraśniku oraz skoszenie jęczmienia na niwie powoda; 3) Manifestacja Jana Macławy przeciwko Śmierzgniowej.",
+    "kwoty_miary": "3 talary lekkie, 2 półtalary",
+    "uwagi": "Kraśnik, Łopoka",
+    "transkrypcja": "[fol. 2v, skan 9]\n\n2v\n1. 6. 3. 3.\n\n...Pozwani opornie nie stanęli, zadaiąc żeby w kontumacyą byli ex admisione Judicy byli uznani, co otrzymał; sollicitavit.\n\nActum feria quarta ipsa Vigilia Festi Nativitatis Gloriosissimae Virginis Mariae Anno 1633. [7 września 1633 r.]\nVisio vulnerum Stanislai Kafara Civis Casnicensis.\nUczciwy Stanisław Kafara Mieszczanin Kraśnicki oblicznie do Urzędu ninieyszego Woytowskiego y Ławniczego Kraśnickiego przyszedłszy uroczyście oświadczał się przeciwko Pracowitemu Jakubowi Gnaciakowi z Łopoki, urzędowey razow sobie od niego zadanych, y okazał Urzędowi ninieyszemu rany takie: Naprzod na plecach razow sinych trzy; Na prawey ręce nizey ramienia raz siny krwawy boy; Na ramieniu prawym raz siny boy; boki wszystkie potłuczone sine, wierzchu głowy na lewym rogu razow krwawych prze-trąconych boyów dwa, pley pusty wychodzą; Głowa wszystka zbita, oświadczaiąc się y powtore przeciwko temuż Gnaciakowi, że go niemiernie z pomocnikami swoimi pobił, przyczym zginęło mu Pieniędzy Trzy Lekchowe Talary, a dwa Pułtalerki, koczor o Barankowy, ofiaruiąc się toż w tym swoim oswiadczeniu z tymże Gnaciakiem czasu y mieysca swego. Co iest zapisano y pamiętnem obłożono.\n\nActum feria sexta post Festum Nativitatis Beatae Virginis Mariae proxima [9 września 1633 r.]\nPropositio Joannis Barszczowicz contra Andream Jurkowicz.\nDo Urzędu ninieyszego Woytowskiego y Ławniczego Kraśnickiego Uczciwy Jan Barszczowicz Obywatel Kraśnicki, dawszy przypozwać Sławetnego Andrzeia Jurkowicza Ławnika y Mieszczanina Kraśnickiego skarzył się nań his formalibus: „Łaskawy P. Woycie Przed sądem wnoszę skargę się na P. Jurkowicza o mego Sługę Nieboszczyka Kraińskiego ktore on podczas Powietrza Kraśnickiego niewiedzieć gdzie podział; Także skarżę się o Jęczmień ktory tenże P. Jurkowicz na Niwce moiey własney pożął y do swoiego domu zabrał, Len z ogroda mego wybrany na moy pożytek obrocił, Paltoczek o Kozieł Obrowany, także Nieboszczyka Kraińskiego o czym z Pozwanym ma wiedzieć iako z bliski sąsiad”. Supra quam Propositionem Actoris Citatus personaliter stans ex admissione Actio obtinuit ad respondendum dilationem ad quindenam, protestando conji eundem Actorem habere litem inpensarumque inde emergentium.\n\nManifestatio Joannis Macława contra Smierzgniowa.\nUczciwy Jan Macława Obywatel Kraśnicki, przed tymże Urzędem Woytowskim stoiąc...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 10,
+    "strona_pagina": "pag. 3 (fol. 3r)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Wojciech Łuczyc rajca</span>, <span class=\"badge-role\">Walenty Węgrzycki pisarz</span>, <span class=\"badge-role\">Stanisław Ciućka woźny</span>, <span class=\"badge-role\">Wojciech Banaszkowicz woźny</span>, <span class=\"badge-role\">Tomasz Boniecki</span>, <span class=\"badge-role\">Stanisław Derkaczyk</span>, <span class=\"badge-role\">Marcin Kwasowicz rajca</span>, <span class=\"badge-role\">Marcin Miłek rajca</span>, <span class=\"badge-role\">Simon Sienkiewicz rajca</span>, <span class=\"badge-role\">Jan Fox rajca</span>, <span class=\"badge-role\">Adam Stogniew rajca</span>, <span class=\"badge-role\">Symon Miedziany Kudrełł</span>, <span class=\"badge-role\">Sebastian Pęzik</span>",
+    "kategoria": "Wydanie zbiega / Uroczyste otwarcie roku / Rozgraniczenie gruntów",
+    "opis_pozycji": "Formalne wydanie poddanego Derkaczyka, otwarcie roku 1633 i rozgraniczenie Rzepiszynków",
+    "opis_sprawy": "Czynności urzędu radzieckiego z kwietnia 1633 r. (fol. 3r): 1) Woźni Ciućka i Banaszkowicz potwierdzają wydanie zbiegłego poddanego Stanisława Derkaczyka; 2) Uroczysta inauguracja nowego roku 1633 przed magistratem kraśnickim ('Annus Novus Trigesimus Tertius feliciter incipit'); 3) Relacja pięciu rajców z rozgraniczenia i usypania miedzy sznurami w gruncie Rzepiszynki między Symonem Miedzianym Kudrełłem a Sebastianem Pęzikiem.",
+    "kwoty_miary": "—",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 3r, skan 10]\n\n3\n1. 6. 3. 3.\n\n...renowes Kraśnickie przy bytności Sław. Woyciecha Łuczyca Rayce, y Walentyna Węgrzyckiego Pisarza Kraś.: y dwoyga Woźnych opatrznych Stanisława Ciućky z iedney strony, y Woyciecha Banaszkowicza z Kraśnika, odebrał y de facto wziął Pracowitego Stanisława Derkaczyka Poddanego pomienioney Jey Mci Paniey Lubelskiey z Gminy mieyskiey. Ktorego to odebrania tak Urząd ninieyszy iako y przed wszystkiemi Mieszkańcy tenże P. Boniecki quietował y wolnym uczynił. Co iest obiema Woźnymi oswiadczone y dla lepszey pamięci do Act ninieyszych wpisano.\n\nAnnus Novus Trigesimus Tertius supra Millesimum Sexcentesimum feliciter incipit.\nActum Crasnicii coram Officio Consulari feria sexta post Festa Solemnia Resurrectionis Christi Domini proxima Anno Domini 1633. [Kwiecień 1633 r.]\nRelatio Duorum Consulum ex instantia Kudreł.\nSławni Panowie Marcin Kwassowicz, Marcin Miłek, Simon Sienkiewicz, Jan Fox, Adam Stogniew Raycy Kraśniccy, przed Urzędem y Actami ninieyszymi Kraśnickiemi oblicznie stając in vim sua vera et fidelis relationis recognoverunt: że z instancyey Pracowitego Symona Miedziane als Kudrełła wyszedszy na rozmiar gruntu tegoż Kudrełkowego z Sebastianem Pęzikiem kupionego nazwanego Rzepiszynki, y tam obaczywszy szkodę y nierowną część w trzymaniu uznali że urzędownie Gaspar Pęzik trzyma, zaczem sznurami zarowno grunta rozmierzali, aby przy sobie y przy sąsiadach pokoiąc kazali, y kołkami pozatykali. Za ktorym gruntem zaraz iuż Panowie Raycy zabiegaiąc niesnaskom między sąsiady, tudziesz y szkodzie w zaymowaniu gruntow Decretem swoim nakazali y nakazuią: Żeby strony obiedwie taki Kudreł iako y Pęzik przy tychże sąsiadach y Ludziach ktorzy przy Urzędnym rozmiarze byli, zarowno od kołka do drugiego kołka ztad iedna skiba a ztad druga rozorywali, y miedzę przystoyną uczynili, we wtorach przystoi; A jeżeliby na potym ktorykolwiek z nich nad rozmiar ten teraznieyszy Radziecki...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 11,
+    "strona_pagina": "pag. 3v (fol. 3v)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Symon Kudrełł</span>, <span class=\"badge-role\">Sebastian Pęzik</span>, <span class=\"badge-role\">Adam Stogniew vel Kamieński rajca</span>, <span class=\"badge-district\">Kamieniec</span>: <span class=\"badge-role\">Hłań Stasiukowicz</span>, <span class=\"badge-role\">Jan Oleszkowicz</span>, <span class=\"badge-role\">Jurko Derkaczewicz</span>, <span class=\"badge-role\">Wasian Ibałyziewicz</span>; <span class=\"badge-role\">Iwanko Litwin</span>, <span class=\"badge-role\">Andrzej Jurkowicz ławnik</span>, <span class=\"badge-role\">Andrzej Kondracki</span>",
+    "kategoria": "Sankcje graniczne / Kradzież skrzyni i ucieczka sługi",
+    "opis_pozycji": "Kary za naruszenie miedzy oraz proces rajcy Kamieńskiego o kradzież przeciwko Rusinom z Kamieńca",
+    "opis_sprawy": "Sprawy radzieckie z kwietnia 1633 r. (fol. 3v): 1) Klauzula karna za naruszenie miedzy Kudreła i Pęzika (20 grzywien do Trybunału, 10 grzywien na naprawę murów miasta i 2 niedziele więzienia); 2) Proces rajcy Adama Stogniewa Kamieńskiego przeciwko trzem kupcom z Kamieńca o zorganizowanie ucieczki i kradzież szat i gotówki przez sługę Iwanka Litwina (straty na 18 złp 15 gr potwierdzone obdukcją świadków).",
+    "kwoty_miary": "20 grzywien, 10 grzywien, 18 złp 15 gr",
+    "uwagi": "Kraśnik, Kamieniec, Lublin",
+    "transkrypcja": "[fol. 3v, skan 11]\n\n3v\n1. 6. 3. 3.\n\n...ważył się tak miedzę przeorać iako też quod absit gruntu iako kolwiek zaiąć tedy podpadnie pod Winę Sądowi Trybunalskiemu Grzywien Dwadzieścia [20 grz.] Panom Raycom na poprawę Miasta Grzywien Dziesięć [10 grz.], y Dwie miedziele więzienia odprawić w Miasteczku. Ktory to Decret y strony rozmiar zawdzięcznie przyjęły y zapamiętnym ab utrisque obłożyły.\n\nActum Crasnicii coram Officio Consulari feria secunda post Dominicam Misericordia proxima Anno Domini 1633. [Kwiecień 1633 r.]\nKamieński cum Ruthenis Actis occasione damni.\nW sprawie y Actiey sądowey, z Aresztu przypozwaney, między Sławnym Adamem Stogniewem als Kamieńskim Raycą Kraśnickim Actorem z iedney, a Uczciwym Hłaniem Stasiukowiczem, Janem Oleshkowiczem, Jurem kum Derkaczewiczem z Kamieńca Pozwanymi z drugiey strony, przed Urzędem y Actami ninieyszymi Radzieckimi Kraśnickimi wizertey y pociągnioney, w ktorey Actor na aresztowanych załował się, że oni ze zdrady iednego na imię Iwanka Litwina Sługę natenczas Wasiana Ibałyziewicza z Kamieńca przywiezli byli, ktory to podkradł był kłamstwa, klucz odrzucił y małżonce Actora przekradłszy skrzynię, w ktorey szat y rzeczy, ktore przez dni kilka w domu tegoż Actora do teyże izdebki kiedym szat obcierał chodził, y comu się podobało brał obyczaiem złodzieyskim. Potym będąc w teyże izdebce uciśniony, y do więzienia Mieyskiego dany, niektore rzeczy powrocił, niektore zatamował; Zostawił sobie iednak Powod zdrowe Prawo z ninieyszymi zatargami iako rekomendanty, że tedy by widzący szkody w tey izdebce swoiey postrzegł, a tey szkody Ludźmi obwodził, tedy iź rebelliowie nazad się wracać mieli ustąpić do Actora z tymże Iwanem Derkaczewiczem, gdyby się takowa nagrodzić. Więc że po schwyceniu okazowanych powod postrzegł, że skrzynia z szatami była otworzona była, zginęło fl. 18 gr. 15 [18 złp 15 gr]. Ktorą szkodę obwodził Sławetnym Andrzeiem Jurkowiczem Ławnikiem, y Uczciwym Andrzeiem Kondrackim, zadaiąc z pomienionych sprawiedliwości; Poniewasz winowayca nie stawaia: Z adwerso Pozwani y aresztowani oblicznie stoiąc odpowiedzieli: przyznaiąc się do tego, że zapomnionego Iwana Litwina raczyli, ale uciekł y w Lublinie był tedy, czym płacić nie ma, bo z służby tylko żyie, a gospodarz iego też z aresztu uciekał. Urząd tedy ninieyszy Radziecki Kraśnicki dobrze się w te controversie spytliwie przypatrzywszy, y one wyrozumiawszy, taki Decret uczynił: Żeby na tey szkodzie swoiey affirmowaney Actor cieleśnie przysiągł in instanti, w te Rota iuramenti: „Że iako Iwan Litwin za ktorego Pozwani ninieyszy zwyżi wziął mu z skrzynie małey Złotych Ośmnaście y groszy Piętnaście [18 złp 15 gr], ktora...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 12,
+    "strona_pagina": "pag. 4 (fol. 4r)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Adam Stogniew</span>, <span class=\"badge-role\">Hłań Stasiukowicz</span>, <span class=\"badge-role\">Jan Oleszkowicz</span>, <span class=\"badge-role\">Jurko Derkaczewicz</span>, <span class=\"badge-role\">Adam Zapierep</span>, <span class=\"badge-role\">Symon Kudrełł</span>, <span class=\"badge-role\">Sebastian Pęzik</span>, <span class=\"badge-role\">Jan Trestka</span>, <span class=\"badge-role\">Moszko Markowicz</span>, <span class=\"badge-role\">Katarzyna Lorensowa mularzowa</span>, <span class=\"badge-role\">Matys Jurczyk</span>, <span class=\"badge-role\">Marcin Kwasowicz rajca</span>",
+    "kategoria": "Kwitacja z aresztu / Protestacja / Dług arendarski / Zastaw ogrodu",
+    "opis_pozycji": "Wypłata odszkodowania przez kupców z Kamieńca, protest Kudreła, dług Trestki i zastaw ogrodu",
+    "opis_sprawy": "Cztery wpisy z maja 1633 r. (fol. 4r): 1) Wypłata 18 złp 15 gr przez kupców kamienieckich i ich uwolnienie z aresztu; 2) Protestacja Symona Kudreła przeciwko Pęzikowi o nieustąpienie gruntu mimo wyroku; 3) Jan Trestka skazany na zwrot 2 talarów kwarty Moszkowi Markowiczowi; 4) Katarzyna Lorensowa z mężem Matysem Jurczykiem i opiekunem Marcinem Kwasowiczem przystępuje do zastawu ogrodu za bramą miejską.",
+    "kwoty_miary": "18 złp 15 gr, 2 talary kwarta",
+    "uwagi": "Kraśnik, Kamieniec",
+    "transkrypcja": "[fol. 4r, skan 12]\n\n4\n1. 6. 3. 3.\n\n...Przysięga gdy wykona obżałowani powinni oddać Złotych Ośmnaście y groszy Piętnaście [18 złp 15 gr], y nakłady Prawne znosić, salvo tamen actorem iednak bada mieli z Iwankiem Litwinem y gospodarzem iego czasu y mieysca swego; Ktory Decret strony obiedwie przyjęły; Actor zaraz przysięgę wykonał, iuż rotam in Decretum specificatam, a obżałowani fl. 18 gr. 15 in instanti Actorowi oddali, y z nich sumną quietationis absolutoria quietowani y uwolnieni, Z tym warunkiem wyżey mianowani obżałowani sollenni se protestati przeciwko Pracowitemu Adamowi Zapierepiowi sąsiadowi swemu, o to iż on wedle zaświadczenia swego tu do Kraśnika się nie stawił, y z Płużnikiem swoim, zdrowe prawo sobie z nim prawnie czynienia tempori et loco suis zostawuiąc.\n\nKudreł contra Pęzik Protestatio.\nUczciwy Simon Miedziany dictus Kudreł Przedmieszczanin Kraśnicki do Urzędu ninieyszego Radzieckiego Kraśnickiego oblicznie stanąwszy sollenni prout de jure melius potuit et debuit protestował się przeciwko Prawemu Sebastianowi Pęzikowi Przedmieszczaninowi Kraśnickiemu o to, iż unanimi Decreti a parte offici sub Actis feria sexta post Pascha anno currente uczynionego, y nie tylko z gruntu wedle nakazania nie ustąpił, ale też w niecierpliwości swey rowik me słupami Urzędu Radzieckiego nie będąc tego ani nie zostawuiąc oświadczeniem oświadczał się na nim iterum atq iterum protestando prawnie czynić sobie.\n\nInter Moszek et Trestka.\nZ Decretu Urzędu ninieyszego Radzieckiego Uczciwy Jan Trestka Przedmieszczanin Kraśnicki Niewiernemu Moszkowi Markowiczowi dwa Talary kwartę [2 talary kwartę] na potrzebę dać, nad wolą wiązek blisko przyszły sub paena arbitraria oddać powinien, a sobie od sąsiad swych szkody dać powinni requirowania. Quod Decretum partes susceperunt.\n\nActum Crasnicii coram Officio Consulari feria quarta post Dominicam Rogationum proxima Anno 1633. [Maj 1633 r.]\nLorensowa invadiat hortum Herszko.\nDo Urzędu y Xiąg ninieyszych Radzieckich Kraśnickich oblicznie stanąwszy Uczciwa Katarzyna pierwszego niegdy Lorensa Mularza a teraz wtorego Uczciwego Matysa Jurczyka małżonka, zgromadzona tegoż małżonka swego za koniecznego opiekuna zeznawaiąc na ciele y na umyśle będąc iawnie, iasnie, szczerze, dobrowolnie y słowami wyżartymi przez niey przez Sławnego Marcina Kwassowicza opiekuna sobie do tego Aktu wziętego y prawnie approbowanego, zeznała: Że za dozwoleniem małżonka swego ogrod swoy własny...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 13,
+    "strona_pagina": "pag. 4v (fol. 4v)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Katarzyna Lorensowa</span>, <span class=\"badge-role\">Ebroch Leban</span>, <span class=\"badge-role\">Szymon Sarzyna</span>, <span class=\"badge-role\">Anastazja Kołaczkówna</span>, <span class=\"badge-role\">Sebastian Kołacz</span>, <span class=\"badge-role\">Wojciech Szpatkowicz ławnik</span>, <span class=\"badge-role\">Andrzej Kandup</span>, <span class=\"badge-district\">Turobin</span>: <span class=\"badge-role\">Wojciech Cacbuta</span>; <span class=\"badge-role\">wójt Andrzej Grzymkowski</span>, <span class=\"badge-role\">Paweł Piotrowski</span>",
+    "kategoria": "Zastaw ogrodu / Kwitacja opiekuńcza / Ugoda wójtowska",
+    "opis_pozycji": "Zastaw ogrodu za bramą murowaną u Żyda Lebana, kwitacja sierot Kołaczów i ugoda z Cacbutą z Turobina",
+    "opis_sprawy": "Trzy akty prawne z maja 1633 r. (fol. 4v): 1) Zastaw ogrodu za bramą murowaną u Żyda Ebrocha Lebana na 3 lata za 30 złp z zastrzeżeniem zwrotu z zasiewkiem; 2) Kwitacja opiekuńcza Anastazji Kołaczkówny z mężem Szymonem Sarzyną z całości majątku ojcowskiego po Sebastianie Kołaczu wydanego przez opiekunów Szpatkowicza i Kandupa; 3) Wojciech Cacbuta obywatel turobiński kwituje wójta Andrzeja Grzymkowskiego i jego teścia Pawła Piotrowskiego z ran i zniewag zadanych podczas jarmarku kraśnickiego.",
+    "kwoty_miary": "30 złp (zastaw ogrodu)",
+    "uwagi": "Kraśnik, Turobin",
+    "transkrypcja": "[fol. 4v, skan 13]\n\n4v\n1. 6. 3. 3.\n\n...nikomu niezawiedziony, leżący za bramą murowaną: z iedney strony drogi pospolitey a z drugiey strony ogroda Grymuzińskiego na swoią własną potrzebę u Niewiernego Ebrocha Lebana wiceco Meisra Kraśnickiego w Summie Złotych Trzydzieści [30 złp] zastawiła, ktore do rąk swych y męża swego odebrała, y z nich pomienionego Żyda quietowała; Puszczaiąc mu de praesenti tego używania ten ogrod wespół z zasiewkiem teraznieyszym do Lat Trzech, to iest od Jana Chrzciciela Roku ninieyszego 1633 aż do takiegoż święta w Roku Daj Boże przyszłym 1636. Wszak gdy będą mieli ogrod wykupić w teyże summie, y z mieysca swym, Lubo tesz iey suszenie, tedy Niedziel Sześcią wprzod obwiescić Zastawnika powinni będą; a Zastawnik poniewasz teraz z zasiewkiem bierze tedy tesz z zasiewkiem oddać powinien. Co do Act ninieyszych wpisano iest.\n\nKołaczkowna quietat Tutores.\nCoram Officio Actisque praesentibus Consularibus Crasniciensibus personaliter comparentes Honestus Simon Sarzyna et Honesta Anastasia Kołaczkowna olim Sebastiani Kołacz Filia Legitima, mentibus et corporibus bene sani existentes non compulsi nec coacti, verum ultro ambo libere benevole manibus clypeo perse Anastasia ob certo et per Fam. Joannem Mroczkiem patrem sibi ad hunc Actum assumptum, et officiose approbatum recognoverunt, quilibet illorum suo pro interesse recognovit et ingenue fassus est: et a Famatas Alberto Szpathkowicz Cive et Scabino et Andrea Kandup Antecessoribus tutoribus bonorum praefati Sebastiani Kołacz relictorum, in omnibus rebus mobilibus, immobilibus, pecunibus, pecudibus, et in dampnelleriis domesticis et agrorum satis factum esse plenarie et in toto. De quaquidem modo satisfactione praedicti recognoscentes praefatos tutores, ex omnibus his rebus et legata relictis quietauerunt, pacificauerunt, et liberos perpetuo et in aevum pronuntiaverunt. Sine sua praeiudicio quietatione in praemissis mediante. Quod Actis est connotata.\n\nCacbuta Quietat Grzymkowsky.\nHonestus Albertus Cacbuta Civis Turobinensis coram officio praesenti Consulari Crasniciensi personaliter comparens mente pariter et corpore bene sanus non compulsus, aut quovis errore circumventus palam ultro libere benevole verbis expressis recognovit et ingenue fassus est: Sibi a Famato Andrea Grzymkowski Cive, Advocato et Judice Castrensi ratione quibusdam ictuum et verborum, eidem per Nob. Paulum Piotrowski socerum eiusdem Judicis tempore certo sub tempus Nundinarum in domo praedicti Grzymkowski Małey satisfactum esse plenarie et in toto. De quaquidem eiusmodi satisfactione et pro vulneribus solucione idem recognoscens eundem D. Grzymkowski et socerum eiusdem quietavit pacificavit et liberum temporibus perpetuis pronuntiavit, sibi et suis posteris silentium perpetuum imponens; motiones, oblocutiones, Processus, Decreta, et in ijsdem Decretis juramenta, causasque annichilans et in nihilum redigens. Quod Actis est connotatum.",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 14,
+    "strona_pagina": "pag. 5 (fol. 5r)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Łukasz Sagol</span>, <span class=\"badge-role\">Katarzyna Sagolowa</span>, <span class=\"badge-role\">Stanisław Kafara</span>, <span class=\"badge-role\">Bartosz Dziadek</span>, <span class=\"badge-role\">Marcin Miłek rajca i cechmistrz kuśnierski</span>, <span class=\"badge-role\">Stanisław Szafranek cechmistrz szewski</span>",
+    "kategoria": "Kwitacja pieniężna / Spór cechowy: Kuśnierze vs Szewcy",
+    "opis_pozycji": "Kwitacja Sagola z 9 złp oraz wielki spór cechowy o wykup i ceny skór baranich",
+    "opis_sprawy": "Wpisy z października 1633 r. (fol. 5r): 1) Kwitacja Łukasza Sagola z żoną Katarzyną z 9 złp zapłaconych przez Stanisława Kafarę za szacunek gruntu przedmieszczanina Bartosza Dziadka; 2) Początek precedensowego sporu cechowego: starszy cechu kuśnierzy Marcin Miłek oskarża starszego cechu szewców Stanisława Szafranka o łamanie przywilejów miejskich poprzez nielegalny skup i podbijanie cen surowych skór baranich.",
+    "kwoty_miary": "9 złp",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 5r, skan 14]\n\n5\n1. 6. 3. 3.\n\nActum Crasnicii coram Officio Consulari feria secunda post Festum S. Hedvigis Electae proxima Anno 1633. [Październik 1633 r.]\nLucas Sagol Quietat Stani: Kafara.\nDo Urzędu y Act ninieyszych Radzieckich Kraśnickich oblicznie stanąwszy Uczciwy Łukasz Sagol y Katarzyna małżonka iego, oboie na ciele y na umyśle dobrze zdrowi będąc, nieprzymuszeni ani żadnym błędem zawiedzieni, ale iawnie, iaśnie, szczerze y dobrowolnie zeznali, y każdy z nich zosobna zeznał: Iż z rąk Uczciwego Stanisława Kafary Mieszczanina Kraśnickiego odebrali summę Złotych Dziewięć Polskich [9 złp]... względem zaliczenia Złotych Dziewięciu... kwitowali y wolnym pronuncjowali.\nEt ibidem in continenti Uczciwy Bartosz Dziadek Przedmieszczanin Kraśnicki przed tymże Urzędem oblicznie stoiąc dobrowolnie zeznał, iż mu się od Uczciwego Łukasza Sagola y Katarzyny Piątkowney małżonki iego urakładowało na dokończenie Złotych Dziewiątko... skasował y wolnych uczynił.\n\nFeria sexta in crastino Festi Sanctorum Simonis et Judae Apostolorum 1633. [29 października 1633 r.]\nActio inter contubernium Pellionum et Sutorum.\nDo Urzędu y Radzieckiego Kraś.: Sławetny Marcin Miłek Rayca stary Kraśnicki y Cechu Kuśnierskiego Cechmistrz ze wszystką Bracią swoią Actor dawszy Urzędowi przypozwać Uczciwego Stanisława Szafranka iako Cechmistrza ze wszystką Bracią Cechu Szewskiego, żałował się na niego y na Bracią swoią Cechu, o to iż skory baranie do Rzemięsła Kuśnierskiego należące, sprzeciwiaiąc się Przywileiom Szewcy wykupuią, y drozey płacą niżeli Im, czyniąc im wielką szkodę y bezprawie, towar ichny kupuiąc y drożąc, sprawiedliwości od sądu ninieyszego żądaiąc.\nNa ktorą Allocutią y skargę Actorow Pozwani przez pomienionego Cechmistrza swego...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 15,
+    "strona_pagina": "pag. 5v (fol. 5v)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Marcin Miłek cechmistrz</span>, <span class=\"badge-role\">Stanisław Szafranek cechmistrz</span>, <span class=\"badge-role\">Moszko Markowicz</span>, <span class=\"badge-role\">Jakub Pisarkowicz rajca</span>",
+    "kategoria": "Wyrok cechowy / Podział skór / Spór o arendę czopowego",
+    "opis_pozycji": "Dekret regulujący skup skór baranich i kozich oraz proces Moszka z Pisarkowiczem o 300 złp",
+    "opis_sprawy": "Wpisy z listopada 1633 r. (fol. 5v): 1) Dekret radziecki kończący spór cechów: precyzyjne rozgraniczenie skór (skóry gołe, strzyżone i niewarzone dla szewców; skóry wełniste i futrzarskie zastrzeżone dla kuśnierzy z prawem pierwokupu); apelacja szewców do Podkanclerzego Koronnego; 2) Początek wielkiego sporu kupca Moszka Markowicza z rajcą Jakubem Pisarkowiczem o 300 złp z arendy czopowego i beczkę miodu.",
+    "kwoty_miary": "300 złp (pretensja szkodowa)",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 5v, skan 15]\n\n5v\n1. 6. 3. 3.\n\n[Kontynuacja sporu Cechów Kuśnierskiego i Szewskiego:]\n...odpowiedzieli, że nigdy Towaru do rzemięsła Kuśnierskiego należącego nie wykupuią, ale ieżeli co takiego kupią, tedy gołe skory albo strzyżone lub też niewarzone, ktore się do rzemięsła y roboty kuśnierskiey nie godzą... Urząd tedy ninieyszy Radziecki Kraśnicki z kontrowersyy stron y allegat taki Decret uczynił: Zachowuiąc miłość między Cechami, poniewasz się oboie rzemięsła obywaią bez towarow skor baranich y kozich także z rąk bydzących nie mogą; gdyż bywaią takie skory, że się do rzemiosła Szewskiego godzą, iako strzyżone gołe y niewarzone, także do rzemiosła Kuśnierskiego bywa potrzeba skor kozich y źrzebięcych; tedy od czasu Decretu ninieyszego każdy brat z oboyga Cechu gdy będzie towar kupował, tak Szewcy skory baranie iako Kuśnierze kozie albo źrzebięce, maią Cechmistrzowi, ieśli Szewcy to Kuśnierskiemu relidować, Kuśnierze Szewskiemu towar ukazać, y ieżeli się dozwoli Cechmistrz tedy na ten czas dopiero wolno będzie kupić. A ktoby samowolnie miał wykupować, aby był w tym przekonany, tedy surowie wedle Przywileiu ma bydź karany. Ktory Decret strona Powodowa przyjęła, a Pozwana mieniaiąc się bydź obciążliwą że się nigdey Cechmistrzowi Kuśnierskiemu w kupowaniu skor gotych, strzyżonych y niewarzonych nie opowiadali, y w ten zwyczay dawny zawarli, do Jaśnie Wielmożnego Jego Mci Pana Podkanclerzego Koronnego Pana naszego Miłościwego appellowała. Ktorey appellaciey Urząd dozwolił, naznaczaiąc stronom termin gdy Strona stronę przypozwie. Sollicitavit.\n\nActum Crasnicii coram Officio Consulari feria sexta ante Festum S. Elizabeth proxima Anno quo supra [18 listopada 1633 r.]\nInter Moszko et Pisarkowicz.\nUrząd ninieyszy Radziecki Kraśnicki w sprawie między Niewiernym Moszkiem Markowiczem Actorem z iedney, a Sławnym Jakubem Pisarkowiczem Raycą...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 16,
+    "strona_pagina": "pag. 6 (fol. 6r)",
+    "data_rok": "1633",
+    "osoby_podmioty": "<span class=\"badge-role\">Moszko Markowicz</span>, <span class=\"badge-role\">Jakub Pisarkowicz</span>, <span class=\"badge-role\">Wojciech Janaszkowicz rajca</span>, <span class=\"badge-role\">Kasper Sosnowicz złotnik</span>, <span class=\"badge-role\">Jan Fox rajca</span>, <span class=\"badge-role\">Jan Bomba słodownik</span>, <span class=\"badge-role\">Andrzej Bomba</span>, <span class=\"badge-role\">Cech Kowalski</span>, <span class=\"badge-role\">Cech Sukienniczy</span>",
+    "kategoria": "Rozliczenia czopowe / Delia fałdyszowa / Spór cechowy o czeladnika",
+    "opis_pozycji": "Rewizja rejestrów czopowych, kwitacja z 24 fl. za delię i nakaz cechu kowalskiego dla Bomby",
+    "opis_sprawy": "Trzy akty z listopada 1633 r. (fol. 6r): 1) Nakaz komisji radzieckiej dla Moszka i Pisarkowicza w sprawie zbadania ksiąg czopowych i zbadania chorej żony burmistrza o beczkę miodu; 2) Kwitacja rajcy Jana Foxa z zapłaty 24 florenów za luksusową suknię reprezentacyjną (delię fałdyszową) nabytej od złotnika Kaspra Sosnowicza; 3) Dekret cechowy nakazujący Janowi Bombie stawić żonatego syna Andrzeja na pierwszą schadzkę cechu kowalskiego pod winą 10 grzywien.",
+    "kwoty_miary": "24 floreny (delia), 10 grzywien kary",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 6r, skan 16]\n\n6\n1. 6. 3. 3.\n\n...Kraśnickiemu iako o rachunki wspolnym trzymaniu Czopowego niedokonane, w czym sobie Actor praetendował szkody na Złotych Trzysta [300 złp], a Pozwany negował, także o pewną summę za beczkę przaśnego miodu temuż Actorowi winną, Decretem swoim nakazał y nakazuie, żeby obiedwie strony mienia do konotacyey Reiestrow y rachunkow między sobą, cztoby constat co ktory na tę arendę dał, y co wziął... żeby jeden drugiemu na instancji oddać y zapłacić; Ktorą beczkę miodu iż Pozwany referuie się na małżonkę swoią, ktora teraz chora iest, tedy maią Panowie Relata dwoch Mężow z Urzędu do niey posłać. Decretum partibus in praemissis mediante. Quod partes ambo susceperunt, et memoriali formatum est.\n\nFeria secunda ante Festum S. Andreae Apostoli proxima 1633. [28 listopada 1633 r.]\nFox quietatur a Janaskowicz.\nCoram Officio Actisque praesentibus Consularibus Crasniciensibus personaliter compariens Famatus Albertus Janaskowicz Consul Civitatis Crasniciensis... et Argenti Gasparis Sosnowicz... a Famato Joanne Fox Consule Crasniciensi in summa Florenorum Viginti quatuor Polonicalium [24 fl.] pro veste superiori als Delia falediszowey... quietavit pacificavit, et liberum temporibus perpetuis pronuntiavit. Quod Actis est connotatum.\n\nInter Contubernium Fabrorum et Joan Bomba.\nEx Decreti Officio praesentis et controversiis utriusque partium: Uczciwy Jan Bomba Pozwany ma y powinien będzie Syna swego Andrzeia iusz ożenionego w pierwszą schadzkę Cechowi poniewasz taki zwyczay dawny iest, a dla tego takze maią Panowie Bracia Cechu Kowalskiego do ktorego przynależy... y Sukiennicy, a iż nie wpisawania cich sukiennicy, obwiniaiąc się z Cechmistrzami, starasz o rewizą Przywileiów na Cechowey, tedy niżeliby go wyprawić powinni byli temuż Kowalskiemu podlegli, pod winą Dziesięciu grzywien [10 grz.]...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 17,
+    "strona_pagina": "pag. 6v (fol. 6v)",
+    "data_rok": "1633–1634",
+    "osoby_podmioty": "<span class=\"badge-role\">Jakub Pisarkowicz burmistrz</span>, <span class=\"badge-role\">Simon Sienkiewicz rajca</span>, <span class=\"badge-role\">Wojciech Janaszkowicz rajca</span>, <span class=\"badge-role\">Marcin Kwasowicz rajca</span>, <span class=\"badge-role\">Marcin Barzykowski ławnik</span>, <span class=\"badge-role\">Moszko Markowicz</span>, <span class=\"badge-role\">Jan Mroczek cechmistrz</span>, <span class=\"badge-role\">Jan Bomba</span>, <span class=\"badge-role\">Stanisław Majowski</span>",
+    "kategoria": "Obronność miejska / Dozór prochu i dział / Przysięga sądowa",
+    "opis_pozycji": "Ustanowienie Kustoszów Prochu Miejskiego i Armat oraz przysięga oczyszczająca burmistrza",
+    "opis_sprawy": "Trzy akty z grudnia 1633 i stycznia 1634 r. (fol. 6v): 1) 'Custodes pulveris Tormentarij' – Utworzenie urzędu szafarzy i dozorców prochu strzelniczego i dział miejskich (rajca Sienkiewicz i ławnik Barzykowski) oraz nakaz lustracji poborców podatku prochowego; 2) Przysięga oczyszczająca burmistrza Jakuba Pisarkowicza na kolanach przed magistratem zwalniająca go z pretensji Moszka na sumę 275 złp; 3) Pozew cechu kowalskiego przeciwko słodownikom Bombie i Majowskiemu.",
+    "kwoty_miary": "275 złp (przysięga), 10 złp (zwrot za miód)",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 6v, skan 17]\n\n6v\n1. 6. 3. 3.\n\nCustodes pulveris Tormentarij.\nSławni Panowie Jakub Pisarkowicz Burmistrz, Simon Sienkiewicz, Woyciech Janaszkowicz y Marcin Kwassowicz Rayce Kraśniccy, providere bono Reipublicae et damno praecavere, na pilny dozor około prochu Mieyskiego naznaczyli y postanowili dwoie z Panow Radziec P. Symona Sienkiewicza, a z Ławnic P. Marcina Barzykowskiego ktorzy ten cięzar na się dobrowolnie przyieli. Ciz Panowie Raycy nakazali zeby Exactores Prochowego na ten zatydzień rachunek uczynili.\n\nActum Feria Quarta in Vigilia Conceptionis Beatae Mariae Virginis [7 grudnia 1633 r.]\nInter Moszko et Jacobum Pisarkowicz.\nUrząd ninieyszy Radziecki Kraśnicki w sprawie między Niewiernym Moszkiem Actorem, a Sławnym Jakubem Pisarkowiczem Raycą Kraśnickiem... flexis genibus rotą y prawnie w te roty Juramentu: „że w towarzystwie y w trzymaniu Czopowego z Moszkiem y z drugiemi Żydami tak spincykalney summy Złotych Dwiescie Siedmdziesiąt y Pięć [275 złp] iako też y z zarobku nic nie został winien...” Urząd nakazał Pozwanemu in media oddać Actorowi Złotych Dziesięć [10 złp], poniewasz też ten miod niewarzony był. Ktory Decret strony obiedwie przyjęły.\n\nFeria tertia post Dominicam infra Octavas Epiphaniae Anno 1634 Quarto. [10 stycznia 1634 r.]\nInter Mroczek et Joannem Bomba et Stanislaum Maiowsky...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 18,
+    "strona_pagina": "pag. 7 (fol. 7r)",
+    "data_rok": "1634",
+    "osoby_podmioty": "<span class=\"badge-role\">Jan Mroczek cechmistrz</span>, <span class=\"badge-role\">Jan Bomba</span>, <span class=\"badge-role\">Stanisław Majowski</span>, <span class=\"badge-role\">Jakub Pisarkowicz burmistrz</span>, <span class=\"badge-role\">Zofia Śniechówna</span>, <span class=\"badge-role\">Jan Początek mularz</span>",
+    "kategoria": "Dyscyplina cechowa / Przysięga przed Krucyfiksem / Dzierżawa gruntu",
+    "opis_pozycji": "Inauguracja roku 1634: przysięga Pisarkowicza przed Krucyfiksem, kara dla Bomby i dzierżawa Śniechówny",
+    "opis_sprawy": "Trzy wpisy ze stycznia 1634 r. (fol. 7r): 1) Dekret przeciwko Janowi Bombie i Stanisławowi Majowskiemu o wyzwolenie czeladnika sukienniczego i schadzkę cechową kowali pod winą 5 złp i aresztem; 2) Uroczyste otwarcie roku 1634 ('Novus Annus Millesimus Sexcentesimus Trigesimus Quartus') i przysięga Pisarkowicza na kolanach przed Ukrzyżowanym (imago Crucifixi); 3) Zofia Śniechówna z mężem murarzem Janem Poczapkiem oddaje niwę w dzierżawę.",
+    "kwoty_miary": "5 złp kary",
+    "uwagi": "Kraśnik",
+    "transkrypcja": "[fol. 7r, skan 18]\n\n7\n1. 6. 3. 4.\n\n[Dokończenie sprawy Cechu Kowalskiego:]\nW sprawie y Actiey, między Uczciwymi Janem Mroczkiem Cechmistrzem Kowalskim ze wszystką bracią cechu tegoż czyniącym Actorem, a Janem Bombą y Stanisławem Maiowskim bracią tegoż Cechu Pozwanymi... Urząd ninieyszy Radziecki Kraśnicki... skazał na więzienie tygodniowe, z ktorego po wycierpieniu Winy po Złotych Pięć [5 złp] bracia wszystkie pod czas schadzki przeproszą, nakłady prawne oddadzą, y Decretom pierwszym dośić uczynią; Bomba syna wyzwoli... Ktory Decret strony obiedwie przyjęły.\n\nNovus Annus Millesimus Sexcentesimus Trigesimus Quartus.\nJuramentum Jacobi Pisarkowicz.\nFeria sexta post Festum Epiphaniae proxima coram Officio composito Anno 1634. [13 stycznia 1634 r.]\nFamatus Jacobus Pisarkowicz Consul Cras.: Decretum ab officio praesenti inter se et Perfidum Moszko... flexis genibus ad imaginem Crucifixi... quietatus est. Quod Actis praesentibus connotatum et memoriali formatum est.\n\nArgutam Sniechowna Locat Swiechowicz.\nUczciwa Zophia Sniechowna Uczciwego Jana Poczapka Mularza małżonka przytomnością tegoż małżonka swego na niżej pomienione sprawy zezwalaiącego...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 19,
+    "strona_pagina": "pag. 7v (fol. 7v)",
+    "data_rok": "1634",
+    "osoby_podmioty": "<span class=\"badge-role\">Zofia Śniechówna</span>, <span class=\"badge-role\">Jan Początek mularz</span>, <span class=\"badge-role\">Symon Świechowicz rajca</span>, <span class=\"badge-role\">Jakub Pisarkowicz burmistrz</span>, <span class=\"badge-role\">Adam Kamieński vel Stogniew Asesor Trybunału</span>, <span class=\"badge-role\">Jakub Sznicyerz</span>, <span class=\"badge-role\">Wojciech Janaszkowicz</span>, <span class=\"badge-role\">Marcin Kwasowicz</span>, <span class=\"badge-role\">Marcin Miłek</span>, <span class=\"badge-role\">Jan Fox</span>, <span class=\"badge-role\">Moszko Markowicz</span>, <span class=\"badge-role\">Stanisław Kafara</span>, <span class=\"badge-role\">Abraham Markowicz</span>, <span class=\"badge-role\">Izrael Markowicz</span>",
+    "kategoria": "Elekcja do Trybunału / Wilkierz miejski (Szarwark) / Handel gdański",
+    "opis_pozycji": "Wybór Asesora do Trybunału Koronnego w Zamościu, Laudum Szarwarku na bęben i dzwon oraz proces o spław sukna do Gdańska",
+    "opis_sprawy": "Cztery kluczowe akty prawne z 1634 r. (fol. 7v): 1) Dzierżawa niwy Śniechowskiej za 15 złp dla rajcy Świechowicza na 3 lata; 2) 'Electio Assessoris pro Tribunali' – Uroczysty wybór rajcy Adama Kamieńskiego vel Stogniewa na Asesora do Najwyższego Trybunału Koronnego w Zamościu; 3) 'Laudum Strony Szárwarku' – Nowy wilkierz miejski nakazujący natychmiastowe stawiennictwo na roboty publiczne (szarwark) pod rygorem 1 złp winy i 3 dni aresztu na uderzenie w bęben lub dzwon ratuszowy; 4) Początek procesu kupca Moszka Markowicza z Kafarą o zabór 36 postawów sukna spławianego statkiem do Gdańska.",
+    "kwoty_miary": "15 złp, 1 złp kary (szarwark), kilkaset złp (sukno gdańskie)",
+    "uwagi": "Kraśnik, Zamość, Gdańsk, Łańcut",
+    "transkrypcja": "[fol. 7v, skan 19]\n\n7v\n1. 6. 3. 4.\n\n...się y przez tegoż opiekuna swego małżeńskiego iasnie, szczerze, dobrowolnie słowami wyraźnymi zeznała: Że niwkę Śniechowską nazwaną, z iedney Justynie Surańczynie należącą, a sobie w długu pewnym do wytrzymania podaną, arendowała y na ręce od Moszny doniosłszy Sławnemu Symonowi Świechowiczowi Raycy Kraś.: do spokojnego używania za summę Złotych Piętnaście [15 złp]... na lat trzy... Co iest zapisano.\n\nElectio Assessoris pro Tribunali.\nFamatus Dominus Jacobus Pisarkowicz Proconsul, cum Consulibus venientibus et antiquis, tum et cum Archicontubernium omnium senati soliti more et ordine oranimi consensu et concordibus votis, pro Assessore ad Judicia Suprema Tribunalia Zamoscensi, elegerunt et constituerunt Fam. Adamum Kamieński dictum Stogniew Consulem Crasniciensem, qui hoc onus et officium gratissimo animo suscepit, ni sit contradicens.\n\nLaudum Strony Szárwarku.\nSławni Panowie Jakub Sznicyerz, Woyciech Janaszkowicz, Marcin Kwassowicz, Marcin Miłek, Adam Stogniew, Jan Fox, Burmistrz y Raycy także sedenrowie iako y Starzy Kraśniccy, in praesentia Pana Woyta z Ławnicą y Cechow wszystkich, widząc wielki nieporządek y nieposłuszeństwo w odprawowaniu Szárwarku zwyczaynego, Laudum takie quietante tenendum et observandum uczynili, Że ktokolwiek za uderzeniem w bęben lubo we dzwonek na szolty zaraz do Szárwarku albo nie postał, tedy podpadnie Winy Złoty ieden [1 złp], y trzy dni siedzieć będzie w zamknieniu urzędnym, na co wszyscy unanimiter zezwolili, a do Act ninieyszych wpisać kazali.\n\nActum Crasnicii coram Officio Consulari feria secunda infra Octavas Sacratissimi Corporis Christi Anno 1634. [19 czerwca 1634 r.]\nInter Moszko et Stanislaum Kafara.\nW sprawie sądowey między Niewiernym Moszkiem Markowiczem Actorem z iedney, a Uczciwym Stanisławem Kafarą Mieszczaninem Kraśnickim Pozwanym z drugiey strony przed Urzędem Radzieckim Kraś.: wszczętey y toczącey się, gdzie Actor skarzył się na Pozwanego, iż on żadney sprawy nie maiąc z Abrahamem synem iego, ktoremu iako synowi swemu do Gdańska dawszy Złotych Kilkaset na kupienie sukna postawow kilku, gdy tenże Actora syn za pieniądze gotowe z domu od oyca wzięte kupił postawow sześć, Łańcuckich trzydzieści, a do brata swego Israela na statek porządnie zurazawssy z gdańskim suknem zaniosł y skazał...",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  },
+  {
+    "nr_skanu": 20,
+    "strona_pagina": "pag. 8 (fol. 8r)",
+    "data_rok": "1634",
+    "osoby_podmioty": "<span class=\"badge-role\">Moszko Markowicz kupiec</span>, <span class=\"badge-role\">Stanisław Kafara kupiec</span>, <span class=\"badge-role\">Abraham Markowicz</span>, <span class=\"badge-role\">Izrael Markowicz</span>, <span class=\"badge-role\">Andrzej Grzymkowski rajca</span>, <span class=\"badge-role\">Bartosz Jurek sługa przysięgły</span>",
+    "kategoria": "Handel dalekosiężny / Spław wiślany do Gdańska / Sekwestr sukna",
+    "opis_pozycji": "Spław wiślany statkiem rzecznym do Gdańska, handel suknem i sekwestr towaru u Grzymkowskiego",
+    "opis_sprawy": "Zeznania i wyrok radziecki z czerwca 1634 r. (fol. 8r): Spór handlowy o 36 postawów sukna załadowanych na statek rzeczny (szkutę) płynącą Wisłą do Gdańska. Stanisław Kafara zajął towar obawiając się niewypłacalności faktora Izraela Markowicza. Wyrok nakazuje sekwestr sukna u rajcy Andrzeja Grzymkowskiego do czasu przeprowadzenia natychmiastowego obrachunku kupieckiego stron.",
+    "kwoty_miary": "6 postawów sukna, 30 postawów sukna łańcuckiego",
+    "uwagi": "Kraśnik, Gdańsk, Wisła",
+    "transkrypcja": "[fol. 8r, skan 20]\n\n8\n1. 6. 3. 4.\n\n...z gdańskim suknem zaniosł y skazał, dawszy ią y poruczywszy w opiekę Stanisławowey Kucharkowey. Pomieniony Pozwany, kradmą dnia iednego ze stopami z swego statku wziąwszy sukno ważył, y de facto wziął y z nim wprzod uiechał, z pomienionym Abrahamem synem Actora żadney sprawy nie maiąc y Sądu tu żadnego nieprowadząc, prosząc żeby sukno przez Decret urasł, y za swowolne wzięcie karany był. Na ktorą skargę Pozwany oblicznie stoiąc odpowiedział, iż dlatego sukno wziął, maiąc spolny handel z Israelem bratem Abrahamowym a synem Moszkowym, a obawiaiąc się jakiego fałszu y oszukania w towarzystwie, wolał cokolwiek wziąć do siebie, niżeli się z Israelem pozywać a z Żydami trudna sprawa, będąc gotow sukno oddać za dośić uczynieniem od Israela tak w rachunku iako też z zysku pokaże, twierdząc y to że z sukno zapłacone te ktore się we Gdańsku za zboże wzięty iest gotowe kupione za gotowe. In contrarium Actor stawił starszego syna swego Israela do Urzędu ninieyszego z ktorym Pozwany spółek w handlu miał, ktory ukazał rachunek kupiecki, wiele zboża mieli, y iako summa gotowa od niego za nie poszła, twierdząc to pod zakonem żydowskim, iż nie za te pieniądze ktore za Żyto wzięli, ale za gotowe ktore od oyca Abraham z domu miał, sukno to kupione iest. Na ostatek tenże Israel deklarował się będąc gotowym z pomienionym Towarzyszem swoim rachunek czynić, y iemu ieśli się co iako każe zysku przyjdzie, iużnie oddać, na czym y Pozwany przestał, żądaiąc żeby dziś zaraz rachunek był mniemaiąc temu się na wodę mieszka. Actor przecię zawarnie następował, żeby mu sukno wydane było, o ktorym Pozwany iż iest u Sławnego Andrzeia Grzymkowskiego Rayce Kraś.: w sekwestru powiedział. Czym się Actor nie contentował, ale żądał żeby tu w domu Pana Burmistrza teraznieyszego w sekwestrze było, ostawaiąc syna iego Israel z Pozwanym w towarzystwie towaru, obawiaiąc się żeby go tam w pewney summie u P. Grzymkowskiego nie zostawił, lubo moy i dłużnicy tam go nie aresztowały, puszczaiąc na Decret. URZĄD tedy ninieyszy Radziecki Kraśnicki, z controversyy stron one pilno uważywssy, Decretem swym nakazał: Żeby to sukno (poniewasz P. Grzymkowski iest Raycą, szendeyem tegorocznym, y człowiek bardzo dobrze osiadły) u niego dopurachowania było, iednak żeby żadnego oszukania przez Pozwanego w tym suknie nie było, posłał Urząd sługę Mieyskiego Przysięgłego Bartosza Jurka żeby P. Grzymkowskiemu od ninieyszego Urzędu oznaymił, ażeby sukno do sekwestrowania od Kafary dane, ni Kafarze ni żadnemu wydawane nie było, asz przeciwko starania Urzędu; y żeby żadney summy na nie nie dawał, y żadnych aresztow na tym suknie niodkogo nie przyjmował. Termin do porachowania Pozwanemu z synem Actorowym dziś po obiedzie naznaczaiąc, ktory Decret strony obiedwie przyjęły. Sollicitavit.\nEt in continenti Opatrzny Bartosz Sługa Przysięgły, wrociwszy się od Pana Grzymkowskiego uroczyście zeznał, że Pan Grzymkowski przeciwko powiedział, że na to sukno żadney summy nie dał, iuż nie iest od nikogo aresztowane nadto powiedział, żeby wołał P. Grzymkowski, żeby to sukno u P. Burmistrza leżało niż u niego. Którą relacyą Sługa Actor zapisał żądał quod obtinuit summario memoriali.",
+    "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719"
+  }
+];
+
+    const genData = [
+  {
+    "lp": 1,
+    "nazwisko": "Banaszkowicz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Woźny przysięgły miejski",
+    "skany_roboczo": "10",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Woźny miejski asystujący przy urzędowym wydaniu zbiegłego poddanego Stanisława Derkaczyka."
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Barzykowski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły, kustosz prochu miejskiego",
+    "skany_roboczo": "17",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Barzikowski",
+    "biogram": "Ławnik kraśnicki, powołany wraz z rajcą Sienkiewiczem na kustosza prochu strzelniczego i dział miejskich (Custodes pulveris tormentarij)."
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Barzyk",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec Kraśnika",
+    "skany_roboczo": "6",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Joan Barzyk",
+    "biogram": "Skazany dekretem radzieckim na wieżę za zniewagę wójta i ławników oraz na 6 złp kary na szpital ubogich."
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Bomba",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Czeladnik kowalski / słodownik",
+    "skany_roboczo": "16",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Syn Jana Bomby, zobowiązany do odbycia schadzki cechu kowalskiego po zawarciu małżeństwa."
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Bomba",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Słodownik, mieszczanin kraśnicki",
+    "skany_roboczo": "16, 17, 18",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "",
+    "biogram": "Zamożny słodownik kraśnicki, uwikłany w spory z cechem kowalskim o czeladników i schadzki cechowe."
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Boniecki",
+    "imie": "Tomasz",
+    "miejsce": "Lublin",
+    "funkcja": "Szlachcic, sługa kasztelanowej lubelskiej",
+    "skany_roboczo": "7, 10",
+    "zakres_lat": "1632–1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Sługa dworski 'Jey Mci Paniey Lubelskiey', przejmujący zbiegłego poddanego Derkaczyka."
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Boruch",
+    "imie": "Byszkowicz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupiec i faktor żydowski",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Boruch",
+    "biogram": "Kupiec żydowski kraśnicki, wnoszący skargę o pobicie przeciwko Kurelikowi i Świderskiemu."
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Cacbuta",
+    "imie": "Wojciech",
+    "miejsce": "Turobin",
+    "funkcja": "Obywatel turobiński",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Cacbuta",
+    "biogram": "Mieszczanin z Turobina, zawierający ugodę po bójce jarmarcznej z wójtem Grzymkowskim i Piotrowskim."
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Cieszka",
+    "imie": "Jakub",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Świadek przysięgi oczyszczającej Wawrzyńca Kisiela w sprawie o zabójstwo."
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Ciućka",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Woźny przysięgły miejski",
+    "skany_roboczo": "10",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Woźny miejski asystujący przy urzędowej ekstradycji poddanego Stanisława Derkaczyka."
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Ćmiel",
+    "imie": "Wawrzyniec",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Cmuel",
+    "biogram": "Współprzysiężnik Kisiela ze wsi Słupia."
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Ćmiel",
+    "imie": "Wojciech",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Cmuel",
+    "biogram": "Współprzysiężnik Kisiela ze wsi Słupia."
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Derkaczewicz",
+    "imie": "Jurko",
+    "miejsce": "Kamieniec",
+    "funkcja": "Kupiec / mieszkaniec Kamieńca",
+    "skany_roboczo": "11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "kum Derkaczewicz",
+    "biogram": "Pozwany o zorganizowanie ucieczki zbiegłego sługi Iwanka Litwina i kradzież szat ze skrzyni rajcy Kamieńskiego."
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Derkaczyk",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Poddany zbiegły",
+    "skany_roboczo": "7, 10",
+    "zakres_lat": "1632–1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Zbiegły poddany kasztelanowej lubelskiej, schwytany w Kraśniku i urzędowo wydany słudze dworskiemu."
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Deszkowski",
+    "imie": "Jan",
+    "miejsce": "Deszkowice",
+    "funkcja": "Wójt deszkowicki",
+    "skany_roboczo": "7",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Wójt ze wsi Deszkowice, przetrzymujący konie z podwody Iłowieckiego."
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Doctor",
+    "imie": "Żydowski",
+    "miejsce": "Kraśnik",
+    "funkcja": "Lekarz i uczony żydowski",
+    "skany_roboczo": "7",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Lekarz żydowski wnoszący manifestację w sprawie zielonej sukni bajotowej zastawionej na Litwie."
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Doliator",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin, sukiennik",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Paulus Doliathorus",
+    "biogram": "Ukarany aresztem pod ratuszem za burdę ze ślusarzem Maciejem Klebarskim."
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Dymek",
+    "imie": "Grzegorz",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Współprzysiężnik Kisiela w sprawie o zabójstwo w obronie koniecznej."
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Dymek",
+    "imie": "Stanisław",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Świadek przysięgi ze wsi Słupia."
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Dziadek",
+    "imie": "Bartosz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "skany_roboczo": "14",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Zeznający w sprawie dokończenia spłaty szacunku gruntu."
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Fischer",
+    "imie": "Bartłomiej",
+    "miejsce": "Zamość",
+    "funkcja": "Szlachcic, sługa Podkanclerzego Koronnego",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Oficjał dworski Podkanclerzego Koronnego asystujący przy sądzie przysiężnym ze wsi Słupia."
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Fox",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki, wójt",
+    "skany_roboczo": "10, 16, 19",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Joannes Fox",
+    "biogram": "Konsul kraśnicki, nabywca reprezentacyjnej delii fałdyszowej od złotnika Sosnowicza za 24 fl."
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Gnaciak",
+    "imie": "Jakub",
+    "miejsce": "Łopoka",
+    "funkcja": "Pracowity ze wsi Łopoka",
+    "skany_roboczo": "9",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Oskarżony o krwawe pobicie Stanisława Kafary i rabunek talarów oraz koczora baraniego."
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Grzymkowski",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wójt sądowy kraśnicki, rajca",
+    "skany_roboczo": "6, 13, 19, 20",
+    "zakres_lat": "1632–1634",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "",
+    "biogram": "Wieloletni wójt i rajca kraśnicki, depozytariusz sekwestrowanego sukna gdańskiego."
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Hłań",
+    "imie": "Stasiukowicz",
+    "miejsce": "Kamieniec",
+    "funkcja": "Kupiec / mieszkaniec Kamieńca",
+    "skany_roboczo": "11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Alanius",
+    "biogram": "Aresztowany i skazany na zwrot 18 złp 15 gr za kradzież popełnioną przez Iwanka Litwina."
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Ibałyziewicz",
+    "imie": "Wasian",
+    "miejsce": "Kamieniec",
+    "funkcja": "Kupiec kamieniecki",
+    "skany_roboczo": "11",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Gospodarz zbiegłego sługi Iwanka Litwina."
+  },
+  {
+    "lp": 27,
+    "nazwisko": "Iłowiecki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szlachcic, sługa Podkanclerzego Koronnego",
+    "skany_roboczo": "6, 7",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Nob. Iłowiecki",
+    "biogram": "Sługa dworski wnoszący skargę o podwody konne do Krakowa na podstawie Uniwersału podkanclerskiego."
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Iwanko",
+    "imie": "Litwin",
+    "miejsce": "Litwa",
+    "funkcja": "Sługa kupiecki",
+    "skany_roboczo": "11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Iwan Litwin",
+    "biogram": "Sługa oskarżony o włamanie do skrzyni rajcy Kamieńskiego i kradzież kosztowności."
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Janaszkowicz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca i notariusz miejski, wójt",
+    "skany_roboczo": "10, 16, 17, 19",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "Janaskowicz",
+    "biogram": "Wybitny notariusz i rajca kraśnicki, sygnatariusz wilkierza szarwarkowego."
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Jazdzyk",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Płatnik 6 korców zboża zapisanego na rzecz szpitala ubogich przez wójta mikołajskiego."
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Jurczyk",
+    "imie": "Matys",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "skany_roboczo": "12, 13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Jurczak?",
+    "biogram": "Drugi mąż Katarzyny Lorensowej, asystujący przy zastawie ogrodu za bramą."
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Jurkowicz",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły miejski",
+    "skany_roboczo": "9, 11",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Ławnik kraśnicki oskarżony o przywłaszczenie sługi zmarłego w czasie zarazy."
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Kafara",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupiec i mieszczanin kraśnicki",
+    "skany_roboczo": "9, 14, 19, 20",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "",
+    "biogram": "Kupiec kraśnicki, ofiara pobicia pod Łopoką, uczestnik wielkiego handlu suknem gdańskim."
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Kamieński vel Stogniew",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki, Asesor Trybunału Koronnego",
+    "skany_roboczo": "10, 11, 12, 17, 19",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 5,
+    "warianty_nazwiska": "Adam Stogniew, Adamus Kamieński",
+    "biogram": "Wybrany przez Radę i cechy na Asesora do Najwyższego Trybunału Koronnego w Zamościu."
+  },
+  {
+    "lp": 35,
+    "nazwisko": "Kandup",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki, opiekun sierot",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Opiekun małoletnich sierot po Sebastianie Kołaczu."
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Kierz",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Piwowar / mieszkaniec Kraśnika",
+    "skany_roboczo": "6",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Matthias Kierz",
+    "biogram": "Pozwany o pożyczoną beczkę piwa."
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Kierz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Piwowar / mieszkaniec Kraśnika",
+    "skany_roboczo": "6",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Kierz",
+    "biogram": "Wnoszący skargę o niezwróconą beczkę piwa."
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Kisiel",
+    "imie": "Wawrzyniec",
+    "miejsce": "Słupia",
+    "funkcja": "Kmieć ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Kisiel",
+    "biogram": "Oczyszczony przysięgą z zarzutu zabójstwa Walentego Kudły."
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Kisielek",
+    "imie": "Mikołaj",
+    "miejsce": "Słupia",
+    "funkcja": "Gospodarz ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Świadek przysięgi w sprawie o zabójstwo."
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Klebarski",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ślusarz i kowal miejski",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Matthias Klebarski serrifaber",
+    "biogram": "Skazany na wieżę Babę za bójkę z Pawłem Doliatorem."
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Kołaczkówna",
+    "imie": "Anastazja",
+    "miejsce": "Kraśnik",
+    "funkcja": "Córka Sebastiana Kołacza",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Anastasia Kołaczkowna",
+    "biogram": "Kwitująca opiekunów z całego majątku ojcowskiego."
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Kondracki",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "skany_roboczo": "11",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Świadek obdukcji skradzionej skrzyni rajcy Kamieńskiego."
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Koźmian",
+    "imie": "Wawrzyniec",
+    "miejsce": "Podlesie",
+    "funkcja": "Przedmieszczanin, posesjonat na Podlesiu",
+    "skany_roboczo": "6, 7",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Laurentius Koźmian",
+    "biogram": "Przedmieszczanin kraśnicki organizujący podwody konne do Krakowa dla dworu podkanclerskiego."
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Kraiński",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły sługa domowy",
+    "skany_roboczo": "9",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Sługa Jana Barszczowicza zmarły w Kraśniku w czasie morowego powietrza."
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Kudła",
+    "imie": "Walenty",
+    "miejsce": "Słupia",
+    "funkcja": "Kmieć ze wsi Słupia",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Zmarły w wyniku ran odniesionych w starciu z Wawrzyńcem Kisielem."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Kwasowicz",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca i wójt kraśnicki",
+    "skany_roboczo": "10, 12, 17, 19",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "Kwassowicz",
+    "biogram": "Starszy konsul kraśnicki, opiekun prawny Katarzyny Lorensowej."
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Leban",
+    "imie": "Ebroch",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupiec i faktor żydowski",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Ebroch Leban",
+    "biogram": "Zastawnik ogrodu za bramą murowaną na sumę 30 złp."
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Lorens",
+    "imie": "Mularz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Murarz miejski",
+    "skany_roboczo": "7, 12, 13",
+    "zakres_lat": "1632–1633",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "",
+    "biogram": "Zmarły mistrz murarski kraśnicki, właściciel ogrodu za bramą."
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Lorensowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczka kraśnicka",
+    "skany_roboczo": "12, 13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Wdowa po murarzu Lorensie, żona Matysa Jurczyka, zastawiająca ogród na 3 lata."
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Łuczyc",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "skany_roboczo": "10",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Konsul kraśnicki asystujący przy sprawach urzędu radzieckiego."
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Macława",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Obywatel kraśnicki",
+    "skany_roboczo": "9",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Wnoszący manifestację sądową przeciwko Śmierzgniowej."
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Majowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mistrz kowalski / sukiennik",
+    "skany_roboczo": "17, 18",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Maiowsky",
+    "biogram": "Skazany na tydzień aresztu i 5 złp winy w sporze z cechem kowalskim."
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Markowicz",
+    "imie": "Abraham",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupiec żydowski",
+    "skany_roboczo": "19, 20",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Syn Moszka, organizator transportu sukna łańcuckiego i gdańskiego na szkutę wiślaną."
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Markowicz",
+    "imie": "Izrael",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupiec żydowski",
+    "skany_roboczo": "19, 20",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Israel Markowicz",
+    "biogram": "Kupiec kraśnicki handlujący zbożem i suknem we wspólnym handlu z Kafarą."
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Markowicz",
+    "imie": "Moszko",
+    "miejsce": "Kraśnik",
+    "funkcja": "Senior gminy żydowskiej, kupiec, dzierżawca",
+    "skany_roboczo": "12, 15, 16, 17, 18, 19, 20",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 7,
+    "warianty_nazwiska": "Moszko, Moszek",
+    "biogram": "Główny faktor handlowy i dzierżawca czopowego kraśnickiego, spławiający towary do Gdańska."
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Miedziany vel Kudrełł",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin, rolnik",
+    "skany_roboczo": "10, 11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Simon Miedziany, Kudreł",
+    "biogram": "Właściciel gruntu Rzepiszynki, toczący spór graniczny z Pęzikiem."
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Miłek",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki, cechmistrz kuśnierski, prowizor",
+    "skany_roboczo": "8, 10, 14, 15, 17, 19",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 6,
+    "warianty_nazwiska": "",
+    "biogram": "Cechmistrz cechu kuśnierzy, prowizor szpitala, inicjator procesu z szewcami o skóry."
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Mroczek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Starszy cechu kowalskiego, patron",
+    "skany_roboczo": "13, 17, 18",
+    "zakres_lat": "1633–1634",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Joannes Mroczek",
+    "biogram": "Cechmistrz kowali, obrońca praw cechowych w sporze z Bombą i Majowskim."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Oleszkowicz",
+    "imie": "Jan",
+    "miejsce": "Kamieniec",
+    "funkcja": "Kupiec kamieniecki",
+    "skany_roboczo": "11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Oleshkowicz",
+    "biogram": "Więziony w Kraśniku za szkody wyrządzone przez sługę Iwanka Litwina."
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Pęzik",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "skany_roboczo": "10, 11, 12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Gaspar Pęzik?",
+    "biogram": "Właściciel gruntu sąsiadującego z Kudrełem na Rzepiszynkach."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Piotrowski",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szlachcic",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Teść wójta Andrzeja Grzymkowskiego, uczestnik bójki jarmarcznej z Cacbutą."
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Pisarkiewicz vel Pisarkowicz",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Burmistrz i proconsul kraśnicki, rajca",
+    "skany_roboczo": "7, 15, 16, 17, 18, 19, 20",
+    "zakres_lat": "1632–1634",
+    "liczba_wystapien": 7,
+    "warianty_nazwiska": "Pisarkiewicz, Pisarkowicz",
+    "biogram": "Wieloletni burmistrz Kraśnika, przewodniczący radzie miejskiej, uczestnik sporu arendarskiego z Moszkiem."
+  },
+  {
+    "lp": 63,
+    "nazwisko": "Początek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Murarz kraśnicki",
+    "skany_roboczo": "18, 19",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Poczapka mularz",
+    "biogram": "Murarz kraśnicki, mąż Zofii Śniechówny, asystujący przy dzierżawie niwy."
+  },
+  {
+    "lp": 64,
+    "nazwisko": "Postrzeleniec",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin, prowizor szpitala ubogich",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Poszstrzeleniec",
+    "biogram": "Prowizor szpitala miejskiego odbierający legat zbożowy wójta Wrony."
+  },
+  {
+    "lp": 65,
+    "nazwisko": "Sagol",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "skany_roboczo": "14",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Lucas Sagol",
+    "biogram": "Kwituący Stanisława Kafarę z 9 złp za grunt."
+  },
+  {
+    "lp": 66,
+    "nazwisko": "Sagolowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczka kraśnicka",
+    "skany_roboczo": "14",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Piątkowna",
+    "biogram": "Żona Łukasza Sagola, córka Piątka."
+  },
+  {
+    "lp": 67,
+    "nazwisko": "Sarzyna",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Mąż Anastazji Kołaczkówny, kwitujący opiekunów z majątku posagowego."
+  },
+  {
+    "lp": 68,
+    "nazwisko": "Sienkiewicz",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki, szafarz prochu",
+    "skany_roboczo": "10, 17",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Simon Sienkiewicz",
+    "biogram": "Konsul kraśnicki mianowany opiekunem miejskiego prochu strzelniczego i armat."
+  },
+  {
+    "lp": 69,
+    "nazwisko": "Słucki",
+    "imie": "Bartłomiej vel Jurek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sługa miejski przysięgły, woźny",
+    "skany_roboczo": "20",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Bartosz Jurek",
+    "biogram": "Woźny miejski przysięgły doręczający nakaz sekwestru sukna u wójta Grzymkowskiego."
+  },
+  {
+    "lp": 70,
+    "nazwisko": "Sosnowicz",
+    "imie": "Kasper",
+    "miejsce": "Kraśnik",
+    "funkcja": "Złotnik kraśnicki",
+    "skany_roboczo": "16",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Gaspar Sosnowicz aurifaber",
+    "biogram": "Renesansowy złotnik kraśnicki, sprzedawca luksusowej delii fałdyszowej za 24 fl."
+  },
+  {
+    "lp": 71,
+    "nazwisko": "Szpathkowicz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły kraśnicki",
+    "skany_roboczo": "13",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Szpathkowicz",
+    "biogram": "Ławnik kraśnicki rozliczający opiekę nad majątkiem Kołaczów."
+  },
+  {
+    "lp": 72,
+    "nazwisko": "Szafranek",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Cechmistrz cechu szewskiego",
+    "skany_roboczo": "14, 15",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Cechmistrz szewski broniący prawa rzemieślników do zakupu skór baranich."
+  },
+  {
+    "lp": 73,
+    "nazwisko": "Sznicyerz",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Snycerz, burmistrz kraśnicki",
+    "skany_roboczo": "19",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Jacobus Sznicyerz",
+    "biogram": "Burmistrz kraśnicki z 1634 r., inicjator wilkierza o szarwarku na bęben i dzwon."
+  },
+  {
+    "lp": 74,
+    "nazwisko": "Śmierzgniowa",
+    "imie": "",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "skany_roboczo": "9",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Pozwana w manifestacji Jana Macławy."
+  },
+  {
+    "lp": 75,
+    "nazwisko": "Śniechówna",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "skany_roboczo": "18, 19",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Zophia Sniechowna",
+    "biogram": "Właścicielka niwki Śniechowskiej, wydzierżawiająca grunt rajcy Świechowiczowi na 3 lata."
+  },
+  {
+    "lp": 76,
+    "nazwisko": "Świechowicz",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "skany_roboczo": "19",
+    "zakres_lat": "1634",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Simon Świechowicz",
+    "biogram": "Konsul kraśnicki, dzierżawca niwki Śniechowskiej za 15 złp."
+  },
+  {
+    "lp": 77,
+    "nazwisko": "Świderski",
+    "imie": "",
+    "miejsce": "Kraśnik",
+    "funkcja": "Czeladnik kowalski",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Czeladnik kowalski oskarżony o pobicie kupca Borucha."
+  },
+  {
+    "lp": 78,
+    "nazwisko": "Trestka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "skany_roboczo": "12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Skazany na zwrot 2 talarów długu Moszkowi Markowiczowi."
+  },
+  {
+    "lp": 79,
+    "nazwisko": "Węgrzycki",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pisarz miejski kraśnicki, notariusz",
+    "skany_roboczo": "10",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Notariusz miejski wpisujący dekrety i akta radzieckie."
+  },
+  {
+    "lp": 80,
+    "nazwisko": "Wolak",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "skany_roboczo": "6, 7",
+    "zakres_lat": "1632",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "",
+    "biogram": "Przedmieszczanin wykonujący podwody konne do Warszawy i Krakowa."
+  },
+  {
+    "lp": 81,
+    "nazwisko": "Wrona",
+    "imie": "Jan",
+    "miejsce": "Mikołaj",
+    "funkcja": "Zmarły wójt mikołajski",
+    "skany_roboczo": "8",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Wójt ze wsi Mikołaj, fundator zapisu 6 korców zboża dla szpitala ubogich."
+  },
+  {
+    "lp": 82,
+    "nazwisko": "Zapierep",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kmieć / sąsiad",
+    "skany_roboczo": "12",
+    "zakres_lat": "1633",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "",
+    "biogram": "Sąsiad kupców kamienieckich."
+  }
+];
+
+    let currentMainItem = null;
+    let mainCurrentPage = 1;
+    const mainPageSize = 25;
+    let filteredMain = [...mainData];
+    let mainSortCol = 'nr_skanu';
+    let mainSortAsc = true;
+
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let filteredGen = [...genData];
+    let genSortCol = 'lp';
+    let genSortAsc = true;
+
+    // PRZEŁĄCZANIE ZAKŁADEK GŁÓWNYCH
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-content').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      if (btn) btn.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // RENDEROWANIE TABELI GŁÓWNEJ
+    function renderMainTable() {
+      const tbody = document.getElementById('mainTableBody');
+      tbody.innerHTML = '';
+      const total = filteredMain.length;
+      const totalPages = Math.ceil(total / mainPageSize) || 1;
+      if (mainCurrentPage > totalPages) mainCurrentPage = totalPages;
+      if (mainCurrentPage < 1) mainCurrentPage = 1;
+
+      const start = (mainCurrentPage - 1) * mainPageSize;
+      const end = Math.min(start + mainPageSize, total);
+      const pageData = filteredMain.slice(start, end);
+
+      pageData.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.onclick = () => openMainModal(item.nr_skanu);
+        tr.innerHTML = `
+          <td><span class="badge-scan">#${item.nr_skanu}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem;">${item.strona_pagina || ''}</td>
+          <td style="font-family:'JetBrains Mono', monospace;">${item.data_rok || ''}</td>
+          <td>${item.osoby_podmioty || ''}</td>
+          <td><span style="font-size:0.85rem; color:#cbd5e1;">${item.kategoria || ''}</span></td>
+          <td>${item.opis_sprawy || item.opis_pozycji || ''}</td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:var(--gold-primary);">${item.kwoty_miary || '—'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Aktualizacja paginacji
+      const infoText = total > 0 
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} skanów (Strona ${mainCurrentPage} z ${totalPages})`
+        : 'Brak wyników wyszukiwania';
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${mainCurrentPage} / ${totalPages}`;
+      });
+
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = mainCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = mainCurrentPage <= 1;
+      const isLast = mainCurrentPage >= totalPages;
+      ['mainPrevBtn', 'mainPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['mainNextBtn', 'mainNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE TABELI GŁÓWNEJ
+    function filterMainData() {
+      const q = (document.getElementById('mainSearchInput').value || '').toLowerCase().trim();
+      const kat = document.getElementById('mainCategoryFilter').value;
+
+      filteredMain = mainData.filter(d => {
+        const matchQ = !q ||
+          String(d.nr_skanu).includes(q) ||
+          (d.strona_pagina && d.strona_pagina.toLowerCase().includes(q)) ||
+          (d.data_rok && d.data_rok.toLowerCase().includes(q)) ||
+          (d.opis_pozycji && d.opis_pozycji.toLowerCase().includes(q)) ||
+          (d.opis_sprawy && d.opis_sprawy.toLowerCase().includes(q)) ||
+          (d.osoby_podmioty && d.osoby_podmioty.toLowerCase().includes(q)) ||
+          (d.kategoria && d.kategoria.toLowerCase().includes(q)) ||
+          (d.kwoty_miary && d.kwoty_miary.toLowerCase().includes(q));
+
+        const matchK = !kat || d.kategoria === kat;
+        return matchQ && matchK;
+      });
+
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function sortMain(col) {
+      if (mainSortCol === col) {
+        mainSortAsc = !mainSortAsc;
+      } else {
+        mainSortCol = col;
+        mainSortAsc = true;
+      }
+      filteredMain.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'nr_skanu') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return mainSortAsc ? -1 : 1;
+        if (vA > vB) return mainSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderMainTable();
+    }
+
+    function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
+        renderMainTable();
+      }
+    }
+
+    // RENDEROWANIE TABELI GENEALOGICZNEJ
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      tbody.innerHTML = '';
+      const total = filteredGen.length;
+      const totalPages = Math.ceil(total / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+      if (genCurrentPage < 1) genCurrentPage = 1;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = Math.min(start + genPageSize, total);
+      const pageData = filteredGen.slice(start, end);
+
+      pageData.forEach(p => {
+        const tr = document.createElement('tr');
+        tr.onclick = () => openGenModal(p.lp);
+        
+        let nazwiskoHtml = `<strong>${p.nazwisko}</strong>`;
+        if (p.warianty_nazwiska) {
+          nazwiskoHtml += `<div class="badge-variant">wariant: ${p.warianty_nazwiska}</div>`;
+        }
+
+        tr.innerHTML = `
+          <td style="font-family:'JetBrains Mono', monospace; color:var(--text-muted);">${p.lp}</td>
+          <td>${nazwiskoHtml}</td>
+          <td>${p.imie || '—'}</td>
+          <td><span class="badge-district">${p.miejsce || 'Kraśnik'}</span></td>
+          <td>${p.funkcja || 'Mieszkaniec'}</td>
+          <td><span class="badge-scan">${p.skany_roboczo}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace;">${p.zakres_lat || '1633'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const infoText = total > 0
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} profili (Strona ${genCurrentPage} z ${totalPages})`
+        : 'Brak wyników w słowniku';
+
+      ['genPaginationInfo', 'genPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${genCurrentPage} / ${totalPages}`;
+      });
+
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = genCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = genCurrentPage <= 1;
+      const isLast = genCurrentPage >= totalPages;
+      ['genPrevBtn', 'genPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['genNextBtn', 'genNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE GENEALOGII (Z PEŁNĄ SYNCHRONIZACJĄ ONOMASTYCZNĄ)
+    function filterGenData() {
+      const q = (document.getElementById('genSearchInput').value || '').toLowerCase().trim();
+      filteredGen = genData.filter(p => {
+        if (!q) return true;
+        const naz = (p.nazwisko || '').toLowerCase();
+        const war = (p.warianty_nazwiska || '').toLowerCase();
+        const im = (p.imie || '').toLowerCase();
+        const m = (p.miejsce || '').toLowerCase();
+        const f = (p.funkcja || '').toLowerCase();
+        const b = (p.biogram || '').toLowerCase();
+        return naz.includes(q) || war.includes(q) || im.includes(q) || m.includes(q) || f.includes(q) || b.includes(q);
+      });
+      genCurrentPage = 1;
+      renderGenTable();
+    }
+
+    function sortGen(col) {
+      if (genSortCol === col) {
+        genSortAsc = !genSortAsc;
+      } else {
+        genSortCol = col;
+        genSortAsc = true;
+      }
+      filteredGen.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'lp' || col === 'liczba_wystapien') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return genSortAsc ? -1 : 1;
+        if (vA > vB) return genSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderGenTable();
+    }
+
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+
+    // MODAL SKANU (3 ZAKŁADKI KANONU J40)
+    function openMainModal(scanNr) {
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
+      if (!item) return;
+
+      currentModalScan = item;
+
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
+      
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
+
+      const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są partiami).</em>';
+
+      document.getElementById('modalBody').innerHTML = `
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 35/40/0/1/9 (dawny Tom 3, sygnatura 3 / mikr. 110395)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_sprawy || item.opis_pozycji)}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_miary || 'Brak danych finansowych')}
+            </div>
+          </div>
+
+          ${item.uwagi ? `
+            <div class="modal-section">
+              <div class="modal-section-title">Uwagi kodykologiczne i paleograficzne</div>
+              <div style="font-size:0.88rem; color:#94a3b8;">
+                ${escapeHtml(item.uwagi)}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna zgodna z Instrukcją Wydawniczą Źródeł Historycznych PAN</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
+          </div>
+        </div>
+
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
+          <div class="modal-section">
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
+            </p>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989719" target="_blank" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Jednostkę 9 w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function switchModalTab(tabKey) {
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      });
+    }
+
+    function copyTranscription() {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      navigator.clipboard.writeText(currentModalScan.transkrypcja).then(() => {
+        const btn = document.querySelector('.btn-copy-trans');
+        if (btn) {
+          const orig = btn.innerText;
+          btn.innerText = '✅ Skopiowano do schowka!';
+          setTimeout(() => { btn.innerText = orig; }, 2000);
+        }
+      }).catch(err => {
+        console.error('Błąd kopiowania:', err);
+      });
+    }
+
+    // MODAL GENEALOGICZNY (PROFIL MIESZKAŃCA)
+    function openGenModal(lp) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+      const p = genData.find(d => d.lp === lp);
+      if (!p) return;
+
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || p.funkcja_zawod || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr === '[Wdowa]' || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || 1;
+      
+      const scanNums = (p.skany_roboczo || '').replace(/#/g, '').split(',').map(s => s.trim()).filter(Boolean);
+      
+      let occsRows = scanNums.map(sn => {
+        const mItem = mainData.find(d => parseInt(d.nr_skanu) === parseInt(sn));
+        const rok = mItem ? mItem.data_rok : (p.zakres_lat || '1633');
+        const ctx = mItem ? (mItem.opis_sprawy || mItem.opis_pozycji || mItem.kategoria || '') : (p.funkcja || '—');
+        return `
+          <tr>
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(sn)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${sn}</a></td>
+            <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(rok)}</td>
+            <td style="font-style:italic;"><strong>${escapeHtml((p.imie ? p.imie + ' ' : '') + (p.nazwisko || ''))}</strong></td>
+            <td>${escapeHtml(ctx)}</td>
+          </tr>
+        `;
+      }).join('');
+
+      let occsHtml = `
+        <table class="occs-table">
+          <thead>
+            <tr>
+              <th style="width:14%;">Skan</th>
+              <th style="width:16%;">Rok</th>
+              <th style="width:34%;">Zapis w rękopisie</th>
+              <th style="width:36%;">Podatek / Rola / Kontekst</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${occsRows}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
+          </div>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
+          </div>
+          ${(p.wariant_nazwiska || p.warianty_nazwiska) ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.wariant_nazwiska || p.warianty_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
+        </div>
+
+        ${(p.notatka_biograficzna || p.biogram) ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Notatka biograficzna i rola historyczna</div>
+            <div style="font-size:0.92rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(p.notatka_biograficzna || p.biogram)}
+            </div>
+          </div>
+        ` : ''}
+
+        <div class="modal-section">
+          <div class="modal-section-title">Wystąpienia w źródłach jednostki (poświadczenia)</div>
+          ${occsHtml}
+        </div>
+
+        ${p.uwagi ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Uwagi krytyczno-źródłowe</div>
+            <div style="font-size:0.85rem; color:#94a3b8;">${escapeHtml(p.uwagi)}</div>
+          </div>
+        ` : ''}
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
+    }
+
+    // CSV EXPORTS
+    function downloadBlob(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 100);
+    }
+
+    function exportMainCSV() {
+      let csv = '\uFEFFSkan;Pagina;Rok;Kategoria;Osoby;Opis;Kwoty\n';
+      filteredMain.forEach(r => {
+        const row = [
+          r.nr_skanu,
+          `"${(r.strona_pagina || '').replace(/"/g, '""')}"`,
+          `"${(r.data_rok || '').replace(/"/g, '""')}"`,
+          `"${(r.kategoria || '').replace(/"/g, '""')}"`,
+          `"${(r.osoby_podmioty || '').replace(/"/g, '""')}"`,
+          `"${(r.opis_sprawy || r.opis_pozycji || '').replace(/"/g, '""')}"`,
+          `"${(r.kwoty_miary || '').replace(/"/g, '""')}"`
+        ];
+        csv += row.join(';') + '\n';
+      });
+      downloadBlob(csv, 'krasnik_j9_rejestr_skanow.csv', 'text/csv;charset=utf-8;');
+    }
+
+    function exportGenCSV() {
+      let csv = '\uFEFFLp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska\n';
+      filteredGen.forEach(p => {
+        const row = [
+          p.lp,
+          `"${(p.nazwisko || '').replace(/"/g, '""')}"`,
+          `"${(p.imie || '').replace(/"/g, '""')}"`,
+          `"${(p.miejsce || 'Kraśnik').replace(/"/g, '""')}"`,
+          `"${(p.funkcja || 'Mieszkaniec').replace(/"/g, '""')}"`,
+          `"${(p.skany_roboczo || '').replace(/"/g, '""')}"`,
+          `"${(p.zakres_lat || '').replace(/"/g, '""')}"`,
+          p.liczba_wystapien || 1,
+          `"${(p.warianty_nazwiska || '').replace(/"/g, '""')}"`
+        ];
+        csv += row.join(';') + '\n';
+      });
+      downloadBlob(csv, 'krasnik_j9_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
+    }
+
+    // SKRÓTY KLAWISZOWE
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // INICJALIZACJA
+    window.addEventListener('DOMContentLoaded', () => {
+      const catSelect = document.getElementById('mainCategoryFilter');
+      const cats = Array.from(new Set(mainData.map(d => d.kategoria).filter(Boolean))).sort();
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.innerText = c;
+        catSelect.appendChild(opt);
+      });
+
+      renderMainTable();
+      renderGenTable();
+    });
+  </script>
+</body>
+</html>
