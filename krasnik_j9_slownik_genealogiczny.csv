@@ -22,17 +22,17 @@
 21;Fischer;Bartłomiej;Zamość;Szlachcic, sługa Podkanclerzego Koronnego;8;1633;1;
 22;Fox;Jan;Kraśnik;Rajca kraśnicki, wójt;10, 17, 19, 21, 22, 37, 38;1632–1635;7;Joannes Fox
 23;Gnaciak;Jakub;Łopoka;Pracowity ze wsi Łopoka;9;1633;1;
-24;Grzymkowski;Andrzej;Kraśnik;Wójt sądowy kraśnicki, rajca;6, 7, 8, 10, 13, 14, 17, 19, 20, 21, 22, 24, 29, 31, 32, 36, 39;1632–1635;17;
+24;Grzymkowski;Andrzej;Kraśnik;Wójt sądowy kraśnicki, rajca;6, 7, 8, 10, 13, 14, 17, 19, 20, 21, 22, 24, 29, 31, 32, 36, 39, 41, 44, 45, 51, 56, 57;1632–1635;23;
 25;Hłań;Stasiukowicz;Kamieniec;Kupiec / mieszkaniec Kamieńca;11, 12;1633;2;Alanius
 26;Ibałyziewicz;Wasian;Kamieniec;Kupiec kamieniecki;11;1633;1;
 27;Iłowiecki;Stanisław;Kraśnik;Szlachcic, sługa Podkanclerzego Koronnego;6, 7;1632;2;Nob. Iłowiecki
 28;Iwanko;Litwin;Litwa;Sługa kupiecki;11, 12;1633;2;Iwan Litwin
-29;Janaszkowicz;Wojciech;Kraśnik;Burmistrz i notariusz miejski kraśnicki;10, 13, 17, 19, 33, 39, 40;1632–1634;7;Janaskowicz
+29;Janaszkowicz;Wojciech;Kraśnik;Burmistrz i notariusz miejski kraśnicki;10, 13, 17, 19, 33, 39, 40, 41, 42, 43, 56, 57;1632–1634;12;Janaskowicz
 30;Jazdzyk;Jan;Kraśnik;Przedmieszczanin kraśnicki;8;1633;1;
 31;Jurczyk;Matys;Kraśnik;Mieszczanin kraśnicki;12, 13;1633;2;Jurczak?
 32;Jurkowicz;Andrzej;Kraśnik;Ławnik przysięgły miejski, urzędowy opiekun;9, 11, 25;1632–1633;3;
 33;Kafara;Stanisław;Kraśnik;Kupiec i mieszczanin kraśnicki;9, 14, 19, 20;1633–1634;4;
-34;Kamieński vel Stogniew;Adam;Kraśnik;Rajca kraśnicki, Asesor Trybunału Koronnego;10, 11, 12, 17, 19, 21, 22, 24, 25;1632–1635;9;Adam Stogniew, Adamus Kamieński
+34;Kamieński vel Stogniew;Adam;Kraśnik;Rajca kraśnicki, Asesor Trybunału Koronnego;10, 11, 12, 17, 19, 21, 22, 24, 25, 45, 56;1632–1635;11;Adam Stogniew, Adamus Kamieński
 35;Kandup;Andrzej;Kraśnik;Mieszczanin kraśnicki, opiekun sierot;13;1633;1;
 36;Kierz;Maciej;Kraśnik;Piwowar / mieszkaniec Kraśnika;6;1634;1;Matthias Kierz
 37;Kierz;Wojciech;Kraśnik;Piwowar / mieszkaniec Kraśnika;6;1634;1;Albertus Kierz
@@ -41,7 +41,7 @@
 40;Klebarski;Maciej;Kraśnik;Ślusarz i kowal miejski;8;1633;1;Matthias Klebarski serrifaber
 41;Kołaczkówna;Anastazja;Kraśnik;Córka Sebastiana Kołacza;13;1633;1;Anastasia Kołaczkowna
 42;Kondracki;Andrzej;Kraśnik;Mieszczanin kraśnicki;11;1633;1;
-43;Koźmian;Wawrzyniec;Podlesie;Przedmieszczanin, posesjonat na Podlesiu;6, 7;1632;2;Laurentius Koźmian
+43;Koźmian;Wawrzyniec;Podlesie;Szlachcic, posesjonat na Podlesiu;6, 7, 41;1632–1634;3;Laurentius Koźmian
 44;Kraiński;Jan;Kraśnik;Zmarły sługa domowy;9;1633;1;
 45;Kudła;Walenty;Słupia;Kmieć ze wsi Słupia;8;1633;1;
 46;Kwasowicz;Marcin;Kraśnik;Rajca i wójt kraśnicki;10, 17, 19, 21, 22, 31, 34, 40;1632–1635;8;Kwassowicz
@@ -53,15 +53,15 @@
 52;Majowski;Stanisław;Kraśnik;Mistrz kowalski / sukiennik;17, 18;1634;2;Maiowsky
 53;Markowicz;Abraham;Kraśnik;Kupiec żydowski;19, 20, 25, 26;1632–1634;4;
 54;Markowicz;Izrael;Kraśnik;Kupiec żydowski;19, 20;1634;2;Israel Markowicz
-55;Markowicz;Moszko;Kraśnik;Senior gminy żydowskiej, kupiec, dzierżawca;12, 15, 16, 17, 18, 19, 20, 25, 26, 33, 34, 39, 40;1632–1634;13;Moszko, Moszek
+55;Markowicz;Moszko;Kraśnik;Senior gminy żydowskiej, kupiec, dzierżawca;12, 15, 16, 17, 18, 19, 20, 25, 26, 33, 34, 39, 40, 41, 49;1632–1634;15;Moszko Bogaty
 56;Miedziany vel Kudrełł;Szymon;Kraśnik;Przedmieszczanin, rolnik;10, 11, 12;1633;3;Simon Miedziany, Kudreł
-57;Miłek;Marcin;Kraśnik;Rajca kraśnicki, cechmistrz kuśnierski, prowizor;8, 10, 14, 15, 17, 19, 22;1632–1635;7;
+57;Miłek;Marcin;Kraśnik;Rajca kraśnicki, cechmistrz kuśnierski, prowizor;8, 10, 14, 15, 17, 19, 22, 55;1632–1635;8;
 58;Mroczek;Jan;Kraśnik;Starszy cechu kowalskiego, patron;13, 17, 18;1633–1634;3;Joannes Mroczek
 59;Oleszkowicz;Jan;Kamieniec;Kupiec kamieniecki;11, 12;1633;2;Oleshkowicz
 60;Pęzik;Sebastian;Kraśnik;Przedmieszczanin kraśnicki;10, 11, 12;1633;3;Gaspar Pęzik?
-61;Piotrowski;Paweł;Kraśnik;Szlachcic, zarządca (praefectus) dóbr Stróża;13, 28, 36;1632–1633;3;
-62;Pisarkiewicz vel Pisarkowicz;Jakub;Kraśnik;Burmistrz i proconsul kraśnicki, rajca;7, 15, 16, 17, 18, 19, 20;1632–1634;7;Pisarkiewicz, Pisarkowicz
-63;Początek;Jan;Kraśnik;Murarz kraśnicki;18, 19, 24;1634–1635;3;Poczapka mularz
+61;Piotrowski;Paweł;Kraśnik;Szlachcic, zarządca (praefectus) dóbr Stróża;13, 28, 36, 49, 50;1632–1633;5;
+62;Pisarkiewicz vel Pisarkowicz;Jakub;Kraśnik;Burmistrz i proconsul kraśnicki, rajca;7, 15, 16, 17, 18, 19, 20, 28, 48, 51, 52, 53, 58, 59, 60;1632–1634;15;Pisarkiewicz, Pisarkowicz
+63;Początek;Jan;Kraśnik;Murarz kraśnicki;18, 19, 24, 48;1632–1635;4;Poczapka mularz
 64;Postrzeleniec;Szymon;Kraśnik;Mieszczanin, prowizor szpitala ubogich;8;1633;1;Poszstrzeleniec
 65;Sagol;Łukasz;Kraśnik;Mieszczanin kraśnicki;14;1633;1;Lucas Sagol
 66;Sagolowa;Katarzyna;Kraśnik;Mieszczka kraśnicka;14;1633;1;Piątkowna
@@ -74,14 +74,14 @@
 73;Sznicyerz;Jakub;Kraśnik;Snycerz, burmistrz kraśnicki;19;1634;1;Jacobus Sznicyerz
 74;Śmierzgniowa;;Kraśnik;Mieszka kraśnicka;9;1633;1;
 75;Śniechówna;Zofia;Kraśnik;Mieszka kraśnicka;18, 19;1634;2;Zophia Sniechowna
-76;Świechowicz;Szymon;Kraśnik;Rajca kraśnicki, burmistrz (1635);19, 21, 22, 25, 26;1632–1635;5;Simon Świechowicz
+76;Świechowicz;Szymon;Kraśnik;Rajca kraśnicki, burmistrz (1635);19, 21, 22, 25, 26, 45;1632–1635;6;Simon Świechowicz
 77;Świderski;;Kraśnik;Czeladnik kowalski;8;1633;1;
 78;Trestka;Jan;Kraśnik;Przedmieszczanin kraśnicki;12;1633;1;
 79;Węgrzycki;Walenty;Kraśnik;Pisarz miejski kraśnicki, ławnik, notariusz;10, 36, 39;1632–1633;3;Węgrzyński
 80;Wolak;Wojciech;Kraśnik;Przedmieszczanin kraśnicki;6, 7;1632;2;
-81;Wrona;Jan;Mikołaj;Zmarły wójt mikołajski;8;1633;1;
+81;Wrona;Jan;Mikołaj;Wójt wilkołaski, mieszczanin;8, 44;1632;2;Advocatus Wilkołaziensis
 82;Zapierep;Adam;Kraśnik;Kmieć / sąsiad;12;1633;1;
-83;Baran Moszkowicz;;Kraśnik;Kupiec żydowski;21;1634;1;Baran Iudaeus
+83;Baran Moszkowicz;;Kraśnik;Kupiec żydowski;21, 43;1632–1634;2;Baran Iudaeus, Perfidus Baran
 84;Wrona;Mikołaj;Kraśnik;Mieszczanin kraśnicki;21;1634;1;Iency Wrona
 85;Szlenier;Stanisław;Kraśnik;Przedmieszczanin kraśnicki, pogorzelec;21;1634;1;
 86;Jasko;Jan;Kraśnik;Przedmieszczanin kraśnicki, pogorzelec;21;1634;1;Ian Iaske
@@ -105,10 +105,10 @@
 104;Krzyżan;Stanisław;Dzierzkowice;Ławnik dzierzkowski;23;1630;1;
 105;Jakub Żyd;;Kraśnik;Kupiec żydowski;24;1635;1;Iacobus Iudaeus
 106;Brodowski;Zygmunt;Kraśnik;Szlachcic;24;1635;1;Sigismundus Brodowski
-107;Kucza;Wojciech;Kraśnik;Mieszczanin kraśnicki;24;1635;1;Albertus Kucza
-108;Kuczanka;Zofia;Kraśnik;Mieszka kraśnicka;24;1635;1;Zophia Kuczanka
+107;Kucza;Wojciech;Kraśnik;Mieszczanin kraśnicki;24, 48;1632–1635;2;Albertus Kucza
+108;Kuczanka;Zofia;Kraśnik;Mieszka kraśnicka;24, 48;1632–1635;2;Zophia Kuczanka
 109;Kuczanka;Justyna;Kraśnik;Mieszka kraśnicka;24;1635;1;Iustina Kuczanka
-110;Kuczenowicz;Andrzej;Kraśnik;Ławnik przysięgły kraśnicki;24, 25, 38;1632–1635;3;Kuczenwicz
+110;Kuczenowicz;Andrzej;Kraśnik;Ławnik przysięgły kraśnicki, urzędowy opiekun;24, 25, 38, 44, 48, 54;1632–1635;6;Kuczenwicz
 111;Kucza;Maciej;Kraśnik;Zmarły mieszczanin kraśnicki;24;1635;1;Mathias Kucza
 112;Szkaradek vel Szkernicz;Wojciech Jan;Kraśnik;Rajca i mieszczanin kraśnicki;25;1632;1;Szkernicz, Szkaradek
 113;Iersolko Żyd;;Kraśnik;Senior gminy żydowskiej;25;1632;1;Iersolka
@@ -120,12 +120,12 @@
 119;Barszcz;Wawrzyniec;Kraśnik;Przedmieszczanin kraśnicki;26, 30, 35;1632;3;Laurentius Barszcz
 120;Czugkowa;[Imię nieznane];Kraśnik;Zmarła mieszczka kraśnicka;26;1632;1;
 121;Eliaszewicz;Jozelko;Kraśnik;Szkolnik żydowski (szkoła);26;1632;1;Ioselko Szkoła
-122;Sapatkowicz;Stanisław;Kraśnik;Mieszczanin kraśnicki;26, 40;1632;2;Stanislaus Sapatkowicz
+122;Sapatkowicz;Stanisław;Kraśnik;Mieszczanin kraśnicki;26, 40, 41;1632;3;Stanislaus Sapatkowicz
 123;Sobocki;Albert;Kraśnik;Mieszczanin kraśnicki;26;1632;1;
 124;Skroczek;Stanisław;Kraśnik;Mieszczanin kraśnicki;26, 29;1632;2;
 125;Kochut;Jan;Kraśnik;Mieszczanin kraśnicki;26;1632;1;Joannes Kochut
 126;Hendale;Andrzej;Kraśnik;Zmarły obywatel kraśnicki;27;1632;1;Andreas Hendale
-127;Hendalina;Jadwiga;Kraśnik;Wdowa;27, 38;1632;2;
+127;Hendalina;Jadwiga;Kraśnik;Wdowa;27, 38, 45, 46;1632;4;
 128;Tokarz;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, rzemieślnik;27;1632;1;
 129;Paluszek;Łukasz;Kraśnik;Przedmieszczanin kraśnicki;27;1632;1;
 130;Wrączek;Marcin;Kraśnik;Przedmieszczanin kraśnicki;27;1632;1;
@@ -133,14 +133,14 @@
 132;Kurzyła;Tomasz;Kraśnik;Przedmieszczanin kraśnicki;27;1632;1;Tomasz Kurzyłek
 133;Kołkownica;[Imię nieznane];Kraśnik;Mieszka kraśnicka;27;1632;1;
 134;Duda;[Imię nieznane];Kraśnik;Przedmieszczanin kraśnicki;28;1632;1;
-135;Tartonius;Andrzej;Kraśnik;Ksiądz, zakonnik kanoników regularnych;28;1632;1;Andreas Tartonicus
-136;Maluronowski;Jan;Kraśnik;Ksiądz, prepozyt kanoników regularnych;28;1632;1;Ioannes Maluronoski
-137;Rybułtowicz;Hilary;Kraśnik;Szlachcic, bakałarz kraśnicki;28;1632;1;Nobilis Hilarius Rybultowicz
+135;Tartonius;Andrzej;Kraśnik;Ksiądz, zakonnik kanoników regularnych;28, 53;1632;2;Andreas Tartonicus
+136;Maluronowski;Jan;Kraśnik;Ksiądz, prepozyt kanoników regularnych;28, 53;1632;2;Ioannes Maluronoski
+137;Rybułtowicz;Hilary;Kraśnik;Bakałarz nauk wyzwolonych, Gymnasiarcha;28, 48, 51, 52, 53;1632;5;Nobilis Hilarius Rybultowicz
 138;Pietrzyk;Jan;Kraśnik;Obywatel kraśnicki;28;1632;1;
 139;Konieczna;Jakubowa Halina;Kraśnik;Mieszka kraśnicka;28;1632;1;Halima Konieczna
 140;Sapatnicza;Zuska Krawcowa;Kraśnik;Mieszka kraśnicka;28;1632;1;
 141;Kowalka;[Imię nieznane];Kraśnik;Mieszka kraśnicka, szynkarka;28;1632;1;
-142;Postrzygaczka;[Imię nieznane];Kraśnik;Mieszka kraśnicka, szynkarka;28, 35;1632;2;Pannitonsrix
+142;Postrzygaczka;[Imię nieznane];Kraśnik;Mieszka kraśnicka, szynkarka;28, 35, 58;1632;3;Pannitonsrix
 143;Jantoszek;Tomasz;Kraśnik;Mieszczanin kraśnicki;28;1632;1;
 144;Janicz;Jan;Kraśnik;Mieszczanin kraśnicki;29;1632;1;
 145;Ciasta;Sebastian;Kraśnik;Przedmieszczanin kraśnicki;29, 33;1632;2;
@@ -169,17 +169,17 @@
 168;Łącki;Wincenty;Kraśnik;Szlachcic;33;1632;1;Nobilis Wincenty Łącki
 169;Koryto;Stepanko;Kraśnik;Przedmieszczanin kraśnicki;33;1632;1;
 170;Kuczyna;Anna;Kraśnik;Mieszka kraśnicka;33, 39;1632;2;
-171;Janczyk;Jan;Kraśnik;Mieszczanin kraśnicki;33;1632;1;Joannes Janczyk
+171;Janczyk;Jan;Kraśnik;Mieszczanin kraśnicki;33, 47;1632;2;Joannes Janczyk
 172;Palczanowski;[Imię nieznane];Kraśnik;Dłużnik miejski;33;1632;1;
-173;Hendalanka;Krystyna;Kraśnik;Mieszka kraśnicka;33, 38;1632;2;Crystina Hendalanka
+173;Hendalanka;Krystyna;Kraśnik;Mieszka kraśnicka;33, 38, 45, 46, 51;1632;5;Crystina Hendalanka
 174;Jurczyk;Jan;Kraśnik;Mieszczanin kraśnicki;33;1632;1;
 175;Czyrz;Wojciech;Kraśnik;Rajca kraśnicki;34;1632;1;Albertus Czyrz
 176;Czyrzowa;Dorota;Kraśnik;Mieszka kraśnicka;34;1632;1;
 177;Baba;[Imię nieznane];Kraśnik;Woźny miejski przysięgły;34;1632;1;
 178;Jurkowa;Krystyna;Kraśnik;Przedmieszczanka kraśnicka;34, 36, 38;1632;3;Cristina Iurkowa
 179;Jurek;Walenty;Kraśnik;Przedmieszczanin kraśnicki;34, 36, 38;1632;3;Valentinus Jurek
-180;Butba;Stanisław;Kraśnik;Mistrz szewski;35, 37;1632;2;Stanislaus Butba
-181;Kaliszek;Jan;Kraśnik;Mieszczanin kraśnicki;35;1632;1;Joannes Kaliszek
+180;Butba;Stanisław;Kraśnik;Mistrz szewski;35, 46, 48, 51, 53, 58;1632;6;Stanislaus Butba
+181;Kaliszek;Jan;Kraśnik;Mieszczanin kraśnicki;35, 43;1632;2;Joannes Kaliszek
 182;Bucina;Stanisławowa;Kraśnik;Mieszka kraśnicka;35;1632;1;
 183;Nowak;Andrzej;Kraśnik;Przedmieszczanin kraśnicki;35;1632;1;Andreas Nowak
 184;Jerszko Żyd;;Kraśnik;Arendarz żydowski;36;1632;1;Jerszko Iudaeus
@@ -187,7 +187,7 @@
 186;Hason Żyd;;Kraśnik;Kupiec żydowski;36;1632;1;Hason Iudaeus
 187;Jurek;Jan;Kraśnik;Przedmieszczanin kraśnicki;36, 38;1632;2;Joannes Jurek
 188;Jurek;Mikołaj;Kraśnik;Przedmieszczanin senior;36, 38;1632;2;
-189;Butba;Jan;Kraśnik;Mistrz szewski;35, 37;1632;2;Joannes Butba
+189;Butba;Jan;Kraśnik;Mistrz szewski;35, 37, 51;1632;3;Joannes Butba
 190;Kłęk;[Imię nieznane];Kraśnik;Czeladnik szewski;37;1632;1;
 191;Krassowski;Jerzy;Kraśnik;Szlachcic;37;1632;1;Nobilis Georgius Krassowski
 192;Szafranek;Wojciech;Kraśnik;Czeladnik / mieszczanin kraśnicki;37, 38;1632;2;
@@ -195,9 +195,85 @@
 194;Mąka;Jan;Kraśnik;Obywatel kraśnicki;38;1632;1;Jan Mąka
 195;Rodzenkowa;Zofia;Kraśnik;Przedmieszczanka kraśnicka;38;1632;1;
 196;Więcek;[Imię nieznane];Kraśnik;Przedmieszczanin dłużnik;38;1632;1;
-197;Ćmielowski;Wojciech;Kraśnik;Szlachcic;39, 40;1632;2;Nobilis Albertus Ćmielowski
-198;Rudnicki;[Imię nieznane];Kraśnik;Szlachcic;40;1632;1;Nobilis Rudnicki
-199;Głąb;Jan;Sułów;Kmieć ze wsi Sułów;40;1632;1;
+197;Ćmielowski;Wojciech;Kraśnik;Szlachcic, oskarżyciel w procesie ewikcyjnym;39, 40, 41, 42, 43, 56, 57, 58;1632;8;Nobilis Albertus Ćmielowski
+198;Rudnicki;Jan;Kraśnik;Szlachcic;40, 54, 55;1632;3;Nobilis Joannes Rudnicki
+199;Głąb;Jan;Sułów;Kmieć ze wsi Sułów, ewiktur;40, 41, 42;1632;3;Głąbik
 200;Strzęcki;[Imię nieznane];Stróża;Wójt ze wsi Stróża;40;1632;1;Pan Wóyt Strzęcki
-201;Cyrulik;Marcin;Kraśnik;Balwierz / cyrulik miejski;40;1632;1;Martinus Cyrulik
+201;Cyrulik;Marcin;Kraśnik;Balwierz / cyrulik miejski;40, 41;1632;2;Martinus Cyrulik
 202;Leśkupniczy;[Imię nieznane];Kraśnik;Urzędnik leśny;40;1632;1;
+203;Sapata vel Sapatkowicz;Albert;Kraśnik;Ławnik przysięgły kraśnicki;41, 54;1632;2;Albertus Sapata, Sapatkowicz
+204;Rymarczyk;Stanisław;Kraśnik;Mieszczanin kraśnicki;42;1632;1;Honestus Stanislaus Rymarczyk
+205;Łuszczek;Grzegorz;Sułów;Kmieć ze wsi Sułów;42;1632;1;Laboriosus Gregorius Luszczek
+206;Głąbik;Mikołaj;Sułów;Kmieć ze wsi Sułów;42;1632;1;Laboriosus Nicolaus Głąbik
+207;Kłopocik;Gabriel;Kraśnik;Przedmieszczanin kraśnicki;42;1632;1;Gabriel Kłopocik Anteoppidanus
+208;Kłopocik;Paweł;Kraśnik;Przedmieszczanin kraśnicki;42;1632;1;Paulus Kłopocik Anteoppidanus
+209;Lisek;Albert;Kraśnik;Przedmieszczanin kraśnicki, czeladnik;42;1632;1;Albertus Lisek suburbanus
+210;Kędziorek;Albert;Kraśnik;Przedmieszczanin kraśnicki;43;1632;1;Albertus Kendzorek Anteoppidanus
+211;Koszela;Andrzej;Kraśnik;Przedmieszczanin kraśnicki;43;1632;1;Andreas Koszela Anteoppidanus
+212;Kmiha;Albert;Kraśnik;Mieszkaniec Kraśnika (incola);43;1632;1;Albertus Kmiha incola
+213;Wróbel;Jan;Kraśnik;Mieszczanin kraśnicki;44;1632;1;Joannes Wróbel
+214;Kamieński;Tomasz;Kraśnik;Mieszczanin kraśnicki;44;1632;1;Thomas Kamieński civis
+215;Dziedzic;Matyasz;Zakrzówek;Wójt ze wsi Zakrzówek;44;1632;1;Matiasz Dziedzic Woyt z Zakrzowka
+216;Płoszczynerodzina vel Płoszczyna;Dorota;Kraśnik;Zmarła mieszczka kraśnicka;44;1632;1;Dorota Płoszczyney
+217;Ciaśnyszka;Jan;Kraśnik;Mieszczanin kraśnicki;44, 46, 47;1632;3;Joannes Ciasnoszka
+218;Grot;Adam;Wilkołaz;Mieszkaniec / sąsiad gruntowy;44;1632;1;Adamus Grot
+219;Barszcz;Walenty;Kraśnik;Mieszczanin kraśnicki;44;1632;1;Valentinus Barszcz
+220;Barszczówna;Zofia;Kraśnik;Mieszka kraśnicka;45;1632;1;Honesta Zophia Barszczowna Stogniewowa
+221;Szumowski;Walenty;Kraśnik;Obywatel kraśnicki;45;1632;1;Valentinus Szumowski
+222;Płaza;Bartłomiej;Kraśnik;Przedmieszczanin kraśnicki;45;1632;1;Bartholomaeus Płaza
+223;Pajączek;[Imię nieznane];Kraśnik;Sługa żydowski;46;1632;1;Paiączek famulus
+224;Eliazar Żyd;;Kraśnik;Mieszkaniec żydowski Kraśnika;46;1632;1;Eleasar Iudaeus
+225;Kulka;Bartłomiej;Kraśnik;Mieszczanin kraśnicki;46;1632;1;Bartholomaeus Kulka
+226;Szczygieł;Albert;Kraśnik;Mieszczanin kraśnicki;46;1632;1;Albertus Szczygieł
+227;Pajączkowa vel Balwierzanka;Zofia;Kraśnik;Mieszka kraśnicka;46, 52, 59;1632;3;Zophia Paiączkowa als Balwierzanka
+228;Jakubaszek;Maciej;Blinów;Kmieć ze wsi Blinów;46;1632;1;Matthias Jakubaszek de Blinow
+229;Trela;Andrzej;Kraśnik;Przedmieszczanin kraśnicki;46;1632;1;Andreas Trela Anteoppidanus
+230;Pasterz;Szymon;Kraśnik;Przedmieszczanin kraśnicki;46, 47;1632;2;Simon Pastor Incola
+231;Lubiński;Jan;Kraśnik;Cymbalista miejski, obywatel;47, 52;1632;2;Jan Lubiński Cymbalista
+232;Jurczyk;Andrzej;Kraśnik;Cechmistrz cechu krawieckiego;47;1632;1;Andrzej Jurczyk Cechmistrz
+233;Moszkowicz;Dawid;Kraśnik;Syn Moszka Bogatego, kupiec żydowski;49;1632;1;David filius Moszko
+234;Moszkowicz;Izrael;Kraśnik;Syn Moszka Bogatego, kupiec żydowski;49;1632;1;Israel filius Moszko
+235;Bednarz;Paweł;Kraśnik;Mistrz bednarski kraśnicki;49;1632;1;Paweł Bednarz
+236;Bednarzowa;Regina;Kraśnik;Mieszka kraśnicka;49;1632;1;Regina Bednarzowa
+237;Zaziąblik;Krzysztof;Kraśnik;Mieszczanin osiadły kraśnicki;49, 50;1632;2;Christophorus Zaziąblik
+238;Doleator;Paweł;Kraśnik;Szynkarz miejski, mieszczanin;49, 50;1632;2;Paulus Doleator
+239;Bomba vel Siurkowski;Jan;Kraśnik;Obywatel kraśnicki;50;1632;1;Joannes Bomba als Siurkowski
+240;Lewkowa Żydówka;;Kraśnik;Przedsiębiorczyni żydowska;50;1632;1;Perfida Lewkowa Iudaea
+241;Kargolowa;Dorota;Kraśnik;Mieszka kraśnicka;51;1632;1;Laboriosa Dorothea Kargolowa
+242;Wylczyk;Tomasz;Kraśnik;Czeladnik cechu szewskiego;51, 58;1632;2;Tomasz Wylcik Szewczyk
+243;Bigosz;Jan;Kraśnik;Leśniczy miejski (custos sylvarum);51;1632;1;Joannes Bigosz custos sylvarum
+244;Bojanowski;[Imię nieznane];Kraśnik;Mieszczanin kraśnicki;51;1632;1;Pan Boianowski
+245;Wójcik;[Imię nieznane];Kraśnik;Mieszkaniec obłąkany;51;1632;1;Szalony Woycik
+246;Kuczarek;[Imię nieznane];Kraśnik;Mieszkaniec kraśnicki;51;1632;1;Kuczarek
+247;Postrzelona;Ewa;Kraśnik;Zmarła mieszkanka kraśnicka;52, 56;1632;2;Eva Postrzelona sclopo traiecta
+248;Sitarz;Andrzej;Kraśnik;Rzemieślnik sitarski, mieszczanin;52, 55, 56;1632;3;Andreas Sitarz Oppidanus
+249;Pazik;[Stryj];Kraśnik;Mieszczanin kraśnicki;52;1632;1;Patruus Pazik
+250;Pazik;[Synowiec];Kraśnik;Mieszczanin kraśnicki;52;1632;1;Filiaster Pazik
+251;Postrzygacz;Szymon;Kraśnik;Mistrz postrzygacki, prowizor szpitala;53;1632;1;Simon Postrzygacz Provisor
+252;Cuderceki;Augustyn;Kraśnik;Ksiądz, zakonnik kanoników regularnych;53;1632;1;P. Augustinus Cuderceki
+253;Skrzypkowa;Katarzyna;Kraśnik;Zmarła dobrodziejka kościoła i szpitala;53;1632;1;Honesta olim Catherina Skrzypkowa
+254;Skrzypkowicz;Wincenty;Kraśnik;Zmarły sukcesor, syn Katarzyny;53, 59, 60;1632;3;Vincentius filius Catherinae
+255;Lisek;Jan;Kraśnik;Przedmieszczanin kraśnicki;53;1632;1;Joannes Lisek Anteoppidanus
+256;Dziad;[Imię nieznane];Kraśnik;Przedmieszczanin kraśnicki;53;1632;1;Dziad
+257;Dudek;Jakub;Kraśnik;Mieszczanin kraśnicki;53;1632;1;Jacobus Dudek
+258;Wolak;Albert;Kraśnik;Mieszczanin kraśnicki;53;1632;1;Albertus Wolak
+259;Konwers;Tomasz;Kraśnik;Mieszkaniec Kraśnika;53;1632;1;Thomas conversus
+260;Zeley;Matyasz;Kraśnik;Przedmieszczanin kraśnicki, ojciec;53, 54;1632;2;Matthias Zeley, Czeley
+261;Zeley;Albert;Kraśnik;Zmarły młodzieniec kraśnicki;54;1632;1;Albertus Zeley occisus
+262;Jasioniczek;Bartłomiej;Kraśnik;Przedmieszczanin kraśnicki;54;1632;1;Bartholomaeus Zeley Jasioniczek
+263;Grudzień;Jan;Kraśnik;Mieszkaniec kraśnicki;54;1632;1;Joannes Grudzień
+264;Jasionek;Marcin;Kraśnik;Przedmieszczanin kraśnicki;54;1632;1;Martinus Jasionicz
+265;Matys Żyd;;Kraśnik;Mieszkaniec gminy żydowskiej;54, 55;1632;2;Matthias Iudaeus
+266;Piekarczyk;Jan;Kraśnik;Przedmieszczanin kraśnicki, żołnierz;55;1632;1;Joannes Piekarczyk Anteoppidanus
+267;Piekarczyk;Marcin;Kraśnik;Zmarły piekarz kraśnicki;55;1632;1;Marcin Piekarczyk
+268;Karaś;Albert;Kraśnik;Kmieć / przedmieszczanin;56;1632;1;Laboriosus Albertus Karaś
+269;Lipnicki;Adam;Kraśnik;Szlachcic, patron prawny;56;1632;1;Nobilis Adamus Lipnicki
+270;Zuzanna;;Kraśnik;Służąca dziewka;58;1632;1;Zuzanna dziewka
+271;Bojanowski;Tomasz;Kraśnik;Szlachcic, starosta młyński;58;1632;1;Nobilis Thomas Boianowski
+272;Lewek Żyd Tartowski;;Tartów / Kraśnik;Kupiec żydowski handlarz rybami;58;1632;1;Lewek Zyd Tartowski
+273;Dzierżęga;Jakub;Kraśnik;Mieszczanin kraśnicki;58, 59;1632;2;Jacobus Dzierżęga
+274;Pusak;Stanisław;Kraśnik;Mieszczanin kraśnicki;58, 59;1632;2;Stanislaus Pusak
+275;Starzyk;Matyasz;Sułów;Kmieć ze wsi Sułów;59;1632;1;Matthias Starzyk de Sulow
+276;Sapata;Jakub;Kraśnik;Mieszczanin kraśnicki;59;1632;1;Jacobus Sapata
+277;Krupka;Stefan;Kraśnik;Mistrz krawiecki kraśnicki;59;1632;1;Stephanus Krupka Sartor
+278;Rybułtowicz;Marek;Kraśnik;Rektor szkoły kraśnickiej (rector scholae);49, 51, 52, 59, 60;1632;5;Marcus Rybułtowicz Rector Scholae
