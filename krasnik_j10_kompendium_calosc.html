@@ -1,0 +1,3103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Kraśnik – Akta Ogólne Wójtowsko-Ławnicze (Brudnopis 1646–1647) | Jednostka 10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --gold-primary: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --purple-accent: #8b5cf6;
+      --accent-cyan: #06b6d4;
+      --border: #334155;
+      --card-bg: rgba(30, 41, 59, 0.85);
+      --success: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .portal-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gold-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      transition: all 0.2s;
+    }
+    .portal-back-link:hover {
+      background: rgba(245, 158, 11, 0.2);
+      transform: translateY(-1px);
+    }
+
+    header.hero {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* NAV TABS */
+    .tabs-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #fff;
+      background: var(--bg-tertiary);
+      border-color: var(--border);
+    }
+
+    .tab-btn.gold-tab.active {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold-primary);
+    }
+
+    .tab-badge {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.15rem 0.45rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KONTENER GŁÓWNY I ZAKŁADKI */
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* KARTY KPI */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card.gold { border-top: 3px solid var(--gold-primary); }
+    .stat-card.purple { border-top: 3px solid var(--purple-accent); }
+    .stat-card.cyan { border-top: 3px solid var(--accent-cyan); }
+    .stat-card.success { border-top: 3px solid var(--success); }
+
+    .stat-title {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .stat-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .info-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* KONTROLKI, WYSZUKIWARKA, PRZYCISKI */
+    .controls-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: flex-end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 200px;
+    }
+    .control-group.wide {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    input[type="text"], input[type="number"], select {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 0.6rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border 0.2s;
+    }
+    input[type="text"]:focus, input[type="number"]:focus, select:focus {
+      border-color: var(--gold-primary);
+    }
+
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* TABELA I KONTENER TABLE-WRAPPER */
+    .table-wrapper {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: rgba(15, 23, 42, 0.75);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: #fff; }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    tbody td {
+      padding: 0.85rem 1rem;
+      vertical-align: middle;
+    }
+
+    .badge-scan {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      color: var(--gold-primary);
+      background: rgba(245, 158, 11, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      display: inline-block;
+    }
+
+    .badge-district {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: rgba(139, 92, 246, 0.15);
+      color: #c4b5fd;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      margin: 0.1rem;
+    }
+
+    .badge-variant {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+      display: inline-block;
+      padding: 1px 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 3px;
+      border: 1px solid #334155;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      margin: 5vh auto;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .modal-header h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-close:hover { color: #fff; }
+
+    .modal-tabs-bar {
+      display: flex;
+      background: rgba(15, 23, 42, 0.75);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1rem;
+    }
+
+    .modal-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .modal-tab-btn:hover { color: #fff; }
+    .modal-tab-btn.active {
+      color: var(--gold-primary);
+      border-bottom-color: var(--gold-primary);
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .transcription-box {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: #e2e8f0;
+    }
+
+    .swa-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .swa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold-primary);
+      color: #000;
+      font-weight: 700;
+      padding: 0.65rem 1.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 0.75rem;
+      transition: all 0.2s;
+    }
+    .swa-btn:hover {
+      background: #d97706;
+      transform: translateY(-1px);
+    }
+
+    .occs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .occs-table th, .occs-table td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .occs-table th {
+      background: rgba(15, 23, 42, 0.5);
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    /* MONOGRAFIA I KARTY */
+    .monograph-content, .analytics-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .monograph-chapter, .analytic-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .analytic-card {
+      border-left: 4px solid var(--gold-primary);
+    }
+
+    .chapter-title, .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      color: var(--gold-primary);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(245, 158, 11, 0.25);
+      padding-bottom: 0.5rem;
+    }
+
+    .chapter-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: #e2e8f0;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    .monograph-content p, .analytics-content p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 1.6rem; }
+      .container { padding: 0.75rem; }
+      .tabs-nav { padding: 0.5rem; }
+      .tab-btn { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
+      .controls-panel { flex-direction: column; }
+      .control-group { width: 100%; }
+      .pagination-bar { flex-direction: column; align-items: stretch; }
+    }
+  
+    /* UNIFIED MODAL SECTION & BUTTON STYLES */
+    .modal-section {
+      margin-bottom: 1.25rem;
+    }
+    .modal-section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gold-primary);
+      margin-bottom: 0.4rem;
+    }
+    .btn-copy-trans {
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: var(--gold-primary);
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-copy-trans:hover {
+      background: var(--gold-primary);
+      color: #0f172a;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Kompendiów</a>
+    <div style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">
+      AP Lublin • Zespół 35/40/0 • Sygn. 35/40/0/1/10 (dawny Tom 5a / mikr. 110354) [Czystopis: Jednostka 11]
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <header class="hero">
+    <h1>Akta Ogólne Wójtowsko-Ławnicze Miasta Kraśnika</h1>
+    <div class="subtitle">Księga Sądowa (Brudnopis) 1646–1647 • Rejestr sesji doraźnych, obdukcji ran, sporów granicznych i rezygnacji • Sygn. 35/40/0/1/10</div>
+  </header>
+
+  <!-- PŁASKI PASEK GŁÓWNYCH ZAKŁADEK (DOKŁADNIE 4 ZAKŁADKI) -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('main-tab', this)">
+      <span>📊 Tabela Indeksowa Skanów</span>
+      <span class="tab-badge" id="mainTabBadge">20</span>
+    </button>
+    <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
+      <span>🌳 Słownik Genealogiczny Mieszkańców</span>
+      <span class="tab-badge" id="genTabBadge">122</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('monograph-tab', this)">
+      <span>🏛️ Pełna Synteza Monograficzna</span>
+    </button>
+    <button class="tab-btn" onclick="switchTab('analytics-tab', this)">
+      <span>🔍 Kluczowe Odkrycia i Przełomy</span>
+    </button>
+  </nav>
+
+  <!-- GŁÓWNY KONTENER Z 4 SEKRATAMI -->
+  <main class="container">
+
+    <!-- SEKCJA 1: TABELA INDEKSOWA SKANÓW -->
+    <section id="main-tab" class="tab-content active">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Liczba Skanów w Woluminie</div>
+          <div class="stat-value">129</div>
+          <div class="stat-desc">Kompletny brudnopis sądowy (Partia 1: skany 1–20 in extenso)</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Ramy Chronologiczne</div>
+          <div class="stat-value" style="font-size:1.4rem;">1646–1647</div>
+          <div class="stat-desc">Schyłek panowania Władysława IV, wokanda doraźnych sesji wójtowskich</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Unikalne Profile Genealogiczne</div>
+          <div class="stat-value" id="genStatCount">122</div>
+          <div class="stat-desc">Zindeksowani mieszkańcy w Partii 1 (Wariant 2, 0 duplikatów)</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Transkrypcja Dyplomatyczna</div>
+          <div class="stat-value">100% P1</div>
+          <div class="stat-desc">Pełny odczyt kurrenty in extenso z kolacją do czystopisu J11</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="mainSearchInput">Wyszukiwarka spraw, osób i orzeczeń:</label>
+          <input type="text" id="mainSearchInput" placeholder="Szukaj po nazwisku, zawodzie, sygnaturze, kwocie..." oninput="filterMainData()">
+        </div>
+        <div class="control-group">
+          <label for="mainCategoryFilter">Kategoria aktu:</label>
+          <select id="mainCategoryFilter" onchange="filterMainData()">
+            <option value="">Wszystkie kategorie</option>
+          </select>
+        </div>
+        <div class="control-group" style="align-self: flex-end;">
+          <button class="page-btn" onclick="exportMainCSV()" style="background:var(--gold-primary); color:#000; font-weight:700;">
+            📥 Eksportuj Rejestr CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GŁÓWNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortMain('nr_skanu')" style="width: 8%;">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')" style="width: 10%;">Pagina ↕</th>
+              <th onclick="sortMain('data_rok')" style="width: 10%;">Rok ↕</th>
+              <th style="width: 20%;">Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')" style="width: 16%;">Kategoria ↕</th>
+              <th style="width: 24%;">Opis Sprawy / Treść Aktu</th>
+              <th onclick="sortMain('kwoty_podatki')" style="width: 12%;">Kwoty / Podatki</th>
+            </tr>
+          </thead>
+          <tbody id="mainTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 2: SŁOWNIK GENEALOGICZNY -->
+    <section id="genealogy-tab" class="tab-content">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+          <div class="stat-value" id="genStatCountTab2">122</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Standard De-duplikacji</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">0 duplikatów tożsamości w bazie</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Synchronizacja Onomastyczna</div>
+          <div class="stat-value">100% PASS</div>
+          <div class="stat-desc">Wszystkie warianty i lekcje zmapowane</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Elita Władzy i Społeczność</div>
+          <div class="stat-value">Wójt & Ława</div>
+          <div class="stat-desc">Wójt Janaszkowic, ławnicy Sapała, Szafranek, Kuczewicz, rzemieślnicy</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="genSearchInput">Szukaj mieszkańca, zawodu lub wariantu nazwiska:</label>
+          <input type="text" id="genSearchInput" placeholder="Wpisz nazwisko, imię, przydomek, funkcję..." oninput="filterGenData()">
+        </div>
+        <div class="control-group" style="align-self: flex-end;">
+          <button class="page-btn" onclick="exportGenCSV()" style="background:var(--gold-primary); color:#000; font-weight:700;">
+            📥 Pobierz Słownik CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA GENEALOGII -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GENEALOGICZNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortGen('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGen('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGen('imie')" style="width: 15%;">Imię ↕</th>
+              <th onclick="sortGen('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
+              <th onclick="sortGen('funkcja_spoleczna')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th onclick="sortGen('skany_roboczo')" style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGen('zakres_lat')" style="width: 12%;">Zakres lat ↕</th>
+            </tr>
+          </thead>
+          <tbody id="genTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA GENEALOGII -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
+    <section id="monograph-tab" class="tab-content">
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział I: Kancelaria brudnopisowa sądu wójtowsko-ławniczego w Kraśniku w latach 1646–1647: geneza, dyplomatyka, język i relacja do czystopisu J11</h2>
+            <div class="chapter-content">
+                <p>W zespole archiwalnym <strong>Akta miasta Kraśnika (sygn. 35/40/0)</strong> przechowywanym w Archiwum Państwowym w Lublinie <strong>Jednostka 10</strong> (dawny Tom 5a, sygnatura 10, mikrofilm nr 110354) zajmuje pozycję absolutnie wyjątkową. W przeciwieństwie do czystopisowych, oprawnych w skórę ksiąg wójtowsko-ławniczych (jak J11, J8 czy J40), wolumin ten zachował swój pierwotny, nienaruszony charakter <strong>kancelaryjnego brudnopisu bieżącego (brulionu wokandy sądowej)</strong>.</p>
+
+                <h3>1. Kodykologia i cechy materialne brulionu</h3>
+                <p>Format kodeksu jest uderzająco odmienny od ksiąg oficjalnych: ma postać wąskich, wydłużonych składek papierowych o wymiarach <strong>34 × 12 cm</strong> (tzw. <em>format rejestrowy / podłużny</em>), doskonale przystosowany do trzymania na kolanie lub podręcznym pulpicie pisarza w trakcie gorączkowych, doraźnych sesji sądowych na ratuszu, w szynkach lub podczas wizji lokalnych na przedmieściach. Wolumin liczy <strong>129 skanów cyfrowych</strong> i obejmuje zapisy od czerwca 1646 r. do jesieni 1647 r.</p>
+
+                <h3>2. Paleografia i język żywego świadectwa sądowego</h3>
+                <p>Od strony paleograficznej tekst kreślony jest dynamiczną, zamaszystą <strong>kurrentą staropolską połowy XVII stulecia</strong>. Widać w niej pośpiech notariusza, gwałtowne skreślenia, dopiski międzywierszowe na marginesach oraz nagłe zmiany inkaustu. Warstwa językowa brulionu jest bezcennym zabytkiem polszczyzny potocznej:</p>
+                <ul>
+                    <li>Pisarz notował zeznania świadków, poszkodowanych i oskarżonych <em>ad verbum</em>, bez stylistycznego wygładzania;</li>
+                    <li>W tekście roi się od barwnych frazeologizmów („oko zapuchłe na trzy palce”, „wyrwanie końskiego ogona”, „sine plagi na kształt kurzego jaja”);</li>
+                    <li>Mieszanina łaciny kancelaryjnej i żywego języka polskiego oddaje bezpośredni puls miejskiego foru sądowniczego.</li>
+                </ul>
+
+                <h3>3. Relacja brudnopisu J10 do czystopisu J11 (Aparat kolacyjny)</h3>
+                <p>Unikalną wartością edytorską niniejszego kompendium jest bezpośrednie skorelowanie wpisów brulionowych J10 z ich oficjalnymi redakcjami w <strong>Jednostce 11</strong> (sygn. 35/40/0/1/11, czystopis z 1647 r., 111 skanów). Porównanie obu kodeksów ujawnia warsztat pisarski XVII-wiecznych notariuszy miejskich:</p>
+                <blockquote>
+                    <em>„W brudnopisie J10 zapisywano surowe relacje, awantury i wykrzykniki; w czystopisie J11 kancelaria dokonywała selekcji, wygładzała słownictwo, eliminowała potoczne zwroty i nadawała aktom uroczystą strukturę prawa magdeburskiego”.</em>
+                </blockquote>
+                <p>Każdy wpis w niniejszym kompendium został zaopatrzony w precyzyjną notę kolacyjną wskazującą relację do czystopisu J11, co stanowi milowy krok w krytycznych badaniach nad staropolską dyplomatyką miejską.</p>
+            </div>
+        </article>
+
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział II: Życie codzienne, przestępczość i sądownictwo karne w Kraśniku w dobie schyłku panowania Władysława IV Wazy</h2>
+            <div class="chapter-content">
+                <p>Lata 1646–1647, utrwalone na kartach brudnopisu wójtowskiego Jednostki 10, to ostatnie lata pokoju w Rzeczypospolitej przed hekatombą powstania Bohdana Chmielnickiego (1648) i potopu szwedzkiego. Kraśnik tętnił intensywnym życiem miejskim, którego codzienne napięcia, konflikty i dramaty rejestrowała księga wójtowska.</p>
+
+                <h3>1. Spektrum przestępczości i kultura przemocy</h3>
+                <p>Akta brudnopisu ukazują, że przemoc fizyczna była powszechnym sposobem rozwiązywania sporów we wszystkich grupach społecznych. Broń biała (szable, noże rzeźnickie i krawieckie), drągi, siekiery i kije były w ciągłym użyciu. Analiza wpisów Partii 1 ujawnia cztery główne kategorie przestępstw:</p>
+                <ul>
+                    <li><strong>Bójki i awantury szynkowe:</strong> spożycie alkoholu przy muzyce bębenków i lutni w gospodach prowadziło do masowych starć czeladników i przedmieszczan, w których bezradne okazywały się nawet interwencje cechmistrzów (skany 11, 12, 17);</li>
+                    <li><strong>Samosądy sąsiedzkie i dewastacje inwentarza:</strong> kradzieże miedz, podpalenia, obcinanie końskich ogonów w odwecie za szkody w warzywnikach (skany 8, 10);</li>
+                    <li><strong>Zuchwałe kradzieże z włamaniem:</strong> nocne kradzieże z komór, obejmujące zarówno kosztowności, futra i gotówkę, jak i dzieła rękopiśmienne, połączone z ucieczką sprawców w odległe regiony Korony (sprawa Jakuba Węgrzyna ujętego w Bzinie, skany 14–16);</li>
+                    <li><strong>Procesy obyczajowe i małżeńskie (crimen adulterii):</strong> wieloletnie ucieczki małżonków, spory o wiano i cudzołóstwo, wymagające zaangażowania autorytetu patrycjatu oraz odsyłania spraw do sądu konsystorskiego biskupa krakowskiego (skany 9, 18).</li>
+                </ul>
+
+                <h3>2. Instytucje sądowe i procedura karna</h3>
+                <p>W obliczu fali przestępczości sąd wójtowsko-ławniczy (pod przewodnictwem wójta Alberta Janaszkowica oraz czołowych ławników: Alberta Sapały, Alberta Szafranka, Jana Mrozka i Krzysztofa Zazięblika) wypracował sprawny system prewencji i dyscyplinowania:</p>
+                <ol>
+                    <li><strong>Natychmiastowe obdukcje medyczno-sądowe:</strong> oględziny ran bezpośrednio po zajściu chroniły przed mataczeniem i fałszywymi oskarżeniami;</li>
+                    <li><strong>System wadiów finansowych:</strong> nakładanie rygorystycznych kaucji (od 15 grzywien w sporach polnych do aż 300 grzywien w sprawach małżeńskich) pod rygorem bezwzględnego aresztu;</li>
+                    <li><strong>Wieża miejska jako izolacja i środek przymusu:</strong> areszt w ratuszu stosowano powszechnie zarówno wobec złodziei recydywistów, jak i opornych dłużników do czasu znalezienia poręczycieli majątkowych.</li>
+                </ol>
+
+                <h3>3. Koegzystencja chrześcijańsko-żydowska i mechanizmy kredytowe</h3>
+                <p>Wpisy Partii 1 rzucają fundamentalne światło na stosunki chrześcijańsko-żydowskie w Kraśniku. Ludność żydowska nie tylko prowadziła ożywioną działalność szynkarską i rzemieślniczą, lecz także tworzyła kluczowe zaplecze kredytowe dla patrycjatu. Starszy Kahału <strong>Herszko Heliaszowicz</strong> występował przed sądem wójtowskim na równych prawach z rajcami, dochodząc swych należności wekslowych lub nabywając nieruchomości od chrześcijan. Zdolność magistratu do sprawnego i bezstronnego rozsądzania sporów polsko-żydowskich stanowiła fundament ekonomicznej stabilności Kraśnika w przededniu wojen kozackich.</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- SEKCJA 4: KARTY ANALITYCZNE I ODKRYCIA -->
+    <section id="analytics-tab" class="tab-content">
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 1: Medycyna sądowa i obdukcje chirurgiczne w 1646 r.: pobicie poddanego z Polikowic, rany cięte, obite oczy i sine plagi (skany 5, 6, 8, 10, 12)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Czerwiec – Lipiec 1646 r.</span> | 
+                <span><strong>Kancelaria:</strong> Sąd wójtowsko-ławniczy miasta Kraśnika (Officium Advocatiale et Scabinale)</span> | 
+                <span><strong>Kategorie:</strong> Medycyna sądowa, Obdukcje ran, Prawo karne, Przemoc fizyczna, Poddaństwo</span>
+            </div>
+            <div class="card-content">
+                <p>Brudnopis wójtowski Jednostki 10 zawiera niezwykle rzadki i unikalny w skali Małopolski materiał źródłowy do badań nad nowożytną medycyną sądową oraz naocznym oglądem ciał ofiar przemocy (<em>vulnerum inspectio</em>). Ponieważ zapisy w brulionie sporządzano bezpośrednio na posiedzeniu sądu pod dyktando poszkodowanych i ławników dokonujących obdukcji, zachowały one niezwykłą precyzję anatomiczną oraz język potoczny epoki:</p>
+                <ul>
+                    <li><strong>Obdukcja poddanego Wawrzyńca Buczka z Polikowic (skan 5, fol. 1r):</strong> Na sesji przedstawił się kmieć ze wsi Polikowice podległy panu Pawłowi Szorcowi z Popkowic. Ławnik Albert Sapała dokonał szczegółowych oględzin jego ciała, odnotowując: głęboką ranę ciętą pod lewym okiem zadana ostrym żelazem, rozcięte prawe ucho ze skrzepami krwi, sine plagi (wybroczyny podskórne) na plecach i pośladkach wielkości kurzego jaja od uderzeń pałką, podcięty i zniekształcony mały palec lewej ręki oraz rozległą ranę kłutą na lewej łopatce.</li>
+                    <li><strong>Obdukcja parobka Stanisława (skan 6, fol. 2r):</strong> Służący u mieszczanina Augustyna został ciężko pobity przez szlachcica (panosza) Wojciecha Piotrowskiego. Wpis rejestruje spuchnięte i całkowicie zamknięte lewe oko, krew broczącą z obu nozdrzy oraz potężne zasinienie ramienia o szerokości „trzech palców poprzecznych”.</li>
+                    <li><strong>Konflikty cechowe i bójki rzemieślników (skan 8, fol. 3v):</strong> Krawiec Piotr Wieczorek stawił się przed ławnikami z rozbitą głową, obficie krwawiącym nosem i poszarpanym grzbietem po napaści ze strony kolegi z cechu, Sebastiana Pezika.</li>
+                    <li><strong>Ranna Żydówka i pobicie Mikołaja Stadnika (skan 10, fol. 6r):</strong> Przed sądem stanęła Żydówka kraśnicka z rozciętą głową po napaści przez braci Wojciechów Bartniczków z Blinowa; tego samego dnia obdukowano Mikołaja Stadnika, który doznał rozbicia łuku brwiowego na dwa palce, krwotoku z ucha oraz brutalnego wyrwania czupryny przez napastnika Marka.</li>
+                    <li><strong>Zmasakrowany Mikołaj Dec z Wyżnicy (skan 12, fol. 7v):</strong> Ławnicy Jan Mrozek i Krzysztof Zazięblik spisali porażający rejestr obrażeń chłopa z Wyżnicy: rana rąbana głowy, podbite oba oczy, 10 krwawych szram na czole, 7 drapań na nosie, potłuczone obie łopatki oraz zniszczona, porwana w strzępy suknia barwy lazurowej.</li>
+                </ul>
+                <p>Zapisy te unaoczniają, że urząd miejski w Kraśniku pełnił kluczową rolę publicznego arbitra i rejestratora szkód cielesnych, stanowiąc instancję konieczną do wszczęcia procesów o główszczyznę i nawiązkę przed sądami grodzkimi lub dominialnymi.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 2: Awantury szynkowe, muzyka miejska i przemoc: bójka u Surmańczyka przy lutni, dudach i bębenku oraz interwencja cechmistrza (skany 6, 11, 12, 17)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Lipiec – Sierpień 1646 r.</span> | 
+                <span><strong>Kancelaria:</strong> Urząd Wójtowski i Ławniczy</span> | 
+                <span><strong>Kategorie:</strong> Kultura szynkowa, Muzyka ludowa i miejska, Przestępczość, Cechy, Bezpieczeństwo publiczne</span>
+            </div>
+            <div class="card-content">
+                <p>Kultura czasu wolnego i biesiad szynkowych w XVII-wiecznym Kraśniku nierozerwalnie splatała się z muzyką, spożyciem trunków (piwa i gorzałki) oraz gwałtownymi wybuchami przemocy. Skany 11 i 12 rejestrują bezprecedensowy opis wielkiej nocnej bijatyki w gospodzie u Macieja Surmańczyka na przedmieściu kraśnickim:</p>
+                <p>W szynku zgromadziła się rzesza czeladników rzemieślniczych, przedmieszczan oraz przybyszów z okolicznych wsi. Do tańca i biesiady przygrywał Wojciech Bartniczek, grając na trzech instrumentach: <strong>lutni, dudach i bębenku</strong>. W pewnym momencie zabawa przerodziła się w chaotyczną awanturę. Do szynku wkroczył cechmistrz sukienników <strong>Stanisław Marszowski</strong>, próbując w imieniu porządku miejskiego uspokoić biesiadników i nakazać muzykowi odłożenie instrumentów.</p>
+                <p>Interwencja cechmistrza spotkała się z agresją rozjuszonych napastników: Marek Wronka wraz z grupą kompanów chwycił za siekiery, drągi i noże. W zamieszaniu rany cięte głowy odnieśli przypadkowi goście, Żyd Elkoń został zaatakowany i zmuszony do ucieczki, a wnętrze szynku zostało zdemolowane. Kolejne echa szynkowej przemocy odnajdujemy na skanie 17, gdzie opisano bójkę w podmiejskiej karczmie żydowskiej w samo święto Bożego Ciała, w trakcie której poddany Misiek Decyh został bestialsko skatowany kijami.</p>
+                <p>Przypadki te pokazują, jak kruchy był spokój publiczny w nowożytnym mieście i jak wysiłki władz cechowych oraz magistratu rozbijały się o powszechny zwyczaj noszenia broni przez biesiadników.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 3: Spory graniczne Kraśnika z szlachtą (Popkowice) oraz ochrona upraw i kradzież końskiego ogona u Olędzkiego (skany 8, 10)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Czerwiec – Lipiec 1646 r.</span> | 
+                <span><strong>Kancelaria:</strong> Sąd Wójtowski Miasta Kraśnika</span> | 
+                <span><strong>Kategorie:</strong> Prawo ziemskie i miejskie, Spory graniczne, Szkody polne, Zwierzęta gospodarskie, Wadia</span>
+            </div>
+            <div class="card-content">
+                <p>Styki gruntów miejskich Kraśnika z dobrami okolicznej szlachty stanowiły zarzewie permanentnych konfliktów sąsiedzkich i majątkowych. W Partii 1 Jednostki 10 szczególnie wyraźnie rysują się dwa spektakularne spory gospodarcze:</p>
+                <ul>
+                    <li><strong>Wielki spór graniczny z Popkowicami (skan 8, fol. 3v–4r):</strong> Przedmieszczanie z Zarzecza i Piasku (m.in. Wawrzyniec Duch, parobek Dyczka) weszli w ostry zatarg z poddanymi szlachcica Pawła Szorca z Popkowic. Szlachcic ten nakazał swoim kmieciom bezprawne wyoranie miedz granicznych, zaoranie pastwisk miejskich oraz zepchnięcie kraśnickiego bydła z tradycyjnych miejsc wypasu. Wobec groźby zbrojnego starcia sąd miejski wyznaczył surowe <strong>wadium w wysokości 15 grzywien</strong> pod rygorem aresztu w wieży, wzywając komisarzy do przeprowadzenia granicznej wizji lokalnej.</li>
+                    <li><strong>Szkoda w warzywniku i obcięcie końskiego ogona (skan 10, fol. 5v):</strong> Pomiędzy przedmieszczaninem Adamem Leszkowiczem a szewcem Albertem Olędzkim wybuchł proces o dewastację upraw i okaleczenie inwentarza roboczego. Koń Olędzkiego przedarł się przez płot do warzywnika Leszkowicza, niszcząc zagon kapusty i marchwi. Wściekły Leszkowicz, zamiast odprowadzić konia do miejskiego zajazdu, dopuścił się samosądu: brutalnie uciął i wyrwał zwierzęciu ogon, szpecąc konia i uniemożliwiając mu obronę przed gzami i muchami w czasie prac polowych. Przed sądem oszacowano szkodę i wartość konia na niebagatelną sumę <strong>26 złotych polskich</strong>.</li>
+                </ul>
+                <p>Sprawy te ilustrują kluczowe znaczenie miedz, pastwisk i ochrony inwentarza w realiach staropolskiego miasteczka o charakterze rolniczo-rzemieślniczym.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 4: Kultura materialna, bibliofilia i przestępczość: kradzież klejnotów, Księgi Apostolskiej, oracji łacińskiej Janaszkowicza i ucieczka Węgrzyna Jakuba do Bzina (skany 14, 15, 16)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Lipiec 1646 r.</span> | 
+                <span><strong>Kancelaria:</strong> Urząd Wójtowski Kraśnicki</span> | 
+                <span><strong>Kategorie:</strong> Prawo karne, Kradzież z włamaniem, Bibliofilia, Kultura materialna, Pościg i jurysdykcja miejska</span>
+            </div>
+            <div class="card-content">
+                <p>Sprawa kradzieży z włamaniem rozpatrywana na skanach 14, 15 i 16 (fol. 10v–11r) należy do najciekawszych nowożytnych spraw kryminalnych zachowanych w archiwach lubelskich. Rzuca ona wyjątkowe światło zarówno na zamożność i kulturę materialną elit Kraśnika, jak i na obieg rękopisów literacko-religijnych:</p>
+                <p>Nocą do zamkniętej komory szlacheckiej/patrycjuszowskiej włamał się <strong>Jakub Węgrzyn</strong>, wędrowny woźnica pozostający na usługach żydowskiego kupca Bednarskiego. Złodziej spakował do worków wyjątkowo cenny łup:</p>
+                <ul>
+                    <li><strong>Odzież luksusowa i kosztowności:</strong> jedwabny pas ze srebrnymi haftami, srebrne i szklane guzy od żupana, kamize, bławaty, kożuch podbity lisim futrem oraz zielony papużynek (ozdobny kobiecy czepiec lub torebka) wysadzany <strong>srebrnym słońcem</strong>;</li>
+                    <li><strong>Gotówka:</strong> 32 złote polskie w monecie obiegowej oraz bite talary srebrne;</li>
+                    <li><strong>Zabytki kultury słowa i bibliofilia:</strong> oprawna <strong>Księga Apostolska</strong> (<em>Liber Apostolicus</em>) oraz rękopiśmienna <strong>oracja łacińska</strong> skomponowana przez miejskiego notariusza Wojciecha Janaszkowicza i dedykowana ks. Stanisławowi Beczyckiemu, kanonikowi kraśnickiemu i krakowskiemu.</li>
+                </ul>
+                <p>Po dokonaniu kradzieży Jakub Węgrzyn zbiegł z Kraśnika na północny zachód. Pościg miejski wytropił go dopiero w odległym <strong>Bzinie</strong> (dzisiejsze Skarżysko-Kamienna), gdzie został ujęty przez mieszczanina Koczura, skuty w żelaza i odstawiony pod eskortą do lochu wieży ratuszowej w Kraśniku, stając przed sądem ławniczym pod groźbą kary gardła.</p>
+            </div>
+        </article>
+
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 5: Wielkie finanse patrycjatu: konsolidacja i spłata długów Wojciecha Giżyca u Herszka, Kanoników i Bractwa Różańcowego za 630 złp ze sprzedaży domów (skany 9, 12, 13, 19, 20)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisów:</strong> Czerwiec – Sierpień 1646 r.</span> | 
+                <span><strong>Kancelaria:</strong> Officium Consulare et Advocatiale</span> | 
+                <span><strong>Kategorie:</strong> Finanse miejskie, Rynek nieruchomości, Kredyt żydowski, Fundacje kościelne, Patrycjat</span>
+            </div>
+            <div class="card-content">
+                <p>Partia 1 Jednostki 10 przynosi fascynujący obraz operacji finansowo-restrukturyzacyjnych podejmowanych przez czołowego przedstawiciela kraśnickiego patrycjatu – wieloletniego rajcę i burmistrza <strong>Wojciecha Giżyca</strong>. Stary patrycjusz, uwikłany w wieloletnie długi wekslowe u wierzycieli chrześcijańskich i żydowskich, stanął w 1646 r. przed groźbą licytacji majątku i aresztu:</p>
+                <p>Aby ratować status rodziny i uregulować zobowiązania, Giżyc przeprowadził wielką wyprzedaż reprezentacyjnych nieruchomości miejskich na rzecz Gabriela Buty za łączną kwotę <strong>630 złotych polskich</strong>:</p>
+                <ol>
+                    <li>Dom narożny przy <strong>ulicy Żydowskiej</strong> – sprzedany za <strong>300 złp</strong> (skan 12);</li>
+                    <li>Wielki dom drewniany z placem i zabudowaniami <strong>za Bramą Drewnianą</strong> – sprzedany za <strong>330 złp</strong> (skan 13).</li>
+                </ol>
+                <p>Pozyskany kapitał posłużył do natychmiastowej, publicznej spłaty wierzycieli przed sądem miejskim:</p>
+                <ul>
+                    <li>Spłata <strong>Starszego Kahału Herszka Heliaszowicza</strong>: zaspokojenie wielkich długów kupieckich i wpisanie wieczystej rezygnacji i pokwitowania (<em>cassa et annihilata</em>);</li>
+                    <li>Spłata <strong>Kanoników Regularnych Laterańskich</strong>: uregulowanie sumy <strong>100 złp</strong> długu zapisanego na ratuszu, co uroczyście pokwitowali ojcowie zakonni ks. Andrzej Wybranowski i ks. Bartłomiej Smyszenowicz (skan 13);</li>
+                    <li>Spłata <strong>Bractwa Różańcowego Najświętszej Maryi Panny</strong>: zwrot pożyczki kapitałowej w wysokości <strong>200 złp</strong>, gwarantującej ubogim jałmużnę i msze wotywne.</li>
+                </ul>
+                <p>Sprawa ta ukazuje mechanizm przepływu kapitału w Kraśniku: nieruchomości miejskie służyły jako główne zabezpieczenie kredytów, a płynność finansową patrycjuszy podtrzymywały kapitały gminne kahalne oraz kościelne fundusze pobożne (<em>pia corpora</em>).</p>
+            </div>
+        </article>
+    </section>
+
+  </main>
+
+  <!-- MODAL SZCZEGÓŁÓW (3 ZAKŁADKI KANONU J40) -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Szczegóły</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Content filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    let currentModalScan = null;
+
+    // DANE GŁÓWNE (20 SKANÓW PARTII 1) I GENEALOGICZNE
+    const mainData = [
+  {
+    "nr_skanu": 1,
+    "strona_pagina": "Kadr mikrofilmowy początkowy (WAP Lublin 1959 r. - Dawny Tom 5a)",
+    "data_rok": "8 IX 1959 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Wojewódzkie Archiwum Państwowe w Lublinie</span>, <span class=\"badge-district\">Laboratorium Mikrofilmowe A.D.M.</span>, <span class=\"badge-district\">Operator mikrofilmu</span>",
+    "kategoria": "Metryka mikrofilmowa / Karta tytułowa / Proweniencja archiwalna / POCZĄTEK",
+    "opis_sprawy": "Oficjalny kadr mikrofilmowy otwierający fascykuł wykonany przez Laboratorium Mikrofilmowe A.D.M. Wojewódzkiego Archiwum Państwowego w Lublinie w dniu 8 września 1959 r. Jednostka oznaczona sygnaturą dawnego Tomu 5a w zespole Akta Miasta Kraśnika, numer mikrofilmu 110354. Tablica mikrofilmowa z napisem POCZĄTEK poświadczająca integralność fizyczną zdigitalizowanego woluminu.",
+    "kwoty_podatki": "Nr mikrofilmu: 110354; Data: 8.IX.1959 r.; Tom 5a",
+    "transkrypcja": "Kadr mikrofilmowy początkowy (WAP Lublin 1959)\n\nWAP-LUBLIN\nAKTA MIASTA KRAŚNIKA\nNr. TOMU 5a\n\nLAB. MIKROFILM. A.D.M.\nNr. mikr. 110354\nDN. 8 M-C 9 ROK - 1959\n\n═══════════════════════════════════════════════════════\n                  P O C Z Ą T E K\n═══════════════════════════════════════════════════════",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 1,
+    "kod_skanu": "35_40_0_1_10_1_2063097",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_1_2063097"
+  },
+  {
+    "nr_skanu": 2,
+    "strona_pagina": "Karta metryczna WAP Lublin (Wzór 1 - Sygnatura archiwalna 5a / 10)",
+    "data_rok": "31 III 1959 r. / 8 IX 1959 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Wojewódzkie Archiwum Państwowe w Lublinie</span>, <span class=\"badge-district\">Komisja Kwalifikacyjna</span>",
+    "kategoria": "Metryka archiwalna / Formularz kontrolny / Kodykologia i stan zachowania",
+    "opis_sprawy": "Karta metryczna jednostki sporządzona w Wojewódzkim Archiwum Państwowym w Lublinie (ul. Narutowicza 10): Nazwa zespołu: Księga Wójtowsko Ławnicza m. Kraśnika; Sygnatura archiwalna dawna 5a (obecnie sygn. 10); Data przygotowania akt: 31.III.1959 r.; Ilość zdjęć: 237; Fotografowano dnia: 8.IX.1959 r.; Kontrola techniczna przyjęła całość; adnotacja o brakach dawnej foliacji: brak kart 57r-58v.",
+    "kwoty_podatki": "Ilość zdjęć: 237; Sygnatura: 5a (10); brak kart 57r–58v",
+    "transkrypcja": "Karta metryczna WAP Lublin (Wzór 1)\n\nWojewódzkie Archiwum Państwowe w LUBLINIE\nul. Narutowicza 10, tel. 37-18\n\nWypełnia archiwum:\n1. Nazwa Archiwum: WAP Lublin\n2. Nazwa zespołu lub zbioru: Księga Wójtowsko Ławnicza m. Kraśnika\n3. Sygnatura archiwalna: 5a [sygn. 10]\n4. Data przygotowania akt do mikrofilmowania: 31.III.1959 r.\n5. Ilość zdjęć: 237\n6. Nr książki kontrolnej: 110.354\n\nWypełnia stacja mikrofilmowa:\n1. Fotografowano dnia: 8.IX.59 r.\n2. K.T. przyjęła całość\n3. Data przekazania do magazynu: 5.X.59 r. Spr. Całość, br. 57r-58v.",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 2,
+    "kod_skanu": "35_40_0_1_10_2_2063101",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_2_2063101"
+  },
+  {
+    "nr_skanu": 3,
+    "strona_pagina": "Karta informacyjna kodykologiczna (Wymiary i wykaz stron pustych)",
+    "data_rok": "1959 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Archiwum Państwowe w Lublinie</span>",
+    "kategoria": "Kodykologia / Format poszytu / Wykaz stron pustych / Metryka techniczna",
+    "opis_sprawy": "Karta informacyjna określająca strukturę kodykologiczną poszytu: format podłużny typowy dla rejestrów i brulionów protokołowych sądu miejskiego (wysokość 34 cm x szerokość 12 cm). Wykaz stron pustych niefilmowanych z epoki: fol. 66v, 120, 120v, 121, 121v, 122, 122v.",
+    "kwoty_podatki": "Wymiary: 34 x 12 cm; Łączna ilość zdjęć: 237; Karty puste: 66v, 120–122v",
+    "transkrypcja": "Karta informacyjna kodykologiczna\n\nKraśnik 5a [sygn. 10]\nKARTA INFORMACYJNA\n\nŁączna ilość zdjęć: 237\nWykaz stron pustych niefilmowanych:\n66v, 120, 120v, 121, 121v, 122, 122v.\n\nWymiary dokumentu, składka jednostki archiwalnej:\nw cm: wysokość x szerokość: 34 x 12 cm.",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 3,
+    "kod_skanu": "35_40_0_1_10_3_2063092",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_3_2063092"
+  },
+  {
+    "nr_skanu": 4,
+    "strona_pagina": "Okładzina przednia zewnętrzna (Oprawa dawna skórzano-tekturowa)",
+    "data_rok": "XVII w.",
+    "osoby_podmioty": "<span class=\"badge-district\">Kancelaria Wójtowsko-Ławnicza Kraśnicka</span>",
+    "kategoria": "Oprawa introligatorska / Kodykologia / Stan zachowania / Zabytkowa tektura",
+    "opis_sprawy": "Przednia zewnętrzna okładka woluminu. Ciemna, zniszczona czasem oprawa z grubej tektury introligatorskiej z pozostałościami obciągnięcia skórzanego lub płóciennego, chroniąca podłużny blok akt brudnopisowych sądu kraśnickiego z lat 1646–1647.",
+    "kwoty_podatki": "Brak transakcji; zabytek materialny oprawy",
+    "transkrypcja": "[Przednia zewnętrzna okładka poszytu brudnopisowego - ciemna skóra i tektura introligatorska z XVII w., brak czytelnych inskrypcji zewnętrznych].",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 4,
+    "kod_skanu": "35_40_0_1_10_4_2063112",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_4_2063112"
+  },
+  {
+    "nr_skanu": 5,
+    "strona_pagina": "fol. 1r (Wklejka ochronna - Proces Kierzchów i Drastyczna Obdukcja Ran Wawrzyńca Buczka)",
+    "data_rok": "Maj 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Albert Kierzch mieszczanin</span>, <span class=\"badge-district\">Kierzchowa pozwana</span>, <span class=\"badge-district\">Paweł Słodkowski instygator</span>, <span class=\"badge-district\">Paweł Szorc szlachcic z Popkowic</span>, <span class=\"badge-district\">Wawrzyniec Buczek poddany z Polikowic</span>, <span class=\"badge-district\">Albert Sapała ławnik</span>, <span class=\"badge-district\">Wojciech Piotrowski panosz</span>",
+    "kategoria": "Spór spadkowy / Zeznanie plenipotenta / Chirurgiczna obdukcja pobicia (rany cięte, obite oczy, sine plecy)",
+    "opis_sprawy": "1) Zapis sprawy spadkowej Alberta Kierzcha przeciw Kierzchowej [odsyłacz do spraw z J9 i J11]. 2) Sesja w czwartek po Zielonych Świątkach 1646 r.: Na wniosek Pawła Słodkowskiego i szlachcica Pawła Szorca ławnik Albert Sapała przeprowadza oficjalną obdukcję ran pobitego poddanego ze wsi Polikowice, Wawrzyńca Buczka. Raport chirurgiczny stwierdza: głębokie cięcie pod lewym okiem, rozcięte prawe ucho ze skrzepami krwi, sine plagi na plecach wielkości kurzego jaja, stłuczenie lewej ręki od łokcia do piersi, trzy rany na prawej ręce z podciętym małym palcem oraz ranę rąbaną na prawej łopatce.",
+    "kwoty_podatki": "Kary sądowe; taksa obdukcyjna ławnika",
+    "transkrypcja": "fol. 1r\n\nFeria [Tertia post Festum Pentecostes] Ao 1646\n...N. Alberti Kierzch cum N. Bartos... Kierzchowa dekretem... fideiussorem... P. Albert Kierzch... [por. Czystopis J11: fol. 1r]\n\nActum Feria Quinta post Festum Penthecostes proxima [1646]\nAd instantiam N. Pauli Słodkowski Generosi Domini Pauli Szorc... laboriosi Laurentii Buczek subditi de Polikowice... Do Scabinorum ex Officio ad denuntiandum... Albertus Sapała... relatores fecerunt talem:\nNaprzód widzieli oboie rany y ponosili pod lewem okiem raz... It. w ucho oba lanie na stronie... siny s... It. w plecy plagi... wielkości jaie... przebrany do koszule... It. na lewą rękę stłuczoną szkodliwie do łokcia aż do piersi sinej... It. w prawey ręce... na piersiach stłuczenia... rany 3 y palec mały spodni podcięty... It. na plecach na łopatce prawey raz wielki... kazał do wieże wsadzić...",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 5,
+    "kod_skanu": "35_40_0_1_10_5_2063089",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_5_2063089"
+  },
+  {
+    "nr_skanu": 6,
+    "strona_pagina": "fol. 2r (Obdukcja Ran Parobka Stanisława, Groźby Janitoszka i Zeznanie o Kosztach Pogrzebu)",
+    "data_rok": "Maj – Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Stanisław parobek Augustyna</span>, <span class=\"badge-district\">Panosz Piotrowski</span>, <span class=\"badge-district\">Tomasz Janitoszek przedmieszczanin</span>, <span class=\"badge-district\">Wincenty Chmielnik przedmieszczanin</span>, <span class=\"badge-district\">Wawrzyniec Chmielnik</span>, <span class=\"badge-district\">Bartek świadek</span>, <span class=\"badge-district\">Paweł Pezik famulus</span>, <span class=\"badge-district\">Ładny Dominik</span>, <span class=\"badge-district\">Grzegorz Pezik</span>, <span class=\"badge-district\">Jakub Kozioł przedmieszczanin</span>",
+    "kategoria": "Obdukcja ran / Groźby karalne (podpalenie i ścięcie głowy) / Pobicia czeladzi / Zeznanie o wydatkach na stypę",
+    "opis_sprawy": "1) Dalszy ciąg obdukcji ran parobka Stanisława: rana krwawa pod prawym okiem, rozcięty nos, stłuczenie lewej ręki i ramienia na 3 palce. 2) Skarga Tomasza Janitoszka przeciw Wincentemu Chmielnikowi o publiczne groźby pozbawienia życia ('ogień pod nim, aby iskra padła', 'Bóg wieczorny niech go skaże, żeby mu szyję ściął'); zeznania zaprzysiężone świadków o awanturze w spichlerzu przy zsypywaniu mąki. 3) Bój o suknię Pawła Pezika, sługi sołtysa piaskowskiego, z Ładnym Dominikiem (rozharatane plecy) i Grzegorzem Pezikiem (potłuczona lewa noga od kolana do goleni). 4) Zeznanie Jakuba Kozioła o wydatkach na obiad żałobny (stypę) po zmarłej: zakup kaszy, owsa na sukmanę i żyta dla syna Wawrzyńca.",
+    "kwoty_podatki": "Wydatki na stypę (kasza, owies, żyto); kary sądowe (wina urzędowa)",
+    "transkrypcja": "fol. 2r\n\n...płacić winien... gdy oglądał sługi Pana swego pobite... Drugi Stanisław parobek Augustyna... pod prawym okiem raz siney krwie... It. na prawem nosie raz ztąd stracony krwią... It. lewa ręka zwierzychnia stłuczona skóra... It. na prawą rękę między ramieniem raz siny krwawy od ramienia aż do łokcia... It. na lewą rękę nad łokciem raz wielki tłuczony sinogotły wielkości na 3 palce... Wina brać panoszem Piotrowskim y sporządzić.\n\nEodem die H. Tomasz Janitoszek anteoppidanus Crasnensis... Wincenty Chmielnik anteoppidanus... że on jawnie odpowiedział na gardło: Zalecam go, Ogień pod nim aby iskra padła... A Bóg wieczorny niech go skaże... żeby mu szyję ściął... Pierwszy świadek stający pod przysięgą zeznał temi słowy: Dnia wczorayszego gdym Janitoszkowi Mąki do spichlerza wysypał, był też tam y Wawrzyniec Chmielnik... rzekł: idź ty psie... że go Bog... zabił... Drugi świadek Bartek stający pod przysięgą: Cale te same słowa słyszał... Na pozew Tomasz Janitoszek ninieyszym oświadczył: żądam pozwu na nie na Sądzie iustitij.\n\nEadem die Feria Sexta post Festum Pentecostes [1646]\nPaweł Pezik famulus Sculteti Piaskowskiego... o suknię... Ładny Dominik pokazał rany, plecy rozharatane... Grzegorz Pezik pokazał rany na lewey łopatce... na lewey nodze potłuczona sina od kolana aż do goleni...\nTestimonium Jakuba Kozioła przedmieszczanina kraśnickiego... zeznał: słyszałem od niey... kazała syna swego Wawrzyńca aby obiad zaraz sprawił... kaszy na przycielą... owies na sukmanę... żyto... to wszystko kazała sprawić... [por. Czystopis J11: fol. 2r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 6,
+    "kod_skanu": "35_40_0_1_10_6_2063081",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_6_2063081"
+  },
+  {
+    "nr_skanu": 7,
+    "strona_pagina": "fol. 2v–3r (Transakcje Gruntowe na Podlesiu, Spór o Zaoranie Ciwów i Sprzedaż Domów Żydowskich)",
+    "data_rok": "Maj 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Szymon Owczarek przedmieszczanin</span>, <span class=\"badge-district\">Wawrzyniec Kozieł</span>, <span class=\"badge-district\">Paweł Panik zbywca</span>, <span class=\"badge-district\">Albert Noszczyński nabywca</span>, <span class=\"badge-district\">Jan Stepka powód</span>, <span class=\"badge-district\">Andrzej Warsęga pozwany</span>, <span class=\"badge-district\">Chwalina wdowa po Dawidzie</span>, <span class=\"badge-district\">Icek Zelkowicz Żyd kraśnicki</span>, <span class=\"badge-district\">Tomasz Celer</span>, <span class=\"badge-district\">Marcin Kwassowicz konsul</span>, <span class=\"badge-district\">Andrzej Kuczewicz ławnik</span>, <span class=\"badge-district\">Katarzyna Helkowna</span>, <span class=\"badge-district\">Wawrzyniec Zyskowicz krawiec</span>",
+    "kategoria": "Rynek nieruchomości rolnych (Podlesie) / Spory o granice i miedze / Obrót domami przy ul. Żydowskiej / Rezygnacje wieczyste",
+    "opis_sprawy": "1) Zeznanie Szymona Owczarka z przysięgą dwoma palcami ku niebu w sprawie rozliczeń po Wawrzyńcu Koziele. 2) Sprzedaż ćwierci roli na przedmieściu Podlesie przez Pawła Panika Albertowi Noszczyńskiemu za 25 grzywien polskich paratą monetą. 3) Wyrok w sporze Jana Stepki z Andrzejem Warsęgą o bezprawne zaoranie ciwów roli: nakaz zabezpieczenia plonów pod rygorem aresztu. 4) Sprzedaż domu mieszkalnego przez wdowę Chwalinę po Dawidzie na rzecz Żyda Icka Zelkowicza za sumę 50 złp polskich. 5) Manifestacja Tomasza Celera przeciw Płaczkowiczowi. 6) Uroczysta rezygnacja placu przy ul. Żydowskiej przez Katarzynę Helkównę na rzecz krawca Wawrzyńca Zyskowicza za kwotę 50 złp polskich przed konsulem Kwassowiczem i ławnikiem Kuczewiczem.",
+    "kwoty_podatki": "25 grzywien za ćwierć roli na Podlesiu; 50 złp za dom Chwaliny; 50 złp za plac na ul. Żydowskiej",
+    "transkrypcja": "fol. 2v\nEadem die Venceslaus Szymon Owczarek przedmieszczanin kraśnicki wyznał, iż Dziadek Wawrzyniec Kozieł... do Marki... Bartka syna... koze wziął... za nieboszczyka... te wszystkie długi które są okazałe na obiad... Wawrzyniec to wszystko potwierdziwszy pod przysięgą podniósłszy dwa palce ku niebu.\n\nActum Crasnicij coram Officio Advocatiali et Scabinali Juratorum Feria 3 ante Festum Pentecostes Ao 1646\nPaulus Panik vendidit quartam agri Alberto Nosczerynski in censu inter metas a gront quartam agri Alberti Wolski pro summa Marcis 25 parata pecunia in suburbio Podlesie ad viam de Czarnie... wedle rozeznania sądu...\n\nEodem die Inter Joannem Stepka Actorem et Andream Warsęga Citatum Decretum: Aby pozwany o zaoranie ciwów zabezpieczył Actorowi siew do wiezienia, które rzeczy nie iako Actora gront ma zawieszone y posiew wedle uznania ludzkiego zapłacić. Datt. May 30.\n\nfol. 3r\nResignatio: Chwalina vidua Davidis domum suam iacentem inter domum Nani Brandzlik ex una et Jana ... vendidit Infideli Icek Zelkowicz Judaeo Crasnicensi pro summa Florenorum 50 polonicalium... [por. Czystopis J11: fol. 3r]\n\nEodem Tomasz Celer Przedmieszczanin Kraśnicki fecit manifestationem contra Stanislaum Płaczkowicz...\n\nActum Crasnicij coram Officio Advocatiali et Scabinali Feria 2 ante Festum Ascensionis Domini Anno Dni 1646\nMartinus Kwassowicz Civis et Consul Crasnicensis et Andreas Kuczewicz Scabinus Crasnicensis... Catherina Helkowna olim Andreae Helka Consortis ultima obtenta ultra vallam recognovit se aream illam integram in Vico Judaico inter Domos Judaeorum Lobek & Elkon... vendidisse Laurentio Zyskowicz Civi de Sarto Crasnicensi pro Summa Florenorum Quinquaginta Polonicalium [50 złp]... Quo iure resignationem perpetuam super eam Aream extitit.",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 7,
+    "kod_skanu": "35_40_0_1_10_7_2063107",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_7_2063107"
+  },
+  {
+    "nr_skanu": 8,
+    "strona_pagina": "fol. 3v–4r (Obdukcja Krawca Wieczorka, Wielki Spór Graniczny z Popkowicami i Proces o Obmowę)",
+    "data_rok": "Maj – Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Piotr Wieczorek krawiec</span>, <span class=\"badge-district\">Wojciech Sapała ławnik</span>, <span class=\"badge-district\">Bartosz Dziewiel</span>, <span class=\"badge-district\">Sebastian Pezik krawiec</span>, <span class=\"badge-district\">Wawrzyniec Duch przedmieszczanin</span>, <span class=\"badge-district\">Stanisław parobek Dyczka</span>, <span class=\"badge-district\">Paweł Szorc pan z Popkowic</span>, <span class=\"badge-district\">Poddani z Popkowic</span>, <span class=\"badge-district\">Zofia Janitoszkowa</span>, <span class=\"badge-district\">Wincenty Gryfft alias Noszczyński</span>, <span class=\"badge-district\">Ewa Pacanowska pozwana</span>, <span class=\"badge-district\">Zofia Chmielnicka</span>",
+    "kategoria": "Obdukcja pobicia krawca / Spór graniczny Zarzecza z Popkowicami (wadium 15 grzywien) / Zniesławienie na weselu / Przysięga oczyszczająca",
+    "opis_sprawy": "1) Obdukcja ran krawca Piotra Wieczorka pobitego przez krawca Sebastiana Pezika: krwawy raz na grzbiecie, trzy cięcia na nosie i rozcięta chrząstka nosowa. 2) Wielki proces o naruszenie granicy miejskiej między przedmieszczanami z Zarzecza i Piasku a poddanymi Pawła Szorca ze wsi Popkowice: kraśniczanie orząc przy miedzy popkowskiej zaimali obce bydło, co wywołało zbrojny najazd Popkowian i bicie; sąd wójtowski skazuje Popkowian na karę 15 grzywien winy urzędowej. 3) Proces przed sądem złożonym (radziecko-wójtowskim) o obmowę weselną: Zofia Janitoszkowa i Wincenty Gryfft oskarżają Ewę Pacanowską o rzucenie oszczerstwa w czasie wesela w rozmowie z Zofią Chmielnicką; sąd nakazuje pozwanej złożenie przysięgi oczyszczającej w asyście dwóch uczciwych niewiast.",
+    "kwoty_podatki": "15 grzywien winy urzędowej za najazd graniczny; opłaty sędziowskie",
+    "transkrypcja": "fol. 3v\nFeria Sexta post Festum Pentecostes Ao 1646\nObdukcja ran Piotra Wieczorka krawca na Kraśniku... Sławetny Wojciech Sapała ławnik, Bartosz Dziewiel... takowe rany widzieli: Naprzód na grzbiecie raz krwawy, na nosie orazow krwawych draganych trzy, y nos cięty dat winę... przeciw Sebastianowi Pezikowi krawcowi...\n\nDecret między Wawrzyńcem Duchem y Staś parobkiem Dyczkowym Actorami z iedney, a poddanemi JMości P. Pawła Szorca z Popkowic z drugiey strony między Przedmieszczanami na Zarzeczu y Piasku w granicach. Decret taki iest między niemi uczyniony: Iże się to z kontrowersiej obudwu stron pokazało, że Przedmieszczanie kraśniccy albo czeladź ich orząc na polach swoich przy granicach Popkowskich wyorawszy bydła inne, wygnali za granicę na pola Popkowskie, czego postrzegszy Popkowianie zaraz bydła ubiegłszy... które była broniąc im zaymowania...\n\nfol. 4r\n...o pobicie poddanych swoich, tedy ci Popkowianie winni są... Urzędowi winy 15 grzywien zapłacić pod rygorem egzekucyey...\n\nActum Crasnicij coram Officio Composito Consulari & Advocatiali Crasnicensi Sabbato post Festum Solemnia Pentecostes Ao 1646\nInter Zophiam Tomasz Janitoszek anteoppidana et Vincentium Gryffta alias Albertum Nosczerynski ex una, et Honestam Evam Joannis Pacanowski uxorem ex altera parte Decretum latum. Iż się Actores skarżyli na pozwaną Pacanowską, iże ona będąc siostrą Tomasza Janitoszka, czasu wesela iey mawiała te słowa, gdy się bawiła z Zofią Chmielnicką: 'Mój Brat Janitoszek będzie żonę bąkiem... mawiać, że domacali świadkowie... z Xiąg Radzieckich...'. Na co pomieniona Pacanowska odpowiedziała, nieprzyznawała się do tego, aby miała to mawiać... Urząd nakazał: Ponieważ pozwana pokonana iest świadectwem... przeto ma pozwana przysiąc z dwiema niewiastami... iż nie mawiała tak... [por. Czystopis J11: fol. 4r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 8,
+    "kod_skanu": "35_40_0_1_10_8_2063113",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_8_2063113"
+  },
+  {
+    "nr_skanu": 9,
+    "strona_pagina": "fol. 4v–5r (Proces o Cudzołóstwo Janitoszków, Sprzedaż Placu Herszkowi za 400 złp i Dług 30 złp)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Tomasz Janitoszek mąż</span>, <span class=\"badge-district\">Zofia Cyrulionka żona</span>, <span class=\"badge-district\">Wincenty Cyrulik poręczyciel</span>, <span class=\"badge-district\">Wóyt Urzędowski</span>, <span class=\"badge-district\">Stanisław Kowal</span>, <span class=\"badge-district\">Piotr Suski</span>, <span class=\"badge-district\">Marcin Suski</span>, <span class=\"badge-district\">Wojciech Sapała ławnik</span>, <span class=\"badge-district\">Regina Tarapajna</span>, <span class=\"badge-district\">Wojciech Wrona</span>, <span class=\"badge-district\">Albert Noszczyński zbywca</span>, <span class=\"badge-district\">Herszko Heliaszowicz Starszy Kahału</span>, <span class=\"badge-district\">Gabriel Buta</span>, <span class=\"badge-district\">Dawid Żyd powód</span>, <span class=\"badge-district\">Stanisław Rymarczyk pozwany</span>",
+    "kategoria": "Prawo małżeńskie i karne (crimen adulterii, 300 grzywien wadium, 1,5 roku wieży) / Wielka transakcja nieruchomości (400 złp) / Długi żydowskie",
+    "opis_sprawy": "1) Dramatyczny proces małżeński przed sądem złożonym (radziecko-wójtowskim): Tomasz Janitoszek oskarża żonę Zofię Cyrulionkę o 5 lat rozbicia małżeństwa i występek cudzołóstwa (crimen adulterii); sprawę skierowano do jurysdykcji Sądu Biskupiego pod gigantycznym wadium 300 grzywien oraz rygorem 1,5 roku wieży miejskiej, przy uroczystym poręczeniu elity mieszczańskiej (Wincenty Cyrulik, wójt urzędowski, Stanisław Kowal, Suscy, Sapała). 2) Areszt Reginy Tarapajczyny na 50 złp u Wojciecha Wrony. 3) Monumentalna sprzedaż placu przez Alberta Noszczyńskiego na rzecz Starszego Kahału Herszka Heliaszowicza za 400 złp polskich przy ul. Żydowskiej. 4) Proces Dawida Żyda przeciwko Stanisławowi Rymarczykowi o 30 złp długu sprzed 9 lat; sąd nakazuje przysięgę żydowską.",
+    "kwoty_podatki": "300 grzywien wadium i 1,5 roku wieży; 50 złp aresztu; 400 złp sumy sprzedaży placu Herszkowi; 30 złp długu Rymarczyka",
+    "transkrypcja": "fol. 4v\nEodem die Coram eodem Officio Composito... Stawający przed Sądem ninieyszym oboygiem wójtowskim y radzieckim kraśnickim, z iedney Tomasz Janitoszek przedmieszczanin kraśnicki, y obżałowana Zophia Cyrulionka żona ślubna tegoż Janitoszka, po długich kontrowersjach między niemi o złe mieszkanie w małżeństwie przez lat 5 y de crimine Adulterii [cudzołóstwa] popełnionego, stanszą na tym, iż obiedwie stronie przeto na Sąd Duchowny, gdy strona stronę pozwie na Duchownym przypozwie... A iż ta Zophia Cyrulionka o występek cudzołóstwa była osądzona, przeto poszli in judicium... To iest: Wincenty Cyrulik, Wóyt Urzędowski, Stanisław Kowal, Piotr Suski, Marcin Suski y Wojciech Sapała... Mieszczanie kraśniccy dobrej osławy... Jako pomieniona Zophia Cyrulionka na pozew Duchowny lubo do J.M. X. Biskupa lubo do J.M. X. Officiała do którego Sądy należą, podług terminu naznaczonego stawiać, pod winą y zakładem grzywien 300 tot., y pod siedzeniem przez jedno półtora w Wieży Mieyskiey...\n\nfol. 5r\nDie Dominica ipso die SS. Trinitatis 1646\nRegina Sławna Tarapaina położyła areszt o Wojciecha Wronę przedmieszczanina kraśnickiego na zł 50...\n\nResignatio: Albertus Nosczerynski... vendidit aream antiquam emensuratam Infideli Judaeo Herszko Judaeo Crasnicensi pro Summa Florenorum quadringentorum [400 złp]... in platea communem a platea Judaica tendentem... [por. Czystopis J11: fol. 5r]\n\nEodem die Hyrzko Judaeus Crasnicensis arestum posuit apud H. Gabrielem Buta super pomienioną...\n\nFeria 2da post Festum SS. Trinitatis 1646\nInter Judaeum David Judaeum Crasnicensem Actorem, et Honestum Stanislaum Rymarczyk anteoppidanum kraśnickim citatum Decretum latum. Tomasz Actor skarżył na pozwanego o dług zł 30 polskich, które mu zadał na plag wedle brony mniemany o me przynoszony, a do tego czasu nie oddał wcale. Na co odpowiedając pozwany powiedział, iż temu już iest lat 9, a o to nie czynił, dla tego iż on ie darował... Przeto Decretu Urzędu niniejszego Actorom przysięga ich nakazana... Termin przysiędze znaczy od tego piątku...",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 9,
+    "kod_skanu": "35_40_0_1_10_9_2063085",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_9_2063085"
+  },
+  {
+    "nr_skanu": 10,
+    "strona_pagina": "fol. 5v–6r (Spór o Konia i Wyrwany Ogon, Obdukcje Rannego Krawca i Żydówki z Blinowa)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Adam Leszkowicz przedmieszczanin</span>, <span class=\"badge-district\">Albert Olędzki szewc</span>, <span class=\"badge-district\">Wawrzyniec Smolec kmieć z Popkowic</span>, <span class=\"badge-district\">Jan Mrozek</span>, <span class=\"badge-district\">Bartosz świadek</span>, <span class=\"badge-district\">Ewa Pacanowska</span>, <span class=\"badge-district\">Wawrzyniec Zyskowicz krawiec</span>, <span class=\"badge-district\">Albert Sapała ławnik</span>, <span class=\"badge-district\">Bartosz Ogonek ławnik</span>, <span class=\"badge-district\">Żydówka poszkodowana</span>, <span class=\"badge-district\">Wojciechowie Bartniczkowie z Blinowa</span>, <span class=\"badge-district\">Mikołaj Stadnik</span>, <span class=\"badge-district\">Marek napastnik</span>",
+    "kategoria": "Szkody polowe i wypas konia / Okaleczenie zwierzęcia (wyrwanie ogona) / Chirurgiczne obdukcje pobić / Przemoc międzyetniczna",
+    "opis_sprawy": "1) Spór Adama Leszkowicza z szewcem Albertem Olędzkim o popasienie konia w warzywniku i wyrwanie końskiego ogona: Leszkowicz zapłacił 20 złp odszkodowania, lecz pozwany okaleczył zwierzę; zeznanie Wawrzyńca Smolca z Popkowic o wartości konia (26 złp); wyrok sądu z przysięgą pod winą 4 grzywien. 2) Obdukcja krawca Wawrzyńca Zyskowicza: ucho prawe rozcięte, szyja przekłuta, ramię krwawe. 3) Obdukcja ławników Ogonka i Sapały pobitej Żydówki: głębokie rany cięte pod pachą i na ramieniu zadane przez Wojciechów Bartniczków z Blinowa. 4) Obdukcja ran Mikołaja Stadnika i żony: rozbity łuk brwiowy na 2 palce, krew z ucha, wyrwana czupryna i rozcięta warga.",
+    "kwoty_podatki": "20 złp odszkodowania za popas; 26 złp taksy konia; 4 grzywny winy urzędowej; opłaty obdukcyjne",
+    "transkrypcja": "fol. 5v\nFeria 4ta ante Festum Corporis Christi 1646\nAdam Leszkowicz anteoppidanus Crasnensis solvit et fassus est coram Alberto Olędzki Sutore Crasnensi... iż ja ogradzając ogród... na popasienie konia... ten koń zjadł y wypasł... za co dałem zł 20 y ogon mu wyrwał... co obmierzyli z panem Mrozkiem y Bartoszem... ten koń ogon wyrosł... Tenże Adam Leszkowicz stawił na świadectwo pracowitego Wawrzyńca Smoleca z Popkowic, który pod przysięgą wyznał: iż Adam Leszkowicz kupił to konisko... na św. Wojciech blisko przyszły za zł 26... Decretum inter Honestum Adamum Leszkowicz Actorem, et Albertum Olędzki Citatum latum: Ponieważ pozwany oświadczył, iż tego konia odkupił za zł 26, a ogon mu wyrwał, przeto Urząd nakazał przysięgę pozwanemu... pod winą grzywien 4.\n\nfol. 6r\nFeria 6ta post Festum SS. Corporis Christi 1646\nHonestus Laurentius Zyskowicz Civis de Sarto Crasnensis oravit Officio Scabinorum sua Not. Honestum Albertum Sapała Scabinum... fecerunt talem: Widzieli na uchu prawym ranę krwawą przebrzaną, It. na szyi w grzbiecie raz przekłuty, It. na ręku na ramieniu z obu stron raz krwawy przebrzany... Wina temu który świadka ma w niewoli trzymać...\n\nItem oglądany jest bój z żydowicami przez Sławetnego Bartosza Ogonka y Wojciecha Sapałę ławników, którzy pod fides iurata fassionem uczynili: iż widzieli u Żydówki prawe na obidwie stronie przebite, na skórze rany krwi niegodzi... It. na prawym boku pod pachą ranę ciętą... It. na lewym ramieniu... Wina dać Wojciechom Bartniczkom z Blinowa.\n\nMikołaj Stadnik z żoną na Marka też tegoż dnia... pokazali rany... nad okiem lewym raz tłuczony sinokrwawy wielkości na 2 palce... It. krew potłuczona na lewej skroni... czupryna oberwana, It. warga powierzchowna przetłuczona do krwie... Wina karze... [por. Czystopis J11: fol. 6r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 10,
+    "kod_skanu": "35_40_0_1_10_10_2063104",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_10_2063104"
+  },
+  {
+    "nr_skanu": 11,
+    "strona_pagina": "fol. 6v–7r (Awantura w Szynku u Surmańczyka przy Dudach i Bębenku oraz Bój z Siekierami)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Wawrzyniec Żydkownica oskarżony</span>, <span class=\"badge-district\">Wojciech Bartniczek bębnista</span>, <span class=\"badge-district\">Stanisław Marszowski cechmistrz</span>, <span class=\"badge-district\">Duda Surmańczyk lutnista</span>, <span class=\"badge-district\">Jakub Wawrzyniec</span>, <span class=\"badge-district\">Gąska</span>, <span class=\"badge-district\">Maciej Grądzewski mieszczanin</span>, <span class=\"badge-district\">Elkoń Żyd</span>, <span class=\"badge-district\">Marek Wronka z siekierą</span>",
+    "kategoria": "Bójka karczemna / Muzyka miejska (lutnia, dudy, bębenek) / Zranienie siekierą i drągami / Zeznania zaprzysiężone cechmistrza",
+    "opis_sprawy": "1) Szczegółowe śledztwo w sprawie zranienia czeladzi w karczmie: cechmistrz Stanisław Marszowski zeznaje pod przysięgą, że w szynku u Surmańczyka grano przy piwie na lutni i dudach, a Wojciech Bartniczek bębnił w bębenek; doszło do sprzeczki o dzban piwa po zmarłej matce, w wyniku czego Wawrzyniec Żydkownica uderzył chłopca miotłą i ranił na podwórzu; kara 2 złp. 2) Zeznanie Macieja Grądzewskiego: Żydkownica napadnięty został przez czeladź z drągami i siekierami; Grądzewski wraz z Żydem Elkoniem wybiegli z siekierami, by rozbroić Marka Wronkę, który krzyczał 'zabij go!'; Bartniczkowie oskarżeni o wywołanie gwałtu.",
+    "kwoty_podatki": "2 złp kary sądowej; koszty leczenia i opłaty urzędowe",
+    "transkrypcja": "fol. 6v\nA na dowód tego, iż pomieniony Wawrzyniec Żydkownica ten chłopięcy Bartnictwa pobił, stawił świadectwo takie:\nPierwszy Stanisław Marszowski Cechmistrz y Mieszczanin Kraśnicki pod przysięgą wyznał temi słowy: Dnia wczorayszego grał ze mnie Duda na Lutni przy piwie u Surmanczyka, a w bębenek bębnił Woyć Bartniczek... przybiegłszy Duda Surmańczyk wziął te Dudy... Jakub Wawrzyniec z piekarnią szedł, od którego... upominał się zapłaty, a nie ku Dziad... A iż żydkownica napomniany będąc od Gąski... aby dzban oddał, bo mu matka niedawno zmarła, poszedł do izby... a chłopiec rzucił się za nim... przed domem na podwórzu... miotłą na Żydkowica... poszedł do izby... a chłopiec za nim... wpadł do domu... Wina płat zł 2.\n\nfol. 7r\n...którą mnie do rąk oddał, mawiaj jakobym ja miał oddać Wronce...\nDrugi świadek Sławetny Maciej Grądzewski Mieszczanin Kraśnicki pod przysięgą wyznał: iż niewiernie ode mnie ta hurtka z Żydkowicami ustała się, ale niewiadomie, tylko to usłyszawszy, iż Żydkowice gwałtem napadł... z siekierami y z drągami... wpadli do mnie... ja z Elkoniem z siekierami y z drągami wybiegliśmy... do Bartniczka...\nWojciech Bartniczek na to iż mu Wawrzyniec Żydkownica brata zranił y do dał winę, wyznał to, iż on Żydkownica nie bił, ale go ten pan bronił... wypadł za nim Marek Wronka z siekierą, któremu ja siekierę wydarł... odpowiedając go zabij... [por. Czystopis J11: fol. 7r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 11,
+    "kod_skanu": "35_40_0_1_10_11_2063093",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_11_2063093"
+  },
+  {
+    "nr_skanu": 12,
+    "strona_pagina": "fol. 7v–8r (Skargi na Pobicia, Kwitacja Długu Herszka i 100 złp dla Kanoników Regularnych)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Mikołaj Dec z Wyżnicy</span>, <span class=\"badge-district\">Jan Mrozek ławnik</span>, <span class=\"badge-district\">Krzysztof Zazięblik ławnik</span>, <span class=\"badge-district\">Wawrzyniec Żydkownik</span>, <span class=\"badge-district\">Marek Wronka</span>, <span class=\"badge-district\">Wojciech Bartniczek</span>, <span class=\"badge-district\">Herszko Heliaszowicz Starszy Kahału</span>, <span class=\"badge-district\">Wojciech Giżyc stary rajca</span>, <span class=\"badge-district\">Ks. Andrzej Czeleniński kanonik</span>, <span class=\"badge-district\">Ks. Bartłomiej Smyszenowicz kanonik</span>",
+    "kategoria": "Obdukcja ran i zniszczenia odzieży szlacheckiej / Kwitacja wielkich długów wekslowych / Kanonicy Regularni Kraśniccy / Finanse patrycjatu",
+    "opis_sprawy": "1) Drastyczna obdukcja ran Mikołaja Deca z Wyżnicy przed ławnikami Mrozkiem i Zazięblikiem: cała głowa zraniona, podbite oczy, 10 ran ciętych na twarzy, 7 na nosie, potłuczone łopatki, zniszczona suknia lazurowa i czapka z futrem; wina przypisana Wawrzyńcowi Żydkownikowi. 2) Uroczysta wieczysta kwitacja Starszego Kahału Herszka Heliaszowicza: potwierdzenie całkowitej spłaty przez starego rajcę Wojciecha Giżyca wszelkich długów cyrografowych [finał sprawy z J9 na 500 złp!]. 3) Pokwitowanie Kanoników Regularnych z klasztoru kraśnickiego: księża Czeleniński i Smyszenowicz kwitują Wojciecha Giżyca z odbioru 100 złp gotówką.",
+    "kwoty_podatki": "Zupełna spłata długu u Herszka; 100 złp wypłacone Kanonikom Regularnym; taksy obdukcyjne",
+    "transkrypcja": "fol. 7v\nDominica infra Octavas Corporis Christi [1646]\nMikołaj Dec de Wyżnica oravit ad oblationem sibi inflicta... Joanni Mrozek, et Christophoro Zazięblik Scabinis Juratis... fecerunt talem: Widzieli głowę wszystkę podrapaną do krwi, czupryna wyrwana, It. obie oczy podbite sine, It. na twarzy drapań krwawych No 10, It. na nosie drapań krwawych No 7, It. obiedwie łopatce potłuczone, na których rany tłuczone sine... It. z sukni lazurowej kołnierz oberwany, It. czapka poszyta futrem... Dat Wawrzyńcu Żydkownikowi winę...\n\nfol. 8r\nFeria 3a infra Octavas SS. Corporis Christi Ao 1646\nInfidelis Judaeus Hyrszko incola Crasnicensis sanus mente et corpore existens... quietavit et fassus est, se omne et integrum debitum... ab Alberto Giżyc Cive et Consule antiquo Crasnicensi... quem ex toto et integro debito... quietavit et liberum fecit... [por. Czystopis J11: fol. 8r]\n\nEodem die Reverendi Presbyteri Andreas Czeleniensis et Bartholomaeus Smyszenowicz Sacristani Canonici Regulares ex Brastio... recognoverunt se ab Alberto Giżyc Cive et Consule antiquo Crasnicensi Florenos Polonicales Centum [100 złp]... parata et numerata pecunia recepisse...",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 12,
+    "kod_skanu": "35_40_0_1_10_12_2063094",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_12_2063094"
+  },
+  {
+    "nr_skanu": 13,
+    "strona_pagina": "fol. 8v–9r (Kwitacja Bractwa Różańcowego i Monumentalna Sprzedaż Dwóch Domów Giżyca za 630 złp)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Ks. Andrzej Henryk Wybranowski promotor różańcowy</span>, <span class=\"badge-district\">Albert Janaszkowic wójt</span>, <span class=\"badge-district\">Wojciech Giżyc stary rajca</span>, <span class=\"badge-district\">Dorota Giżycowa żona</span>, <span class=\"badge-district\">Gabriel Buta mieszczanin nabywca</span>, <span class=\"badge-district\">Piotr Dostatni sąsiad</span>",
+    "kategoria": "Fundusze kościelne (Bractwo Różańcowe, 200 złp) / Monumentalny obrót nieruchomościami (630 złp) / Dom przy ul. Żydowskiej i dom za Bramą Drewnianą",
+    "opis_sprawy": "1) Pokwitowanie Bractwa Różańcowego przy kościele kraśnickim: ks. promotor Wybranowski i wójt Janaszkowicz kwitują Wojciecha Giżyca z odbioru 200 złp zapisu fundacyjnego. 2) Monumentalny kontrakt sprzedaży nieruchomości: stary rajca Wojciech Giżyc wraz z żoną Dorotą, celem zaspokojenia wierzycieli, sprzedają Gabrielowi Bucie dwa okazałe domy: dom z placem przy ul. Żydowskiej koło Piotra Dostatniego za 300 złp oraz dom z zabudowaniami za Bramą Drewnianą za 330 złp — łączna suma transakcji wynosi 630 złp polskich paratą monetą, co pozwala Giżycowi oczyścić majątek z wieloletnich długów.",
+    "kwoty_podatki": "200 złp spłacone Bractwu Różańcowemu; 630 złp łącznej sumy sprzedaży domów (300 złp + 330 złp)",
+    "transkrypcja": "fol. 8v\nEodem die Admodum Reverendus Presbyter Andreas Henricus Wybranowski Confraternitatis SS. Rosarii... una cum Honestis Alberto Janaszkowic Advocato Crasnicensi... recognoverunt se ab Alberto Giżyc Cive et Consule antiquo Crasnicensi Florenos Polonicales ducentos [200 złp]... parata et numerata pecunia recepisse...\n\nEodem die Coram Judicio Necessario Bannito Advocatiali et Scabinali Crasnicensi... Honestus Albertus Giżyc Civis et Consul antiquus Crasnicensis... una cum Honesta Dorothea uxore eius legitima...\n\nfol. 9r\n...recognoverunt se domunculam... cum tota area... penes domum Petri Dostatni... in platea Judaica... vendidisse Gabrieli Buta Civi Crasnicensi pro Summa Florenorum Trecentorum [300 złp]... et domum eius extra portam Ligneam [za Bramą Drewnianą]... pro Summa Florenorum Trecentorum et Triginta [330 złp]... Quam Summam in unum compagando facit Florenorum Polonicalium Sexcentos Triginta [630 złp] vendidisse et in perpetuum resignasse... [por. Czystopis J11: fol. 9r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 13,
+    "kod_skanu": "35_40_0_1_10_13_2063098",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_13_2063098"
+  },
+  {
+    "nr_skanu": 14,
+    "strona_pagina": "fol. 9v–10r (Cesja Długu Bełżyckiego na Ławnika Szafranka i Kradzież w Gospodzie)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Ks. Wybranowski</span>, <span class=\"badge-district\">Ks. Smyszenowicz</span>, <span class=\"badge-district\">Jan Bełżycki zmarły sołtys</span>, <span class=\"badge-district\">Albert Szafranek ławnik</span>, <span class=\"badge-district\">Wawrzyniec Paniek sąsiad</span>, <span class=\"badge-district\">Adam famulus szlachecki</span>, <span class=\"badge-district\">Andrzej Pączkowski</span>, <span class=\"badge-district\">Andrzej Długoborski</span>",
+    "kategoria": "Cesja wierzytelności hipotecznej (50 złp) / Kamienica w Rynku / Kradzież w gospodzie / Zranienia i zajazd",
+    "opis_sprawy": "1) Kanonicy Regularni cedują na ławnika Alberta Szafranka wierzytelność w wysokości 50 złp polskich ciążącą na placu po zmarłym Janie Bełżyckim; Szafranek ubezpiecza ten kapitał na swojej narożnej posesji w Rynku (in Circulo Civitatis) obok domu Wawrzyńca Pańka. 2) Zgłoszenie kradzieży w gospodzie miejskiej: sługa szlachecki Adam oskarża Andrzeja Pączkowskiego o kradzież płaszcza, sukien, gaci i siekiery z izby gościnnej. 3) Sprawa Andrzeja Długoborskiego o zranienie ręki i bezprawne uprowadzenie kobyły z wozem.",
+    "kwoty_podatki": "50 złp sumy cesji wierzytelności na kamienicy w Rynku; taksy szkodowe",
+    "transkrypcja": "fol. 9v\nEodem die Admodum Reverendi Presbyteri Andreas Henricus Wybranowski et Bartholomaeus Smyszenowicz... Canonici Regulares... recognoverunt... omne ius suum... in area... a quondam Joanne Bełżycki Cive Crasnicensi... super Summa Florenorum 50 Polonicalium... in Famam Albertum Szafranek Civem et Scabinum Crasnicensem transferunt, recognoscentes sibi satisfactum esse...\n\nfol. 10r\n...in Circulo Civitatis in acie penes plateam communem... et domum Laurentii Paniek... A qua Summa quolibet Anno obligat et inscribit sese soluturum florenos tres cum medio [3,5 złp prowizji]... quolibet Festo S.S. Corporis Christi...\n\nEodem die Ad instantiam Nobilis Adami... famulus D. Andreae Wronkowski... Andreas Pączkowski... wyznał: o szkodę... gacie... płaszcz... siekiera... w domu przed gospodą...\n\nActum Crasnicij coram Officio Advocatiali et Scabinali Feria 2da post Festum Corporis Christi Anno Dni 1646\nRezygnacja do rzędu Dziejańskiego... Andrzej Długoborski... ręka zraniona... chwateł z ranami... żona z płaczem... kobyłę z wozem... [por. Czystopis J11: fol. 10r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 14,
+    "kod_skanu": "35_40_0_1_10_14_2063086",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_14_2063086"
+  },
+  {
+    "nr_skanu": 15,
+    "strona_pagina": "fol. 10v–11r (Niezwykły Inwentarz Skradzionych Rzeczy: Klejnoty, Księga Apostolska, Oracja i Ucieczka Węgrzyna)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Poszkodowany gospodarz</span>, <span class=\"badge-district\">Wojciech Janaszkowicz notariusz</span>, <span class=\"badge-district\">Stanisław Beczycki kanonik</span>, <span class=\"badge-district\">Piotr Skrzypek towarzysz</span>, <span class=\"badge-district\">Andrzej Kuczewicz ławnik</span>, <span class=\"badge-district\">Krzysztof Zazięblik ławnik</span>, <span class=\"badge-district\">Koczur ze Bzina</span>, <span class=\"badge-district\">Jakub Węgrzyn złodziej</span>, <span class=\"badge-district\">Żyd Bednarski</span>",
+    "kategoria": "Kradzież z włamaniem / Unikatowy inwentarz kultury materialnej i intelektualnej / Książki i oracje łacińskie / Pościg i uwięzienie w wieży",
+    "opis_sprawy": "1) Wyjątkowo bogaty inwentarz przedmiotów skradzionych z komory: pas zielony jedwabny, sznury paciorków ze srebrnymi i szklanymi guzami, czapka kapuza, listwy atłasowe, kamize zielone, drukowana Księga Apostolska, kożuch z kołnierzem lisim, koszule, grzebień, zielony papużynek ze srebrnym słońcem, rękopiśmienna mowa łacińska (oracja) ułożona przez notariusza Janaszkowicza dla kanonika Beczyckiego, bite talary i półtalarki oraz 32 złp gotówki ze skrzynki skrzypka Piotra. 2) Śledztwo ławników Kuczewicza i Zazięblika: odnalezienie sznurów po szatach w Bzinie u Koczura; aresztowanie zbiegłego sprawcy – wędrownego Węgrzyna Jakuba (furmana Żyda Bednarskiego) i osadzenie go w miejskiej wieży więziennej.",
+    "kwoty_podatki": "32 złp skradzionej gotówki; talary bite i półtalarki; klejnoty i szaty wartości kilkuset złp",
+    "transkrypcja": "fol. 10v\n...obrachował... czas zapust... mają krowę... od kradzieży... kradzież sukien, szat... na sznurku... pas zielony, pas jedwabny, sznurek na złotych y paciorki, to iest guzy srebrne jako y szklankowe, czapkę kapuzę, listwy atłasowe, zielone kamize, Xięgę Apostolską... kożuch z kołnierzem lisim, koszul kilka, grzebień, ... perlik, papużynek zielony ze słońcem srebrnym, oracja pisana przez Janaszowica... do Stanisława Beczyckiego kanonika... pieniędzy gotowych w komorze... dwa talary bite, dwa pułtalarki, czworo gaci zgrzebnych bielonych... Piotrowi Skrzypkowi Towarzyszowi... ze skrzynki zł 32...\n\nfol. 11r\n...Urząd niniejszy jako rzeczą słuszną zwolniwszy, zesłał mężów Sławnych Andrzeja Kuczewicza, Krzysztofa Zazięblika Ławników... w komorze kawałek sznurka, na którym była wieszana szata... w skrzyni u Koczura w Bzinie... aby się stawił do sądu... Pisarz zaś z urzędu... za fugam facientem... nakazał areszt... ten Węgrzyn imieniem Jakub... bywał przedtem na dworze na wozie z Żydem Bednarskim... kazał go do wieży wsadzić... [por. Czystopis J11: fol. 11r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 15,
+    "kod_skanu": "35_40_0_1_10_15_2063115",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_15_2063115"
+  },
+  {
+    "nr_skanu": 16,
+    "strona_pagina": "fol. 11v–12r (Intromisja w Dobra Modliborzyckie, Dług 50 złp i Sekwestr Mienia Złodzieja Jakuba)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Andrzej Kuczewicz ławnik</span>, <span class=\"badge-district\">Krzysztof Zazięblik ławnik</span>, <span class=\"badge-district\">Icko Żyd kraśnicki</span>, <span class=\"badge-district\">Adam Leszkowicz dłużnik</span>, <span class=\"badge-district\">Wawrzyniec Żydkownicz powód</span>, <span class=\"badge-district\">Jan Pacanowski pozwany</span>, <span class=\"badge-district\">Wawrzyniec Długoborski</span>, <span class=\"badge-district\">Andrzej Bychawski</span>, <span class=\"badge-district\">Jakub Węgrzyn oskarżony</span>, <span class=\"badge-district\">Jan Mrozek ławnik</span>",
+    "kategoria": "Egzekucja długów i intromisja (Modliborzyce, 50 złp) / Sekwestr mienia ruchomego sprawcy kradzieży / Procedura karna",
+    "opis_sprawy": "1) Zeznanie ławników Kuczewicza i Zazięblika o rewizji rzeczy skradzionych. 2) Sprawa dłużna Żyda Icka przeciw Adamowi Leszkowiczowi o 50 złp długu według rejestru: Leszkowicz poddaje się egzekucji i zezwala na intromisję wierzyciela w dobra i dochody w Modliborzycach. 3) Wyrok w sporze Wawrzyńca Żydkowniczyka przeciw Janowi Pacanowskiemu o 50 złp długu. 4) Postanowienie rzędu wójtowskiego w sprawie uwięzionego złodzieja Jakuba Węgrzyna: delegacja ławników Mrozka i Kuczewicza dokonuje formalnej intromisji i sekwestru mienia sprawcy na rzecz poszkodowanych mieszczan.",
+    "kwoty_podatki": "50 złp długu Leszkowicza (intromisja w Modliborzycach); 50 złp długu Pacanowskiego; sekwestr mienia",
+    "transkrypcja": "fol. 11v\n...Andrzej Kuczewicz, Krzysztof Zazięblik... w domu widzieli skrzynię chorą...\nFeria 3a infra Octavas SS. Corporis Christi 1646\nIcek Judaeus cum Adamo Leszkowicz\nNa terminie dzisiejszym Niewierny Icko Żyd Kraśnicki... Darek... Modliborzyckie dary... skazał się na długie Adama Leszkowicza, iże on na zapłacenie długu złotych 50 wedle rejestru swej mieściny... dał się o ten dług do wyżej pospólstwa... Modliborzyce sam dobrowolnie... obligował się puszczać intromisję w dobra swoje... Modliborzyckie świadczą...\n\nfol. 12r\n...mieć prawo o tym za które winien mu gotowe...\nEodem die Decret między Ućciwym Wawrzyńcem Żydkowniczem a Janem Pacanowskim: Skarżył się Żydkownicz o zł 50... nakazał aby na piątek...\nEodem die Acta niniejsze przyszedłszy do Rzędu Wójtowskiego... Wawrzyniec Długoborski, Andrzej Bychawski Aktorzyńca... za kradzież na obywatela... Jakub Węgrzyn... intromisja tedy podana jest w rzeczone dobra... przez Pana Mrozka y Kuczenowicza... [por. Czystopis J11: fol. 12r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 16,
+    "kod_skanu": "35_40_0_1_10_16_2063106",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_16_2063106"
+  },
+  {
+    "nr_skanu": 17,
+    "strona_pagina": "fol. 12v–13r (Zeznania Świadków z Wyżnicy o Bójce w Karczmie i Testament z Modliborzyc na 50 złp)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Stanisław Poczesnowski</span>, <span class=\"badge-district\">Augustyn Balwirczyk kuśnierz</span>, <span class=\"badge-district\">Wojciech Balwirczyk brat</span>, <span class=\"badge-district\">Albert Bartniczek</span>, <span class=\"badge-district\">Maciej Surmańczyk kmieć z Wyżnicy</span>, <span class=\"badge-district\">Misiek Decyh pobity</span>, <span class=\"badge-district\">Żydek karczmarz</span>, <span class=\"badge-district\">Maciej Zagórny z Wyżnicy</span>, <span class=\"badge-district\">Wawrzyniec Prokop przedmieszczanin</span>, <span class=\"badge-district\">Andrzej Gielka przedmieszczanin</span>, <span class=\"badge-district\">Maciej zmarły z Modliborzyc</span>",
+    "kategoria": "Poręczenie rzemieślnicze / Zeznania włościan pod przysięgą / Bójka w karczmie żydowskiej / Egzekucja legatu testamentowego (50 złp)",
+    "opis_sprawy": "1) Poręczenie kuśnierza Augustyna Balwirczyka za brata Wojciecha Balwirczyka co do stawiennictwa w sądzie na sprawę z Wyżniczanami. 2) Zeznania zaprzysiężone kmieci Macieja Surmańczyka i Macieja Zagórnego ze wsi Wyżnica w sprawie krwawej bójki w dzień Bożego Ciała: w karczmie żydowskiej pod Kraśnikiem pobito kijami Miśka Decyha, w obronie którego stanęła żona; w bójce uczestniczył Wronka i karczmarz. 3) Pozew Wawrzyńca Prokopa przeciw Andrzejowi Gielce o wypłatę 50 złp długu zapisanego w testamencie śp. Macieja z miasteczka Modliborzyce.",
+    "kwoty_podatki": "110 złp oszacowania szkody; 12 złp długu Poczesnowskiego; 50 złp legatu testamentowego z Modliborzyc",
+    "transkrypcja": "fol. 12v\n...szkoda zupełna także z towarzysza... na zł 110 racuje... Staś Poczesnowski o zł 12... Węgrzyn...\nGenerosus Augustyn Balwirczyk Kuśnierz... ręczył za Wojciecha Balwirczyka brata swego, jako go ma stawić do sprawy na piątek blisko przyszły... z Wyżniczany...\nEodem die Ad instantiam providi Alberti Bartniczek et inquilinis Crasnicensibus comparans personaliter... laboriosus Mathias Surmańczyk de Wyżnica sub corporali iuramento taliter recognovit: W dzień Bożego Ciała blisko przeszły, widziałem iż w Dziadka Kraśnickiego bili Miśka Decyha przy piwie, Żydek karczmy trzymał a towarzysz jego... bili go kijem...\nTestis 2. Mathias Zagórny de Wyżnica sub iuramento corporali recognovit: W dzień Bożego Ciała blisko przeszły idąc do młyna... widziałem jak ludzie przed sienią kraśnicką a pod kraśnicką żydkową karczmą...\n\nfol. 13r\n...poczęli na ludzi... potem Decyhowi... poszedł do sieni do Żydówki... bili go... rzuciła się żona... padł na podwórzu... Wronka tymczasem... Żydek dał mu kijem...\nFeria 6ta post Octavas SS. Corporis Christi 1646\nHonestus Laurentius Prokop anteoppidanus Crasnensis citavit ad Officium Honestum Andream Gielka anteoppidanum Crasnensem producendo et eius vigore Testamentum H. olim Mathiae ... opidanum Modliborzyce, quam ille temere non vult solvere debitum fl. 50 in testamento expressum... [por. Czystopis J11: fol. 13r]",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 17,
+    "kod_skanu": "35_40_0_1_10_17_2063088",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_17_2063088"
+  },
+  {
+    "nr_skanu": 18,
+    "strona_pagina": "fol. 13v–14r (Wyroki w Sprawach Legatów ze Szczebrzeszyna, Intromisja na Łąkę Saudy i Świadkowie Rozwodu)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Andrzej Gielka pozwany</span>, <span class=\"badge-district\">Wawrzyniec Prokop powód</span>, <span class=\"badge-district\">Jakub Zawiła</span>, <span class=\"badge-district\">Kasper ze Szczebrzeszyna</span>, <span class=\"badge-district\">Maciej Wróbel szewc</span>, <span class=\"badge-district\">Wawrzyniec Sauda</span>, <span class=\"badge-district\">Bartłomiej Ogonek ławnik</span>, <span class=\"badge-district\">Krzysztof Zazięblik ławnik</span>, <span class=\"badge-district\">Tomasz Janitoszek</span>, <span class=\"badge-district\">Bartłomiej Susiek sąsiad</span>, <span class=\"badge-district\">Maciej Paluch sąsiad</span>, <span class=\"badge-district\">Marcin Jasieńczyk sąsiad</span>, <span class=\"badge-district\">Stary Jurek sąsiad</span>, <span class=\"badge-district\">Zofia Cyrulionka żona</span>",
+    "kategoria": "Wyroki o długi legowane / Intromisja spadkowa na łąkę / Prawo małżeńskie / Zeznania zaprzysiężone sąsiadów o porzuceniu męża",
+    "opis_sprawy": "1) Wyrok nakazujący Andrzejowi Gielce spłatę 25 złp z pretensji testamentowej. 2) Pozwy Prokopa przeciwko Jakubowi Zawile o 13 złp długu legowanego przez Kaspra ze Szczebrzeszyna oraz przeciw Maciejowi Wróblowi szewcowi; nakaz zapłaty do Godów. 3) Urzędowa intromisja ławników Ogonka i Zazięblika dla Wawrzyńca Saudy na łąkę po zmarłej matce obok łąki Bartłomieja Sadka. 4) Zaprzysiężone zeznania sąsiadów (Susiek, Paluch, Jasieńczyk, Stary Jurek) w procesie Tomasza Janitoszka przeciw uciekającej żonie Zofii Cyrulionce: świadkowie poświadczają, że Zofia zaraz po 4–6 tygodniach od ślubu uciekła od męża i od 5 lat uporczywie odmawia powrotu do pożycia.",
+    "kwoty_podatki": "25 złp zasądzone od Gielki; 13 złp długu ze Szczebrzeszyna; opłaty intromisyjne",
+    "transkrypcja": "fol. 13v\nOpponens Actor dotalitij vindens, fassus est se debere tantum fl. 25... Judicium decrevit et citatus recognovit debitum fl. 25 in quaterna solvat, reliquum negat, iuramento corporali absolvat in termino solutionis...\nAd instantiam Honesti Wawrzyńca Prokopa Przedmieszczanina Kraśnickiego pozwany był Jakub Zawiła o dług legowany od Kaspra w Szczebrzeszynie zł 13... Urząd nakazał zapłacić pozwanemu do dwóch niedziel...\nEodem Tenże Wawrzyniec Prokopek skarżył się na Macieja Wróbla Szewca y chrześcijanina o dług także legowany... Urząd tedy niniejszy wiarę dając nakazał oddać summę na Gody blisko przyszłe...\n\nfol. 14r\nSabbato post Octavas SS. Corporis Christi 1646\nAd instantiam H. Laurentii Sauda... exiverunt HH. Bartłomiej Ogonek et Christophorus Zazięblik Scabini Jurati Crasnicenses ad dandam intromissionem in pratum... penes pratum Bartholomaei Sadek... iuxta Testamentum matris eius... Laurentio filio suo dedit, donavit et ultima voluntate resignavit... [por. Czystopis J11: fol. 14r]\n\nDe Feria 6 post Octavas Corporis Christi Ao 1646\nAd instantiam H. Thomae Janitoszek anteoppidani Crasnensis citati erant ad Sedem Advocatialis et Scabinalis Crasnicensis HH. Bartholomaeus Susiek, Mathias Paluch, Martinus Jasieńczyk et Stary Jurek anteoppidani Crasnenses... iuramento corporali... recognoverunt: Świadkowie wiedzą dobrze, iż Tomasz Janitoszek sąsiad nasz, przy którym blisko mieszkamy, skoro się ożenił z Zofią Cyrulionką, nigdzie z nim nie chciała, ale od niego zaraz po czterech albo sześciu niedzielach uciekła, a jest temu blisko lat 5 jako ślub w kościele brali...",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 18,
+    "kod_skanu": "35_40_0_1_10_18_2063083",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_18_2063083"
+  },
+  {
+    "nr_skanu": 19,
+    "strona_pagina": "fol. 14v–15r (Podział Sukcesji Sadków, Obrót Placem na ul. Żydowskiej i Kradziony Furańczel Herszka)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Krzysztof Zazięblik ławnik</span>, <span class=\"badge-district\">Sebastian Zajączek</span>, <span class=\"badge-district\">Bartłomiej Sadek</span>, <span class=\"badge-district\">Agnieszka Sadkowa</span>, <span class=\"badge-district\">Grzegorz Textor tkacz</span>, <span class=\"badge-district\">Ewa Sadkowna</span>, <span class=\"badge-district\">Zofia Sadkowa wdowa po Walentym</span>, <span class=\"badge-district\">Wawrzyniec Sadek</span>, <span class=\"badge-district\">Andrzej Kuczewicz szlachcic</span>, <span class=\"badge-district\">Katarzyna Kuczewiczowa żona</span>, <span class=\"badge-district\">Wawrzyniec Zyskowicz krawiec</span>, <span class=\"badge-district\">Albert Szafranek ławnik</span>, <span class=\"badge-district\">Herszko Heliaszowicz Starszy Kahału</span>, <span class=\"badge-district\">Elkoń Żyd</span>, <span class=\"badge-district\">Lobek Żyd</span>",
+    "kategoria": "Działy rodzinne i prawo spadkowe / Obrót placami miejskimi (40 złp i 53 złp) / Kradzież furańczela na ul. Żydowskiej / Areszt wójtowski",
+    "opis_sprawy": "1) Oględziny szkód w warzywniku (5 grząd kapusty) wyrządzonych przez bydło i gęsi Sebastiana Zajączka. 2) Monumentalny dział majątku po zmarłym Walentym Sadku: rodzeństwo Bartłomiej, Ewa żona tkacza Grzegorza, wdowa Zofia w imieniu małoletnich dzieci (Jan, Zofia, Szymon, Jadwiga) oraz Wawrzyniec Sadek dzielą role, ogrody i łąki z zagwarantowaniem dożywocia matki. 3) Szlachcic Andrzej Kuczewicz z żoną Katarzyną sprzedają plac przy ul. Żydowskiej krawcowi Wawrzyńcowi Zyskowiczowi za 40 złp. 4) Tego samego dnia Zyskowicz odsprzedaje tenże plac ławnikowi Albertowi Szafrankowi z zyskiem za 53 złp polskich. 5) Starszy Kahału Herszko Heliaszowicz aresztuje na ul. Żydowskiej skradziony furańczel sprzedany przez pasera.",
+    "kwoty_podatki": "40 złp za plac na ul. Żydowskiej (Kuczewicz -> Zyskowicz); 53 złp za tenże plac (Zyskowicz -> Szafranek)",
+    "transkrypcja": "fol. 14v\nOziach y Krzysztof Zazięblik na oglądanie... iż krowa szkody stała w ogrodzie jego koni... widzieli grząd pięć ogielnych kapusty wydzianych... wieprze y gęsie. Winę dał ten pomieniony Młynarz Sebastianowi Zajączkowi...\n\nFeria 2da post Octavas SS. Corporis Christi 1646\nHonesti videlicet Bartholomaeus Sadek, Agnieszka uxor eius, Agnes Sadkownica uxor sua, Grzegorz Textor, nomine Honestae Ewa Sadkowna uxori suae, H. Zophia Valentini olim Sadek vidua relicta nomine Joannis, Zophiae, Simonis et Hedvigis filiorum et filiarum suarum ex praefato Valentino Sadek marito suo... petiverunt... in causam Laurentii Sadek... o podział ról, ogrodów i łąk po ojcu...\n\nfol. 15r\nFeria 2da post infra Octavas SS. Corporis Christi 1646\nComparuit personaliter coram Judicio Expositorum Bannito... Nobilis Andreas Kuczewicz Crasnensis cum H. Catharina Matthiana uxore sua legitima... recognoverunt se aream suam propriam Crasnicensem in platea Judaica inter domos Judaeorum Lobek et Helkon... Laurentio Zyskowicz Civi et Sartori Crasnicensi pro Summa Florenorum 40 Polonicalium... vendidisse... [por. Czystopis J11: fol. 15r]\n\nFeria 2da post Octavas SS. Corporis Christi 1646\nResignatio: Honestus Laurentius Zyskowicz krawiec aream vendidit H. Alberto Szafranek Civi et Scabino Crasnicensi pro Summa fl. 53 Polonicalium parata pecunia...\n\nArestum impositum: Sub eodem die... Hyrzko Heliaszowicz przywiódł do Rzędu Wójtowskiego... Arest położył... w Ulicy Żydowskiej między Elkoniem z jednej a Lobkiem z drugiej... iż ten furańczel był dziś wziął... a on go kradzieżą zaprzedał...",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 19,
+    "kod_skanu": "35_40_0_1_10_19_2063109",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_19_2063109"
+  },
+  {
+    "nr_skanu": 20,
+    "strona_pagina": "fol. 15v–16r (Protestacja Krawca Zyskowicza, Instygacja Szafranka Przeciw Kahałowi i Sprzedaż Domu za 43 złp)",
+    "data_rok": "Czerwiec 1646 r.",
+    "osoby_podmioty": "<span class=\"badge-district\">Wawrzyniec Zyskowicz krawiec</span>, <span class=\"badge-district\">Herszko Heliaszowicz Starszy Kahału</span>, <span class=\"badge-district\">Albert Szafranek ławnik instygator</span>, <span class=\"badge-district\">Stanisław Dymarowski przedmieszczanin</span>, <span class=\"badge-district\">Andrzej Pszczoła</span>, <span class=\"badge-district\">Teodora Wronczyna Gąbka</span>, <span class=\"badge-district\">Wojciech Giżyc stary rajca</span>, <span class=\"badge-district\">Albert Janaszkowic wójt</span>, <span class=\"badge-district\">Stanisław Rymarczyk rymarz</span>, <span class=\"badge-district\">Jakub Dawidowicz Żyd</span>, <span class=\"badge-district\">Krystyna Koczotkowa zbywczyni</span>, <span class=\"badge-district\">Sebastian Bączek tkacz nabywca</span>",
+    "kategoria": "Protestacja przeciw Starszemu Kahału / Instygacja urzędowa / Dług wójtowski (60 złp) / Kredyt wekslowy / Sprzedaż domu za Bramą (43 złp)",
+    "opis_sprawy": "1) Uroczysta protestacja krawca Wawrzyńca Zyskowicza przeciwko Starszemu Kahału Herszkowi Heliaszowiczowi o bezprawne nałożenie aresztu na plac przy ul. Żydowskiej. 2) Oficjalna instygacja urzędowa ławnika Alberta Szafranka przeciw Herszkowi o naruszenie procedury prawnej i immunitetu miejskiego. 3) Spór Stanisława Dymarowskiego z Andrzejem Pszczołą o obmowę na Rynku. 4) Pozew wójta Alberta Janaszkowica przeciwko Wojciechowi Giżycowi o niespłacony dług 60 złp. 5) Kredyt wekslowy Stanisława Rymarczyka u Żyda Jakuba Dawidowicza z terminem spłaty na Trzy Króle 1647 r. 6) Sprzedaż domu za Bramą przez Krystynę Koczotkową tkaczowi Sebastianowi Bączkowi za 43 złp polskich.",
+    "kwoty_podatki": "60 złp długu wójtowskiego Giżyca; kredyt wekslowy Rymarczyka; 43 złp ceny kupna domu za Bramą",
+    "transkrypcja": "fol. 15v\nEodem die Sub eodem Actu Honestus Laurentius Zyskowicz Civis et Sartor Crasnicensis uczynił protestacją przeciwko Niewiernemu Hirszkowi Eliaszowiczowi obywatelowi kraśnickiemu bez wiedzy swej, iż areszt założony... iż on plac nie swój tylko Zazięblej... zaleca się do skryptu... a iż ubogi człowiek nie tylko podatków ale y budować nie postawi, za czym prosi wolności... [por. Czystopis J11: fol. 15v]\n\nEx Officio Advocatialis et Scabinalis Juratorum Famosus Albertus Szafranek Civis et Scabinus Crasnicensis Instigator contra Infidelem Judaeum Hirszko Eliaszowicz: Iż on nie mając żadney instancyey do Prawa z Zyskowiczem... gdzie indziej y jako zwykł miewać radzić... Urząd w tym czasie wziął zachowanie sobie Urząd cum iure in foro competenti.\n\nEodem die Ad instantiam Honesti Stanislai Dymarowski anteoppidani Crasnicensis erat citatus Andreas Pszczoła sub Juramento Corporali... Dnia wczorajszego szedłem około południa... szedłem koło Rynku... rzekł: ten człowiek źle ci stoi...\n\nfol. 16r\n...Teodora Wronczyna Gąbka... pobił y wygnał... to Urząd nakazał aby do piątku... iść do spowiedzi y zgodę uczynić pod winą...\n\nEodem Actu Ad instantiam Famati Alberti Janaszkowic Advocati Ordinarii Crasnicensis... Wojciech Giżyc Rajca Stary Kraśnicki skarżył, iż Wóyt chował cię... dług zł 60 który mu winien od lat dwu... a iż jest sąd między zgodom powiedziano... jeśli by wyznaczył to się zgodzą, a w tym terminie oddał...\n\nEodem die Honestus Stanislaus Rymarczyk Civis Crasnicensis... obligavit se soluturum... Infideli Judaeo Jacobo Davidowicz Incolae Crasnicensi... ad Festum Epiphaniae Domini Anno 1647... [por. Czystopis J11: fol. 16r]\n\nSabbato ante Festum S. Joannis Baptistae 1646\nEodem die Christina Koczotkowa vendidit domum suam Sebastiano Bączek Textori ad invicem... in Vico extra... pro Summa fl. 43 Polonicalium parata pecunia... Quo iure resignationem perpetuam super eam aream extitit.",
+    "sygnatura": "Sygn. 35/40/0/1/10",
+    "numer_pozycji": 20,
+    "kod_skanu": "35_40_0_1_10_20_2063099",
+    "link_archiwum": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/35_40_0_1_10_20_2063099"
+  }
+];
+
+    const genData = [
+  {
+    "lp": 1,
+    "nazwisko": "Augustyn",
+    "imie": "Stanisław [parobek]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Parobek / sługa miejski",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanisław famulus Augustini"
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Balwirczyk",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / rzemieślnik",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Augustinus Balwirczyk"
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Balwirczyk",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / brat Augustyna",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Balwirczyk"
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Bartek",
+    "imie": "[Świadek]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Świadek sądowy / mieszkaniec",
+    "skany_roboczo": "6, 10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Bartholomaeus testis"
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Bartniczek",
+    "imie": "Albert",
+    "miejsce": "Blinów / Kraśnik",
+    "funkcja_spoleczna": "Mieszkaniec / biesiadnik szynkowy",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Bartniczek"
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Bartniczek",
+    "imie": "Wojciech",
+    "miejsce": "Blinów",
+    "funkcja_spoleczna": "Muzyk / lutnista, dudziarz i bębnista",
+    "skany_roboczo": "10, 11, 12",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Wojciech Bartniczek z Blinowa, Wojciechowie Bartniczkowie"
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Beczycki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik / Kraków",
+    "funkcja_spoleczna": "Kanonik krakowski i kraśnicki / adresat oracji",
+    "skany_roboczo": "15",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Ks. Stanisław Beczycki canonicus"
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Bednarski",
+    "imie": "[Żyd kupiec]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kupiec żydowski / pracodawca furmana",
+    "skany_roboczo": "15",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Żyd Bednarski"
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Bełżycki",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Śp. sołtys kraśnicki / posesjonat w Rynku",
+    "skany_roboczo": "14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Olim Joannes Bełżycki scultetus"
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Buczek",
+    "imie": "Wawrzyniec",
+    "miejsce": "Polikowice",
+    "funkcja_spoleczna": "Poddany ze wsi Polikowice / ofiara pobicia",
+    "skany_roboczo": "5",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Buczek subditus de Polikowice"
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Buta",
+    "imie": "Gabriel",
+    "miejsce": "Kraśnik (ul. Żydowska, za Bramą)",
+    "funkcja_spoleczna": "Mieszczanin / wielki inwestor i nabywca domów",
+    "skany_roboczo": "9, 13",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Gabriel Buta civis Crasnicensis"
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Bychawski",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek i poręczyciel",
+    "skany_roboczo": "16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Andreas Bychawski"
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Bączek",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik (za Bramą)",
+    "funkcja_spoleczna": "Tkacz / nabywca nieruchomości",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Sebastianus Bączek textor"
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Celer",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / posesjonat sąsiadujący",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Thomas Celer"
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Chmielnicka",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanka / świadek w procesie obyczajowym",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Zophia Chmielnicka"
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Chmielnik",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / świadek",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Chmielnik"
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Chmielnik",
+    "imie": "Wincenty",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / pozwany o groźby podpalenia",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Vincentius Chmielnik"
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Chwalina",
+    "imie": "[Wdowa po Dawidzie]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Wdowa / zbywczyni domu miejskiego",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Chwalina relicta Dawidowa"
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Cyrulik",
+    "imie": "Wincenty",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Cyrulik miejski / poręczyciel wadium 300 grzywien",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Vincentius chirurgus, Wincenty Cyrulik"
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Cyrulionka (Janitoszkowa)",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / oskarżona o ucieczkę i cudzołóstwo",
+    "skany_roboczo": "8, 9, 18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Zophia Cyrulionka, Zofia Janitoszkowa uxor Thomae"
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Czeleniński",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ks. kanonik / zakonnik klasztoru kraśnickiego",
+    "skany_roboczo": "12",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "R.P. Andreas Czeleniński canonicus regularis"
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Dawid",
+    "imie": "[Żyd powód]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kupiec żydowski / wierzyciel rymarza",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Dawid Iudaeus actor"
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Dawidowicz",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kupiec żydowski / wierzyciel",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Jacobus Dawidowicz Iudaeus"
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Dec",
+    "imie": "Mikołaj",
+    "miejsce": "Wyżnica",
+    "funkcja_spoleczna": "Poddany z Wyżnicy / ciężko poszkodowany w pobiciu",
+    "skany_roboczo": "12",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Nicolaus Dec de Wyżnica"
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Decyh",
+    "imie": "Misiek",
+    "miejsce": "Wyżnica / Kraśnik",
+    "funkcja_spoleczna": "Poddany / ofiara pobicia kijami w Boże Ciało",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Misiek Decyh"
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Dominik",
+    "imie": "Ładny",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / uczestnik bójki o suknię",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Ładny Dominik"
+  },
+  {
+    "lp": 27,
+    "nazwisko": "Dostatni",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik (za Bramą)",
+    "funkcja_spoleczna": "Mieszczanin / posesjonat sąsiadujący",
+    "skany_roboczo": "13",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Petrus Dostatni vicinus"
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Duch",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (Piaski)",
+    "funkcja_spoleczna": "Przedmieszczanin / strona sporu granicznego ze szlachtą",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Duch przedmieszczanin"
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Dyczek",
+    "imie": "Stanisław [parobek]",
+    "miejsce": "Kraśnik (Zarzecze)",
+    "funkcja_spoleczna": "Parobek przedmiejski / uczestnik zatargu o pastwisko",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanislaus famulus Dyczkonis"
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Dymarowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / posesjonat",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanislaus Dymarowski"
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Dziewiel",
+    "imie": "Bartosz",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek zranienia krawca",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Bartholomaeus Dziewiel"
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Długoborski",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek sądowniczy",
+    "skany_roboczo": "14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Andreas Długoborski"
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Długoborski",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek w sporze",
+    "skany_roboczo": "16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Długoborski"
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Elkoń",
+    "imie": "[Żyd kraśnicki]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszkaniec / uczestnik zajścia w szynku i posesjonat",
+    "skany_roboczo": "11, 19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Elkon Iudaeus Crasnicensis"
+  },
+  {
+    "lp": 35,
+    "nazwisko": "Famulus",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Famulus / sługa dworski szlachecki",
+    "skany_roboczo": "14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Adam famulus nobilis"
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Gielka",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / pozwany o dług i zboże",
+    "skany_roboczo": "17, 18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Andreas Gielka przedmieszczanin"
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Giżyc",
+    "imie": "Dorota",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Patrycjuszka / żona Wojciecha, współwłaścicielka domów",
+    "skany_roboczo": "13",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Dorothea Giżycowa consors Alberti"
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Giżyc",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik (Rynek, ul. Żydowska)",
+    "funkcja_spoleczna": "Stary rajca i burmistrz kraśnicki / posesjonat",
+    "skany_roboczo": "12, 13, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Albertus Giżyc antiquus consul, Wojciech Giżyc"
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Gryfft (Noszczyński)",
+    "imie": "Wincenty",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek sądowy",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Vincentius Gryfft alias Noszczyński"
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Grądzewski",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek napaści w szynku",
+    "skany_roboczo": "11",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Mathias Grądzewski"
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Gąbka (Wronczyna)",
+    "imie": "Teodora",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / posesjonatka",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Theodora Wronczyna Gąbka"
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Gąska",
+    "imie": "[Mieszkaniec]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / biesiadnik szynkowy",
+    "skany_roboczo": "11",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Gąska"
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Heliaszowicz",
+    "imie": "Herszko",
+    "miejsce": "Kraśnik (ul. Żydowska)",
+    "funkcja_spoleczna": "Senior Kahału kraśnickiego / wielki kupiec i bankier",
+    "skany_roboczo": "9, 12, 19, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "Herszko Heliaszowicz Senior Synagogae, Herszek Starszy Szkoły Żydowskiej"
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Helkowna",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / zbywczyni placu miejskiego",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Catharina Helkowna"
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Janaszkowic",
+    "imie": "Albert [Wojciech]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Wójt sądowy kraśnicki (Advocatus)",
+    "skany_roboczo": "13, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Albertus Janaszkowic pro tunc advocatus Crasn."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Janaszkowicz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Notariusz miejski / autor oracji łacińskiej",
+    "skany_roboczo": "15",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Janaszkowicz notarius civitatis"
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Janitoszek",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / powód w procesie o groźby i rozwód",
+    "skany_roboczo": "6, 9, 18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Thomas Janitoszek przedmieszczanin"
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Jasieńczyk",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Sąsiad / świadek w sprawie ucieczki Janitoszkowej",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Martinus Jasieńczyk"
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Jurek",
+    "imie": "Stary",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Sędziwy mieszczanin / świadek małżeński",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stary Jurek vicinus"
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Kasper",
+    "imie": "ze Szczebrzeszyna",
+    "miejsce": "Szczebrzeszyn / Kraśnik",
+    "funkcja_spoleczna": "Przybysz / świadek w sporze handlowym",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Casparus de Szczebrzeszyn"
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Kierzch",
+    "imie": "Albert",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / uczestnik spraw majątkowych",
+    "skany_roboczo": "5",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Kierzch"
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Kierzchowa",
+    "imie": "[Pozwana]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / pozwana w sprawie obelg i długów",
+    "skany_roboczo": "5",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Kierzchowa uxor Alberti"
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Koczotkowa",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik (za Bramą)",
+    "funkcja_spoleczna": "Mieszczanka / zbywczyni domu drewnianego",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Christina Koczotkowa"
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Koczur",
+    "imie": "[Mieszkaniec Bzina]",
+    "miejsce": "Bzin (Skarżysko)",
+    "funkcja_spoleczna": "Gospodarz / ujął zbiegłego złodzieja Jakuba Węgrzyna",
+    "skany_roboczo": "15",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Koczur de Bzin"
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Kowal",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kowal miejski / poręczyciel wadium",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanislaus faber ferrarius, Stanisław Kowal"
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Kozieł",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / zeznający o wydatkach pogrzebowych",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Jacobus Kozieł przedmieszczanin"
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Kozieł",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / świadek sąsiedzki",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Kozieł"
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Kuczewicz",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik (Rynek, ul. Żydowska)",
+    "funkcja_spoleczna": "Szlachcic / wieloletni ławnik sądowy i posesjonat",
+    "skany_roboczo": "7, 15, 16, 19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "G. Andreas Kuczewicz nobilis et scabinus Crasn."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Kuczewiczowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Szlachcianka / żona Andrzeja, zbywczyni placu",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Catharina Kuczewiczowa consors Andreae"
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Kwassowicz",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Konsul / rajca kraśnicki",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Martinus Kwassowicz consul Crasn."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Leszkowicz",
+    "imie": "Adam",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / ogrodnik, obciął koński ogon",
+    "skany_roboczo": "10, 16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Adam Leszkowicz przedmieszczanin"
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Lobek",
+    "imie": "[Żyd kraśnicki]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kupiec żydowski / sąsiad placu",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Lobek Iudaeus"
+  },
+  {
+    "lp": 63,
+    "nazwisko": "Maciej",
+    "imie": "[ze wsi Modliborzyce]",
+    "miejsce": "Modliborzyce",
+    "funkcja_spoleczna": "Zmarły dłużnik / poddany",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Olim Mathias de Modliborzyce"
+  },
+  {
+    "lp": 64,
+    "nazwisko": "Marek",
+    "imie": "[Napastnik]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Czeladnik / oskarżony o pobicie Stadnika",
+    "skany_roboczo": "10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Marek napastnik"
+  },
+  {
+    "lp": 65,
+    "nazwisko": "Marszowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Cechmistrz sukienników / interweniował w szynku",
+    "skany_roboczo": "11",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanisław Marszowski cechmistrz sukienniczy"
+  },
+  {
+    "lp": 66,
+    "nazwisko": "Mrozek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ławnik sądowy kraśnicki / dokonywał obdukcji ran",
+    "skany_roboczo": "10, 12, 16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Joannes Mrozek scabinus Crasn."
+  },
+  {
+    "lp": 67,
+    "nazwisko": "Noszczyński",
+    "imie": "Albert",
+    "miejsce": "Kraśnik (Podlesie)",
+    "funkcja_spoleczna": "Mieszczanin / nabywca roli i zbywca placu Starszemu Kahału",
+    "skany_roboczo": "7, 9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Albertus Noszczyński"
+  },
+  {
+    "lp": 68,
+    "nazwisko": "Ogonek",
+    "imie": "Bartłomiej [Bartosz]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ławnik sądowy kraśnicki",
+    "skany_roboczo": "10, 18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Bartholomaeus Ogonek scabinus Crasn."
+  },
+  {
+    "lp": 69,
+    "nazwisko": "Olędzki",
+    "imie": "Albert",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Szewc miejski / właściciel okaleczonego konia (taksa 26 złp)",
+    "skany_roboczo": "10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Olędzki sutor"
+  },
+  {
+    "lp": 70,
+    "nazwisko": "Owczarek",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / świadek sąsiedzki",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Simon Owczarek"
+  },
+  {
+    "lp": 71,
+    "nazwisko": "Pacanowska",
+    "imie": "Ewa",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / pozwana o zniesławienie weselne",
+    "skany_roboczo": "8, 10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Eva Pacanowska"
+  },
+  {
+    "lp": 72,
+    "nazwisko": "Pacanowski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / pozwany o dług",
+    "skany_roboczo": "16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Joannes Pacanowski"
+  },
+  {
+    "lp": 73,
+    "nazwisko": "Paluch",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Sąsiad / świadek ucieczki Zofii Janitoszkowej",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Mathias Paluch vicinus"
+  },
+  {
+    "lp": 74,
+    "nazwisko": "Paniek",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (Rynek)",
+    "funkcja_spoleczna": "Mieszczanin / posesjonat kamienicy w Rynku",
+    "skany_roboczo": "14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Paniek vicinus in Circulo"
+  },
+  {
+    "lp": 75,
+    "nazwisko": "Panik",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik (Podlesie)",
+    "funkcja_spoleczna": "Przedmieszczanin / zbywca ćwierci roli za 25 grzywien",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Paulus Panik z Podlesia"
+  },
+  {
+    "lp": 76,
+    "nazwisko": "Pezik",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / uczestnik bójki o suknię (stłuczona noga)",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Gregorius Pezik"
+  },
+  {
+    "lp": 77,
+    "nazwisko": "Pezik",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Famulus / sługa domowy",
+    "skany_roboczo": "6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Paulus Pezik famulus"
+  },
+  {
+    "lp": 78,
+    "nazwisko": "Pezik",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Krawiec / oskarżony o pobicie Wieczorka",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Sebastianus Pezik sartor"
+  },
+  {
+    "lp": 79,
+    "nazwisko": "Piotrowski",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Panosz / sługa szlachecki, pobił parobka Stanisława",
+    "skany_roboczo": "5, 6",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Wojciech Piotrowski panosz"
+  },
+  {
+    "lp": 80,
+    "nazwisko": "Poczesnowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / biesiadnik szynkowy",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Stanislaus Poczesnowski"
+  },
+  {
+    "lp": 81,
+    "nazwisko": "Prokop",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / powód w procesie o pszenicę i długi",
+    "skany_roboczo": "17, 18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Laurentius Prokop przedmieszczanin"
+  },
+  {
+    "lp": 82,
+    "nazwisko": "Pszczoła",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek wpisu",
+    "skany_roboczo": "20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Andreas Pszczoła"
+  },
+  {
+    "lp": 83,
+    "nazwisko": "Pączkowski",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek rezygnacji sołtysiej",
+    "skany_roboczo": "14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Andreas Pączkowski"
+  },
+  {
+    "lp": 84,
+    "nazwisko": "Rymarczyk",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Rymarz miejski / dłużnik Dawida Żyda i Jakuba Dawidowicza",
+    "skany_roboczo": "9, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Stanislaus Rymarczyk lorifex"
+  },
+  {
+    "lp": 85,
+    "nazwisko": "Sadek",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik (przedmieście)",
+    "funkcja_spoleczna": "Przedmieszczanin / syn śp. Walentego, spadkobierca ról",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Bartholomaeus Sadek filius Valentini"
+  },
+  {
+    "lp": 86,
+    "nazwisko": "Sadek",
+    "imie": "Ewa",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Panna / córka Walentego Sadka, spadkobierczyni łąk",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Eva Sadkowna virgo"
+  },
+  {
+    "lp": 87,
+    "nazwisko": "Sadek",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Przedmieszczanin / syn Walentego Sadka",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Sadek"
+  },
+  {
+    "lp": 88,
+    "nazwisko": "Sadkowa",
+    "imie": "Agnieszka",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / żona Sebastiana Zajączka",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Agnes Sadkowa uxor Sebastiani Zajączek"
+  },
+  {
+    "lp": 89,
+    "nazwisko": "Sadkowa",
+    "imie": "Zofia [Wdowa]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Wdowa po Walentym Sadku / dział majątkowy",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Zophia Sadkowa relicta Valentini"
+  },
+  {
+    "lp": 90,
+    "nazwisko": "Sapała",
+    "imie": "Albert [Wojciech]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ławnik sądowy kraśnicki / przeprowadzał obdukcje ran",
+    "skany_roboczo": "5, 8, 9, 10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "Albertus Sapała scabinus Crasn., Wojciech Sapała"
+  },
+  {
+    "lp": 91,
+    "nazwisko": "Sauda",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek sądowniczy",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Sauda"
+  },
+  {
+    "lp": 92,
+    "nazwisko": "Skrzypek",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / towarzysz i świadek kradzieży",
+    "skany_roboczo": "15",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Petrus Skrzypek socius"
+  },
+  {
+    "lp": 93,
+    "nazwisko": "Smolec",
+    "imie": "Wawrzyniec",
+    "miejsce": "Popkowice",
+    "funkcja_spoleczna": "Kmieć ze wsi Popkowice / świadek w sporze szewca",
+    "skany_roboczo": "10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Laurentius Smolec cmeto de Popkowice"
+  },
+  {
+    "lp": 94,
+    "nazwisko": "Smyszenowicz",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ks. kanonik regularny laterański / kwitował długi Giżyca",
+    "skany_roboczo": "12, 14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "R.P. Bartholomaeus Smyszenowicz canonicus regularis"
+  },
+  {
+    "lp": 95,
+    "nazwisko": "Stadnik",
+    "imie": "Mikołaj",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / poszkodowany w bójce (rozbity łuk brwiowy)",
+    "skany_roboczo": "10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Nicolaus Stadnik"
+  },
+  {
+    "lp": 96,
+    "nazwisko": "Stepka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / powód w procesie majątkowym",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Joannes Stepka actor"
+  },
+  {
+    "lp": 97,
+    "nazwisko": "Surmańczyk",
+    "imie": "Maciej [Duda]",
+    "miejsce": "Wyżnica / Kraśnik",
+    "funkcja_spoleczna": "Kmieć i karczmarz / właściciel gospody i lutnista",
+    "skany_roboczo": "11, 17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Mathias Surmańczyk cmeto de Wyżnica, Duda Surmańczyk"
+  },
+  {
+    "lp": 98,
+    "nazwisko": "Susiek",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Sąsiad / świadek ucieczki Janitoszkowej",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Bartholomaeus Susiek vicinus"
+  },
+  {
+    "lp": 99,
+    "nazwisko": "Suski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / poręczyciel wadium 300 grzywien",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Martinus Suski fideiussor"
+  },
+  {
+    "lp": 100,
+    "nazwisko": "Suski",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / poręczyciel wadium 300 grzywien",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Petrus Suski fideiussor"
+  },
+  {
+    "lp": 101,
+    "nazwisko": "Szafranek",
+    "imie": "Albert [Wojciech]",
+    "miejsce": "Kraśnik (Rynek, ul. Żydowska)",
+    "funkcja_spoleczna": "Ławnik sądowy i instygator / cesjonariusz długu sołtysiego",
+    "skany_roboczo": "14, 19, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Albertus Szafranek scabinus et instigator Crasn."
+  },
+  {
+    "lp": 102,
+    "nazwisko": "Szorc",
+    "imie": "Paweł",
+    "miejsce": "Popkowice",
+    "funkcja_spoleczna": "Szlachcic dziedziczny / właściciel Popkowic i Polikowic",
+    "skany_roboczo": "5, 8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "G. Paulus Szorc heres de Popkowice, Paweł Szorc pan z Popkowic"
+  },
+  {
+    "lp": 103,
+    "nazwisko": "Słodkowski",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Instygator miejski / urzędnik oskarżający",
+    "skany_roboczo": "5",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Paulus Słodkowski instigator officii"
+  },
+  {
+    "lp": 104,
+    "nazwisko": "Tarapajna",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanka / świadek",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Regina Tarapajna"
+  },
+  {
+    "lp": 105,
+    "nazwisko": "Textor (Tkacz)",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Tkacz / mąż Ewy Sadkowny, spadkobierca",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Gregorius Textor tkacz"
+  },
+  {
+    "lp": 106,
+    "nazwisko": "Warsęga",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / pozwany o rozliczenie",
+    "skany_roboczo": "7",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Andreas Warsęga"
+  },
+  {
+    "lp": 107,
+    "nazwisko": "Wawrzyniec",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek bójki w szynku",
+    "skany_roboczo": "11",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Jacobus Laurentii"
+  },
+  {
+    "lp": 108,
+    "nazwisko": "Wieczorek",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Krawiec miejski / poszkodowany w bójce z Pezikiem",
+    "skany_roboczo": "8",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Petrus Wieczorek sartor"
+  },
+  {
+    "lp": 109,
+    "nazwisko": "Wrona",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek rezygnacji",
+    "skany_roboczo": "9",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Albertus Wrona"
+  },
+  {
+    "lp": 110,
+    "nazwisko": "Wronka",
+    "imie": "Marek",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / napastnik z siekierą w szynku u Surmańczyka",
+    "skany_roboczo": "11, 12",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Marcus Wronka agresor"
+  },
+  {
+    "lp": 111,
+    "nazwisko": "Wróbel",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Szewc miejski / świadek sądowniczy",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Mathias Wróbel sutor"
+  },
+  {
+    "lp": 112,
+    "nazwisko": "Wybranowski",
+    "imie": "Andrzej Henryk",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ks. kanonik regularny laterański / promotor Bractwa Różańcowego",
+    "skany_roboczo": "13, 14",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "R.P. Andreas Henricus Wybranowski canonicus regularis promotor Rosarii"
+  },
+  {
+    "lp": 113,
+    "nazwisko": "Węgrzyn",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik / Bzin",
+    "funkcja_spoleczna": "Woźnica i furman / sprawca wielkiej kradzieży precjozów i ksiąg",
+    "skany_roboczo": "15, 16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Jacobus Hungarus, Jakub Węgrzyn auriga"
+  },
+  {
+    "lp": 114,
+    "nazwisko": "Zagórny",
+    "imie": "Maciej",
+    "miejsce": "Wyżnica",
+    "funkcja_spoleczna": "Poddany z Wyżnicy / świadek napaści w Boże Ciało",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Mathias Zagórny de Wyżnica"
+  },
+  {
+    "lp": 115,
+    "nazwisko": "Zajączek",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / mąż Agnieszki Sadkowej",
+    "skany_roboczo": "19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Sebastianus Zajączek"
+  },
+  {
+    "lp": 116,
+    "nazwisko": "Zawiła",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / świadek w sporze",
+    "skany_roboczo": "18",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Jacobus Zawiła"
+  },
+  {
+    "lp": 117,
+    "nazwisko": "Zazięblik",
+    "imie": "Krzysztof",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Ławnik sądowy kraśnicki / przeprowadzał obdukcje ran",
+    "skany_roboczo": "12, 15, 16, 18, 19",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 5,
+    "warianty_nazwiska": "Christophorus Zazięblik scabinus Crasn."
+  },
+  {
+    "lp": 118,
+    "nazwisko": "Zelkowicz",
+    "imie": "Icek",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Kupiec żydowski / nabywca domu od wdowy Chwaliny za 50 złp",
+    "skany_roboczo": "7, 16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 2,
+    "warianty_nazwiska": "Icko Zelkowicz Iudaeus Crasnicensis"
+  },
+  {
+    "lp": 119,
+    "nazwisko": "Zyskowicz",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik (ul. Żydowska)",
+    "funkcja_spoleczna": "Krawiec miejski / nabywca i zbywca placu, ofiara pobicia",
+    "skany_roboczo": "7, 10, 19, 20",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 4,
+    "warianty_nazwiska": "Laurentius Zyskowicz sartor"
+  },
+  {
+    "lp": 120,
+    "nazwisko": "Żyd",
+    "imie": "[Karczmarz pod Kraśnikiem]",
+    "miejsce": "Kraśnik (karczma podmiejska)",
+    "funkcja_spoleczna": "Karczmarz żydowski / gospodarz karczmy w Boże Ciało",
+    "skany_roboczo": "17",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Żydek karczmarz"
+  },
+  {
+    "lp": 121,
+    "nazwisko": "Żydkownik",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszczanin / powód i oskarżony o burdy",
+    "skany_roboczo": "11, 12, 16",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 3,
+    "warianty_nazwiska": "Laurentius Żydkownik, Żydkownica, Żydkownicz"
+  },
+  {
+    "lp": 122,
+    "nazwisko": "Żydówka",
+    "imie": "[Poszkodowana z Kraśnika]",
+    "miejsce": "Kraśnik",
+    "funkcja_spoleczna": "Mieszkanka żydowska / ofiara pobicia przez Bartniczków",
+    "skany_roboczo": "10",
+    "zakres_lat": "1646",
+    "liczba_wystapien": 1,
+    "warianty_nazwiska": "Żydówka poszkodowana de Crasnik"
+  }
+];
+
+    let currentMainItem = null;
+    let mainCurrentPage = 1;
+    const mainPageSize = 25;
+    let filteredMain = [...mainData];
+    let mainSortCol = 'nr_skanu';
+    let mainSortAsc = true;
+
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let filteredGen = [...genData];
+    let genSortCol = 'lp';
+    let genSortAsc = true;
+
+    // PRZEŁĄCZANIE ZAKŁADEK GŁÓWNYCH
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-content').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      if (btn) btn.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // RENDEROWANIE TABELI GŁÓWNEJ
+    function renderMainTable() {
+      const tbody = document.getElementById('mainTableBody');
+      tbody.innerHTML = '';
+      const total = filteredMain.length;
+      const totalPages = Math.ceil(total / mainPageSize) || 1;
+      if (mainCurrentPage > totalPages) mainCurrentPage = totalPages;
+      if (mainCurrentPage < 1) mainCurrentPage = 1;
+
+      const start = (mainCurrentPage - 1) * mainPageSize;
+      const end = Math.min(start + mainPageSize, total);
+      const pageData = filteredMain.slice(start, end);
+
+      pageData.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.onclick = () => openMainModal(item.nr_skanu);
+        tr.innerHTML = `
+          <td><span class="badge-scan">#${item.nr_skanu}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem;">${item.strona_pagina || ''}</td>
+          <td style="font-family:'JetBrains Mono', monospace;">${item.data_rok || ''}</td>
+          <td>${item.osoby_podmioty || ''}</td>
+          <td><span style="font-size:0.85rem; color:#cbd5e1;">${item.kategoria || ''}</span></td>
+          <td>${item.opis_sprawy || ''}</td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:var(--gold-primary);">${item.kwoty_podatki || '—'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Aktualizacja paginacji
+      const infoText = total > 0 
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} skanów (Strona ${mainCurrentPage} z ${totalPages})`
+        : 'Brak wyników wyszukiwania';
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${mainCurrentPage} / ${totalPages}`;
+      });
+
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = mainCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = mainCurrentPage <= 1;
+      const isLast = mainCurrentPage >= totalPages;
+      ['mainPrevBtn', 'mainPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['mainNextBtn', 'mainNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE TABELI GŁÓWNEJ
+    function filterMainData() {
+      const q = (document.getElementById('mainSearchInput').value || '').toLowerCase().trim();
+      const kat = document.getElementById('mainCategoryFilter').value;
+
+      filteredMain = mainData.filter(d => {
+        const matchQ = !q ||
+          String(d.nr_skanu).includes(q) ||
+          (d.strona_pagina && d.strona_pagina.toLowerCase().includes(q)) ||
+          (d.data_rok && d.data_rok.toLowerCase().includes(q)) ||
+          (d.opis_sprawy && d.opis_sprawy.toLowerCase().includes(q)) ||
+          (d.osoby_podmioty && d.osoby_podmioty.toLowerCase().includes(q)) ||
+          (d.kategoria && d.kategoria.toLowerCase().includes(q)) ||
+          (d.kwoty_podatki && d.kwoty_podatki.toLowerCase().includes(q));
+
+        const matchK = !kat || d.kategoria === kat;
+
+        return matchQ && matchK;
+      });
+
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function sortMain(col) {
+      if (mainSortCol === col) {
+        mainSortAsc = !mainSortAsc;
+      } else {
+        mainSortCol = col;
+        mainSortAsc = true;
+      }
+      filteredMain.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'nr_skanu') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return mainSortAsc ? -1 : 1;
+        if (vA > vB) return mainSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderMainTable();
+    }
+
+    function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
+        renderMainTable();
+      }
+    }
+
+    // RENDEROWANIE TABELI GENEALOGICZNEJ
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      tbody.innerHTML = '';
+      const total = filteredGen.length;
+      const totalPages = Math.ceil(total / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+      if (genCurrentPage < 1) genCurrentPage = 1;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = Math.min(start + genPageSize, total);
+      const pageData = filteredGen.slice(start, end);
+
+      pageData.forEach(p => {
+        const tr = document.createElement('tr');
+        tr.onclick = () => openGenModal(p.lp);
+        
+        let nazwiskoHtml = `<strong>${p.nazwisko}</strong>`;
+        if (p.warianty_nazwiska) {
+          nazwiskoHtml += `<div class="badge-variant">wariant: ${p.warianty_nazwiska}</div>`;
+        }
+
+        tr.innerHTML = `
+          <td style="font-family:'JetBrains Mono', monospace; color:var(--text-muted);">${p.lp}</td>
+          <td>${nazwiskoHtml}</td>
+          <td>${p.imie || '—'}</td>
+          <td><span class="badge-district">${p.miejsce || 'Kraśnik'}</span></td>
+          <td>${p.funkcja_spoleczna || 'Mieszkaniec'}</td>
+          <td><span class="badge-scan">${p.skany_roboczo}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace;">${p.zakres_lat || '1646'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const infoText = total > 0
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} profili (Strona ${genCurrentPage} z ${totalPages})`
+        : 'Brak wyników w słowniku';
+
+      ['genPaginationInfo', 'genPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${genCurrentPage} / ${totalPages}`;
+      });
+
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = genCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = genCurrentPage <= 1;
+      const isLast = genCurrentPage >= totalPages;
+      ['genPrevBtn', 'genPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['genNextBtn', 'genNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE GENEALOGII (Z PEŁNĄ SYNCHRONIZACJĄ ONOMASTYCZNĄ)
+    function filterGenData() {
+      const q = (document.getElementById('genSearchInput').value || '').toLowerCase().trim();
+      filteredGen = genData.filter(p => {
+        if (!q) return true;
+        const naz = (p.nazwisko || '').toLowerCase();
+        const war = (p.warianty_nazwiska || '').toLowerCase();
+        const im = (p.imie || '').toLowerCase();
+        const m = (p.miejsce || '').toLowerCase();
+        const f = (p.funkcja_spoleczna || '').toLowerCase();
+        return naz.includes(q) || war.includes(q) || im.includes(q) || m.includes(q) || f.includes(q);
+      });
+      genCurrentPage = 1;
+      renderGenTable();
+    }
+
+    function sortGen(col) {
+      if (genSortCol === col) {
+        genSortAsc = !genSortAsc;
+      } else {
+        genSortCol = col;
+        genSortAsc = true;
+      }
+      filteredGen.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'lp' || col === 'liczba_wystapien') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return genSortAsc ? -1 : 1;
+        if (vA > vB) return genSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderGenTable();
+    }
+
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+
+    // MODAL SKANU (3 ZAKŁADKI KANONU J40)
+    function openMainModal(scanNr) {
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
+      if (!item) return;
+
+      currentModalScan = item;
+
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
+      
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
+
+      const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są partiami).</em>';
+
+      document.getElementById('modalBody').innerHTML = `
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 35/40/0/1/10 (dawny Tom 5a, sygnatura 10 / mikr. 110354) [Czystopis powiązany: Jednostka 11]</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_sprawy)}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_podatki || 'Brak danych finansowych')}
+            </div>
+          </div>
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna in extenso z aparatem kolacyjnym do czystopisu J11</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
+          </div>
+        </div>
+
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
+          <div class="modal-section">
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
+            </p>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              ${escapeHtml(item.link_archiwum || 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989720')}
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="${escapeHtml(item.link_archiwum || 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989720')}" target="_blank" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Skan #${item.nr_skanu} w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function switchModalTab(tabKey) {
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      });
+    }
+
+    function copyTranscription() {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      navigator.clipboard.writeText(currentModalScan.transkrypcja).then(() => {
+        const btn = document.querySelector('.btn-copy-trans');
+        if (btn) {
+          const orig = btn.innerText;
+          btn.innerText = '✅ Skopiowano do schowka!';
+          setTimeout(() => { btn.innerText = orig; }, 2000);
+        }
+      }).catch(err => {
+        console.error('Błąd kopiowania:', err);
+      });
+    }
+
+    // MODAL GENEALOGICZNY (PROFIL MIESZKAŃCA)
+    function openGenModal(lp) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+      const p = genData.find(d => d.lp === lp);
+      if (!p) return;
+
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja_spoleczna || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr.includes('Wdowa') || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || 1;
+      
+      const scanNums = (p.skany_roboczo || '').replace(/#/g, '').split(',').map(s => s.trim()).filter(Boolean);
+      
+      let occsRows = scanNums.map(sn => {
+        const mItem = mainData.find(d => parseInt(d.nr_skanu) === parseInt(sn));
+        const rok = mItem ? mItem.data_rok : (p.zakres_lat || '1646');
+        const ctx = mItem ? (mItem.opis_sprawy || mItem.kategoria || '') : (p.funkcja_spoleczna || '—');
+        return `
+          <tr>
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(sn)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${sn}</a></td>
+            <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(rok)}</td>
+            <td style="font-style:italic;"><strong>${escapeHtml((p.imie ? p.imie + ' ' : '') + (p.nazwisko || ''))}</strong></td>
+            <td>${escapeHtml(ctx)}</td>
+          </tr>
+        `;
+      }).join('');
+
+      let occsHtml = `
+        <table class="occs-table">
+          <thead>
+            <tr>
+              <th style="width:14%;">Skan</th>
+              <th style="width:16%;">Rok</th>
+              <th style="width:34%;">Zapis w rękopisie</th>
+              <th style="width:36%;">Podatek / Rola / Kontekst</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${occsRows}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
+          </div>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
+          </div>
+          ${p.warianty_nazwiska ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.warianty_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">Wystąpienia w źródłach jednostki (poświadczenia)</div>
+          ${occsHtml}
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
+    }
+
+    // CSV EXPORTS
+    function downloadBlob(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 100);
+    }
+
+    function exportMainCSV() {
+      let csv = '\uFEFFSkan;Pagina;Rok;Kategoria;Osoby;Opis;Kwoty\n';
+      filteredMain.forEach(r => {
+        const row = [
+          r.nr_skanu,
+          `"${(r.strona_pagina || '').replace(/"/g, '""')}"`,
+          `"${(r.data_rok || '').replace(/"/g, '""')}"`,
+          `"${(r.kategoria || '').replace(/"/g, '""')}"`,
+          `"${(r.osoby_podmioty || '').replace(/"/g, '""')}"`,
+          `"${(r.opis_sprawy || '').replace(/"/g, '""')}"`,
+          `"${(r.kwoty_podatki || '').replace(/"/g, '""')}"`
+        ];
+        csv += row.join(';') + '\n';
+      });
+      downloadBlob(csv, 'krasnik_j10_rejestr_skanow.csv', 'text/csv;charset=utf-8;');
+    }
+
+    function exportGenCSV() {
+      let csv = '\uFEFFLp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska\n';
+      filteredGen.forEach(p => {
+        const row = [
+          p.lp,
+          `"${(p.nazwisko || '').replace(/"/g, '""')}"`,
+          `"${(p.imie || '').replace(/"/g, '""')}"`,
+          `"${(p.miejsce || 'Kraśnik').replace(/"/g, '""')}"`,
+          `"${(p.funkcja_spoleczna || 'Mieszkaniec').replace(/"/g, '""')}"`,
+          `"${(p.skany_roboczo || '').replace(/"/g, '""')}"`,
+          `"${(p.zakres_lat || '').replace(/"/g, '""')}"`,
+          p.liczba_wystapien || 1,
+          `"${(p.warianty_nazwiska || '').replace(/"/g, '""')}"`
+        ];
+        csv += row.join(';') + '\n';
+      });
+      downloadBlob(csv, 'krasnik_j10_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
+    }
+
+    // SKRÓTY KLAWISZOWE
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // INICJALIZACJA
+    window.addEventListener('DOMContentLoaded', () => {
+      const catSelect = document.getElementById('mainCategoryFilter');
+      const cats = Array.from(new Set(mainData.map(d => d.kategoria).filter(Boolean))).sort();
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.innerText = c;
+        catSelect.appendChild(opt);
+      });
+
+      renderMainTable();
+      renderGenTable();
+    });
+  </script>
+</body>
+</html>
