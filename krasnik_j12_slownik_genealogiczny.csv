@@ -1,70 +1,152 @@
 ﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
-1;Janaszkowic;Wojciech;Miasto Kraśnik;Wójt i sędzia ordynariusz kraśnicki;10, 11, 18, 20, 22, 24;1647;6;Janaszek / Janaszkowicz
-2;Szapałkowicz;Wojciech;Miasto Kraśnik;Ławnik przysięgły kraśnicki;10, 20;1647;2;Szapalkowicz
-3;Mroczek;Jan;Miasto Kraśnik;Ławnik przysięgły kraśnicki, opiekun sierocy;6, 8, 10, 14, 20, 25;1647;6;Mroczek
-4;Dziobek;Bartosz;Miasto Kraśnik;Ławnik przysięgły kraśnicki;6, 10, 11, 20;1647;4;Dziobek / Dziubek
-5;Zaziębłowicz;Krzysztof;Miasto Kraśnik;Ławnik przysięgły kraśnicki, posesjonat komina;6, 7, 8, 10, 11, 12, 13, 14, 20, 23, 24;1647;11;Zaziębło
-6;Ryczowic;Andrzej;Miasto Kraśnik;Ławnik przysięgły kraśnicki;10, 12, 13, 14, 20, 24;1647;6;Ryczowic / Ryczkowicz
-7;Szafrankowicz;Wojciech;Miasto Kraśnik;Ławnik przysięgły kraśnicki;7, 8, 10, 20;1647;4;Szafranek
-8;Brosierski;Kasper;Miasto Kraśnik;Ławnik przysięgły kraśnicki;10, 14, 20;1647;3;Brosiewski
-9;Kanieński;Jan;Miasto Kraśnik;Szlachcic, były konsul kraśnicki, posesjonat Barytowski;6, 10, 11, 12;1647;4;Kaniesski
-10;Kanieńska;Zofia;Miasto Kraśnik;Mieszczka kraśnicka, żona Jana Kanieńskiego;10;1647;1;Kanienska
-11;Młynarczyk;Sebastian;Bieliny;Pracowity poddany ze wsi Bieliny, wierzyciel;10;1647;1;Młynarczyk
-12;Mleczko;Jakub;Miasto Kraśnik;Posesjonat gruntu sąsiadującego z Barytowskim;11;1647;1;Mleczko
-13;Frąc;Stefan;Miasto Kraśnik;Posesjonat gruntu sąsiadującego z Barytowskim;11;1647;1;Frąca
-14;Jaskya;brak;Modliborzyce;Kupiec żydowski z Modliborzyc, poszkodowany w pobiciu;6, 11;1647;2;Jaskia
-15;Piotrowski;Szymon;Przedmieście Góra;Młodzieniec z przedmieścia Góra;6, 11;1647;2;Piotrowski
-16;Kowal;Wojciech;Wielkolas;Uczciwy kowal ze wsi Wielkolas;11;1647;1;Kowal Wielkolaski
-17;Kozłowa;Wawrzyńcowa;Miasto Kraśnik;Wdowa mieszczka kraśnicka, posesjonatka domu;11;1647;1;Kozłowa
-18;Malski;Stanisław;Miasto Kraśnik;Szlachcic, powód przed Trybunałem Koronnym;6, 12;1647;2;Malski
-19;Latoszek;Wawrzyniec;Miasto Kraśnik;Mieszczanin kraśnicki, powód w sprawie o obdukcję;6, 7, 12, 13;1647;4;Latoszek
-20;Wolakowa;Anna;Miasto Kraśnik;Uczciwa mieszczka kraśnicka, pobita;12;1647;1;Wolakowa
-21;Resoluto;Sebastian;Miasto Kraśnik;Sprawca pobicia Anny Wolakowej;12;1647;1;Resoluto
-22;Burda;Stanisław;Miasto Kraśnik;Mieszczanin kraśnicki, poszkodowany w bójce targowej;6, 7, 13, 18;1647;4;Burda
-23;Kłobucki;Stanisław;Miasto Kraśnik;Mieszczanin kraśnicki, arendarz domu w rynku;13, 18, 19, 23;1647;4;Kłobucki
-24;Makowski;Jan;Miasto Kraśnik;Mieszczanin kraśnicki, powód o zniewagę targową;6, 7, 13, 18;1647;4;Makowski
-25;Rzepski;Paweł;Urzędów;Mieszczanin urzędowski, powód o zniewagę słowną;6, 14;1647;2;Rzepski
-26;Żydkowicz;Wawrzyniec;Miasto Kraśnik;Mieszczanin kraśnicki, pozwany o zniewagę słowną;6, 9, 14;1647;3;Zydkowicz
-27;Drobek;Gabriel;Miasto Kraśnik;Posesjonat domu w Kraśniku;14;1647;1;Drobek
-28;Powroźnik;Jakub;Miasto Kraśnik;Mistrz powroźniczy kraśnicki, zraniony szklanicą;6, 14;1647;2;Powroznik
-29;Powroźnik;Walenty;Miasto Kraśnik;Mieszczanin i powroźnik kraśnicki, sąsiad Jakuba;14;1647;1;Powroznik
-30;Makoszek;Wincenty;Urzędów;Mieszczanin i powroźnik urzędowski;14;1647;1;Makoszek Powroznik
-31;Peles;brak;Miasto Kraśnik;Kupiec żydowski kraśnicki, poszkodowany w transakcji miodowej;6, 7, 14, 15, 24;1647;5;Pielesz / Peles
-32;Piórek;Andrzej;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, sprzedawca miodu;6, 15, 24;1647;3;Pełek / Pełka
-33;Miedziak;Mikołaj;Stróża;Gospodarz ze wsi Stróża, powód w sprawie o konia;6, 15, 16;1647;3;Miedziak
-34;Pańczyk;Walenty;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, świadek targu końskiego;15;1647;1;Pańczyk
-35;Jaroszek;Bartosz;Przedmieście Kraśnickie;Świadek targu końskiego w Kraśniku;15;1647;1;Jaroszek
-36;Eidlisowicz;Herszko;Miasto Kraśnik;Kupiec żydowski kraśnicki, strona sporu o zastawy;6, 7, 8, 16, 19, 20, 21, 22;1647;8;Eidlis / Eliaszowicz
-37;Kafara;Stanisław;Miasto Kraśnik;Mieszczanin i piekarz kraśnicki, posesjonat kamienicy;6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22;1647;11;Kafara
-38;Stępkowska;brak;Przedmieście Góra;Wdowa przedmieszczanka z Góry, szynkarka piwa i gorzałki;6, 16, 23;1647;3;Stepkowska
-39;Kalisz;Jan;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, dłużnik karczmarski;6, 8, 9, 16, 23;1647;5;Kalis
-40;Bełżycki;Andrzej;Miasto Kraśnik;Mieszczanin kraśnicki, pozwany o dług;6, 16, 17;1647;3;Belzycki
-41;Rybaczek;Benedykt;Miasto Kraśnik;Mieszczanin kraśnicki, dłużnik Stanisława Kafary;6, 7, 17;1647;3;Rybaryk
-42;Kafaryna;Katarzyna;Miasto Kraśnik;Mieszczka kraśnicka, małżonka Stanisława Kafary;17;1647;1;Kafaryna
-43;Sędomierski;Paweł;Miasto Kraśnik;Mieszczanin i szewc kraśnicki, wierzyciel;7, 17;1647;2;Sędomiersczyk
-44;Sędomierska;Anna;Miasto Kraśnik;Mieszczka kraśnicka, małżonka Pawła szewca;17;1647;1;Sędomierska
-45;Misiorek;Wawrzyniec;Miasto Kraśnik;Posesjonat kamienicy sąsiadującej z Kafarą;17, 18;1647;2;Misiorek
-46;Frączyk;Mikołaj;Miasto Kraśnik;Posesjonat posesji sąsiadującej z Kafarą;18;1647;1;Frączyk
-47;Baczkowski;Marcin;Miasto Kraśnik;Sławetny malarz (pictor) kraśnicki, właściciel domu w rynku;6, 18, 19;1647;3;Baczkowski alias Pictor
-48;Giembowic;brak;Bliszawy;Wójt bliszawski, sąsiad posesji w rynku;18;1647;1;Giembowicz
-49;Masłewic;Stary;Miasto Kraśnik;Mieszczanin kraśnicki, dawny posesjonat;18;1647;1;Masłowicz
-50;Dawidek;brak;Miasto Kraśnik;Kupiec żydowski kraśnicki, taksator zastawów i wierzyciel;8, 19, 25;1647;3;Dawidowicz
-51;Kopel;brak;Miasto Kraśnik;Mieszkaniec żydowski kraśnicki, taksator zastawów;19;1647;1;Kopel
-52;Gławienka;brak;Miasto Kraśnik;Mieszkaniec żydowski kraśnicki, taksator zastawów;19;1647;1;Glavenka
-53;Ligęza;Wojciech;Miasto Kraśnik;Rajca magistratu kraśnickiego, mąż zaufania;20;1647;1;Ligenza
-54;Grędka;Tomasz;Miasto Kraśnik;Mieszczanin kraśnicki, taksator powołany przez Kafarę;6, 8, 20, 25;1647;4;Grendka
-55;Dziuba;Szymon;Miasto Kraśnik;Mieszczanin kraśnicki, taksator zastawów;20;1647;1;Dziubek
-56;Kielenowski;Damian;Lublin / Kraśnik;Starosta i skarbnik lubelski, dzierżawca włości kraśnickiej;21, 22;1647;2;Kielenowski
-57;Jedynaczek;Benedykt;Miasto Kraśnik;Mistrz tkacki i mieszczanin kraśnicki;6, 22;1647;2;Jedynak / Łednacek
-58;Sługocki;Aleksander;Ziemia Lubelska / Zamość;Szlachcic, poręczyciel przed Trybunałem Zamojskim;22;1647;1;Sługocki
-59;Kowal;Walenty;Miasto Kraśnik;Uczciwy kowal kraśnicki, najemca kuźni;23, 24;1647;2;Ferrifaber
-60;Bednarz;Błażej;Miasto Kraśnik;Mieszczanin i mistrz bednarski kraśnicki;6, 7, 23;1647;3;Soleator
-61;Koźmiarowa;brak;Miasto Kraśnik;Wdowa mieszczka kraśnicka, matka pozwanego;24;1647;1;Kozmiarowa
-62;Dziurczyk;Stanisław;Miasto Kraśnik;Młodzieniec kraśnicki, obwiniony o zniewagę słowną;24;1647;1;Dziurczyk
-63;Gozdziarowska;brak;Miasto Kraśnik;Pani mieszczka kraśnicka, patronka czeladnicy;24;1647;1;Gozdziarowska
-64;Durek;Bartosz;Miasto Kraśnik;Pracowity sługa przysięgły miejski (woźny ratuszowy);24;1647;1;Durek
-65;Kuś;Wawrzyniec;Budzyń;Pracowity poddany ze wsi Budzyń, ciężko poraniony szablą;8, 24, 25;1647;3;Kus
-66;Bełczacki;Stanisław;Miasto Kraśnik;Sprawca krwawego napadu z szablą pod zamkiem kraśnickim;8, 25;1647;2;Belczacki
-67;Pastoszek;Tomasz;Miasto Kraśnik;Mieszczanin kraśnicki, opiekun sierocy Stasia Rodzonka;25;1647;1;Pastoszek
-68;Rodzonek;Stanisław;Miasto Kraśnik;Nieletni syn (sierota) zmarłego mieszczanina Rodzonka;8, 25;1647;2;Rodzonek
-69;Szarek;Bartosz;Miasto Kraśnik;Mieszczanin kraśnicki, świadek i strona przysięgi;6, 7, 8, 25;1647;4;Szarek
+1;Janaszkowic;Wojciech;Miasto Kraśnik;Wójt i sędzia ordynariusz kraśnicki;10, 11, 18, 20, 22, 24, 31, 42, 45, 46, 50;1647;11;Janaszek / Janaszkowicz / Janaszkowic Albertus
+2;Szapałkowicz;Wojciech;Miasto Kraśnik;Ławnik przysięgły kraśnicki, arbiter polubowny;10, 20, 27, 31, 35, 38, 45, 46;1647;8;Sapałkowicz / Szapałkowicz Albertus
+3;Mroczek;Jan;Miasto Kraśnik;Ławnik przysięgły kraśnicki, opiekun sierocy;6, 8, 10, 14, 20, 25, 31, 35, 36;1647;9;Mroczek Joannes
+4;Dziobek;Bartosz;Miasto Kraśnik;Ławnik przysięgły kraśnicki;6, 10, 11, 20;1647;4;Dziobek Bartholomaeus
+5;Zaziębłowicz;Krzysztof;Miasto Kraśnik;Ławnik przysięgły kraśnicki, pisarz kompromisów;6, 7, 8, 10, 11, 12, 13, 14, 20, 23, 24, 27, 45, 49;1647;14;Zaziembłowicz / Zaziebłowicz Chrystophorus
+6;Ryczowic;Andrzej;Miasto Kraśnik;Ławnik przysięgły kraśnicki;10, 12, 13, 14, 20, 24, 31, 35;1647;8;Ryczowicz Andreas
+7;Szafrankowicz;Wojciech;Miasto Kraśnik;Ławnik przysięgły kraśnicki;7, 8, 10, 20, 44, 45, 46;1647;7;Szafrankowic Albertus Scabinus
+8;Brosierski;Kasper;Miasto Kraśnik;Ławnik przysięgły kraśnicki;10, 14, 20;1647;3;Brosierski Casparus
+9;Kanieński;Jan;Miasto Kraśnik;Szlachcic, były konsul kraśnicki, posesjonat Barytowski;6, 10, 11, 12;1647;4;Kaniewski / Kanieński Joannes Nobilis
+10;Kanieńska;Zofia;Miasto Kraśnik;Mieszczka kraśnicka, żona Jana Kanieńskiego;10;1647;1;Kanieńska Zophia
+11;Młynarczyk;Sebastian;Bieliny;Pracowity poddany ze wsi Bieliny, wierzyciel;10;1647;1;Młynarczyk Sebastianus
+12;Mleczko;Jakub;Miasto Kraśnik;Posesjonat gruntu sąsiadującego z Barytowskim;11;1647;1;Mleczko Jacobus
+13;Frąc;Stefan;Miasto Kraśnik;Posesjonat gruntu sąsiadującego z Barytowskim;11;1647;1;Frąc Stephanus
+14;brak;Jaskya;Modliborzyce;Kupiec żydowski z Modliborzyc, poszkodowany w pobiciu;6, 11;1647;2;Jaskia Iudaeus de Modliborzyce
+15;Piotrowski;Szymon;Przedmieście Góra;Młodzieniec z przedmieścia Góra;6, 11;1647;2;Piotrowic / Piotrowski Simon
+16;Kowal;Wojciech;Wielkolas;Uczciwy kowal ze wsi Wielkolas;11;1647;1;Faber Albertus de Wielkolas
+17;Kozłowa;Wawrzyńcowa;Miasto Kraśnik;Wdowa mieszczka kraśnicka, posesjonatka domu;11;1647;1;Koźlina / Kozłowa
+18;Malski;Stanisław;Miasto Kraśnik;Szlachcic, powód przed Trybunałem Koronnym;6, 12;1647;2;Malski Stanislaus Nobilis
+19;Latoszek;Wawrzyniec;Miasto Kraśnik;Mieszczanin kraśnicki, powód w sprawie o obdukcję;6, 7, 12, 13;1647;4;Łatoszek / Latoszek Laurentius
+20;Wolakowa;Anna;Przedmieście Kraśnickie;Uczciwa wdowa przedmieszczanka kraśnicka, pobita;12, 26, 27;1647;3;Wolakowa Anna Vidua
+21;Rzeplowicz;Sebastian;Miasto Kraśnik;Włodarz kraśnicki (dworski), sprawca pobicia Wolakowej;12, 26, 27;1647;3;Resoluto / Rzeplowicz Sebastianus Vilicus
+22;Burda;Stanisław;Miasto Kraśnik;Mieszczanin kraśnicki, uczestnik bójki targowej na rzydwle;6, 7, 13, 18, 45;1647;5;Burda Stanislaus
+23;Kłobucki;Stanisław;Miasto Kraśnik;Mieszczanin kraśnicki, arendarz domu w rynku;13, 18, 19, 23;1647;4;Kłobucki Stanislaus
+24;Makowski;Jan;Miasto Kraśnik;Mieszczanin kraśnicki, powód o zniewagę targową;6, 7, 13, 18;1647;4;Makowski Joannes
+25;Rzepski;Paweł;Urzędów;Mieszczanin urzędowski, powód o zniewagę słowną;6, 14;1647;2;Rzepski Paulus de Urzędów
+26;Żydkowicz;Wawrzyniec;Miasto Kraśnik;Mieszczanin kraśnicki, pozwany o zniewagę słowną;6, 9, 14;1647;3;Żydkowicz Laurentius
+27;Drobek;Gabriel;Miasto Kraśnik;Posesjonat domu w Kraśniku;14;1647;1;Drobek Gabriel
+28;Powroźnik;Jakub;Miasto Kraśnik;Mistrz powroźniczy kraśnicki, zraniony szklanicą;6, 14;1647;2;Powroźnik / Restio Jacobus
+29;Powroźnik;Walenty;Miasto Kraśnik;Mieszczanin i powroźnik kraśnicki, sąsiad Jakuba;14;1647;1;Powroźnik Valentinus
+30;Makoszek;Wincenty;Urzędów;Mieszczanin i powroźnik urzędowski;14;1647;1;Makoszek Vincentius de Urzędów
+31;brak;Peles;Miasto Kraśnik;Kupiec żydowski kraśnicki, poszkodowany w transakcji miodowej;6, 7, 14, 15, 24;1647;5;Peles Iudaeus Crasnicensis
+32;Piórek;Andrzej;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, sprzedawca miodu;6, 15, 24;1647;3;Piórek / Piorek Andreas
+33;Miedziak;Mikołaj;Stróża;Gospodarz ze wsi Stróża, powód w sprawie o konia;6, 15, 16;1647;3;Miedziak Nicolaus de Stróża
+34;Pańczyk;Walenty;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, świadek targu końskiego;15;1647;1;Pańczyk Valentinus
+35;Jaroszek;Bartosz;Przedmieście Kraśnickie;Świadek targu końskiego w Kraśniku;15;1647;1;Jaroszek Bartholomaeus
+36;Eliasowicz;Herszko;Miasto Kraśnik;Kupiec i wierzyciel żydowski kraśnicki, strona procesów o zastawy;6, 7, 8, 16, 19, 20, 21, 22, 27, 31, 47, 48, 50;1647;13;Eidlisowicz / Eliasowicz Herszko Iudaeus
+37;Kafara;Stanisław;Miasto Kraśnik;Mieszczanin i mistrz piekarski kraśnicki, posesjonat kamienicy;6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 30, 31, 34, 35, 36, 47, 48;1647;18;Kafara Stanislaus Pistor
+38;brak;Stępkowska;Przedmieście Góra;Wdowa przedmieszczanka z Góry, szynkarka piwa i gorzałki;6, 16, 23;1647;3;Stempkowska Vidua
+39;Kalisz;Jan;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, dłużnik i handlarz jarmarczny;6, 8, 9, 16, 23, 27;1647;6;Kalisz Joannes
+40;Bełżycki;Andrzej;Miasto Kraśnik;Mieszczanin kraśnicki, pozwany o dług;6, 16, 17;1647;3;Bełżycki Andreas
+41;Rybaczek;Benedykt;Miasto Kraśnik;Mieszczanin kraśnicki, dłużnik Stanisława Kafary;6, 7, 17;1647;3;Rybaczek Benedictus
+42;Kafaryna;Katarzyna;Miasto Kraśnik;Mieszczka kraśnicka, małżonka Stanisława Kafary, właścicielka czanary;17, 47, 48;1647;3;Kafaryna Catharina
+43;Sędomierski;Paweł;Miasto Kraśnik;Mieszczanin i szewc kraśnicki, wierzyciel;7, 17;1647;2;Sędomierski / Sandomierski Paulus
+44;Sędomierska;Anna;Miasto Kraśnik;Mieszczka kraśnicka, małżonka Pawła szewca;17;1647;1;Sędomierska Anna
+45;Misiorek;Wawrzyniec;Miasto Kraśnik;Posesjonat kamienicy sąsiadującej z Kafarą;17, 18;1647;2;Misiorek Laurentius
+46;Frączyk;Mikołaj;Miasto Kraśnik;Posesjonat posesji sąsiadującej z Kafarą;18;1647;1;Frączyk Nicolaus
+47;Baczkowski;Marcin;Miasto Kraśnik;Sławetny malarz (pictor) kraśnicki, właściciel domu w rynku;6, 18, 19;1647;3;Baczkowski Martinus Pictor
+48;Giembowic;brak;Bliszawy;Wójt bliszawski, sąsiad posesji w rynku;18;1647;1;Giembowicz Advocatus de Bliszawy
+49;Masłewic;Stary;Miasto Kraśnik;Mieszczanin kraśnicki, dawny posesjonat;18;1647;1;Masłowicz Antiquus
+50;Dawidowicz;Jakub;Miasto Kraśnik;Kupiec żydowski kraśnicki, taksator zastawów i wierzyciel;8, 19, 25, 36, 48;1647;5;Dawidek / Dawidowicz Jakub Iudaeus
+51;brak;Kopel;Miasto Kraśnik;Mieszkaniec żydowski kraśnicki, taksator zastawów;19;1647;1;Kopel Iudaeus
+52;brak;Gławienka;Miasto Kraśnik;Mieszkaniec żydowski kraśnicki, taksator zastawów;19;1647;1;Gławienka Iudaeus
+53;Ligęza;Wojciech;Miasto Kraśnik;Rajca magistratu kraśnickiego, mąż zaufania;20;1647;1;Ligęza Albertus Consul
+54;Grządka;Tomasz;Miasto Kraśnik;Mieszczanin kraśnicki, taksator i powód o kradzież siekier;6, 8, 20, 25, 30;1647;5;Grędka / Grządka Thomas
+55;Dziuba;Szymon;Miasto Kraśnik;Mieszczanin kraśnicki, taksator zastawów;20;1647;1;Dziuba Simon
+56;Kielenowski;Damian;Lublin / Kraśnik;Starosta i skarbnik lubelski, dzierżawca włości kraśnickiej;21, 22, 36, 48;1647;4;Kielenowski Damianus Nobilis Capitaneus
+57;Jedynaczek;Benedykt;Miasto Kraśnik;Mistrz tkacki i mieszczanin kraśnicki;6, 22;1647;2;Jedynaczek Benedictus
+58;Sługocki;Aleksander;Ziemia Lubelska / Zamość;Szlachcic, poręczyciel przed Trybunałem Zamojskim;22;1647;1;Sługocki Alexander Nobilis
+59;Kowal;Walenty;Miasto Kraśnik;Uczciwy kowal kraśnicki, najemca kuźni;23, 24;1647;2;Faber Valentinus
+60;Bednarz;Błażej;Miasto Kraśnik;Mieszczanin i mistrz bednarski kraśnicki, arbiter polubowny;6, 7, 23, 49;1647;4;Bednarz Blasius
+61;Koźmiarowa;brak;Miasto Kraśnik;Wdowa mieszczka kraśnicka, matka pozwanego;24;1647;1;Koźmiarowa Vidua
+62;Dziurczyk;Stanisław;Miasto Kraśnik;Młodzieniec kraśnicki, obwiniony o zniewagę słowną;24;1647;1;Dziurczyk Stanislaus
+63;Gozdziarowska;brak;Miasto Kraśnik;Pani mieszczka kraśnicka, patronka czeladnicy;24;1647;1;Gozdziarowska Domina
+64;Durek;Bartosz;Miasto Kraśnik;Pracowity sługa przysięgły miejski (woźny ratuszowy), zbywca domu;24, 37;1647;2;Durek Bartholomaeus Ministerialis
+65;Kuś;Wawrzyniec;Budzyń;Pracowity poddany ze wsi Budzyń, ciężko poraniony szablą pod zamkiem;8, 24, 25;1647;3;Kuś Laurentius de Budzyń
+66;Bełczacki;Stanisław;Miasto Kraśnik;Sprawca krwawego napadu z szablą pod zamkiem kraśnickim;8, 25;1647;2;Bełczacki Stanislaus
+67;Pastoszek;Tomasz;Miasto Kraśnik;Mieszczanin kraśnicki, opiekun sierocy Stasia Rodzonka;25, 28, 29;1647;3;Pastoszek Thomas
+68;Rodzonek;Stanisław;Miasto Kraśnik;Nieletni syn (sierota) zmarłego mieszczanina Rodzonka;8, 25;1647;2;Rodzonek Stanislaus Pupillus
+69;Szarek;Bartosz;Miasto Kraśnik;Mieszczanin kraśnicki, powód w sprawie o zniesławienie o ukryty skarb;6, 7, 8, 25, 34;1647;5;Szarek Bartholomaeus
+70;Płaczkowicz;Stanisław;Miasto Kraśnik;Rajca magistratu kraśnickiego (konsul), ławnik noworoczny 1647, plenipotent;26, 41, 42, 45;1647;4;Płaczkowic / Płaczkowicz Stanislaus Consul
+71;Rzeszkowicz;Stanisław;Miasto Kraśnik;Uczciwy mistrz kuśnierski kraśnicki, dłużnik Żyda Józefa;26, 29;1647;2;Rzeszkowic Stanislaus Pellio
+72;Krowiczka;Maciej;Miasto Kraśnik;Przedmieszczanin kraśnicki, strona sporu majątkowego;26;1647;1;Krowiczka Mathias
+73;Świebodziczowa;Elżbieta;Miasto Kraśnik;Wdowa mieszczka kraśnicka (Świebodziczka);26, 32;1647;2;Swiebodziczka / Swiebodziczowa Helizabet
+74;brak;Józef;Miasto Kraśnik;Kupiec i wierzyciel żydowski kraśnicki, handel skórami;26, 29;1647;2;Ioseph Iudaeus Crasnicensis
+75;Rzęskowicz;Maciej;Miasto Kraśnik;Uczciwy mistrz kuśnierski, poręczyciel i arbiter sądu polubownego;27, 37, 49;1647;3;Rzęskowic / Rzęskowicz Mathias Pellio
+76;Sułkoczyna;Zofia;Miasto Kraśnik;Wdowa po Janie Sułkocu, powódka o głównszczyznę z 1641 r.;28, 29;1647;2;Sułkoczyna Zophia Vidua
+77;Sułkoc;Jan;Miasto Kraśnik;Zmarły mieszczanin kraśnicki, ofiara zabójstwa w 1641 r.;28;1647;1;Sułkoc Joannes Defunctus
+78;Kwasowicz;Marcin;Miasto Kraśnik;Sławetny rajca magistratu kraśnickiego (konsul), plenipotent i depozytariusz;28, 29, 34, 35, 39, 42;1647;6;Kwasowic / Kwasowicz Martinus Consul
+79;Koziołkowa;brak;Miasto Kraśnik;Uczciwa wdowa mieszczka kraśnicka, powódka o spadek;28;1647;1;Koziołkowa Vidua
+80;Dziobek;Piotr;Budzyń;Pracowity poddany ze wsi Budzyń, pracownik najemny;29;1647;1;Dziobek Petrus de Budzyń
+81;Pielaszek;Szymon;Miasto Kraśnik;Sławetny mistrz kuśnierski kraśnicki, kupiec i poręczyciel;30, 33;1647;2;Pielaszek Simon Pellio
+82;Bońba;Andrzej;Miasto Kraśnik;Sławetny kupiec, kuśnierz i sukiennik kraśnicki, hurtownik śledzi;30, 33, 34;1647;3;Bońba / Bomba Andreas Pannicida
+83;Mazurkowa;Barbara;Miasto Kraśnik;Mieszka kraśnicka, żona furmana w drodze na jarmark przemyski;30;1647;1;Mazurkowa Barbara
+84;Sitarczyk;Florian;Miasto Kraśnik;Mieszczanin kraśnicki, wierzyciel gotówkowy Stanisława Kafary (100 złp);30;1647;1;Sitarczyk Florianus
+85;Kowalik;Grzegorz;Miasto Kraśnik;Sługa miejski, skazany o kradzież siekier do więzienia Skośka;30;1647;1;Kowalik Gregorius Servus
+86;Giżyc;Wojciech;Miasto Kraśnik;Sławetny rajca magistratu i ławnik 1647 r., świadek taksacji;31, 45;1647;2;Gizycz / Giżyc Albertus Consul
+87;Skubysz;Wojciech;Miasto Kraśnik;Mieszczanin kraśnicki, świadek protestacji o szaty szkarłatne;31;1647;1;Skubysz Albertus
+88;Kowalikowa;Zofia;Miasto Kraśnik;Uczciwa piekarka kraśnicka (Janowa Kowalikowa), posesjonatka piwnicy;26, 32, 34;1647;3;Kowalikowa Zophia Janowa Pistrix
+89;Kuczewicz;Wincenty;Miasto Kraśnik;Mieszczanin kraśnicki, strona sporu;32;1647;1;Kuczewicz Vincentius
+90;Wolak;Marcin;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, poręczyciel kuśnierza Augustyna;32;1647;1;Wolak Martinus
+91;Zajączek;Wawrzyniec;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, poręczyciel majątkowy;32;1647;1;Zaiączek Laurentius
+92;brak;Augustyn;Miasto Kraśnik;Młodzieniec i czeladnik kuśnierski;32;1647;1;Augustinus Pellio
+93;Węglarz;Jakub;Miasto Kraśnik;Wytwórca i dostawca węgla drzewnego;32;1647;1;Węglarz / Carbonarius Jacobus
+94;Czosnkowska;brak;Miasto Kraśnik;Mieszka kraśnicka, dłużniczka za węgiel drzewny;32;1647;1;Czosnkowska
+95;Zającówna;Kasia;Miasto Kraśnik;Sierota po zmarłym mieszczaninie Zajączku, beneficjentka funduszu;32, 33;1647;2;Zaiącówna Catharina Pupilla
+96;Olecki;Wojciech;Miasto Kraśnik;Mistrz cechu szewskiego, kurator sierocy, ciężko pobity w sieni ratusza;32, 33, 38, 39, 40, 41, 42, 43, 44, 46;1647;10;Olecki Albertus Sutor
+97;Czapnik;Szymon;Miasto Kraśnik;Mistrz cechu czapniczego kraśnickiego, kurator sierocy i poręczyciel;32, 33, 34;1647;3;Czapnik / Pileator Simon
+98;Kazimierski;Jakub;Miasto Kraśnik;Mieszczanin kraśnicki, dłużnik funduszu sierocego Kasi Zającówny;32, 33;1647;2;Kazimierski Jacobus
+99;Wieczorek;Wojciech;Przedmieście Kraśnickie;Furman kraśnicki, przewoźnik towarów (śledzie i bławaty);33;1647;1;Wieczorek Albertus Auriga
+100;Sitarczyk;Marcin;Miasto Kraśnik;Mistrz cechu szewskiego kraśnickiego, wierzyciel i ofiara pobicia;34, 44;1647;2;Sitarczyk Martinus Sutor
+101;Kowalik;Maciej;Miasto Kraśnik;Mieszczanin kraśnicki, powód w sprawie o płótno lniane;34;1647;1;Kowalik Mathias
+102;Kątski;Staś;Miasto Kraśnik;Czeladnik rzemieślniczy kraśnicki, pozwany o płótno;34;1647;1;Kątski Stanislaus
+103;Tkacz;Grzegorz;Miasto Kraśnik;Mistrz tkacki kraśnicki, szwagier Bartosza Szarka;34;1647;1;Textor / Tkacz Gregorius
+104;Suchorzewska;Katarzyna;Miasto Kraśnik;Uczciwa wdowa mieszczka kraśnicka, kwitująca Kwasowicza;35;1647;1;Suchorzewska Catharina Vidua
+105;Suchorzewski;Wojciech;Miasto Kraśnik;Syn Katarzyny Suchorzewskiej, spadkobierca;35;1647;1;Suchorzewski Albertus
+106;Suchorzewska;Jadwiga;Miasto Kraśnik;Córka Katarzyny Suchorzewskiej, spadkobierczyni;35;1647;1;Suchorzewska Hedvigis
+107;Imanowskie;Sieroty;Miasto Kraśnik;Nieletnie dzieci po zmarłym mieszczaninie Iwanie (Imanie);35, 36;1647;2;Pupilli Iman / Imanowskie
+108;Rymarczyk;Stanisław;Przedmieście Kraśnickie;Woźny generalny Królestwa Polskiego i woźny dworny włości kraśnickiej;36, 37, 48, 49;1647;4;Rymarczyk Stanislaus Ministerialis Regni
+109;Paterek;Wacław;Miasto Kraśnik;Mieszczanin kraśnicki, poręczyciel sądowy Rymarczyka;37;1647;1;Paterek Wenceslaus
+110;Durkowa;Anna;Miasto Kraśnik;Małżonka sługi miejskiego Bartosza Durka, zbywczyni domu;37;1647;1;Durkowa Anna
+111;Płatek alias Piernik;Paweł;Opatów / Kraśnik;Rzemieślnik przybyły z Opatowa, nabywca domu i placu;37;1647;1;Płatek alias Piernik Paulus de Opatów
+112;Szafrankowicz;Stanisław;Miasto Kraśnik;Sławetny rajca magistratu kraśnickiego (konsul), starszy cechu;38, 39, 40, 41, 42, 43, 44, 46;1647;8;Szafranek / Szafrankowicz Stanislaus Consul
+113;Łaskowski;Szymon;Miasto Kraśnik;Sławetny rajca magistratu kraśnickiego (konsul), poszkodowany w bójce;38, 39, 40, 41, 42, 43, 44, 46, 49;1647;9;Laskowski / Łaskowski Simon Consul
+114;Kuczowicz;Andrzej;Miasto Kraśnik;Sławetny ławnik przysięgły kraśnicki wybrany na 1647 r.;38, 42, 44, 45, 46;1647;5;Kuczowic / Kuczowicz Andreas Scabinus
+115;Dębińska;Jadwiga;Miasto Kraśnik;Urodzona szlachcianka, małżonka konsula Szymona Łaskowskiego;39;1647;1;Dębińska Hedvigis Generosa
+116;Dubaj;Sebastian;Miasto Kraśnik;Mieszczanin kraśnicki, poszkodowany pobiciem drągiem po nosie;40;1647;1;Dubay Sebastianus
+117;Decik;Józef;Miasto Kraśnik;Mieszczanin kraśnicki, sprawca pobicia Dubaja;40, 49;1647;2;Decik Josephus
+118;Olecka;Dorota;Miasto Kraśnik;Uczciwa mieszczka kraśnicka, małżonka mistrza szewskiego Wojciecha;40, 44, 46;1647;3;Olecka Dorothea
+119;brak;Cyrulik;Miasto Kraśnik;Mistrz sztuki chirurgicznej (cyrulik miejski) w Kraśniku;40, 46;1647;2;Chirurgus / Cyrulik Crasnicensis
+120;Foks;Jan;Miasto Kraśnik;Sławetny burmistrz miasta Kraśnika w 1647 r.;41, 42, 43, 44;1647;4;Fox / Foks Joannes Proconsul
+121;Foksowa;brak;Miasto Kraśnik;Sławetna małżonka burmistrza Jana Foksa, demaskatorka kradzieży;43;1647;1;Foxowa Domina Proconsularis
+122;Pączek;Andrzej;Miasto Kraśnik;Ślusarz i mieszczanin kraśnicki, kolędnik i naoczny świadek;42, 43;1647;2;Pączek Andreas Civis
+123;Turobiński;Paweł;Miasto Kraśnik;Mistrz cechu tkackiego kraśnickiego, świadek napadu z rogą;43;1647;1;Turobiński Paulus Textor
+124;Parzanowski;Jan;Miasto Kraśnik;Mistrz cechu tkackiego kraśnickiego, świadek bójki;43;1647;1;Parzanowski Joannes Textor
+125;Sitarczykowa;Regina;Miasto Kraśnik;Uczciwa mieszczka kraśnicka, małżonka Marcina szewca, pobita;44;1647;1;Sitarczykowa Regina
+126;Ząbkowicz;Wawrzyniec;Miasto Kraśnik;Uczciwy mistrz cechu krawieckiego kraśnickiego, sprawca pobicia;44;1647;1;Ząbkowicz Laurentius Sartor
+127;Ząbkowiczowa;brak;Miasto Kraśnik;Uczciwa mieszczka kraśnicka, małżonka krawca Wawrzyńca;44;1647;1;Ząbkowiczowa Sartrix
+128;Kwasowicz;Stanisław;Miasto Kraśnik;Mieszczanin kraśnicki, szynkarz piwny w rynku;45;1647;1;Kwasowic Stanislaus Caupo
+129;Dziurek;Bartłomiej;Miasto Kraśnik;Ławnik przysięgły kraśnicki wybrany w uroczystej elekcji 1647 r.;45;1647;1;Dziurek Bartholomaeus Scabinus
+130;Krużay;Bartłomiej;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, dłużnik skazany pod rygorem więzienia;45;1647;1;Krużay Bartholomaeus
+131;Dziurzanka;Elżbieta;Miasto Kraśnik;Uczciwa mieszczka kraśnicka, wierzycielka 16 złp;45;1647;1;Dziurzanka Helizabet
+132;Makowski;Adam;Miasto Kraśnik;Mieszczanin kraśnicki, skazany do więzienia pod ratusz za bójkę jarmarczną;45;1647;1;Makowski Adamus
+133;Dobrzyński;brak;Włość Kraśnicka;Szlachcic / urzędnik dworski, właściciel beczki jabłek sytowanych w potoku;45;1647;1;Dobrzyński Nobilis
+134;Kowalczyk;Wojciech;Miasto Kraśnik;Pomocnik kowalski (socio fabri ferrarii), ciężko cięty szablą w rękę;41, 46, 47;1647;3;Kowalczyk Albertus Faber Ferrarius
+135;Leiurda;Paweł;Miasto Kraśnik;Woźnica przewielebnego ojca prepozyta klasztoru kanoników regularnych;46;1647;1;Leiurda Paulus Auriga Conventus
+136;Stadnik;brak;Włość Kraśnicka / Dwór;Służący dworski (Stadniczyc), sprawca krwawego cięcia szablą;46, 47;1647;2;Stadnik / Stadniczyc
+137;Klisiecki;Wojciech;Miasto Kraśnik;Młodzieniec, sługa przewielebnego ojca prepozyta klasztoru kraśnickiego;47;1647;1;Klisiecki Albertus Servitor
+138;Grzebieńczyk;Piotr;Przedmieście Kraśnickie;Uczciwy przedmieszczanin kraśnicki, naoczny świadek u kowala;47;1647;1;Grzebieńczyk Petrus
+139;Burda;Gabriel;Miasto Kraśnik;Uczciwy mieszczanin kraśnicki, pozwany przez Herszka o 100 złp;47, 50;1647;2;Burda / Buta Gabriel
+140;Cechmistrz Krawiecki;brak;Miasto Kraśnik;Starszy cechu krawieckiego kraśnickiego, urzędowy taksator sukna;48;1647;1;Cechmistrz Krawiecki Sartorum Magister
+141;Cechmistrz Kuśnierski;brak;Miasto Kraśnik;Starszy cechu kuśnierskiego kraśnickiego, urzędowy taksator futer;48;1647;1;Cechmistrz Kuśnierski Pellionum Magister
+142;Libuszek;Grzegorz;Przedmieście Kraśnickie;Uczciwy przedmieszczanin kraśnicki, strona kompromisu o rany;49, 50;1647;2;Libus / Libuszek Gregorius
+143;Potocki;Krzysztof;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, ojciec poszkodowanego Matysa;49, 50;1647;2;Potocki / Potscki Christophorus
+144;Potocki;Matys;Przedmieście Kraśnickie;Młodzieniec przedmieszczanin, ciężko zraniony w bójce, pobierający 90 złp nawiązki;49, 50;1647;2;Potocki Mathias Filius
+145;Miedziany;Jan;Miasto Kraśnik;Mieszczanin kraśnicki, arbiter rozjemczy sądu polubownego;49;1647;1;Miedziany Joannes
+146;Rogalowski als Sosnowski;Wojciech;Miasto Kraśnik;Mieszczanin kraśnicki, arbiter rozjemczy sądu polubownego;49;1647;1;Rogalowski alias Sosnowski Albertus
+147;Mularz;Jan;Miasto Kraśnik;Mieszczanin i mistrz mularski kraśnicki, arbiter polubowny;49;1647;1;Mularz / Murator Joannes
+148;Kendup;Wojciech;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, arbiter rozjemczy strony Potockich;49;1647;1;Kendup Albertus
+149;Woszczatyński;Wojciech;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki, arbiter rozjemczy;49;1647;1;Woszczatyński Albertus
+150;Warpalina;brak;Przedmieście Kraśnickie;Przedmieszczanka kraśnicka, pogorzelica, powódka o kradzież płótna;50;1647;1;Warpalina Actrix
+151;brak;Agnieszka;Miasto Kraśnik;Wstydliwa obywatelka kraśnicka, oskarżona o kradzież u ognia;50;1647;1;Agnes Pudica
