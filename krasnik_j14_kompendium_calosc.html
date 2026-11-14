@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Kraśnik – Księga Gruntowa Wójtowsko-Ławnicza (Acta Fundorum 1648–1748) | Jednostka 14</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --gold-primary: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --purple-accent: #8b5cf6;
+      --accent-cyan: #06b6d4;
+      --border: #334155;
+      --card-bg: rgba(30, 41, 59, 0.85);
+      --success: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .portal-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gold-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      transition: all 0.2s;
+    }
+    .portal-back-link:hover {
+      background: rgba(245, 158, 11, 0.2);
+      transform: translateY(-1px);
+    }
+
+    header.hero {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* NAV TABS */
+    .tabs-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #fff;
+      background: var(--bg-tertiary);
+      border-color: var(--border);
+    }
+
+    .tab-btn.gold-tab.active {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold-primary);
+    }
+
+    .tab-badge {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.15rem 0.45rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KONTENER GŁÓWNY I ZAKŁADKI */
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* KARTY KPI */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card.gold { border-top: 3px solid var(--gold-primary); }
+    .stat-card.purple { border-top: 3px solid var(--purple-accent); }
+    .stat-card.cyan { border-top: 3px solid var(--accent-cyan); }
+    .stat-card.success { border-top: 3px solid var(--success); }
+
+    .stat-title {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .stat-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .info-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* KONTROLKI, WYSZUKIWARKA, PRZYCISKI */
+    .controls-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: flex-end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 200px;
+    }
+    .control-group.wide {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    input[type="text"], input[type="number"], select {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 0.6rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border 0.2s;
+    }
+    input[type="text"]:focus, input[type="number"]:focus, select:focus {
+      border-color: var(--gold-primary);
+    }
+
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* TABELA I KONTENER TABLE-WRAPPER */
+    .table-wrapper {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: rgba(15, 23, 42, 0.75);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: #fff; }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    tbody td {
+      padding: 0.85rem 1rem;
+      vertical-align: middle;
+    }
+
+    .badge-scan {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      color: var(--gold-primary);
+      background: rgba(245, 158, 11, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      display: inline-block;
+    }
+
+    .badge-district {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: rgba(139, 92, 246, 0.15);
+      color: #c4b5fd;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      margin: 0.1rem;
+    }
+
+    .badge-variant {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+      display: inline-block;
+      padding: 1px 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 3px;
+      border: 1px solid #334155;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      margin: 5vh auto;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .modal-header h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-close:hover { color: #fff; }
+
+    .modal-tabs-bar {
+      display: flex;
+      background: rgba(15, 23, 42, 0.75);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1rem;
+    }
+
+    .modal-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .modal-tab-btn:hover { color: #fff; }
+    .modal-tab-btn.active {
+      color: var(--gold-primary);
+      border-bottom-color: var(--gold-primary);
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .transcription-box {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: #e2e8f0;
+    }
+
+    .swa-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .swa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold-primary);
+      color: #000;
+      font-weight: 700;
+      padding: 0.65rem 1.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 0.75rem;
+      transition: all 0.2s;
+    }
+    .swa-btn:hover {
+      background: #d97706;
+      transform: translateY(-1px);
+    }
+
+    .occs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .occs-table th, .occs-table td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .occs-table th {
+      background: rgba(15, 23, 42, 0.5);
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    /* MONOGRAFIA I KARTY */
+    .monograph-content, .analytics-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .monograph-chapter, .analytic-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .analytic-card {
+      border-left: 4px solid var(--gold-primary);
+    }
+
+    .chapter-title, .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      color: var(--gold-primary);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(245, 158, 11, 0.25);
+      padding-bottom: 0.5rem;
+    }
+
+    .chapter-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: #e2e8f0;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    .monograph-content p, .analytics-content p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 1.6rem; }
+      .container { padding: 0.75rem; }
+      .tabs-nav { padding: 0.5rem; }
+      .tab-btn { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
+      .controls-panel { flex-direction: column; }
+      .control-group { width: 100%; }
+      .pagination-bar { flex-direction: column; align-items: stretch; }
+    }
+  
+    /* UNIFIED MODAL SECTION & BUTTON STYLES */
+    .modal-section {
+      margin-bottom: 1.25rem;
+    }
+    .modal-section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gold-primary);
+      margin-bottom: 0.4rem;
+    }
+    .btn-copy-trans {
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: var(--gold-primary);
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-copy-trans:hover {
+      background: var(--gold-primary);
+      color: #0f172a;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Kompendiów</a>
+    <div style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">
+      AP Lublin • Zespół 35/40/0 • Sygn. 35/40/0/1/14 (dawny Tom 7 / mikr. 110.356) [1648–1748]
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <header class="hero">
+    <h1>Akta Gruntowe Wójtowsko-Ławnicze Miasta Kraśnika (Acta Fundorum)</h1>
+    <div class="subtitle">Księga Gruntowa 1648–1748 • Venditiones, Donationes, Commutationes, Działy majątkowe, Najazd Chmielnickiego 1648 • Sygn. 35/40/0/1/14</div>
+  </header>
+
+  <!-- PŁASKI PASEK GŁÓWNYCH ZAKŁADEK (DOKŁADNIE 4 ZAKŁADKI) -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('main-tab', this)">
+      <span>📊 Tabela Indeksowa Skanów</span>
+      <span class="tab-badge" id="mainTabBadge">25</span>
+    </button>
+    <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
+      <span>👥 Słownik Genealogiczny Mieszkańców</span>
+      <span class="tab-badge" id="genTabBadge">96</span>
+    </button>
+    <button class="tab-btn cyan-tab" onclick="switchTab('monograph-tab', this)">
+      <span>📜 Monografia Historyczna i Kancelaria</span>
+      <span class="tab-badge">Rozdziały I–II</span>
+    </button>
+    <button class="tab-btn purple-tab" onclick="switchTab('analytics-tab', this)">
+      <span>💡 Karty Analityczne i Odkrycia</span>
+      <span class="tab-badge">Karty 1–6</span>
+    </button>
+  </nav>
+
+  <main class="container">
+    <!-- SEKCJA 1: TABELA GŁÓWNA SKANÓW -->
+    <section id="main-tab" class="tab-content active">
+      <div class="stats-grid">
+        <div class="stat-card primary">
+          <div class="stat-title">Postęp Indeksacji Jednostki 14</div>
+          <div class="stat-value" id="mainStatCountTab1">25 / 596</div>
+          <div class="stat-desc">Partia 1: Skany 1–25 (fol. 1r–11r) • Tom 7 • AP Lublin</div>
+        </div>
+        <div class="stat-card gold">
+          <div class="stat-title">Zindeksowani Mieszkańcy</div>
+          <div class="stat-value" id="genStatCountTab1">96</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Rozstrzygnięcia Sądowe</div>
+          <div class="stat-value">100% PASS</div>
+          <div class="stat-desc">Relacja 1648, działy dożywocia, elekcja magistratu 1650</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Ramy Chronologiczne Jednostki</div>
+          <div class="stat-value">1648–1748 r.</div>
+          <div class="stat-desc">Księga wójtowsko-ławnicza gruntowa • Stulecie obrotu nieruchomościami</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="mainSearchInput">Szukaj w rejestrze czynności gruntowych:</label>
+          <input type="text" id="mainSearchInput" placeholder="Szukaj osoby, paginy, kategorii, opisu sprawy, kwoty..." oninput="filterMainData()">
+        </div>
+        <div class="control-group">
+          <label for="categoryFilter">Kategoria:</label>
+          <select id="categoryFilter" onchange="filterMainData()">
+            <option value="">Wszystkie kategorie</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA REJESTRU -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GŁÓWNA (DOKŁADNIE 7 KOLUMN KANONU J40) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortMain('nr_skanu')" style="width: 7%;">Skan ↕</th>
+              <th onclick="sortMain('strona_pagina')" style="width: 13%;">Pagina ↕</th>
+              <th onclick="sortMain('data_rok')" style="width: 10%;">Rok ↕</th>
+              <th style="width: 24%;">Osoby i Podmioty</th>
+              <th onclick="sortMain('kategoria')" style="width: 14%;">Kategoria ↕</th>
+              <th style="width: 22%;">Opis Sprawy / Treść Aktu</th>
+              <th style="width: 10%;">Kwoty / Podatki</th>
+            </tr>
+          </thead>
+          <tbody id="mainTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA REJESTRU -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 2: SŁOWNIK GENEALOGICZNY -->
+    <section id="genealogy-tab" class="tab-content">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+          <div class="stat-value" id="genStatCountTab2">96</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Standard De-duplikacji</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">0 duplikatów tożsamości w bazie</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">Synchronizacja Onomastyczna</div>
+          <div class="stat-value">100% PASS</div>
+          <div class="stat-desc">Wszystkie warianty i lekcje zmapowane</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Elita Władzy i Społeczność</div>
+          <div class="stat-value">Patrycjat & Przedmieszczanie</div>
+          <div class="stat-desc">Szafrankowie, Janaszkowicowie, Grzymkowski, Kanonicy Regularni</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="genSearchInput">Szukaj mieszkańca, zawodu lub wariantu nazwiska:</label>
+          <input type="text" id="genSearchInput" placeholder="Wpisz nazwisko, imię, przydomek, funkcję..." oninput="filterGenData()">
+        </div>
+        <div class="control-group" style="align-self: flex-end;">
+          <button class="page-btn" onclick="exportGenCSV()" style="background:var(--gold-primary); color:#000; font-weight:700;">
+            📥 Pobierz Słownik CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA GENEALOGII -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GENEALOGICZNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortGen('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGen('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGen('imie')" style="width: 15%;">Imię ↕</th>
+              <th onclick="sortGen('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
+              <th onclick="sortGen('funkcja_spoleczna')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th onclick="sortGen('skany_roboczo')" style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGen('zakres_lat')" style="width: 12%;">Zakres lat ↕</th>
+            </tr>
+          </thead>
+          <tbody id="genTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA GENEALOGII -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Wyświetlanie...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
+    <section id="monograph-tab" class="tab-content">
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział I: Geneza Acta fundorum officii advocatialis et scabinalis Crasnicensis (1648–1748): Odbudowa kancelarii po katastrofie wojennej</h2>
+            <div class="chapter-content">
+                <h4>1. Miejsce Jednostki 14 w strukturze Archiwum Miejskiego Kraśnika</h4>
+                <p>Księga gruntowa oznaczona sygnaturą <strong>35/40/0/1/14</strong> (dawny Tom 7 w inwentarzach lubelskich) to największy i najważniejszy zabytek prawa majątkowego miasta Kraśnika z epoki nowożytnej. Liczący <strong>596 skanów</strong> kodeks obejmuje równe stulecie obrotu nieruchomościami: od dramatycznych wydarzeń powstania Chmielnickiego w 1648 roku aż po połowę XVIII stulecia (1748 r.).</p>
+                <p>W przeciwieństwie do ksiąg ogólnych i protokołów kryminalnych, niniejszy tom stanowił <em>Księgę Wieczystą</em> (<em>Acta fundorum</em>), w której z pełną powagą prawną utrwalano transakcje kupna-sprzedaży (<em>venditiones</em>), darowizny (<em>donationes</em>), zamiany (<em>commutationes</em>), oprawy wiana, cesje dożywocia i działy spadkowe.</p>
+
+                <h4>2. Dzieło wójta Wojciecha Janaszkowica i przełom 1648 roku</h4>
+                <p>Księga powstała z inicjatywy wójta <strong>Wojciecha Janaszkowica</strong> bezpośrednio po spaleniu miasta przez pułki kozacko-tatarskie w listopadzie 1648 r. Pożar ponad 70 domostw groził całkowitym załamaniem ewidencji własnościowej i falą bezprawnych zaborów gruntów. Janaszkowic, określony na karcie tytułowej jako <em>auctor</em> woluminu, powołał nowy czystopis, by dać mieszkańcom pewność obrotu prawnego. Choć zmarł krótko po katastrofie, dzieło podjęli jego następcy: Andrzej Bomba oraz nowo wybrany w 1650 r. wójt Andrzej Grzymkowski.</p>
+
+                <h4>3. Rola Ordynacji Zamojskiej w stabilizacji ustroju miejskiego</h4>
+                <p>Wybory władz miejskich w lutym 1650 r., przeprowadzone pod nadzorem komisarza ordynackiego podsędka Remigiana Mieletowskiego z ramienia III ordynata Jana Sobiepana Zamoyskiego, ukazują ścisłą integrację samorządu kraśnickiego z dominialnym aparatem Zamoyskich. Ordynat dbał o obsadę rady, ławy i cechów zaufanymi patrycjuszami (Szafrankowie, Janaszkowicowie, Kaniarkowie), co umożliwiło szybką reanimację życia gospodarczego.</p>
+            </div>
+        </article>
+        <article class="monograph-chapter">
+            <h2 class="chapter-title">Rozdział II: Czarna jesień 1648 roku w Kraśniku: Najazd Chmielnickiego, spustoszenie miasta i prawna obrona ocalałych</h2>
+            <div class="chapter-content">
+                <h4>1. Szlak inwazji kozacko-tatarskiej ku Zamościowi</h4>
+                <p>Zapis z fol. 1r (skan 6) dostarcza bezcennego świadectwa o zasięgu i brutalności działań wojennych jesienią 1648 r. Po klęsce wojsk koronnych pod Korsuniem i Piławcami, armia Bohdana Chmielnickiego wraz z czambułami tatarskimi przelała się przez ziemie ruskie i lubelskie, docierając pod potężną twierdzę Zamość. Wydzielone zagony rebelianckie ruszyły ku zachodowi, uderzając w nieumocnione lub słabiej bronione ośrodki miejskie.</p>
+
+                <h4>2. Tragedia Kraśnika w piątek przed Ofiarowaniem NMP 1648 r.</h4>
+                <p>Dla Kraśnika dniem zagłady stał się <em>piątek przed świętem Ofiarowania NMP</em>. W kronikarskim wpisie odnotowano męczeństwo dwóch duchownych kraśnickich, barbarzyńskie sprofanowanie kościoła parafialnego, rozbicie grobów i spalenie ponad 70 kamienic i domów. Zniszczenia dotknęły zarówno Rynek, jak i przedmieścia Piaski i Podlesie.</p>
+
+                <h4>3. Odpowiedź prawna samorządu kraśnickiego</h4>
+                <p>W obliczu ruin mieszczanie kraśniccy nie ulegli panice, lecz natychmiast uruchomili procedury prawne Rzeczypospolitej:
+                <ul>
+                    <li>Wysłano zaprzysiężoną delegację rajców do grodu sandomierskiego, by złożyć urzędowe zeznanie o doznanych krzywdach i stratach (<em>Inquisitio</em>).</li>
+                    <li>Dokument ten wniesiono następnie w formie obłaty do ksiąg grodzkich na zamku w Lublinie, co stanowiło formalną podstawę do ubiegania się o zwolnienia podatkowe (kondemnaty, wolnizny) u króla Jana Kazimierza.</li>
+                    <li>Jednocześnie wójt i ławnicy otworzyli sądy gajone, legalizując transakcje pogorzelców, sprzedaże ról i działy dożywocia, które stały się zrębem stuletniej księgi Acta fundorum J14.</li>
+                </ul></p>
+            </div>
+        </article>
+    </section>
+
+    <!-- SEKCJA 4: KARTY ANALITYCZNE I ODKRYCIA -->
+    <section id="analytics-tab" class="tab-content">
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 1: Kodykologia, proweniencja i geneza Acta fundorum officii advocatialis et scabinalis (1648–1748) (skany 1–5)</h2>
+            <div class="card-meta">
+                <span><strong>Daty wpisów:</strong> 1648–1748 [1827 r. legalizacja]</span> | 
+                <span><strong>Kancelaria:</strong> Urząd wójtowsko-ławniczy miasta Kraśnika</span> | 
+                <span><strong>Kategorie:</strong> Kodykologia, Acta Fundorum, Dyplomatyka, Proweniencja</span>
+            </div>
+            <div class="card-content">
+                <p>Jednostka 14 (dawna sygnatura tomowa <strong>7</strong>, mikr. <strong>110.356</strong>, sygn. <strong>35/40/0/1/14</strong>) to największa księga gruntowa w zespole Akta Miasta Kraśnika, licząca dokładnie <strong>596 skanów</strong>. Obejmuje równe stulecie wpisów obrotu nieruchomościami: od dramatycznego roku 1648 po rok 1748.</p>
+                <p>Ustalenia kodykologiczne z otwarcia poszytu:</p>
+                <ul>
+                    <li><strong>Skan 1–3:</strong> Tarcza mikrofilmowa WAP Lublin oraz metryka techniczna z 1 kwietnia 1959 r. (590 kadrów, wykaz stron pustych niefilmowanych: 129, 296v; wymiary rękopisu: 31 × 19 cm).</li>
+                    <li><strong>Skan 4:</strong> Zachowana papierowa oprawa z barokowym kartuszem: <em>„Miasta Kraśnika Dekreta, Manifesta, Wizye, Intromisye, Testamenta etc. Od Roku 1648. do 1748. No 7. Po opisie No 460”</em>.</li>
+                    <li><strong>Skan 5:</strong> Monumentalna karta tytułowa: <em>„ACTA FUNDORUM OFFICII ADVOCATIALIS ET SCABINALIS CRASNICENSIS In quibus Inscribuntur: Venditiones { Domorum, Hortorum, Agrorum, Pratorum } Donationes & Commutationes eorundem...”</em>. Kancelaria odnotowała, że księga powstała z inicjatywy wójta Wojciecha Janaszkowica bezpośrednio po spustoszeniu miasta przez wojska kozackie (<em>post devastationem civitatis huius per Kosakos qui mox post extinctus fuit...</em>).</li>
+                    <li><strong>Legalizacja XIX w.:</strong> W dolnej części karty tytułowej znajduje się urzędowa pieczęć i poświadczenie z 18 października 1827 r.: <em>„Początkowość księgi tej poświadcza się. Chełmicki, Józef Doliński”</em>.</li>
+                </ul>
+            </div>
+        </article>
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 2: Najazd kozacko-tatarski Chmielnickiego w listopadzie 1648 r. w relacji kancelarii kraśnickiej (skan 6, fol. 1r)</h2>
+            <div class="card-meta">
+                <span><strong>Data sesji:</strong> Piątek przed Ofiarowaniem NMP 1648 r. [listopad 1648]</span> | 
+                <span><strong>Kancelaria:</strong> Urząd Wójtowsko-Ławniczy Kraśnicki</span> | 
+                <span><strong>Kategorie:</strong> Powstanie Chmielnickiego 1648, Kronika miejska, Zbrodnie wojenne, Inquisitio</span>
+            </div>
+            <div class="card-content">
+                <p>Karta 1r (skan 6) zawiera unikatowy w skali Małopolski, dramatyczny wpis kronikarsko-dyplomatyczny dokumentujący najazd wojsk kozacko-tatarskich na Kraśnik: <em>„Actum Feria 6ta ante Praesentationem B.V. Mariae Anno Domini 1648”</em>.</p>
+                <p>Kancelaria zanotowała:</p>
+                <ul>
+                    <li>Po bezkrólewiu po zgonie Władysława IV Wazy (20 maja 1648 r. w Mereczu) rebelianci pod wodzą Bohdana Chmielnickiego (<em>Chmielnicio Duce</em>) i hordy tatarskie, po rozgromieniu wojsk koronnych, podeszli pod twierdzę zamojską (<em>cum ad Zamoscium Copias suas locaverunt</em>).</li>
+                    <li>Wydzielone zagony zaatakowały Kraśnik: sprofanowano i obrabowano kościół parafialny, wyłamano groby zmarłych, a dwóch zakonników (duchownych) zamordowano po nieludzkich torturach (<em>duos Religiosos suffocarunt tormentis eis adactis</em>).</li>
+                    <li>Spalono ponad 70 domów mieszkalnych (<em>Domos plusquam Septuaginta igne absumpserunt</em>).</li>
+                    <li>Władze miejskie Kraśnika wysłały dwóch zaprzysiężonych delegatów do grodu w Sandomierzu (<em>In Castro Sandomiriensi comprobata</em>), a następnie wniosły obłatę do ksiąg zamkowych w Lublinie (<em>in Castro Lublinensi per Oblatam porrecta</em>). Zapis wieńczy modlitwa: <em>„Deus misereatur nostri et amplius talia ne permittat nos pati. Amen”</em>.</li>
+                </ul>
+            </div>
+        </article>
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 3: Ustrój miejski i ordynacki nadzór Zamoyskich: Elekcja magistratu w lutym 1650 r. (skany 11–12, fol. 4r–4v)</h2>
+            <div class="card-meta">
+                <span><strong>Data sesji:</strong> Środa po Oczyszczeniu NMP 1650 r. [luty 1650]</span> | 
+                <span><strong>Instytucje:</strong> Ordynacja Zamojska, Urząd Wójtowski, Rada Miejska, Cechy</span> | 
+                <span><strong>Kategorie:</strong> Ustrój miasta, Solemnis Electio, Samorząd cechowy</span>
+            </div>
+            <div class="card-content">
+                <p>Na kartach 4r–4v zarejestrowano doroczną, uroczystą elekcję władz miejskich Kraśnika (<em>ELECTIO SOLLENNIS ET LAUDABILIS MAGISTRATUS CIVILIS</em>) w domu wójta Andrzeja Grzymkowskiego, przeprowadzoną w obecności całej wspólnoty (<em>in praesentia totius Communitatis</em>).</p>
+                <p>Przebieg elekcji i nominacje:</p>
+                <ul>
+                    <li>Elekcję nadzorował <strong>Remigian Mieletowski</strong>, podsędek ziemski lubelski i lustrator dóbr kraśnickich, działający z ramienia III ordynata <strong>Jana Sobiepana Zamoyskiego</strong>.</li>
+                    <li>Burmistrzami rezydentami mianowano <strong>Wojciecha Szafranka</strong> i <strong>Macieja Florkowica Janaszkowica</strong>; radnymi: <strong>Stanisława Szafranka</strong> i <strong>Andrzeja Bombę</strong>.</li>
+                    <li>Wójtem i sędzią zwyczajnym (<em>Advocatus et Iudex Ordinarius</em>) obrany został <strong>Andrzej Grzymkowski</strong> po zgonie zasłużonego Wojciecha Janaszkowica.</li>
+                    <li>Ławnicy przysięgli: Adam Kaniarek, Andrzej Kuczowic, Marcin Fiołek, Szymon Dudyczek. Szafarz miejski: Stanisław Szkarłatek. Asesor do Trybunału Zamojskiego: Adam Kaniarek.</li>
+                    <li>Zatwierdzono także cechmistrzów pięciu cechów: miodowarów (Maciej Czołkan), krawców (Wawrzyniec Ziębienski), szewców (Gabriel Buba), kowali (Stanisław Janikowic) i tkaczy (Maciej Turowski).</li>
+                </ul>
+            </div>
+        </article>
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 4: Topografia i obrót gruntami przedmieść kraśnickich: Piaski, Podlesie i Na Stoku (skany 14–24)</h2>
+            <div class="card-meta">
+                <span><strong>Lata wpisów:</strong> 1649–1650</span> | 
+                <span><strong>Teren:</strong> Przedmieścia: Piaski, Podlesie, Na Stoku; wieś Popkowice</span> | 
+                <span><strong>Kategorie:</strong> Topografia historyczna, Rola Zubkowska, Pomiary gruntowe</span>
+            </div>
+            <div class="card-content">
+                <p>Wpisy z fol. 5v–10v pozwalają na precyzyjną rekonstrukcję krajobrazu gospodarczego i rolniczego Kraśnika u progu lat 50. XVII wieku:</p>
+                <ul>
+                    <li><strong>Przedmieście Piaski:</strong> Ciągnący się pas urodzajnych ról ornych ku wsi Popkowice. Rejestrowana jest m.in. <em>Rola Wolakowska</em> (ćwierć roli od wielkiego stawu miejskiego ku Popkowicom, zbyta Sebastianowi Grzymczykowi z Wilkołaza za 30 złp) oraz <em>Rola Zubkowska</em> (półćwierć roli sprzedana przez Stanisława Jurka Grzegorzowi Piórkowskiemu za 45 grzywien). Działki budowlane i półćwierci na Piaskach nabyli m.in. Marcin Młyneczek i Wojciech Tokarczyk.</li>
+                    <li><strong>Przedmieście Podlesie:</strong> Działki i ogrody usytuowane tuż za miejskimi wałami obronnymi (<em>extra vallum Civitatis</em>), należące do klanu Szafranków, szewca Gabriela Buby, Jana Sołtysika, Błażeja Ładoszowica i Grzegorza Libucha.</li>
+                    <li><strong>Przedmieście Na Stoku:</strong> Wpis z fol. 8v ukazuje zbycie małego domku (<em>Domuncula</em>) po zmarłym furmanie Jakubie Lisowskim wdowie Annie Wolakowej za 34 marki, w sąsiedztwie posesji krawca Jakuba Dudka.</li>
+                </ul>
+            </div>
+        </article>
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 5: Dział ojcowski Stanisława Szafranka (fol. 8r) jako arcydzieło staropolskiej kultury prawnej i językowej (skany 19–20)</h2>
+            <div class="card-meta">
+                <span><strong>Data zapisu:</strong> 1650 r.</span> | 
+                <span><strong>Osoby:</strong> Stanisław Szafranek, Maryna Szafrankówna, Zofia Biernatówna</span> | 
+                <span><strong>Kategorie:</strong> Język polski, Prawo spadkowe, Dożywocie, Rynek Ratuszny</span>
+            </div>
+            <div class="card-content">
+                <p>Wpis na karcie 8r (skan 19) to wyjątkowy w kodeksie J14 zabytek żywego języka staropolskiego. Sławetny Stanisław Szafranek, radny kraśnicki, dokonuje formalnego działu ojcowskiego za życia (<em>inter vivos</em>):</p>
+                <blockquote><em>„Iż on chcąc sobie pokóy uczyć y za żywota swego Dziatki swe rozporządzić, aby potym po śmierci iego Dziatki wtorego Małżeństwa z Zophyey Biernathowey Małżonkiey z ktorey spłodził, nie pospołu y z matką o successią iako od Dzieci pierwszego Małżeństwa turbowane nie były, z miłości swoiey Oycowskiey: Pannie Marynie Corce swoiey y Dziatkom iey z Wawrzyńca niegdy Zophiey Cłapkiey pierwszey Małżonki swoiey spłodzoney puszcza Dom swoy w Rynku Ratusznym...”</em></blockquote>
+                <p>Nieruchomość rodowa leżała w samym sercu Kraśnika – w Rynku Ratusznym, pomiędzy domami bratanka Błażeja Wójtowicza Szafranka a Piotra Stanisława Szafranka. Do tego dołączono ogród za wałem miejskim oraz 30 złp w gotówce na wsparcie córki, co dowodzi wysokiej zamożności i kultury prawnej rodu Szafranków.</p>
+            </div>
+        </article>
+        <article class="analytic-card">
+            <h2 class="card-title">Karta 6: Klasztor Kanoników Regularnych św. Augustyna a rynek nieruchomości: Sprawa majątkowa Siwiedowiczów (skan 25, fol. 11r)</h2>
+            <div class="card-meta">
+                <span><strong>Data wpisu:</strong> 1650 r.</span> | 
+                <span><strong>Podmioty:</strong> Kanonicy Regularni Laterańscy, ks. Stanisław Wierzbicki, Walenty Siwiedowicz</span> | 
+                <span><strong>Kategorie:</strong> Kościół, Prawo kanoniczne, Kamienica w Rynku, Brama Lubelska</span>
+            </div>
+            <div class="card-content">
+                <p>Akt z fol. 11r dokumentuje bezpośrednie powiązania majątkowe patrycjatu kraśnickiego z klasztorem Kanoników Regularnych św. Augustyna. Młodzieniec Walenty Siwiedowicz staje przed sądem miejskim w asyście swych rodzonych braci zakonnych: <strong>Bartłomieja i Bonawentury Siwiedowiczów</strong>.</p>
+                <p>Kluczowe aspekty prawne sprawy:</p>
+                <ul>
+                    <li>Bracia zakonni uczestniczą w czynności świeckiej za wyraźną aprobatą swego zwierzchnika, prepozyta kraśnickiego <strong>ks. Stanisława Wierzbickiego</strong> (<em>quod negotium Dominus Stanislaus Wierzbicki Praepositus declararunt</em>).</li>
+                    <li>Przedmiotem ugody jest kamienica w Rynku przy Bramie Lubelskiej (<em>in Circulo Civitatis Crasnicensis ad Portam Lublinensem</em>), odziedziczona po rodzicach i zmarłej siostrze Agnieszce z Siwiedowiczów Kuczowiczowej.</li>
+                    <li>Zbycie kamienicy miało na celu zabezpieczenie praw małoletniego syna Bonawentury Kuczowica oraz uchronienie zabytkowej substancji kamienicy przed popadnięciem w ruinę po zniszczeniach wojennych (<em>ne aedes desolata fieret</em>).</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+  </main>
+
+  <!-- MODAL SZCZEGÓŁÓW (3 ZAKŁADKI KANONU J40 DLA SKANU / MODAL DLA GENEALOGII) -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">SZCZEGÓŁY</h3>
+        <button class="modal-close" onclick="closeModal()">×</button>
+      </div>
+
+      <!-- Pasek 3 zakładek modalu skanu (ukrywany w modalu osoby) -->
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Zawartość wstrzykiwana przez JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SKRYPTY SYSTEMOWE I DANE RUNTIME -->
+  <script>
+    // DANE GŁÓWNE SKANÓW
+    const mainData = [{"nr_skanu": 1, "numer_pozycji": 1, "kod_skanu": "35_40_0_1_14_1_2065800.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Tarcza mikrofilmowa", "data_rok": "XX w. (metryka archiwalna)", "kategoria": "Kodykologia / Metryka archiwalna / Tarcza mikrofilmu", "opis_sprawy": "Oficjalna tarcza czołowa mikrofilmu Wojewódzkiego Archiwum Państwowego w Lublinie dla zespołu Akta Miasta Kraśnika, jednostka 14.", "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie [pracownia reprograficzna]", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Tarcza mikrofilmowa czołowa jednostki:]\nWOJEWÓDZKIE ARCHIWUM PAŃSTWOWE\nLUBLIN\nAKTA MIASTA: KRAŚNIKA", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065800"}, {"nr_skanu": 2, "numer_pozycji": 2, "kod_skanu": "35_40_0_1_14_2_2065819.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Metryka mikrofilmu", "data_rok": "1959 (1 kwietnia)", "kategoria": "Metryka archiwalna / Formularz techniczny mikrofilmu", "opis_sprawy": "Karta metryki mikrofilmowej sporządzona w Wojewódzkim Archiwum Państwowym w Lublinie: dawna sygnatura archiwalna 7, tytuł 'Księga m. Kraśnika Dekreta Manifesta', data przygotowania do mikrofilmowania 1.IV.1959 r., 590 zdjęć, numer mikrofilmu 110.356.", "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie [kancelaria archiwalna]", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Formularz metryki mikrofilmu Wzór 1:]\nWojewódzkie Archiwum Państwowe w LUBLINIE\nul. Narutowicza 10, tel. 37-18\nMETRYKA AKT\nWypełnia archiwum:\n1. Nazwa Archiwum: [Wojewódzkie Archiwum Państwowe w Lublinie]\n2. Nazwa zespołu lub zbioru: Księga m. Kraśnika Dekreta Manifesta\n3. Sygnatura archiwalna: 7\n4. Data przygotowania akt do mikrofilmowania: 1.IV.1959 r.\n5. Ilość zdjęć: 590\n6. Nr książki kontrolnej: [—]\nNr mikrofilmu: 110.356\nWypełnia stacja mikrofilmowa:\n1. Fotografowano dnia: [kwiecień 1959 r.]\n2. K.T. przyjęła całość", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065819"}, {"nr_skanu": 3, "numer_pozycji": 3, "kod_skanu": "35_40_0_1_14_3_2065720.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Karta informacyjna mikrofilmu", "data_rok": "1959 (kwiecień)", "kategoria": "Kodykologia / Karta informacyjna / Paginacja", "opis_sprawy": "Karta informacyjna mikrofilmu jednostki Kraśnik 7: łączna liczba zdjęć 590, wykaz stron pustych niefilmowanych (s. 129, 296v), wymiary księgi rękopiśmiennej 31 x 19 cm.", "osoby_podmioty": "Pracownia Mikrofilmowa WAP Lublin", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Karta informacyjna mikrofilmu:]\nKraśnik 7\nKARTA INFORMACYJNA\nŁączna ilość zdjęć: 590\nWykaz stron pustych niefilmowanych:\n129, 296v.\nWymiary dokumentu, obmiar jednostki archiwalnej:\nwysokość x szerokość: 31 x 19 cm.", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065720"}, {"nr_skanu": 4, "numer_pozycji": 4, "kod_skanu": "35_40_0_1_14_4_2065884.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Oprawa poszytu / Kartusz", "data_rok": "1648–1748", "kategoria": "Kodykologia / Oprawa / Inskrypcja archiwalna", "opis_sprawy": "Zewnętrzna zabytkowa oprawa poszytu z ozdobnym barokowym kartuszem papierowym zawierającym pełny tytuł jednostki, zakres lat 1648–1748 oraz dawne oznaczenia inwentarzowe (Nr 7, Po opisie Nr 460).", "osoby_podmioty": "Kancelaria miejska kraśnicka; dawni archiwiści miejscy", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Ozdobny barokowy kartusz naklejony na oprawie poszytu:]\nMiasta Kraśnika\nDekreta, Manifesta, Wizye,\nIntromisye, Testamenta etc.\nOd Roku 1648. do 1748.\nNo 7.\nPo opisie No 460.", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065884"}, {"nr_skanu": 5, "numer_pozycji": 5, "kod_skanu": "35_40_0_1_14_5_2065691.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Karta tytułowa", "data_rok": "1648–1649, 1827", "kategoria": "Kodykologia / Tytuł urzędowy / Res Gestae", "opis_sprawy": "Monumentalna karta tytułowa Księgi Gruntowej Wójtowsko-Ławniczej Kraśnika (Acta Fundorum), założona z inicjatywy wójta Wojciecha Janaszkowica po katastrofie najazdu kozackiego 1648 r. W dolnej części poświadczenie legalizacyjne z 18 października 1827 r. podpisane przez Chełmickiego i Dolińskiego.", "osoby_podmioty": "Albertus Janaszkowic advocatus et iudex ordinarius; Chełmicki; Józef Doliński", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Monumentalna karta tytułowa poszytu:]\nACTA FUNDORUM\nOFFICII ADVOCATIALIS ET SCABINALIS\nCRASNICENSIS\nIn quibus Inscribuntur:\nVenditiones { Domorum, Hortorum, Agrorum, Pratorum }\nDonationes & Commutationes eorundem\nOpera et Industria\nFamati olim Alberti Janaszkowic Advocati et Iudicis Ordinarii seu huius post devastationem civitatis huius per Kosakos qui mox post extinctus fuit quando [...] Anno Dni 1649 [1648/1649].\nComparuit.\n\n[Poświadczenie urzędowe z XIX wieku:]\nPoczątkowość księgi tej poświadcza się. 18 Października 1827.\nChełmicki [podpis i parafa]\nJózef Doliński [podpis i parafa]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065691"}, {"nr_skanu": 6, "numer_pozycji": 6, "kod_skanu": "35_40_0_1_14_6_2065636.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 1r", "data_rok": "1648 (listopad, feria 6 ante Praesentationem BVM)", "kategoria": "Kronika miejska / Manifestacja wojenna / Powstanie Chmielnickiego", "opis_sprawy": "Unikatowy, dramatyczny wpis kronikarsko-urzędowy kancelarii kraśnickiej dokumentujący zniszczenie miasta przez zbuntowane wojska kozackie pod dowództwem Bohdana Chmielnickiego oraz sprzymierzone czambuły tatarskie w listopadzie 1648 r. Spalenie ponad 70 domów, splądrowanie kościoła, zamordowanie zakonników, ucieczka wojsk polskich pod Zamość. Przysięga w grodzie sandomierskim i urzędowa obłata w grodzie lubelskim. Przejmująca modlitwa: 'Deus misereatur nostri et amplius talia ne permittat nos pati. Amen'.", "osoby_podmioty": "Bohdan Chmielnicki dux; Władysław IV Waza rex (zmarły 20 V 1648); wojska kozackie i tatarskie; dwaj zakonnicy kraśniccy (zamordowani); dwaj przysięgli mieszczanie kraśniccy delegowani do Sandomierza i Lublina", "kwoty_podatki": "Ponad 70 domów spalonych w mieście, zrabowany kościół i mienie mieszczan", "transkrypcja": "[Folio 1r - Zapis kronikarski zniszczenia Kraśnika w 1648 r.:]\nActum Feria 6ta ante Praesentationem B.V. Mariae Anno Domini 1648 [listopad 1648 r.].\nHaec Dies maestissima, doloris acerbitatis afflictionis plena fuit Incolis huius Civitatis. Etenim flagitiosa nequissimaque Ruthenorum turma, facta rebellione contra Regnum [...] post obitum Serenissimi ac Felicissimi Regis Wladislai IV, 20 Maii Anni [1648], Chmielnicio Duce [...] coadiuvatis sibi in auxilium stipendiariis [...] exercitus ac Tartaricis Copiis ac proinde Inprimis motibus suis tamultu exercitum [...] Corsun [...] multis nobilibus abactis [...] passim per diversas Terras Russiae expandendo suos plusquam Tartaricam rabiem in fideles subditos igne, ferroque devastarunt, Catholicos omni statui summa crudelitate affecerunt, Deo dicatos Religiosos crudeliter trucidarunt, Templa Dei, Sepulchra mortuorum immaniter violarunt ac spoliarunt, ac iterum Exercitum Polonorum validum in fugam turpem compulerunt, multisque Locis crudeliter devastatis, cum ad Zamoscium Copias suas locaverunt, Hanc quoque Civitatem (quoddam agmen eorum) aggressi sunt [...] Templum profanarunt, duos Religiosos suffocarunt tormentis eis adactis, Domos plusquam Septuaginta igne absumpserunt.\nDie Veneris ut supra. Cuius quidem Inquisitio facta et In Castro Sandomiriensi per duos Viros Civicos nostros iuratos comprobata, et in Castro Lublinensi per Oblatam porrecta.\nHic tam crudelis ac immanis devastatio gravia connotata:\nDeus misereatur nostri et amplius talia ne permittat nos pati.\nAmen.", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065636"}, {"nr_skanu": 7, "numer_pozycji": 7, "kod_skanu": "35_40_0_1_14_7_2065889.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 1v – 2r", "data_rok": "1648 / 1649 (feria 3 post festum S. Martini)", "kategoria": "Sąd wójtowsko-ławniczy / Obrót nieruchomościami / Cesja domu", "opis_sprawy": "Gajenie sądu wójtowsko-ławniczego w domu wójta Andrzeja Bomby. Katarzyna, wdowa po Błażeju Dolsatorze, wraz z zięciem Błażejem Kołodziejczykiem i synem Augustynem, sceduje i sprzedaje dom murowany pod murem miejskim (między placem Stanisława Dyparczyka a placem po Januszku Węgrzynie) Maciejowi Turobińskiemu za sumę 70 florenów polskich.", "osoby_podmioty": "Andreas Bomba advocatus; Stanislaus Szafrankowic consul; Albertus Szafrankowic consul; Joannes Mendel consul; Martinus Fiołek scabinus; Catharina vidua olim Blasii Dolsator; Blasius Kołodziejczyk gener; Augustinus filius; Mathias Turobiński emptor; Stanislaus Dyparczyk; olim Janusz Węgrzyn", "kwoty_podatki": "70 florenów polskich (złp)", "transkrypcja": "[Folio 2r:]\n2.\nIUDICIUM BANNITUM\nIn Domo Famati Andrea Bomba Advocati Bannitum per Famatos Viros suprascriptum Advocatum, Stanislaum Szafrankowic, Albertum Szafrankowic, Joannem Mendel Consules, Martinum Fiołek Scabinum Iuratos Officii Utriusque Civitatis Feria 3tia post Festum S. Martini Episcopi et Confessoris Anno Domini Millesimo Sexcentesimo Quadragesimo Nono celebratum.\n\nCatharina Blasii olim Dolsator Uxor derelicta assignat Domum Mathiae Turobinski.\nCoram Officio praesenti Utroque tam Consulari quam et Advocatiali Scabinali Crasnicensi Iudicio necessario Bannito comparentes personaliter Catharina Unionis Blasii Dolsator Civis Crasnicensis derelicta Conthoralis Vidua cum assensu Blasii Kołodzieyczyk Generi sui et Augustini Filii sui, sana mente ac corpore existens, non compulsa nec coacta sed libere verbis expressis ipsa per se et praefatos filios suos recognovit et ingenue fassa est: Quia sponte ac libere Domum suam propriam penes Murum Civitatis ad aream Stanislai Dyparczyk et olim Janusz Węgrzyn sitam ac iacentem [...] Mathiae Turobiński pro Summa Florenorum Polonicalium Septuaginta resignavit, tradidit ac perpetuo inscripsit.", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065889"}, {"nr_skanu": 8, "numer_pozycji": 8, "kod_skanu": "35_40_0_1_14_8_2065906.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 2v", "data_rok": "1649", "kategoria": "Obrót nieruchomościami / Cesja domu / Klauzula ewikcyjna", "opis_sprawy": "Dokończenie kontraktu Macieja Turobińskiego (intromisja, obrona przed pretensjami osób trzecich). Następnie: Stanisław Raczyński (incola Crasnicensis) sceduje i sprzedaje dom mieszkalny przy drodze publicznej (obok posesji Płonkowej / Piątkowej) Błażejowi Dziaczkowi za sumę 40 grzywien.", "osoby_podmioty": "Stanislaus Raczyński venditor; Blasius Dziaczek emptor; Honesta Płonkowa (sąsiadka)", "kwoty_podatki": "40 marek (grzywien polskich)", "transkrypcja": "[Folio 2v:]\n2v.\n[...] quietat Dans et concedens praefatam Domum realem et effectualem Intromissionem [...] libere vendere, donare ac resignare [...]\nStanislaus Raczyński resignat Domum Blasio Dziaczek.\nAd Officium Actorum praesentium Consulum et Scabinorum Utriusque Officii personaliter veniens Honestus Stanislaus Raczyński Incola Crasnicensis sanus mente ac corpore existens, non compulsus nec coactus [...] libere verbis expressis ipse per se recognovit se Domum suam propriam ad Triduum licitatam, super qua praedicti Consules insederant marcas quadraginta, penes Domum Honestae Płonkowa iuxta Viam publicam ex altera parte [...] Honestis Blasio Dziaczek resignasse et vendidisse pro Summa Marcarum Quadraginta [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065906"}, {"nr_skanu": 9, "numer_pozycji": 9, "kod_skanu": "35_40_0_1_14_9_2065659.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 3r", "data_rok": "1649 (20 grudnia, feria 3 in vigilia S. Thomae)", "kategoria": "Obrót gruntami / Sprzedaż placu / Wał miejski", "opis_sprawy": "Zakończenie zapisu dla Błażeja Dziaczka. Nowy akt z 20 grudnia 1649 r.: Mikołaj Menczel, działający w asyście opiekuna prawnego Jana Kalisza, sprzedaje dziedziczny plac przy wale miejskim (penes aggerem) Wojciechowi Dziadoszowi (Dziadugowi) za sumę 55 florenów polskich.", "osoby_podmioty": "Nicolaus Menczel minor; Joannes Kalisz tutor; Albertus Dziadosz (Dziadug) emptor", "kwoty_podatki": "55 florenów polskich (złp)", "transkrypcja": "[Folio 3r:]\n3.\n[...] resignasse, praesentibus dare, donare ac resignare [...]\nActum coram eodem Officio Utriusque Officii Bannito Feria 3tia in Vigilia Festi S. Thomae Apostoli 1649no.\nMenczel resignat aream Alberto Dziadosz.\nAd Officium Actorum praesentium Consulum et Scabinorum personaliter veniens Honestus Nicolaus Menczel Incola Crasnicensis cum assistentia Honesti Joannis Kalisz Tutoris sui, sanus mente et corpore existens [...] sponte ac libere verbis expressis ipse per se et praedictus Tutor suus recognovit se aream suam propriam iure haereditario et successione post Parentes suos devolutam, penes Viam publicam et aggerem sitam [...] Honestis Alberto Dziadosz pro Summa Flor. Quinquaginta Quinque Monetae Polonicalis vendidisse, donasse et resignasse [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065659"}, {"nr_skanu": 10, "numer_pozycji": 10, "kod_skanu": "35_40_0_1_14_10_2065835.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 3v", "data_rok": "1650 (styczeń, feria 4 post Epiphaniam)", "kategoria": "Obrót nieruchomościami / Społeczność żydowska / Plac pod murem", "opis_sprawy": "Dokończenie kontraktu Menczela. Sesja po Trzech Królach 1650 r.: Przedstawiciele społeczności żydowskiej (Eliasz Herszkowic i Mojżesz Koprow jako opiekunowie sukcesora Kopla, oraz Izrael Moszkowic i Baruch Moszkowic) sprzedają plac pod murem miejskim Janowi Haustrowi za 50 florenów.", "osoby_podmioty": "Helias Herszkowic; Moyses dictus Koprow; Kopel Iudaeus pupillus; Israel Moszkowic; Baruch Moszkowic; Joannes Hauster (Haustr) emptor", "kwoty_podatki": "50 florenów polskich (złp)", "transkrypcja": "[Folio 3v:]\n1650. 3v.\n[...] quietavit Dans et concedens praefatam Aream liberam [...]\nActum Coram Officio Composito Consulum et Scabinorum Feria 4ta post Festum Epiphaniae Domini 1650.\nIudaei resignant aream Haustro.\nCoram eodem Officio personaliter comparentes Perfidi Helias Herszkowic, Moyses dictus Koprow Tutores Successorum Kopel Iudaei, tum Israel Moszkowic et Baruch dictus Moszkowic Successores olim Moszko Iudaei Incolae Crasnicenses, sani mente et corpore [...] libere verbis expressis praedicti Tutores sub omni damno recognoverunt se aream propriam in debito devolutam penes murum Civitatis sitam [...] Joanni Haustr resignasse [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065835"}, {"nr_skanu": 11, "numer_pozycji": 11, "kod_skanu": "35_40_0_1_14_11_2065738.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 4r", "data_rok": "1650 (luty, feria 4 post Purificationem BVM)", "kategoria": "Ustrój miasta / Elekcja magistratu / Ordynacja Zamojska", "opis_sprawy": "Zakończenie kontraktu Jana Haustra. Uroczysta elekcja władz miejskich Kraśnika na rok 1650 w domu wójta Andrzeja Grzymkowskiego, przeprowadzona przez podsędka ziemskiego lubelskiego Remigiana Mieletowskiego (komisarza ordynata Jana Sobiepana Zamoyskiego). Wybór burmistrzów rezydentów: Wojciecha Szafrankowica i Macieja Florkowica Janaszkowica.", "osoby_podmioty": "Remigianus Mieletowski subiudex Terrae Lublinensis et bonorum Crasnik scrutator; Joannes in Zamoście Zamoyski capitaneus Kalusiensis; Albertus Szafrankowic proconsul; Mathias Floreani Janaszkowic proconsul; Andreas Grzymkowski; tota communitas Crasnicensis", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Folio 4r:]\n1650. 4.\n[...] vendiderunt, donaverunt ac resignaverunt [...]\nELECTIO SOLLENNIS ET LAUDABILIS MAGISTRATUS CIVILIS CELEBRATA\nIn Domo Famati Andreae Grzymkowski in praesentia totius Communitatis Celebrata Feria 4ta post Festum Purificationis B.V. Mariae 1650.\nGenerosus Dominus Remigianus Mieletowski Subiudex Terrae Lublinensis bonorumque Kraśnik ad praesens Scrutator, ex brachio Illustrissimi et Excellentissimi Domini Joannis in Zamoscie Zamoyski Capitanei Kalusiensis Domini nostri Domini elegit et confirmavit duos Consules Residentes, Videlicet: Famatos Albertum Szafrankowic et Mathiam Floreani Janaszkowic [...] Famatus Dominus Viceadvocatus post decessum olim Famati Domini Iudicis Ordinarii cum sua sede Iudiciaria et Arca [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065738"}, {"nr_skanu": 12, "numer_pozycji": 12, "kod_skanu": "35_40_0_1_14_12_2065742.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 4v", "data_rok": "1650 (luty)", "kategoria": "Ustrój miasta / Urząd wójtowski / Cechy rzemieślnicze", "opis_sprawy": "Kontynuacja elekcji 1650 r.: wybór radnych (Stanisław Szafrankowic, Andrzej Bomba); wybór wójta i sędziego zwyczajnego (Andrzej Grzymkowski) po zgonie dawnego wójta i autora księgi Wojciecha Janaszkowica; ławnicy przysięgli (Adam Kaniarek, Andrzej Kuczowic, Marcin Fiołek, Szymon Dudyczek); starszyzna cechów rzemieślniczych (miodowarzy, krawcy, szewcy, kowale, tkacze).", "osoby_podmioty": "Stanislaus Szafrankowic; Andreas Bomba; olim Albertus Janaszkowic advocatus et huius librorum auctor; Andreas Grzymkowski advocatus electus; Adam Kaniarek scabinus; Andreas Kuczowic scabinus; Martinus Fiołek scabinus; Simon Dudyczek scabinus; Stanislaus Szkarłatek dispensator; Mathias Czołkan (cechmistrz miodowarów); Laurentius Ziębienski (cechmistrz krawców); Gabriel Buba (cechmistrz szewców); Stanislaus Janikowic (cechmistrz kowali); Mathias Turowski (cechmistrz tkaczy)", "kwoty_podatki": "Nie dotyczy", "transkrypcja": "[Folio 4v:]\n1650. 4v.\n[...] totam communitatem confirmaverunt in Consules Residentes Famatos Stanislaum Szafrankowic et Andream Bomba.\nIn advocatum vero et Iudicem Ordinarium ad obeundos Iudiciorum labores post decessum Famati olim Alberti Janaszkowic Advocati et Iudicis Ordinarii seu huius Librorum horum Auctoris, Famatus Dominus Andreas Grzymkowski a tota comitate electus et a Generoso Domino Scrutatore approbatus est.\nIn Scabinos Iuratos in praesentem annum: Famati Adam Kaniarek, Andreas Kuczowic, Martinus Fiołek et Simon Dudyczek electi sunt [...]\nIn Assessorem ad absolutum Iudicium Tribunale Zamoscense: Famatus Adam Kaniarek.\nIn Dispensatorem pecuniarum Civilium et omnium Exactionum: Honestus Stanislaus Szkarłatek.\nCechmistrze:\nMellitorum: Famatus Mathias Czołkan\nSartorum: Honestus Laurentius Ziębienski\nSutorum: Honestus Gabriel Buba\nFabrorum: Honestus Stanislaus Janikowic\nTextorum: Honestus Mathias Turowski\nIUDICIUM Expositum Bannitum per Famatum Dominum Andream Grzymkowski Advocatum et Iudicem Ordinarium in Scabinos Iuratos...", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065742"}, {"nr_skanu": 13, "numer_pozycji": 13, "kod_skanu": "35_40_0_1_14_13_2065791.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 5r", "data_rok": "1650", "kategoria": "Obrót nieruchomościami / Ulica Żydowska / Darowizna i sprzedaż", "opis_sprawy": "Przed sądem wójtowskim i rewizorem Mieletowskim staje Jakub Eliaszowicz ze Smoleńska (Smolenszczanin), który przy asyście Fraydla z Lubomla i Selexa Moszkowica sprzedaje i daruje dom w ulicy Żydowskiej Moszkowi Łapanowi za sumę 350 florenów polskich.", "osoby_podmioty": "Jacob Eliaszowicz Smolenszczanin; Fraydel de Luboml; Selex Moszkowic; Moszko Łapan emptor; Remigianus Mieletowski subiudex", "kwoty_podatki": "350 florenów polskich (złp)", "transkrypcja": "[Folio 5r:]\n1650. 5.\nDomini Millesimo Sexcentesimo Quinquagesimo.\nJacob Eliaszowicz resignat Domum Moszkowi Lapanu.\nCoram eodem Iudicio Exposito Bannito Actorum praesentibus Advocato et Scabinis Crasnicensibus in praesentia Nobilis Domini Remigiani Mieletowski Subiudicis Terrae Lublinensis [...] compariens personaliter Infidelis Jacob Eliaszowicz Smolenszczanin cum assistentia duorum Infidelium Videlicet Fraydel de Luboml Judaei sub quo Selex Moszkowic soceri sui [...] Donavit Domum suam propriam Civitatis Crasnicensis in platea Iudaeorum [...] Infideli Moszko Łapan pro Summa Trecentorum Quinquaginta Florenorum Polonicalium [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065791"}, {"nr_skanu": 14, "numer_pozycji": 14, "kod_skanu": "35_40_0_1_14_14_2065653.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 5v", "data_rok": "1650 (luty, feria 2 post Dominicam Septuagesimae)", "kategoria": "Obrót gruntami / Rola / Wieś Wilkołaz", "opis_sprawy": "Dokończenie kontraktu Moszka Łapana. Następnie: Opiekunowie małoletnich dzieci po zmarłym Wojciechu Wolaku sprzedają ćwierć roli ornej Sebastianowi Grzymczykowi ze wsi Wilkołaz.", "osoby_podmioty": "Moszko Łapan; Tutores liberorum olim Alberti Wolak; Sebastianus Grzymczyk de Wilkołaz emptor", "kwoty_podatki": "30 florenów polskich (złp)", "transkrypcja": "[Folio 5v:]\n1650. 5v.\n[...] Venditori pro suprascripta Domo ad omni impedimento [...] Florenos Trecentos Quinquaginta [...]\nActum Feria 2da post Dominicam Septuagesimae Coram eodem Officio Exposito Bannito Advocatiali et Scabinali Crasnicensi.\nTutores Minorennium Alberti Wolak Resignant Partem Agri Sebastiano Grzymczyk de Wilkołaz.\nCoram eodem Officio Exposito Bannito Advocatiali et Scabinali Crasnicensi [...] Tutores Minorennium Alberti Wolak [...] Quartam partem Agri Sebastiano Grzymczyk de Wilkołaz resignaverunt [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065653"}, {"nr_skanu": 15, "numer_pozycji": 15, "kod_skanu": "35_40_0_1_14_15_2065909.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 6r", "data_rok": "1650 (marzec, feria 6 post Dominicam Invocavit)", "kategoria": "Topografia wiejska / Rola orna / Granice Popkowic", "opis_sprawy": "Opis granic roli Wolakowskiej: położona od stawu miejskiego ku granicom wsi Popkowice, między rolami Jana Kawalca i Macieja Kozła – sprzedaż Grzymczykowi za sumę 30 florenów. Następnie akt z marca 1650 r.: Jan Jurek sceduje grunt Augustyniakowi.", "osoby_podmioty": "Sebastianus Grzymczyk; Joannes Kawalec; Mathias Kozieł; Joannes Jurek; Augustyniak emptor", "kwoty_podatki": "30 florenów polskich (złp)", "transkrypcja": "[Folio 6r:]\n1650. 6.\n[...] Quartam partem Agri more soliti olim Alberti Wolak derelictam una cum omni structura [...] inter metas Honestorum Joannis Kawalec et Mathiae Kozieł incipiendo a Stagno Civitatis tendendo versus Popkowice [...] Honesto Sebastiano Grzymczyk pro Summa Florenorum Polonicalium Tredecim [i reszta do 30 złp] [...]\nActum Sub Iudicio Exposito Bannito Advocatiali et Scabinali Crasnicensi Feria 6ta post Dominicam Invocavit celebrato.\nJurek resignat Augustyniak.\nCoram Officio praesenti Advocati et Scabinorum Crasnicensium personaliter comparens Honestus Joannes Jurek [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065909"}, {"nr_skanu": 16, "numer_pozycji": 16, "kod_skanu": "35_40_0_1_14_16_2065862.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 6v", "data_rok": "1650", "kategoria": "Przedmieście Piaski / Obrót gruntami / Rola orna", "opis_sprawy": "Kontynuacja aktu Jana Jurka: sprzedaż półćwierci roli z budynkiem na przedmieściu Piaski (między posesjami Jakuba Dudzika i Stanisława Kowalika) Marcinowi Młyneczkowi za 40 grzywien. Kolejny wpis: Jan Dypkowicz sprzedaje rolę na Piaskach bratu rodzonemu Sebastianowi Piórkowskiemu i bratowej Agnieszce.", "osoby_podmioty": "Joannes Jurek; Jacobus Dudzik; Stanislaus Kowalik; Martinus Młyneczek emptor; Joannes Dypkowicz venditor; Sebastianus Piórkowski frater germanus; Agnes consors Sebastiani Piórkowski", "kwoty_podatki": "40 marek (grzywien polskich)", "transkrypcja": "[Folio 6v:]\n1650. 6v.\n[...] Mediam partem Quarti Agri una cum Aedificio suo proprio in Suburbio dicto Piasek inter metas Jacobi Dudzik et Stanislai Kowalik [...] Laborioso Martino Młyneczek pro Summa Marcarum Quadraginta [...] resignavit [...]\n[Kolejny akt:]\nIn Suburbio dicto Piasek [...] Joannes Dypkowicz Honesto Sebastiano Piórkowski fratri suo germano Consortique eius Agneti [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065862"}, {"nr_skanu": 17, "numer_pozycji": 17, "kod_skanu": "35_40_0_1_14_17_2065669.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 7r", "data_rok": "1650 (marzec, feria 2 post Dominicam Reminiscere)", "kategoria": "Przedmieście Piaski / Cesja domu i ogrodu / Patrycjat", "opis_sprawy": "Dokończenie sprzedaży roli Piórkowskim za sumę 120 marek. Następnie wpis z marca 1650 r.: Wawrzyniec Pajączek z żoną Katarzyną Iwanówną sprzedają dom i ogród radnemu kraśnickiemu Stanisławowi Szafrankowi.", "osoby_podmioty": "Sebastianus Piórkowski; Agnes consors; Laurentius Pajączek venditor; Catharina Iwanowna consors; Stanislaus Szafranek consul emptor", "kwoty_podatki": "120 marek (grzywien) / 300 florenów polskich (złp)", "transkrypcja": "[Folio 7r:]\n1650. 7.\n[...] in Suburbio dicto Piasek sitam [...] Sebastiano Piórkowski fratri suo germano Consortique eius Agneti [...] pro Summa Marcarum Centum Viginti Monetae in Regno curren. [...]\nActum Feria 2da post Dominicam Reminiscere [1650].\nLaurentius Pajączek resignat Stanislao Szafranek.\nLaurentius Pajączek [...] una cum Honesta Catharina Iwanowna [...] Domum et Hortum Famato Stanislao Szafranek Consuli Crasnicensi resignavit [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065669"}, {"nr_skanu": 18, "numer_pozycji": 18, "kod_skanu": "35_40_0_1_14_18_2065696.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 7v", "data_rok": "1650", "kategoria": "Przedmieście Podlesie / Wał miejski / Sąsiedztwo posesji", "opis_sprawy": "Opis granic posesji Pajączka: dom między domem Wojciecha Szafranka i Stanisława Szypułki; ogród za wałem miejskim na przedmieściu Podlesie obok Gabriela Buby i Jana Sołtysika – sprzedaż radnemu Stanisławowi Szafrankowi za sumę 300 florenów polskich.", "osoby_podmioty": "Laurentius Pajączek; Catharina Iwanowna; Albertus Szafranek consul; Stanislaus Szypułka; Gabriel Buba; Joannes Sołtysik; Stanislaus Szafranek consul emptor", "kwoty_podatki": "300 florenów polskich (złp)", "transkrypcja": "[Folio 7v:]\n1650. 7v.\n[...] una cum Honesta Catharina Iwanowna [...] Domum suam propriam [...] inter Domos Famati Alberti Szafranek Consulis Crasnicensis et Honesti Stanislai Szypułka [...] Horto extra Vallum Civitatis inter metas Gabrielis Buba ex una ex altera vero parte Honestorum Sołtysikow [...] in Suburbio Podlesie [...] Famato Stanislao Szafranek Consuli pro Summa Florenorum Trecentorum Monetae Polonicalis [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065696"}, {"nr_skanu": 19, "numer_pozycji": 19, "kod_skanu": "35_40_0_1_14_19_2065879.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 8r", "data_rok": "1650", "kategoria": "Prawo spadkowe / Dział ojcowskie / Język polski / Rynek Ratuszny", "opis_sprawy": "Wyjątkowy zabytek staropolszczyzny w księgach Kraśnika: urzędowy zapis radnego Stanisława Szafranka, który chcąc zapobiec sporom rodzinnym po swej śmierci między dziećmi z pierwszego małżeństwa (z niegdy Zofią Cłapkową) i drugiego (z Zofią Biernatówną), przekazuje córce Marynie dom w Rynku Ratusznym (między domem bratanka Błażeja Wójtowicza Szafranka a Piotra Stanisława Szafranka) oraz ogród za wałem miejskim (między Gabrielem Bubą a Maciejem Cząstkowicem szmuklerzem).", "osoby_podmioty": "Stanislaus Szafranek consul; Zofia Biernatowna (II żona); niegdy Zofia Cłapkowa (I żona); Maryna Szafrankowna (córka); Wawrzyniec (zięć); Błażej Wójtowicz Szafranek (bratanek); Piotr Stanisław Szafranek; Gabriel Buba; Maciej Cząstkowic szmuklerz", "kwoty_podatki": "Nie dotyczy (dział ojcowski dożywocia)", "transkrypcja": "[Folio 8r - Zapis w języku staropolskim:]\n8.\nSub eodem Actu.\nFamatus Stanislaus Szafranek donat Domum cum Horto Filio suo.\nFamatus Stanislaus Szafranek Civis et Consul Crasnicensis coram Actis praesentibus Advocati et Scabinorum Crasnicensium personaliter constitutus, sanus mente ac corpore existens [...] sponte ac libere verbis expressis ipse per se recognovit ac ingenue fassus est:\nIż on chcąc sobie pokóy uczyć y za żywota swego Dziatki swe rozporządzić, aby potym po śmierci iego Dziatki wtorego Małżeństwa z Zophyey Biernathowey Małżonkiey z ktorey spłodził, nie pospołu y z matką o successią iako od Dzieci pierwszego Małżeństwa turbowane nie były, z miłości swoiey Oycowskiey: Pannie Marynie Corce swoiey y Dziatkom iey z Wawrzyńca niegdy Zophiey Cłapkiey pierwszey Małżonki swoiey spłodzoney [...] puszcza Dom swoy w Rynku Ratusznym miedzy Domami Błaieya Woytowicza Szafranka Bratanka y Piotra Stanisława Szafranka leżący; y Ogrod zaś Wałem Miejskiem między miedzami Gabriela Buby y Mathiasza Cząstkowica Szmuklerza leżący [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065879"}, {"nr_skanu": 20, "numer_pozycji": 20, "kod_skanu": "35_40_0_1_14_20_2065778.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 8v", "data_rok": "1650 (marzec, feria 2 post Dominicam Oculi)", "kategoria": "Dział majątkowy / Przedmieście Na Stoku / Domek", "opis_sprawy": "Dokończenie zapisu Stanisława Szafranka (wypłata 30 złp gotówką na wsparcie córki Maryny). Nowy akt z marca 1650 r.: Zofia Lisowska, wdowa po Jakubie Lisowskim furmanie, działając z opiekunem Adamem Kanińskim, sprzedaje domek na przedmieściu Na Stoku (obok posesji Dudkowej i Jakuba Dudka krawca) Annie, wdowie po Wojciechu Wolaku.", "osoby_podmioty": "Maryna Szafrankowna; Zofia Lisowska vidua; olim Jacobus Lisowski auriga; Adamus Kaniński tutor; Anna vidua olim Alberti Wolak emptrix; Jakub Dudek sartor", "kwoty_podatki": "30 florenów polskich (wiano) / 34 marki (grzywny)", "transkrypcja": "[Folio 8v:]\n1650. 8v.\n[...] zapomożenie złotych trzydzieści wygotowano [...] aby była k woli Oycowskiej powolną [...]\nActum Coram eodem Officio Advocatiali et Scabinali Crasnicensi Feria 2da post Dominicam Quadragesimae Oculi 1650.\nLisowska resignat Domunculam Wolakowey.\nCoram Officio praesenti Utriusque Advocatiali et Scabinali Crasnicensi personaliter comparens Honesta Sophia Jacobi olim Lisowski Aurigae Civis derelicta Vidua cum assistentia Famati Adami Kaniński de Iure actore sibi assumpti Tutoris [...] Domunculam suam propriam nemini obligatam in Suburbio dicto Na Stoku inter Domos olim Alberti Dudka derelictam Viduam ex una ex altera vero parte Honestae Jacobi Dudek Sartoris [...] Honestae Annae olim Alberti Wolak derelictae Viduae [...] pro Summa Marcarum 34 resignavit [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065778"}, {"nr_skanu": 21, "numer_pozycji": 21, "kod_skanu": "35_40_0_1_14_21_2065750.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 9r", "data_rok": "1650 (26 marca, sabbatho in crastino Annuntiationis BVM)", "kategoria": "Przedmieście Piaski / Sprzedaż roli i budynku / Spadek Rodzonka", "opis_sprawy": "Zakończenie kontraktu wdowy Wolakowej. Sesja z 26 marca 1650 r.: Szymon Szałka z żoną Zofią sprzedają półćwierć roli z budynkiem na przedmieściu Piaski (spadek po zmarłym Aleksandrze Rodzonku) Maciejowi Borowikowi za 200 florenów polskich.", "osoby_podmioty": "Simon Szałka; Zophia uxor; olim Aleksander Rodzonek; Mathias Borowik emptor; Simon Szypułek (sąsiad)", "kwoty_podatki": "200 florenów polskich (złp)", "transkrypcja": "[Folio 9r:]\n1650. 9.\n[...] quietat dictam Domunculam [...]\nActum Sub Judicio Exposito Bannito Advocatiali et Scabinali Crasnicensi Sabbatho in crastino Festi Annunciationis B.V. Mariae 1650.\nSimon Szałka Consorsque eius resignat Mathiae Borowik.\nComparen[te]s personaliter coram Judicio Exposito Bannito [...] Simon Szałka una cum Zophia uxore sua [...] mediam partem Quarti Agri una cum Aedificio in praefatam Zophiam post mortem Alexandri olim Rodzonek devolutam in Suburbio Piasek inter metas Honesti Simonis Szypułek ex una ex altera vero parte Mathiae Borowik Emptoris [...] pro Summa Florenorum Ducentorum Monetae in Regno curren. resignaverunt [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065750"}, {"nr_skanu": 22, "numer_pozycji": 22, "kod_skanu": "35_40_0_1_14_22_2065729.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 9v", "data_rok": "1650 (kwiecień, feria 5 post Dominicam Passionis)", "kategoria": "Przedmieście Piaski / Rola Zubkowska / Obrót gruntami", "opis_sprawy": "Zakończenie zapisu Borowika (granice do wsi Popkowice). Następnie wpis z kwietnia 1650 r.: Stanisław Jurek z Przedmieścia kraśnickiego sprzedaje półćwierć roli zwanej Zubkowska na przedmieściu Piaski Grzegorzowi Piórkowskiemu i jego żonie Annie za sumę 45 grzywien.", "osoby_podmioty": "Mathias Borowik; Stanislaus Jurek suburbanus; Gregorius Piórkowski emptor; Anna uxor Gregorii Piórkowski", "kwoty_podatki": "45 marek (grzywien polskich)", "transkrypcja": "[Folio 9v:]\n1650. 9v.\n[...] quietavit Dans et concedens in dictum Fundum [...]\nActum Feria 5ta post Dominicam Passionis [1650].\nStanislaus Jurek resignat Gregorio Piórkowski.\nCoram Officio praesenti Actorum praesentibus Advocato ac Scabinis Crasnicensibus personaliter comparens Honestus Stanislaus Jurek de Przedmieście Crasnicense [...] Mediam partem Quarti Agri alias Zubkowska suam propriam in Suburbio Lup Piasek [...] Honestis Gregorio Piórkowski Annatricique eius et legitimis Successoribus pro Summa Marcarum Quadraginta Quinque [...] resignavit [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065729"}, {"nr_skanu": 23, "numer_pozycji": 23, "kod_skanu": "35_40_0_1_14_23_2065851.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 10r", "data_rok": "1650 (kwiecień, sabbatho post Dominicam Passionis)", "kategoria": "Przedmieście Piaski / Rola orna / Granice Popkowice", "opis_sprawy": "Dokończenie kontraktu Piórkowskich. Sesja z soboty po Niedzieli Męki Pańskiej 1650 r.: Stanisław Kaniyk, mieszczanin kraśnicki, sprzedaje ćwierć roli na przedmieściu Piaski (od posesji krawca Bartłomieja ku granicom Popkowic) Wojciechowi Tokarczykowi za sumę 50 grzywien.", "osoby_podmioty": "Stanislaus Kaniyk venditor; olim Bartholomaeus sartor; Albertus Tokarczyk emptor", "kwoty_podatki": "50 marek (grzywien polskich)", "transkrypcja": "[Folio 10r:]\n10.\n[...] quietavit dictum Fundum [...]\nActum Sabbatho post Dominicam Passionis [1650].\nStanislaus Kaniyk resignat Alberto Tokarczyk.\nCoram eodem Iudicio Exposito Bannito Actorum praesentibus Advocato et Scabinis Crasnicensibus personaliter constitutus Honestus Stanislaus Kaniyk Oppidanus Crasnicensis [...] Quartam Agri dictam suam propriam nemini obligatam in Suburbio Lup Piasek inter metas Honestorum olim Bartholomaei Sartorzek ex una ex altera parte vero eiusdem Venditoris Stanislai Kaniyk incipiendo a fine dictae fundationis usque ad granicies Popkowice [...] Alberto Tokarczyk pro Summa Marcarum Quinquaginta [...] resignavit [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065851"}, {"nr_skanu": 24, "numer_pozycji": 24, "kod_skanu": "35_40_0_1_14_24_2065679.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 10v", "data_rok": "1650", "kategoria": "Przedmieście Podlesie / Rola / Sąd wójtowski", "opis_sprawy": "Zakończenie zapisu dla Tokarczyka. Agnieszka Potocka wdowa, z asystencją ławnika Marcina Kaniarka, sprzedaje staje roli na przedmieściu Podlesie (obok roli Błażeja Ładoszowica i Grzegorza Libucha) Bonawenturze Kidasowicowi za sumę 50 florenów polskich. W dolnej części otwarcie nowej sesji sądu gajonego w domu wójta Andrzeja Grzymkowskiego.", "osoby_podmioty": "Agnes Potocka vidua; Martinus Kaniarek scabinus tutor; Blasius Ładoszowic; Gregorius Libuch; Bona Kidasowic (Kidaszowic) emptor; Andreas Grzymkowski advocatus", "kwoty_podatki": "50 florenów polskich (złp)", "transkrypcja": "[Folio 10v:]\n1650. 10v.\n[...] quietavit praedictum Fundum [...]\nAgnes Potocka resignat Boni Kidasowic.\nCoram eodem Iudicio Exposito Bannito Actorum praesentibus Advocato et Scabinis Crasnicensibus personaliter comparens Honesta Agnes Potocka Vidua cum assensu Famati Martini Kaniarek Scabini Crasnicensis Tutoris sui [...] Stadium Agri unum suum proprium nemini obligatum in Suburbio dicto Podlesie inter metas [...] Błażej Ładoszowic et Gregorii Libuch [...] Boni Kidasowic pro Summa Florenorum Quinquaginta [...] resignavit [...]\nIUDICIUM BANNITUM in Domo Famati Domini Andreae Grzymkowski Advocati et Iudicis Ordinarii Crasnicensis assidentibus Dominis Scabinis...", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065679"}, {"nr_skanu": 25, "numer_pozycji": 25, "kod_skanu": "35_40_0_1_14_25_2065858.jpg", "sygnatura": "35/40/0/1/14", "strona_pagina": "Folio 11r", "data_rok": "1650", "kategoria": "Rynek Miejski / Dział spadkowy / Kanonicy Regularni / Kościół", "opis_sprawy": "Złożona sprawa majątkowa rodów Siwiedowiczów i Kuczowiców: młodzieniec Walenty Siwiedowicz, działając przy asyście rodzonych braci zakonnych Bartłomieja i Bonawentury Siwiedowiczów (kanoników regularnych klasztoru kraśnickiego) oraz wójta Andrzeja Grzymkowskiego, za zgodą prepozyta klasztoru ks. Stanisława Wierzbickiego, reguluje sprawy spadkowe i sprzedaje kamienicę/dom w Rynku kraśnickim (obok bramy lubelskiej) opiekunom małoletnich dzieci po zmarłym Wincentym Kuczowicu i Agnieszce Siwiedowiczównie.", "osoby_podmioty": "Valentinus Siwiedowicz; Bartholomaeus Siwiedowicz canonicus regularis; Bona Siwiedowicz canonicus regularis; Andreas Grzymkowski advocatus; Stanislaus Wierzbicki praepositus conventus Crasnicensis; olim Vincentius Kuczowic; olim Agnes Siwiedowiczowna; Bona Kuczowic pupillus; Tutores pupillorum Kuczowiczensium", "kwoty_podatki": "Nie dotyczy (dział spadkowy i sprzedaż kamienicy w Rynku)", "transkrypcja": "[Folio 11r:]\n1650. 11.\nCoram Judicio Exposito Bannito Actorum praesentibus Advocato et Scabinis Crasnicensibus compariens personaliter Ingeniosus Adolescentulus Valentinus Siwiedowicz cum assistentia Dominorum Bartholomaei et Boni Siwiedowiczorum fratrum Regularium Canonicorum Regularium et Famati Andreae Grzymkowski Advocati Crasnicensis Tutoris sui [...] ex altera vero parte Tutores Minorennium Boni Filii olim Vincentii Kuczowic Civis Crasnicensis ex Agnete olim Siwiedowiczowna Conthoralis eius Legitimae [...] Valentinus procreati filii (quod negotium Dominus Stanislaus Wierzbicki Praepositus declararunt) [...] Domum suam propriam in Circulo Civitatis Crasnicensis ad Portam Lublinensem [...] perpetuo resignavit et tradidit [...]", "link_archiwum": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065858"}];
+
+    // SŁOWNIK GENEALOGICZNY (WARIANT 2 - 0 DUPLIKATÓW)
+    const genData = [{"lp": 1, "nazwisko": "Augustyniak", "imie": "Jan", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca gruntu od Jana Jurka (fol. 6r)", "skany_roboczo": "15", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Augustyniak"}, {"lp": 2, "nazwisko": "Biernatówna", "imie": "Zofia", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "druga żona sławetnego radnego Stanisława Szafranka, matka dzieci z drugiego małżeństwa (fol. 8r)", "skany_roboczo": "19", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Zophia Biernathowa"}, {"lp": 3, "nazwisko": "Bomba", "imie": "Andrzej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "wójt kraśnicki w latach 1648–1649, następnie radny miejski wybrany w 1650 r., gospodarz sesji sądowych w swoim domu (fol. 2r, 4v)", "skany_roboczo": "7, 12", "zakres_lat": "1648–1650", "liczba_wystapien": 2, "warianty_nazwiska": "Famatus Andreas Bomba advocatus et consul"}, {"lp": 4, "nazwisko": "Borowik", "imie": "Maciej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca półćwierci roli na przedmieściu Piaski po Aleksandrze Rodzonku od Szymona Szałki za 200 złp (fol. 9r, 9v)", "skany_roboczo": "21, 22", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Mathias Borowik"}, {"lp": 5, "nazwisko": "Buba", "imie": "Gabriel", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "cechmistrz szewski (starszy cechu sutorum) w 1650 r., właściciel ogrodu za wałem miejskim na Podlesiu (fol. 4v, 7v, 8r)", "skany_roboczo": "12, 18, 19", "zakres_lat": "1650", "liczba_wystapien": 3, "warianty_nazwiska": "Honestus Gabriel Buba cechmagister"}, {"lp": 6, "nazwisko": "Chełmicki", "imie": "N.", "miejsce": "Powiat Kraśnicki", "funkcja_spoleczna": "urzędnik Królestwa Polskiego poświadczający autentyczność i początkowość księgi w 1827 r. (karta tytułowa)", "skany_roboczo": "5", "zakres_lat": "1827", "liczba_wystapien": 1, "warianty_nazwiska": "Chełmicki"}, {"lp": 7, "nazwisko": "Chmielnicki", "imie": "Bohdan", "miejsce": "Zaporoże / Hetmanat", "funkcja_spoleczna": "wódz powstania kozackiego, wymieniony w relacji kronikarskiej o najeździe na Kraśnik i oblężeniu Zamościa w listopadzie 1648 r. (fol. 1r)", "skany_roboczo": "6", "zakres_lat": "1648", "liczba_wystapien": 1, "warianty_nazwiska": "Chmielnicio Duce"}, {"lp": 8, "nazwisko": "Czołkan", "imie": "Maciej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "starszy cechu miodowarów (cechmagister mellitorum) wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Mathias Czołkan cechmagister"}, {"lp": 9, "nazwisko": "Cząstkowic", "imie": "Maciej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mistrz szmuklerski kraśnicki, sąsiad ogrodu Szafranka za wałem miejskim (fol. 8r)", "skany_roboczo": "19", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Mathias Cząstkowic szmuklerz"}, {"lp": 10, "nazwisko": "Cłapkowa", "imie": "Zofia", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarła pierwsza żona radnego Stanisława Szafranka, matka Maryny (fol. 8r)", "skany_roboczo": "19", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Zophia Cłapkowa olim uxor"}, {"lp": 11, "nazwisko": "Doliński", "imie": "Józef", "miejsce": "Powiat Kraśnicki", "funkcja_spoleczna": "urzędnik sądu lubelsko-kraśnickiego poświadczający początkowość księgi w 1827 r. (karta tytułowa)", "skany_roboczo": "5", "zakres_lat": "1827", "liczba_wystapien": 1, "warianty_nazwiska": "Józef Doliński"}, {"lp": 12, "nazwisko": "Dolsator", "imie": "Błażej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły mieszczanin kraśnicki, dawny właściciel domu pod murem miejskim (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "przed 1649", "liczba_wystapien": 1, "warianty_nazwiska": "Blasius Dolsator civis"}, {"lp": 13, "nazwisko": "Dolsatorowa", "imie": "Katarzyna", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "wdowa po Błażeju Dolsatorze, sprzedająca dom pod murem Maciejowi Turobińskiemu za 70 złp (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Catharina Dolsatorowa vidua"}, {"lp": 14, "nazwisko": "Dudek", "imie": "Jakub", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "krawiec kraśnicki, sąsiad domku na przedmieściu Na Stoku (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Jacobus Dudek sartor"}, {"lp": 15, "nazwisko": "Dudek", "imie": "Wojciech", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły mieszczanin, dawny właściciel posesji na przedmieściu Na Stoku (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Albertus Dudek"}, {"lp": 16, "nazwisko": "Dudkowa", "imie": "Uliana (Ula)", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "wdowa po Wojciechu Dudku, sąsiadka domku na przedmieściu Na Stoku (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Uliana Dudkowa vidua"}, {"lp": 17, "nazwisko": "Dudyczek", "imie": "Szymon", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "ławnik przysięgły sądu wójtowsko-ławniczego wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Simon Dudyczek scabinus"}, {"lp": 18, "nazwisko": "Dudzik", "imie": "Jakub", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "przedmieszczanin kraśnicki, sąsiad roli na Piaskach (fol. 6v)", "skany_roboczo": "16", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Jacobus Dudzik"}, {"lp": 19, "nazwisko": "Dyparczyk", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "właściciel placu pod murem miejskim sąsiadującego z domem Dolsatorowskim (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Stanislaus Dyparczyk"}, {"lp": 20, "nazwisko": "Dypkowicz", "imie": "Jan", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "przedmieszczanin, sprzedający rolę na Piaskach bratu Sebastianowi Piórkowskiemu za 120 marek (fol. 6v, 7r)", "skany_roboczo": "16, 17", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Joannes Dypkowicz"}, {"lp": 21, "nazwisko": "Dziaczek", "imie": "Błażej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca domu przy drodze publicznej od Stanisława Raczyńskiego za 40 marek (fol. 2v, 3r)", "skany_roboczo": "8, 9", "zakres_lat": "1649", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Blasius Dziaczek"}, {"lp": 22, "nazwisko": "Dziadosz", "imie": "Wojciech", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca placu przy wale miejskim od Mikołaja Menczela za 55 złp (fol. 3r)", "skany_roboczo": "9", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Albertus Dziadosz (Dziadug)"}, {"lp": 23, "nazwisko": "Eliaszowicz", "imie": "Jakub", "miejsce": "Miasto Kraśnik / Smoleńsk", "funkcja_spoleczna": "Żyd pochodzący ze Smoleńska, darujący i sprzedający dom w ulicy Żydowskiej Moszkowi Łapanowi za 350 złp (fol. 5r)", "skany_roboczo": "13", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Infidelis Jacob Eliaszowicz Smolenszczanin"}, {"lp": 24, "nazwisko": "Fiołek", "imie": "Marcin", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "ławnik przysięgły sądu wójtowsko-ławniczego w 1648–1650 r. (fol. 2r, 4v)", "skany_roboczo": "7, 12", "zakres_lat": "1648–1650", "liczba_wystapien": 2, "warianty_nazwiska": "Famatus Martinus Fiołek scabinus"}, {"lp": 25, "nazwisko": "Fraydel", "imie": "Fraydel", "miejsce": "Luboml / Kraśnik", "funkcja_spoleczna": "Żyd z Lubomla asystujący przy transakcji domu Jakuba Eliaszowicza (fol. 5r)", "skany_roboczo": "13", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Infidelis Fraydel de Luboml"}, {"lp": 26, "nazwisko": "Grzymczyk", "imie": "Sebastian", "miejsce": "Wieś Wilkołaz", "funkcja_spoleczna": "włościanin ze wsi Wilkołaz, nabywca ćwierci roli Wolakowskiej od stawu ku Popkowicom za 30 złp (fol. 5v, 6r)", "skany_roboczo": "14, 15", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Sebastianus Grzymczyk"}, {"lp": 27, "nazwisko": "Grzymkowski", "imie": "Andrzej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "wójt i sędzia zwyczajny kraśnicki wybrany w lutym 1650 r. po zgonie Wojciecha Janaszkowica, gospodarz elekcji i sesji sądu gajonego (fol. 4r, 4v, 10v, 11r)", "skany_roboczo": "11, 12, 24, 25", "zakres_lat": "1650", "liczba_wystapien": 4, "warianty_nazwiska": "Famatus Dominus Andreas Grzymkowski advocatus"}, {"lp": 28, "nazwisko": "Hauster", "imie": "Jan", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca placu pod murem miejskim od przedstawicieli gminy żydowskiej za 50 złp (fol. 3v, 4r)", "skany_roboczo": "10, 11", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Joannes Hauster (Haustr)"}, {"lp": 29, "nazwisko": "Herszkowic", "imie": "Eliasz", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, opiekun prawny małoletnich sukcesorów zmarłego Kopla, sprzedawca placu pod murem Janowi Haustrowi (fol. 3v)", "skany_roboczo": "10", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Perfidus Helias Herszkowic tutor"}, {"lp": 30, "nazwisko": "Iwanówna", "imie": "Katarzyna", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "żona Wawrzyńca Pajączka, współsprzedająca dom i ogród radnemu Stanisławowi Szafrankowi za 300 złp (fol. 7r, 7v)", "skany_roboczo": "17, 18", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honesta Catharina Iwanowna consors"}, {"lp": 31, "nazwisko": "Janaszkowic", "imie": "Maciej (Florkowic)", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "rajca i burmistrz rezydent wybrany w lutym 1650 r. (fol. 4r)", "skany_roboczo": "11", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Mathias Floreani Janaszkowic proconsul"}, {"lp": 32, "nazwisko": "Janaszkowic", "imie": "Wojciech", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "wójt i sędzia zwyczajny kraśnicki, inicjator i twórca ('auctor') Księgi Gruntowej J14 po zniszczeniach kozackich 1648 r., zmarły na przełomie 1649/1650 r. (karta tytułowa, fol. 4v)", "skany_roboczo": "5, 12", "zakres_lat": "1648–1649", "liczba_wystapien": 2, "warianty_nazwiska": "Famatus olim Albertus Janaszkowic advocatus"}, {"lp": 33, "nazwisko": "Janikowic", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mistrz kowalski, starszy cechu kowali (cechmagister fabrorum) w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Janikowic cechmagister"}, {"lp": 34, "nazwisko": "Jurek", "imie": "Jan", "miejsce": "Przedmieście Kraśnickie", "funkcja_spoleczna": "przedmieszczanin kraśnicki, sprzedawca roli na Piaskach Marcinowi Młyneczkowi za 40 grzywien (fol. 6r, 6v)", "skany_roboczo": "15, 16", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Joannes Jurek"}, {"lp": 35, "nazwisko": "Jurek", "imie": "Stanisław", "miejsce": "Przedmieście Kraśnickie", "funkcja_spoleczna": "przedmieszczanin z Piasków, sprzedawca roli Zubkowskiej Grzegorzowi Piórkowskiemu za 45 grzywien (fol. 9v)", "skany_roboczo": "22", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Jurek suburbanus"}, {"lp": 36, "nazwisko": "Kalisz", "imie": "Jan", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "uczciwy mieszczanin kraśnicki, opiekun prawny (tutor) Mikołaja Menczela przy sprzedaży placu (fol. 3r)", "skany_roboczo": "9", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Joannes Kalisz tutor"}, {"lp": 37, "nazwisko": "Kaniarek", "imie": "Adam", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "ławnik przysięgły wybrany w 1650 r. oraz asesor do Trybunału Zamojskiego (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Adam Kaniarek scabinus et assessor"}, {"lp": 38, "nazwisko": "Kaniarek", "imie": "Marcin", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "ławnik przysięgły kraśnicki, opiekun prawny wdowy Agnieszki Potockiej przy sprzedaży staja roli na Podlesiu (fol. 10v)", "skany_roboczo": "24", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Martinus Kaniarek scabinus"}, {"lp": 39, "nazwisko": "Kaniyk", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, sprzedawca ćwierci roli na Piaskach Wojciechowi Tokarczykowi za 50 grzywien (fol. 10r)", "skany_roboczo": "23", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Kaniyk oppidanus"}, {"lp": 40, "nazwisko": "Kaniński", "imie": "Adam", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "sławetny mieszczanin, opiekun prawny wdowy Zofii Lisowskiej (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Adamus Kaniński tutor"}, {"lp": 41, "nazwisko": "Kawalec", "imie": "Jan", "miejsce": "Przedmieście Kraśnickie", "funkcja_spoleczna": "sąsiad roli Wolakowskiej od stawu miejskiego (fol. 6r)", "skany_roboczo": "15", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Joannes Kawalec"}, {"lp": 42, "nazwisko": "Kidasowic", "imie": "Bonawentura (Bona)", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "nabywca staja roli na Podlesiu od Agnieszki Potockiej za 50 złp (fol. 10v)", "skany_roboczo": "24", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Bona Kidasowic (Kidaszowic)"}, {"lp": 43, "nazwisko": "Kopel", "imie": "Kopel", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły Żyd kraśnicki, ojciec małoletnich sukcesorów (fol. 3v)", "skany_roboczo": "10", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Kopel Iudaeus"}, {"lp": 44, "nazwisko": "Koprow", "imie": "Mojżesz", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, opiekun sukcesorów Kopla przy sprzedaży placu Janowi Haustrowi (fol. 3v)", "skany_roboczo": "10", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Moyses dictus Koprow tutor"}, {"lp": 45, "nazwisko": "Kowalik", "imie": "Stanisław", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "sąsiad roli na przedmieściu Piaski (fol. 6v)", "skany_roboczo": "16", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Stanislaus Kowalik"}, {"lp": 46, "nazwisko": "Kozieł", "imie": "Maciej", "miejsce": "Przedmieście Kraśnickie", "funkcja_spoleczna": "sąsiad roli ornej ku Popkowicom (fol. 6r)", "skany_roboczo": "15", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Mathias Kozieł"}, {"lp": 47, "nazwisko": "Kołodziejczyk", "imie": "Błażej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zięć zmarłego Błażeja Dolsatora, asystujący wdowie Katarzynie przy sprzedaży domu Turobińskiemu (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Blasius Kołodzieyczyk gener"}, {"lp": 48, "nazwisko": "Kuczowic", "imie": "Andrzej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "ławnik przysięgły sądu wójtowsko-ławniczego wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Andreas Kuczowic scabinus"}, {"lp": 49, "nazwisko": "Kuczowic", "imie": "Bonawentura (Bona)", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "syn zmarłych Wincentego i Agnieszki z Siwiedowiczów, małoletni sukcesor kamienicy w Rynku (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Bona Kuczowic pupillus"}, {"lp": 50, "nazwisko": "Kuczowic", "imie": "Wincenty", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły mieszczanin kraśnicki, mąż Agnieszki Siwiedowiczówny, ojciec małoletniego Bonawentury (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Vincentius Kuczowic civis"}, {"lp": 51, "nazwisko": "Libuch", "imie": "Grzegorz", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "sąsiad roli na przedmieściu Podlesie (fol. 10v)", "skany_roboczo": "24", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Gregorius Libuch"}, {"lp": 52, "nazwisko": "Lisowska", "imie": "Zofia", "miejsce": "Przedmieście Na Stoku", "funkcja_spoleczna": "wdowa po Jakubie Lisowskim, sprzedająca domek Annie Wolakowej za 34 marki (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honesta Sophia Lisowska vidua"}, {"lp": 53, "nazwisko": "Lisowski", "imie": "Jakub", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły furman kraśnicki (auriga), mąż Zofii (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Jacobus Lisowski auriga"}, {"lp": 54, "nazwisko": "Menczel", "imie": "Mikołaj", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "małoletni syn zmarłych rodziców, sprzedający dziedziczny plac przy wale Wojciechowi Dziadoszowi za 55 złp (fol. 3r)", "skany_roboczo": "9", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Nicolaus Menczel pupillus"}, {"lp": 55, "nazwisko": "Mendel", "imie": "Jan", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "radny kraśnicki zasiadający w sądzie wójtowsko-ławniczym (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Famatus Joannes Mendel consul"}, {"lp": 56, "nazwisko": "Mieletowski", "imie": "Remigian", "miejsce": "Ziemia Lubelska / Popkowice", "funkcja_spoleczna": "podsędek ziemski lubelski, komisarz i rewizor dóbr kraśnickich z ramienia ordynata Jana Zamoyskiego, przewodniczący elekcji magistratu w 1650 r. (fol. 4r, 5r)", "skany_roboczo": "11, 13", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Generosus Dominus Remigianus Mieletowski subiudex"}, {"lp": 57, "nazwisko": "Moszkowic", "imie": "Baruch", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, sukcesor Moszka, współsprzedawca placu pod murem (fol. 3v)", "skany_roboczo": "10", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Baruch Moszkowic successor"}, {"lp": 58, "nazwisko": "Moszkowic", "imie": "Izrael", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, sukcesor Moszka, współsprzedawca placu pod murem Janowi Haustrowi (fol. 3v)", "skany_roboczo": "10", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Israel Moszkowic successor"}, {"lp": 59, "nazwisko": "Moszkowic", "imie": "Selex", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, teść Fraydla z Lubomla, asystujący przy transakcji domu w ulicy Żydowskiej (fol. 5r)", "skany_roboczo": "13", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Selex Moszkowic socer"}, {"lp": 60, "nazwisko": "Młyneczek", "imie": "Marcin", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "pracowity przedmieszczanin, nabywca półćwierci roli z budynkiem na Piaskach od Jana Jurka za 40 grzywien (fol. 6v)", "skany_roboczo": "16", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Laboriosus Martinus Młyneczek"}, {"lp": 61, "nazwisko": "Pajączek", "imie": "Wawrzyniec", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "przedmieszczanin, z żoną Katarzyną Iwanówną sprzedający dom i ogród za wałem radnemu Stanisławowi Szafrankowi za 300 złp (fol. 7r, 7v)", "skany_roboczo": "17, 18", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Laurentius Pajączek"}, {"lp": 62, "nazwisko": "Piórkowska", "imie": "Agnieszka", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "żona Sebastiana Piórkowskiego, współposiadaczka roli na przedmieściu Piaski (fol. 6v, 7r)", "skany_roboczo": "16, 17", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Agnes Piórkowska consors"}, {"lp": 63, "nazwisko": "Piórkowska", "imie": "Anna", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "żona Grzegorza Piórkowskiego, współnabywczyni roli Zubkowskiej (fol. 9v)", "skany_roboczo": "22", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Anna Piórkowska consors"}, {"lp": 64, "nazwisko": "Piórkowski", "imie": "Grzegorz", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "przedmieszczanin, z żoną Anną nabywający rolę Zubkowską od Stanisława Jurka za 45 grzywien (fol. 9v)", "skany_roboczo": "22", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Gregorius Piórkowski"}, {"lp": 65, "nazwisko": "Piórkowski", "imie": "Sebastian", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "przedmieszczanin, brat rodzony Jana Dypkowicza, nabywca roli na Piaskach za 120 marek (fol. 6v, 7r)", "skany_roboczo": "16, 17", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Sebastianus Piórkowski"}, {"lp": 66, "nazwisko": "Potocka", "imie": "Agnieszka", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "uczciwa wdowa, sprzedająca staje roli na Podlesiu Bonawenturze Kidasowicowi za 50 złp (fol. 10v)", "skany_roboczo": "24", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honesta Agnes Potocka vidua"}, {"lp": 67, "nazwisko": "Płonkowa", "imie": "N.", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "uczciwa mieszczka kraśnicka, sąsiadka domu Stanisława Raczyńskiego przy drodze publicznej (fol. 2v)", "skany_roboczo": "8", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Honesta Płonkowa"}, {"lp": 68, "nazwisko": "Raczyński", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszkaniec Kraśnika (incola), sprzedający dom przy drodze publicznej Błażejowi Dziaczkowi za 40 grzywien (fol. 2v)", "skany_roboczo": "8", "zakres_lat": "1649", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Raczyński incola"}, {"lp": 69, "nazwisko": "Rodzonek", "imie": "Aleksander", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "zmarły przedmieszczanin, po którym rolę na Piaskach odziedziczyła Zofia Szałczyna (fol. 9r)", "skany_roboczo": "21", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Alexander Rodzonek"}, {"lp": 70, "nazwisko": "Siwiedowicz", "imie": "Bartłomiej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "brat zakonny, kanonik regularny klasztoru kraśnickiego, brat rodzony Walentego i Bonawentury (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Dominus Bartholomaeus Siwiedowicz canonicus regularis"}, {"lp": 71, "nazwisko": "Siwiedowicz", "imie": "Bonawentura (Bona)", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "brat zakonny, kanonik regularny klasztoru kraśnickiego, asystujący bratu Walentemu (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Dominus Bona Siwiedowicz canonicus regularis"}, {"lp": 72, "nazwisko": "Siwiedowicz", "imie": "Walenty", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "młodzieniec (adolescentulus), syn zmarłego Szymona, regulujący sprawy spadkowe i sprzedający dom w Rynku (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Ingeniosus Adolescentulus Valentinus Siwiedowicz"}, {"lp": 73, "nazwisko": "Siwiedowiczówna", "imie": "Agnieszka", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarła żona Wincentego Kuczowica, siostra Walentego (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "przed 1650", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Agnes Siwiedowiczowna conthoralis"}, {"lp": 74, "nazwisko": "Sołtysik", "imie": "Jan", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "sąsiad ogrodu Pajączka za wałem miejskim (fol. 7v)", "skany_roboczo": "18", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honesti Sołtysikowie"}, {"lp": 75, "nazwisko": "Szafranek", "imie": "Błażej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "bratanek radnego Stanisława Szafranka, sąsiad domu w Rynku Ratusznym (fol. 8r)", "skany_roboczo": "19", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Blasius Woytowicza Szafranek"}, {"lp": 76, "nazwisko": "Szafranek", "imie": "Piotr", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "krewny radnego Stanisława Szafranka, sąsiad domu w Rynku Ratusznym (fol. 8r)", "skany_roboczo": "19", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Piotr Stanisław Szafranek"}, {"lp": 77, "nazwisko": "Szafranek", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "sławetny radny kraśnicki (consul), nabywca posesji na Podlesiu od Pajączka za 300 złp, autor unikatowego działu ojcowskiego w języku polskim zabezpieczającego córkę Marynę i drugą żonę Zofię Biernatównę (fol. 2r, 4v, 7r, 7v, 8r)", "skany_roboczo": "7, 12, 17, 18, 19", "zakres_lat": "1648–1650", "liczba_wystapien": 5, "warianty_nazwiska": "Famatus Stanislaus Szafranek (Szafrankowic) consul"}, {"lp": 78, "nazwisko": "Szafranek", "imie": "Wojciech", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "rajca i burmistrz rezydent wybrany w lutym 1650 r., sąsiad domu Pajączka (fol. 2r, 4r, 7v)", "skany_roboczo": "7, 11, 18", "zakres_lat": "1648–1650", "liczba_wystapien": 3, "warianty_nazwiska": "Famatus Albertus Szafranek (Szafrankowic) proconsul"}, {"lp": 79, "nazwisko": "Szafrankówna", "imie": "Maryna", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "córka radnego Stanisława Szafranka z pierwszej żony Zofii Cłapkowej, obdarowana domem w Rynku Ratusznym, ogrodem za wałem i 30 złp wiana (fol. 8r, 8v)", "skany_roboczo": "19, 20", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Panna Maryna Szafrankowna"}, {"lp": 80, "nazwisko": "Szałczyna", "imie": "Zofia", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "żona Szymona Szałki, spadkobierczyni po Aleksandrze Rodzonku (fol. 9r)", "skany_roboczo": "21", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honesta Zophia Szałczyna"}, {"lp": 81, "nazwisko": "Szałka", "imie": "Szymon", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "przedmieszczanin, z żoną Zofią sprzedający półćwierć roli po Aleksandrze Rodzonku Maciejowi Borowikowi za 200 złp (fol. 9r)", "skany_roboczo": "21", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Simon Szałka"}, {"lp": 82, "nazwisko": "Szkarłatek", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "szafarz miejski i dyspensator podatków wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Szkarłatek dispensator"}, {"lp": 83, "nazwisko": "Szypułek", "imie": "Szymon", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "sąsiad roli na przedmieściu Piaski ku Popkowicom (fol. 9r)", "skany_roboczo": "21", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Simon Szypułek"}, {"lp": 84, "nazwisko": "Szypułka", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "uczciwy mieszczanin, sąsiad domu w Rynku i posesji Pajączka (fol. 7v)", "skany_roboczo": "18", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Stanislaus Szypułka"}, {"lp": 85, "nazwisko": "Tokarczyk", "imie": "Wojciech", "miejsce": "Przedmieście Piaski", "funkcja_spoleczna": "nabywca ćwierci roli na Piaskach od Stanisława Kaniyka za 50 grzywien (fol. 10r)", "skany_roboczo": "23", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Albertus Tokarczyk emptor"}, {"lp": 86, "nazwisko": "Turobiński", "imie": "Maciej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mieszczanin kraśnicki, nabywca domu pod murem miejskim od wdowy Katarzyny Dolsatorowej za 70 złp (fol. 2r, 2v)", "skany_roboczo": "7, 8", "zakres_lat": "1649", "liczba_wystapien": 2, "warianty_nazwiska": "Honestus Mathias Turobiński"}, {"lp": 87, "nazwisko": "Turowski", "imie": "Maciej", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mistrz tkacki, starszy cechu tkaczy (cechmagister textorum) wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Mathias Turowski cechmagister"}, {"lp": 88, "nazwisko": "Wierzbicki", "imie": "Stanisław", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "prepozyt klasztoru Kanoników Regularnych św. Augustyna w Kraśniku, aprobujący ugodę majątkową Siwiedowiczów i Kuczowiców (fol. 11r)", "skany_roboczo": "25", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Venerabilis Dominus Stanislaus Wierzbicki praepositus"}, {"lp": 89, "nazwisko": "Wolak", "imie": "Wojciech", "miejsce": "Przedmieście Kraśnickie", "funkcja_spoleczna": "zmarły przedmieszczanin, mąż Anny, posesor ćwierci roli ku Popkowicom (fol. 5v, 6r, 8v)", "skany_roboczo": "14, 15, 20", "zakres_lat": "przed 1650", "liczba_wystapien": 3, "warianty_nazwiska": "Olim Albertus Wolak"}, {"lp": 90, "nazwisko": "Wolakowa", "imie": "Anna", "miejsce": "Przedmieście Na Stoku", "funkcja_spoleczna": "wdowa po Wojciechu Wolaku, nabywczyni domku Na Stoku od Zofii Lisowskiej za 34 marki (fol. 8v)", "skany_roboczo": "20", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honesta Anna Wolakowa vidua"}, {"lp": 91, "nazwisko": "Węgrzyn", "imie": "Janusz", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "zmarły mieszczanin, dawny właściciel placu pod murem miejskim (fol. 2r)", "skany_roboczo": "7", "zakres_lat": "przed 1649", "liczba_wystapien": 1, "warianty_nazwiska": "Olim Janusz Węgrzyn"}, {"lp": 92, "nazwisko": "Władysław IV Waza", "imie": "Władysław", "miejsce": "Rzeczpospolita / Warszawa", "funkcja_spoleczna": "zmarły król Polski (zm. 20 V 1648 w Mereczu), wspomniany w relacji kronikarskiej o wybuchu rebelii kozackiej (fol. 1r)", "skany_roboczo": "6", "zakres_lat": "1648", "liczba_wystapien": 1, "warianty_nazwiska": "Serenissimus ac Felicissimus Rex Wladislaus IV"}, {"lp": 93, "nazwisko": "Zamoyski", "imie": "Jan (Sobiepan)", "miejsce": "Zamość", "funkcja_spoleczna": "III ordynat zamojski, starosta kałuski, pan i dziedzic Kraśnika, w którego imieniu elekcję przeprowadził Remigian Mieletowski (fol. 4r)", "skany_roboczo": "11", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Illustrissimus Dominus Joannes in Zamoscie Zamoyski"}, {"lp": 94, "nazwisko": "Ziębienski", "imie": "Wawrzyniec", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "mistrz krawiecki, starszy cechu krawców (cechmagister sartorum) wybrany w 1650 r. (fol. 4v)", "skany_roboczo": "12", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Honestus Laurentius Ziębienski cechmagister"}, {"lp": 95, "nazwisko": "Ładoszowic", "imie": "Błażej", "miejsce": "Przedmieście Podlesie", "funkcja_spoleczna": "sąsiad staja roli na przedmieściu Podlesie (fol. 10v)", "skany_roboczo": "24", "zakres_lat": "1650", "liczba_wystapien": 1, "warianty_nazwiska": "Blasius Ładoszowic"}, {"lp": 96, "nazwisko": "Łapan", "imie": "Moszko", "miejsce": "Miasto Kraśnik", "funkcja_spoleczna": "Żyd kraśnicki, nabywca domu w ulicy Żydowskiej od Jakuba Eliaszowicza Smoleńszczanina za 350 złp (fol. 5r, 5v)", "skany_roboczo": "13, 14", "zakres_lat": "1650", "liczba_wystapien": 2, "warianty_nazwiska": "Infidelis Moszko Łapan emptor"}];
+
+    // STAN PAGINACJI I SORTOWANIA
+    let currentTab = 'main-tab';
+    let filteredMain = [...mainData];
+    let filteredGen = [...genData];
+
+    let mainCurrentPage = 1;
+    const mainPageSize = 25;
+    let mainSortCol = 'nr_skanu';
+    let mainSortAsc = true;
+
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let genSortCol = 'lp';
+    let genSortAsc = true;
+
+    let currentModalScan = null;
+
+    // INICJALIZACJA
+    document.addEventListener('DOMContentLoaded', () => {
+      populateCategories();
+      renderMainTable();
+      renderGenTable();
+    });
+
+    // PRZEŁĄCZANIE ZAKŁADEK GŁÓWNYCH
+    function switchTab(tabId, btn) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+
+      const targetSection = document.getElementById(tabId);
+      if (targetSection) targetSection.classList.add('active');
+      if (btn) btn.classList.add('active');
+
+      if (tabId === 'main-tab') renderMainTable();
+      if (tabId === 'genealogy-tab') renderGenTable();
+    }
+
+    // POPULACJA KATEGORII W FILTRZE
+    function populateCategories() {
+      const select = document.getElementById('categoryFilter');
+      if (!select) return;
+      const cats = Array.from(new Set(mainData.map(d => d.kategoria).filter(Boolean))).sort();
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        select.appendChild(opt);
+      });
+    }
+
+    // RENDEROWANIE TABELI GŁÓWNEJ (DOKŁADNIE 7 KOLUMN KANONU J40)
+    function renderMainTable() {
+      const tbody = document.getElementById('mainTableBody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+
+      const total = filteredMain.length;
+      const totalPages = Math.ceil(total / mainPageSize) || 1;
+      if (mainCurrentPage > totalPages) mainCurrentPage = totalPages;
+
+      const start = (mainCurrentPage - 1) * mainPageSize;
+      const end = Math.min(start + mainPageSize, total);
+      const pageItems = filteredMain.slice(start, end);
+
+      pageItems.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.style.cursor = 'pointer';
+        tr.onclick = (e) => {
+          if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+            openMainModal(item.nr_skanu);
+          }
+        };
+
+        tr.innerHTML = `
+          <td><span class="badge-scan" onclick="openMainModal(${item.nr_skanu})">#${item.nr_skanu}</span></td>
+          <td>${escapeHtml(item.strona_pagina)}</td>
+          <td><span class="badge-years">${escapeHtml(item.data_rok)}</span></td>
+          <td>${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}</td>
+          <td><span class="badge-role">${escapeHtml(item.kategoria)}</span></td>
+          <td>${escapeHtml(item.opis_sprawy)}</td>
+          <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:var(--gold-primary);">${escapeHtml(item.kwoty_podatki || '—')}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const infoText = total > 0 
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} wpisów (Strona ${mainCurrentPage} z ${totalPages})`
+        : 'Brak wyników wyszukiwania';
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${mainCurrentPage} / ${totalPages}`;
+      });
+
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = mainCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = mainCurrentPage <= 1;
+      const isLast = mainCurrentPage >= totalPages;
+      ['mainPrevBtn', 'mainPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['mainNextBtn', 'mainNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE REJESTRU GŁÓWNEGO
+    function filterMainData() {
+      const q = (document.getElementById('mainSearchInput').value || '').toLowerCase().trim();
+      const cat = document.getElementById('categoryFilter').value;
+
+      filteredMain = mainData.filter(item => {
+        const matchCat = !cat || item.kategoria === cat;
+        if (!matchCat) return false;
+        if (!q) return true;
+
+        const hay = [
+          item.nr_skanu,
+          item.strona_pagina,
+          item.data_rok,
+          item.osoby_podmioty,
+          item.kategoria,
+          item.opis_sprawy,
+          item.kwoty_podatki
+        ].join(' ').toLowerCase();
+
+        return hay.includes(q);
+      });
+
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function sortMain(col) {
+      if (mainSortCol === col) {
+        mainSortAsc = !mainSortAsc;
+      } else {
+        mainSortCol = col;
+        mainSortAsc = true;
+      }
+      filteredMain.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'nr_skanu') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return mainSortAsc ? -1 : 1;
+        if (vA > vB) return mainSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderMainTable();
+    }
+
+    function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
+        renderMainTable();
+      }
+    }
+
+    // RENDEROWANIE TABELI GENEALOGICZNEJ
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+
+      const total = filteredGen.length;
+      const totalPages = Math.ceil(total / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = Math.min(start + genPageSize, total);
+      const pageItems = filteredGen.slice(start, end);
+
+      pageItems.forEach(p => {
+        const tr = document.createElement('tr');
+        tr.style.cursor = 'pointer';
+        tr.onclick = (e) => {
+          if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+            openGenModal(p.lp);
+          }
+        };
+
+        const nazwiskoHtml = p.warianty_nazwiska 
+          ? `<strong>${escapeHtml(p.nazwisko)}</strong><br/><span style="font-size:0.75rem; color:var(--text-muted); background:rgba(255,255,255,0.05); padding:1px 5px; border-radius:3px;">wariant: ${escapeHtml(p.warianty_nazwiska)}</span>`
+          : `<strong>${escapeHtml(p.nazwisko)}</strong>`;
+
+        tr.innerHTML = `
+          <td style="font-family:'JetBrains Mono', monospace; color:var(--text-muted);">${p.lp}</td>
+          <td>${nazwiskoHtml}</td>
+          <td>${p.imie || '—'}</td>
+          <td><span class="badge-district">${p.miejsce || 'Kraśnik'}</span></td>
+          <td>${p.funkcja_spoleczna || 'Mieszkaniec'}</td>
+          <td><span class="badge-scan">${p.skany_roboczo}</span></td>
+          <td style="font-family:'JetBrains Mono', monospace;">${p.zakres_lat || '1650'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const infoText = total > 0
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} profili (Strona ${genCurrentPage} z ${totalPages})`
+        : 'Brak wyników w słowniku';
+
+      ['genPaginationInfo', 'genPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = `${genCurrentPage} / ${totalPages}`;
+      });
+
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.value = genCurrentPage; el.max = totalPages; }
+      });
+
+      const isFirst = genCurrentPage <= 1;
+      const isLast = genCurrentPage >= totalPages;
+      ['genPrevBtn', 'genPrevBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isFirst; });
+      ['genNextBtn', 'genNextBtnBot'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = isLast; });
+    }
+
+    // FILTROWANIE GENEALOGII (Z PEŁNĄ SYNCHRONIZACJĄ ONOMASTYCZNĄ)
+    function filterGenData() {
+      const q = (document.getElementById('genSearchInput').value || '').toLowerCase().trim();
+      filteredGen = genData.filter(p => {
+        if (!q) return true;
+        const naz = (p.nazwisko || '').toLowerCase();
+        const war = (p.warianty_nazwiska || '').toLowerCase();
+        const im = (p.imie || '').toLowerCase();
+        const m = (p.miejsce || '').toLowerCase();
+        const f = (p.funkcja_spoleczna || '').toLowerCase();
+        return naz.includes(q) || war.includes(q) || im.includes(q) || m.includes(q) || f.includes(q);
+      });
+      genCurrentPage = 1;
+      renderGenTable();
+    }
+
+    function sortGen(col) {
+      if (genSortCol === col) {
+        genSortAsc = !genSortAsc;
+      } else {
+        genSortCol = col;
+        genSortAsc = true;
+      }
+      filteredGen.sort((a, b) => {
+        let vA = a[col] || '';
+        let vB = b[col] || '';
+        if (col === 'lp' || col === 'liczba_wystapien') {
+          vA = Number(vA) || 0;
+          vB = Number(vB) || 0;
+        }
+        if (vA < vB) return genSortAsc ? -1 : 1;
+        if (vA > vB) return genSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderGenTable();
+    }
+
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+
+    // MODAL SKANU (3 ZAKŁADKI KANONU J40)
+    function openMainModal(scanNr) {
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
+      if (!item) return;
+
+      currentModalScan = item;
+
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
+      
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'flex';
+      switchModalTab('meta');
+
+      const transFormatted = item.transkrypcja ? item.transkrypcja : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu (transkrypcje wdrażane są partiami).</em>';
+
+      document.getElementById('modalBody').innerHTML = `
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 35/40/0/1/14 (dawny Tom 7 / mikr. 110.356)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(item.opis_sprawy)}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${item.osoby_podmioty && item.osoby_podmioty.includes('<') ? item.osoby_podmioty : escapeHtml(item.osoby_podmioty || '—')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(item.kwoty_podatki || 'Brak danych finansowych')}
+            </div>
+          </div>
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna in extenso z aparatem krytycznym i kodykologicznym</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box">
+            ${transFormatted}
+          </div>
+        </div>
+
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
+          <div class="modal-section">
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
+            </p>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              ${escapeHtml(item.link_archiwum || 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065800')}
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="${escapeHtml(item.link_archiwum || 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/2065800')}" target="_blank" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Skan #${item.nr_skanu} w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function switchModalTab(tabKey) {
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      });
+    }
+
+    function copyTranscription() {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      const cleanText = currentModalScan.transkrypcja.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ');
+      navigator.clipboard.writeText(cleanText).then(() => {
+        const btn = document.querySelector('.btn-copy-trans');
+        if (btn) {
+          const orig = btn.innerText;
+          btn.innerText = '✅ Skopiowano do schowka!';
+          setTimeout(() => { btn.innerText = orig; }, 2000);
+        }
+      }).catch(err => {
+        console.error('Błąd kopiowania:', err);
+      });
+    }
+
+    // MODAL GENEALOGICZNY (PROFIL MIESZKAŃCA)
+    function openGenModal(lp) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+
+      const p = genData.find(d => d.lp === lp);
+      if (!p) return;
+
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja_spoleczna || '';
+      const isWidow = imieStr.endsWith('owa') || imieStr.includes('Wdowa') || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || 1;
+      
+      const scanNums = (p.skany_roboczo || '').replace(/#/g, '').split(',').map(s => s.trim()).filter(Boolean);
+      
+      let occsRows = scanNums.map(sn => {
+        const mItem = mainData.find(d => parseInt(d.nr_skanu) === parseInt(sn));
+        const rok = mItem ? mItem.data_rok : (p.zakres_lat || '1650');
+        const ctx = mItem ? (mItem.opis_sprawy || mItem.kategoria || '') : (p.funkcja_spoleczna || '—');
+        return `
+          <tr>
+            <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(sn)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${sn}</a></td>
+            <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(rok)}</td>
+            <td style="font-style:italic;"><strong>${escapeHtml((p.imie ? p.imie + ' ' : '') + (p.nazwisko || ''))}</strong></td>
+            <td>${escapeHtml(ctx)}</td>
+          </tr>
+        `;
+      }).join('');
+
+      let occsHtml = `
+        <table class="occs-table">
+          <thead>
+            <tr>
+              <th style="width:14%;">Skan</th>
+              <th style="width:16%;">Rok</th>
+              <th style="width:34%;">Zapis w rękopisie</th>
+              <th style="width:36%;">Podatek / Rola / Kontekst</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${occsRows}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
+          </div>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
+          </div>
+          ${p.warianty_nazwiska ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.warianty_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">Poświadczenia źródłowe w jednostce (kliknij skan aby otworzyć)</div>
+          ${occsHtml}
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('detailModal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+
+    function exportGenCSV() {
+      window.location.href = 'krasnik_j14_slownik_genealogiczny.csv';
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>
