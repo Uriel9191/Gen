@@ -3,363 +3,454 @@
 2;Alid;Szynkarz;Miasto Kraśnik;właściciel winiarni / szynku winnego w Kraśniku (fol. 15v);34;1648;1;Alid Caupo
 3;Anna;Anna;Przedmieście Kraśnika;dziewka wysłowiona, legatariuszka 20 fl. gotówką i drew na opał w testamencie Pielaszka (fol. 30r);63;1648;1;Anna Puella / Służebna
 4;Babiarzczyk;Benedykt;Przedmieście Podlesie;przedmieszczanin kraśnicki, wraz z żoną Katarzyną Barszczówną sprzedaje ćwierć roli na Podlesiu (fol. 26v, 28r);56, 59;1648;2;Banaś Babiarzczyk / Benedictus
-5;Barczanowski;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, poszkodowany w wielkim pożarze miasta (spalona ćwierć domu, komora i zabudowania) (fol. 9v);22;1648;1;Stanislaus Barczanowski
-6;Barszczówna;Katarzyna;Przedmieście Podlesie;żona Banasia Babiarzczyka, współwłaścicielka i sprzedawczyni ćwierci roli na Podlesiu (fol. 26v);56;1648;1;Catharina Barszczowna
-7;Bartoszek;Tomasz;Przedmieście Kraśnika;zięć wdowy Katarzyny Ćwikliny, pozwany o zagarnięcie najlepszych staj roli przedślubnej i unikanie podatków (fol. 47r);97;1648;1;Thomas Bartoszek Anteoppidanus
-8;Bartoszkowa;N.;Przedmieście Kraśnika;córka wdowy Ćwikliny, żona Tomasza Bartoszka, obdarowana posagiem przedślubnym (fol. 47r);97;1648;1;Filia Catharinae Ćwiklinae
-9;Bałajczyk;Piotr;Przedmieście Kraśnika;przedmieszczanin kraśnicki, obwiniony i pozwany w manifestacji instygatora miejskiego (fol. 33v);70;1648;1;Petrus Bałayczyk Anteoppidanus
-10;Bałayczykowa;Sebastyanowa;Kraśnik (Przedmieście);wdowa przedmieszczańska, dłużniczka dworu i legatariuszy Elspucha;#102, #104;1648;2;Bałaykowa
-11;Bednarczyk;Andrzej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, właściciel roli Krakowskiej (fol. 15r);33;1648;1;Andreas Bednarczyk
-12;Bednarczykówna;Katarzyna;Przedmieście Kraśnika;córka Agnieszki Piotrowiszny, żona Wawrzyńca Rzepki, współobdarowana majątkiem rodzicielskim (fol. 32v);68;1648;1;Catharina Bednarczykowna
-13;Bednarz;Stanisław;Kraśnik;mieszczanin kraśnicki, sprzedawca domu przy Bramie Lubelskiej;#102;1648;1;Bednarzyk
-14;Benedykt Tkacz;Benedykt;Wieś Budzyń / Ordynacja Zamojska;gospodarz i tkacz ze wsi Budzyń, pracodawca poddanego Bartosza Karczyka (fol. 45v);94;1648;1;Benedictus Textor de Budzyń
-15;Betcycki;Andrzej;Miasto Kraśnik;mieszczanin kraśnicki, czeladnik szewski i pan młody, dłużnik Postrzygarczyka na domie za Bramą Sandomierską (fol. 14r, 14v, 15v);31;1648;1;Andreas Betcycki
-16;Bieda;Gabriel;Miasto Kraśnik;mieszczanin kraśnicki, sąsiad roli przy Stawie Braterskim i gościńcu Sandomierskim (fol. 34r);71;1648;1;Gabriel Bieda Civis Crasn.
-17;Bielawski;Remigian;Kraśnik / Ziemia Lubelska;podwojewodzi / podsędek ziemski lubelski, tenutariusz kraśnicki z ramienia Ordynacji Zamojskiej;#123;1648;1;Bielawski Subjudex
-18;Bielski;Stanisław;Kraśnik (Przedmieście);uczciwy przedmieszczanin, posesor pułanka pszenicy ku Świeżowskiemu;#104, #105;1648;2;Bielszki
-19;Bomba;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, powód w sprawie majątkowej przeciw wdowie Kępinej (fol. 11v);26;1648;1;Laurentius Bomba
-20;Breda;Gabriel;Kraśnik;cechmistrz cechu sukienniczego w Kraśniku (1648);#124;1648;1;Bryda sukiennik
-21;Butka;Augustyn;Miasto Kraśnik;syn Jana Butki, młodzieniec kraśnicki, uczestnik bójki w winiarni u Alida (fol. 15v);34;1648;1;Augustinus Butka
-22;Butka;Jan;Miasto Kraśnik;mieszczanin kraśnicki, ojciec Augustyna, wnioskodawca przesłuchania świadków (fol. 15v);34;1648;1;Joannes Butka
-23;Butkowiec;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, brat Wojciecha, dłużnik 100 zł u Postrzygaczyka (fol. 14r);31;1648;1;Mathias Butkowiec
-24;Butkowiec;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, nabywca roli Kępinej, dłużnik Stanisława Postrzygaczyka (fol. 13r, 14r);29;1648;1;"Albertus Butkowiec; Butka"
-25;Bączek;Jędrzej (Andrzej);Popkowice;poddany ze wsi Popkowice podsędka Remigiana Kiełczewskiego, poszkodowany pobiciem podczas jarmarku kraśnickiego (fol. 7v);18;1648;1;Andreas Bączek subditus
-26;Chmarowicz;Jan;Kraśnik;rajca kraśnicki, poborca podatkowy 1648;#112;1648;1;Chmarowic
-27;Ciasnocha;Jan;Miasto Kraśnik;mieszczanin kraśnicki, wnioskodawca urzędowego spisania testamentu Wojciecha Korony (fol. 29r);61;1648;1;Joannes Ciasnocha alias Siuda
-28;Cieślak;Franciszek;Kraśnik;pracowity młynarz grzebienny, nabywca domu przy Bramie Lubelskiej;#102;1648;1;Cieśla młynarz
-29;Cieślak;Jan;Kraśnik;mieszczanin, właściciel piwnic z magazynem skradzionych mięs i skór, osadzony w baszcie;#111;1648;1;Cieśla Jan
-30;Ciołek;Tomasz;Przedmieście Podlesie;przedmieszczanin, sąsiad miedzowy na Podlesiu (fol. 26v);56;1648;1;Thomas Ciołek / Cioka
-31;Cwiniarka;Kukulczyna;Kraśnik;uboga wdowa kraśnicka, uzyskująca areszt opiekuna na Bramie Krakowskiej;#108;1648;1;Świniarka Kukulczyna
-32;Cyrulik;Chirurg Zaprzysiężony;Miasto Kraśnik;urzędowy biegły medycyny sądowej i chirurg miejski, autor opisu ciętych ran głowy i palca (fol. 15r);33;1648;1;Chirurgus / Cyrulik Juratus
-33;Cyrulik Miejski;N.;Miasto Kraśnik;zaprzysiężony lekarz i chirurg miejski, przeprowadza sądową obdukcję ran i kości czaszki Wojciecha Króla (fol. 39v);82;1648;1;Chirurgus Iuratus Civitatis Krasnicensis
-34;Czeliejek;N.;Przedmieście Kraśnika;przedmieszczanin, sąsiad spornego ogrodu z Wawrzyńcem Latosem (fol. 35r, 35v);73, 74;1648;2;Czelieyek Anteoppidanus
-35;Czeszkowic;Matys;Kraśnik;mieszczanin kraśnicki, opiekun testamentowy sierot Kwaszowej;#124, #125;1648;2;Czeszkowicz
-36;Cępatczyk;Jan;Kraśnik;mieszczanin kraśnicki, brat Marcina, pozwany o mienie;#118;1648;1;Cępatka
-37;Cępatczyk;Marcin;Kraśnik;mieszczanin kraśnicki, pozwany o restytucję zrabowanego inwentarza;#118;1648;1;Cępatka
-38;Darczyk;Jakub;Wieś Wielkołaz;mieszkaniec wsi Wielkołaz, wierzyciel dochodzący 24 fl. od sukcesorów Laszczyka (fol. 40r);83;1648;1;Jacobus Darczyk de Wielkołaz
-39;Dobrzyński;Jan;Zamek Kraśnicki;szlachcic, namiestnik zamkowy i oficjalny delegat dzierżawcy Remigiana Kiełczewskiego do sądu miejskiego (fol. 22r, 22v);47;1648;1;Nobilis Joannes Dobrzynski
-40;Dorota;Dorota;Wieś Wielkołaz;młynarka wielkołaska, wierzycielka 20 florenów z terminem na Boże Narodzenie (fol. 29r);61;1648;1;Dorothea Molendinatrix
-41;Dreya;Wojciech;Miasto Kraśnik;ławnik przysięgły, deputowany do spisania testamentu Wojciecha Korony (fol. 29r);61;1648;1;Albertus Dreya Scabinus
-42;Dreyczyk;Marcin;Miasto Kraśnik;mieszczanin kraśnicki, powód w procesie rzeźnickim o 12 zł za połać wieprzową (fol. 44r);91;1648;1;Martinus Dreyczyk Civis Crasn.
-43;Dreyka;Jan;Miasto Kraśnik;mieszczanin kraśnicki, świadek i uczestnik rozliczeń spadkowych po zmarłej matce (fol. 27r);57;1648;1;Janek Dreyka
-44;Dynkowa;N.;Kraśnik;mieszczka kraśnicka, aktorka w procesie karnym;#116;1648;1;Dynczyna
-45;Dzierzkowska;Helena;Dzierzkowice;panna z Dzierzkowic, legatariuszka 24 zł z testamentu więziennego Kalisza;#119;1648;1;Helena de Dzierzkowice
-46;Dzierżek;Wojciech;Miasto Kraśnik;podwójci kraśnicki, prezyduje kontraktowi kupna roli nad Stawem Młyńskim (fol. 32r);67;1648;1;Albertus Dzierżek Viceadvocatus
-47;Dziezak;Adam;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek przysięgły składający przysięgę dwoma palcami ku gwiazdom o spłacie długu Madeja (fol. 37r);77;1648;1;Adamus Dziezak Anteoppidanus
-48;Dziura;Mikołaj;Miasto Kraśnik;arbiter polubowny i rozjemca w ugodzie o razy ze strony Koziołka (fol. 31v);66;1648;1;Nicolaus Dziura / Dziurzy
-49;Dzwonnik;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, najemca kamienicy, dłużnik czynszowy pod rygorem aresztu (fol. 17v);38;1648;1;Stanislaus Dzwonnik
-50;Dąbkowicz;Szymon;Kraśnik;cechmistrz cechu kowalskiego w Kraśniku (1648);#124;1648;1;Dąbkowic kowal
-51;Eliaszowicz;Eliasz;Miasto Kraśnik;faktor żydowski, roszczenia dłużne przeciw Madejowi, Kaliszowi i Grudce (fol. 37r, 37v);77, 78;1648;2;Infidelis Elias Herszkowicz / Eyrsch Judaeus
-52;Eliaszowicz;Jakub;Miasto Kraśnik;"kupiec i faktor żydowski, kwituje Jana Wróbla z 50 fl. (fol. 25r); spory o dług 100 fl. z Kafarą i Turczyńskim (fol. 25v, 26r, 75); posiadacz zastawionego srebrnego dostawczaka (fol. 35r)";53, 54, 55, 73, 75;1648;5;Jacobus Heliaszowicz / Infidelis Judaeus
-53;Eliaszowicz;Jakub;Janów Lubelski;niewierny Żyd z Janowa, kupiec zbożowy i solny, intromitowany w kamienicę Kafary;#103, #104, #105, #106, #107, #109;1648;6;Jakob Eliaszowic
-54;Elspuch;Gabriel;Kraśnik (Przedmieście);brat i egzekutor testamentu Łukasza Elspucha;#104;1648;1;Elzpuch
-55;Elspuch;Łukasz;Kraśnik (Przedmieście);zmarły przedmieszczanin kraśnicki, legator zboża na rzecz dworzan;#104;1648;1;Elzpuch
-56;Farsz;Maciej;Miasto Kraśnik;mieszczanin kraśnicki, kwitowany z długu przed sądem (fol. 16r);35;1648;1;Matthias Farsz
-57;Flacianka;Jadwiga;Miasto Kraśnik;mieszka kraśnicka, żona Stanisława Kolarza, współwłaścicielka domu przy Bramie Krakowskiej (fol. 20r);43;1648;1;Hedvigis Flacianka
-58;Fowot;Marcin;Kraśnik;mieszczanin kraśnicki, aktor w procesie o jurament na krucyfiks;#107;1648;1;Fowoth
-59;Fox;Jan;Miasto Kraśnik;"sławetny mistrz cechu kuśnierzy kraśnickich, wybrany starszym cechowym (cechmistrzem) na rok 1648 (fol. 4v) | pozwany przez sługę podsędka Wojciecha Zwolskiego o kradzież konia i 996 zł, oczyszczony przysięgą na krucyfiks (fol. 21v–23r) | wyrok sądu wójtowskiego i przysięga czeladzi (fol. 22r–23r) | przesłuchania w kamienicy (fol. 22v) | przysięga na krucyfiks z czeladzią (fol. 23r); stary rajca miejski kraśnicki, zaciąga 50 fl. długu u Stanisława Maniowicza z zastawem roli na Podlesiu (fol. 39r)";12, 46, 47, 48, 49, 81;1648;6;"Famat Joannes Fox cechmagister; Joannes Fox; Jan Foxen / Famosus Joannes Fox Consul Antiquus"
-60;Fox;Jan;Kraśnik (Rynek);rajca i konsul antiquus, kupiec, ofiara najazdu kozackiego, autor testamentu;#111, #115, #118, #125;1648;4;Foks
-61;Foxowa;Pani Rajczyna;Miasto Kraśnik;małżonka Jana Foxa, patrycjuszka kraśnicka, oskarżona o przyjęcie worka ze złotem i oczyszczona z zarzutów (fol. 22v, 23r);48;1648;1;Uxor Joannis Fox
-62;Fryg;Józef;Przedmieście Kraśnika;dłużnik 15 florenów wobec zmarłego Stanisława Pielaszka (fol. 30v);64;1648;1;Josephus Fryg
-63;Fryga;Józef;Kraśnik;mieszczanin kraśnicki, pozwany przez urząd wójtowski;#122;1648;1;Friga
-64;Goryl;Wojciech;Miasto Kraśnik;"ławnik przysięgły, wyznaczony opiekun siostry Korony (fol. 29v); opiekun porzuconej Katarzyny Ćwikliny (fol. 33v); podwójci kraśnicki, deleguje ławników do obdukcji ran poddanego z Budzynia (fol. 45v)";62, 70, 94;1648;3;Albertus Goryl Scabinus / Albertus Goryl Viceadvocatus
-65;Gorzelnik;Jan;Kraśnik;gorzelnik, sługa żydowski, więziony w Masce za szaber wojenny pod czas inwazji kozackiej;#114, #115;1648;2;Joannes penates
-66;Gorzelnik;Marcin;Kraśnik;gorzelnik, sługa żydowski, więziony w Masce za szaber wojenny pod czas inwazji kozackiej;#114, #115;1648;2;Martinus penates
-67;Grudka;Adam;Przedmieście Kraśnika;"kuśnierz i przedmieszczanin kraśnicki, sprzedaje grunt Kandupowi na mocy wyroku Trybunału Zamojskiego (fol. 31r); kuśnierz kraśnicki, składa przysięgę na krucyfiks super imaginem Crucifixi przeciw Żydowi (fol. 37v)";65, 78;1648;2;Adam Grudka Pellifex
-68;Grudka;Tomasz;Kraśnik;kuśnierz, nowo wybrany ławnik przysięgły ocalały po najeździe kozackim (1648);#123;1648;1;Grotka
-69;Grudnik;Bartłomiej;Przedmieście Kraśnika;przedmieszczanin kraśnicki, spór domowy z Froną Grudnikową o podział komory (fol. 28v);60;1648;1;Bartholomaeus Grudnik
-70;Grudnik;Serafin;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód w sprawach szkód polnych i kradzieży konia (fol. 18v, 23r);40;1648;1;Seraphinus Grudnik
-71;Grudnikowa;Frona;Przedmieście Kraśnika;przedmieszczanka, pozwana w sporze domowym o komorę pod wadium 200 groszy (fol. 28v);60;1648;1;Frona Grudnikowa
-72;Grzebień;Jan;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, oskarżony przez Grudnika o zabór konia, zobowiązany do przysięgi na krucyfiks (fol. 23r);49;1648;1;"Joannes Grzebien; Grzebieńczyk"
-73;Grzebień;Józef;Przedmieście Kraśnika;dłużnik 24 florenów z terminem spłaty na św. Jan (fol. 30v);64;1648;1;Josephus Grzebień
-74;Grzebieńczyk;Piotr;Miasto Kraśnik;mieszczanin kraśnicki, powód w sprawie przeciw Wawrzyńcowi Szadkowi (fol. 18r);39;1648;1;Petrus Grebieńczyk
-75;Grzebieńczyk;Piotr;Przedmieście Kraśnika;zastawnik gruntu Adama Grudki spłacany z sumy 50 fl. wedle Dekretu Trybunału Zamojskiego (fol. 31r);65;1648;1;Petrus Grzebieńczyk
-76;Grzebieński;Sebastian;Miasto Kraśnik;mieszczanin kraśnicki, właściciel browaru miejskiego poszkodowany przez sługę (fol. 20v);44;1648;1;Sebastianus Grzebienski
-77;Grzebieński;Sebastian;Przedmieście Kraśnika;krawiec i przedmieszczanin, wybiera pobór podwodny u burmistrza i świadczy o zajściu z Żydem Jaskierem (fol. 46v);96;1648;1;Sebastianus Grzebieński Sartor
-78;Grzybowski;Andrzej;Kraśnik;burmistrz kraśnicki 1648, syndyk grobowy;#111, #119;1648;2;Grzebowski
-79;Grządka;Tomasz;Miasto Kraśnik;"mieszczanin kraśnicki, wierzyciel ustanawiający pełnomocnika procesowego na 8 zł (fol. 19r); mieszczanin kraśnicki, wraz z żoną Maryną sprzedaje ogród nabyty od ks. Rybickiego (fol. 27v)";41, 58;1648;2;Thomas Grządka
-80;Grządkowa;Maryna;Miasto Kraśnik;żona Tomasza Grządki, sprzedaje wraz z mężem ogród nabyty od ks. Marka Rybickiego (fol. 27v);58;1648;1;Marina Grządkowa
-81;Gąsek;Bartosz;Miasto Kraśnik;ławnik przysięgły, świadek urzędowy granic ogrodu Latosa i Czeliejka (fol. 35v);74;1648;1;Bartholomaeus Gąsek Scabinus
-82;Gąska;Tomka;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, bratanica zmarłego Wojciecha Kępy, wdowa (fol. 12v);28;1648;1;Thomka Gąska Vidua
-83;Głomiński;N.;Miasto Kraśnik;notariusz i pisarz miejski kraśnicki, autor uroczystej karty tytułowej Annus Novus 1648 i rejestratury czystopisu (fol. 1r);5;1648;1;Głomiński notarius
-84;Głomiński;Stanisław;Miasto Kraśnik;"kancelaria akt wójtowskich i relacje obdukcji (fol. 16r); pisarz miejski kraśnicki, autor wpisów z cytatami ze Zwierciadła Saskiego i Prawa Magdeburskiego (fol. 25v-26r); pisarz miejski, wyznaczony wraz z rozjemcami do rewizji księgowej Żmiedziny i Pączka (fol. 47v)";35, 54, 55, 98;1648;4;Stanislaus Glominski Notarius / Stanislaus Głomiński Notarius
-85;Hałaszkowa;N.;Kraśnik;więźniarka oskarżona o plądrowanie domu i zapał u Foxa;#115;1648;1;Hałaszyca
-86;Herszkowicz;Eliasz;Miasto Kraśnik;Żyd kraśnicki, powód w sprawie o dług przeciw Błażejowi Madejowi na sądzie gajonym (fol. 35v);74;1648;1;Infidelis Elias Herszkowicz Judaeus
-87;Jakub;Jakub;Przedmieście Kraśnika;brat Kozła, dawny współposiadacz ogrodu na ojcowiźnie (fol. 35r);73;1648;1;Jacobus Frater Kozieł
-88;Jakubowicz;Eliasz;Miasto Kraśnik;kupiec żydowski kraśnicki, właściciel/dzierżawca piwnicy winnej (winiarni) (fol. 15r);33;1648;1;Elias Jakubowicz Judaeus
-89;Jakubowicz;Eliasz;Janów Lubelski;syn kupca Jakuba Eliaszowicza, plenipotent chorego ojca;#108, #109;1648;2;Elias Eliaszowicz
-90;Jakubówna;Maryna;Przedmieście Kraśnika;"wdowa po Wojciechu Koronie, składa urzędowy inwentarz majątku po zmarłym mężu (fol. 34v, 35r); sędziwa matka zeznająca pod przysięgą na korzyść syna Andrzeja Wronki (fol. 43v)";72, 73, 90;1648;3;Marina Jacobowna Vidua Koronina
-91;Janaszek;Felicjan;Przedmieście Kraśnika;kompromisarz i arbiter polubowny w ugodzie o razy ze strony Kowaliczka (fol. 31v);66;1648;1;Felicianus Janaszek
-92;Janaszek;Jakub;Wieś Budzyń / Ordynacja Zamojska;poddany ze wsi ordynackiej Budzyń, zaciąga oblig na 16 marek polskich za grunt na przedmieściu (fol. 37v, 38r);78, 79;1648;2;Jacobus Janaszek Subditus de Budzyń
-93;Janaszek;Michał;Kraśnik;posesor kraśnicki, asesor do Trybunału Zamojskiego 1648;#124;1648;1;Janaszkowicz
-94;Janaszkowicz;Albert;Kraśnik;wójt i sędzia ordinarius kraśnicki, elektor magistratu na Zamku 1648;#108, #119, #123;1648;3;Janaszek
-95;Janaszkowicz;Chrystoph;Kraśnik;wójt kraśnicki, autor intercyz małżeńskich, posesor;#105, #111, #113;1648;3;Janaszek
-96;Janaszkowicz;Jan;Kraśnik;obywatel kraśnicki, legatariusz testamentu więziennego Kalisza;#119;1648;1;Janaszkowic
-97;Janaszkowicz;Wojciech;Miasto Kraśnik;"wójt kraśnicki, gospodarz wielkiej noworocznej elekcji magistratu 25 I 1648 r., przewodniczący sesji gajonych sądu wójtowsko-ławniczego (fol. 4r, 10v, 11r) | laska wójtowska na sesjach spornych i kontraktach kupna (fol. 13r, 19v, 22v) | kontrakt młyna Grzebieńskiego (fol. 19v) | wyrok łączony z namiestnikiem ordynackim (fol. 22v); wójt kraśnicki, prezyduje sesjom gajonym i sprawom wieczystym (fol. 25r, 25v, 26v, 27v, 28r, 35v); wójt kraśnicki, prezyduje sesjom gajonym, procesom spadkowym i intromisjom (fol. 37r, 39r, 39v, 41r, 42r, 48v)";11, 24, 25, 29, 42, 48, 53, 54, 55, 56, 58, 59, 74, 77, 81, 82, 85, 87, 100;1648;19;"Albertus Janaszkowicz advocatus; Albertus Janaszkowic; Woyciech Janaszkowicz / Albertus Janaszkowicz Advocatus"
-98;Jantoszek;Tomasz;Kraśnik;mieszczanin, opiekun sieroty Koźmiurka, aresztowany w wieży Bramy Krakowskiej;#108;1648;1;Jantoszkowicz
-99;Jaraszek;Mieszkaniec;Miasto Kraśnik;mieszczanin kraśnicki, zaprzysiężony świadek umowy przedślubnej Rzepczyka z Kościejną (fol. 21v);46;1648;1;Honestus Jaraszek
-100;Jasielski;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, współopiekun sierot Stanisława Płaczkowicza (fol. 35v);74;1648;1;Simon Jasielski Tutor
-101;Jasionowic;Bartosz;Kraśnik;uczciwy mieszczanin kraśnicki, dłużnik;#107, #109;1648;2;Jasionowicz
-102;Jaskier;Jaskier;Miasto Kraśnik;"kupiec żydowski kraśnicki, ofiara pobicia (fol. 44v); oskarżony o zakłócenie procesji kościelnej i poboru podatków (fol. 46v)";92, 96;1648;2;Infidelis Jaskier Judaeus Crasnicensis
-103;Jemieszka;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, skazany za kradzieże jarmarczne płachty, wora, owcy i kury (fol. 19r, 19v);41;1648;1;Mathias Iemieszka
-104;Kafara;Stanisław;Miasto Kraśnik;"mieszczanin kraśnicki, dłużnik wdowy Kępinej (beczka soli) i kupca żydowskiego (100 zł) (fol. 12r, 12v, 20v); testator na łożu śmierci (fol. 24r-24v); spory ze szwagrem Turczyńskim o 100 zł (fol. 25v-26r); apelant do Trybunału Zamojskiego; zastawca srebrnego dostawczaka (fol. 35r)";27, 51, 52, 54, 55, 60, 73, 75;1648;8;Stanislaus Kafara / Stanislaus Kafara / Staś
-105;Kafara;Stanisław;Kraśnik (Rynek);zmarły patrycjusz, kupiec, posesor kamienicy w Rynku;#103, #105, #106, #107, #108, #109;1648;6;Caphara
-106;Kafarzyca;Zofia;Miasto Kraśnik;wdowa po Stanisławie Kafarze, pozywa Jana Kalisza o 15 gr długu rolnego (fol. 46r);95;1648;1;Zofia Kafarzyca Vidua
-107;Kalisz;Jan;Przedmieście Kraśnika;"przedmieszczanin, przysięga oczyszczająca o 80 gr za żyto (fol. 37v); pozwany przez wdowę Kafarzycę (fol. 46r)";78, 95;1648;2;Joannes Kalisz / Kalis
-108;Kalisz;Jan;Kraśnik (Przedmieście);przedmieszczanin, szabrownik pod czas inwazji kozackiej, autor testamentu więziennego, torturowany ogniem, ułaskawiony;#116, #117, #119, #120, #122;1648;5;Kaliszek
-109;Kaliński;Adam;Ziemia Lubelska;szlachcic, powód manifestujący w sądzie miejskim przeciwko Janowi Kłopocikowi o bezprawny zabór dóbr i inwentarza (fol. 3r, 3v);9, 10;1648;2;Nobilis Adamus Kaliński
-110;Kamieński;Wojciech;Miasto Kraśnik;uczciwy mieszkaniec Kraśnika, sprzedawca cząstki roli na rzecz Stanisława Kędzierskiego (fol. 2r, 2v);7, 8;1648;2;Honestus Albertus Kamieński
-111;Kamieński;Wojciech;Przedmieście Kraśnickie;przedmieszczanin, powód przeciw Maciejowi Jemieszce o szkody i kradzieże jarmarczne (fol. 19r, 19v) | wyrok przysądzający odszkodowanie za owcę i płachtę (fol. 19v);41, 42;1648;2;Albertus Kamienszczyk
-112;Kandup;Wojciech;Przedmieście Podlesie;"przedmieszczanin kraśnicki, nabywca ćwierci roli na Podlesiu od Pielaszka za 30 fl. (fol. 30v); kupiec gruntu od Adama Grudki (fol. 31r); sąsiad gumna pod Stokami (fol. 34r)";64, 65, 71;1648;3;Albertus Kandup
-113;Karczyk;Bartosz;Wieś Budzyń / Ordynacja Zamojska;pracowity poddany ze wsi Budzyń, poddany obdukcji ran przed podwójcim i ławnikami (fol. 45v);94;1648;1;Laboriosus Bartholomaeus Karczyk Subditus de Budzyń
-114;Kasper;Kasper (Młynarz);Popkowice;młynarz, poddany ze wsi Popkowice podsędka Remigiana Kiełczewskiego, powód w sprawie o pobicie na jarmarku kraśnickim (fol. 7v);18;1648;1;Gaspar Molitor de Popkowicze
-115;Kat Kraśnicki;Wojciech;Kraśnik;miejski kat kraśnicki (Exekutor), mistrz sprawiedliwości wykonujący tortury rozciągania i przypalania ogniem w ratuszu;#120, #122;1648;2;Woyciech Kat / Exekutor
-116;Kieniewierski;Krzysztof;Województwo Lubelskie;szlachcic, powód w procesie o zniewagę słowną przeciw Agnieszce Piotruszkównie (fol. 46v);96;1648;1;Nobilis Christophorus Kieniewierski
-117;Kiełczewski;Remigian;Ziemia Lubelska / Popkowice;"podsędek ziemski lubelski, dzierżawca (tenutarius) dóbr kraśnickich z ramienia ordynata Jana Zamoyskiego, dziedzic wsi Popkowice; przewodniczący elekcji magistratu Kraśnika 1648 r. (fol. 4r, 4v, 7v)";11, 12, 18;1648;3;Generosus Remigianus Kiełczewski
-118;Kiełczewski;Remigian;Popkowice;podsędek ziemski lubelski, dzierżawca Kraśnika, interwencja w procesie Zwolski-Fox przez namiestnika Dobrzyńskiego (fol. 22r);47;1648;1;Remigianus Kiełczewski
-119;Kolarz;Stanisław;Miasto Kraśnik;rzemieślnik kolarz, sprzedawca domu drewnianego na wale miejskim za 120 zł (fol. 20r);43;1648;1;Stanislaus Kolarz
-120;Korona;Wojciech;Przedmieście Kraśnika;"przedmieszczanin kraśnicki, testator na łożu śmierci spisany przez ławników (fol. 29r-29v); inwentarz pośmiertny z żoną Maryną (fol. 34v)";61, 62, 72;1648;3;Albertus Korona / Wrona
-121;Koronczanka;Anna;Przedmieście Kraśnika;siostra zmarłego Wojciecha Korony, legatariuszka i podopieczna wyznaczonych kuratorów (fol. 29v);62;1648;1;Anna Koronczanka
-122;Korzeniowska;Barbara;Kraśnik;mieszczka kraśnicka, żona Jana Piekarczyka;#113, #114;1648;2;Korzeniowska
-123;Kosuka;Grzegorz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, aresztant miejski zwolniony za kaucją poręczycieli (fol. 21r);45;1648;1;Gregorius Kosuka Incarceratus
-124;Kowal;Jakub;Popkowice;poddany ze wsi Popkowice, powód z ramienia dzierżawcy Kiełczewskiego przeciwko nocnej straży miejskiej Kraśnika o bezprawne uwięzienie (fol. 4v);12;1648;1;Jacobus Kowal de Popkowicze
-125;Kowaliczek;Piotr;Przedmieście Kraśnika;przedmieszczanin kraśnicki, sprawca pobicia, zawiera ugodę sąsiedzką i płaci 1 zł za zadane razy (fol. 31v);66;1648;1;Petrus Kowaliczek
-126;Kowalik;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poręczyciel uwięzionego Grzegorza Kosuki (fol. 21r);45;1648;1;Stanislaus Kowalik
-127;Kozanecki;Jakub;Kraśnik;cechmistrz cechu szewskiego w Kraśniku (1648);#124;1648;1;Kozańczyk szewc
-128;Kozar;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pożyczający sumę pieniędzy u rajcy Jana Mroczka z zabezpieczeniem na domu w ul. Lubelskiej (fol. 1v);6;1648;1;Stanislaus Kozar suburbanus
-129;Kozieł;N.;Przedmieście Kraśnika;dawny posiadacz ojczystego ogrodu przy Latosie (fol. 35r);73;1648;1;Kozieł Anteoppidanus
-130;Kozieł;Wojciech;Budzyń;pracowity poddany ordynacki ze wsi Budzyń, zbywca ogrodu;#109, #110;1648;2;Kozioł Albertus
-131;Koziełek;Szymon;Miasto Kraśnik;syn Wawrzyńca Koziełka, współkwitujący dłużnika Szymona Kudrelę przed urzędem (fol. 8r);19;1648;1;Simon Koziełek filius
-132;Koziełek;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, kwitujący Szymona Kudrelę z pełnej sumy długu (fol. 8r);19;1648;1;Laurentius Koziełek
-133;Koziołek;Stanisław;Przedmieście Kraśnika;przedmieszczanin kraśnicki, wraz z żoną Apolonią udziela pożyczki 300 zł przybyszowi z Litwy (fol. 45r);93;1648;1;Stanislaus Koziołek Anteoppidanus
-134;Koziołek;Szymon;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pobity poszkodowany, otrzymuje 1 zł nawiązki za razy (fol. 31v);66;1648;1;Simon Koziołek
-135;Koziołkowa;Apolonia;Przedmieście Kraśnika;żona Stanisława Koziołka, współkredytodawczyni pożyczki 300 zł dla przybysza z Litwy (fol. 45r);93;1648;1;Apollonia Koziołkowa
-136;Kościejna;Agnieszka;Miasto Kraśnik;wdowa kraśnicka, pozwana o niewydanie wyprawy posagowej (owce, wieprz), skazana do więzienia w Masce (fol. 17r, 21v, 23v);37;1648;1;Agnes Kosceyna alias Błasiowa
-137;Koźmiurek;Stanisław;Kraśnik;sierota pod opieką Jantoszka;#108;1648;1;Koźmiurka
-138;Krawczyk;Walenty;Miasto Kraśnik;komornik mieszkający u Szymona Szopki, poszkodowany pogorzelec, który w pożarze miasta utracił cały amikt i odzienie (fol. 9v);22;1648;1;Valentinus Krawczyk komornik
-139;Krawiec;Maciej;Przedmieście pod Stokami;właściciel gruntu z piecem w ogrodzie i płotem przez rzekę Czerwoną pod Stokami (fol. 34r);71;1648;1;Matthias Krawiec / Sartor
-140;Król;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, ofiara ciężkiego pobicia przez Marcina Cypulika z obrażeniami głowy i żeber (fol. 39v);82;1648;1;Albertus Król Anteoppidanus
-141;Kucińska;Wdowa;Przedmieście pod Stokami;przedmieszczanka / wdowa, sąsiadka miedzowa gruntu pod Stokami (fol. 34r);71;1648;1;Vidua Kucińska
-142;Kuczkowicz;Andrzej;Kraśnik;senior scabinus, podwójci kraśnicki, świadek tortur i testamentów 1648;#105, #120, #122, #123, #124, #125;1648;6;Kuczkowic
-143;Kuczowicz;Andrzej;Miasto Kraśnik;"ławnik przysięgły kraśnicki, dokonujący urzędowej obdukcji ran krawca Wojciecha Misieckiego (fol. 10v) | ławnik przysięgły kraśnicki, wizja lokalna zniszczeń majętności i sadu (fol. 23v); ławnik przysięgły spisujący testament Stanisława Kafary (fol. 24r) oraz testament Wojciecha Wrony (fol. 32v); ławnik przysięgły, obdukcja ran Bartosza Karczyka z Budzynia (fol. 45v)";24, 50, 51, 68, 94;1648;5;"Andreas Kuczowicz scabinus; Andreas Kuczowicz Scabinus"
-144;Kudelka;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poszkodowany pobity z podbitym okiem i ranami twarzy (fol. 16r);35;1648;1;"Matthias Kudelka; Kudrelka"
-145;Kudrela;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik spłacający w całości sumę główną i prowizję Wawrzyńcowi i Szymonowi Koziełkom (fol. 8r);19;1648;1;Simon Kudrela
-146;Kukla;Jan;Miasto Kraśnik;uczciwy mieszczanin kraśnicki, powód w sprawie o naruszenie spokoju publicznego, wnioskujący o aresztowanie Jakuba Kuśnierczyka (fol. 6v);16;1648;1;Honestus Joannes Kukla
-147;Kulanka;Barbara;Przedmieście Kraśnika;wdowa po krawcu Szymonie Pielaszku, otrzymuje wyrokiem połowę masy 300 zł za opiekę w chorobie i budynki (fol. 41r, 41v, 42r);85, 86, 87;1648;3;Honesta Barbara Kulanka Vidua Pielaszkowa
-148;Kurelowa;Zofia;Szemielowice;wdowa po garncarzu Marcinie Sickim z Szemielowic/Kraśnika, kwituje Turczyńskich ze 100 zł (fol. 13v);30;1648;1;Zophia Kurelowa Vidua
-149;Kuśnierczyk;Jakub;Miasto Kraśnik;mieszczanin kraśnicki, skazany wyrokiem sądu na uwięzienie w wieży miejskiej za publiczne awantury i zniewagi urzędu na wniosek Jana Kukli (fol. 6v);16;1648;1;Jacobus Kuśnierczyk incarcerandus
-150;Kuśnierz;Łukasz;Miasto Kraśnik;kuśnierz kraśnicki, wyznaczony przez urząd radziecki na opiekuna prawnego wdowy Stanisławowej Kępinej (fol. 6r);15;1648;1;Lucas Pellio / Kuśnierz
-151;Kwas;Paweł;Kraśnik (Przedmieście);niegdy przedmieszczanin kraśnicki, mąż Jadwigi;#124;1648;1;Kwasior
-152;Kwaszowa;Jadwiga;Kraśnik (Przedmieście);wdowa po Pawle Kwasie Kwasiorze, autorka testamentu, legatarka kościoła zamkowego;#124, #125;1648;2;Kwasiorka
-153;Kwaszowic;Marcin;Miasto Kraśnik;"ławnik i instygator urzędowy wójtowski, składa manifestację przeciw Bałajczykowi (fol. 33v); ławnik przysięgły, kurator wdowy Barbary Kulanki (fol. 41r); autor prywatnej ugody braci Ćwieków (fol. 42v); nadzór nad legatami (fol. 40v)";70, 84, 85, 88;1648;4;Martinus Kwaszowic Scabinus et Instigator
-154;Kwaszowicz;Marcin;Kraśnik;ławnik przysięgły, prowizor Ubogiego Szpitala Kraśnickiego 1648;#101;1648;1;Kwaszewic
-155;Kwiecień;Piotr;Przedmieście Kraśnika;zastawnik gruntu Adama Grudki spłacany na mocy wyroku Trybunału Zamojskiego (fol. 31r);65;1648;1;Petrus Kwiecień
-156;Kędzierski;Stanisław;Miasto Kraśnik;mieszkaniec Kraśnika, nabywca roli od Wojciecha Kamieńskiego z klauzulą ewikcyjną (fol. 2r, 2v);7, 8;1648;2;Stanislaus Kędzierski
-157;Kępa;Wojciech;Miasto Kraśnik;zmarły mieszczanin kraśnicki, mąż Stanisławowej, dawny posesor roli Białkowskiej (fol. 6r);15;1648;1;Wojciech Kępa nieboszczyk
-158;Kępczyca;Regina;Kraśnik;wdowa po Wojciechu Kępie, instygatorka procesu o szaber wojenny;#120;1648;1;Kępina
-159;Kępczyk;Andrzej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, bratanek zmarłego Wojciecha Kępy, spór o spadek i rolę Białkowska (fol. 12v);28;1648;1;"Andreas Kępczyk; Kępka"
-160;Kępina;Regina;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, wdowa po Wojciechu Kępie, sprzedająca cząstkę roli Białkowska (fol. 12v, 13r);28;1648;1;Regina Kępina Wojciechowa Vidua
-161;Kępina;Regina;Przedmieście Kraśnika;wdowa po Wojciechu Kępie, egzekwuje 12 zł 20 gr nawiązki za śmiertelne pobicie męża (fol. 36v);76;1648;1;Regina Kępina Vidua
-162;Kępina;Stanisławowa;Miasto Kraśnik;wdowa po Wojciechu Kępie, powódka w asyście opiekunów urzędowych w procesie przeciw Zachariaszowi Pawłowiczowi o pułłanek roli Białkowskiej (fol. 6r);15;1648;1;Stanisławowa Wojciechowa Kępina vidua
-163;Kępka;Grzegorz;Przedmieście Kraśnika;dłużnik 36 florenów wobec zmarłego Stanisława Pielaszka (fol. 30v);64;1648;1;Gregorius Kępka
-164;Kępka;Grzegorz;Kraśnik (Przedmieście);przedmieszczanin kraśnicki, ograbiony z wozów pod czas ucieczki wojennej;#116, #117, #120, #122;1648;4;Kępa Grzegorz
-165;Kłopocik;Gabriel;Miasto Kraśnik;mieszczanin kraśnicki, powód przeciwko wdowie Kępinej, woźnemu Rynarczykowi i Niedbałce (fol. 12r, 17r, 18v);27;1648;1;Gabriel Kłopocik
-166;Kłopocik;Jan;Miasto Kraśnik;mieszczanin kraśnicki, pozwany w manifestacji szlachcica Adama Kalińskiego o bezprawny zabór dóbr i inwentarza (fol. 3r, 3v);9, 10;1648;2;Joannes Kłopocik civis
-167;Kłopocik;Łukasz;Miasto Kraśnik;zmarły mieszczanin kraśnicki, dłużnik i wierzyciel w sprawach spadkowych (fol. 12r, 18v);27;1648;1;Olim Lucas Kłopocik
-168;Kłopot;Wincenty;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód przeciw szwagrowi Tomaszowi Zatyce o wycięcie sadu i zniszczenie budynku (fol. 23r, 23v);49;1648;1;Vincentius Kłopot
-169;Kłopot;Wincenty;Przedmieście Kraśnika;poszkodowany w sprawie wyciętych drzew owocowych w sadzie (fol. 24r);51;1648;1;Vincentius Kłopot
-170;Kłopotek;Gabriel;Miasto Kraśnik;mieszczanin, pozwany przez zakrystiana o rachunek z legatów testamentowych śp. Łukasza (fol. 40v);84;1648;1;Gabriel Kłopotek
-171;Kłopotek;Łukasz olim;Miasto Kraśnik;zmarły mieszczanin kraśnicki, ofiarodawca legatów na kościół parafialny i dziadów szpitalnych (fol. 40v);84;1648;1;Lucas Kłopotek Olim
-172;Laskowski;Szymon;Kraśnik;rajca kraśnicki, poborca podatkowy 1648;#112;1648;1;Laszkowski
-173;Laszczyk;Grzegorz olim;Wieś Wielkołaz;zmarły dłużnik ze wsi Wielkołaz, ojciec włodarza Wojciecha (fol. 40r);83;1648;1;Gregorius Laszczyk Olim de Wielkołaz
-174;Laszczyk;Wojciech;Wieś Wielkołaz / Ordynacja Zamojska;urzędnik ordynacki, włodarz wsi Wielkołaz, reprezentuje sukcesorów w procesie o spłatę długu (fol. 40r);83;1648;1;Albertus Laszczyk Villicus de Wielkołaz
-175;Laszczyk;Wojciech;Wilkołaz;urzędnik dworu ordynackiego w Wilkołazie (Status Curiae Aulicus);#102;1648;1;Laszcyk
-176;Latos;Wawrzyniec;Miasto Kraśnik;"mieszczanin kraśnicki, powód w sporze o ogród i zasiewy wiosenne (fol. 28v); posiadacz ogrodu przy Czeliejku (fol. 35r); mieszczanin, ugoda z Tomaszem Szleyem co do uprawy ogrodu (fol. 38v)";60, 73, 80;1648;3;Laurentius Latos
-177;Ledwacki;Benedykt;Miasto Kraśnik;tkacz, mieszczanin kraśnicki, dłużnik Jakuba Niekraszewicza pod rygorem aresztu (fol. 11v);26;1648;1;Benedictus Ledwacki
-178;Liberator;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, zbywca praw wieczystych do Młyna Grzebieńskiego (fol. 19v);42;1648;1;Stanislaus Liberator / Hiberator
-179;Lisz;Wojciech;Kraśnik (Przedmieście);przedmieszczanin, oskarżony o szaber wojenny i świętokradczy zabór kościelnej chorągwi pogrzebowej;#116, #117, #118, #121;1648;4;Lis Wojciech
-180;Maczkowicz;Krzysztof;Wielkie Księstwo Litewskie / Kraśnik;sławetny kupiec/rzemieślnik, przybysz z państwa litewskiego, zaciąga pożyczkę 300 zł u Stanisława Koziołka (fol. 45r);93;1648;1;Famosus Christophorus Maczkowicz e Magno Ducatu Lithuaniae
-181;Madej;Błażej;Przedmieście Kraśnika;"przedmieszczanin, nabywca ćwierci roli od Rogalowskich nad Stawem Młyńskim (fol. 32r); pozwany przez Żyda Eliasza Herszkowicza o dług (fol. 35v); przedmieszczanin, spłaca dług u Żyda Herszkowicza (fol. 37r); pozywa tkacza Szostorowskiego (fol. 46r); sąsiad roli szpitalnej (fol. 48r)";67, 74, 77, 95, 99;1648;5;Blasius Madey
-182;Malarz;Kasper;Miasto Kraśnik;cechowy mistrz malarski kraśnicki, kurator i opiekun prawny sierot po Stanisławie Płaczkowiczu (fol. 35v, 36r);74, 75;1648;2;Famosus Gaspar Pictor / Kasper Malarz
-183;Maniewski;Stanisław;Miasto Kraśnik;uczciwy krawiec kraśnicki, wybrany i zatwierdzony cechmistrzem cechu krawieckiego na rok 1648 (fol. 4v) | starszy cechu krawieckiego, powód w sprawie kaucji więziennej 45 zł za Grzegorza Kosukę (fol. 21r);12, 45;1648;2;"Honestus Stanislaus Maniewski; Stanislaus Maniewski; Maniewicz"
-184;Maniowicz;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, wierzyciel rajcy Jana Foxa na kwotę 50 fl. z zabezpieczeniem na roli podlaskiej (fol. 39r);81;1648;1;Stanislaus Maniowicz Civis Crasn.
-185;Markus Zypulik;Marcin;Miasto Kraśnik;"mieszczanin kraśnicki, dawny współwłaściciel części schedy rodzicielskiej (fol. 29v); mieszczanin, sprawca krwawego pobicia Wojciecha Króla poddanego obdukcji cyrulika (fol. 39v)";62, 82;1648;2;Martinus Markus Zypulik / Martinus Cypulik / Zypulik
-186;Miczkowna;Zofia;Kraśnik;uczciwa krawcowa kraśnicka, nabywczyni miodu, apelująca do Trybunału Zamojskiego;#112, #113;1648;2;Mickowa krawcowa
-187;Miecałek;Piotr;Miasto Kraśnik;sługa browarny Sebastiana Grzebieńskiego oskarżony o rozlanie oleju i kradzież śledzi (fol. 20v);44;1648;1;Petrus Miecałek Famulus
-188;Miklowska;Barbara;Lublin;uczciwa obywatelka miasta Lublina, wierzycielka sukiennicza;#107;1648;1;Mikołajowska
-189;Misiecki;Wojciech;Miasto Kraśnik;mistrz krawiecki kraśnicki, poszkodowany ofiara brutalnego pobicia i dotkliwego pokąsania w rękę przez pijaną Żydówkę Wawrzyńcową w gospodzie (fol. 10v);24;1648;1;Albertus Misiecki sartor
-190;Misztoski;Jakub ks.;Kraśnik;kanonik regularny laterański, zakrystian klasztoru kraśnickiego;#110;1648;1;Misztovius
-191;Misztovius;Jakub ks.;Parafia Kraśnik;duchowny katolicki, zakrystian kościoła parafialnego w Kraśniku, dochodzi legatów na kościół i dziadów szpitalnych (fol. 40v);84;1648;1;Admodum Reverendus Dominus Jacobus Misztovius Sacrarius
-192;Monych;Jan;Kraśnik;sławetny mieszczanin, kurator prawny wdowy Bałayczykowej;#104;1648;1;Monich
-193;Mroczek;Jan;Miasto Kraśnik;"sławetny rajca kraśnicki, opiekun prawny dziatek po zmarłym Kozarze, wierzyciel sumy ulokowanej na domu w ul. Lubelskiej (fol. 1v); ławnik przysięgły spisujący testament Stanisława Kafary na łożu śmierci (fol. 24r)";6, 51;1648;2;Famat Joannes Mroczek consul
-194;Mroczek;Jan;Kraśnik;sławetny burmistrz kraśnicki obierany na Zamku po najeździe kozackim (1648);#123;1648;1;Mroczkowicz
-195;Mularz Szlachecki;Jan;Miasto Kraśnik;"szlachecki rzemieślnik mularz, arbiter polubowny w ugodzie ze strony Koziołka (fol. 31v); burmistrz kraśnicki / mularz, pobiera podatek podwodny w dzień targowy (fol. 46v)";66, 96;1648;2;Joannes Mularz Nobilis / Joannes Mularz Proconsul
-196;Młodzienieczyk;Augustyn;Miasto Kraśnik;młodzieniec kraśnicki, uczestnik bójki w winiarni u Alida (fol. 15v);34;1648;1;Augustinus Młodzienieczyk
-197;Młynarka;Kłopotkowa;Stróża;młynarka ze wsi Stróża pod Kraśnikiem, ograbiona z wykopanej beczki miodu i zbóż;#116, #117, #122;1648;3;Kłopotka ze Stróży
-198;Niedbałka;Grzegorz;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik półtora korca żyta po Łukaszu Kłopociku (fol. 18v);40;1648;1;Gregorius Niedbałka
-199;Niekraszewicz;Jakub;Miasto Kraśnik;szlachcic, powód przeciwko tkaczowi Benedyktowi Ledwackiemu o dług 10 zł (fol. 11v);26;1648;1;Generosus Jacobus Niekraszewicz
-200;Olejek;Wojciech;Miasto Kraśnik;ławnik przysięgły, deputowany do wysłuchania ostatniej woli Wojciecha Wrony (fol. 32v);68;1648;1;Albertus Oleyek Scabinus
-201;Osiak;Osiak;Miasto Kraśnik;Żyd kraśnicki, wierzyciel zmarłego Wojciecha Korony (fol. 34v);72;1648;1;Osiak Judaeus Crasnicensis
-202;Osmulski;Bartłomiej;Kraśnik;ławnik przysięgły, komisarz intromisji kamienicy Kafary;#105;1648;1;Osmolski
-203;Ozepek;Grzegorz;Miasto Kraśnik;mieszczanin kraśnicki, dokonujący reformacji i oprawy wiana małżonce na połowie kamienicy i majątku ruchomym (fol. 5r, 5v);13, 14;1648;2;Gregorius Ozepek
-204;Pajączek;Wawrzyniec;Kraśnik;zięć Jadwigi Kwaszowej, sukcesjoner ról przedmieszczańskich;#124;1648;1;Paiąk
-205;Paluch;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pozwany o rozliczenia gruntowe na św. Michał (fol. 40v);84;1648;1;Albertus Paluch Anteoppidanus
-206;Paluszek;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany przez Jędrzeja Wardęgę o zaoranie miedzy granicznej i zniszczenie płotów (fol. 7r);17;1648;1;Albertus Paluszek suburbanus
-207;Paluszkowa;N.;Przedmieście Kraśnika;przedmieszczanka kraśnicka, nabywczyni domu i roli od poddanych z Budzynia (fol. 38r);79;1648;1;Paluszkowa Emptrix
-208;Paszkowicz;Tomasz;Kraśnik;mieszczanin kraśnicki, dłużnik klasztoru Kanoników Regularnych;#110;1648;1;Paszkowic
-209;Pawłowicz;Zachariasz;Miasto Kraśnik;mieszkaniec Kraśnika, pozwany przez Stanisławową Kępinę o bezprawny zabór plonów z pułłanka roli Białkowska (fol. 6r);15;1648;1;Zacharias Pawłowicz
-210;Piaseczek;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, opiekun testamentowy Anny Koronczanki (fol. 29v);62;1648;1;Albertus Piaseczek
-211;Piechowicz;Mikołaj;Miasto Kraśnik;mieszczanin kraśnicki, poszkodowany pogorzelec w pożarze miasta (strata 3 wozów siana i zabudowań) (fol. 9v);22;1648;1;Nicolaus Piechowicz
-212;Pieczek;Marcin;Popkowice;poddany ze wsi Popkowice, powód w sprawie przeciwko kraśnickiej straży nocnej (fol. 4v);12;1648;1;Martinus Pieczek subditus
-213;Piekarczyk;Jan;Kraśnik;uczciwy mieszczanin kraśnicki, zapisujący dożywocie żonie;#113, #114;1648;2;Piekarz Jan
-214;Pielaszek;Krzysztof;Przedmieście Kraśnika;"brat rodzony Stanisława Pielaszka, otrzymuje konia wronego (fol. 30r); pozwany o dział majątku (fol. 36r); brat zmarłego Szymona Pielaszka, otrzymuje połowę z 150 zł schedy braterskiej (fol. 41r-42r)";63, 75, 85, 86, 87;1648;5;Christophorus Pielaszek
-215;Pielaszek;Stanisław;Przedmieście Kraśnika;przedmieszczanin kraśnicki, zmarły testator dyspozycji ustnej potwierdzonej przez 4 świadków (fol. 30r, 30v, 36r);63, 64, 75;1648;3;Stanislaus Pielaszek Olim Anteoppidanus
-216;Pielaszek;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik spłacający 2 grzywny długu Janowi Wróblowi kuśnierzowi (fol. 8v);20;1648;1;Simon Pielaszek
-217;Pielaszek;Szymon;Przedmieście Kraśnika;zmarły krawiec kraśnicki, mąż Barbary Kulanki, proces o dział masy 300 zł (fol. 36v, 41r-42r);76, 85, 86, 87;1648;4;Simon Pielaszek Sartor olim
-218;Pielaszek;Wincenty;Przedmieście Kraśnika;"brat rodzony zmarłego Stanisława Pielaszka, otrzymuje konia gniadego (fol. 30r); pozwany przez bratową o dział spadku (fol. 36r); brat zmarłego krawca Szymona Pielaszka, spór o masę 300 zł z bratową Barbarą Kulanką (fol. 41r-42r)";63, 75, 85, 86, 87;1648;5;Vincentius Pielaszek
-219;Pielaszkowa;Barbara;Miasto Kraśnik;małżonka Szymona Pielaszka, współkwitowana ze spłaty 2 grzywien Janowi Wróblowi (fol. 8v);20;1648;1;Barbara Pielaszkowa consors
-220;Pielaszkowa;Barbara;Kraśnik;wdowa po krawcu Szymonie Pielaszku, donatorka legatu szpitalnego;#101;1648;1;Kulanka
-221;Pielaszkowa;Wdowa;Przedmieście Kraśnika;wdowa po Stanisławie Pielaszku, powódka przeciwko szwagrom Wincentemu i Krzysztofowi o podział spadku (fol. 36r);75;1648;1;Vidua derelicta Stanislai Pielaszek
-222;Piotrowiszna;Agnieszka;Przedmieście Kraśnika;wdowa po Bednarczyku, darowuje córce Katarzynie i zięciowi Wawrzyńcowi Rzepce cały majątek z zastrzeżeniem dożywocia (fol. 32v, 33r);68, 69;1648;2;Agnes Piotrowiszna Bednarka
-223;Piotrowski;Paweł;Wola Kraśnicka;szlachcic zamieszkały na Woli k. Kraśnika, wnosi manifestację pilności w sprawie z Sierkiem przed Oficjalatem Lubelskim (fol. 38v);80;1648;1;Nobilis Paulus Piotrowski de Wola
-224;Piotruszkowa;Jadwiga;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, wdowa, ciotka poszkodowanej Zofii (fol. 16v);36;1648;1;Hedvigis Piotruszkowa Vidua
-225;Piotruszkówna;Agnieszka;Przedmieście Kraśnika;przedmieszczanka, skazana do wieży Maszka za zniewagę słowną szlachcica Kieniewierskiego (fol. 46v);96;1648;1;Agnes Piotruszkowna alias Błasiowa
-226;Piotruszkówna;Zofia;Przedmieście Kraśnickie;panna kraśnicka, ofiara pobicia, napaści i zniesławienia przez Jana Pęcika Bałajczyka (fol. 16v);36;1648;1;Zophia Piotruszkowna Virgo
-227;Piszarska;Regina;Miasto Kraśnik;żona Stanisława Piszarskiego alias Szpotańskiego, współkwitująca Elżbietę Świechowiczową z 20 fl. (fol. 48v);100;1648;1;Regina Piszarska
-228;Piszarski;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik i strona ugody z Elżbietą Świechowiczową na 20 zł (fol. 44r, 48v);91, 100;1648;2;Stanislaus Piszarski alias Szpotański
-229;Początkowic;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, świadek bójki weselnej w winiarni u Alida (fol. 15v);34;1648;1;Stanislaus Początkowic
-230;Podwoyski;Adam;Miasto Kraśnik;przysięgły urzędowy sądu wójtowskiego w Kraśniku, relator pozwów (fol. 12r);27;1648;1;Adam Podwoyski Przysięgły
-231;Postrzygaczyk;Stanisław;Miasto Kraśnik;obywatel kraśnicki, wierzyciel Macieja i Wojciecha Butkowców na kwotę 100 zł (fol. 14r);31;1648;1;Stanislaus Postrzygaczyk
-232;Postrzygarczyk;Marcin;Miasto Kraśnik;majster cechu szewskiego, wierzyciel Betcyckiego na sumę 50 zł za naukę rzemiosła (fol. 14r, 14v);31;1648;1;Martinus Postrzygarczyk
-233;Potocka;Wdowa;Miasto Kraśnik;mieszczka kraśnicka, właścicielka szopy i tłoczni oleju (olejarni) (fol. 17r);37;1648;1;Vidua Potocka
-234;Potrwajowa;N.;Kraśnik;uboga baba kraśnicka, ograbiona przez najeźdźców z inwentarza;#115;1648;1;Potrwayka
-235;Pączek;Andrzej;Miasto Kraśnik;mieszczanin kraśnicki, pozwany przez wdowę Żmiedzinę o rewizję rachunków dłużnych (fol. 47v);98;1648;1;Andreas Pączek / Paczek
-236;Pęcik;Jan;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, sprawca napaści, pobicia i zniesławienia Zofii Piotruszkówny (fol. 16v);36;1648;1;Joannes Pęcik alias Bałayczyk
-237;Pęcik;Mikołaj;Przedmieście Podlesie;przedmieszczanin kraśnicki, nabywca ćwierci roli na Podlesiu od Babiarzczyków (fol. 26v);56;1648;1;Nicolaus Pęcik
-238;Pęcikowa;Katarzyna;Przedmieście Podlesie;żona Mikołaja Pęcika, współnabywczyni roli na Podlesiu (fol. 26v);56;1648;1;Catharina Pęcikowa
-239;Pędraczek;Benedykt;Kraśnik;krawiec kraśnicki, mąż Barbary;#107;1648;1;Pędraczek
-240;Pędraczkowa;Barbara;Kraśnik;krawcowa kraśnicka, żona Benedykta Pędraczka, składająca przysięgę na krucyfiks;#107;1648;1;Benedyktowa Pędraczkowa
-241;Pęzik;Józef;Kraśnik;mieszczanin kraśnicki, właściciel bydła szkodującego w zbożach;#105;1648;1;Pęzyk
-242;Płachcianka;Jadwiga;Kraśnik;mieszczka, żona Stanisława Bednarza;#102;1648;1;Płachcina
-243;Płaczkowicz;Stanisław;Miasto Kraśnik;zmarły sławetny mieszczanin kraśnicki, ojciec sierot pod kuratelą mistrza malarskiego (fol. 35v, 36r);74, 75;1648;2;Famosus Stanislaus Płaczkowicz Olim
-244;Rannik;Żyd;Miasto Kraśnik;mieszkaniec żydowski Kraśnika, pogorzelec w pożarze miasta (całkowicie spalona stodoła, szopa i spichlerz) (fol. 9v);22;1648;1;Rannik Judaeus
-245;Rogalowski;Jan;Kraśnik / Ziemia Lubelska;nobilis, szlachcic rezygnujący z prawa ziemskiego na rzecz Prawa Magdeburskiego, handlarz miodem;#112, #113;1648;2;Rogalewicz
-246;Rogalowski;Stanisław;Miasto Kraśnik;notariusz i pisarz miejski kraśnicki, kustosz ksiąg i rejestrów (fol. 18r);39;1648;1;Stanislaus Rogalowski
-247;Rogalowski;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, sprzedaje Błażejowi Madejowi ćwierć roli nad Stawem Młyńskim od Glinek (fol. 32r);67;1648;1;Albertus Rogalowski
-248;Rozpęda;Marcin;Kraśnik;cechmistrz cechu tkackiego w Kraśniku (1648);#124;1648;1;Rozpędzik tkacz
-249;Rozyński;Maciej;Miasto Kraśnik;uczciwy tkacz kraśnicki, wybrany i zatwierdzony cechmistrzem cechu tkackiego na rok 1648 (fol. 4v);12;1648;1;Honestus Mathias Rozyński
-250;Rybicki;Marek ks.;Parafia Urzędów;duchowny katolicki, proboszcz (pleban) w Urzędowie, pierwotny właściciel i sprzedawca ogrodu w Kraśniku (fol. 27v);58;1648;1;Reverendus Dominus Marcus Rybicki Plebanus
-251;Rynarczyk;Stanisław;Miasto Kraśnik;woźny miejski (ministerialis curiae) i mieszczanin kraśnicki, powód przeciw Wąsiewakowi i dłużnik (fol. 12r, 17r);27;1648;1;Stanislaus Rynarczyk
-252;Rzepczyk;Wawrzyniec;Miasto Kraśnik;szewc kraśnicki, powód w wielkim procesie posagowym przeciw wdowie Kościejnej (fol. 17r, 21r, 21v, 23v);37;1648;1;Laurentius Rzepczyk
-253;Rzepczyński;Jan;Miasto Kraśnik;dłużnik 20 florenów przy czarze z terminem na Niedzielę Przewodnią (fol. 30v);64;1648;1;Joannes Rzepczyński
-254;Rzepka;Wawrzyniec;Przedmieście Kraśnika;zięć Agnieszki Piotrowiszny, obdarowany majątkiem teściowej i zobowiązany do płacenia poborów i czynszów (fol. 32v, 33r);68, 69;1648;2;Laurentius Rzepka / Rzepczyk
-255;Rzeszkowicz;Marcin;Kraśnik;cechmistrz cechu kuśnierskiego w Kraśniku (1648);#124;1648;1;Rzeszkowic kuśnierz
-256;Rzycz;Wojciech;Miasto Kraśnik;ławnik kraśnicki, plenipotent procesowy Tomasza Grządki (fol. 19r);41;1648;1;Famatus Albertus Rzycz Scabinus
-257;Sassakowicz;Wojciech;Przedmieście Podlesie;nabywca dziesięciny roli na Podlesiu przy Stawie Braterskim za olbrzymią sumę 300 zł polskich (fol. 34r);71;1648;1;Albertus Sassakowicz
-258;Sicki;Marcin;Szemielowice;zmarły garncarz i mieszczanin szemielowski/kraśnicki, mąż Zofii (fol. 13v);30;1648;1;Olim Martinus Sicki
-259;Sicki;Marcin (młodszy);Szemielowice;syn garncarza Marcina, mieszczanin kraśnicki (fol. 13v);30;1648;1;Martinus Sicki junior
-260;Sicki;Stanisław;Szemielowice;syn garncarza Marcina, mieszczanin kraśnicki (fol. 13v);30;1648;1;Stanislaus Sicki
-261;Sierawski;Andrzej;Kraśnik;ławnik przysięgły ocalały z najazdu wrogich Kozaków (superstes post incursionem Kozakos 1648);#123;1648;1;Sierawszki
-262;Sierek;Marcin;Wieś Sejronice / Lubelskie;szlachcic z Sejronic, strona pozwana w procesie przed sądem oficjała lubelskiego (fol. 38v);80;1648;1;Nobilis Martinus Sierek de Sejronice
-263;Sierkowski;Andrzej;Kraśnik;sławetny rajca rezydujący obierany na Zamku w 1648 r.;#123;1648;1;Sierkiewic
-264;Sitarczyk;Walenty;Miasto Kraśnik;mieszczanin kraśnicki, wygrywa 80 gr długu przeciw Pawłowi Sznederowiczowi pod rygorem wieży (fol. 47v);98;1648;1;Valentinus Sitarczyk
-265;Sitarz;Stanisław;Miasto Kraśnik;rzemieślnik sitarz, nabywca ogrodu od Tomasza Grządki za 12 zł (fol. 27v, 28r);58, 59;1648;2;Stanislaus Sczifaber / Staszek Sitarz
-266;Smalczyk;Jan;Miasto Kraśnik;syn Zofii Smalczykowej, odbiera 9 zł na koszty pogrzebu matki (fol. 27r);57;1648;1;Joannes Smalczyk
-267;Smalczyk;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, zięć Zofii Połecyny, uczestnik rozliczenia spadkowego (fol. 27r);57;1648;1;Stanislaus Smalczyk
-268;Smalczykowa;N.;Miasto Kraśnik;córka Zofii Połecyny Smalczykowej, małżonka Stanisława Smalczyka (fol. 27r);57;1648;1;Filia Zofiae Połecyny
-269;Smalczykowa;Zofia;Miasto Kraśnik;mieszczanka kraśnicka, matka rozliczająca spadek i koszty pogrzebu z zięciem Smalczykiem (fol. 27r);57;1648;1;Zofia Połecyna Smalczykowa
-270;Smolarek;Jan;Kraśnik;rajca kraśnicki, delegat rewizyjny szkód wojennych 1648;#110;1648;1;Smolarz
-271;Sosnowski;Wojciech;Przedmieście Kraśnika;płóciennik i przedmieszczanin kraśnicki, dobrodziej darowujący wieczystym zapisem półćwierć roli Ubogim Szpitalnym w Kraśniku (fol. 48r, 48v);99, 100;1648;2;Albertus Sosnowski Linifex
-272;Starkowiecki;Wojciech;Kraśnik;wójt kraśnicki (1648);#104;1648;1;Starczowiecki
-273;Starkowski;Stanisław;Kraśnik;kowal i mieszczanin kraśnicki (Terrifaber);#109, #110;1648;2;Starczowski kowal
-274;Starybrach;Marcin;Popkowice;mieszkaniec wsi Popkowice, poddany podsędka Kiełczewskiego, rozliczenia z przedmieszczanami (fol. 11v);26;1648;1;Martinus Starybrach
-275;Stephaniak;N.;Przedmieście Kraśnika;przedmieszczanin, sąsiad miedzowy na przedmieściu kraśnickim (fol. 38r);79;1648;1;Stephaniak Anteoppidanus
-276;Szabatkowicz;Wojciech;Miasto Kraśnik;sławetny ławnik sądu wójtowsko-ławniczego kraśnickiego, dokonujący obdukcji pobitego krawca Wojciecha Misieckiego (fol. 10v) | starszy ławnik przysięgły, obdukcja szkód w browarze Grzebieńskiego i spustoszenia sadu (fol. 20v, 23v) | urzędowa wizja pni i sadu Kłopota (fol. 23v);24, 44, 50;1648;3;"Albertus Szabatkowicz scabinus; Albertus Szapatkowicz Scabinus Senior"
-277;Szadek;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, pozwany w procesie majątkowym (fol. 18r);39;1648;1;Laurentius Szadek
-278;Szafranek;Albert;Kraśnik;rajca i ławnik kraśnicki, świadek tortur kata 1648;#118, #120, #123;1648;3;Woyciech Szafranek
-279;Szafranek;Stanisław;Kraśnik;rajca kraśnicki, prowizor szpitala miejskiego 1648, świadek tortur, opiekun testamentowy;#101, #110, #112, #120, #123, #125;1648;6;Szafraniek
-280;Szafranek;Wawrzyniec;Kraśnik;ławnik przysięgły kraśnicki, komisarz wizji szkód polnych;#104;1648;1;Szafraniek
-281;Szafranek;Wojciech;Miasto Kraśnik;"ławnik przysięgły, obdukcja ran pobitego Macieja Kudelki (fol. 16r) oraz pobitej Zofii Piotruszkówny (fol. 16v) | obdukcja guzów i pobicia Zofii (fol. 16v); pisarz przysięgły kraśnicki, wyznaczony do badania rachunków legatów kościelnych (fol. 40v)";35, 36, 84;1648;3;Albertus Szafranek Scabinus / Albertus Szafranek Notarius Iuratus
-282;Szafrankowicz;Stanisław;Miasto Kraśnik;sławetny szewc kraśnicki, wybrany i zatwierdzony cechmistrzem cechu szewskiego na rok 1648 (fol. 4v);12;1648;1;Famat Stanislaus Szafrankowicz
-283;Szapałkowicz;Wojciech;Miasto Kraśnik;"ławnik przysięgły, deputowany do testamentu Korony (fol. 29r); kompromisarz w ugodzie o razy (fol. 31v); ławnik przysięgły, obdukcja ran Króla (fol. 39v); nadzór nad rachunkiem zakrystiana (fol. 40v); obdukcja poddanego z Budzynia (fol. 45v)";61, 66, 82, 84, 94;1648;5;Albertus Szapałkowicz Scabinus
-284;Szapielkowicz;Wojciech;Kraśnik;ławnik przysięgły kraśnicki, komisarz wizji szkód polnych;#104;1648;1;Szapielik
-285;Szarkowicz;Stanisław;Kraśnik;sławetny mieszczanin, asesor do Trybunału Zamojskiego 1648;#124;1648;1;Szarkowic
-286;Szczepanik;Piotr;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany o zaoranie miedzy i wypasienie wołów w zasiewach (fol. 18v);40;1648;1;Petrus Sczepanik
-287;Szczerbuś;Marcin;Przedmieście Podlesie;przedmieszczanin, sąsiad miedzowy na Podlesiu od wygonu (fol. 26v);56;1648;1;Martinus Szczerbuś
-288;Szczurek;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, pozwany o niezapłacenie 12 zł za połać mięsa wieprzowego (fol. 44r);91;1648;1;Stanislaus Szczurek
-289;Szczygiełek;Bartosz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, uczestnik rozliczeń finansowych z Kępiną (fol. 11v);26;1648;1;Bartholomaeus Szczygiełek
-290;Szczygiełek;Szymon;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka i sprzedaży roli na Podlesiu (fol. 30r, 30v);63, 64;1648;2;Simon Szczygiełek
-291;Szczygiołek;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany przez poddanych z Popkowic o krwawe pobicie podczas jarmarku (fol. 7v);18;1648;1;Stanislaus Szczygiołek suburbanus
-292;Szczygłowski;Mikołaj;Miasto Kraśnik;mieszczanin kraśnicki, wyznaczony przez urząd radziecki na opiekuna prawnego wdowy Stanisławowej Kępinej (fol. 6r);15;1648;1;Nicolaus Szczygłowski
-293;Szley;Tomasz;Przedmieście Kraśnika;"przedmieszczanin kraśnicki, pozwany w sporze o prawo zasiewu i orki w ogrodzie (fol. 28v); przedmieszczanin, ugoda ogrodowa z Wawrzyńcem Latosem (fol. 38v)";60, 80;1648;2;Thomas Szley / Koley
-294;Sznederowicz;Paweł;Miasto Kraśnik;"mieszczanin kraśnicki, wykupuje od Żyda Jakuba Eliaszowicza złocisty srebrny dostawczak Kafary za 40 zł (fol. 35r); mieszczanin kraśnicki, skazany na oddanie 80 gr długu Sitarczykowi (fol. 47v)";73, 98;1648;2;Paulus Sznederowicz / Snayderowicz
-295;Sznederowicz;Paweł;Kraśnik;mieszczanin kraśnicki, dłużnik i pozwany o pobicie;#104, #106;1648;2;Schneiderowicz
-296;Szopka;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, główny poszkodowany w wielkim pożarze miasta (spalone zboża, woły, krowy, strata oszacowana na 500 zł) (fol. 9v);22;1648;1;Simon Szopka
-297;Szostorowski;Wojciech;Przedmieście Kraśnika;tkacz i przedmieszczanin kraśnicki, pozwany przez Błażeja Madeja o niedotrzymanie kontraktu tkackiego (fol. 46r);95;1648;1;Albertus Szostorowski Textor
-298;Szowka;Grzegorz;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pozwany o spłatę długu zabezpieczonego obligiem z 1644 r. (fol. 27v);58;1648;1;Gregorius Szowka Sowowic
-299;Tarsa;Maciej;Miasto Kraśnik;mieszczanin kraśnicki, teść Sebastiana Wojtasika z Bielin, wypłaca posag i schedę 34 fl. 12 gr (fol. 29v);62;1648;1;Matthias Tarsa Civis Crasn.
-300;Tkaczkowicz;Szymon;Miasto Kraśnik;uczciwy kowal kraśnicki, wybrany i zatwierdzony cechmistrzem cechu kowalskiego na rok 1648 (fol. 4v);12;1648;1;Honestus Simon Tkaczkowicz
-301;Tokarczyk;Piotr;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, gospodarz i obrońca Jadwigi i Zofii Piotruszkówny w procesie o zniesławienie (fol. 16v);36;1648;1;Petrus Tokarczyk
-302;Tokarczyk;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, uczestnik bójki jarmarcznej z poddanymi z Popkowic (fol. 7v);18;1648;1;Albertus Tokarczyk suburbanus
-303;Tokarczyk;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka (fol. 30r);63;1648;1;Albertus Tokarczyk
-304;Tokarz;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka i wierzyciel na 20 fl. (fol. 30r);63;1648;1;Albertus Tokarz Anteoppidanus
-305;Toroń;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poręczyciel uwięzionego Grzegorza Kosuki na sumę 45 zł (fol. 21r);45;1648;1;Mathias Toron
-306;Turczyńska;Anna;Miasto Kraśnik;mieszczka kraśnicka, małżonka Mikołaja Turczyńskiego (fol. 13v);30;1648;1;Anna Turczynska
-307;Turczyński;Mikołaj;Miasto Kraśnik;"mieszczanin kraśnicki, dłużnik spłacający 100 zł na rzecz Kurelowej (fol. 13v); mieszczanin, szwagier Kafary, proces o 100 fl. z Żydem Eliaszowiczem (fol. 25v-26r, 36r)";30, 54, 55, 75;1648;4;Nicolaus Turczynski
-308;Turszyńska;N. (Wdowa po Mikołaju);Kraśnik (Przedmieście);wdowa po zamordowanym przez Kozaków Mikołaju Turszyńskim, ograbiona z 200 zł ukrytych w schronie;#116, #117, #120, #122;1648;4;Turzyńska wdowa
-309;Turszyński;Mikołaj;Janów Lubelski / Kraśnik;mieszczanin janowski, dłużnik handlowy Kafary i Eliaszowicza;#103, #107, #109;1648;3;Turzyński
-310;Turszyński;Mikołaj (zamordowany);Kraśnik (Przedmieście);mieszczanin przedmiejski, bestialsko zamordowany w swoim dworze przez wkraczających Kozaków Chmielnickiego (1648);#116;1648;1;Turzyński nieboszczyk
-311;Turszyński;Szymon;Kraśnik;ławnik przysięgły ocalały z najazdu wrogich Kozaków (superstes post incursionem Kozakos 1648);#123;1648;1;Turzyński Simon
-312;Umińska;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, sąsiadka miedzowa roli darowanej Ubogim Szpitalnym (fol. 48r);99;1648;1;Vidua Umińska
-313;Wardęga;Andrzej;Przedmieście Kraśnika;przedmieszczanin kraśnicki, powód w procesie gruntowym przeciw Paluchowi (fol. 40v);84;1648;1;Andreas Wardęga Anteoppidanus
-314;Wardęga;Jędrzej (Andrzej);Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód w sporze granicznym z Wojciechem Paluszkiem o zaoranie miedzy i zniszczenie płotu (fol. 7r);17;1648;1;Andreas Wardęga suburbanus
-315;Wawrzynkowa;N.;Kraśnik;uczciwa młynarka, aktorka w procesie o rabunki wojenne;#116;1648;1;Wawrzyńcowa
-316;Wawrzyńcowa;Wawrzyńcowa;Miasto Kraśnik;mieszkanka żydowska Kraśnika, oskarżona o napaść, pobicie i dotkliwe pokąsanie krawca Wojciecha Misieckiego w gospodzie po pijanemu (fol. 10v);24;1648;1;Wawrzyńcowa Żydowica
-317;Wilczek;Jan;Kraśnik;pracowity obywatel kraśnicki, skazany na tydzień wieży Maska;#116;1648;1;Wilk
-318;Wilczkowa;Dorota;Przedmieście Kraśnickie;żona młynarza Tomasza Wilka, współnabywczyni domu przy Bramie Krakowskiej (fol. 20r);43;1648;1;Dorothea Wilczkowa
-319;Wilk;Tomasz;Przedmieście Kraśnickie;młynarz grzebieński, nabywca młyna oraz domu na wale przy Bramie Krakowskiej za 120 zł (fol. 19v, 20r);42;1648;1;Thomas Wilk Molitor Grzebienski
-320;Winiarz;Jan;Kraśnik;winiarz kraśnicki, wraz z żoną bestialsko poraniony i posieczony przez Kozaków w 1648 r.;#115;1648;1;Winnik Jan
-321;Winiarz;Maciej;Miasto Kraśnik;szynkarz winny u Eliasza Jakubowicza, uczestnik bójki w winiarni (fol. 15r, 15v);33;1648;1;Mathyasz Winiarz
-322;Winiarzowa;N.;Kraśnik;żona winiarza Jana, ofiara ran ciętych szablami kozackimi;#115;1648;1;Winiarka
-323;Wnukowa;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, sąsiadka miedzowa domu na przedmieściu (fol. 38r);79;1648;1;Vidua Wnukowa
-324;Wojtasik;Sebastian;Wieś Bieliny k. Kraśnika;mieszkaniec podkraśnickiej wsi Bieliny, zięć Macieja Tarsy, kwituje teścia z posagu 34 fl. 12 gr (fol. 29v);62;1648;1;Sebastianus Woytasik de Bielin
-325;Wolak;Piotr;Miasto Kraśnik;robotnik olejarski, pozwany o nieumyślne zniszczenie stępy i wylanie oleju (fol. 17r);37;1648;1;Petrus Wolak
-326;Wolakowa;Anna;Miasto Kraśnik;wdowa kraśnicka, powódka przeciwko opiekunom sierot Płaczkowicza o kradzież płótna (fol. 35v, 36r);74, 75;1648;2;Honesta Anna Wolakowa Vidua
-327;Wrona;Marcin;Kraśnik;uczciwy mieszczanin kraśnicki, wierzyciel;#109;1648;1;Wronka
-328;Wrona;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, chory na łożu boleści, potwierdza przed ławnikami treść pierwszego testamentu (fol. 32v);68;1648;1;Albertus Wrona Anteoppidanus
-329;Wronina;N.;Kraśnik;wdowa po Wronce, dłużniczka dworu wilkołaskiego;#102, #103;1648;2;Wronkowa
-330;Wronka;Andrzej;Przedmieście Kraśnika;syn zmarłego Wojciecha Korony (Wrony), uwolniony ze świadectwa matki od 27 fl. długu w Wielkołazie (fol. 43v);90;1648;1;Andreas Wronka / Korona
-331;Wrzosowski;Lenart;Miasto Kraśnik;mieszczanin kraśnicki, współwłaściciel części rodzicielskiej (fol. 29v);62;1648;1;Leonardus Wrzosowski
-332;Wróbel;Jan;Miasto Kraśnik;"uczciwy kuśnierz kraśnicki, kwitujący Szymona i Barbarę Pielaszków ze zwrotu długu 2 grzywien polskich (fol. 8v); kuśnierz i mieszczanin kraśnicki, kwitowany z 50 fl. długu przez Jakuba Eliaszowicza (fol. 25r)";20, 53;1648;2;Honestus Joannes Wrobel pellio / Joannes Wrobl Pellifex
-333;Wąsiewak;Boran;Miasto Kraśnik;mieszczanin kraśnicki, pozwany skazany na uwięzienie w miejskiej wieży Masce za kontumację (fol. 12r);27;1648;1;Boran Wąsiewak
-334;Włodarz;Urzędnik Zamkowy;Zamek Kraśnicki;włodarz zamkowy dóbr kraśnickich Ordynacji Zamojskiej, uczestnik wizji spustoszeń w sadzie (fol. 23v);50;1648;1;Villicus Arcensis
-335;Włoszczyk;Grzegorz;Miasto Kraśnik;mieszkaniec Kraśnika, strażnik nocny (custos nocturnus) miasta, pozwany przez poddanych z Popkowic o uwięzienie i pobicie w nocy (fol. 4v);12;1648;1;Grzegorz Syn Włoszkowy / Włoszczyk
-336;Zadurna;Agnieszka;Przedmieście Kraśnika;wdowa po Wojciechu Zadurnie, sprzedaje dom i grunt na przedmieściu Janaszkowi za 15 fl. 18 gr (fol. 38r);79;1648;1;Agnes Zadurna Woytaszka
-337;Zadurna;Wojciech olim;Przedmieście Kraśnika;zmarły przedmieszczanin kraśnicki, dawny właściciel domu na przedmieściu (fol. 38r);79;1648;1;Albertus Zadurna Olim
-338;Zamoyski;Jan;Zamość;kasztelan kaliski, III Ordynat Zamojski, pan dziedziczny Kraśnika;#123;1648;1;Sobiepan Zamoyski
-339;Zamoyski;Jan (Sobiepan);Zamość;III Ordynat Zamoyski, wojewoda sandomierski, pan i dziedzic Kraśnika, w którego imieniu elekcję magistratu przeprowadził Remigian Kiełczewski (fol. 4r);11;1648;1;Illustrissimus ac Clementissimus Dominus Joannes Zamoyski
-340;Zatyka;Tomasz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, szwagier i zięć Wincentego Kłopota, pozwany o zniszczenie sadu i zrębu domu (fol. 23r, 23v);49;1648;1;Thomas Zatyka Affinis
-341;Zatyka;Tomasz;Przedmieście Kraśnika;szwagier Kłopota, obwiniony o wyrąb drzew owocowych w sadzie (fol. 24r);51;1648;1;Thomas Zatyka
-342;Ziątek;Bartłomiej;Miasto Kraśnik;ławnik przysięgły kraśnicki, świadek kontraktu posagowego i delegat wizji zniszczeń majętności (fol. 21v, 23v);46;1648;1;Famatus Bartholomaeus Ziątek Scabinus
-343;Zwolski;Wojciech;Zamek Kraśnicki;szlachcic, sługa i dworzanin podsędka Remigiana Kiełczewskiego, oskarżyciel Jana Foxa o kradzież 996 zł (fol. 21v, 22r, 22v);46;1648;1;Nobilis Albertus Zwolski
-344;Zygmoncik;Paweł;Kraśnik (Przedmieście);ceśniczek i obywatel zamiejski, ofiara szabru wojennego, oskarżyciel;#110, #114, #118;1648;3;Zygmunckik
-345;Zygmunt;Zygmunt;Miasto Kraśnik;zbiegły małżonek Katarzyny Ćwikliny, który porzucił żonę i wyprowadził się z Kraśnika (fol. 33v);70;1648;1;Sigismundus Maritus Desertor
-346;Ćwiek;N. ojciec olim;Przedmieście Podlesie;zmarły ojciec braci Wojciecha i Stanisława Ćwieków, otoczony opieką synowską (fol. 43r);89;1648;1;Pater Ćwiek Olim
-347;Ćwiek;Stanisław;Przedmieście Podlesie;"młodszy brat, sprawował opiekę nad ojcem w starości, zorganizował pogrzeb i wiano siostry; otrzymuje ćwierć roli (fol. 42v, 43r)";88, 89;1648;2;Stanislaus Ćwiek Anteoppidanus Iunior
-348;Ćwiek;Wojciech;Przedmieście Podlesie;starszy brat, przedmieszczanin z Podlesia, otrzymuje dom ojczysty z sadem i ćwierć roli za Dąbrówkami (fol. 42v, 43r);88, 89;1648;2;Albertus Ćwiek Anteoppidanus Senior
-349;Ćwiekówna;N.;Przedmieście Podlesie;siostra braci Ćwieków, wyposażona posagiem przez brata Stanisława (fol. 43r);89;1648;1;Soror Ćwiekowna
-350;Ćwikielka;Wawrzyniec;Przedmieście Kraśnika;syn Katarzyny Ćwikliny, posiadacz ogrodu (fol. 33r, 33v, 34r);69, 70, 71;1648;3;Laurentius Ćwikielka / Ćwiklik
-351;Ćwikielka;Wincenty;Przedmieście Kraśnika;syn Katarzyny Ćwikliny, pełnomocnik matki w sporze z szwagrem Bartoszkiem (fol. 47r);97;1648;1;Vincentius Ćwiklik / Ćwikielka
-352;Ćwiklarzka;Agnieszka;Przedmieście pod Stokami;żona Macieja Krawca, współwłaścicielka gruntu nad rzeką Czerwoną (fol. 34r);71;1648;1;Agnes Ćwiklarzka
-353;Ćwiklina;Katarzyna;Przedmieście Podlesie;"przedmieszczanka kraśnicka, opuszczona przez męża Zygmunta, sprzedaje dziesięcinę roli przy Stawie Braterskim za 300 zł (fol. 33v, 34r); przedmieszczanka / wdowa, wraz z synem Wincentym skarży zięcia Tomasza Bartoszka o rolę przedślubną (fol. 47r)";70, 71, 97;1648;3;Catharina Ćwiklina
-354;Łobodziński;Paweł;Kraśnik (Przedmieście);uczciwy przedmieszczanin kraśnicki, świadek i instygator zaboru mienia kościelnego;#117, #120, #121;1648;3;Łoboda
-355;Łuczka;Grzegorz;Wieś Budzyń / Ordynacja Zamojska;brat Jakuba Łuczki, poddany z Budzynia, współwłaściciel domu (fol. 38r);79;1648;1;Gregorius Łuczka Subditus
-356;Łuczka;Jakub;Wieś Budzyń / Ordynacja Zamojska;pracowity poddany ze wsi Budzyń, wraz z żoną Agnieszką i bratem Grzegorzem sprzedaje dom Paluszkowej (fol. 38r);79;1648;1;Laboriosus Jacobus Łuczka Subditus de Budzyń
-357;Łuczkowa;Agnieszka;Wieś Budzyń / Ordynacja Zamojska;żona Jakuba Łuczki, poddana z Budzynia, współsprzedawczyni domu na przedmieściu (fol. 38r);79;1648;1;Agnes Łuczkowa
-358;Świdziński;Jan;Przedmieście Kraśnika;przedmieszczanin kraśnicki, dłużnik zmarłego Korony oraz ustanowiony opiekun jego siostry Anny (fol. 29r, 29v);61, 62;1648;2;Joannes Świdziński
-359;Świechowiczowa;Elżbieta;Miasto Kraśnik;mieszczanka kraśnicka, proces o 32 zł i kwitacja 20 zł od Stanisława Piszarskiego (fol. 44r, 48v);91, 100;1648;2;Elisabeth Świechowiczowa
-360;Święchowiczowa;Elżbieta;Miasto Kraśnik;mieszczka kraśnicka, właścicielka domu, powódka o zaległy czynsz arendy 32 zł 15 gr (fol. 17v);38;1648;1;Elizabeth Święchowiczowa
-361;Żabiński;Jan;Wieś Wielkołaz / Państwo Zamoyskie;szlachcic, oficjalista ordynacki, miernik na ten czas wielkołaski (geodeta Ordynacji Zamojskiej), obecny przy rozliczeniu spadkowym (fol. 27r);57;1648;1;Nobilis Joannes Żabiński Geometra
-362;Żmiedzina;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, powódka o rozliczenia księgowe w domu notariusza miejskiego (fol. 47v);98;1648;1;Vidua Zmiedzina
-363;Żydek;Wawrzyniec;Miasto Kraśnik;mieszkaniec Kraśnika, uczestnik awantury w winiarni podczas wesela (fol. 15v);34;1648;1;Laurentius Żydek
-364;Żytkowic;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, sprawca pobicia Wojciecha Kępy, spłaca raty na rzecz wdowy (fol. 36v);76;1648;1;Laurentius Zytkowic / Zytkowicz
+5;Banach;Benedykt;Kraśnik;zmarły starszy cechu tkackiego w Kraśniku (Textor Textorum);#135;1649;1;Benedictus Textor
+6;Banachowa;Katarzyna;Kraśnik;wdowa po starszym cechu tkackiego Benedykcie Banachu, fałszywie oskarżona o czary (Venefica);#135;1649;1;Banasiowa
+7;Barczanowski;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, poszkodowany w wielkim pożarze miasta (spalona ćwierć domu, komora i zabudowania) (fol. 9v);22;1648;1;Stanislaus Barczanowski
+8;Barszczówna;Katarzyna;Przedmieście Podlesie;żona Banasia Babiarzczyka, współwłaścicielka i sprzedawczyni ćwierci roli na Podlesiu (fol. 26v);56;1648;1;Catharina Barszczowna
+9;Bartoszek;Tomasz;Przedmieście Kraśnika;zięć wdowy Katarzyny Ćwikliny, pozwany o zagarnięcie najlepszych staj roli przedślubnej i unikanie podatków (fol. 47r);97;1648;1;Thomas Bartoszek Anteoppidanus
+10;Bartoszkowa;N.;Przedmieście Kraśnika;córka wdowy Ćwikliny, żona Tomasza Bartoszka, obdarowana posagiem przedślubnym (fol. 47r);97;1648;1;Filia Catharinae Ćwiklinae
+11;Bałajczyk;Piotr;Przedmieście Kraśnika;przedmieszczanin kraśnicki, obwiniony i pozwany w manifestacji instygatora miejskiego (fol. 33v);70;1648;1;Petrus Bałayczyk Anteoppidanus
+12;Bałayczykowa;Sebastyanowa;Kraśnik (Przedmieście);wdowa przedmieszczańska, dłużniczka dworu i legatariuszy Elspucha;#102, #104;1648;2;Bałaykowa
+13;Bednarczyk;Andrzej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, właściciel roli Krakowskiej (fol. 15r);33;1648;1;Andreas Bednarczyk
+14;Bednarczykówna;Katarzyna;Przedmieście Kraśnika;córka Agnieszki Piotrowiszny, żona Wawrzyńca Rzepki, współobdarowana majątkiem rodzicielskim (fol. 32v);68;1648;1;Catharina Bednarczykowna
+15;Bednarz;Stanisław;Kraśnik;mieszczanin kraśnicki, sprzedawca domu przy Bramie Lubelskiej;#102;1648;1;Bednarzyk
+16;Benedykt Tkacz;Benedykt;Wieś Budzyń / Ordynacja Zamojska;gospodarz i tkacz ze wsi Budzyń, pracodawca poddanego Bartosza Karczyka (fol. 45v);94;1648;1;Benedictus Textor de Budzyń
+17;Betcycki;Andrzej;Miasto Kraśnik;mieszczanin kraśnicki, czeladnik szewski i pan młody, dłużnik Postrzygarczyka na domie za Bramą Sandomierską (fol. 14r, 14v, 15v);31;1648;1;Andreas Betcycki
+18;Bieda;Gabriel;Miasto Kraśnik;mieszczanin kraśnicki, sąsiad roli przy Stawie Braterskim i gościńcu Sandomierskim (fol. 34r);71;1648;1;Gabriel Bieda Civis Crasn.
+19;Bielawski;Remigian;Kraśnik / Ziemia Lubelska;podwojewodzi / podsędek ziemski lubelski, tenutariusz kraśnicki z ramienia Ordynacji Zamojskiej;#123;1648;1;Bielawski Subjudex
+20;Bielski;Stanisław;Kraśnik (Przedmieście);uczciwy przedmieszczanin, posesor pułanka pszenicy ku Świeżowskiemu;#104, #105;1648;2;Bielszki
+21;Bobenkowicz;Jan;Lublin;sławetny mieszczanin miasta Lublina, zięć Pawła Kwasa;#137, #138;1649;2;Bobenek z Lublina
+22;Bomba;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, powód w sprawie majątkowej przeciw wdowie Kępinej (fol. 11v);26;1648;1;Laurentius Bomba
+23;Breda;Gabriel;Kraśnik;cechmistrz cechu sukienniczego w Kraśniku (1648);#124;1648;1;Bryda sukiennik
+24;Bryk;Maciej;Kraśnik;opiekun urzędowy małoletnich synów Chmary;#141;1649;1;Brik Mathias
+25;Bura;Słabnicki;Kraśnik;mieszczanin, sąsiad Ogrodu Garczyńskie;#144;1649;1;Słabnicki Bura
+26;Burmistrzowicz;Matys;Kraśnik (Przedmieście);przedmieszczanin kraśnicki, opiekun sierot Płaxów;#139;1649;1;Matys Burmistrzewic
+27;Buta;Gabriel;Kraśnik;mieszczanin kraśnicki, sąsiad niwy Sosnowskiego;#149;1649;1;Butka Gabriel
+28;Butka;Augustyn;Miasto Kraśnik;syn Jana Butki, młodzieniec kraśnicki, uczestnik bójki w winiarni u Alida (fol. 15v);34;1648;1;Augustinus Butka
+29;Butka;Jan;Miasto Kraśnik;mieszczanin kraśnicki, ojciec Augustyna, wnioskodawca przesłuchania świadków (fol. 15v);34;1648;1;Joannes Butka
+30;Butkowiec;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, brat Wojciecha, dłużnik 100 zł u Postrzygaczyka (fol. 14r);31;1648;1;Mathias Butkowiec
+31;Butkowiec;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, nabywca roli Kępinej, dłużnik Stanisława Postrzygaczyka (fol. 13r, 14r);29;1648;1;"Albertus Butkowiec; Butka"
+32;Bączek;Jędrzej (Andrzej);Popkowice;poddany ze wsi Popkowice podsędka Remigiana Kiełczewskiego, poszkodowany pobiciem podczas jarmarku kraśnickiego (fol. 7v);18;1648;1;Andreas Bączek subditus
+33;Calik;Jan;Stróża;mieszkaniec wsi Stróża pod Kraśnikiem, wierzyciel 29 zł u Kwasikowej;#150;1649;1;Calek ze Stróży
+34;Chmara;Grzegorz;Kraśnik (Przedmieście);syn Sebastiana Chmary z drugiego małżeństwa;#141;1649;1;Chmara Grzegorz
+35;Chmara;Sebastian;Kraśnik (Przedmieście);zmarły przedmieszczanin kraśnicki, ojciec 4 dzieci z dwóch małżeństw;#141;1649;1;Chmara nieboszczyk
+36;Chmara;Wojciech;Kraśnik (Przedmieście);syn Sebastiana Chmary z drugiego małżeństwa;#141;1649;1;Chmara Wojciech
+37;Chmarowicz;Jan;Kraśnik;rajca kraśnicki, poborca podatkowy 1648;#112;1648;1;Chmarowic
+38;Chmarzanka;Katarzyna;Bieliny;córka Sebastiana Chmary, żona Józefa Wojtasika z Bielin;#140, #141;1649;2;Wojtasikowa Katarzyna
+39;Chmarzanka;Zofia;Stróża;córka Sebastiana Chmary, żona Stanisława Dudka ze Stróży;#140, #141;1649;2;Dudkowa Zofia
+40;Chmarzyna;Maryna;Kraśnik (Przedmieście);wdowa po Sebastianie Chmarze przedmieszczaninie kraśnickim;#140, #141;1649;2;Chmarzyna macocha
+41;Ciasnocha;Jan;Miasto Kraśnik;mieszczanin kraśnicki, wnioskodawca urzędowego spisania testamentu Wojciecha Korony (fol. 29r);61;1648;1;Joannes Ciasnocha alias Siuda
+42;Cieśla;Stanisław (Tarszanin);Kraśnik (Przedmieście);przedmieszczanin, szabrownik poduszek i pościeli zakopanych w ziemi pod czas najazdu Kozaków;#131, #132;1649;2;Stanisław Cieśla Tarszanin
+43;Cieślak;Franciszek;Kraśnik;pracowity młynarz grzebienny, nabywca domu przy Bramie Lubelskiej;#102;1648;1;Cieśla młynarz
+44;Cieślak;Jan;Kraśnik;mieszczanin, właściciel piwnic z magazynem skradzionych mięs i skór, osadzony w baszcie;#111;1648;1;Cieśla Jan
+45;Ciołek;Tomasz;Przedmieście Podlesie;przedmieszczanin, sąsiad miedzowy na Podlesiu (fol. 26v);56;1648;1;Thomas Ciołek / Cioka
+46;Cwiniarka;Kukulczyna;Kraśnik;uboga wdowa kraśnicka, uzyskująca areszt opiekuna na Bramie Krakowskiej;#108;1648;1;Świniarka Kukulczyna
+47;Cyrulik;Chirurg Zaprzysiężony;Miasto Kraśnik;urzędowy biegły medycyny sądowej i chirurg miejski, autor opisu ciętych ran głowy i palca (fol. 15r);33;1648;1;Chirurgus / Cyrulik Juratus
+48;Cyrulik;Marcin;Kraśnik (pod murem);oficjalny cyrulik miejski kraśnicki (Chirurgus), testator, właściciel instrumentów chirurgicznych;#129, #130, #131;1649;3;Marcin Chirurgus
+49;Cyrulik Miejski;N.;Miasto Kraśnik;zaprzysiężony lekarz i chirurg miejski, przeprowadza sądową obdukcję ran i kości czaszki Wojciecha Króla (fol. 39v);82;1648;1;Chirurgus Iuratus Civitatis Krasnicensis
+50;Cyrulikówna;Katarzyna;Kraśnik;córka cyrulika miejskiego Marcina, legatariuszka sukni i majątku;#130;1649;1;Cyruliczyca
+51;Cyrulikówna;Zuzanna;Kraśnik;córka cyrulika miejskiego Marcina, legatariuszka sukni i majątku;#130;1649;1;Cyruliczyca
+52;Czeliejek;N.;Przedmieście Kraśnika;przedmieszczanin, sąsiad spornego ogrodu z Wawrzyńcem Latosem (fol. 35r, 35v);73, 74;1648;2;Czelieyek Anteoppidanus
+53;Czeszkowic;Matys;Kraśnik;mieszczanin kraśnicki, uchodźca do Zamościa przed Kozakami, opiekun testamentowy;#124, #125, #129, #131, #137;1648;5;Czeszkowicz
+54;Czeszkowicz;Sebastian;Kraśnik;mieszczanin kraśnicki, wierzyciel 113 zł z długu Płaxów;#139, #140;1649;2;Czeszkowic Sebastian
+55;Cępatczyk;Jan;Kraśnik;mieszczanin kraśnicki, brat Marcina, pozwany o mienie;#118;1648;1;Cępatka
+56;Cępatczyk;Marcin;Kraśnik;mieszczanin kraśnicki, pozwany o restytucję zrabowanego inwentarza;#118;1648;1;Cępatka
+57;Darczyk;Jakub;Wieś Wielkołaz;mieszkaniec wsi Wielkołaz, wierzyciel dochodzący 24 fl. od sukcesorów Laszczyka (fol. 40r);83;1648;1;Jacobus Darczyk de Wielkołaz
+58;Dobrzyński;Jan;Zamek Kraśnicki;szlachcic, namiestnik zamkowy i oficjalny delegat dzierżawcy Remigiana Kiełczewskiego do sądu miejskiego (fol. 22r, 22v);47;1648;1;Nobilis Joannes Dobrzynski
+59;Dorota;Dorota;Wieś Wielkołaz;młynarka wielkołaska, wierzycielka 20 florenów z terminem na Boże Narodzenie (fol. 29r);61;1648;1;Dorothea Molendinatrix
+60;Dreya;Wojciech;Miasto Kraśnik;ławnik przysięgły, deputowany do spisania testamentu Wojciecha Korony (fol. 29r);61;1648;1;Albertus Dreya Scabinus
+61;Dreyczyk;Marcin;Miasto Kraśnik;mieszczanin kraśnicki, powód w procesie rzeźnickim o 12 zł za połać wieprzową (fol. 44r);91;1648;1;Martinus Dreyczyk Civis Crasn.
+62;Dreyka;Jan;Miasto Kraśnik;mieszczanin kraśnicki, świadek i uczestnik rozliczeń spadkowych po zmarłej matce (fol. 27r);57;1648;1;Janek Dreyka
+63;Dudek;Stanisław;Stróża;poddany ordynacki ze wsi Stróża, mąż Zofii Chmarzanki;#140;1649;1;Dudek de Stroza
+64;Dynkowa;N.;Kraśnik;mieszczka kraśnicka, aktorka w procesie karnym;#116;1648;1;Dynczyna
+65;Dzieginkowski;Andrzej;Kraśnik;mieszczanin, sąsiad Ogrodu Garczyńskie;#144;1649;1;Dzieginkowszki
+66;Dzierzkowska;Helena;Dzierzkowice;panna z Dzierzkowic, legatariuszka 24 zł z testamentu więziennego Kalisza;#119;1648;1;Helena de Dzierzkowice
+67;Dzierżek;Wojciech;Miasto Kraśnik;podwójci kraśnicki, prezyduje kontraktowi kupna roli nad Stawem Młyńskim (fol. 32r);67;1648;1;Albertus Dzierżek Viceadvocatus
+68;Dziezak;Adam;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek przysięgły składający przysięgę dwoma palcami ku gwiazdom o spłacie długu Madeja (fol. 37r);77;1648;1;Adamus Dziezak Anteoppidanus
+69;Dziura;Mikołaj;Miasto Kraśnik;arbiter polubowny i rozjemca w ugodzie o razy ze strony Koziołka (fol. 31v);66;1648;1;Nicolaus Dziura / Dziurzy
+70;Dzwonnik;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, najemca kamienicy, dłużnik czynszowy pod rygorem aresztu (fol. 17v);38;1648;1;Stanislaus Dzwonnik
+71;Dąbkowicz;Szymon;Kraśnik;cechmistrz cechu kowalskiego w Kraśniku (1648);#124;1648;1;Dąbkowic kowal
+72;Dęczek;Sebastian;Kraśnik (Przedmieście);przedmieszczanin, dłużnik 50 zł z legatu Pachołkowej na rzecz klasztoru;#142;1649;1;Deczek Sebastian
+73;Eliaszowicz;Eliasz;Miasto Kraśnik;faktor żydowski, roszczenia dłużne przeciw Madejowi, Kaliszowi i Grudce (fol. 37r, 37v);77, 78;1648;2;Infidelis Elias Herszkowicz / Eyrsch Judaeus
+74;Eliaszowicz;Jakub;Miasto Kraśnik;"kupiec i faktor żydowski, kwituje Jana Wróbla z 50 fl. (fol. 25r); spory o dług 100 fl. z Kafarą i Turczyńskim (fol. 25v, 26r, 75); posiadacz zastawionego srebrnego dostawczaka (fol. 35r)";53, 54, 55, 73, 75;1648;5;Jacobus Heliaszowicz / Infidelis Judaeus
+75;Eliaszowicz;Jakub;Janów Lubelski;niewierny Żyd z Janowa, kupiec zbożowy i solny, intromitowany w kamienicę Kafary;#103, #104, #105, #106, #107, #109;1648;6;Jakob Eliaszowic
+76;Elspuch;Gabriel;Kraśnik (Przedmieście);brat i egzekutor testamentu Łukasza Elspucha;#104;1648;1;Elzpuch
+77;Elspuch;Łukasz;Kraśnik (Przedmieście);zmarły przedmieszczanin kraśnicki, legator zboża na rzecz dworzan;#104;1648;1;Elzpuch
+78;Farsz;Maciej;Miasto Kraśnik;mieszczanin kraśnicki, kwitowany z długu przed sądem (fol. 16r);35;1648;1;Matthias Farsz
+79;Flacianka;Jadwiga;Miasto Kraśnik;mieszka kraśnicka, żona Stanisława Kolarza, współwłaścicielka domu przy Bramie Krakowskiej (fol. 20r);43;1648;1;Hedvigis Flacianka
+80;Fowot;Marcin;Kraśnik;mieszczanin kraśnicki, aktor w procesie o jurament na krucyfiks;#107;1648;1;Fowoth
+81;Fox;Jan;Miasto Kraśnik;"sławetny mistrz cechu kuśnierzy kraśnickich, wybrany starszym cechowym (cechmistrzem) na rok 1648 (fol. 4v) | pozwany przez sługę podsędka Wojciecha Zwolskiego o kradzież konia i 996 zł, oczyszczony przysięgą na krucyfiks (fol. 21v–23r) | wyrok sądu wójtowskiego i przysięga czeladzi (fol. 22r–23r) | przesłuchania w kamienicy (fol. 22v) | przysięga na krucyfiks z czeladzią (fol. 23r); stary rajca miejski kraśnicki, zaciąga 50 fl. długu u Stanisława Maniowicza z zastawem roli na Podlesiu (fol. 39r)";12, 46, 47, 48, 49, 81;1648;6;"Famat Joannes Fox cechmagister; Joannes Fox; Jan Foxen / Famosus Joannes Fox Consul Antiquus"
+82;Fox;Jan;Kraśnik (Rynek);rajca i konsul antiquus, kupiec, ofiara najazdu kozackiego, autor testamentu;#111, #115, #118, #125, #126, #127, #148;1648;7;Foks
+83;Foxowa;Pani Rajczyna;Miasto Kraśnik;małżonka Jana Foxa, patrycjuszka kraśnicka, oskarżona o przyjęcie worka ze złotem i oczyszczona z zarzutów (fol. 22v, 23r);48;1648;1;Uxor Joannis Fox
+84;Fryg;Józef;Przedmieście Kraśnika;dłużnik 15 florenów wobec zmarłego Stanisława Pielaszka (fol. 30v);64;1648;1;Josephus Fryg
+85;Fryga;Józef;Kraśnik;mieszczanin kraśnicki, pozwany przez urząd wójtowski;#122;1648;1;Friga
+86;Gorczajski;Adam;Kraśnik;notariusz i pisarz aktów wójtowsko-ławniczych;#145;1648–1649;1;Gorczayski
+87;Goryl;Wojciech;Miasto Kraśnik;"ławnik przysięgły, wyznaczony opiekun siostry Korony (fol. 29v); opiekun porzuconej Katarzyny Ćwikliny (fol. 33v); podwójci kraśnicki, deleguje ławników do obdukcji ran poddanego z Budzynia (fol. 45v)";62, 70, 94;1648;3;Albertus Goryl Scabinus / Albertus Goryl Viceadvocatus
+88;Gorzelnik;Jan;Kraśnik;gorzelnik, sługa żydowski, więziony w Masce za szaber wojenny pod czas inwazji kozackiej;#114, #115;1648;2;Joannes penates
+89;Gorzelnik;Marcin;Kraśnik;gorzelnik, sługa żydowski, więziony w Masce za szaber wojenny pod czas inwazji kozackiej;#114, #115;1648;2;Martinus penates
+90;Grudka;Adam;Przedmieście Kraśnika;"kuśnierz i przedmieszczanin kraśnicki, sprzedaje grunt Kandupowi na mocy wyroku Trybunału Zamojskiego (fol. 31r); kuśnierz kraśnicki, składa przysięgę na krucyfiks super imaginem Crucifixi przeciw Żydowi (fol. 37v)";65, 78;1648;2;Adam Grudka Pellifex
+91;Grudka;Tomasz;Kraśnik;kuśnierz, nowo wybrany ławnik przysięgły ocalały po najeździe kozackim (1648);#123, #143, #145;1648;3;Grotka
+92;Grudkianka;Elżbieta (Zajączkowa);Kraśnik;mieszczka kraśnicka, dłużniczka 20 zł wobec klasztoru z legatu szpitalnego;#136;1649;1;Elizabetha Zaiąckowa
+93;Grudnik;Bartłomiej;Przedmieście Kraśnika;przedmieszczanin kraśnicki, spór domowy z Froną Grudnikową o podział komory (fol. 28v);60;1648;1;Bartholomaeus Grudnik
+94;Grudnik;Serafin;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód w sprawach szkód polnych i kradzieży konia (fol. 18v, 23r);40;1648;1;Seraphinus Grudnik
+95;Grudnikowa;Frona;Przedmieście Kraśnika;przedmieszczanka, pozwana w sporze domowym o komorę pod wadium 200 groszy (fol. 28v);60;1648;1;Frona Grudnikowa
+96;Grzebień;Jan;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, oskarżony przez Grudnika o zabór konia, zobowiązany do przysięgi na krucyfiks (fol. 23r);49;1648;1;"Joannes Grzebien; Grzebieńczyk"
+97;Grzebień;Józef;Przedmieście Kraśnika;dłużnik 24 florenów z terminem spłaty na św. Jan (fol. 30v);64;1648;1;Josephus Grzebień
+98;Grzebieńczyk;Piotr;Miasto Kraśnik;mieszczanin kraśnicki, powód w sprawie przeciw Wawrzyńcowi Szadkowi (fol. 18r);39;1648;1;Petrus Grebieńczyk
+99;Grzebieńczyk;Piotr;Przedmieście Kraśnika;zastawnik gruntu Adama Grudki spłacany z sumy 50 fl. wedle Dekretu Trybunału Zamojskiego (fol. 31r);65;1648;1;Petrus Grzebieńczyk
+100;Grzebieński;Sebastian;Miasto Kraśnik;mieszczanin kraśnicki, właściciel browaru miejskiego poszkodowany przez sługę (fol. 20v);44;1648;1;Sebastianus Grzebienski
+101;Grzebieński;Sebastian;Przedmieście Kraśnika;krawiec i przedmieszczanin, wybiera pobór podwodny u burmistrza i świadczy o zajściu z Żydem Jaskierem (fol. 46v);96;1648;1;Sebastianus Grzebieński Sartor
+102;Grzybowski;Andrzej;Kraśnik;rajca kraśnicki, opiekun sierot Foxa i Płaxów;#111, #119, #127, #139, #148;1648;5;Grzebowski
+103;Grządka;Tomasz;Miasto Kraśnik;"mieszczanin kraśnicki, wierzyciel ustanawiający pełnomocnika procesowego na 8 zł (fol. 19r); mieszczanin kraśnicki, wraz z żoną Maryną sprzedaje ogród nabyty od ks. Rybickiego (fol. 27v)";41, 58;1648;2;Thomas Grządka
+104;Grządkowa;Maryna;Miasto Kraśnik;żona Tomasza Grządki, sprzedaje wraz z mężem ogród nabyty od ks. Marka Rybickiego (fol. 27v);58;1648;1;Marina Grządkowa
+105;Gąsek;Bartosz;Miasto Kraśnik;ławnik przysięgły, świadek urzędowy granic ogrodu Latosa i Czeliejka (fol. 35v);74;1648;1;Bartholomaeus Gąsek Scabinus
+106;Gąska;Tomka;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, bratanica zmarłego Wojciecha Kępy, wdowa (fol. 12v);28;1648;1;Thomka Gąska Vidua
+107;Głomiński;N.;Miasto Kraśnik;notariusz i pisarz miejski kraśnicki, autor uroczystej karty tytułowej Annus Novus 1648 i rejestratury czystopisu (fol. 1r);5;1648;1;Głomiński notarius
+108;Głomiński;Stanisław;Miasto Kraśnik;"kancelaria akt wójtowskich i relacje obdukcji (fol. 16r); pisarz miejski kraśnicki, autor wpisów z cytatami ze Zwierciadła Saskiego i Prawa Magdeburskiego (fol. 25v-26r); pisarz miejski, wyznaczony wraz z rozjemcami do rewizji księgowej Żmiedziny i Pączka (fol. 47v)";35, 54, 55, 98;1648;4;Stanislaus Glominski Notarius / Stanislaus Głomiński Notarius
+109;Hałaszkowa;N.;Kraśnik;więźniarka oskarżona o plądrowanie domu i zapał u Foxa;#115;1648;1;Hałaszyca
+110;Helkon;N.;Kraśnik;niewierny Żyd kraśnicki, właściciel murowanej słodowni za bramą;#148;1649;1;Helkon Judaeus
+111;Herszkowicz;Eliasz;Miasto Kraśnik;Żyd kraśnicki, powód w sprawie o dług przeciw Błażejowi Madejowi na sądzie gajonym (fol. 35v);74;1648;1;Infidelis Elias Herszkowicz Judaeus
+112;Jakub;Jakub;Przedmieście Kraśnika;brat Kozła, dawny współposiadacz ogrodu na ojcowiźnie (fol. 35r);73;1648;1;Jacobus Frater Kozieł
+113;Jakubowicz;Eliasz;Miasto Kraśnik;kupiec żydowski kraśnicki, właściciel/dzierżawca piwnicy winnej (winiarni) (fol. 15r);33;1648;1;Elias Jakubowicz Judaeus
+114;Jakubowicz;Eliasz;Janów Lubelski;syn kupca Jakuba Eliaszowicza, plenipotent chorego ojca;#108, #109;1648;2;Elias Eliaszowicz
+115;Jakubówna;Maryna;Przedmieście Kraśnika;"wdowa po Wojciechu Koronie, składa urzędowy inwentarz majątku po zmarłym mężu (fol. 34v, 35r); sędziwa matka zeznająca pod przysięgą na korzyść syna Andrzeja Wronki (fol. 43v)";72, 73, 90;1648;3;Marina Jacobowna Vidua Koronina
+116;Janaszek;Felicjan;Przedmieście Kraśnika;kompromisarz i arbiter polubowny w ugodzie o razy ze strony Kowaliczka (fol. 31v);66;1648;1;Felicianus Janaszek
+117;Janaszek;Jakub;Wieś Budzyń / Ordynacja Zamojska;poddany ze wsi ordynackiej Budzyń, zaciąga oblig na 16 marek polskich za grunt na przedmieściu (fol. 37v, 38r);78, 79;1648;2;Jacobus Janaszek Subditus de Budzyń
+118;Janaszek;Michał;Kraśnik;posesor kraśnicki, asesor do Trybunału Zamojskiego 1648;#124;1648;1;Janaszkowicz
+119;Janaszkowicz;Albert;Kraśnik;wójt i sędzia ordinarius kraśnicki, elektor magistratu na Zamku 1648;#108, #119, #123;1648;3;Janaszek
+120;Janaszkowicz;Chrystoph;Kraśnik;wójt kraśnicki, autor intercyz małżeńskich, posesor;#105, #111, #113;1648;3;Janaszek
+121;Janaszkowicz;Jan;Kraśnik;obywatel kraśnicki, legatariusz testamentu więziennego Kalisza;#119;1648;1;Janaszkowic
+122;Janaszkowicz;Wojciech;Miasto Kraśnik;"wójt kraśnicki, gospodarz wielkiej noworocznej elekcji magistratu 25 I 1648 r., przewodniczący sesji gajonych sądu wójtowsko-ławniczego (fol. 4r, 10v, 11r) | laska wójtowska na sesjach spornych i kontraktach kupna (fol. 13r, 19v, 22v) | kontrakt młyna Grzebieńskiego (fol. 19v) | wyrok łączony z namiestnikiem ordynackim (fol. 22v); wójt kraśnicki, prezyduje sesjom gajonym i sprawom wieczystym (fol. 25r, 25v, 26v, 27v, 28r, 35v); wójt kraśnicki, prezyduje sesjom gajonym, procesom spadkowym i intromisjom (fol. 37r, 39r, 39v, 41r, 42r, 48v)";11, 24, 25, 29, 42, 48, 53, 54, 55, 56, 58, 59, 74, 77, 81, 82, 85, 87, 100;1648;19;"Albertus Janaszkowicz advocatus; Albertus Janaszkowic; Woyciech Janaszkowicz / Albertus Janaszkowicz Advocatus"
+123;Janaszkowicz;Wojciech;Kraśnik;wójt i sędzia ordinarius kraśnicki (1649);#127, #129;1648–1649;2;Albert Janaszek
+124;Jantoszek;Tomasz;Kraśnik;mieszczanin, opiekun sieroty Koźmiurka, aresztowany w wieży Bramy Krakowskiej;#108;1648;1;Jantoszkowicz
+125;Jantoszek;Tomasz;Kraśnik (Przedmieście);zmarły wielki posesor, piwowar, gorzelnik i rolnik przedmiejski;#145, #146, #147, #148;1648–1649;4;Jantoszkowicz
+126;Jaraszek;Mieszkaniec;Miasto Kraśnik;mieszczanin kraśnicki, zaprzysiężony świadek umowy przedślubnej Rzepczyka z Kościejną (fol. 21v);46;1648;1;Honestus Jaraszek
+127;Jaroszyk;Jan;Kraśnik;mieszczanin kraśnicki, dłużnik 50 zł wobec Płaxów;#139;1649;1;Jarosz Jan
+128;Jasielski;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, współopiekun sierot Stanisława Płaczkowicza (fol. 35v);74;1648;1;Simon Jasielski Tutor
+129;Jasionowic;Bartosz;Kraśnik;uczciwy mieszczanin kraśnicki, dłużnik;#107, #109;1648;2;Jasionowicz
+130;Jaskier;Jaskier;Miasto Kraśnik;"kupiec żydowski kraśnicki, ofiara pobicia (fol. 44v); oskarżony o zakłócenie procesji kościelnej i poboru podatków (fol. 46v)";92, 96;1648;2;Infidelis Jaskier Judaeus Crasnicensis
+131;Jemieszka;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, skazany za kradzieże jarmarczne płachty, wora, owcy i kury (fol. 19r, 19v);41;1648;1;Mathias Iemieszka
+132;Kafara;Stanisław;Miasto Kraśnik;"mieszczanin kraśnicki, dłużnik wdowy Kępinej (beczka soli) i kupca żydowskiego (100 zł) (fol. 12r, 12v, 20v); testator na łożu śmierci (fol. 24r-24v); spory ze szwagrem Turczyńskim o 100 zł (fol. 25v-26r); apelant do Trybunału Zamojskiego; zastawca srebrnego dostawczaka (fol. 35r)";27, 51, 52, 54, 55, 60, 73, 75;1648;8;Stanislaus Kafara / Stanislaus Kafara / Staś
+133;Kafara;Stanisław;Kraśnik (Rynek);zmarły patrycjusz, kupiec, posesor kamienicy w Rynku;#103, #105, #106, #107, #108, #109;1648;6;Caphara
+134;Kafarzyca;Katarzyna;Kraśnik;mieszczanka kraśnicka, wdowa po Stanisławie Kafary;#137;1648–1649;1;Capharyna
+135;Kafarzyca;Zofia;Miasto Kraśnik;wdowa po Stanisławie Kafarze, pozywa Jana Kalisza o 15 gr długu rolnego (fol. 46r);95;1648;1;Zofia Kafarzyca Vidua
+136;Kalisz;Jan;Przedmieście Kraśnika;"przedmieszczanin, przysięga oczyszczająca o 80 gr za żyto (fol. 37v); pozwany przez wdowę Kafarzycę (fol. 46r)";78, 95;1648;2;Joannes Kalisz / Kalis
+137;Kalisz;Jan;Kraśnik (Przedmieście);przedmieszczanin, szabrownik pod czas inwazji kozackiej, autor testamentu więziennego, torturowany ogniem, ułaskawiony;#116, #117, #119, #120, #122;1648;5;Kaliszek
+138;Kaliński;Adam;Ziemia Lubelska;szlachcic, powód manifestujący w sądzie miejskim przeciwko Janowi Kłopocikowi o bezprawny zabór dóbr i inwentarza (fol. 3r, 3v);9, 10;1648;2;Nobilis Adamus Kaliński
+139;Kamieński;Wojciech;Miasto Kraśnik;uczciwy mieszkaniec Kraśnika, sprzedawca cząstki roli na rzecz Stanisława Kędzierskiego (fol. 2r, 2v);7, 8;1648;2;Honestus Albertus Kamieński
+140;Kamieński;Wojciech;Przedmieście Kraśnickie;przedmieszczanin, powód przeciw Maciejowi Jemieszce o szkody i kradzieże jarmarczne (fol. 19r, 19v) | wyrok przysądzający odszkodowanie za owcę i płachtę (fol. 19v);41, 42;1648;2;Albertus Kamienszczyk
+141;Kamyk;Stanisław;Kraśnik (Przedmieście);przedmieszczanin, sąsiad roli sowińskiej;#145;1649;1;Kamyczek
+142;Kandup;Wojciech;Przedmieście Podlesie;"przedmieszczanin kraśnicki, nabywca ćwierci roli na Podlesiu od Pielaszka za 30 fl. (fol. 30v); kupiec gruntu od Adama Grudki (fol. 31r); sąsiad gumna pod Stokami (fol. 34r)";64, 65, 71;1648;3;Albertus Kandup
+143;Karczyk;Bartosz;Wieś Budzyń / Ordynacja Zamojska;pracowity poddany ze wsi Budzyń, poddany obdukcji ran przed podwójcim i ławnikami (fol. 45v);94;1648;1;Laboriosus Bartholomaeus Karczyk Subditus de Budzyń
+144;Kasper;Kasper (Młynarz);Popkowice;młynarz, poddany ze wsi Popkowice podsędka Remigiana Kiełczewskiego, powód w sprawie o pobicie na jarmarku kraśnickim (fol. 7v);18;1648;1;Gaspar Molitor de Popkowicze
+145;Kat Kraśnicki;Wojciech;Kraśnik;miejski kat kraśnicki (Exekutor), mistrz sprawiedliwości wykonujący tortury rozciągania i przypalania ogniem w ratuszu;#120, #122;1648;2;Woyciech Kat / Exekutor
+146;Kieniewierski;Krzysztof;Województwo Lubelskie;szlachcic, powód w procesie o zniewagę słowną przeciw Agnieszce Piotruszkównie (fol. 46v);96;1648;1;Nobilis Christophorus Kieniewierski
+147;Kiełczewski;Remigian;Ziemia Lubelska / Popkowice;"podsędek ziemski lubelski, dzierżawca (tenutarius) dóbr kraśnickich z ramienia ordynata Jana Zamoyskiego, dziedzic wsi Popkowice; przewodniczący elekcji magistratu Kraśnika 1648 r. (fol. 4r, 4v, 7v)";11, 12, 18;1648;3;Generosus Remigianus Kiełczewski
+148;Kiełczewski;Remigian;Popkowice;podsędek ziemski lubelski, dzierżawca Kraśnika, interwencja w procesie Zwolski-Fox przez namiestnika Dobrzyńskiego (fol. 22r);47;1648;1;Remigianus Kiełczewski
+149;Kolarz;Stanisław;Miasto Kraśnik;rzemieślnik kolarz, sprzedawca domu drewnianego na wale miejskim za 120 zł (fol. 20r);43;1648;1;Stanislaus Kolarz
+150;Korona;Wojciech;Przedmieście Kraśnika;"przedmieszczanin kraśnicki, testator na łożu śmierci spisany przez ławników (fol. 29r-29v); inwentarz pośmiertny z żoną Maryną (fol. 34v)";61, 62, 72;1648;3;Albertus Korona / Wrona
+151;Koronczanka;Anna;Przedmieście Kraśnika;siostra zmarłego Wojciecha Korony, legatariuszka i podopieczna wyznaczonych kuratorów (fol. 29v);62;1648;1;Anna Koronczanka
+152;Korzeniowska;Barbara;Kraśnik;mieszczka kraśnicka, żona Jana Piekarczyka;#113, #114;1648;2;Korzeniowska
+153;Kostka;Andrzej;Kraśnik;zmarły mistrz cechu kuśnierskiego w Kraśniku;#149;1649;1;Andreas Costeska
+154;Kosuka;Grzegorz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, aresztant miejski zwolniony za kaucją poręczycieli (fol. 21r);45;1648;1;Gregorius Kosuka Incarceratus
+155;Kotłowni;N.;Kraśnik;mieszczanin kraśnicki, wierzyciel 10 zł u Wołaczka;#133;1649;1;Kotłownia
+156;Kowal;Jakub;Popkowice;poddany ze wsi Popkowice, powód z ramienia dzierżawcy Kiełczewskiego przeciwko nocnej straży miejskiej Kraśnika o bezprawne uwięzienie (fol. 4v);12;1648;1;Jacobus Kowal de Popkowicze
+157;Kowaliczek;Piotr;Przedmieście Kraśnika;przedmieszczanin kraśnicki, sprawca pobicia, zawiera ugodę sąsiedzką i płaci 1 zł za zadane razy (fol. 31v);66;1648;1;Petrus Kowaliczek
+158;Kowalik;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poręczyciel uwięzionego Grzegorza Kosuki (fol. 21r);45;1648;1;Stanislaus Kowalik
+159;Kozanecki;Jakub;Kraśnik;cechmistrz cechu szewskiego w Kraśniku (1648);#124;1648;1;Kozańczyk szewc
+160;Kozar;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pożyczający sumę pieniędzy u rajcy Jana Mroczka z zabezpieczeniem na domu w ul. Lubelskiej (fol. 1v);6;1648;1;Stanislaus Kozar suburbanus
+161;Kozielszczanka;Agnieszka;Kraśnik (Rynek);małżonka rajcy Jana Foxa, dożywotniczka kamienicy, browaru i majątku;#126;1648;1;Foxowa Agnieszka
+162;Kozieł;N.;Przedmieście Kraśnika;dawny posiadacz ojczystego ogrodu przy Latosie (fol. 35r);73;1648;1;Kozieł Anteoppidanus
+163;Kozieł;Wojciech;Budzyń;pracowity poddany ordynacki ze wsi Budzyń, zbywca ogrodu;#109, #110;1648;2;Kozioł Albertus
+164;Koziełek;Szymon;Miasto Kraśnik;syn Wawrzyńca Koziełka, współkwitujący dłużnika Szymona Kudrelę przed urzędem (fol. 8r);19;1648;1;Simon Koziełek filius
+165;Koziełek;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, kwitujący Szymona Kudrelę z pełnej sumy długu (fol. 8r);19;1648;1;Laurentius Koziełek
+166;Koziołek;Stanisław;Przedmieście Kraśnika;przedmieszczanin kraśnicki, wraz z żoną Apolonią udziela pożyczki 300 zł przybyszowi z Litwy (fol. 45r);93;1648;1;Stanislaus Koziołek Anteoppidanus
+167;Koziołek;Szymon;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pobity poszkodowany, otrzymuje 1 zł nawiązki za razy (fol. 31v);66;1648;1;Simon Koziołek
+168;Koziołkowa;Apolonia;Przedmieście Kraśnika;żona Stanisława Koziołka, współkredytodawczyni pożyczki 300 zł dla przybysza z Litwy (fol. 45r);93;1648;1;Apollonia Koziołkowa
+169;Kołodziej;Bartosz;Kraśnik (Przedmieście);przedmieszczanin, kołodziej, sąsiad roli sowińskiej;#145;1649;1;Kołodzieyczyk
+170;Kościejna;Agnieszka;Miasto Kraśnik;wdowa kraśnicka, pozwana o niewydanie wyprawy posagowej (owce, wieprz), skazana do więzienia w Masce (fol. 17r, 21v, 23v);37;1648;1;Agnes Kosceyna alias Błasiowa
+171;Koźmiurek;Stanisław;Kraśnik;sierota pod opieką Jantoszka;#108;1648;1;Koźmiurka
+172;Kraszowski;Mikołaj;Kraśnik;uczciwy mieszczanin, powód o zwrot pary koni zabranych w czasie ucieczki do Zamościa;#129;1649;1;Kraszowszki
+173;Krawczyk;Walenty;Miasto Kraśnik;komornik mieszkający u Szymona Szopki, poszkodowany pogorzelec, który w pożarze miasta utracił cały amikt i odzienie (fol. 9v);22;1648;1;Valentinus Krawczyk komornik
+174;Krawiec;Maciej;Przedmieście pod Stokami;właściciel gruntu z piecem w ogrodzie i płotem przez rzekę Czerwoną pod Stokami (fol. 34r);71;1648;1;Matthias Krawiec / Sartor
+175;Król;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, ofiara ciężkiego pobicia przez Marcina Cypulika z obrażeniami głowy i żeber (fol. 39v);82;1648;1;Albertus Król Anteoppidanus
+176;Kucińska;Wdowa;Przedmieście pod Stokami;przedmieszczanka / wdowa, sąsiadka miedzowa gruntu pod Stokami (fol. 34r);71;1648;1;Vidua Kucińska
+177;Kuczka;Wincenty;Kraśnik;zmarły posesor placu słodowniczego za bramą;#148;1649;1;Kuczkowic
+178;Kuczkowicz;Andrzej;Kraśnik;senior scabinus, podwójci kraśnicki, komisarz testamentowy i inwentarzowy;#105, #120, #122, #123, #124, #125, #126, #127, #128, #129, #131, #133, #134, #138, #143, #144, #145;1648;17;Kuczkowic
+179;Kuczowic;Wojciech;Kraśnik;mieszczanin, sąsiad gruntu Kijkowskiego;#148;1648–1649;1;Kuczkowicz
+180;Kuczowicz;Andrzej;Miasto Kraśnik;"ławnik przysięgły kraśnicki, dokonujący urzędowej obdukcji ran krawca Wojciecha Misieckiego (fol. 10v) | ławnik przysięgły kraśnicki, wizja lokalna zniszczeń majętności i sadu (fol. 23v); ławnik przysięgły spisujący testament Stanisława Kafary (fol. 24r) oraz testament Wojciecha Wrony (fol. 32v); ławnik przysięgły, obdukcja ran Bartosza Karczyka z Budzynia (fol. 45v)";24, 50, 51, 68, 94;1648;5;"Andreas Kuczowicz scabinus; Andreas Kuczowicz Scabinus"
+181;Kudelka;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poszkodowany pobity z podbitym okiem i ranami twarzy (fol. 16r);35;1648;1;"Matthias Kudelka; Kudrelka"
+182;Kudrela;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik spłacający w całości sumę główną i prowizję Wawrzyńcowi i Szymonowi Koziełkom (fol. 8r);19;1648;1;Simon Kudrela
+183;Kukla;Jan;Miasto Kraśnik;uczciwy mieszczanin kraśnicki, powód w sprawie o naruszenie spokoju publicznego, wnioskujący o aresztowanie Jakuba Kuśnierczyka (fol. 6v);16;1648;1;Honestus Joannes Kukla
+184;Kulanka;Barbara;Przedmieście Kraśnika;wdowa po krawcu Szymonie Pielaszku, otrzymuje wyrokiem połowę masy 300 zł za opiekę w chorobie i budynki (fol. 41r, 41v, 42r);85, 86, 87;1648;3;Honesta Barbara Kulanka Vidua Pielaszkowa
+185;Kurelowa;Zofia;Szemielowice;wdowa po garncarzu Marcinie Sickim z Szemielowic/Kraśnika, kwituje Turczyńskich ze 100 zł (fol. 13v);30;1648;1;Zophia Kurelowa Vidua
+186;Kuśnierczyk;Jakub;Miasto Kraśnik;mieszczanin kraśnicki, skazany wyrokiem sądu na uwięzienie w wieży miejskiej za publiczne awantury i zniewagi urzędu na wniosek Jana Kukli (fol. 6v);16;1648;1;Jacobus Kuśnierczyk incarcerandus
+187;Kuśnierz;Łukasz;Miasto Kraśnik;kuśnierz kraśnicki, wyznaczony przez urząd radziecki na opiekuna prawnego wdowy Stanisławowej Kępinej (fol. 6r);15;1648;1;Lucas Pellio / Kuśnierz
+188;Kwas;Paweł;Kraśnik (Przedmieście);zmarły przedmieszczanin kraśnicki, posesor domu nad stokiem;#124, #128, #137, #143, #144;1648;5;Kwasior
+189;Kwasik;Maciej;Kraśnik (Przedmieście);zmarły przedmieszczanin kraśnicki, mąż Jadwigi;#150;1649;1;Kwasik Mathias
+190;Kwasikowa;Jadwiga;Kraśnik (Przedmieście);wdowa po Macieju Kwasiku, testatorka, donatorka domu i ogrodu dla Szpitala Miejskiego;#150;1649;1;Kwasicka Jadwiga
+191;Kwasikówna;Katarzyna;Kraśnik;siostra Jadwigi Kwasikowej, legatariuszka czarnej sukni i pościeli;#150;1649;1;Katarzyna siostra testatorki
+192;Kwasowicz;Tomasz;Kraśnik (Przedmieście);syn Pawła Kwasa i Jadwigi Kwaszowej, sukcesjoner domu nad stokiem;#128, #129, #137, #138, #143;1649;5;Kwaszewic
+193;Kwaszowa;Jadwiga;Kraśnik (Przedmieście);wdowa po Pawle Kwasie Kwasiorze, autorka testamentu, legatarka kościoła zamkowego;#124, #125, #128, #138;1648;4;Kwasiorka
+194;Kwaszowic;Marcin;Miasto Kraśnik;"ławnik i instygator urzędowy wójtowski, składa manifestację przeciw Bałajczykowi (fol. 33v); ławnik przysięgły, kurator wdowy Barbary Kulanki (fol. 41r); autor prywatnej ugody braci Ćwieków (fol. 42v); nadzór nad legatami (fol. 40v)";70, 84, 85, 88;1648;4;Martinus Kwaszowic Scabinus et Instigator
+195;Kwaszowicz;Marcin;Kraśnik;ławnik przysięgły, prowizor Ubogiego Szpitala Kraśnickiego 1648;#101;1648;1;Kwaszewic
+196;Kwaszowiczówna;Ewa;Kraśnik (pod murem);żona cyrulika miejskiego Marcina, sukcesorka domu pod murem miejskim;#130;1649;1;Cyrulikowa Ewa
+197;Kwaszówna;Anna;Lublin;córka Pawła Kwasa, żona Jana Bobenkowicza mieszczanina lubelskiego;#137, #138;1649;2;Bobenkowiczowa Anna
+198;Kwaszówna;Katarzyna;Kraśnik;córka Pawła Kwasa, żona Wawrzyńca Pająka, sukcesorka srebrnego pasa;#137;1649;1;Pająkowa Katarzyna
+199;Kwiecień;Piotr;Przedmieście Kraśnika;zastawnik gruntu Adama Grudki spłacany na mocy wyroku Trybunału Zamojskiego (fol. 31r);65;1648;1;Petrus Kwiecień
+200;Kędzierski;Stanisław;Miasto Kraśnik;mieszkaniec Kraśnika, nabywca roli od Wojciecha Kamieńskiego z klauzulą ewikcyjną (fol. 2r, 2v);7, 8;1648;2;Stanislaus Kędzierski
+201;Kępa;Wojciech;Miasto Kraśnik;zmarły mieszczanin kraśnicki, mąż Stanisławowej, dawny posesor roli Białkowskiej (fol. 6r);15;1648;1;Wojciech Kępa nieboszczyk
+202;Kępczyca;Regina;Kraśnik;wdowa po Wojciechu Kępie, instygatorka procesu o szaber wojenny;#120;1648;1;Kępina
+203;Kępczyk;Andrzej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, bratanek zmarłego Wojciecha Kępy, spór o spadek i rolę Białkowska (fol. 12v);28;1648;1;"Andreas Kępczyk; Kępka"
+204;Kępina;Regina;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, wdowa po Wojciechu Kępie, sprzedająca cząstkę roli Białkowska (fol. 12v, 13r);28;1648;1;Regina Kępina Wojciechowa Vidua
+205;Kępina;Regina;Przedmieście Kraśnika;wdowa po Wojciechu Kępie, egzekwuje 12 zł 20 gr nawiązki za śmiertelne pobicie męża (fol. 36v);76;1648;1;Regina Kępina Vidua
+206;Kępina;Stanisławowa;Miasto Kraśnik;wdowa po Wojciechu Kępie, powódka w asyście opiekunów urzędowych w procesie przeciw Zachariaszowi Pawłowiczowi o pułłanek roli Białkowskiej (fol. 6r);15;1648;1;Stanisławowa Wojciechowa Kępina vidua
+207;Kępka;Grzegorz;Przedmieście Kraśnika;dłużnik 36 florenów wobec zmarłego Stanisława Pielaszka (fol. 30v);64;1648;1;Gregorius Kępka
+208;Kępka;Grzegorz;Kraśnik (Przedmieście);przedmieszczanin kraśnicki, ograbiony z wozów pod czas ucieczki wojennej;#116, #117, #120, #122;1648;4;Kępa Grzegorz
+209;Kłopocik;Gabriel;Miasto Kraśnik;mieszczanin kraśnicki, powód przeciwko wdowie Kępinej, woźnemu Rynarczykowi i Niedbałce (fol. 12r, 17r, 18v);27;1648;1;Gabriel Kłopocik
+210;Kłopocik;Jan;Miasto Kraśnik;mieszczanin kraśnicki, pozwany w manifestacji szlachcica Adama Kalińskiego o bezprawny zabór dóbr i inwentarza (fol. 3r, 3v);9, 10;1648;2;Joannes Kłopocik civis
+211;Kłopocik;Łukasz;Miasto Kraśnik;zmarły mieszczanin kraśnicki, dłużnik i wierzyciel w sprawach spadkowych (fol. 12r, 18v);27;1648;1;Olim Lucas Kłopocik
+212;Kłopot;Wincenty;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód przeciw szwagrowi Tomaszowi Zatyce o wycięcie sadu i zniszczenie budynku (fol. 23r, 23v);49;1648;1;Vincentius Kłopot
+213;Kłopot;Wincenty;Przedmieście Kraśnika;poszkodowany w sprawie wyciętych drzew owocowych w sadzie (fol. 24r);51;1648;1;Vincentius Kłopot
+214;Kłopotek;Gabriel;Miasto Kraśnik;mieszczanin, pozwany przez zakrystiana o rachunek z legatów testamentowych śp. Łukasza (fol. 40v);84;1648;1;Gabriel Kłopotek
+215;Kłopotek;Łukasz olim;Miasto Kraśnik;zmarły mieszczanin kraśnicki, ofiarodawca legatów na kościół parafialny i dziadów szpitalnych (fol. 40v);84;1648;1;Lucas Kłopotek Olim
+216;Laskowski;Szymon;Kraśnik;rajca kraśnicki, poborca podatkowy 1648;#112;1648;1;Laszkowski
+217;Laszczyk;Grzegorz olim;Wieś Wielkołaz;zmarły dłużnik ze wsi Wielkołaz, ojciec włodarza Wojciecha (fol. 40r);83;1648;1;Gregorius Laszczyk Olim de Wielkołaz
+218;Laszczyk;Wojciech;Wieś Wielkołaz / Ordynacja Zamojska;urzędnik ordynacki, włodarz wsi Wielkołaz, reprezentuje sukcesorów w procesie o spłatę długu (fol. 40r);83;1648;1;Albertus Laszczyk Villicus de Wielkołaz
+219;Laszczyk;Wojciech;Wilkołaz;urzędnik dworu ordynackiego w Wilkołazie (Status Curiae Aulicus);#102;1648;1;Laszcyk
+220;Latos;Wawrzyniec;Miasto Kraśnik;"mieszczanin kraśnicki, powód w sporze o ogród i zasiewy wiosenne (fol. 28v); posiadacz ogrodu przy Czeliejku (fol. 35r); mieszczanin, ugoda z Tomaszem Szleyem co do uprawy ogrodu (fol. 38v)";60, 73, 80;1648;3;Laurentius Latos
+221;Ledwacki;Benedykt;Miasto Kraśnik;tkacz, mieszczanin kraśnicki, dłużnik Jakuba Niekraszewicza pod rygorem aresztu (fol. 11v);26;1648;1;Benedictus Ledwacki
+222;Liberator;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, zbywca praw wieczystych do Młyna Grzebieńskiego (fol. 19v);42;1648;1;Stanislaus Liberator / Hiberator
+223;Libucha;Grzegorz;Kraśnik (Przedmieście);przedmieszczanin, sąsiad ogrodu Pasieczniskiego;#128;1649;1;Libuszek
+224;Lisz;Wojciech;Kraśnik (Przedmieście);przedmieszczanin, oskarżony o szaber wojenny i świętokradczy zabór kościelnej chorągwi pogrzebowej;#116, #117, #118, #121, #133;1648;5;Lis Wojciech
+225;Liszowski;Andrzej;Kraśnik;mieszczanin kraśnicki, kurator testamentowy Doroty Wołaczkowej;#134;1649;1;Liszowszki
+226;Maczkowicz;Krzysztof;Wielkie Księstwo Litewskie / Kraśnik;sławetny kupiec/rzemieślnik, przybysz z państwa litewskiego, zaciąga pożyczkę 300 zł u Stanisława Koziołka (fol. 45r);93;1648;1;Famosus Christophorus Maczkowicz e Magno Ducatu Lithuaniae
+227;Madej;Błażej;Przedmieście Kraśnika;"przedmieszczanin, nabywca ćwierci roli od Rogalowskich nad Stawem Młyńskim (fol. 32r); pozwany przez Żyda Eliasza Herszkowicza o dług (fol. 35v); przedmieszczanin, spłaca dług u Żyda Herszkowicza (fol. 37r); pozywa tkacza Szostorowskiego (fol. 46r); sąsiad roli szpitalnej (fol. 48r)";67, 74, 77, 95, 99;1648;5;Blasius Madey
+228;Malarz;Kasper;Miasto Kraśnik;cechowy mistrz malarski kraśnicki, kurator i opiekun prawny sierot po Stanisławie Płaczkowiczu (fol. 35v, 36r);74, 75;1648;2;Famosus Gaspar Pictor / Kasper Malarz
+229;Maniewski;Stanisław;Miasto Kraśnik;uczciwy krawiec kraśnicki, wybrany i zatwierdzony cechmistrzem cechu krawieckiego na rok 1648 (fol. 4v) | starszy cechu krawieckiego, powód w sprawie kaucji więziennej 45 zł za Grzegorza Kosukę (fol. 21r);12, 45;1648;2;"Honestus Stanislaus Maniewski; Stanislaus Maniewski; Maniewicz"
+230;Maniowicz;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, wierzyciel rajcy Jana Foxa na kwotę 50 fl. z zabezpieczeniem na roli podlaskiej (fol. 39r);81;1648;1;Stanislaus Maniowicz Civis Crasn.
+231;Markus Zypulik;Marcin;Miasto Kraśnik;"mieszczanin kraśnicki, dawny współwłaściciel części schedy rodzicielskiej (fol. 29v); mieszczanin, sprawca krwawego pobicia Wojciecha Króla poddanego obdukcji cyrulika (fol. 39v)";62, 82;1648;2;Martinus Markus Zypulik / Martinus Cypulik / Zypulik
+232;Mathysiecikowa;Zofia;Kraśnik;wdowa po kuśnierzu Wojciechu Mathysieciu, testatorka, legatarka kościoła zamkowego;#127, #128;1649;2;Matysieciowa
+233;Mathysieć;Wojciech;Kraśnik;niegdy mistrz cechu kuśnierskiego w Kraśniku;#127;1649;1;Matysiec kuśnierz
+234;Miazgowicz;Stanisław;Kraśnik;mieszczanin kraśnicki, wierzyciel 150 zł u Jana Foxa;#126;1648;1;Miazga Stanisław
+235;Miczkowna;Zofia;Kraśnik;uczciwa krawcowa kraśnicka, nabywczyni miodu, apelująca do Trybunału Zamojskiego;#112, #113;1648;2;Mickowa krawcowa
+236;Miecałek;Piotr;Miasto Kraśnik;sługa browarny Sebastiana Grzebieńskiego oskarżony o rozlanie oleju i kradzież śledzi (fol. 20v);44;1648;1;Petrus Miecałek Famulus
+237;Miklowska;Barbara;Lublin;uczciwa obywatelka miasta Lublina, wierzycielka sukiennicza;#107;1648;1;Mikołajowska
+238;Misiecki;Wojciech;Miasto Kraśnik;mistrz krawiecki kraśnicki, poszkodowany ofiara brutalnego pobicia i dotkliwego pokąsania w rękę przez pijaną Żydówkę Wawrzyńcową w gospodzie (fol. 10v);24;1648;1;Albertus Misiecki sartor
+239;Misztoski;Jakub ks.;Kraśnik;kanonik regularny laterański, zakrystian klasztoru kraśnickiego;#110, #136, #142, #143, #144;1648;5;Misztovius, Mistowski
+240;Misztovius;Jakub ks.;Parafia Kraśnik;duchowny katolicki, zakrystian kościoła parafialnego w Kraśniku, dochodzi legatów na kościół i dziadów szpitalnych (fol. 40v);84;1648;1;Admodum Reverendus Dominus Jacobus Misztovius Sacrarius
+241;Monych;Jan;Kraśnik;sławetny mieszczanin, kurator prawny wdowy Bałayczykowej;#104;1648;1;Monich
+242;Mroczek;Jan;Miasto Kraśnik;"sławetny rajca kraśnicki, opiekun prawny dziatek po zmarłym Kozarze, wierzyciel sumy ulokowanej na domu w ul. Lubelskiej (fol. 1v); ławnik przysięgły spisujący testament Stanisława Kafary na łożu śmierci (fol. 24r)";6, 51;1648;2;Famat Joannes Mroczek consul
+243;Mroczek;Jan;Kraśnik;sławetny burmistrz kraśnicki obierany na Zamku po najeździe kozackim (1648);#123;1648;1;Mroczkowicz
+244;Mularz Szlachecki;Jan;Miasto Kraśnik;"szlachecki rzemieślnik mularz, arbiter polubowny w ugodzie ze strony Koziołka (fol. 31v); burmistrz kraśnicki / mularz, pobiera podatek podwodny w dzień targowy (fol. 46v)";66, 96;1648;2;Joannes Mularz Nobilis / Joannes Mularz Proconsul
+245;Murarz;Jan;Kraśnik;mistrz mularski kraśnicki, wierzyciel 100 zł u Wroniny;#149;1649;1;Joannes Murator
+246;Młodzienieczyk;Augustyn;Miasto Kraśnik;młodzieniec kraśnicki, uczestnik bójki w winiarni u Alida (fol. 15v);34;1648;1;Augustinus Młodzienieczyk
+247;Młynarka;Kłopotkowa;Stróża;młynarka ze wsi Stróża pod Kraśnikiem, ograbiona z wykopanej beczki miodu i zbóż;#116, #117, #122;1648;3;Kłopotka ze Stróży
+248;Niedbałka;Grzegorz;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik półtora korca żyta po Łukaszu Kłopociku (fol. 18v);40;1648;1;Gregorius Niedbałka
+249;Niegorkowiczówna;Katarzyna;Kraśnik (Przedmieście);wdowa po kuśnierzu Andrzeju Kostce, żona sukiennika Wojciecha Sosnowskiego;#149, #150;1649;2;Sosnowska Katarzyna
+250;Niekraszewicz;Jakub;Miasto Kraśnik;szlachcic, powód przeciwko tkaczowi Benedyktowi Ledwackiemu o dług 10 zł (fol. 11v);26;1648;1;Generosus Jacobus Niekraszewicz
+251;Olecki;Jan;Kraśnik;zmarły mieszczanin, dawny właściciel ogrodu podmiejskiego;#148;1649;1;Oleczko Jan
+252;Olejek;Wojciech;Miasto Kraśnik;ławnik przysięgły, deputowany do wysłuchania ostatniej woli Wojciecha Wrony (fol. 32v);68;1648;1;Albertus Oleyek Scabinus
+253;Osiak;Osiak;Miasto Kraśnik;Żyd kraśnicki, wierzyciel zmarłego Wojciecha Korony (fol. 34v);72;1648;1;Osiak Judaeus Crasnicensis
+254;Osmulski;Bartłomiej;Kraśnik;ławnik przysięgły, komisarz intromisji kamienicy Kafary;#105;1648;1;Osmolski
+255;Ozepek;Grzegorz;Miasto Kraśnik;mieszczanin kraśnicki, dokonujący reformacji i oprawy wiana małżonce na połowie kamienicy i majątku ruchomym (fol. 5r, 5v);13, 14;1648;2;Gregorius Ozepek
+256;Pacanowski;Jan;Kraśnik (Przedmieście);przedmieszczanin, składający przysięgę na krucyfiks, sąsiad gruntu Kijkowskiego;#140, #148;1649;2;Pacanowszki
+257;Pachołkowa;Katarzyna;Kraśnik;zmarła mieszczka, donatorka 50 zł dla klasztoru Kanoników Regularnych;#142;1649;1;Pachołkowna
+258;Paczkowianka;Zofia;Kraśnik (Przedmieście);żona Stanisława Cieśli Tarszanina, oskarżona o szabrowanie schronu ziemnego;#131;1649;1;Cieślina Zofia
+259;Pajączek;Wawrzyniec;Kraśnik;zięć Jadwigi Kwaszowej, sukcesjoner ról przedmieszczańskich;#124, #128, #129, #137, #138;1648;5;Paiąk, Wawrzyniec Pająk
+260;Paluch;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pozwany o rozliczenia gruntowe na św. Michał (fol. 40v);84;1648;1;Albertus Paluch Anteoppidanus
+261;Paluszek;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany przez Jędrzeja Wardęgę o zaoranie miedzy granicznej i zniszczenie płotów (fol. 7r);17;1648;1;Albertus Paluszek suburbanus
+262;Paluszkowa;N.;Przedmieście Kraśnika;przedmieszczanka kraśnicka, nabywczyni domu i roli od poddanych z Budzynia (fol. 38r);79;1648;1;Paluszkowa Emptrix
+263;Paszkowicz;Tomasz;Kraśnik;mieszczanin kraśnicki, dłużnik klasztoru Kanoników Regularnych;#110;1648;1;Paszkowic
+264;Paterek;Wacław;Kraśnik (Przedmieście);zmarły przedmieszczanin i tkacz kraśnicki, dłużnik cechowy;#136;1649;1;Vaclaus Paterek Textor
+265;Pawłowicz;Zachariasz;Miasto Kraśnik;mieszkaniec Kraśnika, pozwany przez Stanisławową Kępinę o bezprawny zabór plonów z pułłanka roli Białkowska (fol. 6r);15;1648;1;Zacharias Pawłowicz
+266;Piaseczek;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, opiekun testamentowy Anny Koronczanki (fol. 29v);62;1648;1;Albertus Piaseczek
+267;Piechowicz;Mikołaj;Miasto Kraśnik;mieszczanin kraśnicki, poszkodowany pogorzelec w pożarze miasta (strata 3 wozów siana i zabudowań) (fol. 9v);22;1648;1;Nicolaus Piechowicz
+268;Pieczek;Marcin;Popkowice;poddany ze wsi Popkowice, powód w sprawie przeciwko kraśnickiej straży nocnej (fol. 4v);12;1648;1;Martinus Pieczek subditus
+269;Piekarczyk;Jan;Kraśnik;uczciwy mieszczanin kraśnicki, zapisujący dożywocie żonie;#113, #114;1648;2;Piekarz Jan
+270;Pielaszek;Krzysztof;Przedmieście Kraśnika;"brat rodzony Stanisława Pielaszka, otrzymuje konia wronego (fol. 30r); pozwany o dział majątku (fol. 36r); brat zmarłego Szymona Pielaszka, otrzymuje połowę z 150 zł schedy braterskiej (fol. 41r-42r)";63, 75, 85, 86, 87;1648;5;Christophorus Pielaszek
+271;Pielaszek;Stanisław;Przedmieście Kraśnika;przedmieszczanin kraśnicki, zmarły testator dyspozycji ustnej potwierdzonej przez 4 świadków (fol. 30r, 30v, 36r);63, 64, 75;1648;3;Stanislaus Pielaszek Olim Anteoppidanus
+272;Pielaszek;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik spłacający 2 grzywny długu Janowi Wróblowi kuśnierzowi (fol. 8v);20;1648;1;Simon Pielaszek
+273;Pielaszek;Szymon;Przedmieście Kraśnika;zmarły krawiec kraśnicki, mąż Barbary Kulanki, proces o dział masy 300 zł (fol. 36v, 41r-42r);76, 85, 86, 87;1648;4;Simon Pielaszek Sartor olim
+274;Pielaszek;Wincenty;Przedmieście Kraśnika;"brat rodzony zmarłego Stanisława Pielaszka, otrzymuje konia gniadego (fol. 30r); pozwany przez bratową o dział spadku (fol. 36r); brat zmarłego krawca Szymona Pielaszka, spór o masę 300 zł z bratową Barbarą Kulanką (fol. 41r-42r)";63, 75, 85, 86, 87;1648;5;Vincentius Pielaszek
+275;Pielaszkowa;Barbara;Miasto Kraśnik;małżonka Szymona Pielaszka, współkwitowana ze spłaty 2 grzywien Janowi Wróblowi (fol. 8v);20;1648;1;Barbara Pielaszkowa consors
+276;Pielaszkowa;Barbara;Kraśnik;wdowa po krawcu Szymonie Pielaszku, donatorka legatu szpitalnego;#101;1648;1;Kulanka
+277;Pielaszkowa;Wdowa;Przedmieście Kraśnika;wdowa po Stanisławie Pielaszku, powódka przeciwko szwagrom Wincentemu i Krzysztofowi o podział spadku (fol. 36r);75;1648;1;Vidua derelicta Stanislai Pielaszek
+278;Piotrowiszna;Agnieszka;Przedmieście Kraśnika;wdowa po Bednarczyku, darowuje córce Katarzynie i zięciowi Wawrzyńcowi Rzepce cały majątek z zastrzeżeniem dożywocia (fol. 32v, 33r);68, 69;1648;2;Agnes Piotrowiszna Bednarka
+279;Piotrowski;Paweł;Wola Kraśnicka;szlachcic zamieszkały na Woli k. Kraśnika, wnosi manifestację pilności w sprawie z Sierkiem przed Oficjalatem Lubelskim (fol. 38v);80;1648;1;Nobilis Paulus Piotrowski de Wola
+280;Piotruszkowa;Jadwiga;Przedmieście Kraśnickie;przedmieszczanka kraśnicka, wdowa, ciotka poszkodowanej Zofii (fol. 16v);36;1648;1;Hedvigis Piotruszkowa Vidua
+281;Piotruszkówna;Agnieszka;Przedmieście Kraśnika;przedmieszczanka, skazana do wieży Maszka za zniewagę słowną szlachcica Kieniewierskiego (fol. 46v);96;1648;1;Agnes Piotruszkowna alias Błasiowa
+282;Piotruszkówna;Zofia;Przedmieście Kraśnickie;panna kraśnicka, ofiara pobicia, napaści i zniesławienia przez Jana Pęcika Bałajczyka (fol. 16v);36;1648;1;Zophia Piotruszkowna Virgo
+283;Piszarska;Regina;Miasto Kraśnik;żona Stanisława Piszarskiego alias Szpotańskiego, współkwitująca Elżbietę Świechowiczową z 20 fl. (fol. 48v);100;1648;1;Regina Piszarska
+284;Piszarski;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, dłużnik i strona ugody z Elżbietą Świechowiczową na 20 zł (fol. 44r, 48v);91, 100;1648;2;Stanislaus Piszarski alias Szpotański
+285;Początkowic;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, świadek bójki weselnej w winiarni u Alida (fol. 15v);34;1648;1;Stanislaus Początkowic
+286;Podwoyski;Adam;Miasto Kraśnik;przysięgły urzędowy sądu wójtowskiego w Kraśniku, relator pozwów (fol. 12r);27;1648;1;Adam Podwoyski Przysięgły
+287;Postrzygaczyk;Stanisław;Miasto Kraśnik;obywatel kraśnicki, wierzyciel Macieja i Wojciecha Butkowców na kwotę 100 zł (fol. 14r);31;1648;1;Stanislaus Postrzygaczyk
+288;Postrzygarczyk;Marcin;Miasto Kraśnik;majster cechu szewskiego, wierzyciel Betcyckiego na sumę 50 zł za naukę rzemiosła (fol. 14r, 14v);31;1648;1;Martinus Postrzygarczyk
+289;Potocka;Wdowa;Miasto Kraśnik;mieszczka kraśnicka, właścicielka szopy i tłoczni oleju (olejarni) (fol. 17r);37;1648;1;Vidua Potocka
+290;Potrwajowa;N.;Kraśnik;uboga baba kraśnicka, ograbiona przez najeźdźców z inwentarza;#115;1648;1;Potrwayka
+291;Pączek;Andrzej;Miasto Kraśnik;mieszczanin kraśnicki, pozwany przez wdowę Żmiedzinę o rewizję rachunków dłużnych (fol. 47v);98;1648;1;Andreas Pączek / Paczek
+292;Pęcik;Jan;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, sprawca napaści, pobicia i zniesławienia Zofii Piotruszkówny (fol. 16v);36;1648;1;Joannes Pęcik alias Bałayczyk
+293;Pęcik;Mikołaj;Przedmieście Podlesie;przedmieszczanin kraśnicki, nabywca ćwierci roli na Podlesiu od Babiarzczyków (fol. 26v);56;1648;1;Nicolaus Pęcik
+294;Pęcikowa;Katarzyna;Przedmieście Podlesie;żona Mikołaja Pęcika, współnabywczyni roli na Podlesiu (fol. 26v);56;1648;1;Catharina Pęcikowa
+295;Pędraczek;Benedykt;Kraśnik;krawiec kraśnicki, mąż Barbary;#107;1648;1;Pędraczek
+296;Pędraczkowa;Barbara;Kraśnik;krawcowa kraśnicka, żona Benedykta Pędraczka, składająca przysięgę na krucyfiks;#107, #133;1648;2;Benedyktowa Pędraczkowa, Baraszkowa Pędraczkowa
+297;Pęzik;Józef;Kraśnik;mieszczanin kraśnicki, właściciel bydła szkodującego w zbożach;#105;1648;1;Pęzyk
+298;Płachcianka;Jadwiga;Kraśnik;mieszczka, żona Stanisława Bednarza;#102;1648;1;Płachcina
+299;Płaczkowicz;Stanisław;Miasto Kraśnik;zmarły sławetny mieszczanin kraśnicki, ojciec sierot pod kuratelą mistrza malarskiego (fol. 35v, 36r);74, 75;1648;2;Famosus Stanislaus Płaczkowicz Olim
+300;Płaxa;Bartosz (alias Oziąbek);Kraśnik (Przedmieście);zmarły przedmieszczanin i ławnik przysięgły kraśnicki;#138, #139;1649;2;Bartosz Oziąbek
+301;Płaxa;Stanisław;Kraśnik (Przedmieście);małoletni syn ławnika Bartosza Płaxy, sukcesjoner wołów i zbóż;#139;1649;1;Płaksik Stanisław
+302;Płaxianka;Maryna;Kraśnik (Przedmieście);małoletnia córka ławnika Bartosza Płaxy, sukcesorka;#139;1649;1;Płaksianka
+303;Płaxina;Anna;Kraśnik (Przedmieście);wdowa po ławniku Bartoszu Płaxie alias Oziąbku, żona Tworkowicza;#138, #139;1649;2;Płaksina
+304;Płocennikowski;Stanisław;Kraśnik;mieszczanin kraśnicki, posesor części dziedzictwa w chmielnikach;#126;1648;1;Płóciennikowski
+305;Rannik;Żyd;Miasto Kraśnik;mieszkaniec żydowski Kraśnika, pogorzelec w pożarze miasta (całkowicie spalona stodoła, szopa i spichlerz) (fol. 9v);22;1648;1;Rannik Judaeus
+306;Rogalowski;Jan;Kraśnik / Ziemia Lubelska;nobilis, szlachcic rezygnujący z prawa ziemskiego na rzecz Prawa Magdeburskiego, handlarz miodem;#112, #113;1648;2;Rogalewicz
+307;Rogalowski;Stanisław;Miasto Kraśnik;notariusz i pisarz miejski kraśnicki, kustosz ksiąg i rejestrów (fol. 18r);39;1648;1;Stanislaus Rogalowski
+308;Rogalowski;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, sprzedaje Błażejowi Madejowi ćwierć roli nad Stawem Młyńskim od Glinek (fol. 32r);67;1648;1;Albertus Rogalowski
+309;Rozpęda;Marcin;Kraśnik;cechmistrz cechu tkackiego w Kraśniku (1648);#124;1648;1;Rozpędzik tkacz
+310;Rozyński;Maciej;Miasto Kraśnik;uczciwy tkacz kraśnicki, wybrany i zatwierdzony cechmistrzem cechu tkackiego na rok 1648 (fol. 4v);12;1648;1;Honestus Mathias Rozyński
+311;Rybicki;Marek ks.;Parafia Urzędów;duchowny katolicki, proboszcz (pleban) w Urzędowie, pierwotny właściciel i sprzedawca ogrodu w Kraśniku (fol. 27v);58;1648;1;Reverendus Dominus Marcus Rybicki Plebanus
+312;Rynarczyk;Stanisław;Miasto Kraśnik;woźny miejski (ministerialis curiae) i mieszczanin kraśnicki, powód przeciw Wąsiewakowi i dłużnik (fol. 12r, 17r);27;1648;1;Stanislaus Rynarczyk
+313;Rzepczyk;Wawrzyniec;Miasto Kraśnik;szewc kraśnicki, powód w wielkim procesie posagowym przeciw wdowie Kościejnej (fol. 17r, 21r, 21v, 23v);37;1648;1;Laurentius Rzepczyk
+314;Rzepczyna;Anna;Kraśnik;mieszczka kraśnicka, dłużniczka klasztorna;#143;1648–1649;1;Rzepka wdowa
+315;Rzepczyński;Jan;Miasto Kraśnik;dłużnik 20 florenów przy czarze z terminem na Niedzielę Przewodnią (fol. 30v);64;1648;1;Joannes Rzepczyński
+316;Rzepka;Stanisław;Blinów;pracowity poddany ordynacki ze wsi Blinów, kładący areszt na zboża;#140;1649;1;Rzepka de Blinow
+317;Rzepka;Wawrzyniec;Przedmieście Kraśnika;zięć Agnieszki Piotrowiszny, obdarowany majątkiem teściowej i zobowiązany do płacenia poborów i czynszów (fol. 32v, 33r);68, 69;1648;2;Laurentius Rzepka / Rzepczyk
+318;Rzeszkowicz;Marcin;Kraśnik;cechmistrz cechu kuśnierskiego w Kraśniku (1648);#124;1648;1;Rzeszkowic kuśnierz
+319;Rzycz;Wojciech;Miasto Kraśnik;ławnik kraśnicki, plenipotent procesowy Tomasza Grządki (fol. 19r);41;1648;1;Famatus Albertus Rzycz Scabinus
+320;Rzęczyłowski;Jan (alias Kramarz);Kraśnik;zięć Banachowej, kupiec kramny, skazany do wieży za nazwanie teściowej czarownicą;#135;1649;1;Kramarz Jan
+321;Ręgielek;Szymon;Kraśnik;mieszczanin kraśnicki, dłużnik 5 zł u Wołaczka;#133;1649;1;Ręgieł
+322;Ręzyński;Maciej;Kraśnik;cechmistrz cechu tkackiego w Kraśniku 1649 (Archimagister Textorum);#136;1649;1;Ręzaski Mathias
+323;Sassakowicz;Wojciech;Przedmieście Podlesie;nabywca dziesięciny roli na Podlesiu przy Stawie Braterskim za olbrzymią sumę 300 zł polskich (fol. 34r);71;1648;1;Albertus Sassakowicz
+324;Sicki;Marcin;Szemielowice;zmarły garncarz i mieszczanin szemielowski/kraśnicki, mąż Zofii (fol. 13v);30;1648;1;Olim Martinus Sicki
+325;Sicki;Marcin (młodszy);Szemielowice;syn garncarza Marcina, mieszczanin kraśnicki (fol. 13v);30;1648;1;Martinus Sicki junior
+326;Sicki;Stanisław;Szemielowice;syn garncarza Marcina, mieszczanin kraśnicki (fol. 13v);30;1648;1;Stanislaus Sicki
+327;Sierawski;Andrzej;Kraśnik;ławnik przysięgły ocalały z najazdu wrogich Kozaków (superstes post incursionem Kozakos 1648);#123, #150;1648;2;Sierawszki, Sierakowski
+328;Sierek;Marcin;Wieś Sejronice / Lubelskie;szlachcic z Sejronic, strona pozwana w procesie przed sądem oficjała lubelskiego (fol. 38v);80;1648;1;Nobilis Martinus Sierek de Sejronice
+329;Sierkowski;Andrzej;Kraśnik;sławetny rajca rezydujący obierany na Zamku w 1648 r.;#123;1648;1;Sierkiewic
+330;Sitarczyk;Walenty;Miasto Kraśnik;mieszczanin kraśnicki, wygrywa 80 gr długu przeciw Pawłowi Sznederowiczowi pod rygorem wieży (fol. 47v);98;1648;1;Valentinus Sitarczyk
+331;Sitarski;Marcin;Kraśnik;ławnik przysięgły kraśnicki 1649, komisarz intromisji i inwentarza;#144, #145, #150;1649;3;Sitarski Scabinus
+332;Sitarz;Stanisław;Miasto Kraśnik;rzemieślnik sitarz, nabywca ogrodu od Tomasza Grządki za 12 zł (fol. 27v, 28r);58, 59;1648;2;Stanislaus Sczifaber / Staszek Sitarz
+333;Smalczyk;Jan;Miasto Kraśnik;syn Zofii Smalczykowej, odbiera 9 zł na koszty pogrzebu matki (fol. 27r);57;1648;1;Joannes Smalczyk
+334;Smalczyk;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, zięć Zofii Połecyny, uczestnik rozliczenia spadkowego (fol. 27r);57;1648;1;Stanislaus Smalczyk
+335;Smalczykowa;N.;Miasto Kraśnik;córka Zofii Połecyny Smalczykowej, małżonka Stanisława Smalczyka (fol. 27r);57;1648;1;Filia Zofiae Połecyny
+336;Smalczykowa;Zofia;Miasto Kraśnik;mieszczanka kraśnicka, matka rozliczająca spadek i koszty pogrzebu z zięciem Smalczykiem (fol. 27r);57;1648;1;Zofia Połecyna Smalczykowa
+337;Smolarek;Jan;Kraśnik;rajca kraśnicki, delegat rewizyjny szkód wojennych 1648;#110;1648;1;Smolarz
+338;Sosnowski;Wojciech;Przedmieście Kraśnika;płóciennik i przedmieszczanin kraśnicki, dobrodziej darowujący wieczystym zapisem półćwierć roli Ubogim Szpitalnym w Kraśniku (fol. 48r, 48v);99, 100;1648;2;Albertus Sosnowski Linifex
+339;Sosnowski;Wojciech;Kraśnik (Przedmieście);sukiennik kraśnicki, donator szpitalny, oprawiający wiano żonie na niwie sandomierskiej;#149, #150;1648–1649;2;Sosnowski Textor
+340;Starkowiecki;Wojciech;Kraśnik;wójt kraśnicki (1648);#104;1648;1;Starczowiecki
+341;Starkowski;Stanisław;Kraśnik;kowal i mieszczanin kraśnicki (Terrifaber);#109, #110;1648;2;Starczowski kowal
+342;Starybrach;Marcin;Popkowice;mieszkaniec wsi Popkowice, poddany podsędka Kiełczewskiego, rozliczenia z przedmieszczanami (fol. 11v);26;1648;1;Martinus Starybrach
+343;Stephaniak;N.;Przedmieście Kraśnika;przedmieszczanin, sąsiad miedzowy na przedmieściu kraśnickim (fol. 38r);79;1648;1;Stephaniak Anteoppidanus
+344;Szabatkowicz;Wojciech;Miasto Kraśnik;sławetny ławnik sądu wójtowsko-ławniczego kraśnickiego, dokonujący obdukcji pobitego krawca Wojciecha Misieckiego (fol. 10v) | starszy ławnik przysięgły, obdukcja szkód w browarze Grzebieńskiego i spustoszenia sadu (fol. 20v, 23v) | urzędowa wizja pni i sadu Kłopota (fol. 23v);24, 44, 50;1648;3;"Albertus Szabatkowicz scabinus; Albertus Szapatkowicz Scabinus Senior"
+345;Szadek;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, pozwany w procesie majątkowym (fol. 18r);39;1648;1;Laurentius Szadek
+346;Szafranek;Albert;Kraśnik;rajca i ławnik kraśnicki, świadek tortur kata 1648;#118, #120, #123, #126, #133;1648;5;Woyciech Szafranek
+347;Szafranek;Stanisław;Kraśnik;rajca kraśnicki, prowizor szpitala miejskiego 1648, świadek tortur, opiekun testamentowy;#101, #110, #112, #120, #123, #125, #128, #137;1648;8;Szafraniek
+348;Szafranek;Tomasz;Kraśnik (Przedmieście);przedmieszczanin kraśnicki, dłużnik zbożowy Rzepki;#140;1649;1;Szafraniek Tomasz
+349;Szafranek;Wawrzyniec;Kraśnik;ławnik przysięgły kraśnicki, komisarz wizji szkód polnych;#104;1648;1;Szafraniek
+350;Szafranek;Wojciech;Miasto Kraśnik;"ławnik przysięgły, obdukcja ran pobitego Macieja Kudelki (fol. 16r) oraz pobitej Zofii Piotruszkówny (fol. 16v) | obdukcja guzów i pobicia Zofii (fol. 16v); pisarz przysięgły kraśnicki, wyznaczony do badania rachunków legatów kościelnych (fol. 40v)";35, 36, 84;1648;3;Albertus Szafranek Scabinus / Albertus Szafranek Notarius Iuratus
+351;Szafranek;Wojciech;Kraśnik;ławnik przysięgły, komisarz testamentowy i rewizyjny schronów ziemnych;#129, #131;1648–1649;2;Szafraniek
+352;Szafrankowicz;Stanisław;Miasto Kraśnik;sławetny szewc kraśnicki, wybrany i zatwierdzony cechmistrzem cechu szewskiego na rok 1648 (fol. 4v);12;1648;1;Famat Stanislaus Szafrankowicz
+353;Szapałkowicz;Wojciech;Miasto Kraśnik;"ławnik przysięgły, deputowany do testamentu Korony (fol. 29r); kompromisarz w ugodzie o razy (fol. 31v); ławnik przysięgły, obdukcja ran Króla (fol. 39v); nadzór nad rachunkiem zakrystiana (fol. 40v); obdukcja poddanego z Budzynia (fol. 45v)";61, 66, 82, 84, 94;1648;5;Albertus Szapałkowicz Scabinus
+354;Szapielkowicz;Wojciech;Kraśnik;ławnik przysięgły kraśnicki, komisarz wizji szkód polnych;#104;1648;1;Szapielik
+355;Szarkowicz;Stanisław;Kraśnik;sławetny mieszczanin, asesor do Trybunału Zamojskiego 1648;#124;1648;1;Szarkowic
+356;Szczepanik;Piotr;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany o zaoranie miedzy i wypasienie wołów w zasiewach (fol. 18v);40;1648;1;Petrus Sczepanik
+357;Szczerbuś;Marcin;Przedmieście Podlesie;przedmieszczanin, sąsiad miedzowy na Podlesiu od wygonu (fol. 26v);56;1648;1;Martinus Szczerbuś
+358;Szczurek;Stanisław;Miasto Kraśnik;mieszczanin kraśnicki, pozwany o niezapłacenie 12 zł za połać mięsa wieprzowego (fol. 44r);91;1648;1;Stanislaus Szczurek
+359;Szczygiełek;Bartosz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, uczestnik rozliczeń finansowych z Kępiną (fol. 11v);26;1648;1;Bartholomaeus Szczygiełek
+360;Szczygiełek;Szymon;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka i sprzedaży roli na Podlesiu (fol. 30r, 30v);63, 64;1648;2;Simon Szczygiełek
+361;Szczygiołek;Stanisław;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, pozwany przez poddanych z Popkowic o krwawe pobicie podczas jarmarku (fol. 7v);18;1648;1;Stanislaus Szczygiołek suburbanus
+362;Szczygłowski;Mikołaj;Miasto Kraśnik;mieszczanin kraśnicki, wyznaczony przez urząd radziecki na opiekuna prawnego wdowy Stanisławowej Kępinej (fol. 6r);15;1648;1;Nicolaus Szczygłowski
+363;Szewc;Błażej;Kraśnik;mistrz cechu szewskiego, opiekun testamentowy córek cyrulika;#131;1649;1;Szewczyk Błażej
+364;Szley;Tomasz;Przedmieście Kraśnika;"przedmieszczanin kraśnicki, pozwany w sporze o prawo zasiewu i orki w ogrodzie (fol. 28v); przedmieszczanin, ugoda ogrodowa z Wawrzyńcem Latosem (fol. 38v)";60, 80;1648;2;Thomas Szley / Koley
+365;Sznederowicz;Paweł;Miasto Kraśnik;"mieszczanin kraśnicki, wykupuje od Żyda Jakuba Eliaszowicza złocisty srebrny dostawczak Kafary za 40 zł (fol. 35r); mieszczanin kraśnicki, skazany na oddanie 80 gr długu Sitarczykowi (fol. 47v)";73, 98;1648;2;Paulus Sznederowicz / Snayderowicz
+366;Sznederowicz;Paweł;Kraśnik;mieszczanin kraśnicki, dłużnik i pozwany o pobicie;#104, #106;1648;2;Schneiderowicz
+367;Szopka;Szymon;Miasto Kraśnik;mieszczanin kraśnicki, główny poszkodowany w wielkim pożarze miasta (spalone zboża, woły, krowy, strata oszacowana na 500 zł) (fol. 9v);22;1648;1;Simon Szopka
+368;Szostorowski;Wojciech;Przedmieście Kraśnika;tkacz i przedmieszczanin kraśnicki, pozwany przez Błażeja Madeja o niedotrzymanie kontraktu tkackiego (fol. 46r);95;1648;1;Albertus Szostorowski Textor
+369;Szowka;Grzegorz;Przedmieście Kraśnika;przedmieszczanin kraśnicki, pozwany o spłatę długu zabezpieczonego obligiem z 1644 r. (fol. 27v);58;1648;1;Gregorius Szowka Sowowic
+370;Szustowlik;Szymon;Kraśnik;szabrownik wojenny skazany do wieży Maska za kradzież komży kapłańskiej na koszulkę dziecku;#142;1649;1;Szustowlik Simon
+371;Tarsa;Maciej;Miasto Kraśnik;mieszczanin kraśnicki, teść Sebastiana Wojtasika z Bielin, wypłaca posag i schedę 34 fl. 12 gr (fol. 29v);62;1648;1;Matthias Tarsa Civis Crasn.
+372;Tkaczkowicz;Szymon;Miasto Kraśnik;uczciwy kowal kraśnicki, wybrany i zatwierdzony cechmistrzem cechu kowalskiego na rok 1648 (fol. 4v);12;1648;1;Honestus Simon Tkaczkowicz
+373;Tokarczyk;Piotr;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, gospodarz i obrońca Jadwigi i Zofii Piotruszkówny w procesie o zniesławienie (fol. 16v);36;1648;1;Petrus Tokarczyk
+374;Tokarczyk;Wojciech;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, uczestnik bójki jarmarcznej z poddanymi z Popkowic (fol. 7v);18;1648;1;Albertus Tokarczyk suburbanus
+375;Tokarczyk;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka (fol. 30r);63;1648;1;Albertus Tokarczyk
+376;Tokarz;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, świadek ustnego testamentu Stanisława Pielaszka i wierzyciel na 20 fl. (fol. 30r);63;1648;1;Albertus Tokarz Anteoppidanus
+377;Toroń;Maciej;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, poręczyciel uwięzionego Grzegorza Kosuki na sumę 45 zł (fol. 21r);45;1648;1;Mathias Toron
+378;Trestka;N.;Kraśnik;mieszczanin kraśnicki, dłużnik 6 zł klasztoru;#143;1649;1;Trestka
+379;Turczyńska;Anna;Miasto Kraśnik;mieszczka kraśnicka, małżonka Mikołaja Turczyńskiego (fol. 13v);30;1648;1;Anna Turczynska
+380;Turczyński;Mikołaj;Miasto Kraśnik;"mieszczanin kraśnicki, dłużnik spłacający 100 zł na rzecz Kurelowej (fol. 13v); mieszczanin, szwagier Kafary, proces o 100 fl. z Żydem Eliaszowiczem (fol. 25v-26r, 36r)";30, 54, 55, 75;1648;4;Nicolaus Turczynski
+381;Turszyńska;N. (Wdowa po Mikołaju);Kraśnik (Przedmieście);wdowa po zamordowanym przez Kozaków Mikołaju Turszyńskim, ograbiona z 200 zł ukrytych w schronie;#116, #117, #120, #122;1648;4;Turzyńska wdowa
+382;Turszyński;Mikołaj;Janów Lubelski / Kraśnik;mieszczanin janowski, dłużnik handlowy Kafary i Eliaszowicza;#103, #107, #109;1648;3;Turzyński
+383;Turszyński;Mikołaj (zamordowany);Kraśnik (Przedmieście);mieszczanin przedmiejski, bestialsko zamordowany w swoim dworze przez wkraczających Kozaków Chmielnickiego (1648);#116;1648;1;Turzyński nieboszczyk
+384;Turszyński;Szymon;Kraśnik;ławnik przysięgły ocalały z najazdu wrogich Kozaków (superstes post incursionem Kozakos 1648);#123, #145;1648;2;Turzyński Simon
+385;Tworkowicz;Sebastian;Kraśnik (Przedmieście);przedmieszczanin, drugi mąż wdowy Anny Płaxiny;#139;1649;1;Tworek Sebastian
+386;Tyrowa;Maryna;Kraśnik (Przedmieście);wdowa przedmieszczańska, powódka o ukrytą tatarkę;#140;1649;1;Tyrowina
+387;Umińska;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, sąsiadka miedzowa roli darowanej Ubogim Szpitalnym (fol. 48r);99;1648;1;Vidua Umińska
+388;Wardęga;Andrzej;Przedmieście Kraśnika;przedmieszczanin kraśnicki, powód w procesie gruntowym przeciw Paluchowi (fol. 40v);84;1648;1;Andreas Wardęga Anteoppidanus
+389;Wardęga;Jędrzej (Andrzej);Przedmieście Kraśnickie;przedmieszczanin kraśnicki, powód w sporze granicznym z Wojciechem Paluszkiem o zaoranie miedzy i zniszczenie płotu (fol. 7r);17;1648;1;Andreas Wardęga suburbanus
+390;Wawrzynkowa;N.;Kraśnik;uczciwa młynarka, aktorka w procesie o rabunki wojenne;#116;1648;1;Wawrzyńcowa
+391;Wawrzyńcowa;Wawrzyńcowa;Miasto Kraśnik;mieszkanka żydowska Kraśnika, oskarżona o napaść, pobicie i dotkliwe pokąsanie krawca Wojciecha Misieckiego w gospodzie po pijanemu (fol. 10v);24;1648;1;Wawrzyńcowa Żydowica
+392;Wilczek;Jan;Kraśnik;pracowity obywatel kraśnicki, skazany na tydzień wieży Maska;#116;1648;1;Wilk
+393;Wilczek;Stanisław;Kraśnik;mieszczanin, legatariusz zestawu instrumentów chirurgicznych i brzytew cyrulika;#130;1649;1;Wilk Stanisław
+394;Wilczkowa;Dorota;Przedmieście Kraśnickie;żona młynarza Tomasza Wilka, współnabywczyni domu przy Bramie Krakowskiej (fol. 20r);43;1648;1;Dorothea Wilczkowa
+395;Wilk;Tomasz;Przedmieście Kraśnickie;młynarz grzebieński, nabywca młyna oraz domu na wale przy Bramie Krakowskiej za 120 zł (fol. 19v, 20r);42;1648;1;Thomas Wilk Molitor Grzebienski
+396;Winiarz;Jan;Kraśnik;winiarz kraśnicki, wraz z żoną bestialsko poraniony i posieczony przez Kozaków w 1648 r.;#115;1648;1;Winnik Jan
+397;Winiarz;Maciej;Miasto Kraśnik;szynkarz winny u Eliasza Jakubowicza, uczestnik bójki w winiarni (fol. 15r, 15v);33;1648;1;Mathyasz Winiarz
+398;Winiarzowa;N.;Kraśnik;żona winiarza Jana, ofiara ran ciętych szablami kozackimi;#115;1648;1;Winiarka
+399;Wnukowa;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, sąsiadka miedzowa domu na przedmieściu (fol. 38r);79;1648;1;Vidua Wnukowa
+400;Wojtasik;Józef;Bieliny;uczciwy gospodarz ze wsi Bieliny włości kraśnickiej;#140;1648–1649;1;Woytasik
+401;Wojtasik;Sebastian;Wieś Bieliny k. Kraśnika;mieszkaniec podkraśnickiej wsi Bieliny, zięć Macieja Tarsy, kwituje teścia z posagu 34 fl. 12 gr (fol. 29v);62;1648;1;Sebastianus Woytasik de Bielin
+402;Wolak;Piotr;Miasto Kraśnik;robotnik olejarski, pozwany o nieumyślne zniszczenie stępy i wylanie oleju (fol. 17r);37;1648;1;Petrus Wolak
+403;Wolakowa;Anna;Miasto Kraśnik;wdowa kraśnicka, powódka przeciwko opiekunom sierot Płaczkowicza o kradzież płótna (fol. 35v, 36r);74, 75;1648;2;Honesta Anna Wolakowa Vidua
+404;Wołaczek;Jan;Kraśnik (Przedmieście);synowiec Marcina Wołaczka, sukcesjoner siwej sukni i majątku;#134;1649;1;Wolaczek Jan
+405;Wołaczek;Marcin;Kraśnik (Przedmieście);przedmieszczanin, testator, donator chałupy pod Groblą Młyńską dla Szpitala;#133, #134;1649;2;Wolaczek
+406;Wołaczek;Wojciech;Kraśnik (Piasek);przedmieszczanin na Piasku kraśnickim, wierzyciel 22 zł u Marcina Wołaczka;#133;1649;1;Wołaczek na Piasku
+407;Wołaczkowa;Dorota;Kraśnik (Przedmieście);małżonka Marcina Wołaczka, dożywotniczka majątku;#134;1649;1;Dorota Wolaczkowa
+408;Wrona;Marcin;Kraśnik;uczciwy mieszczanin kraśnicki, wierzyciel;#109;1648;1;Wronka
+409;Wrona;Wojciech;Przedmieście Kraśnika;przedmieszczanin kraśnicki, chory na łożu boleści, potwierdza przed ławnikami treść pierwszego testamentu (fol. 32v);68;1648;1;Albertus Wrona Anteoppidanus
+410;Wronina;N.;Kraśnik;wdowa po Wronce, dłużniczka dworu wilkołaskiego;#102, #103, #149;1648;3;Wronkowa, Maryna Wronina
+411;Wronka;Andrzej;Przedmieście Kraśnika;syn zmarłego Wojciecha Korony (Wrony), uwolniony ze świadectwa matki od 27 fl. długu w Wielkołazie (fol. 43v);90;1648;1;Andreas Wronka / Korona
+412;Wronka;Andrzej;Kraśnik;zmarły pasierb Maryny Tyrowej;#140;1648–1649;1;Wronkowicz
+413;Wrzosowski;Lenart;Miasto Kraśnik;mieszczanin kraśnicki, współwłaściciel części rodzicielskiej (fol. 29v);62;1648;1;Leonardus Wrzosowski
+414;Wróbel;Jan;Miasto Kraśnik;"uczciwy kuśnierz kraśnicki, kwitujący Szymona i Barbarę Pielaszków ze zwrotu długu 2 grzywien polskich (fol. 8v); kuśnierz i mieszczanin kraśnicki, kwitowany z 50 fl. długu przez Jakuba Eliaszowicza (fol. 25r)";20, 53;1648;2;Honestus Joannes Wrobel pellio / Joannes Wrobl Pellifex
+415;Wybranowski;Herculan ks.;Kraśnik;Kanonik Regularny Laterański w klasztorze kraśnickim;#144;1649;1;Herculanus Wybranowski C. R.
+416;Wągłow;Wawrzyniec;Kraśnik;uczciwy mieszczanin kraśnicki, wierzyciel kwitujący Kafarzycę z 50 zł;#137;1649;1;Wągiel Wawrzyniec
+417;Wągłowowa;Anna;Kraśnik;mieszczka kraśnicka, żona Wawrzyńca Wągłowa;#137;1649;1;Wągielina
+418;Wąsiewak;Boran;Miasto Kraśnik;mieszczanin kraśnicki, pozwany skazany na uwięzienie w miejskiej wieży Masce za kontumację (fol. 12r);27;1648;1;Boran Wąsiewak
+419;Włodarz;Urzędnik Zamkowy;Zamek Kraśnicki;włodarz zamkowy dóbr kraśnickich Ordynacji Zamojskiej, uczestnik wizji spustoszeń w sadzie (fol. 23v);50;1648;1;Villicus Arcensis
+420;Włoszczyk;Grzegorz;Miasto Kraśnik;mieszkaniec Kraśnika, strażnik nocny (custos nocturnus) miasta, pozwany przez poddanych z Popkowic o uwięzienie i pobicie w nocy (fol. 4v);12;1648;1;Grzegorz Syn Włoszkowy / Włoszczyk
+421;Zadurna;Agnieszka;Przedmieście Kraśnika;wdowa po Wojciechu Zadurnie, sprzedaje dom i grunt na przedmieściu Janaszkowi za 15 fl. 18 gr (fol. 38r);79;1648;1;Agnes Zadurna Woytaszka
+422;Zadurna;Wojciech olim;Przedmieście Kraśnika;zmarły przedmieszczanin kraśnicki, dawny właściciel domu na przedmieściu (fol. 38r);79;1648;1;Albertus Zadurna Olim
+423;Zajączek;Wawrzyniec;Kraśnik (Przedmieście);uczciwy przedmieszczanin, ofiara szabru schronu ziemnego ze słomą w stodole;#131, #132;1649;2;Zaiączek
+424;Zamoyski;Jan;Zamość;kasztelan kaliski, III Ordynat Zamojski, pan dziedziczny Kraśnika;#123;1648;1;Sobiepan Zamoyski
+425;Zamoyski;Jan (Sobiepan);Zamość;III Ordynat Zamoyski, wojewoda sandomierski, pan i dziedzic Kraśnika, w którego imieniu elekcję magistratu przeprowadził Remigian Kiełczewski (fol. 4r);11;1648;1;Illustrissimus ac Clementissimus Dominus Joannes Zamoyski
+426;Zatyka;Tomasz;Przedmieście Kraśnickie;przedmieszczanin kraśnicki, szwagier i zięć Wincentego Kłopota, pozwany o zniszczenie sadu i zrębu domu (fol. 23r, 23v);49;1648;1;Thomas Zatyka Affinis
+427;Zatyka;Tomasz;Przedmieście Kraśnika;szwagier Kłopota, obwiniony o wyrąb drzew owocowych w sadzie (fol. 24r);51;1648;1;Thomas Zatyka
+428;ze Szpitala;Łukasz;Kraśnik (Szpital);zmarły pensjonariusz szpitala ubogich (de Xenodochio Crasn.), legator 20 zł;#136;1649;1;Lucas de Xenodochio
+429;Ziątek;Bartłomiej;Miasto Kraśnik;ławnik przysięgły kraśnicki, świadek kontraktu posagowego i delegat wizji zniszczeń majętności (fol. 21v, 23v);46;1648;1;Famatus Bartholomaeus Ziątek Scabinus
+430;Zwolski;Wojciech;Zamek Kraśnicki;szlachcic, sługa i dworzanin podsędka Remigiana Kiełczewskiego, oskarżyciel Jana Foxa o kradzież 996 zł (fol. 21v, 22r, 22v);46;1648;1;Nobilis Albertus Zwolski
+431;Zygmoncik;Paweł;Kraśnik (Przedmieście);ceśniczek i obywatel zamiejski, ofiara szabru wojennego, oskarżyciel;#110, #114, #118;1648;3;Zygmunckik
+432;Zygmunt;Zygmunt;Miasto Kraśnik;zbiegły małżonek Katarzyny Ćwikliny, który porzucił żonę i wyprowadził się z Kraśnika (fol. 33v);70;1648;1;Sigismundus Maritus Desertor
+433;Ćwiek;N. ojciec olim;Przedmieście Podlesie;zmarły ojciec braci Wojciecha i Stanisława Ćwieków, otoczony opieką synowską (fol. 43r);89;1648;1;Pater Ćwiek Olim
+434;Ćwiek;Stanisław;Przedmieście Podlesie;"młodszy brat, sprawował opiekę nad ojcem w starości, zorganizował pogrzeb i wiano siostry; otrzymuje ćwierć roli (fol. 42v, 43r)";88, 89;1648;2;Stanislaus Ćwiek Anteoppidanus Iunior
+435;Ćwiek;Wojciech;Przedmieście Podlesie;starszy brat, przedmieszczanin z Podlesia, otrzymuje dom ojczysty z sadem i ćwierć roli za Dąbrówkami (fol. 42v, 43r);88, 89;1648;2;Albertus Ćwiek Anteoppidanus Senior
+436;Ćwiekówna;N.;Przedmieście Podlesie;siostra braci Ćwieków, wyposażona posagiem przez brata Stanisława (fol. 43r);89;1648;1;Soror Ćwiekowna
+437;Ćwik;Wincenty;Kraśnik;mieszczanin, sąsiad niwy Sosnowskiego;#149;1648–1649;1;Ćwiek
+438;Ćwikielka;Wawrzyniec;Przedmieście Kraśnika;syn Katarzyny Ćwikliny, posiadacz ogrodu (fol. 33r, 33v, 34r);69, 70, 71;1648;3;Laurentius Ćwikielka / Ćwiklik
+439;Ćwikielka;Wincenty;Przedmieście Kraśnika;syn Katarzyny Ćwikliny, pełnomocnik matki w sporze z szwagrem Bartoszkiem (fol. 47r);97;1648;1;Vincentius Ćwiklik / Ćwikielka
+440;Ćwiklarzka;Agnieszka;Przedmieście pod Stokami;żona Macieja Krawca, współwłaścicielka gruntu nad rzeką Czerwoną (fol. 34r);71;1648;1;Agnes Ćwiklarzka
+441;Ćwiklina;Katarzyna;Przedmieście Podlesie;"przedmieszczanka kraśnicka, opuszczona przez męża Zygmunta, sprzedaje dziesięcinę roli przy Stawie Braterskim za 300 zł (fol. 33v, 34r); przedmieszczanka / wdowa, wraz z synem Wincentym skarży zięcia Tomasza Bartoszka o rolę przedślubną (fol. 47r)";70, 71, 97;1648;3;Catharina Ćwiklina
+442;Łach;Szymon;Kraśnik;uczciwy płóciennik kraśnicki, świadek spisania testamentu Mathysiecikowej;#127;1649;1;Łach płocennik
+443;Łobodziński;Paweł;Kraśnik (Przedmieście);uczciwy przedmieszczanin kraśnicki, świadek i instygator zaboru mienia kościelnego;#117, #120, #121;1648;3;Łoboda
+444;Łoczoszowska;Zofia;Kraśnik;uczciwa mieszczka kraśnicka, córka Zofii Mathysiecikowej;#127, #128;1649;2;Łoczoszowa
+445;Łuczka;Grzegorz;Wieś Budzyń / Ordynacja Zamojska;brat Jakuba Łuczki, poddany z Budzynia, współwłaściciel domu (fol. 38r);79;1648;1;Gregorius Łuczka Subditus
+446;Łuczka;Jakub;Wieś Budzyń / Ordynacja Zamojska;pracowity poddany ze wsi Budzyń, wraz z żoną Agnieszką i bratem Grzegorzem sprzedaje dom Paluszkowej (fol. 38r);79;1648;1;Laboriosus Jacobus Łuczka Subditus de Budzyń
+447;Łuczkowa;Agnieszka;Wieś Budzyń / Ordynacja Zamojska;żona Jakuba Łuczki, poddana z Budzynia, współsprzedawczyni domu na przedmieściu (fol. 38r);79;1648;1;Agnes Łuczkowa
+448;Świdziński;Jan;Przedmieście Kraśnika;przedmieszczanin kraśnicki, dłużnik zmarłego Korony oraz ustanowiony opiekun jego siostry Anny (fol. 29r, 29v);61, 62;1648;2;Joannes Świdziński
+449;Świechowiczowa;Elżbieta;Miasto Kraśnik;mieszczanka kraśnicka, proces o 32 zł i kwitacja 20 zł od Stanisława Piszarskiego (fol. 44r, 48v);91, 100;1648;2;Elisabeth Świechowiczowa
+450;Świechowiczówna;Elżbieta;Kraśnik;zmarła mieszczka, donatorka Ogrodu Garczyńskie dla klasztoru;#144;1648–1649;1;Swiechowicowna
+451;Święchowiczowa;Elżbieta;Miasto Kraśnik;mieszczka kraśnicka, właścicielka domu, powódka o zaległy czynsz arendy 32 zł 15 gr (fol. 17v);38;1648;1;Elizabeth Święchowiczowa
+452;Żabiński;Jan;Wieś Wielkołaz / Państwo Zamoyskie;szlachcic, oficjalista ordynacki, miernik na ten czas wielkołaski (geodeta Ordynacji Zamojskiej), obecny przy rozliczeniu spadkowym (fol. 27r);57;1648;1;Nobilis Joannes Żabiński Geometra
+453;Żmiedzina;Wdowa;Przedmieście Kraśnika;przedmieszczanka / wdowa, powódka o rozliczenia księgowe w domu notariusza miejskiego (fol. 47v);98;1648;1;Vidua Zmiedzina
+454;Żydek;Wawrzyniec;Miasto Kraśnik;mieszkaniec Kraśnika, uczestnik awantury w winiarni podczas wesela (fol. 15v);34;1648;1;Laurentius Żydek
+455;Żytkowic;Wawrzyniec;Miasto Kraśnik;mieszczanin kraśnicki, sprawca pobicia Wojciecha Kępy, spłaca raty na rzecz wdowy (fol. 36v);76;1648;1;Laurentius Zytkowic / Zytkowicz
