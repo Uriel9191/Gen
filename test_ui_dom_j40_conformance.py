@@ -104,6 +104,8 @@ def test_unit(unit_id, html_path, csv_path):
     # ---------------------------------------------------------
     print("[TEST 2/7] Weryfikacja mechanizmu otwierania i zakładek modalu skanu...")
     assert 'id="detailModal"' in html, "FAIL: Brak kontenera #detailModal w DOM!"
+    assert re.search(r'<div[^>]*id="detailModal"[^>]*class="[^"]*modal[^"]*"', html), f"FAIL: W pliku {html_path} znacznik #detailModal musi posiadać klasę 'modal'!"
+    assert 'class="modal-content"' in html, f"FAIL: W pliku {html_path} brak kontenera .modal-content wewnątrz modalu!"
     assert 'id="modalTabsBar"' in html, "FAIL: Brak paska zakładek #modalTabsBar w DOM!"
     
     # Sprawdzenie czy pierwszą domyślną zakładką jest tabBtnMeta (Opis i metadane)
