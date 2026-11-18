@@ -1,7 +1,7 @@
 ﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
 1;Foxowa (z d. Rzęgowska);Agnieszka;Kraśnik;Mieszczka kraśnicka, wdowa po rajcy Janie Jonaszu Foxie, córka Grzegorza Rzęgowskiego;#5, #10, #11;1648–1649;3;Agnes Janati Jonasis Fox Consulis, Foxina, Janowa Foxowa
 2;Rzęgowski;Grzegorz;Kraśnik;Zmarły mieszczanin kraśnicki, posesjonat roli jurydycznej na Przedmieściu;#5;1649 [ante 1649];1;Gregorius Rzęgowski
-3;Grzybowski;Andrzej;Kraśnik;Sławetny rajca kraśnicki (consul), opiekun testamentowy, kwitujący obronę miasta 1648 r.;#5, #10, #11, #28;1648–1649, 1650;4;Andreas Grzybowski Consularis
+3;Grzybowski;Andrzej;Kraśnik;Sławetny rajca kraśnicki (consul), opiekun testamentowy, kwitujący obronę miasta 1648 r.;#5, #10, #11, #28, #31;1648–1649, 1650;5;Andreas Grzybowski Consularis
 4;Koziołek;Błażej;Grabówka;Uczciwy mieszkaniec Grabówki, brat rodzony Grzegorza, nabywca roli jurydycznej;#5;1649;1;Blasius Koziołek
 5;Koziołek;Grzegorz;Grabówka;Uczciwy mieszkaniec Grabówki, brat rodzony Błażeja, nabywca roli jurydycznej;#5, #30;1649, 1650;2;Gregorius Koziołek
 6;Smolarz;Szymon;Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, sąsiad miedzy roli jurydycznej;#5;1649;1;Simon Smolarz
@@ -27,18 +27,18 @@
 26;Kuczewic;Paweł;Kraśnik;Mieszczanin kraśnicki, kurator i opiekun sierot Kępów;#7;1649;1;Paulus Kuczewic
 27;Kamińska;Dorota;Kraśnik;Uczciwa wdowa po rajcy Sebastianie Kamińskim;#7;1649;1;Dorothea Kamińska
 28;Kamiński;Sebastian;Kraśnik;Zmarły rajca kraśnicki (consul);#7;1649 [ante 1649];1;Sebastianus Kamiński Consul
-29;Sitarski;Marcin;Kraśnik;Mieszczanin kraśnicki, opiekun sierot Kamińskich, deputat do obdukcji ran;#7, #8, #14, #15, #16, #17, #18, #23, #28, #29;1649, 1650;10;Martinus Sitarski
+29;Sitarski;Marcin;Kraśnik;Mieszczanin kraśnicki, opiekun sierot Kamińskich, deputat do obdukcji ran;#7, #8, #14, #15, #16, #17, #18, #23, #28, #29, #32, #34, #35, #36;1649, 1650;14;Martinus Sitarski
 30;Lewkowicz;Józef;Modliborzyce;Niewierny Żyd, obywatel modliborzycki, kupiec suknem;#7;1649;1;Jozef Lewkowicz Infidelis Iudaeus
 31;Ziętkowic (Ziętek);Mikołaj;Kraśnik;Uczciwy młynarz kraśnicki;#7;1649;1;Nicolaus Ziętkowic Młynarz
 32;Bednarski;Andrzej;Kraśnik;Sławetny mieszczanin kraśnicki, deputowany sądu do obdukcji ran;#8;1649;1;Andreas Bednarski
 33;Dymek;Marcin;Kraśnik;Mieszczanin kraśnicki, deputowany sądu do obdukcji ran;#8;1649;1;Martinus Dymek
-34;Konięga;Maciej;Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, poszkodowany i oskarżony o pobicie;#8, #22, #23;1649, 1650;3;Mathias Konięga
+34;Konięga;Maciej;Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, poszkodowany i oskarżony o pobicie;#8, #22, #23, #35;1649, 1650;4;Mathias Konięga
 35;Grzegorkowic;Sebastian;Kraśnik;Mieszczanin kraśnicki, powód w sprawach cywilnych;#8, #9;1649;2;Sebastianus Grzegorkowic
 36;Potocki;Maciej;Kraśnik;Mieszczanin kraśnicki, mąż zmarłej kucharki Maryny;#8, #13, #27;1649, 1650;3;Mathias Potocki
 37;Potocka;Maryna;Kraśnik;Zmarła kucharka kraśnicka, żona Macieja Potockiego;#8;1649 [ante 1649];1;Maryna kucharka Potockiego
 38;Tworkoszycki;Wojciech [Albert];Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, poszkodowany pobiciem o krowę;#8, #9;1649;2;Albertus Tworkoszycki
 39;Dymek;Stanisław;Kraśnik;Mieszczanin kraśnicki, świadek zajścia o krowę;#8;1649;1;Stanislaus Dymek
-40;Zając;N. [Wdowa];Kraśnik;Wdowa kraśnicka, świadek bójki o krowę;#8;1649;1;wdowa Zającowa
+40;Zając;N. [Wdowa];Kraśnik;Wdowa kraśnicka, świadek bójki o krowę;#8, #37;1649, 1650;2;wdowa Zającowa
 41;Kowal;Jan;Kraśnik;Kowal kraśnicki, świadek bójki;#8;1649;1;Joannes Kowal
 42;Kasprowic;Gabriel;Kraśnik;Mieszczanin kraśnicki, powód o długi i zboże;#8, #9;1649;2;Gabriel Kasprowic
 43;Kowal;Stanisław;Kraśnik;Zmarły kowal kraśnicki, legatariusz 80 florenów ad pia opera;#8;1649 [ante 1649];1;Stanislaus Kowal nieboszczyk
@@ -58,12 +58,12 @@
 57;Sadomczyk;Maciej;Kraśnik;Sławetny mieszczanin kraśnicki, dłużnik 5 zł;#9;1649;1;Mathias Sadomczyk
 58;Jazdyk;Anna;Kraśnik;Mieszka kraśnicka, dłużniczka 1,5 korca tatarki;#9;1649;1;Anna Jazdykowa
 59;Ziętkowic;Jakub;Kraśnik;Mieszczanin kraśnicki, wierzyciel tatarki;#9;1649;1;Jacobus Ziętkowic
-60;Węglarz;Jakub;Kraśnik;Węglarz kraśnicki, poszkodowany pobiciem;#9, #25, #26, #29;1649, 1650;4;Jacobus Węglarz
+60;Węglarz;Jakub;Kraśnik;Węglarz kraśnicki, poszkodowany pobiciem;#9, #25, #26, #29, #31, #37;1649, 1650;6;Jacobus Węglarz
 61;Przepiórka;Krzysztof;Kraśnik;Mieszczanin kraśnicki, wierzyciel długu;#9;1649;1;Christophorus Przepiórka
 62;Przebionowa;Jadwiga;Kraśnik;Wdowa kraśnicka, dłużniczka z wyrokiem więzienia;#9;1649;1;Hedvigis vidua Przebionowa [Grzebieniowa?]
 63;Tokarz;Wojciech [Albert];Kraśnik;Mieszczanin i tokarz kraśnicki, wierzyciel 15 fl.;#9;1649;1;Albertus Tokarz
 64;Flaskiewic;Wojciech [Albert];Kraśnik;Mieszczanin kraśnicki, dłużnik z obligu 15 fl.;#9;1649;1;Albertus Flaskiewic [Flaszkowic?]
-65;Moszkowic;Jeleń;Kraśnik;Niewierny Żyd, faktor kraśnicki, powód w sprawie grabieży sukna z 1648 r.;#10, #11, #12;1648–1649;3;Jeleń Moszkowic Infidelis Iudaeus
+65;Moszkowic;Jeleń;Kraśnik;Niewierny Żyd, faktor kraśnicki, powód w sprawie grabieży sukna z 1648 r.;#10, #11, #12, #40;1648–1649, 1650;4;Jeleń Moszkowic Infidelis Iudaeus
 66;Foliator [Folusznik];Paweł;Kraśnik;Folusznik kraśnicki, pozwany i świadek grabieży kozackiej;#10, #11;1648–1649;2;Paulus Foliator [Paweł Folusznik]
 67;Baba;Jędrzej;Kraśnik;Mieszkaniec kraśnicki, oskarżony o rabunek 4 postawów czerwonego sukna;#10, #11;1648–1649;2;Jędrzej Baba
 68;Kapturski;N.;Kraśnik;Właściciel sklepu sukiennego zrabowanego w czasie najazdu kozackiego;#10, #11, #12;1648–1649;3;Kapturski
@@ -86,7 +86,7 @@
 85;Szafranek;Wojciech [Albert];Kraśnik;Sławetny rajca i wójt kraśnicki, rozliczający arendę i opiekun Kuczewiczów;#12, #15, #17;1649–1650;3;Albertus Szafranek
 86;[Mieszkaniec];Leszek;Kraśnik;Mieszkaniec kraśnicki wygnany w sporze o arendę młyńską;#12;1649;1;Leszek
 87;Prokopek;N. [Pan];Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, posesjonat karczmiska;#13;1650;1;Generosus / Pan Prokopek
-88;Jazdyk;Maciej;Kraśnik (Przedmieście);Uczciwy przedmieszczanin kraśnicki, świadek pod przysięgą;#13;1650;1;Mathias Jazdyk
+88;Jazdyk;Maciej;Kraśnik (Przedmieście);Uczciwy przedmieszczanin kraśnicki, świadek pod przysięgą;#13, #33;1650, 1650 [ante 1650];2;Mathias Jazdyk
 89;Danielec;Augustyn;Kraśnik (Przedmieście);Uczciwy przedmieszczanin kraśnicki, świadek pod przysięgą;#13;1650;1;Augustinus Danielec
 90;Panek;Andrzej;Kraśnik;Mieszczanin kraśnicki, dzierżawca karczmiska;#13;1650;1;Andreas Panek
 91;Potocka;Anna;Kraśnik;Mieszka kraśnicka, powódka o zatrudnienie córki;#13;1650;1;Anna Potocka
@@ -97,21 +97,21 @@
 96;Tworzyk;Szymon;Kraśnik;Przedmieszczanin kraśnicki, powód o parkan i obdukcję ran żony;#14, #16, #18, #21;1650;4;Simon Tworzyk, Simon Twoyg
 97;Tworzyk;Franciszek;Kraśnik;Przedmieszczanin kraśnicki, poszkodowany rozebraniem płotu;#14;1650;1;Franciscus Tworzyk
 98;Ziętek;Stanisław;Kraśnik;Mieszczanin kraśnicki, właściciel płotu i posesji;#14, #15, #16, #21;1650;4;Stanislaus Ziętek
-99;Kamiński;Adam;Kraśnik;Sławetny podwójci kraśnicki (viceadvocatus);#14, #15, #17, #18, #19, #22, #28;1650;7;Adamus Kamiński Viceadvocatus
-100;Kuczewic;Andrzej;Kraśnik;Sławetny rajca kraśnicki (consul), deputat wizji i obdukcji;#14, #18, #19, #21, #22, #23;1650;6;Andreas Kuczewic Consul
+99;Kamiński;Adam;Kraśnik;Sławetny podwójci kraśnicki (viceadvocatus);#14, #15, #17, #18, #19, #22, #28, #34, #36, #38, #40;1650;11;Adamus Kamiński Viceadvocatus
+100;Kuczewic;Andrzej;Kraśnik;Sławetny rajca kraśnicki (consul), deputat wizji i obdukcji;#14, #18, #19, #21, #22, #23, #32, #34, #35, #36, #37;1650;11;Andreas Kuczewic Consul
 101;D. [Dąbrowski?];Wawrzyniec;Kraśnik;Mieszkaniec oskarżony o rozbiórkę płotu;#14;1650;1;Laurentius D.
 102;Tworzyk;Szymonowa [Żona];Kraśnik;Przedmieszczanka kraśnicka, poszkodowana pobiciem za uchem;#14;1650;1;Simonowa Tworzykowa
 103;Krawek (Krawkowa);Stanisławowa;Kraśnik;Mieszka kraśnicka oskarżona o pobicie Tworzykowej;#14;1650;1;Stanisławowa krawkowa
 104;Tworzyk;Krzysztofowa;Kraśnik;Przedmieszczanka kraśnicka oskarżona o pobicie Tworzykowej;#14;1650;1;Krzysztofowa Tworkowa
-105;Tworzyk;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, pozwany o pszenicę i mąż ranionej;#14, #16, #30;1650;3;Albertus Tworzyk, Wojciech Tworzyk krawiec
+105;Tworzyk;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, pozwany o pszenicę i mąż ranionej;#14, #16, #30, #31;1650;4;Albertus Tworzyk, Wojciech Tworzyk krawiec
 106;Tworzyk;Wojciechowa [Żona];Kraśnik;Przedmieszczanka kraśnicka, poszkodowana rozcięciem nosa i szyi;#14;1650;1;Wojciechowa Tworzykowa
-107;Kuczewicz;Stanisław;Kraśnik;Zmarły patrycjusz i rajca kraśnicki, właściciel kamienicy w Rynku;#15;1650 [ante 1650];1;Stanislaus Kuczewicz Consul olim
+107;Kuczewicz;Stanisław;Kraśnik;Zmarły patrycjusz i rajca kraśnicki, właściciel kamienicy w Rynku;#15, #38;1650 [ante 1650];2;Stanislaus Kuczewicz Consul olim
 108;Kuczewicz;Stanisław [Junior];Kraśnik;Małoletni sierota po rajcy Stanisławie Kuczewiczu;#15;1650;1;Stanislaus Kuczewicz puerulus
 109;Janaszkowicz;Błażej;Kraśnik;Mieszczanin kraśnicki, opiekun prawny sierot Kuczewiczów;#15, #17;1650;2;Blasius Janaszkowicz Tutor
 110;Niezabitowski;N. [Pan];Kraśnik;Szlachcic, właściciel zastawy tłoczonej;#15;1650;1;Niezabitowski mądry
 111;Libuszek;Wawrzyniec;Kraśnik;Uczciwy przedmieszczanin kraśnicki, powód o pszenicę jarą;#16;1650;1;Laurentius Libuszek
 112;Tworzyk;Maciej;Kraśnik;Przedmieszczanin kraśnicki, powód o szkody w zasiewach pszenicy;#16;1650;1;Mathias Tworzyk
-113;Borkowic [Borkowicz];Maciej;Kraśnik;Mieszczanin kraśnicki, wierzyciel 16 zł długu;#16, #27, #30;1650;3;Mathias Borkowic, Maciej Borek
+113;Borkowic [Borkowicz];Maciej;Kraśnik;Mieszczanin kraśnicki, wierzyciel 16 zł długu;#16, #27, #30, #31, #36;1650;5;Mathias Borkowic, Maciej Borek
 114;Klimonowski;Wojciech;Kraśnik;Mieszczanin kraśnicki, dłużnik 16 zł;#16;1650;1;Albertus Klimonowski
 115;Szczerba (Szczerbina);Sędziwowa [Wdowa];Kraśnik;Wdowa kraśnicka, zbywczyni roli podleskiej za 50 zł;#16;1650;1;Sędziwowa Szczerbina
 116;Borek (Szczerbic);N.;Kraśnik;Syn Sędziwowej Szczerbiny, nabywca roli podleskiej;#16;1650;1;Borek syn Szczerbiny
@@ -147,10 +147,10 @@
 146;Ziętek;Wawrzyna [Ziętkowa];Kraśnik;Przedmieszczanka kraśnicka, oskarżona o obelgi i zadanie razu żonie Tworzyka;#21;1650;1;Wawrzyna Ziętkowa
 147;Droyczak;Krzysztofowa [Droyczakowa];Kraśnik;Przedmieszczanka kraśnicka, oskarżona w sporze sąsiedzkim z Tworzykiem;#21;1650;1;Krzysztofowa Droyczakowa
 148;Ziętkowic;Wojciech;Kraśnik;Syn Stanisława Ziętka, poszkodowany pobiciem przez Franciszka Sobieściańskiego;#21;1650;1;Wojciech Ziętkowic
-149;Sobieściański;Franciszek;Kraśnik;Mieszkaniec kraśnicki, sprawca pobicia Wojciecha Ziętkowica;#21;1650;1;Franciszek Sobieściański
+149;Sobieściański;Franciszek;Kraśnik;Mieszkaniec kraśnicki, sprawca pobicia Wojciecha Ziętkowica;#21, #31;1650;2;Franciszek Sobieściański
 150;Kuczewic;Stanisław [Deputat];Kraśnik;Sławetny mieszczanin kraśnicki, deputat urzędu wójtowskiego do wizji ran;#21;1650;1;Stanislaus Kuczewic Deputatus
-151;Gibałkowic [Gibałka];Szymon;Kraśnik;Przedmieszczanin kraśnicki, powód w sprawie o cielca, skazany na wieżę za pobicie Olkarskiego;#21, #25, #26;1650, 1651;3;Simon Gibałkowic, Szymon Gibałka, Stary Gibałka
-152;Odrowski;Jan;Kraśnik;Przedmieszczanin kraśnicki, pozwany o bezprawny zabór cielca;#21;1650;1;Jan Odrowski
+151;Gibałkowic [Gibałka];Szymon;Kraśnik;Przedmieszczanin kraśnicki, powód w sprawie o cielca, skazany na wieżę za pobicie Olkarskiego;#21, #25, #26, #38;1650, 1651;4;Simon Gibałkowic, Szymon Gibałka, Stary Gibałka
+152;Odrowski;Jan;Kraśnik;Przedmieszczanin kraśnicki, pozwany o bezprawny zabór cielca;#21, #31;1650;2;Jan Odrowski
 153;Starzyński;N.;Kraśnik;Właściciel ogrodu kraśnickiego poszkodowany zniszczeniem warzyw i chrzanu;#21;1650;1;Starzyński
 154;Wapiński;N.;Kraśnik;Mieszczanin kraśnicki, właściciel koni czyniących szkody w ogrodach;#21;1650;1;Wapiński
 155;Wacławowic;Jan;Kraśnik;Przedmieszczanin kraśnicki, powód o wydrapanie ogrodu przez psy furtkowe;#22;1650;1;Jan Wacławowic
@@ -159,13 +159,13 @@
 158;Wójcik;Szymon [Simon];Kraśnik;Przedmieszczanin kraśnicki, pozwany przez Konięgę o rzepak;#22;1650;1;Simon Wójcik, Szymon Wójcik
 159;Rodzonek;Stanisław;Kraśnik;Przedmieszczanin kraśnicki, powód w sprawie o niespłacony dług 2 zł;#22;1650;1;Stanisław Rodzonek
 160;Szczepanek;Stefan Teodor [Stephan];Kraśnik;Przedmieszczanin kraśnicki, dłużnik Stanisława Rodzonka;#22;1650;1;Stephan Teodor Szczepanek, Stefan Szczepanek
-161;Mazurowa;Barbara;Kraśnik;Uczciwa wdowa kraśnicka, granicznica ogrodu przedmiejskiego;#22;1650;1;Barbara Mazurowa
+161;Mazurowa;Barbara;Kraśnik;Uczciwa wdowa kraśnicka, granicznica ogrodu przedmiejskiego;#22, #35;1650;2;Barbara Mazurowa
 162;Wójtorkowic [Sobieśniak];Sebastian;Kraśnik;Przedmieszczanin kraśnicki, sprzedający ogród za 30 zł Simonowi Suszyckiemu;#22;1650;1;Sebastian Wójtorkowic, Sebastian Sobieśniak
 163;Klimontowski;Maciej;Kraśnik;Przedmieszczanin kraśnicki, sąsiad sprzedawanego ogrodu Wójtorkowiców;#22;1650;1;Maciej Klimontowski
 164;Suszycki;Szymon [Simon];Kraśnik;Przedmieszczanin kraśnicki, nabywca ogrodu za 30 zł od braci Wójtorkowiców;#22;1650;1;Simon Suszycki, Szymon Suszycki
-165;Wójtorkowic [Sobieśniak];Stanisław;Kraśnik;Przedmieszczanin kraśnicki, brat Sebastiana, zbywający prawa do ogrodu;#23;1650;1;Stanisław Sobieśniak Wójtorkowic
+165;Wójtorkowic [Sobieśniak];Stanisław;Kraśnik;Przedmieszczanin kraśnicki, brat Sebastiana, zbywający prawa do ogrodu;#23, #31;1650;2;Stanisław Sobieśniak Wójtorkowic
 166;Gąsior;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, powód w sprawie o rozliczenie ugodowe długu 6 fl.;#23;1650;1;Wojciech Gąsior
-167;Cztwierdzyński;N.;Kraśnik;JMP Namiestnik kraśnicki, świadek i rozjemca ugody dłużnej;#23;1650;1;JMP Cztwierdzyński Namiestnik
+167;Cztwierdzyński;N.;Kraśnik;JMP Namiestnik kraśnicki, świadek i rozjemca ugody dłużnej;#23, #34;1650;2;JMP Cztwierdzyński Namiestnik
 168;Małek [Krótki?];N.;Kraśnik;Sławetny mieszczanin kraśnicki, dłużnik z ugodą na 6 fl.;#23;1650;1;Sławetny Małek, Krótki
 169;Celes;Tomasz;Kraśnik;Podwójci kraśnicki przewodniczący składowi sądowemu;#23;1650;1;Tomasz Celes podwójci
 170;Cielizniak;Tomasz;Kraśnik;Ubogi przedmieszczanin kraśnicki, ojciec dotkliwie pobitych dzieci;#23;1650;1;Tomasz Cielizniak
@@ -176,7 +176,7 @@
 175;Dzierżycka [Olszowa?];Stanisławowa;Kraśnik;Sławetna mieszczka kraśnicka, wdowa, zbywająca dwór z rolami przy ul. Podleskiej za 150 zł;#24, #26;1650;2;Stanisławowa Dzierżycka, Olszowa
 176;Radziszewski;Jakub;Kraśnik;Mieszczanin kraśnicki, wyznaczony opiekun prawny wdowy Dzierżyckiej;#24;1650;1;Jakub Radziszewski
 177;Woszczański;Wojciech;Kraśnik;Mieszczanin kraśnicki, opiekun prawny wdowy Dzierżyckiej przy rezygnacji dworu;#24;1650;1;Wojciech Woszczański
-178;Cieśliński;N.;Kraśnik;Mieszczanin kraśnicki, granicznik posesji dworskiej przy ul. Podleskiej;#24;1650;1;Cieśliński
+178;Cieśliński;N.;Kraśnik;Mieszczanin kraśnicki, granicznik posesji dworskiej przy ul. Podleskiej;#24, #33;1650;2;Cieśliński, Wojciech Cieślak z Podlesia
 179;Krawiec;Jakub;Kraśnik;Krawiec kraśnicki, granicznik dworu przy ul. Podleskiej;#24;1650;1;Jakub Krawiec
 180;Robak;N. [Robakowa Wdowa];Kraśnik;Uczciwa wdowa kraśnicka, granicznica posesji przy ul. Podleskiej;#24;1650;1;Robakowa wdowa
 181;Lisarski;N.;Kraśnik;Sławetny pan, kupujący dwór i role podleskie za sumę 150 zł;#24;1650;1;Sławetny Pan Lisarski
@@ -207,20 +207,20 @@
 206;Kostka;Adam;Zdzisłowice / Kraśnik;Mieszkaniec ze Zdzisłowic [lub ze Złotnik/Radomia?], dłużnik pod przysięgą Jakuba Węglarza o sukno za żyto;#26;1651;1;Adam Kostka ze Zdzisłowic, ze Złotnik, z Radomia
 207;Węglarz;N. [Brat Jakuba];Kraśnik;Brat rodzony Jakuba Węglarza, wymieniony w rozliczeniu sukna;#26;1651;1;Brat Jakuba Węglarza
 208;Rojek [Royek];Maciej [Mathias];Kraśnik;Przedmieszczanin kraśnicki, powód o zjedzenie 5 zagonów pszenicy przez bydło;#27;1650;1;Mathias Rojek, Mathias Royek, Maciej Rojek
-209;Konięga;Stanisław;Kraśnik;Przedmieszczanin kraśnicki, pozwany o szkody w zasiewach pszenicy, składający rotę przysięgi;#27;1650;1;Stanisław Konięga
+209;Konięga;Stanisław;Kraśnik;Przedmieszczanin kraśnicki, pozwany o szkody w zasiewach pszenicy, składający rotę przysięgi;#27, #31;1650;2;Stanisław Konięga, Stanisław Konięga Kowalczykowy
 210;Konięga;Stanisławowa [Koniężyna];Kraśnik;Przedmieszczanka kraśnicka, białogłowa uczestnicząca w sporze polnym;#27;1650;1;Koniężyna białogłowa
 211;Czartkowski [Zdzisłowski?];Adam;Kraśnik;Uczestnik sporu o zabór inwentarza ze dworu śp. Jakuba Robaka;#27;1650;1;Adam Czartkowski, Adam Zdzisłowski
 212;Zborowski z Klempia;N. [JMP];Klempie / Kraśnik;JMP szlachcic z dóbr Klempie, pan poddanego pozwanego o zabór inwentarza;#27;1650;1;JMP Zborowski z Klempia
 213;Zborowski;Poddany z Klempia;Klempie / Kraśnik;Poddany ze wsi Klempie oskarżony o zagarnięcie inwentarza śp. Robaka;#27;1650;1;Poddany Zborowskiego z Klempia
 214;Robak;Jakub;Kraśnik;Zmarły mieszczanin kraśnicki, właściciel dworu i inwentarza;#27;1650 [ante 1650];1;Jakub Robak nieboszczyk
-215;Olbiński;Jakub;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o niespłacone sukno;#27;1650;1;Jakub Olbiński
+215;Olbiński;Jakub;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o niespłacone sukno;#27, #37;1650;2;Jakub Olbiński
 216;Cybulka Dworkowicz;N.;Kraśnik;Służący dworski / czeladnik, dłużnik Jakuba Olbińskiego za sukno;#27;1650;1;Cybulka Dworkowicz
 217;Bełżycki;Jędrzej;Kraśnik;Sławetny mieszczanin kraśnicki, wierzyciel Jana Dudy na sumę 50 zł;#27, #29;1650;2;Jędrzej Bełżycki, Andrzej Bełżycki
 218;Młynarz;Jan [Starszy Przysięgły];Kraśnik;Starszy przysięgły urzędu wójtowskiego kraśnickiego;#28;1650;1;Jan Młynarz starszy przysięgły
 219;Duda;Jan;Kraśnik;Przedmieszczanin kraśnicki, rezygnujący uroczyście z dworu z ogrodem za Bramą Drzewiczną ku Krakowskiej;#28, #29;1650;2;Jan Duda przedmieszczanin
 220;Duda;Janowa [Dudzina];Kraśnik;Przedmieszczanka kraśnicka, małżonka Jana Dudy, rezygnująca wieczyście z praw do dworu;#28, #29;1650;2;Dudzina żona Jana Dudy
-221;Bednarczyk;Jędrzej;Kraśnik;Bednarz kraśnicki, granicznik sprzedawanego dworu za Bramą Krakowską;#28;1650;1;Jędrzej Bednarczyk bednarz
-222;Kępa;Wojciech;Kraśnik;Zmarły mieszczanin kraśnicki, dawny granicznik posesji za Bramą Krakowską ku Drzewicom;#28;1650 [ante 1650];1;Wojciech Kępa niegdy, Adalbertus Kępa olim
+221;Bednarczyk;Jędrzej;Kraśnik;Bednarz kraśnicki, granicznik sprzedawanego dworu za Bramą Krakowską;#28, #35;1650;2;Jędrzej Bednarczyk bednarz, Wawrzyniec Bednarczyk Dworkowic
+222;Kępa;Wojciech;Kraśnik;Zmarły mieszczanin kraśnicki, dawny granicznik posesji za Bramą Krakowską ku Drzewicom;#28, #31;1650 [ante 1650];2;Wojciech Kępa niegdy, Adalbertus Kępa olim, Wojciech Kępka
 223;Dutkiewicz;Gabriel;Kraśnik;Sławetny starszy kupiec kraśnicki, nabywca dworu i ogrodu od Dudów;#28;1650;1;Gabriel Dutkiewicz starszy kupiec
 224;Kroczek;Jan;Kraśnik;Mieszczanin kraśnicki, świadek rozmowy pod oknem organisty o długu 50 zł;#29;1650;1;Jan Kroczek
 225;Organista Kraśnicki;N.;Kraśnik;Organista kościoła parafialnego w Kraśniku, właściciel domu przy ulicy;#29;1650;1;Organista kraśnicki
@@ -230,14 +230,14 @@
 229;Kępa;Wojciechowa [Kępina];Kraśnik;Uczciwa wdowa po Wojciechu Kępie, strona ugody opiekuńczej;#29;1650;1;Wojciechowa Kępina wdowa
 230;Tworko;Błażej;Kraśnik;Mieszczanin kraśnicki, krawiec, ofiara pobicia w kramach krawieckich przez Jana Śnieżka;#29, #30;1650;2;Błażej Tworko krawiec
 231;Winckowic;Andrzej;Kraśnik;Mieszczanin kraśnicki, deputat do obdukcji ran Błażeja Tworka;#29;1650;1;Andrzej Winckowic
-232;Ślinka [Slinka];Franciszek;Kraśnik;Mieszczanin kraśnicki, ofiara nocnego pobicia na ulicy przez Niesłucha;#29;1650;1;Franciszek Ślinka, Franciszek Slinka
+232;Ślinka [Slinka];Franciszek;Kraśnik;Mieszczanin kraśnicki, ofiara nocnego pobicia na ulicy przez Niesłucha;#29, #31;1650;2;Franciszek Ślinka, Franciszek Slinka
 233;Niesłuch;N.;Kraśnik;Mieszkaniec kraśnicki, sprawca nocnego napadu i pobicia Franciszka Ślinki;#29;1650;1;Niesłuch
 234;Ziętek;Jakub;Kraśnik;Mieszczanin kraśnicki, dłużnik Jakuba Węglarza o 6 fl. za mięso i opłatek;#29;1650;1;Jakub Ziętek
 235;Cwitka [Ćmitko];Wincenty;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o 9 zł długu przeciw Maciejowi Borkowicowi;#30;1650;1;Wincenty Cwitka, Wincenty Ćmitko
-236;Śnieżek;Jan;Kraśnik;Mieszczanin kraśnicki, pozwany o krwawe pobicie Błażeja Tworka w kramach krawieckich;#30;1650;1;Jan Śnieżek
-237;Szafranek;Adam;Kraśnik;Mieszczanin kraśnicki, powód o nocną kośbę pszenicy i 15 fl. szkody;#30;1650;1;Adam Szafranek
+236;Śnieżek;Jan;Kraśnik;Mieszczanin kraśnicki, pozwany o krwawe pobicie Błażeja Tworka w kramach krawieckich;#30, #35;1650;2;Jan Śnieżek
+237;Szafranek;Adam;Kraśnik;Mieszczanin kraśnicki, powód o nocną kośbę pszenicy i 15 fl. szkody;#30, #33;1650;2;Adam Szafranek
 238;Tworzykowic;N. [Syn Tworzyka];Kraśnik;Przedmieszczanin kraśnicki, syn Tworzyka, pozwany o nocne koszenie pszenicy;#30;1650;1;Syn Tworzyka
-239;Gzowka;Jan;Kraśnik;Przedmieszczanin kraśnicki, strona wielkiego podziału majątku (dworu i ról) za 140 grzywien;#30;1650;1;Jan Gzowka
+239;Gzowka;Jan;Kraśnik;Przedmieszczanin kraśnicki, strona wielkiego podziału majątku (dworu i ról) za 140 grzywien;#30, #31;1650;2;Jan Gzowka
 240;Rodzonkowa;Helena;Kraśnik;Przedmieszczanka kraśnicka, wdowa, strona działu majątkowego dworu i ról;#30;1650;1;Helena Rodzonkowa wdowa
 241;Świętek;Bartosz;Kraśnik;Przedmieszczanin kraśnicki, granicznik ról przy dziale rodzinnym Rodzonków;#30;1650;1;Bartosz Świętek
 242;Janowic;Marcin;Kraśnik;Przedmieszczanin kraśnicki, granicznik ról podleskich;#30;1650;1;Marcin Janowic
@@ -245,6 +245,110 @@
 244;Waluś;Wojciech;Kraśnik;Przedmieszczanin kraśnicki, granicznik ról podziałowych;#30;1650;1;Wojciech Waluś, Waluś Wojciech
 245;Jurek [Granicznik];N.;Kraśnik;Przedmieszczanin kraśnicki, granicznik roli;#30;1650;1;Jurek
 246;Zajączek;Walenty;Kraśnik;Przedmieszczanin kraśnicki, granicznik roli i dworu;#30;1650;1;Walenty Zajączek
-247;Kowalik;Krzysztofowa [Kowalikowa Wdowa];Kraśnik;Uczciwa wdowa kraśnicka, granicznica działu posesji;#30;1650;1;Krzysztofowa Kowalikowa wdowa
+247;Kowalik;Krzysztofowa [Kowalikowa Wdowa];Kraśnik;Uczciwa wdowa kraśnicka, granicznica działu posesji;#30, #31;1650;2;Krzysztofowa Kowalikowa wdowa
 248;Rodzonek;Adam;Kraśnik;Przedmieszczanin kraśnicki, syn zmarłego Rodzonka, sukcesor działu majątkowego;#30;1650;1;Adam Rodzonek
 249;Rodzonek;Elżbieta [Rodzonkówna];Kraśnik;Przedmieszczanka kraśnicka, córka zmarłego Rodzonka, sukcesorka majątku;#30;1650;1;Elżbieta Rodzonkówna
+250;Więśniewic [Wiśniowiecki?];Dionizy [Dyonizy];Lublin / Kraśnik;Mieszczanin lubelski, poszkodowany przecięciem ścięgna lewej ręki przez Sobieściańskiego i Ślinkę;#31;1650;1;Dyonizy Więśniewic Mieszcz. Lubelski
+251;Kanderus;Janusz;Kraśnik;Namiestnik przysięgły urzędu wójtowskiego kraśnickiego, deputat do obdukcji ran;#31;1650;1;Janusz Kanderus Namiestnik przysięgły
+252;Jastrzębski;Wojciech;Lublin / Kraśnik;Sławetny mieszczanin lubelski, strona sporu o regestr w gospodzie i zaległości ze Stanisławem Cieślakiem;#31, #33;1650;2;Woyciech Jastrzębski z Lublina
+253;Konięga;Walenty;Kraśnik;Krawiec kraśnicki, świadek oczyszczający Stanisława Sobieśniaka z zarzutu potwarzy;#31;1650;1;Walenty Konięga krawiec
+254;Kniaź;N.;Kraśnik;Dostojnik / protektor wstawiający się za synem Stanisława Odrowskiego;#31;1650;1;Pan Kniaź
+255;Odrowski;Stanisław;Kraśnik;Mieszczanin kraśnicki, ojciec proteganta Kniazia;#31;1650;1;Stanisław Odrowski
+256;Odrowski;N. [Syn Stanisława];Kraśnik;Mieszkaniec kraśnicki, syn Stanisława, protegant Kniazia w sporze z Sobieśniakiem;#31;1650;1;Syn Stanisława Odrowskiego
+257;Ogończyk;Jan;Kraśnik;Mieszczanin kraśnicki, świadek w sprawie Odrowskiego;#31;1650;1;Jan Ogończyk
+258;Wielguzowic;N. [Syn Wielguza];Kraśnik;Mieszkaniec kraśnicki poszkodowany ograbieniem dworku;#31;1650;1;Wielguzowic syn
+259;Wrona;Wojciech;Kraśnik;Rzemieślnik kraśnicki u Józefa Moszkowicza, ofiara pobicia kijem i pięściami przez Zagayczyka;#32;1650;1;Woyciech Wrona Rzemieślnik
+260;Moszkowic;Józef [Iozephe];Lublin / Kraśnik;Obywatel lubelski / kraśnicki, pracodawca Wojciecha Wrony;#32;1650;1;Jozef Moszkowic Obywatel Lubelski
+261;Zagayczyk;Jan;Kraśnik;Mieszkaniec kraśnicki, sprawca brutalnego pobicia Wojciecha Wrony;#32;1650;1;Jan Zagayczyk
+262;Łagowski;Jan;Bełżyce / Kraśnik;Uczciwy mieszczanin bełżycki, powód w sprawie o pobicie czeladnika wójtowskiego;#32;1650;1;Jan Łagowski Mieszcz. Bełżycki
+263;Dziadosz;Wincenty;Grabówka / Kraśnik;Krawiec z Grabówki, chrześcijanin oskarżony o kradzież w szynku i zabor krowy;#32;1650;1;Wincenty Dziadosz krawiec
+264;Piskorowic;Zachariasz;Kraśnik;Mieszczanin kraśnicki, świadek zeznający pod przysięgą w sprawie kradzieży w szynku;#32;1650;1;Zacharias Piskorowic
+265;Robak;N. [Córka Robacznica];Kraśnik;Mieszka kraśnicka, córka Robaka, świadek w sporze o opas i przywiązanie krowy;#32;1650;1;Córka Robacznica
+266;Ławka;Andrzej [Andrki];Grabówka / Kraśnik;Czeladnik szewski z Grabówki zeznający o wygonie i konfiskacie krowy;#32;1650;1;Andrki Ławka szewc z Grabówki
+267;Stanisław [Rzemieślnik];Józef [Joseph];Kraśnik;Rzemieślnik kraśnicki, powód w sprawie o szkody w krowach na gruntach dworskich;#32, #33;1650;2;Ioseph Stanisław Rzemieślnik
+268;Błażej [Czeladnik Krawca];N.;Kraśnik;Czeladnik krawiecki, oskarżony o wypas krowy w gruntach dworskich nieboszczyka Jana;#32, #33;1650;2;Błażey Czeladnik krawca
+269;Jazdyk;Anna [Jazdykowa Wdowa];Kraśnik;Uczciwa wdowa po Macieju Jazdyku, pozwana o 1,5 korca pszenicy przez Adama Szafranka;#33;1650;1;Anna Jazdykowa wdowa
+270;Cieślak [Cieśliński];Stanisław;Kraśnik;Uczciwy mieszczanin kraśnicki, powód w sprawie o zaległości przeciw Wojciechowi Jastrzębskiemu;#32, #33;1650;2;Stanisław Cieślak
+271;Walenty [Czeladnik];N.;Kraśnik;Uczciwy czeladnik, poszkodowany kradzieżą drewna i dwóch korcy żyta;#32, #33;1650;2;Walenty Czeladnik
+272;Paluch;Maciej [Mathias];Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, pozwany o kradzież drewna i żyta;#32, #33;1650;2;Mathyas Paluch z Przedmieścia
+273;Dzierżek;Wojciech;Kraśnik;Sąsiad i świadek w sprawie kradzieży żyta u czeladnika Walentego;#33;1650;1;Woyciech Dzierżek
+274;Suszek [Łuszek / Puszek];Wojciech;Witków / Kraśnik;Krawiec z Witkowa, powód w sprawie o zabicie krowy na pastwisku;#34;1650;1;Woyciech Suszek krawiec z Witkowa, Łuszek, Puszek
+275;Pion;N. [Mącznik];Kraśnik;Mącznik kraśnicki, osadzony w więzieniu za zabicie krowy na trawie;#34;1650;1;Pion mącznik
+276;Tukielski [Tukalski];Ignacy;Kraśnik;Sławetny mieszczanin kraśnicki, wnioskodawca wizji lekarskiej u Rzeczickowskiej i aresztu browaru;#34;1650;1;Ignacy Tukielski, Ignacy Tukalski
+277;Rzeczickowska [Rzeczycka];Maryna;Kraśnik;Sławetna mieszczka kraśnicka, właścicielka browaru, ciężko chora (posądzenia o otrucie);#34, #39, #40;1650;3;Maryna Rzeczickowska, Maryna Rzeczycka
+278;Stanisław [Obywatel];Jan;Kraśnik;Obywatel kraśnicki, wymieniony w wizji lokalnej u Maryny Rzeczickowskiej;#34;1650;1;Jan Stanisław Obywatel kraśnicki
+279;Czarnota;N.;Kraśnik;Mieszczanin kraśnicki, strona sporu o kamienie browarowe Rzeczickowskiej;#34;1650;1;Czarnota
+280;Ogrodzikowski;Kacper;Kraśnik;Mieszczanin kraśnicki, dłużnik i poręczyciel w sprawie browaru Rzeczickowskiej;#34;1650;1;Kacper Ogrodzikowski
+281;Janowic;Szymon;Kraśnik;Mieszczanin kraśnicki, ofiara pobicia (opuchnięta twarz, skurcz palców ręki);#34;1650;1;Szymon Janowic
+282;Grzegorz [Poręczyciel];N.;Kraśnik;Uczciwy mieszkaniec kraśnicki, poręczyciel wadium 24 grzywien w sprawie Janowica;#34;1650;1;Uczciwy Grzegorz
+283;Wrona;Andrzej;Kraśnik;Mieszczanin kraśnicki, pozwany o zniewagę słowną;#34;1650;1;Andrzej Wrona
+284;Kłuszek;N. [Kłuszkowa];Kraśnik;Mieszka kraśnicka, pozwana przez Mathiasa Konięgę o odszkodowanie i przysięgę;#35;1650;1;Kłuszkowa, Kłuszek
+285;Rozpędek;Błażej;Kraśnik;Mieszczanin kraśnicki, strona dekretu o komornika i rzekę;#35;1650;1;Błażej Rozpędek
+286;Zaliwka [Zalewski];Grzegorz;Kraśnik;Sławetny pan, uczestnik sporu o komornika i przysięgę rzeczną;#35;1650;1;Grzegorz Zaliwka, Grzegorz Zalewski
+287;Balik Sklepisz;Florian;Kraśnik;Obywatel kraśnicki, ofiara brutalnego pobicia przed szynkownią przez Iwana Kozaka;#35;1650;1;Florian Balik Sklepisz
+288;Kozak z Chrzanowa;Iwan;Chrzanów / Kraśnik;Kozak z Chrzanowa, sprawca krwawego pobicia Floriana Balika Sklepisza przed szynkiem;#35;1650;1;Iwan Kozak z Chrzanowa
+289;Zagayek;Jan;Kraśnik;Rzeźnik kraśnicki, pozwany o okaleczenie krowy rzeźnej podkówką;#35;1650;1;Jan Zagayek rzeźnik
+290;Lipiec;Jan;Kraśnik;Mieszczanin kraśnicki, powód w sporze o szkody bydła;#35;1650;1;Jan Lipiec
+291;Płonka;Stanisław;Kraśnik;Mieszczanin kraśnicki, pozwany o szkody bydła przez Jana Lipca;#35;1650;1;Stanisław Płonka
+292;Frankensztein;Andrzej;Kraśnik;Sławetny pan, uczestnik sporu sąsiedzkiego o szkody polne;#35;1650;1;Andrzej Frankensztein
+293;Bełżycki;Jan;Kraśnik;Sławetny mieszczanin kraśnicki, ustanawiający plenipotenta sądowego;#36;1650;1;Jan Bełżycki
+294;Jaszyński;Szymon [Simon];Kraśnik;Sławetny pan, ustanowiony plenipotent prawny Jana Bełżyckiego;#36;1650;1;Simon Jaszyński, Szymon Jaszyński
+295;[Żyd Rzeźnik];Jakub;Kraśnik;Rzeźnik żydowski w Kraśniku, dłużnik Marcina Sitarskiego na sumę 74 zł za woły i krowy;#36;1650;1;Jakub Żyd rzeźnik
+296;Jarosz [Kowal];N.;Kraśnik;Kowal kraśnicki, pozwany o 3 floreny długu przez Małgorzatę Koniężnę;#36;1650;1;Jarosz kowal
+297;Masłowski;Jan;Kraśnik;Mieszczanin kraśnicki skazany na tydzień karceru za kradzież dworków;#36;1650;1;Jan Masłowski
+298;Wrona;Barbara;Kraśnik;Mieszka kraśnicka, pozwana o zniewagę słowną przez Wojciecha Ziętka;#36;1650;1;Barbara Wrona
+299;Wrona;Maciej [Mathias];Kraśnik;Mieszczanin kraśnicki, mąż Barbary Wrony;#36;1650;1;Mathias Wrona
+300;Dziadek;Wawrzyńcowa [Krawcowa];Kraśnik;Mieszka kraśnicka, żona krawca Wawrzyńca Dziadka, powódka o przemiał żyta;#36;1650;1;Krawcowa Wawrzyńca Dziadka
+301;Młynarka Chora;N.;Kraśnik;Młynarka kraśnicka, pozwana o zatrzymane żyto, zobowiązana do odpracowania długu z chorą córką;#36;1650;1;Młynarka chora
+302;[Przeor Klasztoru];N. [Paulinów / Kanoników Regularnych];Kraśnik;Przeor konwentu zakonnego w Kraśniku dochodzący legatu kościelnego od rajcy Kuczewica;#36;1650;1;Przeor Conventui Crasn.
+303;Kazimierz [Dłużnik];N.;Kraśnik;Mieszczanin kraśnicki, dłużnik Jakuba Żyda o 3 floreny;#36;1650;1;Kazimierz
+304;Lijakowski [Laskowski?];Adam;Kraśnik;Sławetny pan, strona ugody w sprawie czeladzi Janiekiny i karczmiska Dębki;#37;1650;1;Adam Lijakowski, Adam Laskowski
+305;Janiekina;N.;Dębki / Kraśnik;Służąca / czeladź karczmarska z Dębek, strona ugody dworskiej;#37;1650;1;Janiekina czeladź
+306;Łukasz;Jakub;Kraśnik;Mieszczanin kraśnicki, rozliczający kwotę 30 fl. dla Jakuba Węglarza;#37;1650;1;Jakub Łukasz
+307;Pirożek;Mikołaj;Kraśnik (Przedmieście);Przedmieszczanin kraśnicki, powód w sprawie o obmowę o kradzież na łożu niemocy;#37;1650;1;Mikołaj Pirożek
+308;Bańka [Bania];N. [Rzeźnik];Kraśnik;Rzeźnik kraśnicki, ukarany grzywną 30 zł za obmowę Pirożka;#37;1650;1;Bańka rzeźnik, Bania
+309;[Żyd];Chaim;Kraśnik;Mieszkaniec żydowski kraśnicki, powód o przywłaszczenie sukni wartości 13 fl.;#37;1650;1;Chaim Żyd
+310;Świecina;Małgorzata;Kraśnik;Mieszka kraśnicka, skazana na 2 dni wieży za nieoddanie pożyczonej sukni;#37;1650;1;Małgorzata Świecina
+311;Kłapianka [Kłapina];Katarzyna [Catharzina];Kraśnik;Mieszka kraśnicka, właścicielka sukni spornej za 13 fl.;#37;1650;1;Catharzina Kłapianka, Katarzyna Kłapina
+312;Jaraszkowic;Wojciech;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o zniewagę słowną;#37;1650;1;Wojciech Jaraszkowic
+313;Brodek;Serapin;Kraśnik;Mieszczanin kraśnicki, pozwany o zniewagę przez Jaraszkowica;#37;1650;1;Serapin Brodek
+314;Skrawek;Michał;Kraśnik;Krawiec kraśnicki, wierzyciel 20 florenów długu za usługi krawieckie;#37;1650;1;Michał Skrawek krawiec
+315;Zaiączek;Sebastian;Kraśnik;Mieszczanin kraśnicki, dłużnik krawca Skrawka na sumę 20 fl.;#37;1650;1;Sebastian Zaiączek, Sebastian Zajączek
+316;Jaraszkowicz;Michał;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o arendę i kasację długu 120 fl.;#37;1650;1;Michał Jaraszkowicz
+317;Barzyński;Łukaszowa [Małżonka];Kraśnik;Mieszka kraśnicka, żona Łukasza Barzyńskiego, strona sporu o arendę;#37;1650;1;Małżonka Łukasza Barzyńskiego
+318;Jazdyk;Walenty;Kraśnik;Syn zmarłego Macieja Jazdyka, dochodzący 8 fl. arendy;#37;1650;1;Walenty Jazdyk syn
+319;Janaszek;Michał;Kraśnik;Mieszczanin kraśnicki, opiekun prawny dzieci Jazdyków;#37;1650;1;Michał Janaszek opiekun
+320;Złoty;N. [Pan Złoty];Kraśnik;Dzierżawca arendy zalegający z opłatą 8 florenów za 3 lata;#37;1650;1;Pan Złoty
+321;Pióro;Wojciech;Kraśnik;Uczciwy mieszczanin kraśnicki, powód w sprawie o zniewagę słowną;#38;1650;1;Woyciech Pióro
+322;Wawrzynowa;Dorota;Kraśnik;Mieszka kraśnicka, ukarana za zniewagę sąsiada po pijanemu;#38;1650;1;Dorota Wawrzynowa
+323;Zuchowski [Kędzior];Bartłomiej [Barthłomiey];Kraśnik;Ksiądz zakonny Zakonu Regularnego w Kraśniku, dochodzący aresztu karczmiska od Kuczewicza;#38;1650;1;Ksiądz Barthłomiey Zuchowski Kędzior Canonicus Regularis
+324;Koza;Marcin;Kraśnik;Krawiec kraśnicki, wierzyciel 30 florenów długu od czeladnika Górniaka;#38;1650;1;Marcin Koza krawiec
+325;Górniak;Andrzej;Kraśnik;Krawczyk / czeladnik krawiecki, dłużnik Marcina Kozy na sumę 30 fl.;#38;1650;1;Andrzej Górniak krawczyk
+326;Dwoyras [Dwojra];Herszon;Kraśnik;Żydowski mieszkaniec kraśnicki, powód w sprawie o kradzież na dworku;#38;1650;1;Herszon Dwoyras Żyd
+327;Dwoyras;Juda [Judow];Kraśnik;Syn Herszona Dwoyrasa, pozwany przez ojca o zabór mienia i aresztowany;#38;1650;1;Juda syn Herszona Dwoyrasa
+328;Szmulewicz;Jankiel;Kraśnik;Żydowski wierzyciel kraśnicki dochodzący 40 zł długu za rzemieślnicze płozy;#38;1650;1;Jankiel Szmulewicz Żyd
+329;[Szewczyk Czeladnik];N.;Kraśnik;Czeladnik szewski, dłużnik Jankla Szmulewicza, składający przysięgę na Krucyfiks;#38;1650;1;Szewczyk czeladnik
+330;Zawadzka;Franciszkowa;Kraśnik;Mieszka kraśnicka zeznająca w sprawie kradzieży chleba i rozliczenia ze straganu Gibałki;#38;1650;1;Franciszkowa Zawadzka
+331;Białochowski;Stanisław;Kraśnik;Uczciwy chrześcijański obywatel kraśnicki, wnioskodawca powołania świadków w sprawie choroby Rzeczickowskiej;#39;1650;1;Stanisław Białochowski Chrześc. Krasn.
+332;Sędomirski [Sandomierski];Maciej [Mathias];Kraśnik;Mieszczanin kraśnicki, w którego domu leżała obłożnie chora Maryna Rzeczickowska;#39, #40;1650;2;Mathias Sędomirski, Maciej Sandomierski
+333;Owczarz;Andrzej;Kraśnik;Sławetny mieszczanin przysięgły kraśnicki, świadek obecny przy Wiatyku Rzeczickowskiej;#39;1650;1;Andrzej Owczarz Mieszcz. przysięgły
+334;Zakrzewski;N.;Kraśnik;Komornik kraśnicki, świadek obecny w domu Sędomirskiego przy chorej;#39;1650;1;Pan Zakrzewski komornik
+335;Żukowski;N. [Pan];Kraśnik;Pan kraśnicki, do którego zwracano się o pomoc medyczną i ratunek dla chorych;#39;1650;1;Pan Żukowski
+336;Kania;Jan;Kraśnik (Przedmieście);Uczciwy przedmieszczanin kraśnicki, świadek zeznający pod przysięgą przy Komunii św. Rzeczickowskiej;#39;1650;1;Jan Kania Przedm. Krasn.
+337;Cybułtowicz;Szymon;Kraśnik;Uczciwy mieszczanin kraśnicki, świadek zeznający o przebiegu choroby i postawie cyrulika;#39;1650;1;Szymon Cybułtowicz Mieszcz. krasn.
+338;Sobiestian [Sobieściański];N. [Ksiądz];Kraśnik;Ksiądz kraśnicki, obecny przy badaniu przyczyn choroby Rzeczickowskiej;#39;1650;1;Ksiądz Sobiestian Obywatel
+339;Cyrulik;Jan;Kraśnik;Cyrulik miejski w Kraśniku, który odmówił opatrywania i podawania lekarstw Rzeczickowskiej;#39;1650;1;Jan Cyrulik krasnicki
+340;Piechowa;Agnieszka;Kraśnik;Uczciwa mieszczanka kraśnicka, świadek zeznający pod przysięgą w dochodzeniu lekarskim;#39;1650;1;Agnieszka Piechowa Mieszczanka krasn.
+341;Sędomirska [Sandomierska];Maciejowa [Małżonka];Kraśnik;Mieszka kraśnicka, małżonka Macieja, gospodyni opiekująca się umierającą Rzeczickowską;#39;1650;1;Małżonka Mathiasza Sędomirskiego
+342;Świątek [Swiątek];Bartłomiej [Barthłomiey];Kraśnik;Ksiądz kanonik regularny konwentu kraśnickiego, spowiednik umierającej Maryny Rzeczickowskiej;#40;1650;1;Ksiądz D. Barthłomiey Świątek Canonicus Regularis
+343;Grabek [Grabowski];Stanisław;Kraśnik;Mieszczanin kraśnicki, niesłusznie posądzony o otrucie Maryny Rzeczickowskiej;#39, #40;1650;2;Stanisław Grabek, Stanisław Grabowski
+344;Bartoszek;N.;Kraśnik;Uczciwy mieszczanin kraśnicki, przekazujący legat brata na kościół farny;#40;1650;1;Uczciwy Bartoszek
+345;Bartoszek;N. [Małżonka];Kraśnik;Mieszka kraśnicka, żona Bartoszka, współwykonawczyni legatu kościelnego;#40;1650;1;Małżonka Bartoszka
+346;Bartoszek;Franciszek [Brat];Kraśnik;Zmarły brat Bartoszka, fundator legatu pieniężnego na kościół Panny Maryi;#40;1650 [ante 1650];1;Franciszek brat Bartoszka
+347;Wyżynowa;Dorota;Kraśnik;Uczciwa wdowa kraśnicka, właścicielka kramnicy rynkowej objętej kompensacją;#40;1650;1;Dorota Wyżynowa Wdowa
+348;Głecki;Wojciech;Kraśnik;Mieszczanin kraśnicki, opiekun prawny wdowy Doroty Wyżynowej;#40;1650;1;Woyciech Głecki mieszczanin
+349;Zgurski;N.;Kraśnik;Szewc kraśnicki, opiekun prawny wdowy Doroty Wyżynowej w sprawie kramnicy;#40;1650;1;Zgurski szewc
+350;Janaszek;Józef Jan [Joseph Stan];Kraśnik;Mieszczanin kraśnicki, powód w sprawie o 6 połaci mięsa wołowego;#40;1650;1;Iozep Stan Janaszek, Józef Jan Janaszek
+351;Wąwozowski;Mikołaj;Kraśnik;Mieszczanin kraśnicki, pozwany o zaległe połacie mięsa wołowego;#40;1650;1;Mikołay Wąwozowski
+352;Synajski;Jan;Kraśnik;Poborca ratuszowy kraśnicki, kwitujący odbiór 456 florenów poboru miejskiego;#40;1650;1;Jan Synajski Actor Ratuszowy
+353;Szewczyk;Andrzej;Kraśnik;Mieszczanin kraśnicki wpłacający 456 fl. podatków i opłat kramnych do kasy ratusza;#40;1650;1;Andrzej Szewczyk
