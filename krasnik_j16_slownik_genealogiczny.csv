@@ -28,7 +28,7 @@
 27;Bielik;Krzysztof;Kraśnik;Mieszczanin kraśnicki, wierzyciel;9;1649;1;Christophorus Bielik
 28;Hrebieniowa;Jadwiga;Kraśnik;Mieszczka kraśnicka, wdowa;9;1649;1;Hedvigis Hrebieniowa
 29;Tokarz;Wojciech;Kraśnik;Rzemieślnik tokarz kraśnicki, zbywca roli;9;1649;1;Albertus Tokarz
-30;Grzybowski;Andrzej;Kraśnik;Famatus, burmistrz i rajca kraśnicki, spłacał dług obronny 1648 r.;10;1649;1;Andreas Grzybowski Rajca
+30;Grzybowski;Andrzej;Kraśnik;Famatus, burmistrz i rajca kraśnicki, spłacał dług obronny 1648 r.;10, 26;1649–1650;2;Andreas Grzybowski Rajca, Grzybowski Advocatus
 31;Foxowa (Foksowa);Agnieszka;Kraśnik;Famosa, mieszczka kraśnicka, wdowa po rajcy, wierzycielka długu wojennego;10;1649;1;Agnes Foxowa, Foksowa
 32;Moszkowic;Jeleń;Kraśnik;Starozakonny kupiec i arendarz propinacji, ofiara rabunków kozackich 1648 r.;10, 12;1649;2;Jeleń Moszkowic, Jelen Żyd
 33;Foliator (Folusznik);Paweł;Kraśnik;Mistrz foluszniczy kraśnicki, kluczowy świadek rabunków Chmielnickiego;10;1649;1;Paulus Foliator
@@ -46,9 +46,9 @@
 45;Morka;Tomasz;Kraśnik;Mieszczanin kraśnicki, dłużnik zastawiający szaty;13;1650;1;Tomasz Morka
 46;Szmulko;N.;Kraśnik;Starozakonny faktor i wierzyciel kraśnicki;13;1650;1;Szmulko Żyd
 47;Pijaczka;Franciszek;Kraśnik;Mieszczanin kraśnicki;13;1650;1;Franciszek Pijaczka
-48;Tworzyk;Szymon;Kraśnik;Mieszczanin kraśnicki, właściciel posesji sąsiadującej z wójtostwem;14, 18, 21, 22;1650;4;Szymon Tworzyk, Tworzyjański
+48;Tworzyk;Szymon;Kraśnik;Mieszczanin kraśnicki, właściciel posesji sąsiadującej z wójtostwem;14, 18, 21, 22, 26;1650;5;Szymon Tworzyk, Tworzyjański, Tworzyk, Tworzykowicz
 49;Górka;Stanisław;Kraśnik;Wójt kraśnicki (Advocatus Crasniciensis), strona sporów granicznych;14, 21;1650;2;Stanisław Górka Wójt
-50;Kamieński;Adam;Kraśnik;Podwójci kraśnicki (Vicescovetus), przewodniczący komisji wizyjnych;14, 17, 22, 23;1650;4;Adam Kamienski Vicescovetus
+50;Kamieński;Adam;Kraśnik;Podwójci kraśnicki (Vicescovetus), przewodniczący komisji wizyjnych;14, 17, 22, 23, 28;1650;5;Adam Kamienski Vicescovetus, Kamieński Viceadvocatus
 51;Kuczewicz;Andrzej;Kraśnik;Famosus, ławnik kraśnicki, brat zmarłych Dymitra i Wincentego;14, 17, 19, 21, 22;1650;5;Andreas Kuczewic, Kuczewicz
 52;Sitarski;Marcin;Kraśnik;Scabinus / ławnik miejski kraśnicki, biegły rewizor;14, 17, 18;1650;3;Martinus Sitarsky Scabinus
 53;Kuczewicz;Dymitr;Kraśnik;Olim / zm. zamożny kupiec kraśnicki, właściciel browaru i sreber;15, 16;1650;2;Demetrius Kuczewicz
@@ -73,7 +73,7 @@
 72;Stańczyk;Stanisław;Kraśnik;Mieszczanin kraśnicki, oskarżony o zabór dębiny;20;1650;1;Stanisław Stańczyk
 73;Młotkowski;Wojciech;Kraśnik;Mieszczanin kraśnicki, strona ugody sąsiedzkiej;20;1650;1;Wojciech Młotkowski
 74;Łopatek;Paweł;Kraśnik;Mieszczanin kraśnicki;20;1650;1;Paweł Łopatek
-75;Gibałkowicz;Szymon;Kraśnik;Mieszczanin kraśnicki, właściciel gruntów nad rzeką Wyżnicą;21, 25;1650;2;Szymon Gibałkowicz
+75;Gibałkowicz;Szymon;Kraśnik;Mieszczanin kraśnicki, właściciel gruntów nad rzeką Wyżnicą;21, 25, 26;1650;3;Szymon Gibałkowicz, Gibałkowicz, Gibałka
 76;Iwański;Jan;Kraśnik;Mieszczanin kraśnicki, pozwany o zatrzymanie kłód z rzeki;21;1650;1;Jan Iwański
 77;Zaczarnowski;Jan;Kraśnik;Mieszczanin kraśnicki, właściciel ogrodów warzywnych;22, 25;1650;2;Jan Zaczarnowski
 78;Chmielarz;Maciej;Kraśnik;Plantator chmielu miejskiego w Kraśniku;22, 23;1650;2;Maciej Chmielarz
@@ -82,10 +82,96 @@
 81;Tworzykowic;Sebastian;Kraśnik;Mieszczanin kraśnicki, świadek ugody handlowej;22;1650;1;Sebastian Tworzykowic
 82;Chojnacki;Wojciech;Kraśnik;Mieszczanin kraśnicki, strona pojednania przed sądem;23;1650;1;Wojciech Chojnacki
 83;Kudiełka;Maciej;Kraśnik;Mieszczanin kraśnicki, pożyczkodawca;23;1650;1;Maciej Kudiełka
-84;Lis;Wojciech;Kraśnik;Mieszczanin kraśnicki, dłużnik z pożyczki;23;1650;1;Wojciech Lis
+84;Lis;Wojciech;Kraśnik;Mieszczanin kraśnicki, dłużnik z pożyczki;23, 47;1650;2;Wojciech Lis, Albertus Lis
 85;Zajączkowska;Zofia;Kraśnik;Szlachetnie urodzona panna, rezydentka miejska z prawem dożywocia;24;1650;1;Szlachetna Panna Zofia Zajączkowska
 86;Duda;Jakub;Kraśnik;Mieszczanin kraśnicki, dłużnik na 6 zł za węgiel;25;1650;1;Jakub Duda
 87;Młodzik;Stanisław;Kraśnik;Mieszczanin kraśnicki, świadek w sprawie nocnego szynku wódki;25;1650;1;Stanisław Młodzik
-88;Olbiński;Iwan;Kraśnik;Mieszczanin kraśnicki obrządku ruskiego, poszkodowany w bójce;25;1650;1;Iwan Olbiński Rusin
+88;Olbiński;Iwan;Kraśnik;Mieszczanin kraśnicki obrządku ruskiego, poszkodowany w bójce;25, 26;1650;2;Iwan Olbiński Rusin, Olbiński Ruthenus, Iwan Rusin
 89;Zgrzebna;Jakub;Kraśnik;Mistrz cechu tkackiego, dochodzący 4 zł za płótno;25;1650;1;Jakub Zgrzebna Tkacz
 90;Wrona;Janusz;Kraśnik;Mieszczanin kraśnicki, dłużnik tkacki;25;1650;1;Janusz Wrona
+91;Bełżycki;Jan;Kraśnik;Mieszczanin, ławnik kraśnicki;26;1650;1;Bełżycki, Belzecki
+92;Sadomczyk;Maciej;Kraśnik;Mieszczanin kraśnicki, wierzyciel;27;1650;1;Sadomczyk, Sandomierczyk
+93;Wróbel;Jan;Kraśnik;Mieszkaniec Kraśnika;27;1650;1;Wróbel
+94;Krawiec;Paweł;Kraśnik;Krawiec kraśnicki;27;1650;1;Paulus sartor, Paweł Krawiec
+95;Michałowa (Wdowa);Zofia;Kraśnik;Wdowa po Michale, mieszczka;27;1650;1;Sophia relicta Michaelis
+96;Czekaj;Maciej;Przedmieście Lubelskie;Mieszczanin, posiadacz gruntu na Przedmieściu Lubelskim;28;1650;1;Czekaj, Czekay
+97;Czekajowa;Anna;Przedmieście Lubelskie;Mieszczka, żona Wojciecha;28;1650;1;Anna uxor Alberti Czekaj
+98;Szewczyk;Walenty;Kraśnik;Szewc, rzemieślnik kraśnicki;29;1650;1;Szewczyk, Sutor
+99;Garncarz;Piotr;Kraśnik;Garncarz kraśnicki;29;1650;1;Petrus figulus, Garncarz
+100;Dąbek;Stanisław;Kraśnik;Mieszczanin kraśnicki;30;1650;1;Dąbek, Dambek
+101;Krawiec;Grzegorz;Kraśnik;Krawiec kraśnicki;30;1650;1;Gregorius sartor
+102;Garncarzowa;Anna;Kraśnik;Żona Jana garncarza;30;1650;1;Anna uxor Joannis figuli
+103;Garncarz;Jan;Kraśnik;Garncarz kraśnicki;30;1650;1;Joannes figulus
+104;Rzeźnik;Bartłomiej;Kraśnik;Rzeźnik kraśnicki, mistrz cechowy;31;1650;1;Bartholomaeus lanio
+105;Bednarz;Jan;Kraśnik;Bednarz kraśnicki;31;1650;1;Joannes vietor, Bednarz
+106;Kołodziej;Marcin;Kraśnik;Kołodziej kraśnicki;32;1650;1;Martinus rotifex
+107;Szewcowa (Wdowa);Katarzyna;Kraśnik;Wdowa po Pawle szewcu;32;1650;1;Catharina relicta Pauli sutoris
+108;Duda;Jan;Kraśnik;Mieszczanin, gospodarz na Przedmieściu Zastawnym;33;1650;1;Duda, Joannes Duda
+109;Zięba;Szymon;Kraśnik;Mieszczanin kraśnicki, sąsiad na Zastawiu;33;1650;1;Zięba, Simon Zięba
+110;Wolak;Marcin;Kraśnik;Mieszczanin, przysięgły i taksator miejski;34;1650;1;Wolak, Martinus Wolak
+111;Ozepek;Grzegorz;Kraśnik;Przysięgły miejski, taksator;34;1650;1;Ozepek, Ozepkowicz, Gregorius Ozepek
+112;Kowal;Maciej;Kraśnik;Kowal kraśnicki;35;1650;1;Mathias faber ferrarius
+113;Olbicki;Wojciech;Kraśnik;Mieszczanin, opiekun prawny sierot;36;1650;1;Albertus Olbicki
+114;Krawcowa (Wdowa);Agnieszka;Kraśnik;Wdowa po Janie krawcu, opiekunka dzieci;36;1650;1;Agnes relicta Joannis sartoris
+115;Białoskórski;Stanisław;Kraśnik;Sławetny mieszczanin, poborca szosu i taksator;37;1650;1;Białoskórski, Stanislaus Białoskórski
+116;Piątek;Wojciech;Kraśnik;Mieszkaniec Kraśnika;38;1650;1;Piątek, Albertus Piątek
+117;Wawrzynowa;Dorota;Kraśnik;Mieszka kraśnicka, żona Wawrzyńca;38;1650;1;Dorothea Wawrzynowa
+118;Świątkowic (Świątkowicz);Bartłomiej;Kraśnik;Ksiądz dr, kanonik regularny klasztoru kraśnickiego;38;1650;1;Bartholomaeus Canonicus Regularis, Świątkowic, Świątkowicz
+119;Kaniowski;Zachariasz;Kraśnik;Mieszczanin, brat kanonika regularnego;38;1650;1;Kaniowski, Zacharias Kaniowski
+120;Cisa;Marcin;Kraśnik;Mieszczanin kraśnicki;38;1650;1;Cisa, Czyza, Martinus Cisa
+121;Górnicki;Andrzej;Kraśnik;Mieszczanin kraśnicki;38;1650;1;Górnicki, Andreas Górnicki
+122;Grzybek;Jan;Kraśnik;Mieszkaniec Kraśnika;38;1650;1;Grzybek, Grzybkowicz
+123;Gibałka (Stary);Marcin;Kraśnik;Stary Gibałka, mieszczanin posądzony o czary;39;1650;1;Gibałka, Stary Gibałka, Martinus Gibałka
+124;Kulczyna (Kluczyk);Andrzej;Kraśnik;Sławetny mieszczanin kraśnicki, cyrulik / ratujący chorych;39;1650;1;Kulczyna, Kluczyk, Kuleczka
+125;Piechowa;Agnieszka;Kraśnik;Krawcowa kraśnicka, świadek w procesie o czary;39;1650;1;Agnes Piechowa sartrix
+126;Sadomczykowa;Katarzyna;Kraśnik;Mieszka kraśnicka, małżonka Macieja Sadomczyka;39;1650;1;Catharina uxor Mathiae Sadomczyk
+127;Rzechowska;Maryna;Rzechówka / Kraśnik;Szlachetna panna/pani, zmarła z podejrzeniem czarów;39;1650;1;Marina Rzechowska generosa
+128;Zatorski;Wojciech;Kraśnik;Burmistrz kraśnicki;39;1650;1;Zatorski Proconsul
+129;Bartoszewicz;Wacław;Kraśnik;Mieszczanin kraśnicki;40;1650;1;Bartoszewicz, Wenceslaus Bartoszewicz
+130;Bartoszewiczowa;Regina;Kraśnik;Mieszka, małżonka Wacława Bartoszewicza;40;1650;1;Regina uxor Wenceslai Bartoszewicz
+131;Dąbek;Maciej;Kraśnik;Mieszczanin kraśnicki;41;1650;1;Mathias Dąbek
+132;Trojanowski;Wojciech;Trojanowice / Kraśnik;Szlachcic, plenipotent / legat;41;1650;1;Albertus Trojanowski nobilis
+133;Szmerka;Moszko;Kraśnik;Kupiec żydowski kraśnicki;41;1650;1;Szmerka Judaeus
+134;Marek;Żyd;Kraśnik;Mieszkaniec gminy żydowskiej w Kraśniku;41;1650;1;Marcus Judaeus
+135;Babiczyk;Czakan;Kraśnik;Kupiec i faktor żydowski w Kraśniku;42;1650;1;Czakan Babiczyk Judaeus
+136;Rymarczyk;Stanisław;Kraśnik;Rymarz kraśnicki;43;1650;1;Rymarczyk, Rymarz
+137;Duszycki;Jan;Kraśnik;Mieszczanin kraśnicki;43;1650;1;Duszycki, Joannes Duszycki
+138;Dzwonicka (Wdowa);Anna;Kraśnik;Wdowa po dzwonniku, mieszczka;43;1650;1;Dzwonicka, relicta campanatoris
+139;Bielobłocki;Stanisław;Białobłogi / Kraśnik;Szlachcic / mieszczanin dłużnik;43;1650;1;Bielobłocki, Białobłocki
+140;Zaganowszczyk;Jan;Kraśnik;Mieszczanin, brat rodzony Jakuba;43;1650;1;Zaganowszczyk, Zaganowski
+141;Zaganowszczyk;Jakub;Kraśnik;Mieszczanin, brat rodzony Jana;43;1650;1;Zaganowszczyk, Iacobus Zaganowszczyk
+142;Dankowic;Maciej;Kraśnik;Sławetny mieszczanin, nabywca posesji;43;1650;1;Dankowic, Dankowicz, Mathias Dankowic
+143;Starol;Marcin;Kraśnik;Mieszczanin kraśnicki;43;1650;1;Starol, Starolowic
+144;Zębart (Gęba);Adam;Kraśnik;Mieszczanin kraśnicki zwany Gęba;43;1650;1;Zębart, Gęba, Adamus Zębart dictus Gęba
+145;Tokarczyk;Piotr;Kraśnik;Tokarz / rzemieślnik kraśnicki;43;1650;1;Tokarczyk, Tokarz
+146;Kurasina (Wdowa);Dorota;Kraśnik;Wdowa po Janie Kurasiu, zbywczyni domu;45;1650;1;Dorothea relicta Joannis Kuraś
+147;Kuraś;Jan (junior);Kraśnik;Syn Jana Kurasia, mieszczanin;45;1650;1;Kuraś, Joannes Kuraś iunior
+148;Świerczyński;Jakub;Kraśnik;Mieszczanin kraśnicki, nabywca domu i ogrodu;45;1650;1;Świerczyński, Iacobus Świerczyński
+149;Czeplińska;Służebnica;Kraśnik;Służebnica domowa;45;1650;1;Czeplińska ancilla
+150;Jurański;Szymon;Kraśnik;Ławnik kraśnicki, lustrator ran;45;1650;1;Jurański Scabinus
+151;Ozep;Maciej;Kraśnik;Mieszczanin kraśnicki, ojciec poszkodowanej;46;1650;1;Ozep, Mathias Ozep
+152;Ozepówna;Katarzyna;Kraśnik;Córka Macieja Ozepa, pobita;46;1650;1;Ozepówna, Catharina Ozep
+153;Polak;Wawrzyniec;Kraśnik;Mieszczanin kraśnicki, świadek;46;1650;1;Laurentius Polak
+154;Borysina;Maryna;Kraśnik;Mieszka kraśnicka, świadek;46;1650;1;Marina Borysina
+155;Gibałczyna;Dorota;Kraśnik;Żona Marcina Gibałki, oskarżana o czary;47;1650;1;Dorothea uxor Martini Gibałka
+156;Lisowa;Agnieszka;Kraśnik;Żona Wojciecha Lisa, chora posądzająca o czary;47;1650;1;Agnes uxor Alberti Lis
+157;Chmielnicki;Aleksander;Chmielnik / Kraśnik;Szlachcic, sprawca najazdu;47;1650;1;Alexander Chmielnicki nobilis
+158;Winiarz;Maciej;Kraśnik;Sławetny mieszczanin, obrońca przed zarzutem czarów;48;1650;1;Winiarz, Mathias Vinetor
+159;Bączana;Maciej;Kraśnik;Mieszczanin kraśnicki, świadek przysięgły;48;1650;1;Bączana, Mathias Bączana
+160;Mielniczkowa;Gertruda;Kraśnik;Żona Jana Mielniczka, świadek;48;1650;1;Gertrudis uxor Joannis Mielniczek
+161;Mielniczek;Jan;Kraśnik;Młynarz / rzemieślnik kraśnicki;48;1650;1;Joannes Mielniczek
+162;Wójcikowa;Zofia;Kraśnik;Żona Szymona Wójcika, świadek;48;1650;1;Sophia uxor Simonis Wójcik
+163;Wójcik;Szymon;Kraśnik;Mieszczanin kraśnicki;48;1650;1;Simon Wójcik
+164;Kwiecieński;Andrzej;Kraśnik;Podwójci kraśnicki;49;1650;1;Kwiecieński Viceadvocatus
+165;Rudnicki;Jan;Kraśnik;Mieszczanin, zbywca domu i ogrodu;49;1650;1;Rudnicki, Joannes Rudnicki
+166;Rudnicka;Agnieszka;Kraśnik;Małżonka Jana Rudnickiego;49;1650;1;Agnes uxor Joannis Rudnicki
+167;Polakowicz;Grzegorz;Kraśnik;Sławetny mieszczanin kraśnicki, nabywca posesji;49;1650;1;Polakowicz, Gregorius Polakowicz
+168;Duda;Wojciech;Kraśnik;Mieszczanin, sąsiad posesji;49;1650;1;Albertus Duda
+169;Świątkowna;Maryna;Kraśnik;Mieszka kraśnicka, panna/gospodyni;50;1651;1;Marina Świątkowna
+170;Koziołek;Jan;Grabówka k. Kraśnika;Mieszkaniec / gospodarz;50;1651;1;Koziołek, Joannes Koziołek
+171;Miron;Andrzej;Kraśnik;Mieszczanin kraśnicki;50;1651;1;Miron, Andreas Miron
+172;Pajączek;Agustyn;Kraśnik;Młodzieniec, ofiara śmiertelnego pobicia / zabójstwa;50;1651;1;Augustinus Pajączek, Zajączek
+173;Laskowski;Jan;Kraśnik / Ziemia Lubelska;Pan szlachcic, właściciel czeladnika-zabójcy;50;1651;1;Laskowski nobilis
+174;Bularzowa;Jadwiga;Kraśnik;Żona Stanisława Bularza, świadek naoczny zabójstwa;50;1651;1;Hedvigis uxor Stanislai Bularz
+175;Bularz;Stanisław;Kraśnik;Mieszczanin kraśnicki;50;1651;1;Stanislaus Bularz
+176;Pajączkowa (Wdowa);Zofia;Kraśnik;Matka zabitego Agustyna Pajączka, powódka kryminalna;50;1651;1;Sophia relicta Pajączkowa
