@@ -53,7 +53,7 @@
 52;Sitarski;Marcin;Kraśnik;Scabinus / ławnik miejski kraśnicki, biegły rewizor;14, 17, 18;1650;3;Martinus Sitarsky Scabinus
 53;Kuczewicz;Dymitr;Kraśnik;Olim / zm. zamożny kupiec kraśnicki, właściciel browaru i sreber;15, 16;1650;2;Demetrius Kuczewicz
 54;Kuczewicz;Wincenty;Kraśnik;Olim / zm. patrycjusz kraśnicki, właściciel kamienicy w rynku z podcieniami;17;1650;1;Vincentius Kuczewicz
-55;Szafranek;Wojciech;Kraśnik;Famosus, wyznaczony urzędowo kurator sierot Kuczewiczów;17;1650;1;Albertus Szafranek
+55;Szafranek;Wojciech;Kraśnik;Famosus, wyznaczony urzędowo kurator sierot Kuczewiczów;17, 55;1650–1651;2;Albertus Szafranek, Szafranek, Szafrankowic
 56;Libuszek;Bartłomiej;Kraśnik;Mieszczanin kraśnicki, wierzyciel dochodzący 12 korcy pszenicy;16;1650;1;Bartłomiej Libuszek
 57;Binkowa;Barbara;Kraśnik;Mieszczka kraśnicka, dłużniczka w procesie o pszenicę;16;1650;1;Barbara Binkowa
 58;Jarocki;Maciej;Kraśnik;Mieszczanin kraśnicki, dłużnik na 16 zł;16;1650;1;Maciej Jarocki
@@ -175,3 +175,124 @@
 174;Bularzowa;Jadwiga;Kraśnik;Żona Stanisława Bularza, świadek naoczny zabójstwa;50;1651;1;Hedvigis uxor Stanislai Bularz
 175;Bularz;Stanisław;Kraśnik;Mieszczanin kraśnicki;50;1651;1;Stanislaus Bularz
 176;Pajączkowa (Wdowa);Zofia;Kraśnik;Matka zabitego Agustyna Pajączka, powódka kryminalna;50;1651;1;Sophia relicta Pajączkowa
+177;Fryc;Wojciech;Kraśnik;Krawiec / rzemieślnik kraśnicki;51;1651;1;Fryc, Fric, Albertus Fryc
+178;Fałek;Łukasz;Kraśnik;Rzemieślnik kraśnicki;51;1651;1;Fałek, Lucas Fałek
+179;Gędek;Tomasz;Kraśnik;Mieszkaniec Kraśnika;51;1651;1;Gędek, Thomas Gędek
+180;Szadnicki;Marcin;Kraśnik;Mieszczanin kraśnicki;51;1651;1;Szadnicki, Martinus Szadnicki
+181;Jaroszek;Sebastian;Kraśnik;Mieszkaniec Kraśnika;51;1651;1;Jaroszek, Sebastianus Jaroszek
+182;Kłopotowa (Wdowa);Jadwiga;Kraśnik;Wdowa po Stanisławie Kłopocie, posiadaczka roli;51;1651;1;Hedvigis Kłopotowa relicta Stanislai
+183;Józef;Żyd;Kraśnik;Kupiec w gminie żydowskiej w Kraśniku;51;1651;1;Joseph Judaeus
+184;Chaim;Żyd;Kraśnik;Mieszkaniec gminy żydowskiej w Kraśniku;51;1651;1;Chaim Judaeus
+185;Kuczewic;Stanisław;Kraśnik;Sławetny patrycjusz, kupiec kraśnicki;52;1651;1;Kuczewic, Kuczewicz, Stanislaus Kuczewic
+186;Kuczewiczowa;Zofia;Kraśnik;Małżonka Stanisława Kuczewica, sukcesorka;52;1651;1;Sophia uxor Stanislai Kuczewic
+187;Kamieńska;Agnieszka;Kraśnik;Mieszka kraśnicka, posiadaczka stępy;52;1651;1;Agneta Kamieńska
+188;Śliwka;Szymon;Kraśnik;Rzemieślnik / mieszczanin kraśnicki;52;1651;1;Śliwka, Simon Śliwka
+189;Piwowarczyk;Marcin;Kraśnik;Piwowar / mieszczanin kraśnicki;52;1651;1;Piwowarczyk, Martinus Piwowarczyk
+190;Kubicki;Albert;Kraśnik;Mieszczanin kraśnicki;52;1651;1;Kubicki, Albertus Kubicki
+191;Brzozowski;Stanisław;Kraśnik;Mieszczanin, wierzyciel;52;1651;1;Brzozowski, Stanislaus Brzozowski
+192;Dawidek;Żyd;Kraśnik;Faktor i handlarz żydowski w Kraśniku;52;1651;1;David Judaeus, Dawidek
+193;Szczerbiec;Marcin;Kraśnik;Instygator miejski, oskarżyciel z urzędu;53;1651;1;Szczerbiec, Martinus Szczerbiec
+194;Eliaszowicz;Szymon;Kraśnik;Kupiec i faktor żydowski w Kraśniku;54;1651;1;Simon Eliaszowicz Judaeus
+195;Cygan;Jan;Kraśnik;Mieszkaniec Kraśnika;54;1651;1;Cygan, Joannes Cygan
+196;Jurka;Paweł;Dzierzkowice;Gospodarz ze wsi Dzierzkowice pod Kraśnikiem;54;1651;1;Paulus Jurka de Dzierzkowice
+197;Duda;Grzegorz;Kraśnik;Mieszczanin kraśnicki, hodowca bydła;54;1651;1;Duda, Gregorius Duda
+198;Szczerba;Błażej;Kraśnik;Mieszczanin kraśnicki, gospodarz;55;1651;1;Szczerba, Blasius Szczerba
+199;Szczerba;Maciej;Kraśnik;Mieszczanin kraśnicki, brat Błażeja;55;1651;1;Szczerba, Mathias Szczerba
+200;Muraszek;Wawrzyniec;Kraśnik;Mieszkaniec Kraśnika;55;1651;1;Muraszek, Laurentius Muraszek
+201;Konkup;Albert;Kraśnik;Mieszczanin kraśnicki;55;1651;1;Konkup, Albertus Konkup
+202;Chmiel;Stanisław;Kraśnik;Mieszczanin kraśnicki, woźnica/kupiec;55;1651;1;Chmiel, Stanislaus Chmiel
+203;Brzana;Jadwiga Maryna;Kraśnik;Zmarła mieszczka kraśnicka, właścicielka mienia;56;1651;1;Hedvigis Marina Brzana
+204;Ciąg;Albert;Kraśnik;Mieszczanin kraśnicki;56;1651;1;Ciąg, Albertus Ciąg
+205;Dypel;Stanisław;Kraśnik;Mieszczanin kraśnicki, brat Anny;56;1651;1;Dypel, Stanislaus Dypel
+206;Dypel;Anna;Kraśnik;Mieszka kraśnicka;56;1651;1;Anna Dypel
+207;Piech;Jan;Kraśnik;Mieszczanin kraśnicki;56;1651;1;Piech, Joannes Piech
+208;Kępka;Maciej;Kraśnik;Mieszczanin kraśnicki, poszkodowany w bójce;56;1651;1;Kępka, Kepka, Mathias Kępka
+209;Cybiel;Tomasz;Kraśnik;Młynarz kraśnicki (molitor);56;1651;1;Cybiel molitor, Thomas Cybiel
+210;Grządzina (Wdowa);Jadwiga;Kraśnik;Wdowa, dłużniczka;56;1651;1;Hedvigis Grządzina
+211;Dypkowa;Jadwiga;Kraśnik;Mieszka kraśnicka, opiekunka dzieci Dypków;57;1651;1;Hedvigis Dypkowa
+212;Dypkowa;Dorota;Kraśnik;Mieszka kraśnicka, sukcesorka;57;1651;1;Dorothea Dypkowa
+213;Szczygieł;Szymon;Kraśnik;Mieszczanin kraśnicki;57;1651;1;Szczygieł, Simon Szczygieł
+214;Głowacz;Jan;Kraśnik;Mieszczanin kraśnicki;57;1651;1;Głowacz, Joannes Głowacz
+215;Bartoszkowa;Janica;Kraśnik;Mieszka kraśnicka;57;1651;1;Janica Bartoszkowa
+216;Babik;Walenty;Kraśnik;Mieszczanin kraśnicki;57;1651;1;Babik, Valentinus Babik
+217;Prawnikowicz;Jan;Kraśnik;Mieszczanin kraśnicki;58;1651;1;Prawnikowicz, Joannes Prawnikowicz
+218;Marciszowa;Agata;Kraśnik;Mieszka kraśnicka;58;1651;1;Agatha Marciszowa
+219;Gwardzan;Maciej;Kraśnik;Mieszczanin kraśnicki;58;1651;1;Gwardzan, Mathias Gwardzan
+220;Truszczyk;Maciej;Kraśnik;Mieszczanin kraśnicki, ofiara pobicia;58;1651;1;Truszczyk, Mathias Truszczyk
+221;Laskowska;Jadwiga;Kraśnik;Mieszka, dłużniczka pod zastaw gruntu;59;1651;1;Hedvigis Laskowska
+222;Trendel (Kuśnierz);Jan;Kraśnik;Kuśnierz kraśnicki zwany Trendel;59;1651;1;Trendel, Kuśnierz, Joannes Trendel
+223;Kowalczyk;Wawrzyniec;Kraśnik;Rzemieślnik kraśnicki;59;1651;1;Kowalczyk, Laurentius Kowalczyk
+224;Bałtowski;Jan;Kraśnik;Mieszczanin kraśnicki;59;1651;1;Bałtowski, Joannes Bałtowski
+225;Torwina;Zofia;Kraśnik;Mieszka kraśnicka, posiadaczka posesji;59;1651;1;Sophia Torwina
+226;Kępina;Agnieszka;Kraśnik;Mieszka kraśnicka;60;1651;1;Agnes Kępina
+227;Ozepek;Walentyn;Kraśnik;Mieszczanin kraśnicki;60;1651;1;Ozepek, Valentinus Ozepek
+228;Truszczyk;Maryna;Kraśnik;Mieszka kraśnicka;60;1651;1;Marina Truszczyk
+229;Ścibor;Albert;Kraśnik;Mieszczanin kraśnicki;60;1651;1;Ścibor, Albertus Ścibor
+230;Zaiąda;Łukasz;Kraśnik;Mieszczanin kraśnicki;60;1651;1;Zaiąda, Zająda, Lucas Zaiąda
+231;Cieślowic;Mathias;Kraśnik;Cieśla / rzemieślnik kraśnicki;60;1651;1;Cieślowic, Mathias Cieślowic
+232;Sagol;Łukasz;Kraśnik;Mieszczanin kraśnicki, ofiarodawca Bractwa Różańcowego;60;1651;1;Sagol, Lucas Sagol
+233;Ziębowa;Dorota;Kraśnik;Mieszka, sukcesorka Ziębów;60;1651;1;Dorothea Ziębowa
+234;Ziębowa;Jadwiga;Kraśnik;Mieszka kraśnicka;60;1651;1;Hedvigis Ziębowa
+235;Bałtowicz;Jan;Kraśnik;Mieszczanin, zbywca posesji;60;1651;1;Bałtowicz, Joannes Bałtowicz
+236;Topolnicki;Paweł;Kraśnik;Mieszczanin kraśnicki;61;1651;1;Topolnicki, Paulus Topolnicki
+237;Jurzyk;Stanisław;Kraśnik;Mieszczanin kraśnicki;61;1651;1;Jurzyk, Stanislaus Jurzyk
+238;Jędrzejkowa;Dorota;Kraśnik;Mieszka kraśnicka;61;1651;1;Dorothea Jędrzejkowa
+239;Tokarz;Albert;Kraśnik;Tokarz kraśnicki;61;1651;1;Tokarz, Albertus Tokarz
+240;Kotlarz;Marcin;Kraśnik;Kotlarz kraśnicki;61;1651;1;Kotlarz, Martinus Kotlarz
+241;Kubeł;Szymon;Kraśnik;Mieszczanin kraśnicki;61;1651;1;Kubeł, Simon Kubeł
+242;Dypek;Sebastian;Kraśnik;Mieszczanin, opiekun prawny sierot;61;1651;1;Dypek, Sebastianus Dypek
+243;Podkonel;Piotr;Kraśnik;Mieszczanin, opiekun prawny sierot;61;1651;1;Podkonel, Petrus Podkonel
+244;Jaroszek;Michał;Kraśnik;Mieszczanin kraśnicki;62;1651;1;Jaroszek, Michael Jaroszek
+245;Wypychowic;Sebastian;Kraśnik;Mieszczanin kraśnicki, lustrator leśny;62;1651;1;Wypychowic, Sebastianus Wypychowic
+246;Jaroszyk;Maciej;Kraśnik;Mieszczanin kraśnicki, lustrator leśny;62;1651;1;Jaroszyk, Mathias Jaroszyk
+247;Cieślak;Tomasz;Przedmieście Lubelskie;Cieśla, posiadacz nieruchomości na Przedmieściu;62;1651;1;Cieślak, Thomas Cieślak
+248;Kudlik;Jerzy;Kraśnik;Mieszczanin kraśnicki;62;1651;1;Kudlik, Georgius Kudlik
+249;Jakubowic;Eliasz;Kraśnik;Mieszczanin kraśnicki;63;1651;1;Jakubowic, Elias Jakubowic
+250;Mikołajczyk;Grzegorz;Kraśnik;Mieszczanin kraśnicki;63;1651;1;Mikołajczyk, Gregorius Mikołajczyk
+251;Dobrzański;Marcin;Kraśnik;Mieszczanin kraśnicki;63;1651;1;Dobrzański, Martinus Dobrzański
+252;Kowal;Jakub;Kraśnik;Kowal kraśnicki, świadek;63;1651;1;Kowal, Jacobus faber
+253;Kudla;Benedykt;Kraśnik;Mieszczanin kraśnicki, sąsiad zagonów;63;1651;1;Kudla, Benedictus Kudla
+254;Moskalczyk;Albert;Kraśnik;Mieszczanin kraśnicki, pozwany o pobicie;64;1651;1;Moskalczyk, Albertus Moskalczyk
+255;Szwada;Marcin;Kraśnik;Mieszczanin kraśnicki, ogrodnik;64;1651;1;Szwada, Martinus Szwada
+256;Dziadowic;Paweł;Kraśnik;Mieszkaniec Kraśnika;64;1651;1;Dziadowic, Paulus Dziadowic
+257;Jarosz;Matyjasz;Kraśnik;Mieszczanin kraśnicki;64;1651;1;Jarosz, Mathias Jarosz
+258;Turzyc;Marcin;Kraśnik;Mieszczanin kraśnicki;65;1651;1;Turzyc, Martinus Turzyc
+259;Rudnicki;Albert;Kraśnik;Mieszczanin kraśnicki;65;1651;1;Rudnicki, Albertus Rudnicki
+260;Kraśnicki;Stanisław;Kraśnik;Mieszczanin kraśnicki, sukcesor;65;1651;1;Kraśnicki, Stanislaus Kraśnicki
+261;Leniartowicz;Jan;Kraśnik;Mieszczanin kraśnicki;65;1651;1;Leniartowicz, Joannes Leniartowicz
+262;Janaszkowic;Jan;Kraśnik;Szlachetny patrycjusz, posesjonat kamienicy;66;1651;1;Janaszkowic, Generosus Joannes Janaszkowic
+263;Janaszkowicowa;Jadwiga;Kraśnik;Szlachetna mieszczka, posesjonatka browaru;66;1651;1;Hedvigis Janaszkowicowa generosa
+264;Szwada;Maciej;Kraśnik;Sławetny ławnik kraśnicki;66;1651;1;Szwada Scabinus, Mathias Szwada
+265;Przydatek (Przybylski);Jan;Przedmieście Kraśnickie;Mieszczanin, nabywca placu;66;1651;1;Przydatek, Przybylski, Joannes Przydatek
+266;Świderek;Czeladnik;Kraśnik;Czeladnik miejski, ofiara zranienia szablą;66;1651;1;Świderek famulus
+267;Łapiński;Jan;Kraśnik;Mieszczanin kraśnicki, wierzyciel;67;1651;1;Łapiński, Joannes Łapiński
+268;Solecki;Jan;Kraśnik;Mieszczanin kraśnicki, posesjonat browaru;67;1651;1;Solecki, Joannes Solecki
+269;Pawłowicz;Grzegorz;Kraśnik;Mistrz cechowy kraśnicki;67;1651;1;Pawłowicz, Gregorius Pawłowicz
+270;Głowowa (Wdowa);Ewa;Kraśnik;Wdowa po Głowie, zbywczyni ról i placu;67;1651;1;Eva Głowowa vidua
+271;Jurkowa;Jadwiga;Kraśnik;Mieszka kraśnicka, powódka o pobicie męża;68;1651;1;Hedvigis Jurkowa
+272;Jurek;Matyjasz;Kraśnik;Mieszczanin, ciężko pobity przed szpitalem św. Ducha;68;1651;1;Jurek, Mathias Jurek
+273;Moszkowicz;Israel;Kraśnik;Mieszkaniec gminy żydowskiej, świadek bójki;68;1651;1;Israel Moszkowicz Judaeus
+274;Cyganik;Jerzy;Kraśnik;Mieszczanin kraśnicki, dłużnik;69;1651;1;Cyganik, Georgius Cyganik
+275;Zelek;Andrzej;Kraśnik;Mieszczanin kraśnicki;69;1651;1;Zelek, Andreas Zelek
+276;Grzybowski;Stanisław;Kraśnik;Mieszczanin kraśnicki, syn burmistrza;70;1651;1;Stanislaus Grzybowski
+277;Grzybowski;Adam;Kraśnik;Burmistrz kraśnicki (Proconsul);70;1651;1;Grzybowski Proconsul, Adam Grzybowski
+278;Janaszkowic;Adam;Kraśnik;Szlachcic, posesjonat dworu w Kraśniku;70;1651;1;Nobilis Adamus Janaszkowic
+279;Kąfoła;Stanisław;Kraśnik;Mieszczanin, ofiara potrącenia wozem i połamania żeber;70;1651;1;Kąfoła, Kafoła, Stanislaus Kąfoła
+280;Szwada;Augustyn;Kraśnik;Mieszczanin kraśnicki;72;1651;1;Szwada, Augustinus Szwada
+281;Płaza;Albert;Kraśnik;Mieszczanin kraśnicki;72;1651;1;Płaza, Albertus Płaza
+282;Szostak;Andrzej;Kraśnik;Mieszczanin kraśnicki, sukcesor;72;1651;1;Szostak, Andreas Szostak
+283;Żołnierzyk;Albert;Kraśnik;Mieszczanin kraśnicki;72;1651;1;Żołnierzyk, Albertus Żołnierzyk
+284;Siwy;Stanisław;Kraśnik;Mieszczanin kraśnicki, poręczyciel;72;1651;1;Siwy, Stanislaus Siwy
+285;Kwasowicowa;Zofia;Kraśnik;Mieszka kraśnicka;72;1651;1;Sophia Kwasowicowa
+286;Jarek;Stanisław;Kraśnik;Mieszczanin kraśnicki;72;1651;1;Jarek, Stanislaus Jarek
+287;Starzyński;Marcin;Kraśnik;Mieszczanin kraśnicki, pobity na rynku;73;1651;1;Starzyński, Martinus Starzyński
+288;Ziołek;Wawrzyniec;Kraśnik;Mieszczanin, poszkodowany z ranami ciętymi;73;1651;1;Ziołek, Laurentius Ziołek
+289;Kłopotowic;Wincenty;Kraśnik;Mieszczanin kraśnicki, poszkodowany;73;1651;1;Kłopotowic, Vincentius Kłopotowic
+290;Jurkowa (Wdowa);Barbara;Kraśnik;Wdowa po mieszczaninie, wierzycielka;74;1651;1;Barbara Jurkowa vidua
+291;Szarzak;Marcin;Kraśnik;Mieszczanin kraśnicki, świadek;74;1651;1;Szarzak, Martinus Szarzak
+292;Tarsa;Mathias;Kraśnik;Mieszczanin, handlarz końmi;74;1651;1;Tarsa, Mathias Tarsa
+293;Kurasel;Piotr;Kraśnik;Mieszczanin kraśnicki;74;1651;1;Kurasel, Petrus Kurasel
+294;Zygmunt;Mathias;Kraśnik;Mieszczanin kraśnicki;74;1651;1;Zygmunt, Mathias Zygmunt
+295;Ziołek;Andrzej;Kraśnik;Mieszczanin kraśnicki;74;1651;1;Ziołek, Andreas Ziołek
+296;Dziurkowa (Ziębowa);Dorota;Kraśnik;Mieszka kraśnicka, sukcesorka;74;1651;1;Dziurkowa, Ziębowa, Dorothea Dziurkowa
+297;Kudlik;Albert;Kraśnik;Mieszczanin kraśnicki;74;1651;1;Kudlik, Albertus Kudlik
