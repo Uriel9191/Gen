@@ -125,7 +125,7 @@
 124;Dymek;Jakub;Kraśnik;Mieszczanin kraśnicki, dłużnik Jakuba Węglarza o 6 fl. i pościel;#25;1650;1;Jakub Dymek
 125;Dymek;Marcin;Kraśnik;Mieszczanin kraśnicki, deputowany sądu do obdukcji ran;#8;1649;1;Martinus Dymek
 126;Dymek;Stanisław;Kraśnik;Mieszczanin kraśnicki, świadek zajścia o krowę;#8, #51;1649, 1651;2;Stanislaus Dymek
-127;Dypek;Adam;Kraśnik;Zmarły mieszczanin kraśnicki, mąż Doroty, brat Stanisława;#56, #60;1651 [ante 1651];2;Adam Dypek
+127;Dypek;Adam;Kraśnik;Zmarły mieszczanin kraśnicki, mąż Doroty, brat Stanisława;#56, #60, #75;1651 [ante 1651];3;Adam Dypek, Dypek
 128;Dypek;Sebastian;Kraśnik;Mieszczanin kraśnicki, pozwany opiekun w dziale spadku po Stanisławie Dypku;#61;1651;1;Sebastianus Dypek, Sebastian Dypek
 129;Dypek;Stanisław;Kraśnik;Brat Adama Dypka, dłużnik wójtowski za woły;#56, #57, #61, #62;1651;4;Stanislaus Dypek
 130;Dypkowa;Dorota [Dorothea];Kraśnik;Uczciwa wdowa po Adamie Dypku, powódka i strona sporów majątkowych;#56, #57, #60, #61;1651;4;Dorothea Dypkowa vidua
@@ -195,7 +195,7 @@
 194;Janaszek;Józef Jan [Joseph Stan];Kraśnik;Mieszczanin kraśnicki, powód w sprawie o 6 połaci mięsa wołowego;#40;1650;1;Iozep Stan Janaszek, Józef Jan Janaszek
 195;Janaszek;Michał;Kraśnik;Mieszczanin kraśnicki, opiekun prawny dzieci Jazdyków;#37;1650;1;Michał Janaszek opiekun
 196;Janaszek;Sebastian;Kraśnik;Mieszczanin kraśnicki, pozwany o zwrot pożyczonego żyta;#42, #51;1650, 1651;2;Sebastian Janaszek
-197;Janaszkowic;Adam;Kraśnik;Nobilis, szlachcic kraśnicki, ofiara zbrojnego najazdu domowego;#70;1651;1;Nobilis Adamus Janaszkowic, Adam Janaszkowic
+197;Janaszkowic;Adam;Kraśnik;Nobilis, szlachcic kraśnicki, ofiara zbrojnego najazdu domowego;#70, #71, #72;1651;3;Nobilis Adamus Janaszkowic, Adam Janaszkowic, Janaszkowic, P. Janaszkowic
 198;Janaszkowic;Baltazar [Balcer];Kraśnik;Sławetny burmistrz kraśnicki (magister civium / proconsul);#17;1650;1;Balcer Janaszkowic Burmistrz
 199;Janaszkowic;Jan;Kraśnik;Generosus, szlachcic kraśnicki, protestujący o dobra dziedziczne;#66, #67;1651;2;Generosus Joannes Janaszkowic, Jan Janaszkowic
 200;Janaszkowic;Wojciech [Albert];Kraśnik;Sławetny rajca, wójt i sędzia ordinarius kraśnicki;#7, #8;1649;2;Albertus Janaszkowic Consul / Advocatus Iuratus / Iudex Ordinarius
@@ -477,7 +477,7 @@
 476;Rudnicki;Wojciech;Kraśnik;Mieszczanin kraśnicki, pozwany o pobicie chłopca;#65;1651;1;Albertus Rudnicki, Wojciech Rudnicki
 477;Rużyczka [Różyczka];N.;Kraśnik;Mieszkaniec kraśnicki oskarżony o obrazę honoru Cechu Szewskiego;#19;1650;1;Rużyczka
 478;Rybarz;Marcin;Kraśnik;Laboriosus, pracowity mieszczanin / rybak, powód w sprawie inwentarza;#61;1651;1;Martinus Rybarz, Marcin Rybary
-479;Rymarczyk;Stanisław;Kraśnik;Mieszczanin kraśnicki, opiekun prawny i świadek cechowy;#61, #63, #65;1651;3;Stanislaus Rymarczyk, Stanisław Rymarczyk
+479;Rymarczyk;Stanisław;Kraśnik;Mieszczanin kraśnicki, opiekun prawny i świadek cechowy;#61, #63, #65, #74, #75, #77;1651;6;Stanislaus Rymarczyk, Stanisław Rymarczyk, Rymarczyk
 480;Rynarczyk;N.;Kraśnik;Sławetny pan mieszczanin kraśnicki, powód o areszt dłużny Reszka;#43, #44;1650;2;Pan Rynarczyk
 481;Rzeczickowska [Rzeczycka];Maryna;Kraśnik;Sławetna mieszczka kraśnicka, właścicielka browaru, ciężko chora (posądzenia o otrucie);#34, #39, #40;1650;3;Maryna Rzeczickowska, Maryna Rzeczycka
 482;Rzęgowski;Grzegorz;Kraśnik;Zmarły mieszczanin kraśnicki, posesjonat roli jurydycznej na Przedmieściu;#5;1649 [ante 1649];1;Gregorius Rzęgowski
@@ -490,7 +490,7 @@
 489;Sender;Szymon [Simon];Lublin;Kupiec / dysydent lubelski, wspólnik w transakcjach towarowych;#59;1651;1;Simon Sender z Lublina
 490;Sender Judaeus;N.;Kraśnik;Żyd kraśnicki, wierzyciel pożyczek;#64;1651;1;Sender Judaeus, Xenden
 491;Sienkowicz;Andrzej;Kraśnik;Mieszczanin kraśnicki, contumax o dług;#65;1651;1;Andreas Sienkowicz, Andrzej Sienkowicz
-492;Sitarski;Marcin;Kraśnik;Mieszczanin kraśnicki, opiekun sierot Kamińskich, deputat do obdukcji ran;#7, #8, #14, #15, #16, #17, #18, #23, #28, #29, #32, #34, #35, #36, #41, #43, #44, #48, #49, #51, #55, #56, #57, #58, #60, #62, #66;1649, 1650, 1651;27;Martinus Sitarski
+492;Sitarski;Marcin;Kraśnik;Mieszczanin kraśnicki, opiekun sierot Kamińskich, deputat do obdukcji ran;#7, #8, #14, #15, #16, #17, #18, #23, #28, #29, #32, #34, #35, #36, #41, #43, #44, #48, #49, #51, #55, #56, #57, #58, #60, #62, #66, #74, #75, #77, #79;1649, 1650, 1651;31;Martinus Sitarski, Sitarski, Marcin Sitarski, Marcin Janusz Sitarski
 493;Siwek;Stanisław;Księżomierza / Kraśnik;Mieszkaniec ze wsi Księżomierzy, brat i poręczyciel Mathiasa Binkowica w sprawie boru Dębki;#42;1650;1;Stanisław Siwek ze wsi Księżomierzy
 494;Siwiec;Wojciech;Kraśnik;Czeladnik kraśnicki, pozwany o dług przez krawca Zgrzebię;#25;1650;1;Wojciech Siwiec
 495;Siwniel;Jan;Kraśnik;Mieszczanin kraśnicki, świadek pod przysięgą;#69;1651;1;Jan Siwniel, Joannes Siwniel
@@ -598,7 +598,7 @@
 597;Wrona;Marcin;Kraśnik;Mieszczanin kraśnicki, uczestnik ugody gruntowej i rozliczenia połowy krowy;#50;1650;1;Marcin Wrona
 598;Wrona;Wojciech;Kraśnik;Rzemieślnik kraśnicki u Józefa Moszkowicza, ofiara pobicia kijem i pięściami przez Zagayczyka;#32;1650;1;Woyciech Wrona Rzemieślnik
 599;Wrońska;Dorota;Kraśnik;Mieszka kraśnicka, granicznica posesji Wilkowej;#45;1650;1;Dorota Wrońska
-600;Wróbel;Jan;Kraśnik;Sławetny rajca i mieszczanin kraśnicki;#66, #67, #70;1651;3;Joannes Wróbel, Jan Wróbel
+600;Wróbel;Jan;Kraśnik;Sławetny rajca i mieszczanin kraśnicki;#66, #67, #70, #71, #72;1651;5;Joannes Wróbel, Jan Wróbel, Wróbel, Joannes Wróbel Consul
 601;Wróblowa;N. [Pani];Kraśnik;Małżonka rajcy Jana Wróbla, sprawczyni tumultu rynkowego;#70;1651;1;Pani Wróblowa
 602;Wstrząszek;Żydek [N.];Kraśnik;Woźny miejski przysięgły (ministerialis juratus);#19;1650;1;Żydek Wstrząszek woźny
 603;Wypych;N.;Kraśnik;Mieszczanin kraśnicki, wierzyciel sumy obligacyjnej;#62;1651;1;Wypych
@@ -652,7 +652,7 @@
 651;Zochlik;N.;Kraśnik;Posesjonat kamienicy za murem zrabowanej przez Kozaków;#10, #11;1648–1649;2;Zochlik
 652;Zofia [Kucharka Winiarza];N.;Kraśnik;Służąca i kucharka Mathiasa Winiarza, ofiara śmiertelnego pobicia przez Droyczaków;#48;1650;1;Zofia kucharka Winiarza
 653;Zuchowski [Kędzior];Bartłomiej [Barthłomiey];Kraśnik;Ksiądz zakonny Zakonu Regularnego w Kraśniku, dochodzący aresztu karczmiska od Kuczewicza;#38;1650;1;Ksiądz Barthłomiey Zuchowski Kędzior Canonicus Regularis
-654;Zygmuntowa;N.;Kraśnik;Mieszczanka kraśnicka, powódka o krowę przeciw Wojciechowi Frysowi;#62, #69;1651;2;Zygmuntowa
+654;Zygmuntowa;N.;Kraśnik;Mieszczanka kraśnicka, powódka o krowę przeciw Wojciechowi Frysowi;#62, #69, #72, #73;1651;4;Zygmuntowa, Zygmuntowa wdowa
 655;Złoty;N. [Pan Złoty];Kraśnik;Dzierżawca arendy zalegający z opłatą 8 florenów za 3 lata;#37;1650;1;Pan Złoty
 656;Łagowski;Jan;Bełżyce / Kraśnik;Uczciwy mieszczanin bełżycki, powód w sprawie o pobicie czeladnika wójtowskiego;#32;1650;1;Jan Łagowski Mieszcz. Bełżycki
 657;Łapiński;Jan;Kraśnik;Mistrz kuśnierski kraśnicki, producent czapek i delegat do Lublina;#65;1651;1;Joannes Łapiński, Jan Łapiński
@@ -673,5 +673,120 @@
 672;Świątkowna [Swiątkowna];Marina;Kraśnik;Uczciwa mieszczka kraśnicka, rezygnująca z praw do 4 zagonów roli przy cmentarzu i chmielu za 29 fl.;#50;1650;1;Marina Świątkowna, Marina Swiątkowna
 673;Świętek;Bartosz;Kraśnik;Przedmieszczanin kraśnicki, granicznik ról przy dziale rodzinnym Rodzonków;#30;1650;1;Bartosz Świętek
 674;Żukowski;N. [Pan];Kraśnik;Pan kraśnicki, do którego zwracano się o pomoc medyczną i ratunek dla chorych;#39;1650;1;Pan Żukowski
-675;Żydek;Wawrzyniec;Kraśnik;Gospodarz kraśnicki, ofiara brutalnego pobicia (17 razów);#69;1651;1;Laurentius Żydek, Wawrzyniec Żydek
+675;Żydek;Wawrzyniec;Kraśnik;Gospodarz kraśnicki, ofiara brutalnego pobicia (17 razów);#69, #74, #75;1651;3;Laurentius Żydek, Wawrzyniec Żydek, Żydek
 676;Żydkowicz;Lenart;Kraśnik;Mieszczanin kraśnicki, świadek senatu miejskiego;#70;1651;1;Lenartus Żydkowicz, Lenart Żydkowicz
+677;Młodzic;Jan;Kraśnik;Dziedzic, szlachcic kraśnicki;#71;1651;1;Młodzic, Jan Młodzic, Dziedzic Jmć Młodzic
+678;Dypkowa;Małgorzata;Kraśnik;Mieszczka kraśnicka, związana z rodziną Dypków;#71;1651;1;Dypkowa, Małgorzata Dypkowa
+679;Starościc;Stanisław;Kraśnik;Syn p. Starosty kraśnickiego;#71;1651;1;Starościc, Stanisław syn p. Starosty
+680;Orawczyk;N.;Kraśnik;Syn czeladnika majstra Orawca;#71;1651;1;Orawczyk, syn czeladnika p. Orawca
+681;Gądek;Stanisław Adam;Kraśnik;Podwójci kraśnicki, ławnik;#71, #72;1651;2;Gądek, Stanisław Adam Gądek, Adam Gądek Podwóyci, Grzybek
+682;Przewoźnik;Janek Tomek;Kraśnik;Mieszczanin kraśnicki, urzędnik;#71;1651;1;Przewoźnik, Janek Tomek Przewoźnik
+683;Janaszkowicowa;N.;Kraśnik;Żona szlachetnego Adama Janaszkowica;#71, #72;1651;2;Janaszkowicowa, żona Janaszkowica
+684;Janaszkowiczówna;N.;Kraśnik;Córka szlachetnego Adama Janaszkowica;#71, #72;1651;2;Janaszkowiczówna, córka Janaszkowica
+685;Branszkow;N.;Kraśnik;Mieszczanin kraśnicki, uczestnik sporu o piwo;#71;1651;1;Branszkow, P. Branszkow
+686;Janaszkowic;Władysław;Kraśnik;Rajca miejski (consul), szlachcic;#71, #72;1651;2;Janaszkowic, Władysław Janaszkowic Consul
+687;Janaszkowic;Franciszek;Kraśnik;Syn szlachetnego Władysława Janaszkowica;#71;1651;1;Janaszkowic, Franciszek Janaszkowic
+688;[Skład Żyd];N.;Kraśnik;Żyd kraśnicki, kupiec;#71;1651;1;Skład Żyd, Skład
+689;Konowałowa;N.;Kraśnik;Mieszczka kraśnicka, niewiasta konowała;#71;1651;1;Konowałowa, niewiasta konowała
+690;Gąsek;Augustyn;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o dług;#72, #73;1651;2;Gąsek, Augustyn Gąsek, Augustinus Gąsek
+691;Tokarz;Wojciech;Kraśnik;Tokarz, mieszczanin kraśnicki;#72, #73, #74;1651;3;Tokarz, Wojciech Tokarz, Albertus Tokarz
+692;Zotarz;Andrzej;Kraśnik;Mieszczanin kraśnicki, brat Wojciecha;#72, #73;1651;2;Zotarz, Andrzej Zotarz, Andreas Zotarz
+693;Zotarz;Wojciech;Kraśnik;Mieszczanin kraśnicki, brat Andrzeja;#72, #73;1651;2;Zotarz, Wojciech Zotarz, Albertus Zotarz
+694;Frys;Wojciech;Kraśnik;Mieszczanin kraśnicki, piwowar;#72, #73, #75, #76;1651;4;Frys, Wojciech Frys, Albertus Frys
+695;Frys;Maciej;Kraśnik;Mieszczanin kraśnicki, ojciec Wojciecha Frysa;#73;1651;1;Frys, Maciej Frys, Mathias Frys
+696;Baran;Marcin;Kraśnik;Mieszczanin kraśnicki;#72, #73;1651;2;Baran, Marcin Baran, Martinus Baran
+697;Kudel;Benedykt;Kraśnik;Mieszczanin kraśnicki, dłużnik;#72, #73;1651;2;Kudel, Benedykt Kudel, Benedictus Kudel
+698;Tomczyk;Mikołaj;Kraśnik;Mieszczanin kraśnicki, poręczyciel;#72, #73;1651;2;Tomczyk, Mikołaj Tomczyk
+699;Tomczykowa;Zofia;Kraśnik;Mieszczka kraśnicka, żona Mikołaja Tomczyka;#72, #73;1651;2;Tomczykowa, Zofia Tomczykowa
+700;Chmielowski;Jan;Kraśnik;Czeladnik miejski, poręczyciel;#72, #73;1651;2;Chmielowski, Jan Chmielowski czeladź
+701;Żyduła;Jadwiga;Kraśnik;Mieszczka kraśnicka;#72, #73;1651;2;Żyduła, Jadwiga Żyduła
+702;Cyrulik;Stanisław;Kraśnik;Cyrulik kraśnicki (chirurgus);#72, #73;1651;2;Cyrulik, Stanisław Cyrulik, Stanislaus Chirurgus
+703;Kwaśniczówna;Zofia;Kraśnik;Mieszczka kraśnicka, wierzycielka;#72, #73;1651;2;Kwaśniczówna, Zofia Kwaśniczówna, Zophia Kwasniczowna
+704;Gąszczyna;Zuzanna;Kraśnik;Mieszczka kraśnicka, dłużniczka;#72, #73;1651;2;Gąszczyna, Zuzanna Gąszczyna, Susanna Gąsczyna
+705;Jarek;Stanisław;Kraśnik;Mieszczanin kraśnicki, rolnik;#72, #73;1651;2;Jarek, Stanisław Jarek, Stanislaus Jarek
+706;Kudel;Szymon;Kraśnik;Mieszczanin kraśnicki, świadek;#72, #73;1651;2;Kudel, Szymon Kudel, Simon Kudel
+707;Orzeł;Jan;Kraśnik;Mieszczanin kraśnicki, posłaniec do Zamościa;#72, #73, #76, #77;1651;4;Orzeł, Jan Orzeł, Joannes Orzeł
+708;[Luca Żyd];Luca;Kraśnik;Żyd kraśnicki, wierzyciel;#72, #73;1651;2;Luca Żyd, Lucas Judaeus
+709;Rymarczyk;Maciej;Kraśnik;Mieszczanin kraśnicki, dłużnik;#72, #73;1651;2;Rymarczyk, Maciej Rymarczyk, Mathias Rymarczyk
+710;Sitarski;Maciej;Kraśnik;Mieszczanin kraśnicki, taksator;#74;1651;1;Sitarski, Maciej Sitarski
+711;Jurecki;Jan;Kraśnik;Mieszczanin kraśnicki, taksator;#74;1651;1;Jurecki, Jan Jurecki
+712;Stanisławski;Marcin;Kraśnik;Szlachcic, dworzanin;#74;1651;1;Stanisławski, Marcin Stanisławski, Martin Stanisławski
+713;Szwada;Maciej;Kraśnik;Mieszczanin kraśnicki, świadek bójki;#74;1651;1;Szwada, Maciej Szwada, Mathias Szwada
+714;Kuczewicz;Andrzej;Kraśnik;Ławnik przysięgły kraśnicki;#74;1651;1;Kuczewicz, Andrzej Kuczewicz
+715;Kłopotowa;Wimenta;Kraśnik;Uczciwa mieszczka kraśnicka, poszkodowana;#74;1651;1;Kłopotowa, Wimenta Kłopotowa, Vimenta Kłopotowa
+716;Lepiarz;Andrzej;Kraśnik;Lepiarz, mieszczanin kraśnicki, napastnik;#74, #77;1651;2;Lepiarz, Andrzej Lepiarz, Kukuczka Lepiarz, Joannes Lepiarz
+717;[Tomasz Kazyk Żyd];Tomasz;Kraśnik;Żyd kraśnicki, syn Kazyka;#74;1651;1;Tomasz Kazyk Żyd, Tomasz Kazyk
+718;Wilczek;Łukasz;Kraśnik;Ławnik przysięgły kraśnicki;#74, #77;1651;2;Wilczek, Łukasz Wilczek
+719;[Czapik Żyd];N.;Kraśnik;Żyd kraśnicki;#75;1651;1;Czapik Żyd, Czapik
+720;Gibała;Jan;Kraśnik;Mieszczanin kraśnicki;#75, #80;1651;2;Gibała, Jan Gibała
+721;Jarkowa;Barbara;Kraśnik;Mieszczka kraśnicka, matka poszkodowanej;#75;1651;1;Jarkowa, Barbara Jarkowa
+722;Jarkówna;N.;Kraśnik;Córka Barbary Jarkowej, poszkodowana;#75;1651;1;Jarkówna, córka Barbary Jarkowej
+723;Tomca;Maciej;Kraśnik;Mieszczanin kraśnicki, świadek;#75;1651;1;Tomca, Maciej Tomca, Mathias Tomca
+724;[Czeladnik p. Dobrego];N.;Kraśnik;Czeladnik dworski pana Dobrego;#75;1651;1;Czeladnik p. Dobrego
+725;[Żydek z kożuszkiem];N.;Kraśnik;Żyd kraśnicki, poszkodowany w bójce;#75;1651;1;Żydek z kożuszkiem
+726;Jarsa;Maciej;Kraśnik;Mieszczanin kraśnicki, właściciel konia;#75;1651;1;Jarsa, Maciej Jarsa, Mathias Jarsa
+727;Kudel;Piotr;Kraśnik;Mieszczanin kraśnicki, pozwany o konia;#75;1651;1;Kudel, Piotr Kudel, Petrus Kudel
+728;Podgrabi;Maciej;Kraśnik;Mieszczanin kraśnicki, powód w sprawie o dług;#75;1651;1;Podgrabi, Maciej Podgrabi, Mathias Podgrabi
+729;Żołnierz;Andrzej;Kraśnik;Mieszczanin kraśnicki, pozwany o 5 fl.;#75;1651;1;Żołnierz, Andrzej Żołnierz, Andreas Żołnier
+730;Dypkowa;Dorota;Kraśnik;Wdowa po Stanisławie Dypku, mieszczka kraśnicka;#75;1651;1;Dypkowa, Dorota Dypkowa Stanisławowa
+731;Jurkowa;Barbara;Kraśnik;Mieszczka kraśnicka, pozwana o kradzież;#75;1651;1;Jurkowa, Barbara Jurkowa
+732;Jurkówna;N.;Kraśnik;Córka Barbary Jurkowej, dziewka służebna;#75;1651;1;Jurkówna, córka Barbary Jurkowej
+733;Jurkowa;Anna;Kraśnik;Matka Barbary Jurkowej;#75;1651;1;Jurkowa, Anna matka Jurkowej
+734;Baranowska;N.;Kraśnik;Żona Stanisława Baranowskiego, mieszczka;#75;1651;1;Baranowska, Stanisławowa Baranowska
+735;Kudelik;Wojciech;Kraśnik;Mieszczanin kraśnicki, dłużnik;#75, #78;1651;2;Kudelik, Wojciech Kudelik, Albertus Kudelik, Wojciech Kudlik
+736;Wójcik;Wojciech;Kraśnik;Mieszczanin kraśnicki, pozwany o bójkę;#76;1651;1;Wójcik, Wojciech Wójcik, Albertus Woycik
+737;Rzeźnik;Mikołaj;Kraśnik;Rzeźnik kraśnicki;#76;1651;1;Rzeźnik, Mikołaj Rzeźnik
+738;Cielątka;Elżbieta;Kraśnik;Mieszczka kraśnicka;#76;1651;1;Cielątka, Elżbieta Cielątka, Elizabeth Cielątka
+739;Jankowa;Katarzyna;Kraśnik;Niewiasta kraśnicka, służąca;#76;1651;1;Jankowa, Katarzyna Janki niewiasta, Catharina Janki
+740;Fraszkowa;Dorota;Kraśnik;Mieszczka kraśnicka, poszkodowana;#76;1651;1;Fraszkowa, Dorota Fraszkowa, Dorothea Frasiikowa
+741;Frysowa;N.;Kraśnik;Żona Wojciecha Frysa, mieszczka;#76;1651;1;Frysowa, Frysowa żona Wojciecha
+742;Jurkowa;Dorota;Kraśnik;Mieszczka kraśnicka, powódka o szkody w roli;#76;1651;1;Jurkowa, Dorota Jurkowa
+743;Jaroszek;Jan;Kraśnik;Mieszczanin kraśnicki, rolnik;#76;1651;1;Jaroszek, Jan Jaroszek, Joannes Jaroszek
+744;Gorayski;Piotr;Kraśnik;Mieszczanin kraśnicki, świadek;#76;1651;1;Gorayski, Piotr Gorayski, Petrus Gorayski
+745;Chmiel;Jan;Kraśnik;Mieszczanin kraśnicki, rolnik;#76;1651;1;Chmiel, Jan Chmiel
+746;Gąsiorowski;Fabian;Kraśnik;Plenipotent sądowy, mieszczanin;#76;1651;1;Gąsiorowski, Fabian Gąsiorowski
+747;Śmieszek;Maciej;Kraśnik;Mieszczanin kraśnicki, świadek (Mathias Smiezek);#76;1651;1;Śmieszek, Maciej Śmieszek, Mathias Smiezek
+748;Barcik;Walenty;Kraśnik;Mieszczanin kraśnicki, poręczyciel i kupiec;#76, #77, #78;1651;3;Barcik, Walenty Barcik, Valentinus Barcik
+749;Kozłowa;N.;Kraśnik;Młynarka kraśnicka, wdowa;#77;1651;1;Kozłowa, Kozłowa Młynarka
+750;Słotwina;Jan;Kraśnik;Mieszczanin kraśnicki, inkwirent i posłaniec;#77;1651;1;Słotwina, Jan Słotwina, Joannes Słotwina
+751;[Szmiel Żyd z synagogi];Szmiel;Kraśnik;Żyd ze starszyzny synagogi kraśnickiej;#77;1651;1;Szmiel Żyd z synagogi, Szmiel Judaeus
+752;[Syn Szmiela Żyda czapnik];N.;Kraśnik;Czapnik żydowski w Kraśniku;#77;1651;1;Syn Szmiela Żyda czapnik, czapnik żydowski
+753;[Dytka Żyd z ul. Lubelskiej];Dytka;Kraśnik;Żyd karczmarz z ulicy Lubelskiej;#77;1651;1;Dytka Żyd, Dytka karczmarz
+754;Kozioł;Mikołaj;Kraśnik;Mieszczanin kraśnicki, poszkodowany o kradzież;#77;1651;1;Kozioł, Mikołaj Kozioł
+755;Jedwabnik;Tomasz;Zamość;Młynarz zamojski, handlarz;#77;1651;1;Jedwabnik, Tomasz Jedwabnik Młynarz z Zamościa
+756;Bielaszek;Jerzy;Kraśnik;Czeladnik miejski, świadek;#77;1651;1;Bielaszek, Jerzy Bielaszek, Georgius Bielaszek
+757;Betlicki;Szmiel;Czarnolas;Kupiec czarnoleski;#77;1651;1;Betlicki, Szmiel Betlicki kupiec czarnoleski
+758;Matuszek;Jakub;Trzciniec;Uczciwy rolnik ze wsi Trzciniec;#77;1651;1;Matuszek, Jakub Matuszek, Jacobus Matuszek
+759;Trzebiński;Stanisław;Kraśnik;Szlachcic, syn Wojciecha Trzebińskiego;#77;1651;1;Trzebiński, Stanisław Trzebiński
+760;Trzebiński;Wojciech;Kraśnik;Szlachcic kraśnicki;#77;1651;1;Trzebiński, Wojciech Trzebiński
+761;Kmieciowa;Jadwiga;Słodków;Pracowita poddana ze wsi Słodków;#77;1651;1;Kmieciowa, Jadwiga Kmieciowa z Słodkowa
+762;Rzemieniowicz;Stanisław;Słodków;Poddany ze wsi Słodków;#77;1651;1;Rzemieniowicz, Stanisław Rzemieniowicz
+763;Kmieć;Jan;Słodków;Pracowity poddany ze wsi Słodków;#77, #78;1651;2;Kmieć, Jan Kmieć ze Słodkowa, Laboriosus Joannes Kmieć
+764;Marcin;Wojciech;Słodków;Poddany ze wsi Słodków, sąsiad miedzy;#77;1651;1;Marcin, Wojciech Marcin ze Słodkowa
+765;Golański;Jędrzej;Kraśnik;Mieszczanin kraśnicki z Zastawia, napastnik;#78, #80;1651;2;Golański, Jędrzej Golański, Andreas Golański
+766;Golański;Janusz;Kraśnik;Syn Jędrzeja Golańskiego;#78;1651;1;Golański, Janusz Golański syn Jędrzeja
+767;Kmicik;Jędrzej;Kraśnik;Mieszczanin kraśnicki, świadek;#78;1651;1;Kmicik, Jędrzej Kmicik, Andreas Kmicik
+768;Judka;Stanisław;Kraśnik;Mieszczanin kraśnicki, sąsiad posesji;#78;1651;1;Judka, Stanisław Judka
+769;Matuszkowicz;Baltazar;Kraśnik;Kupiec, nabywca ogrodu (Balthazar Matuszkowicz);#78;1651;1;Matuszkowicz, Baltazar Matuszkowicz, Balthazar Matuszkowicz
+770;Barcikowa;Zuzanna;Kraśnik;Żona Walentego Barcika, współwłaścicielka ogrodu;#78;1651;1;Barcikowa, Zuzanna Barcikowa
+771;Ciszkowski;Grzegorz;Kraśnik;Mieszczanin kraśnicki, sąsiad ogrodu;#78;1651;1;Ciszkowski, Grzegorz Ciszkowski
+772;Niedobek;Albert;Słodków;Ławnik kraśnicki ze Słodkowa, świadek;#78, #79;1651;2;Niedobek, Albert Niedobek, Wojciech Niedobek, Petrus Niedobek
+773;Zagarda;Adam;Kraśnik;Mieszczanin kraśnicki, świadek pod przysięgą;#78;1651;1;Zagarda, Adam Zagarda
+774;Zarębkowa;Jadwiga;Kraśnik;Wdowa, przedawczyni placu miejskiego;#79;1651;1;Zarębkowa, Jadwiga Zarębkowa
+775;Bełżycki;Andrzej;Kraśnik;Mieszczanin kraśnicki, nabywca placu;#79;1651;1;Bełżycki, Andrzej Bełżycki, Andreas Bełżycki
+776;Bełżycka;Zofia;Kraśnik;Żona Andrzeja Bełżyckiego, nabywczyni placu;#79;1651;1;Bełżycka, Zofia Bełżycka
+777;Krawczyk;Stanisław;Kraśnik;Krawiec kraśnicki, sąsiad placu;#79;1651;1;Krawczyk, Stanisław Krawczyk
+778;Bartoszek;Wojciech;Kraśnik;Mieszczanin kraśnicki (Albertus Bartoszek);#79;1651;1;Bartoszek, Wojciech Bartoszek, Albertus Bartoszek
+779;Złotnikowa;Regina;Kraśnik;Żona Andrzeja Złotnika, poszkodowana z ranami szablą;#79;1651;1;Złotnikowa, Regina Złotnikowa, Regina Zotnikowa
+780;Złotnik;Andrzej;Kraśnik;Złotnik kraśnicki (Andreas Zotnik);#79;1651;1;Złotnik, Andrzej Złotnik, Andreas Zotnik
+781;Wrona;Mikołaj;Kraśnik;Mieszczanin kraśnicki;#79;1651;1;Wrona, Mikołaj Wrona, Nicolaus Wrona
+782;Wronina;Zofia;Kraśnik;Mieszczka kraśnicka, żona Mikołaja Wrony;#79, #80;1651;2;Wronina, Zofia Wronina, Wronina uxor Nicolai
+783;Janaszkowicz;Mikołaj;Kraśnik;Mieszczanin kraśnicki, poszkodowany o pobicie;#79;1651;1;Janaszkowicz, Mikołaj Janaszkowicz, Nicolaus Janaszkowicz
+784;Szewczyk;Jan;Kraśnik;Szewc kraśnicki, świadek obdukcji (Joannes Szewczyki);#79;1651;1;Szewczyk, Jan Szewczyk, Joannes Szewczyki
+785;Giroń;Jan Szymon;Rzeczyca;Wójt z Rzeczycy, poszkodowany w napaści;#80;1651;1;Giroń, Jan Szymon Giroń wójt z Rzeczycy
+786;Białobrodzki;Stanisław;Kraśnik;Mieszczanin kraśnicki, powód przeciw córce;#80;1651;1;Białobrodzki, Stanisław Białobrodzki, Stanislaus Białobrodzki
+787;Białobrodzka;Regina;Kraśnik;Córka Stanisława Białobrodzkiego, pozwana;#80;1651;1;Białobrodzka, Regina Białobrodzka
+788;Kmicina;Katarzyna;Kraśnik;Mieszczka kraśnicka, właścicielka stawu i wygonu;#80;1651;1;Kmicina, Katarzyna Kmicina, Catharina Kmicina
+789;Babiarzyk;Benedykt;Kraśnik;Mieszczanin kraśnicki, pozwany o szkody w stawie;#80;1651;1;Babiarzyk, Benedykt Babiarzyk, Benedictus Babiarzyk
+790;Karapiel;Mikołaj;Kraśnik;Mieszczanin kraśnicki, właściciel domu i pasieki;#80;1651;1;Karapiel, Mikołaj Karapiel, Nicolaus Karapiel
+791;Jaqua;N.;Kraśnik;Mieszczanin kraśnicki, uczestnik sporu o kradzież;#80;1651;1;Jaqua, Jaqua kraśnicki
