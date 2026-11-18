@@ -250,6 +250,7 @@ def test_unit(unit_id, html_path, csv_path):
       // SYMULACJA RUNTIME W NODE.JS VM
       const elements = {{}};
       let domLoadedCb = null;
+      let renderedRowsHtml = [];
       const sandbox = {{
         document: {{
           getElementById: (id) => elements[id] || (elements[id] = {{
@@ -257,7 +258,7 @@ def test_unit(unit_id, html_path, csv_path):
             classList: {{ add: ()=>{{}}, remove: ()=>{{}}, toggle: ()=>{{}} }},
             innerText: '',
             innerHTML: '',
-            appendChild: ()=>{{}},
+            appendChild: (child) => {{ if (child && child.innerHTML) renderedRowsHtml.push(child.innerHTML); }},
             value: '',
             disabled: false,
             addEventListener: ()=>{{}}
@@ -294,8 +295,17 @@ def test_unit(unit_id, html_path, csv_path):
       if (typeof sandbox.renderGenTable !== 'function') throw new Error('Brak zdefiniowanej funkcji renderGenTable()');
       sandbox.renderGenTable();
 
+      // Rygorystyczna weryfikacja braku ciągów undefined w wyrenderowanych komórkach tabel
+      const fullRenderedHtml = renderedRowsHtml.join(' ');
+      if (fullRenderedHtml.includes('undefined')) {{
+        throw new Error('KRYTYCZNY BŁĄD RUNTIME: Wykryto wartość undefined w wyrenderowanych komórkach tabeli głównej lub słownika!');
+      }}
+
       if (typeof sandbox.openMainModal !== 'function') throw new Error('Brak zdefiniowanej funkcji openMainModal()');
       sandbox.openMainModal(1);
+      if (elements['modalBody'] && elements['modalBody'].innerHTML.includes('undefined')) {{
+        throw new Error('KRYTYCZNY BŁĄD RUNTIME: Wykryto wartość undefined w oknie modalu skanu (openMainModal)!');
+      }}
 
       if (typeof sandbox.switchModalTab !== 'function') throw new Error('Brak zdefiniowanej funkcji switchModalTab()');
       sandbox.switchModalTab('trans');
@@ -304,6 +314,9 @@ def test_unit(unit_id, html_path, csv_path):
 
       if (typeof sandbox.openGenModal !== 'function') throw new Error('Brak zdefiniowanej funkcji openGenModal()');
       sandbox.openGenModal(1);
+      if (elements['modalBody'] && elements['modalBody'].innerHTML.includes('undefined')) {{
+        throw new Error('KRYTYCZNY BŁĄD RUNTIME: Wykryto wartość undefined w oknie modalu osoby (openGenModal)!');
+      }}
 
       console.log('NODE_RUNTIME_VALID');
     }} catch (e) {{
