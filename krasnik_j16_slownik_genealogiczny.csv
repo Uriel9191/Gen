@@ -295,7 +295,7 @@
 294;Duby;Sebastian;Kraśnik;Mieszczanin kraśnicki, świadek na rygorach o kradzieże;#90;1651;1;Duby, Sebastian Duby
 295;Duda;Jan;Kraśnik;Przedmieszczanin kraśnicki, rezygnujący uroczyście z dworu z ogrodem za Bramą Drzewiczną ku Krakowskiej;#28, #29;1650;2;Jan Duda przedmieszczanin
 296;Duda;Janowa [Dudzina];Kraśnik;Przedmieszczanka kraśnicka, małżonka Jana Dudy, rezygnująca wieczyście z praw do dworu;#28, #29;1650;2;Dudzina żona Jana Dudy
-297;Dudek;Jan;Budzyń;"Poddany z Budzynia, wspólnik w kradzieży koni; mieszczanin kraśnicki, świadek rozliczeń i podróży; mieszczanin kraśnicki, powód o konia; mieszczanin, płacący 6 zł z ugody; mieszczanin, świadek urzędowy; mieszczanin kraśnicki, powód o szlak i kler";#82, #257, #259, #265, #266, #267;1651–1658;6;Dudek, Jan Dudek
+297;Dudek;Jan;Budzyń;"Poddany z Budzynia, wspólnik w kradzieży koni; mieszczanin kraśnicki, świadek rozliczeń i podróży; mieszczanin kraśnicki, powód o konia; mieszczanin, płacący 6 zł z ugody; mieszczanin, świadek urzędowy; mieszczanin kraśnicki, powód o szlak i kler; Szewc kraśnicki";#82, #257, #259, #265, #266, #267, #305;1651–1658;7;Dudek, Jan Dudek
 298;Dudek;Maciej;Kraśnik;Mieszczanin kraśnicki, opiekun sieroty, wierzyciel;#81;1651;1;Dudek, Maciej Dudek, Mathias Dudek
 299;Dudek;Marcin;Budzyń;Poddany ze wsi Budzyń, złodziej recydywista, skazaniec;#81, #82, #83, #84, #86;1651;5;Dudek, Marcin Dudek z Budzynia, Martinus Dudek fur suspensus
 300;Dudek;Paweł;Kraśnik;mieszczanin kraśnicki, pozwany o rzemień;#275;1658;1;
@@ -367,7 +367,7 @@
 366;Foliator [Folusznik];Paweł;Kraśnik;Folusznik kraśnicki, pozwany i świadek grabieży kozackiej;#10, #11;1648–1649;2;Paulus Foliator [Paweł Folusznik]
 367;Folwarkowski;N.;Kraśnik;Mieszkaniec kraśnicki, odbiorca świadczenia od Wojciecha Frysa;#51;1651;1;Folwarkowski
 368;Folwarski;N. [Pan];Kraśnik (Dwór);Szlachcic / zarządca dworski, pryncypał Piotra Tylewacka;#53;1651;1;Pan Folwarski
-369;Fox;Jan;Kraśnik;Dawny burmistrz kraśnicki;#101;1652;1;Joannes Fox, Jan Fox Burmistrz
+369;Fox;Jan;Kraśnik;"Dawny burmistrz kraśnicki; Krawiec kraśnicki";#101, #312;1652–1658;2;Joannes Fox, Jan Fox Burmistrz, Foks?
 370;Foxowa (z d. Rzęgowska);Agnieszka;Kraśnik;Mieszczka kraśnicka, wdowa po rajcy Janie Jonaszu Foxie, córka Grzegorza Rzęgowskiego;#5, #10, #11, #101;1648–1649, 1652;4;Agnes Janati Jonasis Fox Consulis, Foxina, Janowa Foxowa, Foxowa
 371;Frankensztein;Andrzej;Kraśnik;Sławetny pan, uczestnik sporu sąsiedzkiego o szkody polne;#35;1650;1;Andrzej Frankensztein
 372;Frankowic;Marcin;Kraśnik;wspólnik Kuźniczka, pozwany;#272;1658;1;
@@ -390,7 +390,7 @@
 389;Fudrowa;Barbara;Kraśnik;Mieszczka kraśnicka, zwana Koniędzina, powódka o jęczmień, siano za 15 fl., oziminę i owies;#122;1652;1;Barbara Koniędzina
 390;Furko;Wawrzyniec;Kraśnik - Przedmieście;przedmieszczanin kraśnicki, świadek taksacji;#201;1653;1;
 391;Furman;Jakub;Kraśnik;mieszczanin wykładający furmankę;#256;1658;1;
-392;Furman;Mikołaj;Kraśnik;mieszczanin kraśnicki, powód o 26 gr;#260;1658;1;
+392;Furman;Mikołaj;Kraśnik;"mieszczanin kraśnicki, powód o 26 gr; Rzemieślnik kraśnicki";#260, #306, #317, #320, #321, #322;1658;6;
 393;Ganek;Augustyn;Kraśnik;"zmarły mieszczanin, fundator legatu fl. 200 na szpital; zmarły mieszczanin, testator z 1657 r.";#255, #261;1658;2;
 394;Gankowa;Gankowa;Kraśnik;"wdowa po Augustynie Ganku, wierzycielka żydówki; wdowa po Augustynie Ganku, pozwana o 60 zł; wdowa po Augustynie Ganku, pozwana o fundusze szpitalne; wdowa, zobowiązana do wypłaty legatów";#253, #255, #260, #261;1658;4;
 395;Gankulik;Augustyn;Kraśnik;brat zmarłego Ganka, składający zeznania o szpichlerzu;#256;1658;1;
@@ -454,7 +454,7 @@
 453;Grzymkowski;N.;Kraśnik;Śp. szlachcic/pan, od którego wzięto 8 korcy żyta;#138;1653;1;
 454;Grzywczyna;Anna;Kraśnik;Mieszczanka kraśnicka, naoczny świadek bójki szpitalnej;#69;1651;1;Anna Grzywczyna
 455;Grządek;Tomasz;Kraśnik;Śp. syn Jadwigi Grządzkowej, zmarły właściciel domu;#125;1652;1;
-456;Grządka;Bartosz;Kraśnik;mieszczanin kraśnicki, dłużnik skazany in contumaciam do wieży miejskiej;#239;1653;1;
+456;Grządka;Bartosz;Kraśnik;mieszczanin kraśnicki, dłużnik skazany in contumaciam do wieży miejskiej;#239, #315;1653–1658;2;
 457;Grządka;Jan;Kraśnik;"zmarły mąż; mieszczanin kraśnicki, powód o dług";#170, #239;1653;2;
 458;Grządkina;Jadwiga;Kraśnik;Mieszka kraśnicka, pozwana o wydanie 20 fl. i pościeli Brzany;#56;1651;1;Jadwiga Grządkina
 459;Grządkowa;Jadwiga;Kraśnik;Mieszczka kraśnicka, wierzycielka 8 fl. za dom ojcowski;#111;1652;1;
@@ -709,7 +709,7 @@
 708;Katarzyna;N.;Kraśnik;Czeladniczka u Jasiewicza, świadek najścia i pobicia przez Polaków;#117;1652;1;
 709;Katowicz;Marina;Kraśnik;"pracowita służąca kata kraśnickiego, poszkodowana; uboga sierota i służąca, ofiara pobicia";#155, #174;1653;2;
 710;Kawrocka;Kawrocka;Kraśnik;małżonka prowizora Kawrockiego;#261;1658;1;
-711;Kawrocki;Stanisław;Kraśnik;"burmistrz kraśnicki (proconsul); sławetny rajca kraśnicki, protestant poszkodowany w zarazie; rajca kraśnicki, powód o grabież; rajca kraśnicki, świadek obdukcji; rajca kraśnicki, komisarz taksator; rajca kraśnicki, komisarz podziału; rajca kraśnicki, prowizor Szpitala Ubogich; prowizor Szpitala Ubogich, odbiorca sumy 123 zł 20 gr; prowizor szpitala ubogich św. Ducha w Kraśniku; prowizor szpitala św. Ducha, kładący areszt na 5 zł 26 gr; prowizor szpitala ubogich, powód; prowizor szpitalny i wierzyciel na 60 zł; prowizor szpitala ubogich, powód o 30 zł i 20 zł; prowizor szpitalny, rozliczający 60 zł; prowizor szpitalny, powód; prowizor szpitalny, powód o składki; prowizor szpitalny, powód o 50 zł; prowizor szpitalny, pozwany o 6 zł; rajca kraśnicki (consul), powód o ostatek długu";#157, #158, #209, #210, #218, #219, #225, #232, #233, #237, #252, #253, #255, #256, #260, #261, #262, #266, #268, #273, #275, #286, #287, #288, #291, #294, #297;1653–1658;27;
+711;Kawrocki;Stanisław;Kraśnik;"burmistrz kraśnicki (proconsul); sławetny rajca kraśnicki, protestant poszkodowany w zarazie; rajca kraśnicki, powód o grabież; rajca kraśnicki, świadek obdukcji; rajca kraśnicki, komisarz taksator; rajca kraśnicki, komisarz podziału; rajca kraśnicki, prowizor Szpitala Ubogich; prowizor Szpitala Ubogich, odbiorca sumy 123 zł 20 gr; prowizor szpitala ubogich św. Ducha w Kraśniku; prowizor szpitala św. Ducha, kładący areszt na 5 zł 26 gr; prowizor szpitala ubogich, powód; prowizor szpitalny i wierzyciel na 60 zł; prowizor szpitala ubogich, powód o 30 zł i 20 zł; prowizor szpitalny, rozliczający 60 zł; prowizor szpitalny, powód; prowizor szpitalny, powód o składki; prowizor szpitalny, powód o 50 zł; prowizor szpitalny, pozwany o 6 zł; rajca kraśnicki (consul), powód o ostatek długu";#157, #158, #209, #210, #218, #219, #225, #232, #233, #237, #252, #253, #255, #256, #260, #261, #262, #266, #268, #273, #275, #286, #287, #288, #291, #294, #297, #302;1653–1658;28;
 712;Kaykowa;N.;Kraśnik;Mieszczka kraśnicka, powódka o zabitą krowę i granice;#90;1651;1;Kaykowa, Kaykowa mieszczka
 713;Kazański;Augustyn;Kraśnik;Szlachcic, kurator i tutor sierot po Stanisławie Mleczko;#112;1652;1;
 714;Kazimierski;Jacobus;Kraśnik;Mieszczanin kraśnicki, dłużnik 50 fl.;#129;1652;1;
@@ -848,7 +848,7 @@
 847;Kołodziej;Marcin;Kraśnik;Kołodziej kraśnicki, powód w sprawie o niespłacone żyto przeciw Janaszkowi;#42;1650;1;Marcin Kołodziej
 848;Kołodziej;Mathias;Błonie;Pracowity kołodziej z Błonia pod Kraśnikiem, powód o konia za 20 fl.;#121;1652;1;
 849;Kołodziejczyk;Bartosz;Kraśnik;mieszczanin kraśnicki;#171, #172;1653;2;
-850;Kołodziejczyk;Błażej;Kraśnik;"Kołodziej kraśnicki, opiekun sieroty, wierzyciel; Ławnik przysięgły kraśnicki (1653); Ławnik przysięgły kraśnicki, zobowiązany do zapłaty 3,5 fl. procentu różańcowego; Ławnik przysięgły, w jego domu pomiarkowie mają rozstrzygnąć spór o gorzałkę; ławnik kraśnicki, taksator szkód; ławnik kraśnicki, mąż pozwanej wdowy Mroczkowej; ławnik kraśnicki, inwentaryzator; mieszczanin kraśnicki, pozwany; ławnik kraśnicki, komisarz; Ławnik kraśnicki, starszy cechu szewskiego; Starszy cechu szewskiego kraśnickiego";#81, #136, #146, #150, #154, #181, #183, #184, #215, #218, #219, #290, #300;1651–1658;13;Kołodziejczyk, Błażej Kołodziejczyk, Błaszek Kołodzieyczyk, Blaseus KołodzieyczyK
+850;Kołodziejczyk;Błażej;Kraśnik;"Kołodziej kraśnicki, opiekun sieroty, wierzyciel; Ławnik przysięgły kraśnicki (1653); Ławnik przysięgły kraśnicki, zobowiązany do zapłaty 3,5 fl. procentu różańcowego; Ławnik przysięgły, w jego domu pomiarkowie mają rozstrzygnąć spór o gorzałkę; ławnik kraśnicki, taksator szkód; ławnik kraśnicki, mąż pozwanej wdowy Mroczkowej; ławnik kraśnicki, inwentaryzator; mieszczanin kraśnicki, pozwany; ławnik kraśnicki, komisarz; Ławnik kraśnicki, starszy cechu szewskiego; Starszy cechu szewskiego kraśnickiego; Ławnik, subdelegat wójtowski kraśnicki";#81, #136, #146, #150, #154, #181, #183, #184, #215, #218, #219, #290, #300, #306, #309, #313, #316, #317, #321, #322, #324;1651–1658;21;Kołodziejczyk, Błażej Kołodziejczyk, Błaszek Kołodzieyczyk, Blaseus KołodzieyczyK
 851;Kościół;Stanisław;Kraśnik;Mieszczanin kraśnicki, spłacający 18 fl.;#90;1651;1;Kościół, Stanisław Kościół
 852;Koźmianowa;Agna;Kraśnik;"przedmieszczanka kraśnicka zza rzeczki, intercesorka; przedmieszczanka kraśnicka, opiekunka wychowanicy";#186, #187;1653;2;
 853;Koźmianowa;Anna;Kraśnik;intercesor po stronie Rzepki;#164;1653;1;
@@ -1006,10 +1006,10 @@
 1005;Kłopot;Bartosz;Kraśnik;Młodszy syn Sebastiana Kłopota;#104, #105;1652;2;Bartholomaeus Klopot
 1006;Kłopot;Bartłomiej;Kraśnik;Mieszczanin kraśnicki, dłużnik 12 fl.;#98;1652;1;Kłopot, Bartłomiej Kłopot, Bartholomaeus Kłopot
 1007;Kłopot;Błażej;Kraśnik;Śp. mieszczanin kraśnicki, brat zmarły;#128;1652;1;
-1008;Kłopot;Gabriel;Kraśnik;"Mieszczanin, syn Sebastiana Kłopota; Syn Sebastiana i Jadwigi Kłopotów, pozwany o opał i zaopatrzenie matki; Mieszczanin kraśnicki, powód o sukcesję po bracie";#104, #118, #131, #283;1652–1658;4;Gabriel Kłopot
+1008;Kłopot;Gabriel;Kraśnik;"Mieszczanin, syn Sebastiana Kłopota; Syn Sebastiana i Jadwigi Kłopotów, pozwany o opał i zaopatrzenie matki; Mieszczanin kraśnicki, powód o sukcesję po bracie; Mieszkaniec Szczurofic";#104, #118, #131, #283, #303, #323;1652–1658;6;Gabriel Kłopot
 1009;Kłopot;Jan;Kraśnik;"Mieszczanin kraśnicki, nabywca domu za 45 fl.; Mieszczanin kraśnicki, powód w sprawach o czynsze i długi; mieszczanin, świadek przysięgły o cenie żyta";#91, #92, #95, #104, #105, #108, #116, #262;1651–1658;8;Kłopot, Jan Kłopot, Joannes Kłopot, Jan Kłopot starszy
 1010;Kłopot;Maciej;Kraśnik;Syn zmarłego Alberta Kłopota;#105;1652;1;Mathias Klopot
-1011;Kłopot;Paweł;Kraśnik;"Mieszczanin kraśnicki, sprzedawca domu za 45 fl.; Syn Sebastiana i Jadwigi Kłopotów, pozwany o nieposłuszeństwo wobec matki; Mieszczanin kraśnicki, sukcesor i brat w procesie o spadek Kłopotów";#91, #92, #95, #98, #104, #118, #128;1651–1652;7;Kłopot, Paweł Kłopot, Paulus Kłopot
+1011;Kłopot;Paweł;Kraśnik;"Mieszczanin kraśnicki, sprzedawca domu za 45 fl.; Syn Sebastiana i Jadwigi Kłopotów, pozwany o nieposłuszeństwo wobec matki; Mieszczanin kraśnicki, sukcesor i brat w procesie o spadek Kłopotów";#91, #92, #95, #98, #104, #118, #128, #305;1651–1658;8;Kłopot, Paweł Kłopot, Paulus Kłopot
 1012;Kłopot;Piotr;Kraśnik;Mieszczanin, ukarany karą remisji;#105;1652;1;Petrus Klopot
 1013;Kłopot;Sebastian;Kraśnik;Syn Sebastiana Kłopota;#104;1652;1;Sebastianus Klopot
 1014;Kłopot;Stanisław;Kraśnik;Mieszczanin kraśnicki, sprzedawca domu i ogrodu;#91, #92;1651;2;Kłopot, Stanisław Kłopot
@@ -1435,7 +1435,7 @@
 1434;Sikora;Wojciech;Kraśnik;Opatrzny kupiec domu, obory i placu;#107;1652;1;Albertus Sikora, Woyciech Sikora
 1435;Sikorzyna;Katarzyna;Kraśnik;Żona Wojciecha Sikory, kupcowa;#107;1652;1;Catharina Sikorzyna
 1436;Sitarczyk;Piotr;Kraśnik - Kępina;mieszkaniec Kępiny, pozwany o zabór dobytku;#227;1653;1;
-1437;Sitarczyk;Walenty;Kraśnik;uwięziony dłużnik, zwolniony za poręczeniem;#231;1653;1;
+1437;Sitarczyk;Walenty;Kraśnik;"uwięziony dłużnik, zwolniony za poręczeniem; Mieszczanin kraśnicki";#231, #315, #316;1653–1658;3;
 1438;Sitarski;Andrzej;Kraśnik;Ławnik Przysięgły Kraśnicki;#110;1652;1;Andreas Sitarski Scabinus
 1439;Sitarski;Jan;Kraśnik;Ławnik przysięgły kraśnicki, świadek testamentu rajcy;#99, #100;1652;2;Sitarski, Jan Sitarski Scabinus
 1440;Sitarski;Maciej;Kraśnik;Mieszczanin kraśnicki, taksator;#74;1651;1;Sitarski, Maciej Sitarski
@@ -1497,7 +1497,7 @@
 1496;Starostka;Marcin;Kraśnik;Sławetny mieszczanin kraśnicki, powód przeciw krawcowi Kaznodziejskiemu o niewykonanie prac;#43, #44;1650;2;Marcin Starostka
 1497;Starościc;Stanisław;Kraśnik;Syn p. Starosty kraśnickiego;#71;1651;1;Starościc, Stanisław syn p. Starosty
 1498;Starzyna;Marcin [Martinus];Kraśnik;Mieszczanin kraśnicki, powód o 8 fl. za rany cięte żony i nocny najazd domowy;#52;1651;1;Martinus Starzyna
-1499;Starzyński;Marcin;Kraśnik;"Chirurg miejski kraśnicki (chirurgus), powód o honor; Ławnik przysięgły kraśnicki (1653); Ławnik kraśnicki, sąsiad sadu Zdybika; Ławnik kraśnicki, wierzyciel 20 fl., zgadzający się na rękojmię Zabilskiej; Ławnik deputowany do obdukcji łąki i rany służącej; ławnik przysięgły kraśnicki, poszkodowany właściciel ogrodu; podwójci kraśnicki, komisarz; podwójci kraśnicki, powód o długi kupieckie; podwójci kraśnicki, powód o inkwizycję długu; podwójci kraśnicki, powód o komorę po Koziele";#90, #136, #147, #148, #149, #151, #152, #154, #155, #160, #181, #219, #221, #226, #231, #265;1651–1658;16;Starzyński, Marcin Starzyński Chirurg, Martinus Starzyaski Chirurgus, Martinus Starzynski
+1499;Starzyński;Marcin;Kraśnik;"Chirurg miejski kraśnicki (chirurgus), powód o honor; Ławnik przysięgły kraśnicki (1653); Ławnik kraśnicki, sąsiad sadu Zdybika; Ławnik kraśnicki, wierzyciel 20 fl., zgadzający się na rękojmię Zabilskiej; Ławnik deputowany do obdukcji łąki i rany służącej; ławnik przysięgły kraśnicki, poszkodowany właściciel ogrodu; podwójci kraśnicki, komisarz; podwójci kraśnicki, powód o długi kupieckie; podwójci kraśnicki, powód o inkwizycję długu; podwójci kraśnicki, powód o komorę po Koziele; Dawny podwójci kraśnicki, ławnik";#90, #136, #147, #148, #149, #151, #152, #154, #155, #160, #181, #219, #221, #226, #231, #265, #303, #306, #309, #310, #316, #320, #321, #324, #325;1651–1658;25;Starzyński, Marcin Starzyński Chirurg, Martinus Starzyaski Chirurgus, Martinus Starzynski
 1500;Starzyński;N.;Kraśnik;Właściciel ogrodu kraśnickiego poszkodowany zniszczeniem warzyw i chrzanu;#21;1650;1;Starzyński
 1501;Starzyński;Stanisław;Kraśnik;Ławnik kraśnicki, deputat do obdukcji ran sługi wojewody;#133;1652;1;Stanislaus Starzyński
 1502;Stasica;Augustyn;Kraśnik;Mieszczanin kraśnicki, strona cesji długu;#122;1652;1;
@@ -1515,7 +1515,7 @@
 1514;Syn Czeladnika Modliborzyckiego;N.;Modliborzyce;Pachołek z Modliborzyc, sprawca pobicia Żyda na Jarmarku;#66;1651;1;Syn Czeladnika Modliborzyckiego
 1515;Synajski;Jan;Kraśnik;Poborca ratuszowy kraśnicki, kwitujący odbiór 456 florenów poboru miejskiego;#40;1650;1;Jan Synajski Actor Ratuszowy
 1516;Szadrowski [Sundrowski];N.;Lublin / Kraśnik;Mieszczanin, wierzyciel rozliczający sumy lubelskie;#59;1651;1;Szadrowski
-1517;Szafranek;Adam;Kraśnik;"Mieszczanin kraśnicki, powód o nocną kośbę pszenicy i 15 fl. szkody; Mieszczanin kraśnicki, powód i autor protestacji o wybicie okien w kamienicy; Mieszczanin kraśnicki, dochodzący inwentarza ojca Kępy";#30, #33, #43, #44, #124, #132;1650–1652;6;Adam Szafranek, Adamus Szafranek
+1517;Szafranek;Adam;Kraśnik;"Mieszczanin kraśnicki, powód o nocną kośbę pszenicy i 15 fl. szkody; Mieszczanin kraśnicki, powód i autor protestacji o wybicie okien w kamienicy; Mieszczanin kraśnicki, dochodzący inwentarza ojca Kępy; Obywatel kraśnicki";#30, #33, #43, #44, #124, #132, #314, #316, #323;1650–1658;9;Adam Szafranek, Adamus Szafranek
 1518;Szafranek;Albert;Kraśnik;Rajca miejski kraśnicki (consul), dłużnik;#91, #92;1651;2;Szafranek, Albert Szafranek Consul
 1519;Szafranek;Andrzej [Andreas];Kraśnik;Mieszczanin kraśnicki, świadek transakcji ze Stobieł w sprawie Cygana;#54;1651;1;Andreas Szafranek, Andrzej Szafranek
 1520;Szafranek;Stanisław;Kraśnik;"Sławetny mieszczanin kraśnicki, wnioskodawca opieki nad dziećmi Kępów; Mieszczanin kraśnicki, uczestnik rozliczeń piwnych; Śp. rajca kraśnicki, zmarły właściciel kamienicy w Rynku, browaru, pasów srebrnych i cyn";#7, #99, #100, #120, #127;1649–1652;5;Stanislaus Szafranek, Szafranek, Stanisław Szafranek Consul
@@ -1525,7 +1525,7 @@
 1524;Szafranek;Wojciech [Albert];Kraśnik;Sławetny rajca i wójt kraśnicki, rozliczający arendę i opiekun Kuczewiczów;#12, #15, #17, #45, #55, #66;1649–1650, 1651;6;Albertus Szafranek
 1525;Szafraniec;Wojciech;Kraśnik;"Wójt miejski kraśnicki, przewodniczący Sądu Złożonego; sławetny, wójt kraśnicki, powód o dług";#84, #201;1651–1653;2;Szafraniec, Wojciech Szafraniec Wóyt
 1526;Szafrankowa;Zofia;Kraśnik;"Mieszczka kraśnicka, żona i dziedziczka rajcy Szafranka (150 fl.); Wdowa po rajcy Stanisławie Szafranku, uzyskująca 4-tygodniowe odroczenie procesu spadkowego";#99, #100, #105, #106, #130;1652;5;Szafrankowa, Zofia Szafrankowa, Zophia uxor Szafranka, Zophia Szafrankowa, Szafranka, Zofia Szafranek
-1527;Szafrankowicz;Albert;Kraśnik;wójt kraśnicki, taksator mienia;#240;1653;1;Szyprowski?
+1527;Szafrankowicz;Albert;Kraśnik;wójt kraśnicki, taksator mienia;#240, #324;1653–1658;2;Szyprowski?, Wojciech Szafrankowic
 1528;Szafrankowicz;Wojciech;Kraśnik;"Sławetny wójt i sędzia ordinarius kraśnicki (1653); Wójt kraśnicki; Wójt kraśnicki, w jego domu zawarto kontrakt kupna ról; Wójt kraśnicki i przeor Bractwa Różańca Świętego; wójt kraśnicki, leżący w niemocy (in lecto aegritudinis)";#135, #136, #140, #148, #149, #151, #154, #157;1653;8;"Albertus Szafrankowicz; Olbrycht Szafranek"
 1529;Szafrankówna Ziętkowa;Jadwiga;Kraśnik;Córka rajcy Szafranka, żona Jakuba Ziętka;#99, #100;1652;2;Szafrankówna Ziętkowa, Jadwiga Szafrankówna, Jadwiga żona Jakuba Ziętka
 1530;Szawlak;Stanisław;Budzyń;Poddany ze wsi Budzyń, koniokrad, złodziej recydywista, skazaniec;#81, #82, #83, #84;1651;4;Szawlak, Stanisław Szawlak z Budzynia, Stanislas Szawlak fur suspensus
@@ -1950,25 +1950,25 @@
 1949;Ligoń;Albert;Kraśnik;Zmarły ojciec Anny;#278;1658;1;Ligęza? / Wojciech Ligoń
 1950;Sławiński;N.;Kraśnik;Kowal kraśnicki;#278;1658;1;Słobódzki?
 1951;Gołąbek;Albert;Kraśnik;Mieszczanin kraśnicki;#278;1658;1;Wojciech Gołąbek
-1952;Kwasowicz;Jan;Kraśnik;"Mieszczanin kraśnicki; Hajduk miejski kraśnicki";#278, #284;1658;2;
+1952;Kwasowicz;Jan;Kraśnik;"Mieszczanin kraśnicki; Hajduk miejski kraśnicki";#278, #284, #310;1658;3;
 1953;Lwowski;N.;Kraśnik;Mieszczanin kraśnicki;#278;1658;1;
 1954;Zacharek;Zacharek;Krasin;Żyd z Krasina;#279;1658;1;
 1955;Szczota;Stanisław;Kraśnik;Mieszczanin kraśnicki;#279;1658;1;Sczota? / Szczoć?
 1956;Agniecha;Agniecha;Kraśnik;Dziewka służebna winiarni kraśnickiej;#279, #280;1658;2;
-1957;Katarzyna;Katarzyna;Kraśnik;"Szynkarka winiarni kraśnickiej; Mieszkanka kraśnicka";#279, #280, #296;1658;3;
-1958;Niedbałkowicz;Paweł;Kraśnik;Obywatel kraśnicki, autor memoriału rozliczeniowego z autografem;#281, #284;1658;2;Niedbałek?
+1957;Katarzyna;Katarzyna;Kraśnik;"Szynkarka winiarni kraśnickiej; Mieszkanka kraśnicka";#279, #280, #296, #302;1658;4;
+1958;Niedbałkowicz;Paweł;Kraśnik;Obywatel kraśnicki, autor memoriału rozliczeniowego z autografem;#281, #284, #302;1658;3;Niedbałek?
 1959;Skiba;Maciej;Kraśnik;Dawny mieszczanin kraśnicki;#282, #286;1658;2;
 1960;Wróbel;Piotr;Kraśnik;Mieszczanin kraśnicki;#282;1658;1;
 1961;Kłos;Jan;Kraśnik;Bedel miejski kraśnicki;#282;1658;1;Kłosowski?
 1962;Czwartek;Albert;Kraśnik;Wójt Czwartki, obywatel kraśnicki;#283;1658;1;Wojciech Czwartek / Wójt Czwartki
-1963;Tkacz;Maciej;Kraśnik;Mieszczanin kraśnicki;#284, #288, #300;1658;3;
+1963;Tkacz;Maciej;Kraśnik;Mieszczanin kraśnicki;#284, #288, #300, #301;1658;4;
 1964;Dawid;Dawid;Kraśnik;Żyd kraśnicki;#284;1658;1;
 1965;Kwiatek;N.;Kraśnik;Mieszczanin kraśnicki;#284;1658;1;Kwiątek?
 1966;Głódek;Andrzej;Kraśnik;Mieszczanin kraśnicki;#284;1658;1;
 1967;Kwasowicz;Bratowa;Kraśnik;Bratowa hajduka Kwasowicza;#284;1658;1;
 1968;Ruda;Wojciech;Kraśnik;Mieszczanin kraśnicki;#285;1658;1;Rada?
 1969;Wronka;Dorota;Kraśnik;Siostra kościoła kraśnickiego;#285;1658;1;
-1970;Pieniążek;Andrzej;Kraśnik;Mieszczanin kraśnicki skazany na 4 tygodnie wieży ratuszowej;#285;1658;1;
+1970;Pieniążek;Andrzej;Kraśnik;Mieszczanin kraśnicki skazany na 4 tygodnie wieży ratuszowej;#285, #307, #308, #311, #315, #323, #325;1658;7;
 1971;Niebrzyski;N.;Kraśnik;Zmarły mieszczanin kraśnicki;#286;1658;1;
 1972;Czonka;Zofia;Kraśnik;Dłużniczka szpitala św. Ducha;#287, #291;1658;2;Sionkowa? / Czonkowa?, Sionkowa?
 1973;Sculteti;Marcin;Sędziejowice;"Sołtysic z Sędziejowic; Sołtys Sędziejowski";#288, #297;1658;2;Sołtys?
@@ -1990,9 +1990,9 @@
 1989;Tkacz;Marcin;Kraśnik;Mieszczanin kraśnicki;#294, #298;1658;2;
 1990;Tkacz;Zofia;Kraśnik;Mieszczka kraśnicka, żona Marcina;#294, #298;1658;2;Tkaczowa
 1991;Świdnik;Bartłomiej;Kraśnik;Rzeźnik kraśnicki;#295;1658;1;Świerczek?
-1992;Szafranek;N.;Kraśnik;Żydówka kraśnicka;#295;1658;1;Safrankowa / Szafrankowa?
+1992;Szafranek;N.;Kraśnik;"Żydówka kraśnicka; Wdowa Szafrankowa, żydówka kraśnicka";#295, #312;1658;2;Safrankowa / Szafrankowa?, Safrankowa / Szafrankowa wdowa
 1993;Trzebiński;Albert;Kraśnik;Wójt zamkowy kraśnicki i krasnostawski;#296;1658;1;Wojciech Trzebiński
-1994;Małka;Małka;Kraśnik;Żydówka kraśnicka, kramarka;#296;1658;1;
+1994;Małka;Małka;Kraśnik;Żydówka kraśnicka, kramarka;#296, #310;1658;2;
 1995;Sobotkowicz;Maciej;Kraśnik;Mieszczanin kraśnicki;#296;1658;1;
 1996;Dudek;Andrzej;Kraśnik;Mieszczanin kraśnicki skazany za zniesławienie;#296;1658;1;
 1997;Łysy;Regina;Kraśnik;Wdowa po Łysym z potomkami;#297;1658;1;Łysina? / Łysa wdowa
@@ -2006,6 +2006,73 @@
 2005;Sobotka;Stanisław;Kraśnik;Mieszczanin kraśnicki;#300;1658;1;Sobótka?
 2006;Łysy;N.;Kraśnik;Wdowiec kraśnicki;#300;1658;1;
 2007;Janek;Janek;Kraśnik;Zmarły poborca / exaktor podatków miejskich;#300;1658;1;
-2008;Kłosowski;Jan;Kraśnik;Bedel miejski kraśnicki;#300;1658;1;Kłos?
-2009;Grocholski;Michał;Kraśnik;Mydlarz kraśnicki, działający w imieniu cechu szewskiego;#300;1658;1;
-2010;Biernatek;Marcin;Kraśnik;Młodzieniec, czeladnik szewski;#300;1658;1;
+2008;Kłosowski;Jan;Kraśnik;Bedel miejski kraśnicki;#300, #301, #304, #306;1658;4;Kłos?
+2009;Grocholski;Michał;Kraśnik;"Mydlarz kraśnicki, działający w imieniu cechu szewskiego; Mydlarz kraśnicki, działający w imieniu czeladnika szewskiego";#300, #301;1658;2;
+2010;Biernatek;Marcin;Kraśnik;Młodzieniec, czeladnik szewski;#300, #301, #302, #321;1658;4;
+2011;Litwinek;Maciej;Kraśnik;Rzetelny krawiec kraśnicki;#301;1658;1;Litwin?
+2012;Składay;Jan;Kraśnik;"Ławnik, sędzia sądu wójtowskiego; Ławnik kraśnicki";#301, #302, #303;1658;3;Składaj?
+2013;Piekarz;Wojciech;Kraśnik;Mieszczanin kraśnicki;#302;1658;1;Plechar? / Albert Piekarz
+2014;Dziewic;Stanisław;Kraśnik;Wójt Czwartki, winiarz kraśnicki;#302;1658;1;Dziewit?
+2015;Kwiatek;Adam;Kraśnik;"Ogrodnik w winnicy kraśnickiej; Ogrodnik kraśnicki";#302, #308, #325;1658;3;
+2016;Doliński;N.;Kraśnik;Mieszczanin kraśnicki;#302, #305;1658;2;Sołtysek?
+2017;Lipiński;Jan;Kraśnik;Mieszczanin kraśnicki;#302;1658;1;Lipniczan?
+2018;Tarsza;Kazimierz;Kraśnik;Mieszczanin kraśnicki;#303;1658;1;Tarszyc?
+2019;Polikowski;Krzysztof;Kraśnik;Szlachcic;#303;1658;1;
+2020;Polikowski;Jan;Kraśnik;Szlachcic, plenipotent Krzysztofa Polikowskiego;#303;1658;1;
+2021;Słowikowski;Marcin;Kraśnik;Krawiec kraśnicki;#304;1658;1;Słomkowski?
+2022;Maciej;Maciej;Kraśnik;Młodzieniec, famulus, czeladnik pobity pod Bramą Lubelską;#304;1658;1;
+2023;Kantor;Krzysztof;Kraśnik;Sprawca pobicia pod Bramą Lubelską;#304;1658;1;Kurek?
+2024;Ołwik;Józef;Kraśnik;Mieszczanin kraśnicki;#304, #305, #313, #325;1658;4;
+2025;Jan;Jan;Kraśnik;Świadek w sprawie Ołwika;#304;1658;1;
+2026;Reszka;Regina;Kraśnik;Wdowa po Reszce;#305;1658;1;Reszkowa
+2027;Sadatowicz;Marcin;Kraśnik;Mieszczanin kraśnicki;#306;1658;1;
+2028;Jagiełka;Sebastian;Kraśnik;Mieszczanin kraśnicki;#306;1658;1;Jajczyk?
+2029;Biernatek;Jan;Kraśnik;Starszy cechu szewskiego kraśnickiego;#306;1658;1;
+2030;Litwinek;Walenty;Kraśnik;Mieszczanin kraśnicki;#306;1658;1;Litwin?
+2031;Kozik;Elżbieta;Kraśnik;Mieszka kraśnicka;#306;1658;1;Koziczka
+2032;Mularczyk;Sobestyan;Kraśnik;Mieszczanin kraśnicki;#307, #311, #315;1658;3;Sobek Mularczyk
+2033;Zofia;Zofia;Kraśnik;"Jałmużnica szpitalna św. Ducha (eleemosynaria); Wdowa kraśnicka";#307, #310;1658;2;Eleemosynaria Zophia
+2034;Janikowski;Jan;Kraśnik;Mieszczanin kraśnicki;#307, #310, #311, #317;1658;4;
+2035;Kudrelik;Marcin;Kraśnik;Mieszczanin kraśnicki;#308, #311, #312, #313;1658;4;Kudrelek?
+2036;Pelcik;Grzegorz;Kraśnik;Krawiec kraśnicki;#308, #311, #312;1658;3;Pelc? / Cieślik?
+2037;Dudek;Albert;Kraśnik;Mieszczanin kraśnicki;#308;1658;1;Wojciech Dudek
+2038;Postępczyk;N.;Kraśnik;Mieszczanin kraśnicki;#308;1658;1;
+2039;Pyrek;Laureat;Kraśnik;Mieszczanin kraśnicki;#308, #310;1658;2;Laureatus Pyrek
+2040;Sobiń;Józef;Kraśnik;Rzemieślnik kraśnicki, sprawca napadu z siekierą;#308;1658;1;Sobinis?
+2041;Jajczyk;Sobestyan;Kraśnik;Mieszczanin kraśnicki;#309;1658;1;Jagiełka?
+2042;Zieliński;Stefan;Kraśnik;Mieszczanin kraśnicki;#309;1658;1;
+2043;Dudek;Sobek;Kraśnik;Świadek, mieszczanin kraśnicki;#309;1658;1;Sebastian Dudek
+2044;Piekarczyk;Piotr;Kraśnik;Świadek, piekarz kraśnicki;#309;1658;1;
+2045;Kondratek;Jan;Kraśnik;Świadek, mieszczanin kraśnicki;#309;1658;1;
+2046;Koniarz;Elżbieta;Kraśnik;Wdowa po Stanisławie Koniarzu;#310, #311, #324;1658;3;Stanisławowa Koniarska / Helisabeth Koniarska, Koniarska, Helisabeth Koniarska
+2047;Kołodziej;Walenty;Kraśnik;Kołodziej kraśnicki;#311;1658;1;
+2048;Niedbałka;Grzegorz;Kraśnik;Świadek, mieszczanin kraśnicki;#311;1658;1;Niedbałek?
+2049;Zdanek;Adam;Kraśnik;Świadek, mieszczanin kraśnicki;#311;1658;1;
+2050;Cyrka;Józef;Kraśnik;Mieszczanin kraśnicki;#312;1658;1;Cyrk?
+2051;Siudak;N.;Kraśnik;Mieszczanin kraśnicki, sąsiad krawca Foxa;#312;1658;1;
+2052;Kuśmiderek;Simon;Kraśnik;Mieszczanin kraśnicki;#313;1658;1;Kuźmiderek?
+2053;Ciubała;Marcin;Kraśnik;Mieszczanin kraśnicki;#313;1658;1;Ciobała? / Cybała?
+2054;Kos;Mikołaj;Kraśnik;Mieszczanin kraśnicki;#314;1658;1;Koska?
+2055;Bielik;Piotr;Kraśnik;Mieszczanin kraśnicki;#314, #316;1658;2;Bielak?
+2056;Szafranek;Żona Adama;Kraśnik;Żona Adama Szafranka;#314;1658;1;Szafrankowa
+2057;Spadkowic;Jan;Kraśnik;Mieszczanin kraśnicki;#315;1658;1;
+2058;Forysiak;Jan;Kraśnik;Mieszczanin kraśnicki;#315;1658;1;
+2059;Młynarczyk;Jan;Kraśnik;Czeladnik cechu szewskiego kraśnickiego;#315;1658;1;
+2060;Gołąbek;Marcin;Kraśnik;Mieszczanin kraśnicki;#315;1658;1;
+2061;Koziga;Maciej;Kraśnik;Ławnik kraśnicki;#316, #320, #324, #325;1658;4;
+2062;Biernatek;Szymon;Kraśnik;Czeladnik szewski;#317;1658;1;
+2063;Czarny;Rubin;Kraśnik;Żyd kraśnicki;#317;1658;1;
+2064;Duxarski;Samuel;Kraśnik;Żyd, kramarz kraśnicki i krasnostawski;#317;1658;1;
+2065;Kwasowicz;August;Kraśnik;Ławnik kraśnicki;#318, #320, #323, #324;1658;4;Augustyn Kwasowicz
+2066;Janikowski;Stanisław;Kraśnik;Mieszczanin kraśnicki;#318, #323;1658;2;
+2067;Jasienic;August;Kraśnik;Mieszczanin kraśnicki;#318, #319;1658;2;Jasieniec?
+2068;Jasienic;Agnieszka;Kraśnik;Córka Augusta Jasienica;#318;1658;1;Jasienicówna
+2069;Byszko;Maciej;Kraśnik;Mieszczanin kraśnicki;#318, #319;1658;2;Byszk?
+2070;Murator;N.;Kraśnik;Mularz kraśnicki, świadek;#321;1658;1;Mularz?
+2071;Kulik;Anna;Kraśnik;Wdowa kraśnicka, świadek;#321;1658;1;Kulikowa
+2072;Śliwka;N.;Kraśnik;Wdowa po Adamie Śliwce;#323;1658;1;Śliwkowa
+2073;Rabski;Paweł;Kraśnik;Mieszczanin kraśnicki;#323;1658;1;
+2074;Piekarczyk;Maciej;Kraśnik;Świadek, piekarz kraśnicki;#323;1658;1;Piekarz?
+2075;Bielik;Tomasz;Kraśnik;Mieszczanin kraśnicki;#323;1658;1;Bielak?
+2076;Wołek;Grzegorz;Kraśnik;Mieszczanin kraśnicki;#325;1658;1;Wolek?
+2077;Ołwik;Grzegorz;Kraśnik;Mieszczanin kraśnicki;#325;1658;1;
