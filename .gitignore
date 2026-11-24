@@ -2,3 +2,5 @@ crops_*/
 __pycache__/
 *.pyc
 .DS_Store
+*.zip
+krasnik_skany_*/
