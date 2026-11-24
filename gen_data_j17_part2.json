@@ -1,0 +1,5385 @@
+[
+  {
+    "nazwisko": "Niewiadomski",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki, powód w sporze o sukno",
+    "wariant_nazwiska": "Kruszelniczek? / Kruszelnicki? / Niewiadomski",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Bartłomiej Niewiadomski Kruszelniczek",
+        "rola": "Aktor w procesie o suknię przeciw Tkaczykowi"
+      }
+    ],
+    "lp": 1,
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Tkaczyk",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Tkacz / rzemieślnik kraśnicki, pozwany o sukno",
+    "wariant_nazwiska": "Tkaczyk [Kaczyk?] / Kaczyk? / Tkaczyk",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Tkaczyk",
+        "rola": "Pozwany przez Niewiadomskiego o suknię u żyda Herszka"
+      },
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Tkaczyk",
+        "rola": "Spór o sukno"
+      }
+    ],
+    "lp": 2,
+    "skany_list": [
+      5,
+      36
+    ],
+    "skany_roboczo": "#5, #36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Tokarski",
+    "imie": "Herszek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kupiec kraśnicki, właściciel składu sukna",
+    "wariant_nazwiska": "Herszko Tokarski [Vokarszangego? / Tokarskiego?] / Herszko / Tokarski",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Żyd Herszek Vokarszangi w składzie Sukna",
+        "rola": "Posiadacz składu sukna w Kraśniku"
+      },
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Żyd Herszek",
+        "rola": "Kalkulacja wekslowa i rozliczenia z Kuduką"
+      }
+    ],
+    "lp": 3,
+    "skany_list": [
+      5,
+      38
+    ],
+    "skany_roboczo": "#5, #38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Hardysz",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, brat Jakuba",
+    "wariant_nazwiska": "Hardycz [Hardysz? / Hardycz?]",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Hardycz Aktor Przedmieszczanin",
+        "rola": "Powód w gwałtownym sporze rodzinnym o pobicie i wtrącenie brata"
+      },
+      {
+        "skan": 8,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Hardysz Brat protestanta",
+        "rola": "Pozwany o lekkomyślne zerwanie przysięgi i dekretu, skazany do aresztu"
+      }
+    ],
+    "lp": 4,
+    "skany_list": [
+      5,
+      8
+    ],
+    "skany_roboczo": "#5, #8",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Hardysz",
+    "imie": "Jakub",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, ojciec Adama, brat Wojciecha",
+    "wariant_nazwiska": "Hardyza [Hardysz? / Hardyza / Sentygielski?]",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Hardyza Oyciec",
+        "rola": "Pozwany przez brata Wojciecha o pobicie i zniewagi"
+      },
+      {
+        "skan": 8,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Hardyza Ociec",
+        "rola": "Protestujący przeciw bratu Wojciechowi o uwięzienie"
+      },
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Hardysz",
+        "rola": "Pozwany przez Tokarczyka o rąbanie drzewa w lesie miejskim"
+      }
+    ],
+    "lp": 5,
+    "skany_list": [
+      5,
+      8,
+      14
+    ],
+    "skany_roboczo": "#5, #8, #14",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Hardysz",
+    "imie": "Adam",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, syn Jakuba",
+    "wariant_nazwiska": "Hardyza [Hardysz? / Hardyza syn]",
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Hardyza Syn",
+        "rola": "Pozwany wraz z ojcem przez stryja Wojciecha"
+      },
+      {
+        "skan": 8,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Syn",
+        "rola": "Protestujący wraz z ojcem przeciwko stryjowi"
+      }
+    ],
+    "lp": 6,
+    "skany_list": [
+      5,
+      8
+    ],
+    "skany_roboczo": "#5, #8",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Hardysz",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki, uczestnik bójki karczemnej",
+    "wariant_nazwiska": "Hardysz [Andrzej Hardysz]",
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Hardysz",
+        "rola": "Uczestnik krwawej bójki w szynku Lejby Markowicza z Tomaszem Kępką"
+      }
+    ],
+    "lp": 7,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Berek",
+    "imie": "Berek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd młynarz kraśnicki, obywatel miejski",
+    "wariant_nazwiska": "Berek molitor [Berek młynarz]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Infidelis Berek molitor",
+        "rola": "Powód o pretensje piwne przeciw Olchowskiemu"
+      },
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Berek żyd Obywatel Kraśnicki",
+        "rola": "Powód o koła i rzeczy przeciw Stawińskiemu"
+      }
+    ],
+    "lp": 8,
+    "skany_list": [
+      6,
+      7
+    ],
+    "skany_roboczo": "#6, #7",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Olchowski",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, dłużnik i posesjonat",
+    "wariant_nazwiska": "Olchowski [Simon Olchowski]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Olchowski",
+        "rola": "Pozwany o długi piwne przez Berka młynarza"
+      },
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Olchowski Przedmieszczanin",
+        "rola": "Powód przeciw szafarzowi Piaseckiemu o zajęcie konia za podatek"
+      }
+    ],
+    "lp": 9,
+    "skany_list": [
+      6,
+      21
+    ],
+    "skany_roboczo": "#6, #21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Stawiński",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, szelwiorz",
+    "wariant_nazwiska": "Stawiński [Joannes Stawiński]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Stawiński",
+        "rola": "Pozwany o długi, ukarany kontumacją"
+      },
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Stawiński przedmieszczanin",
+        "rola": "Pozwany przez Berka żyda o koła wozowe"
+      },
+      {
+        "skan": 8,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Stawiński szelwiorz",
+        "rola": "Aresztowanie jego dóbr na ratuszu przez bedela Kleina"
+      },
+      {
+        "skan": 13,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Stawiński",
+        "rola": "Skazany dekretem do spłaty 80 zł długu krawcowi"
+      }
+    ],
+    "lp": 10,
+    "skany_list": [
+      6,
+      7,
+      8,
+      13
+    ],
+    "skany_roboczo": "#6, #7, #8, #13",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Zysmanowa",
+    "imie": "[Wdowa]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żydówka kraśnicka, wierzycielka miejska",
+    "wariant_nazwiska": "Zysmanowa Judea [Zysmanowa wdowa]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Zysmanowa Judea",
+        "rola": "Powódka w procesie o długi przeciw Idzieńskiemu"
+      }
+    ],
+    "lp": 11,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Idzieński",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki, dłużnik",
+    "wariant_nazwiska": "Idzieński [Stanisław Idzienski]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Idzienski",
+        "rola": "Pozwany przez Zysmanową żydówkę, skazany na kontumację"
+      }
+    ],
+    "lp": 12,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Trafica",
+    "imie": "Kazimierz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Trafica [Frafica? / Trasica? / Trafica]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Frafica Przedmieszczanin",
+        "rola": "Protestujący solennie przeciw Wawrzyńcowi Zielińskiemu o szynkownice"
+      }
+    ],
+    "lp": 13,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Trafica",
+    "imie": "Wawrzyniec",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, sługa dworski",
+    "wariant_nazwiska": "Trafica [Wawrzyniec Trafica / Trasica]",
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Trafica Przedmieszczanin",
+        "rola": "Powód o 12 zł zaległego myta za służbę u Szymona Krasuskiego"
+      }
+    ],
+    "lp": 14,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Zieliński",
+    "imie": "Wawrzyniec",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Zieliński [Wawrzyniec Zieliński / Dieliński?]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Zieliński Przedmieszczanin",
+        "rola": "Pozwany przez Traficę o zatajenie szynkownic kradzionych"
+      },
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Zieliński Przedmieszczanin",
+        "rola": "Pozwany przez wójta Rymarczyka o obelgi i zniesławienie"
+      }
+    ],
+    "lp": 15,
+    "skany_list": [
+      6,
+      18
+    ],
+    "skany_roboczo": "#6, #18",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Pławnik",
+    "imie": "Matyasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Pławnik [Matyasz Pławnik / Pławnik]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyasz Pławnik Aktor",
+        "rola": "Powód o nową suknię samodziałową 12 zł przeciw Skałce"
+      },
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyasz Pławnik",
+        "rola": "Otrzymanie 8 zł zadośćuczynienia i zgoda ze Skałką"
+      }
+    ],
+    "lp": 16,
+    "skany_list": [
+      6,
+      14
+    ],
+    "skany_roboczo": "#6, #14",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Skałka",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Góry i Podlesie",
+    "funkcja": "Przedmieszczanin kraśnicki, piwowar [Piwar]",
+    "wariant_nazwiska": "Skałka [Skałka Piwar / Wojciech Skałka]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Skałka Piwar",
+        "rola": "Pozwany o suknię sequestrowaną przez szafarzy"
+      },
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Skałka Przedmieszczanin Podleski",
+        "rola": "Pozwany przez Ignacego Pawlika o uwięzienie"
+      },
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Skałka",
+        "rola": "Sąsiad roli szpitalnej na Górach"
+      },
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Skałka Przedmieszczanin",
+        "rola": "Powód o subordynację po pogrzebie przeciw Lutrowi"
+      },
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Skałka",
+        "rola": "Wypłata 8 zł ugody Pławnikowi za suknię"
+      }
+    ],
+    "lp": 17,
+    "skany_list": [
+      6,
+      7,
+      9,
+      11,
+      14
+    ],
+    "skany_roboczo": "#6, #7, #9, #11, #14",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 5
+  },
+  {
+    "nazwisko": "Skałka",
+    "imie": "Albert",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Skałka [Albertus Skałka / Wojciech?]",
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Albert Skałka",
+        "rola": "Powód przeciw Piaseckiemu i Zdebionkowi"
+      }
+    ],
+    "lp": 18,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kotowicz",
+    "imie": "Adam",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Burmistrz kraśnicki, prowizor szpitala Św. Ducha",
+    "wariant_nazwiska": "Kotowicz [Adam Kotowicz Burmistrz / Letokowicz?]",
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1700",
+        "zapis_oryginalny": "Pan Letokowicz rezydent",
+        "rola": "Właściciel kwatery, w której złożono suknię"
+      },
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Kotowicz Burmistrz y Prowizor Szpitala",
+        "rola": "Urzędowe kwitowanie Katarzyny Bartoszkowej z sumy 90 złp"
+      },
+      {
+        "skan": 10,
+        "rok": "1700",
+        "zapis_oryginalny": "JM Adam Kotowicz Burmistrz",
+        "rola": "Właściciel roli sąsiedzkiej na Podlesiu"
+      }
+    ],
+    "lp": 19,
+    "skany_list": [
+      6,
+      9,
+      10
+    ],
+    "skany_roboczo": "#6, #9, #10",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Kruszelnicki",
+    "imie": "Jan",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Prowizor szpitala Św. Ducha, radny miejski",
+    "wariant_nazwiska": "Kruszelnicki [Jan Kruszelnicki]",
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Kruszelnicki Prowizor Szpitala",
+        "rola": "Kwitowanie sumy 90 złp dla szpitala Św. Ducha"
+      }
+    ],
+    "lp": 20,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Bartoszek",
+    "imie": "Katarzyna",
+    "miejsce": "Przedmieście Góry i Podlesie",
+    "funkcja": "Wdowa przedmieszczańska po Matyaszu Wiatrze / Wolaku",
+    "wariant_nazwiska": "Bartoszkowa [Katarzyna Bartoszkowa wdowa / Wolakowa]",
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "Katarzyna Bartoszkowa wdowa",
+        "rola": "Spłata 90 złp długu szpitalnego z roli na Górach"
+      },
+      {
+        "skan": 10,
+        "rok": "1700",
+        "zapis_oryginalny": "Katarzyna Bartoszkowa",
+        "rola": "Zabezpieczenie prowizji rocznej 6 złp dla szpitala"
+      }
+    ],
+    "lp": 21,
+    "skany_list": [
+      9,
+      10
+    ],
+    "skany_roboczo": "#9, #10",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Wolak",
+    "imie": "Matyasz",
+    "miejsce": "Przedmieście Góry i Podlesie",
+    "funkcja": "Zmarły gospodarz przedmieszczański [Wiatr vel Wolak]",
+    "wariant_nazwiska": "Wolak [Matyasz Wolak / Wiatr]",
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "niegdy Uczciwy Matyasz Wolak Ojciec",
+        "rola": "Zmarły mąż Katarzyny Bartoszkowej"
+      }
+    ],
+    "lp": 22,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wolak",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Góry i Podlesie",
+    "funkcja": "Przedmieszczanin, sąsiad roli szpitalnej",
+    "wariant_nazwiska": "Wolak [Maciej Wolak]",
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Wolak Przedmieszczanin",
+        "rola": "Właściciel sąsiedniej roli na Górach"
+      }
+    ],
+    "lp": 23,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pawlik",
+    "imie": "Ignacy",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Pawlik [Ignacy Pawlik / Panlik?]",
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Ignacy Pawlik Przedmieszczanin",
+        "rola": "Powód przeciwko Skałce o uwięzienie w bramie"
+      }
+    ],
+    "lp": 24,
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Śmieszkowic",
+    "imie": "Stanisław",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Podwójci kraśnicki",
+    "wariant_nazwiska": "Śmieszkowic [Śmieszek / Śmieszkowic]",
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Śmieszkowic Podwójci",
+        "rola": "Sędzia podwójci w sprawach podatkowych"
+      },
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Śmieszkowic Podwójci",
+        "rola": "Sędzia w sporze wójta Piasków Rymarczyka"
+      }
+    ],
+    "lp": 25,
+    "skany_list": [
+      7,
+      18
+    ],
+    "skany_roboczo": "#7, #18",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Puklina",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik (ogólne)",
+    "funkcja": "Wdowa miejska kraśnicka, teściowa Tomasza Kępki",
+    "wariant_nazwiska": "Puklina [Krystyna Puklina wdowa / Joanna Krystyna]",
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1700",
+        "zapis_oryginalny": "Krystyna Puklina wdowa",
+        "rola": "Pozwana przez parobka Stasia o myto"
+      },
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Krystyna Puklina Przedmieszczanka",
+        "rola": "Powódka przeciw zięciowi Kępce o zniewagi i bicie córki"
+      },
+      {
+        "skan": 16,
+        "rok": "1700",
+        "zapis_oryginalny": "Krystyna Puklina Mieyska Wdowa",
+        "rola": "Protest przeciw zięciowi o obelgi"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Krystyna Puklina wdowa",
+        "rola": "Nakaz sądu pojednania małżeńskiego córki Katarzyny"
+      }
+    ],
+    "lp": 26,
+    "skany_list": [
+      7,
+      11,
+      16,
+      24
+    ],
+    "skany_roboczo": "#7, #11, #16, #24",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Kępka",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, zięć Krystyny Pukliny",
+    "wariant_nazwiska": "Kępka [Thomas Kępka / Kępka]",
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Kępka zięć",
+        "rola": "Pozwany o pobicie żony i znieważenie teściowej"
+      },
+      {
+        "skan": 12,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Kępka",
+        "rola": "Uczestnik bójki w szynku Lejby Markowicza"
+      },
+      {
+        "skan": 19,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Kępka",
+        "rola": "Oskarżony o pobicie kosturem Hardysza"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Kępka",
+        "rola": "Nakaz sądu przyjęcia żony Katarzyny do domu pod karą więzienia"
+      }
+    ],
+    "lp": 27,
+    "skany_list": [
+      11,
+      12,
+      19,
+      24
+    ],
+    "skany_roboczo": "#11, #12, #19, #24",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Kępka",
+    "imie": "Katarzyna",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Córka Krystyny Pukliny, żona Tomasza Kępki",
+    "wariant_nazwiska": "Kępczyna [Katarzyna Kępczyna / Puklanka]",
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Małżonka Katarzyna",
+        "rola": "Bita i wyrzucona z domu przez męża Tomasza"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Katarzyna córka małżonka",
+        "rola": "Powrót do pożycia małżeńskiego nakazem sądu"
+      }
+    ],
+    "lp": 28,
+    "skany_list": [
+      11,
+      24
+    ],
+    "skany_roboczo": "#11, #24",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Klein",
+    "imie": "Paweł",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Bedel / sługa miejski ratusza kraśnickiego",
+    "wariant_nazwiska": "Klein [Paulus Kleynek / Kleynek]",
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Kleynek sługa mieyski",
+        "rola": "Aresztowanie ruchomości Stawińskiego na ratuszu"
+      }
+    ],
+    "lp": 29,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Luter",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Luter [Stanisław Luterek / Lutrek? / Luter]",
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Lutrek",
+        "rola": "Pozwany przez Skałkę o awanturę po pogrzebie"
+      }
+    ],
+    "lp": 30,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kamiński",
+    "imie": "Franciszek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki",
+    "wariant_nazwiska": "Kamiński [Franciszek Kamiński]",
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Franciszek Kamiński",
+        "rola": "Pozwany przez Stanisława Dudka o krwawe rany"
+      }
+    ],
+    "lp": 31,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Dudek",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki, poszkodowany pobiciem",
+    "wariant_nazwiska": "Dudek [Stanisław Dudek]",
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Dudek Aktor",
+        "rola": "Powód o krwawe pobicie przeciw Kamińskiemu"
+      }
+    ],
+    "lp": 32,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Karbielan",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki [pan Urodzony]",
+    "wariant_nazwiska": "Karbielan [Wojciech Karbielan]",
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Karbielan Aktor",
+        "rola": "Powód o kradzież 24 talarów bitych w szynku u żyda Joska"
+      }
+    ],
+    "lp": 33,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Markowicz",
+    "imie": "Lejba",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd szynkarz i karczmarz kraśnicki",
+    "wariant_nazwiska": "Markowicz [Leybus Markowicz]",
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1700",
+        "zapis_oryginalny": "Leybus Markowicz gospodarz",
+        "rola": "Zeznania o bójce Kępki z Hardyszem w szynku"
+      }
+    ],
+    "lp": 34,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kowalik",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek bójki karczemnej",
+    "wariant_nazwiska": "Kowalik [Paulus Kowalik]",
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1700",
+        "zapis_oryginalny": "Paulus Kowalik",
+        "rola": "Zeznania pod przysięgą o uderzeniu w gębę Kępki"
+      }
+    ],
+    "lp": 35,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Rycerz",
+    "imie": "Jan",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Kowal mieszczanin kraśnicki",
+    "wariant_nazwiska": "Rycerz [Joannes Rycerz Kowal / Jan Rycerz]",
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Rycerz Kowal",
+        "rola": "Świadek w sprawie jarmarcznej Rodzonka"
+      },
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Rycerz Kowal",
+        "rola": "Protest przeciw szewcowi Koziołowi o pobicie w szynku"
+      },
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Rycerz Kowal",
+        "rola": "Skarga o zamach siekierą przeciw Koziołowi"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Rycerz Kowal",
+        "rola": "Pozwany przez Kozioła o pijaństwo"
+      }
+    ],
+    "lp": 36,
+    "skany_list": [
+      13,
+      22,
+      23,
+      24
+    ],
+    "skany_roboczo": "#13, #22, #23, #24",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Rodzonek",
+    "imie": "Sobestian",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, handlarz skórami",
+    "wariant_nazwiska": "Rodzonek [Sobestian Rodzonek / Sebastian]",
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1700",
+        "zapis_oryginalny": "Sobestian Rodzonek Przedmieszczanin",
+        "rola": "Oskarżony przez Abrama rzeźnika o kradzież konia"
+      },
+      {
+        "skan": 19,
+        "rok": "1700",
+        "zapis_oryginalny": "Sobestian Rodzonek",
+        "rola": "Pozwany o kradzież skór wołowych za 70 zł"
+      },
+      {
+        "skan": 25,
+        "rok": "1700",
+        "zapis_oryginalny": "Sobestian Rodzonek",
+        "rola": "Prawomocnie uniewinniony od zarzutów żyda Abrama rzeźnika"
+      }
+    ],
+    "lp": 37,
+    "skany_list": [
+      13,
+      19,
+      25
+    ],
+    "skany_roboczo": "#13, #19, #25",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Abram",
+    "imie": "Abram",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd rzeźnik kraśnicki [Abram Lamio]",
+    "wariant_nazwiska": "Abram Lamio [Abram Rzeźnik / Abram Michał krupka?]",
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Abram Rzeźnik",
+        "rola": "Oskarżyciel Rodzonka o kradzież konia"
+      },
+      {
+        "skan": 19,
+        "rok": "1700",
+        "zapis_oryginalny": "Abram Lamio Kraśnicensis",
+        "rola": "Pozew o 70 zł za skóry wołowe"
+      },
+      {
+        "skan": 25,
+        "rok": "1700",
+        "zapis_oryginalny": "Abram żyd Rzeźnik",
+        "rola": "Przegrana w procesie z Rodzonkiem z braku przysięgi"
+      }
+    ],
+    "lp": 38,
+    "skany_list": [
+      13,
+      19,
+      25
+    ],
+    "skany_roboczo": "#13, #19, #25",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Tokarczyk",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki",
+    "wariant_nazwiska": "Tokarczyk [Andrzej Tokarczyk]",
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Tokarczyk",
+        "rola": "Powód o rąbanie drzewa przeciw Hardyszowi"
+      }
+    ],
+    "lp": 39,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Tokarczyk",
+    "imie": "Piotr",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin, sukcesor Szymona Krasuskiego",
+    "wariant_nazwiska": "Tokarczyk [Piotr Tokarczyk]",
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Piotr Tokarczyk Przedmieszczanin",
+        "rola": "Pozwany o 12 zł zaległego myta przez Traficę"
+      }
+    ],
+    "lp": 40,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Onuszkiewicz",
+    "imie": "Jan",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Burmistrz kraśnicki",
+    "wariant_nazwiska": "Onuszkiewicz [Jan Onuszkiewicz Burmistrz]",
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1700",
+        "zapis_oryginalny": "JM Jan Onuszkiewicz Burmistrz",
+        "rola": "Sąsiad roli na Podlesiu"
+      },
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Onuszkiewicz Burmistrz",
+        "rola": "Rozliczenia młyńskie"
+      },
+      {
+        "skan": 15,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Onuszkiewicz Burmistrz",
+        "rola": "Protest o wypas owiec na folwarku Dzierzkowskim"
+      },
+      {
+        "skan": 20,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Onuszkiewicz Burmistrz",
+        "rola": "Kierowanie urzędową wizją na Podlesiu"
+      }
+    ],
+    "lp": 41,
+    "skany_list": [
+      10,
+      14,
+      15,
+      20
+    ],
+    "skany_roboczo": "#10, #14, #15, #20",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Wojtyk",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Obywatel kraśnicki, pasterz owiec",
+    "wariant_nazwiska": "Wojtyk [Jakub Woytyk]",
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Woytyk Obywatel",
+        "rola": "Pozwany przez burmistrza o szkodę 6 zł w owcach"
+      }
+    ],
+    "lp": 42,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Macał",
+    "imie": "Józef",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Rzeźnik mieszczanin kraśnicki",
+    "wariant_nazwiska": "Macał [Józef Macał Rzeźnik]",
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1700",
+        "zapis_oryginalny": "Józef Macał Mieszczanin Rzeźnik",
+        "rola": "Protest przeciw arendarzowi Dawidowiczowi o najście nocne z siekierami"
+      },
+      {
+        "skan": 16,
+        "rok": "1700",
+        "zapis_oryginalny": "Józef Macał",
+        "rola": "Dalsze dochodzenie odszkodowania za najście"
+      }
+    ],
+    "lp": 43,
+    "skany_list": [
+      15,
+      16
+    ],
+    "skany_roboczo": "#15, #16",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Macałowa",
+    "imie": "Anna",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Mieszczanka kraśnicka, żona rzeźnika Józefa",
+    "wariant_nazwiska": "Macałowa [Anna Macałowa / Macał]",
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1700",
+        "zapis_oryginalny": "Anna Małżonka",
+        "rola": "Pobita podczas nocnego napadu arendarza"
+      },
+      {
+        "skan": 16,
+        "rok": "1700",
+        "zapis_oryginalny": "Anna Małżonka",
+        "rola": "Świadectwo ran i zaboru mienia"
+      }
+    ],
+    "lp": 44,
+    "skany_list": [
+      15,
+      16
+    ],
+    "skany_roboczo": "#15, #16",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Dawidowicz",
+    "imie": "Pinchas",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Żyd arendarz kraśnicki, dzierżawca szynków",
+    "wariant_nazwiska": "Dawidowicz [Pinchas Dawidowicz Arendarz / Moszko?]",
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1700",
+        "zapis_oryginalny": "Dawidowic Arendarz",
+        "rola": "Oskarżony o nocne najście na dom Macałów"
+      },
+      {
+        "skan": 17,
+        "rok": "1700",
+        "zapis_oryginalny": "Pinchas Dawidowicz Arendator",
+        "rola": "Proces o potajemny przewóz słodu do Dzierzkowic"
+      },
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Pinchas Dawidowicz szynkarz",
+        "rola": "Właściciel szynku, w którym pobito kowala Rycerza"
+      }
+    ],
+    "lp": 45,
+    "skany_list": [
+      15,
+      17,
+      22
+    ],
+    "skany_roboczo": "#15, #17, #22",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Barankiewicz",
+    "imie": "Jan",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Burmistrz i radny kraśnicki",
+    "wariant_nazwiska": "Barankiewicz [Jan Barankiewicz Burmistrz]",
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankiewicz Burmistrz",
+        "rola": "Sędzia sesji sądu wójtowskiego"
+      },
+      {
+        "skan": 17,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Barankiewicz",
+        "rola": "Zarządca funduszy brackich"
+      },
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankiewicz Burmistrz",
+        "rola": "Sędzia w połączonym sądzie wielkim"
+      }
+    ],
+    "lp": 46,
+    "skany_list": [
+      14,
+      17,
+      18
+    ],
+    "skany_roboczo": "#14, #17, #18",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Peleszkowic",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Góry i Podlesie",
+    "funkcja": "Przedmieszczanin z Podlesia, furman",
+    "wariant_nazwiska": "Peleszkowic [Joannes Peleszkowic / Pielaszkowic?]",
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Peleszkowic z Podlesia",
+        "rola": "Zeznania o nocnym przewozie słodu do młyna Dzierzkowskiego"
+      }
+    ],
+    "lp": 47,
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Majowski",
+    "imie": "Jan",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Wójt kraśnicki",
+    "wariant_nazwiska": "Majowski [Jan Majowski Wójt]",
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wójt",
+        "rola": "Przewodniczący sądu wójtowskiego"
+      },
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wójt Kraśnicki",
+        "rola": "Przewodniczący Sądu Wielkiego Połączonego"
+      },
+      {
+        "skan": 20,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wójt",
+        "rola": "Zarządzenie urzędowej wizji granic na Podlesiu"
+      },
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Pan Jan Majowski Wójt",
+        "rola": "Obecny przy znieważeniu kuśnierza"
+      }
+    ],
+    "lp": 48,
+    "skany_list": [
+      14,
+      18,
+      20,
+      22
+    ],
+    "skany_roboczo": "#14, #18, #20, #22",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Płechowicz",
+    "imie": "Stanisław",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Ławnik i deputat Ordynacji Zamojskiej",
+    "wariant_nazwiska": "Płechowicz [Stanisław Płechowicz Radny / Płechowicz]",
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Płechowicz Radny y Deputat",
+        "rola": "Deputat do Sądu Połączonego z Ordynacji Zamojskiej"
+      }
+    ],
+    "lp": 49,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Piasecki",
+    "imie": "Janusz",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Radny i deputat kraśnicki",
+    "wariant_nazwiska": "Piasecki [Janusz Piasecki]",
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Janusz Piasecki",
+        "rola": "Sędzia sądu połączonego"
+      }
+    ],
+    "lp": 50,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Piasecki",
+    "imie": "Wojciech",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Szafarz miejski kraśnicki",
+    "wariant_nazwiska": "Piasecki [Wojciech Piasecki Szafarz]",
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Piasecki Szafarz Meyjski",
+        "rola": "Pozwany o zajęcie konia i pościeli za podatki"
+      }
+    ],
+    "lp": 51,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Piasecki",
+    "imie": "Franciszek",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": "Piasecki [Franciszek Piasecki]",
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1700",
+        "zapis_oryginalny": "Franciszek Piasecki",
+        "rola": "Uczestnik urzędowej wizji lokalnej na Podlesiu"
+      }
+    ],
+    "lp": 52,
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Borowiecki",
+    "imie": "Wojciech",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Ławnik kraśnicki",
+    "wariant_nazwiska": "Borowiecki [Wojciech Borowiecki Ławnik]",
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Borowiecki Ławnik",
+        "rola": "Uczestnik urzędowej wizji granic na Podlesiu"
+      }
+    ],
+    "lp": 53,
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Rymarczyk",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Piaski",
+    "funkcja": "Wójt przedmieścia Piaski, rymarz",
+    "wariant_nazwiska": "Rymarczyk [Marcin Rymarczyk Wójt Piasków] / Rymarz?",
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Rymarczyk Wójt Przedmieścia Piasek",
+        "rola": "Powód o zniewagi przeciw Zielińskiemu"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Rymarczyk",
+        "rola": "Pozwany przez żyda Borucha o suknię ze straganu"
+      },
+      {
+        "skan": 25,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Rymarczyk",
+        "rola": "Nakaz zwrotu sukni 13 złp lub pieniędzy"
+      },
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Rymarczyk Woyt Piaskowy",
+        "rola": "Wójt przedmieścia Piaski, egzekwuje długi i pretensje"
+      },
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Rymarczyk Aktor",
+        "rola": "Dochodzi zwrotu 17 złp od Obrawieńskiego"
+      }
+    ],
+    "lp": 54,
+    "skany_list": [
+      18,
+      24,
+      25,
+      34,
+      36
+    ],
+    "skany_roboczo": "#18, #24, #25, #34, #36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 5
+  },
+  {
+    "nazwisko": "Dudonek",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin, świadek pobicia",
+    "wariant_nazwiska": "Dudonek [Simon Dudonek]",
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Dudonek",
+        "rola": "Zeznania pod przysięgą o uderzeniu kosturem w plecy"
+      }
+    ],
+    "lp": 55,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Stary",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki [bratek]",
+    "wariant_nazwiska": "Stary bratek [Martinus Stary bratek / Marcin Stary]",
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1700",
+        "zapis_oryginalny": "Martinus Stary bratek",
+        "rola": "Świadek krwawej bójki pod karczmą"
+      }
+    ],
+    "lp": 56,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Dymarek",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Gospodarz kraśnicki, poszkodowany kradzieżą",
+    "wariant_nazwiska": "Dymarek [Marcin Dymarek]",
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Dymarek",
+        "rola": "Kradzież wozów na szkodę gospodarza"
+      }
+    ],
+    "lp": 57,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Lenkiewicz",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszkaniec kraśnicki",
+    "wariant_nazwiska": "Lenkiewicz [Jakubus Lenkiewicz]",
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakubus Lenkiewicz",
+        "rola": "Świadek kradzieży wozów u Dymarka"
+      }
+    ],
+    "lp": 58,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Józefowa",
+    "imie": "Anna",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Wdowa po zmarłym burmistrzu Józefie kraśnickim",
+    "wariant_nazwiska": "Józefowa [Anna Józefowa wdowa]",
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "Anna Józefowa onegdys Burmistrza Małżonka wdowa",
+        "rola": "Protest o prawo do kamienicy po bracie matki"
+      }
+    ],
+    "lp": 59,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Szymałowski",
+    "imie": "Wojciech",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Burmistrz kraśnicki",
+    "wariant_nazwiska": "Szymałowski [Wojciech Szymałowski Burmistrz]",
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1700",
+        "zapis_oryginalny": "JM Pan Wojciech Szymałowski Burmistrz",
+        "rola": "Zajęcie placu kamienicznego"
+      }
+    ],
+    "lp": 60,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kozioł",
+    "imie": "Kazimierz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Szewc przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kozioł [Kazimierz Kozieł / Koźlak / Szewc]",
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Kozioł Szewc",
+        "rola": "Oskarżony o pobicie kowala Rycerza i kuśnierza"
+      },
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Kozioł szewc",
+        "rola": "Pozwany o zamach siekierą"
+      },
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Kaźmirz Kozieł Szewc",
+        "rola": "Wzajemna protestacja o pijaństwo w szynku"
+      }
+    ],
+    "lp": 61,
+    "skany_list": [
+      22,
+      23,
+      24
+    ],
+    "skany_roboczo": "#22, #23, #24",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Matysikowic",
+    "imie": "Tomasz",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Krawiec mieszczanin kraśnicki",
+    "wariant_nazwiska": "Matysikowic [Tomasz Matysikowic Krawiec]",
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Matysikowic Krawiec",
+        "rola": "Protest przeciw podstarościemu o pobicie kijem na pogrzebie"
+      }
+    ],
+    "lp": 62,
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Krasuski",
+    "imie": "Kazimierz",
+    "miejsce": "Kraśnik (zamek / dwór)",
+    "funkcja": "Podstarości kraśnicki",
+    "wariant_nazwiska": "Krasuski [Kazimierz Krasuski Podstarości]",
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Krasuski Podstarości",
+        "rola": "Uderzenie kijem krawca na kondukcie pogrzebowym"
+      }
+    ],
+    "lp": 63,
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kuśnierz",
+    "imie": "Wojciech",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Kuśnierz mieszczanin kraśnicki",
+    "wariant_nazwiska": "Kuśnierz [Wojciech Kuśnierz]",
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Kuśnierz Mieszczanin",
+        "rola": "Znieważony w obecności wójta przez szewca Kozioła"
+      }
+    ],
+    "lp": 64,
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopot",
+    "imie": "Jakub",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, brat Wojciecha",
+    "wariant_nazwiska": "Kłopot [Jakub Kłopot]",
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Kłopot",
+        "rola": "Oskarżony o kradzież tuczonego wieprza za 7 zł"
+      }
+    ],
+    "lp": 65,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopot",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, brat Jakuba",
+    "wariant_nazwiska": "Kłopot [Wojciech Kłopot]",
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Kłopot",
+        "rola": "Oskarżony wraz z bratem o kradzież wieprza"
+      }
+    ],
+    "lp": 66,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Boruch",
+    "imie": "Boruch",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Żyd kupiec kramarz kraśnicki",
+    "wariant_nazwiska": "Boruch żyd [Boruch żyd Kraśnicki]",
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Boruch żyd",
+        "rola": "Powód o kradzież sukni targowej ze straganu"
+      },
+      {
+        "skan": 25,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny żyd Boruch Obywatel",
+        "rola": "Wyrok nakazujący zwrot sukni 13 złp przez Rymarczyka"
+      }
+    ],
+    "lp": 67,
+    "skany_list": [
+      24,
+      25
+    ],
+    "skany_roboczo": "#24, #25",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Borek",
+    "imie": "Matyasz",
+    "miejsce": "Miasto Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Borek [Matyasz Borek Mieszczanin]",
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyasz Borek Mieszczanin",
+        "rola": "Urzędowy zapis w księdze wójtowskiej"
+      }
+    ],
+    "lp": 68,
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Majowski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": null,
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wójt",
+        "rola": "Wójt miejski, zarządzenie aresztów opiekuńczych"
+      },
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wójt",
+        "rola": "Przewodniczący sądu łączonego w procesie Szymona Kuparki"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Advocatus",
+        "rola": "Przewodniczący sądu bannitycznego nad przestępstwami kryminalnymi"
+      }
+    ],
+    "lp": 69,
+    "skany_list": [
+      26,
+      32,
+      46
+    ],
+    "skany_roboczo": "#26, #32, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Kotowicz",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": null,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Kotowicz Proconsul",
+        "rola": "Asesor sądu łączonego w procesie kryminalnym"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Kotowicz Proconsul",
+        "rola": "Asesor sądu bannitycznego nad Szymonem Kuparką"
+      }
+    ],
+    "lp": 70,
+    "skany_list": [
+      32,
+      46
+    ],
+    "skany_roboczo": "#32, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Barankowicz",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Barankowic",
+    "wystapienia": [
+      {
+        "skan": 27,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankowicz Burmistrz i Rajca",
+        "rola": "Zawiera ugodę z Przeorem Pajeckim na 120 złp"
+      },
+      {
+        "skan": 28,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankowicz Rajca",
+        "rola": "Zobowiązuje się do wypłaty 150 złp ratami"
+      },
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankowicz Consul",
+        "rola": "Asesor sądu łączonego"
+      }
+    ],
+    "lp": 71,
+    "skany_list": [
+      27,
+      28,
+      32
+    ],
+    "skany_roboczo": "#27, #28, #32",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Jerzykiewicz",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Ierzykiewicz / Jerzykiewicz?",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Jerzykiewicz Viceadvocatus",
+        "rola": "Przewodniczy przesłuchaniu kryminalnemu Szymona Kuparki"
+      },
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Jerzykiewicz Viceadvocatus",
+        "rola": "Podwójci w sądzie łączonym"
+      },
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Jerzykiewicz Podwójci",
+        "rola": "Przeprowadza urzędową obdukcję pobitego Macieja Stelmachowicza"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Jerzykiewicz Viceadvocatus",
+        "rola": "Asesor sądu bannitycznego"
+      }
+    ],
+    "lp": 72,
+    "skany_list": [
+      31,
+      32,
+      40,
+      46
+    ],
+    "skany_roboczo": "#31, #32, #40, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Płechowicz",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Płech / Płechowicz",
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Płechowicz Deputat",
+        "rola": "Deputat Trybunału Zamojskiego, asesor sądu łączonego"
+      },
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Płechowicz dawny burmistrz",
+        "rola": "W imieniu swoim i brata Jędrzeja pozywa Jakuba Kłopota o spadek Paszanowskiego"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Płechowicz Deputat",
+        "rola": "Asesor sądu bannitycznego"
+      }
+    ],
+    "lp": 73,
+    "skany_list": [
+      32,
+      44,
+      46
+    ],
+    "skany_roboczo": "#32, #44, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Borkiewicz",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Albertus Borkiewicz",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Albertus Borkiewicz Scabinus",
+        "rola": "Ławnik w sądzie kryminalnym"
+      },
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Albertus Borkiewicz Scabinus",
+        "rola": "Ławnik w sądzie łączonym"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Albertus Borkiewicz Scabinus",
+        "rola": "Ławnik w sądzie bannitycznym"
+      },
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Borkiewicz Ławnik",
+        "rola": "Świadek przysięgły wizji lokalnej w sadzie owocowym"
+      }
+    ],
+    "lp": 74,
+    "skany_list": [
+      31,
+      32,
+      46,
+      48
+    ],
+    "skany_roboczo": "#31, #32, #46, #48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Pielaszkowicz",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Peleszkowic / Pielaszkowicz",
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Pielaszkowicz Consul",
+        "rola": "Radny miejski, asesor sądu łączonego"
+      }
+    ],
+    "lp": 75,
+    "skany_list": [
+      32
+    ],
+    "skany_roboczo": "#32",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pielaszkowicz",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Peleszkowic",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Pielaszkowicz",
+        "rola": "Zeznaje w sprawie Kazimierza Krakowiaka"
+      }
+    ],
+    "lp": 76,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Borowiecki",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Borowiec?",
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Borowiecki Majster Cechu Szewskiego",
+        "rola": "Wizytator sadu wójtowskiego i szkód"
+      }
+    ],
+    "lp": 77,
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Onuszkowiczowa",
+    "imie": "Ewa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Onuszkowiczowa / Onuszkiewiczowa",
+    "wystapienia": [
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Onuszkowiczowa wdowa",
+        "rola": "Wypłaca wyderkaff 50 złp i opłaty z łaźni miejskiej"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Ewa Onuszkowiczowa Wdowa",
+        "rola": "Pozywa Tomasza Stafię o stawienie syna Kazimierza"
+      }
+    ],
+    "lp": 78,
+    "skany_list": [
+      29,
+      45
+    ],
+    "skany_roboczo": "#29, #45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Dawidowicz",
+    "imie": "Pinchas",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Pinchas Dawidowic",
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1700",
+        "zapis_oryginalny": "Pinchas Dawidowicz Arendarz",
+        "rola": "Arendarz trunków ordynackich, powód przeciwko Mazale"
+      },
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Pinchas Dawidowicz Żyd",
+        "rola": "Instygator pozwu zamkowego Anny Zamoyskiej"
+      }
+    ],
+    "lp": 79,
+    "skany_list": [
+      49,
+      50
+    ],
+    "skany_roboczo": "#49, #50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Kowal",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Albert Kowal",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Albert Kowal",
+        "rola": "Egzekucja należności za szkody kowalskie"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Kowal",
+        "rola": "Spór z Żydem Moszkiem o wózek"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Albert Kowal",
+        "rola": "Manifestacja przeciw Żydowi Hayklerowi o gwoździe"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Kowal",
+        "rola": "Pozew przeciw Żydowi Chajce o 1 złp 7 gr"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Wojciech Kowal",
+        "rola": "Pozew przeciw Gierkardowej o szkodę przez woły"
+      },
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Albert Kowal",
+        "rola": "Dekret przeciwko Śmietance"
+      }
+    ],
+    "lp": 80,
+    "skany_list": [
+      34,
+      39,
+      41,
+      42,
+      45,
+      47
+    ],
+    "skany_roboczo": "#34, #39, #41, #42, #45, #47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 6
+  },
+  {
+    "nazwisko": "Luter",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Luterek / Lutrek? / Luter",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Luterek",
+        "rola": "Pozwany przez szwagierkę Marinę o zabór spadku"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Luterek",
+        "rola": "Skazany na inkancerację za lżenie matki i szwagierki"
+      },
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Luterek",
+        "rola": "Uwięziony w lochu za szkody i gwałty"
+      }
+    ],
+    "lp": 81,
+    "skany_list": [
+      45,
+      46,
+      47
+    ],
+    "skany_roboczo": "#45, #46, #47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Tkaczyk",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Obywatel",
+    "wariant_nazwiska": "Tkaczyk?",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Tkaczyk",
+        "rola": "Spór o kontrakty z Pawłem Nowakiem"
+      },
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Tkaczyk",
+        "rola": "Ugoda polubowna z małżonkami Nowaczykami pod wadium 30 grzywien"
+      },
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Tkaczyk",
+        "rola": "Strona w sprawie wójtowskiej"
+      }
+    ],
+    "lp": 82,
+    "skany_list": [
+      36,
+      37,
+      50
+    ],
+    "skany_roboczo": "#36, #37, #50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Stojek",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Stoyek",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Stojek",
+        "rola": "Przedmieszczanin, zabezpieczenie majątku na opiekę nad rodzeństwem"
+      }
+    ],
+    "lp": 83,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Majowski",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Bedel miejski kraśnicki",
+    "wariant_nazwiska": "Mayowski",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Mayowski bedellus",
+        "rola": "Bedel miejski kraśnicki, wnosi o areszty sądowe"
+      }
+    ],
+    "lp": 84,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Stafia",
+    "imie": "Wawrzyniec",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Stafiic?",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Stafia",
+        "rola": "Zeznaje o ustnej woli burmistrza Ledańskiego w sprawie zapisu roli"
+      }
+    ],
+    "lp": 85,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Des",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Des",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Des",
+        "rola": "Świadek ostatniej woli zmarłego burmistrza Ledańskiego"
+      }
+    ],
+    "lp": 86,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Ledański",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Nieboszczyk burmistrz kraśnicki",
+    "wariant_nazwiska": "Leżański? / Ledański",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Ledański Burmistrz",
+        "rola": "Zmarły burmistrz kraśnicki, zapisał rolę dla sługi na łożu śmierci"
+      }
+    ],
+    "lp": 87,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Mrowiec",
+    "imie": "Agnieszka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Mrowcowa / Mrowca",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Agnes Mrowca matka",
+        "rola": "Mieszka kraśnicka, procesuje się o odzież sukienną"
+      }
+    ],
+    "lp": 88,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Mrowiec",
+    "imie": "Karol",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Mrowca?",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Carolus Mrowiec syn",
+        "rola": "Młodzieniec, strona w procesie o suknie i odzież"
+      }
+    ],
+    "lp": 89,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopot",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Albertus Kłopot",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Albertus Kłopot",
+        "rola": "Zeznaje w sprawie rozliczeń sukien i opieki domowej"
+      }
+    ],
+    "lp": 90,
+    "skany_list": [
+      26
+    ],
+    "skany_roboczo": "#26",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopot",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kłopot?",
+    "wystapienia": [
+      {
+        "skan": 26,
+        "rok": "1700",
+        "zapis_oryginalny": "Jacobus Kłopot frater",
+        "rola": "Brat Wojciecha Kłopota, zeznaje w sporze domowym"
+      },
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Kłopot",
+        "rola": "Pozwany przez burmistrza Płechowicza o dobra po Paszanowskim"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Kłopot",
+        "rola": "Zobowiązany do spłaty pensji kościelnej z ról Paszanowskiego"
+      }
+    ],
+    "lp": 91,
+    "skany_list": [
+      26,
+      44,
+      45
+    ],
+    "skany_roboczo": "#26, #44, #45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Pajecki",
+    "imie": "Paweł Wilhelm",
+    "miejsce": "Kraśnik",
+    "funkcja": "Przeor Klasztoru Kanoników Regularnych Lateraneńskich w Kraśniku",
+    "wariant_nazwiska": "Paiecki / Pajecki",
+    "wystapienia": [
+      {
+        "skan": 27,
+        "rok": "1700",
+        "zapis_oryginalny": "Xiądz Paweł Wilhelm Paiecki Przeor",
+        "rola": "Przeor konwentu Kanoników Regularnych Lateraneńskich w Kraśniku"
+      },
+      {
+        "skan": 28,
+        "rok": "1700",
+        "zapis_oryginalny": "Xiądz Paweł Wilhelm Paiecki",
+        "rola": "Udziela plenipotencji ks. Janowi Machiewiczowi"
+      },
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Xiądz Paiecki",
+        "rola": "Windykacja wyderkaffów i zapisów klasztornych"
+      }
+    ],
+    "lp": 92,
+    "skany_list": [
+      27,
+      28,
+      29
+    ],
+    "skany_roboczo": "#27, #28, #29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Machiewicz",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ksiądz, Przeor Dóbr Klasztornych Kanoników Regularnych",
+    "wariant_nazwiska": "Machiewicz",
+    "wystapienia": [
+      {
+        "skan": 28,
+        "rok": "1700",
+        "zapis_oryginalny": "Xiądz Jan Machiewicz Przeor Dóbr",
+        "rola": "Przeor dóbr klasztornych, plenipotent konwentu kraśnickiego"
+      },
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Xiądz Jan Machiewicz",
+        "rola": "Zarządza windykacją wyderkaffów klasztornych"
+      }
+    ],
+    "lp": 93,
+    "skany_list": [
+      28,
+      29
+    ],
+    "skany_roboczo": "#28, #29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Janaszkowic",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki, legator klasztorny",
+    "wariant_nazwiska": "Janaszkiewicz",
+    "wystapienia": [
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Walenty Janaszkowic",
+        "rola": "Posesjonat kamienicy, legował sumę na ścienny zegar klasztorny"
+      }
+    ],
+    "lp": 94,
+    "skany_list": [
+      29
+    ],
+    "skany_roboczo": "#29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Sitarski",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Starszy cechu kraśnickiego",
+    "wariant_nazwiska": "Sitartki / Sitarski",
+    "wystapienia": [
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Valentinus Sitarski starszy",
+        "rola": "Starszy cechu, strona w procesie z konwentem kraśnickim"
+      }
+    ],
+    "lp": 95,
+    "skany_list": [
+      29
+    ],
+    "skany_roboczo": "#29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wajczyk",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Wayczyk / Woyczyk? / Jajczyk?",
+    "wystapienia": [
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Thomasz Wayczyk",
+        "rola": "Posiadacz ćwierci roli na przedmieściu, w sporze ze stryjem Walentym"
+      }
+    ],
+    "lp": 96,
+    "skany_list": [
+      29
+    ],
+    "skany_roboczo": "#29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Jajczyk",
+    "imie": "Walenty",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Jayczyk",
+    "wystapienia": [
+      {
+        "skan": 29,
+        "rok": "1700",
+        "zapis_oryginalny": "Walenty Jayczyk",
+        "rola": "Przedmieszczanin kraśnicki, stryj Tomasza, posesjonat ról"
+      }
+    ],
+    "lp": 97,
+    "skany_list": [
+      29
+    ],
+    "skany_roboczo": "#29",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Jajczyk",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Jayczyk",
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Jayczyk syn",
+        "rola": "Sprzedaje ćwierć roli pod Budzyniem Maciejowi Dziernatkowi za 45 złp"
+      }
+    ],
+    "lp": 98,
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Jajczyk",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Jayczyk",
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Jayczyk",
+        "rola": "Posesjonat ról przedmiejskich"
+      },
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Jayczyk",
+        "rola": "Procesuje się z Jakubem Łapką o szkody polne"
+      },
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Thomasz Jayczyk",
+        "rola": "Zeznaje w sprawie Pasieka o parę wołów"
+      },
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Jayczyk",
+        "rola": "Procesuje się z bakałarzem szkoły parafialnej"
+      }
+    ],
+    "lp": 99,
+    "skany_list": [
+      30,
+      36,
+      37,
+      38
+    ],
+    "skany_roboczo": "#30, #36, #37, #38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Dziernatek",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Dziernatko / Matyias Dziernatek",
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyias Dziernatek",
+        "rola": "Kupuje ćwierć roli pod gościńcem Budzyńskim za 45 złp"
+      }
+    ],
+    "lp": 100,
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Dziernatkowa",
+    "imie": "Anna",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanka kraśnicka",
+    "wariant_nazwiska": "Dziernatkowa",
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1700",
+        "zapis_oryginalny": "Anna Dziernatkowa żona",
+        "rola": "Współnabywczyni ćwierci roli pod Budzyniem"
+      }
+    ],
+    "lp": 101,
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Podkański",
+    "imie": "Andrzej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Podkański?",
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Podkański",
+        "rola": "Sąsiad miedzy przy gościńcu Budzyńskim"
+      }
+    ],
+    "lp": 102,
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Szymura",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik miejski kraśnicki",
+    "wariant_nazwiska": "Szymura",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Szymura Scabinus",
+        "rola": "Ławnik przysięgły w sądzie kryminalnym"
+      }
+    ],
+    "lp": 103,
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kulaf",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik miejski kraśnicki",
+    "wariant_nazwiska": "Kulaf",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Laurentius Kulaf Scabinus",
+        "rola": "Ławnik przysięgły w sądzie kryminalnym"
+      }
+    ],
+    "lp": 104,
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kuparka",
+    "imie": "Szymon",
+    "miejsce": "Wilkołaz",
+    "funkcja": "Pasterz dworski / Skazaniec na stos",
+    "wariant_nazwiska": "Kupareczka? / Kuparka",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Kuparka pasterz",
+        "rola": "Pasterz z Wilkołaza oskarżony o kradzież inwentarza i sodomię"
+      },
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Kuparka",
+        "rola": "Poddany 4-krotnym torturom kata miejskiego na ratuszu"
+      },
+      {
+        "skan": 33,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Kuparka",
+        "rola": "Skazany na spalenie żywcem na stosie wraz ze szkapą"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Kuparka",
+        "rola": "Zeznaje przed sądem bannitycznym"
+      },
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Kuparka",
+        "rola": "Zeznaje o pasterstwie na Budzyniu i odprowadzony do lochu"
+      }
+    ],
+    "lp": 105,
+    "skany_list": [
+      31,
+      32,
+      33,
+      46,
+      47
+    ],
+    "skany_roboczo": "#31, #32, #33, #46, #47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 5
+  },
+  {
+    "nazwisko": "Łukasz",
+    "imie": "Pan",
+    "miejsce": "Wyżnica",
+    "funkcja": "Szlachcic / Posesjonat w Wyżnicy",
+    "wariant_nazwiska": "Łukasz z Wyżnicy",
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1700",
+        "zapis_oryginalny": "Pan Łukasz w Wyżnicy",
+        "rola": "Zmarły szlachcic i właściciel majątku w Wyżnicy"
+      }
+    ],
+    "lp": 106,
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pielaszkowicz",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik miejski kraśnicki",
+    "wariant_nazwiska": "Peleszkowic",
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Laurentius Pielaszkowicz Scabinus",
+        "rola": "Ławnik przysięgły sądu wójtowskiego i kryminalnego"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Laurentius Pielaszkowicz Scabinus",
+        "rola": "Asesor sądu bannitycznego"
+      }
+    ],
+    "lp": 107,
+    "skany_list": [
+      32,
+      46
+    ],
+    "skany_roboczo": "#32, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Wójtowicz",
+    "imie": "Pan",
+    "miejsce": "Wilkołaz",
+    "funkcja": "Wójt gromadzki wsi Wilkołaz",
+    "wariant_nazwiska": "Woytowicz",
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1700",
+        "zapis_oryginalny": "Pan Woytowicz Woyt Gromadzki",
+        "rola": "Wójt gromadzki wsi Wilkołaz, oskarżyciel w procesie sodomii"
+      }
+    ],
+    "lp": 108,
+    "skany_list": [
+      32
+    ],
+    "skany_roboczo": "#32",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wójtowicz",
+    "imie": "Szymon",
+    "miejsce": "Wilkołaz",
+    "funkcja": "Wójt gromadzki Wilkołaza",
+    "wariant_nazwiska": "Woytowicz / Wójtowicz",
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Wóytowicz",
+        "rola": "Świadek przestępstwa na Budzyniu, rozmawiał z oskarżonym na jarmarku w Bychawie"
+      }
+    ],
+    "lp": 109,
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Plewnik",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Plewnik",
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Plewnik Przedmieszczanin",
+        "rola": "Oskarża Olchowskiego o kradzież bydła i konia"
+      }
+    ],
+    "lp": 110,
+    "skany_list": [
+      33
+    ],
+    "skany_roboczo": "#33",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Olchowski",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kuśnierz / Rzemieślnik kraśnicki",
+    "wariant_nazwiska": "Kuśnierczyk / Olchowski",
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1700",
+        "zapis_oryginalny": "Kuśnierczyk seu Olchowski",
+        "rola": "Kuśnierz oskarżany o kradzież żyta i koni"
+      },
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomas Olchowski",
+        "rola": "Podejrzany o kradzież wozu żyta"
+      },
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Olchowski",
+        "rola": "Świadek rozmów w gospodzie na Cegielni"
+      },
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Olchowski",
+        "rola": "Protest instygatora o kradzież półtora korca żyta"
+      },
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Olchowski",
+        "rola": "Spór z Maciejem Plewnikiem o uwiezienie żyta"
+      }
+    ],
+    "lp": 111,
+    "skany_list": [
+      33,
+      34,
+      35,
+      37,
+      38
+    ],
+    "skany_roboczo": "#33, #34, #35, #37, #38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 5
+  },
+  {
+    "nazwisko": "Jardzyk",
+    "imie": "Grzegorz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Pracowity / Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Jardzyk / Jarzyk?",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Gregor Jardzyk",
+        "rola": "Pracowity przedmieszczanin, powód w sporze z Janem Krawczykiem"
+      }
+    ],
+    "lp": 112,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Krawczyk",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Krawiec / Rzemieślnik kraśnicki",
+    "wariant_nazwiska": "Trawczyk? / Krawczyk",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Krawczyk",
+        "rola": "Rzemieślnik krawiecki, pozwany przed sąd miejski"
+      }
+    ],
+    "lp": 113,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Obrawenski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Obrawieński",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Obrawenski",
+        "rola": "Dłużnik wójta Marcina Rymarczyka"
+      },
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Obrawenski",
+        "rola": "Pozwany o nieoddanie 17 złp"
+      }
+    ],
+    "lp": 114,
+    "skany_list": [
+      34,
+      36
+    ],
+    "skany_roboczo": "#34, #36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Olchowski",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Olchowski",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Olchowski",
+        "rola": "Mieszczanin kraśnicki, ojciec Tomasza, ręczy za syna"
+      },
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Olchowski",
+        "rola": "Strona w procesie z Maciejem Plewnikiem"
+      },
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Olchowski",
+        "rola": "Protest instygatora miejskiego o żyto"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Olchowski",
+        "rola": "Zobowiązany do wykonania dekretu w sprawie żyta"
+      }
+    ],
+    "lp": 115,
+    "skany_list": [
+      34,
+      35,
+      37,
+      39
+    ],
+    "skany_roboczo": "#34, #35, #37, #39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Pietrowska",
+    "imie": "Marina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Pietrowskina",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Pietrowskina",
+        "rola": "Świadek nocnego przygotowywania wozu zboża"
+      }
+    ],
+    "lp": 116,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pietrowski",
+    "imie": "Michał",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Pietrowszyk",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Michaelis Pietrowszyk",
+        "rola": "Świadek w sprawie kradzieży wozu żyta"
+      }
+    ],
+    "lp": 117,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kochanek",
+    "imie": "Kazimierz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kochanek",
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1700",
+        "zapis_oryginalny": "Casimirus Kochanek de suburbio",
+        "rola": "Zeznaje o jarmarku dyskim i pijaństwie w szynku na Ługu"
+      }
+    ],
+    "lp": 118,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Plewnik",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Mathias Plewnik",
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Plewnik",
+        "rola": "Przedmieszczanin, poszkodowany kradzieżą półtora korca żyta i konia"
+      },
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyas Plewnik",
+        "rola": "Dochodzi zwrotu uwiezionego żyta od Olchowskiego"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Plewnik",
+        "rola": "Szwagier Tomasza Olchowskiego, strona dekretu o żyto"
+      }
+    ],
+    "lp": 119,
+    "skany_list": [
+      35,
+      38,
+      39
+    ],
+    "skany_roboczo": "#35, #38, #39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Plewniczek",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Plewniczek",
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Plewniczek",
+        "rola": "Syn Macieja Plewnika, świadek rozmów o zastawie żyta"
+      }
+    ],
+    "lp": 120,
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Bąk",
+    "imie": "Sebastian",
+    "miejsce": "Przedmieście Cegielnia",
+    "funkcja": "Obywatel z Przedmieścia Cegielnia",
+    "wariant_nazwiska": "Sobestian Bąk",
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Sobestian Bąk",
+        "rola": "Świadek rozmów w karczmie na Cegielni o poszukiwaniu skradzionego konia"
+      }
+    ],
+    "lp": 121,
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wardęga",
+    "imie": "Marian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Wardęga",
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Marian Wardęga",
+        "rola": "Syn Wojciecha Wardęgi, wymieniony w związku z kradzieżą żyta"
+      }
+    ],
+    "lp": 122,
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wardęga",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Wardęga",
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Wardęga",
+        "rola": "Mieszczanin kraśnicki, ojciec Mariana"
+      }
+    ],
+    "lp": 123,
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Nowak",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Paulus Nowak",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Paulus Nowak",
+        "rola": "Strona w sporze o kontrakty i długi z Janem Tkaczykiem"
+      }
+    ],
+    "lp": 124,
+    "skany_list": [
+      36
+    ],
+    "skany_roboczo": "#36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Stafia",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Stafia",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Stafia",
+        "rola": "Przedmieszczanin kraśnicki, powód o 8 złp przeciwko Tkaczykowi"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Stafia",
+        "rola": "Pozwany przez Ewę Onuszkowiczową o stawienie syna Kazimierza"
+      }
+    ],
+    "lp": 125,
+    "skany_list": [
+      36,
+      45
+    ],
+    "skany_roboczo": "#36, #45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Tkaczyk",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rzemieślnik tkacki kraśnicki",
+    "wariant_nazwiska": "Tkaczyk",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Tkaczyk",
+        "rola": "Rzemieślnik tkacki, pozwany o 8 złp"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Tkaczyk",
+        "rola": "Pozwany przez Żyda Jaka o zwrot 37 złp 12 gr długu"
+      }
+    ],
+    "lp": 126,
+    "skany_list": [
+      36,
+      46
+    ],
+    "skany_roboczo": "#36, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Łapka",
+    "imie": "Jakub",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Łapka",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Łapka",
+        "rola": "Przedmieszczanin, pozwany przez Tomasza Jajczyka o szkody gruntowe"
+      }
+    ],
+    "lp": 127,
+    "skany_list": [
+      36
+    ],
+    "skany_roboczo": "#36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Dąbrowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Dąbrowski",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Dąbrowski",
+        "rola": "Pozwany przez Macieja Kępę o zwrot półtora korca żyta wartego 8 złp"
+      }
+    ],
+    "lp": 128,
+    "skany_list": [
+      36
+    ],
+    "skany_roboczo": "#36",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kępa",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Mathias Kępa",
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Kępa",
+        "rola": "Przedmieszczanin, powód o półtora korca żyta przeciw Dąbrowskiemu"
+      },
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Kępa Aktor",
+        "rola": "Procesuje się z Magdaleną Kłopotową wdową"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Kępa",
+        "rola": "Wizytator strat tatarki na pustkach Kłopotowej"
+      },
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathias Kępa",
+        "rola": "Oszacował straty polne na 30 snopów tatarki"
+      }
+    ],
+    "lp": 129,
+    "skany_list": [
+      36,
+      44,
+      45,
+      48
+    ],
+    "skany_roboczo": "#36, #44, #45, #48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 4
+  },
+  {
+    "nazwisko": "Skałka",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Skałka",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Skałka Aktor",
+        "rola": "Procesuje się z Marcinem Chmielikiem o złożenie przysięgi sądowej"
+      }
+    ],
+    "lp": 130,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Chmielik",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Chmielik",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Marcin Chmielik",
+        "rola": "Pozwany do złożenia przysięgi oczyszczającej"
+      }
+    ],
+    "lp": 131,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Zdebić",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, posesjonat",
+    "wariant_nazwiska": "Zdeb / Zdebić",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Thomasz Zdeb Aktor",
+        "rola": "Powód o ćwierć roli po Wojciechu Konopce przeciwko Sankowi"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Zdeb",
+        "rola": "Pozwany o stawienie chłopca Józefa w sporze o szkody"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Zdebić",
+        "rola": "Strona procesu o szkody i sukcesję po Konopce"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Zdeb",
+        "rola": "Spór o parobka Józefa Gąsiorowskiego"
+      },
+      {
+        "skan": 43,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Zdebić",
+        "rola": "Uczestnik nocnej bójki w polu grochu z Andrzejem Sankiem"
+      },
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Zdeb",
+        "rola": "Sąd nakłada wadium 14 grzywien w sporze ze Sankiem"
+      }
+    ],
+    "lp": 132,
+    "skany_list": [
+      37,
+      39,
+      41,
+      42,
+      43,
+      44
+    ],
+    "skany_roboczo": "#37, #39, #41, #42, #43, #44",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 6
+  },
+  {
+    "nazwisko": "Konopka",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Nieboszczyk przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Konopka",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Konopka",
+        "rola": "Zmarły właściciel ćwierci roli na przedmieściu kraśnickim"
+      }
+    ],
+    "lp": 133,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Sanek",
+    "imie": "Andrzej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki, posesjonat",
+    "wariant_nazwiska": "Panek? / Sanek",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek mieszczanin",
+        "rola": "Pozwany o ćwierć roli po Konopce"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Powód o stawienie chłopca Józefa"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Dochodzi roszczeń o szkody polne"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Proces o chłopca Józefa Gąsiorowskiego"
+      },
+      {
+        "skan": 43,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Wypadł bez koszuli i uderzył Zdebia powrósłem od kobyły"
+      },
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Spór o zasiewy w polu, wadium 14 grzywien"
+      },
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Andrzej Sanek",
+        "rola": "Właściciel sadu owocowego poddanego urzędowej wizji"
+      }
+    ],
+    "lp": 134,
+    "skany_list": [
+      37,
+      39,
+      41,
+      42,
+      43,
+      44,
+      48
+    ],
+    "skany_roboczo": "#37, #39, #41, #42, #43, #44, #48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 7
+  },
+  {
+    "nazwisko": "Wardęga",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Wardęga",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Adam Wardęga",
+        "rola": "Zeznaje w sprawie szkód wyrządzonych przez parę wołów w oborze"
+      }
+    ],
+    "lp": 135,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wardęga",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Wardęga",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Jakub Wardęga syn",
+        "rola": "Świadek w sprawie nocnych szkód bydlęcych we żniwa"
+      }
+    ],
+    "lp": 136,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pasiek",
+    "imie": "Nieznany",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Pasieka",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Pasieka",
+        "rola": "Pozwany o szkody wyrządzone przez parę wołów"
+      }
+    ],
+    "lp": 137,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Nowaczyk",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Nowaczyk",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Nowaczyk",
+        "rola": "Zawiera ugodę polubowną z Janem Tkaczykiem pod wadium 30 grzywien"
+      }
+    ],
+    "lp": 138,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Nowaczykowa",
+    "imie": "Marina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Nowaczykowa",
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Nowaczykowa żona",
+        "rola": "Współstrona ugody polubownej o szkody i expensa"
+      }
+    ],
+    "lp": 139,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Snoparski",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Snoparski",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Thomasz Snoparski",
+        "rola": "Oskarża Szymona Bratka o bezprawne zabicie wieprza i potłuczenie"
+      }
+    ],
+    "lp": 140,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Bratek",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Bratek",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Bratek",
+        "rola": "Pozwany o zabicie wieprza i zranienie inwentarza"
+      }
+    ],
+    "lp": 141,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Bakałarz",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Bakałarz szkoły parafialnej w Kraśniku",
+    "wariant_nazwiska": "Bakałarz",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Bakałarz szkoły",
+        "rola": "Nauczyciel szkoły parafialnej w Kraśniku, pozwany przez Jajczyka"
+      }
+    ],
+    "lp": 142,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kuduka",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Kuduka",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Kuduka",
+        "rola": "Mieszczanin, strona w rozliczeniach wekslowych z Żydem Herszkiem"
+      }
+    ],
+    "lp": 143,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Manaska",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kupiec kraśnicki",
+    "wariant_nazwiska": "Manas / Manaska",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Żyd Manaska",
+        "rola": "Kupiec żydowski, prowadzi rozliczenia kalkulacyjne z Pawłem Słomkowskim"
+      }
+    ],
+    "lp": 144,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Słomkowski",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny Obywatel i Kupiec Kraśnicki",
+    "wariant_nazwiska": "Słomka? / Słomkowski",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Słomkowski Sławetny Pan",
+        "rola": "Zamożny kupiec kraśnicki, rozliczenia wekslowe z Manaską"
+      },
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Paulus Słomkowski",
+        "rola": "Pozwany przez Szymona Moszkowicza o szkody"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Słomkowski",
+        "rola": "Ukarany grzywną za niestawiennictwo w sporze z Miszkowiczem"
+      }
+    ],
+    "lp": 145,
+    "skany_list": [
+      38,
+      39,
+      41
+    ],
+    "skany_roboczo": "#38, #39, #41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Kotowicz",
+    "imie": "Jędrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Kotowicz",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Jędrzey Kotowicz",
+        "rola": "Aresztowany za kradzież i długi z pozwu Jana Śmieszkowica"
+      }
+    ],
+    "lp": 146,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Śmieszkowic",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Śmieszek",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Śmieszkowic Aktor",
+        "rola": "Dochodzi roszczeń i aresztu dłużnika Jędrzeja Kotowicza"
+      }
+    ],
+    "lp": 147,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kielbarkowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Kielbarka",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Catharina Kielbarkowa",
+        "rola": "Świadek krwawej bójki pod kramem Żyda Lejbka o zmierzchu"
+      }
+    ],
+    "lp": 148,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Lejbek",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kramarz kraśnicki",
+    "wariant_nazwiska": "Leybko / Lejbek",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Żyd Leybek",
+        "rola": "Kramarz żydowski, przed którego kramem doszło do krwawego starcia"
+      }
+    ],
+    "lp": 149,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Pudlikowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Pudlik / Pudlikowa",
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1700",
+        "zapis_oryginalny": "Katarzyna Pudlikowa córka Sznika",
+        "rola": "Zeznaje w sprawie nocnej bójki i ciężkich ran krwawych"
+      }
+    ],
+    "lp": 150,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Gajowczyk",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Gaiowczyk",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Gaiowczyk",
+        "rola": "Dochodzi odszkodowania za 4 owce zjedzone przez wilki z winy pasterza"
+      }
+    ],
+    "lp": 151,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Brudzik",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Brudzik",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Brudzik Przedmieszczanin",
+        "rola": "Pasterz, pozwany o zaniechanie opieki nad stadem owiec"
+      }
+    ],
+    "lp": 152,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Moszko",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Moszek / Moszko",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Żyd Moszek",
+        "rola": "Strona w sporze z kowalem Wojciechem o wózek"
+      }
+    ],
+    "lp": 153,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Józef",
+    "imie": "Nieznany",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Parobek sąsiedzki [Famulus]",
+    "wariant_nazwiska": "Józef Gąsiorowski",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Chłopiec Józef",
+        "rola": "Parobek Tomasza Zdebia, oskarżany o szkody polne u Sanka"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Chłopiec Józef",
+        "rola": "Wezwany na egzamin w sprawie szkód polnych"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Chłopiec Józef Gąsiorowski",
+        "rola": "Oczyszczony z zarzutów o celowe wyrządzenie szkód"
+      }
+    ],
+    "lp": 154,
+    "skany_list": [
+      39,
+      41,
+      42
+    ],
+    "skany_roboczo": "#39, #41, #42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Izrael",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Israel / Izrael",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Izrael Żyd",
+        "rola": "Wierzyciel Kazimierza Chmarowskiego"
+      }
+    ],
+    "lp": 155,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Chmarowski",
+    "imie": "Kazimierz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Chmarowski",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Chmarowski",
+        "rola": "Dłużnik Żyda Izraela"
+      }
+    ],
+    "lp": 156,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Szymura",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Szymurka? / Szymura",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Szymura",
+        "rola": "Powód przeciwko Mazurczykowi o wygrodzenie płotu"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Szymura",
+        "rola": "Proces o miedze i granice"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Szymura Mieszczanin",
+        "rola": "Oskarża Młynarczyka o rozrwanie płotu i nielegalny najem Żydom"
+      }
+    ],
+    "lp": 157,
+    "skany_list": [
+      39,
+      41,
+      42
+    ],
+    "skany_roboczo": "#39, #41, #42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Mazurczyk",
+    "imie": "Kazimierz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Mazurczyk",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Mazurczyk",
+        "rola": "Pozwany o bezprawne wygrodzenie płotu i zabór gruntu"
+      }
+    ],
+    "lp": 158,
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Moszkowicz",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kupiec kraśnicki",
+    "wariant_nazwiska": "Miszkowic / Moszkowicz",
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1700",
+        "zapis_oryginalny": "Simon Moszkowicz",
+        "rola": "Kupiec żydowski, powód o szkody przeciwko Pawłowi Słomkowskiemu"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Szymon Miszkowic Obywatel",
+        "rola": "Wraz z żoną Marianką dochodzi zwrotu 40 złp od Słomkowskiego"
+      }
+    ],
+    "lp": 159,
+    "skany_list": [
+      39,
+      41
+    ],
+    "skany_roboczo": "#39, #41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Stelmachowicz",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Majster Cechu Szewskiego kraśnickiego",
+    "wariant_nazwiska": "Stelmach? / Stelmachowicz",
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciey Stelmachowicz szewc",
+        "rola": "Majster szewski, ofiara bestialskiego pobicia i rabunku przez Wawronkowicza"
+      }
+    ],
+    "lp": 160,
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wawronkowicz",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki, napastnik",
+    "wariant_nazwiska": "Wawronkowicz",
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Wawronkowicz",
+        "rola": "Sprawca ciężkiego pobicia szewca Stelmachowicza i kradzieży błękitnej czapki"
+      }
+    ],
+    "lp": 161,
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Napora",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik miejski kraśnicki",
+    "wariant_nazwiska": "Napora",
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciey Napora ławnik",
+        "rola": "Ławnik przysięgły asystujący przy urzędowej obdukcji ran na ratuszu"
+      }
+    ],
+    "lp": 162,
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Starobracikowa",
+    "imie": "Marina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa po Wawrzyńcu Starymbratku",
+    "wariant_nazwiska": "Starobratkowa / Starobracikowa",
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Starobracikowa",
+        "rola": "Wdowa po Wawrzyńcu Starymbratku, wnosi skargę spadkową"
+      },
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Starobracikowa",
+        "rola": "Dochodzi zwrotu 100 złp zapisu posagowego od szewca Musielaka"
+      }
+    ],
+    "lp": 163,
+    "skany_list": [
+      40,
+      41
+    ],
+    "skany_roboczo": "#40, #41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Starybratek",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mieszczanin kraśnicki",
+    "wariant_nazwiska": "Stary bratek / Starybratek",
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Stary bratek",
+        "rola": "Zmarły mąż Mariny Starobracikowej, posesjonat kraśnicki"
+      }
+    ],
+    "lp": 164,
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Musielak",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szewc kraśnicki",
+    "wariant_nazwiska": "Musiał? / Musielak",
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciej Musielak szewc",
+        "rola": "Szewc miejski, pozwany o wypłatę 100 złp z komplanacji spadkowej"
+      }
+    ],
+    "lp": 165,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Miszkowiczowa",
+    "imie": "Marianka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kupcowa żydowska kraśnicka",
+    "wariant_nazwiska": "Miszkowiczowa",
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Marianka Miszkowiczowa żona",
+        "rola": "Kupcowa żydowska, wraz z mężem dochodzi spłaty weksla 40 złp"
+      }
+    ],
+    "lp": 166,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Haykler",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Haykiel / Haykler",
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Haykler Żyd",
+        "rola": "Oskarżony przez Alberta Kowala o zabór partii gwoździ kowalskich"
+      }
+    ],
+    "lp": 167,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Młynarczyk",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Młynarz / Posesjonat kraśnicki",
+    "wariant_nazwiska": "Młynarz? / Młynarczyk",
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Młynarczyk",
+        "rola": "Utracił prawa do gruntu z powodu długów i kontumacji"
+      },
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Młynarczyk",
+        "rola": "Pozwany przez Jana Szymurę o zniszczenie płotu i obcy najem Żydom"
+      }
+    ],
+    "lp": 168,
+    "skany_list": [
+      41,
+      42
+    ],
+    "skany_roboczo": "#41, #42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Krakowiak",
+    "imie": "Kazimierz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Krakowiak",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Casimirus Krakowiak",
+        "rola": "Mieszczanin, występuje z zeznaniem świadków przed sądem wójtowskim"
+      }
+    ],
+    "lp": 169,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Chajka",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Chayka / Chajka",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Żyd Chayka",
+        "rola": "Pozwany przez Wojciecha Kowala o zapłatę 1 złp 7 gr za kordegardę"
+      }
+    ],
+    "lp": 170,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Foksowa",
+    "imie": "Nieznana",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanka kraśnicka, wdowa",
+    "wariant_nazwiska": "Foxowa / Foksowa",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Foxowa wdowa",
+        "rola": "Wdowa dochodząca praw do roli Kozowskiej przeciwko Pawłowi Świerkowi"
+      }
+    ],
+    "lp": 171,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Świerk",
+    "imie": "Paweł",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Świerczek? / Świerk",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Świerk",
+        "rola": "Pozwany przez wdowę Foksową o zwrot i opłaty z roli Kozowskiej"
+      }
+    ],
+    "lp": 172,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Chaja",
+    "imie": "Berek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Berek Chaia",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Berek Chaia",
+        "rola": "Żyd kraśnicki, wytacza proces Gorgolowi o krwawe pobicie"
+      }
+    ],
+    "lp": 173,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Gorgol",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Gorgiel? / Gorgol",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Gorgol",
+        "rola": "Mieszczanin pozwany o pobicie Żyda Berka Chai"
+      }
+    ],
+    "lp": 174,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Fortunat",
+    "imie": "Izrael",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Israel Fortunat",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Izrael Fortunat",
+        "rola": "Żyd kraśnicki, dochodzi zwrotu 1 florena długu od Jana Krasowskiego"
+      }
+    ],
+    "lp": 175,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Krasowski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Krasowski",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Krasowski",
+        "rola": "Dłużnik Żyda Izraela Fortunata na 1 floren"
+      }
+    ],
+    "lp": 176,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Chudzikowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka, wdowa",
+    "wariant_nazwiska": "Chudzik / Chudzikowa",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Catharina Chudzikowa wdowa",
+        "rola": "Wdowa po Piotrze Bałacie, dochodzi 3 złp z prowizją"
+      }
+    ],
+    "lp": 177,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Bałata",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mieszczanin kraśnicki",
+    "wariant_nazwiska": "Bałata",
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1700",
+        "zapis_oryginalny": "Petrus Bałata zmarły",
+        "rola": "Zmarły mąż Katarzyny Chudzikowej"
+      }
+    ],
+    "lp": 178,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Wilk",
+    "imie": "Józef",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Wilczek? / Wilk",
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1700",
+        "zapis_oryginalny": "Józef Wilk Aktor",
+        "rola": "Wygrywa sprawę o pretensje 23 złp przeciwko wdowie Młodońcowej"
+      }
+    ],
+    "lp": 179,
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Młodońcowa",
+    "imie": "Barbara",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka, wdowa",
+    "wariant_nazwiska": "Młodonica / Młodońcowa",
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1700",
+        "zapis_oryginalny": "Barbara Młodonica wdowa",
+        "rola": "Skazana na karę 14 grzywien za nieuzasadnione pretensje majątkowe"
+      },
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Wdowa Młodońcowa",
+        "rola": "Strona wpisana w regestrze wójtowskim"
+      }
+    ],
+    "lp": 180,
+    "skany_list": [
+      43,
+      50
+    ],
+    "skany_roboczo": "#43, #50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Zdebić",
+    "imie": "Józef",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Zdeb / Zdebić",
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1700",
+        "zapis_oryginalny": "Josephus Zdebić Syn",
+        "rola": "Syn Tomasza Zdebia, relacjonuje nocne starcie z Andrzejem Sankiem w polu grochu"
+      }
+    ],
+    "lp": 181,
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopotowa",
+    "imie": "Magdalena",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanka kraśnicka, wdowa",
+    "wariant_nazwiska": "Kłopotowa",
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Magdalena Kłopotowa wdowa",
+        "rola": "Posesjonatka ról przedmiejskich, procesuje się o szkody w tatarce"
+      },
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Kłopotowa wdowa",
+        "rola": "Właścicielka pustoszy poddanej lustracji"
+      },
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Wdowa Kłopotowa",
+        "rola": "Poszkodowana wydeptaniem tatarki przez stada bydła"
+      }
+    ],
+    "lp": 182,
+    "skany_list": [
+      44,
+      45,
+      48
+    ],
+    "skany_roboczo": "#44, #45, #48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 3
+  },
+  {
+    "nazwisko": "Płechowicz",
+    "imie": "Jędrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Płech / Płechowicz",
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Jędrzey Płechowicz brat",
+        "rola": "Brat burmistrza Stanisława, współuczestnik procesu o spadek Paszanowskiego"
+      }
+    ],
+    "lp": 183,
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Paszanowski",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mieszczanin kraśnicki, fundator",
+    "wariant_nazwiska": "Paszenowski / Paszanowski",
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1700",
+        "zapis_oryginalny": "Łukasz Paszanowski zmarły",
+        "rola": "Zmarły fundator i legator pensji kościelnej na ołtarz"
+      }
+    ],
+    "lp": 184,
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Stafia",
+    "imie": "Kazimierz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Stafiic / Stafia",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Kazimierz Stafia syn Tomasza",
+        "rola": "Młodzieniec, pozwany przez wdowę Onuszkowiczową o stawienie"
+      }
+    ],
+    "lp": 185,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Gierkardowa",
+    "imie": "Nieznana",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetna Pani / Posesjonatka kraśnicka",
+    "wariant_nazwiska": "Gierkard",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Sławna Pani Gierkardowa",
+        "rola": "Posesjonatka kraśnicka, skazana na 2 złp za szkody wołów w polu"
+      }
+    ],
+    "lp": 186,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kłopot",
+    "imie": "Paweł",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kłopot",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Paulus Kłopot",
+        "rola": "Świadek urzędowy lustracji strat polnych w zagonach tatarki"
+      }
+    ],
+    "lp": 187,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kuźnik",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kuźnik",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Maciey Kuźnik",
+        "rola": "Uczestnik wizji lokalnej strat polnych na pustkach"
+      }
+    ],
+    "lp": 188,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Jarzyk",
+    "imie": "Sebastian",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Sobestian Jarzyk",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Sobestian Jarzyk",
+        "rola": "Świadek zdeptania tatarki przez konie i bydło"
+      }
+    ],
+    "lp": 189,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Luterkowa",
+    "imie": "Marina",
+    "miejsce": "Zaklików",
+    "funkcja": "Mieszka zaklikowska, wdowa",
+    "wariant_nazwiska": "Luterek / Luter",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Luterkowa wdowa z Zaklikowa",
+        "rola": "Wdowa po Wojciechu Luterku, żąda zwrotu spadku i ukarania szwagra"
+      },
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Marina Luterkowa",
+        "rola": "Wnosi skargę o napaść i lżenie słowne przez Stanisława Luterka"
+      }
+    ],
+    "lp": 190,
+    "skany_list": [
+      45,
+      46
+    ],
+    "skany_roboczo": "#45, #46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Luterek",
+    "imie": "Wojciech",
+    "miejsce": "Zaklików",
+    "funkcja": "Zmarły mieszczanin zaklikowski",
+    "wariant_nazwiska": "Luter / Luterek",
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Luterek z Zaklikowa",
+        "rola": "Zmarły mąż Mariny, brat Stanisława Luterka"
+      }
+    ],
+    "lp": 191,
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Luterkowa",
+    "imie": "Matka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka, matka",
+    "wariant_nazwiska": "Luterkowa",
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Matka Luterkowa",
+        "rola": "Matka braci Luterków, znieważona i poszkodowana przez syna Stanisława"
+      }
+    ],
+    "lp": 192,
+    "skany_list": [
+      46
+    ],
+    "skany_roboczo": "#46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Jak",
+    "imie": "Nieznany",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki",
+    "wariant_nazwiska": "Iak / Jak",
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1700",
+        "zapis_oryginalny": "Niewierny Iak Żyd",
+        "rola": "Dochodzi zwrotu 37 złp 12 gr długu od tkacza Macieja Tkaczyka"
+      }
+    ],
+    "lp": 193,
+    "skany_list": [
+      46
+    ],
+    "skany_roboczo": "#46",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Klara",
+    "imie": "Nieznana",
+    "miejsce": "Przedmieście Budzyń",
+    "funkcja": "Przedmieszczanka z Budzynia",
+    "wariant_nazwiska": "Klara",
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Klara na Budzyniu",
+        "rola": "Gospodyni utrzymująca służbę pasterską na Budzyniu"
+      }
+    ],
+    "lp": 194,
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Klara",
+    "imie": "Wawrzyniec",
+    "miejsce": "Przedmieście Budzyń",
+    "funkcja": "Przedmieszczanin z Budzynia",
+    "wariant_nazwiska": "Klara",
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Wawrzyniec Klara",
+        "rola": "Właściciel szkapy, z którą obcował skazany Szymon Kuparka"
+      }
+    ],
+    "lp": 195,
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Tokarski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin kraśnicki",
+    "wariant_nazwiska": "Tokarski",
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "Joannes Tokarski",
+        "rola": "Aresztowany w więzieniu miejskim za szkody i gwałty w Kiełpinie"
+      }
+    ],
+    "lp": 196,
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Śmietanka",
+    "imie": "Nieznana",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszka kraśnicka",
+    "wariant_nazwiska": "Śmietana / Śmietanka",
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1700",
+        "zapis_oryginalny": "H. Śmietanka",
+        "rola": "Pozwana przez Alberta Kowala w sporze miejskim"
+      }
+    ],
+    "lp": 197,
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Kurek",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Kuźnik? / Kurek",
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Mathia Kurek",
+        "rola": "Wraz z Maciejem Kępą oszacował straty polne na 30 snopów tatarki"
+      }
+    ],
+    "lp": 198,
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Prokopowicz",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Brokopowicz / Prokopowicz",
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1700",
+        "zapis_oryginalny": "Matyas Prokopowicz",
+        "rola": "Świadek zniszczenia konopi i tatarki przez wypas bydła"
+      }
+    ],
+    "lp": 199,
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Mazała",
+    "imie": "Józef",
+    "miejsce": "Kraśnik",
+    "funkcja": "Obywatel kraśnicki / Żołnierz",
+    "wariant_nazwiska": "Mazało? / Mazała",
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1700",
+        "zapis_oryginalny": "Józef Mazała Żołnierz i Obywatel",
+        "rola": "Pozwany przez arendarza Pinchasa Dawidowicza przed Sąd Kommisarski Zamkowy"
+      },
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Józef Mazała Obywatel",
+        "rola": "Pozwany urzędowym pozwem zamkowym podkanclerzyny Zamoyskiej"
+      }
+    ],
+    "lp": 200,
+    "skany_list": [
+      49,
+      50
+    ],
+    "skany_roboczo": "#49, #50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 2
+  },
+  {
+    "nazwisko": "Jardzyk",
+    "imie": "Tomasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin kraśnicki",
+    "wariant_nazwiska": "Jardzyk / Jarzyk?",
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1700",
+        "zapis_oryginalny": "Tomasz Jardzyk",
+        "rola": "Ukarany grzywną 7 grzywien za lekceważenie wezwań sądu i kontumację"
+      }
+    ],
+    "lp": 201,
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Sitarski",
+    "imie": "Franciszek",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wierny i autentyczny obywatel kraśnicki",
+    "wariant_nazwiska": "Sitarski",
+    "wystapienia": [
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Franciszek Sitarski Wierny Authentyczny Obywatel",
+        "rola": "Oblatuje w księgach miejskich pozew zamkowy Anny Zamoyskiej"
+      }
+    ],
+    "lp": 202,
+    "skany_list": [
+      50
+    ],
+    "skany_roboczo": "#50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  },
+  {
+    "nazwisko": "Zamoyska",
+    "imie": "Anna",
+    "miejsce": "Zamość / Kraśnik",
+    "funkcja": "Podkanclerzyna Wielka Koronna, Pani na Hrabstwie Kraśnickim",
+    "wariant_nazwiska": "Anna z Gnina Zamoyska",
+    "wystapienia": [
+      {
+        "skan": 50,
+        "rok": "1700",
+        "zapis_oryginalny": "Anna z Gnina na Zamościu Zamoyska Podkanclerzyna Wielka Koronna",
+        "rola": "Podkanclerzyna Wielka Koronna, Pani na Zamościu i Kraśniku, wydaje uniwersał i pozew zamkowy"
+      }
+    ],
+    "lp": 203,
+    "skany_list": [
+      50
+    ],
+    "skany_roboczo": "#50",
+    "zakres_lat": "1700",
+    "liczba_wystapien": 1
+  }
+]
