@@ -1970,6 +1970,12 @@
         "rok": "1700",
         "zapis_oryginalny": "Jan Majowski Wóyt",
         "rola": "Wójt kraśnicki, prezes sądu łączonego"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Majowski Wóyt",
+        "rola": "Wójt ordynaryjny kraśnicki, prezes sądu gajonego"
       }
     ],
     "lp": 69,
@@ -1980,11 +1986,12 @@
       53,
       55,
       76,
-      78
+      78,
+      99
     ],
-    "skany_roboczo": "#26, #32, #46, #53, #55, #76, #78",
+    "skany_roboczo": "#26, #32, #46, #53, #55, #76, #78, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 7
+    "liczba_wystapien": 8
   },
   {
     "nazwisko": "Kotowicz",
@@ -2072,6 +2079,12 @@
         "rok": "1700",
         "zapis_oryginalny": "Jan Barankowicz Konsul",
         "rola": "Burmistrz / radca kraśnicki"
+      },
+      {
+        "skan": 98,
+        "rok": "1700",
+        "zapis_oryginalny": "Jan Barankowicz Burmistrz",
+        "rola": "Burmistrz kraśnicki, reprezentant sukcesorów Paweckich"
       }
     ],
     "lp": 71,
@@ -2080,11 +2093,12 @@
       28,
       32,
       53,
-      78
+      78,
+      98
     ],
-    "skany_roboczo": "#27, #28, #32, #53, #78",
+    "skany_roboczo": "#27, #28, #32, #53, #78, #98",
     "zakres_lat": "1700",
-    "liczba_wystapien": 5
+    "liczba_wystapien": 6
   },
   {
     "nazwisko": "Jerzykiewicz",
@@ -2751,6 +2765,18 @@
         "rok": "1700",
         "zapis_oryginalny": "Paweł Wilhelm Paiecki Przeor",
         "rola": "Przeor i proboszcz Kanoników Regularnych Lateraneńskich"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Wilhelm Paiecki Przeor",
+        "rola": "Przeor kanoników regularnych, zbywca kamienicy na Rynku"
+      },
+      {
+        "skan": 100,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Wilhelm Paiecki Przeor",
+        "rola": "Przeor kanoników regularnych, odbiorca rocznego czynszu na św. Michała"
       }
     ],
     "lp": 92,
@@ -2759,11 +2785,13 @@
       28,
       29,
       58,
-      80
+      80,
+      99,
+      100
     ],
-    "skany_roboczo": "#27, #28, #29, #58, #80",
+    "skany_roboczo": "#27, #28, #29, #58, #80, #99, #100",
     "zakres_lat": "1700",
-    "liczba_wystapien": 5
+    "liczba_wystapien": 7
   },
   {
     "nazwisko": "Machiewicz",
@@ -4214,6 +4242,12 @@
         "rola": "Mieszczanin kraśnicki, mandant plenipotencji"
       },
       {
+        "skan": 60,
+        "rok": "1700",
+        "zapis_oryginalny": "Paweł Słomkowski",
+        "rola": "Mandant plenipotencji urzędowej"
+      },
+      {
         "skan": 78,
         "rok": "1700",
         "zapis_oryginalny": "Paweł Słomkowski",
@@ -4226,11 +4260,12 @@
       39,
       41,
       59,
+      60,
       78
     ],
-    "skany_roboczo": "#38, #39, #41, #59, #78",
+    "skany_roboczo": "#38, #39, #41, #59, #60, #78",
     "zakres_lat": "1700",
-    "liczba_wystapien": 5
+    "liczba_wystapien": 6
   },
   {
     "nazwisko": "Kotowicz",
@@ -5952,16 +5987,23 @@
         "rok": "1700",
         "zapis_oryginalny": "Anna Tyrawska",
         "rola": "Mieszczka kraśnicka, sukcesorka dóbr Kędzierskich"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Sławetna Anna Tyrawska zmarła",
+        "rola": "Zmarła matka Stanisława, posesjonatka dóbr Kędzierskich"
       }
     ],
     "lp": 217,
     "skany_list": [
       52,
-      88
+      88,
+      99
     ],
-    "skany_roboczo": "#52, #88",
+    "skany_roboczo": "#52, #88, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 2
+    "liczba_wystapien": 3
   },
   {
     "nazwisko": "Roterman",
@@ -6075,17 +6117,24 @@
         "rok": "1700",
         "zapis_oryginalny": "Woyciech Szymatowski Burmistrz",
         "rola": "Burmistrz kraśnicki, pozwany o role kościelne"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Szymatowski Burmistrz",
+        "rola": "Burmistrz kraśnicki, pozwany o zabór budynków i sadu"
       }
     ],
     "lp": 222,
     "skany_list": [
       54,
       55,
-      80
+      80,
+      99
     ],
-    "skany_roboczo": "#54, #55, #80",
+    "skany_roboczo": "#54, #55, #80, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 3
+    "liczba_wystapien": 4
   },
   {
     "nazwisko": "Ożogowa",
@@ -6140,17 +6189,31 @@
         "rok": "1700",
         "zapis_oryginalny": "Stanisław Tyrawski Obywatel",
         "rola": "Mieszczanin kraśnicki, nabywca Ogrodu Tyrawskiego za 250 złp"
+      },
+      {
+        "skan": 98,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Tyrawski",
+        "rola": "Mieszczanin kraśnicki, protestant"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Stanisław Tyrawski Obywatel",
+        "rola": "Mieszczanin kraśnicki, protestujący o dobra Tyrawskie po matce"
       }
     ],
     "lp": 224,
     "skany_list": [
       54,
       55,
-      92
+      92,
+      98,
+      99
     ],
-    "skany_roboczo": "#54, #55, #92",
+    "skany_roboczo": "#54, #55, #92, #98, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 3
+    "liczba_wystapien": 5
   },
   {
     "nazwisko": "Błędowski",
@@ -6347,15 +6410,22 @@
         "rok": "1700",
         "zapis_oryginalny": "Woyciech Słomkowski Bratanek",
         "rola": "Szlachetnie Urodzony, plenipotent stryja Pawła"
+      },
+      {
+        "skan": 60,
+        "rok": "1700",
+        "zapis_oryginalny": "Woyciech Słomkowski",
+        "rola": "Plenipotent prawny stryja Pawła"
       }
     ],
     "lp": 233,
     "skany_list": [
-      59
+      59,
+      60
     ],
-    "skany_roboczo": "#59",
+    "skany_roboczo": "#59, #60",
     "zakres_lat": "1700",
-    "liczba_wystapien": 1
+    "liczba_wystapien": 2
   },
   {
     "nazwisko": "Kwaśnik",
@@ -9520,15 +9590,22 @@
         "rok": "1700",
         "zapis_oryginalny": "Grzegorz Sucki Mieszczanin",
         "rola": "Mieszczanin kraśnicki, posesjonat placu sąsiedniego w Rynku"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Grzegorz Sucki",
+        "rola": "Mieszczanin kraśnicki, sąsiad placu rynkowego"
       }
     ],
     "lp": 375,
     "skany_list": [
-      97
+      97,
+      99
     ],
-    "skany_roboczo": "#97",
+    "skany_roboczo": "#97, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 1
+    "liczba_wystapien": 2
   },
   {
     "nazwisko": "Gabryszowa",
@@ -9542,15 +9619,22 @@
         "rok": "1700",
         "zapis_oryginalny": "Gabryszowa Mieszczka",
         "rola": "Wdowa / posesjonatka placu w Rynku sąsiadującego z kamienicą Pawecką"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Plac Gabryszowey",
+        "rola": "Posesjonatka placu sąsiadującego z kamienicą"
       }
     ],
     "lp": 376,
     "skany_list": [
-      97
+      97,
+      99
     ],
-    "skany_roboczo": "#97",
+    "skany_roboczo": "#97, #99",
     "zakres_lat": "1700",
-    "liczba_wystapien": 1
+    "liczba_wystapien": 2
   },
   {
     "nazwisko": "Kopel",
@@ -9560,19 +9644,40 @@
     "wariant_nazwiska": "Kopel / Berensz?",
     "wystapienia": [
       {
-        "skan": 98,
+        "skan": 97,
         "rok": "1700",
         "zapis_oryginalny": "Berensz Kopel Kupiec Żydowski",
         "rola": "Kupiec żydowski kraśnicki, nabywca kamienicy murowanej na Rynku"
+      },
+      {
+        "skan": 98,
+        "rok": "1700",
+        "zapis_oryginalny": "Berensz Kopel",
+        "rola": "Kupiec żydowski, wpisany w dobra Paweckie"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Berensz Kopel Kupiec",
+        "rola": "Kupiec żydowski, nabywca kamienicy murowanej na Rynku"
+      },
+      {
+        "skan": 100,
+        "rok": "1700",
+        "zapis_oryginalny": "Berensz Kopel Kupiec",
+        "rola": "Nabywca kamienicy, zobowiązany do rocznego czynszu na św. Michała"
       }
     ],
     "lp": 377,
     "skany_list": [
-      98
+      97,
+      98,
+      99,
+      100
     ],
-    "skany_roboczo": "#98",
+    "skany_roboczo": "#97, #98, #99, #100",
     "zakres_lat": "1700",
-    "liczba_wystapien": 1
+    "liczba_wystapien": 4
   },
   {
     "nazwisko": "Koplowa",
@@ -9582,7 +9687,7 @@
     "wariant_nazwiska": null,
     "wystapienia": [
       {
-        "skan": 98,
+        "skan": 97,
         "rok": "1700",
         "zapis_oryginalny": "Berenszowa Koplowa małżonka",
         "rola": "Żona Berensza Kopla, nabywczyni kamienicy rynkowej"
@@ -9590,9 +9695,9 @@
     ],
     "lp": 378,
     "skany_list": [
-      98
+      97
     ],
-    "skany_roboczo": "#98",
+    "skany_roboczo": "#97",
     "zakres_lat": "1700",
     "liczba_wystapien": 1
   },
@@ -9604,18 +9709,39 @@
     "wariant_nazwiska": "Borek Herszkowicz?",
     "wystapienia": [
       {
-        "skan": 98,
+        "skan": 97,
         "rok": "1700",
         "zapis_oryginalny": "Borek Herszkowicz Kupiec Żydowski",
         "rola": "Wybitny kupiec żydowski kraśnicki, współnabywca kamienicy w Rynku"
+      },
+      {
+        "skan": 98,
+        "rok": "1700",
+        "zapis_oryginalny": "Borek Herszkowic",
+        "rola": "Kupiec żydowski, wpisany w dobra Paweckie"
+      },
+      {
+        "skan": 99,
+        "rok": "1700",
+        "zapis_oryginalny": "Borek Herszkowicz Kupiec",
+        "rola": "Kupiec żydowski, współnabywca kamienicy na Rynku"
+      },
+      {
+        "skan": 100,
+        "rok": "1700",
+        "zapis_oryginalny": "Borek Herszkowicz Kupiec",
+        "rola": "Współnabywca kamienicy, zobowiązany do rocznego czynszu"
       }
     ],
     "lp": 379,
     "skany_list": [
-      98
+      97,
+      98,
+      99,
+      100
     ],
-    "skany_roboczo": "#98",
+    "skany_roboczo": "#97, #98, #99, #100",
     "zakres_lat": "1700",
-    "liczba_wystapien": 1
+    "liczba_wystapien": 4
   }
 ]

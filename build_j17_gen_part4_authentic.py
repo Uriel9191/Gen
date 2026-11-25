@@ -47,6 +47,10 @@ def add_occ(nazwisko, imie, miejsce, skan, rok, zapis, rola, wariant_extra=None,
         persons.append(new_p)
         lookup[key] = new_p
 
+# Uzupełnienie skanu 60 z Partii 3 (dokończenie plenipotencji ze skanu 59)
+add_occ("Słomkowski", "Paweł", "Kraśnik", 60, 1700, "Paweł Słomkowski", "Mandant plenipotencji urzędowej")
+add_occ("Słomkowski", "Wojciech", "Kraśnik", 60, 1700, "Woyciech Słomkowski", "Plenipotent prawny stryja Pawła")
+
 # SKAN 76
 add_occ("Puklina", "Krystyna", "Kraśnik", 76, 1700, "Ućciwa Krystyna Puklina wdowa", "Wdowa, powódka przeciw zięciowi o pobicie i wygnanie", "Pukiel?", "Wdowa / Posesjonatka")
 add_occ("Oczapka", "Tomasz", "Kraśnik", 76, 1700, "Tomasz Oczapka zięć", "Zięć Pukliny, pozwany o pobicie i wypędzenie", "Oczapko?", "Mieszczanin kraśnicki")
@@ -210,9 +214,31 @@ add_occ("Pawecki", "Tomasz", "Kraśnik", 97, 1700, "Tomasz Pawecki Mieszczanin Z
 add_occ("Pawecka", "Anna", "Kraśnik", 97, 1700, "Anna Pawecka małżonka", "Zmarła żona Tomasza Paweckiego, posesjonatka kamienicy")
 add_occ("Sucki", "Grzegorz", "Kraśnik", 97, 1700, "Grzegorz Sucki Mieszczanin", "Mieszczanin kraśnicki, posesjonat placu sąsiedniego w Rynku", "Sucki?")
 add_occ("Gabryszowa", "Mieszczka", "Kraśnik", 97, 1700, "Gabryszowa Mieszczka", "Wdowa / posesjonatka placu w Rynku sąsiadującego z kamienicą Pawecką", "Gabrysz?")
-add_occ("Kopel", "Berensz", "Kraśnik", 98, 1700, "Berensz Kopel Kupiec Żydowski", "Kupiec żydowski kraśnicki, nabywca kamienicy murowanej na Rynku", "Kopel / Berensz?")
-add_occ("Koplowa", "Berenszowa", "Kraśnik", 98, 1700, "Berenszowa Koplowa małżonka", "Żona Berensza Kopla, nabywczyni kamienicy rynkowej")
-add_occ("Herszkowicz", "Borek", "Kraśnik", 98, 1700, "Borek Herszkowicz Kupiec Żydowski", "Wybitny kupiec żydowski kraśnicki, współnabywca kamienicy w Rynku", "Borek Herszkowicz?")
+add_occ("Kopel", "Berensz", "Kraśnik", 97, 1700, "Berensz Kopel Kupiec Żydowski", "Kupiec żydowski kraśnicki, nabywca kamienicy murowanej na Rynku", "Kopel / Berensz?")
+add_occ("Koplowa", "Berenszowa", "Kraśnik", 97, 1700, "Berenszowa Koplowa małżonka", "Żona Berensza Kopla, nabywczyni kamienicy rynkowej")
+add_occ("Herszkowicz", "Borek", "Kraśnik", 97, 1700, "Borek Herszkowicz Kupiec Żydowski", "Wybitny kupiec żydowski kraśnicki, współnabywca kamienicy w Rynku", "Borek Herszkowicz?")
+
+# SKAN 98
+add_occ("Barankowicz", "Jan", "Kraśnik", 98, 1700, "Jan Barankowicz Burmistrz", "Burmistrz kraśnicki, reprezentant sukcesorów Paweckich")
+add_occ("Kopel", "Berensz", "Kraśnik", 98, 1700, "Berensz Kopel", "Kupiec żydowski, wpisany w dobra Paweckie")
+add_occ("Herszkowicz", "Borek", "Kraśnik", 98, 1700, "Borek Herszkowic", "Kupiec żydowski, wpisany w dobra Paweckie")
+add_occ("Tyrawski", "Stanisław", "Kraśnik", 98, 1700, "Stanisław Tyrawski", "Mieszczanin kraśnicki, protestant")
+
+# SKAN 99
+add_occ("Tyrawski", "Stanisław", "Kraśnik", 99, 1700, "Stanisław Tyrawski Obywatel", "Mieszczanin kraśnicki, protestujący o dobra Tyrawskie po matce")
+add_occ("Tyrawska", "Anna", "Kraśnik", 99, 1700, "Sławetna Anna Tyrawska zmarła", "Zmarła matka Stanisława, posesjonatka dóbr Kędzierskich")
+add_occ("Szymatowski", "Wojciech", "Kraśnik", 99, 1700, "Woyciech Szymatowski Burmistrz", "Burmistrz kraśnicki, pozwany o zabór budynków i sadu")
+add_occ("Majowski", "Jan", "Kraśnik", 99, 1700, "Jan Majowski Wóyt", "Wójt ordynaryjny kraśnicki, prezes sądu gajonego")
+add_occ("Pajecki", "Paweł Wilhelm", "Kraśnik", 99, 1700, "Paweł Wilhelm Paiecki Przeor", "Przeor kanoników regularnych, zbywca kamienicy na Rynku")
+add_occ("Sucki", "Grzegorz", "Kraśnik", 99, 1700, "Grzegorz Sucki", "Mieszczanin kraśnicki, sąsiad placu rynkowego")
+add_occ("Gabryszowa", "Mieszczka", "Kraśnik", 99, 1700, "Plac Gabryszowey", "Posesjonatka placu sąsiadującego z kamienicą")
+add_occ("Kopel", "Berensz", "Kraśnik", 99, 1700, "Berensz Kopel Kupiec", "Kupiec żydowski, nabywca kamienicy murowanej na Rynku")
+add_occ("Herszkowicz", "Borek", "Kraśnik", 99, 1700, "Borek Herszkowicz Kupiec", "Kupiec żydowski, współnabywca kamienicy na Rynku")
+
+# SKAN 100
+add_occ("Pajecki", "Paweł Wilhelm", "Kraśnik", 100, 1700, "Paweł Wilhelm Paiecki Przeor", "Przeor kanoników regularnych, odbiorca rocznego czynszu na św. Michała")
+add_occ("Kopel", "Berensz", "Kraśnik", 100, 1700, "Berensz Kopel Kupiec", "Nabywca kamienicy, zobowiązany do rocznego czynszu na św. Michała")
+add_occ("Herszkowicz", "Borek", "Kraśnik", 100, 1700, "Borek Herszkowicz Kupiec", "Współnabywca kamienicy, zobowiązany do rocznego czynszu")
 
 # Przeliczenie indeksów i normalizacja
 for idx, p in enumerate(persons, 1):
