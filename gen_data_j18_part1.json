@@ -1,0 +1,2220 @@
+[
+  {
+    "lp": 1,
+    "nazwisko": "Zdebik",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Płatnik poboru",
+    "wariant_nazwiska": "Zdobyk?",
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1625,
+    "zakres_lat": "1625",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1625",
+        "zapis_oryginalny": "Zdebik [Zdobyk?]",
+        "rola": "Zapisek poborowy z 1625 r. od bramy",
+        "kwota_ctx": "Zapisek poborowy z 1625 r. od bramy"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Zdebik [Zdobyk?] (Zapisek poborowy z 1625 r. od bramy)."
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Feliks",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Płatnik poboru",
+    "wariant_nazwiska": "Felix",
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1625,
+    "zakres_lat": "1625",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1625",
+        "zapis_oryginalny": "Felix",
+        "rola": "Zapisek poborowy z 1625 r. (groszy)",
+        "kwota_ctx": "Zapisek poborowy z 1625 r. (groszy)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Felix (Zapisek poborowy z 1625 r. (groszy))."
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Barankowic",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Płatnik poboru",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1625,
+    "zakres_lat": "1625",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1625",
+        "zapis_oryginalny": "Barankowic",
+        "rola": "Zapisek poborowy z 1625 r. (groszy)",
+        "kwota_ctx": "Zapisek poborowy z 1625 r. (groszy)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Barankowic (Zapisek poborowy z 1625 r. (groszy))."
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Janaszkowic",
+    "imie": "Ubald",
+    "miejsce": "Kraśnik",
+    "funkcja": "Burmistrz kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      7,
+      14,
+      20
+    ],
+    "skany_roboczo": "#7, #14, #20",
+    "min_rok": 1653,
+    "zakres_lat": "1653–1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1653",
+        "zapis_oryginalny": "Famatus Ubaldus Janaszkowic Proconsul",
+        "rola": "Założyciel księgi Acta Pupillorum",
+        "kwota_ctx": "Założyciel księgi Acta Pupillorum"
+      },
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Ubaldus Janaszkowic Proconsul",
+        "rola": "Przewodniczył sesji 6 II 1654 r.",
+        "kwota_ctx": "Przewodniczył sesji 6 II 1654 r."
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Ubaldus Janaszkowic Consul",
+        "rola": "Delegujący komisję inwentarzową",
+        "kwota_ctx": "Delegujący komisję inwentarzową"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Famatus Ubaldus Janaszkowic Proconsul (Założyciel księgi Acta Pupillorum)."
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Doliński",
+    "imie": "F.",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sędzia pokoju (1827 r.)",
+    "wariant_nazwiska": "Doliński?",
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1827,
+    "zakres_lat": "1827",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1827",
+        "zapis_oryginalny": "F. Doliński [?]",
+        "rola": "Poświadczenie księgi w Sądzie Pokoju (15 X 1827 r.)",
+        "kwota_ctx": "Poświadczenie księgi w Sądzie Pokoju (15 X 1827 r.)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: F. Doliński [?] (Poświadczenie księgi w Sądzie Pokoju (15 X 1827 r.))."
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Giża",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mieszkaniec",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "olim Thomas Giża",
+        "rola": "Ojciec małoletnich córek Katarzyny, Krystyny i Zofii",
+        "kwota_ctx": "Ojciec małoletnich córek Katarzyny, Krystyny i Zofii"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: olim Thomas Giża (Ojciec małoletnich córek Katarzyny, Krystyny i Zofii)."
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Giżanka",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sierota / Córka Tomasza Giży",
+    "wariant_nazwiska": "Giża",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Catharina filia Thomae Giża",
+        "rola": "Otrzymała opiekunów",
+        "kwota_ctx": "Otrzymała opiekunów"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Catharina filia Thomae Giża (Otrzymała opiekunów)."
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Giżanka",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sierota / Córka Tomasza Giży",
+    "wariant_nazwiska": "Giża",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Christina filia Thomae Giża",
+        "rola": "Otrzymała opiekunów",
+        "kwota_ctx": "Otrzymała opiekunów"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Christina filia Thomae Giża (Otrzymała opiekunów)."
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Giżanka",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sierota / Córka Tomasza Giży",
+    "wariant_nazwiska": "Giża",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Sophia filia Thomae Giża",
+        "rola": "Otrzymała opiekunów",
+        "kwota_ctx": "Otrzymała opiekunów"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Sophia filia Thomae Giża (Otrzymała opiekunów)."
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Kaczmarczyk",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun sierot / Mieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Simon Kaczmarczyk Civis Crasnicensis",
+        "rola": "Wyznaczony opiekunem córek Tomasza Giży",
+        "kwota_ctx": "Wyznaczony opiekunem córek Tomasza Giży"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Simon Kaczmarczyk Civis Crasnicensis (Wyznaczony opiekunem córek Tomasza Giży)."
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Sokołowicz",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun sierot / Mieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Laurentius Sokołowicz Civis Crasnicensis",
+        "rola": "Wyznaczony opiekunem córek Tomasza Giży",
+        "kwota_ctx": "Wyznaczony opiekunem córek Tomasza Giży"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Laurentius Sokołowicz Civis Crasnicensis (Wyznaczony opiekunem córek Tomasza Giży)."
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Koniega",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun sierot",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      9,
+      10,
+      11,
+      15,
+      23,
+      24
+    ],
+    "skany_roboczo": "#8, #9, #10, #11, #15, #23, #24",
+    "min_rok": 1653,
+    "zakres_lat": "1653–1655",
+    "liczba_wystapien": 7,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Mathias Koniega",
+        "rola": "Rozliczenie opieki po Wojciechu Kłopotku",
+        "kwota_ctx": "Rozliczenie opieki po Wojciechu Kłopotku"
+      },
+      {
+        "skan": 9,
+        "rok": "1653",
+        "zapis_oryginalny": "Koniega",
+        "rola": "Otwarcie wpisu z 12 XII 1653 r.",
+        "kwota_ctx": "Otwarcie wpisu z 12 XII 1653 r."
+      },
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "Mathias Koniega Tutor",
+        "rola": "Rozliczenie opiekuńcze z Kłopotkami",
+        "kwota_ctx": "Rozliczenie opiekuńcze z Kłopotkami"
+      },
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "Mathias Koniega Tutor Pupillorum",
+        "rola": "Przedłożył rachunek opiekuńczy",
+        "kwota_ctx": "Przedłożył rachunek opiekuńczy"
+      },
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Maciey Koniega",
+        "rola": "Przyjaciel przy dziale ze strony Szymona Szczygła",
+        "kwota_ctx": "Przyjaciel przy dziale ze strony Szymona Szczygła"
+      },
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Maciey Koniega Ławnik Przysięgły",
+        "rola": "Złożył rachunek z dóbr Jana Miarowica",
+        "kwota_ctx": "Złożył rachunek z dóbr Jana Miarowica"
+      },
+      {
+        "skan": 24,
+        "rok": "1655",
+        "zapis_oryginalny": "Maciey Koniega",
+        "rola": "Zatwierdzenie rachunku opiekunów Miarowica (100 złp)",
+        "kwota_ctx": "Zatwierdzenie rachunku opiekunów Miarowica (100 złp)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Mathias Koniega (Rozliczenie opieki po Wojciechu Kłopotku)."
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Kłopotek",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun / Strona",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      10
+    ],
+    "skany_roboczo": "#8, #10",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Paulus Kłopotek",
+        "rola": "Sprawa rozliczenia po Wojciechu Kłopotku",
+        "kwota_ctx": "Sprawa rozliczenia po Wojciechu Kłopotku"
+      },
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "Paulus Kłopotek",
+        "rola": "Rozliczenie przed Sądem Radzieckim",
+        "kwota_ctx": "Rozliczenie przed Sądem Radzieckim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Paulus Kłopotek (Sprawa rozliczenia po Wojciechu Kłopotku)."
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Kłopotek",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      10
+    ],
+    "skany_roboczo": "#8, #10",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "nieboszczyk Woyciech Kłopotek",
+        "rola": "Spadek po nim (koń za 72 złp, jałówka za 24 złp)",
+        "kwota_ctx": "Spadek po nim (koń za 72 złp, jałówka za 24 złp)"
+      },
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "nieboszczyk Woyciech Kłopotek",
+        "rola": "Spadek i pokwitowanie opieki",
+        "kwota_ctx": "Spadek i pokwitowanie opieki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: nieboszczyk Woyciech Kłopotek (Spadek po nim (koń za 72 złp, jałówka za 24 złp))."
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Kłopotek",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Nabywca / Krewny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Sebestyan",
+        "rola": "Kupił konia za 72 złp",
+        "kwota_ctx": "Kupił konia za 72 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Sebestyan (Kupił konia za 72 złp)."
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Borytkowski",
+    "imie": "Wierzyciel",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wierzyciel",
+    "wariant_nazwiska": "Borytkowski?",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1653",
+        "zapis_oryginalny": "Borytkowski",
+        "rola": "Rozliczenie długu 55 złp 13 gr i 13 złp 15 gr",
+        "kwota_ctx": "Rozliczenie długu 55 złp 13 gr i 13 złp 15 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Borytkowski (Rozliczenie długu 55 złp 13 gr i 13 złp 15 gr)."
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Główniarka",
+    "imie": "Jadwiga",
+    "miejsce": "Suchynia",
+    "funkcja": "Pracowita / Powódka",
+    "wariant_nazwiska": "Głównia?",
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1653",
+        "zapis_oryginalny": "Laboriosa Hedvigis de Suchynia",
+        "rola": "Proces przeciw Katarzynie Błaszczykowej o ruchomości i 70 złp",
+        "kwota_ctx": "Proces przeciw Katarzynie Błaszczykowej o ruchomości i 70 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Laboriosa Hedvigis de Suchynia (Proces przeciw Katarzynie Błaszczykowej o ruchomości i 70 złp)."
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Błaszczykowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Pawła Błaszczyka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1653",
+        "zapis_oryginalny": "Catharina Pauli Błaszczyk consors",
+        "rola": "Pozwana o rzeczy ruchome i pogrzebowe (3 złp)",
+        "kwota_ctx": "Pozwana o rzeczy ruchome i pogrzebowe (3 złp)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Catharina Pauli Błaszczyk consors (Pozwana o rzeczy ruchome i pogrzebowe (3 złp))."
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Błaszczyk",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mąż Katarzyny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1653",
+        "zapis_oryginalny": "Paulus Błaszczyk",
+        "rola": "Wzmiankowany jako mąż pozwanej",
+        "kwota_ctx": "Wzmiankowany jako mąż pozwanej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Paulus Błaszczyk (Wzmiankowany jako mąż pozwanej)."
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Kłopotek",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sukcesor Wojciecha Kłopotka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "Bartholomaeus Kłopotek",
+        "rola": "Rozliczenie wydatków pogrzebowych",
+        "kwota_ctx": "Rozliczenie wydatków pogrzebowych"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Bartholomaeus Kłopotek (Rozliczenie wydatków pogrzebowych)."
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Kłopotek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sukcesor Wojciecha Kłopotka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "Joannes Kłopotek",
+        "rola": "Rozliczenie wydatków pogrzebowych",
+        "kwota_ctx": "Rozliczenie wydatków pogrzebowych"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Joannes Kłopotek (Rozliczenie wydatków pogrzebowych)."
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Kłopotek",
+    "imie": "Gabriel",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sukcesor Wojciecha Kłopotka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1653",
+        "zapis_oryginalny": "Gabriel Kłopotek",
+        "rola": "Rozliczenie wydatków pogrzebowych",
+        "kwota_ctx": "Rozliczenie wydatków pogrzebowych"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Gabriel Kłopotek (Rozliczenie wydatków pogrzebowych)."
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Kwasowic",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny / Sukcesor",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      12,
+      13,
+      19,
+      23,
+      24
+    ],
+    "skany_roboczo": "#11, #12, #13, #19, #23, #24",
+    "min_rok": 1653,
+    "zakres_lat": "1653–1655",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "Famatus Augustinus Kwasowic",
+        "rola": "Kwitował opiekunów oraz dochodził części po zmarłej Zofii",
+        "kwota_ctx": "Kwitował opiekunów oraz dochodził części po zmarłej Zofii"
+      },
+      {
+        "skan": 12,
+        "rok": "1653",
+        "zapis_oryginalny": "Augustyn Kwasowic",
+        "rola": "Rachunek majątkowy (629 złp, 314 złp 15 gr, 122 złp 10 gr)",
+        "kwota_ctx": "Rachunek majątkowy (629 złp, 314 złp 15 gr, 122 złp 10 gr)"
+      },
+      {
+        "skan": 13,
+        "rok": "1653",
+        "zapis_oryginalny": "Augustyn Kwasowic",
+        "rola": "Dokończenie rachunku (337 złp 23 gr, 950 złp z domem)",
+        "kwota_ctx": "Dokończenie rachunku (337 złp 23 gr, 950 złp z domem)"
+      },
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Augustinus Kwasowic",
+        "rola": "Wyznaczony opiekunem Doroty Kańkowej",
+        "kwota_ctx": "Wyznaczony opiekunem Doroty Kańkowej"
+      },
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Augustyn Kwasowic Ławnik Przysięgły",
+        "rola": "Obecny przy rachunku opiekunów Miarowica",
+        "kwota_ctx": "Obecny przy rachunku opiekunów Miarowica"
+      },
+      {
+        "skan": 24,
+        "rok": "1655",
+        "zapis_oryginalny": "Augustinus Kwasowic Scabinus Juratus",
+        "rola": "Zeznał dług 50 złp wobec opiekunów Miarowica",
+        "kwota_ctx": "Zeznał dług 50 złp wobec opiekunów Miarowica"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Famatus Augustinus Kwasowic (Kwitował opiekunów oraz dochodził części po zmarłej Zofii)."
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Nawrocki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki / Opiekun",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      14,
+      20,
+      25
+    ],
+    "skany_roboczo": "#11, #14, #20, #25",
+    "min_rok": 1653,
+    "zakres_lat": "1653–1655",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Pokwitowany z opieki nad Augustynem Kwasowicem",
+        "kwota_ctx": "Pokwitowany z opieki nad Augustynem Kwasowicem"
+      },
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanislaus Nawrocki Consul",
+        "rola": "Obecny przy ustanowieniu opiekunów",
+        "kwota_ctx": "Obecny przy ustanowieniu opiekunów"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanislaus Nawrocki Proconsul",
+        "rola": "Burmistrz delegowany do inwentarza Rodzonka",
+        "kwota_ctx": "Burmistrz delegowany do inwentarza Rodzonka"
+      },
+      {
+        "skan": 25,
+        "rok": "1655",
+        "zapis_oryginalny": "Stanisław Nawrocki Rayca krasnicki",
+        "rola": "Wierzyciel obligu 50 złp i sąsiad domu w Rynku",
+        "kwota_ctx": "Wierzyciel obligu 50 złp i sąsiad domu w Rynku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Stanisław Nawrocki (Pokwitowany z opieki nad Augustynem Kwasowicem)."
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Jasielski",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły / Opiekun",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "Simon Jasielski Scabinus Juratus",
+        "rola": "Pokwitowany z opieki nad Kwasowicami",
+        "kwota_ctx": "Pokwitowany z opieki nad Kwasowicami"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Simon Jasielski Scabinus Juratus (Pokwitowany z opieki nad Kwasowicami)."
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Kwasowska",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarła w powietrzu (zarazie)",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      12
+    ],
+    "skany_roboczo": "#11, #12",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "nieboszczka Zofia",
+        "rola": "Spadek po zmarłej w zarazie",
+        "kwota_ctx": "Spadek po zmarłej w zarazie"
+      },
+      {
+        "skan": 12,
+        "rok": "1653",
+        "zapis_oryginalny": "Zofia",
+        "rola": "Wyliczenie jej masy spadkowej (629 złp)",
+        "kwota_ctx": "Wyliczenie jej masy spadkowej (629 złp)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: nieboszczka Zofia (Spadek po zmarłej w zarazie)."
+  },
+  {
+    "lp": 27,
+    "nazwisko": "Kwasowic",
+    "imie": "Fabian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły brat Augustyna",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1653",
+        "zapis_oryginalny": "Fabian",
+        "rola": "Wspomniany w sprawie sukcesyjnej",
+        "kwota_ctx": "Wspomniany w sprawie sukcesyjnej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Fabian (Wspomniany w sprawie sukcesyjnej)."
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Kwasowic",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sukcesor / Krewny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1653",
+        "zapis_oryginalny": "Tomasz Kwasowic",
+        "rola": "Rozliczenie 102 złp u Reszki",
+        "kwota_ctx": "Rozliczenie 102 złp u Reszki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Tomasz Kwasowic (Rozliczenie 102 złp u Reszki)."
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Reszka",
+    "imie": "Mieszczanin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Dłużnik / Strona",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12,
+      13
+    ],
+    "skany_roboczo": "#12, #13",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1653",
+        "zapis_oryginalny": "surowy Reszka",
+        "rola": "Rozliczenie sumy 102 złp",
+        "kwota_ctx": "Rozliczenie sumy 102 złp"
+      },
+      {
+        "skan": 13,
+        "rok": "1653",
+        "zapis_oryginalny": "Reszka z żoną",
+        "rola": "Rozliczenie z Gieradą i opiekunami",
+        "kwota_ctx": "Rozliczenie z Gieradą i opiekunami"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: surowy Reszka (Rozliczenie sumy 102 złp)."
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Gierada",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Krewny / Strona",
+    "wariant_nazwiska": "Gierad?",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1653,
+    "zakres_lat": "1653",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1653",
+        "zapis_oryginalny": "Gierada",
+        "rola": "Wspomniany w dziale majątkowym",
+        "kwota_ctx": "Wspomniany w dziale majątkowym"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Gierada (Wspomniany w dziale majątkowym)."
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Sitarski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20
+    ],
+    "skany_roboczo": "#14, #20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Martinus Sitarski Consul",
+        "rola": "Obecny przy ustanowieniu opiekunów",
+        "kwota_ctx": "Obecny przy ustanowieniu opiekunów"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Martinus Sitarski Consul",
+        "rola": "Deputowany do spisania inwentarza Rodzonka",
+        "kwota_ctx": "Deputowany do spisania inwentarza Rodzonka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Martinus Sitarski Consul (Obecny przy ustanowieniu opiekunów)."
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Tarasa",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20
+    ],
+    "skany_roboczo": "#14, #20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Mathias Tarasa Consul",
+        "rola": "Obecny przy ustanowieniu opiekunów",
+        "kwota_ctx": "Obecny przy ustanowieniu opiekunów"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Mathias Tarasa Consul",
+        "rola": "Delegujący komisję inwentarzową",
+        "kwota_ctx": "Delegujący komisję inwentarzową"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Mathias Tarasa Consul (Obecny przy ustanowieniu opiekunów)."
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Maziewski",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Wnioskodawca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20,
+      21
+    ],
+    "skany_roboczo": "#14, #20, #21",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanislaus Maziewski anteoppidanus",
+        "rola": "Wnioskował o opiekunów dla Bartłomieja Rodzonka",
+        "kwota_ctx": "Wnioskował o opiekunów dla Bartłomieja Rodzonka"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanisław Maziewski",
+        "rola": "Mieszkał w domu Rodzonków",
+        "kwota_ctx": "Mieszkał w domu Rodzonków"
+      },
+      {
+        "skan": 21,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanisław Maziewski",
+        "rola": "Sąsiad drugiej ćwierci roli",
+        "kwota_ctx": "Sąsiad drugiej ćwierci roli"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Stanislaus Maziewski anteoppidanus (Wnioskował o opiekunów dla Bartłomieja Rodzonka)."
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Rodzonek",
+    "imie": "Bartłomiej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Małoletni sierota",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20
+    ],
+    "skany_roboczo": "#14, #20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Bartholomaeus Rodzonek",
+        "rola": "Otrzymał opiekunów Gabriela Buta i Bartłomieja Kulkę",
+        "kwota_ctx": "Otrzymał opiekunów Gabriela Buta i Bartłomieja Kulkę"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Bartholomaeus Rodzonek",
+        "rola": "Sukcesor dóbr z inwentarza",
+        "kwota_ctx": "Sukcesor dóbr z inwentarza"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Bartholomaeus Rodzonek (Otrzymał opiekunów Gabriela Buta i Bartłomieja Kulkę)."
+  },
+  {
+    "lp": 35,
+    "nazwisko": "But",
+    "imie": "Gabriel",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun sieroty / Mieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20
+    ],
+    "skany_roboczo": "#14, #20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Gabriel But Civis Crasnicensis",
+        "rola": "Wyznaczony opiekunem Bartłomieja Rodzonka",
+        "kwota_ctx": "Wyznaczony opiekunem Bartłomieja Rodzonka"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Gabriel But",
+        "rola": "Obecny przy spisie inwentarza Rodzonka",
+        "kwota_ctx": "Obecny przy spisie inwentarza Rodzonka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Gabriel But Civis Crasnicensis (Wyznaczony opiekunem Bartłomieja Rodzonka)."
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Kulka",
+    "imie": "Bartłomiej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Opiekun sieroty / Przedmieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      20
+    ],
+    "skany_roboczo": "#14, #20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Bartholomaeus Kulka anteoppidanus",
+        "rola": "Wyznaczony opiekunem Bartłomieja Rodzonka",
+        "kwota_ctx": "Wyznaczony opiekunem Bartłomieja Rodzonka"
+      },
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Bartholomaeus Kulka",
+        "rola": "Obecny przy spisie inwentarza Rodzonka",
+        "kwota_ctx": "Obecny przy spisie inwentarza Rodzonka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Bartholomaeus Kulka anteoppidanus (Wyznaczony opiekunem Bartłomieja Rodzonka)."
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Zdebik",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Małoletni sierota",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Adamus Zdebik",
+        "rola": "Otrzymał opiekuna Jana Kozika alias Szczęsnego",
+        "kwota_ctx": "Otrzymał opiekuna Jana Kozika alias Szczęsnego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Adamus Zdebik (Otrzymał opiekuna Jana Kozika alias Szczęsnego)."
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Kozik",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun sieroty",
+    "wariant_nazwiska": "Szczęsny",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Joannes Kozik alias Szczęsny",
+        "rola": "Wyznaczony opiekunem Adama Zdebika",
+        "kwota_ctx": "Wyznaczony opiekunem Adama Zdebika"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Joannes Kozik alias Szczęsny (Wyznaczony opiekunem Adama Zdebika)."
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Szczygieł",
+    "imie": "Szymon",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Strona działu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "skany_roboczo": "#14, #15, #16, #17",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Simon Szczygieł anteoppidanus",
+        "rola": "Początek działu majątkowego z Matyaszem Paluchem",
+        "kwota_ctx": "Początek działu majątkowego z Matyaszem Paluchem"
+      },
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Szymon Szczygieł",
+        "rola": "Odliczył 17 złp za pogrzeb ojca i odpuścił 3 złp",
+        "kwota_ctx": "Odliczył 17 złp za pogrzeb ojca i odpuścił 3 złp"
+      },
+      {
+        "skan": 16,
+        "rok": "1654",
+        "zapis_oryginalny": "Szymon Szczygieł",
+        "rola": "Otrzymał ćwierć z ogrodem i budynkiem",
+        "kwota_ctx": "Otrzymał ćwierć z ogrodem i budynkiem"
+      },
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Szymon Szczygieł",
+        "rola": "Wadium działu (20, 10, 10, 5 grzywien)",
+        "kwota_ctx": "Wadium działu (20, 10, 10, 5 grzywien)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Simon Szczygieł anteoppidanus (Początek działu majątkowego z Matyaszem Paluchem)."
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Paluch",
+    "imie": "Matyasz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Szwagier",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "skany_roboczo": "#14, #15, #16, #17",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1654",
+        "zapis_oryginalny": "Mathias Paluch anteoppidanus",
+        "rola": "Dział majątkowy z Szymonem Szczygiełem",
+        "kwota_ctx": "Dział majątkowy z Szymonem Szczygiełem"
+      },
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Matyasz Paluch",
+        "rola": "Otrzymał parę wołów, krowę z cielęciem i jałówkę",
+        "kwota_ctx": "Otrzymał parę wołów, krowę z cielęciem i jałówkę"
+      },
+      {
+        "skan": 16,
+        "rok": "1654",
+        "zapis_oryginalny": "Matyasz Paluch",
+        "rola": "Zatrzymał chałupę, spłatę 90 złp",
+        "kwota_ctx": "Zatrzymał chałupę, spłatę 90 złp"
+      },
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Matyasz Paluch",
+        "rola": "Wadium działu",
+        "kwota_ctx": "Wadium działu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Mathias Paluch anteoppidanus (Dział majątkowy z Szymonem Szczygiełem)."
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Sikier",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Rozjemca / Przedmieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Marcin Sikier",
+        "rola": "Przyjaciel przy dziale Palucha ze Szczygiełem",
+        "kwota_ctx": "Przyjaciel przy dziale Palucha ze Szczygiełem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Marcin Sikier (Przyjaciel przy dziale Palucha ze Szczygiełem)."
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Świętek",
+    "imie": "Bartosz",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Rozjemca / Przedmieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Bartosz Świętek",
+        "rola": "Przyjaciel przy dziale Palucha ze Szczygiełem",
+        "kwota_ctx": "Przyjaciel przy dziale Palucha ze Szczygiełem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Bartosz Świętek (Przyjaciel przy dziale Palucha ze Szczygiełem)."
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Tokarczyk",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Rozjemca / Przedmieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Woyciech Tokarczyk",
+        "rola": "Przyjaciel przy dziale Palucha ze Szczygiełem",
+        "kwota_ctx": "Przyjaciel przy dziale Palucha ze Szczygiełem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Woyciech Tokarczyk (Przyjaciel przy dziale Palucha ze Szczygiełem)."
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Węgorek",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rozjemca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1654",
+        "zapis_oryginalny": "Sebestyan Węgorek",
+        "rola": "Przyjaciel przy dziale ze strony Szymona Szczygła",
+        "kwota_ctx": "Przyjaciel przy dziale ze strony Szymona Szczygła"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Sebestyan Węgorek (Przyjaciel przy dziale ze strony Szymona Szczygła)."
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Kordek",
+    "imie": "Sąsiad",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Posesjonat",
+    "wariant_nazwiska": "Kordek?",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1654",
+        "zapis_oryginalny": "granice Kordkowe",
+        "rola": "Wzmiankowany jako sąsiad graniczny",
+        "kwota_ctx": "Wzmiankowany jako sąsiad graniczny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: granice Kordkowe (Wzmiankowany jako sąsiad graniczny)."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Nowak",
+    "imie": "Benedykt",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód / Sierota",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      18,
+      19
+    ],
+    "skany_roboczo": "#17, #18, #19",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Benedictus Nowak",
+        "rola": "Skarga z siostrą Elżbietą przeciw opiekunom i matce",
+        "kwota_ctx": "Skarga z siostrą Elżbietą przeciw opiekunom i matce"
+      },
+      {
+        "skan": 18,
+        "rok": "1654",
+        "zapis_oryginalny": "Benedykt Nowak",
+        "rola": "Dekret przyznający 313 złp 25 gr reszty",
+        "kwota_ctx": "Dekret przyznający 313 złp 25 gr reszty"
+      },
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Benedykt Nowak",
+        "rola": "Otrzymał prawa od siostry Elżbiety",
+        "kwota_ctx": "Otrzymał prawa od siostry Elżbiety"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Benedictus Nowak (Skarga z siostrą Elżbietą przeciw opiekunom i matce)."
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Nowakówna",
+    "imie": "Elżbieta",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powódka / Siostra Benedykta",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      18,
+      19
+    ],
+    "skany_roboczo": "#17, #18, #19",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Helizabet soror Benedicti Nowak",
+        "rola": "Współpowódka przeciw opiekunom i matce",
+        "kwota_ctx": "Współpowódka przeciw opiekunom i matce"
+      },
+      {
+        "skan": 18,
+        "rok": "1654",
+        "zapis_oryginalny": "Elżbieta Nowakówna",
+        "rola": "Dekret w sprawie spadku po ojcu",
+        "kwota_ctx": "Dekret w sprawie spadku po ojcu"
+      },
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Helizabet Nowakówna",
+        "rola": "Zrzekła się części na rzecz brata Benedykta przed wyjazdem do Lublina",
+        "kwota_ctx": "Zrzekła się części na rzecz brata Benedykta przed wyjazdem do Lublina"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Helizabet soror Benedicti Nowak (Współpowódka przeciw opiekunom i matce)."
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Sęk",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun / Mieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Simon Sęk Civis Crasnicensis",
+        "rola": "Opiekun sierot Nowaków",
+        "kwota_ctx": "Opiekun sierot Nowaków"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Simon Sęk Civis Crasnicensis (Opiekun sierot Nowaków)."
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Ciszkowic",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun / Mieszczanin",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanislaus Ciszkowic Civis Crasnicensis",
+        "rola": "Opiekun sierot Nowaków",
+        "kwota_ctx": "Opiekun sierot Nowaków"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Stanislaus Ciszkowic Civis Crasnicensis (Opiekun sierot Nowaków)."
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Stolska",
+    "imie": "Maryna",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Matka powódki / Pozwana",
+    "wariant_nazwiska": "Ciasnosukowa?",
+    "skany_list": [
+      17,
+      18,
+      19
+    ],
+    "skany_roboczo": "#17, #18, #19",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Marina Stolska [Ciasnosukowa?]",
+        "rola": "Pozwana o brak rachunku za 7 lat opieki po pierwszym mężu Nowaku",
+        "kwota_ctx": "Pozwana o brak rachunku za 7 lat opieki po pierwszym mężu Nowaku"
+      },
+      {
+        "skan": 18,
+        "rok": "1654",
+        "zapis_oryginalny": "Maryna Stolska",
+        "rola": "Nakaz zapłaty i złożenia przysięgi",
+        "kwota_ctx": "Nakaz zapłaty i złożenia przysięgi"
+      },
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Maryna Stolska",
+        "rola": "Dokończenie dekretu Nowaków",
+        "kwota_ctx": "Dokończenie dekretu Nowaków"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Marina Stolska [Ciasnosukowa?] (Pozwana o brak rachunku za 7 lat opieki po pierwszym mężu Nowaku)."
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Dudka",
+    "imie": "Matyasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły drugi mąż Maryny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      19
+    ],
+    "skany_roboczo": "#17, #19",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "nieboszczyk Matias Dudka",
+        "rola": "Był opiekunem sierot Nowaków",
+        "kwota_ctx": "Był opiekunem sierot Nowaków"
+      },
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Matyas Dudka",
+        "rola": "Zabezpieczenie 313 złp 25 gr na jego dobrach",
+        "kwota_ctx": "Zabezpieczenie 313 złp 25 gr na jego dobrach"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: nieboszczyk Matias Dudka (Był opiekunem sierot Nowaków)."
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Stolski",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Obecny mąż Maryny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1654",
+        "zapis_oryginalny": "Marcin Stolski",
+        "rola": "Obecny mąż pozwanej Maryny",
+        "kwota_ctx": "Obecny mąż pozwanej Maryny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Marcin Stolski (Obecny mąż pozwanej Maryny)."
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Szydło",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szewc / Wierzyciel",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1654",
+        "zapis_oryginalny": "Łukasz Szydło",
+        "rola": "Otrzymał 23 złp 10 gr z masy spadkowej",
+        "kwota_ctx": "Otrzymał 23 złp 10 gr z masy spadkowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Łukasz Szydło (Otrzymał 23 złp 10 gr z masy spadkowej)."
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Dudka",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Brat nieboszczyka Matyasza",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1654",
+        "zapis_oryginalny": "Woyciech Dudka brat nieboszczykowskiego",
+        "rola": "Otrzymał 17 złp 27 gr",
+        "kwota_ctx": "Otrzymał 17 złp 27 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Woyciech Dudka brat nieboszczykowskiego (Otrzymał 17 złp 27 gr)."
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Kańkowa",
+    "imie": "Dorota",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1654",
+        "zapis_oryginalny": "Dorothea Kańkowa vidua",
+        "rola": "Otrzymała opiekuna Augustyna Kwasowica (4 V 1654 r.)",
+        "kwota_ctx": "Otrzymała opiekuna Augustyna Kwasowica (4 V 1654 r.)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Dorothea Kańkowa vidua (Otrzymała opiekuna Augustyna Kwasowica (4 V 1654 r.))."
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Kamińska",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Zophia Kamińska vidua",
+        "rola": "Otrzymała opiekuna Jana Kępę alias Sołeckiego",
+        "kwota_ctx": "Otrzymała opiekuna Jana Kępę alias Sołeckiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Zophia Kamińska vidua (Otrzymała opiekuna Jana Kępę alias Sołeckiego)."
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Kępa",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun wdowy",
+    "wariant_nazwiska": "Sołecki",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Joannes Kępa alias Sołecki",
+        "rola": "Wyznaczony opiekunem Zofii Kamińskiej",
+        "kwota_ctx": "Wyznaczony opiekunem Zofii Kamińskiej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Joannes Kępa alias Sołecki (Wyznaczony opiekunem Zofii Kamińskiej)."
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Rodzonek",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Zmarły",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      20,
+      21
+    ],
+    "skany_roboczo": "#20, #21",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanislaus Rodzonek",
+        "rola": "Spisano pośmiertny inwentarz jego dóbr (18 V 1654 r.)",
+        "kwota_ctx": "Spisano pośmiertny inwentarz jego dóbr (18 V 1654 r.)"
+      },
+      {
+        "skan": 21,
+        "rok": "1654",
+        "zapis_oryginalny": "Stanisław Rodzonek",
+        "rola": "Dokończenie inwentarza sprzętów, zabudowań i 3 ćwierci roli",
+        "kwota_ctx": "Dokończenie inwentarza sprzętów, zabudowań i 3 ćwierci roli"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Stanislaus Rodzonek (Spisano pośmiertny inwentarz jego dóbr (18 V 1654 r.))."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Piotrowski",
+    "imie": "Sebastian",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Sąsiad",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      20,
+      21,
+      22
+    ],
+    "skany_roboczo": "#20, #21, #22",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Sebestyan Piotrowski",
+        "rola": "Sąsiad gruntu Rodzonków na Zarzeczu",
+        "kwota_ctx": "Sąsiad gruntu Rodzonków na Zarzeczu"
+      },
+      {
+        "skan": 21,
+        "rok": "1654",
+        "zapis_oryginalny": "Sebestyan Piotrowski",
+        "rola": "Sąsiad pierwszej ćwierci roli",
+        "kwota_ctx": "Sąsiad pierwszej ćwierci roli"
+      },
+      {
+        "skan": 22,
+        "rok": "1654",
+        "zapis_oryginalny": "Sebestyan Piotrowski",
+        "rola": "Sąsiad ogrodu śliwowego",
+        "kwota_ctx": "Sąsiad ogrodu śliwowego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Sebestyan Piotrowski (Sąsiad gruntu Rodzonków na Zarzeczu)."
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Kaczmarczyk",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Mieszkaniec",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1654",
+        "zapis_oryginalny": "Jan Kaczmarczyk",
+        "rola": "Wspomniany w inwentarzu domu",
+        "kwota_ctx": "Wspomniany w inwentarzu domu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Jan Kaczmarczyk (Wspomniany w inwentarzu domu)."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Łowicki",
+    "imie": "Sąsiad",
+    "miejsce": "Piaski",
+    "funkcja": "Posesjonat",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1654",
+        "zapis_oryginalny": "Łowicki",
+        "rola": "Sąsiad ćwierci roli na Piasku",
+        "kwota_ctx": "Sąsiad ćwierci roli na Piasku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Łowicki (Sąsiad ćwierci roli na Piasku)."
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Grzebieniowski",
+    "imie": "Sąsiad",
+    "miejsce": "Piaski",
+    "funkcja": "Posesjonat",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1654",
+        "zapis_oryginalny": "Grzebieniowski",
+        "rola": "Sąsiad ćwierci roli na Piasku",
+        "kwota_ctx": "Sąsiad ćwierci roli na Piasku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Grzebieniowski (Sąsiad ćwierci roli na Piasku)."
+  },
+  {
+    "lp": 63,
+    "nazwisko": "Paczanowski",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Małoletni / Podopieczny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1654",
+        "zapis_oryginalny": "Lucas Paczanowski",
+        "rola": "Sprawa opieki (12 VIII 1654 r.)",
+        "kwota_ctx": "Sprawa opieki (12 VIII 1654 r.)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Lucas Paczanowski (Sprawa opieki (12 VIII 1654 r.))."
+  },
+  {
+    "lp": 64,
+    "nazwisko": "Paczanowski",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wnioskodawca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1654",
+        "zapis_oryginalny": "Jacobus Paczanowski",
+        "rola": "Wnioskował o opiekuna",
+        "kwota_ctx": "Wnioskował o opiekuna"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Jacobus Paczanowski (Wnioskował o opiekuna)."
+  },
+  {
+    "lp": 65,
+    "nazwisko": "Kępa",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Opiekun",
+    "wariant_nazwiska": "Sołecki / Hanus?",
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "min_rok": 1654,
+    "zakres_lat": "1654",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1654",
+        "zapis_oryginalny": "Joannes Kępa alias Hanus",
+        "rola": "Wyznaczony opiekunem w sprawie Paczanowskich",
+        "kwota_ctx": "Wyznaczony opiekunem w sprawie Paczanowskich"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Joannes Kępa alias Hanus (Wyznaczony opiekunem w sprawie Paczanowskich)."
+  },
+  {
+    "lp": 66,
+    "nazwisko": "Olęcki",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin i opiekun",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23,
+      24,
+      25
+    ],
+    "skany_roboczo": "#23, #24, #25",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Woyciech Olęcki Mieszczanin krasnicki",
+        "rola": "Współopiekun dóbr Jana Miarowica",
+        "kwota_ctx": "Współopiekun dóbr Jana Miarowica"
+      },
+      {
+        "skan": 24,
+        "rok": "1655",
+        "zapis_oryginalny": "Woyciech Olęcki",
+        "rola": "Zatwierdzenie rachunku opiekunów Miarowica",
+        "kwota_ctx": "Zatwierdzenie rachunku opiekunów Miarowica"
+      },
+      {
+        "skan": 25,
+        "rok": "1655",
+        "zapis_oryginalny": "Woyciech Olęcki Opiekun",
+        "rola": "Wyraził zgodę na oblig Reginy Miarowiczówny",
+        "kwota_ctx": "Wyraził zgodę na oblig Reginy Miarowiczówny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Woyciech Olęcki Mieszczanin krasnicki (Współopiekun dóbr Jana Miarowica)."
+  },
+  {
+    "lp": 67,
+    "nazwisko": "Miarowic",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Małoletni zmarły",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23,
+      24
+    ],
+    "skany_roboczo": "#23, #24",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Jan Miarowic",
+        "rola": "Rozliczenie jego masy majątkowej",
+        "kwota_ctx": "Rozliczenie jego masy majątkowej"
+      },
+      {
+        "skan": 24,
+        "rok": "1655",
+        "zapis_oryginalny": "Jan Miarowic",
+        "rola": "Dekret z 1655 r. dotyczący rachunków opieki",
+        "kwota_ctx": "Dekret z 1655 r. dotyczący rachunków opieki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Jan Miarowic (Rozliczenie jego masy majątkowej)."
+  },
+  {
+    "lp": 68,
+    "nazwisko": "Piasecki",
+    "imie": "Dłużnik",
+    "miejsce": "Kraśnik",
+    "funkcja": "Dłużnik",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Piasecki",
+        "rola": "Pożyczył 100 złp z masy Miarowica",
+        "kwota_ctx": "Pożyczył 100 złp z masy Miarowica"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Piasecki (Pożyczył 100 złp z masy Miarowica)."
+  },
+  {
+    "lp": 69,
+    "nazwisko": "Wójcik",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Dłużnik",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Jan Woycik",
+        "rola": "Dług 109 złp (odsetki 30 złp i 20 złp)",
+        "kwota_ctx": "Dług 109 złp (odsetki 30 złp i 20 złp)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Jan Woycik (Dług 109 złp (odsetki 30 złp i 20 złp))."
+  },
+  {
+    "lp": 70,
+    "nazwisko": "Kowal",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Dłużnik",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Stanisław Kowal",
+        "rola": "Dług 50 złp z masy Miarowica",
+        "kwota_ctx": "Dług 50 złp z masy Miarowica"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Stanisław Kowal (Dług 50 złp z masy Miarowica)."
+  },
+  {
+    "lp": 71,
+    "nazwisko": "Kotlarka",
+    "imie": "Wdowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Dłużniczka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1655",
+        "zapis_oryginalny": "Kotlarka wdowa",
+        "rola": "Wpłaciła 7 złp oraz 30 złp z dekretu",
+        "kwota_ctx": "Wpłaciła 7 złp oraz 30 złp z dekretu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Kotlarka wdowa (Wpłaciła 7 złp oraz 30 złp z dekretu)."
+  },
+  {
+    "lp": 72,
+    "nazwisko": "Miarowiczówna",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sierota / Dłużniczka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1655",
+        "zapis_oryginalny": "Panna Regina Miarowiczówna",
+        "rola": "Zapisała oblig 50 złp na domu w Rynku i rolach na Podlesiu",
+        "kwota_ctx": "Zapisała oblig 50 złp na domu w Rynku i rolach na Podlesiu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Panna Regina Miarowiczówna (Zapisała oblig 50 złp na domu w Rynku i rolach na Podlesiu)."
+  },
+  {
+    "lp": 73,
+    "nazwisko": "Dudka",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Sąsiad",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1655",
+        "zapis_oryginalny": "Jan Dudka",
+        "rola": "Sąsiad roli na Podlesiu",
+        "kwota_ctx": "Sąsiad roli na Podlesiu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Jan Dudka (Sąsiad roli na Podlesiu)."
+  },
+  {
+    "lp": 74,
+    "nazwisko": "Łyś",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Sąsiad",
+    "wariant_nazwiska": "Łysy?",
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1655,
+    "zakres_lat": "1655",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1655",
+        "zapis_oryginalny": "Woyciech Łyś",
+        "rola": "Sąsiad roli na Podlesiu",
+        "kwota_ctx": "Sąsiad roli na Podlesiu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w Partii 1 (skany 1–25) Jednostki 18 (sygn. 35/40/0/1/18) jako: Woyciech Łyś (Sąsiad roli na Podlesiu)."
+  }
+]

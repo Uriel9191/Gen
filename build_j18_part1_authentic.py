@@ -1,0 +1,649 @@
+# -*- coding: utf-8 -*-
+import json
+
+UNIT_LINK = 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989891'
+
+part1_scans = [
+    {
+        "nr_skanu": 1,
+        "numer_pozycji": "Poz. 1",
+        "strona_pagina": "Karta metrykalna WAPL (tablica tytułowa)",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1959 [11 Września 1959 r.]",
+        "kategoria": "Kodykologia / Winieta mikrofilmu archiwalnego",
+        "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie; Laboratorium Mikrofilmowe Archiwum Dokumentacji Mechanicznej",
+        "kwoty_podatki": "Nr tomu: 10; Nr mikrofilmu: 110359",
+        "opis_sprawy": "Tablica identyfikacyjna mikrofilmu Wojewódzkiego Archiwum Państwowego w Lublinie dla zespołu Akta Miasta Kraśnika, nr tomu 10, nr mikrofilmu 110359, wykonanego 11 września 1959 r.",
+        "transkrypcja": (
+            "[Karta tytułowa mikrofilmu]\n"
+            "WOJEWÓDZKIE\n"
+            "ARCHIWUM PAŃSTWOWE\n"
+            "LUBLIN\n\n"
+            "AKTA MIASTA: KRAŚNIKA\n"
+            "NR TOMU 10\n"
+            "NR MIKROFILMU 110359\n\n"
+            "LAB. MIKROFILM. ARCH. DOKUM. MECHANICZNEJ\n"
+            "POCZĄTEK\n"
+            "DN. 11 M-C 9 ROK 1959 r."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 2,
+        "numer_pozycji": "Poz. 2",
+        "strona_pagina": "Karta metrykalna WAPL (Wzór Nr 1)",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1959 [1 Kwietnia 1959 r.]",
+        "kategoria": "Kodykologia / Metryczka aktowa WAPL",
+        "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie (ul. Narutowicza 10)",
+        "kwoty_podatki": "Sygnatura archiwalna: 10; Ilość zdjęć: 213; Nr książki kontrolnej: 110.359",
+        "opis_sprawy": "Urzędowa metryczka aktowa (Wzór 1) z 1 kwietnia 1959 r. dla księgi zatytułowanej „Księga m. Kraśnika Protokół Dekretów” (dawna sygnatura archiwalna 10, 213 zdjęć, książka kontrolna 110.359).",
+        "transkrypcja": (
+            "[Karta metrykalna Wzór 1]\n"
+            "Wojewódzkie Archiwum Państwowe w LUBLINIE\n"
+            "ul. Narutowicza 10, tel. 37-19\n"
+            "Wzór 1 — METRYCZKA AKT\n"
+            "Wypełnia archiwum\n"
+            "1. Nazwa Archiwum:\n"
+            "2. Nazwa zespołu lub zbioru: Księga m. Kraśnika Protokół Dekretów\n"
+            "3. Sygnatura archiwalna: 10\n"
+            "4. Data przygotowania akt do mikrofilmowania: 1.IV.1959 r.\n"
+            "5. Ilość zdjęć: 213\n"
+            "6. Nr książki kontrolnej: 110.359"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 3,
+        "numer_pozycji": "Poz. 3",
+        "strona_pagina": "Karta informacyjna mikrofilmu Kraśnik 10",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1959",
+        "kategoria": "Kodykologia / Karta informacyjna paginacji",
+        "osoby_podmioty": "Pracownia Mikrofilmowa WAP w Lublinie",
+        "kwoty_podatki": "Wymiary: 31 x 19,5 cm; Łączna ilość zdjęć: 213",
+        "opis_sprawy": "Karta informacyjna jednostki Kraśnik 10: łączna liczba zdjęć 213, wykaz stron pustych niefilmowanych (`1v, 37, 49`), obmiar księgi: wysokość × szerokość `31 × 19,5 cm`.",
+        "transkrypcja": (
+            "[Karta informacyjna]\n"
+            "Kraśnik 10\n"
+            "KARTA INFORMACYJNA\n"
+            "Łączna ilość zdjęć: 213\n"
+            "Wykaz stron pustych niefilmowanych\n"
+            "1v, 37, 49.\n"
+            "Wymiary dokumentu, obmiar jednostki archiwalnej w cm.\n"
+            "wysokość x szerokość 31 x 19,5"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 4,
+        "numer_pozycji": "Poz. 4",
+        "strona_pagina": "Okładka i nalepka tytułowa woluminu",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653–1702",
+        "kategoria": "Kodykologia / Oprawa i inskrypcja tytułowa",
+        "osoby_podmioty": "Kancelaria miejska kraśnicka",
+        "kwoty_podatki": "Wydarto kart na końcu: 4",
+        "opis_sprawy": "Przednia okładka woluminu z nalepką tytułową z epoki informującą o zawartości protokołu dekretów, kwitacji, manifestów i jednej elekcji od roku 1653, z adnotacją o wydarciu 4 kart na końcu księgi.",
+        "transkrypcja": (
+            "[Okładka przednia — nalepka tytułowa]\n"
+            "Protokół\n"
+            "Dekretów, Kwitacyi, Manifestów i jedney Elekcyi, poczyna się\n"
+            "od Roku 1653. a kończy się w Roku [1662 / 1702?]\n"
+            "W nim na końcu wydarto Kart: 4. W [dalszy napis zatarty]."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 5,
+        "numer_pozycji": "Poz. 5",
+        "strona_pagina": "Wyklejka przednia / karta ochronna",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1625",
+        "kategoria": "Kodykologia i skarbowość / Luźny zapisek poborowy z 1625 r. na wyklejce",
+        "osoby_podmioty": "Zdebik [Zdebik / Zdobyk?]; Feliks [Felix]; Barankowic [Barankowic]",
+        "kwoty_podatki": "grosze (pobór od bramy)",
+        "opis_sprawy": "Wewnętrzna karta ochronna (wyklejka) zawierająca najstarszy luźny zapisek poborowy z roku 1625 o wpłatach „od bramy” (wymienieni: Zdebik [Zdobyk?], Feliks i Barankowic).",
+        "transkrypcja": (
+            "[Wyklejka przednia]\n"
+            "Ro. 1625\n"
+            "Dat jeden Zdebik [Zdobyk?] na [nieczytelne]\n"
+            "od bramy dat —\n"
+            "Felix — groszy —\n"
+            "Barankowic groszy —"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 6,
+        "numer_pozycji": "Poz. 6",
+        "strona_pagina": "Karta przedtytułowa (próbna)",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653",
+        "kategoria": "Kodykologia / Brudnopisowa karta tytułowa Acta Pupillorum",
+        "osoby_podmioty": "Kancelaria miejska kraśnicka",
+        "kwoty_podatki": "brak",
+        "opis_sprawy": "Karta poprzedzająca właściwą kartę tytułową z próbnymi nagłówkami kaligraficznymi `ACTA PUPILLORUM In quibus contineri`.",
+        "transkrypcja": (
+            "[Karta przedtytułowa]\n"
+            "ACTA P.\n"
+            "ACTA PUPILLORUM\n"
+            "In quibus contineri"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 7,
+        "numer_pozycji": "Poz. 7",
+        "strona_pagina": "fol. 1r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653 [poświadczenie 15 X 1827 r.]",
+        "kategoria": "Kodykologia / Karta tytułowa księgi sierocińskiej (Acta Pupillorum) i poświadczenie Sądu Pokoju (1827 r.)",
+        "osoby_podmioty": "Ubaldus Janaszkowic [Janaszkowic] burmistrz kraśnicki; F. Doliński [Doliński?] sędzia pokoju",
+        "kwoty_podatki": "Nr 10",
+        "opis_sprawy": "Uroczysta karta tytułowa księgi *Acta Pupillorum* założonej za urzędowania burmistrza Sławetnego Ubalda Janaszkowica (dla wpisów opiekunów, rachunków opiekuńczych i kwitacji), z dolnym poświadczeniem Sądu Pokoju z 15 października 1827 r. podpisanym przez F. Dolińskiego [?].",
+        "transkrypcja": (
+            "[fol. 1r]\n"
+            "ACTA PUPILLORUM\n"
+            "In quibus contineri debent\n"
+            "Tutores minorennibus assignati\n"
+            "Rationes de Tutellis\n"
+            "Quietationes de iisdem\n"
+            "Residente Proconsule Famato Ubaldo Janaszkowic comparata\n"
+            "ACTA P. ACTA P.\n"
+            "[parafa / podpis nieczytelny]\n"
+            "Nr 10.\n"
+            "[dopisek z XIX w.:] Początkową księgę Sąd Pokoju poświadcza — d. 15 Paź. 827.\n"
+            "F. Doliński [?]"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 8,
+        "numer_pozycji": "Poz. 8",
+        "strona_pagina": "fol. 2r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653 [28 Listopada 1653 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Wyznaczenie opiekunów córkom Tomasza Giży oraz rozliczenie opiekunów dzieci Wojciecha Kłopotka (1653 r.)",
+        "osoby_podmioty": "Tomasz Giża [Giża] zmarły; Katarzyna Giżanka [Giża]; Krystyna Giżanka [Giża]; Zofia Giżanka [Giża]; Szymon Kaczmarczyk [Kaczmarczyk]; Wawrzyniec Sokołowicz [Sokołowicz]; Maciej Koniega [Koniega]; Paweł Kłopotek [Kłopotek]; Wojciech Kłopotek [Kłopotek] zmarły; Sebastian [Sebastian]; Borytkowski [Borytkowski?]",
+        "kwoty_podatki": "złotych 72 (za konia); złotych 24 (za jałówkę); złotych 55 groszy 13 (u Borytkowskiego); złotych 13 groszy 15",
+        "opis_sprawy": "(1) `Feria Sexta ante Festum S. Andreae 1653` (28 XI 1653 r.): Sąd Radziecki wyznacza Szymona Kaczmarczyka i Wawrzyńca Sokołowicza opiekunami małoletnich córek śp. Tomasza Giży (Katarzyny, Krystyny i Zofii); (2) początek rachunku opiekuńczego Macieja Koniegi i Pawła Kłopotka nad sierotami po śp. Wojciechu Kłopotku (sprzedaż konia Sebastianowi za 72 złp, jałówki za 24 złp, rozliczenie długu u Borytkowskiego na 55 złp 13 gr i 13 złp 15 gr).",
+        "transkrypcja": (
+            "[fol. 2r]\n"
+            "Actum Feria Sexta ante Festum S. Andreae Apostoli Anno 1653\n"
+            "Tutores dantur Pupillis Hon. olim Thomae Giża.\n"
+            "Assignati sunt ab Officio Consulari Crasnicensi in veros ac bonos Tutores "
+            "Pupillis derelictis Hon. Catharinae, Christinae et Sophiae filiabus olim "
+            "Hon. Thomae Giża accedente suis cum et bonis exscindentibus et in favorem "
+            "Pupillorum Hon. Simon Kaczmarczyk et Laurentius Sokołowicz Cives Crasnicenses "
+            "absentes tanquam praesentes, quod eis ab Officio praesenti per Bedellum Juris "
+            "denuntiatum esse idque ad affectationem supra dictae Matris prolium coram "
+            "eodem Officio sublevatum.\n"
+            "Inter Hon. Mathiam Koniega ac Kłopotowa viduam et Paulum Kłopotek ex altera "
+            "parte.\n"
+            "Stanowszy przed Urzędem Radzieckim Kraśnickim strony obydwie... wyliczyli "
+            "przy stronach rachunek zostawionych dóbr nieboszczyka Woyciecha Kłopotka... "
+            "naprzód konia sprzedali za złotych siedmdziesiąt y dwa [72 złp] Item na "
+            "krawca... Sebastianowi za złotych siedmdziesiąt y ad rationem kupna wzięła "
+            "jałówka złotych dwadzieścia y cztery [24 złp] a ostatek... Borytkowski "
+            "złotych 55/13 zostaje tedy przy Opiekunie złotych 13/15... Urząd tedy "
+            "ninieyszy Radziecki kraśnicki wysłuchawszy... rachunek..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 9,
+        "numer_pozycji": "Poz. 9",
+        "strona_pagina": "fol. 2v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653 [12 Grudnia 1653 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Dokończenie rozliczenia Kłopotków, dekret w sprawie Jadwigi Główniarki i Katarzyny Błaszczykowej oraz sesja z 12 XII 1653 r.",
+        "osoby_podmioty": "Jadwiga Główniarka [Główniarka / Głównia?] z Suchyni; Katarzyna Błaszczykowa [Błaszczykowa] żona Pawła Błaszczyka; Paweł Błaszczyk [Błaszczyk]; Maciej Koniega [Koniega]",
+        "kwoty_podatki": "złotych 12; złotych 3 (pogrzebowe); groszy 5 (za sukno?); złotych 70",
+        "opis_sprawy": "(1) Dokończenie sprawy Kłopotków (zapisanie 12 złp opiekunowi od dłużników); (2) dekret w sprawie pracowitej Jadwigi z Suchyni przeciw Katarzynie żonie Pawła Błaszczyka o podział rzeczy ruchomych po zmarłym mężu, wydatki na pogrzeb (3 złp) i 70 złp gotówki pozostałej na sieroty; (3) `Feria Sexta post Festum Conceptionis B. M. Virginis 1653` (12 XII 1653 r.): otwarcie kolejnego wpisu przed Maciejem Koniegą.",
+        "transkrypcja": (
+            "[fol. 2v]\n"
+            "Opiekunowi złotych 12 na wysługę sobie od dłużników, a zakaz... od "
+            "dłużników odebrać... z Dekretem ab utraque parte susceptum est.\n"
+            "Inter Laboriosam Hedvigim de Suchynia Actorem ac Catharinam Pauli Błaszczyk "
+            "consortem Citratam.\n"
+            "Na terminie dzisieyszym z dylacyi przypadaiącym z oczewistey stron "
+            "obudwu Urząd ninieyszy Radziecki takowy Dekret uczynił... iż co się "
+            "dotycze płótna, kapot, par dwie... także w pogrzeb wydała Aktorka zł 3 "
+            "y płótna kopa... także co za żywota sprzedał... złotych 70 które "
+            "Aktorka powinna... Decretum ab utraque parte susceptum est.\n"
+            "Actum Feria Sexta post Festum Conceptionis B. M. Virginis proxima Anno 1653\n"
+            "Inter Koniega Actorem..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 10,
+        "numer_pozycji": "Poz. 10",
+        "strona_pagina": "fol. 3r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Dekret w sprawie Macieja Koniegi i Pawła Kłopotka jako opiekunów Gabriela, Jana i Bartłomieja Kłopotków (1653 r.)",
+        "osoby_podmioty": "Maciej Koniega [Koniega] opiekun; Paweł Kłopotek [Kłopotek]; Gabriel Kłopotek [Kłopotek]; Jan Kłopotek [Kłopotek]; Bartłomiej Kłopotek [Kłopotek]; Wojciech Kłopotek [Kłopotek] zmarły",
+        "kwoty_podatki": "rozliczenie pogrzebowe i sukienne",
+        "opis_sprawy": "Dalszy ciąg dekretu w sprawie rozliczenia opiekuńczego Macieja Koniegi (opiekuna) przeciw Pawłowi Kłopotkowi oraz dzieciom zmarłego Wojciecha Kłopotka: Gabrielowi, Janowi i Bartłomiejowi Kłopotkom — zatwierdzenie wydatków pogrzebowych, podziału ruchomości i pokwitowanie opieki po złożeniu przysięgi.",
+        "transkrypcja": (
+            "[fol. 3r]\n"
+            "Inter Hon. Mathiam Koniega Tutorem et Hon. Paulum Kłopotek tum Bartholomaeum, "
+            "Joannem et Gabrielem Kłopotkowie.\n"
+            "Na terminie dzisieyszym z Exekucyi Dekretu sub Actu Feria Sexta ante Festum "
+            "S. Andreae Apostoli coram Officio Consulari Crasnicensi Anno 1653... "
+            "Sąd tedy ninieyszy Radziecki... widząc Dekret... co Gabriel y Bartosz "
+            "Kłopotkowie... pokazali co wydali na pogrzeb iako Rejestra ich świadczą "
+            "y po nieboszczyku Woyciechu... a Aktorka ma wnieść ich... per dictum "
+            "Tutorem suam quietationem... de omnibus perceptis et expensis..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 11,
+        "numer_pozycji": "Poz. 11",
+        "strona_pagina": "fol. 3v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653 [23–27 Grudnia 1653 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Kwitacja opiekunów przez Augustyna Kwasowica oraz proces o spadek po zmarłej w powietrzu Zofii Kwasowskiej (1653 r.)",
+        "osoby_podmioty": "Augustyn Kwasowic [Kwasowic]; Stanisław Nawrocki [Nawrocki] rajca; Szymon Jasielski [Jasielski] ławnik; Maciej Koniega [Koniega] opiekun; Zofia Kwasowska [Kwasowska] zmarła w zarazie; Fabian Kwasowic [Kwasowic] zmarły; Paweł Kłopotek [Kłopotek]",
+        "kwoty_podatki": "rozliczenia rachunkowe",
+        "opis_sprawy": "(1) `Feria 3tia post Festum S. Thomae Apostoli 1653` (23 XII 1653 r.): Augustyn Kwasowic kwituje swoich opiekunów — rajcę Stanisława Nawrockiego i ławnika Szymona Jasielskiego — ze wszystkich dóbr i rachunków; (2) `Sabbato post Festum S. Thomae Apostoli 1653` (27 XII 1653 r.): spór Augustyna Kwasowica przed Sądem Łączonym przeciw opiekunom sierot Kwasowskich (Maciejowi Koniedze i Szymonowi Jasielskiemu) o część po zmarłej w „powietrzu” siostrze Zofii i bracie Fabianie.",
+        "transkrypcja": (
+            "[fol. 3v]\n"
+            "Actum Feria 3tia post Festum S. Thomae Apostoli 1653\n"
+            "Augustinus Kwasowic Quietat Tutores de Tutoria ex Annis praeteritis.\n"
+            "Innotesco hodierno Famatus Augustinus Kwasowic comparens personaliter coram "
+            "Officio Consulari Crasnicensi suo et Tutorum Stanislai Miklasowic [?] ac "
+            "Stanislai Nawrocki et Simonis Jasielski Scabini Jurati Crasnicensis... "
+            "quietat iuxta calculationem...\n"
+            "Actum Coram Officio Composito Consulari Advocati et Scabinali Jurato "
+            "Crasnicensi Sabbato post Festum S. Thomae Apostoli proximo 1653\n"
+            "Inter Famatum Augustinum Kwasowic Actorem et Mathiam Koniega ac Simonem "
+            "Jasielski Tutores Pupillorum Kwasowic citatos.\n"
+            "Stanowszy Augustyn Kwasowic... po nieboszczyku Kwasowicu... części po "
+            "nieboszczce Zofii... która w powietrze zmarła... Sąd tedy ninieyszy "
+            "obopólny Radziecki iako y Wójtowski z Ławnikami przysięgłymi... nakazuie "
+            "aby Actor... przyjął rachunek takowy... specyfikowany..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 12,
+        "numer_pozycji": "Poz. 12",
+        "strona_pagina": "fol. 4r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Szczegółowy rachunek spadkowy po Kwasowicach i zmarłej w powietrzu Zofii (1653 r.)",
+        "osoby_podmioty": "Augustyn Kwasowic [Kwasowic]; Zofia Kwasowska [Kwasowska]; Fabian Kwasowic [Kwasowic]; Tomasz Kwasowic [Kwasowic]; Jakub Sutor [Sutor / Szewc?]; Mikołaj Grzegorzowski [Grzegorzowski?]; Reszka [Reszka]",
+        "kwoty_podatki": "złotych 56; złotych 89; złotych 10; złotych 100; złotych 20; złotych 70; złotych 80; złotych 629; złotych 314 groszy 15; złotych 122 groszy 10; złotych 102",
+        "opis_sprawy": "Szczegółowa specyfikacja rachunków opiekunów sierot Kwasowskich za zboże, wychowanie Zofii, odzież, długi u Jakuba i Tomasza Kwasowiców oraz rozliczenie sukcesji po zmarłej Zofii i bracie Fabianie (`629 złp` wartości całego majątku, z czego połowa `314 złp 15 gr` i dalsze podziały z Reszką i Tomaszem Kwasowicem).",
+        "transkrypcja": (
+            "[fol. 4r]\n"
+            "Specyfikowanie... na dwoje dzieci... po śmierci Zofiey siostry... "
+            "dano złotych 56... rachunek... złotych 89 za zboże wszystko... złotych 100 "
+            "za lat dwie złotych 20... po nieboszczce kupionego za złotych 70... "
+            "od wychowania dziecięcia złotych 80... na dwie części... złotych 70 co "
+            "przyszło Augustynowi Kwasowicowi... złotych 30 względem... dobra według "
+            "szacunku po zmarłey Zofiey... złotych 629... na dwie ich pozostałych to "
+            "iest Jana z Zofią złotych 314 groszy 15... na aktora złotych 122 groszy 10... "
+            "Tomasza Kwasowica złotych 102 u surowa Reszki..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 13,
+        "numer_pozycji": "Poz. 13",
+        "strona_pagina": "fol. 4v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1653",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Dokończenie rozliczenia majątku Kwasowiców (dom za 950 złp, sumy 337 złp 23 gr, 456 złp, 398 złp)",
+        "osoby_podmioty": "Augustyn Kwasowic [Kwasowic]; Tomasz Kwasowic [Kwasowic]; Reszka [Reszka]; Piotr Gierada [Gierada / Gierad?]; Zofia Gieradzina [Gieradzina]; Kaczmarczyk [Kaczmarczyk]",
+        "kwoty_podatki": "złotych 337 groszy 23; złotych 23; złotych 99; złotych 24 groszy 12; złotych 34 groszy 15; złotych 20; złotych 456; złotych 950 (z domem); złotych 398",
+        "opis_sprawy": "Dokończenie rozliczenia spadku Kwasowiców: sumy gotówkowe (`337 złp 23 gr`, `99 złp`, `456 złp` od Węgrów i w Bychawie, `950 złp` z domem, `398 złp` u Kotlarki / Kaczmarczyka), rozliczenia między Piotrem Gieradą, Reszką i Augustynem Kwasowicem oraz obowiązek wystawienia nowej obligacji na rzecz sierot.",
+        "transkrypcja": (
+            "[fol. 4v]\n"
+            "osiemdziesiąt y osm które równe na pieniądz... złotych 30 doteyże sumy "
+            "uczyni suma złotych 337 groszy 23... złotych 99 na zboże według rachunku "
+            "z tych Zofiey Augustynowi Kwasowicowi złotych 24/12 a złotych 34/15... "
+            "złotych 20 za lat dwie... z Reszką i Gieradą który brat... Zofię... "
+            "Reszka z żoną iey... Opiekunom oddać... za złotych 456... w Bychawie "
+            "wyjawi sumę złotych 950 z domem... Opiekunowie maią de novo obligacyią "
+            "od dłużników otrzymać... aże kotlarka wdowa zapłacić przyszła złotych 398..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 14,
+        "numer_pozycji": "Poz. 14",
+        "strona_pagina": "fol. 5r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [6–27 Lutego 1654 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Otwarcie roku 1654: wyznaczenie opiekunów dla Bartłomieja Rodzonka i Adama Zdebika oraz początek działu Szymona Szczygła z Matyaszem Paluchem (1654 r.)",
+        "osoby_podmioty": "Ubaldus Janaszkowic [Janaszkowic] burmistrz; Marcin Sitarski [Sitarski] rajca; Stanisław Nawrocki [Nawrocki] rajca; Maciej Tarasa [Tarasa] rajca; Stanisław Maziewski [Maziewski]; Bartłomiej Rodzonek [Rodzonek] sierota; Gabriel But [But]; Bartłomiej Kulka [Kulka]; Adam Zdebik [Zdebik] sierota; Jan Kozik alias Szczęsny [Kozik / Szczęsny]; Szymon Szczygieł [Szczygieł]; Matyasz Paluch [Paluch]",
+        "kwoty_podatki": "brak",
+        "opis_sprawy": "(1) `ANNUS INCIPIT NOVUS 1654` (`Feria 6ta ipso die Festo S. Dorotheae` = 6 II 1654 r.): przed urzędem radzieckim (Ubaldus Janaszkowic, Marcin Sitarski, Stanisław Nawrocki, Maciej Tarasa) ustanowiono Stanisława Maziewskiego, Gabriela Buta i Bartłomieja Kulkę opiekunami małoletniego Bartłomieja Rodzonka, a Jana Kozika alias Szczęsnego opiekunem Adama Zdebika; (2) `Feria 6ta post Festum S. Mathiae Apostoli 1654` (27 II 1654 r.): otwarcie działu majątkowego między Szymonem Szczygiełem a Matyaszem Paluchem.",
+        "transkrypcja": (
+            "[fol. 5r]\n"
+            "ANNUS INCIPIT NOVUS 1654\n"
+            "Bonum fauste feliciterque\n"
+            "Actum Crasnicii in Domo Famati Domini Ubaldi Janaszkowic eo tempore Proconsulis "
+            "Crasnicensis praesentibus Famatis Dominis Martino Sitarski, Stanislao Nawrocki "
+            "et Mathia Tarasa Consulibus Crasnicensibus Feria 6ta ipso die Festo S. Dorotheae "
+            "Virginis et Martyris proxima Anno Domini 1654\n"
+            "Tutores dantur Rodzonek.\n"
+            "Famati Domini Proconsul et Consules Civitatis Crasnicensis ad postulationem "
+            "Hon. Stanislai Maziewski anteoppidani Crasnicensis Tutores dati et assignati "
+            "sunt per eodem Officio approbati minorennis Bartholomaei Rodzonek Hon. Gabriel But "
+            "Civis Crasnicensis et Bartholomaeus Kulka anteoppidanus Crasnicensis...\n"
+            "Eodem die ab eodem Officio Consulari datus et approbatus est Tutor minorennis "
+            "Adami Zdebik Hon. Joannes Kozik alias Szczęsny Crasnicensis...\n"
+            "Actum Coram Officio Consulari Feria Sexta post Festum S. Mathiae Apostoli "
+            "proxima Anno 1654\n"
+            "Divisio bonorum inter Hon. Simonem Szczygieł et Mathiam Paluch anteoppidanos "
+            "Crasnicenses.\n"
+            "Do Urzędu y Akt ninieyszych Radzieckich Kraśnickich przyszedszy obydwie "
+            "strony Szymon Szczygieł y Matyasz Paluch..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 15,
+        "numer_pozycji": "Poz. 15",
+        "strona_pagina": "fol. 5v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654",
+        "kategoria": "Sprawy opiekuńcze i majątkowe / Dział rodzinny Matyasza Palucha z szwagrem Szymonem Szczygłem po śmierci Zofii Szczygłowej (1654 r.)",
+        "osoby_podmioty": "Matyasz Paluch [Paluch]; Szymon Szczygieł [Szczygieł]; Marcin Sikier [Sikier]; Bartosz Świętek [Świętek]; Wojciech Tokarczyk [Tokarczyk]; Maciej Koniega [Koniega]; Sebastian Węgorek [Węgorek]; Zofia Szczygłówna [Szczygłówna] zmarła żona Palucha",
+        "kwoty_podatki": "złotych 17 (pogrzeb); złotych 14 (krowa); złotych 3; para wołów; para koni",
+        "opis_sprawy": "Szczegółowy dział polubowny między Matyaszem Paluchem (zięciem) a Szymonem Szczygiełem (szwagrem) zawarty przy pośrednictwie przyjaciół (Marcin Sikier, Bartosz Świętek, Wojciech Tokarczyk, Maciej Koniega, Sebastian Węgorek): przekazanie wołów, krów, koni, jałówki, odliczenie `17 złp` za pogrzeb ojca i `14 złp` za krowę, darowanie `3 złp` przez Szczygła.",
+        "transkrypcja": (
+            "[fol. 5v]\n"
+            "Divisio bonorum inter Mathiam Paluch et Simonem Szczygieł.\n"
+            "Między Uczciwymi Matyaszem Paluchem z iedney a Szymonem Szczygiełem szwagrem "
+            "z drugiey strony... za przyiacielskim rozważeniem przez Uczciwych Marcina "
+            "Sikiera, Bartosza Świętka, Woyciecha Tokarczyka przedmieszczanów kraśnickich "
+            "y ze strony Szymona Szczygła zięcia iego Uczciwego Macieia Koniegę, "
+            "Sebestyana Węgorka... postanowili dać Matyaszowi Paluchowi wołów parę, "
+            "krowę z cielęciem... zięciowi swoiemu przyrzekli dać krowę y jałówkę, a iż "
+            "Szymon Szczygieł wydał na pogrzeb Oyca zmarłego zł 17 tedy mu za to przydali "
+            "dać krowę którą szacowano za zł 14... gdyż niedostawało zł 3 tedy pomieniony "
+            "Szymon Szczygieł z dobrey woli odpuścił te zł 3... wotow zaś parę będąc za "
+            "Dąbrowskiego przedał..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 16,
+        "numer_pozycji": "Poz. 16",
+        "strona_pagina": "fol. 6r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654",
+        "kategoria": "Sprawy opiekuńcze i majątkowe / Dokończenie działu Palucha ze Szczygiełem: grunty, chałupa i kary wadium (1654 r.)",
+        "osoby_podmioty": "Szymon Szczygieł [Szczygieł]; Matyasz Paluch [Paluch]; Zofia Paluchowa [Paluchowa] zmarła; Kordek [Kordek?]; Grzebieniowski [Grzebieniowski]; Suchyński [Suchyński?]",
+        "kwoty_podatki": "złotych 90; grzywien 30 (wadium); grzywien 20 (wójtowi); grzywien 10 (pisarzowi?)",
+        "opis_sprawy": "Dokończenie działu majątkowego Szymona Szczygła z Matyaszem Paluchem: rozliczenie `90 złp` długów i wiana po zmarłej żonie Zofii, podział chałupy, ogrodu i ćwierci roli (od granic Kordkowych aż do granic Suchyńskich, z wymienieniem sąsiedztwa Grzebieniowskiego) pod wadium `30`, `20` i `10` grzywien.",
+        "transkrypcja": (
+            "[fol. 6r]\n"
+            "y stanowił który rachunek Szymon Szczygieł przyjął... Matyaszowi Paluchowi "
+            "złotych 90... żona iego a matka żony... po żonie Zofii została... "
+            "grzywien 30 tedy mu Szczygieł grzywien 20 zapłaci a Paluchowi grzywien 10... "
+            "Matyasz Paluch ma siedzieć... chałupę tę mieć będzie... wszelakie podatki "
+            "mieyskie płacić poki będzie mieszkał... na gruncie samego też równica "
+            "puścić ćwierć z ogrodem y z budynkiem Szymonowi Szczygłowi począwszy od "
+            "granic Kordkowych aż do granic Suchyńskich... pod zakładem grzywien 30, "
+            "grzywien 20..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 17,
+        "numer_pozycji": "Poz. 17",
+        "strona_pagina": "fol. 6v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [4 Marca 1654 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Skarga Benedykta Nowaka i Elżbiety przeciw opiekunom Szymonowi Sękowi, Stanisławowi Ciszkowicowi oraz matce Marynie Stolskiej (4 III 1654 r.)",
+        "osoby_podmioty": "Szymon Szczygieł [Szczygieł]; Matyasz Paluch [Paluch]; Benedykt Nowak [Nowak]; Elżbieta Nowakówna [Nowakówna]; Szymon Sęk [Sęk] opiekun; Stanisław Ciszkowic [Ciszkowic] opiekun; Maryna Stolska [Stolska / Ciasnosukowa?]; Marcin Stolski [Stolski] mąż Maryny; Matyasz Dudka [Dudka] zmarły drugi mąż; Wojciech [Wojciech] i Stanisław [Stanisław] dawni opiekunowie",
+        "kwoty_podatki": "grzywien 20 (radcom); grzywien 10 (wójtowi); grzywien 10 (szpitalowi); grzywien 5 (pisarzowi)",
+        "opis_sprawy": "(1) Dokończenie kar działu Palucha ze Szczygiełem (podział grzywien na radców, wójta, szpital i pisarza); (2) `Feria 4ta post Dominicam Reminiscere 1654` (4 III 1654 r.): Benedykt Nowak z rodzoną siostrą Elżbietą skarżą opiekunów Szymona Sęka i Stanisława Ciszkowica oraz matkę Marynę Stolską (po śmierci pierwszego męża Nowaka wyszłą za Matyasza Dudkę, a następnie za Marcina Stolskiego) o brak rachunków z opieki przez 7 lat.",
+        "transkrypcja": (
+            "[fol. 6v]\n"
+            "grzywien 20 Panom Raycom kraśnickim, grzywien 10 Panu Wójtowi kraśnickiemu, "
+            "grzywien 10 do Szpitala, grzywien 5 y tydzień siedzieć w więzieniu... "
+            "Acta sunt haec et roborata.\n"
+            "Actum Coram Officio Consulari Feria 4ta post Dominicam Reminiscere proxima "
+            "Anno 1654\n"
+            "Inter Benedictum Nowak et Sororem eius Helizabet ac Hon. Simonem Sęk et "
+            "Stanislaum Ciszkowic Cives Crasnicenses Tutores eorum Actores, ac Marinam "
+            "Stolska consortem eius Ciasnosukowa [?] anteoppidanam Crasnicensem Citatos.\n"
+            "Swobodny Benedykt Nowak spolnie z siostrą swą rodzoną Elżbietą skarżyli się "
+            "przez Uczciwych Szymona Sęka y Stanisława Ciszkowica Opiekunów swoich... "
+            "na Marynę Stolską... iż nieboszczyk pierwszy małżonek iey Matias Dudka "
+            "będąc opiekunem tychże sierot po śmierci nieboszczyka Oyca ich Nowaka przez "
+            "lat siedm żadnego rachunku nie uczynił..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 18,
+        "numer_pozycji": "Poz. 18",
+        "strona_pagina": "fol. 7r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [4 Marca 1654 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Rejestr wydatków i dekret w sprawie sierot Nowaków przeciw Marynie Stolskiej (1654 r.)",
+        "osoby_podmioty": "Benedykt Nowak [Nowak]; Elżbieta Nowakówna [Nowakówna]; Maryna Stolska [Stolska]; Łukasz Szydło [Szydło] szewc?; Wojciech Dudka [Dudka] brat; Matyasz Dudka [Dudka] zmarły",
+        "kwoty_podatki": "złotych 48; złotych 40; złotych 167 groszy 17; złotych 40 (chleb); złotych 23 groszy 10 (Łukasz Szydło); złotych 17 groszy 27 (Wojciech Dudka); złotych 113 groszy 22; złotych 313 groszy 25",
+        "opis_sprawy": "Szczegółowy rejestr sum i wydatków przedstawiony przed Sądem Radzieckim w sprawie Benedykta i Elżbiety Nowaków: `48 złp` za zboże, `40 złp` za sady, `167 złp 17 gr` percepty, wydatki na naukę, odzież, chleb (`40 złp`), dla Łukasza Szydła (`23 złp 10 gr`), Wojciecha Dudki brata nieboszczyka (`17 złp 27 gr`), razem wydatków `113 złp 22 gr`, pozostała suma czysta `313 złp 25 gr`; dekret nakazujący Marynie Stolskiej zwrot pozostałych ruchomości i złożenie przysięgi.",
+        "transkrypcja": (
+            "[fol. 7r]\n"
+            "Urząd tedy one Regestra wziąwszy y one dobrze porachowawszy pokazało się "
+            "w nich percepty... złotych 48 za zboże... złotych 40 za sady... suma "
+            "percepty złotych 167 groszy 17. Expensa która przy stronach była czyniona: "
+            "na chleb złotych 40, u szewca Łukasza Szydła złotych 23 groszy 10, u "
+            "Woyciecha Dudki brata nieboszczykowskiego złotych 17 groszy 27... na "
+            "wychowanie y naukę... suma wydatków pokazała się złotych 113 groszy 22. "
+            "Reszt tedy z porachowania Rejestru przychodzi sierotom złotych 313 groszy 25... "
+            "Decretum: Urząd tedy ninieyszy Radziecki... nakazuie iż pomieniona Maryna "
+            "Stolska powinna będzie zapłacić... y przysięgę na urząd wykonać..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 19,
+        "numer_pozycji": "Poz. 19",
+        "strona_pagina": "fol. 7v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [4 Maja 1654 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Dokończenie dekretu Nowaków, cesja Elżbiety Nowakówny przed wyjazdem do Lublina oraz wyznaczenie opiekuna Doroty Kańkowej (4 V 1654 r.)",
+        "osoby_podmioty": "Elżbieta Nowakówna [Nowakówna]; Benedykt Nowak [Nowak]; Maryna Stolska [Stolska]; Matyasz Dudka [Dudka] opiekun; Dorota Kańkowa [Kańkowa] wdowa; Augustyn Kwasowic [Kwasowic]",
+        "kwoty_podatki": "złotych 313 groszy 25; złotych 40",
+        "opis_sprawy": "(1) Dokończenie dekretu Nowaków (zapisanie `313 złp 25 gr` i `40 złp` dla sierot); (2) po ogłoszeniu dekretu Elżbieta Nowakówna przed wyjazdem na służbę do Lublina zrzeka się swojej części i ceduje wszelkie prawa bratu rodzonemu Benedyktowi Nowakowi; (3) `Feria 2da post Dominicam Cantate 1654` (4 V 1654 r.): wyznaczenie Augustyna Kwasowica opiekunem wdowy Doroty Kańkowej.",
+        "transkrypcja": (
+            "[fol. 7v]\n"
+            "dobra zadnych nieboszczyka męża swego... po nieboszczyku mężu pierwszey "
+            "opieki... z tych sum złotych 313/25 maią sobie requirować na dobrach "
+            "Matyasa Dudki Opiekuna tych sierot... także złotych 40 które są na "
+            "sukcesyą... Decretum ab utraque parte susceptum est.\n"
+            "Post quod latum Decretum Helizabet Nowakówna soror rodzoną będąc przed "
+            "urzędem ninieyszym prosiła aby mogła bydź wolna od tego... gdyż do "
+            "Lublina mieszkać idzie y gotowa to wszystko przyiąć cokolwiek albo "
+            "bratu swemu rodzonemu Benedyktowi darowała... Actum ut supra.\n"
+            "Actum Feria 2da post Dominicam Cantate 1654\n"
+            "Famati Domini Proconsul et Consules Civitatis Crasnicensis ex debito "
+            "Officii sui ad postulationem Hon. Dorotheae Kańkowa viduae... "
+            "assignaverunt eidem Tutorem Famatum Augustinum Kwasowic..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 20,
+        "numer_pozycji": "Poz. 20",
+        "strona_pagina": "fol. 8r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [18 Maja 1654 r.]",
+        "kategoria": "Inwentarze pośmiertne i opieka / Wyznaczenie opiekuna Zofii Kamińskiej oraz początek inwentarza dóbr po śp. Stanisławie Rodzonku dla Bartłomieja Rodzonka (18 V 1654 r.)",
+        "osoby_podmioty": "Zofia Kamińska [Kamińska] wdowa; Jan Kępa alias Sołecki [Kępa / Sołecki]; Stanisław Rodzonek [Rodzonek] zmarły; Bartłomiej Rodzonek [Rodzonek] sierota; Ubaldus Janaszkowic [Janaszkowic] burmistrz; Maciej Tarasa [Tarasa] rajca; Marcin Sitarski [Sitarski] rajca; Stanisław Nawrocki [Nawrocki] rajca; Gabriel But [But] opiekun; Bartłomiej Kulka [Kulka] opiekun; Sebastian Piotrowski [Piotrowski]; Stanisław Maziewski [Maziewski]",
+        "kwoty_podatki": "opis zabudowań (dwie izby, komory, zamki)",
+        "opis_sprawy": "(1) Wyznaczenie Jana Kępy alias Sołeckiego opiekunem wdowy Zofii Kamińskiej; (2) `Feria 2da post Dominicam Exaudi 1654` (18 V 1654 r.): urzędowy inwentarz dóbr ruchomych i nieruchomych po zmarłym Stanisławie Rodzonku spisany dla syna Bartłomieja Rodzonka przez delegowanych rajców Marcina Sitarskiego i Stanisława Nawrockiego w obecności opiekunów Gabriela Buta i Bartłomieja Kulki — opis gruntu od przedmieszczanina Kaczmarczyka do Sebastiana Piotrowskiego i Łowickiego, opis domu z dwiema izbami, komorami, piecami i oknami.",
+        "transkrypcja": (
+            "[fol. 8r]\n"
+            "Sub eodem Actu\n"
+            "Ad instantiam Hon. Viduae Zophiae Kamińska datus et assignatus est Tutor "
+            "ab eodem Officio Consulari Hon. Joannes Kępa alias Sołecki qui inscriptus est...\n"
+            "Actum Feria 2da post Dominicam Exaudi 1654\n"
+            "Inventarium bonorum mobilium et immobilium olim Hon. Stanislai Rodzonek "
+            "anteoppidani Crasnicensis derelictorum.\n"
+            "Famati Domini Ubaldus Janaszkowic, Mathias Tarasa et Martinus Sitarski "
+            "Cives et Consules Crasnicenses ex brachio Famati Domini Stanislai Nawrocki "
+            "eo tempore Proconsulis Crasnicensis missi et deputati erant ad videnda et "
+            "conspicienda, inventandaque bona post olim Hon. Stanislaum Rodzonek "
+            "anteoppidanum Crasnicensem Bartholomaeo Rodzonek filio suo derelicto in "
+            "praesentia Hon. Gabrielis Buta et Bartholomaei Kulka Tutorum eiusdem "
+            "Bartholomaei Rodzonek...\n"
+            "Naprzód grunt w przedmieściu Zarzeczu leżący między miedzami z iedney "
+            "Sebestyana Piotrowskiego a z drugiey strony Łowickiego... dom w którym "
+            "mieszkał Stanisław Maziewski z Janem Kaczmarczykiem... w tym domu izb "
+            "dwie y z komorami dwiema, izba iedna biała z oknami..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 21,
+        "numer_pozycji": "Poz. 21",
+        "strona_pagina": "fol. 8v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654 [18 Maja 1654 r.]",
+        "kategoria": "Inwentarze pośmiertne / Dokończenie inwentarza po Stanisławie Rodzonku: sprzęty domowe, narzędzia rolnicze, zabudowania gospodarcze, sad i trzy ćwierci roli (1654 r.)",
+        "osoby_podmioty": "Stanisław Rodzonek [Rodzonek] zmarły; Sebastian Piotrowski [Piotrowski]; Stanisław Maziewski [Maziewski]; Łowicki [Łowicki]; Grzebieniowski [Grzebieniowski]; Józef [Józef]",
+        "kwoty_podatki": "inwentarz ruchomości i 3 ćwierci roli",
+        "opis_sprawy": "Dalszy ciąg inwentarza po Stanisławie Rodzonku: szczegółowy spis sprzętów izby i komory (stół dębowy, ławy, szafa niewielka, skrzynie, ceber, beczka kapustna, dzieża chlebowa, żelaza płużne, siekiery), budynków podwórzowych (stodoła, wozownia, chlewy dla bydła i świń, sad wiśniowy i śliwowy) oraz trzech ćwierci roli (w tym jednej na Piasku między Łowickim a Grzebieniowskim).",
+        "transkrypcja": (
+            "[fol. 8v]\n"
+            "okna dwie szklane w ołów robione... stołek dębowy... szafa niewielka, "
+            "stolik na kozłach... w komorze skrzynia z zamkiem... żelaza płużne... "
+            "ceber, beczka kapustna... dzieża chlebowa, skrzynia druga z połowicą "
+            "wieka... stodoła, podług niega wozownia... chlewów dwa dla bydła y świń... "
+            "sad wiśniowy y śliwowy... od ogroda kapuścianego... gruntu zaś pierwsza "
+            "ćwierć między miedzami Sebestyana Piotrowskiego... druga ćwierć między "
+            "Stanisławem Maziewskim... ćwierć trzecia na przedmieściu Piasku między "
+            "Łowickim a Grzebieniowskim... w ogrodzie przy Józefowym..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 22,
+        "numer_pozycji": "Poz. 22",
+        "strona_pagina": "fol. 9r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1654–1655 [12 VIII 1654 – 12 VII 1655 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Zakończenie inwentarza Rodzonka, opiekun Jakuba Paczanowskiego (12 VIII 1654 r.) oraz otwarcie roku 1655 (12 VII 1655 r.)",
+        "osoby_podmioty": "Sebastian Piotrowski [Piotrowski]; Stanisław Rodzonek [Rodzonek]; Łukasz Paczanowski [Paczanowski]; Jakub Paczanowski [Paczanowski] małoletni; Jan Kępa alias Hanus [Kępa / Hanus?]",
+        "kwoty_podatki": "brak",
+        "opis_sprawy": "(1) Zakończenie inwentarza dóbr Stanisława Rodzonka (opis ogrodu śliwowego przy Sebastianie Piotrowskim i przyjęcie dokumentu przez opiekunów); (2) `Feria 4ta ante Festum Assumptionis B. M. Virginis 1654` (12 VIII 1654 r.): wyznaczenie Łukasza Paczanowskiego opiekunem małoletniego Jakuba Paczanowskiego (wzmiankowany Jan Kępa alias Hanus); (3) `ANNUS INCIPIT NOVUS 1655` (`Feria 2da ante Festum S. Margarethae` = 12 VII 1655 r.): otwarcie roku 1655 przed Sądem Łączonym.",
+        "transkrypcja": (
+            "[fol. 9r]\n"
+            "śliwowy także ogród... od Sebestyana Piotrowskiego... Quod quidem Inventarium "
+            "ad affectationem supradictorum Tutorum Officium approbavit...\n"
+            "Actum Coram Officio Consulari Feria 4ta ante Festum Assumptionis B. M. "
+            "Virginis proxima 1654\n"
+            "Tutor datur Lucae Paczanowski.\n"
+            "Famati Domini Proconsul et Consules Cives Crasnicenses ex debito Officii "
+            "sui ad postulationem Hon. Jacobi Paczanowski datus et assignatus est Tutor "
+            "minorenni Lucae Paczanowski [?] Hon. Joannes Kępa alias Hanus anteoppidanus "
+            "Crasnicensis...\n"
+            "ANNUS INCIPIT NOVUS 1655 quintus\n"
+            "Actum Coram Officio Composito Consulari Advocati et Scabinali Jurato "
+            "Crasnicensi Feria 2da ante Festum S. Margarethae Virginis et Martyris "
+            "proxima Anno Domini 1655 quinto\n"
+            "Ratio Tutorum"
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 23,
+        "numer_pozycji": "Poz. 23",
+        "strona_pagina": "fol. 9v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1655 [12 Lipca 1655 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Rachunek opiekunów Macieja Koniegi i Wojciecha Olęckiego nad dobrami po Janie Miarowicu (1655 r.)",
+        "osoby_podmioty": "Maciej Koniega [Koniega] ławnik i opiekun; Wojciech Olęcki [Olęcki] opiekun; Jan Miarowic [Miarowic] zmarły małoletni; Augustyn Kwasowic [Kwasowic] ławnik; Piasecki [Piasecki]; Jan Wójcik [Wójcik]; Stanisław Kowal [Kowal]; Kotlarka [Kotlarka] wdowa",
+        "kwoty_podatki": "złotych 100 (od Piaseckiego); złotych 109 (od Jana Wójcika); złotych 30; złotych 20; złotych 50 (od Stanisława Kowala); złotych 7 (od Kotlarki); złotych 150; złotych 33; złotych 79; złotych 30; złotych 65 groszy 15",
+        "opis_sprawy": "Szczegółowy rachunek Sławetnego Macieja Koniegi ławnika i Wojciecha Olęckiego mieszczanina kraśnickiego, opiekunów dóbr małoletniego Jana Miarowica, złożony wobec Augustyna Kwasowica za lata 1653–1655: przychody od Piaseckiego (`100 złp`), Jana Wójcika (`109 złp`, `30 złp` i `20 złp`), Stanisława Kowala (`50 złp`), Kotlarki wdowy (`7 złp`), Złotnikowej (`150 złp`), kompromisu (`33 złp`) oraz wydatki (`79 złp`, `30 złp` na naprawę domu, `65 złp 15 gr` na wychowanie dziewicy w komorze wójtowskiej).",
+        "transkrypcja": (
+            "[fol. 9v]\n"
+            "Ratio Famati Mathiae Koniega et Honesti Alberti Olęcki Tutorum minorennis "
+            "Joannis Miarowic de bonis eiusdem Miarowic.\n"
+            "Sławetni Maciey Koniega Ławnik Przysięgły krasnicki wespól z uciwym "
+            "Woyciechem Olęckim Mieszczaninem krasnickim Opiekunowie dobr małoletniego "
+            "Jana Miarowica oddawszy rachunek z wydanych dobr... wobec Sławetnego "
+            "Augustyna Kwasowica Ławnika Przysięgłego krasnickiego... od Piaseckiego "
+            "od złotych 100 pożyczanych za lat trzy... złotych 30 od Jana Woycika od "
+            "sumy złotych 109 pożyczanych także interes zatrzymany za lat dwie... "
+            "złotych 20 od Stanisława Kowala od sumy złotych 50 pożyczanych... "
+            "od Kotlarki wdowy... złotych 7... od Złotnikowey za krowę... złotych 150... "
+            "według kompromisu wzięli złotych 33... Expensa tego pokazali takowe... "
+            "złotych 79... na oprawę domu oddali złotych 30 według Dekretu... "
+            "na wychowanie dziewicy złotych 65/15 (z których złotych 30 które Kotlarka dała)..."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 24,
+        "numer_pozycji": "Poz. 24",
+        "strona_pagina": "fol. 10r",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1655 [12 Lipca 1655 r.]",
+        "kategoria": "Sprawy opiekuńcze (Acta Pupillorum) / Dekret zatwierdzający rachunek opiekunów Miarowica i zeznanie długu 50 złp przez ławnika Augustyna Kwasowica (1655 r.)",
+        "osoby_podmioty": "Maciej Koniega [Koniega] opiekun; Wojciech Olęcki [Olęcki] opiekun; Jan Miarowic [Miarowic] zmarły; Regina Miarowiczówna [Miarowiczówna] sierota; Augustyn Kwasowic [Kwasowic] ławnik przysięgły",
+        "kwoty_podatki": "złotych 30; złotych 15; złotych 20; złotych 100; grzywien 10; złotych 50",
+        "opis_sprawy": "(1) Dokończenie rozliczenia opiekunów Macieja Koniegi i Wojciecha Olęckiego (opiekunowie rezerwują sobie pretensje względem wychowania dziewicy); (2) `Decretum`: Sąd Radziecki i Wójtowski zatwierdza regestry opiekunów Miarowica, przyznaje `30 złp` komornego, `15 złp` i `20 złp` na warsztat i utrzymanie dziewicy, a za rok 1654 sumę czystą `100 złp` oraz nakazuje Augustynowi Kwasowicowi i opiekunom prowadzenie dalszego rachunku pod karą 10 grzywien; (3) własnoręczny dopisek ławnika Augustyna Kwasowica potwierdzający dług `50 złp` wobec opiekunów Miarowica.",
+        "transkrypcja": (
+            "[fol. 10r]\n"
+            "Opiekunowie obwarowali sobie względem wychowania dziecięcia...\n"
+            "Decretum\n"
+            "Urząd tedy ninieyszy obopolny tak Radziecki iako y Wójtowski z Ławnikami "
+            "Krasnickimi... według Regestru Panów Opiekunów... złotych 30 które "
+            "Kotlarka... na wychowanie tego Jana Miarowica... złotych 15 z dochodów "
+            "dóbr tego sieroty... złotych 20 za warsztat... Opiekunowie maią sobie "
+            "odebrać... za rok 1654 in summa złotych 100... pod grzywien 10... aby "
+            "za rok 1655 odebrać y dalsze starania czynić o tym sierocie małoletniey "
+            "a to pod rygorem... do akt ninieyszych przysięgłych zapisać.\n"
+            "Famatus Augustinus Kwasowic Scabinus Juratus Crasnicensis recognoscit "
+            "debitum flor. 50 Tutoribus Miarowic."
+        ),
+        "link_swa": UNIT_LINK
+    },
+    {
+        "nr_skanu": 25,
+        "numer_pozycji": "Poz. 25",
+        "strona_pagina": "fol. 10v",
+        "sygnatura": "35/40/0/1/18",
+        "data_rok": "1655",
+        "kategoria": "Sprawy opiekuńcze i obligi / Zapis obligu na 50 złp przez Reginę Miarowiczównę na domu w Rynku i rolach na Podlesiu za zgodą opiekunów (1655 r.)",
+        "osoby_podmioty": "Regina Miarowiczówna [Miarowiczówna] sierota; Stanisław Nawrocki [Nawrocki] rajca; Wojciech Olęcki [Olęcki] opiekun; Jan Miarowic [Miarowic] zmarły; Jan Dudka [Dudka]; Wojciech Łyś [Łyś / Łysa?]",
+        "kwoty_podatki": "złotych 50 (wyderkaf / czynsz roczny); dom w Rynku; role na Podlesiu",
+        "opis_sprawy": "Przed Sądem Radzieckim Regina Miarowiczówna (siostra/córka po Miarowicu) za zgodą opiekuna Wojciecha Olęckiego (przy obecności Stanisława Nawrockiego) zeznaje oblig na `50 złp` pożyczonych na wyderkaf, zabezpieczając tę sumę na domu w Rynku kraśnickim oraz rolach na przedmieściu Podlesie (między miedzami Jana Dudki i Wojciecha Łysia [Łysego?]) z obowiązkiem płacenia rocznego czynszu kościołowi / szpitalowi.",
+        "transkrypcja": (
+            "[fol. 10v]\n"
+            "Przed Urzędem y Aktami ninieyszemi Radzieckiemi Kraśnickiemi... "
+            "stanowszy... z opiekunem swoim... Panna Regina Miarowiczówna... za "
+            "wiadomością y zezwoleniem Opiekuna swego Woyciecha Olęckiego... iż z "
+            "własney potrzeby dłużną pozostała... sumę złotych polskich pięćdziesiąt "
+            "[50 złp]... Stanisławowi Nawrockiemu Raycy krasnickiemu y Woyciechowi "
+            "Olęckiemu Opiekunom małoletniego Jana Miarowica... obliguie się na "
+            "dobrach swoich wszystkich tu w Kraśniku... osobliwie dom w Rynku "
+            "kraśnickim między miedzami Stanisława Nawrockiego Rayce krasnickiego z "
+            "iedney strony a domu tegoż nieboszczyka Miarowica, także y na ścierni "
+            "roli która leży na Przedmieściu Podlesiu między miedzami Jana Dudki z "
+            "iedney strony a z drugiey strony Woyciecha Łysia Przedmieszczanów "
+            "kraśnickich... złotych 50..."
+        ),
+        "link_swa": UNIT_LINK
+    }
+]
+
+with open('/home/ubuntu/workspace/Gen/main_data_j18_part1.json', 'w', encoding='utf-8') as f:
+    json.dump(part1_scans, f, ensure_ascii=False, indent=2)
+
+print(f"SUCCESS: main_data_j18_part1.json saved with {len(part1_scans)} scans.")
