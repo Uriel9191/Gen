@@ -1240,7 +1240,7 @@ html_template = f"""{head_part}
     <div class="header-badge">ARCHIWUM PAŃSTWOWE W LUBLINIE • SYGN. 35/40/0/1/17 (DAWNY TOM 12 / MIKR. 110404)</div>
     <h1>Akta Miasta Kraśnika (1651–1759)</h1>
     <p class="header-subtitle">
-      Obszerny kodeks czynności sądownictwa wójtowsko-ławniczego i sądu łączonego: sesje z 1700, 1730–1731 i 1753–1754 r. oraz wszyte poszyty z 1651, 1694, 1726 i 1729 r. – procesy o zabójstwa, cechy, obrót kamienicami rynkowymi oraz słownik genealogiczny (Partie 1–13: 325 skanów).
+      Obszerny kodeks czynności sądownictwa wójtowsko-ławniczego i sądu łączonego: sesje z 1700, 1730–1731 i 1752–1759 r. oraz wszyte poszyty z 1651, 1694, 1726 i 1729 r. – procesy o zabójstwa, cechy, obrót kamienicami rynkowymi oraz słownik genealogiczny (100% woluminu: 776 skanów).
     </p>
   </header>
 
@@ -1382,11 +1382,6 @@ html_template = f"""{head_part}
           <div class="stat-value">100%</div>
           <div class="stat-desc">Pełna synchronizacja z wyszukiwarką</div>
         </div>
-      </div>
-
-      <div class="info-box">
-        <strong>🌳 Zasady Metodyczne Słownika Genealogicznego (Wariant 2):</strong><br>
-        Każda osoba fizyczna posiada dokładnie <strong>jeden unikalny profil</strong> w bazie (z rozróżnieniem epok 1651 i 1700 r.). Wszelkie warianty fonetyczne i oboczności paleograficzne odnotowane w nawiasach kwadratowych transkrypcji zostały zintegrowane w dedykowanym polu wariantów i są w pełni przeszukiwalne przez poniższą wyszukiwarkę na żywo. Kliknij w wiersz osoby, aby otworzyć szczegółowy modal z wykazem wszystkich jej wystąpień w kodeksie.
       </div>
 
       <div class="controls-panel">
@@ -1797,7 +1792,6 @@ html_template = f"""{head_part}
       
       const tabsBar = document.getElementById('modalTabsBar');
       if (tabsBar) tabsBar.style.display = 'flex';
-      switchModalTab('meta');
 
       const transFormatted = item.transkrypcja ? escapeHtml(item.transkrypcja).replace(/\\n/g, '<br>') : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
       const opis = item.opis_pozycji || item.opis_sprawy || '';
@@ -1858,6 +1852,7 @@ html_template = f"""{head_part}
         </div>
       `;
 
+      switchModalTab('meta');
       document.getElementById('detailModal').style.display = 'block';
     }}
 
@@ -1934,19 +1929,13 @@ html_template = f"""{head_part}
     }}
 
     function switchModalTab(tabKey) {{
-      document.querySelectorAll('.modal-tab-btn').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('.modal-tab-content').forEach(c => c.style.display = 'none');
-
-      if (tabKey === 'meta') {{
-        document.getElementById('tabBtnMeta').classList.add('active');
-        document.getElementById('modalTabContentMeta').style.display = 'block';
-      }} else if (tabKey === 'trans') {{
-        document.getElementById('tabBtnTrans').classList.add('active');
-        document.getElementById('modalTabContentTrans').style.display = 'block';
-      }} else if (tabKey === 'link') {{
-        document.getElementById('tabBtnLink').classList.add('active');
-        document.getElementById('modalTabContentLink').style.display = 'block';
-      }}
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {{
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      }});
     }}
 
     function closeModal() {{
