@@ -101,7 +101,7 @@
 100;Dziernatek;Maciej;Dziernatko / Matyias Dziernatek;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki;1700;1;30
 101;Dziernatkowa;Anna;Dziernatkowa;Przedmieście Kraśnickie;Przedmieszczanka kraśnicka;1700;1;30
 102;Podkański;Andrzej;Podkański?;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki;1700;1;30
-103;Szymura;Stanisław;Szymura / Szymura?;Kraśnik;Ławnik miejski kraśnicki;1700;3;31, 86, 102
+103;Szymura;Stanisław;Szymura / Szymura?;Kraśnik;Ławnik miejski kraśnicki;1700–1731;4;31, 86, 102, 293
 104;Kulaf;Wawrzyniec;Kulaf;Kraśnik;Ławnik miejski kraśnicki;1700;1;31
 105;Kuparka;Szymon;Kupareczka? / Kuparka;Wilkołaz;Pasterz dworski / Skazaniec na stos;1700;5;31, 32, 33, 46, 47
 106;Łukasz;Pan;Łukasz z Wyżnicy;Wyżnica;Szlachcic / Posesjonat w Wyżnicy;1700;1;31
@@ -361,7 +361,7 @@
 360;Zamoyska;Anna z Gnińskich;Zamoyska?;Ordynacja Zamoyska;Mieszczanin / Obywatel;1700;2;91, 197
 361;Szymatowska;Teresa;;Kraśnik;Mieszczanin / Obywatel;1700;2;92, 207
 362;Bielski;Lewek;Bielski?;Kraśnik;Mieszczanin / Obywatel;1700;1;93
-363;Piasecki;Bartłomiej;Piasecki?;Przedmieście Piaski;Mieszczanin / Obywatel;1700;1;93
+363;Piasecki;Bartłomiej;Piasecki? / Bartosz Piasecki;Przedmieście Piaski;Mieszczanin / Obywatel;1700–1731;3;93, 280, 281
 364;Stafica;Kazimierz;Stafica?;Kraśnik;Mieszczanin / Obywatel;1700;2;93, 104
 365;Warchoł;Jakub;Warchoł?;Kraśnik;Mieszczanin / Obywatel;1700;1;94
 366;Koziykowicz;Kazimierz;Kozik?;Kraśnik;Mieszczanin / Obywatel;1700;1;94
@@ -557,7 +557,7 @@
 556;Brozda;Matyasz;Brzezda?;Wojsławice;Mieszczanin / Obywatel;1700;1;134
 557;Hanna;Bratanica;;Kraśnik;Mieszczanin / Obywatel;1700;1;134
 558;Gordal;Walenty;;Kraśnik;Mieszczanin / Obywatel;1700;1;134
-559;Tokarczyk;Matyasz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1700;1;136
+559;Tokarczyk;Matyasz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1700–1731;3;136, 294, 295
 560;Łabęcki;Bartosz;Kanonik sandomierski;Sandomierz;Mieszczanin / Obywatel;1700;1;136
 561;Sulinowski;Kowal;Rzemieślnik / Kowal;Kraśnik;Mieszczanin / Obywatel;1700;1;136
 562;Łastówka;Stanisław;Łąstówka?;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1700;2;136, 137
@@ -807,42 +807,42 @@
 806;Truskawka;Szymon;;Kraśnik;Mieszczanin / Obywatel;1730–1731;3;232, 234, 249
 807;Sawka;Wojciech;;Kraśnik;Mieszczanin / Obywatel;1730–1731;2;232, 234
 808;Skóra;Marcin;;Kraśnik;Mieszczanin / Obywatel;1730;1;233
-809;Szmatkowski;Benedykt;;Kraśnik;Burmistrz;1730–1731;4;233, 234, 247, 267
-810;Pikulski;Kazimierz;Pikuła?;Urzędów;Mieszczanin urzędowski;1730–1731;2;233, 235
+809;Szmatkowski;Benedykt;;Kraśnik;Burmistrz;1730–1731;7;233, 234, 247, 267, 280, 282, 293
+810;Pikulski;Kazimierz;Pikuła?;Urzędów;Mieszczanin urzędowski;1730–1731;3;233, 235, 300
 811;Moszkowic;Mosiek;;Kraśnik;Obywatel żydowski;1731;1;234
 812;Szydłowska;Panna;;Kraśnik;Mieszczanin / Obywatel;1731;1;234
 813;Szlomowicz;Abram;;Kraśnik;Obywatel żydowski;1731;2;234, 235
 814;Ćwióka;Marcin;Ćwika?;Kraśnik;Mieszczanin / Obywatel;1731;1;235
 815;Ruszyński;Maciej;;Kraśnik;Radca / Burmistrz;1731;2;235, 236
 816;Słowacki;Adam;;Kraśnik;Pisarz szafarski;1731;2;235, 236
-817;Nagórny;Matyasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;236
+817;Nagórny;Matyasz;;Kraśnik;Mieszczanin / Obywatel;1731;2;236, 277
 818;Baradziejowski;Józef;Baradziogoski?;Kraśnik;Mieszczanin / Obywatel;1731;1;236
 819;Jaskowa;Boruchowa;;Kraśnik;Wdowa / Obywatelka żydowska;1731;6;237, 242, 243, 244, 245, 246
 820;Frankiewicz;Wojciech;;Kraśnik;Szlachcic / Mieszczanin (Urodzony);1731;7;237, 240, 242, 243, 244, 245, 246
-821;Ayzykowicz;Leybuś;;Kraśnik;Obywatel żydowski;1731;3;237, 248, 250
-822;Graś;Stanisław;;Kraśnik;Winiarz;1731;3;237, 238, 250
-823;Chudzikowa;Janowa;;Kraśnik;Mieszczanin / Obywatel;1731;3;238, 274, 275
+821;Ayzykowicz;Leybuś;;Kraśnik;Obywatel żydowski;1731;4;237, 248, 250, 288
+822;Graś;Stanisław;;Kraśnik;Winiarz;1731;4;237, 238, 250, 281
+823;Chudzikowa;Janowa;;Kraśnik;Mieszczanin / Obywatel;1731;4;238, 274, 275, 278
 824;Malborski;Jan;;Kraśnik;Mieszczanin / Obywatel;1731;2;238, 274
 825;Moskowicz;Eliasz;;Kraśnik;Obywatel żydowski;1731;1;238
 826;Koza;Wojciech;;Kraśnik;Mieszczanin / Obywatel;1731;9;238, 239, 241, 242, 270, 271, 273, 274, 275
 827;Fielmanowa;Starozakonna;Ficmanowa?;Kraśnik;Obywatelka żydowska;1731;2;238, 239
-828;Kilianek;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;3;239, 242, 269
-829;Zbydniowicz;Augustyn;Zdybiowicz;Kraśnik;Mieszczanin / Obywatel;1731;2;239, 275
+828;Kilianek;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;5;239, 242, 269, 297, 298
+829;Zbydniowicz;Augustyn;Zdybiowicz;Kraśnik;Mieszczanin / Obywatel;1731;3;239, 275, 276
 830;Nowak;Antoni;;Kraśnik;Mieszczanin / Obywatel;1731;2;240, 242
 831;Ćwikowa;Marcinowa;;Kraśnik;Mieszczanin / Obywatel;1731;2;240, 242
-832;Marszałek;Stanisław Szymon;;Kraśnik;Mieszczanin / Obywatel;1731;5;240, 243, 267, 269, 275
+832;Marszałek;Stanisław Szymon;;Kraśnik;Mieszczanin / Obywatel;1731;8;240, 243, 267, 269, 275, 280, 284, 293
 833;Rubinsteyn;Mosiek;Rubinek;Kraśnik;Obywatel żydowski;1731;5;240, 242, 260, 261, 264
-834;Tokarczyk;Kazimierz;;Kraśnik;Mieszczanin / Obywatel;1731;3;240, 259, 265
+834;Tokarczyk;Kazimierz;;Kraśnik;Mieszczanin / Obywatel;1731;7;240, 259, 265, 293, 295, 296, 297
 835;Troycak;Jakub;;Kraśnik;Mieszczanin / Obywatel;1731;1;241
 836;Frankiewicz;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;3;242, 243, 245
 837;Frankiewicz;Kacper;;Kraśnik;Zmarły ojciec rodziny;1731;3;243, 245, 246
-838;Wójcik;Łukasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;244
+838;Wójcik;Łukasz;;Kraśnik;Mieszczanin / Obywatel;1731;2;244, 299
 839;Żakowski;Wojciech;;Kraśnik;Kowal;1731;1;244
 840;Franek;Parobek / Towarzysz;;Kraśnik;Mieszczanin / Obywatel;1731;1;244
 841;Budnicki;Franciszek;;Kraśnik;Mieszczanin / Obywatel;1731;1;245
 842;Szymko;Mikołaj;;Kraśnik;Mieszczanin / Obywatel;1731;1;245
 843;Tyrański;Tomasz;Tyrawski;Kraśnik;Mieszczanin / Obywatel;1731;3;246, 258, 260
-844;Latosłowicz;Matyasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;246
+844;Latosłowicz;Matyasz;Maciey;Kraśnik;Mieszczanin / Obywatel;1731;3;246, 292, 293
 845;Jankowski;Szymon;;Kraśnik;Prezydent / Burmistrz;1731;1;247
 846;Fruga;Matyasz;Frug?;Kraśnik;Mieszczanin / Obywatel;1731;1;247
 847;Wilk;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;1;247
@@ -858,27 +858,27 @@
 857;Eliasz;Starozakonny;;Kraśnik;Mieszczanin / Obywatel;1731;1;249
 858;Szostakiewicz;Jan;Szostakiewicz?;Kraśnik;Mieszczanin / Obywatel;1731;1;250
 859;Ćwiek;Jan;Cwiek;Kraśnik;Mieszczanin / Obywatel;1731;2;250, 266
-860;Boguta;Andrzej;;Kraśnik;Mieszczanin / Obywatel;1731;3;250, 266, 267
+860;Boguta;Andrzej;;Kraśnik;Mieszczanin / Obywatel;1731;4;250, 266, 267, 297
 861;Rymarczyk;Paweł;;Kraśnik;Mieszczanin / Obywatel;1731;1;251
 862;Antonik;Bartosz;;Kraśnik;Mieszczanin / Obywatel;1731;1;251
 863;Wójcik;Grzegorz;;Kraśnik;Mieszczanin / Obywatel;1731;1;251
-864;Błażejowski;Andrzej;;Szlachta / Okolice Kraśnika;Szlachcic (Urodzony);1731;1;251
+864;Błażejowski;Andrzej;;Szlachta / Okolice Kraśnika;Szlachcic (Urodzony);1731;2;251, 284
 865;Janicki;Antoni;;Szlachta / Okolice Kraśnika;Szlachcic (Urodzony);1731;1;251
 866;Lea;Żona Lachmana;;Kraśnik;Obywatelka żydowska;1731;1;251
 867;Barankowicz;Kazimierz;;Kraśnik;Mieszczanin / Obywatel;1731;4;251, 252, 255, 258
 868;Kidacki;Jan;;Kraśnik;Szafarz;1731;1;252
-869;Wietrzycki;Franciszek;;Kraśnik;Ławnik;1731;2;252, 253
+869;Wietrzycki;Franciszek;;Kraśnik;Ławnik;1731;4;252, 253, 282, 292
 870;Bogusiowa;Jędrzejowa;;Kraśnik;Mieszczanin / Obywatel;1731;2;253, 269
 871;Szymanowa;Pawłowa;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;253
 872;Wójcik;Bartosz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;253, 254
-873;Tokarz;Wojciech;;Kraśnik;Ławnik;1731;5;253, 254, 257, 274, 275
-874;Głowacki;Adam;;Kraśnik;Deputat Trybunału Zamojskiego;1731;3;253, 254, 274
-875;Decyk;Stanisław;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;4;253, 254, 262, 269
+873;Tokarz;Wojciech;;Kraśnik;Ławnik;1731;7;253, 254, 257, 274, 275, 276, 293
+874;Głowacki;Adam;;Kraśnik;Deputat Trybunału Zamojskiego;1731;8;253, 254, 274, 284, 285, 293, 295, 296
+875;Decyk;Stanisław;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;7;253, 254, 262, 269, 279, 280, 292
 876;Taraszek;Jan;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;3;253, 254, 262
 877;Dudaj;Wojciech;;Kraśnik;Mieszczanin / Obywatel;1731;3;254, 255, 268
 878;Maciej;Zięć z Bychawy;;Bychawa / Kraśnik;Mieszczanin / Obywatel;1731;1;254
 879;Godowski;Józef;;Kraśnik;Mieszczanin / Obywatel;1731;2;255, 259
-880;Welwowa;Niewierna;Wulwowa;Kraśnik;Obywatelka żydowska;1731;2;255, 259
+880;Welwowa;Niewierna;Wulwowa;Kraśnik;Obywatelka żydowska;1731;3;255, 259, 286
 881;Laskowic;Antoni;;Kraśnik;Mieszczanin / Obywatel;1731;1;255
 882;Zarzycka;Dłużniczka;;Kraśnik;Mieszczanin / Obywatel;1731;1;255
 883;Zagojski;Matyasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;255
@@ -888,19 +888,19 @@
 887;Zisman;Starozakonny;;Kraśnik;Obywatel żydowski;1731;1;256
 888;Giera;Furman;;Kraśnik;Furman;1731;1;256
 889;Nowacki;Antoni;;Kraśnik;Mieszczanin / Obywatel;1731;1;257
-890;Pyrytek;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;1;257
+890;Pyrytek;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;3;257, 277, 279
 891;Nowacki;Mikołaj;;Kraśnik;Mieszczanin / Obywatel;1731;1;257
 892;Kopytkowicz;Matyasz;;Kraśnik;Mieszczanin / Obywatel;1731;6;258, 259, 260, 263, 264, 265
 893;Maryanka;Szynkarka;;Kraśnik;Mieszczanin / Obywatel;1731;2;258, 265
-894;Morel;Jan;;Kraśnik;Ławnik;1731;1;258
+894;Morel;Jan;Moryl;Kraśnik;Ławnik;1731;3;258, 292, 293
 895;Żyśko;Jan;Zyska;Kraśnik;Mieszczanin / Obywatel;1731;1;259
 896;Żyśko;Tomasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;259
 897;Zęba;Tomasz;Zęba?;Kraśnik;Mieszczanin / Obywatel;1731;1;259
 898;Zięć;Szymon;Zięć?;Kraśnik;Mieszczanin / Obywatel;1731;1;259
-899;Boruchowicz;Lejbuś;;Kraśnik;Obywatel żydowski;1731;4;259, 263, 264, 265
+899;Boruchowicz;Lejbuś;;Kraśnik;Obywatel żydowski;1731;5;259, 263, 264, 265, 295
 900;Pyrytek;Jan;;Kraśnik;Mieszczanin / Obywatel;1731;3;260, 261, 264
 901;Chrapocki;Szlachcic;;Okolice Kraśnika;Szlachcic;1731;1;261
-902;Osja;Starozakonny;Osya;Kraśnik;Obywatel żydowski;1731;1;261
+902;Osja;Starozakonny;Osya;Kraśnik;Obywatel żydowski;1731;2;261, 277
 903;Łazarski;Jakub;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
 904;Łazarska;Maryanna;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
 905;Bryś;Sobestyan;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
@@ -909,7 +909,7 @@
 908;Bryś;Wawrzyniec;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
 909;Brysiówna;Anna Starsza;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
 910;Brysiówna;Anna Najmłodsza;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;262
-911;Czelej;Jan;Czeley;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;262, 269
+911;Czelej;Jan;Czeley;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;5;262, 269, 279, 280, 292
 912;Wiatrek;Paweł;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;7;262, 269, 270, 271, 273, 274, 275
 913;Antoniowa;Pozwana;;Kraśnik;Mieszczanin / Obywatel;1731;2;263, 264
 914;Pańkowa;Marcinowa;Pankowa;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;263
@@ -917,17 +917,17 @@
 916;Młynarka;Podmiejska;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;263
 917;Ekonom;Wielmożny Pan;;Kraśnik;Ekonom;1731;2;264, 270
 918;Zdyb;Józef;;Kraśnik;Mieszczanin / Obywatel;1731;2;265, 266
-919;Koza;Marcin;;Kraśnik;Mieszczanin / Obywatel;1731;1;266
-920;Koza;Józef;;Kraśnik;Mieszczanin / Obywatel;1731;1;266
+919;Koza;Marcin;;Kraśnik;Mieszczanin / Obywatel;1731;6;266, 277, 280, 281, 293, 296
+920;Koza;Józef;;Kraśnik;Mieszczanin / Obywatel;1731;2;266, 298
 921;Koza;Wawrzyniec;;Kraśnik;Mieszczanin / Obywatel;1731;3;266, 273, 274
 922;Chruścielowa;Zofia;;Kraśnik;Mieszczanin / Obywatel;1731;1;266
 923;Rokicki;Kazimierz;;Kraśnik;Mieszczanin / Obywatel;1731;2;266, 267
 924;Beniaszowicz;Chelman;;Kraśnik;Obywatel żydowski;1731;1;267
 925;Zelmanowiczowa;Ewa;;Kraśnik;Obywatelka żydowska;1731;1;267
-926;Pilaszkowicz;Stanisław Wawrzyniec;;Kraśnik;Wójt;1731;1;267
-927;Szandrowicz;Szymon;;Kraśnik;Prezydent;1731;1;267
-928;Sadowski;Andrzej;;Kraśnik;Pisarz miejski;1731;3;267, 270, 275
-929;Ślusarczyk;Jan;;Kraśnik;Woźny miejski;1731;2;267, 275
+926;Pilaszkowicz;Stanisław Wawrzyniec;;Kraśnik;Wójt;1731;3;267, 280, 293
+927;Szandrowicz;Szymon;;Kraśnik;Prezydent;1731;4;267, 280, 292, 293
+928;Sadowski;Andrzej;;Kraśnik;Pisarz miejski;1731;9;267, 270, 275, 276, 280, 282, 284, 292, 300
+929;Ślusarczyk;Jan;;Kraśnik;Woźny miejski;1731;7;267, 275, 276, 280, 282, 292, 293
 930;Julian;Zmarły;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;268
 931;Julian;Stanisław;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;268
 932;Julian;Bartosz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;268
@@ -936,19 +936,109 @@
 935;Gorczyca;Paweł;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;268
 936;Julian;Bojna (Regina);;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;268
 937;Wiatrek;Szymon;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;269
-938;Rymarczyk;Bartosz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;269
-939;Biegaj;Mikołaj;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;269
+938;Rymarczyk;Bartosz;Bartosz Rymarz;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;269, 292
+939;Biegaj;Mikołaj;Biegayczyk;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;3;269, 278, 279
 940;Chorążyński;Jan;;Kraśnik;Mieszczanin / Obywatel;1731;2;270, 271
-941;Zdybiowicz;Andrzej;;Kraśnik;Ławnik;1731;2;270, 275
+941;Zdybiowicz;Andrzej;;Kraśnik;Ławnik;1731;5;270, 275, 276, 292, 300
 942;Wiatrek;Stanisław;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;270, 273
 943;Decykowa;Katarzyna;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;270
 944;Abramowicz;Lewek;;Kraśnik;Obywatel żydowski;1731;1;271
 945;Kępa;Marcin;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;272
-946;Jaczoniak;Jan;;Kraśnik;Wójt;1731;1;272
+946;Jaczoniak;Jan;Jaczniak;Kraśnik;Wójt;1731;2;272, 281
 947;Tuchyński;Starozakonny;;Kraśnik;Obywatel żydowski;1731;1;272
 948;Olchowczanka;Zofia;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;272
 949;Woźniakówna;Ewa;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;272
 950;Zarzykówka;Zofia;Zarzykówka?;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;273
 951;Żyśko;Jakub;Zyśko;Kraśnik;Mieszczanin / Obywatel;1731;1;274
-952;Okuń;Mikołaj;;Kraśnik;Mieszczanin / Obywatel;1731;2;274, 275
+952;Okuń;Mikołaj;;Kraśnik;Mieszczanin / Obywatel;1731;3;274, 275, 276
 953;Boruchowa;Niewierna;;Kraśnik;Obywatelka żydowska;1731;2;274, 275
+954;Zdybiowiczowa;Maryanna;;Kraśnik;Mieszczanin / Obywatel;1731;1;276
+955;Abramowicz;Majer;Maier;Kraśnik;Obywatel żydowski;1731;1;277
+956;Gmurk;Michał;;Kraśnik;Mieszczanin / Obywatel;1731;1;277
+957;Brodowicz;Wielmożny Pan;Brodowski?;Okolice Kraśnika;Szlachcic;1731;1;277
+958;Rycynka;Grzegorz;;Kraśnik;Mieszczanin / Obywatel;1731;3;277, 278, 280
+959;Troycak;Bartosz;;Kraśnik;Mieszczanin / Obywatel;1731;2;277, 278
+960;Rejniak;Stanisław;Reiniak;Kraśnik;Mieszczanin / Obywatel;1731;3;278, 279, 280
+961;Jardzyk;Franciszek;;Przedmieście Kraśnickie;Wójt przedmiejski;1731;2;279, 280
+962;Piasecki;Jan;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;279
+963;Piasecki;Augustyn;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;3;280, 281, 283
+964;Świechowski;Stanisław;;Szlachta / Okolice Kraśnika;Szlachcic (Urodzony);1731;1;281
+965;Żyśko;Maryanna;Zysko;Kraśnik;Mieszczanin / Obywatel;1731;1;281
+966;Cieśla;Stanisław;;Kraśnik;Mieszczanin / Obywatel;1731;1;281
+967;Eliasz;Cyrulik;;Kraśnik;Cyrulik;1731;1;281
+968;Piasecka;Agnieszka;Pańkowa / Jardzykowa;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;3;281, 282, 283
+969;Piasecka;Maryanna;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;281, 283
+970;Pańko;Paweł;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;282
+971;Jardzyk;Wawrzyniec;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;282, 283
+972;Ławka;Wojciech;;Kraśnik;Mieszczanin / Obywatel;1731;1;284
+973;Znyma;Krzysztof;Znyma?;Kraśnik;Mieszczanin / Obywatel;1731;1;284
+974;Chordejowska;Janowa;;Kraśnik;Mieszczanin / Obywatel;1731;1;284
+975;Kozina;Marcinowa;;Kraśnik;Mieszczanin / Obywatel;1731;1;284
+976;Koza;Maciej;;Kraśnik;Mieszczanin / Obywatel;1731;1;284
+977;Łapkowa;Sobestyanowa;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;285
+978;Tkaczyk;Matyasz;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;285
+979;Śmigurski;Sobestyan;;Kraśnik;Mieszczanin / Obywatel;1731;2;285, 286
+980;Wieczorek;Łukasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;285
+981;Herszkowiczowa;Wulfowa;;Kraśnik;Obywatelka żydowska;1731;1;285
+982;Wilgocki;Antoni;;Szlachta / Okolice Kraśnika;Szlachcic;1731;1;286
+983;Gurowska;Szlachcianka;;Okolice Kraśnika;Szlachcianka;1731;1;286
+984;Jaśkowicz;Wolf;;Kraśnik;Krawiec;1731;1;286
+985;Pańko;Wawrzyniec;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;287
+986;Dawidowicz;Lejzor;;Kraśnik;Obywatel żydowski;1731;1;288
+987;Lewkowicz;Szapsa;;Kraśnik;Obywatel żydowski;1731;1;288
+988;Majer;Rabin;;Kraśnik;Rabin;1731;1;288
+989;Chaimowicz;Herszko Jakub;;Kraśnik;Obywatel żydowski;1729;2;288, 289
+990;Lachmanowiczówna;Chaia;;Kraśnik;Obywatelka żydowska;1729;2;288, 289
+991;Moskowicz;Majer;;Kraśnik;Syndyk Synagogi;1729;1;289
+992;Niewirowski;Józef;;Kraśnik;Mieszczanin / Obywatel;1731;1;289
+993;Suchodolski;Szlachcic;;Kraśnik;Szlachcic;1731;1;289
+994;Lednicki;Wawrzyniec;;Kraśnik;Duchowny;1731;3;289, 290, 291
+995;Jeś;Andrzej;;Wyżnica;Mieszczanin / Obywatel;1731;2;290, 299
+996;Chudy;Piekarz;;Kraśnik;Piekarz żydowski;1731;1;290
+997;Figlarz;Icko;;Kraśnik;Kramarz żydowski;1731;1;290
+998;Marcewicz;Marcin;;Kraśnik;Mieszczanin / Obywatel;1731;1;290
+999;Naścik;Abramiec;Naścik?;Kraśnik;Obywatel żydowski;1731;1;290
+1000;Figlarz;Żebek;;Kraśnik;Obywatel żydowski;1731;1;290
+1001;Pożniakowski;Adam;;Kraśnik;Mieszczanin / Obywatel;1731;1;290
+1002;Jeś;Wawrzyniec;;Wyżnica / Kraśnik;Mieszczanin / Obywatel;1731;2;291, 292
+1003;Łapczyna;Sobestyanowa;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;291
+1004;Rymarczyk;Szymon;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;291
+1005;Tkaczyk;Maryan;Maryasin?;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;291
+1006;Tkaczyk;Jan;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;292
+1007;Rymarz;Marcin;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;292
+1008;Rymarz;Paweł;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;292
+1009;Rymarz;Marcin Wnuk;;Przedmieście Piaski;Mieszczanin / Obywatel;1731;1;292
+1010;Piechowczanka;Katarzyna;;Kraśnik;Mieszczanin / Obywatel;1731;1;292
+1011;Różyński;Maciej;Rużyński;Kraśnik;Mieszczanin / Obywatel;1731;2;292, 293
+1012;Wilczyński;Adam;;Kraśnik;Burmistrz;1731;2;293, 300
+1013;Rabakowa;Katarzyna;Kozina;Kraśnik;Mieszczanin / Obywatel;1731;1;293
+1014;Jiś;Jan;Jiś?;Kraśnik;Mieszczanin / Obywatel;1731;1;293
+1015;Puckówna;Agnieszka;;Kraśnik;Mieszczanin / Obywatel;1731;1;293
+1016;Nagórna;Matyaszowa;;Kraśnik;Mularzowa;1731;1;294
+1017;Golesiński;Kazimierz;;Kraśnik;Mularz;1731;1;294
+1018;Jasiewicz;Wojciech;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;294, 295
+1019;Mendala;Stanisław;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;294, 295
+1020;Mendalina;Bartoszowa;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;294, 295
+1021;Jasiewiczowa;Marcinowa;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;2;294, 295
+1022;Sokołowski;Franciszek;;Wilkołaz / Okolice Kraśnika;Szlachcic / Dzierżawca;1731;1;294
+1023;Długocki;Jan;;Słupkowice / Okolice Kraśnika;Mieszczanin / Obywatel;1731;1;294
+1024;Tokarczyk;Adam;;Kraśnik;Mieszczanin / Obywatel;1731;1;295
+1025;Tokarczyk;Marcin;;Kraśnik;Mieszczanin / Obywatel;1731;1;296
+1026;Chordejowski;Jan;;Kraśnik;Mieszczanin / Obywatel;1731;1;296
+1027;Jajczyk;Antoni;Jayczyk;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;297
+1028;Podypski;Wojciech;;Kraśnik;Żołnierz;1731;1;297
+1029;Jajczyk;Jan;;Przedmieście Kraśnickie;Mieszczanin / Obywatel;1731;1;297
+1030;Chmielowska;Maryanna;;Kraśnik;Mieszczanin / Obywatel;1731;1;297
+1031;Kilianek;Tomasz;;Kraśnik;Mieszczanin / Obywatel;1731;1;297
+1032;Dudek;Paweł;;Kraśnik / Okolice;Mieszczanin / Obywatel;1731;1;298
+1033;Jelimek;Wawrzyniec;;Żerzomyśl / Okolice Kraśnika;Mieszczanin / Obywatel;1731;1;298
+1034;Śledzik;Łukasz;;Dzierzkowice / Okolice Kraśnika;Mieszczanin / Obywatel;1731;1;298
+1035;Przyjaciel;Bartosz;;Kraśnik;Mieszczanin / Obywatel;1731;1;298
+1036;Kochanek;Antoni;Kochan;Wyżnica;Mieszczanin / Obywatel;1731;1;298
+1037;Kochowski;Piotr;;Kraśnik;Mieszczanin / Obywatel;1731;1;298
+1038;Wargal;Herszko;;Kraśnik;Obywatel żydowski;1731;1;299
+1039;Szmulowicz;Berek;;Kraśnik;Obywatel żydowski;1731;1;299
+1040;Majowski;Pan;;Kraśnik;Mieszczanin / Obywatel;1731;1;300
+1041;Abramowicz;Manello;;Kraśnik;Obywatel żydowski;1731;1;300
+1042;Goliński;Marcin;;Kraśnik;Mieszczanin / Obywatel;1731;1;300
+1043;Strzałkowski;Pan;;Szlachta / Okolice Kraśnika;Szlachcic;1731;1;300
