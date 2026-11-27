@@ -1,0 +1,63 @@
+﻿Lp.;Nazwisko;Imie;Miejsce zamieszkania;Funkcja spoleczna;Warianty nazwiska;Numery skanow;Zakres lat;Liczba wystapien
+1;Janaszkowic;Ubald;Kraśnik;Prokonsul (burmistrz) kraśnicki;;#5;1657;1
+2;Sitarski;Marcin;Kraśnik;Rajca kraśnicki;;#5, #6, #8, #16, #20;1657;5
+3;Tharasa;Maciej;Kraśnik;Rajca kraśnicki;;#5, #16, #17, #18, #22;1657;5
+4;Nawrocki;Stanisław;Kraśnik;Rajca kraśnicki;;#5, #24, #25;1657;3
+5;Sikor;Stanisław;Kraśnik;Pisarz przysięgły kraśnicki;;#5, #10;1657;2
+6;Piekarowa;Krystyna;Przedmieście Kraśnickie;Aktorka;;#6;1657;1
+7;Nowak;Benedykt;Przedmieście Kraśnickie;Współpowód;;#6;1657;1
+8;Olęcki;Wojciech;Kraśnik;Pozwany / Dłużnik;;#6;1657;1
+9;Kłopot;Gabriel;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;;#6;1657;1
+10;Reszka;Maciej;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;;#6;1657;1
+11;Tokarz;Piotr;Przedmieście Kraśnickie;Dłużnik konwentu;;#6, #12;1657;2
+12;Tokarzowa;Zofia;Przedmieście Kraśnickie;Żona Piotra Tokarza;;#6;1657;1
+13;Święcicki;Tomasz;Kraśnik;Ojciec, zakrystian konwentu św. Augustyna;Święcicki [?];#6;1657;1
+14;Jarzębek;Maciej;Kraśnik;Wzmiankowany (poprzednik wyderkafu);Jarzyk [?];#7;1657;1
+15;Zdebik;Jan;Przedmieście Kraśnickie;Gwarant wyderkafu na Zarzeczu;;#7;1657;1
+16;Zdebik;Sebastian;Przedmieście Kraśnickie;Gwarant wyderkafu na Zarzeczu;;#7;1657;1
+17;Piątkowski;Stanisław;Kraśnik;Egzaktor miejski;Piątkowski [?];#8;1657;1
+18;Kurzący;Wojciech;Kraśnik;Ustępujący prokonsul kraśnicki;Kurczy [?];#8;1657;1
+19;Słupecki;Matyjasz;Czerwięcin;Pracowity ze wsi Czerwięcin / Aktor;;#8, #9, #14, #15;1657;4
+20;Gołacka;Zuzanna;Kraśnik;Żona młynarza Jana Gołackiego / Pozwana;;#8, #9, #14;1657;3
+21;Gołacki;Jan;Kraśnik;Młynarz kraśnicki, mąż Zuzanny;;#8, #14, #15;1657;3
+22;Bożęborski;Bartłomiej;Kraśnik;Instygator zeznań świadków;Boięborski [?];#9;1657;1
+23;Nowakowa;Jędrzejowa;Kraśnik;Uczestniczka zajścia;;#9;1657;1
+24;Rogalowski;Wojciech;Przedmieście Kraśnickie;Instygator zeznań świadków;;#10;1657;1
+25;Rynarzyk;Stanisław;Przedmieście Kraśnickie;Świadek;Rymarczyk [?];#10;1657;1
+26;Butowa;Regina;Kraśnik;Wdowa po Gabrielu Bucie;Gabrielowa;#10;1657;1
+27;But;Gabriel;Kraśnik;Zmarły mąż Reginy;;#10;1657;1
+28;Konięga;Maciej;Kraśnik;Ławnik kraśnicki i opiekun;;#10;1657;1
+29;Batusik;Jan;Przedmieście Kraśnickie;Instygator zeznań świadków;;#10, #12, #13;1657;3
+30;Lis;Wojciech;Przedmieście Kraśnickie;Świadek;;#10;1657;1
+31;Niedźwiadek;Stanisław;Przedmieście Kraśnickie;Świadek;Niedźwiadek [?];#11;1657;1
+32;Janaszkowicowa;Regina;Kraśnik;Wdowa / Świadek;Janaszkowicowa [?];#11;1657;1
+33;Zotowa;Regina;Kraśnik;Aktorka;;#11;1657;1
+34;Zota;Andrzej;Kraśnik;Pozwany;Zota [?];#11;1657;1
+35;Rymarczyk;Stanisław;Przedmieście Kraśnickie;Aktor;;#12, #13;1657;2
+36;Kudrelik;Wojciech;Przedmieście Kraśnickie;Pozwany;;#12;1657;1
+37;Pieniążek;Andrzej;Kraśnik;Kowal (serri faber) / Instygator świadków;;#12;1657;1
+38;Tkarz;Matyjasz;Suchynia;Pracowity ze wsi Suchynia / Świadek;Tkacz [?];#12;1657;1
+39;Tokarz;Paweł;Wyżnica;Pracowity ze wsi Wyżnica / Świadek;;#12;1657;1
+40;Jędrzejewski;Jan;Przedmieście Kraśnickie;Poszkodowany w drodze do Wilkołaza;Jędrzejewski [?];#13;1657;1
+41;Bielik;Piotr;Kraśnik;Ksiądz / Sąsiad młyna;Bielek [?];#15;1657;1
+42;Gąskowa;Zofia;Kraśnik;Wdowa po Augustynie Gąsku;;#16;1657;1
+43;Gąsek;Augustyn;Kraśnik;Zmarły mieszczanin i egzaktor;;#16, #23;1657;2
+44;Kwasowic;Augustyn;Kraśnik;Ławnik i opiekun;;#16;1657;1
+45;Łopata;Wojciech;Kraśnik;Opiekun;Łopata [?];#16;1657;1
+46;Fortuna;Mikołaj;Kraśnik;Nabywca placu;;#16, #17, #18;1657;3
+47;Łycek;Szymon;Kraśnik;Opiekun Zofii Łyckówny / Zbywca;Lych [?];#17;1657;1
+48;Łyckówna;Zofia;Kraśnik;Małoletnia pod opieką Sz. Łycka;Lychówna / Łycka [?];#17;1657;1
+49;Kiedrzakowski;Jan;Kraśnik;Sąsiad placu;Kiedrzakowski [?];#17;1657;1
+50;Fortunowa;Katarzyna;Kraśnik;Żona Mikołaja Fortuny / Nabywczyni;;#17, #18;1657;2
+51;Dzierżek;Piotr;Kraśnik;Szlachetny / Nabywca domu;;#19, #20;1657;2
+52;Janaszkowic;Albert;Kraśnik;Rajca kraśnicki / Zbywca i wierzyciel;Ubald;#20;1657;1
+53;Dzierżkowa;Zofia;Kraśnik;Żona Piotra Dzierżka;Gąskówna;#20;1657;1
+54;Baczakowski;Łukasz;Urzędów;Zbywca domu w Kraśniku;Bączkowski [?];#21, #22;1657;2
+55;Grzymuszka;Jan;Kraśnik;Nabywca domu pod murem klasztornym;;#21, #22;1657;2
+56;Grzymuszkowa;Maryna;Kraśnik;Żona Jana Grzymuszki / Nabywczyni;;#21, #22;1657;2
+57;Dudek;Mikołaj;Kraśnik;Sąsiad placu pod murem klasztornym;Dudek [?];#21;1657;1
+58;Czepielowski;Jan;Urzędów;Mieszczanin urzędowski / Zbywca;;#24, #25;1657;2
+59;Czepielowska;Zofia;Urzędów;Żona Jana Czepielowskiego / Zbywczyni;Barankówna;#24;1657;1
+60;Nawrocka;Jadwiga;Kraśnik;Żona rajcy Stanisława Nawrockiego / Nabywczyni;Kupska [?];#24, #25;1657;2
+61;Błaszczanka;Zofia;Kraśnik;Poprzednia właścicielka folwarku;Błaszczanka [?];#24;1657;1
+62;Białowidzka;Zofia;Kraśnik;Zbywczyni gruntu za Bramą Lubelską;Białowidzka [?];#25;1657;1

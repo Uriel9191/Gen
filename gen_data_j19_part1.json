@@ -1,0 +1,1808 @@
+[
+  {
+    "lp": 1,
+    "nazwisko": "Janaszkowic",
+    "imie": "Ubald",
+    "miejsce": "Kraśnik",
+    "funkcja": "Prokonsul (burmistrz) kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1657",
+        "zapis_oryginalny": "Ubaldi Janaszkowic Proconsulis",
+        "rola": "Założenie księgi Protocollum za jego prokonsulatu",
+        "kwota_ctx": "Założenie księgi Protocollum za jego prokonsulatu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Sitarski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5,
+      6,
+      8,
+      16,
+      20
+    ],
+    "skany_roboczo": "#5, #6, #8, #16, #20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1657",
+        "zapis_oryginalny": "Marcini Sitarski Consulis",
+        "rola": "Rajca na karcie tytułowej księgi 1657 r.",
+        "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."
+      },
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Martino Sitarski Consule",
+        "rola": "Proces przeciw opiekunom Kłopotowi i Reszce o 30 złp",
+        "kwota_ctx": "Proces przeciw opiekunom Kłopotowi i Reszce o 30 złp"
+      },
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Martinum Sitarski",
+        "rola": "Objął urząd prokonsula po W. Kurzącym",
+        "kwota_ctx": "Objął urząd prokonsula po W. Kurzącym"
+      },
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Martino Sitarski",
+        "rola": "Przekazał urząd prokonsula M. Tharasie",
+        "kwota_ctx": "Przekazał urząd prokonsula M. Tharasie"
+      },
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Marcinem Sitarskim Rajcą",
+        "rola": "Sprzedaż domu w Rynku P. Dzierżkowi za 120 złp",
+        "kwota_ctx": "Sprzedaż domu w Rynku P. Dzierżkowi za 120 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Tharasa",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5,
+      16,
+      17,
+      18,
+      22
+    ],
+    "skany_roboczo": "#5, #16, #17, #18, #22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiae Tharasa Consulis",
+        "rola": "Rajca na karcie tytułowej księgi 1657 r.",
+        "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."
+      },
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Tharasa",
+        "rola": "Objął urząd prokonsula w obecności cechu szewskiego",
+        "kwota_ctx": "Objął urząd prokonsula w obecności cechu szewskiego"
+      },
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathyasza Tharasy Burmistrza",
+        "rola": "Obecny przy sprzedaży placu Kiedrzakowskiego",
+        "kwota_ctx": "Obecny przy sprzedaży placu Kiedrzakowskiego"
+      },
+      {
+        "skan": 18,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathyasza Tharasy Burmistrza",
+        "rola": "Gospodarz sesji uchwalającej Laudum o trunkach",
+        "kwota_ctx": "Gospodarz sesji uchwalającej Laudum o trunkach"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathyasza Tharasy Burmistrza",
+        "rola": "Gospodarz sesji uchwalającej Laudum wojenne na 302 złp 8 gr",
+        "kwota_ctx": "Gospodarz sesji uchwalającej Laudum wojenne na 302 złp 8 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Nawrocki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5,
+      24,
+      25
+    ],
+    "skany_roboczo": "#5, #24, #25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislai Nawrocki Consulis",
+        "rola": "Rajca na karcie tytułowej księgi 1657 r.",
+        "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."
+      },
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanisławem Nawrockim Rajcą",
+        "rola": "Zakup domu i folwarku za Bramą Lubelską za 80 złp",
+        "kwota_ctx": "Zakup domu i folwarku za Bramą Lubelską za 80 złp"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaus Nawrocki",
+        "rola": "Oblig na 50 złp dla J. Czepielowskiego i kupno kolejnego gruntu",
+        "kwota_ctx": "Oblig na 50 złp dla J. Czepielowskiego i kupno kolejnego gruntu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Sikor",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pisarz przysięgły kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      5,
+      10
+    ],
+    "skany_roboczo": "#5, #10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaum Sikor Notarium Juratum",
+        "rola": "Pisarz księgi Protocollum z 1657 r.",
+        "kwota_ctx": "Pisarz księgi Protocollum z 1657 r."
+      },
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaum Sikor Notarium",
+        "rola": "Wyznaczony na opiekuna Reginy Butowej",
+        "kwota_ctx": "Wyznaczony na opiekuna Reginy Butowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Piekarowa",
+    "imie": "Krystyna",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Aktorka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Cristinae Piekarowa",
+        "rola": "Wygrała wyrok o 55 złp przeciw W. Olęckiemu",
+        "kwota_ctx": "Wygrała wyrok o 55 złp przeciw W. Olęckiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Nowak",
+    "imie": "Benedykt",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Współpowód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Benedicti Nowak",
+        "rola": "Współpowód przeciw W. Olęckiemu",
+        "kwota_ctx": "Współpowód przeciw W. Olęckiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Olęcki",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany / Dłużnik",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Olęcki",
+        "rola": "Nakaz zapłaty 55 złp i 3-letnich odsetek",
+        "kwota_ctx": "Nakaz zapłaty 55 złp i 3-letnich odsetek"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Kłopot",
+    "imie": "Gabriel",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Opiekun dzieci śp. Deca / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Gabrielem Kłopot",
+        "rola": "Pozwany o 30 złp długu",
+        "kwota_ctx": "Pozwany o 30 złp długu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Reszka",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Opiekun dzieci śp. Deca / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Reszka",
+        "rola": "Pozwany o 30 złp długu",
+        "kwota_ctx": "Pozwany o 30 złp długu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Tokarz",
+    "imie": "Piotr",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Dłużnik konwentu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6,
+      12
+    ],
+    "skany_roboczo": "#6, #12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Petrus Tokarz",
+        "rola": "Zapis długu 37 złp dla konwentu św. Augustyna",
+        "kwota_ctx": "Zapis długu 37 złp dla konwentu św. Augustyna"
+      },
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Petrum Tokarz",
+        "rola": "Pozwany przez Rymarczyka, Batusika i A. Pieniążka",
+        "kwota_ctx": "Pozwany przez Rymarczyka, Batusika i A. Pieniążka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Tokarzowa",
+    "imie": "Zofia",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Żona Piotra Tokarza",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Zophia Conjuges",
+        "rola": "Współzeznająca zapis dla konwentu św. Augustyna",
+        "kwota_ctx": "Współzeznająca zapis dla konwentu św. Augustyna"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Święcicki",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ojciec, zakrystian konwentu św. Augustyna",
+    "wariant_nazwiska": "Święcicki [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Thomae Święcicki [?] Sacristiano",
+        "rola": "Odbiorca cesji na rzecz konwentu św. Augustyna",
+        "kwota_ctx": "Odbiorca cesji na rzecz konwentu św. Augustyna"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Jarzębek",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wzmiankowany (poprzednik wyderkafu)",
+    "wariant_nazwiska": "Jarzyk [?]",
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathia Jarzębek [?]",
+        "rola": "Wzmiankowany w zapisie wyderkafowym",
+        "kwota_ctx": "Wzmiankowany w zapisie wyderkafowym"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Zdebik",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Gwarant wyderkafu na Zarzeczu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannes Zdebik",
+        "rola": "Zabezpieczył wyderkaf na ogrodzie na Zarzeczu",
+        "kwota_ctx": "Zabezpieczył wyderkaf na ogrodzie na Zarzeczu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Zdebik",
+    "imie": "Sebastian",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Gwarant wyderkafu na Zarzeczu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Sebastianus Zdebik",
+        "rola": "Współgwarant wyderkafu na Zarzeczu",
+        "kwota_ctx": "Współgwarant wyderkafu na Zarzeczu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Piątkowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Egzaktor miejski",
+    "wariant_nazwiska": "Piątkowski [?]",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanisława Piątkowskiego [?]",
+        "rola": "Egzaktor składki z Laudum na 130 fl 19 gr",
+        "kwota_ctx": "Egzaktor składki z Laudum na 130 fl 19 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Kurzący",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ustępujący prokonsul kraśnicki",
+    "wariant_nazwiska": "Kurczy [?]",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Alberto Kurzący [Kurczym?]",
+        "rola": "Przekazał urząd prokonsula M. Sitarskiemu",
+        "kwota_ctx": "Przekazał urząd prokonsula M. Sitarskiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Słupecki",
+    "imie": "Matyjasz",
+    "miejsce": "Czerwięcin",
+    "funkcja": "Pracowity ze wsi Czerwięcin / Aktor",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      9,
+      14,
+      15
+    ],
+    "skany_roboczo": "#8, #9, #14, #15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathias Słupecki de Czerwięcin",
+        "rola": "Skarga przeciw Zuzannie Gołackiej o kradzież i pobicie",
+        "kwota_ctx": "Skarga przeciw Zuzannie Gołackiej o kradzież i pobicie"
+      },
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Słupecki",
+        "rola": "Szczegółowy wykaz skradzionych rzeczy i 12 złp",
+        "kwota_ctx": "Szczegółowy wykaz skradzionych rzeczy i 12 złp"
+      },
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiae Słupecki",
+        "rola": "Wygrał dekret o zwrot rzeczy i 12 złp",
+        "kwota_ctx": "Wygrał dekret o zwrot rzeczy i 12 złp"
+      },
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiae Słupecki",
+        "rola": "Odbiorca obligu na 20 złp",
+        "kwota_ctx": "Odbiorca obligu na 20 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Gołacka",
+    "imie": "Zuzanna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona młynarza Jana Gołackiego / Pozwana",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      9,
+      14
+    ],
+    "skany_roboczo": "#8, #9, #14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Zuzannam Gołacki",
+        "rola": "Pozwana przez M. Słupeckiego o kradzież",
+        "kwota_ctx": "Pozwana przez M. Słupeckiego o kradzież"
+      },
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Zuzanna Gołacka",
+        "rola": "Prośba o dylację do przyjazdu męża",
+        "kwota_ctx": "Prośba o dylację do przyjazdu męża"
+      },
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Zuzannam Gołacki",
+        "rola": "Skazana na zwrot 12 złp i 4 grzywny kary",
+        "kwota_ctx": "Skazana na zwrot 12 złp i 4 grzywny kary"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Gołacki",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Młynarz kraśnicki, mąż Zuzanny",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      14,
+      15
+    ],
+    "skany_roboczo": "#8, #14, #15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannis Gołacki Molitoris",
+        "rola": "Mąż pozwanej Zuzanny",
+        "kwota_ctx": "Mąż pozwanej Zuzanny"
+      },
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Jan Gołacki",
+        "rola": "Podpis męża pod dekretem",
+        "kwota_ctx": "Podpis męża pod dekretem"
+      },
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannes Gołacki Molitor",
+        "rola": "Oblig na 20 złp dla M. Słupeckiego na młynie",
+        "kwota_ctx": "Oblig na 20 złp dla M. Słupeckiego na młynie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Bożęborski",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Instygator zeznań świadków",
+    "wariant_nazwiska": "Boięborski [?]",
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Bartholomaei Bożęborski [Boięborski?]",
+        "rola": "Zeznania o bójce u niego w domu",
+        "kwota_ctx": "Zeznania o bójce u niego w domu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Nowakowa",
+    "imie": "Jędrzejowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczestniczka zajścia",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Jędrzejową Nowakową",
+        "rola": "Wzmiankowana w zeznaniu o kłótni z Bartkową",
+        "kwota_ctx": "Wzmiankowana w zeznaniu o kłótni z Bartkową"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Rogalowski",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Instygator zeznań świadków",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Alberti Rogalowski",
+        "rola": "Zeznania świadka S. Rynarzyka",
+        "kwota_ctx": "Zeznania świadka S. Rynarzyka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Rynarzyk",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Rymarczyk [?]",
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaus Rynarzyk [Rymarczyk?]",
+        "rola": "Świadek W. Rogalowskiego",
+        "kwota_ctx": "Świadek W. Rogalowskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Butowa",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa po Gabrielu Bucie",
+    "wariant_nazwiska": "Gabrielowa",
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Reginae Gabrielowa",
+        "rola": "Wyznaczenie opiekunów po śmierci męża",
+        "kwota_ctx": "Wyznaczenie opiekunów po śmierci męża"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 27,
+    "nazwisko": "But",
+    "imie": "Gabriel",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mąż Reginy",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Gabrielem But",
+        "rola": "Wzmiankowany jako zmarły mąż Reginy",
+        "kwota_ctx": "Wzmiankowany jako zmarły mąż Reginy"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Konięga",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik kraśnicki i opiekun",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Konięga Scabinum",
+        "rola": "Wyznaczony na opiekuna Reginy Butowej",
+        "kwota_ctx": "Wyznaczony na opiekuna Reginy Butowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Batusik",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Instygator zeznań świadków",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10,
+      12,
+      13
+    ],
+    "skany_roboczo": "#10, #12, #13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannis Batusik",
+        "rola": "Zeznania świadków o bójce pod jego domem",
+        "kwota_ctx": "Zeznania świadków o bójce pod jego domem"
+      },
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Batusik",
+        "rola": "Współpowód przeciw Tokarzowi i Kudrelikowi",
+        "kwota_ctx": "Współpowód przeciw Tokarzowi i Kudrelikowi"
+      },
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Jana Batusika",
+        "rola": "Wyrok przyznający po 2 złp",
+        "kwota_ctx": "Wyrok przyznający po 2 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Lis",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertus Lis",
+        "rola": "Świadek Jana Batusika",
+        "kwota_ctx": "Świadek Jana Batusika"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Niedźwiadek",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Niedźwiadek [?]",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaus Niedźwiadek [?]",
+        "rola": "Świadek Jana Batusika",
+        "kwota_ctx": "Świadek Jana Batusika"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Janaszkowicowa",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Świadek",
+    "wariant_nazwiska": "Janaszkowicowa [?]",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Regina Vidua Janaszkowicowa [?]",
+        "rola": "Świadek kłótni przed domem Batusika",
+        "kwota_ctx": "Świadek kłótni przed domem Batusika"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Zotowa",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aktorka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Reginae Zotowa",
+        "rola": "Spór o 15 gr i zniewagę",
+        "kwota_ctx": "Spór o 15 gr i zniewagę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Zota",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Zota [?]",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Andreae Zota [?]",
+        "rola": "Nakaz zapłaty 15 gr Reginie Zotowej",
+        "kwota_ctx": "Nakaz zapłaty 15 gr Reginie Zotowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 35,
+    "nazwisko": "Rymarczyk",
+    "imie": "Stanisław",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Aktor",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12,
+      13
+    ],
+    "skany_roboczo": "#12, #13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaum Rymarczyk",
+        "rola": "Pozew przeciw Tokarzowi i Kudrelikowi o pobicie chłopa",
+        "kwota_ctx": "Pozew przeciw Tokarzowi i Kudrelikowi o pobicie chłopa"
+      },
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanisława Rymarczyka",
+        "rola": "Wyrok przyznający po 2 złp i karę na szpital św. Ducha",
+        "kwota_ctx": "Wyrok przyznający po 2 złp i karę na szpital św. Ducha"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Kudrelik",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Kudrelik",
+        "rola": "Współpozwany o najazd i pobicie chłopa",
+        "kwota_ctx": "Współpozwany o najazd i pobicie chłopa"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Pieniążek",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Kowal (serri faber) / Instygator świadków",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Andreae Pieniążek Serri fabri",
+        "rola": "Świadkowie o pobiciu w gospodzie przez Tokarza",
+        "kwota_ctx": "Świadkowie o pobiciu w gospodzie przez Tokarza"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Tkarz",
+    "imie": "Matyjasz",
+    "miejsce": "Suchynia",
+    "funkcja": "Pracowity ze wsi Suchynia / Świadek",
+    "wariant_nazwiska": "Tkacz [?]",
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathias Tkarz de Suchynia",
+        "rola": "Świadek A. Pieniążka",
+        "kwota_ctx": "Świadek A. Pieniążka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Tokarz",
+    "imie": "Paweł",
+    "miejsce": "Wyżnica",
+    "funkcja": "Pracowity ze wsi Wyżnica / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulus Tokarz de Wyżnica",
+        "rola": "Świadek A. Pieniążka",
+        "kwota_ctx": "Świadek A. Pieniążka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Jędrzejewski",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Poszkodowany w drodze do Wilkołaza",
+    "wariant_nazwiska": "Jędrzejewski [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Jana Jędrzejewskiego [?]",
+        "rola": "Pobity przez P. Tokarza i W. Kudrelika",
+        "kwota_ctx": "Pobity przez P. Tokarza i W. Kudrelika"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Bielik",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ksiądz / Sąsiad młyna",
+    "wariant_nazwiska": "Bielek [?]",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "ks. Piotra Bielka [?]",
+        "rola": "Właściciel folwarku sąsiadującego z młynem Gołackiego",
+        "kwota_ctx": "Właściciel folwarku sąsiadującego z młynem Gołackiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #15, 1657 r.)."
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Gąskowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa po Augustynie Gąsku",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Zophiae Gąskowa",
+        "rola": "Wyznaczenie opiekunów Kwasowica i Łopaty",
+        "kwota_ctx": "Wyznaczenie opiekunów Kwasowica i Łopaty"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Gąsek",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły mieszczanin i egzaktor",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16,
+      23
+    ],
+    "skany_roboczo": "#16, #23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustinum Gąsek",
+        "rola": "Wzmiankowany jako zmarły mąż Zofii",
+        "kwota_ctx": "Wzmiankowany jako zmarły mąż Zofii"
+      },
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustyna Gąska Exaktora",
+        "rola": "Wzmiankowany w rozliczeniu wydatków wojennych 1657 r.",
+        "kwota_ctx": "Wzmiankowany w rozliczeniu wydatków wojennych 1657 r."
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Kwasowic",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik i opiekun",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustinum Kwasowic Scabinum",
+        "rola": "Wyznaczony na opiekuna wdowy Z. Gąskowej",
+        "kwota_ctx": "Wyznaczony na opiekuna wdowy Z. Gąskowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Łopata",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun",
+    "wariant_nazwiska": "Łopata [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Łopata [?]",
+        "rola": "Wyznaczony na opiekuna wdowy Z. Gąskowej",
+        "kwota_ctx": "Wyznaczony na opiekuna wdowy Z. Gąskowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Fortuna",
+    "imie": "Mikołaj",
+    "miejsce": "Kraśnik",
+    "funkcja": "Nabywca placu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16,
+      17,
+      18
+    ],
+    "skany_roboczo": "#16, #17, #18",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1657",
+        "zapis_oryginalny": "Nicolai Fortuna",
+        "rola": "Nagłówek aktu kupna placu",
+        "kwota_ctx": "Nagłówek aktu kupna placu"
+      },
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Mikołajowi Fortunie",
+        "rola": "Zakup placu za 80 złp i oblig na 30 złp",
+        "kwota_ctx": "Zakup placu za 80 złp i oblig na 30 złp"
+      },
+      {
+        "skan": 18,
+        "rok": "1657",
+        "zapis_oryginalny": "Mikołaj Fortuna",
+        "rola": "Zapis ewikcji na 30 złp dla Sz. Łycka",
+        "kwota_ctx": "Zapis ewikcji na 30 złp dla Sz. Łycka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Łycek",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun Zofii Łyckówny / Zbywca",
+    "wariant_nazwiska": "Lych [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Szymon Łycek [Lych?]",
+        "rola": "Sprzedaż placu pustego M. Fortunie za 80 złp",
+        "kwota_ctx": "Sprzedaż placu pustego M. Fortunie za 80 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Łyckówna",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Małoletnia pod opieką Sz. Łycka",
+    "wariant_nazwiska": "Lychówna / Łycka [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofii Łyckówny",
+        "rola": "Właścicielka sprzedanego placu",
+        "kwota_ctx": "Właścicielka sprzedanego placu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Kiedrzakowski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sąsiad placu",
+    "wariant_nazwiska": "Kiedrzakowski [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Jana Kiedrzakowskiego",
+        "rola": "Sąsiad placu Kiedrzakowskiego",
+        "kwota_ctx": "Sąsiad placu Kiedrzakowskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Fortunowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Mikołaja Fortuny / Nabywczyni",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      18
+    ],
+    "skany_roboczo": "#17, #18",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1657",
+        "zapis_oryginalny": "Katarzynie",
+        "rola": "Współnabywczyni placu",
+        "kwota_ctx": "Współnabywczyni placu"
+      },
+      {
+        "skan": 18,
+        "rok": "1657",
+        "zapis_oryginalny": "Katarzyną",
+        "rola": "Współzeznająca ewikcję",
+        "kwota_ctx": "Współzeznająca ewikcję"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Dzierżek",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szlachetny / Nabywca domu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19,
+      20
+    ],
+    "skany_roboczo": "#19, #20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Petri Dzierżek",
+        "rola": "Nagłówek aktu kupna domu w Rynku",
+        "kwota_ctx": "Nagłówek aktu kupna domu w Rynku"
+      },
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Piotrem Dzierżkiem",
+        "rola": "Zakup domu w Rynku za 120 złp",
+        "kwota_ctx": "Zakup domu w Rynku za 120 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Janaszkowic",
+    "imie": "Albert",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki / Zbywca i wierzyciel",
+    "wariant_nazwiska": "Ubald",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertem Janaszkowicem Rajcą",
+        "rola": "Współsprzedający dom w Rynku P. Dzierżkowi",
+        "kwota_ctx": "Współsprzedający dom w Rynku P. Dzierżkowi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Dzierżkowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Piotra Dzierżka",
+    "wariant_nazwiska": "Gąskówna",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofią Gąskówną",
+        "rola": "Współnabywczyni domu w Rynku",
+        "kwota_ctx": "Współnabywczyni domu w Rynku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Baczakowski",
+    "imie": "Łukasz",
+    "miejsce": "Urzędów",
+    "funkcja": "Zbywca domu w Kraśniku",
+    "wariant_nazwiska": "Bączkowski [?]",
+    "skany_list": [
+      21,
+      22
+    ],
+    "skany_roboczo": "#21, #22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Łukaszem Baczakowskim [Bączkowskim?]",
+        "rola": "Sprzedaż domu pod murem klasztornym J. Grzymuszce za 120 złp",
+        "kwota_ctx": "Sprzedaż domu pod murem klasztornym J. Grzymuszce za 120 złp"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Łukaszowi Baczakowskiemu",
+        "rola": "Odbiorca obligu na 100 złp",
+        "kwota_ctx": "Odbiorca obligu na 100 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Grzymuszka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Nabywca domu pod murem klasztornym",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21,
+      22
+    ],
+    "skany_roboczo": "#21, #22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Janem Grzymuszką",
+        "rola": "Zakup domu z placem i ogrodem za 120 złp",
+        "kwota_ctx": "Zakup domu z placem i ogrodem za 120 złp"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Jan Grzymuszka",
+        "rola": "Oblig na 100 złp dla Ł. Baczakowskiego",
+        "kwota_ctx": "Oblig na 100 złp dla Ł. Baczakowskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Grzymuszkowa",
+    "imie": "Maryna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Jana Grzymuszki / Nabywczyni",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21,
+      22
+    ],
+    "skany_roboczo": "#21, #22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Maryną",
+        "rola": "Współnabywczyni domu",
+        "kwota_ctx": "Współnabywczyni domu"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Maryną",
+        "rola": "Współzeznająca oblig na 100 złp",
+        "kwota_ctx": "Współzeznająca oblig na 100 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Dudek",
+    "imie": "Mikołaj",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sąsiad placu pod murem klasztornym",
+    "wariant_nazwiska": "Dudek [?]",
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Mikołajem Dudkiem [?]",
+        "rola": "Sąsiad sprzedanego domu",
+        "kwota_ctx": "Sąsiad sprzedanego domu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Czepielowski",
+    "imie": "Jan",
+    "miejsce": "Urzędów",
+    "funkcja": "Mieszczanin urzędowski / Zbywca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      24,
+      25
+    ],
+    "skany_roboczo": "#24, #25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Janem Czepielowskim z Urzędowa",
+        "rola": "Sprzedaż domu i folwarku za Bramą Lubelską S. Nawrockiemu za 80 złp",
+        "kwota_ctx": "Sprzedaż domu i folwarku za Bramą Lubelską S. Nawrockiemu za 80 złp"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Joanni Czepielowski",
+        "rola": "Odbiorca obligu na 50 złp",
+        "kwota_ctx": "Odbiorca obligu na 50 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Czepielowska",
+    "imie": "Zofia",
+    "miejsce": "Urzędów",
+    "funkcja": "Żona Jana Czepielowskiego / Zbywczyni",
+    "wariant_nazwiska": "Barankówna",
+    "skany_list": [
+      24
+    ],
+    "skany_roboczo": "#24",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofią Barankówną",
+        "rola": "Współsprzedająca folwark za Bramą Lubelską",
+        "kwota_ctx": "Współsprzedająca folwark za Bramą Lubelską"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Nawrocka",
+    "imie": "Jadwiga",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona rajcy Stanisława Nawrockiego / Nabywczyni",
+    "wariant_nazwiska": "Kupska [?]",
+    "skany_list": [
+      24,
+      25
+    ],
+    "skany_roboczo": "#24, #25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Jadwigą Kupską [?]",
+        "rola": "Współnabywczyni folwarku",
+        "kwota_ctx": "Współnabywczyni folwarku"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Jadwigą",
+        "rola": "Współnabywczyni gruntu za Bramą Lubelską",
+        "kwota_ctx": "Współnabywczyni gruntu za Bramą Lubelską"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Błaszczanka",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Poprzednia właścicielka folwarku",
+    "wariant_nazwiska": "Błaszczanka [?]",
+    "skany_list": [
+      24
+    ],
+    "skany_roboczo": "#24",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofii Błaszczance [?]",
+        "rola": "Poprzednia posesorka folwarku za Bramą Lubelską",
+        "kwota_ctx": "Poprzednia posesorka folwarku za Bramą Lubelską"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Białowidzka",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zbywczyni gruntu za Bramą Lubelską",
+    "wariant_nazwiska": "Białowidzka [?]",
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofią Białowidzką [?]",
+        "rola": "Sprzedaż placu i gruntu S. Nawrockiemu",
+        "kwota_ctx": "Sprzedaż placu i gruntu S. Nawrockiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #25, 1657 r.)."
+  }
+]

@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Jednostka 19 – Akta Miasta Kraśnika (1657–1661) | Cyfrowe Kompendium Źródłowe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --gold-primary: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --purple-accent: #8b5cf6;
+      --accent-cyan: #06b6d4;
+      --border: #334155;
+      --card-bg: rgba(30, 41, 59, 0.85);
+      --success: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .portal-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gold-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      transition: all 0.2s;
+    }
+    .portal-back-link:hover {
+      background: rgba(245, 158, 11, 0.2);
+      transform: translateY(-1px);
+    }
+
+    header.hero {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* NAV TABS */
+    .tabs-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #fff;
+      background: var(--bg-tertiary);
+      border-color: var(--border);
+    }
+
+    .tab-btn.gold-tab.active {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold-primary);
+    }
+
+    .tab-badge {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.15rem 0.45rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KONTENER GŁÓWNY I ZAKŁADKI */
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* KARTY KPI */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card.gold { border-top: 3px solid var(--gold-primary); }
+    .stat-card.purple { border-top: 3px solid var(--purple-accent); }
+    .stat-card.cyan { border-top: 3px solid var(--accent-cyan); }
+    .stat-card.success { border-top: 3px solid var(--success); }
+
+    .stat-title {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .stat-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .info-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* KONTROLKI, WYSZUKIWARKA, PRZYCISKI */
+    .controls-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: flex-end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 200px;
+    }
+    .control-group.wide {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    input[type="text"], input[type="number"], select {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 0.6rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border 0.2s;
+    }
+    input[type="text"]:focus, input[type="number"]:focus, select:focus {
+      border-color: var(--gold-primary);
+    }
+
+    /* UNIFIED PAGINATION BAR STYLES */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .pagination-info { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+    .pagination-controls { display: flex; align-items: center; gap: 0.4rem; }
+    .page-indicator { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; padding: 0 0.5rem; color: #fff; }
+    .page-jump { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem; }
+    .page-jump input { width: 65px; padding: 0.35rem 0.5rem; background: var(--bg-primary); border: 1px solid var(--border); color: #fff; border-radius: 4px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    .page-btn { background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 0.35rem 0.75rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: 600; transition: all 0.15s ease; }
+    .page-btn:hover:not(:disabled) { background: #475569; border-color: var(--gold-primary); color: var(--gold-primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* TABELA I KONTENER TABLE-WRAPPER */
+    .table-wrapper {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: rgba(15, 23, 42, 0.75);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: #fff; }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    tbody td {
+      padding: 0.85rem 1rem;
+      vertical-align: middle;
+    }
+
+    .badge-scan {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      color: var(--gold-primary);
+      background: rgba(245, 158, 11, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      display: inline-block;
+    }
+
+    .badge-district {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: rgba(139, 92, 246, 0.15);
+      color: #c4b5fd;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      margin: 0.1rem;
+    }
+
+    .badge-variant {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+      display: inline-block;
+      padding: 1px 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 3px;
+      border: 1px solid #334155;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      margin: 5vh auto;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .modal-header h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-close:hover { color: #fff; }
+
+    .modal-tabs-bar {
+      display: flex;
+      background: rgba(15, 23, 42, 0.75);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1rem;
+    }
+
+    .modal-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .modal-tab-btn:hover { color: #fff; }
+    .modal-tab-btn.active {
+      color: var(--gold-primary);
+      border-bottom-color: var(--gold-primary);
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .transcription-box {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: #e2e8f0;
+    }
+
+    .swa-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .swa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold-primary);
+      color: #000;
+      font-weight: 700;
+      padding: 0.65rem 1.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 0.75rem;
+      transition: all 0.2s;
+    }
+    .swa-btn:hover {
+      background: #d97706;
+      transform: translateY(-1px);
+    }
+
+    .occs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .occs-table th, .occs-table td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .occs-table th {
+      background: rgba(15, 23, 42, 0.5);
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    /* MONOGRAFIA I KARTY */
+    .monograph-content, .analytics-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .monograph-chapter, .analytic-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .analytic-card {
+      border-left: 4px solid var(--gold-primary);
+    }
+
+    .chapter-title, .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      color: var(--gold-primary);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(245, 158, 11, 0.25);
+      padding-bottom: 0.5rem;
+    }
+
+    .chapter-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: #e2e8f0;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    .monograph-content p, .analytics-content p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 1.6rem; }
+      .container { padding: 0.75rem; }
+      .tabs-nav { padding: 0.5rem; }
+      .tab-btn { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
+      .controls-panel { flex-direction: column; }
+      .control-group { width: 100%; }
+      .pagination-bar { flex-direction: column; align-items: stretch; }
+    }
+  
+    /* UNIFIED MODAL SECTION & BUTTON STYLES */
+    .modal-section {
+      margin-bottom: 1.25rem;
+    }
+    .modal-section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gold-primary);
+      margin-bottom: 0.4rem;
+    }
+    .btn-copy-trans {
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: var(--gold-primary);
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-copy-trans:hover {
+      background: var(--gold-primary);
+      color: #0f172a;
+    }
+
+
+    .btn {
+      background: var(--bg-tertiary);
+      color: #fff;
+      border: 1px solid var(--border);
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+    .btn:hover { background: #475569; }
+    .btn-gold {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: rgba(245, 158, 11, 0.4);
+      color: var(--gold-primary);
+    }
+    .btn-gold:hover { background: rgba(245, 158, 11, 0.25); }
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      width: 100%;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <a href="index.html" class="portal-back-link">← Powrót do Portalu Głównego Kompendiów</a>
+    <div style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:#94a3b8;">
+      AP Lublin • Zespół 35/40/0 • Sygn. 35/40/0/1/19 (dawny Tom 9 / mikr. 110358) [1657–1661]
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <header class="hero">
+    <h1>Akta Miasta Kraśnika – Protocollum Causarum et Actionum Officii Consularis</h1>
+    <div class="subtitle">Protocollum causarum et actorum officii consularis (1657–1661) • Partia 1 (skany 1–25 z 120) • Sygn. 35/40/0/1/19</div>
+  </header>
+
+  <!-- PŁASKI PASEK GŁÓWNYCH ZAKŁADEK (DOKŁADNIE 4 ZAKŁADKI) -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('main-tab', this)">
+      <span>📊 Tabela Indeksowa Skanów</span>
+      <span class="tab-badge" id="mainTabBadge">25</span>
+    </button>
+    <button class="tab-btn gold-tab" onclick="switchTab('genealogy-tab', this)">
+      <span>👥 Słownik Genealogiczny Mieszkańców</span>
+      <span class="tab-badge" id="genTabBadge">62</span>
+    </button>
+    <button class="tab-btn cyan-tab" onclick="switchTab('monograph-tab', this)">
+      <span>📜 Monografia Historyczna i Kancelaria</span>
+      <span class="tab-badge">Rozdziały I–IV</span>
+    </button>
+    <button class="tab-btn purple-tab" onclick="switchTab('analytics-tab', this)">
+      <span>💡 Karty Analityczne i Odkrycia</span>
+      <span class="tab-badge">Karty 1–4</span>
+    </button>
+  </nav>
+
+  <main class="container">
+
+    <!-- SEKCJA 1: TABELA GŁÓWNA SKANÓW -->
+    <section id="main-tab" class="tab-content active">
+      <div class="stats-grid">
+        <div class="stat-card primary">
+          <div class="stat-title">Postęp Indeksacji Jednostki 18</div>
+          <div class="stat-value" id="kpiMainCount">25</div>
+          <div class="stat-desc">Partia 1: skany 1–25 z 120 (fol. 1r–11r) • AP Lublin</div>
+        </div>
+        <div class="stat-card gold">
+          <div class="stat-title">Zindeksowani Mieszkańcy</div>
+          <div class="stat-value" id="kpiGenCount">62</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Transkrypcje In Extenso</div>
+          <div class="stat-value">100% PASS</div>
+          <div class="stat-desc">Pełny odczyt całych kart, dublety mikrofilmowe, warianty [?]</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Ramy Chronologiczne Jednostki</div>
+          <div class="stat-value">1657–1827 r.</div>
+          <div class="stat-desc">4 karty analityczne • 4 rozdziały syntezy</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="mainSearchInput">Szukaj w rejestrze czynności sądowych:</label>
+          <input type="text" id="mainSearchInput" placeholder="Szukaj osoby, paginy, kategorii, opisu sprawy, kwoty lub fragmentu transkrypcji..." oninput="filterMainData()">
+        </div>
+        <div class="control-group">
+          <label for="mainCategoryFilter">Kategoria:</label>
+          <select id="mainCategoryFilter" onchange="filterMainData()">
+            <option value="">Wszystkie kategorie akt</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="mainCenturyFilter">Okres / Rok:</label>
+          <select id="mainCenturyFilter" onchange="filterMainData()">
+            <option value="">Wszystkie lata / okresy</option>
+            <option value="1657">Rok 1657</option>
+            <option value="1658">Rok 1658</option>
+            <option value="1659">Rok 1659</option>
+            <option value="1660">Rok 1660</option>
+            <option value="1661">Rok 1661</option>
+            <option value="1827">Rok 1827 (poświadczenie)</option>
+          </select>
+        </div>
+        <div class="control-group" style="flex:0 0 auto; display:flex; flex-direction:row; gap:0.5rem; align-items:flex-end;">
+          <button class="btn" onclick="resetMainFilters()">Resetuj filtry</button>
+          <button class="btn btn-gold" onclick="exportMainCSV()" style="white-space:nowrap;">📥 Eksportuj Indeks CSV</button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA REJESTRU -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="mainPaginationInfo">Pokazywanie pozycji...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtn" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicator">1 / 1</span>
+          <button class="page-btn" id="mainNextBtn" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInput" min="1" value="1" onchange="jumpMainPage(this.value)">
+            <button class="page-btn" onclick="jumpMainPage()">Idź</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GŁÓWNA (DOKŁADNIE 7 KOLUMN KANONU J40) -->
+      <div class="table-wrapper">
+        <table id="mainTable">
+          <thead>
+            <tr>
+              <th onclick="sortMainTable('nr_skanu')" style="width: 7%;">Skan ↕</th>
+              <th onclick="sortMainTable('strona_pagina')" style="width: 13%;">Pagina ↕</th>
+              <th onclick="sortMainTable('data_rok')" style="width: 10%;">Rok ↕</th>
+              <th style="width: 24%;">Osoby i Podmioty</th>
+              <th onclick="sortMainTable('kategoria')" style="width: 14%;">Kategoria ↕</th>
+              <th style="width: 22%;">Opis Sprawy / Treść Aktu</th>
+              <th style="width: 10%;">Kwoty / Podatki</th>
+            </tr>
+          </thead>
+          <tbody id="mainTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA REJESTRU -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="mainPaginationInfoBot">Pokazywanie pozycji...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="mainPrevBtnBot" onclick="prevMainPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="mainPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="mainNextBtnBot" onclick="nextMainPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="mainJumpInputBot" min="1" value="1" onchange="jumpMainPage(this.value)">
+            <button class="page-btn" onclick="jumpMainPage()">Idź</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 2: SŁOWNIK GENEALOGICZNY -->
+    <section id="genealogy-tab" class="tab-content">
+      <div class="stats-grid">
+        <div class="stat-card gold">
+          <div class="stat-title">Mieszkańcy Kraśnika (unikalne profile)</div>
+          <div class="stat-value" id="genStatCount">62</div>
+          <div class="stat-desc">Wariant 2 • 0 duplikatów tożsamości</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-title">Łączna Liczba Wzmianek</div>
+          <div class="stat-value" id="genMentionsCount">94</div>
+          <div class="stat-desc">Zeznania, dekrety, transakcje, asysty</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-title">De-duplikacja Tożsamości</div>
+          <div class="stat-value">100%</div>
+          <div class="stat-desc">1 osoba fizyczna = 1 rekord</div>
+        </div>
+        <div class="stat-card success">
+          <div class="stat-title">Format Danych</div>
+          <div class="stat-value">CSV + HTML</div>
+          <div class="stat-desc">Eksport UTF-8-SIG • 9 kolumn relacyjnych</div>
+        </div>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group wide">
+          <label for="genSearchInput">Szukaj mieszkańca (nazwisko, imię, wariant, przedmieście, rola):</label>
+          <input type="text" id="genSearchInput" placeholder="Szukaj po nazwisku, imieniu, roli, wariancie, numerze skanu..." oninput="filterGenData()">
+        </div>
+        <div class="control-group">
+          <label for="genRoleFilter">Funkcja / Rola:</label>
+          <select id="genRoleFilter" onchange="filterGenData()">
+            <option value="">Wszystkie role i urzędy</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="genDistrictFilter">Miejsce:</label>
+          <select id="genDistrictFilter" onchange="filterGenData()">
+            <option value="">Wszystkie dzielnice / przedmieścia</option>
+          </select>
+        </div>
+        <div class="control-group" style="flex:0 0 auto; display:flex; flex-direction:row; gap:0.5rem; align-items:flex-end;">
+          <button class="btn" onclick="resetGenFilters()">Resetuj filtry</button>
+          <button class="btn btn-gold" onclick="exportGenCSV()" style="white-space:nowrap;">📥 Eksportuj Słownik CSV</button>
+        </div>
+      </div>
+
+      <!-- PAGINACJA GÓRNA DLA GENEALOGII -->
+      <div class="pagination-bar">
+        <div class="pagination-info" id="genPaginationInfo">Pokazywanie profili...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtn" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicator">1 / 1</span>
+          <button class="page-btn" id="genNextBtn" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInput" min="1" value="1" onchange="jumpGenPage(this.value)">
+            <button class="page-btn" onclick="jumpGenPage()">Idź</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA GENEALOGICZNA (DOKŁADNIE 7 KOLUMN) -->
+      <div class="table-wrapper">
+        <table id="genTable">
+          <thead>
+            <tr>
+              <th onclick="sortGenTable('lp')" style="width: 5%;">Lp. ↕</th>
+              <th onclick="sortGenTable('nazwisko')" style="width: 18%;">Nazwisko ↕</th>
+              <th onclick="sortGenTable('imie')" style="width: 15%;">Imię ↕</th>
+              <th onclick="sortGenTable('miejsce')" style="width: 18%;">Miejsce zamieszkania ↕</th>
+              <th onclick="sortGenTable('funkcja')" style="width: 16%;">Funkcja społeczna ↕</th>
+              <th style="width: 16%;">Roboczo: Nr skanów ↕</th>
+              <th onclick="sortGenTable('zakres_lat')" style="width: 12%;">Zakres lat ↕</th>
+            </tr>
+          </thead>
+          <tbody id="genTableBody">
+            <!-- Renderowane dynamicznie przez JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PAGINACJA DOLNA DLA GENEALOGII -->
+      <div class="pagination-bar" style="margin-top: 1rem;">
+        <div class="pagination-info" id="genPaginationInfoBot">Pokazywanie profili...</div>
+        <div class="pagination-controls">
+          <button class="page-btn" id="genPrevBtnBot" onclick="prevGenPage()">‹ Poprzednia</button>
+          <span class="page-indicator" id="genPageIndicatorBot">1 / 1</span>
+          <button class="page-btn" id="genNextBtnBot" onclick="nextGenPage()">Następna ›</button>
+          <div class="page-jump">
+            <span>Skocz do:</span>
+            <input type="number" id="genJumpInputBot" min="1" value="1" onchange="jumpGenPage(this.value)">
+            <button class="page-btn" onclick="jumpGenPage()">Idź</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKCJA 3: PEŁNA SYNTEZA MONOGRAFICZNA -->
+    <section id="monograph-tab" class="tab-content">
+      <div class="monograph-content">
+        <article class="monograph-chapter">
+          <h2 class="chapter-title">Rozdział I: Kodykologia i Karta Tytułowa Protocollum Officii Consularis (skany 1–5)</h2>
+          <div class="chapter-content">
+            <p>Jednostka archiwalna o sygnaturze <strong>35/40/0/1/19</strong> (dawny Tom 9, mikrofilm nr <code>110358</code> z 11 IX 1959 r., format 31,5 × 19,5 cm, łącznie 120 skanów) stanowi protokół Sądu Radzieckiego miasta Kraśnika z lat <strong>1657–1661</strong> (<em>Protocollum causarum et actorum officii consularis</em>). Właściwą księgę otwiera na <code>fol. 1r</code> (skan #5) karta tytułowa założona w 1657 r. za prokonsula <strong>Ubalda Janaszkowica</strong>, rajców <strong>Marcina Sitarskiego</strong>, <strong>Macieja Tharasy</strong> i <strong>Stanisława Nawrockiego</strong> oraz pisarza przysięgłego <strong>Stanisława Sikora</strong>, z poświadczeniem Sądu Pokoju z 10 IX 1827 r.</p>
+          </div>
+        </article>
+
+        <article class="monograph-chapter">
+          <h2 class="chapter-title">Rozdział II: Wyderkaf Augustiański, Sprawa Słupeckiego z Młynarzową i Translacje Urzędu (skany 6–16)</h2>
+          <div class="chapter-content">
+            <p>Pierwsze wpisy z wiosny i lata 1657 r. (<code>fol. 1v–6v</code>) ukazują bieżącą praktykę Sądu Radzieckiego: dekret dla <strong>Krystyny Piekarowej</strong> i <strong>Benedykta Nowaka</strong> o 55 złp (#6), zapis wyderkafowy <code>37 złp</code> dla konwentu św. Augustyna (#6–#7), wielokrotne procesy <strong>Stanisława Rymarzyka</strong> i <strong>Jana Batusika</strong> przeciw <strong>Piotrowi Tokarzowi</strong> i <strong>Wojciechowi Kudrelikowi</strong> o napaść w drodze do Wilkołaza (#12–#13) oraz głośny proces poddanego z Czerwięcina <strong>Matyjasza Słupeckiego</strong> przeciw <strong>Zuzannie</strong>, żonie młynarza <strong>Jana Gołackiego</strong>, o kradzież rzeczy i <code>12 złp</code> (#8–#9, #14–#15). W tym samym okresie odnotowano dwa uroczyste przekazania urzędu prokonsula (<em>Translatio Proconsulatus</em>) w obecności cechu szewskiego: od <strong>Wojciecha Kurzącego</strong> <strong>Marcinowi Sitarskiemu</strong> (#8) oraz od Sitarskiego <strong>Maciejowi Tharasie</strong> (#16).</p>
+          </div>
+        </article>
+
+        <article class="monograph-chapter">
+          <h2 class="chapter-title">Rozdział III: Obrót Nieruchomościami w Rynku i pod Murem Klasztornym (skany 17–25)</h2>
+          <div class="chapter-content">
+            <p>Od lipca do września 1657 r. (<code>fol. 7r–11r</code>) przed burmistrzem <strong>Maciejem Tharasą</strong> i ławą radziecką przeprowadzono szereg transakcji nieruchomościami: <strong>Mikołaj Fortuna</strong> z żoną <strong>Katarzyną</strong> nabyli pusty plac Kiedrzakowskiego przy drodze ku Ladańsku za <code>80 złp</code> (#17–#18), rajcowie <strong>Marcin Sitarski</strong> i <strong>Albert Janaszkowic</strong> sprzedali dom w Rynku szlachetnemu <strong>Piotrowi Dzierżkowi</strong> i <strong>Zofii Gąskównie</strong> za <code>120 złp</code> (#20), <strong>Jan Grzymuszka</strong> kupił dom z ogrodem pod murem klasztornym od <strong>Łukasza Baczakowskiego</strong> za <code>120 złp</code> (#21–#22), a rajca <strong>Stanisław Nawrocki</strong> z żoną <strong>Jadwigą</strong> nabyli folwark i plac za Bramą Lubelską od <strong>Jana Czepielowskiego</strong> z Urzędowa i <strong>Zofii Barankówny</strong> za <code>80 złp</code> (#24–#25).</p>
+          </div>
+        </article>
+
+        <article class="monograph-chapter">
+          <h2 class="chapter-title">Rozdział IV: Laudum o Trunkach i Wielki Rachunek Wydatków Wojennych 1657 r. (skany 7–8, 18–19, 22–23)</h2>
+          <div class="chapter-content">
+            <p>Niezwykłą wartość dla historii gospodarczej i wojskowej Kraśnika w dobie wojen szwedzko-siedmiogrodzkich mają trzy uchwały Sądu Łączonego (<em>Lauda Communia</em>): składka majowa na <code>130 fl 19 gr</code> (#7–#8), szczegółowa taksa propinacyjna <em>Laudum Commune de Liquoribus</em> z 26 VII 1657 r. regulująca ceny chmielu, słodu, piwa i gorzałki (#18–#19) oraz rachunek wydatków wojennych z 31 VIII 1657 r. na sumę <code>322 fl 8 gr</code> (#22–#23), dokumentujący kontrybucje i koszty dla chorągwi Potockiego, Hana Czaborka, Łaskona z pułku Kawalera Judzkiego, Halickiego Strażnika Litewskiego oraz posłów do Zamościa i Rakoczego.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKCJA 4: KLUCZOWE ODKRYCIA I PRZEŁOMY -->
+    <section id="analytics-tab" class="tab-content">
+      <div class="analytics-content">
+        <article class="analytic-card">
+          <h2 class="card-title">⚔️ 1. Rachunek Wydatków Wojennych Kraśnika z 1657 r. – Chorągwie i Poselstwo do Rakoczego (skany #22–#23)</h2>
+          <div class="card-content">
+            <p>Unikatowy rejestr z 31 VIII 1657 r. (<code>fol. 9v–10r</code>) na sumę <code>322 fl 8 gr</code> wylicza konkretne kwoty wypłacone przez miasto w okresie najazdu Rakoczego i przemarszów wojsk (m.in. chorągwiom Potockiego, Hana Czaborka, Łaskona i Strażnika Litewskiego Halickiego) oraz zasady rozkładu podatku od placów i chałupników.</p>
+          </div>
+        </article>
+
+        <article class="analytic-card">
+          <h2 class="card-title">🍺 2. Laudum Commune de Liquoribus – Regulacja Cen Piwa i Gorzałki (skany #18–#19)</h2>
+          <div class="card-content">
+            <p>Uchwała z 26 VII 1657 r. w domu burmistrza Macieja Tharasy precyzyjnie kalkuluje koszt warzenia piwa i pędzenia gorzałki (chmiel <code>2 fl</code>, słód gorzałczany <code>15 fl 26 gr</code>) oraz ustala ceny maksymalne kwarty piwa (<code>3 gr</code>) i gorzałki (<code>12 gr</code>) pod groźbą 10 grzywien kary.</p>
+          </div>
+        </article>
+
+        <article class="analytic-card">
+          <h2 class="card-title">🏛️ 3. Translacje Prokonsulatu z Udziałem Cechu Szewskiego (skany #8, #16)</h2>
+          <div class="card-content">
+            <p>Protokoły z wiosny i lata 1657 r. ukazują kwartalną rotację urzędu burmistrza (prokonsula) między <strong>Wojciechem Kurzącym</strong>, <strong>Marcinem Sitarskim</strong> i <strong>Maciejem Tharasą</strong> przy formalnej asystencji cechu szewskiego i całego pospólstwa.</p>
+          </div>
+        </article>
+
+        <article class="analytic-card">
+          <h2 class="card-title">🏡 4. Ceny Nieruchomości i Kontakty z Urzędowem w 1657 r. (skany #17, #20–#25)</h2>
+          <div class="card-content">
+            <p>Wpisane w księgę transakcje rynkowe i przedmiejskie ukazują stabilny rynek nieruchomości (dom w Rynku dla <strong>Piotra Dzierżka</strong> za <code>120 złp</code>, dom pod murem klasztornym dla <strong>Jana Grzymuszki</strong> za <code>120 złp</code>, folwark za Bramą Lubelską dla <strong>Stanisława Nawrockiego</strong> za <code>80 złp</code>) oraz powiązania rodzinne z mieszczaństwem Urzędowa.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL SZCZEGÓŁÓW (3 ZAKŁADKI KANONU J40 DLA SKANU / MODAL DLA GENEALOGII) -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">SZCZEGÓŁY</h3>
+        <button class="modal-close" onclick="closeModal()">×</button>
+      </div>
+
+      <!-- Pasek 3 zakładek modalu skanu (ukrywany w modalu osoby) -->
+      <div id="modalTabsBar" class="modal-tabs-bar" style="display: none;">
+        <button class="modal-tab-btn active" id="tabBtnMeta" onclick="switchModalTab('meta')">📋 Opis i metadane</button>
+        <button class="modal-tab-btn" id="tabBtnTrans" onclick="switchModalTab('trans')">📜 Transkrypcja</button>
+        <button class="modal-tab-btn" id="tabBtnLink" onclick="switchModalTab('link')">🔗 Link do oryginału</button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Zawartość wstrzykiwana przez JS -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // DANE ŹRÓDŁOWE J19
+    const mainData = [{"nr_skanu": 1, "numer_pozycji": "1", "strona_pagina": "Metryka początkowa", "sygnatura": "35/40/0/1/19", "data_rok": "1959", "kategoria": "Metryka Archiwalna / Początek mikrofilmu nr 110358", "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie", "kwoty_podatki": "Brak", "opis_sprawy": "Klatka tytułowa mikrofilmu Wojewódzkiego Archiwum Państwowego w Lublinie: Akta Miasta Kraśnika, nr tomu 9, nr mikrofilmu 110358, Laboratorium Mikrofilmowe Archiwum Dokumentacji Mechanicznej, początek z dnia 11 IX 1959 r.", "transkrypcja": "--- Skan #1 (Metryka początkowa mikrofilmu) ---\nWOJEWÓDZKIE\nARCHIWUM PAŃSTWOWE\nLUBLIN\nAKTA MIASTA: KRAŚNIKA\nNR TOMU 9\nNR MIKROFILMU 110358\nLAB. MIKROFILM. ARCH. DOKUM. MECHANICZNEJ\nPOCZĄTEK\nDN. 11 M-C 9 ROK 1959 r.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 2, "numer_pozycji": "2", "strona_pagina": "Metryka mikrofilmu", "sygnatura": "35/40/0/1/19", "data_rok": "1959", "kategoria": "Metryka Archiwalna / Formularz Wzór 1", "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie", "kwoty_podatki": "Brak", "opis_sprawy": "Formularz metryki mikrofilmowej (Wzór 1) Wojewódzkiego Archiwum Państwowego w Lublinie: Księga m. Kraśnika Dekreta Manifesta, sygnatura archiwalna 9, data przygotowania akt do mikrofilmowania 30 III 1959 r., ilość zdjęć 113, nr książki kontrolnej 110.358.", "transkrypcja": "--- Skan #2 (Formularz Wzór 1) ---\nWojewódzkie Archiwum Państwowe w Lublinie\nul. Narutowicza 10, tel. 37-18\nWzór 1\nMETRYKA AKT\nWypełnia archiwum\n1. Nazwa Archiwum: [WAP Lublin]\n2. Nazwa zespołu lub zbioru: Księga m. Kraśnika Dekreta Manifesta\n3. Sygnatura archiwalna: 9\n4. Data przygotowania akt do mikrofilmowania: 30.III.1959 r.\n5. Ilość zdjęć: 113\n6. Nr książki kontrolnej: 110.358", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 3, "numer_pozycji": "3", "strona_pagina": "Karta informacyjna", "sygnatura": "35/40/0/1/19", "data_rok": "1959", "kategoria": "Metryka Archiwalna / Karta informacyjna", "osoby_podmioty": "Wojewódzkie Archiwum Państwowe w Lublinie", "kwoty_podatki": "Brak", "opis_sprawy": "Karta informacyjna (Wzór 2) dla tomu Kraśnik 9: łączna ilość zdjęć 113, wykaz stron pustych niefilmowanych: 57v, wymiary jednostki archiwalnej 31,5 x 19,5 cm.", "transkrypcja": "--- Skan #3 (Karta informacyjna) ---\nKraśnik 9\nWzór 2\nKARTA INFORMACYJNA\nŁączna ilość zdjęć: 113\nWykaz stron pustych niefilmowanych: 57v.\nWymiary dokumentu, obmiar jednostki archiwalnej\nw cm. wysokość x szerokość: 31,5 x 19,5", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 4, "numer_pozycji": "4", "strona_pagina": "Okładka (szyld)", "sygnatura": "35/40/0/1/19", "data_rok": "1657–1661", "kategoria": "Kodykologia / Okładka i szyld tytułowy", "osoby_podmioty": "Kancelaria Miasta Kraśnika", "kwoty_podatki": "Brak", "opis_sprawy": "Oprawa przednia woluminu z papierowym szyldem tytułowym: 'Miasta Krasnika Dekreta, Manifesta, Wizye, Intromissye, Testamenta etc. Od Roku 1657. do 1661. Nro 9.' oraz sygnaturami archiwalnymi (Nro 460).", "transkrypcja": "--- Skan #4 (Okładka – szyld tytułowy) ---\nMiasta Krasnika.\nDekreta, Manifesta, Wizye,\nIntromissye, Testamenta etc:\nOd Roku 1657. do 1661.\nNro 9.\nTomu... A 460", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 5, "numer_pozycji": "5", "strona_pagina": "fol. 1r", "sygnatura": "35/40/0/1/19", "data_rok": "1657 (wzm. 1827)", "kategoria": "Kodykologia / Karta tytułowa księgi radzieckiej", "osoby_podmioty": "Ubald Janaszkowic (prokonsul), Marcin Sitarski (rajca), Maciej Tharasa (rajca), Stanisław Nawrocki (rajca), Stanisław Sikor (pisarz przysięgły), Podsędek Doliński [?] (1827)", "kwoty_podatki": "Brak", "opis_sprawy": "Uroczysta karta tytułowa księgi Sądu Radzieckiego miasta Kraśnika (Protocollum Causarum et Actionum coram Officio Consulari Crasnicensi) założonej w 1657 r. za prokonsulatu Ubalda Janaszkowica, rajców Marcina Sitarskiego, Macieja Tharasy i Stanisława Nawrockiego oraz pisarza przysięgłego Stanisława Sikora; poniżej poświadczenie początkowe Sądu Pokoju z 10 IX 1827 r.", "transkrypcja": "--- Skan #5 (fol. 1r) ---\nPROTOCOLLUM Pag. 1.\nCausarum et Actionum coram Offo\nConsulari Crasnicensi peragi solitarum\nsub Residentia Famati Domini\nUbaldi Janaszkowic Proconsulis\nMarcini Sitarski, Mathiae Tharasa\net Stanislai Nawrocki Consulibus\nper Honoratum Stanislaum Sikor\nNotarium Juratum Anno Millesimo\nSexcentesimo Quinquagesimo\nSeptimo conscriptum.\nNro 9.\n\nPoczątkowe księgi Sąd\nPokoju poświadcza\nd. 10 Września 1827\nDoliński [?] MP", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 6, "numer_pozycji": "6", "strona_pagina": "fol. 1v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Dekrety i cesja Piotra Tokarza", "osoby_podmioty": "Krystyna Piekarowa, Benedykt Nowak, Wojciech Olęcki (sługa miejski?), Marcin Sitarski (rajca), Gabriel Kłopot, Maciej Reszka, Piotr Tokarz, Zofia Tokarzowa, o. Tomasz Święcicki [?] (zakrystian augustianów)", "kwoty_podatki": "55 złp, 30 złp, 37 złp", "opis_sprawy": "Sesja z wtorku po Niedzieli Laetare 1657 r.: wyrok dla Krystyny Piekarowej i Benedykta Nowaka przeciw Wojciechowi Olęckiemu o dług 55 złp (z odsetkami za 3 lata); wyrok dla rajcy Marcina Sitarskiego przeciw opiekunom Gabrielowi Kłopotowi i Maciejowi Reszce o dług 30 złp z dekretu z 1656 r.; zapis długu 37 złp przez Piotra Tokarza na rzecz konwentu kraśnickiego oraz cesja jego i żony Zofii na rzecz o. Tomasza Święcickiego [?] zakrystiana zakonu św. Augustyna.", "transkrypcja": "--- Skan #6 (fol. 1v) ---\n1657. 1v\nActum feria tertia post Dominicam Laetare.\n\nIn Causa Hon. Cristinae Piekarowa et Benedicti Nowak ante Oppidum Crasn.\nActoribus contra Hon. Albertum Olęcki Civem Crasn. Citatum.\nPrzyznanej długu fl. 55 więcej Aktorce bez Pozwanego Urząd ninieyszy\nRadziecki Krasnicki nakazuje aby Citatus według zaniechanej rzeczy oddał\nquantum attinet interessu od tej sumy za lat trzy zatrzymanych Przydana\njest ab utraque partium z rewizyą oddał, a ktoby się dekretowi przeciwiał\nz Aktorka w tej sprawie ad rationem tego interesu. Do Decretum ab utraque parte\nsusceptum est.\n\nPro Famato Martino Sitarski Consule Crasn. Actore\ncontra Hon. Gabrielem Kłopot et Mathiam Reszka ante Oppidum Crasn.\nTutores bonorum olim Hon. Decii ante Oppidum Crasn.\nInhaerendo priori Decreto coram Officio Consulari sub Actu feria sexta Anno\n1656 visionis et revisionis expresse constat że Pozwany nakazano by-\nło aby interes na lat sześć zaległy z duplą z wierzchu długu złożyć którego\nsię przychodzi fl. 30 na nieudolność oddali czego nie uczynili Aktorowi...\nprzeto teraz tak dług jako i dekret Sądu ninieyszego Radzieckiego Krasnickiego naka-\nzuje aby do dwóch niedziel dnia Aktorom oddali i interes wypłacili. Do Decretum\nab utraque parte susceptum est.\n\nHonestus Petrus Tokarz ante Oppidum Crasn. recognovit\ndebet floren. 37 Conventui Crasnicensi.\nCoram Actis praesentibus personaliter comparuit Hon. Petrus Tokarz\net Zophia Conjuges cives ante Oppidum Crasn. mente et corpore sani existentes non compulsi nec\ncoacti neq. alio devio errore seducti sed ex deliberato, palam, publice, libere,\natq. verbis expressis Maritus quidem pro se coniunx vero ipsius pro se et per eundem Ma-\nritum suum tutorem coniugalem recognoverunt ingenue fassi sunt, Quia Adm. R.\nPri. Thomae Święcicki [?] Sacri Ordinis Eremitarum S. Augustini Sacristiano Ordinis Sancti\nAugustini...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 7, "numer_pozycji": "7", "strona_pagina": "fol. 2r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Wyderkaf augustiański i Laudum na 130 złp 19 gr", "osoby_podmioty": "o. Augustyn [?] (przeor), Maciej Jarzębek [Jarzyk?], Jan Zdebik, Sebastian Zdebik, Sąd Łączony (rada, wójt, ławnicy, cechmistrzowie, pospólstwo)", "kwoty_podatki": "130 złp 19 gr", "opis_sprawy": "Dokończenie zapisu wyderkafowego dla konwentu św. Augustyna (spłata kapitału od Macieja Jarzębka [Jarzyka?], wpisanie Jana i Sebastiana Zdebików jako gwarantów); poniżej sesja Sądu Łączonego (wtorek po Niedzieli Invocavit 1657 r. / po Kwietniej?): Laudum Commune na sumę 130 fl 19 gr uchwalone wspólnie przez Radę Miejską, wójta, ławników, cechmistrzów i pospólstwo w domu burmistrza na potrzeby publiczne miasta.", "transkrypcja": "--- Skan #7 (fol. 2r) ---\n1657 2.\nAugustini eiusdem Capellae conventus Maioris obligavit debiti summam florenorum...\nSuszieradno [?] publicatione asserti et tenori in regestis...\nsummando et comparando idq. ex legatione olim Hon. Mathiae Zdebik [Jarzębek?]...\nopem eiusdem Conventus praesidium dat et in perpetuum dat. Quam summam praefatus R. P.\ndebitores recuperat id est przejęli a Hon. Mathia Jarzębek [?]...\nquae summa Census reemptionis id est Wyderkaf per annos totidem dicti Obliga-\ntores fl. 37 pro ventura obligant sese soluturos coram supra dictis...\nSacristiani nomini summam vero Capitalem floren. triginta duorum...\ngant sese soluturos et ad manus eiusdem Rndi Pris pro tunc Sacristiani...\nsub reincidentia in eas pati reponit idq. sine quibuslibet exceptionibus...\nAppellationibus, legalibus impedimentis, aliisque astus et negatis ingeniose et sponte...\nne Hujus iuris quib.vis etiam heredibus exequere possint, quibus actis quidem...\nActibus abrenunciando, Decernitque quietationem sive publicam sive privatam...\nsupramemorato Rndo Pri nunc et pro tempore existenti Monasterio tunc beati...\nomnium firmioris gratiae supra dicti obligatores praedictam summam et interesse...\nforis et in bonis suis tam mobilibus quam immobilibus...\nsummis pecuniariis hic in Crasnik et ubivis locorum existentibus et...\nquarumvis actis na każdej roli realiter obligant... Hon. Joannes Zdebik\nex altera vero Hon. Sebastianus Zdebik ante Oppidum Crasn. in arbusto dicto Zarzecze...\nsitam erigentes, Quae quidem Obligatio ad affectationem supra dicti Adm. Rndi\nPris Sacristiani Actis praesentibus inserta et roborata.\n\nActum Coram Officio Composito Consulari Advocatiali et Scabinali\nJurato Crasnicensi Feria tertia post Dominicam Invocavit [?] 1657.\n\nLaudum commune pro Summa floren. 130 / 9\nMy Rada Miejska zobopolna tak Radziecka jako i Wójtowska z Ławnikami\nGminnymi i Cechmistrzami starszymi i pospolstwem wszystkiem...\nw domu Sławetnego Pana Burmistrza tutejszego Crasnickiego...\nwedle potrzeb tak wojennych jako i na podatki Rzeczypospolitej...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 8, "numer_pozycji": "8", "strona_pagina": "fol. 2v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Taksa podatkowa, translacja prokonsulatu i skarga Słupeckiego", "osoby_podmioty": "Stanisław Piątkowski [?] (egzaktor), Wojciech Kurzący [Kurczy?], Marcin Sitarski (prokonsul), Matyjasz Słupecki (z Czerwięcina), Zuzanna Gołacka, Jan Gołacki (młynarz)", "kwoty_podatki": "15 gr, 1 złp 15 gr, 20 gr, 18 gr", "opis_sprawy": "Dokończenie rozkładu składki miejskiej z 1657 r. (od domów rynkowych po 1 fl 15 gr, od zagrodników 20 gr, od chałupników 18 gr, od komorników 15 gr; egzaktor Stanisław Piątkowski); sesja z piątku po Niedzieli Przewodniej / Wielkanocy 1657 r.: przekazanie urzędu prokonsula (Translatio Proconsulatus) od Wojciecha Kurzącego Marcinowi Sitarskiemu w obecności cechu szewskiego; sesja w wigilię Wniebowstąpienia Pańskiego 1657 r.: początek skargi pracowitego Matyjasza Słupeckiego z Czerwięcina przeciw Zuzannie żonie młynarza Jana Gołackiego o kradzież i pobicie kucharki.", "transkrypcja": "--- Skan #8 (fol. 2v) ---\n1657 2v\n...także i na Pana Ławnika krzywda...\nna to 100 zł...\nItem od domów rynkowych po fl. 1 / 15\nod zagrodników po gr. 20\nod chałupników po gr. 18\nod komorników po gr. 15\nItem na Pana Egzaktora Stanisława Piątkowskiego [?]...\n\nActum Coram Officio Composito Consulari Advocatiali\net Scabinali Jurato Crasnicensi Feria Sexta post Festa Solennia\nPaschae 1657.\n\nTranslatio Proconsulatus a Famato Dno Alberto Kurzący [Kurczym?] ad Fama-\ntum Dnum Martinum Sitarski, in patia Cechu Sutorum Scabinis sub-\niecti et totius communitatis iuxta ritum et\nconsuetudinem antiquam. De Actis hisce cavetur.\n\nActum Coram Officio Consulari feria quarta in vigilia Festi\nGloriosae Ascensionis Christi Dni 1657.\n\nIn Causa Laboriosi Mathiae Słupecki subditi de Czerwięcin Actoris\ncontra et adversus Zuzannam consortem Hon. Joannis Gołacki Molitoris Citis.\nPracowity Mathias Słupecki poddany z Czerwięcina do Urzędu ninieyszego\nRadzieckiego żałośnie imieniem Zuzanny żony Jana Gołackiego takowe pisanie y skargę\nprzed Sąd podał cuius series de Verbo ad verbum talis:\nOstatniego kłopotu i nieszczęścia mego do\nudzielenia sprawiedliwości skarżąc się na Zuzannę żonę Jana Gołackiego młynarza\nktórą żona moja tłukła za kucharkę, którą ja o to upominał...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 9, "numer_pozycji": "9", "strona_pagina": "fol. 3r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Skarga Słupeckiego i zeznania u Bożęborskiego", "osoby_podmioty": "Matyjasz Słupecki, Zuzanna Gołacka, Jan Gołacki (młynarz), Bartłomiej Bożęborski [Boięborski?], Jędrzej Nowak, Bartkowa", "kwoty_podatki": "12 złp", "opis_sprawy": "Dokończenie skargi Matyjasza Słupeckiego z 8 V 1657 r. (skradzione 12 złp, obrazy święte, chusty i korale; odroczenie sprawy do powrotu młynarza Jana Gołackiego); poniżej sesja z piątku w oktawie Bożego Ciała 1657 r.: zeznanie świadka na instancję Bartłomieja Bożęborskiego [Boięborskiego?] przeciw żonie Jędrzeja Nowaka o bójkę z Bartkową i obelgi.", "transkrypcja": "--- Skan #9 (fol. 3r) ---\n1657 3.\n...uciekła do Kraśnika y miała za mąż pójść...\nza mąż opowiedziawszy się...\nsłupować na połowę...\nNaprzód wzięła fl. 12. Obrazy dwoje...\nItem chust wielkich 4, kabatów i innych rzeczy...\nwzięła dwoje korali...\nNa ostatek i z gospody...\nDan w Kraśniku die 8 Maii 1657.\n\nNa którą skargę stanąwszy przed Urzędem Zuzanna Gołacka\nmłynarzowa nie mogła się wyprzeć ale prosiła o dylacyą do przyjazdu męża swego\nJana Gołackiego młynarza, na co Urząd pozwolił dylacyi do dwóch niedziel\npro peremptorio termino.\n\nActum feria sexta infra Octavas Festi Corporis Christi 1657.\nTestimonium ex parte Hon. Bartholomaei Bożęborski [Boięborski?].\nEx Instantia Hon. Bartholomaei Bożęborski [?]...\nper Bedellum juratum adhibendus fidelis testis...\nqui quidem coram Officio examinatus recognovit...\nże gdy na ten czas w domu Pana Bożęborskiego byłem...\nwielkie krzyki słyszałem między Jędrzejową Nowakową a Bartkową...\nsłyszałem jako ją szarpała i biła...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 10, "numer_pozycji": "10", "strona_pagina": "fol. 3v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Zeznania Rogalowskiego, opiekunowie Gabrielowej i sprawa Batusika", "osoby_podmioty": "Wojciech Rogalowski, Stanisław Rynarzyk [Rymarczyk?], Regina Gabrielowa (wdowa po Gabrielu Bucie), Gabriel But (śp.), Maciej Konięga (opiekun), Stanisław Sikor (pisarz i opiekun), Jan Batusik, Wojciech Lis (świadek)", "kwoty_podatki": "Brak", "opis_sprawy": "Zeznanie Stanisława Rynarzyka [Rymarczyka?] na instancję Wojciecha Rogalowskiego; wyznaczenie opiekunów (Macieja Konięgi i pisarza Stanisława Sikora) dla wdowy Reginy Gabrielowej po śp. Gabrielu Bucie; poniżej początek zeznań świadków na instancję Jana Batusika (świadek Wojciech Lis o bójce w nocy).", "transkrypcja": "--- Skan #10 (fol. 3v) ---\n1657 3v\nTestimonium ex parte Alberti Rogalowski.\nHon. Stanislaus Rynarzyk [Rymarczyk?] ante Oppidum Crasn. Gratia Authoritatis...\nex Instantia Hon. Alberti Rogalowski coram Officio per Bedellum Juratum adhibendus...\ncoram eodem Officio examinatus et iuratus est eiusdem testimonium...\nna ten czas kiedy byłem w domu u Rogalowskiego...\nwidziałem jako się wadził z nim i słyszałem słowa nieprzystojne...\n\nTutores assignantur Hon. Viduae Gabrielowa.\nFamati Dni Proconsul et Consules Cives Crasnicenses ex debito Officii sui\nad postulationem Hon. Reginae Gabrielowa post olim Hon. Gabrielem But\nCivem Crasn. relictae Viduae eidem in veros ac legitimos Tutores assignaverunt et deputaverunt\nFamatos Mathiam Konięga Scabinum et Stanislaum Sikor Notarium Juratum...\n\nTestimonium ex parte Hon. Joannis Batusik ante Oppidum Crasn.\nAd instantiam Hon. Joannis Batusik ante Oppidum Crasn. testes infrascripti\nper Bedellum juratum ad Officium perducti...\nqui quidem coram Officio examinati et iurati...\nIn primis Hon. Albertus Lis ante Oppidum Crasn. post praestitum juramentum...\nzeznał iż gdy w nocy szedłem przez ulicę słyszałem krzyk przed domem Batusika...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 11, "numer_pozycji": "11", "strona_pagina": "fol. 4r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Dokończenie zeznań Batusika i sprawa Reginy Zotowej", "osoby_podmioty": "Jan Batusik, Stanisław Niedźwiadek [?] (świadek), Regina Janaszkowicowa [?] (świadek), Regina Zotowa, Andrzej Zota [?], Zofia Kietosińska [?]", "kwoty_podatki": "15 gr", "opis_sprawy": "Dokończenie zeznań świadków w sprawie Jana Batusika (świadkowie Stanisław Niedźwiadek [?] oraz Regina wdowa Janaszkowicowa [?]); sesja z wtorku przed św. Janem Chrzcicielem 1657 r.: wyrok w sprawie Reginy Zotowej (żony Andrzeja Zoty?) przeciw sąsiadce o 15 gr i zniewagę.", "transkrypcja": "--- Skan #11 (fol. 4r) ---\n1657 4.\n...się z szwagrem swoim Jana Batusika...\nwstał go odłożyć i teraz na obyczajny Ratuszowy...\n\n2dus Testis Hon. Stanislaus Niedźwiadek [?] ante Oppidum Crasn.\niuratus et examinatus recognovit iż w nocy słyszałem krzyk\nkiedy na tę ulicę wyszedłem widziałem Jana Batusika...\n\n3tia Testis Regina Vidua Jadvigae Janaszkowicowa [?]\niurata recognovit iż słyszałam kłótnię i bicie przed domem...\nDe quibus testibus facta est relatio ad affectationem dicti Joannis Batusik.\n\nActum feria tertia ante Festum S. Joannis Baptistae 1657.\nIn Causa Hon. Reginae Zotowa Actricis et Hon. Andreae Zota [?]...\nSkarży się Aktorka na Pozwanego o zatrzymanie gr. 15 za robotę i\nzniewagę słowną w domu...\nSąd ninieyszy Radziecki nakazuje aby Pozwany zapłacił gr. 15 do dwóch niedziel\npod winą sądową, od której apelacya nie służy. Do Decretum ab utraque parte susceptum.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 12, "numer_pozycji": "12", "strona_pagina": "fol. 4v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Sprawa Batusika i Rymarczyka oraz zeznania Andrzeja Pieniążka", "osoby_podmioty": "Stanisław Rymarczyk, Jan Batusik, Piotr Tokarz, Wojciech Kudrelik, Andrzej Pieniążek (kowal), Matyjasz Tkarz [Tkacz?] (z Suchyni), Paweł Tokarz (z Wyżnicy)", "kwoty_podatki": "Brak", "opis_sprawy": "Dylacja w sprawie Stanisława Rymarczyka i Jana Batusika przeciw Piotrowi Tokarzowi i Wojciechowi Kudrelikowi o pobicie chłopa; sesja z wtorku po Niedzieli Cantate 1657 r.: zeznania świadków na instancję kowala Andrzeja Pieniążka (Matyjasza Tkarza z Suchyni oraz Pawła Tokarza z Wyżnicy) o kłótni i pobiciu przez Tokarza; poniżej sesja przed świętem śś. Gerwazego i Protazego 1657 r. (powtórzenie pozwu Rymarczyka i Batusika przeciw Tokarzowi i Kudrelikowi).", "transkrypcja": "--- Skan #12 (fol. 4v) ---\n1657 4v\nIn Causa Hon. Stanislaum Rymarczyk et Joannem Batusik ante Oppidum Crasn.\nActores contra Hon. Petrum Tokarz et Albertum Kudrelik...\nPozwani nie stanęli na terminie przeto Sąd odkłada do drugiego sądu.\n\nActum feria secunda post Dominicam Cantate 1657.\nTestes ex parte Hon. Andreae Pieniążek Serri fabri.\nAd Instantiam Hon. Andreae Pieniążek Serri fabri testes infrascripti\nper Bedellum juratum ad Officium perducti...\n1mus Testis Laboriosus Mathias Tkarz de Suchynia post praestitum\njuramentum recognovit iż widziałem kiedy Tokarz pobił Pieniążka w gospodzie\ni kijem go uderzył.\n2dus Testis Laboriosus Paulus Tokarz de Wyżnica similiter iuratus\nrecognovit iż było wadzenie między nimi i widziałem jako się bili\no co Andrzej Pieniążek protestował się.\n\nActum Coram Officio Consulari feria sexta ante Festum SS.\nGervasii et Protasii Martyrum 1657.\nIn Causa Hon. Stanislaum Rymarczyk et Joannem Batusik ante Oppidum Crasn.\nActores contra Hon. Petrum Tokarz et Albertum Kudrelik Citatos.\nSkarżyli się Aktorowie na Pozwanych iż oni najechali na dom w nocy\ni chłopa pobili...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 13, "numer_pozycji": "13", "strona_pagina": "fol. 5r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Wyrok przeciw Piotrowi Tokarzowi i Wojciechowi Kudrelikowi", "osoby_podmioty": "Stanisław Rymarczyk, Jan Batusik, Piotr Tokarz, Wojciech Kudrelik, Jan Jarząbek [?], Jan Jędrzejewski [?]", "kwoty_podatki": "2 złp (dla szpitala i stron)", "opis_sprawy": "Dokończenie i wyrok w sprawie Stanisława Rymarczyka i Jana Batusika przeciw Piotrowi Tokarzowi i Wojciechowi Kudrelikowi (opis napaści z siekierą w drodze do Wilkołaza, zeznania świadków i skazanie pozwanych na grzywny na rzecz szpitala św. Ducha oraz po 2 złp dla każdego z aktorów).", "transkrypcja": "--- Skan #13 (fol. 5r) ---\n1657 5.\n...którzy pobili konia tak że chromy został...\nSkarżą się na Piotra Tokarza y Wojciecha Kudrelika iż oni\nz siekierami napadli na nich w drodze jadących do Wilkołaza\ny Jana Jędrzejewskiego [?] pobili tak iż do przysięgi doszło...\nSąd ninieyszy Radziecki Krasnicki uznawszy iż Pozwani wielką\nkrzywdę i gwałt uczynili nakazuje aby Pozwani za takowe\nprzestępstwo grzywny do Szpitala św. Ducha oddali\noraz każdemu z Aktorów po złotych dwa polskie zapłacili\npod winą sądową. Decretum ab utraque parte susceptum est.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 14, "numer_pozycji": "14", "strona_pagina": "fol. 5v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Wyrok na Zuzannę Gołacką za kradzież", "osoby_podmioty": "Matyjasz Słupecki (z Czerwięcina), Zuzanna Gołacka, Jan Gołacki (młynarz, mąż pozwanej)", "kwoty_podatki": "12 złp, 4 grzywny", "opis_sprawy": "Wyrok Sądu Radzieckiego w sprawie pracowitego Matyjasza Słupeckiego z Czerwięcina przeciw Zuzannie Gołackiej (żonie młynarza Jana Gołackiego): pozwana przyznała się do zabrania kabata, fartucha, 12 złp gotówką, pierścionka i chust; sąd skazał ją na zwrot rzeczy i 12 złp oraz kary sądowe, co potwierdził obecny mąż Jan Gołacki.", "transkrypcja": "--- Skan #14 (fol. 5v) ---\n1657 5v\nIn Causa Laboriosi Mathiae Słupecki subditi de Czerwięcin\nActoris contra Zuzannam consortem Hon. Joannis Gołacki Molitoris Crasn.\nW sprawie między pracowitym Matyaszem Słupeckim z Czerwięcina\na Zuzanną żoną Jana Gołackiego młynarza pozwaną\npo przesłuchaniu stron i dobrowolnym przyznaniu się pozwanej\ndo wzięcia kabata, fartucha, pieniędzy gotowych złotych dwanaście,\npierścionka i chust białych, Sąd ninieyszy Radziecki nakazuje\naby pozwana wszystkie te rzeczy i pieniądze złotych dwanaście\nAktorowi bez żadnej zwłoki wróciła i oddała\na nadto za winę sądową cztery grzywny zapłaciła.\nDecretum ab utraque parte susceptum est.\nJan Gołacki.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 15, "numer_pozycji": "15", "strona_pagina": "fol. 6r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Oblig Jana Gołackiego na 20 złp i dekret przed św. Janem", "osoby_podmioty": "Jan Gołacki (młynarz), Matyjasz Słupecki (z Czerwięcina), ks. Piotr Bielik [Bielek?] (sąsiad młyna)", "kwoty_podatki": "20 złp", "opis_sprawy": "Oblig młynarza Jana Gołackiego na sumę 20 złp dla pracowitego Matyjasza Słupeckiego z Czerwięcina, zabezpieczony na dobrach i młynie leżącym między ulicą pospolitą a folwarkiem ks. Piotra Bielka [?]; poniżej sesja z soboty w wigilię św. Jana Chrzciciela 1657 r. (23 VI): dekret przeciw Zuzannie Gołackiej w sprawie z Matyjaszem Słupeckim.", "transkrypcja": "--- Skan #15 (fol. 6r) ---\n1657 6.\nJoannes Gołacki Molitor Civis Crasn. recognovit debitum\nfloren. 20 Laborioso Mathiae Słupecki de Czerwięcin subdito.\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi Krasnickiemi stanąwszy\noblicznie Uczciwy Jan Gołacki Młynarz miejski tutejszy zdrowy na ciele i umyśle\nbędąc dobrowolnie wyznał iż winien jest długu prawdziwego złotych polskich dwadzieścia\nmonety polskiej w każdy złoty po gr. 30 rachując pracowitemu Matyaszowi Słupeckiemu\npoddanemu z Czerwięcina które to pieniądze oddać przyrzeka na termin\nopisany pod ewikcyą wszystkich dóbr swoich ruchomych i nieruchomych\na osobliwie na młynie swoim między ulicą pospolitą z jednej a folwarkiem\nks. Piotra Bielka [?] z drugiej strony leżącym. Quod ad affectationem\ndicti Słupecki Actis praesentibus inserta est.\n\nActum Sabbato in vigilia S. Joannis Baptistae 1657.\nDekret przeciwko Zuzannie Gołackiej...\nAktor Matyjasz Słupecki przeciwko Zuzannie Gołackiej żonie młynarza miejskiego...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 16, "numer_pozycji": "16", "strona_pagina": "fol. 6v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Translacja prokonsulatu, opieka dla Zofii Gąskowej i sprawa Fortuny", "osoby_podmioty": "Zuzanna Gołacka, Matyjasz Słupecki, Marcin Sitarski (prokonsul ustępujący), Maciej Tharasa (prokonsul nowy), Zofia Gąskowa (wdowa), Augustyn Gąsek (śp.), Augustyn Kwasowic (opiekun), Wojciech Łopata [?] (opiekun), Mikołaj Fortuna", "kwoty_podatki": "Brak", "opis_sprawy": "Dokończenie dekretu dla Zuzanny Gołackiej; sesja Sądu Łączonego z czwartku przed św. Marią Magdaleną 1657 r. (19 VII): przekazanie prokonsulatu od Marcina Sitarskiego Maciejowi Tharasie w obecności cechu szewskiego; sesja z 21 VII 1657 r.: wyznaczenie opiekunów (Augustyna Kwasowica i Wojciecha Łopaty [?]) dla wdowy Zofii Gąskowej po śp. Augustynie Gąsku; poniżej początek aktu przed św. Jakubem: Mancipatio Honesti Nicolai Fortuna.", "transkrypcja": "--- Skan #16 (fol. 6v) ---\n1657 6v\n...Zuzanna zasłużyła była słusznie na karanie za popełniony excess...\njednakże na prośbę męża swego Jana Gołackiego i Matyasza Słupeckiego\nuwolniona zostaje od więzienia za zapłaceniem kary sądowej.\n\nActum Coram Officio Composito Consulari Advocatiali\net Scabinali Jurato Crasnicensi feria quarta ante Festum\nSanctae Mariae Magdalenae 1657.\n\nTranslatio Proconsulatus a Famato Dno Martino Sitarski ad\nFamatum Dnum Mathiam Tharasa in patia Cechu Sutorum Sutorumque\nSuburbii Crasnicensis et totius communitatis iuxta ritum et\nconsuetudinem antiquam.\n\nActum Sabbato in vigilia S. Mariae Magdalenae 1657.\nTutores dantur Hon. Viduae Gąskowa.\nFamati Dni Proconsul et Consules Cives Crasnicenses ex debito Officii sui ad\npostulationem Hon. Zophiae Gąskowa post olim Hon. Augustinum Gąsek Civem\nCrasn. relictae viduae eidem in veros ac legitimos Tutores assignaverunt et depu-\ntaverunt Famatos Augustinum Kwasowic Scabinum Juratum et Albertum Łopata [?]...\n\nActum Coram Officio Consulari feria quarta ante Festum\nSancti Jacobi Apostoli 1657.\nMancipatio Honesti Nicolai Fortuna.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 17, "numer_pozycji": "17", "strona_pagina": "fol. 7r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Kupno placu przez Mikołaja Fortunę i oblig dla Zofii Łyckiej", "osoby_podmioty": "Maciej Tharasa (burmistrz), Zofia Łycka [Lychowa?], Szymon Łycek [Lych?] (opiekun), Mikołaj Fortuna, Katarzyna Fortunowa, Jan Kiedrzakowski [?] (sąsiad)", "kwoty_podatki": "80 złp, 30 złp", "opis_sprawy": "Kontrakt kupna-sprzedaży pustego placu Kiedrzakowskiego [?] za 80 złp: opiekun Zofii Łyckiej [Lychowej?] sprzedaje za zgodą burmistrza Macieja Tharasy plac pusty między placem Jana Kiedrzakowskiego a drogą ku Ladańsku małżonkom Mikołajowi i Katarzynie Fortunom; poniżej oblig Mikołaja Fortuny na 30 złp dla opiekuna Szymona Łycka [Lycha?].", "transkrypcja": "--- Skan #17 (fol. 7r) ---\n1657 7.\nW domu Sławetnego Pana Mathyasza Tharasy Burmistrza natenczas Rezydującego...\nstanąwszy przed Urzędem y Aktami ninieyszemi opiekun Zofii Łyckiej [Lychowej?]\nmieszczanin kraśnicki Szymon Łycek [Lych?]...\nsprzedał plac pusty Kiedrzakowski [?] nazwany między placem\nJana Kiedrzakowskiego z jednej a drogą ku Ladańsku z drugiej strony leżący\nUciwemu Mikołajowi Fortunie i małżonce jego Katarzynie za summę pewną\nzłotych polskich ośmdziesiąt w każdy złoty po groszy 30 rachując,\nz której to summy kupiec już oddał złotych pięćdziesiąt a resztę złotych\ntrzydzieści zapłacić obliguje się na termin opisany.\n\nNicolaus Fortuna recognovit debitum flor. 30\nHon. Simoni Łycek [Lych?] Tutori Minoris Zophiae Łyckowna.\n\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi Krasnickiemi stanąwszy\nMikołaj Fortuna zeznał iż winien jest fl. 30 na rzecz małoletniej Zofii Łyckówny...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 18, "numer_pozycji": "18", "strona_pagina": "fol. 7v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Ewikcja Fortuny i Laudum o trunkach (De Liquoribus)", "osoby_podmioty": "Mikołaj Fortuna, Katarzyna Fortunowa, Szymon Łycek [Lych?], Zofia Łyckówna, Maciej Tharasa (burmistrz), Sąd Łączony i Pospólstwo", "kwoty_podatki": "30 złp, taksy trunków", "opis_sprawy": "Dokończenie zapisu i ewikcji Mikołaja Fortuny i jego żony Katarzyny dla opiekuna Szymona Łycka na sumę 30 złp; poniżej sesja Sądu Łączonego z czwartku w dzień św. Anny 1657 r. (26 VII): Laudum Commune de Liquoribus uchwalone w domu burmistrza Macieja Tharasy przeciw fałszowaniu miar piwa i gorzałki oraz o taksie propinacyjnej.", "transkrypcja": "--- Skan #18 (fol. 7v) ---\n1657 7v\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi Krasnickiemi oblicznie\nstanąwszy Uciwy Mikołaj Fortuna z małżonką swoją Katarzyną oboje na ciele\ny umyśle zdrowi będąc dobrowolnie wyznali iż za dług złotych trzydzieści\nopiekunowi Szymonowi Łyckowi [Lychowi?] na rzecz małoletniej Zofii Łyckówny\nzapisują ewikcyą na wszystkich dobrach swoich ruchomych i nieruchomych\naż do zupełnego wypłacenia tej summy. Quod ad affectationem dicti\nHon. Simonis Łycek Actis praesentibus inserta est.\n\nActum Coram Officio Composito Consulari Advocatiali\net Scabinali Jurato Crasnicensi feria quinta ipso die Festo\nS. Annae Matris B. V. Mariae 1657.\n\nLaudum Commune de Liquoribus.\nMy Rada Miejska zobopolna tak Radziecka jako i Wójtowska z Ławnikami\nGminnymi i Cechmistrzami i wszystkiem pospolstwem zgromadziwszy się\nw domu Sławetnego Pana Mathyasza Tharasy Burmistrza natenczas\nRezydującego Krasnickiego, widząc wielkie nadużycia w karczmach i szynkach\nwódki, miodu i piwa, uchwaliliśmy takowe postanowienie na wszystkich\nszynkarzy i gorzałczników, aby pod winą...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 19, "numer_pozycji": "19", "strona_pagina": "fol. 8r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Taksa chmielu, słodu, piwa i gorzałki z Laudum", "osoby_podmioty": "Rada Miejska, Sąd Wójtowski, Cechmistrzowie, Piotr Dzierżek (szlachetny)", "kwoty_podatki": "Taksa trunków i zbóż (fl. 2, fl. 15, fl. 3, gr 12)", "opis_sprawy": "Dokończenie uchwały z 26 VII 1657 r. ustalającej ceny maksymalne i podatki od warzenia piwa i pędzenia gorzałki (chmiel 2 fl, słód jęczmienny 15 fl, piwo dubeltowe i gorzałka po 12 gr za kwartę, zakaz sprzedaży fałszywych miar); na dole nagłówek aktu zakupu domu przez szlachetnego Piotra Dzierżka.", "transkrypcja": "--- Skan #19 (fol. 8r) ---\n1657 8.\n...dobre postanowienie między sobą tak zapisy jako i podatki wszystkie\npotrzebne do tego przyjąwszy i obrachowawszy...\nwarzyć piwo od każdego korca słodu po gr. 15, chmiel fl. 2...\npiwowar fl. 1, woda fl. 1, czopowe i rzemieślnicy fl. 3...\nsłód gorzałczany kosztuje ze wszystkiem fl. 15 gr 26...\nWzględem jednak słodów drogich ktoby chciał drożej szynkować\npiwo i gorzałkę, tedy kwartę piwa dobrego po gr. 3 a gorzałki\nkwartę po gr. 12 pod winą dziesięciu grzywien...\nI na to wszystko podpisujemy się zgodnie.\n\nEodem die Coram Officio Consulari\nMancipatio H. Petri Dzierżek.", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 20, "numer_pozycji": "20", "strona_pagina": "fol. 8v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Kupno domu w Rynku przez Piotra Dzierżka za 120 złp", "osoby_podmioty": "Maciej Tharasa (burmistrz), Marcin Sitarski (rajca), Albert Janaszkowic (rajca), Piotr Dzierżek (szlachetny), Zofia Gąskówna (żona P. Dzierżka), Mikołaj Fortuna (sąsiad)", "kwoty_podatki": "120 złp (40 złp + 50 złp + 30 złp)", "opis_sprawy": "Sprzedaż domu w Rynku kraśnickim (przy domu Mikołaja Fortuny) przez rajców Marcina Sitarskiego i Alberta Janaszkowica szlachetnemu Piotrowi Dzierżkowi i jego żonie Zofii z Gąsków za 120 złp (40 złp zapłacone od ręki, 30 złp na Nowy Rok 1658, 50 złp na Boże Ciało 1658); poniżej oblig Piotra Dzierżka na 60 złp (lub 80 złp) dla rajców Marcina Sitarskiego i Alberta Janaszkowica.", "transkrypcja": "--- Skan #20 (fol. 8v) ---\n8v 1657\nW domu Sławetnego Pana Mathyasza Tharasy Burmistrza natenczas Rezydującego\nKrasnickiego przy bytności jego samego y Sławetnych Panów Kolegów przy boku\njego siedzących stał się pewny a nieodmienny zapis kupna domu w Rynku...\nmiędzy Sławetnymi Panem Marcinem Sitarskim i Albertem Janaszkowicem\nRajcami Krasnickimi przedawcami z jednej a Szlachetnym Piotrem Dzierżkiem\ni małżonką jego Zofią Gąskówną kupcami z drugiej strony...\nza summę pewną złotych polskich sto dwadzieścia po groszy 30 rachując,\nz której to summy kupiec już oddał złotych 40 a resztę fl. 80 oddać przyrzeka:\npierwszą ratę fl. 30 na Nowy Rok 1658 a drugą ratę fl. 50 na Boże Ciało 1658.\n\nHon. Petrus Dzierżek recognovit debitum Famatis Martino\nSitarski et Alberto Janaszkowic Consulibus Crasnicensibus.\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi stanąwszy Szlachetny\nPiotr Dzierżek mieszczanin kraśnicki wyznał iż winien jest Sławetnym\nPanom Marcinowi Sitarskiemu i Albertowi Janaszkowicowi summę złotych polskich...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 21, "numer_pozycji": "21", "strona_pagina": "fol. 9r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Kupno domu pod murem klasztornym przez Jana Grzymuszkę", "osoby_podmioty": "Piotr Dzierżek, Maciej Tharasa (burmistrz), Łukasz Baczakowski [Bączkowski?] (z Urzędowa?), Jan Grzymuszka, Maryna Grzymuszkowa, Mikołaj Dudek [?] (sąsiad)", "kwoty_podatki": "120 złp (raty po 60 złp w 1658 r.)", "opis_sprawy": "Dokończenie obligu Piotra Dzierżka; poniżej Mancipatio Honesti Joannis Grzymuszka: sprzedaż domu z placem i ogrodem pod murem klasztornym (między placem Mikołaja Dudka [?] a ulicą pospolitą do kościoła) przez Łukasza Baczakowskiego [Bączkowskiego?] Janowi Grzymuszce i jego żonie Marynie za 120 złp (dwie raty po 60 złp na Wniebowzięcie i Oczyszczenie NMP w 1658 r.).", "transkrypcja": "--- Skan #21 (fol. 9r) ---\n1657 9.\n...na dobrach swoich własnych ruchomych i nieruchomych tu w Kraśniku...\nQuod ad affectationem supra dictorum Actis praesentibus inserta est.\n\nSub eodem Actu\nMancipatio Honesti Joannis Grzymuszka.\nW domu Sławetnego Pana Mathyasza Tharasy Burmistrza natenczas Rezydującego\nKrasnickiego przy bytności jego samego y Sławetnych Panów Kolegów...\nstał się pewny zapis kupna domu między Uczciwym Łukaszem Baczakowskim [Bączkowskim?]\nprzedawcą z jednej a Uczciwym Janem Grzymuszką i małżonką jego Maryną kupcami\nz drugiej strony, którym przedał dom swój z placem i ogrodem\nmiędzy Mikołajem Dudkiem [?] z jednej a ulicą pospolitą ku klasztorowi idącą\npod mur klasztorny z drugiej strony leżący, za summę pewną złotych polskich\nsto dwadzieścia w każdy złoty po gr. 30 rachując, którą sumę kupiec\noddać przyrzeka w roku 1658 na dwie raty po złotych sześćdziesiąt...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 22, "numer_pozycji": "22", "strona_pagina": "fol. 9v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Oblig Grzymuszki i Laudum wojenne na 302 złp 8 gr", "osoby_podmioty": "Jan Grzymuszka, Maryna Grzymuszkowa, Łukasz Baczakowski [Bączkowski?], Maciej Tharasa (burmistrz), Sąd Łączony (rada, wójt, ławnicy, cechmistrzowie, pospólstwo)", "kwoty_podatki": "100 złp (oblig), 302 złp 8 gr (Laudum)", "opis_sprawy": "Oblig Jana Grzymuszki i jego żony Maryny na 100 złp dla Łukasza Baczakowskiego [Bączkowskiego?]; poniżej sesja Sądu Łączonego z piątku po św. Bartłomieju 1657 r. (31 VIII): Laudum Commune pro summa flor. 302 gr 8 uchwalone w domu burmistrza Macieja Tharasy przez Radę, wójta, ławników, cechmistrzów i pospólstwo na rozliczenie wydatków wojennych miasta.", "transkrypcja": "--- Skan #22 (fol. 9v) ---\n9v 1657\n...na zapisie domu, którego zapisu kosztuje fl. 10...\nQuod ad affectationem dicti Hon. Lucae Baczakowski Actis praesentibus inserta est.\n\nHon. Joannes Grzymuszka recognovit debitum\nLucae Baczakowski floren. Centum.\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi Krasnickiemi stanąwszy\nJan Grzymuszka z małżonką swoją Maryną dobrowolnie wyznali iż winni są\nUczciwemu Łukaszowi Baczakowskiemu [Bączkowskiemu?] summę złotych polskich sto\nzabezpieczoną na dobrach swoich ruchomych i nieruchomych w Kraśniku.\n\nActum Coram Officio Composito Consulari Advocatiali\net Scabinali Jurato Crasnicensi die Veneris post\nFestum S. Bartholomaei Apostoli 1657.\n\nLaudum Commune pro summa flor. 302 / 8\nMy Rada Miejska zobopolna tak Radziecka jako i Wójtowska z Ławnikami\nGminnymi i Cechmistrzami zgromadziwszy się do Sławetnego Pana Mathyasza\nTharasy Burmistrza natenczas Rezydującego Krasnickiego, przy bytności cechmistrzów\nstarszych y pospólstwa...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 23, "numer_pozycji": "23", "strona_pagina": "fol. 10r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Rachunek wydatków wojennych i składka miejska (322 złp 8 gr)", "osoby_podmioty": "Augustyn Gąsek (śp. egzaktor), p. Potocki (chorągiew), Han Czaborek (chorągiew), Kawaler Judzki (chorągiew p. Łaskona), Wojewoda Kijowski (komisarze), p. Halicki Strażnik Litewski", "kwoty_podatki": "57 fl 11 gr, 5 fl, 35 fl 6 gr, 28 fl 22 gr, 70 fl 25 gr, 30 fl 6 gr, 30 fl, 7 fl, 60 fl (łącznie 322 fl 8 gr)", "opis_sprawy": "Szczegółowy rejestr wydatków publicznych miasta Kraśnika z 1657 r. (na chorągiew p. Potockiego 57 fl 11 gr, rozliczenie po zmarłym egzaktorze Augustynie Gąsku, chorągiew Hana Czaborka 35 fl 6 gr, porucznik 28 fl 22 gr, chorągiew J.M.P. Łaskona z pułku Kawalera Judzkiego 70 fl 25 gr, komisarze od Wojewody Kijowskiego 30 fl 6 gr, wysłannicy do Zamościa po liberacyą 30 fl, do Rakoczego 7 fl, chorągiew Strażnika Litewskiego p. Halickiego 60 fl — razem 322 fl 8 gr) oraz rozkład składki na place rynkowe, parkanowe, puste, chałupników i komorników.", "transkrypcja": "--- Skan #23 (fol. 10r) ---\n1657 10.\n...wielki wydatek na rozmaite chorągwie często przechodzące którego\nwykazanie w osobnym rejestrze przedłożyli:\nNaprzód chorągwi P. Potockiego kosztowało fl. 57 / 11\nP. Burmistrz także na chorągiew wydał fl. 5 / - co miał od nieboszczyka\nAugustyna Gąska Exaktora...\nItem chorągwi Hana Czaborka dali fl. 35 / 6\nPorucznikowi J.M.P. Łaskona dali fl. 28 / 22\nChorągwi J.M.P. Łaskona z Pułku Kawalera Judzkiego kosztowało fl. 70 / 25\nIch Mościom PP. Komisarzom którzy byli zostawieni przy J.M. Panie Wojewodzie\nKijowskim dla ochrony Miasta przed nieprzyjacielem kosztowało fl. 30 / 6\nDo tychże starając się o Liberacyą wydali fl. 30\nDo Zamościa na potrzeby pospolite dali fl. 7\nChorągwi J.M.P. Halickiego Strażnika Litewskiego kosztowało fl. 60\nKtóra suma wszystkich wydatków wynosi razem fl. 322 / 8.\nNa którą to sumę uchwalono składkę od wszystkich:\nNaprzód od placów rynkowych szacunkowych po fl. 3\nOd innych rynkowych placów także po fl. 1 / 6\nOd placów wielkich przy parkanach także po fl. 2\nOd chałupników z domów po fl. 3\nKomornicy siedzący po fl. 2 / 15\nOd braci siedzących po fl. 2\nZ pustych półłanków fl. 1 / 24\nZ cegielni pustych fl. 1 / 12\nZ domów i ogrodów fl. 1 / 15\nZ domów bez ogrodu fl. 1 / 6.\nKtóra to składka podana jest do wybrania...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 24, "numer_pozycji": "24", "strona_pagina": "fol. 10v", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Kupno folwarku za Bramą Lubelską przez Stanisława Nawrockiego", "osoby_podmioty": "Maciej Tharasa (burmistrz), Stanisław Nawrocki (rajca kraśnicki), Jadwiga Kupska [?] (żona S. Nawrockiego), Jan Czepielowski (mieszczanin z Urzędowa), Zofia Barankówna (żona J. Czepielowskiego)", "kwoty_podatki": "80 złp (40 złp + 20 złp + 20 złp)", "opis_sprawy": "Sesja z czwartku po św. Augustynie 1657 r. (30 VIII): Mancipatio Famati Stanislai Nawrocki Consulis antiqui Crasn. — kupno przez rajcę Stanisława Nawrockiego i jego żonę Jadwigę Kupską [?] od mieszczanina urzędowskiego Jana Czepielowskiego i jego żony Zofii Barankówny (córki śp. Baranka?) domu i folwarku za Bramą Lubelską po Zofii Błaszczance [?] za 80 złp (40 złp gotówką, 20 złp na Trzech Króli 1658 r. i 20 złp na św. Jana Chrzciciela 1658 r.).", "transkrypcja": "--- Skan #24 (fol. 10v) ---\n10v 1657\nActum Coram Officio Consulari feria quinta post Festum\nSancti Augustini 1657.\n\nMancipatio Famati Stanislai Nawrocki Consulis antiqui Crasn.\nW domu Sławetnego Pana Mathyasza Tharasy Burmistrza natenczas Rezydującego\nKrasnickiego przy bytności jego samego y Sławetnych Panów Kolegów przy boku\njego siedzących stał się pewny a nieodmienny kontrakt y wieczne zrzeczenie kupna\nmiędzy Uczciwym Janem Czepielowskim mieszczaninem z Urzędowa i małżonką jego\nZofią Barankówną przedawcami z jednej a Sławetnym Panem Stanisławem\nNawrockim Rajcą Krasnickim y małżonką jego Jadwigą Kupską [?] kupcami\nz drugiej strony, którym przedali dom swój i folwark za Bramą Lubelską\npo niegdy Zofii Błaszczance [?] leżący za summę pewną złotych polskich\nośmdziesiąt monety polskiej po gr. 30 rachując, z której kupiec już\noddał złotych 40 a resztę po złotych dwadzieścia na Trzech Króli 1658\ny drugą ratę złotych 20 na Święty Jan Chrzciciel 1658 oddać przyrzeka...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}, {"nr_skanu": 25, "numer_pozycji": "25", "strona_pagina": "fol. 11r", "sygnatura": "35/40/0/1/19", "data_rok": "1657", "kategoria": "Sąd Radziecki / Oblig Nawrockiego i druga transakcja za Bramą Lubelską", "osoby_podmioty": "Stanisław Nawrocki (rajca), Jan Czepielowski (mieszczanin z Urzędowa), Jadwiga Kupska [?], Maciej Tharasa (burmistrz), Zofia Białowidzka [?]", "kwoty_podatki": "50 złp", "opis_sprawy": "Oblig rajcy Stanisława Nawrockiego na 50 złp (reszta sumy kupna) dla Jana Czepielowskiego z Urzędowa; poniżej sesja z piątku przed Narodzeniem NMP 1657 r. (7 IX): kolejna transakcja kupna folwarku/placu za Bramą Lubelską przez rajcę Stanisława Nawrockiego i jego żonę Jadwigę od Zofii Białowidzkiej [?].", "transkrypcja": "--- Skan #25 (fol. 11r) ---\n1657 11.\nFamatus D. Stanislaus Nawrocki Consul antiquus Crasnicensis\nrecognovit debitum Honesto Joanni Czepielowski Civi de Urzędów\nfloren. quinquaginta.\nPrzed Urzędem y Aktami ninieyszemi Radzieckiemi Krasnickiemi stanąwszy\nSławetny Pan Stanisław Nawrocki Rajca Krasnicki wyznał iż winien jest\nUczciwemu Janowi Czepielowskiemu mieszczaninowi z Urzędowa summę złotych polskich\npięćdziesiąt z tytułu reszty kupna domu i folwarku za Bramą Lubelską.\nQuod ad affectationem praedicti Joannis Czepielowski Actis praesentibus\ninserta et roborata est.\n\nActum Coram Officio Consulari die Veneris ante Festum Gloriosae\nNativitatis B. V. Mariae 1657.\nMancipatio Famati D. Stanislai Nawrocki.\nW domu Sławetnego P. Mathyasza Tharasy Burmistrza natenczas Rezydującego\nprzy bytności jego samego y Sławetnych Panów Kolegów stał się pewny\nkontrakt kupna między Uczciwą Zofią Białowidzką [?] przedawczynią z jednej\na Sławetnym P. Stanisławem Nawrockim Rajcą i żoną jego Jadwigą kupcami\nz drugiej strony o plac i grunt za Bramą Lubelską leżący...", "link_swa": "https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899"}];
+    const genData = [{"lp": 1, "nazwisko": "Janaszkowic", "imie": "Ubald", "miejsce": "Kraśnik", "funkcja": "Prokonsul (burmistrz) kraśnicki", "wariant_nazwiska": null, "skany_list": [5], "skany_roboczo": "#5", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 5, "rok": "1657", "zapis_oryginalny": "Ubaldi Janaszkowic Proconsulis", "rola": "Założenie księgi Protocollum za jego prokonsulatu", "kwota_ctx": "Założenie księgi Protocollum za jego prokonsulatu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."}, {"lp": 2, "nazwisko": "Sitarski", "imie": "Marcin", "miejsce": "Kraśnik", "funkcja": "Rajca kraśnicki", "wariant_nazwiska": null, "skany_list": [5, 6, 8, 16, 20], "skany_roboczo": "#5, #6, #8, #16, #20", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 5, "wystapienia": [{"skan": 5, "rok": "1657", "zapis_oryginalny": "Marcini Sitarski Consulis", "rola": "Rajca na karcie tytułowej księgi 1657 r.", "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."}, {"skan": 6, "rok": "1657", "zapis_oryginalny": "Martino Sitarski Consule", "rola": "Proces przeciw opiekunom Kłopotowi i Reszce o 30 złp", "kwota_ctx": "Proces przeciw opiekunom Kłopotowi i Reszce o 30 złp"}, {"skan": 8, "rok": "1657", "zapis_oryginalny": "Martinum Sitarski", "rola": "Objął urząd prokonsula po W. Kurzącym", "kwota_ctx": "Objął urząd prokonsula po W. Kurzącym"}, {"skan": 16, "rok": "1657", "zapis_oryginalny": "Martino Sitarski", "rola": "Przekazał urząd prokonsula M. Tharasie", "kwota_ctx": "Przekazał urząd prokonsula M. Tharasie"}, {"skan": 20, "rok": "1657", "zapis_oryginalny": "Marcinem Sitarskim Rajcą", "rola": "Sprzedaż domu w Rynku P. Dzierżkowi za 120 złp", "kwota_ctx": "Sprzedaż domu w Rynku P. Dzierżkowi za 120 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."}, {"lp": 3, "nazwisko": "Tharasa", "imie": "Maciej", "miejsce": "Kraśnik", "funkcja": "Rajca kraśnicki", "wariant_nazwiska": null, "skany_list": [5, 16, 17, 18, 22], "skany_roboczo": "#5, #16, #17, #18, #22", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 5, "wystapienia": [{"skan": 5, "rok": "1657", "zapis_oryginalny": "Mathiae Tharasa Consulis", "rola": "Rajca na karcie tytułowej księgi 1657 r.", "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."}, {"skan": 16, "rok": "1657", "zapis_oryginalny": "Mathiam Tharasa", "rola": "Objął urząd prokonsula w obecności cechu szewskiego", "kwota_ctx": "Objął urząd prokonsula w obecności cechu szewskiego"}, {"skan": 17, "rok": "1657", "zapis_oryginalny": "Mathyasza Tharasy Burmistrza", "rola": "Obecny przy sprzedaży placu Kiedrzakowskiego", "kwota_ctx": "Obecny przy sprzedaży placu Kiedrzakowskiego"}, {"skan": 18, "rok": "1657", "zapis_oryginalny": "Mathyasza Tharasy Burmistrza", "rola": "Gospodarz sesji uchwalającej Laudum o trunkach", "kwota_ctx": "Gospodarz sesji uchwalającej Laudum o trunkach"}, {"skan": 22, "rok": "1657", "zapis_oryginalny": "Mathyasza Tharasy Burmistrza", "rola": "Gospodarz sesji uchwalającej Laudum wojenne na 302 złp 8 gr", "kwota_ctx": "Gospodarz sesji uchwalającej Laudum wojenne na 302 złp 8 gr"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."}, {"lp": 4, "nazwisko": "Nawrocki", "imie": "Stanisław", "miejsce": "Kraśnik", "funkcja": "Rajca kraśnicki", "wariant_nazwiska": null, "skany_list": [5, 24, 25], "skany_roboczo": "#5, #24, #25", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 3, "wystapienia": [{"skan": 5, "rok": "1657", "zapis_oryginalny": "Stanislai Nawrocki Consulis", "rola": "Rajca na karcie tytułowej księgi 1657 r.", "kwota_ctx": "Rajca na karcie tytułowej księgi 1657 r."}, {"skan": 24, "rok": "1657", "zapis_oryginalny": "Stanisławem Nawrockim Rajcą", "rola": "Zakup domu i folwarku za Bramą Lubelską za 80 złp", "kwota_ctx": "Zakup domu i folwarku za Bramą Lubelską za 80 złp"}, {"skan": 25, "rok": "1657", "zapis_oryginalny": "Stanislaus Nawrocki", "rola": "Oblig na 50 złp dla J. Czepielowskiego i kupno kolejnego gruntu", "kwota_ctx": "Oblig na 50 złp dla J. Czepielowskiego i kupno kolejnego gruntu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."}, {"lp": 5, "nazwisko": "Sikor", "imie": "Stanisław", "miejsce": "Kraśnik", "funkcja": "Pisarz przysięgły kraśnicki", "wariant_nazwiska": null, "skany_list": [5, 10], "skany_roboczo": "#5, #10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 5, "rok": "1657", "zapis_oryginalny": "Stanislaum Sikor Notarium Juratum", "rola": "Pisarz księgi Protocollum z 1657 r.", "kwota_ctx": "Pisarz księgi Protocollum z 1657 r."}, {"skan": 10, "rok": "1657", "zapis_oryginalny": "Stanislaum Sikor Notarium", "rola": "Wyznaczony na opiekuna Reginy Butowej", "kwota_ctx": "Wyznaczony na opiekuna Reginy Butowej"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #5, 1657 r.)."}, {"lp": 6, "nazwisko": "Piekarowa", "imie": "Krystyna", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Aktorka", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Cristinae Piekarowa", "rola": "Wygrała wyrok o 55 złp przeciw W. Olęckiemu", "kwota_ctx": "Wygrała wyrok o 55 złp przeciw W. Olęckiemu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 7, "nazwisko": "Nowak", "imie": "Benedykt", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Współpowód", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Benedicti Nowak", "rola": "Współpowód przeciw W. Olęckiemu", "kwota_ctx": "Współpowód przeciw W. Olęckiemu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 8, "nazwisko": "Olęcki", "imie": "Wojciech", "miejsce": "Kraśnik", "funkcja": "Pozwany / Dłużnik", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Albertum Olęcki", "rola": "Nakaz zapłaty 55 złp i 3-letnich odsetek", "kwota_ctx": "Nakaz zapłaty 55 złp i 3-letnich odsetek"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 9, "nazwisko": "Kłopot", "imie": "Gabriel", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Opiekun dzieci śp. Deca / Pozwany", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Gabrielem Kłopot", "rola": "Pozwany o 30 złp długu", "kwota_ctx": "Pozwany o 30 złp długu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 10, "nazwisko": "Reszka", "imie": "Maciej", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Opiekun dzieci śp. Deca / Pozwany", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Mathiam Reszka", "rola": "Pozwany o 30 złp długu", "kwota_ctx": "Pozwany o 30 złp długu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 11, "nazwisko": "Tokarz", "imie": "Piotr", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Dłużnik konwentu", "wariant_nazwiska": null, "skany_list": [6, 12], "skany_roboczo": "#6, #12", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Petrus Tokarz", "rola": "Zapis długu 37 złp dla konwentu św. Augustyna", "kwota_ctx": "Zapis długu 37 złp dla konwentu św. Augustyna"}, {"skan": 12, "rok": "1657", "zapis_oryginalny": "Petrum Tokarz", "rola": "Pozwany przez Rymarczyka, Batusika i A. Pieniążka", "kwota_ctx": "Pozwany przez Rymarczyka, Batusika i A. Pieniążka"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 12, "nazwisko": "Tokarzowa", "imie": "Zofia", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Żona Piotra Tokarza", "wariant_nazwiska": null, "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Zophia Conjuges", "rola": "Współzeznająca zapis dla konwentu św. Augustyna", "kwota_ctx": "Współzeznająca zapis dla konwentu św. Augustyna"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 13, "nazwisko": "Święcicki", "imie": "Tomasz", "miejsce": "Kraśnik", "funkcja": "Ojciec, zakrystian konwentu św. Augustyna", "wariant_nazwiska": "Święcicki [?]", "skany_list": [6], "skany_roboczo": "#6", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 6, "rok": "1657", "zapis_oryginalny": "Thomae Święcicki [?] Sacristiano", "rola": "Odbiorca cesji na rzecz konwentu św. Augustyna", "kwota_ctx": "Odbiorca cesji na rzecz konwentu św. Augustyna"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #6, 1657 r.)."}, {"lp": 14, "nazwisko": "Jarzębek", "imie": "Maciej", "miejsce": "Kraśnik", "funkcja": "Wzmiankowany (poprzednik wyderkafu)", "wariant_nazwiska": "Jarzyk [?]", "skany_list": [7], "skany_roboczo": "#7", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 7, "rok": "1657", "zapis_oryginalny": "Mathia Jarzębek [?]", "rola": "Wzmiankowany w zapisie wyderkafowym", "kwota_ctx": "Wzmiankowany w zapisie wyderkafowym"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."}, {"lp": 15, "nazwisko": "Zdebik", "imie": "Jan", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Gwarant wyderkafu na Zarzeczu", "wariant_nazwiska": null, "skany_list": [7], "skany_roboczo": "#7", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 7, "rok": "1657", "zapis_oryginalny": "Joannes Zdebik", "rola": "Zabezpieczył wyderkaf na ogrodzie na Zarzeczu", "kwota_ctx": "Zabezpieczył wyderkaf na ogrodzie na Zarzeczu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."}, {"lp": 16, "nazwisko": "Zdebik", "imie": "Sebastian", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Gwarant wyderkafu na Zarzeczu", "wariant_nazwiska": null, "skany_list": [7], "skany_roboczo": "#7", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 7, "rok": "1657", "zapis_oryginalny": "Sebastianus Zdebik", "rola": "Współgwarant wyderkafu na Zarzeczu", "kwota_ctx": "Współgwarant wyderkafu na Zarzeczu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #7, 1657 r.)."}, {"lp": 17, "nazwisko": "Piątkowski", "imie": "Stanisław", "miejsce": "Kraśnik", "funkcja": "Egzaktor miejski", "wariant_nazwiska": "Piątkowski [?]", "skany_list": [8], "skany_roboczo": "#8", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 8, "rok": "1657", "zapis_oryginalny": "Stanisława Piątkowskiego [?]", "rola": "Egzaktor składki z Laudum na 130 fl 19 gr", "kwota_ctx": "Egzaktor składki z Laudum na 130 fl 19 gr"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."}, {"lp": 18, "nazwisko": "Kurzący", "imie": "Wojciech", "miejsce": "Kraśnik", "funkcja": "Ustępujący prokonsul kraśnicki", "wariant_nazwiska": "Kurczy [?]", "skany_list": [8], "skany_roboczo": "#8", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 8, "rok": "1657", "zapis_oryginalny": "Alberto Kurzący [Kurczym?]", "rola": "Przekazał urząd prokonsula M. Sitarskiemu", "kwota_ctx": "Przekazał urząd prokonsula M. Sitarskiemu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."}, {"lp": 19, "nazwisko": "Słupecki", "imie": "Matyjasz", "miejsce": "Czerwięcin", "funkcja": "Pracowity ze wsi Czerwięcin / Aktor", "wariant_nazwiska": null, "skany_list": [8, 9, 14, 15], "skany_roboczo": "#8, #9, #14, #15", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 4, "wystapienia": [{"skan": 8, "rok": "1657", "zapis_oryginalny": "Mathias Słupecki de Czerwięcin", "rola": "Skarga przeciw Zuzannie Gołackiej o kradzież i pobicie", "kwota_ctx": "Skarga przeciw Zuzannie Gołackiej o kradzież i pobicie"}, {"skan": 9, "rok": "1657", "zapis_oryginalny": "Słupecki", "rola": "Szczegółowy wykaz skradzionych rzeczy i 12 złp", "kwota_ctx": "Szczegółowy wykaz skradzionych rzeczy i 12 złp"}, {"skan": 14, "rok": "1657", "zapis_oryginalny": "Mathiae Słupecki", "rola": "Wygrał dekret o zwrot rzeczy i 12 złp", "kwota_ctx": "Wygrał dekret o zwrot rzeczy i 12 złp"}, {"skan": 15, "rok": "1657", "zapis_oryginalny": "Mathiae Słupecki", "rola": "Odbiorca obligu na 20 złp", "kwota_ctx": "Odbiorca obligu na 20 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."}, {"lp": 20, "nazwisko": "Gołacka", "imie": "Zuzanna", "miejsce": "Kraśnik", "funkcja": "Żona młynarza Jana Gołackiego / Pozwana", "wariant_nazwiska": null, "skany_list": [8, 9, 14], "skany_roboczo": "#8, #9, #14", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 3, "wystapienia": [{"skan": 8, "rok": "1657", "zapis_oryginalny": "Zuzannam Gołacki", "rola": "Pozwana przez M. Słupeckiego o kradzież", "kwota_ctx": "Pozwana przez M. Słupeckiego o kradzież"}, {"skan": 9, "rok": "1657", "zapis_oryginalny": "Zuzanna Gołacka", "rola": "Prośba o dylację do przyjazdu męża", "kwota_ctx": "Prośba o dylację do przyjazdu męża"}, {"skan": 14, "rok": "1657", "zapis_oryginalny": "Zuzannam Gołacki", "rola": "Skazana na zwrot 12 złp i 4 grzywny kary", "kwota_ctx": "Skazana na zwrot 12 złp i 4 grzywny kary"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."}, {"lp": 21, "nazwisko": "Gołacki", "imie": "Jan", "miejsce": "Kraśnik", "funkcja": "Młynarz kraśnicki, mąż Zuzanny", "wariant_nazwiska": null, "skany_list": [8, 14, 15], "skany_roboczo": "#8, #14, #15", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 3, "wystapienia": [{"skan": 8, "rok": "1657", "zapis_oryginalny": "Joannis Gołacki Molitoris", "rola": "Mąż pozwanej Zuzanny", "kwota_ctx": "Mąż pozwanej Zuzanny"}, {"skan": 14, "rok": "1657", "zapis_oryginalny": "Jan Gołacki", "rola": "Podpis męża pod dekretem", "kwota_ctx": "Podpis męża pod dekretem"}, {"skan": 15, "rok": "1657", "zapis_oryginalny": "Joannes Gołacki Molitor", "rola": "Oblig na 20 złp dla M. Słupeckiego na młynie", "kwota_ctx": "Oblig na 20 złp dla M. Słupeckiego na młynie"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #8, 1657 r.)."}, {"lp": 22, "nazwisko": "Bożęborski", "imie": "Bartłomiej", "miejsce": "Kraśnik", "funkcja": "Instygator zeznań świadków", "wariant_nazwiska": "Boięborski [?]", "skany_list": [9], "skany_roboczo": "#9", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 9, "rok": "1657", "zapis_oryginalny": "Bartholomaei Bożęborski [Boięborski?]", "rola": "Zeznania o bójce u niego w domu", "kwota_ctx": "Zeznania o bójce u niego w domu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #9, 1657 r.)."}, {"lp": 23, "nazwisko": "Nowakowa", "imie": "Jędrzejowa", "miejsce": "Kraśnik", "funkcja": "Uczestniczka zajścia", "wariant_nazwiska": null, "skany_list": [9], "skany_roboczo": "#9", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 9, "rok": "1657", "zapis_oryginalny": "Jędrzejową Nowakową", "rola": "Wzmiankowana w zeznaniu o kłótni z Bartkową", "kwota_ctx": "Wzmiankowana w zeznaniu o kłótni z Bartkową"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #9, 1657 r.)."}, {"lp": 24, "nazwisko": "Rogalowski", "imie": "Wojciech", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Instygator zeznań świadków", "wariant_nazwiska": null, "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Alberti Rogalowski", "rola": "Zeznania świadka S. Rynarzyka", "kwota_ctx": "Zeznania świadka S. Rynarzyka"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 25, "nazwisko": "Rynarzyk", "imie": "Stanisław", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Świadek", "wariant_nazwiska": "Rymarczyk [?]", "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Stanislaus Rynarzyk [Rymarczyk?]", "rola": "Świadek W. Rogalowskiego", "kwota_ctx": "Świadek W. Rogalowskiego"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 26, "nazwisko": "Butowa", "imie": "Regina", "miejsce": "Kraśnik", "funkcja": "Wdowa po Gabrielu Bucie", "wariant_nazwiska": "Gabrielowa", "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Reginae Gabrielowa", "rola": "Wyznaczenie opiekunów po śmierci męża", "kwota_ctx": "Wyznaczenie opiekunów po śmierci męża"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 27, "nazwisko": "But", "imie": "Gabriel", "miejsce": "Kraśnik", "funkcja": "Zmarły mąż Reginy", "wariant_nazwiska": null, "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Gabrielem But", "rola": "Wzmiankowany jako zmarły mąż Reginy", "kwota_ctx": "Wzmiankowany jako zmarły mąż Reginy"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 28, "nazwisko": "Konięga", "imie": "Maciej", "miejsce": "Kraśnik", "funkcja": "Ławnik kraśnicki i opiekun", "wariant_nazwiska": null, "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Mathiam Konięga Scabinum", "rola": "Wyznaczony na opiekuna Reginy Butowej", "kwota_ctx": "Wyznaczony na opiekuna Reginy Butowej"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 29, "nazwisko": "Batusik", "imie": "Jan", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Instygator zeznań świadków", "wariant_nazwiska": null, "skany_list": [10, 12, 13], "skany_roboczo": "#10, #12, #13", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 3, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Joannis Batusik", "rola": "Zeznania świadków o bójce pod jego domem", "kwota_ctx": "Zeznania świadków o bójce pod jego domem"}, {"skan": 12, "rok": "1657", "zapis_oryginalny": "Joannem Batusik", "rola": "Współpowód przeciw Tokarzowi i Kudrelikowi", "kwota_ctx": "Współpowód przeciw Tokarzowi i Kudrelikowi"}, {"skan": 13, "rok": "1657", "zapis_oryginalny": "Jana Batusika", "rola": "Wyrok przyznający po 2 złp", "kwota_ctx": "Wyrok przyznający po 2 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 30, "nazwisko": "Lis", "imie": "Wojciech", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Świadek", "wariant_nazwiska": null, "skany_list": [10], "skany_roboczo": "#10", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 10, "rok": "1657", "zapis_oryginalny": "Albertus Lis", "rola": "Świadek Jana Batusika", "kwota_ctx": "Świadek Jana Batusika"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #10, 1657 r.)."}, {"lp": 31, "nazwisko": "Niedźwiadek", "imie": "Stanisław", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Świadek", "wariant_nazwiska": "Niedźwiadek [?]", "skany_list": [11], "skany_roboczo": "#11", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 11, "rok": "1657", "zapis_oryginalny": "Stanislaus Niedźwiadek [?]", "rola": "Świadek Jana Batusika", "kwota_ctx": "Świadek Jana Batusika"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."}, {"lp": 32, "nazwisko": "Janaszkowicowa", "imie": "Regina", "miejsce": "Kraśnik", "funkcja": "Wdowa / Świadek", "wariant_nazwiska": "Janaszkowicowa [?]", "skany_list": [11], "skany_roboczo": "#11", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 11, "rok": "1657", "zapis_oryginalny": "Regina Vidua Janaszkowicowa [?]", "rola": "Świadek kłótni przed domem Batusika", "kwota_ctx": "Świadek kłótni przed domem Batusika"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."}, {"lp": 33, "nazwisko": "Zotowa", "imie": "Regina", "miejsce": "Kraśnik", "funkcja": "Aktorka", "wariant_nazwiska": null, "skany_list": [11], "skany_roboczo": "#11", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 11, "rok": "1657", "zapis_oryginalny": "Reginae Zotowa", "rola": "Spór o 15 gr i zniewagę", "kwota_ctx": "Spór o 15 gr i zniewagę"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."}, {"lp": 34, "nazwisko": "Zota", "imie": "Andrzej", "miejsce": "Kraśnik", "funkcja": "Pozwany", "wariant_nazwiska": "Zota [?]", "skany_list": [11], "skany_roboczo": "#11", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 11, "rok": "1657", "zapis_oryginalny": "Andreae Zota [?]", "rola": "Nakaz zapłaty 15 gr Reginie Zotowej", "kwota_ctx": "Nakaz zapłaty 15 gr Reginie Zotowej"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #11, 1657 r.)."}, {"lp": 35, "nazwisko": "Rymarczyk", "imie": "Stanisław", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Aktor", "wariant_nazwiska": null, "skany_list": [12, 13], "skany_roboczo": "#12, #13", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 12, "rok": "1657", "zapis_oryginalny": "Stanislaum Rymarczyk", "rola": "Pozew przeciw Tokarzowi i Kudrelikowi o pobicie chłopa", "kwota_ctx": "Pozew przeciw Tokarzowi i Kudrelikowi o pobicie chłopa"}, {"skan": 13, "rok": "1657", "zapis_oryginalny": "Stanisława Rymarczyka", "rola": "Wyrok przyznający po 2 złp i karę na szpital św. Ducha", "kwota_ctx": "Wyrok przyznający po 2 złp i karę na szpital św. Ducha"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."}, {"lp": 36, "nazwisko": "Kudrelik", "imie": "Wojciech", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Pozwany", "wariant_nazwiska": null, "skany_list": [12], "skany_roboczo": "#12", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 12, "rok": "1657", "zapis_oryginalny": "Albertum Kudrelik", "rola": "Współpozwany o najazd i pobicie chłopa", "kwota_ctx": "Współpozwany o najazd i pobicie chłopa"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."}, {"lp": 37, "nazwisko": "Pieniążek", "imie": "Andrzej", "miejsce": "Kraśnik", "funkcja": "Kowal (serri faber) / Instygator świadków", "wariant_nazwiska": null, "skany_list": [12], "skany_roboczo": "#12", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 12, "rok": "1657", "zapis_oryginalny": "Andreae Pieniążek Serri fabri", "rola": "Świadkowie o pobiciu w gospodzie przez Tokarza", "kwota_ctx": "Świadkowie o pobiciu w gospodzie przez Tokarza"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."}, {"lp": 38, "nazwisko": "Tkarz", "imie": "Matyjasz", "miejsce": "Suchynia", "funkcja": "Pracowity ze wsi Suchynia / Świadek", "wariant_nazwiska": "Tkacz [?]", "skany_list": [12], "skany_roboczo": "#12", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 12, "rok": "1657", "zapis_oryginalny": "Mathias Tkarz de Suchynia", "rola": "Świadek A. Pieniążka", "kwota_ctx": "Świadek A. Pieniążka"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."}, {"lp": 39, "nazwisko": "Tokarz", "imie": "Paweł", "miejsce": "Wyżnica", "funkcja": "Pracowity ze wsi Wyżnica / Świadek", "wariant_nazwiska": null, "skany_list": [12], "skany_roboczo": "#12", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 12, "rok": "1657", "zapis_oryginalny": "Paulus Tokarz de Wyżnica", "rola": "Świadek A. Pieniążka", "kwota_ctx": "Świadek A. Pieniążka"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #12, 1657 r.)."}, {"lp": 40, "nazwisko": "Jędrzejewski", "imie": "Jan", "miejsce": "Przedmieście Kraśnickie", "funkcja": "Poszkodowany w drodze do Wilkołaza", "wariant_nazwiska": "Jędrzejewski [?]", "skany_list": [13], "skany_roboczo": "#13", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 13, "rok": "1657", "zapis_oryginalny": "Jana Jędrzejewskiego [?]", "rola": "Pobity przez P. Tokarza i W. Kudrelika", "kwota_ctx": "Pobity przez P. Tokarza i W. Kudrelika"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #13, 1657 r.)."}, {"lp": 41, "nazwisko": "Bielik", "imie": "Piotr", "miejsce": "Kraśnik", "funkcja": "Ksiądz / Sąsiad młyna", "wariant_nazwiska": "Bielek [?]", "skany_list": [15], "skany_roboczo": "#15", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 15, "rok": "1657", "zapis_oryginalny": "ks. Piotra Bielka [?]", "rola": "Właściciel folwarku sąsiadującego z młynem Gołackiego", "kwota_ctx": "Właściciel folwarku sąsiadującego z młynem Gołackiego"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #15, 1657 r.)."}, {"lp": 42, "nazwisko": "Gąskowa", "imie": "Zofia", "miejsce": "Kraśnik", "funkcja": "Wdowa po Augustynie Gąsku", "wariant_nazwiska": null, "skany_list": [16], "skany_roboczo": "#16", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 16, "rok": "1657", "zapis_oryginalny": "Zophiae Gąskowa", "rola": "Wyznaczenie opiekunów Kwasowica i Łopaty", "kwota_ctx": "Wyznaczenie opiekunów Kwasowica i Łopaty"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."}, {"lp": 43, "nazwisko": "Gąsek", "imie": "Augustyn", "miejsce": "Kraśnik", "funkcja": "Zmarły mieszczanin i egzaktor", "wariant_nazwiska": null, "skany_list": [16, 23], "skany_roboczo": "#16, #23", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 16, "rok": "1657", "zapis_oryginalny": "Augustinum Gąsek", "rola": "Wzmiankowany jako zmarły mąż Zofii", "kwota_ctx": "Wzmiankowany jako zmarły mąż Zofii"}, {"skan": 23, "rok": "1657", "zapis_oryginalny": "Augustyna Gąska Exaktora", "rola": "Wzmiankowany w rozliczeniu wydatków wojennych 1657 r.", "kwota_ctx": "Wzmiankowany w rozliczeniu wydatków wojennych 1657 r."}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."}, {"lp": 44, "nazwisko": "Kwasowic", "imie": "Augustyn", "miejsce": "Kraśnik", "funkcja": "Ławnik i opiekun", "wariant_nazwiska": null, "skany_list": [16], "skany_roboczo": "#16", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 16, "rok": "1657", "zapis_oryginalny": "Augustinum Kwasowic Scabinum", "rola": "Wyznaczony na opiekuna wdowy Z. Gąskowej", "kwota_ctx": "Wyznaczony na opiekuna wdowy Z. Gąskowej"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."}, {"lp": 45, "nazwisko": "Łopata", "imie": "Wojciech", "miejsce": "Kraśnik", "funkcja": "Opiekun", "wariant_nazwiska": "Łopata [?]", "skany_list": [16], "skany_roboczo": "#16", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 16, "rok": "1657", "zapis_oryginalny": "Albertum Łopata [?]", "rola": "Wyznaczony na opiekuna wdowy Z. Gąskowej", "kwota_ctx": "Wyznaczony na opiekuna wdowy Z. Gąskowej"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."}, {"lp": 46, "nazwisko": "Fortuna", "imie": "Mikołaj", "miejsce": "Kraśnik", "funkcja": "Nabywca placu", "wariant_nazwiska": null, "skany_list": [16, 17, 18], "skany_roboczo": "#16, #17, #18", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 3, "wystapienia": [{"skan": 16, "rok": "1657", "zapis_oryginalny": "Nicolai Fortuna", "rola": "Nagłówek aktu kupna placu", "kwota_ctx": "Nagłówek aktu kupna placu"}, {"skan": 17, "rok": "1657", "zapis_oryginalny": "Mikołajowi Fortunie", "rola": "Zakup placu za 80 złp i oblig na 30 złp", "kwota_ctx": "Zakup placu za 80 złp i oblig na 30 złp"}, {"skan": 18, "rok": "1657", "zapis_oryginalny": "Mikołaj Fortuna", "rola": "Zapis ewikcji na 30 złp dla Sz. Łycka", "kwota_ctx": "Zapis ewikcji na 30 złp dla Sz. Łycka"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #16, 1657 r.)."}, {"lp": 47, "nazwisko": "Łycek", "imie": "Szymon", "miejsce": "Kraśnik", "funkcja": "Opiekun Zofii Łyckówny / Zbywca", "wariant_nazwiska": "Lych [?]", "skany_list": [17], "skany_roboczo": "#17", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 17, "rok": "1657", "zapis_oryginalny": "Szymon Łycek [Lych?]", "rola": "Sprzedaż placu pustego M. Fortunie za 80 złp", "kwota_ctx": "Sprzedaż placu pustego M. Fortunie za 80 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."}, {"lp": 48, "nazwisko": "Łyckówna", "imie": "Zofia", "miejsce": "Kraśnik", "funkcja": "Małoletnia pod opieką Sz. Łycka", "wariant_nazwiska": "Lychówna / Łycka [?]", "skany_list": [17], "skany_roboczo": "#17", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 17, "rok": "1657", "zapis_oryginalny": "Zofii Łyckówny", "rola": "Właścicielka sprzedanego placu", "kwota_ctx": "Właścicielka sprzedanego placu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."}, {"lp": 49, "nazwisko": "Kiedrzakowski", "imie": "Jan", "miejsce": "Kraśnik", "funkcja": "Sąsiad placu", "wariant_nazwiska": "Kiedrzakowski [?]", "skany_list": [17], "skany_roboczo": "#17", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 17, "rok": "1657", "zapis_oryginalny": "Jana Kiedrzakowskiego", "rola": "Sąsiad placu Kiedrzakowskiego", "kwota_ctx": "Sąsiad placu Kiedrzakowskiego"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."}, {"lp": 50, "nazwisko": "Fortunowa", "imie": "Katarzyna", "miejsce": "Kraśnik", "funkcja": "Żona Mikołaja Fortuny / Nabywczyni", "wariant_nazwiska": null, "skany_list": [17, 18], "skany_roboczo": "#17, #18", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 17, "rok": "1657", "zapis_oryginalny": "Katarzynie", "rola": "Współnabywczyni placu", "kwota_ctx": "Współnabywczyni placu"}, {"skan": 18, "rok": "1657", "zapis_oryginalny": "Katarzyną", "rola": "Współzeznająca ewikcję", "kwota_ctx": "Współzeznająca ewikcję"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #17, 1657 r.)."}, {"lp": 51, "nazwisko": "Dzierżek", "imie": "Piotr", "miejsce": "Kraśnik", "funkcja": "Szlachetny / Nabywca domu", "wariant_nazwiska": null, "skany_list": [19, 20], "skany_roboczo": "#19, #20", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 19, "rok": "1657", "zapis_oryginalny": "Petri Dzierżek", "rola": "Nagłówek aktu kupna domu w Rynku", "kwota_ctx": "Nagłówek aktu kupna domu w Rynku"}, {"skan": 20, "rok": "1657", "zapis_oryginalny": "Piotrem Dzierżkiem", "rola": "Zakup domu w Rynku za 120 złp", "kwota_ctx": "Zakup domu w Rynku za 120 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #19, 1657 r.)."}, {"lp": 52, "nazwisko": "Janaszkowic", "imie": "Albert", "miejsce": "Kraśnik", "funkcja": "Rajca kraśnicki / Zbywca i wierzyciel", "wariant_nazwiska": "Ubald", "skany_list": [20], "skany_roboczo": "#20", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 20, "rok": "1657", "zapis_oryginalny": "Albertem Janaszkowicem Rajcą", "rola": "Współsprzedający dom w Rynku P. Dzierżkowi", "kwota_ctx": "Współsprzedający dom w Rynku P. Dzierżkowi"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #20, 1657 r.)."}, {"lp": 53, "nazwisko": "Dzierżkowa", "imie": "Zofia", "miejsce": "Kraśnik", "funkcja": "Żona Piotra Dzierżka", "wariant_nazwiska": "Gąskówna", "skany_list": [20], "skany_roboczo": "#20", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 20, "rok": "1657", "zapis_oryginalny": "Zofią Gąskówną", "rola": "Współnabywczyni domu w Rynku", "kwota_ctx": "Współnabywczyni domu w Rynku"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #20, 1657 r.)."}, {"lp": 54, "nazwisko": "Baczakowski", "imie": "Łukasz", "miejsce": "Urzędów", "funkcja": "Zbywca domu w Kraśniku", "wariant_nazwiska": "Bączkowski [?]", "skany_list": [21, 22], "skany_roboczo": "#21, #22", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 21, "rok": "1657", "zapis_oryginalny": "Łukaszem Baczakowskim [Bączkowskim?]", "rola": "Sprzedaż domu pod murem klasztornym J. Grzymuszce za 120 złp", "kwota_ctx": "Sprzedaż domu pod murem klasztornym J. Grzymuszce za 120 złp"}, {"skan": 22, "rok": "1657", "zapis_oryginalny": "Łukaszowi Baczakowskiemu", "rola": "Odbiorca obligu na 100 złp", "kwota_ctx": "Odbiorca obligu na 100 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."}, {"lp": 55, "nazwisko": "Grzymuszka", "imie": "Jan", "miejsce": "Kraśnik", "funkcja": "Nabywca domu pod murem klasztornym", "wariant_nazwiska": null, "skany_list": [21, 22], "skany_roboczo": "#21, #22", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 21, "rok": "1657", "zapis_oryginalny": "Janem Grzymuszką", "rola": "Zakup domu z placem i ogrodem za 120 złp", "kwota_ctx": "Zakup domu z placem i ogrodem za 120 złp"}, {"skan": 22, "rok": "1657", "zapis_oryginalny": "Jan Grzymuszka", "rola": "Oblig na 100 złp dla Ł. Baczakowskiego", "kwota_ctx": "Oblig na 100 złp dla Ł. Baczakowskiego"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."}, {"lp": 56, "nazwisko": "Grzymuszkowa", "imie": "Maryna", "miejsce": "Kraśnik", "funkcja": "Żona Jana Grzymuszki / Nabywczyni", "wariant_nazwiska": null, "skany_list": [21, 22], "skany_roboczo": "#21, #22", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 21, "rok": "1657", "zapis_oryginalny": "Maryną", "rola": "Współnabywczyni domu", "kwota_ctx": "Współnabywczyni domu"}, {"skan": 22, "rok": "1657", "zapis_oryginalny": "Maryną", "rola": "Współzeznająca oblig na 100 złp", "kwota_ctx": "Współzeznająca oblig na 100 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."}, {"lp": 57, "nazwisko": "Dudek", "imie": "Mikołaj", "miejsce": "Kraśnik", "funkcja": "Sąsiad placu pod murem klasztornym", "wariant_nazwiska": "Dudek [?]", "skany_list": [21], "skany_roboczo": "#21", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 21, "rok": "1657", "zapis_oryginalny": "Mikołajem Dudkiem [?]", "rola": "Sąsiad sprzedanego domu", "kwota_ctx": "Sąsiad sprzedanego domu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #21, 1657 r.)."}, {"lp": 58, "nazwisko": "Czepielowski", "imie": "Jan", "miejsce": "Urzędów", "funkcja": "Mieszczanin urzędowski / Zbywca", "wariant_nazwiska": null, "skany_list": [24, 25], "skany_roboczo": "#24, #25", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 24, "rok": "1657", "zapis_oryginalny": "Janem Czepielowskim z Urzędowa", "rola": "Sprzedaż domu i folwarku za Bramą Lubelską S. Nawrockiemu za 80 złp", "kwota_ctx": "Sprzedaż domu i folwarku za Bramą Lubelską S. Nawrockiemu za 80 złp"}, {"skan": 25, "rok": "1657", "zapis_oryginalny": "Joanni Czepielowski", "rola": "Odbiorca obligu na 50 złp", "kwota_ctx": "Odbiorca obligu na 50 złp"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."}, {"lp": 59, "nazwisko": "Czepielowska", "imie": "Zofia", "miejsce": "Urzędów", "funkcja": "Żona Jana Czepielowskiego / Zbywczyni", "wariant_nazwiska": "Barankówna", "skany_list": [24], "skany_roboczo": "#24", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 24, "rok": "1657", "zapis_oryginalny": "Zofią Barankówną", "rola": "Współsprzedająca folwark za Bramą Lubelską", "kwota_ctx": "Współsprzedająca folwark za Bramą Lubelską"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."}, {"lp": 60, "nazwisko": "Nawrocka", "imie": "Jadwiga", "miejsce": "Kraśnik", "funkcja": "Żona rajcy Stanisława Nawrockiego / Nabywczyni", "wariant_nazwiska": "Kupska [?]", "skany_list": [24, 25], "skany_roboczo": "#24, #25", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 2, "wystapienia": [{"skan": 24, "rok": "1657", "zapis_oryginalny": "Jadwigą Kupską [?]", "rola": "Współnabywczyni folwarku", "kwota_ctx": "Współnabywczyni folwarku"}, {"skan": 25, "rok": "1657", "zapis_oryginalny": "Jadwigą", "rola": "Współnabywczyni gruntu za Bramą Lubelską", "kwota_ctx": "Współnabywczyni gruntu za Bramą Lubelską"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."}, {"lp": 61, "nazwisko": "Błaszczanka", "imie": "Zofia", "miejsce": "Kraśnik", "funkcja": "Poprzednia właścicielka folwarku", "wariant_nazwiska": "Błaszczanka [?]", "skany_list": [24], "skany_roboczo": "#24", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 24, "rok": "1657", "zapis_oryginalny": "Zofii Błaszczance [?]", "rola": "Poprzednia posesorka folwarku za Bramą Lubelską", "kwota_ctx": "Poprzednia posesorka folwarku za Bramą Lubelską"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #24, 1657 r.)."}, {"lp": 62, "nazwisko": "Białowidzka", "imie": "Zofia", "miejsce": "Kraśnik", "funkcja": "Zbywczyni gruntu za Bramą Lubelską", "wariant_nazwiska": "Białowidzka [?]", "skany_list": [25], "skany_roboczo": "#25", "min_rok": 1657, "zakres_lat": "1657", "liczba_wystapien": 1, "wystapienia": [{"skan": 25, "rok": "1657", "zapis_oryginalny": "Zofią Białowidzką [?]", "rola": "Sprzedaż placu i gruntu S. Nawrockiemu", "kwota_ctx": "Sprzedaż placu i gruntu S. Nawrockiemu"}], "notatka_biograficzna": "Osoba odnotowana w księdze radzieckiej Kraśnika (Jednostka 19, skan #25, 1657 r.)."}];
+
+    let filteredMain = [...mainData];
+    let filteredGen = [...genData];
+
+    let mainCurrentPage = 1;
+    const mainPageSize = 25;
+    let mainSortCol = 'nr_skanu';
+    let mainSortAsc = true;
+
+    let genCurrentPage = 1;
+    const genPageSize = 25;
+    let genSortCol = 'lp';
+    let genSortAsc = true;
+
+    let currentModalScan = null;
+
+    function escapeHtml(text) {
+      if (text === null || text === undefined) return '';
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      if (btn) btn.classList.add('active');
+      if (tabId === 'main-tab') renderMainTable();
+      if (tabId === 'genealogy-tab') renderGenTable();
+      if (typeof window.scrollTo === 'function') window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // FILTROWANIE I RENDEROWANIE TABELI GŁÓWNEJ
+    function filterMainData() {
+      const q = (document.getElementById('mainSearchInput').value || '').toLowerCase().trim();
+      const cat = document.getElementById('mainCategoryFilter').value;
+      const cent = document.getElementById('mainCenturyFilter').value;
+
+      filteredMain = mainData.filter(d => {
+        if (cat && d.kategoria !== cat) return false;
+        if (cent && (!d.data_rok || !d.data_rok.includes(cent))) return false;
+        if (!q) return true;
+        const opis = d.opis_pozycji || d.opis_sprawy || '';
+        const kwoty = d.kwoty_miary || d.kwoty_podatki || '';
+        return (
+          String(d.nr_skanu).includes(q) ||
+          (d.strona_pagina && d.strona_pagina.toLowerCase().includes(q)) ||
+          (d.data_rok && d.data_rok.toLowerCase().includes(q)) ||
+          (d.osoby_podmioty && d.osoby_podmioty.toLowerCase().includes(q)) ||
+          (d.kategoria && d.kategoria.toLowerCase().includes(q)) ||
+          opis.toLowerCase().includes(q) ||
+          kwoty.toLowerCase().includes(q) ||
+          (d.transkrypcja && d.transkrypcja.toLowerCase().includes(q))
+        );
+      });
+
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function resetMainFilters() {
+      document.getElementById('mainSearchInput').value = '';
+      document.getElementById('mainCategoryFilter').value = '';
+      document.getElementById('mainCenturyFilter').value = '';
+      filteredMain = [...mainData];
+      mainCurrentPage = 1;
+      renderMainTable();
+    }
+
+    function sortMainTable(col) {
+      if (mainSortCol === col) {
+        mainSortAsc = !mainSortAsc;
+      } else {
+        mainSortCol = col;
+        mainSortAsc = true;
+      }
+      filteredMain.sort((a, b) => {
+        let vA = a[col], vB = b[col];
+        if (col === 'nr_skanu') {
+          vA = parseInt(vA) || 0;
+          vB = parseInt(vB) || 0;
+        } else {
+          vA = String(vA || '').toLowerCase();
+          vB = String(vB || '').toLowerCase();
+        }
+        if (vA < vB) return mainSortAsc ? -1 : 1;
+        if (vA > vB) return mainSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderMainTable();
+    }
+
+    function renderMainTable() {
+      const tbody = document.getElementById('mainTableBody');
+      if (!tbody) return;
+      const total = filteredMain.length;
+      const totalPages = Math.ceil(total / mainPageSize) || 1;
+      if (mainCurrentPage > totalPages) mainCurrentPage = totalPages;
+
+      const start = (mainCurrentPage - 1) * mainPageSize;
+      const end = Math.min(start + mainPageSize, total);
+      const pageData = filteredMain.slice(start, end);
+
+      const infoText = total > 0
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} wpisów (Strona ${mainCurrentPage} z ${totalPages})`
+        : 'Brak wyników wyszukiwania';
+      const pageText = `${mainCurrentPage} / ${totalPages}`;
+
+      ['mainPaginationInfo', 'mainPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['mainPageIndicator', 'mainPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageText;
+      });
+      ['mainJumpInput', 'mainJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.max = totalPages; el.value = mainCurrentPage; }
+      });
+      ['mainPrevBtn', 'mainPrevBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage <= 1);
+      });
+      ['mainNextBtn', 'mainNextBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (mainCurrentPage >= totalPages);
+      });
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      pageData.forEach(r => {
+        const opis = r.opis_pozycji || r.opis_sprawy || '';
+        const kwoty = r.kwoty_miary || r.kwoty_podatki || '—';
+        html += `
+          <tr onclick="openMainModal(${r.nr_skanu})">
+            <td><span class="badge-scan">#${r.nr_skanu}</span></td>
+            <td>${escapeHtml(r.strona_pagina)}</td>
+            <td><span class="badge-years">${escapeHtml(r.data_rok)}</span></td>
+            <td>${escapeHtml(r.osoby_podmioty || '—')}</td>
+            <td><span class="badge-role">${escapeHtml(r.kategoria)}</span></td>
+            <td>${escapeHtml(opis)}</td>
+            <td style="font-family:'JetBrains Mono', monospace; font-size:0.85rem; color:var(--gold-primary);">${escapeHtml(kwoty)}</td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    function prevMainPage() { if (mainCurrentPage > 1) { mainCurrentPage--; renderMainTable(); } }
+    function nextMainPage() { const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1; if (mainCurrentPage < totalPages) { mainCurrentPage++; renderMainTable(); } }
+    function jumpMainPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('mainJumpInput') || document.getElementById('mainJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredMain.length / mainPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        mainCurrentPage = p;
+        renderMainTable();
+      }
+    }
+
+    // FILTROWANIE I RENDEROWANIE TABELI GENEALOGICZNEJ
+    function filterGenData() {
+      const q = (document.getElementById('genSearchInput').value || '').toLowerCase().trim();
+      const role = document.getElementById('genRoleFilter').value;
+      const dist = document.getElementById('genDistrictFilter').value;
+
+      filteredGen = genData.filter(d => {
+        if (role && (!d.funkcja || !d.funkcja.includes(role))) return false;
+        if (dist && (!d.miejsce || !d.miejsce.includes(dist))) return false;
+        if (!q) return true;
+        return (
+          (d.nazwisko && d.nazwisko.toLowerCase().includes(q)) ||
+          (d.imie && d.imie.toLowerCase().includes(q)) ||
+          (d.wariant_nazwiska && d.wariant_nazwiska.toLowerCase().includes(q)) ||
+          (d.miejsce && d.miejsce.toLowerCase().includes(q)) ||
+          (d.funkcja && d.funkcja.toLowerCase().includes(q)) ||
+          (d.skany_roboczo && d.skany_roboczo.toLowerCase().includes(q))
+        );
+      });
+
+      genCurrentPage = 1;
+      renderGenTable();
+    }
+
+    function resetGenFilters() {
+      document.getElementById('genSearchInput').value = '';
+      document.getElementById('genRoleFilter').value = '';
+      document.getElementById('genDistrictFilter').value = '';
+      filteredGen = [...genData];
+      genCurrentPage = 1;
+      renderGenTable();
+    }
+
+    function sortGenTable(col) {
+      if (genSortCol === col) {
+        genSortAsc = !genSortAsc;
+      } else {
+        genSortCol = col;
+        genSortAsc = true;
+      }
+      filteredGen.sort((a, b) => {
+        let vA = a[col], vB = b[col];
+        if (col === 'lp') {
+          vA = parseInt(vA) || 0;
+          vB = parseInt(vB) || 0;
+        } else {
+          vA = String(vA || '').toLowerCase();
+          vB = String(vB || '').toLowerCase();
+        }
+        if (vA < vB) return genSortAsc ? -1 : 1;
+        if (vA > vB) return genSortAsc ? 1 : -1;
+        return 0;
+      });
+      renderGenTable();
+    }
+
+    function renderGenTable() {
+      const tbody = document.getElementById('genTableBody');
+      if (!tbody) return;
+      const total = filteredGen.length;
+      const totalPages = Math.ceil(total / genPageSize) || 1;
+      if (genCurrentPage > totalPages) genCurrentPage = totalPages;
+
+      const start = (genCurrentPage - 1) * genPageSize;
+      const end = Math.min(start + genPageSize, total);
+      const pageData = filteredGen.slice(start, end);
+
+      const infoText = total > 0
+        ? `Wyświetlanie ${start + 1}–${end} z ${total} profili (Strona ${genCurrentPage} z ${totalPages})`
+        : 'Brak wyników w słowniku';
+      const pageText = `${genCurrentPage} / ${totalPages}`;
+
+      ['genPaginationInfo', 'genPaginationInfoBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = infoText;
+      });
+      ['genPageIndicator', 'genPageIndicatorBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = pageText;
+      });
+      ['genJumpInput', 'genJumpInputBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.max = totalPages; el.value = genCurrentPage; }
+      });
+      ['genPrevBtn', 'genPrevBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage <= 1);
+      });
+      ['genNextBtn', 'genNextBtnBot'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = (genCurrentPage >= totalPages);
+      });
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Brak wyników spełniających kryteria.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      pageData.forEach(p => {
+        let surnameDisplay = `<strong>${escapeHtml(p.nazwisko)}</strong>`;
+        if (p.wariant_nazwiska) {
+          surnameDisplay += `<br/><span class="badge-variant">wariant: ${escapeHtml(p.wariant_nazwiska)}</span>`;
+        }
+
+        html += `
+          <tr onclick="openGenModal(${p.lp})">
+            <td style="font-family:'JetBrains Mono', monospace; color:var(--text-muted);">${p.lp}</td>
+            <td>${surnameDisplay}</td>
+            <td>${escapeHtml(p.imie || '—')}</td>
+            <td><span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span></td>
+            <td>${escapeHtml(p.funkcja || 'Mieszkaniec')}</td>
+            <td><span class="badge-scan">${escapeHtml(p.skany_roboczo)}</span></td>
+            <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(p.zakres_lat || '')}</td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    function prevGenPage() { if (genCurrentPage > 1) { genCurrentPage--; renderGenTable(); } }
+    function nextGenPage() { const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1; if (genCurrentPage < totalPages) { genCurrentPage++; renderGenTable(); } }
+    function jumpGenPage(val) {
+      let p = parseInt(val, 10);
+      if (isNaN(p)) {
+        const el = document.getElementById('genJumpInput') || document.getElementById('genJumpInputBot');
+        if (el) p = parseInt(el.value, 10);
+      }
+      const totalPages = Math.ceil(filteredGen.length / genPageSize) || 1;
+      if (p >= 1 && p <= totalPages) {
+        genCurrentPage = p;
+        renderGenTable();
+      }
+    }
+
+    // MODAL SKANU (3 ZAKŁADKI KANONU J40 — IDENTYCZNY Z J16)
+    function openMainModal(scanNr) {
+      const item = mainData.find(d => parseInt(d.nr_skanu) === parseInt(scanNr));
+      if (!item) return;
+
+      currentModalScan = item;
+      document.getElementById('modalTitle').innerText = `SKAN #${item.nr_skanu} (${item.strona_pagina || ''}) – ${item.data_rok || ''}`.toUpperCase();
+
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'flex';
+
+      const transFormatted = item.transkrypcja
+        ? escapeHtml(item.transkrypcja)
+        : '<em style="color:#94a3b8;">Brak transkrypcji tekstowej dla tego skanu.</em>';
+      const opis = item.opis_pozycji || item.opis_sprawy || '—';
+      const kwoty = item.kwoty_miary || item.kwoty_podatki || 'Brak danych finansowych';
+      const linkUrl = item.link_swa || item.link_archiwum || 'https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/6989899';
+
+      document.getElementById('modalBody').innerHTML = `
+        <div id="modalTabContentMeta" class="modal-tab-content">
+          <div class="modal-section">
+            <div class="modal-section-title">Identyfikacja archiwalna i kodykologiczna</div>
+            <div><strong>Jednostka:</strong> AP Lublin, Akta miasta Kraśnika, sygn. 35/40/0/1/19 (dawny Tom 9 / mikr. 110358)</div>
+            <div><strong>Oznaczenie skanu:</strong> Skan #${item.nr_skanu} &nbsp;|&nbsp; <strong>Paginacja oryginalna:</strong> ${escapeHtml(item.strona_pagina)}</div>
+            <div><strong>Datacja zapisu:</strong> <span class="badge-years">${escapeHtml(item.data_rok)}</span> &nbsp;|&nbsp; <strong>Kategoria:</strong> <span class="badge-role">${escapeHtml(item.kategoria)}</span></div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Regest i opis historyczno-dyplomatyczny</div>
+            <div style="font-size:0.95rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(opis)}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Występujące osoby, instytucje i urzędy</div>
+            <div style="font-size:0.9rem; line-height:1.6; color:#cbd5e1;">
+              ${escapeHtml(item.osoby_podmioty || 'Brak danych')}
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <div class="modal-section-title">Wymiary finansowe, taksy i jednostki monetarne</div>
+            <div style="font-family:'JetBrains Mono', monospace; font-size:0.9rem; color:var(--gold-primary);">
+              ${escapeHtml(kwoty)}
+            </div>
+          </div>
+        </div>
+
+        <div id="modalTabContentTrans" class="modal-tab-content" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <span style="font-size:0.85rem; color:var(--text-muted);">Transkrypcja dyplomatyczna in extenso z aparatem krytycznym i kodykologicznym</span>
+            ${item.transkrypcja ? '<button class="btn-copy-trans" onclick="copyTranscription()">📋 Kopiuj transkrypcję</button>' : ''}
+          </div>
+          <div class="transcription-box" id="transcriptionText">${transFormatted}</div>
+        </div>
+
+        <div id="modalTabContentLink" class="modal-tab-content" style="display:none;">
+          <div class="modal-section">
+            <div class="modal-section-title">Dostęp do skanu cyfrowego w zasobie Archiwum Państwowego</div>
+            <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:1rem;">
+              Oryginalny skan w pełnej rozdzielczości dostępny jest w państwowym portalu <strong>SzukajwArchiwach.gov.pl</strong> w zespole <em>35/40/0 Akta miasta Kraśnika</em>.
+            </p>
+            <div style="background:#0f172a; padding:1rem; border-radius:6px; border:1px solid var(--border); word-break:break-all; font-family:'JetBrains Mono', monospace; font-size:0.85rem; margin-bottom:1rem; font-weight:700; color:#f8fafc;">
+              ${escapeHtml(linkUrl)}
+            </div>
+            <p style="color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;">
+              Instrukcja: Aby wyświetlić skan #${item.nr_skanu}, kliknij poniższy przycisk, przejdź do zakładki <strong>„Skany”</strong> w serwisie archiwalnym i wybierz skan numer <strong>${item.nr_skanu}</strong>.
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="${escapeHtml(linkUrl)}" target="_blank" rel="noopener" class="btn btn-gold" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700;">
+                🌐 Otwórz Skan #${item.nr_skanu} w Szukaj w Archiwach
+              </a>
+              <a href="https://www.szukajwarchiwach.gov.pl/zespol/-/zespol/1890" target="_blank" rel="noopener" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none; padding:0.65rem 1.1rem; background:rgba(255,255,255,0.05); border:1px solid var(--border); color:#e2e8f0;">
+                📁 Zespół 35/40/0 (Akta m. Kraśnika)
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      switchModalTab('meta');
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    // MODAL GENEALOGICZNY (PROFIL MIESZKAŃCA — IDENTYCZNY Z J16)
+    function openGenModal(lp) {
+      currentModalScan = null;
+      const tabsBar = document.getElementById('modalTabsBar');
+      if (tabsBar) tabsBar.style.display = 'none';
+
+      const p = genData.find(d => parseInt(d.lp) === parseInt(lp));
+      if (!p) return;
+
+      const imieStr = p.imie || '';
+      const funkcjaStr = p.funkcja || 'Mieszkaniec';
+      const isWidow = imieStr.endsWith('owa') || imieStr.includes('Wdowa') || funkcjaStr.toLowerCase().includes('wdowa');
+      const mentions = p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : 1);
+
+      let occsHtml = '';
+      if (p.wystapienia && p.wystapienia.length > 0) {
+        occsHtml = `
+          <table class="occs-table">
+            <thead>
+              <tr>
+                <th style="width:14%;">Skan</th>
+                <th style="width:16%;">Rok</th>
+                <th style="width:34%;">Zapis w rękopisie</th>
+                <th style="width:36%;">Podatek / Rola / Kontekst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${p.wystapienia.map(o => `
+                <tr>
+                  <td style="font-family:'JetBrains Mono', monospace; font-weight:700; color:var(--gold-primary);"><a href="javascript:void(0)" onclick="closeModal(); setTimeout(() => openMainModal(${parseInt(o.skan)}), 150);" class="badge-scan" style="text-decoration:none; cursor:pointer;">#${o.skan}</a></td>
+                  <td style="font-family:'JetBrains Mono', monospace;">${escapeHtml(o.rok)}</td>
+                  <td style="font-style:italic;"><strong>${escapeHtml(o.zapis_oryginalny || (imieStr + ' ' + p.nazwisko))}</strong></td>
+                  <td>${escapeHtml(o.kwota_ctx || o.rola || '—')}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      }
+
+      document.getElementById('modalTitle').innerText = `${imieStr} ${p.nazwisko} (${p.miejsce || 'Kraśnik'})`.toUpperCase();
+      document.getElementById('modalBody').innerHTML = `
+        <div class="modal-section">
+          <div class="modal-section-title">Dane biograficzne i status społeczno-prawny</div>
+          <div style="font-size:1.05rem; margin-bottom:0.5rem;">
+            <strong>${escapeHtml(imieStr)} ${escapeHtml(p.nazwisko)}</strong>
+            &nbsp;•&nbsp; <span class="badge-district">${escapeHtml(p.miejsce || 'Kraśnik')}</span>
+            &nbsp;•&nbsp; <span class="badge-role ${isWidow ? 'badge-widow' : ''}">${escapeHtml(funkcjaStr)}</span>
+          </div>
+          <div style="font-size:0.88rem; color:var(--text-muted);">
+            Zakres poświadczeń w księdze: <strong>${escapeHtml(p.zakres_lat || '—')}</strong> &nbsp;|&nbsp; Łączna liczba wzmianek źródłowych: <strong>${mentions}</strong>
+          </div>
+          ${p.wariant_nazwiska ? `
+            <div style="background:#1e293b; border-left:3px solid var(--gold-primary); padding:0.6rem 0.85rem; border-radius:4px; margin-top:0.75rem; font-size:0.88rem; color:#e2e8f0;">
+              <strong style="color:var(--gold-primary);">💡 Lekcje i warianty zapisu w rękopisie:</strong> ${escapeHtml(p.wariant_nazwiska)}
+              <div style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">Wpisanie dowolnej z tych form w wyszukiwarce natychmiast filtruje ten profil (zasada 1 osoba = 1 rekord).</div>
+            </div>
+          ` : ''}
+        </div>
+
+        ${p.notatka_biograficzna ? `
+          <div class="modal-section">
+            <div class="modal-section-title">Notatka biograficzna i rola historyczna</div>
+            <div style="font-size:0.92rem; line-height:1.6; color:#e2e8f0; background:#0f172a; padding:0.85rem; border-radius:6px; border:1px solid var(--border);">
+              ${escapeHtml(p.notatka_biograficzna)}
+            </div>
+          </div>
+        ` : ''}
+
+        <div class="modal-section">
+          <div class="modal-section-title">Poświadczenia źródłowe w jednostce (kliknij skan aby otworzyć)</div>
+          ${occsHtml}
+        </div>
+      `;
+
+      document.getElementById('detailModal').style.display = 'block';
+    }
+
+    function switchModalTab(tabKey) {
+      const tabs = ['meta', 'trans', 'link'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+        const pane = document.getElementById('modalTabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) btn.classList.toggle('active', t === tabKey);
+        if (pane) pane.style.display = (t === tabKey) ? 'block' : 'none';
+      });
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').style.display = 'none';
+      currentModalScan = null;
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('detailModal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+
+    function copyTranscription() {
+      if (!currentModalScan || !currentModalScan.transkrypcja) return;
+      navigator.clipboard.writeText(currentModalScan.transkrypcja).then(() => {
+        const btn = document.querySelector('.btn-copy-trans');
+        if (btn) {
+          const orig = btn.innerText;
+          btn.innerText = '✅ Skopiowano do schowka!';
+          setTimeout(() => { btn.innerText = orig; }, 2000);
+        }
+      }).catch(err => {
+        console.error('Błąd kopiowania:', err);
+      });
+    }
+
+    function downloadBlob(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const pom = document.createElement('a');
+      pom.href = url;
+      pom.setAttribute('download', filename);
+      pom.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportMainCSV() {
+      const headers = ['Nr skanu', 'Paginacja', 'Datacja', 'Kategoria', 'Opis / Regest', 'Osoby / Podmioty', 'Kwoty / Miary'];
+      let csv = "\ufeff" + headers.join(';') + "\r\n";
+      filteredMain.forEach(r => {
+        const opis = r.opis_pozycji || r.opis_sprawy || '';
+        const kwoty = r.kwoty_miary || r.kwoty_podatki || '';
+        const row = [r.nr_skanu, r.strona_pagina, r.data_rok, r.kategoria, opis, r.osoby_podmioty, kwoty]
+          .map(val => `"${String(val || '').replace(/"/g, '""')}"`)
+          .join(';');
+        csv += row + "\r\n";
+      });
+      downloadBlob(csv, 'krasnik_j18_indeks_skanow.csv', 'text/csv;charset=utf-8;');
+    }
+
+    function exportGenCSV() {
+      const headers = ['Lp', 'Nazwisko', 'Imię', 'Miejsce', 'Funkcja społeczna / zawód', 'Skany źródłowe', 'Zakres lat', 'Liczba wzmianek', 'Warianty nazwiska'];
+      let csv = "\ufeff" + headers.join(';') + "\r\n";
+      filteredGen.forEach(p => {
+        const row = [
+          p.lp,
+          p.nazwisko,
+          p.imie,
+          p.miejsce,
+          p.funkcja || '',
+          p.skany_roboczo || '',
+          p.zakres_lat,
+          p.liczba_wystapien || 1,
+          p.wariant_nazwiska || ''
+        ].map(val => `"${String(val || '').replace(/"/g, '""')}"`)
+          .join(';');
+        csv += row + "\r\n";
+      });
+      downloadBlob(csv, 'krasnik_j18_slownik_genealogiczny.csv', 'text/csv;charset=utf-8;');
+    }
+
+    // DYNAMIC COUNTERS & INITIAL RENDER
+    if (document.getElementById('mainTabBadge')) document.getElementById('mainTabBadge').innerText = mainData.length;
+    if (document.getElementById('kpiMainCount')) document.getElementById('kpiMainCount').innerText = mainData.length;
+    if (document.getElementById('genTabBadge')) document.getElementById('genTabBadge').innerText = genData.length;
+    if (document.getElementById('kpiGenCount')) document.getElementById('kpiGenCount').innerText = genData.length;
+    if (document.getElementById('genStatCount')) document.getElementById('genStatCount').innerText = genData.length;
+    const totalMentionsCalc = genData.reduce((acc, p) => acc + (p.liczba_wystapien || (p.wystapienia ? p.wystapienia.length : 1)), 0);
+    if (document.getElementById('genMentionsCount')) document.getElementById('genMentionsCount').innerText = totalMentionsCalc;
+
+    const catSelect = document.getElementById('mainCategoryFilter');
+    if (catSelect) {
+      const categories = [...new Set(mainData.map(d => d.kategoria))].filter(Boolean).sort();
+      categories.forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.innerText = cat;
+        catSelect.appendChild(opt);
+      });
+    }
+
+    const roleSelect = document.getElementById('genRoleFilter');
+    if (roleSelect) {
+      const roles = [...new Set(genData.map(d => d.funkcja))].filter(Boolean).sort();
+      roles.forEach(role => {
+        const opt = document.createElement('option');
+        opt.value = role;
+        opt.innerText = role;
+        roleSelect.appendChild(opt);
+      });
+    }
+
+    const distSelect = document.getElementById('genDistrictFilter');
+    if (distSelect) {
+      const dists = [...new Set(genData.map(d => d.miejsce))].filter(Boolean).sort();
+      dists.forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.innerText = d;
+        distSelect.appendChild(opt);
+      });
+    }
+
+    renderMainTable();
+    renderGenTable();
+  </script>
+</body>
+</html>
