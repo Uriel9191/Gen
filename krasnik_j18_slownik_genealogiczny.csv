@@ -11,7 +11,7 @@
 10;Kaczmarczyk;Szymon;Kraśnik;Opiekun sierot / Mieszczanin;;#8;1653;1
 11;Sokołowicz;Wawrzyniec;Kraśnik;Opiekun sierot / Mieszczanin;;#8;1653;1
 12;Koniega;Maciej;Kraśnik;Opiekun sierot;;#8, #9, #10, #11, #15, #23, #24, #26, #32, #33, #36, #45, #54;1649–1662;13
-13;Kłopotek;Paweł;Kraśnik;Opiekun / Strona;;#8, #10, #28;1653–1658;3
+13;Kłopotek;Paweł;Kraśnik;Opiekun / Strona;;#8, #10, #28, #207;1653–1702;4
 14;Kłopotek;Wojciech;Kraśnik;Zmarły;;#8, #10;1653;2
 15;Kłopotek;Sebastian;Kraśnik;Nabywca / Krewny;;#8;1653;1
 16;Borytkowski;Wierzyciel;Kraśnik;Wierzyciel;Borytkowski?;#8;1653;1
@@ -92,7 +92,7 @@
 91;Szafraniec;Wierzyciel;Kraśnik;Wierzyciel;Szafrański?;#29;1658;1
 92;Gierada;Matyasz;Kraśnik;Wierzyciel;;#29;1658;1
 93;Jerzykiewicz;Wojciech;Kraśnik;Rajca kraśnicki;;#31;1658;1
-94;Kwasowic;Wojciech;Kraśnik;Rajca kraśnicki;;#31, #32, #33, #54, #57;1658–1662;5
+94;Kwasowic;Wojciech;Kraśnik;Rajca kraśnicki;;#31, #32, #33, #54, #57, #206, #208;1658–1702;7
 95;Królikówna;Agnieszka;Kraśnik;Sierota;;#31;1658;1
 96;Szczerbowic;Jan;Kraśnik;Ławnik przysięgły / Opiekun;Szczurkowic?;#31;1658;1
 97;Szwajbrowic;Tomasz;Przedmieście Kraśnickie;Przedmieszczanin / Współopiekun;Szwajbrowic?;#31;1658;1
@@ -120,7 +120,7 @@
 119;Rogalowski;Wojciech;Przedmieście Kraśnickie;Zmarły przedmieszczanin;Sosnowski;#44, #45, #46, #47, #48, #54, #58;1660–1662;7
 120;Grzętka;Jan;Kraśnik;Opiekun sierot;;#45, #48, #54, #56, #57;1660–1662;5
 121;Batusik;Sebastian;Kraśnik;Opiekun sierot;Batuś;#45, #48, #54, #55, #56, #57;1660–1662;6
-122;Sikor;Stanisław;Kraśnik;Pisarz przysięgły;Sikora?;#46;1660;1
+122;Sikor;Stanisław;Kraśnik;Pisarz przysięgły;Sikora? / Sikora [?];#46, #211;1660–1702;2
 123;Miarowicki;Sąsiad;Przedmieście Kraśnickie;Posesjonat;;#46;1660;1
 124;Młynarzewski;Sąsiad;Przedmieście Kraśnickie;Posesjonat;Młynarzewski?;#47;1660;1
 125;Krawczyk;Jan;Kraśnik;Mieszkaniec;;#47;1660;1
@@ -172,7 +172,7 @@
 171;Jędryszek;Sebastian;Kraśnik;Majster rzemiosła szewskiego;;#61;1701;1
 172;Grymus;Jamiel;Kraśnik;Mieszczanin kraśnicki / Członek cechu;Jamiel [?];#61;1701;1
 173;Grymus;Jan;Kraśnik;Mieszczanin kraśnicki / Członek cechu;Grymusa;#61, #101;1701–1702;2
-174;Beski;Wojciech;Kraśnik;Ławnik kraśnicki;Beskiewicz / Albertus Beskiewicz / Boskiewicz / Albertus Boskiewicz / Boski [?] / Albert Boskiewicz;#61, #78, #88, #97, #127, #152, #164, #168, #189, #196, #200;1701–1702;11
+174;Beski;Wojciech;Kraśnik;Ławnik kraśnicki;Beskiewicz / Albertus Beskiewicz / Boskiewicz / Albertus Boskiewicz / Boski [?] / Albert Boskiewicz;#61, #78, #88, #97, #127, #152, #164, #168, #189, #196, #200, #201, #215;1701–1702;13
 175;Sobiec;Tomasz;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Protestant;;#62, #134, #157, #166;1701–1702;4
 176;Sokołowicz;Jan;Kraśnik;Burmistrz kraśnicki;Sokołowski [?];#62, #70;1701;2
 177;Janny;Stanisław;Kraśnik;Mieszczanin kraśnicki / Kontrahent;;#62;1701;1
@@ -181,14 +181,14 @@
 180;Aucek;Starozakonny;Kraśnik;Kupiec żydowski;;#63;1701;1
 181;Berek;Starozakonny;Kraśnik;Kupiec żydowski;;#63, #73, #90;1701–1702;3
 182;Dawidowicz;Huczek;Kraśnik;Kupiec, obywatel kraśnicki / Aktor;;#64;1701;1
-183;Maziarczyk;Kazimierz;Przedmieście Kraśnickie;Mieszkaniec / Strona w sporze;;#64, #83, #153, #155, #162, #163, #172, #179, #181, #183, #191, #193, #195;1701–1702;13
+183;Maziarczyk;Kazimierz;Przedmieście Kraśnickie;Mieszkaniec / Strona w sporze;;#64, #83, #153, #155, #162, #163, #172, #179, #181, #183, #191, #193, #195, #216;1701–1702;14
 184;Radzik;Wawrzyniec;Przedmieście Kraśnickie;Mieszkaniec / Strona w sporze;;#64;1701;1
 185;Koza;Kazimierz;Kraśnik;Kraśniczanin / Aktor;;#64;1701;1
 186;Szwagier;Matyjasz;Kraśnik;Pozwany (szwagier Kazimierza Kozy);;#64;1701;1
 187;Pielka;Marcin;Kraśnik;Zmarły mieszkaniec;Pielk [?];#64;1701;1
 188;Mierzwa;Bartłomiej;Kraśnik;Powód / Aktor;Mierzwa [?];#64;1701;1
 189;Biernat;Matyjasz;Kraśnik;Pozwany;Biernatek;#64, #152;1701–1702;2
-190;Lis;Jakub;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Aktor;;#65, #105, #155, #164;1701–1702;4
+190;Lis;Jakub;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Aktor;;#65, #105, #155, #164, #215;1701–1702;5
 191;Sąsadek;Sobestian;Przedmieście Kraśnickie;Pozwany;;#65;1701;1
 192;Suchek;Wojciech;Przedmieście Kraśnickie;Ojciec / Strona w sporze;Suchek [?];#65;1701;1
 193;Sokołowicz;Maciej;Kraśnik;Mieszkaniec / Manifestant;Sokołowicz [?];#65;1701;1
@@ -212,7 +212,7 @@
 211;Jarzyk;Andrzej;Przedmieście Kraśnickie;Syn Wojciecha i Anny Jarzyków;;#68;1701;1
 212;Sobek;Adam;Przedmieście Kraśnickie;Sąsiad roli w ulicy;;#68;1701;1
 213;Sosnowski;Franciszek;Kraśnik;Woźny przysięgły (authentyczny);;#69;1701;1
-214;Moszkowic;Lewek;Kraśnik;Szkolnik synagogi kraśnickiej;Lawek;#69, #164, #195;1701–1702;3
+214;Moszkowic;Lewek;Kraśnik;Szkolnik synagogi kraśnickiej;Lawek;#69, #164, #195, #215;1701–1702;4
 215;Doktor;Starozakonny;Kraśnik;Lekarz żydowski synagogi kraśnickiej;;#69;1701;1
 216;Moszkowic;Josek;Kraśnik;Obywatel kraśnicki (starozakonny);;#69, #70, #71;1701;3
 217;Krawiec;Sebastian;Kraśnik;Dworzanin kasztelana lubelskiego / Wierzyciel;;#69;1701;1
@@ -220,7 +220,7 @@
 219;Jadwiga;Świadek / Strona;Kraśnik;Uczestniczka procesu Chudzikowej;;#70;1701;1
 220;Zuzanna;Strona / Odbiorczyni;Kraśnik;Uczestniczka procesu Chudzikowej;;#70;1701;1
 221;Tatarski;Franciszek;Kraśnik;Woźny przysięgły;;#70, #84, #88;1701;3
-222;Chmielowic;Adam Michał;Kraśnik;Pisarz miejski przysięgły;;#70, #130, #168, #184, #200;1701–1702;5
+222;Chmielowic;Adam Michał;Kraśnik;Pisarz miejski przysięgły;;#70, #130, #168, #184, #200, #201;1701–1702;6
 223;Chapon;Jachym;Kraśnik;Brat / Poprzedni właściciel;Chaponiów;#71;1701;1
 224;Dudek;Stanisław;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Sprzedawca;;#71, #72, #74, #120;1701–1702;4
 225;Dudek;Wawrzyniec;Przedmieście Kraśnickie;Zmarły przedmieszczanin kraśnicki;;#71;1701;1
@@ -245,7 +245,7 @@
 244;Bielski;Pan;Rudnik;Dziedzic / Posiadacz wsi Rudnika;;#75;1701;1
 245;Wardeczyna;Maryna;Przedmieście Kraśnickie;Wdowa po Jakubie Wardecy / Protestantka;;#76;1701;1
 246;Wardeca;Jakub;Przedmieście Kraśnickie;Zmarły przedmieszczanin kraśnicki;;#76;1701;1
-247;Rymarczyk;Marcin;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Pozwany;Martinus Rymarczyk / Józef Jastrząb [?];#76, #80, #82, #142, #165, #166, #178, #192, #198;1701–1702;9
+247;Rymarczyk;Marcin;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Pozwany;Martinus Rymarczyk / Józef Jastrząb [?];#76, #80, #82, #142, #165, #166, #178, #192, #198, #203;1701–1702;10
 248;Krawiec;Grzegorz;Kraśnik;Mieszczanin kraśnicki / Protestant;;#76, #77;1701;2
 249;Duda;Maciej;Kraśnik;Mieszczanin kraśnicki / Protestant;Duda [?];#76;1701;1
 250;Duda;Wojciech;Kraśnik;Mieszczanin kraśnicki / Protestant;Duda [?];#76;1701;1
@@ -264,7 +264,7 @@
 263;Butczyna;Jadwiga;Przedmieście Kraśnickie;Wdowa / Opiekunka naturalna;;#78;1701;1
 264;Jarzyk;Sobestian;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki;Skiba al. Butczyn [?];#78, #79;1701;2
 265;Skiba;Jan;Przedmieście Kraśnickie;Poprzedni posiadacz (al. Butczyn);;#78;1701;1
-266;Kłopot;Paweł;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Protestant;;#79, #80, #152, #153;1701–1702;4
+266;Kłopot;Paweł;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Protestant;;#79, #80, #152, #153, #214, #216;1701–1702;6
 267;Ząbek;Marcin;Kraśnik;Pozwany o pobicie;;#79;1701;1
 268;Szmul;Starozakonny;Kraśnik;Mieszkaniec żydowski;Szmol;#80, #99, #104;1701–1702;3
 269;Piotrowczyk;Michał;Kraśnik;Aktor / Powód;;#80, #82;1701;2
@@ -314,28 +314,28 @@
 313;Lutowski;Komisarz;Kraśnik;Komisarz ordynacki;;#90;1702;1
 314;Piasecki;Rezydent;Kraśnik;Rezydent miejski;;#91, #92;1702;2
 315;Rzadkowski;Stanisław;Zarzecze;Wójt gromadzki na Zarzeczu;;#93, #98;1702;2
-316;Cwiek;Marcin;Przedmieście Kraśnickie;Wójt podleski;;#93, #162, #163, #165, #166, #167, #174, #199;1702;8
+316;Cwiek;Marcin;Przedmieście Kraśnickie;Wójt podleski;;#93, #162, #163, #165, #166, #167, #174, #199, #202;1702;9
 317;Bernat;Matyjasz;Piaski;Wójt na Piaskach;Bernatek;#93;1702;1
 318;Wigdor;Starozakonny;Kraśnik;Wierzyciel miasta;;#93, #110;1702;2
 319;Jeżyk;Starozakonny;Kraśnik;Wierzyciel miasta;;#93;1702;1
 320;Sbrich;Starozakonny;Kraśnik;Wierzyciel miasta;Sbrich [?];#93;1702;1
-321;Słomkowski;Paweł;Kraśnik;Wójt kraśnicki (wybrany 1702);Paulus Słomkowski;#95, #97, #160, #168, #173, #189, #197;1702;7
+321;Słomkowski;Paweł;Kraśnik;Wójt kraśnicki (wybrany 1702);Paulus Słomkowski;#95, #97, #160, #168, #173, #189, #197, #202;1702;8
 322;Potokowic;Adam;Kraśnik;Podwójci kraśnicki (wybrany 1702);;#95, #130, #153, #154, #168, #176, #177, #178, #184, #187, #188, #189;1702;12
 323;Szczurkowic;Stanisław;Kraśnik;Rajca kraśnicki (1702);;#95, #126;1702;2
 324;Barankowic;Jan;Kraśnik;Rajca kraśnicki (1702);;#95, #106, #169, #184, #185, #193, #197;1702;7
-325;Grzymałowski;Wojciech;Kraśnik;Deputat na Trybunał (1702);Albertus Grzymałowski;#95, #138, #176, #177, #179, #184, #185, #193, #200;1702;9
+325;Grzymałowski;Wojciech;Kraśnik;Deputat na Trybunał (1702);Albertus Grzymałowski;#95, #138, #176, #177, #179, #184, #185, #193, #200, #206, #209;1702;11
 326;Nowacki;Paweł;Kraśnik;Faktor miejski (1702);Paulus Nowacki;#95, #101, #175;1702;3
 327;Jarzyk;Jan;Kraśnik;Faktor miejski (1702);;#95;1702;1
 328;Morelowski;Stanisław Antoni;Kraśnik;Podstoli i komisarz ordynacki;;#95;1702;1
 329;Wittan;Pan;Kraśnik;Komisarz / Weryfikator rachunków;;#96;1702;1
 330;Jasiecki;Pan;Kraśnik;Weryfikator rachunków;;#96;1702;1
 331;Leszczynowski;Pan;Kraśnik;Komisarz;;#96;1702;1
-332;Grymus;Stanisław;Kraśnik;Podwójci / Ławnik kraśnicki;;#97, #127, #160, #168, #175, #178, #189, #192, #196, #197, #198;1702;11
+332;Grymus;Stanisław;Kraśnik;Podwójci / Ławnik kraśnicki;;#97, #127, #160, #168, #175, #178, #189, #192, #196, #197, #198, #205;1702;12
 333;Janaszkowic;Wojciech;Kraśnik;Stary rajca kraśnicki;Albertus Janaszkowic;#97;1702;1
 334;Loreński;Matyjasz;Kraśnik;Cechmistrz tkacki (1702);Matthias Lorenski;#97;1702;1
-335;Zdebikowic;Tomasz;Kraśnik;Ławnik miejski (1702);Thomas Zdebikowic;#97, #120, #126, #160, #162, #164, #168, #192, #196, #198, #200;1702;11
+335;Zdebikowic;Tomasz;Kraśnik;Ławnik miejski (1702);Thomas Zdebikowic;#97, #120, #126, #160, #162, #164, #168, #192, #196, #198, #200, #201;1702;12
 336;Sokół;Wojciech;Przedmieście Kraśnickie;Wójt gromadzki z Gór;;#98;1702;1
-337;Smok;Jan;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Aktor;;#98, #128, #181;1702;3
+337;Smok;Jan;Przedmieście Kraśnickie;Przedmieszczanin kraśnicki / Aktor;;#98, #128, #181, #204;1702;4
 338;Nowacki;Tomasz;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#98;1702;1
 339;Leszczyński;Stanisław;Kraśnik;Pozwany;Leszczyński [?];#98;1702;1
 340;Frasiek;Sobestian;Kraśnik;Aktor;Frasiek [?];#98;1702;1
@@ -343,7 +343,7 @@
 342;Markowic;Jędrzej;Kraśnik;Obywatel kraśnicki (starozakonny) / Aktor;;#99;1702;1
 343;Świstek;Szymon;Kraśnik;Pozwany;Świstek [?];#99;1702;1
 344;Koszykowic;Kazimierz;Kraśnik;Strona w sporze o zniewagę;;#99, #101, #104;1702;3
-345;Piasecki;Wojciech;Kraśnik;Strona w sporze o zniewagę;;#99, #101, #104, #107, #174, #193, #196, #198, #199, #200;1702;10
+345;Piasecki;Wojciech;Kraśnik;Strona w sporze o zniewagę;;#99, #101, #104, #107, #174, #193, #196, #198, #199, #200, #201, #203;1702;12
 346;Kłopot;Jakub;Kraśnik;Pozwany;;#99, #172;1702;2
 347;Jartek;Szymon;Kraśnik;Pozwany;Jartek [?];#99, #110;1702;2
 348;Konny;Tomasz;Kraśnik;Obywatel kraśnicki / Wierzyciel;Postrożny [?];#101;1702;1
@@ -362,12 +362,12 @@
 361;Kepka;Michał;Przedmieście Kraśnickie;Pozwany;;#105, #131;1702;2
 362;Młynarczyk;Jakub;Przedmieście Kraśnickie;Przedmieszczanin / Rozjemca;;#105;1702;1
 363;Szabla;Wojciech;Przedmieście Kraśnickie;Przedmieszczanin / Rozjemca;;#105;1702;1
-364;Rodzonek;Sebastian;Przedmieście Kraśnickie;Sąsiad na Górach;Sobestian Rodzonek;#105, #164;1702;2
+364;Rodzonek;Sebastian;Przedmieście Kraśnickie;Sąsiad na Górach;Sobestian Rodzonek;#105, #164, #214;1702;3
 365;Grzymek;Wojciech;Kraśnik;Świadek / Pisarz ugody;;#106;1702;1
 366;Barankowic;Jan (syn);Kraśnik;Syn burmistrza Jana Barankowica;;#106, #184;1702;2
 367;Stalmachowic;Matyjasz;Kraśnik;Towarzysz rzemiosła rzeźnickiego / Świadek;;#106, #181, #190;1702;3
 368;Maryna;Starozakonna;Kraśnik;Szynkarka żydowska;;#106;1702;1
-369;Kępa;Tomasz;Przedmieście Kraśnickie;Przedmieszczanin / Protestant;Kepka / Kępka;#108, #156, #157, #158, #161, #186, #187, #188, #194, #199;1702;10
+369;Kępa;Tomasz;Przedmieście Kraśnickie;Przedmieszczanin / Protestant;Kepka / Kępka;#108, #156, #157, #158, #161, #186, #187, #188, #194, #199, #201, #215;1702;12
 370;Sycz;Jan;Kraśnik;Świadek;Sycz [?];#108;1702;1
 371;Strusek;Sebastian;Przedmieście Kraśnickie;Świadek;;#108;1702;1
 372;Łancki;Tomasz;Przedmieście Kraśnickie;Syn/krewny Andrzeja Łanckiego;;#109;1702;1
@@ -406,7 +406,7 @@
 405;Karczmarczyk;Szymon;Przedmieście Kraśnickie;Przedmieszczanin z Zalesia / Świadek;;#123;1702;1
 406;Błażejczyk;Marcin;Kraśnik;Pracowity, stary poddany w arendzie Kwasa / Świadek;;#123;1702;1
 407;Kwas;Arendarz;Kraśnik;Arendarz;;#123;1702;1
-408;Piotrowczyk;Michał;Przedmieście Kraśnickie;Przedmieszczanin / Strona;;#124, #142, #155, #156, #162, #163, #165, #166, #167, #175, #199, #200;1702;12
+408;Piotrowczyk;Michał;Przedmieście Kraśnickie;Przedmieszczanin / Strona;;#124, #142, #155, #156, #162, #163, #165, #166, #167, #175, #199, #200, #201;1702;13
 409;Maciej;Grzegorz;Kraśnik;Współwnoszący inkwizycję;;#124;1702;1
 410;Dawidowa;Wdowa;Kraśnik;Obywatelka kraśnicka (wdowa po Dawidzie Germanie);;#125;1702;1
 411;German;Dawid;Kraśnik;Zmarły obywatel kraśnicki (starozakonny);;#125;1702;1
@@ -451,8 +451,8 @@
 450;Sapała;Sebastian;Przedmieście Kraśnickie;Zmarły przedmieszczanin;;#136;1702;1
 451;Sapałowa;Krystyna;Przedmieście Kraśnickie;Zmarła żona S. Sapały;;#136;1702;1
 452;Szablina;Zofia;Przedmieście Kraśnickie;Żona S. Szabli (z d. Zdebikówna);Zdebikówna;#136;1702;1
-453;Kielianek;Wawrzyniec;Przedmieście Kraśnickie;Przedmieszczanin / Aktor;;#137, #162;1702;2
-454;Ejzyk;Starozakonny;Kraśnik;Obywatel kraśnicki / Pozwany;Eizyk / Ejzyk Herschowic / Ezyk;#138, #168, #169, #172, #179, #181;1702;6
+453;Kielianek;Wawrzyniec;Przedmieście Kraśnickie;Przedmieszczanin / Aktor;;#137, #162, #205, #206, #209, #210;1702;6
+454;Ejzyk;Starozakonny;Kraśnik;Obywatel kraśnicki / Pozwany;Eizyk / Ejzyk Herschowic / Ezyk;#138, #168, #169, #172, #179, #181, #204, #213, #215, #216;1702;10
 455;Abram;Jakubowicz;Kraśnik;Rzeźnik żydowski / Obywatel kraśnicki;;#138, #162;1702;2
 456;Skrobiniakowa;Wdowa;Kraśnik;Manifestantka;;#139;1702;1
 457;Łysikowa;Agnieszka;Piaski;Wdowa po Wojciechu Łysiku (z d. Sadzikówna) / Testatorka;Sadzikówna;#139;1702;1
@@ -465,7 +465,7 @@
 464;Łysikówna;Maryna;Piaski;Córka Wojciecha i Agnieszki Łysików;;#140;1702;1
 465;Łysik;Jakub;Piaski;Syn lub bratanek Łysików;;#140;1702;1
 466;Kępa;Walenty;Przedmieście Kraśnickie;Brat stryjeczny Kępów;;#141, #167;1702;2
-467;Maziarczyk;Stanisław;Przedmieście Kraśnickie;Winiarz przedmiejski / Ręczyciel;;#143;1702;1
+467;Maziarczyk;Stanisław;Przedmieście Kraśnickie;Winiarz przedmiejski / Ręczyciel;;#143, #204;1702;2
 468;Nowak;Matyjasz;Kraśnik;Mistrz szewski / Ręczyciel;;#143;1702;1
 469;Skarczyk;Piotr;Przedmieście Kraśnickie;Przedmieszczanin / Sukcesor Kosińskiego;Skarzyk;#143, #154, #155, #176, #177, #179, #190;1702;7
 470;Wesołowski;Józef;Przedmieście Kraśnickie;Przedmieszczanin / Sukcesor Kosińskiego;;#143;1702;1
@@ -492,7 +492,7 @@
 491;Janczyk;Wojciech;Budzyń;Pracowity ze wsi Budzyń / Pozwany;;#150;1702;1
 492;Żabski;Aleksander;Kraśnik;Szlachetny, sługa konwentu / Poszkodowany;Jan Mielski [?];#150, #151;1702;2
 493;Matuszewic;Samuel;Kraśnik;Gospodarz;;#151;1702;1
-494;Frankiewic;Kacper;Kraśnik;Właściciel domu;;#151;1702;1
+494;Frankiewic;Kacper;Kraśnik;Właściciel domu;;#151, #203;1702;2
 495;Kłopotowa;Maryna;Przedmieście Kraśnickie;Żona Pawła Kłopota / Aktorka;z Tokarskich;#152;1702;1
 496;Dunalowa;Katarzyna;Przedmieście Kraśnickie;Żona Andrzeja Dunala / Pozwana;;#152;1702;1
 497;Dunal;Andrzej;Przedmieście Kraśnickie;Mąż Katarzyny Dunalowej / Pozwany;;#152, #153;1702;2
@@ -503,13 +503,13 @@
 502;Marianna Żydówka;Starozakonna;Kraśnik;Wierzycielka / Aktorka;;#153, #191, #195;1702;3
 503;Zieliński;Stefan;Kraśnik;Pracownik / Strona w sporze;;#153;1702;1
 504;Łapka;Mieszkaniec;Kraśnik;Strona w sporze;;#154;1702;1
-505;Piotrowczykowa;Maryna;Przedmieście Kraśnickie;Żona Michała Piotrowczyka, córka Macieja Kępy;z Kępów / Kępówna / Kępina;#155, #156, #166, #167, #199;1702;5
-506;Jadykowa;Zofia;Przedmieście Kraśnickie;Córka Macieja Kępy, żona Sebastiana Jadyka;;#156, #157, #199;1702;3
-507;Jadyk;Sebastian;Przedmieście Kraśnickie;Szwagier Kępów / Asystent żony;Judek [?] / Tomasz Jadyk [?];#156, #157, #199;1702;3
-508;Kamykowa;Agnieszka;Przedmieście Kraśnickie;Córka Macieja Kępy, żona Stanisława Kamyka;;#156, #157, #158, #199;1702;4
-509;Kamyk;Stanisław;Przedmieście Kraśnickie;Mąż Agnieszki z Kępów;;#156, #199;1702;2
+505;Piotrowczykowa;Maryna;Przedmieście Kraśnickie;Żona Michała Piotrowczyka, córka Macieja Kępy;z Kępów / Kępówna / Kępina;#155, #156, #166, #167, #199, #201;1702;6
+506;Jadykowa;Zofia;Przedmieście Kraśnickie;Córka Macieja Kępy, żona Sebastiana Jadyka;;#156, #157, #199, #202;1702;4
+507;Jadyk;Sebastian;Przedmieście Kraśnickie;Szwagier Kępów / Asystent żony;Judek [?] / Tomasz Jadyk [?];#156, #157, #199, #202;1702;4
+508;Kamykowa;Agnieszka;Przedmieście Kraśnickie;Córka Macieja Kępy, żona Stanisława Kamyka;;#156, #157, #158, #199, #202;1702;5
+509;Kamyk;Stanisław;Przedmieście Kraśnickie;Mąż Agnieszki z Kępów;;#156, #199, #202;1702;3
 510;Kondupa;Wojciech;Przedmieście Kraśnickie;Sąsiad roli na Zarzeczu;;#157, #166;1702;2
-511;Kępa;Michał;Przedmieście Kraśnickie;Współzeznający z rodziny Kępów;;#157, #199;1702;2
+511;Kępa;Michał;Przedmieście Kraśnickie;Współzeznający z rodziny Kępów;;#157, #199, #201;1702;3
 512;Burek;Piotr;Ostrów;Pracowity ze wsi Ostrów / Protestant;;#158, #159;1702;2
 513;Wrona;Łukasz;Ostrów;Pracowity ze wsi Ostrów / Pozwany;;#158;1702;1
 514;Antoni;Pracowity;Ostrów;Obywatel ostrowski / Pozwany;;#158;1702;1
@@ -558,7 +558,7 @@
 557;Janczyk;Tomasz;Przedmieście Kraśnickie;Świadek;;#174;1702;1
 558;Foxowa;Anna;Kraśnik;Wdowa po Grzegorzu Foxie / Świadek;;#174;1702;1
 559;Mazurek;Krzysztof;Przedmieście Kraśnickie;Ojciec Pawła Mazurka;;#174;1702;1
-560;Mazurek;Bartosz;Przedmieście Kraśnickie;Brat Pawła Mazurka;;#174;1702;1
+560;Mazurek;Bartosz;Przedmieście Kraśnickie;Brat Pawła Mazurka;Bartek Mazurek;#174, #213;1702;2
 561;Świstek;Marcin;Przedmieście Kraśnickie;Protestant;;#175;1702;1
 562;Bieleszkowic;Maciej;Kraśnik;Burmistrz kraśnicki / Pozwany;Bielaszkowic / Pielaszkowic [?];#175, #180;1702;2
 563;Zdebikowic;Jan;Kraśnik;Wzmiankowany w protestacji;;#175;1702;1
@@ -592,22 +592,58 @@
 591;Sapaliński;Mieszkaniec;Przedmieście Kraśnickie;Właściciel niwki Sapalińskiej;;#187;1702;1
 592;Kosiński;Kazimierz;Kraśnik;Opiekun dziatek;;#188;1702;1
 593;Zaborski;Piotr;Kraśnik;Sługa śp. Szymona Kosińskiego / Protestant;;#190;1702;1
-594;Macała;Józef;Kraśnik;Pozwany;;#190;1702;1
+594;Macała;Józef;Kraśnik;Pozwany;;#190, #211;1702;2
 595;Kosiński;Jan;Kraśnik;Protestant;;#190;1702;1
 596;Marcinowski;Szlachetny;Kraśnik;Szlachetny / Protestant;;#191;1702;1
 597;Łęcki;Jan;Kraśnik;Mieszczanin kraśnicki / Pozwany;Łęcki [?];#191;1702;1
 598;Duchnowic;Krzysztof;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#191;1702;1
 599;Piwowar;Matyjasz;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#191;1702;1
-600;Strzesak;Jan;Przedmieście Kraśnickie;Przedmieszczanin / Poszkodowany;Kraszkowski [?] / Strychacz [?];#192, #198;1702;2
+600;Strzesak;Jan;Przedmieście Kraśnickie;Przedmieszczanin / Poszkodowany;Kraszkowski [?] / Strychacz [?];#192, #198, #203;1702;3
 601;Ziółek;Szymon;Kraśnik;Pozwany;Ziółek [?];#193;1702;1
 602;Zawalski;Stanisław;Kraśnik;Sąsiad / Pozwany;Zaleski [?];#193;1702;1
 603;Bieleszkowic;Paweł;Kraśnik;Sąsiad / Świadek sosny;Poponia;#193;1702;1
-604;Kępka;Marcin;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;;#193;1702;1
+604;Kępka;Marcin;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;;#193, #209, #217;1702;3
 605;Mazurkowa;Zofia;Przedmieście Kraśnickie;Wdowa (zapis z 1666 r.);;#194;1702;1
 606;Mazurek;Tomasz;Przedmieście Kraśnickie;Ojciec Pawła Mazurka (zapis z 1666 r.);;#194;1702;1
-607;Potężna;Zofia;Przedmieście Kraśnickie;Żona Wawrzyńca Potężnego / Poszkodowana;;#196, #199;1702;2
+607;Potężna;Zofia;Przedmieście Kraśnickie;Żona Wawrzyńca Potężnego / Poszkodowana;;#196, #199, #201;1702;3
 608;Potężny;Wawrzyniec;Przedmieście Kraśnickie;Przedmieszczanin, mąż Zofii;Wojciech [?];#196, #199;1702;2
 609;Słomkowska;Regina;Kraśnik;Żona wójta P. Słomkowskiego, córka S. Grymusa;Grymusówna;#197;1702;1
 610;Nowacka;Katarzyna;Kraśnik;Sąsiadka niwek na Podlesiu;;#197;1702;1
 611;Szwed;Mieszkaniec;Kraśnik;Pozwany;;#198;1702;1
 612;Piotrowski;Szymon;Rzeczyca;Mieszkaniec Rzeczycy / Pozwany;;#200;1702;1
+613;Sała;Jakub;Kołaczyce;Robotnik P. Frankiewica / Świadek;Kołaczyce [?];#203;1702;1
+614;Przybylski;Tomasz;Ginetówka;Świadek;Przybylski [?];#203, #207;1702;2
+615;Wojtas;Jacenty;Kraśnik;Zmarły ojciec Wojtasów;;#203;1702;1
+616;Szot;Jan;Kraśnik;Pozwany;Szot [?];#203;1702;1
+617;Zieliński;Michał;Kraśnik;Świadek;;#204;1702;1
+618;Żebro;Tomasz;Kraśnik;Aktor;;#204;1702;1
+619;Beski;Andrzej;Kraśnik;Pozwany;Beski [?];#204, #207;1702;2
+620;Łazik;Wojciech;Przedmieście Kraśnickie;Instygator świadków;;#204;1702;1
+621;Szmul;Starozakonny;Przedmieście Kraśnickie;Pozwany;Szmul [?];#205;1702;1
+622;Stalmachowic;Tomasz;Kraśnik;Pozwany;;#205;1702;1
+623;Kaczorowski;Jan;Kraśnik;Pozwany;Rączkowski [?];#206, #211;1702;2
+624;Bieleszkowic;Wawrzyniec;Kraśnik;Pozwany;;#206, #214;1702;2
+625;Dawidowicz;Haim;Kraśnik;Starozakonny / Aktor;;#206;1702;1
+626;Rymarczyk;Jan;Kraśnik;Mieszczanin / Pozwany;Rzeyca [?];#206;1702;1
+627;Łęcki;Tomasz;Kraśnik;Aktor;Łęcki [?];#206, #207, #208;1702;3
+628;Szot;Stanisław;Kraśnik;Pozwany;Szot [?];#206;1702;1
+629;Kotłub;Wawrzyniec;Kraśnik;Poszkodowany / Przysięgający;Kotłubaj [?];#206, #209;1702;2
+630;Kwas;Bartosz;Kraśnik;Pozwany;;#206, #207;1702;2
+631;Kucza;Jakub;Kraśnik;Kuśnierz / Pozwany;Kucza [?];#208;1702;1
+632;Macałowa;Anna;Kraśnik;Świadek;;#209;1702;1
+633;Kuczyński;Tomasz;Kraśnik;Świadek;;#209;1702;1
+634;Kuśnierczyk;Tomasz;Kraśnik;Pozwany;Kuśnierz [?];#209, #210;1702;2
+635;Stolnik;Wojciech;Kraśnik;Świadek;Stolnik [?];#210;1702;1
+636;Borowicz;Grzegorz;Kraśnik;Pozwany;;#211;1702;1
+637;Bogaty;Grzegorz;Kraśnik;Świadek / Sąsiad;;#211;1702;1
+638;Wardęga;Jakub;Kraśnik;Protestant;;#212, #213;1702;2
+639;Jankowic;Paweł;Kraśnik;Pozwany;Jankowic [?];#212;1702;1
+640;Jastrząb;Jan;Kraśnik;Aktor;Jastrząb [?];#213;1702;1
+641;Kuśnierz;Jan;Kraśnik;Aktor;Kuśnierz [?];#213;1702;1
+642;Grymus;Marcin;Kraśnik;Pozwany;;#213;1702;1
+643;Bieleszkowic;Wojciech;Kraśnik;Pozwany;;#213;1702;1
+644;Zdebikowic;Maciej;Kraśnik;Aktor;;#213;1702;1
+645;Dudek;Jakub;Przedmieście Kraśnickie;Pozwany;Dudek [?];#214;1702;1
+646;Dudek;Paweł;Przedmieście Kraśnickie;Pozwany;Dudek [?];#214;1702;1
+647;Grymus;Szymon;Kraśnik;Pozwany;;#215;1702;1
+648;Maziarczyk;Wojciech;Kraśnik;Strona wzmiankowana na zniszczonej karcie;Wojciech [?];#218;1702;1
