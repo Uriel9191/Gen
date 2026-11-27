@@ -1,183 +1,294 @@
-﻿Lp.;Nazwisko;Imie;Miejsce zamieszkania;Funkcja spoleczna;Warianty nazwiska;Numery skanow;Zakres lat;Liczba wystapien
-1;Kołodziejczyk;Błażej;Kraśnik;Ławnik przysięgły kraśnicki / Aktor;;#6, #8, #17, #18, #22, #33, #49;1656–1658;7
-2;Konięga;Maciej;Kraśnik;Ławnik przysięgły kraśnicki;;#6, #12, #20, #21, #25, #33, #36, #40, #43, #49;1657–1658;10
-3;Jataniec;Wojciech;Kraśnik;Mieszczanin / Wzmiankowany;Jatańczyk [?];#6;1657;1
-4;Dzierżek;Błażej;Piaski;Wzmiankowany;;#6;1657;1
-5;Dąbek;Maciej;Kraśnik;Pozwany;Bęben [?];#6;1657;1
-6;Baltazarowa;Katarzyna;Kraśnik;Instygatorka;Balcerzykowa [?];#6;1657;1
-7;Paplenik;Marcin;Kraśnik;Powód;Paplenik [?];#6;1657;1
-8;Frysiowa;Wdowa;Kraśnik;Wdowa / Pozwana;Frysiowa [?];#6;1657;1
-9;Pękowa;Anna;Kraśnik;Wdowa / Pozwana;Pękowa [?];#7;1657;1
-10;Lasek;Walenty;Kraśnik;Pozwany / Kondemnat;Łączek [?];#7;1657;1
-11;Żyłówka;Jan;Kraśnik;Powód;Kender [?];#7;1657;1
-12;Potocki;Wojciech;Kraśnik;Pozwany;;#7;1657;1
-13;Marlik;Andrzej;Kraśnik;Strona w aktach;Marlik [?];#7, #8, #25, #26, #27, #36;1657–1658;6
-14;Skwarek;Walenty;Kraśnik;Powód;Skwarek [?];#7, #8;1657;2
-15;Batusik;Wojciech;Kraśnik;Pozwany;;#7, #8;1657;2
-16;Babińczyk;Benedykt;Kraśnik;Żyd / Składający przysięgę;Babińczyk [?];#8;1657;1
-17;Dąbrowicz;Sebastian;Bielice;Pracowity / Świadek;Dąbrowicz [?];#8;1657;1
-18;Bendralik;Stanisław;Kraśnik;Wzmiankowany;;#8;1657;1
-19;Łycek;Paweł;Kraśnik;Powód;;#8, #9, #10, #25;1657;4
-20;Łycek;Mikołaj;Kraśnik;Brat Pawła Łycka / Świadek;;#8;1657;1
-21;Łyckowa;Anna;Kraśnik;Wdowa / Pozwana;;#9, #10;1657;2
-22;Pisak;Mikołaj;Kraśnik;Poszkodowany (obdukcja);Rusek [?];#9;1657;1
-23;Kurowic;Augustyn;Kraśnik;Ławnik przysięgły kraśnicki;Krogulec [?];#9, #14, #15, #16, #37, #38, #44, #45, #46, #50;1656–1658;10
-24;Fox;Grzegorz;Kraśnik;Ławnik przysięgły kraśnicki;;#9, #15, #39, #43, #44, #49;1657–1658;6
-25;Rogalowski;Jakub;Kraśnik;Właściciel domu;Rogalowski [?];#9;1657;1
-26;Lech;Jan;Kraśnik;Właściciel domu;;#9;1657;1
-27;Trela;Stanisław;Kraśnik;Powód;;#9, #10, #13;1657;3
-28;Łapczyńska;Anna;Kraśnik;Pozwana dłużniczka;Łapczyńska [?];#9, #13;1657;2
-29;Żyłówka;Anna;Kraśnik;Wdowa / Powódka;Żyłówka [?];#10;1657;1
-30;Kulka;Wojciech;Kraśnik;Pozwany;;#10;1657;1
-31;Mazur;Wojciech;Kraśnik;Pozwany;;#10, #11;1657;2
-32;Sienka;Jan;Kraśnik;Pozwany;Sienka [?];#10;1657;1
-33;Olęcki;Wojciech;Kraśnik;Mieszczanin i szewc / Świadek;;#11, #20, #40, #43, #45;1657–1658;5
-34;Sydkowic;Wawrzyniec;Kraśnik;Strona procesów;;#11, #22, #23, #24, #31, #32, #41;1657–1658;7
-35;Koniarska;Mieszkanka;Kraśnik;Powódka;Koniarska [?] / Marina Koniarska;#11, #12, #45, #50;1657–1658;4
-36;Jasińska;Zuzanna;Kraśnik;Pozwana;Jasińska [?];#11;1657;1
-37;Jasielski;Szymon;Kraśnik;Pozwany;;#11, #21, #22, #24, #31, #40;1657–1658;6
-38;Lasek;Augustyn;Kraśnik;Pozwany;Łycek [?];#11;1657;1
-39;Kuśnierz;Barbara;Kraśnik;Powódka;Kuśnierz [?];#12;1657;1
-40;Kudła;Mieszkanka;Kraśnik;Pozwana;Kudła [?];#12;1657;1
-41;Domiłek;Andrzej;Kraśnik;Powód;Domiłek [?];#13;1657;1
-42;Zielińska;Zofia;Kraśnik;Pozwana;Zielińska [?];#13, #26, #27, #28;1657;4
-43;Błażejowska;Szlachcianka;Kraśnik;Powódka;Błażejowska [?];#13;1657;1
-44;Szafraniec;Adam;Kraśnik;Powód;Szafraniec [?];#13, #22;1657;2
-45;Świniarka;Mieszkanka;Kraśnik;Pozwana;Świniarka [?];#13;1657;1
-46;Buła;Jan;Kraśnik;Powód;Buła [?];#14;1657;1
-47;Olesek;Walenty;Kraśnik;Pozwany;Olesek [?];#14;1657;1
-48;Kosek;Stanisław;Kraśnik;Świadek;;#14;1657;1
-49;Jajczykówna;Zuzanna;Kraśnik;Składająca przysięgę;Jajczykówna [?];#14;1657;1
-50;Śliżanka;Katarzyna;Kraśnik;Świadek;Śliżanka [?];#14;1657;1
-51;Sitarski;Walenty;Kraśnik;Świadek;;#14;1657;1
-52;Paździech;Augustyn;Kraśnik;Świadek;Paździech [?];#14, #21, #34, #35, #41;1657–1658;5
-53;Batusik;Jan;Kraśnik;Powód;;#14;1657;1
-54;Łapka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];#14;1657;1
-55;Bogucka;Wdowa;Kraśnik;Wdowa / Pozwana;Bugajowa [?];#15;1657;1
-56;Sulski;Szlachcic;Kraśnik;Powód;Sulski [?];#15;1657;1
-57;Butek;Wojciech;Kraśnik;Pozwany / Strona;Butek [?];#15, #44, #45;1657–1658;3
-58;Dolski;Marcin;Kraśnik;Szwagier / Świadek;;#15;1657;1
-59;Stochański;Mieszkaniec;Kraśnik;Powód;Stochański [?];#16;1656;1
-60;Zieliński;Grzegorz;Kraśnik;Pozwany;;#16;1656;1
-61;Kotlarek;Jan;Kraśnik;Powód;;#16;1656;1
-62;Kotlarek;Andrzej;Kraśnik;Współpowód;;#16;1656;1
-63;Kotlarka;Jadwiga;Kraśnik;Współpowódka;;#16;1656;1
-64;Koniński;Mieszkaniec;Kraśnik;Pozwany;Komiński [?];#16;1656;1
-65;Konińska;Elżbieta;Kraśnik;Żona Konińskiego / Pozwana;Komińska [?];#16;1656;1
-66;Madejski;Stanisław;Kraśnik;Powód;Madeick [?];#16;1656;1
-67;Rzepka;Wawrzyniec;Kraśnik;Pozwany;;#16;1656;1
-68;Rogalka;Jakub;Kraśnik;Woźny przysięgły sądu wójtowskiego;Rogala [?];#16;1656;1
-69;Morawek;Augustyn;Rudki;Poddany / Opiekun i powód;Morawek [?];#17;1656;1
-70;Łysak;Wojciech;Kraśnik;Pozwany;Łysak [?];#17;1656;1
-71;Młodnicka;Maryna;Kraśnik;Wdowa / Protestująca;;#17;1656;1
-72;Pieniążek;Andrzej;Kraśnik;Ślusarz / Pozwany;;#17, #20;1656–1657;2
-73;Cwik;Andrzej;Kraśnik;Powód;Cwik [?];#17;1656;1
-74;Łycek;Wojciech;Kraśnik;Pozwany;Łycek [?];#17;1656;1
-75;Starzyński;Marcin;Kraśnik;Ławnik przysięgły;;#17, #18, #40;1656–1658;3
-76;Espen;Jerzy;Lublin;Sługa J. Deserta / Protestujący;Espen [?];#18;1656;1
-77;Desert;Jakub;Lublin;Mieszczanin lubelski / Pracodawca;;#18;1656;1
-78;Sitarski;Marcin;Kraśnik;Rajca kraśnicki / Pozwany;;#18;1656;1
-79;Nawrocki;Stanisław;Kraśnik;Rajca kraśnicki;;#18;1656;1
-80;Kulka;Jan;Kraśnik;Opiekun dóbr Jajczyków / Powód;;#19;1657;1
-81;Jajczyk;Szymon;Kraśnik;Opiekun dóbr Jajczyków / Powód;;#19;1657;1
-82;Jajczyk;Paweł;Kraśnik;Zmarły spadkodawca;;#19;1657;1
-83;Larkowski;Tomasz;Kraśnik;Pozwany;;#19;1657;1
-84;Tokarzyk;Wojciech;Kraśnik;Powód;Tokarzyk [?];#19;1657;1
-85;Tatarczuk;Jan;Kraśnik;Szewc / Aresztujący;;#19;1657;1
-86;Tarnowczyk;Paweł;Kraśnik;Pozwany;Tarnowczyk [?];#20;1657;1
-87;Skura;Jan;Kraśnik;Pozwany;Skóra [?];#20;1657;1
-88;Bybina;Wdowa;Kraśnik;Wdowa / Pozwana;Bybina [?];#20, #29;1657;2
-89;Gabriel;Paweł;Kraśnik;Wzmiankowany;;#20;1657;1
-90;Jajczyk;Sebastian;Kraśnik;Pozwany;;#21, #29;1657;2
-91;Zalasek;Krzysztof;Kraśnik;Pozwany;Zaleski [?];#21, #29;1657;2
-92;Cuda;Andrzej;Kraśnik;Pozwany;Ruda [?];#21;1657;1
-93;Brzostek;Michał;Kraśnik;Świadek;Brzostek [?];#21;1657;1
-94;Kapica;Adam;Kraśnik;Świadek;;#21;1657;1
-95;Siedlecki;Marcin;Kraśnik;Pozwany;Sieradzki [?];#22;1657;1
-96;Rzepka;Maciej;Kraśnik;Pozwany;Rzepka [?];#22, #23;1657;2
-97;Łycek;Jan;Kraśnik;Powód;;#22, #23;1657;2
-98;Kupka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];#22;1657;1
-99;Delik;Jan;Kraśnik;Powód;;#23;1657;1
-100;Satomski;Mieszkaniec;Kraśnik;Pozwany;Słomkowski [?];#23;1657;1
-101;Rogalowski;Wojciech;Kraśnik;Świadek;Rogalowski [?];#23;1657;1
-102;Zieliński;Józef;Kraśnik;Pozwany;Zieliński [?];#24, #25, #29;1657;3
-103;Bujak;Sprzedawca;Kraśnik;Sprzedawca konia;Bujak [?];#24;1657;1
-104;Łyszkowa;Zofia;Kraśnik;Wdowa / Manifestująca;Łyszkowa [?];#25;1657;1
-105;Kępa;Jan;Kraśnik;Pozwany;Kępa [?];#25;1657;1
-106;Zielińska;Anna;Kraśnik;Żona Józefa / Pozwana;Dzierżkowa [?];#25, #36, #37;1657–1658;3
-107;Rogalski;Wojciech;Kraśnik;Powód;Rogalski [?];#30;1657;1
-108;Dzierżek;Piotr;Kraśnik;Pozwany;Dzierżek [?];#30, #32;1657–1658;2
-109;Świątek;Wawrzyniec;Kraśnik;Pozwany;Świątek [?];#30;1657;1
-110;Kosińska;Mieszkanka;Kraśnik;Powódka;Kosińska [?];#30;1657;1
-111;Pyrek;Paweł;Kraśnik;Powód;;#31;1657;1
-112;Kosek;Adam;Kraśnik;Powód;Kosek [?];#31;1657;1
-113;Tkarz;Piotr;Kraśnik;Pozwany;Tkarz [?];#31;1657;1
-114;Michał;Żyd;Kraśnik;Wierzyciel;;#32;1658;1
-115;Kaniskowic;Jan;Kraśnik;Powód;Kaniskowic [?];#32;1658;1
-116;Dzierżkowa;Zofia;Kraśnik;Pozwana;Dzierżkowa [?];#32, #33;1658;2
-117;Zota;Andrzej;Kraśnik;Powód;;#32, #33, #41, #44, #49;1658;5
-118;Zotowa;Krystyna;Kraśnik;Żona Andrzeja Zoty / Powódka;;#32;1658;1
-119;Kopczyk;Wawrzyniec;Kraśnik;Powód;Kopczyk [?];#33;1658;1
-120;Solarska;Zofia;Kraśnik;Wdowa / Pozwana;Solarska [?];#33;1658;1
-121;Janaszkowic;Wojciech;Kraśnik;Wójt kraśnicki;;#33, #39;1658;2
-122;Dzierżek;Stefan;Kraśnik;Zmarły ojciec Zofii;Dzierżek [?];#33;1658;1
-123;Rusarek;Jan;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;Rybak [?];#34;1658;1
-124;Cichoń;Stanisław;Kraśnik;Pisarz aktowy;;#34;1658;1
-125;Wróbel;Krzysztof;Kraśnik;Świadek;;#35;1658;1
-126;Szwed;Jan;Kazimierz;Powód z Kazimierza;Szwed [?];#35;1658;1
-127;Pączek;Marcin;Kraśnik;Mieszczanin / Pozwany;Pączek [?];#35;1658;1
-128;Szafraniec;Wojciech;Kraśnik;Mieszczanin / Strona;Szafrankowic;#36, #43, #49;1658;3
-129;Jabłoński;Wojciech;Kraśnik;Wzmiankowany;;#36;1658;1
-130;Konięgowa;Krystyna;Kraśnik;Żona Macieja Konięgi;;#36;1658;1
-131;Dulski;Marcin;Przedmieście Kraśnickie;Przedmieszczanin / Powód;Dulski [?];#37;1658;1
-132;Kudrelik;Maciej;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;;#37;1658;1
-133;Kozłowski;Błażej;Kraśnik;Pozwany;Kozłowski [?];#37;1658;1
-134;Wojtek;Adam;Kraśnik;Powód;Wojtek [?];#38;1658;1
-135;Kępski;Adam;Kraśnik;Zmarły spadkodawca;Kępski [?];#38;1658;1
-136;Karczmarz;Maciej;Kraśnik;Zmarły spadkodawca;Karczmarz [?];#38;1658;1
-137;Sikor;Stanisław;Kraśnik;Pisarz kraśnicki;;#38;1658;1
-138;Koziarowa;Wdowa;Kraśnik;Wdowa / Wnioskodawczyni;Koniarzowa [?];#39;1658;1
-139;Dąbek;Marcin;Przedmieście Kraśnickie;Wójt przedmiejski / Świadek;Dąbek [?];#39;1658;1
-140;Klisz;Paweł;Kraśnik;Świadek;Kłoś [?];#39;1658;1
-141;Żywicki;Tomasz;Kraśnik;Powód;Sniechowski [?];#40;1658;1
-142;Sołtyszczyk;Stanisław;Kraśnik;Pozwany;Sołtyszczyk [?];#40;1658;1
-143;Kudrelik;Wojciech;Przedmieście Kraśnickie;Powód;;#40;1658;1
-144;Sitarska;Krystyna;Kraśnik;Manifestująca;;#41;1658;1
-145;Grygiel;Błażej;Kraśnik;Strona w rejestrze;;#41;1658;1
-146;Łycek;Szymon;Kraśnik;Strona w rejestrze;;#41;1658;1
-147;Dąbek;Tomasz;Kraśnik;Strona w rejestrze;;#41;1658;1
-148;Somkowa;Zofia;Kraśnik;Pozwana / Kondemnatka;;#41;1658;1
-149;Zelig;Żyd;Kraśnik;Wierzyciel;;#41;1658;1
-150;Koniński;Andrzej;Kraśnik;Mieszczanin / Powód;Komiński [?];#42;1658;1
-151;Bożęborski;Bartłomiej;Kraśnik;Pozwany;Świderski [?];#42, #45;1658;2
-152;Kępa;Bartosz;Kraśnik;Wystawca zapisu;;#42;1658;1
-153;Rzepka;Wojciech;Ślinów;Pracowity ze wsi Ślinów;Rzytka [?] / Słodków [?];#42;1658;1
-154;Moskwa;Jan;Ślinów;Pracowity ze wsi Ślinów / Świadek;Słotwa [?];#42;1658;1
-155;Brożek;Janek;Ślinów;Pracowity ze wsi Ślinów / Świadek;Brożek [?];#43;1658;1
-156;Reszka;Paweł;Ślinów;Pracowity ze wsi Ślinów / Świadek;;#43;1658;1
-157;Gąska;Andrzej;Ślinów;Pracowity ze wsi Ślinów / Świadek;;#43;1658;1
-158;Zając;Wojciech;Ślinów;Pracowity / Powód;Gros [?];#43;1658;1
-159;Łycek;Maciej;Ślinów;Pracowity / Pozwany;Łycek [?];#43;1658;1
-160;Sosnowska;Katarzyna;Ślinów;Pracowita / Pozwana;Sosnowska [?] / Łaśniewska [?];#43, #46, #49;1658;3
-161;Zdebik;Jakub;Kraśnik;Pozwany / Kondemnat;;#44;1658;1
-162;Kopel;Hersz;Kraśnik;Żyd / Wierzyciel;Herszek;#44;1658;1
-163;Pyrek;Szymon;Kraśnik;Pozwany;Pyrek [?];#44;1658;1
-164;Łycka;Katarzyna;Kraśnik;Pozwana;Łycka [?];#44;1658;1
-165;Koniński;Jan;Kraśnik;Powód;Komiński [?];#45;1658;1
-166;Rzepka;Kacper;Ślinów;Pracowity ze wsi Ślinów / Świadek;Rzepka [?];#46;1658;1
-167;Karpiński;Jan;Ślinów;Pracowity ze wsi Ślinów / Świadek;Karpiński [?];#46, #47;1658;2
-168;Kondlik;Stefan;Ślinów;Poddany ze wsi Ślinów;Kudrelik [?];#46, #47, #48;1658;3
-169;Kurowski;Jan;Ślinów;Poddany ze wsi Ślinów;;#46;1658;1
-170;Rzytka;Tomasz;Ślinów;Zmarły spadkodawca;Rzepka [?];#47;1658;1
-171;Kondlik;Andrzej;Ślinów;Poddany ze wsi Ślinów;Kudrelik [?];#47;1658;1
-172;Sobek;Jan;Ślinów;Poddany ze wsi Ślinów / Świadek;;#48;1658;1
-173;Kondlik;Wojciech;Ślinów;Poddany ze wsi Ślinów;Cichowicz;#48;1658;1
-174;Krawiec;Jędrzej;Kraśnik;Aresztowany;;#48;1658;1
-175;Zielik;Tomasz;Kraśnik;Pozwany;Zielik [?];#49;1658;1
-176;Skrobczyk;Wojciech;Ślinów;Pracowity / Powód;Skrobek [?];#49;1658;1
-177;Skrobczykowa;Jadwiga;Ślinów;Żona W. Skrobczyka / Powódka;Skrobkowa [?];#49;1658;1
-178;Łysak;Maciej;Ślinów;Mąż K. Sosnowskiej / Pozwany;;#49;1658;1
-179;Pętak;Jan;Kraśnik;Woźny przysięgły;Pętak [?];#49;1658;1
-180;Katoń;Łukasz;Ślinów;Pracowity ze wsi Ślinów / Świadek;Kaczor [?];#50;1658;1
-181;Pełczyński;Szlachcic;Ślinów;Wzmiankowany;Pełczyński [?];#50;1658;1
-182;Koniarski;Wojciech;Kraśnik;Syn Mariny Koniarskiej / Pozwany;;#50;1658;1
+﻿"Lp";"Nazwisko";"Imię";"Miejsce";"Funkcja społeczna / zawód";"Skany źródłowe";"Zakres lat";"Liczba wzmianek";"Warianty nazwiska"
+"1";"Kołodziejczyk";"Błażej";"Kraśnik";"Ławnik przysięgły kraśnicki / Aktor";"#6, #8, #17, #18, #22, #33, #49";"1656–1658";"7";""
+"2";"Konięga";"Maciej";"Kraśnik";"Ławnik przysięgły kraśnicki";"#6, #12, #20, #21, #25, #33, #36, #40, #43, #49, #57, #64, #68, #70, #73";"1657–1658";"15";""
+"3";"Jataniec";"Wojciech";"Kraśnik";"Mieszczanin / Wzmiankowany";"#6";"1657";"1";"Jatańczyk [?]"
+"4";"Dzierżek";"Błażej";"Piaski";"Wzmiankowany";"#6";"1657";"1";""
+"5";"Dąbek";"Maciej";"Kraśnik";"Pozwany";"#6";"1657";"1";"Bęben [?]"
+"6";"Baltazarowa";"Katarzyna";"Kraśnik";"Instygatorka";"#6";"1657";"1";"Balcerzykowa [?]"
+"7";"Paplenik";"Marcin";"Kraśnik";"Powód";"#6";"1657";"1";"Paplenik [?]"
+"8";"Frysiowa";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#6";"1657";"1";"Frysiowa [?]"
+"9";"Pękowa";"Anna";"Kraśnik";"Wdowa / Pozwana";"#7";"1657";"1";"Pękowa [?]"
+"10";"Lasek";"Walenty";"Kraśnik";"Pozwany / Kondemnat";"#7";"1657";"1";"Łączek [?]"
+"11";"Żyłówka";"Jan";"Kraśnik";"Powód";"#7";"1657";"1";"Kender [?]"
+"12";"Potocki";"Wojciech";"Kraśnik";"Pozwany";"#7";"1657";"1";""
+"13";"Marlik";"Andrzej";"Kraśnik";"Strona w aktach; Mieszczanin";"#7, #8, #25, #26, #27, #36, #69";"1657–1658";"7";"Marlik [?] / Manlik [?]"
+"14";"Skwarek";"Walenty";"Kraśnik";"Powód";"#7, #8";"1657";"2";"Skwarek [?]"
+"15";"Batusik";"Wojciech";"Kraśnik";"Pozwany";"#7, #8";"1657";"2";""
+"16";"Babińczyk";"Benedykt";"Kraśnik";"Żyd / Składający przysięgę";"#8";"1657";"1";"Babińczyk [?]"
+"17";"Dąbrowicz";"Sebastian";"Bielice";"Pracowity / Świadek";"#8";"1657";"1";"Dąbrowicz [?]"
+"18";"Bendralik";"Stanisław";"Kraśnik";"Wzmiankowany";"#8";"1657";"1";""
+"19";"Łycek";"Paweł";"Kraśnik";"Powód";"#8, #9, #10, #25";"1657";"4";""
+"20";"Łycek";"Mikołaj";"Kraśnik";"Brat Pawła Łycka / Świadek";"#8";"1657";"1";""
+"21";"Łyckowa";"Anna";"Kraśnik";"Wdowa / Pozwana";"#9, #10";"1657";"2";""
+"22";"Pisak";"Mikołaj";"Kraśnik";"Poszkodowany (obdukcja)";"#9";"1657";"1";"Rusek [?]"
+"23";"Kurowic";"Augustyn";"Kraśnik";"Ławnik przysięgły kraśnicki";"#9, #14, #15, #16, #37, #38, #44, #45, #46, #50, #62, #70, #73";"1656–1658";"13";"Krogulec [?]"
+"24";"Fox";"Grzegorz";"Kraśnik";"Ławnik przysięgły kraśnicki";"#9, #15, #39, #43, #44, #49, #51, #52, #53, #54, #66, #70, #73";"1657–1658";"13";""
+"25";"Rogalowski";"Jakub";"Kraśnik";"Właściciel domu";"#9";"1657";"1";"Rogalowski [?]"
+"26";"Lech";"Jan";"Kraśnik";"Właściciel domu";"#9";"1657";"1";""
+"27";"Trela";"Stanisław";"Kraśnik";"Powód";"#9, #10, #13";"1657";"3";""
+"28";"Łapczyńska";"Anna";"Kraśnik";"Pozwana dłużniczka";"#9, #13";"1657";"2";"Łapczyńska [?]"
+"29";"Żyłówka";"Anna";"Kraśnik";"Wdowa / Powódka";"#10";"1657";"1";"Żyłówka [?]"
+"30";"Kulka";"Wojciech";"Kraśnik";"Pozwany";"#10";"1657";"1";""
+"31";"Mazur";"Wojciech";"Kraśnik";"Pozwany";"#10, #11";"1657";"2";""
+"32";"Sienka";"Jan";"Kraśnik";"Pozwany";"#10";"1657";"1";"Sienka [?]"
+"33";"Olęcki";"Wojciech";"Kraśnik";"Mieszczanin i szewc / Świadek";"#11, #20, #40, #43, #45";"1657–1658";"5";""
+"34";"Sydkowic";"Wawrzyniec";"Kraśnik";"Strona procesów; Mieszczanin";"#11, #22, #23, #24, #31, #32, #41, #60, #68, #69";"1657–1658";"10";"Żydkowic"
+"35";"Koniarska";"Mieszkanka";"Kraśnik";"Powódka";"#11, #12, #45, #50";"1657–1658";"4";"Koniarska [?] / Marina Koniarska"
+"36";"Jasińska";"Zuzanna";"Kraśnik";"Pozwana";"#11";"1657";"1";"Jasińska [?]"
+"37";"Jasielski";"Szymon";"Kraśnik";"Pozwany";"#11, #21, #22, #24, #31, #40";"1657–1658";"6";""
+"38";"Lasek";"Augustyn";"Kraśnik";"Pozwany";"#11";"1657";"1";"Łycek [?]"
+"39";"Kuśnierz";"Barbara";"Kraśnik";"Powódka";"#12";"1657";"1";"Kuśnierz [?]"
+"40";"Kudła";"Mieszkanka";"Kraśnik";"Pozwana";"#12";"1657";"1";"Kudła [?]"
+"41";"Domiłek";"Andrzej";"Kraśnik";"Powód";"#13";"1657";"1";"Domiłek [?]"
+"42";"Zielińska";"Zofia";"Kraśnik";"Pozwana";"#13, #26, #27, #28";"1657";"4";"Zielińska [?]"
+"43";"Błażejowska";"Szlachcianka";"Kraśnik";"Powódka";"#13";"1657";"1";"Błażejowska [?]"
+"44";"Szafraniec";"Adam";"Kraśnik";"Powód";"#13, #22";"1657";"2";"Szafraniec [?]"
+"45";"Świniarka";"Mieszkanka";"Kraśnik";"Pozwana";"#13";"1657";"1";"Świniarka [?]"
+"46";"Buła";"Jan";"Kraśnik";"Powód";"#14";"1657";"1";"Buła [?]"
+"47";"Olesek";"Walenty";"Kraśnik";"Pozwany";"#14";"1657";"1";"Olesek [?]"
+"48";"Kosek";"Stanisław";"Kraśnik";"Świadek";"#14";"1657";"1";""
+"49";"Jajczykówna";"Zuzanna";"Kraśnik";"Składająca przysięgę";"#14";"1657";"1";"Jajczykówna [?]"
+"50";"Śliżanka";"Katarzyna";"Kraśnik";"Świadek";"#14";"1657";"1";"Śliżanka [?]"
+"51";"Sitarski";"Walenty";"Kraśnik";"Świadek";"#14";"1657";"1";""
+"52";"Paździech";"Augustyn";"Kraśnik";"Świadek";"#14, #21, #34, #35, #41";"1657–1658";"5";"Paździech [?]"
+"53";"Batusik";"Jan";"Kraśnik";"Powód";"#14";"1657";"1";""
+"54";"Łapka";"Grzegorz";"Kraśnik";"Pozwany";"#14";"1657";"1";"Rzepka [?]"
+"55";"Bogucka";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#15";"1657";"1";"Bugajowa [?]"
+"56";"Sulski";"Szlachcic";"Kraśnik";"Powód";"#15";"1657";"1";"Sulski [?]"
+"57";"Butek";"Wojciech";"Kraśnik";"Pozwany / Strona";"#15, #44, #45";"1657–1658";"3";"Butek [?]"
+"58";"Dolski";"Marcin";"Kraśnik";"Szwagier / Świadek";"#15";"1657";"1";""
+"59";"Stochański";"Mieszkaniec";"Kraśnik";"Powód";"#16";"1656";"1";"Stochański [?]"
+"60";"Zieliński";"Grzegorz";"Kraśnik";"Pozwany";"#16";"1656";"1";""
+"61";"Kotlarek";"Jan";"Kraśnik";"Powód";"#16";"1656";"1";""
+"62";"Kotlarek";"Andrzej";"Kraśnik";"Współpowód";"#16";"1656";"1";""
+"63";"Kotlarka";"Jadwiga";"Kraśnik";"Współpowódka";"#16";"1656";"1";""
+"64";"Koniński";"Mieszkaniec";"Kraśnik";"Pozwany";"#16";"1656";"1";"Komiński [?]"
+"65";"Konińska";"Elżbieta";"Kraśnik";"Żona Konińskiego / Pozwana";"#16";"1656";"1";"Komińska [?]"
+"66";"Madejski";"Stanisław";"Kraśnik";"Powód";"#16";"1656";"1";"Madeick [?]"
+"67";"Rzepka";"Wawrzyniec";"Kraśnik";"Pozwany";"#16";"1656";"1";""
+"68";"Rogalka";"Jakub";"Kraśnik";"Woźny przysięgły sądu wójtowskiego";"#16";"1656";"1";"Rogala [?]"
+"69";"Morawek";"Augustyn";"Rudki";"Poddany / Opiekun i powód";"#17";"1656";"1";"Morawek [?]"
+"70";"Łysak";"Wojciech";"Kraśnik";"Pozwany";"#17";"1656";"1";"Łysak [?]"
+"71";"Młodnicka";"Maryna";"Kraśnik";"Wdowa / Protestująca";"#17";"1656";"1";""
+"72";"Pieniążek";"Andrzej";"Kraśnik";"Ślusarz / Pozwany";"#17, #20";"1656–1657";"2";""
+"73";"Cwik";"Andrzej";"Kraśnik";"Powód";"#17";"1656";"1";"Cwik [?]"
+"74";"Łycek";"Wojciech";"Kraśnik";"Pozwany";"#17";"1656";"1";"Łycek [?]"
+"75";"Starzyński";"Marcin";"Kraśnik";"Ławnik przysięgły";"#17, #18, #40";"1656–1658";"3";""
+"76";"Espen";"Jerzy";"Lublin";"Sługa J. Deserta / Protestujący";"#18";"1656";"1";"Espen [?]"
+"77";"Desert";"Jakub";"Lublin";"Mieszczanin lubelski / Pracodawca";"#18";"1656";"1";""
+"78";"Sitarski";"Marcin";"Kraśnik";"Rajca kraśnicki / Pozwany";"#18";"1656";"1";""
+"79";"Nawrocki";"Stanisław";"Kraśnik";"Rajca kraśnicki";"#18";"1656";"1";""
+"80";"Kulka";"Jan";"Kraśnik";"Opiekun dóbr Jajczyków / Powód";"#19";"1657";"1";""
+"81";"Jajczyk";"Szymon";"Kraśnik";"Opiekun dóbr Jajczyków / Powód";"#19";"1657";"1";""
+"82";"Jajczyk";"Paweł";"Kraśnik";"Zmarły spadkodawca";"#19";"1657";"1";""
+"83";"Larkowski";"Tomasz";"Kraśnik";"Pozwany";"#19";"1657";"1";""
+"84";"Tokarzyk";"Wojciech";"Kraśnik";"Powód";"#19";"1657";"1";"Tokarzyk [?]"
+"85";"Tatarczuk";"Jan";"Kraśnik";"Szewc / Aresztujący";"#19";"1657";"1";""
+"86";"Tarnowczyk";"Paweł";"Kraśnik";"Pozwany";"#20";"1657";"1";"Tarnowczyk [?]"
+"87";"Skura";"Jan";"Kraśnik";"Pozwany";"#20";"1657";"1";"Skóra [?]"
+"88";"Bybina";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#20, #29";"1657";"2";"Bybina [?]"
+"89";"Gabriel";"Paweł";"Kraśnik";"Wzmiankowany";"#20";"1657";"1";""
+"90";"Jajczyk";"Sebastian";"Kraśnik";"Pozwany";"#21, #29";"1657";"2";""
+"91";"Zalasek";"Krzysztof";"Kraśnik";"Pozwany";"#21, #29";"1657";"2";"Zaleski [?]"
+"92";"Cuda";"Andrzej";"Kraśnik";"Pozwany";"#21";"1657";"1";"Ruda [?]"
+"93";"Brzostek";"Michał";"Kraśnik";"Świadek";"#21";"1657";"1";"Brzostek [?]"
+"94";"Kapica";"Adam";"Kraśnik";"Świadek";"#21";"1657";"1";""
+"95";"Siedlecki";"Marcin";"Kraśnik";"Pozwany";"#22";"1657";"1";"Sieradzki [?]"
+"96";"Rzepka";"Maciej";"Kraśnik";"Pozwany";"#22, #23";"1657";"2";"Rzepka [?]"
+"97";"Łycek";"Jan";"Kraśnik";"Powód";"#22, #23";"1657";"2";""
+"98";"Kupka";"Grzegorz";"Kraśnik";"Pozwany";"#22";"1657";"1";"Rzepka [?]"
+"99";"Delik";"Jan";"Kraśnik";"Powód";"#23";"1657";"1";""
+"100";"Satomski";"Mieszkaniec";"Kraśnik";"Pozwany";"#23";"1657";"1";"Słomkowski [?]"
+"101";"Rogalowski";"Wojciech";"Kraśnik";"Świadek";"#23";"1657";"1";"Rogalowski [?]"
+"102";"Zieliński";"Józef";"Kraśnik";"Pozwany";"#24, #25, #29";"1657";"3";"Zieliński [?]"
+"103";"Bujak";"Sprzedawca";"Kraśnik";"Sprzedawca konia";"#24";"1657";"1";"Bujak [?]"
+"104";"Łyszkowa";"Zofia";"Kraśnik";"Wdowa / Manifestująca";"#25";"1657";"1";"Łyszkowa [?]"
+"105";"Kępa";"Jan";"Kraśnik";"Pozwany";"#25";"1657";"1";"Kępa [?]"
+"106";"Zielińska";"Anna";"Kraśnik";"Żona Józefa / Pozwana";"#25, #36, #37";"1657–1658";"3";"Dzierżkowa [?]"
+"107";"Rogalski";"Wojciech";"Kraśnik";"Powód";"#30";"1657";"1";"Rogalski [?]"
+"108";"Dzierżek";"Piotr";"Kraśnik";"Pozwany";"#30, #32";"1657–1658";"2";"Dzierżek [?]"
+"109";"Świątek";"Wawrzyniec";"Kraśnik";"Pozwany; Mieszczanin";"#30, #53";"1657–1658";"2";"Świątek [?] / Świątkowicz [?]"
+"110";"Kosińska";"Mieszkanka";"Kraśnik";"Powódka";"#30";"1657";"1";"Kosińska [?]"
+"111";"Pyrek";"Paweł";"Kraśnik";"Powód";"#31";"1657";"1";""
+"112";"Kosek";"Adam";"Kraśnik";"Powód";"#31";"1657";"1";"Kosek [?]"
+"113";"Tkarz";"Piotr";"Kraśnik";"Pozwany";"#31";"1657";"1";"Tkarz [?]"
+"114";"Michał";"Żyd";"Kraśnik";"Wierzyciel";"#32";"1658";"1";""
+"115";"Kaniskowic";"Jan";"Kraśnik";"Powód";"#32";"1658";"1";"Kaniskowic [?]"
+"116";"Dzierżkowa";"Zofia";"Kraśnik";"Pozwana";"#32, #33";"1658";"2";"Dzierżkowa [?]"
+"117";"Zota";"Andrzej";"Kraśnik";"Powód; Mieszczanin";"#32, #33, #41, #44, #49, #60, #61, #69";"1658";"8";"Łota"
+"118";"Zotowa";"Krystyna";"Kraśnik";"Żona Andrzeja Zoty / Powódka";"#32";"1658";"1";""
+"119";"Kopczyk";"Wawrzyniec";"Kraśnik";"Powód";"#33";"1658";"1";"Kopczyk [?]"
+"120";"Solarska";"Zofia";"Kraśnik";"Wdowa / Pozwana";"#33";"1658";"1";"Solarska [?]"
+"121";"Janaszkowic";"Wojciech";"Kraśnik";"Wójt kraśnicki";"#33, #39";"1658";"2";""
+"122";"Dzierżek";"Stefan";"Kraśnik";"Zmarły ojciec Zofii";"#33";"1658";"1";"Dzierżek [?]"
+"123";"Rusarek";"Jan";"Przedmieście Kraśnickie";"Przedmieszczanin / Pozwany";"#34";"1658";"1";"Rybak [?]"
+"124";"Cichoń";"Stanisław";"Kraśnik";"Pisarz aktowy";"#34";"1658";"1";""
+"125";"Wróbel";"Krzysztof";"Kraśnik";"Świadek";"#35";"1658";"1";""
+"126";"Szwed";"Jan";"Kazimierz";"Powód z Kazimierza";"#35";"1658";"1";"Szwed [?]"
+"127";"Pączek";"Marcin";"Kraśnik";"Mieszczanin / Pozwany";"#35";"1658";"1";"Pączek [?]"
+"128";"Szafraniec";"Wojciech";"Kraśnik";"Mieszczanin / Strona; Wójt i sędzia zwyczajny przysięgły";"#36, #43, #49, #70, #73";"1658";"5";"Szafrankowic"
+"129";"Jabłoński";"Wojciech";"Kraśnik";"Wzmiankowany";"#36";"1658";"1";""
+"130";"Konięgowa";"Krystyna";"Kraśnik";"Żona Macieja Konięgi";"#36";"1658";"1";""
+"131";"Dulski";"Marcin";"Przedmieście Kraśnickie";"Przedmieszczanin / Powód";"#37";"1658";"1";"Dulski [?]"
+"132";"Kudrelik";"Maciej";"Przedmieście Kraśnickie";"Przedmieszczanin / Pozwany";"#37";"1658";"1";""
+"133";"Kozłowski";"Błażej";"Kraśnik";"Pozwany";"#37";"1658";"1";"Kozłowski [?]"
+"134";"Wojtek";"Adam";"Kraśnik";"Powód";"#38";"1658";"1";"Wojtek [?]"
+"135";"Kępski";"Adam";"Kraśnik";"Zmarły spadkodawca";"#38";"1658";"1";"Kępski [?]"
+"136";"Karczmarz";"Maciej";"Kraśnik";"Zmarły spadkodawca";"#38";"1658";"1";"Karczmarz [?]"
+"137";"Sikor";"Stanisław";"Kraśnik";"Pisarz kraśnicki";"#38";"1658";"1";""
+"138";"Koziarowa";"Wdowa";"Kraśnik";"Wdowa / Wnioskodawczyni";"#39";"1658";"1";"Koniarzowa [?]"
+"139";"Dąbek";"Marcin";"Przedmieście Kraśnickie";"Wójt przedmiejski / Świadek";"#39";"1658";"1";"Dąbek [?]"
+"140";"Klisz";"Paweł";"Kraśnik";"Świadek";"#39";"1658";"1";"Kłoś [?]"
+"141";"Żywicki";"Tomasz";"Kraśnik";"Powód";"#40";"1658";"1";"Sniechowski [?]"
+"142";"Sołtyszczyk";"Stanisław";"Kraśnik";"Pozwany";"#40";"1658";"1";"Sołtyszczyk [?]"
+"143";"Kudrelik";"Wojciech";"Przedmieście Kraśnickie";"Powód";"#40";"1658";"1";""
+"144";"Sitarska";"Krystyna";"Kraśnik";"Manifestująca";"#41";"1658";"1";""
+"145";"Grygiel";"Błażej";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
+"146";"Łycek";"Szymon";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
+"147";"Dąbek";"Tomasz";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
+"148";"Somkowa";"Zofia";"Kraśnik";"Pozwana / Kondemnatka";"#41";"1658";"1";""
+"149";"Zelig";"Żyd";"Kraśnik";"Wierzyciel";"#41";"1658";"1";""
+"150";"Koniński";"Andrzej";"Kraśnik";"Mieszczanin / Powód";"#42";"1658";"1";"Komiński [?]"
+"151";"Bożęborski";"Bartłomiej";"Kraśnik";"Pozwany";"#42, #45";"1658";"2";"Świderski [?]"
+"152";"Kępa";"Bartosz";"Kraśnik";"Wystawca zapisu";"#42";"1658";"1";""
+"153";"Rzepka";"Wojciech";"Ślinów";"Pracowity ze wsi Ślinów";"#42";"1658";"1";"Rzytka [?] / Słodków [?]"
+"154";"Moskwa";"Jan";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#42";"1658";"1";"Słotwa [?]"
+"155";"Brożek";"Janek";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";"Brożek [?]"
+"156";"Reszka";"Paweł";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";""
+"157";"Gąska";"Andrzej";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";""
+"158";"Zając";"Wojciech";"Ślinów";"Pracowity / Powód";"#43";"1658";"1";"Gros [?]"
+"159";"Łycek";"Maciej";"Ślinów";"Pracowity / Pozwany";"#43";"1658";"1";"Łycek [?]"
+"160";"Sosnowska";"Katarzyna";"Ślinów";"Pracowita / Pozwana; Poddana / Wdowa po T. Rzepce";"#43, #46, #49, #73, #74";"1658";"5";"Sosnowska [?] / Łaśniewska [?] / Rzepkowa / Blinów"
+"161";"Zdebik";"Jakub";"Kraśnik";"Pozwany / Kondemnat";"#44";"1658";"1";""
+"162";"Kopel";"Hersz";"Kraśnik";"Żyd / Wierzyciel";"#44";"1658";"1";"Herszek"
+"163";"Pyrek";"Szymon";"Kraśnik";"Pozwany";"#44";"1658";"1";"Pyrek [?]"
+"164";"Łycka";"Katarzyna";"Kraśnik";"Pozwana";"#44";"1658";"1";"Łycka [?]"
+"165";"Koniński";"Jan";"Kraśnik";"Powód";"#45";"1658";"1";"Komiński [?]"
+"166";"Rzepka";"Kacper";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#46";"1658";"1";"Rzepka [?]"
+"167";"Karpiński";"Jan";"Ślinów";"Pracowity ze wsi Ślinów / Świadek; Poddany ze wsi Blinów";"#46, #47, #74, #75";"1658";"4";"Karpiński [?] / Blinów"
+"168";"Kondlik";"Stefan";"Ślinów";"Poddany ze wsi Ślinów; Poddany ze wsi Blinów";"#46, #47, #48, #74, #75";"1658";"5";"Kudrelik [?] / Kondla / Blinów"
+"169";"Kurowski";"Jan";"Ślinów";"Poddany ze wsi Ślinów";"#46";"1658";"1";""
+"170";"Rzytka";"Tomasz";"Ślinów";"Zmarły spadkodawca; Poddany (zm.)";"#47, #70, #71, #74";"1658";"4";"Rzepka [?] / Blinów"
+"171";"Kondlik";"Andrzej";"Ślinów";"Poddany ze wsi Ślinów; Poddany ze wsi Blinów (z karczmy)";"#47, #74, #75";"1658";"3";"Kudrelik [?] / Kondla / Blinów"
+"172";"Sobek";"Jan";"Ślinów";"Poddany ze wsi Ślinów / Świadek";"#48";"1658";"1";""
+"173";"Kondlik";"Wojciech";"Ślinów";"Poddany ze wsi Ślinów";"#48";"1658";"1";"Cichowicz"
+"174";"Krawiec";"Jędrzej";"Kraśnik";"Aresztowany";"#48";"1658";"1";""
+"175";"Zielik";"Tomasz";"Kraśnik";"Pozwany";"#49";"1658";"1";"Zielik [?]"
+"176";"Skrobczyk";"Wojciech";"Ślinów";"Pracowity / Powód";"#49";"1658";"1";"Skrobek [?]"
+"177";"Skrobczykowa";"Jadwiga";"Ślinów";"Żona W. Skrobczyka / Powódka";"#49";"1658";"1";"Skrobkowa [?]"
+"178";"Łysak";"Maciej";"Ślinów";"Mąż K. Sosnowskiej / Pozwany";"#49";"1658";"1";""
+"179";"Pętak";"Jan";"Kraśnik";"Woźny przysięgły";"#49";"1658";"1";"Pętak [?]"
+"180";"Katoń";"Łukasz";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#50";"1658";"1";"Kaczor [?]"
+"181";"Pełczyński";"Szlachcic";"Ślinów";"Wzmiankowany";"#50";"1658";"1";"Pełczyński [?]"
+"182";"Koniarski";"Wojciech";"Kraśnik";"Syn Mariny Koniarskiej / Pozwany";"#50";"1658";"1";""
+"183";"Poszłygarczyk";"Stanisław";"Kraśnik";"Mieszczanin";"#51, #61, #68";"1658";"3";"Soszłygarczyk [?]"
+"184";"Oleszek";"Wojciech";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Oleszkowic [?]"
+"185";"Zdanowa";"Jadwiga";"Kraśnik";"Mieszkanka";"#51";"1658";"1";"Zdanianka [?]"
+"186";"Sulik";"Marcin";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Sulik [?]"
+"187";"Siedlatka";"Wojciech";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Siedlatko [?]"
+"188";"Dudzik";"Maciej";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Dudzik [?]"
+"189";"Klatkowski";"Jan";"Kraśnik";"Mieszczanin";"#51, #60, #63, #68";"1658";"4";"Klatkowski [?]"
+"190";"Łatka";"Jan";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Łatka [?] / Lotka [?]"
+"191";"Kłębski";"Jan";"Kraśnik";"Woźny sądowy przysięgły (Bedellus)";"#51, #59";"1658";"2";"Kłębski [?]"
+"192";"Słodzarski";"Marcin";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Słodzarski [?]"
+"193";"Łotka";"Grzegorz";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Lotka [?]"
+"194";"Gębalski";"Wojciech";"Kraśnik";"Mieszczanin";"#52";"1658";"1";"Gębala [?]"
+"195";"Kurowek";"Mikołaj";"Kraśnik";"Mieszczanin";"#52, #60";"1658";"2";"Kurowicz [?]"
+"196";"Ptaszek";"Marcin";"Kraśnik";"Mieszczanin";"#52";"1658";"1";"Ptaszek [?]"
+"197";"Gębalka";"Marcin";"Kraśnik";"Mieszczanin";"#52, #62";"1658";"2";"Gębałka [?]"
+"198";"Maruszkowic";"Wojciech";"Kraśnik";"Mieszczanin (zm.)";"#52, #54";"1658";"2";"Maruszka [?]"
+"199";"Dębski";"Stefan";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Dębowski [?]"
+"200";"Kozak";"Maciej";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kozłowski [?]"
+"201";"Kuśmierz";"Szymon";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kuszmir [?]"
+"202";"Łysik";"Daniel";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Łysik [?]"
+"203";"Kowal";"Marcin";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kowal [?]"
+"204";"Kazimierski";"Jan";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Rębiński [?]"
+"205";"Zięba";"Sebastian";"Kraśnik";"Mieszczanin";"#53, #61";"1658";"2";"Zgęba [?]"
+"206";"Dąbrowski";"Jan";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Bąkowski [?]"
+"207";"Głodzik";"Andrzej";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Gładysz [?]"
+"208";"Sułkowicz";"Szymon";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Sulik [?]"
+"209";"Krupiński";"Wojciech";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Krupiński [?]"
+"210";"Miazga";"Michał";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Maslik [?]"
+"211";"Prokopek";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#54, #55, #56, #62";"1658";"4";""
+"212";"Gębecki";"Jan";"Kraśnik";"Mieszczanin";"#56";"1658";"1";"Gołecki [?]"
+"213";"Krawcowa";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#56";"1658";"1";"Kwiecina [?]"
+"214";"Gębski";"Jan";"Kraśnik";"Mieszczanin";"#56, #67";"1658";"2";"Grząbka [?] / Gębski [?]"
+"215";"Łysik";"Stanisław";"Kraśnik";"Mieszczanin";"#56";"1658";"1";"Łysik [?]"
+"216";"Marlik";"Jan";"Kraśnik";"Mieszczanin";"#56, #57";"1658";"2";"Manlik [?]"
+"217";"Paszek";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#57";"1658";"1";"Bąk [?]"
+"218";"Poszłygarczyk";"Jan";"Kraśnik";"Mieszczanin";"#57";"1658";"1";""
+"219";"Łopionka";"Jadwiga";"Kraśnik";"Mieszkanka";"#57";"1658";"1";"Łopianka [?]"
+"220";"Izaak";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#57";"1658";"1";"Izaak [?]"
+"221";"Lalka";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#57, #58";"1658";"2";"Falka [?]"
+"222";"Borowiec";"Marcin";"Kraśnik";"Mieszczanin";"#58";"1658";"1";"Konięga [?]"
+"223";"Słodzarski";"Piotr";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#58, #65";"1658";"2";"Zadzarski [?]"
+"224";"Skrzypkowski";"[Pan]";"Kraśnik (okolice)";"Szlachetny / Świadek";"#58";"1658";"1";"Skrzypkowski [?]"
+"225";"Wężyk";"[Pan]";"Kraśnik (okolice)";"Szlachetny / Świadek";"#58";"1658";"1";"Wężyk [?]"
+"226";"Babiński";"Jan";"Kraśnik";"Mieszczanin";"#59";"1658";"1";"Zabiński [?]"
+"227";"Soroka";"Jakub";"Kraśnik";"Mieszczanin";"#59";"1658";"1";"Sroka [?]"
+"228";"Wiatrak";"[Mieszczanin]";"Kraśnik";"Sąsiad / Posiadacz gruntu";"#59";"1658";"1";"Wiatrek [?]"
+"229";"Łoboda";"Iczek";"Kraśnik";"Żyd kraśnicki";"#59";"1658";"1";"Łabędź [?]"
+"230";"Zarzycki";"Wojciech";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#60";"1658";"1";"Zakrzewski [?]"
+"231";"Zieliński";"Jan";"Kraśnik";"Mieszczanin";"#60";"1658";"1";""
+"232";"Jędrzejczyk";"Ewa Marcinowa";"Kraśnik";"Mieszkanka / Żona Marcina";"#60";"1658";"1";"Jędrzejowa [?]"
+"233";"Bęben";"Kasper";"Kraśnik";"Świadek przysięgły";"#61";"1658";"1";"Bęben [?]"
+"234";"Sadownik";"Andrzej";"Kraśnik";"Świadek przysięgły";"#61";"1658";"1";""
+"235";"Kopianka";"Jadwiga";"Kraśnik";"Mieszkanka";"#61";"1658";"1";"Kępianka [?] / Kępka [?]"
+"236";"z Łopacina";"Ewa";"Kraśnik";"Mieszkanka";"#61, #62";"1658";"2";"Łopacina [?]"
+"237";"Gębalski";"Maciej";"Kraśnik";"Mieszczanin";"#61";"1658";"1";"Gębalski [?]"
+"238";"Pełka";"Tomasz";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
+"239";"Gołecki";"Jan";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
+"240";"Kurowek";"Maciej";"Kraśnik";"Mieszczanin";"#62";"1658";"1";"Kurowek [?]"
+"241";"Daliborka";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#62";"1658";"1";"Zabielska [?]"
+"242";"Grząbka";"Jan";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
+"243";"Grudzień";"Bartłomiej";"Kraśnik";"Mieszczanin";"#62, #63";"1658";"2";""
+"244";"Dubaj";"Wojciech";"Kraśnik";"Mieszczanin";"#63, #68";"1658";"2";"Dubański [?] / Albrecht Dubaj"
+"245";"Słodki";"Walenty";"Kraśnik";"Mieszczanin / Sadownik";"#63";"1658";"1";"Skutka [?]"
+"246";"Orlak";"Grzegorz";"Kraśnik";"Mieszczanin / Furman";"#63";"1658";"1";"Orlik [?]"
+"247";"Noster";"Wojciech";"Rudnik";"Pracowity (Laboriosus)";"#64";"1658";"1";"Kostka [?]"
+"248";"Rudnicka";"Jadwiga";"Rudnik";"Mieszkanka Rudnika";"#64";"1658";"1";"Rudnicki [?]"
+"249";"Konięga";"Felicjan";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Koniński [?]"
+"250";"Szarek";"Szymon";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#64";"1658";"1";""
+"251";"Zięba";"Jakub";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Zgęba [?]"
+"252";"Lisek";"Jan";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Cichy [?]"
+"253";"Szutka";"Szymon";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Sutka [?]"
+"254";"Icek";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#65";"1658";"1";""
+"255";"Tomaszczyk";"Jan";"Kraśnik";"Mieszczanin";"#65";"1658";"1";""
+"256";"Tomaszczykowa";"Jadwiga";"Kraśnik";"Mieszkanka / Żona Jana";"#65";"1658";"1";""
+"257";"Kępka";"Maciej";"Kraśnik";"Mieszczanin";"#65";"1658";"1";""
+"258";"Prus";"Maciej";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Ptaszek [?]"
+"259";"Serba";"Jakub";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Sroka [?]"
+"260";"Rębińska";"Zofia";"Kraśnik";"Mieszkanka";"#65";"1658";"1";"Łębińska [?]"
+"261";"Kaczorowski";"Łukasz";"Kraśnik";"Mieszczanin";"#65";"1657";"1";"Kaczorowski [?]"
+"262";"Zieliński";"Krzysztof";"Kraśnik";"Mieszczanin";"#65";"1657";"1";"Zieliński [?]"
+"263";"Koźmianowa";"Ewa";"Kraśnik";"Wdowa / Mieszkanka";"#66, #67";"1657–1658";"2";"Koźmiańska [?]"
+"264";"Kowalowa";"Zofia";"Kraśnik";"Mieszkanka (zm.)";"#66";"1657";"1";""
+"265";"Saraczkowic";"Maciej";"Kraśnik";"Sławetny / Plenipotent";"#66";"1657";"1";"Saraczkowicz [?]"
+"266";"Żydkowic";"Baltazar";"Kraśnik";"Mieszczanin";"#68";"1658";"1";"Sydkowic [?]"
+"267";"Cichowicz";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#68";"1658";"1";"Cieśliński [?]"
+"268";"Zieliński";"Maciej";"Kraśnik";"Mieszczanin";"#68, #69";"1658";"2";""
+"269";"Kępa";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kępka [?]"
+"270";"Ptaszek";"Maciej";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Pępek [?]"
+"271";"Skutka";"Walenty";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Słodki [?]"
+"272";"Bobak";"Jakub";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Dubak [?]"
+"273";"Łazarz";"Dawid";"Kraśnik";"Żyd kraśnicki / Świadek";"#69";"1658";"1";"Dawid Łazarz [?]"
+"274";"Kurza";"Jan";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kurzawa [?]"
+"275";"Lejzor";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#69";"1658";"1";"Zelman [?]"
+"276";"Kępa";"Marcin";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kępa [?]"
+"277";"Kępski";"Marek";"Kraśnik";"Ławnik przysięgły";"#70, #73";"1658";"2";"Kępski [?]"
+"278";"Janorowski";"Bartłomiej";"Blinów";"Szlachetny / Dzierżawca wsi Blinów";"#70, #73";"1658";"2";""
+"279";"Staroszek";"Wojciech";"Blinów";"Poddany ze wsi Blinów";"#70, #71, #73";"1658";"3";"Staszek [?] / Rzepka"
+"280";"Staroszkowa";"Jadwiga";"Blinów";"Poddana ze wsi Blinów (z Rzepków)";"#70, #71";"1658";"2";""
+"281";"Łysak";"Maciej";"Blinów";"Poddany ze wsi Blinów";"#70, #73";"1658";"2";""
+"282";"Łysakowa";"Katarzyna";"Blinów";"Poddana ze wsi Blinów (z Rzepków)";"#70, #71";"1658";"2";""
+"283";"Kozieł";"Stanisław";"Blinów";"Poddany ze wsi Blinów";"#70";"1658";"1";"Kozieł [?]"
+"284";"Rzepkowa";"Agnieszka";"Blinów";"Poddana (zm., z Potoka)";"#70";"1658";"1";""
+"285";"Rzepka";"Sebastian";"Blinów";"Poddany ze wsi Blinów";"#70";"1658";"1";""
+"286";"Rzepka";"Jakub";"Blinów";"Poddany ze wsi Blinów";"#70";"1658";"1";""
+"287";"Skórka";"Jan";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";"Storka [?]"
+"288";"Rzepka";"Paweł";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";""
+"289";"Rzepka";"Jan";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";""
+"290";"Grątka";"Andrzej";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";"Gręta [?]"
+"291";"Szwedowicz";"Stanisław";"Kraśnik";"Ławnik przysięgły";"#73";"1658";"1";"Szwedowicz [?]"
+"292";"Zakrzewski";"[J.W. Pan]";"Kraśnik (okolice)";"Wielmożny Pan / Sędzia lub Urzędnik";"#73";"1658";"1";"Zakrzewski [?]"
+"293";"Rzepka";"Stanisław";"Blinów";"Poddany ze wsi Blinów";"#74, #75";"1658";"2";""
