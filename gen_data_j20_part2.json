@@ -1,0 +1,5344 @@
+[
+  {
+    "lp": 1,
+    "nazwisko": "Kołodziejczyk",
+    "imie": "Błażej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły kraśnicki / Aktor",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6,
+      8,
+      17,
+      18,
+      22,
+      33,
+      49
+    ],
+    "skany_roboczo": "#6, #8, #17, #18, #22, #33, #49",
+    "min_rok": 1656,
+    "zakres_lat": "1656–1658",
+    "liczba_wystapien": 7,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Błażej Kołodziejczyk",
+        "rola": "Relacja ławnika oraz proces przeciw M. Dąbkowi o najście domu",
+        "kwota_ctx": "Relacja ławnika oraz proces przeciw M. Dąbkowi o najście domu"
+      },
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Blasii Kołodziejczyk",
+        "rola": "Świadectwo S. Dąbrowicza",
+        "kwota_ctx": "Świadectwo S. Dąbrowicza"
+      },
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Blasio Kołodziejczyk",
+        "rola": "Obecny na sesji 18 XII 1656",
+        "kwota_ctx": "Obecny na sesji 18 XII 1656"
+      },
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Błażej Kołodziejczyk",
+        "rola": "Obdukcja ran Jerzego Espena",
+        "kwota_ctx": "Obdukcja ran Jerzego Espena"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Blasium Kołodziejczyk",
+        "rola": "Spór z M. Siedleckim o skórę butową",
+        "kwota_ctx": "Spór z M. Siedleckim o skórę butową"
+      },
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Błażeja Kołodziejczyka",
+        "rola": "Obecny przy rezygnacji gruntu",
+        "kwota_ctx": "Obecny przy rezygnacji gruntu"
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Blasio Kołodziejczyk",
+        "rola": "Ławnik na Sądzie Gajonym 8 XI 1658",
+        "kwota_ctx": "Ławnik na Sądzie Gajonym 8 XI 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Konięga",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6,
+      12,
+      20,
+      21,
+      25,
+      33,
+      36,
+      40,
+      43,
+      49
+    ],
+    "skany_roboczo": "#6, #12, #20, #21, #25, #33, #36, #40, #43, #49",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 10,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Maciej Konięga",
+        "rola": "Relacja ławnika o słowach W. Jatańca",
+        "kwota_ctx": "Relacja ławnika o słowach W. Jatańca"
+      },
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Maciej Konięga",
+        "rola": "Świadectwo w sprawie z Łęcznej",
+        "kwota_ctx": "Świadectwo w sprawie z Łęcznej"
+      },
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Konięga",
+        "rola": "Skarga na J. Skurę o najście domu",
+        "kwota_ctx": "Skarga na J. Skurę o najście domu"
+      },
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Maciej Konięga",
+        "rola": "Poręczenie za dług z 1653 r.",
+        "kwota_ctx": "Poręczenie za dług z 1653 r."
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Konięga",
+        "rola": "Proces przeciw J. Kępie o 2 fl za najem izby",
+        "kwota_ctx": "Proces przeciw J. Kępie o 2 fl za najem izby"
+      },
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathiae Konięga",
+        "rola": "Zakup gruntu po Stefanie Dzierżku",
+        "kwota_ctx": "Zakup gruntu po Stefanie Dzierżku"
+      },
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathias Konięga",
+        "rola": "Zapis wyderkafowy 100 złp (czynsz 7 złp) na kamienicy przy Rynku",
+        "kwota_ctx": "Zapis wyderkafowy 100 złp (czynsz 7 złp) na kamienicy przy Rynku"
+      },
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathia Konięga",
+        "rola": "Obecny na sesji 28 X 1658",
+        "kwota_ctx": "Obecny na sesji 28 X 1658"
+      },
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathia Konięga",
+        "rola": "Zasiadający na Sądzie Gajonym 30 X 1658",
+        "kwota_ctx": "Zasiadający na Sądzie Gajonym 30 X 1658"
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathia Konięga",
+        "rola": "Ławnik na Sądzie Gajonym 8 XI 1658",
+        "kwota_ctx": "Ławnik na Sądzie Gajonym 8 XI 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Jataniec",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Wzmiankowany",
+    "wariant_nazwiska": "Jatańczyk [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Wojciecha Jatańca [Jatańczyka?]",
+        "rola": "Wzmiankowany w relacji ławników",
+        "kwota_ctx": "Wzmiankowany w relacji ławników"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Dzierżek",
+    "imie": "Błażej",
+    "miejsce": "Piaski",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Błażeju Dzierżku",
+        "rola": "Wzmiankowany w relacji ławników",
+        "kwota_ctx": "Wzmiankowany w relacji ławników"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Dąbek",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Bęben [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Dąbek [Bęben?]",
+        "rola": "Proces o najście domu",
+        "kwota_ctx": "Proces o najście domu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Baltazarowa",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Instygatorka",
+    "wariant_nazwiska": "Balcerzykowa [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Catharinae Baltazarowa [Balcerzykowa?]",
+        "rola": "Sprawa spadkowa",
+        "kwota_ctx": "Sprawa spadkowa"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Paplenik",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Paplenik [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Martinum Paplenik [?]",
+        "rola": "Spór z wdową Frysiową o półkorca żyta",
+        "kwota_ctx": "Spór z wdową Frysiową o półkorca żyta"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Frysiowa",
+    "imie": "Wdowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": "Frysiowa [?]",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduam Frysiowa [?]",
+        "rola": "Nakaz zwrotu półkorca żyta",
+        "kwota_ctx": "Nakaz zwrotu półkorca żyta"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #6, 1657 r.)."
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Pękowa",
+    "imie": "Anna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": "Pękowa [?]",
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduam Annam Pękowa [?]",
+        "rola": "Proces o dług po nieboszczyku",
+        "kwota_ctx": "Proces o dług po nieboszczyku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Lasek",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany / Kondemnat",
+    "wariant_nazwiska": "Łączek [?]",
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Valentini Lasek [Łączek?]",
+        "rola": "Skazany na kontumację",
+        "kwota_ctx": "Skazany na kontumację"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Żyłówka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Kender [?]",
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannes Kender [?] Żyłówka [?]",
+        "rola": "Spór z W. Potockim o 15 fl za krowę",
+        "kwota_ctx": "Spór z W. Potockim o 15 fl za krowę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Potocki",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      7
+    ],
+    "skany_roboczo": "#7",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Potocki",
+        "rola": "Spór z J. Żyłówką o 15 fl",
+        "kwota_ctx": "Spór z J. Żyłówką o 15 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Marlik",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona w aktach",
+    "wariant_nazwiska": "Marlik [?]",
+    "skany_list": [
+      7,
+      8,
+      25,
+      26,
+      27,
+      36
+    ],
+    "skany_roboczo": "#7, #8, #25, #26, #27, #36",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Marlik [?]",
+        "rola": "Spór o zagon roli ze Świdnickim",
+        "kwota_ctx": "Spór o zagon roli ze Świdnickim"
+      },
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Andream Marlik [?]",
+        "rola": "Proces przeciw Mielchikowi",
+        "kwota_ctx": "Proces przeciw Mielchikowi"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Andream Marlik [?]",
+        "rola": "Spór z J. i A. Zielińskimi",
+        "kwota_ctx": "Spór z J. i A. Zielińskimi"
+      },
+      {
+        "skan": 26,
+        "rok": "1657",
+        "zapis_oryginalny": "Andream Marlik [?]",
+        "rola": "Proces przeciw Z. Zielińskiej o 200 złp",
+        "kwota_ctx": "Proces przeciw Z. Zielińskiej o 200 złp"
+      },
+      {
+        "skan": 27,
+        "rok": "1657",
+        "zapis_oryginalny": "Andrzej Marlik",
+        "rola": "Nakaz rozliczenia 200 fl",
+        "kwota_ctx": "Nakaz rozliczenia 200 fl"
+      },
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Marlik",
+        "rola": "Sąsiad kamienicy M. Konięgi",
+        "kwota_ctx": "Sąsiad kamienicy M. Konięgi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Skwarek",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Skwarek [?]",
+    "skany_list": [
+      7,
+      8
+    ],
+    "skany_roboczo": "#7, #8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Valentinum Skwarek [?]",
+        "rola": "Spór z W. Batusikiem o koła i robotę kołodziejską",
+        "kwota_ctx": "Spór z W. Batusikiem o koła i robotę kołodziejską"
+      },
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Skwarek",
+        "rola": "Dekret nakazujący oddanie roboty lub pieniędzy",
+        "kwota_ctx": "Dekret nakazujący oddanie roboty lub pieniędzy"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Batusik",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      7,
+      8
+    ],
+    "skany_roboczo": "#7, #8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Batusik",
+        "rola": "Pozwany o niewykonanie roboty kołodziejskiej",
+        "kwota_ctx": "Pozwany o niewykonanie roboty kołodziejskiej"
+      },
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Batusik",
+        "rola": "Dekret w sprawie kołodziejskiej",
+        "kwota_ctx": "Dekret w sprawie kołodziejskiej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #7, 1657 r.)."
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Babińczyk",
+    "imie": "Benedykt",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd / Składający przysięgę",
+    "wariant_nazwiska": "Babińczyk [?]",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Judaeo Benedicto Babińczyk [?]",
+        "rola": "Dopuszczony do przysięgi sądowej",
+        "kwota_ctx": "Dopuszczony do przysięgi sądowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Dąbrowicz",
+    "imie": "Sebastian",
+    "miejsce": "Bielice",
+    "funkcja": "Pracowity / Świadek",
+    "wariant_nazwiska": "Dąbrowicz [?]",
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Sebastianus Dąbrowicz [?] de Bielice [?]",
+        "rola": "Zeznanie dla B. Kołodziejczyka",
+        "kwota_ctx": "Zeznanie dla B. Kołodziejczyka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Bendralik",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanisław Bendralik",
+        "rola": "Wymieniony w zeznaniu S. Dąbrowicza",
+        "kwota_ctx": "Wymieniony w zeznaniu S. Dąbrowicza"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Łycek",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8,
+      9,
+      10,
+      25
+    ],
+    "skany_roboczo": "#8, #9, #10, #25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Pauli Łycek",
+        "rola": "Świadectwo brata Mikołaja Łycka o obligu",
+        "kwota_ctx": "Świadectwo brata Mikołaja Łycka o obligu"
+      },
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulum Łycek",
+        "rola": "Spór z wdową A. Łyckową o opiekę",
+        "kwota_ctx": "Spór z wdową A. Łyckową o opiekę"
+      },
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulum Łycek",
+        "rola": "Nakaz przysięgi na 30 fl przeciw wdowie A. Łyckowej",
+        "kwota_ctx": "Nakaz przysięgi na 30 fl przeciw wdowie A. Łyckowej"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulum Łycek",
+        "rola": "Przedmiot manifestacji wdowy Łyszkowej",
+        "kwota_ctx": "Przedmiot manifestacji wdowy Łyszkowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Łycek",
+    "imie": "Mikołaj",
+    "miejsce": "Kraśnik",
+    "funkcja": "Brat Pawła Łycka / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      8
+    ],
+    "skany_roboczo": "#8",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1657",
+        "zapis_oryginalny": "Mikołaj Łycek",
+        "rola": "Zeznanie o pożyczce brata",
+        "kwota_ctx": "Zeznanie o pożyczce brata"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #8, 1657 r.)."
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Łyckowa",
+    "imie": "Anna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9,
+      10
+    ],
+    "skany_roboczo": "#9, #10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Annam Łyckowa",
+        "rola": "Dylacja w sporze z P. Łyckiem",
+        "kwota_ctx": "Dylacja w sporze z P. Łyckiem"
+      },
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Annam Viduam Łyckowa",
+        "rola": "Spór o 30 fl i 11 lat opieki",
+        "kwota_ctx": "Spór o 30 fl i 11 lat opieki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Pisak",
+    "imie": "Mikołaj",
+    "miejsce": "Kraśnik",
+    "funkcja": "Poszkodowany (obdukcja)",
+    "wariant_nazwiska": "Rusek [?]",
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Nicolai Pisak [?] alias Rusek [?]",
+        "rola": "Obdukcja ran krwawych na skroniach i boku",
+        "kwota_ctx": "Obdukcja ran krwawych na skroniach i boku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Kurowic",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły kraśnicki",
+    "wariant_nazwiska": "Krogulec [?]",
+    "skany_list": [
+      9,
+      14,
+      15,
+      16,
+      37,
+      38,
+      44,
+      45,
+      46,
+      50
+    ],
+    "skany_roboczo": "#9, #14, #15, #16, #37, #38, #44, #45, #46, #50",
+    "min_rok": 1656,
+    "zakres_lat": "1656–1658",
+    "liczba_wystapien": 10,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustynem Kurowicem",
+        "rola": "Przeprowadzenie obdukcji ran M. Pisaka",
+        "kwota_ctx": "Przeprowadzenie obdukcji ran M. Pisaka"
+      },
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustini Kurowic",
+        "rola": "Proces przeciw Koniarskiej o 23 fl i 11 fl",
+        "kwota_ctx": "Proces przeciw Koniarskiej o 23 fl i 11 fl"
+      },
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustinum Kurowic",
+        "rola": "Proces przeciw wdowie Boguckiej oraz relacja dla W. Butka",
+        "kwota_ctx": "Proces przeciw wdowie Boguckiej oraz relacja dla W. Butka"
+      },
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Augustini Kurowic",
+        "rola": "Opiekun w procesie z Konińskim (9 XII 1656)",
+        "kwota_ctx": "Opiekun w procesie z Konińskim (9 XII 1656)"
+      },
+      {
+        "skan": 37,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustyn Kurowic [Krogulec?]",
+        "rola": "Skarga o kradzież 30 fl, płótna i srebrnej łyżki z komory na Rynku",
+        "kwota_ctx": "Skarga o kradzież 30 fl, płótna i srebrnej łyżki z komory na Rynku"
+      },
+      {
+        "skan": 38,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustyn Kurowic",
+        "rola": "Wyrok w sprawie kradzieży (chłosta lub 6 fl)",
+        "kwota_ctx": "Wyrok w sprawie kradzieży (chłosta lub 6 fl)"
+      },
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustinum Kurowic",
+        "rola": "Spór z opiekunami",
+        "kwota_ctx": "Spór z opiekunami"
+      },
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustinum Kurowic Scabinum",
+        "rola": "Proces przeciw Koniarskiej o kradzież jabłek z sadu",
+        "kwota_ctx": "Proces przeciw Koniarskiej o kradzież jabłek z sadu"
+      },
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Kurowic",
+        "rola": "Wina 4 fl w sprawie sadu",
+        "kwota_ctx": "Wina 4 fl w sprawie sadu"
+      },
+      {
+        "skan": 50,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustinum Kurowic",
+        "rola": "Spór z wdową M. Koniarską i jej synem Wojciechem",
+        "kwota_ctx": "Spór z wdową M. Koniarską i jej synem Wojciechem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Fox",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9,
+      15,
+      39,
+      43,
+      44,
+      49
+    ],
+    "skany_roboczo": "#9, #15, #39, #43, #44, #49",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Grzegorzem Foxem",
+        "rola": "Przeprowadzenie obdukcji ran M. Pisaka",
+        "kwota_ctx": "Przeprowadzenie obdukcji ran M. Pisaka"
+      },
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Grzegorzem Foxem",
+        "rola": "Relacja ławników w sprawie W. Butka",
+        "kwota_ctx": "Relacja ławników w sprawie W. Butka"
+      },
+      {
+        "skan": 39,
+        "rok": "1658",
+        "zapis_oryginalny": "Grzegorzem Foxem",
+        "rola": "Wzmiankowany w zeznaniu M. Dąbka",
+        "kwota_ctx": "Wzmiankowany w zeznaniu M. Dąbka"
+      },
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Gregorio Fox",
+        "rola": "Zasiadający na Sądzie Gajonym 30 X 1658",
+        "kwota_ctx": "Zasiadający na Sądzie Gajonym 30 X 1658"
+      },
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Gregorium Fox",
+        "rola": "Spór z opiekunami o dobra z 1657 r.",
+        "kwota_ctx": "Spór z opiekunami o dobra z 1657 r."
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Gregorio Fox",
+        "rola": "Ławnik na Sądzie Gajonym 8 XI 1658",
+        "kwota_ctx": "Ławnik na Sądzie Gajonym 8 XI 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Rogalowski",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Właściciel domu",
+    "wariant_nazwiska": "Rogalowski [?]",
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Jakuba Rogalowskiego [?]",
+        "rola": "Dom obdukcji ran M. Pisaka",
+        "kwota_ctx": "Dom obdukcji ran M. Pisaka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Lech",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Właściciel domu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9
+    ],
+    "skany_roboczo": "#9",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Jana Lecha",
+        "rola": "Miejsce pijatyki i pobicia M. Pisaka",
+        "kwota_ctx": "Miejsce pijatyki i pobicia M. Pisaka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 27,
+    "nazwisko": "Trela",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      9,
+      10,
+      13
+    ],
+    "skany_roboczo": "#9, #10, #13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaum Trela",
+        "rola": "Proces przeciw A. Łapczyńskiej o 6 fl 20 gr",
+        "kwota_ctx": "Proces przeciw A. Łapczyńskiej o 6 fl 20 gr"
+      },
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Trela",
+        "rola": "Rozliczenie 6 fl 20 gr",
+        "kwota_ctx": "Rozliczenie 6 fl 20 gr"
+      },
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanislaum Trela",
+        "rola": "Nakaz zapłaty 6 fl 20 gr dla powoda",
+        "kwota_ctx": "Nakaz zapłaty 6 fl 20 gr dla powoda"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Łapczyńska",
+    "imie": "Anna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana dłużniczka",
+    "wariant_nazwiska": "Łapczyńska [?]",
+    "skany_list": [
+      9,
+      13
+    ],
+    "skany_roboczo": "#9, #13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1657",
+        "zapis_oryginalny": "Annam Łapczyńska [?]",
+        "rola": "Nakaz zapłaty 6 fl 20 gr S. Treli",
+        "kwota_ctx": "Nakaz zapłaty 6 fl 20 gr S. Treli"
+      },
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Annam Łapczyńska",
+        "rola": "Dekret z 4 XII 1657 r.",
+        "kwota_ctx": "Dekret z 4 XII 1657 r."
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #9, 1657 r.)."
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Żyłówka",
+    "imie": "Anna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Powódka",
+    "wariant_nazwiska": "Żyłówka [?]",
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduam Annam Żyłówka [?]",
+        "rola": "Proces przeciw W. Kulce o 7 fl od kotliny",
+        "kwota_ctx": "Proces przeciw W. Kulce o 7 fl od kotliny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Kulka",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Kulka",
+        "rola": "Nakaz zapłaty 7 fl",
+        "kwota_ctx": "Nakaz zapłaty 7 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Mazur",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      10,
+      11
+    ],
+    "skany_roboczo": "#10, #11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Mazur",
+        "rola": "Proces o 2 fl na rzecz kościoła i miasta",
+        "kwota_ctx": "Proces o 2 fl na rzecz kościoła i miasta"
+      },
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Mazur",
+        "rola": "Dekret w sprawie 2 fl",
+        "kwota_ctx": "Dekret w sprawie 2 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Sienka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Sienka [?]",
+    "skany_list": [
+      10
+    ],
+    "skany_roboczo": "#10",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Sienka [?]",
+        "rola": "Współpozwany o 2 fl",
+        "kwota_ctx": "Współpozwany o 2 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #10, 1657 r.)."
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Olęcki",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin i szewc / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      20,
+      40,
+      43,
+      45
+    ],
+    "skany_roboczo": "#11, #20, #40, #43, #45",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertus Olęcki Civis et Sutor",
+        "rola": "Zeznanie o bójce W. Sydkowica w Łęcznej",
+        "kwota_ctx": "Zeznanie o bójce W. Sydkowica w Łęcznej"
+      },
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Olęcki",
+        "rola": "Spór z P. Tarnowczykiem o 1 fl 15 gr i 3 fl 15 gr",
+        "kwota_ctx": "Spór z P. Tarnowczykiem o 1 fl 15 gr i 3 fl 15 gr"
+      },
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Olęcki",
+        "rola": "Spory z T. Żywickim (40 fl) i S. Sołtyszczykiem (2 fl)",
+        "kwota_ctx": "Spory z T. Żywickim (40 fl) i S. Sołtyszczykiem (2 fl)"
+      },
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Alberti Olęcki",
+        "rola": "Manifestacja przeciw B. Bożęborskiemu",
+        "kwota_ctx": "Manifestacja przeciw B. Bożęborskiemu"
+      },
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Alberto Olęcki",
+        "rola": "Spór o 2 grzywny",
+        "kwota_ctx": "Spór o 2 grzywny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Sydkowic",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona procesów",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      22,
+      23,
+      24,
+      31,
+      32,
+      41
+    ],
+    "skany_roboczo": "#11, #22, #23, #24, #31, #32, #41",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 7,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentii Sydkowic",
+        "rola": "Procesy z Sz. Jasielskim i A. Laskiem (25 fl 6 gr)",
+        "kwota_ctx": "Procesy z Sz. Jasielskim i A. Laskiem (25 fl 6 gr)"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentii Sydkowic",
+        "rola": "Skarga przeciw Sz. Jasielskiemu o pobicie",
+        "kwota_ctx": "Skarga przeciw Sz. Jasielskiemu o pobicie"
+      },
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentii Sydkowic",
+        "rola": "Zeznania świadków przeciw Sz. Jasielskiemu",
+        "kwota_ctx": "Zeznania świadków przeciw Sz. Jasielskiemu"
+      },
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentium Sydkowic",
+        "rola": "Dopuszczenie do przysięgi z sześcioma świadkami",
+        "kwota_ctx": "Dopuszczenie do przysięgi z sześcioma świadkami"
+      },
+      {
+        "skan": 31,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentii Sydkowic",
+        "rola": "Przysięga przeciw Sz. Jasielskiemu",
+        "kwota_ctx": "Przysięga przeciw Sz. Jasielskiemu"
+      },
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Laurentium Sydkowic",
+        "rola": "Nakaz przysięgi na krucyfiks",
+        "kwota_ctx": "Nakaz przysięgi na krucyfiks"
+      },
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Laurentium Sydkowic",
+        "rola": "Przysięga przeciw A. Zocie",
+        "kwota_ctx": "Przysięga przeciw A. Zocie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 35,
+    "nazwisko": "Koniarska",
+    "imie": "Mieszkanka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powódka",
+    "wariant_nazwiska": "Koniarska [?] / Marina Koniarska",
+    "skany_list": [
+      11,
+      12,
+      45,
+      50
+    ],
+    "skany_roboczo": "#11, #12, #45, #50",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Koniarska [?]",
+        "rola": "Spór z Z. Jasińską o 1 fl 15 gr i 5 fl",
+        "kwota_ctx": "Spór z Z. Jasińską o 1 fl 15 gr i 5 fl"
+      },
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Koniarska",
+        "rola": "Odesłanie na Brzeg Krakowski",
+        "kwota_ctx": "Odesłanie na Brzeg Krakowski"
+      },
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Koniarska [?]",
+        "rola": "Oskarżona o kradzież jabłek i obelgi",
+        "kwota_ctx": "Oskarżona o kradzież jabłek i obelgi"
+      },
+      {
+        "skan": 50,
+        "rok": "1658",
+        "zapis_oryginalny": "Viduam Marinam Koniarska [?]",
+        "rola": "Dylacja w sprawie przysięgi z A. Kurowicem",
+        "kwota_ctx": "Dylacja w sprawie przysięgi z A. Kurowicem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Jasińska",
+    "imie": "Zuzanna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Jasińska [?]",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Zuzannam Jasińska [?]",
+        "rola": "Nakaz zapłaty długu",
+        "kwota_ctx": "Nakaz zapłaty długu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Jasielski",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      11,
+      21,
+      22,
+      24,
+      31,
+      40
+    ],
+    "skany_roboczo": "#11, #21, #22, #24, #31, #40",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonem Jasielski",
+        "rola": "Dylacja na świadków",
+        "kwota_ctx": "Dylacja na świadków"
+      },
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonis Jasielski",
+        "rola": "Świadectwa o bójce u P. Paździechy",
+        "kwota_ctx": "Świadectwa o bójce u P. Paździechy"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonem Jasielski",
+        "rola": "Reprotestacja o obronie własnej",
+        "kwota_ctx": "Reprotestacja o obronie własnej"
+      },
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonem Jasielski",
+        "rola": "Proces o zniewagę słowną",
+        "kwota_ctx": "Proces o zniewagę słowną"
+      },
+      {
+        "skan": 31,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonem Jasielski",
+        "rola": "Spory z P. Pyrkiem i W. Sydkowicem",
+        "kwota_ctx": "Spory z P. Pyrkiem i W. Sydkowicem"
+      },
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Simonem Jasielski",
+        "rola": "Spór o 80 fl z dekretu 1658",
+        "kwota_ctx": "Spór o 80 fl z dekretu 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Lasek",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Łycek [?]",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustinum Lasek [Łycek?]",
+        "rola": "Spór o 25 fl 6 gr z zapisu",
+        "kwota_ctx": "Spór o 25 fl 6 gr z zapisu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #11, 1657 r.)."
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Kuśnierz",
+    "imie": "Barbara",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powódka",
+    "wariant_nazwiska": "Kuśnierz [?]",
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Barbaram Kuśnierz [?]",
+        "rola": "Proces przeciw Kudle o 43 złp zapisane na gruncie",
+        "kwota_ctx": "Proces przeciw Kudle o 43 złp zapisane na gruncie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Kudła",
+    "imie": "Mieszkanka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Kudła [?]",
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1657",
+        "zapis_oryginalny": "Kudła [?]",
+        "rola": "Nakaz zapłaty 43 złp lub puszczenia gruntu",
+        "kwota_ctx": "Nakaz zapłaty 43 złp lub puszczenia gruntu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #12, 1657 r.)."
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Domiłek",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Domiłek [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Andream Domiłek [?]",
+        "rola": "Proces przeciw Z. Zielińskiej o dług z rejestru",
+        "kwota_ctx": "Proces przeciw Z. Zielińskiej o dług z rejestru"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Zielińska",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Zielińska [?]",
+    "skany_list": [
+      13,
+      26,
+      27,
+      28
+    ],
+    "skany_roboczo": "#13, #26, #27, #28",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Sophiam Zielińska [?]",
+        "rola": "Nakaz zapłaty długu z rejestru",
+        "kwota_ctx": "Nakaz zapłaty długu z rejestru"
+      },
+      {
+        "skan": 26,
+        "rok": "1657",
+        "zapis_oryginalny": "Sophiam Zielińska [?]",
+        "rola": "Spór o 200 złp i rozliczenie opieki",
+        "kwota_ctx": "Spór o 200 złp i rozliczenie opieki"
+      },
+      {
+        "skan": 27,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofija Zielińska",
+        "rola": "Dekret o rozliczenie sumy 200 fl",
+        "kwota_ctx": "Dekret o rozliczenie sumy 200 fl"
+      },
+      {
+        "skan": 28,
+        "rok": "1657",
+        "zapis_oryginalny": "Zofija Zielińska [?]",
+        "rola": "Dokończenie wpisu o rozliczeniu",
+        "kwota_ctx": "Dokończenie wpisu o rozliczeniu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Błażejowska",
+    "imie": "Szlachcianka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powódka",
+    "wariant_nazwiska": "Błażejowska [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Nobilem Błażejowska [?]",
+        "rola": "Spór z Żyłówką na Brzegu Krakowskim",
+        "kwota_ctx": "Spór z Żyłówką na Brzegu Krakowskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Szafraniec",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Szafraniec [?]",
+    "skany_list": [
+      13,
+      22
+    ],
+    "skany_roboczo": "#13, #22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Adamum Szafraniec [?]",
+        "rola": "Spór ze Świniarką",
+        "kwota_ctx": "Spór ze Świniarką"
+      },
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Adamum Szafraniec",
+        "rola": "Spór z M. Rzepką o 5 fl za Józefa",
+        "kwota_ctx": "Spór z M. Rzepką o 5 fl za Józefa"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Świniarka",
+    "imie": "Mieszkanka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Świniarka [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1657",
+        "zapis_oryginalny": "Świniarka [?]",
+        "rola": "Dylacja w procesie z A. Szafrańcem",
+        "kwota_ctx": "Dylacja w procesie z A. Szafrańcem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #13, 1657 r.)."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Buła",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Buła [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Buła [?]",
+        "rola": "Spór z W. Oleskiem o 8 fl za krowę",
+        "kwota_ctx": "Spór z W. Oleskiem o 8 fl za krowę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Olesek",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Olesek [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Valentinum Olesek [?]",
+        "rola": "Spór o zapłatę za krowę",
+        "kwota_ctx": "Spór o zapłatę za krowę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Kosek",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Stanisław Kosek",
+        "rola": "Świadectwo w sprawie krowy",
+        "kwota_ctx": "Świadectwo w sprawie krowy"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Jajczykówna",
+    "imie": "Zuzanna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Składająca przysięgę",
+    "wariant_nazwiska": "Jajczykówna [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Zuzannae Jajczykówna [?]",
+        "rola": "Przysięga o krowie",
+        "kwota_ctx": "Przysięga o krowie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Śliżanka",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Śliżanka [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Katarzyna Śliżanka [?]",
+        "rola": "Zeznanie przy W. Sitarskim",
+        "kwota_ctx": "Zeznanie przy W. Sitarskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Sitarski",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Walentym Sitarskim",
+        "rola": "Obecny przy zeznaniu",
+        "kwota_ctx": "Obecny przy zeznaniu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Paździech",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Paździech [?]",
+    "skany_list": [
+      14,
+      21,
+      34,
+      35,
+      41
+    ],
+    "skany_roboczo": "#14, #21, #34, #35, #41",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Augustinus Paździech [?]",
+        "rola": "Zeznanie dla A. Kurowica",
+        "kwota_ctx": "Zeznanie dla A. Kurowica"
+      },
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "P. Paździechy [?]",
+        "rola": "Dom, w którym doszło do kłótni",
+        "kwota_ctx": "Dom, w którym doszło do kłótni"
+      },
+      {
+        "skan": 34,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustyn Paździech [?]",
+        "rola": "Protestacja przeciw J. Rusarkowi o najście ogrodu i zniewagi",
+        "kwota_ctx": "Protestacja przeciw J. Rusarkowi o najście ogrodu i zniewagi"
+      },
+      {
+        "skan": 35,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustyna Paździecha",
+        "rola": "Strona w sporze z J. Rusarkiem",
+        "kwota_ctx": "Strona w sporze z J. Rusarkiem"
+      },
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Augustinus Paździech [?]",
+        "rola": "Zeznanie dla W. Sydkowica",
+        "kwota_ctx": "Zeznanie dla W. Sydkowica"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Batusik",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Batusik",
+        "rola": "Spór z G. Łapką o dwie kopy żyta",
+        "kwota_ctx": "Spór z G. Łapką o dwie kopy żyta"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Łapka",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Rzepka [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1657",
+        "zapis_oryginalny": "Gregorium Łapka [Rzepka?]",
+        "rola": "Nakaz oddania dwóch kop żyta",
+        "kwota_ctx": "Nakaz oddania dwóch kop żyta"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #14, 1657 r.)."
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Bogucka",
+    "imie": "Wdowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": "Bugajowa [?]",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduam Bogucka [Bugajowa?]",
+        "rola": "Spór o zagon roli",
+        "kwota_ctx": "Spór o zagon roli"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #15, 1657 r.)."
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Sulski",
+    "imie": "Szlachcic",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Sulski [?]",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Nobilem Sulski [?]",
+        "rola": "Spór z W. Butkiem",
+        "kwota_ctx": "Spór z W. Butkiem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #15, 1657 r.)."
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Butek",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany / Strona",
+    "wariant_nazwiska": "Butek [?]",
+    "skany_list": [
+      15,
+      44,
+      45
+    ],
+    "skany_roboczo": "#15, #44, #45",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Butka [?]",
+        "rola": "Sprawa o sumy 45 fl i 55 fl",
+        "kwota_ctx": "Sprawa o sumy 45 fl i 55 fl"
+      },
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertus Butek",
+        "rola": "Kontumacja na żądanie Żyda H. Kopla",
+        "kwota_ctx": "Kontumacja na żądanie Żyda H. Kopla"
+      },
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Butek",
+        "rola": "Spór przeciw B. Bożęborskiemu o 20 fl",
+        "kwota_ctx": "Spór przeciw B. Bożęborskiemu o 20 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #15, 1657 r.)."
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Dolski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szwagier / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1657",
+        "zapis_oryginalny": "Marcin Dolski",
+        "rola": "Zeznanie o sumach 45 fl i 55 fl W. Butka",
+        "kwota_ctx": "Zeznanie o sumach 45 fl i 55 fl W. Butka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #15, 1657 r.)."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Stochański",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Stochański [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Stochański [?]",
+        "rola": "Spór z G. Zielińskim o 15 gr",
+        "kwota_ctx": "Spór z G. Zielińskim o 15 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Zieliński",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Gregorium Zieliński",
+        "rola": "Spór o 15 gr",
+        "kwota_ctx": "Spór o 15 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Kotlarek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Joannem Kotlarka",
+        "rola": "Spór o dobra po Bochanie i Szpakowskim",
+        "kwota_ctx": "Spór o dobra po Bochanie i Szpakowskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Kotlarek",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Współpowód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Andream Kotlarka",
+        "rola": "Spór o dobra po Bochanie i Szpakowskim",
+        "kwota_ctx": "Spór o dobra po Bochanie i Szpakowskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 63,
+    "nazwisko": "Kotlarka",
+    "imie": "Jadwiga",
+    "miejsce": "Kraśnik",
+    "funkcja": "Współpowódka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Hedvigim Kotlarka",
+        "rola": "Spór o dobra po Bochanie i Szpakowskim",
+        "kwota_ctx": "Spór o dobra po Bochanie i Szpakowskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 64,
+    "nazwisko": "Koniński",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Komiński [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Koniński [Komiński?]",
+        "rola": "Pozwany o dział dóbr po Bochanie",
+        "kwota_ctx": "Pozwany o dział dóbr po Bochanie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 65,
+    "nazwisko": "Konińska",
+    "imie": "Elżbieta",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Konińskiego / Pozwana",
+    "wariant_nazwiska": "Komińska [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Elisabetham",
+        "rola": "Współpozwana z mężem",
+        "kwota_ctx": "Współpozwana z mężem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 66,
+    "nazwisko": "Madejski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Madeick [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Stanislaus Madejski [Madeick?]",
+        "rola": "Pozew przeciw W. Rzepce (13 XII 1656)",
+        "kwota_ctx": "Pozew przeciw W. Rzepce (13 XII 1656)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 67,
+    "nazwisko": "Rzepka",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Laurentium Rzepka",
+        "rola": "Pozwany przez S. Madejskiego",
+        "kwota_ctx": "Pozwany przez S. Madejskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 68,
+    "nazwisko": "Rogalka",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Woźny przysięgły sądu wójtowskiego",
+    "wariant_nazwiska": "Rogala [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1656",
+        "zapis_oryginalny": "Jacobus Rogalka Bedellus",
+        "rola": "Relacja z pozwu (13 XII 1656)",
+        "kwota_ctx": "Relacja z pozwu (13 XII 1656)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #16, 1656 r.)."
+  },
+  {
+    "lp": 69,
+    "nazwisko": "Morawek",
+    "imie": "Augustyn",
+    "miejsce": "Rudki",
+    "funkcja": "Poddany / Opiekun i powód",
+    "wariant_nazwiska": "Morawek [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Augustinum Morawek [?]",
+        "rola": "Spór z W. Łysakiem o 54 fl za żyto (15 XII 1656)",
+        "kwota_ctx": "Spór z W. Łysakiem o 54 fl za żyto (15 XII 1656)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 70,
+    "nazwisko": "Łysak",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Łysak [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Albertum Łysak [?]",
+        "rola": "Pozwany o 54 fl za żyto",
+        "kwota_ctx": "Pozwany o 54 fl za żyto"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 71,
+    "nazwisko": "Młodnicka",
+    "imie": "Maryna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Protestująca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Maria Młodnicka vidua",
+        "rola": "Protestacja przeciw ślusarzowi A. Pieniążkowi",
+        "kwota_ctx": "Protestacja przeciw ślusarzowi A. Pieniążkowi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 72,
+    "nazwisko": "Pieniążek",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ślusarz / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      20
+    ],
+    "skany_roboczo": "#17, #20",
+    "min_rok": 1656,
+    "zakres_lat": "1656–1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Andream Pieniążek senfabrum",
+        "rola": "Przedmiot protestacji M. Młodnickiej",
+        "kwota_ctx": "Przedmiot protestacji M. Młodnickiej"
+      },
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Andrzej Pieniążek",
+        "rola": "Zeznanie długu 4 fl",
+        "kwota_ctx": "Zeznanie długu 4 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 73,
+    "nazwisko": "Cwik",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Cwik [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Andream Cwik [?]",
+        "rola": "Proces przeciw W. Łyckowi o 60 fl",
+        "kwota_ctx": "Proces przeciw W. Łyckowi o 60 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 74,
+    "nazwisko": "Łycek",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Łycek [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Albertum Łycek [?]",
+        "rola": "Nakaz zapłaty 60 fl",
+        "kwota_ctx": "Nakaz zapłaty 60 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 75,
+    "nazwisko": "Starzyński",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      17,
+      18,
+      40
+    ],
+    "skany_roboczo": "#17, #18, #40",
+    "min_rok": 1656,
+    "zakres_lat": "1656–1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1656",
+        "zapis_oryginalny": "Martino Starzyński",
+        "rola": "Obecny na sesji 18 XII 1656",
+        "kwota_ctx": "Obecny na sesji 18 XII 1656"
+      },
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Marcin Starzyński",
+        "rola": "Obdukcja ran Jerzego Espena",
+        "kwota_ctx": "Obdukcja ran Jerzego Espena"
+      },
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Martino Starzyński",
+        "rola": "Obecny na sesji 28 X 1658",
+        "kwota_ctx": "Obecny na sesji 28 X 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #17, 1656 r.)."
+  },
+  {
+    "lp": 76,
+    "nazwisko": "Espen",
+    "imie": "Jerzy",
+    "miejsce": "Lublin",
+    "funkcja": "Sługa J. Deserta / Protestujący",
+    "wariant_nazwiska": "Espen [?]",
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Georgius Espen [?]",
+        "rola": "Protestacja przeciw rajcy M. Sitarskiemu o pobicie (18 XII 1656)",
+        "kwota_ctx": "Protestacja przeciw rajcy M. Sitarskiemu o pobicie (18 XII 1656)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #18, 1656 r.)."
+  },
+  {
+    "lp": 77,
+    "nazwisko": "Desert",
+    "imie": "Jakub",
+    "miejsce": "Lublin",
+    "funkcja": "Mieszczanin lubelski / Pracodawca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Jacobi Deserti Civis Lublinensis",
+        "rola": "Pracodawca pobitego Jerzego Espena",
+        "kwota_ctx": "Pracodawca pobitego Jerzego Espena"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #18, 1656 r.)."
+  },
+  {
+    "lp": 78,
+    "nazwisko": "Sitarski",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Martinum Sitarski Consulem",
+        "rola": "Oskarżony o pobicie J. Espena za rozmowę po niemiecku",
+        "kwota_ctx": "Oskarżony o pobicie J. Espena za rozmowę po niemiecku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #18, 1656 r.)."
+  },
+  {
+    "lp": 79,
+    "nazwisko": "Nawrocki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Rajca kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1656,
+    "zakres_lat": "1656",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1656",
+        "zapis_oryginalny": "Stanisława Nawrockiego Rajcy",
+        "rola": "Właściciel domu, gdzie doszło do incydentu",
+        "kwota_ctx": "Właściciel domu, gdzie doszło do incydentu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #18, 1656 r.)."
+  },
+  {
+    "lp": 80,
+    "nazwisko": "Kulka",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun dóbr Jajczyków / Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Kulka",
+        "rola": "Proces i areszt przeciw T. Larkowskiemu",
+        "kwota_ctx": "Proces i areszt przeciw T. Larkowskiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 81,
+    "nazwisko": "Jajczyk",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Opiekun dóbr Jajczyków / Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Simonem Jajczyk",
+        "rola": "Proces i areszt przeciw T. Larkowskiemu",
+        "kwota_ctx": "Proces i areszt przeciw T. Larkowskiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 82,
+    "nazwisko": "Jajczyk",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły spadkodawca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Pauli Jajczyk",
+        "rola": "Zmarły ojciec podopiecznych",
+        "kwota_ctx": "Zmarły ojciec podopiecznych"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 83,
+    "nazwisko": "Larkowski",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Thomam Larkowski",
+        "rola": "Areszt na dobrach po J. Jajczyku w jego domu",
+        "kwota_ctx": "Areszt na dobrach po J. Jajczyku w jego domu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 84,
+    "nazwisko": "Tokarzyk",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Tokarzyk [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Tokarzyk [?]",
+        "rola": "Spór z T. Larkowskim",
+        "kwota_ctx": "Spór z T. Larkowskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 85,
+    "nazwisko": "Tatarczuk",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szewc / Aresztujący",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannes Tatarczuk Sutor",
+        "rola": "Areszt na osobie Szymona",
+        "kwota_ctx": "Areszt na osobie Szymona"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #19, 1657 r.)."
+  },
+  {
+    "lp": 86,
+    "nazwisko": "Tarnowczyk",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Tarnowczyk [?]",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulum Tarnowczyk [?]",
+        "rola": "Nakaz zapłaty za robotę",
+        "kwota_ctx": "Nakaz zapłaty za robotę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 87,
+    "nazwisko": "Skura",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Skóra [?]",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Skura [Skóra?]",
+        "rola": "Pozwany o najście domu M. Konięgi",
+        "kwota_ctx": "Pozwany o najście domu M. Konięgi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 88,
+    "nazwisko": "Bybina",
+    "imie": "Wdowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": "Bybina [?]",
+    "skany_list": [
+      20,
+      29
+    ],
+    "skany_roboczo": "#20, #29",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduam Bybina [?]",
+        "rola": "Spór o 12 gr za beczkę i koło",
+        "kwota_ctx": "Spór o 12 gr za beczkę i koło"
+      },
+      {
+        "skan": 29,
+        "rok": "1657",
+        "zapis_oryginalny": "Bybina [?]",
+        "rola": "Przysięga Zielińskiego o beczkę i koło",
+        "kwota_ctx": "Przysięga Zielińskiego o beczkę i koło"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 89,
+    "nazwisko": "Gabriel",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1657",
+        "zapis_oryginalny": "Pawła Gabriela",
+        "rola": "Dostawca beczki i koła",
+        "kwota_ctx": "Dostawca beczki i koła"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #20, 1657 r.)."
+  },
+  {
+    "lp": 90,
+    "nazwisko": "Jajczyk",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21,
+      29
+    ],
+    "skany_roboczo": "#21, #29",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Sebestianum Jajczyk",
+        "rola": "Dylacja w procesie z Zielińskim",
+        "kwota_ctx": "Dylacja w procesie z Zielińskim"
+      },
+      {
+        "skan": 29,
+        "rok": "1657",
+        "zapis_oryginalny": "Sebestianum Jajczyk",
+        "rola": "Nakaz zapłaty 4 fl",
+        "kwota_ctx": "Nakaz zapłaty 4 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 91,
+    "nazwisko": "Zalasek",
+    "imie": "Krzysztof",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Zaleski [?]",
+    "skany_list": [
+      21,
+      29
+    ],
+    "skany_roboczo": "#21, #29",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Christophorum Zalasek [Zaleski?]",
+        "rola": "Spór o 15 fl z 1653 r.",
+        "kwota_ctx": "Spór o 15 fl z 1653 r."
+      },
+      {
+        "skan": 29,
+        "rok": "1657",
+        "zapis_oryginalny": "Christophori Zaleski [Zalasek?]",
+        "rola": "Wdowa pozwana przez J. Zielińskiego",
+        "kwota_ctx": "Wdowa pozwana przez J. Zielińskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 92,
+    "nazwisko": "Cuda",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Ruda [?]",
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Andream Cuda [Ruda?]",
+        "rola": "Współpozwany o 15 fl",
+        "kwota_ctx": "Współpozwany o 15 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 93,
+    "nazwisko": "Brzostek",
+    "imie": "Michał",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Brzostek [?]",
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Michael Brzostek [?]",
+        "rola": "Zeznanie o bójce Jasielskiego z Sydkowicem",
+        "kwota_ctx": "Zeznanie o bójce Jasielskiego z Sydkowicem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 94,
+    "nazwisko": "Kapica",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      21
+    ],
+    "skany_roboczo": "#21",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 21,
+        "rok": "1657",
+        "zapis_oryginalny": "Adam Kapica",
+        "rola": "Drugi zaprzysiężony świadek bójki",
+        "kwota_ctx": "Drugi zaprzysiężony świadek bójki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #21, 1657 r.)."
+  },
+  {
+    "lp": 95,
+    "nazwisko": "Siedlecki",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Sieradzki [?]",
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Martinum Siedlecki [Sieradzki?]",
+        "rola": "Nakaz zwrotu lub zapłaty skóry",
+        "kwota_ctx": "Nakaz zwrotu lub zapłaty skóry"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #22, 1657 r.)."
+  },
+  {
+    "lp": 96,
+    "nazwisko": "Rzepka",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Rzepka [?]",
+    "skany_list": [
+      22,
+      23
+    ],
+    "skany_roboczo": "#22, #23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathiam Rzepka [?]",
+        "rola": "Nakaz zapłaty 5 fl",
+        "kwota_ctx": "Nakaz zapłaty 5 fl"
+      },
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Mathias Rzepka [?]",
+        "rola": "Drugi świadek przeciw Sz. Jasielskiemu",
+        "kwota_ctx": "Drugi świadek przeciw Sz. Jasielskiemu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #22, 1657 r.)."
+  },
+  {
+    "lp": 97,
+    "nazwisko": "Łycek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      22,
+      23
+    ],
+    "skany_roboczo": "#22, #23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Łycek",
+        "rola": "Spór z G. Kupką o 10 fl i żyto",
+        "kwota_ctx": "Spór z G. Kupką o 10 fl i żyto"
+      },
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Łycek",
+        "rola": "Dokończenie dekretu",
+        "kwota_ctx": "Dokończenie dekretu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #22, 1657 r.)."
+  },
+  {
+    "lp": 98,
+    "nazwisko": "Kupka",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Rzepka [?]",
+    "skany_list": [
+      22
+    ],
+    "skany_roboczo": "#22",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 22,
+        "rok": "1657",
+        "zapis_oryginalny": "Gregorium Kupka [Rzepka?]",
+        "rola": "Nakaz rozliczenia długu",
+        "kwota_ctx": "Nakaz rozliczenia długu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #22, 1657 r.)."
+  },
+  {
+    "lp": 99,
+    "nazwisko": "Delik",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Delik",
+        "rola": "Spór o żyto po 6 gr i 9 fl",
+        "kwota_ctx": "Spór o żyto po 6 gr i 9 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #23, 1657 r.)."
+  },
+  {
+    "lp": 100,
+    "nazwisko": "Satomski",
+    "imie": "Mieszkaniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Słomkowski [?]",
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Dnum Satomski [Słomkowski?]",
+        "rola": "Odesłanie sprawy do dalszego terminu",
+        "kwota_ctx": "Odesłanie sprawy do dalszego terminu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #23, 1657 r.)."
+  },
+  {
+    "lp": 101,
+    "nazwisko": "Rogalowski",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Rogalowski [?]",
+    "skany_list": [
+      23
+    ],
+    "skany_roboczo": "#23",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 23,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertus Rogalowski [?]",
+        "rola": "Zeznanie o wyzwiskach rzucanych przez Jasielskiego",
+        "kwota_ctx": "Zeznanie o wyzwiskach rzucanych przez Jasielskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #23, 1657 r.)."
+  },
+  {
+    "lp": 102,
+    "nazwisko": "Zieliński",
+    "imie": "Józef",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Zieliński [?]",
+    "skany_list": [
+      24,
+      25,
+      29
+    ],
+    "skany_roboczo": "#24, #25, #29",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Josephum Zieliński [?]",
+        "rola": "Spór z wójtem o konia kupionego za 12 fl od Bujaka",
+        "kwota_ctx": "Spór z wójtem o konia kupionego za 12 fl od Bujaka"
+      },
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Josephum Zieliński",
+        "rola": "Nakaz dopłaty 2 fl 15 gr oraz sprawa z A. Marlikiem",
+        "kwota_ctx": "Nakaz dopłaty 2 fl 15 gr oraz sprawa z A. Marlikiem"
+      },
+      {
+        "skan": 29,
+        "rok": "1657",
+        "zapis_oryginalny": "Josephum Zieliński [?]",
+        "rola": "Procesy przeciw S. Jajczykowi (4 fl), wdowie Zaleskiej i przysięga vs Bybina",
+        "kwota_ctx": "Procesy przeciw S. Jajczykowi (4 fl), wdowie Zaleskiej i przysięga vs Bybina"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 103,
+    "nazwisko": "Bujak",
+    "imie": "Sprzedawca",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sprzedawca konia",
+    "wariant_nazwiska": "Bujak [?]",
+    "skany_list": [
+      24
+    ],
+    "skany_roboczo": "#24",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 24,
+        "rok": "1657",
+        "zapis_oryginalny": "Bujaka [?]",
+        "rola": "Sprzedawca konia na jarmarku",
+        "kwota_ctx": "Sprzedawca konia na jarmarku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #24, 1657 r.)."
+  },
+  {
+    "lp": 104,
+    "nazwisko": "Łyszkowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Manifestująca",
+    "wariant_nazwiska": "Łyszkowa [?]",
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Viduae Łyszkowa [?]",
+        "rola": "Manifestacja przed Sz. Jasielskim przeciw P. Łyckowi",
+        "kwota_ctx": "Manifestacja przed Sz. Jasielskim przeciw P. Łyckowi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #25, 1657 r.)."
+  },
+  {
+    "lp": 105,
+    "nazwisko": "Kępa",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Kępa [?]",
+    "skany_list": [
+      25
+    ],
+    "skany_roboczo": "#25",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Joannem Kępa [?]",
+        "rola": "Nakaz zapłaty 2 fl czynszu",
+        "kwota_ctx": "Nakaz zapłaty 2 fl czynszu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #25, 1657 r.)."
+  },
+  {
+    "lp": 106,
+    "nazwisko": "Zielińska",
+    "imie": "Anna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Józefa / Pozwana",
+    "wariant_nazwiska": "Dzierżkowa [?]",
+    "skany_list": [
+      25,
+      36,
+      37
+    ],
+    "skany_roboczo": "#25, #36, #37",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 25,
+        "rok": "1657",
+        "zapis_oryginalny": "Annam Zielińska",
+        "rola": "Współpozwana z mężem",
+        "kwota_ctx": "Współpozwana z mężem"
+      },
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Annae Zielińska [Dzierżkowa?]",
+        "rola": "Wierzycielka 100 złp kapitału i 7 złp czynszu",
+        "kwota_ctx": "Wierzycielka 100 złp kapitału i 7 złp czynszu"
+      },
+      {
+        "skan": 37,
+        "rok": "1658",
+        "zapis_oryginalny": "Annae Zielińska",
+        "rola": "Wpis zapisu wyderkafowego",
+        "kwota_ctx": "Wpis zapisu wyderkafowego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #25, 1657 r.)."
+  },
+  {
+    "lp": 107,
+    "nazwisko": "Rogalski",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Rogalski [?]",
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1657",
+        "zapis_oryginalny": "Albertum Rogalski [?]",
+        "rola": "Spór z P. Dzierżkiem o konia i 3 grzywny",
+        "kwota_ctx": "Spór z P. Dzierżkiem o konia i 3 grzywny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #30, 1657 r.)."
+  },
+  {
+    "lp": 108,
+    "nazwisko": "Dzierżek",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Dzierżek [?]",
+    "skany_list": [
+      30,
+      32
+    ],
+    "skany_roboczo": "#30, #32",
+    "min_rok": 1657,
+    "zakres_lat": "1657–1658",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1657",
+        "zapis_oryginalny": "Petrum Dzierżek [?]",
+        "rola": "Spór o konia i 3 grzywny",
+        "kwota_ctx": "Spór o konia i 3 grzywny"
+      },
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Petrus Dzierżek [?]",
+        "rola": "Kontumacja na żądanie Żyda Michała o 20 gr",
+        "kwota_ctx": "Kontumacja na żądanie Żyda Michała o 20 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #30, 1657 r.)."
+  },
+  {
+    "lp": 109,
+    "nazwisko": "Świątek",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Świątek [?]",
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1657",
+        "zapis_oryginalny": "Laurentium Świątek [?]",
+        "rola": "Nakaz zapłaty długu",
+        "kwota_ctx": "Nakaz zapłaty długu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #30, 1657 r.)."
+  },
+  {
+    "lp": 110,
+    "nazwisko": "Kosińska",
+    "imie": "Mieszkanka",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powódka",
+    "wariant_nazwiska": "Kosińska [?]",
+    "skany_list": [
+      30
+    ],
+    "skany_roboczo": "#30",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 30,
+        "rok": "1657",
+        "zapis_oryginalny": "Kosińska [?]",
+        "rola": "Spór o półkorca żyta",
+        "kwota_ctx": "Spór o półkorca żyta"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #30, 1657 r.)."
+  },
+  {
+    "lp": 111,
+    "nazwisko": "Pyrek",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1657",
+        "zapis_oryginalny": "Paulum Pyrek",
+        "rola": "Spór z Sz. Jasielskim",
+        "kwota_ctx": "Spór z Sz. Jasielskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #31, 1657 r.)."
+  },
+  {
+    "lp": 112,
+    "nazwisko": "Kosek",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Kosek [?]",
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1657",
+        "zapis_oryginalny": "Adamum Kosek [?]",
+        "rola": "Spór z P. Tkarzem o 2 fl 15 gr za konia w Bychawie",
+        "kwota_ctx": "Spór z P. Tkarzem o 2 fl 15 gr za konia w Bychawie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #31, 1657 r.)."
+  },
+  {
+    "lp": 113,
+    "nazwisko": "Tkarz",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Tkarz [?]",
+    "skany_list": [
+      31
+    ],
+    "skany_roboczo": "#31",
+    "min_rok": 1657,
+    "zakres_lat": "1657",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 31,
+        "rok": "1657",
+        "zapis_oryginalny": "Petrum Tkarz [?]",
+        "rola": "Nakaz zapłaty 2 fl 15 gr i 18 gr",
+        "kwota_ctx": "Nakaz zapłaty 2 fl 15 gr i 18 gr"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #31, 1657 r.)."
+  },
+  {
+    "lp": 114,
+    "nazwisko": "Michał",
+    "imie": "Żyd",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wierzyciel",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      32
+    ],
+    "skany_roboczo": "#32",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Michaelis Judaei",
+        "rola": "Uzyskanie kontumacji na P. Dzierżku",
+        "kwota_ctx": "Uzyskanie kontumacji na P. Dzierżku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #32, 1658 r.)."
+  },
+  {
+    "lp": 115,
+    "nazwisko": "Kaniskowic",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Kaniskowic [?]",
+    "skany_list": [
+      32
+    ],
+    "skany_roboczo": "#32",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannem Kaniskowic [?]",
+        "rola": "Spór z Z. Dzierżkową o 6 fl",
+        "kwota_ctx": "Spór z Z. Dzierżkową o 6 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #32, 1658 r.)."
+  },
+  {
+    "lp": 116,
+    "nazwisko": "Dzierżkowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Dzierżkowa [?]",
+    "skany_list": [
+      32,
+      33
+    ],
+    "skany_roboczo": "#32, #33",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Zophiam Dzierżkowa [?]",
+        "rola": "Nakaz zapłaty 6 fl",
+        "kwota_ctx": "Nakaz zapłaty 6 fl"
+      },
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Sophiae Dzierżkowa [?]",
+        "rola": "Przysięga oraz sprzedaż części gruntu M. Koniędze",
+        "kwota_ctx": "Przysięga oraz sprzedaż części gruntu M. Koniędze"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #32, 1658 r.)."
+  },
+  {
+    "lp": 117,
+    "nazwisko": "Zota",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      32,
+      33,
+      41,
+      44,
+      49
+    ],
+    "skany_roboczo": "#32, #33, #41, #44, #49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 5,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Zota",
+        "rola": "Proces przeciw W. Sydkowicowi o 2 fl 6 gr i pobicie",
+        "kwota_ctx": "Proces przeciw W. Sydkowicowi o 2 fl 6 gr i pobicie"
+      },
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Andrzej Zota",
+        "rola": "Dokończenie dekretu z W. Sydkowicem",
+        "kwota_ctx": "Dokończenie dekretu z W. Sydkowicem"
+      },
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Zota",
+        "rola": "Proces przeciw W. Sydkowicowi",
+        "kwota_ctx": "Proces przeciw W. Sydkowicowi"
+      },
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Zota",
+        "rola": "Wyrok o 2 fl przeciw W. Sydkowicowi",
+        "kwota_ctx": "Wyrok o 2 fl przeciw W. Sydkowicowi"
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Zota",
+        "rola": "Spór z T. Zielikiem o 5 fl z zapisu Jałowieckiego",
+        "kwota_ctx": "Spór z T. Zielikiem o 5 fl z zapisu Jałowieckiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #32, 1658 r.)."
+  },
+  {
+    "lp": 118,
+    "nazwisko": "Zotowa",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Andrzeja Zoty / Powódka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      32
+    ],
+    "skany_roboczo": "#32",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 32,
+        "rok": "1658",
+        "zapis_oryginalny": "Christinam",
+        "rola": "Współpowódka przeciw W. Sydkowicowi",
+        "kwota_ctx": "Współpowódka przeciw W. Sydkowicowi"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #32, 1658 r.)."
+  },
+  {
+    "lp": 119,
+    "nazwisko": "Kopczyk",
+    "imie": "Wawrzyniec",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Kopczyk [?]",
+    "skany_list": [
+      33
+    ],
+    "skany_roboczo": "#33",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Laurentium Kopczyk [?]",
+        "rola": "Spór z wdową Z. Solarską o 2 fl z Lublina",
+        "kwota_ctx": "Spór z wdową Z. Solarską o 2 fl z Lublina"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #33, 1658 r.)."
+  },
+  {
+    "lp": 120,
+    "nazwisko": "Solarska",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Pozwana",
+    "wariant_nazwiska": "Solarska [?]",
+    "skany_list": [
+      33
+    ],
+    "skany_roboczo": "#33",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Sophiam Viduam Solarska [?]",
+        "rola": "Spór o dług z Lublina",
+        "kwota_ctx": "Spór o dług z Lublina"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #33, 1658 r.)."
+  },
+  {
+    "lp": 121,
+    "nazwisko": "Janaszkowic",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wójt kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      33,
+      39
+    ],
+    "skany_roboczo": "#33, #39",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Wojciecha Janaszkowica Wójta",
+        "rola": "Miejsce rezygnacji gruntu dla M. Konięgi",
+        "kwota_ctx": "Miejsce rezygnacji gruntu dla M. Konięgi"
+      },
+      {
+        "skan": 39,
+        "rok": "1658",
+        "zapis_oryginalny": "Wojciecha Janaszkowica",
+        "rola": "Wzmiankowany w zeznaniu P. Klisza",
+        "kwota_ctx": "Wzmiankowany w zeznaniu P. Klisza"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #33, 1658 r.)."
+  },
+  {
+    "lp": 122,
+    "nazwisko": "Dzierżek",
+    "imie": "Stefan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły ojciec Zofii",
+    "wariant_nazwiska": "Dzierżek [?]",
+    "skany_list": [
+      33
+    ],
+    "skany_roboczo": "#33",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 33,
+        "rok": "1658",
+        "zapis_oryginalny": "Stefanie Dzierżku [?]",
+        "rola": "Poprzedni właściciel sprzedanego gruntu",
+        "kwota_ctx": "Poprzedni właściciel sprzedanego gruntu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #33, 1658 r.)."
+  },
+  {
+    "lp": 123,
+    "nazwisko": "Rusarek",
+    "imie": "Jan",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Pozwany",
+    "wariant_nazwiska": "Rybak [?]",
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1658",
+        "zapis_oryginalny": "Janowi Rusarkowi [Rybakowi?]",
+        "rola": "Oskarżony o najście ogrodu i wyzwiska",
+        "kwota_ctx": "Oskarżony o najście ogrodu i wyzwiska"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #34, 1658 r.)."
+  },
+  {
+    "lp": 124,
+    "nazwisko": "Cichoń",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pisarz aktowy",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      34
+    ],
+    "skany_roboczo": "#34",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 34,
+        "rok": "1658",
+        "zapis_oryginalny": "Stanislaus Cichoń Notarius",
+        "rola": "Podpis pod protokołem z 9 IX 1658 r.",
+        "kwota_ctx": "Podpis pod protokołem z 9 IX 1658 r."
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #34, 1658 r.)."
+  },
+  {
+    "lp": 125,
+    "nazwisko": "Wróbel",
+    "imie": "Krzysztof",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1658",
+        "zapis_oryginalny": "Krzysztof Wróbel",
+        "rola": "Zeznanie o kłótni przy moście na prośbę A. Paździecha",
+        "kwota_ctx": "Zeznanie o kłótni przy moście na prośbę A. Paździecha"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #35, 1658 r.)."
+  },
+  {
+    "lp": 126,
+    "nazwisko": "Szwed",
+    "imie": "Jan",
+    "miejsce": "Kazimierz",
+    "funkcja": "Powód z Kazimierza",
+    "wariant_nazwiska": "Szwed [?]",
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannem Szwed [?]",
+        "rola": "Spór z M. Pączkiem o wóz i konie",
+        "kwota_ctx": "Spór z M. Pączkiem o wóz i konie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #35, 1658 r.)."
+  },
+  {
+    "lp": 127,
+    "nazwisko": "Pączek",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Pozwany",
+    "wariant_nazwiska": "Pączek [?]",
+    "skany_list": [
+      35
+    ],
+    "skany_roboczo": "#35",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 35,
+        "rok": "1658",
+        "zapis_oryginalny": "Martinum Pączek [?]",
+        "rola": "Pozwany o wóz i konie",
+        "kwota_ctx": "Pozwany o wóz i konie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #35, 1658 r.)."
+  },
+  {
+    "lp": 128,
+    "nazwisko": "Szafraniec",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Strona",
+    "wariant_nazwiska": "Szafrankowic",
+    "skany_list": [
+      36,
+      43,
+      49
+    ],
+    "skany_roboczo": "#36, #43, #49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Wojciech Szafraniec",
+        "rola": "Wspomniany w zapisie 30 fl",
+        "kwota_ctx": "Wspomniany w zapisie 30 fl"
+      },
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Alberto Szafraniec",
+        "rola": "Zasiadający na Sądzie Gajonym 30 X 1658",
+        "kwota_ctx": "Zasiadający na Sądzie Gajonym 30 X 1658"
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Szafrankowic Advocatum",
+        "rola": "Przewodniczenie Sądowi Gajonemu 8 XI 1658",
+        "kwota_ctx": "Przewodniczenie Sądowi Gajonemu 8 XI 1658"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #36, 1658 r.)."
+  },
+  {
+    "lp": 129,
+    "nazwisko": "Jabłoński",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      36
+    ],
+    "skany_roboczo": "#36",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Wojciech Jabłoński",
+        "rola": "Wspomniany w zapisie 30 fl",
+        "kwota_ctx": "Wspomniany w zapisie 30 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #36, 1658 r.)."
+  },
+  {
+    "lp": 130,
+    "nazwisko": "Konięgowa",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Macieja Konięgi",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      36
+    ],
+    "skany_roboczo": "#36",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 36,
+        "rok": "1658",
+        "zapis_oryginalny": "Christina",
+        "rola": "Współdłużniczka wyderkafu 100 złp",
+        "kwota_ctx": "Współdłużniczka wyderkafu 100 złp"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #36, 1658 r.)."
+  },
+  {
+    "lp": 131,
+    "nazwisko": "Dulski",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Powód",
+    "wariant_nazwiska": "Dulski [?]",
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1658",
+        "zapis_oryginalny": "Martinus Dulski [?]",
+        "rola": "Spór z M. Kudrelikiem o 15 fl z drogi do Lublina",
+        "kwota_ctx": "Spór z M. Kudrelikiem o 15 fl z drogi do Lublina"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #37, 1658 r.)."
+  },
+  {
+    "lp": 132,
+    "nazwisko": "Kudrelik",
+    "imie": "Maciej",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Przedmieszczanin / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathiam Kudrelik",
+        "rola": "Nakaz zapłaty 15 fl",
+        "kwota_ctx": "Nakaz zapłaty 15 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #37, 1658 r.)."
+  },
+  {
+    "lp": 133,
+    "nazwisko": "Kozłowski",
+    "imie": "Błażej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Kozłowski [?]",
+    "skany_list": [
+      37
+    ],
+    "skany_roboczo": "#37",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 37,
+        "rok": "1658",
+        "zapis_oryginalny": "Błażejowi Kozłowskiemu [?]",
+        "rola": "Pozwany w sprawie kradzieży na Rynku",
+        "kwota_ctx": "Pozwany w sprawie kradzieży na Rynku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #37, 1658 r.)."
+  },
+  {
+    "lp": 134,
+    "nazwisko": "Wojtek",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Wojtek [?]",
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1658",
+        "zapis_oryginalny": "Adamem Wojtkiem [?]",
+        "rola": "Spór o sukcesję po A. Kępskim i M. Karczmarzu",
+        "kwota_ctx": "Spór o sukcesję po A. Kępskim i M. Karczmarzu"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #38, 1658 r.)."
+  },
+  {
+    "lp": 135,
+    "nazwisko": "Kępski",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły spadkodawca",
+    "wariant_nazwiska": "Kępski [?]",
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1658",
+        "zapis_oryginalny": "Adama Kępskiego [?]",
+        "rola": "Spadkodawca majątku",
+        "kwota_ctx": "Spadkodawca majątku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #38, 1658 r.)."
+  },
+  {
+    "lp": 136,
+    "nazwisko": "Karczmarz",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Zmarły spadkodawca",
+    "wariant_nazwiska": "Karczmarz [?]",
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1658",
+        "zapis_oryginalny": "Macieja Karczmarza [?]",
+        "rola": "Spadkodawca majątku",
+        "kwota_ctx": "Spadkodawca majątku"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #38, 1658 r.)."
+  },
+  {
+    "lp": 137,
+    "nazwisko": "Sikor",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pisarz kraśnicki",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      38
+    ],
+    "skany_roboczo": "#38",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 38,
+        "rok": "1658",
+        "zapis_oryginalny": "Stanisława Sikora Pisarza",
+        "rola": "Właściciel rejestrów długów do rozliczenia",
+        "kwota_ctx": "Właściciel rejestrów długów do rozliczenia"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #38, 1658 r.)."
+  },
+  {
+    "lp": 138,
+    "nazwisko": "Koziarowa",
+    "imie": "Wdowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Wnioskodawczyni",
+    "wariant_nazwiska": "Koniarzowa [?]",
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1658",
+        "zapis_oryginalny": "Viduae Koziarowa [Koniarzowa?]",
+        "rola": "Zeznania świadków na jej prośbę",
+        "kwota_ctx": "Zeznania świadków na jej prośbę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #39, 1658 r.)."
+  },
+  {
+    "lp": 139,
+    "nazwisko": "Dąbek",
+    "imie": "Marcin",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Wójt przedmiejski / Świadek",
+    "wariant_nazwiska": "Dąbek [?]",
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1658",
+        "zapis_oryginalny": "Martinus Dąbek [?] Scultetus Suburbii",
+        "rola": "Zeznanie dla wdowy Koziarowej",
+        "kwota_ctx": "Zeznanie dla wdowy Koziarowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #39, 1658 r.)."
+  },
+  {
+    "lp": 140,
+    "nazwisko": "Klisz",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Kłoś [?]",
+    "skany_list": [
+      39
+    ],
+    "skany_roboczo": "#39",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 39,
+        "rok": "1658",
+        "zapis_oryginalny": "Paulus Klisz [Kłoś?]",
+        "rola": "Drugi świadek dla wdowy Koziarowej",
+        "kwota_ctx": "Drugi świadek dla wdowy Koziarowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #39, 1658 r.)."
+  },
+  {
+    "lp": 141,
+    "nazwisko": "Żywicki",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Sniechowski [?]",
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Thomam Żywicki [Sniechowski?]",
+        "rola": "Spór z W. Olęckim o 40 fl z arendy",
+        "kwota_ctx": "Spór z W. Olęckim o 40 fl z arendy"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #40, 1658 r.)."
+  },
+  {
+    "lp": 142,
+    "nazwisko": "Sołtyszczyk",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Sołtyszczyk [?]",
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Stanislaum Sołtyszczyk [?]",
+        "rola": "Nakaz zapłaty 2 fl za robotę",
+        "kwota_ctx": "Nakaz zapłaty 2 fl za robotę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #40, 1658 r.)."
+  },
+  {
+    "lp": 143,
+    "nazwisko": "Kudrelik",
+    "imie": "Wojciech",
+    "miejsce": "Przedmieście Kraśnickie",
+    "funkcja": "Powód",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      40
+    ],
+    "skany_roboczo": "#40",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 40,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Kudrelik",
+        "rola": "Spór z Sz. Jasielskim o 80 fl",
+        "kwota_ctx": "Spór z Sz. Jasielskim o 80 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #40, 1658 r.)."
+  },
+  {
+    "lp": 144,
+    "nazwisko": "Sitarska",
+    "imie": "Krystyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Manifestująca",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Christina Sitarska",
+        "rola": "Manifestacja przeciw W. Sydkowicowi o potwarz",
+        "kwota_ctx": "Manifestacja przeciw W. Sydkowicowi o potwarz"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 145,
+    "nazwisko": "Grygiel",
+    "imie": "Błażej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona w rejestrze",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Błażej Grygiel",
+        "rola": "Wpis w rejestrze spraw Sądu Gajonego",
+        "kwota_ctx": "Wpis w rejestrze spraw Sądu Gajonego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 146,
+    "nazwisko": "Łycek",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona w rejestrze",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Szymon Łycek",
+        "rola": "Sprawa z T. Dąbkiem",
+        "kwota_ctx": "Sprawa z T. Dąbkiem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 147,
+    "nazwisko": "Dąbek",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona w rejestrze",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Tomaszem Dąbkiem",
+        "rola": "Sprawa z Sz. Łyckiem",
+        "kwota_ctx": "Sprawa z Sz. Łyckiem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 148,
+    "nazwisko": "Somkowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana / Kondemnatka",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Zofija Somkowa",
+        "rola": "Kontumacja na żądanie Żyda Zeliga o 2 fl",
+        "kwota_ctx": "Kontumacja na żądanie Żyda Zeliga o 2 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 149,
+    "nazwisko": "Zelig",
+    "imie": "Żyd",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wierzyciel",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      41
+    ],
+    "skany_roboczo": "#41",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 41,
+        "rok": "1658",
+        "zapis_oryginalny": "Judaei Zelig",
+        "rola": "Uzyskanie kontumacji na Z. Somkowej",
+        "kwota_ctx": "Uzyskanie kontumacji na Z. Somkowej"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #41, 1658 r.)."
+  },
+  {
+    "lp": 150,
+    "nazwisko": "Koniński",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Powód",
+    "wariant_nazwiska": "Komiński [?]",
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1658",
+        "zapis_oryginalny": "Andream Koniński [Komiński?]",
+        "rola": "Spór z B. Bożęborskim",
+        "kwota_ctx": "Spór z B. Bożęborskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #42, 1658 r.)."
+  },
+  {
+    "lp": 151,
+    "nazwisko": "Bożęborski",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Świderski [?]",
+    "skany_list": [
+      42,
+      45
+    ],
+    "skany_roboczo": "#42, #45",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1658",
+        "zapis_oryginalny": "Bartholomaeum Bożęborski [Świderski?]",
+        "rola": "Spór z A. Konińskim",
+        "kwota_ctx": "Spór z A. Konińskim"
+      },
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Bożęborski [?]",
+        "rola": "Pozwany o 20 fl",
+        "kwota_ctx": "Pozwany o 20 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #42, 1658 r.)."
+  },
+  {
+    "lp": 152,
+    "nazwisko": "Kępa",
+    "imie": "Bartosz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wystawca zapisu",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1658",
+        "zapis_oryginalny": "Bartosza Kępy",
+        "rola": "Wzmiankowany w sporze Konińskiego",
+        "kwota_ctx": "Wzmiankowany w sporze Konińskiego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #42, 1658 r.)."
+  },
+  {
+    "lp": 153,
+    "nazwisko": "Rzepka",
+    "imie": "Wojciech",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów",
+    "wariant_nazwiska": "Rzytka [?] / Słodków [?]",
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1658",
+        "zapis_oryginalny": "Alberti Rzepka [Rzytka?] de Ślinów",
+        "rola": "Zeznania świadków na jego prośbę",
+        "kwota_ctx": "Zeznania świadków na jego prośbę"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #42, 1658 r.)."
+  },
+  {
+    "lp": 154,
+    "nazwisko": "Moskwa",
+    "imie": "Jan",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": "Słotwa [?]",
+    "skany_list": [
+      42
+    ],
+    "skany_roboczo": "#42",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 42,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannes Moskwa [Słotwa?] de Villa Ślinów",
+        "rola": "Zeznanie w sprawie W. Rzepki i J. Zajączka",
+        "kwota_ctx": "Zeznanie w sprawie W. Rzepki i J. Zajączka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #42, 1658 r.)."
+  },
+  {
+    "lp": 155,
+    "nazwisko": "Brożek",
+    "imie": "Janek",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": "Brożek [?]",
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Janek Brożek [?] de Villa Ślinów",
+        "rola": "Zeznanie dla W. Rzepki",
+        "kwota_ctx": "Zeznanie dla W. Rzepki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 156,
+    "nazwisko": "Reszka",
+    "imie": "Paweł",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Paulus Reszka de Ślinów",
+        "rola": "Trzeci świadek dla W. Rzepki",
+        "kwota_ctx": "Trzeci świadek dla W. Rzepki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 157,
+    "nazwisko": "Gąska",
+    "imie": "Andrzej",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Andreas Gąska de Ślinów",
+        "rola": "Czwarty świadek dla W. Rzepki",
+        "kwota_ctx": "Czwarty świadek dla W. Rzepki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 158,
+    "nazwisko": "Zając",
+    "imie": "Wojciech",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity / Powód",
+    "wariant_nazwiska": "Gros [?]",
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Zając [Gros?]",
+        "rola": "Spór z M. Łyckiem i K. Sosnowską",
+        "kwota_ctx": "Spór z M. Łyckiem i K. Sosnowską"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 159,
+    "nazwisko": "Łycek",
+    "imie": "Maciej",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity / Pozwany",
+    "wariant_nazwiska": "Łycek [?]",
+    "skany_list": [
+      43
+    ],
+    "skany_roboczo": "#43",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathiam Łycek [?]",
+        "rola": "Pozwany przez W. Zająca",
+        "kwota_ctx": "Pozwany przez W. Zająca"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 160,
+    "nazwisko": "Sosnowska",
+    "imie": "Katarzyna",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowita / Pozwana",
+    "wariant_nazwiska": "Sosnowska [?] / Łaśniewska [?]",
+    "skany_list": [
+      43,
+      46,
+      49
+    ],
+    "skany_roboczo": "#43, #46, #49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 43,
+        "rok": "1658",
+        "zapis_oryginalny": "Catherinam Sosnowska [?]",
+        "rola": "Pozwana przez W. Zająca",
+        "kwota_ctx": "Pozwana przez W. Zająca"
+      },
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Catherinae Sosnowska [Łaśniewska?] de Ślinów",
+        "rola": "Zeznania świadków na jej prośbę (4 XI 1658)",
+        "kwota_ctx": "Zeznania świadków na jej prośbę (4 XI 1658)"
+      },
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Catherinam Sosnowska",
+        "rola": "Pozwana wraz z mężem M. Łysakiem",
+        "kwota_ctx": "Pozwana wraz z mężem M. Łysakiem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #43, 1658 r.)."
+  },
+  {
+    "lp": 161,
+    "nazwisko": "Zdebik",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany / Kondemnat",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Jacobus Zdebik",
+        "rola": "Kontumacja na żądanie Żyda H. Kopla",
+        "kwota_ctx": "Kontumacja na żądanie Żyda H. Kopla"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #44, 1658 r.)."
+  },
+  {
+    "lp": 162,
+    "nazwisko": "Kopel",
+    "imie": "Hersz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd / Wierzyciel",
+    "wariant_nazwiska": "Herszek",
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Judaei Hersz Kopel",
+        "rola": "Uzyskanie kontumacji",
+        "kwota_ctx": "Uzyskanie kontumacji"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #44, 1658 r.)."
+  },
+  {
+    "lp": 163,
+    "nazwisko": "Pyrek",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Pyrek [?]",
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Szymonka [Szymona Pyrka?]",
+        "rola": "Spór z G. Foxem i A. Kurowicem",
+        "kwota_ctx": "Spór z G. Foxem i A. Kurowicem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #44, 1658 r.)."
+  },
+  {
+    "lp": 164,
+    "nazwisko": "Łycka",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "Łycka [?]",
+    "skany_list": [
+      44
+    ],
+    "skany_roboczo": "#44",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 44,
+        "rok": "1658",
+        "zapis_oryginalny": "Catherinam Łycka [?]",
+        "rola": "Spór z G. Foxem i A. Kurowicem",
+        "kwota_ctx": "Spór z G. Foxem i A. Kurowicem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #44, 1658 r.)."
+  },
+  {
+    "lp": 165,
+    "nazwisko": "Koniński",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Powód",
+    "wariant_nazwiska": "Komiński [?]",
+    "skany_list": [
+      45
+    ],
+    "skany_roboczo": "#45",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 45,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannes Koniński [Komiński?]",
+        "rola": "Spór z W. Olęckim o 2 grzywny",
+        "kwota_ctx": "Spór z W. Olęckim o 2 grzywny"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #45, 1658 r.)."
+  },
+  {
+    "lp": 166,
+    "nazwisko": "Rzepka",
+    "imie": "Kacper",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": "Rzepka [?]",
+    "skany_list": [
+      46
+    ],
+    "skany_roboczo": "#46",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Kacper Rzepka [?] de Villa Ślinów",
+        "rola": "Zeznanie o długu 12 fl i wozie",
+        "kwota_ctx": "Zeznanie o długu 12 fl i wozie"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #46, 1658 r.)."
+  },
+  {
+    "lp": 167,
+    "nazwisko": "Karpiński",
+    "imie": "Jan",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": "Karpiński [?]",
+    "skany_list": [
+      46,
+      47
+    ],
+    "skany_roboczo": "#46, #47",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannes Karpiński [?] de Villa Ślinów",
+        "rola": "Drugi świadek dla K. Sosnowskiej",
+        "kwota_ctx": "Drugi świadek dla K. Sosnowskiej"
+      },
+      {
+        "skan": 47,
+        "rok": "1658",
+        "zapis_oryginalny": "Jan Karpiński",
+        "rola": "Spisał rejestr śp. Tomasza Rzytki",
+        "kwota_ctx": "Spisał rejestr śp. Tomasza Rzytki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #46, 1658 r.)."
+  },
+  {
+    "lp": 168,
+    "nazwisko": "Kondlik",
+    "imie": "Stefan",
+    "miejsce": "Ślinów",
+    "funkcja": "Poddany ze wsi Ślinów",
+    "wariant_nazwiska": "Kudrelik [?]",
+    "skany_list": [
+      46,
+      47,
+      48
+    ],
+    "skany_roboczo": "#46, #47, #48",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Stefanie Kondliku [Kudreliku?]",
+        "rola": "Wzmiankowany w zeznaniach o 12 fl",
+        "kwota_ctx": "Wzmiankowany w zeznaniach o 12 fl"
+      },
+      {
+        "skan": 47,
+        "rok": "1658",
+        "zapis_oryginalny": "Stephanus Kondlik [Kudrelik?]",
+        "rola": "Trzeci świadek o testamencie T. Rzytki",
+        "kwota_ctx": "Trzeci świadek o testamencie T. Rzytki"
+      },
+      {
+        "skan": 48,
+        "rok": "1658",
+        "zapis_oryginalny": "Stefan Kondlik",
+        "rola": "Dokończenie zeznania (30 fl)",
+        "kwota_ctx": "Dokończenie zeznania (30 fl)"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #46, 1658 r.)."
+  },
+  {
+    "lp": 169,
+    "nazwisko": "Kurowski",
+    "imie": "Jan",
+    "miejsce": "Ślinów",
+    "funkcja": "Poddany ze wsi Ślinów",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      46
+    ],
+    "skany_roboczo": "#46",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 46,
+        "rok": "1658",
+        "zapis_oryginalny": "Janie Kurowskim",
+        "rola": "Wzmiankowany w zeznaniach o 12 fl",
+        "kwota_ctx": "Wzmiankowany w zeznaniach o 12 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #46, 1658 r.)."
+  },
+  {
+    "lp": 170,
+    "nazwisko": "Rzytka",
+    "imie": "Tomasz",
+    "miejsce": "Ślinów",
+    "funkcja": "Zmarły spadkodawca",
+    "wariant_nazwiska": "Rzepka [?]",
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1658",
+        "zapis_oryginalny": "Tomasza Rzytki [Rzepki?]",
+        "rola": "Wystawca rejestru długów przed śmiercią",
+        "kwota_ctx": "Wystawca rejestru długów przed śmiercią"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #47, 1658 r.)."
+  },
+  {
+    "lp": 171,
+    "nazwisko": "Kondlik",
+    "imie": "Andrzej",
+    "miejsce": "Ślinów",
+    "funkcja": "Poddany ze wsi Ślinów",
+    "wariant_nazwiska": "Kudrelik [?]",
+    "skany_list": [
+      47
+    ],
+    "skany_roboczo": "#47",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 47,
+        "rok": "1658",
+        "zapis_oryginalny": "Andrzej Kondlik [Kudrelik?]",
+        "rola": "Wzmiankowany w zeznaniu o rejestrze",
+        "kwota_ctx": "Wzmiankowany w zeznaniu o rejestrze"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #47, 1658 r.)."
+  },
+  {
+    "lp": 172,
+    "nazwisko": "Sobek",
+    "imie": "Jan",
+    "miejsce": "Ślinów",
+    "funkcja": "Poddany ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1658",
+        "zapis_oryginalny": "Joannes Sobek de Villa Ślinów",
+        "rola": "Zeznanie o zaginięciu 330 fl gotówki",
+        "kwota_ctx": "Zeznanie o zaginięciu 330 fl gotówki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #48, 1658 r.)."
+  },
+  {
+    "lp": 173,
+    "nazwisko": "Kondlik",
+    "imie": "Wojciech",
+    "miejsce": "Ślinów",
+    "funkcja": "Poddany ze wsi Ślinów",
+    "wariant_nazwiska": "Cichowicz",
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1658",
+        "zapis_oryginalny": "Wojciech Kondlik alias Cichowicz",
+        "rola": "Strata 330 fl gotówki",
+        "kwota_ctx": "Strata 330 fl gotówki"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #48, 1658 r.)."
+  },
+  {
+    "lp": 174,
+    "nazwisko": "Krawiec",
+    "imie": "Jędrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aresztowany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      48
+    ],
+    "skany_roboczo": "#48",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 48,
+        "rok": "1658",
+        "zapis_oryginalny": "Jędrzeja Krawca",
+        "rola": "Areszt w sprawie P. Kurowica i P. Szafrankowica",
+        "kwota_ctx": "Areszt w sprawie P. Kurowica i P. Szafrankowica"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #48, 1658 r.)."
+  },
+  {
+    "lp": 175,
+    "nazwisko": "Zielik",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Zielik [?]",
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Thomam Zielik [?]",
+        "rola": "Nakaz zapłaty 5 fl",
+        "kwota_ctx": "Nakaz zapłaty 5 fl"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #49, 1658 r.)."
+  },
+  {
+    "lp": 176,
+    "nazwisko": "Skrobczyk",
+    "imie": "Wojciech",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity / Powód",
+    "wariant_nazwiska": "Skrobek [?]",
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Albertum Skrobczyk [Skrobek?]",
+        "rola": "Spór z K. Sosnowską i M. Łysakiem",
+        "kwota_ctx": "Spór z K. Sosnowską i M. Łysakiem"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #49, 1658 r.)."
+  },
+  {
+    "lp": 177,
+    "nazwisko": "Skrobczykowa",
+    "imie": "Jadwiga",
+    "miejsce": "Ślinów",
+    "funkcja": "Żona W. Skrobczyka / Powódka",
+    "wariant_nazwiska": "Skrobkowa [?]",
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Hedvigim",
+        "rola": "Współpowódka",
+        "kwota_ctx": "Współpowódka"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #49, 1658 r.)."
+  },
+  {
+    "lp": 178,
+    "nazwisko": "Łysak",
+    "imie": "Maciej",
+    "miejsce": "Ślinów",
+    "funkcja": "Mąż K. Sosnowskiej / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Mathiam Łysak",
+        "rola": "Współpozwany",
+        "kwota_ctx": "Współpozwany"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #49, 1658 r.)."
+  },
+  {
+    "lp": 179,
+    "nazwisko": "Pętak",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Woźny przysięgły",
+    "wariant_nazwiska": "Pętak [?]",
+    "skany_list": [
+      49
+    ],
+    "skany_roboczo": "#49",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 49,
+        "rok": "1658",
+        "zapis_oryginalny": "Jan Pętak [?] Bedellus",
+        "rola": "Relacja woźnego",
+        "kwota_ctx": "Relacja woźnego"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #49, 1658 r.)."
+  },
+  {
+    "lp": 180,
+    "nazwisko": "Katoń",
+    "imie": "Łukasz",
+    "miejsce": "Ślinów",
+    "funkcja": "Pracowity ze wsi Ślinów / Świadek",
+    "wariant_nazwiska": "Kaczor [?]",
+    "skany_list": [
+      50
+    ],
+    "skany_roboczo": "#50",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 50,
+        "rok": "1658",
+        "zapis_oryginalny": "Łukasz Katoń [Kaczor?] de Ślinów",
+        "rola": "Zeznanie o płótnie i panu Pełczyńskim",
+        "kwota_ctx": "Zeznanie o płótnie i panu Pełczyńskim"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #50, 1658 r.)."
+  },
+  {
+    "lp": 181,
+    "nazwisko": "Pełczyński",
+    "imie": "Szlachcic",
+    "miejsce": "Ślinów",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": "Pełczyński [?]",
+    "skany_list": [
+      50
+    ],
+    "skany_roboczo": "#50",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 50,
+        "rok": "1658",
+        "zapis_oryginalny": "pana Pełczyńskiego [?]",
+        "rola": "Wzmiankowany w zeznaniu Ł. Katonia",
+        "kwota_ctx": "Wzmiankowany w zeznaniu Ł. Katonia"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #50, 1658 r.)."
+  },
+  {
+    "lp": 182,
+    "nazwisko": "Koniarski",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Syn Mariny Koniarskiej / Pozwany",
+    "wariant_nazwiska": null,
+    "skany_list": [
+      50
+    ],
+    "skany_roboczo": "#50",
+    "min_rok": 1658,
+    "zakres_lat": "1658",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 50,
+        "rok": "1658",
+        "zapis_oryginalny": "filium eius Albertum",
+        "rola": "Współpozwany z matką",
+        "kwota_ctx": "Współpozwany z matką"
+      }
+    ],
+    "notatka_biograficzna": "Osoba odnotowana w księdze wójtowsko-ławniczej Kraśnika (Jednostka 20, skan #50, 1658 r.)."
+  }
+]
