@@ -1,8 +1,8 @@
 ﻿Lp;Nazwisko;Imię;Miejsce;Funkcja społeczna / zawód;Skany źródłowe;Zakres lat;Liczba wzmianek;Warianty nazwiska
-1;Kępka;Bartłomiej;Kraśnik (Przedmieście);"Przedmieszczanin; Przedmieszczanin / Świadek";#5, #21, #47, #49;1671;4;
+1;Kępka;Bartłomiej;Kraśnik (Przedmieście);"Przedmieszczanin; Przedmieszczanin / Świadek";#5, #21, #47, #49, #64;1671–1672;5;
 2;Karczewic;Wojciech;Kraśnik;Ławnik przysięgły;#5, #21;1671;2;Karczewic [?]
-3;Smarowic;Paweł;Kraśnik;"Ławnik przysięgły; Ławnik przysięgły / Prokurator Bractwa Różańcowego";#5, #9, #12, #15, #17, #19, #20, #21, #23, #27, #30, #34, #38, #39, #49, #50;1671;16;
-4;Nawrocki;Stanisław;Kraśnik;"Sławetny / Przedmieszczanin; Stary rajca (Antiquus Consul)";#5, #9, #14, #16, #17, #18, #19, #21, #23, #24, #26, #28, #31, #33, #35, #36, #40, #41, #43, #44;1671;20;
+3;Smarowic;Paweł;Kraśnik;"Ławnik przysięgły; Ławnik przysięgły / Prokurator Bractwa Różańcowego";#5, #9, #12, #15, #17, #19, #20, #21, #23, #27, #30, #34, #38, #39, #49, #50, #61, #64, #74;1671–1672;19;
+4;Nawrocki;Stanisław;Kraśnik;"Sławetny / Przedmieszczanin; Stary rajca (Antiquus Consul)";#5, #9, #14, #16, #17, #18, #19, #21, #23, #24, #26, #28, #31, #33, #35, #36, #40, #41, #43, #44, #52, #53, #55, #58, #69;1671–1672;25;
 5;Maraszek;Antoni;Kraśnik (Przedmieście);Przedmieszczanin;#5, #21;1671;2;Maraszek [?], Augustyn Maraszek [?], Augustyn Maraszek
 6;Batusik;Maciej;Kraśnik;Ławnik przysięgły;#5;1671;1;Batusik [?], Balusik
 7;Łabędź;Jan;Kraśnik;Wzmiankowany;#5;1671;1;Łabędź [?]
@@ -14,29 +14,29 @@
 13;Partyka;Stanisław;Kraśnik;Mieszczanin / Szewc;#6, #7, #11, #22, #26;1671;5;
 14;Nogai;Wojciech;Kraśnik;Mieszczanin / Szewc;#6, #7, #8, #11, #12, #22, #23, #26;1671;8;
 15;Organowa;Łucja;Kraśnik;Żona organisty;#7, #17, #22;1671;3;
-16;Łążkowic;Augustyn;Kraśnik;"Pozwany; Szewc";#7, #9, #22, #24, #31;1671;5;Łaźkowic [?]
+16;Łążkowic;Augustyn;Kraśnik;"Pozwany; Szewc";#7, #9, #22, #24, #31, #61;1671–1672;6;Łaźkowic [?]
 17;Potocki;Wojciech;Kraśnik;Mieszczanin;#7, #8, #22, #23;1671;4;
 18;Domitek;Łukasz;Kraśnik;Mieszczanin;#7, #22;1671;2;Domitek [?]
 19;Wiatrek;Jan;Kraśnik;Mieszczanin;#7, #22;1671;2;Wiatrek [?]
 20;Grymuzyna;Regina;Kraśnik;"Żona Jana Frymusza [Grymuzy] Małboka; Żona Jana Grymuzy";#8, #22;1671;2;Frymuszowa [?], Małbokowa
 21;Grymuza;Jan;Kraśnik;Mieszczanin;#8, #17, #18, #20, #34, #37, #41;1671;7;Frymusz [?], Małbok
 22;Wygdor;[Żyd];Kraśnik;Żyd kraśnicki (obywatel);#8, #23, #29, #43;1671;4;
-23;Pieniążek;Andrzej;Kraśnik;Ślusarz (ferrifaber) / Mieszczanin;#8, #9, #23, #29, #43;1671;5;
-24;Kołodziejczyk;Błażej;Kraśnik;Ławnik przysięgły;#9, #15, #23, #30, #50;1671;5;
-25;Łeżyk;Adam;Kraśnik;Uczciwy;#9, #12, #14, #19, #23, #24, #26, #28, #36, #44, #45, #47;1671;12;Łężyk [?]
+23;Pieniążek;Andrzej;Kraśnik;Ślusarz (ferrifaber) / Mieszczanin;#8, #9, #23, #29, #43, #55, #58, #59, #60, #61;1671–1672;10;
+24;Kołodziejczyk;Błażej;Kraśnik;Ławnik przysięgły;#9, #15, #23, #30, #50, #60;1671–1672;6;
+25;Łeżyk;Adam;Kraśnik;Uczciwy;#9, #12, #14, #19, #23, #24, #26, #28, #36, #44, #45, #47, #64;1671–1672;13;Łężyk [?]
 26;Kępka;Piotr;Kraśnik;Uczciwy;#9, #23, #24, #26, #28;1671;5;
-27;Fox;Grzegorz;Kraśnik;Prokonsul / Rajca kraśnicki;#9, #10, #19, #24, #35, #43, #44;1671;7;
-28;Wiązkowic;Szymon;Kraśnik;"Burmistrz / Prokonsul kraśnicki; Rajca kraśnicki";#10, #24, #31, #32, #33, #42;1671;6;Wiaznowicz [?], Wigozkowic [?]
-29;Miecznik;Grzegorz;Kraśnik;Sławetny / Miecznik (Ensifaber);#10, #12, #16, #24, #33;1671;5;Ensifaber, Gladiator
+27;Fox;Grzegorz;Kraśnik;Prokonsul / Rajca kraśnicki;#9, #10, #19, #24, #35, #43, #44, #51, #68, #70;1671–1672;10;
+28;Wiązkowic;Szymon;Kraśnik;"Burmistrz / Prokonsul kraśnicki; Rajca kraśnicki";#10, #24, #31, #32, #33, #42, #51, #53, #54, #56;1671;10;Wiaznowicz [?], Wigozkowic [?]
+29;Miecznik;Grzegorz;Kraśnik;Sławetny / Miecznik (Ensifaber);#10, #12, #16, #24, #33, #62;1671–1672;6;Ensifaber, Gladiator
 30;Magierowski;Stanisław;Kraśnik;Uczciwy / Szewc;#10, #25;1671;2;
-31;Kępka;Matyjasz;Kraśnik;"Aktor / Powód; Strona produkująca świadków";#10, #12, #25, #26, #42, #44, #47, #49;1671;8;
+31;Kępka;Matyjasz;Kraśnik;"Aktor / Powód; Strona produkująca świadków";#10, #12, #25, #26, #42, #44, #47, #49, #64;1671–1672;9;
 32;Strowski;Aleksander;Urzędów / Budzyń;Szlachetny / Sługa Podkomorzego Koronnego;#10, #13, #25, #27;1671;4;Srowski [?]
-33;Zan;Jan;Kraśnik / Budzyń;Dzierżawca kraśnicki;#10, #25, #27;1671;3;Zamoyski [?]
+33;Zan;Jan;Kraśnik / Budzyń;Dzierżawca kraśnicki;#10, #25, #27, #58;1671;4;Zamoyski [?]
 34;Kozińska;Katarzyna;Kraśnik;Żona Pawła Kozińskiego;#11, #25;1671;2;
 35;Koziński;Paweł;Kraśnik;Uczciwy;#11, #43, #46;1671;3;
 36;Koziński;Stanisław;Kraśnik;Młodzieniec;#11, #25;1671;2;
 37;Sandomierski;Paweł;Kraśnik;Szewc;#11, #26;1671;2;
-38;Balusik;Sebastian;Kraśnik;Ławnik przysięgły;#12, #16, #17, #18, #19, #20, #27, #34, #38, #39, #49, #50;1671;12;Batusik
+38;Balusik;Sebastian;Kraśnik;Ławnik przysięgły;#12, #16, #17, #18, #19, #20, #27, #34, #38, #39, #49, #50, #51, #64;1671–1672;14;Batusik
 39;Maraszkowa;Zofia;Kraśnik (Przedmieście);Żona Augustyna Maraszka;#12, #27;1671;2;
 40;Maraszek;Augustyn;Kraśnik (Przedmieście);Przedmieszczanin;#12, #15, #27, #29;1671;4;
 41;Gromanowicz;Paweł;Kraśnik;Sławetny;#12;1671;1;Gromanowicz [?]
@@ -49,25 +49,25 @@
 48;Stolarz;Kazimierz;Kraśnik;Aktor / Powód;#14, #28, #29;1671;3;
 49;Sztymaszek;Tomasz;Kraśnik;Pozwany;#14;1671;1;Sztymaszek [?]
 50;Jasiek;Tomasz;Kraśnik;Uczciwy;#14, #29;1671;2;Jasiek [?]
-51;Kurewic;Wojciech;Kraśnik;"Sławetny / Ławnik przysięgły; Podwojci / Ławnik przysięgły";#14, #15, #16, #29, #30, #31, #38, #43, #50;1671;9;Kuzewic [?]
+51;Kurewic;Wojciech;Kraśnik;"Sławetny / Ławnik przysięgły; Podwojci / Ławnik przysięgły";#14, #15, #16, #29, #30, #31, #38, #43, #50, #51, #59, #64, #74;1671–1672;13;Kuzewic [?]
 52;Pieniążek;Jan;Kraśnik;Mieszczanin;#14;1671;1;
 53;Góralowa;[Wierzycielka];Kraśnik;Wierzycielka;#14;1671;1;Góralowa [?]
-54;Stachyra;Tomasz;Kraśnik;Pozwany;#14, #28, #29;1671;3;Stachyra [?], Starybracik [?]
+54;Stachyra;Tomasz;Kraśnik;Pozwany;#14, #28, #29, #64;1671–1672;4;Stachyra [?], Starybracik [?]
 55;Bartłomiejowic;Wojciech;Kraśnik;Furman / Uczciwy;#15;1671;1;Bartłomiejowic [?]
 56;Prepacki;Walenty;Kraśnik (okolica);Oskarżony o napaść;#15, #30;1671;2;Prepacki [?], Przepęcki [?]
-57;Tatar;Jakub;Kiełczowice;Pracowity ze wsi Kiełczowice;#15, #31;1671;2;
+57;Tatar;Jakub;Kiełczowice;"Pracowity ze wsi Kiełczowice; Młynarz z Kiełczowic (poddany)";#15, #31, #52;1671;3;
 58;Pałęga;Tomasz;Kraśnik;Ławnik przysięgły;#15;1671;1;
-59;Bielaszkowic;Maciej;Kraśnik;Ławnik przysięgły;#15, #16, #17, #19, #31, #32, #33, #35, #36, #40, #41, #43, #44, #45;1671;14;Matyjasz Ratuszny [alias Bielaszkowic]
+59;Bielaszkowic;Maciej;Kraśnik;Ławnik przysięgły;#15, #16, #17, #19, #31, #32, #33, #35, #36, #40, #41, #43, #44, #45, #52, #53, #54, #58;1671;18;Matyjasz Ratuszny [alias Bielaszkowic]
 60;Nawrocka;Marianna;Kraśnik;Żona Stanisława Nawrockiego (brzemienna);#16, #32;1671;2;
 61;Dubielowic;Michał;Kraśnik;Burmistrz kraśnicki (Mercipotus);#16, #32;1671;2;
 62;Dębski;Maciej;Kraśnik;Mieszczanin / Sprzedawca;#16;1671;1;Dębski [?]
 63;Szafrańcowa;[Nabywczyni];Kraśnik;Nabywczyni domu;#16;1671;1;Szafrańcowa [?]
-64;Łążkowic;Tomasz;Kraśnik;"Mieszczanin; Mieszczanin / Kuśnierz";#16, #20, #31, #37, #38, #39, #41, #47, #49, #50;1671;10;
+64;Łążkowic;Tomasz;Kraśnik;"Mieszczanin; Mieszczanin / Kuśnierz";#16, #20, #31, #37, #38, #39, #41, #47, #49, #50, #51, #54, #56;1671;13;
 65;Studiator;Andrzej;Kraśnik;Aktor / Powód;#16;1671;1;
 66;Pajorowic;Tomasz;Kraśnik;Mieszczanin;#17, #33;1671;2;Paiorowic [?]
 67;Kaczanowski;Jan;Kraśnik;Sławetny;#17;1671;1;
 68;Trojczak;Krzysztof;Kraśnik;Uczciwy;#18, #34;1671;2;
-69;Janaszkowicz;Ubald;Kraśnik;Wójt kraśnicki;#18, #31, #32;1671;3;
+69;Janaszkowicz;Ubald;Kraśnik;Wójt kraśnicki;#18, #31, #32, #51, #59, #74;1671–1672;6;
 70;Pacanowski;Łukasz;Kraśnik;Uczciwy;#18, #20, #34, #37, #39, #41, #42;1671;7;
 71;Kotowa;Maryna;Kraśnik;Uczciwa / Świadek;#18;1671;1;Kotowa [?]
 72;Żydowska;Regina;Kraśnik;Żona Żydowskiego / Świadek;#18, #35;1671;2;Żydowska [?], Jachowa
@@ -80,7 +80,7 @@
 79;Grot;Józef;Kraśnik;Mieszczanin / Protestujący;#20, #36;1671;2;
 80;Zelda;[Żyd];Kraśnik;Żyd kraśnicki (Senior);#20, #36;1671;2;Herszowic
 81;Skórzynka;Maryna;Kraśnik;Świadek;#20, #37;1671;2;
-82;Stryczkowic;Grzegorz;Kraśnik;"Strona produkująca świadków; Mieszczanin";#20, #34, #37, #42;1671;4;Stryczkowic [?], Strykowski
+82;Stryczkowic;Grzegorz;Kraśnik;"Strona produkująca świadków; Mieszczanin";#20, #34, #37, #42, #54, #60;1671–1672;6;Stryczkowic [?], Strykowski
 83;Drelik;Matyjasz;Kraśnik;Świadek;#20, #37;1671;2;
 84;Studzińska;Bartoszowa;Kraśnik;Świadek;#20, #37;1671;2;Studzińska [?]
 85;Sroka;Grzegorz;Kraśnik / Urzędów;Pozwany;#20;1671;1;
@@ -89,11 +89,11 @@
 88;Sronek;Matyjasz;Kraśnik;Uczciwy / Świadek;#28;1671;1;
 89;Kurewicowa;Elżbieta;Kraśnik;Żona Wojciecha Kurewica;#30;1671;1;
 90;Brudny;Grzegorz;Kiełczowice;Pracowity ze wsi Kiełczowice;#31;1671;1;
-91;Bieniek;Stanisław;Stróża;Pracowity ze wsi Stróża;#31;1671;1;Bieniek [?]
+91;Bieniek;Stanisław;Stróża;Pracowity ze wsi Stróża;#31, #52;1671;2;Bieniek [?]
 92;Jędrzejczyk;Szymon;Modliborzyce;Kuśnierz z Modliborzyc;#31;1671;1;
 93;Dudkowic;Wawrzyniec;Kraśnik;Mieszczanin;#31;1671;1;Dudkowic [?]
 94;Fortuna;Mikołaj;Kraśnik;Mieszczanin;#31;1671;1;
-95;Kresowski;Jan;Kraśnik;Bedel przysięgły sądu wójtowskiego;#31, #40;1671;2;
+95;Kresowski;Jan;Kraśnik;Bedel przysięgły sądu wójtowskiego;#31, #40, #52, #61;1671–1672;4;
 96;Starosta;Grzegorz;Kraśnik;Pozwany;#31;1671;1;
 97;Dubielowicowa;Anna;Kraśnik;Żona Michała Dubielowica;#32;1671;1;
 98;Solecki;Jan;Kraśnik;Malarz;#32;1671;1;
@@ -106,7 +106,7 @@
 105;Synowiec;Kazimierz;Barutkie [?];Oskarżony o pobicie;#35;1671;1;Synowiec [?]
 106;Witek;Wojciech;Kraśnik;Pracowity / Świadek;#35;1671;1;
 107;Kuśmierczanka;Wojciechowa;Kraśnik;Świadek;#36;1671;1;
-108;Feliks;[Żyd];Kraśnik;Żyd kraśnicki (incola);#36;1671;1;
+108;Feliks;[Żyd];Kraśnik;Żyd kraśnicki (incola);#36, #67, #73;1671–1672;3;
 109;Kępkowa;Jadwiga;Kraśnik;Pozwana w protestacji;#36;1671;1;
 110;Gajowczyk;Wojciech;Budzyń;Pracowity ze wsi Budzyń;#37;1671;1;
 111;Lata;Wojciech;Kraśnik;Młynarz miejski;#38;1671;1;
@@ -114,14 +114,14 @@
 113;Młynarczyk;Jakub;Kraśnik (Przedmieście);Przedmieszczanin (brat Wawrzyńca);#39, #45, #46;1671;3;
 114;Skoraczowa;Anna;Kraśnik;Siostra Wawrzyńca Młynarczyka;#39, #45, #46;1671;3;
 115;Kaczkowski;Stanisław;Kraśnik;Poprzedni posiadacz dóbr;#39;1671;1;Kaczkowski [?]
-116;Balasiona;Maryna;Kraśnik;Wdowa / Uczciwa;#40;1671;1;
-117;Szadzik;Grzegorz;Kraśnik;Mieszkaniec (incola);#40;1671;1;
-118;Grot;Jan;Kraśnik;Młodzieniec (syn Józefa, lat 19);#40;1671;1;
-119;Reszka;Stanisław;Kraśnik;Młodzieniec / Świadek;#40;1671;1;
+116;Balasiona;Maryna;Kraśnik;Wdowa / Uczciwa;#40, #66, #67, #73;1671–1672;4;Balaowa
+117;Szadzik;Grzegorz;Kraśnik;Mieszkaniec (incola);#40, #57, #67;1671–1672;3;
+118;Grot;Jan;Kraśnik;"Młodzieniec (syn Józefa, lat 19); Młodzieniec / Świadek";#40, #51;1671;2;
+119;Reszka;Stanisław;Kraśnik;Młodzieniec / Świadek;#40, #51;1671;2;
 120;Banasikowa;Jadwiga;Kraśnik;Żona Benedykta Nowaka [?];#40;1671;1;Nowaczka [?]
 121;Kępkowa;Anna;Kraśnik;Żona Matyasza Kępki;#41;1671;1;
 122;Zaziebło;Wojciech;Kraśnik;Dłużnik;#41;1671;1;Zaziebło [?]
-123;Lisek;Jakub;Kraśnik;Uczciwy / Świadek;#42;1671;1;
+123;Lisek;Jakub;Kraśnik;"Uczciwy / Świadek; Aktor / Powód";#42, #75;1671–1672;2;
 124;Gorabałka;Stanisław;Kraśnik;Uczciwy / Świadek;#42;1671;1;Gorabałka [?]
 125;Piasecka;Maryna;Kraśnik;Żona Jana Piaseckiego;#42;1671;1;
 126;Górna;Zofia;Kraśnik;Wdowa / Uczciwa;#42;1671;1;
@@ -131,7 +131,7 @@
 130;Mendel;[Żyd];Kraśnik;Żyd kraśnicki;#44;1671;1;
 131;Skoracz;Andrzej;Kraśnik;Mąż Agnieszki/Anny Skoraczowej;#45;1671;1;
 132;Jasiewicz;Sebastian;Kraśnik;"Pisarz / Dłużnik; Pisarz / Pozwany w protestacji";#45, #49, #50;1671;3;
-133;Lisowski;Wojciech;Kraśnik;Uczciwy / Świadek;#45;1671;1;
+133;Lisowski;Wojciech;Kraśnik;Uczciwy / Świadek;#45, #72;1671–1672;2;
 134;Kanaszkowa;Anna;Kraśnik;Żona Wojciecha Kanaszka [?];#45;1671;1;Kanaszek [?]
 135;Morowiecki;Florian;Kraśnik;Kantor kościoła parafialnego kraśnickiego;#46;1671;1;
 136;Kłuś;Stanisław;Kraśnik;Świadek;#46;1671;1;
@@ -140,18 +140,81 @@
 139;Świątek;[Dłużnik];Kraśnik;Pozwany;#46;1671;1;
 140;Maraszek;Bartłomiej;Kraśnik;Wzmiankowany;#47;1671;1;
 141;Andrzej;[Żyd];Kraśnik;Żyd kraśnicki;#47;1671;1;
-142;Kłopot;Bartosz;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;#47;1671;1;
-143;Kowalikówna;Zofia;Kraśnik;Wdowa / Córka Bartosza Kowalika;#48;1671;1;
+142;Kłopot;Bartosz;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;#47, #51, #62, #66, #67, #73;1671–1672;6;
+143;Kowalikówna;Zofia;Kraśnik;Wdowa / Córka Bartosza Kowalika;#48, #54, #64;1671–1672;3;
 144;Tokarz;Wojciech;Kraśnik;Świadek;#48;1671;1;
 145;Kowalik;Bartosz;Kraśnik;Mieszczanin (zmarły);#48;1671;1;
-146;Kowalik;Wawrzyniec;Kraśnik;Syn Bartosza Kowalika;#48;1671;1;
+146;Kowalik;Wawrzyniec;Kraśnik;Syn Bartosza Kowalika;#48, #54;1671;2;
 147;Madej;Paweł;Kraśnik;Uczciwy / Świadek;#48;1671;1;
-148;Abel;Andrzej;Kraśnik;Żyd kraśnicki;#48, #50;1671;2;Ablik [?]
-149;Mucha;[Pozwany];Kraśnik;Pozwany;#48;1671;1;
+148;Abel;Andrzej;Kraśnik;Żyd kraśnicki;#48, #50, #51, #54, #56;1671;5;Ablik [?], Ablik
+149;Mucha;[Pozwany];Kraśnik;Pozwany;#48, #62;1671–1672;2;Paweł Mucha [Mazurek?]
 150;Kowalikówna;Jadwiga;Kraśnik;Świadek;#49;1671;1;
 151;Kępina;Dorota;Kraśnik;Wdowa / Świadek;#49;1671;1;
 152;Sówka;Wojciech;Kraśnik;Uczciwy / Świadek;#49;1671;1;
 153;Żurkowiec;Stanisław;Biała [?];Kuśnierz ze wsi Biała;#49;1671;1;Zurkowiec [?]
 154;Barankowic;Jan;Kraśnik;Kuśnierz / Mieszczanin;#49;1671;1;
-155;Copałka;Marcin;Kraśnik;Poszkodowany;#50;1671;1;
+155;Copałka;Marcin;Kraśnik;"Poszkodowany; Aktor / Powód";#50, #52, #53;1671;3;
 156;Gielowa;Maryna;Budzyń;Żona Andrzeja Giela;#50;1671;1;
+157;Toraiecki;Andrzej;Kraśnik;Mieszczanin;#51;1671;1;Poraiecki [?]
+158;Pieniążek;Łukasz;Kraśnik;Wzmiankowany;#51;1671;1;Pieniążek [?]
+159;Babiarzczyk;Stanisław;Kraśnik;Pozwany;#52, #53;1671;2;
+160;Drzewiecki;Adam;Kiełczowice;Szlachetny / Dziedzic;#52;1671;1;
+161;Kołaczek;Ignacy;Stróża;Pomocnik;#52;1671;1;Kołaczek [?]
+162;Łaziński;Wojciech;Kraśnik;Młynarz;#52, #61;1671–1672;2;Lagiński [?]
+163;Nowaczek;Paweł;Suchynia;Pracowity ze wsi Suchynia;#53;1671;1;
+164;Berecki;Stanisław;Kraśnik;Komornik / Sługa Sz. Wiązkowica;#53, #54, #55, #56, #57;1671;5;
+165;Kalwa;Marcin;Kraśnik;Kowal / Oskarżony;#54;1671;1;
+166;Dzierżek;Piotr;Kraśnik;"Szlachetny / Sędzia; Szlachetny / Sędzia kraśnicki";#55, #58, #59, #60, #68, #75;1671–1672;6;
+167;Cieślina;Agnieszka;Kraśnik;Żona Wojciecha Cieśli;#55;1671;1;
+168;Cieśla;Wojciech;Kraśnik;Mąż Agnieszki Cieśliny;#55;1671;1;
+169;Kopel;[Starszy synagogi];Kraśnik;Starszy zboru żydowskiego;#57;1671;1;
+170;Korzennik;Heliasz;Kraśnik;Starszy zboru żydowskiego / Kupiec;#57;1671;1;
+171;Grzebuski;Jan;Kraśnik;Organista kraśnicki;#57;1671;1;
+172;Giedel;Tomasz;Dzierzkowice;Przedmieszczanin dzierzkowski;#57;1671;1;Giedel [?]
+173;Pilchowski;Wojciech;Kraśnik;Aktor / Powód (Liquifactor);#57, #58;1671;2;
+174;Słonkowski;Paweł;Kraśnik;"Pozwany / Uwolniony; Właściciel sąsiedniego placu; Świadek";#57, #58, #59, #60;1671–1672;4;Słomkowski
+175;Dużyk;Marcin;Kraśnik;Pozwany / Kontumax;#57;1671;1;Dużyk [?]
+176;Skarbek;Stanisław Sebastian;Kraśnik (okolica);Szlachetny / Opiekun małoletnich;#59;1672;1;
+177;Zająk;Wawrzyniec;Kraśnik;Mieszczanin / Poprzedni właściciel;#59;1672;1;Zając
+178;Miedowic;Paweł;Kraśnik;Pozwany;#60;1672;1;Miodowic [?]
+179;Kuśmierz;Bartosz;Kraśnik;Mieszczanin;#60;1672;1;
+180;Żydek;Wawrzyniec;Kraśnik;Krawiec (sartor);#61, #62;1672;2;
+181;Szafrankowic;Baltazar;Kraśnik;Pozwany / Kontumax;#62, #63;1672;2;Szafar [?], Szafar
+182;Grudzień;Bartłomiej;Kraśnik;Kuśnierz / Mieszczanin;#62, #63, #64;1672;3;
+183;Kowaliczek;Wawrzyniec;Kraśnik (Podlesie);Przedmieszczanin;#62, #63;1672;2;
+184;Czelew;Jan;Kraśnik;Pozwany;#63;1672;1;Czelew [?]
+185;Jędryk;Jan;Kraśnik;Zięć / Possessor sumy;#65;1672;1;Jędryk [?]
+186;Miedarczyk;Wawrzyniec;Kraśnik;Pozwany;#65;1672;1;Miedarczyk [?]
+187;Furman;Jan;Zamość;Furman z Zamościa;#65;1672;1;
+188;Moszek;[Żyd];Kraśnik / Zamość;Żyd;#65;1672;1;
+189;Świderek;[Pozwany];Kraśnik;Pozwany;#67;1672;1;Świderek [?]
+190;Czarnocki;Jan;Kraśnik;Aktor / Powód;#68;1672;1;Czarnocki [?]
+191;Wardęga;Jakub;Kraśnik / Dzierzkowice;Pozwany / Kontumax;#68;1672;1;
+192;Jajczyk;Sebastian;Kraśnik;Aktor / Powód;#68;1672;1;
+193;Kacowski;Jacek;Kraśnik;Protestujący;#69;1672;1;Kacowski [?]
+194;Pałątkowicz;Tomasz;Kraśnik;Pozwany w protestacji;#69;1672;1;Pałątkowicz [?]
+195;Zajączkowski;Tomasz;Kraśnik;Pozwany;#69;1672;1;Zajączkowski [?]
+196;Bartoszek;[Aktor];Kraśnik;Aktor / Poszkodowany;#69;1672;1;
+197;Ziębik;Wojciech;Kraśnik;Pozwany;#69, #70;1672;2;Ziębik [?]
+198;Kubica;Wojciech;Kraśnik;Wzmiankowany;#69;1672;1;Kubica [?]
+199;Sitarski;Walenty;Kraśnik;Mieszczanin / Piwowar;#71, #72;1672;2;
+200;Musza;Dawid;Kraśnik;Żyd kraśnicki;#71, #72;1672;2;
+201;Zając;Wawrzyniec;Kraśnik;Mieszczanin / Świadek;#71;1672;1;
+202;Izaak;[Żyd];Stróża;Żyd ze Stróży;#71;1672;1;
+203;Piwowar;Jędrzej;Kraśnik;Piwowar / Świadek;#72;1672;1;
+204;Pańkowa;[Wdowa];Kraśnik;Wdowa / Aktorka;#72;1672;1;Paćkowa [?]
+205;Bartkowa;Zofia;Kraśnik;Pozwana / Uwolniona;#72;1672;1;Bartkowa [?]
+206;Dudnik;Jan;Kraśnik;Wzmiankowany;#72;1672;1;Dudnik [?]
+207;Wołkowski;Grzegorz;Kraśnik;Pozwany;#73;1672;1;Wolak [?]
+208;Kutka;Jakub;Krężnica;Pracowity ze wsi Krężnica;#74;1672;1;
+209;Wierzbicki;Błażej;Krężnica;Pracowity ze wsi Krężnica;#74;1672;1;
+210;Latoszek;Stefan;Krężnica;Pracowity ze wsi Krężnica;#74;1672;1;
+211;Żabicki;[Szlachetny];Krężnica (okolica);Szlachetny (chlebodawca sprawców);#74;1672;1;
+212;Łojowski;[Szlachetny];Krężnica (okolica);Szlachetny (chlebodawca sprawców);#74;1672;1;Łojowski [?]
+213;Mosiek;[Żyd];Kraśnik;Żyd kraśnicki;#75;1672;1;
+214;Fajgiel;Wawrzyniec;Kraśnik;Winiarz;#75;1672;1;
+215;Młodnicki;[Pan];Kraśnik;Wzmiankowany;#75;1672;1;
+216;Kowalik;Matyjasz;Kraśnik;Nabywca koni;#75;1672;1;
+217;Konopacki;Wojciech;Kraśnik;Sąsiad / Świadek litkupu;#75;1672;1;
+218;Piekarski;Jakub;Kraśnik;Sąsiad / Świadek litkupu;#75;1672;1;
+219;Reszka;Wojciech;Kraśnik;Pozwany;#75;1672;1;
