@@ -1,0 +1,107 @@
+﻿Lp.;Nazwisko;Imie;Miejsce zamieszkania;Funkcja spoleczna;Warianty nazwiska;Numery skanow;Zakres lat;Liczba wystapien
+1;Kołodziejczyk;Błażej;Kraśnik;Ławnik przysięgły kraśnicki / Aktor;;#6, #8, #17, #18, #22;1656–1657;5
+2;Konięga;Maciej;Kraśnik;Ławnik przysięgły kraśnicki;;#6, #12, #20, #21, #25;1657;5
+3;Jataniec;Wojciech;Kraśnik;Mieszczanin / Wzmiankowany;Jatańczyk [?];#6;1657;1
+4;Dzierżek;Błażej;Piaski;Wzmiankowany;;#6;1657;1
+5;Dąbek;Maciej;Kraśnik;Pozwany;Bęben [?];#6;1657;1
+6;Baltazarowa;Katarzyna;Kraśnik;Instygatorka;Balcerzykowa [?];#6;1657;1
+7;Paplenik;Marcin;Kraśnik;Powód;Paplenik [?];#6;1657;1
+8;Frysiowa;Wdowa;Kraśnik;Wdowa / Pozwana;Frysiowa [?];#6;1657;1
+9;Pękowa;Anna;Kraśnik;Wdowa / Pozwana;Pękowa [?];#7;1657;1
+10;Lasek;Walenty;Kraśnik;Pozwany / Kondemnat;Łączek [?];#7;1657;1
+11;Żyłówka;Jan;Kraśnik;Powód;Kender [?];#7;1657;1
+12;Potocki;Wojciech;Kraśnik;Pozwany;;#7;1657;1
+13;Marlik;Andrzej;Kraśnik;Strona w aktach;Marlik [?];#7, #8, #25;1657;3
+14;Skwarek;Walenty;Kraśnik;Powód;Skwarek [?];#7, #8;1657;2
+15;Batusik;Wojciech;Kraśnik;Pozwany;;#7, #8;1657;2
+16;Babińczyk;Benedykt;Kraśnik;Żyd / Składający przysięgę;Babińczyk [?];#8;1657;1
+17;Dąbrowicz;Sebastian;Bielice;Pracowity / Świadek;Dąbrowicz [?];#8;1657;1
+18;Bendralik;Stanisław;Kraśnik;Wzmiankowany;;#8;1657;1
+19;Łycek;Paweł;Kraśnik;Powód;;#8, #9, #10, #25;1657;4
+20;Łycek;Mikołaj;Kraśnik;Brat Pawła Łycka / Świadek;;#8;1657;1
+21;Łyckowa;Anna;Kraśnik;Wdowa / Pozwana;;#9, #10;1657;2
+22;Pisak;Mikołaj;Kraśnik;Poszkodowany (obdukcja);Rusek [?];#9;1657;1
+23;Kurowic;Augustyn;Kraśnik;Ławnik przysięgły kraśnicki;;#9, #14, #15, #16;1656–1657;4
+24;Fox;Grzegorz;Kraśnik;Ławnik przysięgły kraśnicki;;#9, #15;1657;2
+25;Rogalowski;Jakub;Kraśnik;Właściciel domu;Rogalowski [?];#9;1657;1
+26;Lech;Jan;Kraśnik;Właściciel domu;;#9;1657;1
+27;Trela;Stanisław;Kraśnik;Powód;;#9, #10, #13;1657;3
+28;Łapczyńska;Anna;Kraśnik;Pozwana dłużniczka;Łapczyńska [?];#9, #13;1657;2
+29;Żyłówka;Anna;Kraśnik;Wdowa / Powódka;Żyłówka [?];#10;1657;1
+30;Kulka;Wojciech;Kraśnik;Pozwany;;#10;1657;1
+31;Mazur;Wojciech;Kraśnik;Pozwany;;#10, #11;1657;2
+32;Sienka;Jan;Kraśnik;Pozwany;Sienka [?];#10;1657;1
+33;Olęcki;Wojciech;Kraśnik;Mieszczanin i szewc / Świadek;;#11, #20;1657;2
+34;Sydkowic;Wawrzyniec;Kraśnik;Strona procesów;;#11, #22, #23, #24;1657;4
+35;Koniarska;Mieszkanka;Kraśnik;Powódka;Koniarska [?];#11, #12;1657;2
+36;Jasińska;Zuzanna;Kraśnik;Pozwana;Jasińska [?];#11;1657;1
+37;Jasielski;Szymon;Kraśnik;Pozwany;;#11, #21, #22, #24;1657;4
+38;Lasek;Augustyn;Kraśnik;Pozwany;Łycek [?];#11;1657;1
+39;Kuśnierz;Barbara;Kraśnik;Powódka;Kuśnierz [?];#12;1657;1
+40;Kudła;Mieszkanka;Kraśnik;Pozwana;Kudła [?];#12;1657;1
+41;Domiłek;Andrzej;Kraśnik;Powód;Domiłek [?];#13;1657;1
+42;Zielińska;Zofia;Kraśnik;Pozwana;Zielińska [?];#13;1657;1
+43;Błażejowska;Szlachcianka;Kraśnik;Powódka;Błażejowska [?];#13;1657;1
+44;Szafraniec;Adam;Kraśnik;Powód;Szafraniec [?];#13, #22;1657;2
+45;Świniarka;Mieszkanka;Kraśnik;Pozwana;Świniarka [?];#13;1657;1
+46;Buła;Jan;Kraśnik;Powód;Buła [?];#14;1657;1
+47;Olesek;Walenty;Kraśnik;Pozwany;Olesek [?];#14;1657;1
+48;Kosek;Stanisław;Kraśnik;Świadek;;#14;1657;1
+49;Jajczykówna;Zuzanna;Kraśnik;Składająca przysięgę;Jajczykówna [?];#14;1657;1
+50;Śliżanka;Katarzyna;Kraśnik;Świadek;Śliżanka [?];#14;1657;1
+51;Sitarski;Walenty;Kraśnik;Świadek;;#14;1657;1
+52;Paździech;Augustyn;Kraśnik;Świadek;Paździech [?];#14, #21;1657;2
+53;Batusik;Jan;Kraśnik;Powód;;#14;1657;1
+54;Łapka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];#14;1657;1
+55;Bogucka;Wdowa;Kraśnik;Wdowa / Pozwana;Bugajowa [?];#15;1657;1
+56;Sulski;Szlachcic;Kraśnik;Powód;Sulski [?];#15;1657;1
+57;Butek;Wojciech;Kraśnik;Pozwany / Strona;Butek [?];#15;1657;1
+58;Dolski;Marcin;Kraśnik;Szwagier / Świadek;;#15;1657;1
+59;Stochański;Mieszkaniec;Kraśnik;Powód;Stochański [?];#16;1656;1
+60;Zieliński;Grzegorz;Kraśnik;Pozwany;;#16;1656;1
+61;Kotlarek;Jan;Kraśnik;Powód;;#16;1656;1
+62;Kotlarek;Andrzej;Kraśnik;Współpowód;;#16;1656;1
+63;Kotlarka;Jadwiga;Kraśnik;Współpowódka;;#16;1656;1
+64;Koniński;Mieszkaniec;Kraśnik;Pozwany;Komiński [?];#16;1656;1
+65;Konińska;Elżbieta;Kraśnik;Żona Konińskiego / Pozwana;Komińska [?];#16;1656;1
+66;Madejski;Stanisław;Kraśnik;Powód;Madeick [?];#16;1656;1
+67;Rzepka;Wawrzyniec;Kraśnik;Pozwany;;#16;1656;1
+68;Rogalka;Jakub;Kraśnik;Woźny przysięgły sądu wójtowskiego;Rogala [?];#16;1656;1
+69;Morawek;Augustyn;Rudki;Poddany / Opiekun i powód;Morawek [?];#17;1656;1
+70;Łysak;Wojciech;Kraśnik;Pozwany;Łysak [?];#17;1656;1
+71;Młodnicka;Maryna;Kraśnik;Wdowa / Protestująca;;#17;1656;1
+72;Pieniążek;Andrzej;Kraśnik;Ślusarz / Pozwany;;#17, #20;1656–1657;2
+73;Cwik;Andrzej;Kraśnik;Powód;Cwik [?];#17;1656;1
+74;Łycek;Wojciech;Kraśnik;Pozwany;Łycek [?];#17;1656;1
+75;Starzyński;Marcin;Kraśnik;Ławnik przysięgły;;#17, #18;1656;2
+76;Espen;Jerzy;Lublin;Sługa J. Deserta / Protestujący;Espen [?];#18;1656;1
+77;Desert;Jakub;Lublin;Mieszczanin lubelski / Pracodawca;;#18;1656;1
+78;Sitarski;Marcin;Kraśnik;Rajca kraśnicki / Pozwany;;#18;1656;1
+79;Nawrocki;Stanisław;Kraśnik;Rajca kraśnicki;;#18;1656;1
+80;Kulka;Jan;Kraśnik;Opiekun dóbr Jajczyków / Powód;;#19;1657;1
+81;Jajczyk;Szymon;Kraśnik;Opiekun dóbr Jajczyków / Powód;;#19;1657;1
+82;Jajczyk;Paweł;Kraśnik;Zmarły spadkodawca;;#19;1657;1
+83;Larkowski;Tomasz;Kraśnik;Pozwany;;#19;1657;1
+84;Tokarzyk;Wojciech;Kraśnik;Powód;Tokarzyk [?];#19;1657;1
+85;Tatarczuk;Jan;Kraśnik;Szewc / Aresztujący;;#19;1657;1
+86;Tarnowczyk;Paweł;Kraśnik;Pozwany;Tarnowczyk [?];#20;1657;1
+87;Skura;Jan;Kraśnik;Pozwany;Skóra [?];#20;1657;1
+88;Bybina;Wdowa;Kraśnik;Wdowa / Pozwana;Bybina [?];#20;1657;1
+89;Gabriel;Paweł;Kraśnik;Wzmiankowany;;#20;1657;1
+90;Jajczyk;Sebastian;Kraśnik;Pozwany;;#21;1657;1
+91;Zalasek;Krzysztof;Kraśnik;Pozwany;Zaleski [?];#21;1657;1
+92;Cuda;Andrzej;Kraśnik;Pozwany;Ruda [?];#21;1657;1
+93;Brzostek;Michał;Kraśnik;Świadek;Brzostek [?];#21;1657;1
+94;Kapica;Adam;Kraśnik;Świadek;;#21;1657;1
+95;Siedlecki;Marcin;Kraśnik;Pozwany;Sieradzki [?];#22;1657;1
+96;Rzepka;Maciej;Kraśnik;Pozwany;Rzepka [?];#22, #23;1657;2
+97;Łycek;Jan;Kraśnik;Powód;;#22, #23;1657;2
+98;Kupka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];#22;1657;1
+99;Delik;Jan;Kraśnik;Powód;;#23;1657;1
+100;Satomski;Mieszkaniec;Kraśnik;Pozwany;Słomkowski [?];#23;1657;1
+101;Rogalowski;Wojciech;Kraśnik;Świadek;Rogalowski [?];#23;1657;1
+102;Zieliński;Józef;Kraśnik;Pozwany;Zieliński [?];#24, #25;1657;2
+103;Bujak;Sprzedawca;Kraśnik;Sprzedawca konia;Bujak [?];#24;1657;1
+104;Łyszkowa;Zofia;Kraśnik;Wdowa / Manifestująca;Łyszkowa [?];#25;1657;1
+105;Kępa;Jan;Kraśnik;Pozwany;Kępa [?];#25;1657;1
+106;Zielińska;Anna;Kraśnik;Żona Józefa / Pozwana;;#25;1657;1
