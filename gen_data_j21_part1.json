@@ -1,0 +1,2905 @@
+[
+  {
+    "lp": 1,
+    "nazwisko": "Kępka",
+    "imie": "Bartłomiej",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Przedmieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      5,
+      21
+    ],
+    "skany_roboczo": "#5, #21",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Bartłomiej Kępka",
+        "rola": "Poszkodowany / Zgłaszający",
+        "kwota_ctx": "Relacja ławników o szkodzie w owsie i grochu (brulion)."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Bartłomiej Kępka",
+        "rola": "Poszkodowany / Zgłaszający",
+        "kwota_ctx": "Relacja ławników o szkodzie w owsie i 24 kopach grochu (czystopis)."
+      }
+    ],
+    "notatka_biograficzna": "Bartłomiej Kępka (Kraśnik (Przedmieście)) — Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany / Zgłaszający) na skanach #5, #21."
+  },
+  {
+    "lp": 2,
+    "nazwisko": "Karczewic",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "Karczewic [?]",
+    "skany_list": [
+      5,
+      21
+    ],
+    "skany_roboczo": "#5, #21",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Karczewic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Oględziny szkody w zbożu u Bartłomieja Kępki."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Karczewic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Oględziny szkody w zbożu (czystopis)."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Karczewic (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator) na skanach #5, #21."
+  },
+  {
+    "lp": 3,
+    "nazwisko": "Smarowic",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      5,
+      9,
+      12,
+      15,
+      17,
+      19,
+      20,
+      21,
+      23
+    ],
+    "skany_roboczo": "#5, #9, #12, #15, #17, #19, #20, #21, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 9,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Relacja o szkodach w zbożu Kępki i Maraszka."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Relacja o szkodach w zbożu (czystopis)."
+      },
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Relacja ze szkody na roli Karczowskiej dla S. Nawrockiego."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Czystopis relacji dla S. Nawrockiego."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Zofii Maraszkowej 26 IX 1671 r."
+      },
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran W. Kurewica, żony i furmana."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Deputowany do wizji",
+        "kwota_ctx": "Wizja szkód w sadzie Łucji Organowej."
+      },
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran sługi Jana."
+      },
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Smarowic",
+        "rola": "Aktor / Relator",
+        "kwota_ctx": "Proces z T. Łążkowicem oraz obdukcja ran A. Giela."
+      }
+    ],
+    "notatka_biograficzna": "Paweł Smarowic (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator, Deputowany do wizji, Aktor / Relator) na skanach #5, #9, #12, #15, #17, #19, #20, #21, #23."
+  },
+  {
+    "lp": 4,
+    "nazwisko": "Nawrocki",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny / Przedmieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      5,
+      9,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24
+    ],
+    "skany_roboczo": "#5, #9, #14, #16, #17, #18, #19, #21, #23, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 10,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Pozwany",
+        "kwota_ctx": "Obwiniony przez B. Kępkę o szkody w zbożu."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Pozwany",
+        "kwota_ctx": "Obwiniony przez B. Kępkę o szkody w zbożu (czystopis)."
+      },
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Poszkodowany / Protestujący",
+        "kwota_ctx": "Skarga na A. Łeżyka i P. Kępkę o szkody w owsie, pszenicy, jęczmieniu i tatarce."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Poszkodowany / Protestujący",
+        "kwota_ctx": "Czystopis relacji i protestacji."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Protestujący",
+        "kwota_ctx": "Czystopis protestacji przeciw A. Łeżykowi i P. Kępce."
+      },
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Pozwany w protestacji",
+        "kwota_ctx": "Przedmiot protestacji Adama Łeżyka."
+      },
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Mąż poszkodowanej",
+        "kwota_ctx": "Wzmiankowany przy obdukcji żony Marianny."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Proces z M. Bielaszkowicem o zniewagi (14 X 1671 r.)."
+      },
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Strona produkująca świadków",
+        "kwota_ctx": "Przedstawił świadków w sprawie zniesławienia żony."
+      },
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Nawrocki",
+        "rola": "Pozwany w protestacji",
+        "kwota_ctx": "Pozwany przez Panów Kopców o dług lubelski."
+      }
+    ],
+    "notatka_biograficzna": "Stanisław Nawrocki (Kraśnik) — Sławetny / Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany, Poszkodowany / Protestujący, Protestujący, Pozwany w protestacji, Mąż poszkodowanej, Aktor / Powód, Strona produkująca świadków) na skanach #5, #9, #14, #16, #17, #18, #19, #21, #23, #24."
+  },
+  {
+    "lp": 5,
+    "nazwisko": "Maraszek",
+    "imie": "Antoni",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Przedmieszczanin",
+    "wariant_nazwiska": "Maraszek [?], Augustyn Maraszek [?], Augustyn Maraszek",
+    "skany_list": [
+      5,
+      21
+    ],
+    "skany_roboczo": "#5, #21",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Antoni Maraszek",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Relacja ławników o szkodzie w tatarce."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Antoni Maraszek",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Relacja ławników o szkodzie w bzie (zapis: Augustyn Maraszek)."
+      }
+    ],
+    "notatka_biograficzna": "Antoni Maraszek (Kraśnik (Przedmieście)) — Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany) na skanach #5, #21."
+  },
+  {
+    "lp": 6,
+    "nazwisko": "Batusik",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "Batusik [?], Balusik",
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Maciej Batusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Oględziny szkody na gruncie Maraszka."
+      }
+    ],
+    "notatka_biograficzna": "Maciej Batusik (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator) na skanach #5."
+  },
+  {
+    "lp": 7,
+    "nazwisko": "Łabędź",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wzmiankowany",
+    "wariant_nazwiska": "Łabędź [?]",
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Łabędź",
+        "rola": "Zgłaszający rekwizycję",
+        "kwota_ctx": "Wzmiankowany przy rekwizycji dla Maraszka."
+      }
+    ],
+    "notatka_biograficzna": "Jan Łabędź (Kraśnik) — Wzmiankowany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Zgłaszający rekwizycję) na skanach #5."
+  },
+  {
+    "lp": 8,
+    "nazwisko": "Szklarz",
+    "imie": "Kazimierz",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Przedmieszczanin",
+    "wariant_nazwiska": "Stolarz [?]",
+    "skany_list": [
+      5,
+      21
+    ],
+    "skany_roboczo": "#5, #21",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Kazimierz Szklarz",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Skarga przeciw J. Staremu alias Kowalikowi o szkodę w życie."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Kazimierz Szklarz",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Skarga przeciw J. Kowalikowi o szkodę w owsie (czystopis, poprawiony rok 1671)."
+      }
+    ],
+    "notatka_biograficzna": "Kazimierz Szklarz (Kraśnik (Przedmieście)) — Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #5, #21."
+  },
+  {
+    "lp": 9,
+    "nazwisko": "Kowalik",
+    "imie": "Jan",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Przedmieszczanin",
+    "wariant_nazwiska": "Jan Stary alias Kowalik, Jan Stary",
+    "skany_list": [
+      5,
+      21
+    ],
+    "skany_roboczo": "#5, #21",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Kowalik",
+        "rola": "Pozwany",
+        "kwota_ctx": "Pozwany przez K. Szklarza o szkody w życie."
+      },
+      {
+        "skan": 21,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Kowalik",
+        "rola": "Pozwany",
+        "kwota_ctx": "Dekret nakazujący zgodę z K. Szklarzem (czystopis)."
+      }
+    ],
+    "notatka_biograficzna": "Jan Kowalik (Kraśnik (Przedmieście)) — Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #5, #21."
+  },
+  {
+    "lp": 10,
+    "nazwisko": "Derelikowa",
+    "imie": "[Wdowa]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wdowa / Uczciwa",
+    "wariant_nazwiska": "Drelikowa, Maryna Drelikowa",
+    "skany_list": [
+      5,
+      6,
+      7,
+      12,
+      13,
+      22
+    ],
+    "skany_roboczo": "#5, #6, #7, #12, #13, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Sprawa przeciw Marcinowi Przenczkowiczowi."
+      },
+      {
+        "skan": 6,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Sprawa przeciw Marcinowej Bernatowej."
+      },
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Skarga na synów Petryka o zabicie świni cepami."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Czystopis sprawy o zabicie świni."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Pozwana",
+        "kwota_ctx": "Sprawa z Grzegorzem Łeżykiem."
+      },
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Derelikowa",
+        "rola": "Pozwana",
+        "kwota_ctx": "Skazana na wynagrodzenie szkody i przeproszenie G. Łeżyka."
+      }
+    ],
+    "notatka_biograficzna": "[Wdowa] Derelikowa (Kraśnik) — Wdowa / Uczciwa. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktorka / Powódka, Pozwana) na skanach #5, #6, #7, #12, #13, #22."
+  },
+  {
+    "lp": 11,
+    "nazwisko": "Przenczkowicz",
+    "imie": "Marcin",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Przenczkowicz [?]",
+    "skany_list": [
+      5
+    ],
+    "skany_roboczo": "#5",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 5,
+        "rok": "1671",
+        "zapis_oryginalny": "Marcin Przenczkowicz",
+        "rola": "Pozwany",
+        "kwota_ctx": "Sprawa z wdową Derelikową."
+      }
+    ],
+    "notatka_biograficzna": "Marcin Przenczkowicz (Kraśnik) — Pozwany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #5."
+  },
+  {
+    "lp": 12,
+    "nazwisko": "Bernatowa",
+    "imie": "Marcinowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Marcina Bernata",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      6
+    ],
+    "skany_roboczo": "#6",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1671",
+        "zapis_oryginalny": "Marcinowa Bernatowa",
+        "rola": "Pozwana",
+        "kwota_ctx": "Sprawa z wdową Derelikową."
+      }
+    ],
+    "notatka_biograficzna": "Marcinowa Bernatowa (Kraśnik) — Żona Marcina Bernata. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwana) na skanach #6."
+  },
+  {
+    "lp": 13,
+    "nazwisko": "Partyka",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Szewc",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      6,
+      7,
+      11,
+      22
+    ],
+    "skany_roboczo": "#6, #7, #11, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Partyka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Proces przeciw W. Nogajowi o obrazę czci."
+      },
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Partyka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Proces z W. Nogajem o zamieszanie skór oraz z W. Potockim."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Partyka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Czystopis wyroków z 16 IX 1671 r."
+      },
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Partyka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Wyrok w sporze ze szewcem W. Nogajem."
+      }
+    ],
+    "notatka_biograficzna": "Stanisław Partyka (Kraśnik) — Mieszczanin / Szewc. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #6, #7, #11, #22."
+  },
+  {
+    "lp": 14,
+    "nazwisko": "Nogai",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Szewc",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      6,
+      7,
+      8,
+      11,
+      12,
+      22,
+      23
+    ],
+    "skany_roboczo": "#6, #7, #8, #11, #12, #22, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 7,
+    "wystapienia": [
+      {
+        "skan": 6,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Pozwany",
+        "kwota_ctx": "Skazany na przeprosiny w domu aktora przy 4 świadkach."
+      },
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Pozwany",
+        "kwota_ctx": "Bronił się przed zarzutem zabrania skóry na jarmarku."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis sprawy ze S. Partyką."
+      },
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Strona produkująca świadków",
+        "kwota_ctx": "Świadkowie z jarmarku w Urzędowie na jego obronę."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Strona produkująca świadków",
+        "kwota_ctx": "Czystopis zeznań W. Potockiego dla Nogaja."
+      },
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Pozwany",
+        "kwota_ctx": "Rozstrzygnięcie sprawy o skóry."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Nogai",
+        "rola": "Skazany na przeprosiny",
+        "kwota_ctx": "Kara 10 grzywien i przeprosiny przy 6 świadkach w Zarzeczu lub przed zamkiem."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Nogai (Kraśnik) — Mieszczanin / Szewc. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany, Strona produkująca świadków, Skazany na przeprosiny) na skanach #6, #7, #8, #11, #12, #22, #23."
+  },
+  {
+    "lp": 15,
+    "nazwisko": "Organowa",
+    "imie": "Łucja",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona organisty",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      7,
+      17,
+      22
+    ],
+    "skany_roboczo": "#7, #17, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Łucja Organowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Pozwała A. Łążkowica o ucieczkę córki i zabrane fanty."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Łucja Organowa",
+        "rola": "Aktorka / Powódka",
+        "kwota_ctx": "Czystopis dekretu przeciw A. Łążkowicowi."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Łucja Organowa",
+        "rola": "Poszkodowana",
+        "kwota_ctx": "Szkody w jej sadzie i ogrodzie przez świnie sąsiedzkie."
+      }
+    ],
+    "notatka_biograficzna": "Łucja Organowa (Kraśnik) — Żona organisty. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktorka / Powódka, Poszkodowana) na skanach #7, #17, #22."
+  },
+  {
+    "lp": 16,
+    "nazwisko": "Łążkowic",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Łaźkowic [?]",
+    "skany_list": [
+      7,
+      9,
+      22,
+      24
+    ],
+    "skany_roboczo": "#7, #9, #22, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Łążkowic",
+        "rola": "Pozwany",
+        "kwota_ctx": "Nakaz przysięgi oczyszczającej w sprawie córki i fantów."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Łążkowic",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis nakazu przysięgi."
+      },
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Łążkowic",
+        "rola": "Pozwany",
+        "kwota_ctx": "Sprawy z organistą i Bractwem Różańcowym."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Łążkowic",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis dekretu z organistą."
+      }
+    ],
+    "notatka_biograficzna": "Augustyn Łążkowic (Kraśnik) — Pozwany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #7, #9, #22, #24."
+  },
+  {
+    "lp": 17,
+    "nazwisko": "Potocki",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      7,
+      8,
+      22,
+      23
+    ],
+    "skany_roboczo": "#7, #8, #22, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Potocki",
+        "rola": "Pozwany",
+        "kwota_ctx": "Nakaz stawienia się i złożenia przysięgi w sprawie S. Partyki."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Potocki",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis odroczenia dla W. Potockiego."
+      },
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Potocki",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o kłótni z szewcem z Opola i bójce Partyki z Nogajem w Urzędowie."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Potocki",
+        "rola": "Świadek",
+        "kwota_ctx": "Czystopis zeznania w sprawie Partyki i Nogaja."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Potocki (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany, Świadek) na skanach #7, #8, #22, #23."
+  },
+  {
+    "lp": 18,
+    "nazwisko": "Domitek",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "Domitek [?]",
+    "skany_list": [
+      7,
+      22
+    ],
+    "skany_roboczo": "#7, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Łukasz Domitek",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Zwrot chorego konia kupionego od J. Wiatrka."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Łukasz Domitek",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Czystopis dekretu o konia."
+      }
+    ],
+    "notatka_biograficzna": "Łukasz Domitek (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #7, #22."
+  },
+  {
+    "lp": 19,
+    "nazwisko": "Wiatrek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "Wiatrek [?]",
+    "skany_list": [
+      7,
+      22
+    ],
+    "skany_roboczo": "#7, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 7,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Wiatrek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Zobowiązany przyjąć z powrotem konia i otrzymać 1 grzywnę."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Wiatrek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis dekretu o konia."
+      }
+    ],
+    "notatka_biograficzna": "Jan Wiatrek (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #7, #22."
+  },
+  {
+    "lp": 20,
+    "nazwisko": "Grymuzyna",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Jana Frymusza [Grymuzy] Małboka; Żona Jana Grymuzy",
+    "wariant_nazwiska": "Frymuszowa [?], Małbokowa",
+    "skany_list": [
+      8,
+      22
+    ],
+    "skany_roboczo": "#8, #22",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Regina Grymuzyna",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała o piciu z Nogajem i pomieszaniu skór na jarmarku w Urzędowie."
+      },
+      {
+        "skan": 22,
+        "rok": "1671",
+        "zapis_oryginalny": "Regina Grymuzyna",
+        "rola": "Świadek",
+        "kwota_ctx": "Czystopis zeznania dla W. Nogaja."
+      }
+    ],
+    "notatka_biograficzna": "Regina Grymuzyna (Kraśnik) — Żona Jana Frymusza [Grymuzy] Małboka; Żona Jana Grymuzy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #8, #22."
+  },
+  {
+    "lp": 21,
+    "nazwisko": "Grymuza",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "Frymusz [?], Małbok",
+    "skany_list": [
+      8,
+      17,
+      18,
+      20
+    ],
+    "skany_roboczo": "#8, #17, #18, #20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Grymuza",
+        "rola": "Mąż świadka",
+        "kwota_ctx": "Wzmiankowany jako mąż Reginy (zapis: Jan Frymusz Małbok)."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Grymuza",
+        "rola": "Wzmiankowany (sąsiad)",
+        "kwota_ctx": "Wzmiankowany przy wizji szkód u Łucji Organowej."
+      },
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Grymuza",
+        "rola": "Właściciel domu",
+        "kwota_ctx": "W jego domu doszło do kłótni z udziałem Ł. Pacanowskiego."
+      },
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Grymuza",
+        "rola": "Protestujący",
+        "kwota_ctx": "Protestacja przeciw Łukaszowi Pacanowskiemu."
+      }
+    ],
+    "notatka_biograficzna": "Jan Grymuza (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Mąż świadka, Wzmiankowany (sąsiad), Właściciel domu, Protestujący) na skanach #8, #17, #18, #20."
+  },
+  {
+    "lp": 22,
+    "nazwisko": "Wygdor",
+    "imie": "[Żyd]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki (obywatel)",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      8,
+      23
+    ],
+    "skany_roboczo": "#8, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Wygdor",
+        "rola": "Manifestant",
+        "kwota_ctx": "Manifestacja przeciw ślusarzowi A. Pieniążkowi o zastaw za 14 złp."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Wygdor",
+        "rola": "Manifestant",
+        "kwota_ctx": "Czystopis manifestacji przeciw A. Pieniążkowi."
+      }
+    ],
+    "notatka_biograficzna": "[Żyd] Wygdor (Kraśnik) — Żyd kraśnicki (obywatel). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Manifestant) na skanach #8, #23."
+  },
+  {
+    "lp": 23,
+    "nazwisko": "Pieniążek",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ślusarz (ferrifaber) / Mieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      8,
+      9,
+      23
+    ],
+    "skany_roboczo": "#8, #9, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 8,
+        "rok": "1671",
+        "zapis_oryginalny": "Andrzej Pieniążek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Zastawił u Żyda Wygdora pierścień i narzędzia za 14 złp."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Andrzej Pieniążek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis manifestacji przeciw A. Pieniążkowi."
+      },
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Andrzej Pieniążek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Nakaz wykupu lub urzędowej taksy zastawionych rzeczy."
+      }
+    ],
+    "notatka_biograficzna": "Andrzej Pieniążek (Kraśnik) — Ślusarz (ferrifaber) / Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #8, #9, #23."
+  },
+  {
+    "lp": 24,
+    "nazwisko": "Kołodziejczyk",
+    "imie": "Błażej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      9,
+      15,
+      23
+    ],
+    "skany_roboczo": "#9, #15, #23",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Błażej Kołodziejczyk",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Relacja ze szkody w zbożu na roli Karczowskiej dla S. Nawrockiego."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Błażej Kołodziejczyk",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Czystopis relacji dla S. Nawrockiego."
+      },
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Błażej Kołodziejczyk",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran W. Kurewica, żony i furmana."
+      }
+    ],
+    "notatka_biograficzna": "Błażej Kołodziejczyk (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator) na skanach #9, #15, #23."
+  },
+  {
+    "lp": 25,
+    "nazwisko": "Łeżyk",
+    "imie": "Adam",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "Łężyk [?]",
+    "skany_list": [
+      9,
+      12,
+      14,
+      19,
+      23,
+      24
+    ],
+    "skany_roboczo": "#9, #12, #14, #19, #23, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Pozwany",
+        "kwota_ctx": "Obwiniony o szkody i odbicie bydła S. Nawrockiemu."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis relacji o szkodzie na niwie krakowskiej."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis protestacji S. Nawrockiego."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Pozwany",
+        "kwota_ctx": "Sprawa z M. Kępką odłożona na poniedziałek."
+      },
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Protestujący",
+        "kwota_ctx": "Protestacja przeciw Stanisławowi Nawrockiemu."
+      },
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Adam Łeżyk",
+        "rola": "Protestujący",
+        "kwota_ctx": "Protestował przeciw służącej Matłopce o obmowy i kradzież żyta."
+      }
+    ],
+    "notatka_biograficzna": "Adam Łeżyk (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany, Protestujący) na skanach #9, #12, #14, #19, #23, #24."
+  },
+  {
+    "lp": 26,
+    "nazwisko": "Kępka",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      9,
+      23,
+      24
+    ],
+    "skany_roboczo": "#9, #23, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Piotr Kępka",
+        "rola": "Pozwany",
+        "kwota_ctx": "Współobwiniony z A. Łeżykiem o szkody u S. Nawrockiego."
+      },
+      {
+        "skan": 23,
+        "rok": "1671",
+        "zapis_oryginalny": "Piotr Kępka",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis relacji o szkodzie."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Piotr Kępka",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis protestacji S. Nawrockiego."
+      }
+    ],
+    "notatka_biograficzna": "Piotr Kępka (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #9, #23, #24."
+  },
+  {
+    "lp": 27,
+    "nazwisko": "Fox",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Prokonsul / Rajca kraśnicki",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      9,
+      10,
+      19,
+      24
+    ],
+    "skany_roboczo": "#9, #10, #19, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 9,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Fox",
+        "rola": "Dłużnik",
+        "kwota_ctx": "Uznał dług 30 złp na rzecz Bractwa Różańcowego."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Fox",
+        "rola": "Dłużnik",
+        "kwota_ctx": "W czystopisie uznał dług 60 złp (dopisane 65 złp) Bractwu Różańcowemu."
+      },
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Fox",
+        "rola": "Dłużnik",
+        "kwota_ctx": "Termin spłaty długu w roku 1672."
+      },
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Fox",
+        "rola": "Zgłaszający obdukcję",
+        "kwota_ctx": "Zgłosił obdukcję ran swojego sługi Jana (17 X 1671 r.)."
+      }
+    ],
+    "notatka_biograficzna": "Grzegorz Fox (Kraśnik) — Prokonsul / Rajca kraśnicki. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Dłużnik, Zgłaszający obdukcję) na skanach #9, #10, #19, #24."
+  },
+  {
+    "lp": 28,
+    "nazwisko": "Wiązkowic",
+    "imie": "Szymon",
+    "miejsce": "Kraśnik",
+    "funkcja": "Burmistrz / Prokonsul kraśnicki",
+    "wariant_nazwiska": "Wiaznowicz [?], Wigozkowic [?]",
+    "skany_list": [
+      10,
+      24
+    ],
+    "skany_roboczo": "#10, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Szymon Wiązkowic",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Pozwał G. Miecznika o nieoddane komorne."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Szymon Wiązkowic",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Czystopis sporu z G. Miecznikiem (zapis: Simon Wigozkowic)."
+      }
+    ],
+    "notatka_biograficzna": "Szymon Wiązkowic (Kraśnik) — Burmistrz / Prokonsul kraśnicki. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #10, #24."
+  },
+  {
+    "lp": 29,
+    "nazwisko": "Miecznik",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny / Miecznik (Ensifaber)",
+    "wariant_nazwiska": "Ensifaber, Gladiator",
+    "skany_list": [
+      10,
+      12,
+      16,
+      24
+    ],
+    "skany_roboczo": "#10, #12, #16, #24",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 4,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Miecznik",
+        "rola": "Pozwany",
+        "kwota_ctx": "Pozwany przez burmistrza o zaległe komorne."
+      },
+      {
+        "skan": 24,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Miecznik",
+        "rola": "Pozwany",
+        "kwota_ctx": "Czystopis sprawy o komorne."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Miecznik",
+        "rola": "Pozwany / Kontumax",
+        "kwota_ctx": "Kontumacja z instancji S. Wiązkowica."
+      },
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Miecznik",
+        "rola": "Pozwany",
+        "kwota_ctx": "Sprawa przeciw A. Studiatorowi."
+      }
+    ],
+    "notatka_biograficzna": "Grzegorz Miecznik (Kraśnik) — Sławetny / Miecznik (Ensifaber). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany, Pozwany / Kontumax) na skanach #10, #12, #16, #24."
+  },
+  {
+    "lp": 30,
+    "nazwisko": "Magierowski",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy / Szewc",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      10,
+      25
+    ],
+    "skany_roboczo": "#10, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Magierowski",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o jarmarku urzędowskim i zaginionej oślęcej skórze dla Partyki."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Magierowski",
+        "rola": "Świadek",
+        "kwota_ctx": "Czystopis zeznania dla S. Partyki."
+      }
+    ],
+    "notatka_biograficzna": "Stanisław Magierowski (Kraśnik) — Uczciwy / Szewc. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #10, #25."
+  },
+  {
+    "lp": 31,
+    "nazwisko": "Kępka",
+    "imie": "Matyjasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aktor / Powód",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      10,
+      12,
+      25
+    ],
+    "skany_roboczo": "#10, #12, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Matyjasz Kępka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Dekret akcesoryjny przeciw A. Łeżykowi."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Matyjasz Kępka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Czystopis dekretu akcesoryjnego przeciw A. Łeżykowi."
+      },
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Matyjasz Kępka",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Odłożenie sprawy z A. Łeżykiem."
+      }
+    ],
+    "notatka_biograficzna": "Matyjasz Kępka (Kraśnik) — Aktor / Powód. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #10, #12, #25."
+  },
+  {
+    "lp": 32,
+    "nazwisko": "Strowski",
+    "imie": "Aleksander",
+    "miejsce": "Urzędów / Budzyń",
+    "funkcja": "Szlachetny / Sługa Podkomorzego Koronnego",
+    "wariant_nazwiska": "Srowski [?]",
+    "skany_list": [
+      10,
+      13,
+      25
+    ],
+    "skany_roboczo": "#10, #13, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Aleksander Strowski",
+        "rola": "Manifestant",
+        "kwota_ctx": "Manifestacja przeciw poddanym z Budzyna (Żatkom/Łatkom) za niestawiennictwo."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Aleksander Strowski",
+        "rola": "Manifestant",
+        "kwota_ctx": "Czystopis manifestacji przeciw poddanym z Budzyna."
+      },
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Aleksander Strowski",
+        "rola": "Strona przeciwna",
+        "kwota_ctx": "Sprawa o przysięgę poddanych z Budzyna."
+      }
+    ],
+    "notatka_biograficzna": "Aleksander Strowski (Urzędów / Budzyń) — Szlachetny / Sługa Podkomorzego Koronnego. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Manifestant, Strona przeciwna) na skanach #10, #13, #25."
+  },
+  {
+    "lp": 33,
+    "nazwisko": "Zan",
+    "imie": "Jan",
+    "miejsce": "Kraśnik / Budzyń",
+    "funkcja": "Dzierżawca kraśnicki",
+    "wariant_nazwiska": "Zamoyski [?]",
+    "skany_list": [
+      10,
+      25
+    ],
+    "skany_roboczo": "#10, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 10,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Zan",
+        "rola": "Wzmiankowany (dzierżawca)",
+        "kwota_ctx": "Wzmiankowany jako dzierżawca wsi Budzyń."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Zan",
+        "rola": "Wzmiankowany (dzierżawca)",
+        "kwota_ctx": "Wzmiankowany w czystopisie jako dzierżawca."
+      }
+    ],
+    "notatka_biograficzna": "Jan Zan (Kraśnik / Budzyń) — Dzierżawca kraśnicki. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Wzmiankowany (dzierżawca)) na skanach #10, #25."
+  },
+  {
+    "lp": 34,
+    "nazwisko": "Kozińska",
+    "imie": "Katarzyna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Pawła Kozińskiego",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      11,
+      25
+    ],
+    "skany_roboczo": "#11, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Katarzyna Kozińska",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała o zajęciu wołów przez S. Nawrockiego i obronie A. Łeżyka."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Katarzyna Kozińska",
+        "rola": "Świadek",
+        "kwota_ctx": "Czystopis zeznania dla S. Nawrockiego."
+      }
+    ],
+    "notatka_biograficzna": "Katarzyna Kozińska (Kraśnik) — Żona Pawła Kozińskiego. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #11, #25."
+  },
+  {
+    "lp": 35,
+    "nazwisko": "Koziński",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Koziński",
+        "rola": "Mąż świadka",
+        "kwota_ctx": "Wzmiankowany jako mąż Katarzyny Kozińskiej."
+      }
+    ],
+    "notatka_biograficzna": "Paweł Koziński (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Mąż świadka) na skanach #11."
+  },
+  {
+    "lp": 36,
+    "nazwisko": "Koziński",
+    "imie": "Stanisław",
+    "miejsce": "Kraśnik",
+    "funkcja": "Młodzieniec",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      11,
+      25
+    ],
+    "skany_roboczo": "#11, #25",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Koziński",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o zajęciu bydła o czwartej godzinie przed dniem."
+      },
+      {
+        "skan": 25,
+        "rok": "1671",
+        "zapis_oryginalny": "Stanisław Koziński",
+        "rola": "Świadek",
+        "kwota_ctx": "Czystopis zeznania."
+      }
+    ],
+    "notatka_biograficzna": "Stanisław Koziński (Kraśnik) — Młodzieniec. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #11, #25."
+  },
+  {
+    "lp": 37,
+    "nazwisko": "Sandomierski",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Szewc",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      11
+    ],
+    "skany_roboczo": "#11",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 11,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Sandomierski",
+        "rola": "Pozwany",
+        "kwota_ctx": "Nakaz oddania bawełnicy Bractwu Różańca Świętego."
+      }
+    ],
+    "notatka_biograficzna": "Paweł Sandomierski (Kraśnik) — Szewc. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #11."
+  },
+  {
+    "lp": 38,
+    "nazwisko": "Balusik",
+    "imie": "Sebastian",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "Batusik",
+    "skany_list": [
+      12,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "skany_roboczo": "#12, #16, #17, #18, #19, #20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 6,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Zofii Maraszkowej."
+      },
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Marianny Nawrockiej."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Deputowany do wizji",
+        "kwota_ctx": "Wizja szkód w sadzie Łucji Organowej."
+      },
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Krzysztofa Trojczaka."
+      },
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran sługi Jana."
+      },
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Sebastian Balusik",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran A. Giela."
+      }
+    ],
+    "notatka_biograficzna": "Sebastian Balusik (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator, Deputowany do wizji) na skanach #12, #16, #17, #18, #19, #20."
+  },
+  {
+    "lp": 39,
+    "nazwisko": "Maraszkowa",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Żona Augustyna Maraszka",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Zofia Maraszkowa",
+        "rola": "Poszkodowana",
+        "kwota_ctx": "Obdukcja sinych ran na ramieniu od uderzenia przez Rożniatowską."
+      }
+    ],
+    "notatka_biograficzna": "Zofia Maraszkowa (Kraśnik (Przedmieście)) — Żona Augustyna Maraszka. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowana) na skanach #12."
+  },
+  {
+    "lp": 40,
+    "nazwisko": "Maraszek",
+    "imie": "Augustyn",
+    "miejsce": "Kraśnik (Przedmieście)",
+    "funkcja": "Przedmieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      12,
+      15
+    ],
+    "skany_roboczo": "#12, #15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Maraszek",
+        "rola": "Mąż poszkodowanej",
+        "kwota_ctx": "Wzmiankowany przy obdukcji żony Zofii."
+      },
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Augustyn Maraszek",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Uzyskał wyrok przeciw żonie Rożniatowskiego."
+      }
+    ],
+    "notatka_biograficzna": "Augustyn Maraszek (Kraśnik (Przedmieście)) — Przedmieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Mąż poszkodowanej, Aktor / Powód) na skanach #12, #15."
+  },
+  {
+    "lp": 41,
+    "nazwisko": "Gromanowicz",
+    "imie": "Paweł",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny",
+    "wariant_nazwiska": "Gromanowicz [?]",
+    "skany_list": [
+      12
+    ],
+    "skany_roboczo": "#12",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Paweł Gromanowicz",
+        "rola": "Właściciel domu",
+        "kwota_ctx": "W jego domu dokonano obdukcji ran Z. Maraszkowej."
+      }
+    ],
+    "notatka_biograficzna": "Paweł Gromanowicz (Kraśnik) — Sławetny. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Właściciel domu) na skanach #12."
+  },
+  {
+    "lp": 42,
+    "nazwisko": "Rożniatowska",
+    "imie": "[Żona Rożniatowskiego]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwana",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      12,
+      15
+    ],
+    "skany_roboczo": "#12, #15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Rożniatowska",
+        "rola": "Sprawczyni pobicia",
+        "kwota_ctx": "Miała wieczorem zadać rany Zofii Maraszkowej."
+      },
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Rożniatowska",
+        "rola": "Pozwana",
+        "kwota_ctx": "Skazana na przeprosiny i zwrot kosztów A. Maraszkowi."
+      }
+    ],
+    "notatka_biograficzna": "[Żona Rożniatowskiego] Rożniatowska (Kraśnik) — Pozwana. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Sprawczyni pobicia, Pozwana) na skanach #12, #15."
+  },
+  {
+    "lp": 43,
+    "nazwisko": "Łeżyk",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aktor / Powód",
+    "wariant_nazwiska": "Łeżyk [?]",
+    "skany_list": [
+      12,
+      13
+    ],
+    "skany_roboczo": "#12, #13",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 12,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Łeżyk",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Sprawa przeciw wdowie Drelikowej z synem (28 IX 1671 r.)."
+      },
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Łeżyk",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Uzyskał wyrok przeciw M. Drelikowej z synem o szkodę w owsie i jęczmieniu."
+      }
+    ],
+    "notatka_biograficzna": "Grzegorz Łeżyk (Kraśnik) — Aktor / Powód. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #12, #13."
+  },
+  {
+    "lp": 44,
+    "nazwisko": "Koźmiński",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Syn Jacka Koźmińskiego",
+    "wariant_nazwiska": "Koźmiński [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Koźmiński",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o gonieniu żony Maraszka przez Rożniatowską z kamieniem."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Koźmiński (Kraśnik) — Syn Jacka Koźmińskiego. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #13."
+  },
+  {
+    "lp": 45,
+    "nazwisko": "Łatka",
+    "imie": "Szymon",
+    "miejsce": "Budzyń",
+    "funkcja": "Pracowity / Poddany ze wsi Budzyń",
+    "wariant_nazwiska": "Zatka",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Szymon Łatka",
+        "rola": "Pozwany do przysięgi",
+        "kwota_ctx": "Gotowy do złożenia przysięgi przed dzierżawcą J. Zanem."
+      }
+    ],
+    "notatka_biograficzna": "Szymon Łatka (Budzyń) — Pracowity / Poddany ze wsi Budzyń. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany do przysięgi) na skanach #13."
+  },
+  {
+    "lp": 46,
+    "nazwisko": "Wronka",
+    "imie": "Jan",
+    "miejsce": "Budzyń",
+    "funkcja": "Pracowity / Poddany ze wsi Budzyń",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Wronka",
+        "rola": "Pozwany do przysięgi",
+        "kwota_ctx": "Gotowy do złożenia przysięgi wraz z Sz. Łatką."
+      }
+    ],
+    "notatka_biograficzna": "Jan Wronka (Budzyń) — Pracowity / Poddany ze wsi Budzyń. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany do przysięgi) na skanach #13."
+  },
+  {
+    "lp": 47,
+    "nazwisko": "Wróbel",
+    "imie": "Jakub",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy / Świadek",
+    "wariant_nazwiska": "Wróbel [?]",
+    "skany_list": [
+      13
+    ],
+    "skany_roboczo": "#13",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 13,
+        "rok": "1671",
+        "zapis_oryginalny": "Jakub Wróbel",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o oględzinach szkody w zbożu G. Łeżyka 30 IX 1671 r."
+      }
+    ],
+    "notatka_biograficzna": "Jakub Wróbel (Kraśnik) — Uczciwy / Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #13."
+  },
+  {
+    "lp": 48,
+    "nazwisko": "Stolarz",
+    "imie": "Kazimierz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aktor / Powód",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Kazimierz Stolarz",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Skarżył T. Sztymaszka o kradzież zboża ze stodoły oraz T. Stachyrę."
+      }
+    ],
+    "notatka_biograficzna": "Kazimierz Stolarz (Kraśnik) — Aktor / Powód. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #14."
+  },
+  {
+    "lp": 49,
+    "nazwisko": "Sztymaszek",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Sztymaszek [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Sztymaszek",
+        "rola": "Pozwany",
+        "kwota_ctx": "Pozwany o kradzież zboża ze stodoły K. Stolarza."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Sztymaszek (Kraśnik) — Pozwany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #14."
+  },
+  {
+    "lp": 50,
+    "nazwisko": "Jasiek",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "Jasiek [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Jasiek",
+        "rola": "Strona kwitacji",
+        "kwota_ctx": "Wzajemna kwitacja na 130 złp z W. Kurewicem w domu wójta."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Jasiek (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Strona kwitacji) na skanach #14."
+  },
+  {
+    "lp": 51,
+    "nazwisko": "Kurewic",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny / Ławnik przysięgły",
+    "wariant_nazwiska": "Kuzewic [?]",
+    "skany_list": [
+      14,
+      15,
+      16
+    ],
+    "skany_roboczo": "#14, #15, #16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Kurewic",
+        "rola": "Strona kwitacji",
+        "kwota_ctx": "Wzajemna kwitacja na 130 złp z T. Jaśkiem."
+      },
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Kurewic",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Obdukcja krwawego stłuczenia prawej ręki, żony i furmana (6 X 1671 r.)."
+      },
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Kurewic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Marianny Nawrockiej 9 X 1671 r."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Kurewic (Kraśnik) — Sławetny / Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Strona kwitacji, Poszkodowany, Ławnik / Relator) na skanach #14, #15, #16."
+  },
+  {
+    "lp": 52,
+    "nazwisko": "Pieniążek",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Pieniążek",
+        "rola": "Zastawca",
+        "kwota_ctx": "Zastawił srebro guzikowe (3 łuty próby 9) u Góralowej."
+      }
+    ],
+    "notatka_biograficzna": "Jan Pieniążek (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Zastawca) na skanach #14."
+  },
+  {
+    "lp": 53,
+    "nazwisko": "Góralowa",
+    "imie": "[Wierzycielka]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wierzycielka",
+    "wariant_nazwiska": "Góralowa [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Góralowa",
+        "rola": "Zastawniczka",
+        "kwota_ctx": "Przyjęła zastaw srebra od Jana Pieniążka."
+      }
+    ],
+    "notatka_biograficzna": "[Wierzycielka] Góralowa (Kraśnik) — Wierzycielka. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Zastawniczka) na skanach #14."
+  },
+  {
+    "lp": 54,
+    "nazwisko": "Stachyra",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "Stachyra [?]",
+    "skany_list": [
+      14
+    ],
+    "skany_roboczo": "#14",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 14,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Stachyra",
+        "rola": "Pozwany",
+        "kwota_ctx": "Pozwany przez Kazimierza Stolarza."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Stachyra (Kraśnik) — Pozwany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #14."
+  },
+  {
+    "lp": 55,
+    "nazwisko": "Bartłomiejowic",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Furman / Uczciwy",
+    "wariant_nazwiska": "Bartłomiejowic [?]",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Bartłomiejowic",
+        "rola": "Poszkodowany / Świadek",
+        "kwota_ctx": "Zeznał o napaści W. Prepackiego na gościńcu."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Bartłomiejowic (Kraśnik) — Furman / Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany / Świadek) na skanach #15."
+  },
+  {
+    "lp": 56,
+    "nazwisko": "Prepacki",
+    "imie": "Walenty",
+    "miejsce": "Kraśnik (okolica)",
+    "funkcja": "Oskarżony o napaść",
+    "wariant_nazwiska": "Prepacki [?]",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Walenty Prepacki",
+        "rola": "Sprawca napaści",
+        "kwota_ctx": "Miał napaść z towarzyszami na furmana i W. Kurewica."
+      }
+    ],
+    "notatka_biograficzna": "Walenty Prepacki (Kraśnik (okolica)) — Oskarżony o napaść. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Sprawca napaści) na skanach #15."
+  },
+  {
+    "lp": 57,
+    "nazwisko": "Tatar",
+    "imie": "Jakub",
+    "miejsce": "Kiełczowice",
+    "funkcja": "Pracowity ze wsi Kiełczowice",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Jakub Tatar",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Obdukcja ran na głowie i rękach zadanych w Kraśniku (8 X 1671 r.)."
+      }
+    ],
+    "notatka_biograficzna": "Jakub Tatar (Kiełczowice) — Pracowity ze wsi Kiełczowice. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany) na skanach #15."
+  },
+  {
+    "lp": 58,
+    "nazwisko": "Pałęga",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      15
+    ],
+    "skany_roboczo": "#15",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Pałęga",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Jakuba Tatara z Kiełczowic."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Pałęga (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator) na skanach #15."
+  },
+  {
+    "lp": 59,
+    "nazwisko": "Bielaszkowic",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Ławnik przysięgły",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      15,
+      16,
+      17
+    ],
+    "skany_roboczo": "#15, #16, #17",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 3,
+    "wystapienia": [
+      {
+        "skan": 15,
+        "rok": "1671",
+        "zapis_oryginalny": "Maciej Bielaszkowic",
+        "rola": "Ławnik / Relator",
+        "kwota_ctx": "Obdukcja ran Jakuba Tatara z Kiełczowic."
+      },
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Maciej Bielaszkowic",
+        "rola": "Oskarżony / Protestujący",
+        "kwota_ctx": "Oskarżony o pobicie M. Nawrockiej; sam złożył protestację przeciw S. Nawrockiemu."
+      },
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Maciej Bielaszkowic",
+        "rola": "Pozwany",
+        "kwota_ctx": "Proces ze S. Nawrockim o znieważenie żony."
+      }
+    ],
+    "notatka_biograficzna": "Maciej Bielaszkowic (Kraśnik) — Ławnik przysięgły. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Ławnik / Relator, Oskarżony / Protestujący, Pozwany) na skanach #15, #16, #17."
+  },
+  {
+    "lp": 60,
+    "nazwisko": "Nawrocka",
+    "imie": "Marianna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Stanisława Nawrockiego (brzemienna)",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Marianna Nawrocka",
+        "rola": "Poszkodowana",
+        "kwota_ctx": "Obdukcja krwawej rany lewej ręki i sinych razów zadanych przez M. Bielaszkowica."
+      }
+    ],
+    "notatka_biograficzna": "Marianna Nawrocka (Kraśnik) — Żona Stanisława Nawrockiego (brzemienna). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowana) na skanach #16."
+  },
+  {
+    "lp": 61,
+    "nazwisko": "Dubielowic",
+    "imie": "Michał",
+    "miejsce": "Kraśnik",
+    "funkcja": "Burmistrz kraśnicki (Mercipotus)",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Michał Dubielowic",
+        "rola": "Zeznający",
+        "kwota_ctx": "Zeznał o sprzedaży domu M. Dębskiego i Anny dla Szafrańcowej za 160 złp."
+      }
+    ],
+    "notatka_biograficzna": "Michał Dubielowic (Kraśnik) — Burmistrz kraśnicki (Mercipotus). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Zeznający) na skanach #16."
+  },
+  {
+    "lp": 62,
+    "nazwisko": "Dębski",
+    "imie": "Maciej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Sprzedawca",
+    "wariant_nazwiska": "Dębski [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Maciej Dębski",
+        "rola": "Sprzedawca",
+        "kwota_ctx": "Sprzedał dom z żoną Anną Szafrańcowej za 160 złp."
+      }
+    ],
+    "notatka_biograficzna": "Maciej Dębski (Kraśnik) — Mieszczanin / Sprzedawca. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Sprzedawca) na skanach #16."
+  },
+  {
+    "lp": 63,
+    "nazwisko": "Szafrańcowa",
+    "imie": "[Nabywczyni]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Nabywczyni domu",
+    "wariant_nazwiska": "Szafrańcowa [?]",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Szafrańcowa",
+        "rola": "Nabywczyni",
+        "kwota_ctx": "Kupiła dom od M. Dębskiego za 160 złp."
+      }
+    ],
+    "notatka_biograficzna": "[Nabywczyni] Szafrańcowa (Kraśnik) — Nabywczyni domu. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Nabywczyni) na skanach #16."
+  },
+  {
+    "lp": 64,
+    "nazwisko": "Łążkowic",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      16,
+      20
+    ],
+    "skany_roboczo": "#16, #20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Łążkowic",
+        "rola": "Wzmiankowany",
+        "kwota_ctx": "Odsyłacz do rezygnacji Tomasza Łążkowica."
+      },
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Łążkowic",
+        "rola": "Manifestant / Pozwany",
+        "kwota_ctx": "Manifestacja przeciw braciom z Urzędowa i G. Sroce; proces ze Smarowicem."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Łążkowic (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Wzmiankowany, Manifestant / Pozwany) na skanach #16, #20."
+  },
+  {
+    "lp": 65,
+    "nazwisko": "Studiator",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Aktor / Powód",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      16
+    ],
+    "skany_roboczo": "#16",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 16,
+        "rok": "1671",
+        "zapis_oryginalny": "Andrzej Studiator",
+        "rola": "Aktor / Powód",
+        "kwota_ctx": "Sprawa przeciw Grzegorzowi Miecznikowi."
+      }
+    ],
+    "notatka_biograficzna": "Andrzej Studiator (Kraśnik) — Aktor / Powód. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Powód) na skanach #16."
+  },
+  {
+    "lp": 66,
+    "nazwisko": "Pajorowic",
+    "imie": "Tomasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin",
+    "wariant_nazwiska": "Paiorowic [?]",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Tomasz Pajorowic",
+        "rola": "Wzmiankowany",
+        "kwota_ctx": "Odsyłacz do kwitacji domu Tomasza Pajorowica."
+      }
+    ],
+    "notatka_biograficzna": "Tomasz Pajorowic (Kraśnik) — Mieszczanin. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Wzmiankowany) na skanach #17."
+  },
+  {
+    "lp": 67,
+    "nazwisko": "Kaczanowski",
+    "imie": "Jan",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sławetny",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      17
+    ],
+    "skany_roboczo": "#17",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 17,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan Kaczanowski",
+        "rola": "Wzmiankowany",
+        "kwota_ctx": "Wzmiankowany w dopisku pod dekretem Nawrockiego."
+      }
+    ],
+    "notatka_biograficzna": "Jan Kaczanowski (Kraśnik) — Sławetny. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Wzmiankowany) na skanach #17."
+  },
+  {
+    "lp": 68,
+    "nazwisko": "Trojczak",
+    "imie": "Krzysztof",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Krzysztof Trojczak",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Obdukcja potłuczeń z kijów od Łukasza Pacanowskiego (16 X 1671 r.)."
+      }
+    ],
+    "notatka_biograficzna": "Krzysztof Trojczak (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany) na skanach #18."
+  },
+  {
+    "lp": 69,
+    "nazwisko": "Janaszkowicz",
+    "imie": "Ubald",
+    "miejsce": "Kraśnik",
+    "funkcja": "Wójt kraśnicki",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Ubald Janaszkowicz",
+        "rola": "Wójt (zlecający obdukcję)",
+        "kwota_ctx": "Zlecił ławnikom obdukcję ran Krzysztofa Trojczaka."
+      }
+    ],
+    "notatka_biograficzna": "Ubald Janaszkowicz (Kraśnik) — Wójt kraśnicki. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Wójt (zlecający obdukcję)) na skanach #18."
+  },
+  {
+    "lp": 70,
+    "nazwisko": "Pacanowski",
+    "imie": "Łukasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwy",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      18,
+      20
+    ],
+    "skany_roboczo": "#18, #20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 2,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Łukasz Pacanowski",
+        "rola": "Pozwany / Produkujący świadków",
+        "kwota_ctx": "Obwiniony o pobicie K. Trojczaka; przedstawił świadków z domu J. Grymuzy."
+      },
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Łukasz Pacanowski",
+        "rola": "Pozwany w protestacji",
+        "kwota_ctx": "Przedmiot protestacji J. Grymuzy."
+      }
+    ],
+    "notatka_biograficzna": "Łukasz Pacanowski (Kraśnik) — Uczciwy. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany / Produkujący świadków, Pozwany w protestacji) na skanach #18, #20."
+  },
+  {
+    "lp": 71,
+    "nazwisko": "Kotowa",
+    "imie": "Maryna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Uczciwa / Świadek",
+    "wariant_nazwiska": "Kotowa [?]",
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Maryna Kotowa",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała pod przysięgą o nieuczciwych słowach przeciw P. Nawrockiej."
+      }
+    ],
+    "notatka_biograficzna": "Maryna Kotowa (Kraśnik) — Uczciwa / Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #18."
+  },
+  {
+    "lp": 72,
+    "nazwisko": "Żydowska",
+    "imie": "Regina",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żona Żydowskiego / Świadek",
+    "wariant_nazwiska": "Żydowska [?]",
+    "skany_list": [
+      18
+    ],
+    "skany_roboczo": "#18",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 18,
+        "rok": "1671",
+        "zapis_oryginalny": "Regina Żydowska",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała pod przysięgą na rzecz Stanisława Nawrockiego."
+      }
+    ],
+    "notatka_biograficzna": "Regina Żydowska (Kraśnik) — Żona Żydowskiego / Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #18."
+  },
+  {
+    "lp": 73,
+    "nazwisko": "Jan",
+    "imie": "[Sługa Foxa]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Sługa rajcy Grzegorza Foxa",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Jan",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Obdukcja sinych i spuchłych ran na głowie i prawej ręce."
+      }
+    ],
+    "notatka_biograficzna": "[Sługa Foxa] Jan (Kraśnik) — Sługa rajcy Grzegorza Foxa. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany) na skanach #19."
+  },
+  {
+    "lp": 74,
+    "nazwisko": "Łożycki",
+    "imie": "Piotr",
+    "miejsce": "Kraśnik",
+    "funkcja": "Oskarżony o pobicie",
+    "wariant_nazwiska": "Łożycki [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Piotr Łożycki",
+        "rola": "Sprawca pobicia",
+        "kwota_ctx": "Miał pobić sługę rajcy Grzegorza Foxa."
+      }
+    ],
+    "notatka_biograficzna": "Piotr Łożycki (Kraśnik) — Oskarżony o pobicie. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Sprawca pobicia) na skanach #19."
+  },
+  {
+    "lp": 75,
+    "nazwisko": "Ratuszny",
+    "imie": "Matyjasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona produkująca świadków",
+    "wariant_nazwiska": "Ratuszny [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Matyjasz Ratuszny",
+        "rola": "Strona",
+        "kwota_ctx": "Przedstawił świadków w sprawie z P. Nawrocką (19 X 1671 r.)."
+      }
+    ],
+    "notatka_biograficzna": "Matyjasz Ratuszny (Kraśnik) — Strona produkująca świadków. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Strona) na skanach #19."
+  },
+  {
+    "lp": 76,
+    "nazwisko": "Wnuk",
+    "imie": "Wojciech",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Wojciech Wnuk",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o kłótni P. Nawrockiej z Ratuszną."
+      }
+    ],
+    "notatka_biograficzna": "Wojciech Wnuk (Kraśnik) — Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #19."
+  },
+  {
+    "lp": 77,
+    "nazwisko": "Kazimierczanka",
+    "imie": "Zofia",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Kazimierczanka [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Zofia Kazimierczanka",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała o sporze pod stodołą."
+      }
+    ],
+    "notatka_biograficzna": "Zofia Kazimierczanka (Kraśnik) — Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #19."
+  },
+  {
+    "lp": 78,
+    "nazwisko": "Matłopka",
+    "imie": "[Służąca]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Służąca (Ancilla)",
+    "wariant_nazwiska": "Matłopka [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Matłopka",
+        "rola": "Pozwana w protestacji",
+        "kwota_ctx": "Oskarżona przez A. Łeżyka o obmowy i kradzież żyta."
+      }
+    ],
+    "notatka_biograficzna": "[Służąca] Matłopka (Kraśnik) — Służąca (Ancilla). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwana w protestacji) na skanach #19."
+  },
+  {
+    "lp": 79,
+    "nazwisko": "Kopiec",
+    "imie": "[Panowie Kopcowie]",
+    "miejsce": "Kraśnik / Lublin",
+    "funkcja": "Wierzyciele",
+    "wariant_nazwiska": "Kopcowie [?]",
+    "skany_list": [
+      19
+    ],
+    "skany_roboczo": "#19",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 19,
+        "rok": "1671",
+        "zapis_oryginalny": "Kopiec",
+        "rola": "Protestujący",
+        "kwota_ctx": "Protestacja przeciw S. Nawrockiemu o dług lubelski 15 złp."
+      }
+    ],
+    "notatka_biograficzna": "[Panowie Kopcowie] Kopiec (Kraśnik / Lublin) — Wierzyciele. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Protestujący) na skanach #19."
+  },
+  {
+    "lp": 80,
+    "nazwisko": "Grot",
+    "imie": "Józef",
+    "miejsce": "Kraśnik",
+    "funkcja": "Mieszczanin / Protestujący",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Józef Grot",
+        "rola": "Aktor / Protestujący",
+        "kwota_ctx": "Proces i protestacja przeciw Żydowi Zeldzie o zastaw."
+      }
+    ],
+    "notatka_biograficzna": "Józef Grot (Kraśnik) — Mieszczanin / Protestujący. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Aktor / Protestujący) na skanach #20."
+  },
+  {
+    "lp": 81,
+    "nazwisko": "Zelda",
+    "imie": "[Żyd]",
+    "miejsce": "Kraśnik",
+    "funkcja": "Żyd kraśnicki (Senior)",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Zelda",
+        "rola": "Pozwany",
+        "kwota_ctx": "Oskarżony o zastawione rzeczy przez Józefa Grota."
+      }
+    ],
+    "notatka_biograficzna": "[Żyd] Zelda (Kraśnik) — Żyd kraśnicki (Senior). Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany) na skanach #20."
+  },
+  {
+    "lp": 82,
+    "nazwisko": "Skórzynka",
+    "imie": "Maryna",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Maryna Skórzynka",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała o wizycie Żyda Zeldy z sąsiadami w domu Grota."
+      }
+    ],
+    "notatka_biograficzna": "Maryna Skórzynka (Kraśnik) — Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #20."
+  },
+  {
+    "lp": 83,
+    "nazwisko": "Stryczkowic",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Strona produkująca świadków",
+    "wariant_nazwiska": "Stryczkowic [?]",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Stryczkowic",
+        "rola": "Strona",
+        "kwota_ctx": "Przedstawił świadków M. Drelika i B. Studzińską."
+      }
+    ],
+    "notatka_biograficzna": "Grzegorz Stryczkowic (Kraśnik) — Strona produkująca świadków. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Strona) na skanach #20."
+  },
+  {
+    "lp": 84,
+    "nazwisko": "Drelik",
+    "imie": "Matyjasz",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Matyjasz Drelik",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznał o szkodzie świń P. Pacanowskiego."
+      }
+    ],
+    "notatka_biograficzna": "Matyjasz Drelik (Kraśnik) — Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #20."
+  },
+  {
+    "lp": 85,
+    "nazwisko": "Studzińska",
+    "imie": "Bartoszowa",
+    "miejsce": "Kraśnik",
+    "funkcja": "Świadek",
+    "wariant_nazwiska": "Studzińska [?]",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Bartoszowa Studzińska",
+        "rola": "Świadek",
+        "kwota_ctx": "Zeznała o kopaniu rzepy."
+      }
+    ],
+    "notatka_biograficzna": "Bartoszowa Studzińska (Kraśnik) — Świadek. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Świadek) na skanach #20."
+  },
+  {
+    "lp": 86,
+    "nazwisko": "Sroka",
+    "imie": "Grzegorz",
+    "miejsce": "Kraśnik / Urzędów",
+    "funkcja": "Pozwany",
+    "wariant_nazwiska": "",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Grzegorz Sroka",
+        "rola": "Pozwany w manifestacji",
+        "kwota_ctx": "Współpozwany w manifestacji T. Łążkowica o majątek i pobicie."
+      }
+    ],
+    "notatka_biograficzna": "Grzegorz Sroka (Kraśnik / Urzędów) — Pozwany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Pozwany w manifestacji) na skanach #20."
+  },
+  {
+    "lp": 87,
+    "nazwisko": "Giel",
+    "imie": "Andrzej",
+    "miejsce": "Kraśnik",
+    "funkcja": "Poszkodowany",
+    "wariant_nazwiska": "Giel [?]",
+    "skany_list": [
+      20
+    ],
+    "skany_roboczo": "#20",
+    "min_rok": 1671,
+    "zakres_lat": "1671",
+    "liczba_wystapien": 1,
+    "wystapienia": [
+      {
+        "skan": 20,
+        "rok": "1671",
+        "zapis_oryginalny": "Andrzej Giel",
+        "rola": "Poszkodowany",
+        "kwota_ctx": "Obdukcja ran na głowie i piersiach od kijów."
+      }
+    ],
+    "notatka_biograficzna": "Andrzej Giel (Kraśnik) — Poszkodowany. Występuje w księdze wójtowsko-radzieckiej w latach 1671 (Poszkodowany) na skanach #20."
+  }
+]
