@@ -1,854 +1,949 @@
-﻿"Lp";"Nazwisko";"Imię";"Miejsce";"Funkcja społeczna / zawód";"Skany źródłowe";"Zakres lat";"Liczba wzmianek";"Warianty nazwiska"
-"1";"Kołodziejczyk";"Błażej";"Kraśnik";"Ławnik przysięgły kraśnicki / Aktor";"#6, #8, #17, #18, #22, #33, #49";"1656–1658";"7";""
-"2";"Konięga";"Maciej";"Kraśnik";"Ławnik przysięgły kraśnicki";"#6, #12, #20, #21, #25, #33, #36, #40, #43, #49, #57, #64, #68, #70, #73, #84, #85";"1657–1666";"17";""
-"3";"Jataniec";"Wojciech";"Kraśnik";"Mieszczanin / Wzmiankowany";"#6";"1657";"1";"Jatańczyk [?]"
-"4";"Dzierżek";"Błażej";"Piaski";"Wzmiankowany";"#6";"1657";"1";""
-"5";"Dąbek";"Maciej";"Kraśnik";"Pozwany";"#6";"1657";"1";"Bęben [?]"
-"6";"Baltazarowa";"Katarzyna";"Kraśnik";"Instygatorka";"#6";"1657";"1";"Balcerzykowa [?]"
-"7";"Paplenik";"Marcin";"Kraśnik";"Powód";"#6";"1657";"1";"Paplenik [?]"
-"8";"Frysiowa";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#6";"1657";"1";"Frysiowa [?]"
-"9";"Pękowa";"Anna";"Kraśnik";"Wdowa / Pozwana";"#7";"1657";"1";"Pękowa [?]"
-"10";"Lasek";"Walenty";"Kraśnik";"Pozwany / Kondemnat";"#7";"1657";"1";"Łączek [?]"
-"11";"Żyłówka";"Jan";"Kraśnik";"Powód";"#7";"1657";"1";"Kender [?]"
-"12";"Potocki";"Wojciech";"Kraśnik";"Pozwany";"#7";"1657";"1";""
-"13";"Marlik";"Andrzej";"Kraśnik";"Strona w aktach; Mieszczanin";"#7, #8, #25, #26, #27, #36, #69";"1657–1658";"7";"Marlik [?] / Manlik [?]"
-"14";"Skwarek";"Walenty";"Kraśnik";"Powód";"#7, #8";"1657";"2";"Skwarek [?]"
-"15";"Batusik";"Wojciech";"Kraśnik";"Pozwany";"#7, #8";"1657";"2";""
-"16";"Babińczyk";"Benedykt";"Kraśnik";"Żyd / Składający przysięgę";"#8";"1657";"1";"Babińczyk [?]"
-"17";"Dąbrowicz";"Sebastian";"Bielice";"Pracowity / Świadek";"#8";"1657";"1";"Dąbrowicz [?]"
-"18";"Bendralik";"Stanisław";"Kraśnik";"Wzmiankowany";"#8";"1657";"1";""
-"19";"Łycek";"Paweł";"Kraśnik";"Powód";"#8, #9, #10, #25";"1657";"4";""
-"20";"Łycek";"Mikołaj";"Kraśnik";"Brat Pawła Łycka / Świadek";"#8";"1657";"1";""
-"21";"Łyckowa";"Anna";"Kraśnik";"Wdowa / Pozwana";"#9, #10";"1657";"2";""
-"22";"Pisak";"Mikołaj";"Kraśnik";"Poszkodowany (obdukcja)";"#9";"1657";"1";"Rusek [?]"
-"23";"Kurowic";"Augustyn";"Kraśnik";"Ławnik przysięgły kraśnicki";"#9, #14, #15, #16, #37, #38, #44, #45, #46, #50, #62, #70, #73";"1656–1658";"13";"Krogulec [?]"
-"24";"Fox";"Grzegorz";"Kraśnik";"Ławnik przysięgły kraśnicki";"#9, #15, #39, #43, #44, #49, #51, #52, #53, #54, #66, #70, #73";"1657–1658";"13";""
-"25";"Rogalowski";"Jakub";"Kraśnik";"Właściciel domu";"#9";"1657";"1";"Rogalowski [?]"
-"26";"Lech";"Jan";"Kraśnik";"Właściciel domu";"#9";"1657";"1";""
-"27";"Trela";"Stanisław";"Kraśnik";"Powód";"#9, #10, #13";"1657";"3";""
-"28";"Łapczyńska";"Anna";"Kraśnik";"Pozwana dłużniczka";"#9, #13";"1657";"2";"Łapczyńska [?]"
-"29";"Żyłówka";"Anna";"Kraśnik";"Wdowa / Powódka";"#10";"1657";"1";"Żyłówka [?]"
-"30";"Kulka";"Wojciech";"Kraśnik";"Pozwany";"#10";"1657";"1";""
-"31";"Mazur";"Wojciech";"Kraśnik";"Pozwany";"#10, #11";"1657";"2";""
-"32";"Sienka";"Jan";"Kraśnik";"Pozwany";"#10";"1657";"1";"Sienka [?]"
-"33";"Olęcki";"Wojciech";"Kraśnik";"Mieszczanin i szewc / Świadek";"#11, #20, #40, #43, #45";"1657–1658";"5";""
-"34";"Sydkowic";"Wawrzyniec";"Kraśnik";"Strona procesów; Mieszczanin";"#11, #22, #23, #24, #31, #32, #41, #60, #68, #69";"1657–1658";"10";"Żydkowic"
-"35";"Koniarska";"Mieszkanka";"Kraśnik";"Powódka";"#11, #12, #45, #50";"1657–1658";"4";"Koniarska [?] / Marina Koniarska"
-"36";"Jasińska";"Zuzanna";"Kraśnik";"Pozwana";"#11";"1657";"1";"Jasińska [?]"
-"37";"Jasielski";"Szymon";"Kraśnik";"Pozwany";"#11, #21, #22, #24, #31, #40";"1657–1658";"6";""
-"38";"Lasek";"Augustyn";"Kraśnik";"Pozwany";"#11";"1657";"1";"Łycek [?]"
-"39";"Kuśnierz";"Barbara";"Kraśnik";"Powódka";"#12";"1657";"1";"Kuśnierz [?]"
-"40";"Kudła";"Mieszkanka";"Kraśnik";"Pozwana";"#12";"1657";"1";"Kudła [?]"
-"41";"Domiłek";"Andrzej";"Kraśnik";"Powód";"#13";"1657";"1";"Domiłek [?]"
-"42";"Zielińska";"Zofia";"Kraśnik";"Pozwana";"#13, #26, #27, #28";"1657";"4";"Zielińska [?]"
-"43";"Błażejowska";"Szlachcianka";"Kraśnik";"Powódka";"#13";"1657";"1";"Błażejowska [?]"
-"44";"Szafraniec";"Adam";"Kraśnik";"Powód";"#13, #22";"1657";"2";"Szafraniec [?]"
-"45";"Świniarka";"Mieszkanka";"Kraśnik";"Pozwana";"#13";"1657";"1";"Świniarka [?]"
-"46";"Buła";"Jan";"Kraśnik";"Powód";"#14";"1657";"1";"Buła [?]"
-"47";"Olesek";"Walenty";"Kraśnik";"Pozwany";"#14";"1657";"1";"Olesek [?]"
-"48";"Kosek";"Stanisław";"Kraśnik";"Świadek";"#14";"1657";"1";""
-"49";"Jajczykówna";"Zuzanna";"Kraśnik";"Składająca przysięgę";"#14";"1657";"1";"Jajczykówna [?]"
-"50";"Śliżanka";"Katarzyna";"Kraśnik";"Świadek";"#14";"1657";"1";"Śliżanka [?]"
-"51";"Sitarski";"Walenty";"Kraśnik";"Świadek";"#14";"1657";"1";""
-"52";"Paździech";"Augustyn";"Kraśnik";"Świadek";"#14, #21, #34, #35, #41";"1657–1658";"5";"Paździech [?]"
-"53";"Batusik";"Jan";"Kraśnik";"Powód";"#14";"1657";"1";""
-"54";"Łapka";"Grzegorz";"Kraśnik";"Pozwany";"#14";"1657";"1";"Rzepka [?]"
-"55";"Bogucka";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#15";"1657";"1";"Bugajowa [?]"
-"56";"Sulski";"Szlachcic";"Kraśnik";"Powód";"#15";"1657";"1";"Sulski [?]"
-"57";"Butek";"Wojciech";"Kraśnik";"Pozwany / Strona";"#15, #44, #45";"1657–1658";"3";"Butek [?]"
-"58";"Dolski";"Marcin";"Kraśnik";"Szwagier / Świadek";"#15";"1657";"1";""
-"59";"Stochański";"Mieszkaniec";"Kraśnik";"Powód";"#16";"1656";"1";"Stochański [?]"
-"60";"Zieliński";"Grzegorz";"Kraśnik";"Pozwany";"#16";"1656";"1";""
-"61";"Kotlarek";"Jan";"Kraśnik";"Powód";"#16";"1656";"1";""
-"62";"Kotlarek";"Andrzej";"Kraśnik";"Współpowód";"#16";"1656";"1";""
-"63";"Kotlarka";"Jadwiga";"Kraśnik";"Współpowódka";"#16";"1656";"1";""
-"64";"Koniński";"Mieszkaniec";"Kraśnik";"Pozwany";"#16";"1656";"1";"Komiński [?]"
-"65";"Konińska";"Elżbieta";"Kraśnik";"Żona Konińskiego / Pozwana";"#16";"1656";"1";"Komińska [?]"
-"66";"Madejski";"Stanisław";"Kraśnik";"Powód";"#16";"1656";"1";"Madeick [?]"
-"67";"Rzepka";"Wawrzyniec";"Kraśnik";"Pozwany";"#16";"1656";"1";""
-"68";"Rogalka";"Jakub";"Kraśnik";"Woźny przysięgły sądu wójtowskiego";"#16";"1656";"1";"Rogala [?]"
-"69";"Morawek";"Augustyn";"Rudki";"Poddany / Opiekun i powód";"#17";"1656";"1";"Morawek [?]"
-"70";"Łysak";"Wojciech";"Kraśnik";"Pozwany";"#17";"1656";"1";"Łysak [?]"
-"71";"Młodnicka";"Maryna";"Kraśnik";"Wdowa / Protestująca";"#17";"1656";"1";""
-"72";"Pieniążek";"Andrzej";"Kraśnik";"Ślusarz / Pozwany";"#17, #20";"1656–1657";"2";""
-"73";"Cwik";"Andrzej";"Kraśnik";"Powód";"#17";"1656";"1";"Cwik [?]"
-"74";"Łycek";"Wojciech";"Kraśnik";"Pozwany";"#17";"1656";"1";"Łycek [?]"
-"75";"Starzyński";"Marcin";"Kraśnik";"Ławnik przysięgły";"#17, #18, #40";"1656–1658";"3";""
-"76";"Espen";"Jerzy";"Lublin";"Sługa J. Deserta / Protestujący";"#18";"1656";"1";"Espen [?]"
-"77";"Desert";"Jakub";"Lublin";"Mieszczanin lubelski / Pracodawca";"#18";"1656";"1";""
-"78";"Sitarski";"Marcin";"Kraśnik";"Rajca kraśnicki / Pozwany; Rajca miejski; Stary rajca (Antiquus Consul); Ławnik przysięgły; Mąż Franciszki Sitarskiej / Rajca";"#18, #87, #92, #113, #114, #137, #183";"1656–1698";"7";""
-"79";"Nawrocki";"Stanisław";"Kraśnik";"Rajca kraśnicki; Były burmistrz i stary rajca (Consul antiquus)";"#18, #93, #94, #95, #96, #97, #98, #99, #124, #126, #127";"1656–1684";"11";""
-"80";"Kulka";"Jan";"Kraśnik";"Opiekun dóbr Jajczyków / Powód";"#19";"1657";"1";""
-"81";"Jajczyk";"Szymon";"Kraśnik";"Opiekun dóbr Jajczyków / Powód";"#19";"1657";"1";""
-"82";"Jajczyk";"Paweł";"Kraśnik";"Zmarły spadkodawca";"#19";"1657";"1";""
-"83";"Larkowski";"Tomasz";"Kraśnik";"Pozwany";"#19";"1657";"1";""
-"84";"Tokarzyk";"Wojciech";"Kraśnik";"Powód";"#19";"1657";"1";"Tokarzyk [?]"
-"85";"Tatarczuk";"Jan";"Kraśnik";"Szewc / Aresztujący";"#19";"1657";"1";""
-"86";"Tarnowczyk";"Paweł";"Kraśnik";"Pozwany";"#20";"1657";"1";"Tarnowczyk [?]"
-"87";"Skura";"Jan";"Kraśnik";"Pozwany";"#20";"1657";"1";"Skóra [?]"
-"88";"Bybina";"Wdowa";"Kraśnik";"Wdowa / Pozwana";"#20, #29";"1657";"2";"Bybina [?]"
-"89";"Gabriel";"Paweł";"Kraśnik";"Wzmiankowany";"#20";"1657";"1";""
-"90";"Jajczyk";"Sebastian";"Kraśnik";"Pozwany; Mieszczanin";"#21, #29, #200, #201";"1657–1664";"4";""
-"91";"Zalasek";"Krzysztof";"Kraśnik";"Pozwany";"#21, #29";"1657";"2";"Zaleski [?]"
-"92";"Cuda";"Andrzej";"Kraśnik";"Pozwany";"#21";"1657";"1";"Ruda [?]"
-"93";"Brzostek";"Michał";"Kraśnik";"Świadek";"#21";"1657";"1";"Brzostek [?]"
-"94";"Kapica";"Adam";"Kraśnik";"Świadek";"#21";"1657";"1";""
-"95";"Siedlecki";"Marcin";"Kraśnik";"Pozwany";"#22";"1657";"1";"Sieradzki [?]"
-"96";"Rzepka";"Maciej";"Kraśnik";"Pozwany; Mieszczanin";"#22, #23, #148";"1657–1697";"3";"Rzepka [?]"
-"97";"Łycek";"Jan";"Kraśnik";"Powód";"#22, #23";"1657";"2";""
-"98";"Kupka";"Grzegorz";"Kraśnik";"Pozwany";"#22";"1657";"1";"Rzepka [?]"
-"99";"Delik";"Jan";"Kraśnik";"Powód";"#23";"1657";"1";""
-"100";"Satomski";"Mieszkaniec";"Kraśnik";"Pozwany";"#23";"1657";"1";"Słomkowski [?]"
-"101";"Rogalowski";"Wojciech";"Kraśnik";"Świadek";"#23";"1657";"1";"Rogalowski [?]"
-"102";"Zieliński";"Józef";"Kraśnik";"Pozwany";"#24, #25, #29";"1657";"3";"Zieliński [?]"
-"103";"Bujak";"Sprzedawca";"Kraśnik";"Sprzedawca konia";"#24";"1657";"1";"Bujak [?]"
-"104";"Łyszkowa";"Zofia";"Kraśnik";"Wdowa / Manifestująca";"#25";"1657";"1";"Łyszkowa [?]"
-"105";"Kępa";"Jan";"Kraśnik";"Pozwany";"#25";"1657";"1";"Kępa [?]"
-"106";"Zielińska";"Anna";"Kraśnik";"Żona Józefa / Pozwana";"#25, #36, #37";"1657–1658";"3";"Dzierżkowa [?]"
-"107";"Rogalski";"Wojciech";"Kraśnik";"Powód";"#30";"1657";"1";"Rogalski [?]"
-"108";"Dzierżek";"Piotr";"Kraśnik";"Pozwany";"#30, #32";"1657–1658";"2";"Dzierżek [?]"
-"109";"Świątek";"Wawrzyniec";"Kraśnik";"Pozwany; Mieszczanin";"#30, #53";"1657–1658";"2";"Świątek [?] / Świątkowicz [?]"
-"110";"Kosińska";"Mieszkanka";"Kraśnik";"Powódka";"#30";"1657";"1";"Kosińska [?]"
-"111";"Pyrek";"Paweł";"Kraśnik";"Powód";"#31";"1657";"1";""
-"112";"Kosek";"Adam";"Kraśnik";"Powód";"#31";"1657";"1";"Kosek [?]"
-"113";"Tkarz";"Piotr";"Kraśnik";"Pozwany";"#31";"1657";"1";"Tkarz [?]"
-"114";"Michał";"Żyd";"Kraśnik";"Wierzyciel";"#32";"1658";"1";""
-"115";"Kaniskowic";"Jan";"Kraśnik";"Powód";"#32";"1658";"1";"Kaniskowic [?]"
-"116";"Dzierżkowa";"Zofia";"Kraśnik";"Pozwana";"#32, #33";"1658";"2";"Dzierżkowa [?]"
-"117";"Zota";"Andrzej";"Kraśnik";"Powód; Mieszczanin";"#32, #33, #41, #44, #49, #60, #61, #69";"1658";"8";"Łota"
-"118";"Zotowa";"Krystyna";"Kraśnik";"Żona Andrzeja Zoty / Powódka";"#32";"1658";"1";""
-"119";"Kopczyk";"Wawrzyniec";"Kraśnik";"Powód";"#33";"1658";"1";"Kopczyk [?]"
-"120";"Solarska";"Zofia";"Kraśnik";"Wdowa / Pozwana";"#33";"1658";"1";"Solarska [?]"
-"121";"Janaszkowic";"Wojciech";"Kraśnik";"Wójt kraśnicki";"#33, #39";"1658";"2";""
-"122";"Dzierżek";"Stefan";"Kraśnik";"Zmarły ojciec Zofii";"#33";"1658";"1";"Dzierżek [?]"
-"123";"Rusarek";"Jan";"Przedmieście Kraśnickie";"Przedmieszczanin / Pozwany";"#34";"1658";"1";"Rybak [?]"
-"124";"Cichoń";"Stanisław";"Kraśnik";"Pisarz aktowy";"#34";"1658";"1";""
-"125";"Wróbel";"Krzysztof";"Kraśnik";"Świadek";"#35";"1658";"1";""
-"126";"Szwed";"Jan";"Kazimierz";"Powód z Kazimierza";"#35";"1658";"1";"Szwed [?]"
-"127";"Pączek";"Marcin";"Kraśnik";"Mieszczanin / Pozwany";"#35";"1658";"1";"Pączek [?]"
-"128";"Szafraniec";"Wojciech";"Kraśnik";"Mieszczanin / Strona; Wójt i sędzia zwyczajny przysięgły";"#36, #43, #49, #70, #73";"1658";"5";"Szafrankowic"
-"129";"Jabłoński";"Wojciech";"Kraśnik";"Wzmiankowany";"#36";"1658";"1";""
-"130";"Konięgowa";"Krystyna";"Kraśnik";"Żona Macieja Konięgi; Mieszczanka / Żona Macieja";"#36, #84";"1658–1666";"2";""
-"131";"Dulski";"Marcin";"Przedmieście Kraśnickie";"Przedmieszczanin / Powód";"#37";"1658";"1";"Dulski [?]"
-"132";"Kudrelik";"Maciej";"Przedmieście Kraśnickie";"Przedmieszczanin / Pozwany";"#37";"1658";"1";""
-"133";"Kozłowski";"Błażej";"Kraśnik";"Pozwany";"#37";"1658";"1";"Kozłowski [?]"
-"134";"Wojtek";"Adam";"Kraśnik";"Powód";"#38";"1658";"1";"Wojtek [?]"
-"135";"Kępski";"Adam";"Kraśnik";"Zmarły spadkodawca";"#38";"1658";"1";"Kępski [?]"
-"136";"Karczmarz";"Maciej";"Kraśnik";"Zmarły spadkodawca";"#38";"1658";"1";"Karczmarz [?]"
-"137";"Sikor";"Stanisław";"Kraśnik";"Pisarz kraśnicki";"#38";"1658";"1";""
-"138";"Koziarowa";"Wdowa";"Kraśnik";"Wdowa / Wnioskodawczyni";"#39";"1658";"1";"Koniarzowa [?]"
-"139";"Dąbek";"Marcin";"Przedmieście Kraśnickie";"Wójt przedmiejski / Świadek";"#39";"1658";"1";"Dąbek [?]"
-"140";"Klisz";"Paweł";"Kraśnik";"Świadek";"#39";"1658";"1";"Kłoś [?]"
-"141";"Żywicki";"Tomasz";"Kraśnik";"Powód";"#40";"1658";"1";"Sniechowski [?]"
-"142";"Sołtyszczyk";"Stanisław";"Kraśnik";"Pozwany";"#40";"1658";"1";"Sołtyszczyk [?]"
-"143";"Kudrelik";"Wojciech";"Przedmieście Kraśnickie";"Powód";"#40";"1658";"1";""
-"144";"Sitarska";"Krystyna";"Kraśnik";"Manifestująca";"#41";"1658";"1";""
-"145";"Grygiel";"Błażej";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
-"146";"Łycek";"Szymon";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
-"147";"Dąbek";"Tomasz";"Kraśnik";"Strona w rejestrze";"#41";"1658";"1";""
-"148";"Somkowa";"Zofia";"Kraśnik";"Pozwana / Kondemnatka";"#41";"1658";"1";""
-"149";"Zelig";"Żyd";"Kraśnik";"Wierzyciel";"#41";"1658";"1";""
-"150";"Koniński";"Andrzej";"Kraśnik";"Mieszczanin / Powód";"#42";"1658";"1";"Komiński [?]"
-"151";"Bożęborski";"Bartłomiej";"Kraśnik";"Pozwany";"#42, #45";"1658";"2";"Świderski [?]"
-"152";"Kępa";"Bartosz";"Kraśnik";"Wystawca zapisu";"#42";"1658";"1";""
-"153";"Rzepka";"Wojciech";"Ślinów";"Pracowity ze wsi Ślinów";"#42";"1658";"1";"Rzytka [?] / Słodków [?]"
-"154";"Moskwa";"Jan";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#42";"1658";"1";"Słotwa [?]"
-"155";"Brożek";"Janek";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";"Brożek [?]"
-"156";"Reszka";"Paweł";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";""
-"157";"Gąska";"Andrzej";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#43";"1658";"1";""
-"158";"Zając";"Wojciech";"Ślinów";"Pracowity / Powód";"#43";"1658";"1";"Gros [?]"
-"159";"Łycek";"Maciej";"Ślinów";"Pracowity / Pozwany";"#43";"1658";"1";"Łycek [?]"
-"160";"Sosnowska";"Katarzyna";"Ślinów";"Pracowita / Pozwana; Poddana / Wdowa po T. Rzepce";"#43, #46, #49, #73, #74, #76";"1658";"6";"Sosnowska [?] / Łaśniewska [?] / Rzepkowa / Blinów"
-"161";"Zdebik";"Jakub";"Kraśnik";"Pozwany / Kondemnat";"#44";"1658";"1";""
-"162";"Kopel";"Hersz";"Kraśnik";"Żyd / Wierzyciel";"#44";"1658";"1";"Herszek"
-"163";"Pyrek";"Szymon";"Kraśnik";"Pozwany";"#44";"1658";"1";"Pyrek [?]"
-"164";"Łycka";"Katarzyna";"Kraśnik";"Pozwana";"#44";"1658";"1";"Łycka [?]"
-"165";"Koniński";"Jan";"Kraśnik";"Powód";"#45";"1658";"1";"Komiński [?]"
-"166";"Rzepka";"Kacper";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#46";"1658";"1";"Rzepka [?]"
-"167";"Karpiński";"Jan";"Ślinów";"Pracowity ze wsi Ślinów / Świadek; Poddany ze wsi Blinów";"#46, #47, #74, #75, #77";"1658";"5";"Karpiński [?] / Blinów"
-"168";"Kondlik";"Stefan";"Ślinów";"Poddany ze wsi Ślinów; Poddany ze wsi Blinów";"#46, #47, #48, #74, #75, #76";"1658";"6";"Kudrelik [?] / Kondla / Blinów"
-"169";"Kurowski";"Jan";"Ślinów";"Poddany ze wsi Ślinów";"#46";"1658";"1";""
-"170";"Rzytka";"Tomasz";"Ślinów";"Zmarły spadkodawca; Poddany (zm.)";"#47, #70, #71, #74, #76, #80";"1658";"6";"Rzepka [?] / Blinów"
-"171";"Kondlik";"Andrzej";"Ślinów";"Poddany ze wsi Ślinów; Poddany ze wsi Blinów (z karczmy)";"#47, #74, #75, #78";"1658";"4";"Kudrelik [?] / Kondla / Blinów"
-"172";"Sobek";"Jan";"Ślinów";"Poddany ze wsi Ślinów / Świadek";"#48";"1658";"1";""
-"173";"Kondlik";"Wojciech";"Ślinów";"Poddany ze wsi Ślinów";"#48";"1658";"1";"Cichowicz"
-"174";"Krawiec";"Jędrzej";"Kraśnik";"Aresztowany";"#48";"1658";"1";""
-"175";"Zielik";"Tomasz";"Kraśnik";"Pozwany";"#49";"1658";"1";"Zielik [?]"
-"176";"Skrobczyk";"Wojciech";"Ślinów";"Pracowity / Powód";"#49";"1658";"1";"Skrobek [?]"
-"177";"Skrobczykowa";"Jadwiga";"Ślinów";"Żona W. Skrobczyka / Powódka";"#49";"1658";"1";"Skrobkowa [?]"
-"178";"Łysak";"Maciej";"Ślinów";"Mąż K. Sosnowskiej / Pozwany";"#49";"1658";"1";""
-"179";"Pętak";"Jan";"Kraśnik";"Woźny przysięgły";"#49";"1658";"1";"Pętak [?]"
-"180";"Katoń";"Łukasz";"Ślinów";"Pracowity ze wsi Ślinów / Świadek";"#50";"1658";"1";"Kaczor [?]"
-"181";"Pełczyński";"Szlachcic";"Ślinów";"Wzmiankowany";"#50";"1658";"1";"Pełczyński [?]"
-"182";"Koniarski";"Wojciech";"Kraśnik";"Syn Mariny Koniarskiej / Pozwany";"#50";"1658";"1";""
-"183";"Poszłygarczyk";"Stanisław";"Kraśnik";"Mieszczanin";"#51, #61, #68";"1658";"3";"Soszłygarczyk [?]"
-"184";"Oleszek";"Wojciech";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Oleszkowic [?]"
-"185";"Zdanowa";"Jadwiga";"Kraśnik";"Mieszkanka";"#51";"1658";"1";"Zdanianka [?]"
-"186";"Sulik";"Marcin";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Sulik [?]"
-"187";"Siedlatka";"Wojciech";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Siedlatko [?]"
-"188";"Dudzik";"Maciej";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Dudzik [?]"
-"189";"Klatkowski";"Jan";"Kraśnik";"Mieszczanin";"#51, #60, #63, #68";"1658";"4";"Klatkowski [?]"
-"190";"Łatka";"Jan";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Łatka [?] / Lotka [?]"
-"191";"Kłębski";"Jan";"Kraśnik";"Woźny sądowy przysięgły (Bedellus)";"#51, #59";"1658";"2";"Kłębski [?]"
-"192";"Słodzarski";"Marcin";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Słodzarski [?]"
-"193";"Łotka";"Grzegorz";"Kraśnik";"Mieszczanin";"#51";"1658";"1";"Lotka [?]"
-"194";"Gębalski";"Wojciech";"Kraśnik";"Mieszczanin";"#52";"1658";"1";"Gębala [?]"
-"195";"Kurowek";"Mikołaj";"Kraśnik";"Mieszczanin";"#52, #60";"1658";"2";"Kurowicz [?]"
-"196";"Ptaszek";"Marcin";"Kraśnik";"Mieszczanin";"#52";"1658";"1";"Ptaszek [?]"
-"197";"Gębalka";"Marcin";"Kraśnik";"Mieszczanin";"#52, #62";"1658";"2";"Gębałka [?]"
-"198";"Maruszkowic";"Wojciech";"Kraśnik";"Mieszczanin (zm.)";"#52, #54";"1658";"2";"Maruszka [?]"
-"199";"Dębski";"Stefan";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Dębowski [?]"
-"200";"Kozak";"Maciej";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kozłowski [?]"
-"201";"Kuśmierz";"Szymon";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kuszmir [?]"
-"202";"Łysik";"Daniel";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Łysik [?]"
-"203";"Kowal";"Marcin";"Kraśnik";"Świadek przysięgły";"#52";"1658";"1";"Kowal [?]"
-"204";"Kazimierski";"Jan";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Rębiński [?]"
-"205";"Zięba";"Sebastian";"Kraśnik";"Mieszczanin";"#53, #61";"1658";"2";"Zgęba [?]"
-"206";"Dąbrowski";"Jan";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Bąkowski [?]"
-"207";"Głodzik";"Andrzej";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Gładysz [?]"
-"208";"Sułkowicz";"Szymon";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Sulik [?]"
-"209";"Krupiński";"Wojciech";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Krupiński [?]"
-"210";"Miazga";"Michał";"Kraśnik";"Mieszczanin";"#53";"1658";"1";"Maslik [?]"
-"211";"Prokopek";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#54, #55, #56, #62";"1658";"4";""
-"212";"Gębecki";"Jan";"Kraśnik";"Mieszczanin";"#56";"1658";"1";"Gołecki [?]"
-"213";"Krawcowa";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#56";"1658";"1";"Kwiecina [?]"
-"214";"Gębski";"Jan";"Kraśnik";"Mieszczanin";"#56, #67";"1658";"2";"Grząbka [?] / Gębski [?]"
-"215";"Łysik";"Stanisław";"Kraśnik";"Mieszczanin";"#56";"1658";"1";"Łysik [?]"
-"216";"Marlik";"Jan";"Kraśnik";"Mieszczanin";"#56, #57";"1658";"2";"Manlik [?]"
-"217";"Paszek";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#57";"1658";"1";"Bąk [?]"
-"218";"Poszłygarczyk";"Jan";"Kraśnik";"Mieszczanin";"#57";"1658";"1";""
-"219";"Łopionka";"Jadwiga";"Kraśnik";"Mieszkanka";"#57";"1658";"1";"Łopianka [?]"
-"220";"Izaak";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#57";"1658";"1";"Izaak [?]"
-"221";"Lalka";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#57, #58";"1658";"2";"Falka [?]"
-"222";"Borowiec";"Marcin";"Kraśnik";"Mieszczanin";"#58";"1658";"1";"Konięga [?]"
-"223";"Słodzarski";"Piotr";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#58, #65";"1658";"2";"Zadzarski [?]"
-"224";"Skrzypkowski";"[Pan]";"Kraśnik (okolice)";"Szlachetny / Świadek";"#58";"1658";"1";"Skrzypkowski [?]"
-"225";"Wężyk";"[Pan]";"Kraśnik (okolice)";"Szlachetny / Świadek";"#58";"1658";"1";"Wężyk [?]"
-"226";"Babiński";"Jan";"Kraśnik";"Mieszczanin";"#59";"1658";"1";"Zabiński [?]"
-"227";"Soroka";"Jakub";"Kraśnik";"Mieszczanin";"#59";"1658";"1";"Sroka [?]"
-"228";"Wiatrak";"[Mieszczanin]";"Kraśnik";"Sąsiad / Posiadacz gruntu";"#59";"1658";"1";"Wiatrek [?]"
-"229";"Łoboda";"Iczek";"Kraśnik";"Żyd kraśnicki";"#59";"1658";"1";"Łabędź [?]"
-"230";"Zarzycki";"Wojciech";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#60";"1658";"1";"Zakrzewski [?]"
-"231";"Zieliński";"Jan";"Kraśnik";"Mieszczanin";"#60";"1658";"1";""
-"232";"Jędrzejczyk";"Ewa Marcinowa";"Kraśnik";"Mieszkanka / Żona Marcina";"#60";"1658";"1";"Jędrzejowa [?]"
-"233";"Bęben";"Kasper";"Kraśnik";"Świadek przysięgły";"#61";"1658";"1";"Bęben [?]"
-"234";"Sadownik";"Andrzej";"Kraśnik";"Świadek przysięgły";"#61";"1658";"1";""
-"235";"Kopianka";"Jadwiga";"Kraśnik";"Mieszkanka";"#61";"1658";"1";"Kępianka [?] / Kępka [?]"
-"236";"z Łopacina";"Ewa";"Kraśnik";"Mieszkanka";"#61, #62";"1658";"2";"Łopacina [?]"
-"237";"Gębalski";"Maciej";"Kraśnik";"Mieszczanin";"#61";"1658";"1";"Gębalski [?]"
-"238";"Pełka";"Tomasz";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
-"239";"Gołecki";"Jan";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
-"240";"Kurowek";"Maciej";"Kraśnik";"Mieszczanin";"#62";"1658";"1";"Kurowek [?]"
-"241";"Daliborka";"[Wdowa]";"Kraśnik";"Wdowa / Mieszkanka";"#62";"1658";"1";"Zabielska [?]"
-"242";"Grząbka";"Jan";"Kraśnik";"Mieszczanin";"#62";"1658";"1";""
-"243";"Grudzień";"Bartłomiej";"Kraśnik";"Mieszczanin";"#62, #63";"1658";"2";""
-"244";"Dubaj";"Wojciech";"Kraśnik";"Mieszczanin";"#63, #68, #215, #218, #219";"1658–1698";"5";"Dubański [?] / Albrecht Dubaj"
-"245";"Słodki";"Walenty";"Kraśnik";"Mieszczanin / Sadownik";"#63";"1658";"1";"Skutka [?]"
-"246";"Orlak";"Grzegorz";"Kraśnik";"Mieszczanin / Furman";"#63";"1658";"1";"Orlik [?]"
-"247";"Noster";"Wojciech";"Rudnik";"Pracowity (Laboriosus)";"#64";"1658";"1";"Kostka [?]"
-"248";"Rudnicka";"Jadwiga";"Rudnik";"Mieszkanka Rudnika";"#64";"1658";"1";"Rudnicki [?]"
-"249";"Konięga";"Felicjan";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Koniński [?]"
-"250";"Szarek";"Szymon";"Kraśnik (okolice)";"Szlachetny (Nobilis)";"#64";"1658";"1";""
-"251";"Zięba";"Jakub";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Zgęba [?]"
-"252";"Lisek";"Jan";"Kraśnik";"Mieszczanin";"#64";"1658";"1";"Cichy [?]"
-"253";"Szutka";"Szymon";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Sutka [?]"
-"254";"Icek";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#65";"1658";"1";""
-"255";"Tomaszczyk";"Jan";"Kraśnik";"Mieszczanin";"#65";"1658";"1";""
-"256";"Tomaszczykowa";"Jadwiga";"Kraśnik";"Mieszkanka / Żona Jana";"#65";"1658";"1";""
-"257";"Kępka";"Maciej";"Kraśnik";"Mieszczanin";"#65";"1658";"1";""
-"258";"Prus";"Maciej";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Ptaszek [?]"
-"259";"Serba";"Jakub";"Kraśnik";"Mieszczanin";"#65";"1658";"1";"Sroka [?]"
-"260";"Rębińska";"Zofia";"Kraśnik";"Mieszkanka";"#65";"1658";"1";"Łębińska [?]"
-"261";"Kaczorowski";"Łukasz";"Kraśnik";"Mieszczanin";"#65";"1657";"1";"Kaczorowski [?]"
-"262";"Zieliński";"Krzysztof";"Kraśnik";"Mieszczanin";"#65";"1657";"1";"Zieliński [?]"
-"263";"Koźmianowa";"Ewa";"Kraśnik";"Wdowa / Mieszkanka";"#66, #67";"1657–1658";"2";"Koźmiańska [?]"
-"264";"Kowalowa";"Zofia";"Kraśnik";"Mieszkanka (zm.)";"#66";"1657";"1";""
-"265";"Saraczkowic";"Maciej";"Kraśnik";"Sławetny / Plenipotent";"#66";"1657";"1";"Saraczkowicz [?]"
-"266";"Żydkowic";"Baltazar";"Kraśnik";"Mieszczanin";"#68";"1658";"1";"Sydkowic [?]"
-"267";"Cichowicz";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#68";"1658";"1";"Cieśliński [?]"
-"268";"Zieliński";"Maciej";"Kraśnik";"Mieszczanin";"#68, #69";"1658";"2";""
-"269";"Kępa";"Wawrzyniec";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kępka [?]"
-"270";"Ptaszek";"Maciej";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Pępek [?]"
-"271";"Skutka";"Walenty";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Słodki [?]"
-"272";"Bobak";"Jakub";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Dubak [?]"
-"273";"Łazarz";"Dawid";"Kraśnik";"Żyd kraśnicki / Świadek";"#69";"1658";"1";"Dawid Łazarz [?]"
-"274";"Kurza";"Jan";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kurzawa [?]"
-"275";"Lejzor";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#69";"1658";"1";"Zelman [?]"
-"276";"Kępa";"Marcin";"Kraśnik";"Mieszczanin";"#69";"1658";"1";"Kępa [?]"
-"277";"Kępski";"Marek";"Kraśnik";"Ławnik przysięgły";"#70, #73";"1658";"2";"Kępski [?]"
-"278";"Janorowski";"Bartłomiej";"Blinów";"Szlachetny / Dzierżawca wsi Blinów";"#70, #73, #78, #80";"1658";"4";""
-"279";"Staroszek";"Wojciech";"Blinów";"Poddany ze wsi Blinów";"#70, #71, #73, #79";"1658";"4";"Staszek [?] / Rzepka"
-"280";"Staroszkowa";"Jadwiga";"Blinów";"Poddana ze wsi Blinów (z Rzepków)";"#70, #71, #79";"1658";"3";""
-"281";"Łysak";"Maciej";"Blinów";"Poddany ze wsi Blinów";"#70, #73, #79";"1658";"3";""
-"282";"Łysakowa";"Katarzyna";"Blinów";"Poddana ze wsi Blinów (z Rzepków)";"#70, #71, #79";"1658";"3";""
-"283";"Kozieł";"Stanisław";"Blinów";"Poddany ze wsi Blinów";"#70";"1658";"1";"Kozieł [?]"
-"284";"Rzepkowa";"Agnieszka";"Blinów";"Poddana (zm., z Potoka)";"#70";"1658";"1";""
-"285";"Rzepka";"Sebastian";"Blinów";"Poddany ze wsi Blinów";"#70, #76";"1658";"2";""
-"286";"Rzepka";"Jakub";"Blinów";"Poddany ze wsi Blinów";"#70";"1658";"1";""
-"287";"Skórka";"Jan";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";"Storka [?]"
-"288";"Rzepka";"Paweł";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";""
-"289";"Rzepka";"Jan";"Blinów";"Poddany ze wsi Blinów; Wójt blinowski / Poddany";"#72, #77";"1658";"2";""
-"290";"Grątka";"Andrzej";"Blinów";"Poddany ze wsi Blinów";"#72";"1658";"1";"Gręta [?]"
-"291";"Szwedowicz";"Stanisław";"Kraśnik";"Ławnik przysięgły";"#73";"1658";"1";"Szwedowicz [?]"
-"292";"Zakrzewski";"[J.W. Pan]";"Kraśnik (okolice)";"Wielmożny Pan / Sędzia lub Urzędnik";"#73";"1658";"1";"Zakrzewski [?]"
-"293";"Rzepka";"Stanisław";"Blinów";"Poddany ze wsi Blinów";"#74, #75";"1658";"2";""
-"294";"Świderski";"Jan";"Kraśnik (okolice)";"Szlachetny / Sędzia komisaryjny";"#77";"1658";"1";""
-"295";"Reszka";"Łukasz";"Blinów";"Poddany ze wsi Blinów";"#77";"1658";"1";""
-"296";"Reszka";"Stanisław";"Blinów";"Poddany ze wsi Blinów";"#77, #81";"1658";"2";""
-"297";"Rzepka";"Andrzej";"Blinów";"Poddany ze wsi Blinów";"#77";"1658";"1";""
-"298";"Brożek";"Paweł";"Blinów";"Poddany ze wsi Blinów";"#77";"1658";"1";""
-"299";"Kłos";"Mateusz";"Blinów";"Poddany ze wsi Blinów";"#77";"1658";"1";""
-"300";"Wacławic";"Antoni";"Kraśnik";"Urzędnik / Pisarz sądowy";"#77";"1658";"1";"Wacławic [?]"
-"301";"Kłos";"Wojciech";"Blinów";"Poddany ze wsi Blinów";"#78";"1658";"1";"Kłos [?]"
-"302";"Sasek";"Sebastian";"Blinów";"Poddany ze wsi Blinów";"#78";"1658";"1";"Sasek [?]"
-"303";"Gieracki";"Piotr";"Blinów (okolice)";"Wierzyciel / Posiadacz sumy";"#78";"1658";"1";""
-"304";"Zieliński";"Paweł";"Kraśnik";"Mieszczanin";"#81";"1658";"1";"Zieliński [?]"
-"305";"Kłopot";"Andrzej";"Kraśnik";"Przedmieszczanin";"#82";"1668";"1";"Kłopot"
-"306";"Marek";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#82";"1668";"1";""
-"307";"Mamel";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#82, #83";"1668";"2";"Mamele"
-"308";"Kanaszkowic";"[Szewc]";"Kraśnik";"Szewc (Sutor)";"#82";"1668";"1";"Kanaszek"
-"309";"Krasnodębski";"Jakub";"Urzędów";"Szlachetny / Mieszczanin z Urzędowa";"#82, #83";"1668";"2";""
-"310";"Kramarz";"Iwan";"Kraśnik";"Kramarz / Przyjezdny";"#82";"1668";"1";"Jan Kramarz"
-"311";"Bombiński";"[Pan]";"Kraśnik";"Gospodarz / Mieszczanin";"#82";"1668";"1";"Bombiński [?]"
-"312";"Panownik";"Jakub";"Kraśnik";"Mieszczanin";"#82";"1668";"1";""
-"313";"Cębalski";"Michał";"Urzędów";"Wuj Jakuba Krasnodębskiego";"#82";"1668";"1";""
-"314";"Kłopot";"[Mieszczanin]";"Kraśnik";"Przedmieszczanin";"#83";"1668";"1";""
-"315";"Dubitowa";"Anna";"Kraśnik";"Mieszczanka (3. żona Macieja Dubita)";"#84";"1666";"1";"Tuszyńska"
-"316";"Dubit";"Maciej";"Kraśnik";"Mieszczanin";"#84";"1666";"1";"Dubito"
-"317";"Kurowic";"Wojciech";"Kraśnik";"Ławnik przysięgły";"#84";"1666";"1";"Kurowicz"
-"318";"Tuszyński";"Wojciech";"Kraśnik";"Mieszczanin (syn Mikołaja)";"#84";"1666";"1";""
-"319";"Tuszyński";"Mikołaj";"Kraśnik";"Mieszczanin (zm.)";"#84";"1666";"1";""
-"320";"Jastrzębski";"Ludwik";"Kraśnik";"Ks. Doktor Teologii / Prepozyt Kanoników Regularnych";"#85";"1666";"1";"Jastrzenski [?]"
-"321";"Grot";"Franciszek Antoni";"Kraśnik";"Notariusz przysięgły publiczny";"#85";"1666";"1";""
-"322";"Węgorzowic";"Andrzej";"Kraśnik";"Były mieszczanin / Pensjonariusz szpitala Św. Ducha";"#86";"1668";"1";"Węgorzowich"
-"323";"Macal";"Andrzej";"Kraśnik";"Mieszczanin";"#86, #203";"1664–1668";"2";""
-"324";"Kilianek";"Grzegorz";"Kraśnik";"Mieszczanin";"#86";"1668";"1";""
-"325";"Kilianka";"Maryna";"Kraśnik";"Wnuczka Andrzeja Węgorzowica";"#86";"1668";"1";""
-"326";"Kownicki";"Maciej";"Kraśnik";"Mieszczanin";"#86";"1668";"1";"Kownicki [?]"
-"327";"Jasiemicki";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#86";"1668";"1";"Jasiemicki [?]"
-"328";"Andzel";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#87";"1668";"1";""
-"329";"Pieliński";"Maciej";"Kraśnik";"Mieszczanin";"#88";"1681";"1";"Pielinkowicz [?]"
-"330";"Skarżeński";"Sebastian";"Kraśnik";"Mieszczanin";"#88";"1681";"1";"Skarzeński [?]"
-"331";"Gorajski";"[Żyd]";"Kraśnik";"Żyd / Obywatel kraśnicki";"#88";"1681";"1";"Gorayski"
-"332";"Puonik";"Maciej";"Kraśnik";"Mieszczanin";"#88";"1681";"1";"Płonik [?]"
-"333";"Progutka";"Wojciech";"Kraśnik";"Mieszczanin";"#88";"1681";"1";"Pogutka [?]"
-"334";"Sienka";"Mikołaj";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";"Sienka [?]"
-"335";"Kłopotek";"Paweł";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";"Kłopot"
-"336";"Kłopotek";"Jan";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";"Kłopot"
-"337";"Wojtek";"Grzegorz";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";""
-"338";"Kołodziej";"Mikołaj";"Kraśnik";"Mieszczanin";"#89";"1681";"1";"Kołodziej [?]"
-"339";"Kochanowski";"Tomasz";"Kraśnik";"Mieszczanin";"#89, #126";"1681–1684";"2";""
-"340";"Piotrowski";"Michał";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";""
-"341";"Kantorek";"Andrzej";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";""
-"342";"Moszkowa";"[Żydówka]";"Kraśnik";"Żydówka kraśnicka";"#89";"1681";"1";""
-"343";"Zbrończyk";"Mikołaj";"Kraśnik";"Mieszczanin (przyjmujący prawo miejskie)";"#89";"1681";"1";""
-"344";"Masłowski";"Sebastian";"Kraśnik";"Świadek przysięgły";"#89";"1681";"1";""
-"345";"Furman";"Sebastian";"Zagórze";"Mieszkaniec Zagórza";"#89";"1681";"1";""
-"346";"Zamoyski";"Marcin";"Zamość / Kraśnik";"Ordynat Zamoyski / Wojewoda lubelski i bełski";"#91";"1683";"1";""
-"347";"Zamoyska";"Dorota z Leszczkowa";"Zamość / Kraśnik";"Kasztelanowa kijowska / Pani dożywotnia Kraśnika";"#91, #92, #93, #136";"1683–1686";"4";""
-"348";"Rogalowski";"Jan";"Kraśnik";"Patrycjusz i Notariusz przysięgły (Pisarz miejski)";"#91, #92, #93, #105";"1683";"4";""
-"349";"Janaszkowicz";"Ubald Florian";"Kraśnik";"Wójt kraśnicki; Wójt kraśnicki (zm.)";"#91, #92, #124, #129, #155, #173, #174, #187, #191, #195, #196, #197, #228";"1683–1699";"13";""
-"350";"Skrzeszowski";"Jakub";"Kraśnik";"Szlachetny / Administrator dóbr kraśnickich";"#92";"1683";"1";""
-"351";"Gomuza";"Stanisław";"Kraśnik";"Burmistrz kraśnicki (Proconsul); Rajca rezydujący (i cechmistrz szewców)";"#92, #136";"1683–1686";"2";"Grymuza"
-"352";"Chmarowicz";"Paweł";"Kraśnik";"Rajca urzędujący";"#92";"1683";"1";""
-"353";"Chmielanowski";"Jakub";"Kraśnik";"Rajca urzędujący";"#92";"1683";"1";""
-"354";"Błaszkowicz";"Maciej";"Kraśnik";"Rajca urzędujący; Rajca kraśnicki; Stary rajca kraśnicki";"#92, #113, #115, #123, #125, #128, #136, #230, #232";"1683–1699";"9";"Błaszkowic / Bielaszkowic"
-"355";"Barankowicz";"Jan";"Kraśnik";"Stary rajca (Antiquus Consul); Ławnik i exaktor dochodów (Proventus); Rajca kraśnicki";"#92, #137, #154, #155, #173, #174, #182, #183, #186, #189, #190, #191, #192, #195, #196, #198, #204, #228, #232";"1683–1699";"19";""
-"356";"Stankowski";"Paweł";"Kraśnik";"Podwójci (Viceadvocatus); Podwójci i prowizor Szpitala Św. Ducha; Rajca rezydujący (i cechmistrz kowali)";"#92, #100, #105, #136";"1683–1686";"4";""
-"357";"Banaszowicz";"Sebastian";"Kraśnik";"Ławnik przysięgły; Rajca wybrany przez pospólstwo";"#92, #105, #124, #125, #129, #137";"1683–1686";"6";"Batuszowicz / Batusiowic"
-"358";"Gomuza";"Jan";"Kraśnik";"Ławnik przysięgły; Ławnik / Mieszczanin";"#92, #147";"1683–1697";"2";""
-"359";"Kanaszkowicz";"Wojciech";"Kraśnik";"Ławnik przysięgły";"#92, #124, #137";"1683–1686";"3";""
-"360";"Mucda";"Dawid";"Kraśnik";"Starszy kahału żydowskiego (Senior)";"#92";"1683";"1";""
-"361";"Achiaszowicz";"Lejzor";"Kraśnik";"Starszy kahału żydowskiego (Senior)";"#92";"1683";"1";""
-"362";"Jozwowicz";"Mojżesz Majer";"Kraśnik";"Syndyk / Szkolnik kahału żydowskiego";"#92";"1683";"1";""
-"363";"Wardęga";"Jakub";"Dzierzkowice / Budzyń";"Poddany (dawniej mieszczanin kraśnicki)";"#93, #94, #95, #96, #99, #146";"1683–1695";"6";""
-"364";"Zamoyski";"Jan";"Zamość / Kraśnik";"Ordynat Zamoyski (zm.)";"#93";"1683";"1";""
-"365";"Młodowski";"[Pan]";"Kraśnik / Budzyń";"Podstarości kraśnicki";"#94, #95, #96";"1683";"3";""
-"366";"Dzierzgowski";"[Mieszczanin]";"Kraśnik";"Donosiciel / Sąsiad";"#94";"1683";"1";"Dzierzgowski [?]"
-"367";"Szarowski";"Jan";"Kraśnik";"Mieszczanin";"#97";"1683";"1";"Szarowski [?]"
-"368";"Bębenek";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#97";"1683";"1";"Bębenek [?]"
-"369";"Łyś";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#98";"1683";"1";"Łyś [?]"
-"370";"Pyzik";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#98";"1683";"1";""
-"371";"Turek";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#99";"1683";"1";""
-"372";"Turek";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#99, #100, #101, #102";"1683";"4";"Turkowian"
-"373";"Turek";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#100";"1683";"1";"Turkowian"
-"374";"Turek";"Anna";"Kraśnik (Przedmieście)";"Panna / Siostra młodszych Turków";"#101";"1683";"1";"Turkowian"
-"375";"Turek";"Augustyn";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#101";"1683";"1";"Turkowian"
-"376";"Turek";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#101";"1683";"1";"Turkowian"
-"377";"Turek";"Stefan";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#101";"1683";"1";"Turkowian"
-"378";"Zdebik";"Adam";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#102, #103";"1683";"2";""
-"379";"Lojczak";"Krzysztof";"Kraśnik (Przedmieście)";"Przedmieszczanin / Opiekun";"#102";"1683";"1";"Łojczak [?]"
-"380";"Pardyk";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin / Opiekun";"#102";"1683";"1";"Pardyk [?]"
-"381";"Kudrelik";"Maciej";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#102, #130";"1678–1684";"2";"Kudrelik [?]"
-"382";"Rymarczyk";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin / Kupiec roli";"#103, #104, #106, #125, #133, #134, #162, #163, #164, #166, #177, #180, #206";"1682–1698";"13";""
-"383";"Rymarczykowa";"Regina";"Kraśnik (Przedmieście)";"Żona Marcina Rymarczyka";"#103";"1683";"1";""
-"384";"Olbrachtowicz";"Kazimierz";"Urzędów";"Burmistrz Urzędowa (Proconsul)";"#104";"1682";"1";""
-"385";"Gurski";"Paweł";"Urzędów";"Rajca urzędowski";"#104";"1682";"1";""
-"386";"Łukaszewicz";"Sebastian";"Urzędów";"Rajca urzędowski";"#104";"1682";"1";""
-"387";"Kozieł";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin / Sprzedawca";"#104";"1682";"1";""
-"388";"Kozłowa";"Rozalia";"Kraśnik (Przedmieście)";"Żona Marcina Kozła";"#104";"1682";"1";""
-"389";"Kozłówna";"Anna";"Kraśnik (Przedmieście)";"Siostra Marcina Kozła";"#104";"1682";"1";""
-"390";"Świątek";"Kasper";"Kraśnik (Przedmieście)";"Przedmieszczanin / Sąsiad";"#104";"1682";"1";""
-"391";"Łukaszowicz";"Jan Bartosz";"Urzędów";"Mieszczanin urzędowski";"#105";"1682";"1";""
-"392";"Rodzonek";"Stefan";"Kraśnik / Urzędów";"Świadek kontraktu";"#105";"1682";"1";""
-"393";"Dominek";"Jan";"Kraśnik / Urzędów";"Świadek kontraktu";"#105";"1682";"1";""
-"394";"Kosłowa";"Anna";"Kraśnik / Urzędów";"Świadek kontraktu";"#105";"1682";"1";"Kozłowa [?]"
-"395";"Proskowski";"Jan";"Urzędów";"Notariusz przysięgły urzędowski";"#105";"1682";"1";"Proskowski [?]"
-"396";"Srebnicki";"Jan";"Kraśnik";"Woźny przysięgły (Bedellus)";"#105, #106";"1683";"2";""
-"397";"Tokarski";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin / Sąsiad";"#106";"1683";"1";""
-"398";"Grzanka";"Szymon";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#106";"1683";"1";""
-"399";"Jasiewicz";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#106, #107";"1683";"2";""
-"400";"Kowalik";"Andrzej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#107";"1683";"1";""
-"401";"Smokówna";"Maryna";"Kraśnik (Przedmieście)";"Mieszkanka / Córka G. Kowalika";"#107, #109";"1683";"2";"Kowalikówna"
-"402";"Jasiewicz";"Sebastian";"Kraśnik (Przedmieście)";"Przedmieszczanin / Sędziwy świadek";"#107, #108";"1683";"2";""
-"403";"Kowalik";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#108";"1683";"1";""
-"404";"Kowalik";"Grzegorz";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#108";"1683";"1";""
-"405";"Woszczatyńska";"Ewa";"Kraśnik (Przedmieście)";"Wdowa / Sędziwy świadek";"#108";"1683";"1";"Woszczatyńska [?]"
-"406";"Jajczyk";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin / Opiekun prawny";"#109, #202, #203, #243, #244";"1664–1699";"5";""
-"407";"Radzik";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#109";"1683";"1";""
-"408";"Decik";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#109, #110, #131";"1683–1684";"3";"Decik [?]"
-"409";"Chudzik";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#110";"1683";"1";""
-"410";"Łebkowska";"Katarzyna";"Kraśnik (Przedmieście)";"Żona Wojciecha Chudzika";"#110";"1683";"1";"Łebkowska [?] / Chudzikowa"
-"411";"Łebek";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#110, #111";"1683";"2";"Łebik [?]"
-"412";"Kilianek";"Wawrzyniec";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#111";"1683";"1";""
-"413";"Sadzik";"Wawrzyniec";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#111";"1683";"1";""
-"414";"Dzierżanowski";"Wojciech";"Kraśnik";"Mieszczanin / Szlachetny";"#112, #113, #126, #127, #130";"1684";"5";"Dziwanowski [?] / Dziwanowski"
-"415";"Kobierska";"[Wdowa]";"Kraśnik";"Wdowa po Kobierskim";"#112";"1684";"1";""
-"416";"Kopel";"Feren";"Kraśnik";"Żyd kraśnicki";"#113, #114";"1684";"2";"Ferenc [?]"
-"417";"Balicki";"Sebastian";"Kraśnik (okolice)";"Szlachetny / Świadek";"#114";"1684";"1";"Balicki [?]"
-"418";"Lewkowicz";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#114";"1684";"1";"Lewkowic"
-"419";"Lasa";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#115, #125";"1684";"2";"Łaza"
-"420";"Nogaj";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin; Przedmieszczanin (zm.)";"#115, #133, #224";"1684–1698";"3";""
-"421";"Kobierski";"Jan";"Kraśnik";"Mieszczanin";"#115";"1684";"1";""
-"422";"Kołodziejowa";"Katarzyna Wawrzyńcowa";"Kraśnik (Przedmieście)";"Wdowa";"#116";"1684";"1";"Kołodziej [?]"
-"423";"Kukielka";"Wawrzyniec";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#116";"1684";"1";"Kukułka [?]"
-"424";"Łoszkata";"Stanisław";"Kraśnik";"Mieszczanin";"#116, #117, #123";"1684";"3";"Łoszkata [?] / Łożeński [?]"
-"425";"Fox";"Adam";"Kraśnik";"Mieszczanin";"#116, #117, #123, #145";"1684–1695";"4";"Foxik"
-"426";"Las";"Jakub";"Kraśnik";"Mieszczanin";"#117";"1684";"1";"Lis [?]"
-"427";"Susiło";"Wojciech";"Kraśnik";"Mieszczanin";"#117";"1684";"1";"Susiło [?]"
-"428";"Bartoszek";"Bartłomiej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#117, #128, #132";"1684";"3";"Wojciech Bartoszek"
-"429";"Babarczyk";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#117, #124, #128";"1684";"3";""
-"430";"Zychko";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#117, #124, #128";"1684";"3";"Ziętko [?]"
-"431";"Wilk";"Bartłomiej";"Kraśnik (Przedmieście)";"Młynarz (Molendinator)";"#117, #128, #226";"1684–1698";"3";""
-"432";"Lasa";"Wojciech";"Kraśnik";"Mieszczanin / Świadek";"#118";"1684";"1";"Łaza"
-"433";"Łoszkatowa";"Ewa";"Kraśnik";"Żona Stanisława Łoszkaty";"#118";"1684";"1";""
-"434";"Kuzikówna";"Anna";"Kraśnik";"Mieszkanka / Świadek";"#118";"1684";"1";""
-"435";"Wojcikówna";"Jadwiga";"Kraśnik";"Służebna S. Łoszkaty";"#118";"1684";"1";""
-"436";"Koplik";"Herszko";"Kraśnik";"Żyd kraśnicki";"#119";"1684";"1";""
-"437";"Moszek";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#119";"1684";"1";""
-"438";"Mazurczyk";"Sebastian";"Kraśnik";"Furman / Mieszczanin";"#119";"1684";"1";""
-"439";"Bodecki";"[Pan]";"Kraśnik";"Sławetny / Świadek";"#119";"1684";"1";"Bodecki [?]"
-"440";"Kliduch";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#120";"1684";"1";"Kliduch [?]"
-"441";"Lejba";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#120";"1684";"1";""
-"442";"Majowski";"Jan";"Kraśnik";"Cieśla / Mieszczanin; Rajca kraśnicki";"#120, #145, #159, #172, #174, #180, #199, #211, #227, #228, #230, #232, #239, #240, #246, #247, #250";"1684–1699";"17";"Maioreski [?]"
-"443";"Jozwowicz";"Judka";"Kraśnik";"Żyd kraśnicki";"#121";"1684";"1";""
-"444";"Grimura";"Jan";"Kraśnik";"Mieszczanin";"#121";"1684";"1";"Grimura [?]"
-"445";"Rudnowic";"Bartłomiej";"Kraśnik";"Mieszczanin";"#121";"1684";"1";"Rudnowic [?]"
-"446";"Pietruszka";"Marcin";"Kraśnik";"Sługa miejski; Sługa miejski (Bedellus)";"#121, #129";"1684";"2";"Pietruszczak"
-"447";"Szartowski";"Kazimierz";"Kraśnik";"Malarz (Pictor)";"#121";"1684";"1";""
-"448";"Przybylski";"Marcin";"Sandomierz";"Mieszczanin sandomierski";"#121";"1684";"1";""
-"449";"Iwanicki";"Stefan";"Kraśnik";"Obywatel kraśnicki / Świadek";"#122";"1684";"1";""
-"450";"Malarz";"Mikołaj";"Kraśnik";"Malarz / Świadek";"#122";"1684";"1";""
-"451";"Markowicz";"Chaim";"Kraśnik";"Żyd kraśnicki / Świadek";"#122";"1684";"1";"Markowicz [?]"
-"452";"Lewkowicz";"Jakub";"Kraśnik";"Żyd kraśnicki";"#123";"1684";"1";""
-"453";"Kominek";"Wojciech";"Kraśnik";"Mieszczanin";"#123";"1684";"1";""
-"454";"Łankowa";"Zuzanna";"Kraśnik (Przedmieście)";"Wdowa / Przedmieszczka";"#124";"1684";"1";"Łankowa [?]"
-"455";"Snoviek";"Jan";"Wyżnica";"Pracowity ze wsi Wyżnica / Strażnik";"#124";"1684";"1";"Snoviek [?]"
-"456";"Grzymek";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#124, #129";"1684";"2";""
-"457";"Wolski";"Mateusz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#124";"1684";"1";"Wolski [?]"
-"458";"Jurdzik";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#125, #127";"1684";"2";"Jurdik [?]"
-"459";"Słomkowski";"Paweł";"Kraśnik";"Ławnik przysięgły; Podwojci / Wicewójt kraśnicki; Podwojci / Ławnik przysięgły; Podwojci kraśnicki";"#125, #129, #147, #153, #158, #167, #172, #173, #174, #175, #179, #186, #187, #188, #190, #191, #192, #194, #195, #196, #197, #198, #205, #207, #213, #218, #220, #230, #232, #233, #234, #238, #243";"1684–1699";"33";""
-"460";"Pełka";"Józef";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#125";"1684";"1";"Robak [?]"
-"461";"Pełczyna";"[Wdowa]";"Kraśnik (Przedmieście)";"Przedmieszczanka (zm.)";"#125";"1684";"1";""
-"462";"Jozwowicz";"Jakub";"Kraśnik";"Żyd kraśnicki";"#126";"1684";"1";""
-"463";"Koplowic";"Jakub";"Kraśnik";"Żyd kraśnicki";"#126";"1684";"1";"Koplowic [?]"
-"464";"Kochanowski";"Wojciech";"Kraśnik";"Mieszczanin";"#126";"1684";"1";""
-"465";"Mantemberk";"Aleksander";"Kraśnik";"Kupiec / Mieszczanin";"#127";"1684";"1";""
-"466";"Kotifera";"Anna";"Kraśnik (Przedmieście)";"Wdowa / Kołodziejka";"#128, #130";"1684";"2";"Kołodziejka"
-"467";"Okoń";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin; Przedmieszczanin (syn Elżbiety)";"#128, #215";"1684–1698";"2";"Okoń [?]"
-"468";"Kurc";"Marcin";"Kraśnik";"Mieszczanin";"#129";"1684";"1";"Kurc [?]"
-"469";"Wolski";"Maciej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#129";"1684";"1";"Woluk"
-"470";"Biegajczyk";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#130";"1684";"1";"Biegajczyk [?]"
-"471";"Magurowski";"Stanisław";"Kraśnik";"Mieszczanin";"#131";"1684";"1";"Magurowski [?]"
-"472";"Nowak";"Jan";"Kraśnik";"Mieszczanin";"#131";"1684";"1";""
-"473";"Starobrat";"Szymon";"Kraśnik (Przedmieście)";"Przedmieszczanin / Świadek";"#131";"1684";"1";"Starobrat [?]"
-"474";"Grzebieniowiec";"Szymon";"Kraśnik (Przedmieście)";"Przedmieszczanin / Świadek";"#132";"1684";"1";"Grzebieniowiec [?]"
-"475";"Młynarczyk";"Jakub";"Kraśnik (Przedmieście)";"Młynarz / Rękojemca";"#133";"1684";"1";""
-"476";"Pełka";"Maciej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#133, #134";"1684";"2";""
-"477";"Młodowski";"Jan";"Kraśnik";"Arbiter";"#134";"1684";"1";"Młodowski [?]"
-"478";"Nogaj";"Andrzej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#134";"1684";"1";""
-"479";"Wojtalik";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#134";"1684";"1";""
-"480";"Smarzyński";"[Ksiądz]";"Kraśnik";"Kanonik Regularny";"#134";"1684";"1";""
-"481";"Sobel";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#134";"1684";"1";"Sobel [?]"
-"482";"Rodzonek";"Bartłomiej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#134, #150";"1684–1694";"2";""
-"483";"Brzęk";"Wawrzyniec";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#135";"1684";"1";"Brzęk [?]"
-"484";"Szocik";"Wojciech";"Kraśnik";"Mieszczanin";"#135";"1684";"1";"Szocik [?]"
-"485";"Chruścik";"Jakub";"Kraśnik";"Młodzieniec / Poszkodowany";"#135";"1684";"1";"Chruścik [?]"
-"486";"Żyta";"Jakub";"Kraśnik";"Mieszczanin";"#135";"1684";"1";"Żyta [?]"
-"487";"Łębowski";"Jakub";"Kraśnik (okolice)";"Szlachetny / Komisarz";"#136";"1686";"1";"Łębowski [?]"
-"488";"Toruński";"Kazimierz";"Kraśnik (okolice)";"Szlachetny / Komisarz";"#136";"1686";"1";"Toruński [?]"
-"489";"Gucki";"Jerzy";"Kraśnik";"Rajca rezydujący / Starszy cechów";"#136";"1686";"1";""
-"490";"Kościński";"Szymon";"Kraśnik";"Ławnik, notariusz i asesor Trybunału Zamojskiego; Urzędnik / Mieszczanin; Ławnik / Mieszczanin (zm.?)";"#137, #140, #211";"1686–1698";"3";""
-"491";"Solecki";"Stanisław";"Kraśnik";"Ławnik przysięgły; Burmistrz kraśnicki; Rajca / Subdelegat urzędu radzieckiego i burmistrzowskiego; Rajca / Mieszczanin (cechowy); Rajca kraśnicki";"#137, #141, #154, #155, #160, #168, #173, #174, #204, #224, #228, #230, #232, #233";"1686–1699";"14";""
-"492";"Szczerkowicz";"Stanisław";"Kraśnik";"Ławnik przysięgły";"#137";"1686";"1";""
-"493";"Potocki";"Adam";"Kraśnik";"Ławnik przysięgły; Burmistrz i rezydent kraśnicki; Prokonsul / Rajca kraśnicki; Prokonsul kraśnicki; Prokonsul / Opiekun; Rajca / Ławnik";"#137, #145, #168, #174, #190, #194, #196, #212, #228, #230, #231, #232, #247, #250";"1686–1699";"14";"Potokowicz / Potokowski [Potocki?]"
-"494";"Reszka";"Stanisław";"Kraśnik";"Exaktor poborów publicznych";"#137";"1686";"1";""
-"495";"Kucharski";"Stanisław";"Kraśnik";"Exaktor poborów publicznych";"#137";"1686";"1";""
-"496";"Beszkowic";"[Młodszy]";"Kraśnik";"Cechmistrz szewski (młodszy)";"#137";"1686";"1";""
-"497";"Paśkowic";"Tomasz";"Kraśnik";"Cechmistrz kuśnierski (starszy)";"#137";"1686";"1";"Paśkowic [?]"
-"498";"Strzyżowski";"Maciej";"Kraśnik";"Cechmistrz kowalski (młodszy)";"#137";"1686";"1";""
-"499";"Nowaczek";"Paweł";"Kraśnik";"Mieszczanin";"#138";"1686";"1";""
-"500";"Butka";"Wojciech";"Kraśnik";"Mieszczanin";"#138";"1686";"1";"Buta"
-"501";"Więckowa";"Jadwiga";"Kraśnik";"Wdowa";"#138";"1686";"1";"Więckowa [?]"
-"502";"Nagórny";"Stefan";"Kraśnik";"Mieszczanin";"#138";"1686";"1";""
-"503";"Chmielówna";"Katarzyna";"Kraśnik";"Mieszkanka";"#138";"1686";"1";""
-"504";"Berel";"Moszko";"Kraśnik";"Żyd kraśnicki";"#138";"1686";"1";"Berkowicz [?]"
-"505";"Proskowic";"Jan";"Kraśnik";"Mieszczanin";"#139, #155";"1694–1698";"2";"Proskowicz [?] / Proskowic [?]"
-"506";"Bednarz";"Grzegorz";"Kraśnik";"Mieszczanin";"#139";"1694";"1";""
-"507";"Brzeziński";"Jan";"Kraśnik";"Mieszczanin";"#139";"1694";"1";"Brzeziński [?]"
-"508";"Pałka";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#139";"1694";"1";"Pałka [?]"
-"509";"Skalisz";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#140";"1694";"1";"Skalisz [?]"
-"510";"Nowaczek";"Jan";"Kraśnik";"Mieszczanin";"#140";"1694";"1";"Nowaczek [?]"
-"511";"Szymkiewicz";"Stanisław";"Kraśnik";"Burmistrz kraśnicki";"#141";"1694";"1";"Szymkiewicz [?]"
-"512";"Broskowic";"Stanisław";"Kraśnik";"Mieszczanin";"#141";"1694";"1";"Proskowic"
-"513";"Broskowic";"Jan";"Kraśnik";"Mieszczanin";"#141";"1694";"1";"Proskowic"
-"514";"Anzel";"Abel";"Kraśnik";"Żyd kraśnicki";"#141";"1694";"1";""
-"515";"Janczarek";"Jakub";"Sulów";"Poddany ze wsi Sulów";"#141";"1695";"1";"Janczarok [?]"
-"516";"Biały";"Wojciech";"Kraśnik";"Mieszczanin";"#142";"1694";"1";"Biały [?]"
-"517";"Bąk";"Mateusz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#142";"1694";"1";""
-"518";"Kajmik";"Jan";"Kraśnik";"Świadek";"#142";"1694";"1";"Kajmik [?]"
-"519";"Konduk";"[Mieszczanin]";"Kraśnik";"Świadek";"#142";"1694";"1";"Konduk [?]"
-"520";"Biernatek";"Mateusz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#142";"1694";"1";""
-"521";"Biernatek";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#142";"1694";"1";""
-"522";"Piasecki";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin; Przedmieszczanin (Longer) / Szafarz miejski";"#143, #180, #187, #190, #199";"1695–1698";"5";""
-"523";"Piasecki";"Bartłomiej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#143, #157, #159";"1695–1698";"3";""
-"524";"Piasecka";"Marianna";"Kraśnik (Przedmieście)";"Przedmieszczanka / Siostra";"#143";"1695";"1";""
-"525";"Piasecka";"Zofia";"Kraśnik (Przedmieście)";"Przedmieszczanka / Siostra";"#143, #161";"1695–1698";"2";""
-"526";"Piasecki";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#143";"1695";"1";""
-"527";"Wilczek";"Józef";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#143";"1695";"1";"Wileżka [?]"
-"528";"Szyszkowski";"Józef";"Kraśnik";"Mieszczanin";"#143";"1695";"1";"Szyszkowski [?]"
-"529";"Jastrzębski";"Bartłomiej";"Kraśnik";"Mieszczanin";"#143";"1695";"1";"Jastrzębski [?]"
-"530";"Madej";"Józef";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#144";"1695";"1";""
-"531";"Wilczek";"Adam";"Kraśnik (Przedmieście)";"Przedmieszczanin / Brat Józefa";"#144";"1695";"1";""
-"532";"Tutkowa";"Dorota";"Kraśnik (Przedmieście)";"Matka Józefa Wilczka";"#144";"1695";"1";""
-"533";"Kwasowic";"Stefan";"Kraśnik";"Ławnik przysięgły; Rajca / Ławnik kraśnicki; Dawny rajca / Ławnik; Rajca kraśnicki";"#144, #151, #152, #154, #167, #171, #173, #174, #190, #194, #211, #218, #220, #228";"1695–1699";"14";""
-"534";"Rożewski";"Kazimierz";"Kraśnik";"Mieszczanin";"#144";"1695";"1";"Różewski [?]"
-"535";"Wilczek";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#144";"1695";"1";""
-"536";"Zdebik";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#145";"1695";"1";""
-"537";"Maziarczyk";"Kazimierz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#145";"1695";"1";"Maziarczyk [?]"
-"538";"Abus";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#146";"1695";"1";"Abus [?]"
-"539";"Itralowa";"[Żydówka]";"Kraśnik";"Żydówka kraśnicka";"#146";"1695";"1";"Izraelowa [?]"
-"540";"Abusiowa";"[Żydówka]";"Kraśnik";"Żydówka kraśnicka";"#146";"1695";"1";""
-"541";"Więcko";"Jan";"Kraśnik";"Mieszczanin";"#146";"1695";"1";"Więcek"
-"542";"Koza";"Wojciech";"Kraśnik";"Mieszczanin";"#146";"1695";"1";"Koza [?]"
-"543";"Kozik";"Tomasz";"Kraśnik";"Mieszczanin";"#146";"1695";"1";"Kozik [?]"
-"544";"Kozik";"Maciej";"Kraśnik";"Mieszczanin";"#146";"1695";"1";"Kozik [?]"
-"545";"Kąkoła";"Wawrzyniec";"Sulów";"Pracowity ze wsi Sulów";"#147";"1697";"1";"Kąkoła [?]"
-"546";"Kowal";"Stanisław";"Sulów / Kraśnik";"Pozwany o pobicie";"#147";"1697";"1";"Kowal [?]"
-"547";"Trawiński";"Jan";"Kraśnik";"Mieszczanin";"#147, #217";"1697–1698";"2";"Trawiński [?]"
-"548";"Macal";"Józef";"Kraśnik";"Mieszczanin; Mieszczanin (chrześcijanin)";"#147, #166, #233, #237";"1697–1699";"4";""
-"549";"Dudek";"Wojciech";"Kraśnik";"Mieszczanin";"#148";"1697";"1";"Dudek [?]"
-"550";"Kubik";"Maciej";"Kraśnik";"Mieszczanin";"#148";"1697";"1";"Kubik [?]"
-"551";"Nowak";"Tomasz";"Kraśnik";"Mieszczanin";"#148";"1697";"1";""
-"552";"Grątek";"Franciszek";"Kraśnik";"Mieszczanin / Szwagier T. Nowaka";"#148";"1697";"1";"Grątek [?]"
-"553";"Łąka";"Maciej";"Kraśnik";"Mieszczanin";"#148";"1697";"1";"Łąka [?]"
-"554";"Mrozek";"Karol";"Kraśnik";"Mieszczanin";"#148";"1697";"1";"Mrozek [?]"
-"555";"Śliwiński";"Maciej";"Kraśnik";"Mieszczanin";"#148";"1697";"1";"Śliwiński [?]"
-"556";"Piotrowczyk";"Maciej";"Kraśnik";"Mieszczanin";"#149";"1694";"1";""
-"557";"Kłosowa";"[Mieszkanka]";"Kraśnik";"Mieszkanka";"#149";"1694";"1";""
-"558";"Ryczek";"Jan";"Kraśnik";"Mieszczanin";"#150";"1694";"1";"Ryczek [?]"
-"559";"Papuża";"Sebastian";"Kraśnik";"Mieszczanin";"#150";"1694";"1";"Papuża [?]"
-"560";"Rusek";"Wojciech";"Kraśnik";"Mieszczanin";"#150";"1694";"1";""
-"561";"Pękala";"Augustyn";"Kraśnik";"Mieszczanin";"#150";"1694";"1";"Pękala [?]"
-"562";"Piotrowczyk";"Michał";"Kraśnik";"Mieszczanin";"#150, #244";"1694–1699";"2";""
-"563";"Kozak";"Paweł";"Kraśnik";"Świadek";"#150";"1694";"1";""
-"564";"Rękuta";"Stanisław";"Kraśnik";"Mieszczanin";"#151";"1698";"1";"Pękuta [?] / Rękuta [Pękuta?]"
-"565";"Żydek";"Jan";"Kraśnik";"Pracowity / Czeladź";"#151, #171";"1698";"2";"Żydek [?]"
-"566";"Żydek";"Wojciech";"Kraśnik";"Pracowity / Czeladź";"#151, #171";"1698";"2";"Żydek [?]"
-"567";"Łaziński";"Jan";"Kraśnik";"Młynarz (stoki)";"#151, #152, #171";"1698";"3";"Łaciński [Łaziński?] / Łaziński [Łaciński?]"
-"568";"Grzymałowski";"Wojciech";"Kraśnik";"Ławnik przysięgły; Ławnik przysięgły / Opiekun; Ławnik / Deputat Trybunału Zamojskiego";"#151, #152, #155, #167, #171, #196, #211, #212, #213, #218, #228, #229, #230, #231, #237, #239, #243, #245, #247, #250";"1697–1699";"20";""
-"569";"Bielaszkowic";"Wawrzyniec";"Kraśnik";"Ławnik przysięgły; Ławnik przysięgły / Cechmistrz kuśnierski";"#151, #152, #154, #160, #167, #171, #174, #183, #192, #194, #204, #213, #215, #218, #220, #224, #228, #230, #231, #247, #250";"1697–1699";"21";"Bielaszkowic / Pisarzowic [Bielaszkowic?] / Pilaszkowic [Bielaszkowic?] / Pilaszkowic"
-"570";"Ichowic";"Szmul";"Kraśnik";"Żyd kraśnicki";"#151";"1698";"1";"Ichowic [?]"
-"571";"Pełk";"Andrzej";"Kraśnik";"Mieszczanin";"#151";"1698";"1";"Pełk [?]"
-"572";"Lis";"Jakub";"Kraśnik";"Mieszczanin";"#151, #226";"1698";"2";""
-"573";"Młynarczyk";"Jakub";"Kraśnik";"Mieszczanin";"#151";"1698";"1";"Młynarczyk [?]"
-"574";"[Nieznany]";"Piotr";"Kraśnik";"Uczciwy (poszkodowany)";"#152";"1698";"1";"Piotr [?]"
-"575";"Stabrawic";"Paweł";"Kraśnik";"Uczciwy";"#152";"1698";"1";"Stabrawic [?]"
-"576";"Nowacka";"Katarzyna";"Kraśnik / Urzędów";"Landwójtowa urzędowska (córka Ubalda Janaszkowica)";"#152, #155, #158, #171, #172, #173, #174, #175, #187, #191, #194, #195, #197, #228, #229";"1698–1699";"15";"Janaszkowicowa [Nowacka?] / Janaszkowicowa"
-"577";"[Parobek Nowackiej]";"Stasiek";"Kraśnik";"Parobek Katarzyny Nowackiej";"#152, #155";"1698";"2";"Stasik [?]"
-"578";"Jędrzejowski";"Paweł";"Kraśnik";"Świadek";"#152";"1698";"1";"Jędrzejowski [?]"
-"579";"Panek";"Jędrzej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#153, #154, #156";"1698";"3";""
-"580";"Feliks";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#153, #154";"1698";"2";"Feliks [?]"
-"581";"Janczewski";"Michał";"Kraśnik";"Uczciwy (poszkodowany)";"#153";"1698";"1";"Janczewski [?]"
-"582";"Kamiński";"Stanisław";"Kraśnik";"Uczciwy (poszkodowany)";"#153";"1698";"1";""
-"583";"[Woźny]";"Wojciech";"Kraśnik";"Woźny sądowy";"#153";"1698";"1";"Wojciech [?]"
-"584";"Musik";"Jakub";"Kraśnik";"Mieszczanin";"#153";"1698";"1";"Musik [?]"
-"585";"Grzymek";"Wojciech";"Kraśnik";"Świadek";"#153";"1698";"1";"Grzymek [?]"
-"586";"Starski";"Franciszek";"Kraśnik";"Woźny sądowy";"#154";"1698";"1";"Starski [?]"
-"587";"Wardęga";"Wojciech";"Kraśnik";"Pracowity / Poddany";"#154, #155";"1698";"2";""
-"588";"Łyszkowic";"Kazimierz";"Kraśnik";"Mieszczanin";"#154";"1698";"1";"Łyszkowic [?]"
-"589";"Paszek";"Marcin";"Kraśnik";"Mieszczanin";"#154";"1698";"1";"Paszek [?]"
-"590";"Kłoskowic";"[Pan]";"Kraśnik";"Sławetny";"#154";"1698";"1";"Kłoskowic [?]"
-"591";"Kłopot";"Wojciech";"Kraśnik";"Mieszczanin";"#155, #212";"1698";"2";""
-"592";"Murowski";"Jan";"Kraśnik";"Mieszczanin; Rajca kraśnicki";"#155, #190, #194";"1698";"3";"Murowski [?]"
-"593";"Moszkowicz";"Berek";"Kraśnik";"Żyd kraśnicki";"#157, #158";"1698";"2";""
-"594";"Kłopot";"Paweł";"Kraśnik";"Mieszczanin; Dziesiętnik przedmiejski";"#157, #158, #208, #209, #210";"1698";"5";""
-"595";"Kołkowic";"Tomasz";"Kraśnik";"Mieszczanin";"#157";"1698";"1";"Kołkowic [?]"
-"596";"Sowiński";"Sebastian";"Kraśnik";"Mieszczanin";"#157";"1698";"1";"Sowiński [?]"
-"597";"Wilk";"Adam";"Kraśnik";"Mieszczanin";"#157, #215, #216, #243";"1698–1699";"4";""
-"598";"Kłopotek";"Maciej";"Kraśnik";"Mieszczanin";"#157";"1698";"1";"Kłopotek [?]"
-"599";"Trawiński";"Tomasz";"Kraśnik";"Mieszczanin";"#157";"1698";"1";"Trawiński [?]"
-"600";"Kobierska";"Szymonowa";"Kraśnik";"Wdowa";"#158";"1694";"1";""
-"601";"Łopatka";"Sebastian";"Kraśnik";"Mieszczanin";"#158";"1698";"1";"Łopatka [?]"
-"602";"Mrozowski";"Karol";"Kraśnik";"Mieszczanin; Mieszczanin kraśnicki";"#158, #168, #169, #227";"1698";"4";"Mroziński [Mrozowski?]"
-"603";"Pietrzak";"Tomasz";"Kraśnik";"Mieszczanin";"#159";"1698";"1";"Pietrzak [?]"
-"604";"Zasadzowic";"Stefan";"Kraśnik";"Mieszczanin";"#159";"1698";"1";"Zasadzowic [?]"
-"605";"Olchowski";"Szymon";"Kraśnik (Piaski)";"Przedmieszczanin z Piasków; Przedmieszczanin z Piasków (Kuśmierz alias Olchowski); Przedmieszczanin (wyjeżdżający na Wisłę)";"#159, #163, #164, #166, #167";"1695–1698";"5";"Olchowski [?]"
-"606";"Icek";"[syn Biernasia]";"Kraśnik";"Żyd kraśnicki";"#159";"1695";"1";"Icek [?]"
-"607";"Biernas";"[Żyd]";"Kraśnik";"Żyd kraśnicki (ojciec Icka)";"#159";"1695";"1";"Biernas [?]"
-"608";"Borucki";"Matyjasz";"Kraśnik";"Mieszczanin (tegoż rzemiosła)";"#160";"1698";"1";"Borucki [?]"
-"609";"Dąbrowski";"Paweł";"Kraśnik";"Uczciwy (poszkodowany)";"#160";"1698";"1";""
-"610";"Złotnicki";"Jakub";"Kraśnik";"Uczciwy";"#160";"1698";"1";"Złotnicki [?] / Szczepan Złotnicki [?]"
-"611";"Bożkowic";"Wojciech";"Kraśnik";"Ławnik przysięgły";"#160, #174, #207, #220, #224, #226";"1698";"6";""
-"612";"Wolanowski";"[Ławnik]";"Kraśnik";"Ławnik / Urzędnik";"#160";"1698";"1";"Wolanowski [?]"
-"613";"Abramowic";"Mojżesz";"Kraśnik";"Cyrulik miejski";"#160";"1698";"1";""
-"614";"Dutkowic";"Krzysztof";"Kraśnik";"Mieszczanin";"#160";"1698";"1";"Dutkowic [?]"
-"615";"Lipczyński";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#160";"1698";"1";"Lipczyński [?]"
-"616";"Wysocki";"[Pan]";"Kraśnik";"Sławetny";"#160";"1698";"1";""
-"617";"Bosacki";"Walenty";"Kraśnik";"Mieszczanin";"#160";"1698";"1";"Bosacki [Bożkowic?]"
-"618";"Wysocka";"Katarzyna";"Kraśnik";"Sławna Pani (żona Aleksandra Wysockiego)";"#161";"1698";"1";""
-"619";"Pyrzkowna";"Zofia";"Kraśnik";"Mieszczanka";"#161";"1698";"1";"Pyrzkowna [?]"
-"620";"Wysocki";"Aleksander";"Kraśnik";"Mąż Katarzyny Wysockiej";"#161";"1698";"1";""
-"621";"Tudorek";"Anna";"Kraśnik (Piaski)";"Uczciwa (córka Stanisława Tudorka)";"#161, #162";"1698";"2";"Tudorkowa / Tudorek [?]"
-"622";"Leś";"Matyjasz";"Kraśnik (Piaski)";"Świadek / Sąsiad roli";"#161";"1698";"1";"Leś [?]"
-"623";"Kuczyński";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#161";"1698";"1";"Kuczyński [?]"
-"624";"Tudorek";"Stanisław";"Kraśnik (Piaski)";"Ojciec Anny Tudorkowej (zm.)";"#162";"1698";"1";"Tudorek [?]"
-"625";"Pastuszka Łołkowic";"Stanisław";"Kraśnik (Piaski)";"Ojciec męża Anny Tudorkowej";"#162";"1698";"1";"Łołkowic [?]"
-"626";"Gąskowicowa";"Jadwiga";"Kraśnik (Piaski)";"Uczciwa";"#162";"1698";"1";"Gąskowicowa [?]"
-"627";"Brząs";"Sebastian";"Kraśnik";"Uczciwy";"#162, #163, #164, #166";"1698";"4";"Brząs [?]"
-"628";"Kozakowa";"Katarzyna";"Kraśnik";"Uczciwa (żona Kozaka)";"#163, #164";"1698";"2";""
-"629";"Kozakowicz";"[Syn Kozaka]";"Kraśnik";"Świadek (syn Kozakowej)";"#163, #164";"1698";"2";""
-"630";"Boguta";"Jakub";"Kraśnik";"Uczciwy";"#164";"1698";"1";""
-"631";"Stary Kmieć";"Tomasz";"Kraśnik";"Świadek / Pasterz";"#164";"1698";"1";""
-"632";"Taborówna";"Jadwiga";"Kraśnik";"Płócienniczka (żona tokarza)";"#165";"1698";"1";""
-"633";"[Pasierbica Taborówny]";"Małgorzata";"Kraśnik";"Pasierbica Jadwigi Taborówny";"#165";"1698";"1";""
-"634";"[Pasierb Taborówny]";"Jędrzej";"Kraśnik";"Pasierb Jadwigi Taborówny";"#165";"1698";"1";""
-"635";"[Syn Taborówny]";"Jan";"Kraśnik";"Mieszczanin / Syn";"#165";"1698";"1";""
-"636";"[Syn Taborówny]";"Piotr";"Kraśnik";"Mieszczanin / Syn";"#165";"1698";"1";"Piotr [?]"
-"637";"Rutkowic";"Stanisław";"Kraśnik";"Świadek";"#166";"1698";"1";"Rutkowic [?]"
-"638";"Ruchowski";"Jan";"Kraśnik";"Świadek";"#166";"1698";"1";"Ruchowski [?]"
-"639";"Arel";"[Żyd]";"Kraśnik";"Żyd kraśnicki";"#166";"1698";"1";"Aron [Arel?]"
-"640";"[Parobek z Izdebna]";"Stasio";"Izdebno [?]";"Parobek Pani Mundajnej";"#168, #169";"1698";"2";""
-"641";"Mundajna";"[Pani]";"Izdebno [?]";"Szlachcianka / Posesorka";"#168";"1698";"1";"Mundajna [?]"
-"642";"[Czeladnik z Podgórza]";"Matyjasz";"Kraśnik (Podgórze)";"Uczestnik tumultu";"#168";"1698";"1";""
-"643";"[Czeladnik z Podgórza]";"Kazimierz";"Kraśnik (Podgórze)";"Uczestnik tumultu";"#168";"1698";"1";""
-"644";"Pankowa";"[Pani]";"Kraśnik";"Mieszczanka";"#168";"1698";"1";"Panek [?]"
-"645";"Kempionka";"Anna";"Kraśnik";"Żona Matyjasza Piotrowczyka (zm.)";"#169";"1698";"1";"Kempionka [?]"
-"646";"Piotrowczyk";"Matyjasz";"Kraśnik";"Mieszczanin (wdowiec po Annie Kempionce); Mieszczanin / Przedmieszczanin";"#169, #241, #245";"1698–1699";"3";""
-"647";"Babiarczyk";"[Syn Kempionki]";"Kraśnik";"Syn Anny Kempionki";"#169";"1698";"1";"Babiarczyk [?]"
-"648";"Koczorowski";"Grzegorz";"Kraśnik";"Uczciwy";"#170";"1698";"1";"Koczorowski [?]"
-"649";"Białek";"Bartek";"Kraśnik";"Uczciwy";"#170";"1698";"1";"Białek [?]"
-"650";"Opaskiewicz";"[Pan]";"Kraśnik";"Sławetny";"#170";"1698";"1";"Opaskiewicz [?]"
-"651";"Chuctry";"A.";"Kraśnik";"Pozwany";"#170";"1698";"1";"Huctry [?] / Chuctry [Huctry?]"
-"652";"Sitarczyk";"Franciszek";"Kraśnik";"Uczciwy (posłaniec / woźny)";"#171";"1698";"1";"Sitarczyk [?]"
-"653";"Kieniewicz";"Jan Onufry";"Kraśnik";"Adwokat ordynaryjny kraśnicki; Wójt / Adwokat ordynaryjny kraśnicki; Wójt i sędzia kraśnicki; Wójt kraśnicki; Wójt ordynaryjny kraśnicki";"#172, #188, #190, #192, #220, #224, #228, #230, #232, #243, #247, #250";"1698–1699";"12";"Onupkiewicz [?] / Kieniewicz [Onupkiewicz?] / Onupkiewicz [Kieniewicz?]"
-"654";"Mrozowski";"Adam Karol";"Kraśnik";"Magister sztuk wyzwolonych (malarstwa) / Pełnomocnik; Mieszczanin kraśnicki / Magister";"#172, #233";"1698–1699";"2";""
-"655";"Nowacki";"Wojciech";"Kraśnik / Urzędów";"Landwójt / Wicewójt urzędowski; Landwójt urzędowski";"#172, #173, #174, #175, #187, #191, #228, #229";"1698–1699";"8";""
-"656";"Słomkowski";"Wojciech";"Kraśnik";"Pasierb Pawła Słomkowskiego / Pełnomocnik; Mieszczanin";"#173, #174, #245";"1698–1699";"3";"Skowroński [?]"
-"657";"Więckowicz";"Jan";"Kraśnik";"Mieszczanin";"#176";"1698";"1";"Wierckowicz [?] / Więckowicz [Wierckowicz?]"
-"658";"Wojcikowicz";"Wojciech";"Kraśnik";"Mieszczanin";"#176";"1698";"1";"Woycikowicz [?] / Wojcikowicz [Woycikowicz?]"
-"659";"Stryczak";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#177, #180";"1698";"2";"Struczak [?] / Stryczak [Struczak?]"
-"660";"[Rękojmia roli]";"Szymon";"Kraśnik";"Mieszczanin";"#177";"1698";"1";"Szymon [?]"
-"661";"Markowicz";"Wygdor";"Kraśnik";"Żyd kraśnicki (obywatel kraśnicki)";"#178, #179, #184";"1698";"3";""
-"662";"Kuzokowicz";"Stanisław";"Kraśnik";"Sławetny (świadek)";"#178";"1698";"1";"Kuzakowicz [?] / Kuzokowicz [Kuzakowicz?]"
-"663";"Draganek";"Szymon";"Kraśnik";"Winiarz / Przedmieszczanin";"#178, #179, #184";"1698";"3";""
-"664";"Nowak";"Benedykt";"Kraśnik";"Uczciwy (świadek)";"#178";"1698";"1";""
-"665";"Peron";"Maciej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#179, #186, #187, #192, #196, #207";"1698";"6";""
-"666";"Wawrzyło";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#179, #186, #207";"1698";"3";""
-"667";"Maśniarczyk";"Kazimierz";"Kraśnik";"Uczciwy";"#180";"1698";"1";"Maśniarczyk [?]"
-"668";"Torański";"Stanisław";"Kraśnik";"Uczciwy";"#180";"1698";"1";"Torański [?]"
-"669";"Nowacki";"Benedykt";"Kraśnik";"Uczciwy";"#181, #225";"1698";"2";""
-"670";"Ornatowski";"Wojciech";"Kraśnik";"Bedel sądowy";"#181, #185, #189, #214";"1698";"4";""
-"671";"Dalmacki";"Wojciech";"Kraśnik";"Rzemiosło krawieckie / Mieszczanin";"#181";"1698";"1";"Dalmacki [?]"
-"672";"Zychowiczowa";"[Wdowa]";"Kraśnik";"Mieszczanka (zm.)";"#181";"1698";"1";""
-"673";"Chmielowicz";"Adam";"Kraśnik";"Delegowany przez wójta / Pisarz";"#181";"1698";"1";""
-"674";"Petek";"Stefan";"Kraśnik";"Ławnik miejski";"#181";"1698";"1";"Petkowicz [?]"
-"675";"[Prezentująca Zofia]";"Zofia";"Kraśnik";"Mieszkanka / Opiekunka";"#181";"1698";"1";""
-"676";"Stachowicz";"Błażej";"Kraśnik (Przedmieście)";"Przedmieszczanin / Szewc; Szewc (majster) / Przedmieszczanin; Szewc / Szwagier Studzickiego";"#182, #186, #189, #190, #191, #196, #198, #217, #219, #221, #224";"1698";"11";""
-"677";"Żmienda";"Jan";"Kraśnik";"Uczciwy (krewny Barankowicza); Uczciwy (towarzysz Barankowicza); Uczciwy (świadek)";"#182, #189, #190, #198, #237";"1698–1699";"5";"Żmienda [?]"
-"678";"Trzelowicz";"Adam";"Kraśnik";"Pisarz urzędu wójtowskiego; Pisarz miejski";"#183, #188, #192, #243";"1698–1699";"4";"Chmielowicz [Trzelowicz?]"
-"679";"Barankowiczowa";"Anna";"Kraśnik";"Sławetna Pani (żona Jana Barankowicza)";"#183";"1698";"1";""
-"680";"Sitarska";"Franciszka";"Kraśnik";"Żona Marcina Sitarskiego";"#183";"1698";"1";""
-"681";"Boron";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#184";"1698";"1";"Boron [?]"
-"682";"Skakha";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#184";"1698";"1";"Skakha [?]"
-"683";"Pałuskiewicz";"Baltazar";"Kraśnik";"Kanonik regularny / Promotor Bractwa Literackiego";"#185";"1698";"1";""
-"684";"Jankowski";"Szymon";"Kraśnik";"Mieszczanin";"#185";"1698";"1";""
-"685";"Pielichowicz";"Maciej";"Kraśnik";"Mieszczanin";"#185";"1698";"1";""
-"686";"Jesurkiewicz";"Stanisław";"Kraśnik";"Stary rajca (Antiquus Consul); Stary rajca / Cechmistrz kuśnierski; Dawny rajca kraśnicki";"#185, #189, #190, #204, #224, #232, #233, #237";"1698–1699";"8";""
-"687";"Rebiński";"Stanisław";"Kraśnik";"Mieszczanin";"#185";"1698";"1";""
-"688";"Abel";"Maciej";"Kraśnik";"Mieszczanin (Camax)";"#185";"1698";"1";""
-"689";"Nowacki";"Tomasz";"Kraśnik";"Mieszczanin";"#185, #207, #225";"1698";"3";""
-"690";"Dubaj";"Jakub";"Kraśnik";"Mieszczanin";"#185, #218";"1698";"2";""
-"691";"Jardzioch";"Tomasz";"Kraśnik";"Uczciwy (świadek)";"#186";"1698";"1";"Jardzioch [?]"
-"692";"Peron";"Wojciech";"Kraśnik (Przedmieście)";"Syn Matyjasza Perona; Syn Macieja Perona";"#186, #207";"1698";"2";""
-"693";"Wawrzyło";"Jakub";"Kraśnik (Przedmieście)";"Brat Wojciecha Perona; Syn / Krewny";"#186, #207";"1698";"2";""
-"694";"Świeczka";"Marcin";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#187";"1698";"1";""
-"695";"Tokarzowa";"Jadwiga";"Kraśnik (Przedmieście)";"Wdowa po Janie Tokarzu";"#188";"1698";"1";""
-"696";"Tokarz";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#188";"1698";"1";""
-"697";"Jurek";"Paweł";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#188";"1698";"1";""
-"698";"Kowalik";"Wawrzyniec";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#188";"1698";"1";""
-"699";"Skowronek";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin (zm.)";"#188";"1698";"1";""
-"700";"Boruch";"[Halka]";"Kraśnik";"Żyd kraśnicki (szynkarz)";"#189, #198, #249";"1698–1699";"3";"Halka"
-"701";"Stępień";"Jan";"Kraśnik";"Szwagier Błażeja Stachowicza";"#189";"1698";"1";""
-"702";"Brzozowski";"Andrzej";"Kraśnik";"Urodzony / Pełnomocnik";"#191";"1698";"1";"Brzozowski [?]"
-"703";"Sitarski";"Franciszek";"Kraśnik";"Mieszczanin";"#192";"1698";"1";""
-"704";"Bzówka";"[Mieszczanin]";"Kraśnik";"Mieszczanin";"#192";"1698";"1";"Bzówka [?]"
-"705";"Pacławkowic";"Jan";"Kraśnik";"Uczciwy (świadek)";"#192";"1698";"1";"Pacławkowic [?]"
-"706";"Piwnik";"Bartłomiej";"Kraśnik";"Syn Piwnika";"#192";"1698";"1";"Piwnik [?]"
-"707";"Tropycak";"Krzysztof";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#192, #193";"1698";"2";"Tropycak [?]"
-"708";"Kondyszek";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin (sąsiad)";"#193";"1698";"1";"Kondyszek [?]"
-"709";"Dutkiewicz";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#193";"1698";"1";""
-"710";"Rzepka";"Marcin";"Kraśnik";"Mieszczanin";"#193";"1698";"1";""
-"711";"Petek";"Adam";"Kraśnik";"Uczciwy (świadek)";"#193";"1698";"1";"Petek [?]"
-"712";"Mutkowic";"Tomasz";"Kraśnik";"Towarzysz rzemiosła szewskiego";"#194, #204";"1698";"2";""
-"713";"Solecki";"Szymon";"Kraśnik";"Majster rzemiosła szewskiego";"#194, #204";"1698";"2";""
-"714";"Wierzbicki";"Stefan";"Kraśnik";"Pełnomocnik";"#194";"1698";"1";"Wierzbicki [?]"
-"715";"Wojtanowski";"[Pan]";"Kraśnik";"Szlachcic / Mieszczanin";"#195";"1698";"1";"Wojtanowski [?]"
-"716";"Koronny";"Piotr";"Kraśnik";"Mieszczanin";"#195";"1698";"1";"Koronny [?]"
-"717";"Wereszczyna";"Agnieszka";"Kraśnik";"Wdowa po Tomaszu Jutratku";"#196";"1698";"1";""
-"718";"Jutratek";"Tomasz";"Kraśnik";"Mieszczanin";"#196";"1698";"1";"Jutratek [?]"
-"719";"Parciak";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#196, #197";"1698";"2";"Parciak [?]"
-"720";"Zuławski";"[Pan]";"Kraśnik";"Szlachcic / Urzędnik";"#197";"1698";"1";"Zuławski [?]"
-"721";"Wójcik";"Szymon";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#197";"1698";"1";"Wojcik"
-"722";"Stadnicki";"[Pan]";"Kraśnik";"Stolnik czernihowski";"#197";"1698";"1";""
-"723";"Szmara";"Paweł";"Kraśnik";"Mieszczanin (syn starego Szmary)";"#200";"1664";"1";""
-"724";"Szmara";"[Stary]";"Kraśnik";"Mieszczanin (ojciec Pawła)";"#200";"1664";"1";""
-"725";"Szykowic";"Maciej";"Kraśnik";"Mieszczanin";"#200";"1664";"1";""
-"726";"Biernat";"Marcin";"Kraśnik";"Mieszczanin";"#200";"1664";"1";""
-"727";"Jajczyk";"Kasper";"Kraśnik";"Mieszczanin";"#200, #201";"1664";"2";""
-"728";"Łosika";"Katarzyna";"Kraśnik";"Mieszczanka";"#201, #202";"1664";"2";"Łożyka [?] / Łosika [Łożyka?]"
-"729";"Łosika";"Agnieszka";"Kraśnik";"Córka Katarzyny Łosiki";"#201";"1664";"1";"Łożyka [?]"
-"730";"Łowna";"Magdalena Piotra";"Kraśnik";"Mieszczanka";"#201";"1664";"1";""
-"731";"Muszka";"Piotr";"Kraśnik";"Mieszczanin";"#202, #203";"1664";"2";""
-"732";"Smazanowski";"Jakub";"Kraśnik";"Sławetny (gospodarz Jajczyka)";"#202";"1664";"1";""
-"733";"Lisik";"Maciej";"Kraśnik";"Mieszczanin";"#203";"1664";"1";""
-"734";"Bąk";"Gabriel";"Kraśnik";"Mieszczanin (zm.)";"#203";"1664";"1";"Bąk [?]"
-"735";"Luterski";"Stanisław";"Kraśnik (Przedmieście)";"Przedmieszczanin / Brat cechu kuśnierskiego";"#204";"1698";"1";""
-"736";"Chmielowicz";"Adam Michał";"Kraśnik";"Pisarz kraśnicki";"#204, #231, #247";"1697–1699";"3";""
-"737";"Bartoszek";"Grzegorz";"Kraśnik";"Uczciwy";"#204, #205";"1698";"2";""
-"738";"Smorzik";"Jan";"Kraśnik";"Uczciwy";"#204, #205";"1698";"2";"Smorzik [?]"
-"739";"Kozak";"Paweł";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#205";"1698";"1";""
-"740";"Rdzonka";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin (syn Bartłomieja)";"#205";"1698";"1";"Rdzonek [Rozdzeń?] / Rozdzeń [?]"
-"741";"Rdzonka";"Bartłomiej";"Kraśnik (Przedmieście)";"Przedmieszczanin (ojciec Wojciecha)";"#205";"1698";"1";"Rdzonek [Rozdzeń?]"
-"742";"Rdzonkowa";"Zofia";"Kraśnik (Przedmieście)";"Żona Bartłomieja Rdzonka";"#205";"1698";"1";"Rozdzeniowa [?]"
-"743";"Dzymanowski";"Wojciech";"Kraśnik";"Ławnik przysięgły";"#205";"1698";"1";"Dzimanowski [?] / Dzymanowski [Dzimanowski?]"
-"744";"Skarz";"Matyjasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#206, #208, #209, #210, #239, #244, #246";"1698–1699";"7";"Skarz [?] / Skarzyk [Skarz?]"
-"745";"[Wójt gromadzki]";"Wojciech";"Kraśnik (Karczówka)";"Wójt gromadzki";"#206";"1698";"1";""
-"746";"Skowronek";"Matyjasz";"Kraśnik";"Uczciwy (świadek)";"#206";"1698";"1";"Skowronek [?]"
-"747";"Kłopot";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#207, #240, #246";"1698–1699";"3";""
-"748";"Kowalczyk";"Adam";"Kraśnik";"Uczciwy";"#207";"1698";"1";"Kowalczyk [?]"
-"749";"Tokarczyk";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#210";"1698";"1";""
-"750";"Berkowski";"Jędrzej";"Kraśnik";"Pracowity (poszkodowany)";"#211";"1698";"1";"Berkowski [?]"
-"751";"Tokarczyk";"Piotr";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#211, #212, #238, #239";"1698–1699";"4";""
-"752";"Michalski";"Kazimierz";"Kraśnik";"Sławetny";"#212, #225";"1698";"2";""
-"753";"Biegajczyk";"Stanisław";"Kraśnik";"Pozwany";"#212, #225, #239";"1698–1699";"3";"Biegajczyk [?] / Biegaj [Biegajczyk?]"
-"754";"Wierzuk";"Jan";"Kraśnik";"Uczciwy";"#212";"1698";"1";"Wierzuk [?]"
-"755";"Boron";"Matyjasz";"Kraśnik";"Uczciwy";"#212";"1698";"1";"Boron [?]"
-"756";"Grotowski";"Jan";"Kraśnik";"Uczciwy (nabywca gruntu)";"#213";"1698";"1";"Grotowski [?]"
-"757";"Grotowska";"Ewa";"Kraśnik";"Żona Jana Grotowskiego";"#213";"1698";"1";"Grotowska [?]"
-"758";"Józefkowic";"Jakub";"Kraśnik";"Pracowity";"#213";"1698";"1";"Josepkowic"
-"759";"Rygar";"Jan";"Kraśnik";"Kowal kraśnicki";"#213";"1698";"1";"Rygar [?]"
-"760";"Koplowic";"Moszek";"Kraśnik";"Żyd kraśnicki";"#214";"1698";"1";""
-"761";"Pilaskiewicz";"Matyjasz";"Kraśnik";"Sławetny";"#214";"1698";"1";"Bielaszkowic [?] / Pilaskiewicz [Bielaszkowic?]"
-"762";"Izaak";"[Kantor synagogi]";"Kraśnik";"Kantor synagogi kraśnickiej";"#214";"1698";"1";""
-"763";"Grymuza";"Jan";"Kraśnik";"Sławny (syn Jana Grymuzy)";"#214, #220, #221, #223";"1698";"4";""
-"764";"Moszek";"Jakub";"Kraśnik";"Żyd kraśnicki";"#214";"1698";"1";""
-"765";"Chmielek";"Sebastian";"Kraśnik";"Uczciwy (sukcesor)";"#214";"1698";"1";""
-"766";"Chmielkowa";"Anna";"Kraśnik";"Żona Sebastiana Chmielka";"#214";"1698";"1";""
-"767";"Chmielek";"Błażej";"Kraśnik";"Uczciwy";"#214";"1698";"1";""
-"768";"Chmielkowa";"Katarzyna";"Kraśnik";"Uczciwa";"#214";"1698";"1";""
-"769";"Pradkowski";"Stanisław";"Kraśnik";"Uczciwy";"#215";"1698";"1";"Pradkowski [?]"
-"770";"[Parobek Dubaja]";"Kazimierz";"Kraśnik";"Parobek Wojciecha Dubaja";"#215";"1698";"1";""
-"771";"Oszmarowic";"Kazimierz";"Kraśnik";"Ławnik przysięgły";"#215";"1698";"1";"Oszmarowic [?]"
-"772";"Koszykowic";"Kazimierz";"Kraśnik";"Uczciwy";"#215, #216, #220, #221";"1698";"4";"Koszykowic [?]"
-"773";"Abel";"Paweł";"Kraśnik";"Sławny / Mieszczanin";"#215, #216, #220, #221";"1698";"4";""
-"774";"Bożkowic";"Stefan";"Kraśnik";"Ławnik przysięgły";"#215";"1698";"1";"Bożkowic [?]"
-"775";"Bożkowic";"Wawrzyniec";"Kraśnik";"Ławnik przysięgły";"#215";"1698";"1";"Bożkowic [?]"
-"776";"Okoniowa";"Elżbieta";"Kraśnik (Przedmieście)";"Wdowa (matka Jana Okonia)";"#215, #216";"1698";"2";""
-"777";"Studzicki";"Sebastian";"Kraśnik";"Uczciwy";"#217, #219, #221, #222, #224";"1698";"5";""
-"778";"Tomkowic";"Stanisław";"Kraśnik";"Sławetny";"#217";"1698";"1";"Tomkowic [?]"
-"779";"Kurcel";"Wojciech";"Kraśnik";"Uczciwy";"#217";"1698";"1";"Kurcel [?]"
-"780";"Piserek";"Jakub";"Kraśnik";"Uczciwy";"#217";"1698";"1";"Piserek [?]"
-"781";"Latosek";"Stanisław";"Kraśnik";"Uczciwy";"#217";"1698";"1";"Latosek [?]"
-"782";"Zdębiówna";"Anna";"Kraśnik";"Żona Jakuba Dubaja";"#218";"1698";"1";"Zdębiówna [?]"
-"783";"Rakowski";"Stanisław";"Kraśnik";"Uczciwy (kupiec roli)";"#218";"1698";"1";""
-"784";"Piotrowczykówna";"Marianna";"Kraśnik";"Żona Stanisława Rakowskiego";"#218";"1698";"1";""
-"785";"Kępa";"Szymon";"Kraśnik";"Uczciwy";"#219";"1698";"1";""
-"786";"Rabak";"Józef";"Kraśnik";"Pracowity / Powód; Uczciwy";"#219, #221, #227, #239, #240";"1698–1699";"5";"Rabak [?]"
-"787";"Woszek";"Jakub";"Kraśnik";"Uczciwy";"#219, #222";"1698";"2";"Woszek [?]"
-"788";"Skowroński";"Andrzej";"Kraśnik";"Uczciwy";"#219";"1698";"1";"Skowroński [?]"
-"789";"Tokarczyk";"Jan";"Kraśnik";"Pozwany";"#219";"1698";"1";""
-"790";"Araczniak";"Maciej";"Kraśnik";"Mieszczanin";"#219";"1698";"1";"Araczniak [?]"
-"791";"Kaczorkowic";"Grzegorz";"Kraśnik";"Ślusarz / Mieszczanin";"#220, #221, #223, #227";"1698";"4";""
-"792";"Studzicka";"Anna";"Kraśnik";"Żona Sebastiana Studzickiego";"#221, #222, #224";"1698";"3";""
-"793";"Stachowicowa";"Katarzyna";"Kraśnik (Przedmieście)";"Żona Błażeja Stachowica";"#221";"1698";"1";""
-"794";"Michałowic";"Franciszek";"Kraśnik";"Sławny";"#223";"1698";"1";""
-"795";"Michałowicowa";"Agnieszka";"Kraśnik";"Żona Franciszka Michałowica";"#223";"1698";"1";""
-"796";"Gucka";"[Wdowa]";"Kraśnik";"Sławetna (wdowa po Grzegorzu Guckim); Sławetna Pani (Agnieszka Gucka)";"#223, #235";"1698–1699";"2";""
-"797";"Stachowicowa";"Anna";"Kraśnik (Przedmieście)";"Żona Błażeja Stachowica";"#224";"1698";"1";""
-"798";"Carklina";"Krystyna";"Kraśnik";"Uczciwa";"#225";"1698";"1";"Carklina [?]"
-"799";"Carklin";"[Mąż Krystyny]";"Kraśnik";"Uczciwy";"#225";"1698";"1";"Carklin [?]"
-"800";"Smok";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#226";"1698";"1";""
-"801";"Wilk";"Jan";"Kraśnik (Przedmieście)";"Syn Bartłomieja Wilka";"#226";"1698";"1";""
-"802";"Wójcik";"Tomasz";"Kraśnik";"Parobek Bartłomieja Wilka";"#226";"1698";"1";""
-"803";"Tulcuk";"Józef";"Kraśnik";"Uczciwy";"#227";"1698";"1";"Tulcuk [?]"
-"804";"Łękowski";"Andrzej";"Kraśnik";"Uczciwy";"#227";"1698";"1";"Łękowski [?]"
-"805";"Grzymałowska";"Teresa";"Kraśnik";"Żona Wojciecha Grzymałowskiego (córka Ubalda Janaszkowica)";"#228, #229";"1699";"2";"Janaszkowicowa"
-"806";"Kinny";"Jan";"Kraśnik";"Obywatel kraśnicki";"#230";"1699";"1";"Kinny [?]"
-"807";"Kinna";"Regina";"Kraśnik";"Obywatelka kraśnicka (żona Jana Kinnego)";"#230";"1699";"1";""
-"808";"Anczarek";"Tomasz";"Kraśnik";"Mieszczanin / Świadek";"#231";"1697";"1";"Anczarek [?]"
-"809";"Sikorczyk";"Jan";"Kraśnik";"Mieszczanin / Świadek";"#231";"1697";"1";"Sikorczyk [?]"
-"810";"Bakałowski";"Stanisław";"Kraśnik";"Mieszczanin / Świadek";"#231";"1697";"1";""
-"811";"Karapek";"Jan";"Kraśnik";"Mieszczanin / Świadek";"#231";"1697";"1";"Karapek [?]"
-"812";"[Przeor Kanoników Regularnych]";"Paweł";"Kraśnik";"Przeor Kanoników Regularnych";"#232";"1699";"1";"Paweł [?]"
-"813";"Rosiński";"Szymon";"Kraśnik";"Mieszczanin (zm.)";"#232";"1699";"1";""
-"814";"Kowalik";"Sebastian";"Kraśnik";"Uczciwy";"#233, #235, #236, #237, #238";"1699";"5";""
-"815";"Zając";"Jakub";"Kraśnik";"Uczciwy";"#233, #235, #236, #237, #238";"1699";"5";"Zajączek [Zając?] / Zajączek"
-"816";"Bielaszkowic";"Augustyn";"Kraśnik";"Uczciwy";"#233, #234, #238, #245";"1699";"4";""
-"817";"Mazurek";"Paweł";"Kraśnik";"Uczciwy (świadek)";"#234";"1699";"1";""
-"818";"Kudbałka";"Józef";"Kraśnik";"Świadek";"#234";"1699";"1";"Kudbałka [?]"
-"819";"Brodecki";"Jan";"Kraśnik";"Kopacz / Świadek";"#234";"1699";"1";"Brodecki [?]"
-"820";"Wilk";"Bartosz";"Kraśnik";"Uczciwy";"#235";"1699";"1";""
-"821";"Szymczak";"Michał";"Kraśnik";"Brat / Mieszczanin";"#235";"1699";"1";"Szymczak [?]"
-"822";"Raganek";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#236";"1699";"1";""
-"823";"Diracek";"Sebastian";"Kraśnik";"Pozwany";"#236";"1699";"1";"Dziadek [?] / Diracek [Dziadek?]"
-"824";"Piotrowczykowa";"Marianna";"Kraśnik";"Uczciwa (świadek)";"#236";"1699";"1";""
-"825";"Mendalka";"Bartłomiej";"Kraśnik";"Uczciwy";"#238, #239";"1699";"2";"Mendalka [?]"
-"826";"Mutkowic";"Szymon";"Kraśnik";"Uczciwy";"#239";"1699";"1";"Mutkowic [?]"
-"827";"Witkowski";"Andrzej";"Kraśnik";"Pozwany";"#239, #245";"1699";"2";"Witkowski [?]"
-"828";"Jurecki";"Matyjasz";"Kraśnik";"Uczciwy";"#239";"1699";"1";"Jurecki [?]"
-"829";"Kopeć";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#239, #240";"1699";"2";"Kopień [?] / Kopeć [Kopień?]"
-"830";"Kondupkowa";"Agnieszka";"Kraśnik";"Żona Jana Kondupka";"#240";"1699";"1";"Kondupkowa [?] / Kondupek [?]"
-"831";"Dumański";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin / Wicecechmistrz cechu tkackiego; Cechmistrz młodszy cechu tkackiego; Wicecechmistrz tkacki / Mieszczanin";"#240, #241, #242, #245, #248";"1699";"5";""
-"832";"Celej";"Tomasz";"Kraśnik (Przedmieście)";"Przedmieszczanin (szwagier J. Dumańskiego)";"#240, #241, #242, #245";"1699";"4";""
-"833";"Szarpa";"Jan";"Kraśnik";"Mieszkaniec (incola)";"#241";"1699";"1";"Szarpa [?]"
-"834";"Płóciennik";"Michał";"Kraśnik";"Mieszczanin";"#241";"1699";"1";"Płóciennik [?]"
-"835";"Wilczek";"Andrzej";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#243";"1699";"1";""
-"836";"Krawczyk";"Maciej";"Kraśnik";"Świadek";"#243";"1699";"1";""
-"837";"Dąbrowski";"Franciszek";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#243, #244";"1699";"2";""
-"838";"Piwota";"Jan";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#244";"1699";"1";"Piwota [?]"
-"839";"Różyc";"Szymon";"Kraśnik (Przedmieście)";"Przedmieszczanin (sąsiad)";"#244";"1699";"1";"Różyc [?]"
-"840";"Piekarczyk";"Wojciech";"Kraśnik (Przedmieście)";"Przedmieszczanin (sąsiad)";"#244";"1699";"1";"Piekarczyk [?]"
-"841";"Strużyna";"Marina";"Kraśnik (Przedmieście)";"Przedmieszczanka / Sprzedawczyni";"#244";"1699";"1";"Strużyna [?]"
-"842";"Piotrowczyk";"Szymon";"Kraśnik";"Świadek";"#244";"1699";"1";""
-"843";"Michalik";"Grzegorz";"Wilkołaz";"Pracowity ze wsi Wilkołaz";"#246";"1699";"1";"Wosik [?] / Michalik alias Wosik [?]"
-"844";"Wojcik";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#247";"1699";"1";"Wojcik [?]"
-"845";"Kępa";"Matyjasz";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#247";"1699";"1";""
-"846";"Pawłowski";"Michał";"Kraśnik";"Szlachetny / Sługa dworski";"#247, #248, #250";"1699";"3";""
-"847";"Chmielowski";"Jan Wawrzyniec";"Kraśnik";"Szlachetny / Dworzanin Marszałka W. Kor.";"#247, #248, #250";"1699";"3";""
-"848";"[Cyrulik]";"Jakub";"Kraśnik";"Cyrulik kraśnicki";"#248";"1699";"1";""
-"849";"Pawłowski";"Dominik";"Kraśnik (gościnnie)";"Szlachcic";"#248";"1699";"1";"Pawłowski [?]"
-"850";"Świątek";"Jakub";"Kraśnik (Przedmieście)";"Przedmieszczanin";"#249";"1699";"1";""
-"851";"Franikowicz";"Stanisław";"Stróża";"Pracowity ze wsi Stróża";"#249";"1699";"1";"Francyk [?] / Franikowicz [Francyk?]"
-"852";"Zamoyska";"Anna z Gnińskich";"Zamość / Kraśnik";"Podskarbina Wielka Koronna / Ordynatowa Zamoyska";"#250";"1699";"1";"z Gnińskich [?]"
-"853";"Węgliński";"Stanisław";"Kraśnik / Bełz (gościnnie)";"Skarbnik bełski";"#250";"1699";"1";"Węgliński [?]"
+﻿LP;Nazwisko;Imię;Miejsce;Funkcja/Rola;Warianty nazwiska;Liczba wystąpień;Zakres lat;Skany
+1;Kołodziejczyk;Błażej;Kraśnik;Ławnik przysięgły kraśnicki / Aktor;;7;1656–1658;#6, #8, #17, #18, #22, #33, #49
+2;Konięga;Maciej;Kraśnik;Ławnik przysięgły kraśnicki;;17;1657–1666;#6, #12, #20, #21, #25, #33, #36, #40, #43, #49, #57, #64, #68, #70, #73, #84, #85
+3;Jataniec;Wojciech;Kraśnik;Mieszczanin / Wzmiankowany;Jatańczyk [?];1;1657;#6
+4;Dzierżek;Błażej;Piaski;Wzmiankowany;;1;1657;#6
+5;Dąbek;Maciej;Kraśnik;Pozwany;Bęben [?];1;1657;#6
+6;Baltazarowa;Katarzyna;Kraśnik;Instygatorka;Balcerzykowa [?];1;1657;#6
+7;Paplenik;Marcin;Kraśnik;Powód;Paplenik [?];1;1657;#6
+8;Frysiowa;Wdowa;Kraśnik;Wdowa / Pozwana;Frysiowa [?];1;1657;#6
+9;Pękowa;Anna;Kraśnik;Wdowa / Pozwana;Pękowa [?];1;1657;#7
+10;Lasek;Walenty;Kraśnik;Pozwany / Kondemnat;Łączek [?];1;1657;#7
+11;Żyłówka;Jan;Kraśnik;Powód;Kender [?];1;1657;#7
+12;Potocki;Wojciech;Kraśnik;Pozwany;;1;1657;#7
+13;Marlik;Andrzej;Kraśnik;"Strona w aktach; Mieszczanin";Marlik [?] / Manlik [?];7;1657–1658;#7, #8, #25, #26, #27, #36, #69
+14;Skwarek;Walenty;Kraśnik;Powód;Skwarek [?];2;1657;#7, #8
+15;Batusik;Wojciech;Kraśnik;Pozwany;;2;1657;#7, #8
+16;Babińczyk;Benedykt;Kraśnik;Żyd / Składający przysięgę;Babińczyk [?];1;1657;#8
+17;Dąbrowicz;Sebastian;Bielice;Pracowity / Świadek;Dąbrowicz [?];1;1657;#8
+18;Bendralik;Stanisław;Kraśnik;Wzmiankowany;;1;1657;#8
+19;Łycek;Paweł;Kraśnik;Powód;;4;1657;#8, #9, #10, #25
+20;Łycek;Mikołaj;Kraśnik;Brat Pawła Łycka / Świadek;;1;1657;#8
+21;Łyckowa;Anna;Kraśnik;Wdowa / Pozwana;;2;1657;#9, #10
+22;Pisak;Mikołaj;Kraśnik;Poszkodowany (obdukcja);Rusek [?];1;1657;#9
+23;Kurowic;Augustyn;Kraśnik;Ławnik przysięgły kraśnicki;Krogulec [?];13;1656–1658;#9, #14, #15, #16, #37, #38, #44, #45, #46, #50, #62, #70, #73
+24;Fox;Grzegorz;Kraśnik;Ławnik przysięgły kraśnicki;;13;1657–1658;#9, #15, #39, #43, #44, #49, #51, #52, #53, #54, #66, #70, #73
+25;Rogalowski;Jakub;Kraśnik;Właściciel domu;Rogalowski [?];1;1657;#9
+26;Lech;Jan;Kraśnik;Właściciel domu;;1;1657;#9
+27;Trela;Stanisław;Kraśnik;Powód;;3;1657;#9, #10, #13
+28;Łapczyńska;Anna;Kraśnik;Pozwana dłużniczka;Łapczyńska [?];2;1657;#9, #13
+29;Żyłówka;Anna;Kraśnik;Wdowa / Powódka;Żyłówka [?];1;1657;#10
+30;Kulka;Wojciech;Kraśnik;Pozwany;;1;1657;#10
+31;Mazur;Wojciech;Kraśnik;Pozwany;;2;1657;#10, #11
+32;Sienka;Jan;Kraśnik;Pozwany;Sienka [?];1;1657;#10
+33;Olęcki;Wojciech;Kraśnik;Mieszczanin i szewc / Świadek;;5;1657–1658;#11, #20, #40, #43, #45
+34;Sydkowic;Wawrzyniec;Kraśnik;"Strona procesów; Mieszczanin";Żydkowic;10;1657–1658;#11, #22, #23, #24, #31, #32, #41, #60, #68, #69
+35;Koniarska;Mieszkanka;Kraśnik;Powódka;Koniarska [?] / Marina Koniarska;4;1657–1658;#11, #12, #45, #50
+36;Jasińska;Zuzanna;Kraśnik;Pozwana;Jasińska [?];1;1657;#11
+37;Jasielski;Szymon;Kraśnik;Pozwany;;6;1657–1658;#11, #21, #22, #24, #31, #40
+38;Lasek;Augustyn;Kraśnik;Pozwany;Łycek [?];1;1657;#11
+39;Kuśnierz;Barbara;Kraśnik;Powódka;Kuśnierz [?];1;1657;#12
+40;Kudła;Mieszkanka;Kraśnik;Pozwana;Kudła [?];1;1657;#12
+41;Domiłek;Andrzej;Kraśnik;Powód;Domiłek [?];1;1657;#13
+42;Zielińska;Zofia;Kraśnik;Pozwana;Zielińska [?];4;1657;#13, #26, #27, #28
+43;Błażejowska;Szlachcianka;Kraśnik;Powódka;Błażejowska [?];1;1657;#13
+44;Szafraniec;Adam;Kraśnik;Powód;Szafraniec [?];2;1657;#13, #22
+45;Świniarka;Mieszkanka;Kraśnik;Pozwana;Świniarka [?];1;1657;#13
+46;Buła;Jan;Kraśnik;Powód;Buła [?];1;1657;#14
+47;Olesek;Walenty;Kraśnik;Pozwany;Olesek [?];1;1657;#14
+48;Kosek;Stanisław;Kraśnik;Świadek;;1;1657;#14
+49;Jajczykówna;Zuzanna;Kraśnik;Składająca przysięgę;Jajczykówna [?];1;1657;#14
+50;Śliżanka;Katarzyna;Kraśnik;Świadek;Śliżanka [?];1;1657;#14
+51;Sitarski;Walenty;Kraśnik;Świadek;;1;1657;#14
+52;Paździech;Augustyn;Kraśnik;Świadek;Paździech [?];5;1657–1658;#14, #21, #34, #35, #41
+53;Batusik;Jan;Kraśnik;Powód;;1;1657;#14
+54;Łapka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];1;1657;#14
+55;Bogucka;Wdowa;Kraśnik;Wdowa / Pozwana;Bugajowa [?];1;1657;#15
+56;Sulski;Szlachcic;Kraśnik;Powód;Sulski [?];1;1657;#15
+57;Butek;Wojciech;Kraśnik;Pozwany / Strona;Butek [?];3;1657–1658;#15, #44, #45
+58;Dolski;Marcin;Kraśnik;Szwagier / Świadek;;1;1657;#15
+59;Stochański;Mieszkaniec;Kraśnik;Powód;Stochański [?];1;1656;#16
+60;Zieliński;Grzegorz;Kraśnik;Pozwany;;1;1656;#16
+61;Kotlarek;Jan;Kraśnik;Powód;;1;1656;#16
+62;Kotlarek;Andrzej;Kraśnik;Współpowód;;1;1656;#16
+63;Kotlarka;Jadwiga;Kraśnik;Współpowódka;;1;1656;#16
+64;Koniński;Mieszkaniec;Kraśnik;Pozwany;Komiński [?];1;1656;#16
+65;Konińska;Elżbieta;Kraśnik;Żona Konińskiego / Pozwana;Komińska [?];1;1656;#16
+66;Madejski;Stanisław;Kraśnik;Powód;Madeick [?];1;1656;#16
+67;Rzepka;Wawrzyniec;Kraśnik;Pozwany;;1;1656;#16
+68;Rogalka;Jakub;Kraśnik;Woźny przysięgły sądu wójtowskiego;Rogala [?];1;1656;#16
+69;Morawek;Augustyn;Rudki;Poddany / Opiekun i powód;Morawek [?];1;1656;#17
+70;Łysak;Wojciech;Kraśnik;Pozwany;Łysak [?];1;1656;#17
+71;Młodnicka;Maryna;Kraśnik;Wdowa / Protestująca;;1;1656;#17
+72;Pieniążek;Andrzej;Kraśnik;Ślusarz / Pozwany;;2;1656–1657;#17, #20
+73;Cwik;Andrzej;Kraśnik;Powód;Cwik [?];1;1656;#17
+74;Łycek;Wojciech;Kraśnik;Pozwany;Łycek [?];1;1656;#17
+75;Starzyński;Marcin;Kraśnik;Ławnik przysięgły;;3;1656–1658;#17, #18, #40
+76;Espen;Jerzy;Lublin;Sługa J. Deserta / Protestujący;Espen [?];1;1656;#18
+77;Desert;Jakub;Lublin;Mieszczanin lubelski / Pracodawca;;1;1656;#18
+78;Sitarski;Marcin;Kraśnik;"Rajca kraśnicki / Pozwany; Rajca miejski; Stary rajca (Antiquus Consul); Ławnik przysięgły; Mąż Franciszki Sitarskiej / Rajca";;7;1656–1698;#18, #87, #92, #113, #114, #137, #183
+79;Nawrocki;Stanisław;Kraśnik;"Rajca kraśnicki; Były burmistrz i stary rajca (Consul antiquus)";;11;1656–1684;#18, #93, #94, #95, #96, #97, #98, #99, #124, #126, #127
+80;Kulka;Jan;Kraśnik;Opiekun dóbr Jajczyków / Powód;;1;1657;#19
+81;Jajczyk;Szymon;Kraśnik;Opiekun dóbr Jajczyków / Powód;;1;1657;#19
+82;Jajczyk;Paweł;Kraśnik;Zmarły spadkodawca;;1;1657;#19
+83;Larkowski;Tomasz;Kraśnik;Pozwany;;1;1657;#19
+84;Tokarzyk;Wojciech;Kraśnik;Powód;Tokarzyk [?];1;1657;#19
+85;Tatarczuk;Jan;Kraśnik;Szewc / Aresztujący;;1;1657;#19
+86;Tarnowczyk;Paweł;Kraśnik;Pozwany;Tarnowczyk [?];1;1657;#20
+87;Skura;Jan;Kraśnik;Pozwany;Skóra [?];1;1657;#20
+88;Bybina;Wdowa;Kraśnik;Wdowa / Pozwana;Bybina [?];2;1657;#20, #29
+89;Gabriel;Paweł;Kraśnik;Wzmiankowany;;1;1657;#20
+90;Jajczyk;Sebastian;Kraśnik;"Pozwany; Mieszczanin";;4;1657–1664;#21, #29, #200, #201
+91;Zalasek;Krzysztof;Kraśnik;Pozwany;Zaleski [?];2;1657;#21, #29
+92;Cuda;Andrzej;Kraśnik;Pozwany;Ruda [?];1;1657;#21
+93;Brzostek;Michał;Kraśnik;Świadek;Brzostek [?];1;1657;#21
+94;Kapica;Adam;Kraśnik;Świadek;;1;1657;#21
+95;Siedlecki;Marcin;Kraśnik;Pozwany;Sieradzki [?];1;1657;#22
+96;Rzepka;Maciej;Kraśnik;"Pozwany; Mieszczanin";Rzepka [?];3;1657–1697;#22, #23, #148
+97;Łycek;Jan;Kraśnik;Powód;;2;1657;#22, #23
+98;Kupka;Grzegorz;Kraśnik;Pozwany;Rzepka [?];1;1657;#22
+99;Delik;Jan;Kraśnik;Powód;;1;1657;#23
+100;Satomski;Mieszkaniec;Kraśnik;Pozwany;Słomkowski [?];1;1657;#23
+101;Rogalowski;Wojciech;Kraśnik;Świadek;Rogalowski [?];1;1657;#23
+102;Zieliński;Józef;Kraśnik;Pozwany;Zieliński [?];3;1657;#24, #25, #29
+103;Bujak;Sprzedawca;Kraśnik;Sprzedawca konia;Bujak [?];1;1657;#24
+104;Łyszkowa;Zofia;Kraśnik;Wdowa / Manifestująca;Łyszkowa [?];1;1657;#25
+105;Kępa;Jan;Kraśnik;Pozwany;Kępa [?];1;1657;#25
+106;Zielińska;Anna;Kraśnik;Żona Józefa / Pozwana;Dzierżkowa [?];3;1657–1658;#25, #36, #37
+107;Rogalski;Wojciech;Kraśnik;Powód;Rogalski [?];1;1657;#30
+108;Dzierżek;Piotr;Kraśnik;Pozwany;Dzierżek [?];2;1657–1658;#30, #32
+109;Świątek;Wawrzyniec;Kraśnik;"Pozwany; Mieszczanin";Świątek [?] / Świątkowicz [?];2;1657–1658;#30, #53
+110;Kosińska;Mieszkanka;Kraśnik;Powódka;Kosińska [?];1;1657;#30
+111;Pyrek;Paweł;Kraśnik;Powód;;1;1657;#31
+112;Kosek;Adam;Kraśnik;Powód;Kosek [?];1;1657;#31
+113;Tkarz;Piotr;Kraśnik;Pozwany;Tkarz [?];1;1657;#31
+114;Michał;Żyd;Kraśnik;Wierzyciel;;1;1658;#32
+115;Kaniskowic;Jan;Kraśnik;Powód;Kaniskowic [?];1;1658;#32
+116;Dzierżkowa;Zofia;Kraśnik;Pozwana;Dzierżkowa [?];2;1658;#32, #33
+117;Zota;Andrzej;Kraśnik;"Powód; Mieszczanin";Łota;8;1658;#32, #33, #41, #44, #49, #60, #61, #69
+118;Zotowa;Krystyna;Kraśnik;Żona Andrzeja Zoty / Powódka;;1;1658;#32
+119;Kopczyk;Wawrzyniec;Kraśnik;Powód;Kopczyk [?];1;1658;#33
+120;Solarska;Zofia;Kraśnik;Wdowa / Pozwana;Solarska [?];1;1658;#33
+121;Janaszkowic;Wojciech;Kraśnik;Wójt kraśnicki;;2;1658;#33, #39
+122;Dzierżek;Stefan;Kraśnik;Zmarły ojciec Zofii;Dzierżek [?];1;1658;#33
+123;Rusarek;Jan;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;Rybak [?];1;1658;#34
+124;Cichoń;Stanisław;Kraśnik;Pisarz aktowy;;1;1658;#34
+125;Wróbel;Krzysztof;Kraśnik;Świadek;;1;1658;#35
+126;Szwed;Jan;Kazimierz;Powód z Kazimierza;Szwed [?];1;1658;#35
+127;Pączek;Marcin;Kraśnik;Mieszczanin / Pozwany;Pączek [?];1;1658;#35
+128;Szafraniec;Wojciech;Kraśnik;"Mieszczanin / Strona; Wójt i sędzia zwyczajny przysięgły";Szafrankowic;5;1658;#36, #43, #49, #70, #73
+129;Jabłoński;Wojciech;Kraśnik;Wzmiankowany;;1;1658;#36
+130;Konięgowa;Krystyna;Kraśnik;"Żona Macieja Konięgi; Mieszczanka / Żona Macieja";;2;1658–1666;#36, #84
+131;Dulski;Marcin;Przedmieście Kraśnickie;Przedmieszczanin / Powód;Dulski [?];1;1658;#37
+132;Kudrelik;Maciej;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;;1;1658;#37
+133;Kozłowski;Błażej;Kraśnik;Pozwany;Kozłowski [?];1;1658;#37
+134;Wojtek;Adam;Kraśnik;Powód;Wojtek [?];1;1658;#38
+135;Kępski;Adam;Kraśnik;Zmarły spadkodawca;Kępski [?];1;1658;#38
+136;Karczmarz;Maciej;Kraśnik;Zmarły spadkodawca;Karczmarz [?];1;1658;#38
+137;Sikor;Stanisław;Kraśnik;Pisarz kraśnicki;;1;1658;#38
+138;Koziarowa;Wdowa;Kraśnik;Wdowa / Wnioskodawczyni;Koniarzowa [?];1;1658;#39
+139;Dąbek;Marcin;Przedmieście Kraśnickie;Wójt przedmiejski / Świadek;Dąbek [?];1;1658;#39
+140;Klisz;Paweł;Kraśnik;Świadek;Kłoś [?];1;1658;#39
+141;Żywicki;Tomasz;Kraśnik;Powód;Sniechowski [?];1;1658;#40
+142;Sołtyszczyk;Stanisław;Kraśnik;Pozwany;Sołtyszczyk [?];1;1658;#40
+143;Kudrelik;Wojciech;Przedmieście Kraśnickie;Powód;;1;1658;#40
+144;Sitarska;Krystyna;Kraśnik;Manifestująca;;1;1658;#41
+145;Grygiel;Błażej;Kraśnik;Strona w rejestrze;;1;1658;#41
+146;Łycek;Szymon;Kraśnik;Strona w rejestrze;;1;1658;#41
+147;Dąbek;Tomasz;Kraśnik;Strona w rejestrze;;1;1658;#41
+148;Somkowa;Zofia;Kraśnik;Pozwana / Kondemnatka;;1;1658;#41
+149;Zelig;Żyd;Kraśnik;Wierzyciel;;1;1658;#41
+150;Koniński;Andrzej;Kraśnik;Mieszczanin / Powód;Komiński [?];1;1658;#42
+151;Bożęborski;Bartłomiej;Kraśnik;Pozwany;Świderski [?];2;1658;#42, #45
+152;Kępa;Bartosz;Kraśnik;Wystawca zapisu;;1;1658;#42
+153;Rzepka;Wojciech;Ślinów;Pracowity ze wsi Ślinów;Rzytka [?] / Słodków [?];1;1658;#42
+154;Moskwa;Jan;Ślinów;Pracowity ze wsi Ślinów / Świadek;Słotwa [?];1;1658;#42
+155;Brożek;Janek;Ślinów;Pracowity ze wsi Ślinów / Świadek;Brożek [?];1;1658;#43
+156;Reszka;Paweł;Ślinów;Pracowity ze wsi Ślinów / Świadek;;1;1658;#43
+157;Gąska;Andrzej;Ślinów;Pracowity ze wsi Ślinów / Świadek;;1;1658;#43
+158;Zając;Wojciech;Ślinów;Pracowity / Powód;Gros [?];1;1658;#43
+159;Łycek;Maciej;Ślinów;Pracowity / Pozwany;Łycek [?];1;1658;#43
+160;Sosnowska;Katarzyna;Ślinów;"Pracowita / Pozwana; Poddana / Wdowa po T. Rzepce";Sosnowska [?] / Łaśniewska [?] / Rzepkowa / Blinów;6;1658;#43, #46, #49, #73, #74, #76
+161;Zdebik;Jakub;Kraśnik;Pozwany / Kondemnat;;1;1658;#44
+162;Kopel;Hersz;Kraśnik;Żyd / Wierzyciel;Herszek;1;1658;#44
+163;Pyrek;Szymon;Kraśnik;Pozwany;Pyrek [?];1;1658;#44
+164;Łycka;Katarzyna;Kraśnik;Pozwana;Łycka [?];1;1658;#44
+165;Koniński;Jan;Kraśnik;Powód;Komiński [?];1;1658;#45
+166;Rzepka;Kacper;Ślinów;Pracowity ze wsi Ślinów / Świadek;Rzepka [?];1;1658;#46
+167;Karpiński;Jan;Ślinów;"Pracowity ze wsi Ślinów / Świadek; Poddany ze wsi Blinów";Karpiński [?] / Blinów;5;1658;#46, #47, #74, #75, #77
+168;Kondlik;Stefan;Ślinów;"Poddany ze wsi Ślinów; Poddany ze wsi Blinów";Kudrelik [?] / Kondla / Blinów;6;1658;#46, #47, #48, #74, #75, #76
+169;Kurowski;Jan;Ślinów;Poddany ze wsi Ślinów;;1;1658;#46
+170;Rzytka;Tomasz;Ślinów;"Zmarły spadkodawca; Poddany (zm.)";Rzepka [?] / Blinów;6;1658;#47, #70, #71, #74, #76, #80
+171;Kondlik;Andrzej;Ślinów;"Poddany ze wsi Ślinów; Poddany ze wsi Blinów (z karczmy)";Kudrelik [?] / Kondla / Blinów;4;1658;#47, #74, #75, #78
+172;Sobek;Jan;Ślinów;Poddany ze wsi Ślinów / Świadek;;1;1658;#48
+173;Kondlik;Wojciech;Ślinów;Poddany ze wsi Ślinów;Cichowicz;1;1658;#48
+174;Krawiec;Jędrzej;Kraśnik;Aresztowany;;1;1658;#48
+175;Zielik;Tomasz;Kraśnik;Pozwany;Zielik [?];1;1658;#49
+176;Skrobczyk;Wojciech;Ślinów;Pracowity / Powód;Skrobek [?];1;1658;#49
+177;Skrobczykowa;Jadwiga;Ślinów;Żona W. Skrobczyka / Powódka;Skrobkowa [?];1;1658;#49
+178;Łysak;Maciej;Ślinów;Mąż K. Sosnowskiej / Pozwany;;1;1658;#49
+179;Pętak;Jan;Kraśnik;Woźny przysięgły;Pętak [?];1;1658;#49
+180;Katoń;Łukasz;Ślinów;Pracowity ze wsi Ślinów / Świadek;Kaczor [?];1;1658;#50
+181;Pełczyński;Szlachcic;Ślinów;Wzmiankowany;Pełczyński [?];1;1658;#50
+182;Koniarski;Wojciech;Kraśnik;Syn Mariny Koniarskiej / Pozwany;;1;1658;#50
+183;Poszłygarczyk;Stanisław;Kraśnik;Mieszczanin;Soszłygarczyk [?];3;1658;#51, #61, #68
+184;Oleszek;Wojciech;Kraśnik;Mieszczanin;Oleszkowic [?];1;1658;#51
+185;Zdanowa;Jadwiga;Kraśnik;Mieszkanka;Zdanianka [?];1;1658;#51
+186;Sulik;Marcin;Kraśnik;Mieszczanin;Sulik [?];1;1658;#51
+187;Siedlatka;Wojciech;Kraśnik;Mieszczanin;Siedlatko [?];1;1658;#51
+188;Dudzik;Maciej;Kraśnik;Mieszczanin;Dudzik [?];1;1658;#51
+189;Klatkowski;Jan;Kraśnik;Mieszczanin;Klatkowski [?];4;1658;#51, #60, #63, #68
+190;Łatka;Jan;Kraśnik;Mieszczanin;Łatka [?] / Lotka [?];1;1658;#51
+191;Kłębski;Jan;Kraśnik;Woźny sądowy przysięgły (Bedellus);Kłębski [?];2;1658;#51, #59
+192;Słodzarski;Marcin;Kraśnik;Mieszczanin;Słodzarski [?];1;1658;#51
+193;Łotka;Grzegorz;Kraśnik;Mieszczanin;Lotka [?];1;1658;#51
+194;Gębalski;Wojciech;Kraśnik;Mieszczanin;Gębala [?];1;1658;#52
+195;Kurowek;Mikołaj;Kraśnik;Mieszczanin;Kurowicz [?];2;1658;#52, #60
+196;Ptaszek;Marcin;Kraśnik;Mieszczanin;Ptaszek [?];1;1658;#52
+197;Gębalka;Marcin;Kraśnik;Mieszczanin;Gębałka [?];2;1658;#52, #62
+198;Maruszkowic;Wojciech;Kraśnik;Mieszczanin (zm.);Maruszka [?];2;1658;#52, #54
+199;Dębski;Stefan;Kraśnik;Świadek przysięgły;Dębowski [?];1;1658;#52
+200;Kozak;Maciej;Kraśnik;Świadek przysięgły;Kozłowski [?];1;1658;#52
+201;Kuśmierz;Szymon;Kraśnik;Świadek przysięgły;Kuszmir [?];1;1658;#52
+202;Łysik;Daniel;Kraśnik;Świadek przysięgły;Łysik [?];1;1658;#52
+203;Kowal;Marcin;Kraśnik;Świadek przysięgły;Kowal [?];1;1658;#52
+204;Kazimierski;Jan;Kraśnik;Mieszczanin;Rębiński [?];1;1658;#53
+205;Zięba;Sebastian;Kraśnik;Mieszczanin;Zgęba [?];2;1658;#53, #61
+206;Dąbrowski;Jan;Kraśnik;Mieszczanin;Bąkowski [?];1;1658;#53
+207;Głodzik;Andrzej;Kraśnik;Mieszczanin;Gładysz [?];1;1658;#53
+208;Sułkowicz;Szymon;Kraśnik;Mieszczanin;Sulik [?];1;1658;#53
+209;Krupiński;Wojciech;Kraśnik;Mieszczanin;Krupiński [?];1;1658;#53
+210;Miazga;Michał;Kraśnik;Mieszczanin;Maslik [?];1;1658;#53
+211;Prokopek;Wawrzyniec;Kraśnik;Mieszczanin;;4;1658;#54, #55, #56, #62
+212;Gębecki;Jan;Kraśnik;Mieszczanin;Gołecki [?];1;1658;#56
+213;Krawcowa;[Wdowa];Kraśnik;Wdowa / Mieszkanka;Kwiecina [?];1;1658;#56
+214;Gębski;Jan;Kraśnik;Mieszczanin;Grząbka [?] / Gębski [?];2;1658;#56, #67
+215;Łysik;Stanisław;Kraśnik;Mieszczanin;Łysik [?];1;1658;#56
+216;Marlik;Jan;Kraśnik;Mieszczanin;Manlik [?];2;1658;#56, #57
+217;Paszek;Wawrzyniec;Kraśnik;Mieszczanin;Bąk [?];1;1658;#57
+218;Poszłygarczyk;Jan;Kraśnik;Mieszczanin;;1;1658;#57
+219;Łopionka;Jadwiga;Kraśnik;Mieszkanka;Łopianka [?];1;1658;#57
+220;Izaak;[Żyd];Kraśnik;Żyd kraśnicki;Izaak [?];1;1658;#57
+221;Lalka;[Wdowa];Kraśnik;Wdowa / Mieszkanka;Falka [?];2;1658;#57, #58
+222;Borowiec;Marcin;Kraśnik;Mieszczanin;Konięga [?];1;1658;#58
+223;Słodzarski;Piotr;Kraśnik (okolice);Szlachetny (Nobilis);Zadzarski [?];2;1658;#58, #65
+224;Skrzypkowski;[Pan];Kraśnik (okolice);Szlachetny / Świadek;Skrzypkowski [?];1;1658;#58
+225;Wężyk;[Pan];Kraśnik (okolice);Szlachetny / Świadek;Wężyk [?];1;1658;#58
+226;Babiński;Jan;Kraśnik;Mieszczanin;Zabiński [?];1;1658;#59
+227;Soroka;Jakub;Kraśnik;Mieszczanin;Sroka [?];1;1658;#59
+228;Wiatrak;[Mieszczanin];Kraśnik;Sąsiad / Posiadacz gruntu;Wiatrek [?];1;1658;#59
+229;Łoboda;Iczek;Kraśnik;Żyd kraśnicki;Łabędź [?];1;1658;#59
+230;Zarzycki;Wojciech;Kraśnik (okolice);Szlachetny (Nobilis);Zakrzewski [?];1;1658;#60
+231;Zieliński;Jan;Kraśnik;Mieszczanin;;1;1658;#60
+232;Jędrzejczyk;Ewa Marcinowa;Kraśnik;Mieszkanka / Żona Marcina;Jędrzejowa [?];1;1658;#60
+233;Bęben;Kasper;Kraśnik;Świadek przysięgły;Bęben [?];1;1658;#61
+234;Sadownik;Andrzej;Kraśnik;Świadek przysięgły;;1;1658;#61
+235;Kopianka;Jadwiga;Kraśnik;Mieszkanka;Kępianka [?] / Kępka [?];1;1658;#61
+236;z Łopacina;Ewa;Kraśnik;Mieszkanka;Łopacina [?];2;1658;#61, #62
+237;Gębalski;Maciej;Kraśnik;Mieszczanin;Gębalski [?];1;1658;#61
+238;Pełka;Tomasz;Kraśnik;Mieszczanin;;1;1658;#62
+239;Gołecki;Jan;Kraśnik;Mieszczanin;;1;1658;#62
+240;Kurowek;Maciej;Kraśnik;Mieszczanin;Kurowek [?];1;1658;#62
+241;Daliborka;[Wdowa];Kraśnik;Wdowa / Mieszkanka;Zabielska [?];1;1658;#62
+242;Grząbka;Jan;Kraśnik;Mieszczanin;;1;1658;#62
+243;Grudzień;Bartłomiej;Kraśnik;Mieszczanin;;2;1658;#62, #63
+244;Dubaj;Wojciech;Kraśnik;Mieszczanin;Dubański [?] / Albrecht Dubaj;5;1658–1698;#63, #68, #215, #218, #219
+245;Słodki;Walenty;Kraśnik;Mieszczanin / Sadownik;Skutka [?];1;1658;#63
+246;Orlak;Grzegorz;Kraśnik;Mieszczanin / Furman;Orlik [?];1;1658;#63
+247;Noster;Wojciech;Rudnik;Pracowity (Laboriosus);Kostka [?];1;1658;#64
+248;Rudnicka;Jadwiga;Rudnik;Mieszkanka Rudnika;Rudnicki [?];1;1658;#64
+249;Konięga;Felicjan;Kraśnik;Mieszczanin;Koniński [?];1;1658;#64
+250;Szarek;Szymon;Kraśnik (okolice);Szlachetny (Nobilis);;1;1658;#64
+251;Zięba;Jakub;Kraśnik;Mieszczanin;Zgęba [?];1;1658;#64
+252;Lisek;Jan;Kraśnik;Mieszczanin;Cichy [?];1;1658;#64
+253;Szutka;Szymon;Kraśnik;Mieszczanin;Sutka [?];1;1658;#65
+254;Icek;[Żyd];Kraśnik;Żyd kraśnicki;;1;1658;#65
+255;Tomaszczyk;Jan;Kraśnik;Mieszczanin;;1;1658;#65
+256;Tomaszczykowa;Jadwiga;Kraśnik;Mieszkanka / Żona Jana;;1;1658;#65
+257;Kępka;Maciej;Kraśnik;Mieszczanin;;1;1658;#65
+258;Prus;Maciej;Kraśnik;Mieszczanin;Ptaszek [?];1;1658;#65
+259;Serba;Jakub;Kraśnik;Mieszczanin;Sroka [?];1;1658;#65
+260;Rębińska;Zofia;Kraśnik;Mieszkanka;Łębińska [?];1;1658;#65
+261;Kaczorowski;Łukasz;Kraśnik;Mieszczanin;Kaczorowski [?];1;1657;#65
+262;Zieliński;Krzysztof;Kraśnik;Mieszczanin;Zieliński [?];1;1657;#65
+263;Koźmianowa;Ewa;Kraśnik;Wdowa / Mieszkanka;Koźmiańska [?];2;1657–1658;#66, #67
+264;Kowalowa;Zofia;Kraśnik;Mieszkanka (zm.);;1;1657;#66
+265;Saraczkowic;Maciej;Kraśnik;Sławetny / Plenipotent;Saraczkowicz [?];1;1657;#66
+266;Żydkowic;Baltazar;Kraśnik;Mieszczanin;Sydkowic [?];1;1658;#68
+267;Cichowicz;Wawrzyniec;Kraśnik;Mieszczanin;Cieśliński [?];1;1658;#68
+268;Zieliński;Maciej;Kraśnik;Mieszczanin;;2;1658;#68, #69
+269;Kępa;Wawrzyniec;Kraśnik;Mieszczanin;Kępka [?];1;1658;#69
+270;Ptaszek;Maciej;Kraśnik;Mieszczanin;Pępek [?];1;1658;#69
+271;Skutka;Walenty;Kraśnik;Mieszczanin;Słodki [?];1;1658;#69
+272;Bobak;Jakub;Kraśnik;Mieszczanin;Dubak [?];1;1658;#69
+273;Łazarz;Dawid;Kraśnik;Żyd kraśnicki / Świadek;Dawid Łazarz [?];1;1658;#69
+274;Kurza;Jan;Kraśnik;Mieszczanin;Kurzawa [?];1;1658;#69
+275;Lejzor;[Żyd];Kraśnik;Żyd kraśnicki;Zelman [?];1;1658;#69
+276;Kępa;Marcin;Kraśnik;Mieszczanin;Kępa [?];1;1658;#69
+277;Kępski;Marek;Kraśnik;Ławnik przysięgły;Kępski [?];2;1658;#70, #73
+278;Janorowski;Bartłomiej;Blinów;Szlachetny / Dzierżawca wsi Blinów;;4;1658;#70, #73, #78, #80
+279;Staroszek;Wojciech;Blinów;Poddany ze wsi Blinów;Staszek [?] / Rzepka;4;1658;#70, #71, #73, #79
+280;Staroszkowa;Jadwiga;Blinów;Poddana ze wsi Blinów (z Rzepków);;3;1658;#70, #71, #79
+281;Łysak;Maciej;Blinów;Poddany ze wsi Blinów;;3;1658;#70, #73, #79
+282;Łysakowa;Katarzyna;Blinów;Poddana ze wsi Blinów (z Rzepków);;3;1658;#70, #71, #79
+283;Kozieł;Stanisław;Blinów;Poddany ze wsi Blinów;Kozieł [?];1;1658;#70
+284;Rzepkowa;Agnieszka;Blinów;Poddana (zm., z Potoka);;1;1658;#70
+285;Rzepka;Sebastian;Blinów;Poddany ze wsi Blinów;;2;1658;#70, #76
+286;Rzepka;Jakub;Blinów;Poddany ze wsi Blinów;;1;1658;#70
+287;Skórka;Jan;Blinów;Poddany ze wsi Blinów;Storka [?];1;1658;#72
+288;Rzepka;Paweł;Blinów;Poddany ze wsi Blinów;;1;1658;#72
+289;Rzepka;Jan;Blinów;"Poddany ze wsi Blinów; Wójt blinowski / Poddany";;2;1658;#72, #77
+290;Grątka;Andrzej;Blinów;Poddany ze wsi Blinów;Gręta [?];1;1658;#72
+291;Szwedowicz;Stanisław;Kraśnik;Ławnik przysięgły;Szwedowicz [?];1;1658;#73
+292;Zakrzewski;[J.W. Pan];Kraśnik (okolice);Wielmożny Pan / Sędzia lub Urzędnik;Zakrzewski [?];1;1658;#73
+293;Rzepka;Stanisław;Blinów;Poddany ze wsi Blinów;;2;1658;#74, #75
+294;Świderski;Jan;Kraśnik (okolice);Szlachetny / Sędzia komisaryjny;;1;1658;#77
+295;Reszka;Łukasz;Blinów;Poddany ze wsi Blinów;;1;1658;#77
+296;Reszka;Stanisław;Blinów;Poddany ze wsi Blinów;;2;1658;#77, #81
+297;Rzepka;Andrzej;Blinów;Poddany ze wsi Blinów;;1;1658;#77
+298;Brożek;Paweł;Blinów;Poddany ze wsi Blinów;;1;1658;#77
+299;Kłos;Mateusz;Blinów;Poddany ze wsi Blinów;;1;1658;#77
+300;Wacławic;Antoni;Kraśnik;Urzędnik / Pisarz sądowy;Wacławic [?];1;1658;#77
+301;Kłos;Wojciech;Blinów;Poddany ze wsi Blinów;Kłos [?];1;1658;#78
+302;Sasek;Sebastian;Blinów;Poddany ze wsi Blinów;Sasek [?];1;1658;#78
+303;Gieracki;Piotr;Blinów (okolice);Wierzyciel / Posiadacz sumy;;1;1658;#78
+304;Zieliński;Paweł;Kraśnik;Mieszczanin;Zieliński [?];1;1658;#81
+305;Kłopot;Andrzej;Kraśnik;Przedmieszczanin;Kłopot;1;1668;#82
+306;Marek;[Żyd];Kraśnik;Żyd kraśnicki;;1;1668;#82
+307;Mamel;[Żyd];Kraśnik;Żyd kraśnicki;Mamele;2;1668;#82, #83
+308;Kanaszkowic;[Szewc];Kraśnik;Szewc (Sutor);Kanaszek;1;1668;#82
+309;Krasnodębski;Jakub;Urzędów;Szlachetny / Mieszczanin z Urzędowa;;2;1668;#82, #83
+310;Kramarz;Iwan;Kraśnik;Kramarz / Przyjezdny;Jan Kramarz;1;1668;#82
+311;Bombiński;[Pan];Kraśnik;Gospodarz / Mieszczanin;Bombiński [?];1;1668;#82
+312;Panownik;Jakub;Kraśnik;Mieszczanin;;1;1668;#82
+313;Cębalski;Michał;Urzędów;Wuj Jakuba Krasnodębskiego;;1;1668;#82
+314;Kłopot;[Mieszczanin];Kraśnik;Przedmieszczanin;;1;1668;#83
+315;Dubitowa;Anna;Kraśnik;Mieszczanka (3. żona Macieja Dubita);Tuszyńska;1;1666;#84
+316;Dubit;Maciej;Kraśnik;Mieszczanin;Dubito;1;1666;#84
+317;Kurowic;Wojciech;Kraśnik;Ławnik przysięgły;Kurowicz;1;1666;#84
+318;Tuszyński;Wojciech;Kraśnik;Mieszczanin (syn Mikołaja);;1;1666;#84
+319;Tuszyński;Mikołaj;Kraśnik;Mieszczanin (zm.);;1;1666;#84
+320;Jastrzębski;Ludwik;Kraśnik;Ks. Doktor Teologii / Prepozyt Kanoników Regularnych;Jastrzenski [?];1;1666;#85
+321;Grot;Franciszek Antoni;Kraśnik;Notariusz przysięgły publiczny;;1;1666;#85
+322;Węgorzowic;Andrzej;Kraśnik;Były mieszczanin / Pensjonariusz szpitala Św. Ducha;Węgorzowich;1;1668;#86
+323;Macal;Andrzej;Kraśnik;"Mieszczanin; Mieszczanin (zmarły)";;5;1664–1699;#86, #203, #257, #258, #263
+324;Kilianek;Grzegorz;Kraśnik;Mieszczanin;;1;1668;#86
+325;Kilianka;Maryna;Kraśnik;Wnuczka Andrzeja Węgorzowica;;1;1668;#86
+326;Kownicki;Maciej;Kraśnik;Mieszczanin;Kownicki [?];1;1668;#86
+327;Jasiemicki;[Mieszczanin];Kraśnik;Mieszczanin;Jasiemicki [?];1;1668;#86
+328;Andzel;[Żyd];Kraśnik;Żyd kraśnicki;;1;1668;#87
+329;Pieliński;Maciej;Kraśnik;Mieszczanin;Pielinkowicz [?];1;1681;#88
+330;Skarżeński;Sebastian;Kraśnik;Mieszczanin;Skarzeński [?];1;1681;#88
+331;Gorajski;[Żyd];Kraśnik;Żyd / Obywatel kraśnicki;Gorayski;1;1681;#88
+332;Puonik;Maciej;Kraśnik;Mieszczanin;Płonik [?];1;1681;#88
+333;Progutka;Wojciech;Kraśnik;Mieszczanin;Pogutka [?];1;1681;#88
+334;Sienka;Mikołaj;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);Sienka [?];1;1681;#89
+335;Kłopotek;Paweł;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);Kłopot;1;1681;#89
+336;Kłopotek;Jan;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);Kłopot;1;1681;#89
+337;Wojtek;Grzegorz;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);;1;1681;#89
+338;Kołodziej;Mikołaj;Kraśnik;Mieszczanin;Kołodziej [?];1;1681;#89
+339;Kochanowski;Tomasz;Kraśnik;Mieszczanin;;2;1681–1684;#89, #126
+340;Piotrowski;Michał;Kraśnik;"Mieszczanin (przyjmujący prawo miejskie); Mieszczanin / Świadek";Piotrowczyk;2;1681–1699;#89, #275
+341;Kantorek;Andrzej;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);;1;1681;#89
+342;Moszkowa;[Żydówka];Kraśnik;Żydówka kraśnicka;;1;1681;#89
+343;Zbrończyk;Mikołaj;Kraśnik;Mieszczanin (przyjmujący prawo miejskie);;1;1681;#89
+344;Masłowski;Sebastian;Kraśnik;Świadek przysięgły;;1;1681;#89
+345;Furman;Sebastian;Zagórze;Mieszkaniec Zagórza;;1;1681;#89
+346;Zamoyski;Marcin;Zamość / Kraśnik;Ordynat Zamoyski / Wojewoda lubelski i bełski;;1;1683;#91
+347;Zamoyska;Dorota z Leszczkowa;Zamość / Kraśnik;Kasztelanowa kijowska / Pani dożywotnia Kraśnika;;4;1683–1686;#91, #92, #93, #136
+348;Rogalowski;Jan;Kraśnik;Patrycjusz i Notariusz przysięgły (Pisarz miejski);;4;1683;#91, #92, #93, #105
+349;Janaszkowicz;Ubald Florian;Kraśnik;"Wójt kraśnicki; Wójt kraśnicki (zm.)";;13;1683–1699;#91, #92, #124, #129, #155, #173, #174, #187, #191, #195, #196, #197, #228
+350;Skrzeszowski;Jakub;Kraśnik;Szlachetny / Administrator dóbr kraśnickich;;1;1683;#92
+351;Gomuza;Stanisław;Kraśnik;"Burmistrz kraśnicki (Proconsul); Rajca rezydujący (i cechmistrz szewców); Rajca kraśnicki";Grymuza;4;1683–1699;#92, #136, #259, #260
+352;Chmarowicz;Paweł;Kraśnik;Rajca urzędujący;;1;1683;#92
+353;Chmielanowski;Jakub;Kraśnik;Rajca urzędujący;;1;1683;#92
+354;Błaszkowicz;Maciej;Kraśnik;"Rajca urzędujący; Rajca kraśnicki; Stary rajca kraśnicki";Błaszkowic / Bielaszkowic;9;1683–1699;#92, #113, #115, #123, #125, #128, #136, #230, #232
+355;Barankowicz;Jan;Kraśnik;"Stary rajca (Antiquus Consul); Ławnik i exaktor dochodów (Proventus); Rajca kraśnicki";;21;1683–1699;#92, #137, #154, #155, #173, #174, #182, #183, #186, #189, #190, #191, #192, #195, #196, #198, #204, #228, #232, #261, #270
+356;Stankowski;Paweł;Kraśnik;"Podwójci (Viceadvocatus); Podwójci i prowizor Szpitala Św. Ducha; Rajca rezydujący (i cechmistrz kowali)";;4;1683–1686;#92, #100, #105, #136
+357;Banaszowicz;Sebastian;Kraśnik;"Ławnik przysięgły; Rajca wybrany przez pospólstwo";Batuszowicz / Batusiowic;6;1683–1686;#92, #105, #124, #125, #129, #137
+358;Gomuza;Jan;Kraśnik;"Ławnik przysięgły; Ławnik / Mieszczanin";;2;1683–1697;#92, #147
+359;Kanaszkowicz;Wojciech;Kraśnik;Ławnik przysięgły;;3;1683–1686;#92, #124, #137
+360;Mucda;Dawid;Kraśnik;Starszy kahału żydowskiego (Senior);;1;1683;#92
+361;Achiaszowicz;Lejzor;Kraśnik;Starszy kahału żydowskiego (Senior);;1;1683;#92
+362;Jozwowicz;Mojżesz Majer;Kraśnik;Syndyk / Szkolnik kahału żydowskiego;;1;1683;#92
+363;Wardęga;Jakub;Dzierzkowice / Budzyń;Poddany (dawniej mieszczanin kraśnicki);;13;1683–1700;#93, #94, #95, #96, #99, #146, #260, #261, #262, #267, #273, #275, #281
+364;Zamoyski;Jan;Zamość / Kraśnik;Ordynat Zamoyski (zm.);;1;1683;#93
+365;Młodowski;[Pan];Kraśnik / Budzyń;Podstarości kraśnicki;;3;1683;#94, #95, #96
+366;Dzierzgowski;[Mieszczanin];Kraśnik;Donosiciel / Sąsiad;Dzierzgowski [?];1;1683;#94
+367;Szarowski;Jan;Kraśnik;Mieszczanin;Szarowski [?];1;1683;#97
+368;Bębenek;[Mieszczanin];Kraśnik;Mieszczanin;Bębenek [?];1;1683;#97
+369;Łyś;[Mieszczanin];Kraśnik;Mieszczanin;Łyś [?];1;1683;#98
+370;Pyzik;[Mieszczanin];Kraśnik;Mieszczanin;;1;1683;#98
+371;Turek;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1683;#99
+372;Turek;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;Turkowian;4;1683;#99, #100, #101, #102
+373;Turek;Marcin;Kraśnik (Przedmieście);Przedmieszczanin;Turkowian;1;1683;#100
+374;Turek;Anna;Kraśnik (Przedmieście);Panna / Siostra młodszych Turków;Turkowian;1;1683;#101
+375;Turek;Augustyn;Kraśnik (Przedmieście);Przedmieszczanin;Turkowian;1;1683;#101
+376;Turek;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;Turkowian;1;1683;#101
+377;Turek;Stefan;Kraśnik (Przedmieście);Przedmieszczanin;Turkowian;1;1683;#101
+378;Zdebik;Adam;Kraśnik (Przedmieście);Przedmieszczanin;;2;1683;#102, #103
+379;Lojczak;Krzysztof;Kraśnik (Przedmieście);Przedmieszczanin / Opiekun;Łojczak [?];1;1683;#102
+380;Pardyk;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin / Opiekun;Pardyk [?];1;1683;#102
+381;Kudrelik;Maciej;Kraśnik (Przedmieście);Przedmieszczanin (zm.);Kudrelik [?];2;1678–1684;#102, #130
+382;Rymarczyk;Marcin;Kraśnik (Przedmieście);Przedmieszczanin / Kupiec roli;;19;1682–1700;#103, #104, #106, #125, #133, #134, #162, #163, #164, #166, #177, #180, #206, #267, #273, #274, #279, #280, #281
+383;Rymarczykowa;Regina;Kraśnik (Przedmieście);Żona Marcina Rymarczyka;;1;1683;#103
+384;Olbrachtowicz;Kazimierz;Urzędów;Burmistrz Urzędowa (Proconsul);;1;1682;#104
+385;Gurski;Paweł;Urzędów;Rajca urzędowski;;1;1682;#104
+386;Łukaszewicz;Sebastian;Urzędów;Rajca urzędowski;;1;1682;#104
+387;Kozieł;Marcin;Kraśnik (Przedmieście);Przedmieszczanin / Sprzedawca;;1;1682;#104
+388;Kozłowa;Rozalia;Kraśnik (Przedmieście);Żona Marcina Kozła;;1;1682;#104
+389;Kozłówna;Anna;Kraśnik (Przedmieście);Siostra Marcina Kozła;;1;1682;#104
+390;Świątek;Kasper;Kraśnik (Przedmieście);Przedmieszczanin / Sąsiad;;1;1682;#104
+391;Łukaszowicz;Jan Bartosz;Urzędów;Mieszczanin urzędowski;;1;1682;#105
+392;Rodzonek;Stefan;Kraśnik / Urzędów;Świadek kontraktu;;1;1682;#105
+393;Dominek;Jan;Kraśnik / Urzędów;Świadek kontraktu;;1;1682;#105
+394;Kosłowa;Anna;Kraśnik / Urzędów;Świadek kontraktu;Kozłowa [?];1;1682;#105
+395;Proskowski;Jan;Urzędów;Notariusz przysięgły urzędowski;Proskowski [?];1;1682;#105
+396;Srebnicki;Jan;Kraśnik;Woźny przysięgły (Bedellus);;2;1683;#105, #106
+397;Tokarski;Jan;Kraśnik (Przedmieście);Przedmieszczanin / Sąsiad;;1;1683;#106
+398;Grzanka;Szymon;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#106
+399;Jasiewicz;Jan;Kraśnik (Przedmieście);Przedmieszczanin;;2;1683;#106, #107
+400;Kowalik;Andrzej;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#107
+401;Smokówna;Maryna;Kraśnik (Przedmieście);Mieszkanka / Córka G. Kowalika;Kowalikówna;2;1683;#107, #109
+402;Jasiewicz;Sebastian;Kraśnik (Przedmieście);Przedmieszczanin / Sędziwy świadek;;2;1683;#107, #108
+403;Kowalik;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1683;#108
+404;Kowalik;Grzegorz;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1683;#108
+405;Woszczatyńska;Ewa;Kraśnik (Przedmieście);Wdowa / Sędziwy świadek;Woszczatyńska [?];1;1683;#108
+406;Jajczyk;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin / Opiekun prawny;;5;1664–1699;#109, #202, #203, #243, #244
+407;Radzik;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#109
+408;Decik;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin;Decik [?];3;1683–1684;#109, #110, #131
+409;Chudzik;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#110
+410;Łebkowska;Katarzyna;Kraśnik (Przedmieście);Żona Wojciecha Chudzika;Łebkowska [?] / Chudzikowa;1;1683;#110
+411;Łebek;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;Łebik [?];2;1683;#110, #111
+412;Kilianek;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#111
+413;Sadzik;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;;1;1683;#111
+414;Dzierżanowski;Wojciech;Kraśnik;Mieszczanin / Szlachetny;Dziwanowski [?] / Dziwanowski;5;1684;#112, #113, #126, #127, #130
+415;Kobierska;[Wdowa];Kraśnik;Wdowa po Kobierskim;;1;1684;#112
+416;Kopel;Feren;Kraśnik;Żyd kraśnicki;Ferenc [?];2;1684;#113, #114
+417;Balicki;Sebastian;Kraśnik (okolice);Szlachetny / Świadek;Balicki [?];1;1684;#114
+418;Lewkowicz;[Żyd];Kraśnik;Żyd kraśnicki;Lewkowic;1;1684;#114
+419;Lasa;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;Łaza;2;1684;#115, #125
+420;Nogaj;Wojciech;Kraśnik (Przedmieście);"Przedmieszczanin; Przedmieszczanin (zm.)";;3;1684–1698;#115, #133, #224
+421;Kobierski;Jan;Kraśnik;Mieszczanin;;1;1684;#115
+422;Kołodziejowa;Katarzyna Wawrzyńcowa;Kraśnik (Przedmieście);Wdowa;Kołodziej [?];1;1684;#116
+423;Kukielka;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;Kukułka [?];1;1684;#116
+424;Łoszkata;Stanisław;Kraśnik;Mieszczanin;Łoszkata [?] / Łożeński [?];3;1684;#116, #117, #123
+425;Fox;Adam;Kraśnik;Mieszczanin;Foxik;4;1684–1695;#116, #117, #123, #145
+426;Las;Jakub;Kraśnik;Mieszczanin;Lis [?];1;1684;#117
+427;Susiło;Wojciech;Kraśnik;Mieszczanin;Susiło [?];1;1684;#117
+428;Bartoszek;Bartłomiej;Kraśnik (Przedmieście);Przedmieszczanin;Wojciech Bartoszek;3;1684;#117, #128, #132
+429;Babarczyk;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin;;3;1684;#117, #124, #128
+430;Zychko;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;Ziętko [?];3;1684;#117, #124, #128
+431;Wilk;Bartłomiej;Kraśnik (Przedmieście);Młynarz (Molendinator);;3;1684–1698;#117, #128, #226
+432;Lasa;Wojciech;Kraśnik;Mieszczanin / Świadek;Łaza;1;1684;#118
+433;Łoszkatowa;Ewa;Kraśnik;Żona Stanisława Łoszkaty;;1;1684;#118
+434;Kuzikówna;Anna;Kraśnik;Mieszkanka / Świadek;;1;1684;#118
+435;Wojcikówna;Jadwiga;Kraśnik;Służebna S. Łoszkaty;;1;1684;#118
+436;Koplik;Herszko;Kraśnik;Żyd kraśnicki;;1;1684;#119
+437;Moszek;[Żyd];Kraśnik;Żyd kraśnicki;;1;1684;#119
+438;Mazurczyk;Sebastian;Kraśnik;Furman / Mieszczanin;;1;1684;#119
+439;Bodecki;[Pan];Kraśnik;Sławetny / Świadek;Bodecki [?];1;1684;#119
+440;Kliduch;[Mieszczanin];Kraśnik;Mieszczanin;Kliduch [?];1;1684;#120
+441;Lejba;[Żyd];Kraśnik;Żyd kraśnicki;;1;1684;#120
+442;Majowski;Jan;Kraśnik;"Cieśla / Mieszczanin; Rajca kraśnicki; Burmistrz / Rajca kraśnicki";Maioreski [?];22;1684–1699;#120, #145, #159, #172, #174, #180, #199, #211, #227, #228, #230, #232, #239, #240, #246, #247, #250, #259, #260, #261, #265, #266
+443;Jozwowicz;Judka;Kraśnik;Żyd kraśnicki;;1;1684;#121
+444;Grimura;Jan;Kraśnik;Mieszczanin;Grimura [?];1;1684;#121
+445;Rudnowic;Bartłomiej;Kraśnik;Mieszczanin;Rudnowic [?];1;1684;#121
+446;Pietruszka;Marcin;Kraśnik;"Sługa miejski; Sługa miejski (Bedellus)";Pietruszczak;2;1684;#121, #129
+447;Szartowski;Kazimierz;Kraśnik;Malarz (Pictor);;1;1684;#121
+448;Przybylski;Marcin;Sandomierz;Mieszczanin sandomierski;;1;1684;#121
+449;Iwanicki;Stefan;Kraśnik;Obywatel kraśnicki / Świadek;;1;1684;#122
+450;Malarz;Mikołaj;Kraśnik;Malarz / Świadek;;1;1684;#122
+451;Markowicz;Chaim;Kraśnik;Żyd kraśnicki / Świadek;Markowicz [?];1;1684;#122
+452;Lewkowicz;Jakub;Kraśnik;Żyd kraśnicki;;1;1684;#123
+453;Kominek;Wojciech;Kraśnik;Mieszczanin;;1;1684;#123
+454;Łankowa;Zuzanna;Kraśnik (Przedmieście);Wdowa / Przedmieszczka;Łankowa [?];1;1684;#124
+455;Snoviek;Jan;Wyżnica;Pracowity ze wsi Wyżnica / Strażnik;Snoviek [?];1;1684;#124
+456;Grzymek;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;;2;1684;#124, #129
+457;Wolski;Mateusz;Kraśnik (Przedmieście);Przedmieszczanin;Wolski [?];1;1684;#124
+458;Jurdzik;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;Jurdik [?];2;1684;#125, #127
+459;Słomkowski;Paweł;Kraśnik;"Ławnik przysięgły; Podwojci / Wicewójt kraśnicki; Podwojci / Ławnik przysięgły; Podwojci kraśnicki";;38;1684–1699;#125, #129, #147, #153, #158, #167, #172, #173, #174, #175, #179, #186, #187, #188, #190, #191, #192, #194, #195, #196, #197, #198, #205, #207, #213, #218, #220, #230, #232, #233, #234, #238, #243, #255, #256, #259, #261, #263
+460;Pełka;Józef;Kraśnik (Przedmieście);Przedmieszczanin;Robak [?];1;1684;#125
+461;Pełczyna;[Wdowa];Kraśnik (Przedmieście);Przedmieszczanka (zm.);;1;1684;#125
+462;Jozwowicz;Jakub;Kraśnik;Żyd kraśnicki;;1;1684;#126
+463;Koplowic;Jakub;Kraśnik;Żyd kraśnicki;Koplowic [?];1;1684;#126
+464;Kochanowski;Wojciech;Kraśnik;Mieszczanin;;1;1684;#126
+465;Mantemberk;Aleksander;Kraśnik;Kupiec / Mieszczanin;;1;1684;#127
+466;Kotifera;Anna;Kraśnik (Przedmieście);Wdowa / Kołodziejka;Kołodziejka;2;1684;#128, #130
+467;Okoń;Jan;Kraśnik (Przedmieście);"Przedmieszczanin; Przedmieszczanin (syn Elżbiety)";Okoń [?];2;1684–1698;#128, #215
+468;Kurc;Marcin;Kraśnik;Mieszczanin;Kurc [?];1;1684;#129
+469;Wolski;Maciej;Kraśnik (Przedmieście);Przedmieszczanin;Woluk;1;1684;#129
+470;Biegajczyk;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;Biegajczyk [?];1;1684;#130
+471;Magurowski;Stanisław;Kraśnik;Mieszczanin;Magurowski [?];1;1684;#131
+472;Nowak;Jan;Kraśnik;Mieszczanin;;1;1684;#131
+473;Starobrat;Szymon;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;Starobrat [?];1;1684;#131
+474;Grzebieniowiec;Szymon;Kraśnik (Przedmieście);Przedmieszczanin / Świadek;Grzebieniowiec [?];1;1684;#132
+475;Młynarczyk;Jakub;Kraśnik (Przedmieście);Młynarz / Rękojemca;;1;1684;#133
+476;Pełka;Maciej;Kraśnik (Przedmieście);Przedmieszczanin;;2;1684;#133, #134
+477;Młodowski;Jan;Kraśnik;Arbiter;Młodowski [?];1;1684;#134
+478;Nogaj;Andrzej;Kraśnik (Przedmieście);Przedmieszczanin;;1;1684;#134
+479;Wojtalik;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;;1;1684;#134
+480;Smarzyński;[Ksiądz];Kraśnik;Kanonik Regularny;;1;1684;#134
+481;Sobel;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin;Sobel [?];1;1684;#134
+482;Rodzonek;Bartłomiej;Kraśnik (Przedmieście);Przedmieszczanin;;2;1684–1694;#134, #150
+483;Brzęk;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;Brzęk [?];1;1684;#135
+484;Szocik;Wojciech;Kraśnik;Mieszczanin;Szocik [?];1;1684;#135
+485;Chruścik;Jakub;Kraśnik;Młodzieniec / Poszkodowany;Chruścik [?];1;1684;#135
+486;Żyta;Jakub;Kraśnik;Mieszczanin;Żyta [?];1;1684;#135
+487;Łębowski;Jakub;Kraśnik (okolice);Szlachetny / Komisarz;Łębowski [?];1;1686;#136
+488;Toruński;Kazimierz;Kraśnik (okolice);Szlachetny / Komisarz;Toruński [?];1;1686;#136
+489;Gucki;Jerzy;Kraśnik;Rajca rezydujący / Starszy cechów;;1;1686;#136
+490;Kościński;Szymon;Kraśnik;"Ławnik, notariusz i asesor Trybunału Zamojskiego; Urzędnik / Mieszczanin; Ławnik / Mieszczanin (zm.?)";;3;1686–1698;#137, #140, #211
+491;Solecki;Stanisław;Kraśnik;"Ławnik przysięgły; Burmistrz kraśnicki; Rajca / Subdelegat urzędu radzieckiego i burmistrzowskiego; Rajca / Mieszczanin (cechowy); Rajca kraśnicki";;14;1686–1699;#137, #141, #154, #155, #160, #168, #173, #174, #204, #224, #228, #230, #232, #233
+492;Szczerkowicz;Stanisław;Kraśnik;Ławnik przysięgły;;1;1686;#137
+493;Potocki;Adam;Kraśnik;"Ławnik przysięgły; Burmistrz i rezydent kraśnicki; Prokonsul / Rajca kraśnicki; Prokonsul kraśnicki; Prokonsul / Opiekun; Rajca / Ławnik";Potokowicz / Potokowski [Potocki?], Potokowicz;17;1686–1699;#137, #145, #168, #174, #190, #194, #196, #212, #228, #230, #231, #232, #247, #250, #256, #260, #261
+494;Reszka;Stanisław;Kraśnik;Exaktor poborów publicznych;;1;1686;#137
+495;Kucharski;Stanisław;Kraśnik;Exaktor poborów publicznych;;1;1686;#137
+496;Beszkowic;[Młodszy];Kraśnik;Cechmistrz szewski (młodszy);;1;1686;#137
+497;Paśkowic;Tomasz;Kraśnik;Cechmistrz kuśnierski (starszy);Paśkowic [?];1;1686;#137
+498;Strzyżowski;Maciej;Kraśnik;Cechmistrz kowalski (młodszy);;1;1686;#137
+499;Nowaczek;Paweł;Kraśnik;Mieszczanin;;1;1686;#138
+500;Butka;Wojciech;Kraśnik;"Mieszczanin; Mieszczanin (zmarły)";Buta;2;1686–1699;#138, #270
+501;Więckowa;Jadwiga;Kraśnik;Wdowa;Więckowa [?];1;1686;#138
+502;Nagórny;Stefan;Kraśnik;Mieszczanin;;1;1686;#138
+503;Chmielówna;Katarzyna;Kraśnik;Mieszkanka;;1;1686;#138
+504;Berel;Moszko;Kraśnik;Żyd kraśnicki;Berkowicz [?];1;1686;#138
+505;Proskowic;Jan;Kraśnik;Mieszczanin;Proskowicz [?] / Proskowic [?];2;1694–1698;#139, #155
+506;Bednarz;Grzegorz;Kraśnik;Mieszczanin;;1;1694;#139
+507;Brzeziński;Jan;Kraśnik;Mieszczanin;Brzeziński [?];1;1694;#139
+508;Pałka;[Mieszczanin];Kraśnik;Mieszczanin;Pałka [?];1;1694;#139
+509;Skalisz;[Mieszczanin];Kraśnik;Mieszczanin;Skalisz [?];1;1694;#140
+510;Nowaczek;Jan;Kraśnik;Mieszczanin;Nowaczek [?];1;1694;#140
+511;Szymkiewicz;Stanisław;Kraśnik;Burmistrz kraśnicki;Szymkiewicz [?];1;1694;#141
+512;Broskowic;Stanisław;Kraśnik;Mieszczanin;Proskowic;1;1694;#141
+513;Broskowic;Jan;Kraśnik;Mieszczanin;Proskowic;1;1694;#141
+514;Anzel;Abel;Kraśnik;Żyd kraśnicki;;1;1694;#141
+515;Janczarek;Jakub;Sulów;Poddany ze wsi Sulów;Janczarok [?];1;1695;#141
+516;Biały;Wojciech;Kraśnik;Mieszczanin;Biały [?];1;1694;#142
+517;Bąk;Mateusz;Kraśnik (Przedmieście);Przedmieszczanin;;1;1694;#142
+518;Kajmik;Jan;Kraśnik;Świadek;Kajmik [?];1;1694;#142
+519;Konduk;[Mieszczanin];Kraśnik;Świadek;Konduk [?];1;1694;#142
+520;Biernatek;Mateusz;Kraśnik (Przedmieście);Przedmieszczanin;;1;1694;#142
+521;Biernatek;Marcin;Kraśnik (Przedmieście);Przedmieszczanin;;1;1694;#142
+522;Piasecki;Wojciech;Kraśnik (Przedmieście);"Przedmieszczanin; Przedmieszczanin (Longer) / Szafarz miejski";;5;1695–1698;#143, #180, #187, #190, #199
+523;Piasecki;Bartłomiej;Kraśnik (Przedmieście);Przedmieszczanin;;3;1695–1698;#143, #157, #159
+524;Piasecka;Marianna;Kraśnik (Przedmieście);Przedmieszczanka / Siostra;;1;1695;#143
+525;Piasecka;Zofia;Kraśnik (Przedmieście);Przedmieszczanka / Siostra;;2;1695–1698;#143, #161
+526;Piasecki;Jan;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1695;#143
+527;Wilczek;Józef;Kraśnik (Przedmieście);Przedmieszczanin;Wileżka [?];3;1695–1699;#143, #261, #262
+528;Szyszkowski;Józef;Kraśnik;Mieszczanin;Szyszkowski [?];1;1695;#143
+529;Jastrzębski;Bartłomiej;Kraśnik;Mieszczanin;Jastrzębski [?];1;1695;#143
+530;Madej;Józef;Kraśnik (Przedmieście);Przedmieszczanin;;1;1695;#144
+531;Wilczek;Adam;Kraśnik (Przedmieście);Przedmieszczanin / Brat Józefa;;1;1695;#144
+532;Tutkowa;Dorota;Kraśnik (Przedmieście);Matka Józefa Wilczka;;1;1695;#144
+533;Kwasowic;Stefan;Kraśnik;"Ławnik przysięgły; Rajca / Ławnik kraśnicki; Dawny rajca / Ławnik; Rajca kraśnicki; Prokonsul / Burmistrz kraśnicki; Prokonsul / Rajca kraśnicki";;19;1695–1699;#144, #151, #152, #154, #167, #171, #173, #174, #190, #194, #211, #218, #220, #228, #256, #259, #261, #265, #272
+534;Rożewski;Kazimierz;Kraśnik;Mieszczanin;Różewski [?];1;1695;#144
+535;Wilczek;Marcin;Kraśnik (Przedmieście);Przedmieszczanin;;1;1695;#144
+536;Zdebik;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;;1;1695;#145
+537;Maziarczyk;Kazimierz;Kraśnik (Przedmieście);Przedmieszczanin;Maziarczyk [?];1;1695;#145
+538;Abus;[Żyd];Kraśnik;Żyd kraśnicki;Abus [?];1;1695;#146
+539;Itralowa;[Żydówka];Kraśnik;Żydówka kraśnicka;Izraelowa [?];1;1695;#146
+540;Abusiowa;[Żydówka];Kraśnik;Żydówka kraśnicka;;1;1695;#146
+541;Więcko;Jan;Kraśnik;Mieszczanin;Więcek;1;1695;#146
+542;Koza;Wojciech;Kraśnik;Mieszczanin;Koza [?];1;1695;#146
+543;Kozik;Tomasz;Kraśnik;Mieszczanin;Kozik [?];1;1695;#146
+544;Kozik;Maciej;Kraśnik;Mieszczanin;Kozik [?];1;1695;#146
+545;Kąkoła;Wawrzyniec;Sulów;Pracowity ze wsi Sulów;Kąkoła [?];1;1697;#147
+546;Kowal;Stanisław;Sulów / Kraśnik;Pozwany o pobicie;Kowal [?];1;1697;#147
+547;Trawiński;Jan;Kraśnik;Mieszczanin;Trawiński [?];4;1697–1700;#147, #217, #266, #281
+548;Macal;Józef;Kraśnik;"Mieszczanin; Mieszczanin (chrześcijanin); Mieszczanin / Rzeźnik";;11;1697–1699;#147, #166, #233, #237, #255, #257, #258, #260, #263, #270, #271
+549;Dudek;Wojciech;Kraśnik;Mieszczanin;Dudek [?];1;1697;#148
+550;Kubik;Maciej;Kraśnik;Mieszczanin;Kubik [?];1;1697;#148
+551;Nowak;Tomasz;Kraśnik;Mieszczanin;;1;1697;#148
+552;Grątek;Franciszek;Kraśnik;Mieszczanin / Szwagier T. Nowaka;Grątek [?];1;1697;#148
+553;Łąka;Maciej;Kraśnik;Mieszczanin;Łąka [?];1;1697;#148
+554;Mrozek;Karol;Kraśnik;Mieszczanin;Mrozek [?];1;1697;#148
+555;Śliwiński;Maciej;Kraśnik;Mieszczanin;Śliwiński [?];1;1697;#148
+556;Piotrowczyk;Maciej;Kraśnik;Mieszczanin;;1;1694;#149
+557;Kłosowa;[Mieszkanka];Kraśnik;Mieszkanka;;1;1694;#149
+558;Ryczek;Jan;Kraśnik;Mieszczanin;Ryczek [?];1;1694;#150
+559;Papuża;Sebastian;Kraśnik;Mieszczanin;Papuża [?];1;1694;#150
+560;Rusek;Wojciech;Kraśnik;Mieszczanin;;1;1694;#150
+561;Pękala;Augustyn;Kraśnik;Mieszczanin;Pękala [?];1;1694;#150
+562;Piotrowczyk;Michał;Kraśnik;"Mieszczanin; Mieszczanin / Szynkarz";;5;1694–1699;#150, #244, #259, #261, #265
+563;Kozak;Paweł;Kraśnik;Świadek;;1;1694;#150
+564;Rękuta;Stanisław;Kraśnik;Mieszczanin;Pękuta [?] / Rękuta [Pękuta?];1;1698;#151
+565;Żydek;Jan;Kraśnik;Pracowity / Czeladź;Żydek [?];2;1698;#151, #171
+566;Żydek;Wojciech;Kraśnik;Pracowity / Czeladź;Żydek [?];2;1698;#151, #171
+567;Łaziński;Jan;Kraśnik;Młynarz (stoki);Łaciński [Łaziński?] / Łaziński [Łaciński?];3;1698;#151, #152, #171
+568;Grzymałowski;Wojciech;Kraśnik;"Ławnik przysięgły; Ławnik przysięgły / Opiekun; Ławnik / Deputat Trybunału Zamojskiego";;23;1697–1699;#151, #152, #155, #167, #171, #196, #211, #212, #213, #218, #228, #229, #230, #231, #237, #239, #243, #245, #247, #250, #254, #261, #270
+569;Bielaszkowic;Wawrzyniec;Kraśnik;"Ławnik przysięgły; Ławnik przysięgły / Cechmistrz kuśnierski";Bielaszkowic / Pisarzowic [Bielaszkowic?] / Pilaszkowic [Bielaszkowic?] / Pilaszkowic;23;1697–1699;#151, #152, #154, #160, #167, #171, #174, #183, #192, #194, #204, #213, #215, #218, #220, #224, #228, #230, #231, #247, #250, #261, #263
+570;Ichowic;Szmul;Kraśnik;Żyd kraśnicki;Ichowic [?];1;1698;#151
+571;Pełk;Andrzej;Kraśnik;Mieszczanin;Pełk [?];1;1698;#151
+572;Lis;Jakub;Kraśnik;Mieszczanin;;2;1698;#151, #226
+573;Młynarczyk;Jakub;Kraśnik;Mieszczanin;Młynarczyk [?];1;1698;#151
+574;[Nieznany];Piotr;Kraśnik;Uczciwy (poszkodowany);Piotr [?];1;1698;#152
+575;Stabrawic;Paweł;Kraśnik;Uczciwy;Stabrawic [?];1;1698;#152
+576;Nowacka;Katarzyna;Kraśnik / Urzędów;Landwójtowa urzędowska (córka Ubalda Janaszkowica);Janaszkowicowa [Nowacka?] / Janaszkowicowa;15;1698–1699;#152, #155, #158, #171, #172, #173, #174, #175, #187, #191, #194, #195, #197, #228, #229
+577;[Parobek Nowackiej];Stasiek;Kraśnik;Parobek Katarzyny Nowackiej;Stasik [?];2;1698;#152, #155
+578;Jędrzejowski;Paweł;Kraśnik;Świadek;Jędrzejowski [?];1;1698;#152
+579;Panek;Jędrzej;Kraśnik (Przedmieście);Przedmieszczanin;;3;1698;#153, #154, #156
+580;Feliks;[Żyd];Kraśnik;Żyd kraśnicki;Feliks [?];2;1698;#153, #154
+581;Janczewski;Michał;Kraśnik;Uczciwy (poszkodowany);Janczewski [?];1;1698;#153
+582;Kamiński;Stanisław;Kraśnik;Uczciwy (poszkodowany);;1;1698;#153
+583;[Woźny];Wojciech;Kraśnik;Woźny sądowy;Wojciech [?];1;1698;#153
+584;Musik;Jakub;Kraśnik;Mieszczanin;Musik [?];1;1698;#153
+585;Grzymek;Wojciech;Kraśnik;Świadek;Grzymek [?];1;1698;#153
+586;Starski;Franciszek;Kraśnik;Woźny sądowy;Starski [?];1;1698;#154
+587;Wardęga;Wojciech;Kraśnik;"Pracowity / Poddany; Pracowity / Przedmieszczanin";;10;1698–1700;#154, #155, #260, #261, #262, #265, #267, #273, #275, #281
+588;Łyszkowic;Kazimierz;Kraśnik;Mieszczanin;Łyszkowic [?];1;1698;#154
+589;Paszek;Marcin;Kraśnik;Mieszczanin;Paszek [?];1;1698;#154
+590;Kłoskowic;[Pan];Kraśnik;Sławetny;Kłoskowic [?];1;1698;#154
+591;Kłopot;Wojciech;Kraśnik;Mieszczanin;;2;1698;#155, #212
+592;Murowski;Jan;Kraśnik;"Mieszczanin; Rajca kraśnicki";Murowski [?];3;1698;#155, #190, #194
+593;Moszkowicz;Berek;Kraśnik;Żyd kraśnicki;;2;1698;#157, #158
+594;Kłopot;Paweł;Kraśnik;"Mieszczanin; Dziesiętnik przedmiejski";;5;1698;#157, #158, #208, #209, #210
+595;Kołkowic;Tomasz;Kraśnik;Mieszczanin;Kołkowic [?];1;1698;#157
+596;Sowiński;Sebastian;Kraśnik;Mieszczanin;Sowiński [?];1;1698;#157
+597;Wilk;Adam;Kraśnik;Mieszczanin;;4;1698–1699;#157, #215, #216, #243
+598;Kłopotek;Maciej;Kraśnik;Mieszczanin;Kłopotek [?];1;1698;#157
+599;Trawiński;Tomasz;Kraśnik;Mieszczanin;Trawiński [?];1;1698;#157
+600;Kobierska;Szymonowa;Kraśnik;Wdowa;;1;1694;#158
+601;Łopatka;Sebastian;Kraśnik;Mieszczanin;Łopatka [?];1;1698;#158
+602;Mrozowski;Karol;Kraśnik;"Mieszczanin; Mieszczanin kraśnicki";Mroziński [Mrozowski?];4;1698;#158, #168, #169, #227
+603;Pietrzak;Tomasz;Kraśnik;Mieszczanin;Pietrzak [?];1;1698;#159
+604;Zasadzowic;Stefan;Kraśnik;Mieszczanin;Zasadzowic [?];1;1698;#159
+605;Olchowski;Szymon;Kraśnik (Piaski);"Przedmieszczanin z Piasków; Przedmieszczanin z Piasków (Kuśmierz alias Olchowski); Przedmieszczanin (wyjeżdżający na Wisłę); Przedmieszczanin z Piasków / Kupiec";Olchowski [?];10;1695–1699;#159, #163, #164, #166, #167, #257, #260, #265, #266, #269
+606;Icek;[syn Biernasia];Kraśnik;Żyd kraśnicki;Icek [?];1;1695;#159
+607;Biernas;[Żyd];Kraśnik;Żyd kraśnicki (ojciec Icka);Biernas [?];1;1695;#159
+608;Borucki;Matyjasz;Kraśnik;Mieszczanin (tegoż rzemiosła);Borucki [?];1;1698;#160
+609;Dąbrowski;Paweł;Kraśnik;Uczciwy (poszkodowany);;1;1698;#160
+610;Złotnicki;Jakub;Kraśnik;Uczciwy;Złotnicki [?] / Szczepan Złotnicki [?];1;1698;#160
+611;Bożkowic;Wojciech;Kraśnik;Ławnik przysięgły;;7;1698–1699;#160, #174, #207, #220, #224, #226, #261
+612;Wolanowski;[Ławnik];Kraśnik;Ławnik / Urzędnik;Wolanowski [?];1;1698;#160
+613;Abramowic;Mojżesz;Kraśnik;Cyrulik miejski;;1;1698;#160
+614;Dutkowic;Krzysztof;Kraśnik;Mieszczanin;Dutkowic [?];1;1698;#160
+615;Lipczyński;[Mieszczanin];Kraśnik;Mieszczanin;Lipczyński [?];1;1698;#160
+616;Wysocki;[Pan];Kraśnik;Sławetny;;1;1698;#160
+617;Bosacki;Walenty;Kraśnik;Mieszczanin;Bosacki [Bożkowic?];1;1698;#160
+618;Wysocka;Katarzyna;Kraśnik;Sławna Pani (żona Aleksandra Wysockiego);;1;1698;#161
+619;Pyrzkowna;Zofia;Kraśnik;Mieszczanka;Pyrzkowna [?];1;1698;#161
+620;Wysocki;Aleksander;Kraśnik;Mąż Katarzyny Wysockiej;;1;1698;#161
+621;Tudorek;Anna;Kraśnik (Piaski);Uczciwa (córka Stanisława Tudorka);Tudorkowa / Tudorek [?];2;1698;#161, #162
+622;Leś;Matyjasz;Kraśnik (Piaski);Świadek / Sąsiad roli;Leś [?];1;1698;#161
+623;Kuczyński;[Mieszczanin];Kraśnik;Mieszczanin;Kuczyński [?];1;1698;#161
+624;Tudorek;Stanisław;Kraśnik (Piaski);Ojciec Anny Tudorkowej (zm.);Tudorek [?];1;1698;#162
+625;Pastuszka Łołkowic;Stanisław;Kraśnik (Piaski);Ojciec męża Anny Tudorkowej;Łołkowic [?];1;1698;#162
+626;Gąskowicowa;Jadwiga;Kraśnik (Piaski);Uczciwa;Gąskowicowa [?];1;1698;#162
+627;Brząs;Sebastian;Kraśnik;Uczciwy;Brząs [?];4;1698;#162, #163, #164, #166
+628;Kozakowa;Katarzyna;Kraśnik;Uczciwa (żona Kozaka);;2;1698;#163, #164
+629;Kozakowicz;[Syn Kozaka];Kraśnik;Świadek (syn Kozakowej);;2;1698;#163, #164
+630;Boguta;Jakub;Kraśnik;Uczciwy;;1;1698;#164
+631;Stary Kmieć;Tomasz;Kraśnik;Świadek / Pasterz;;1;1698;#164
+632;Taborówna;Jadwiga;Kraśnik;Płócienniczka (żona tokarza);;1;1698;#165
+633;[Pasierbica Taborówny];Małgorzata;Kraśnik;Pasierbica Jadwigi Taborówny;[Pasierbica Taborówny];1;1698;#165
+634;[Pasierb Taborówny];Jędrzej;Kraśnik;Pasierb Jadwigi Taborówny;[Pasierb Taborówny];1;1698;#165
+635;[Syn Taborówny];Jan;Kraśnik;Mieszczanin / Syn;[Syn Taborówny];1;1698;#165
+636;[Syn Taborówny];Piotr;Kraśnik;Mieszczanin / Syn;Piotr [?];1;1698;#165
+637;Rutkowic;Stanisław;Kraśnik;Świadek;Rutkowic [?];1;1698;#166
+638;Ruchowski;Jan;Kraśnik;Świadek;Ruchowski [?];1;1698;#166
+639;Arel;[Żyd];Kraśnik;Żyd kraśnicki;Aron [Arel?];1;1698;#166
+640;[Parobek z Izdebna];Stasio;Izdebno [?];Parobek Pani Mundajnej;[Parobek z Izdebna];2;1698;#168, #169
+641;Mundajna;[Pani];Izdebno [?];Szlachcianka / Posesorka;Mundajna [?];1;1698;#168
+642;[Czeladnik z Podgórza];Matyjasz;Kraśnik (Podgórze);Uczestnik tumultu;[Czeladnik z Podgórza];1;1698;#168
+643;[Czeladnik z Podgórza];Kazimierz;Kraśnik (Podgórze);Uczestnik tumultu;[Czeladnik z Podgórza];1;1698;#168
+644;Pankowa;[Pani];Kraśnik;Mieszczanka;Panek [?];1;1698;#168
+645;Kempionka;Anna;Kraśnik;Żona Matyjasza Piotrowczyka (zm.);Kempionka [?];1;1698;#169
+646;Piotrowczyk;Matyjasz;Kraśnik;"Mieszczanin (wdowiec po Annie Kempionce); Mieszczanin / Przedmieszczanin";;3;1698–1699;#169, #241, #245
+647;Babiarczyk;[Syn Kempionki];Kraśnik;Syn Anny Kempionki;Babiarczyk [?];1;1698;#169
+648;Koczorowski;Grzegorz;Kraśnik;Uczciwy;Koczorowski [?];1;1698;#170
+649;Białek;Bartek;Kraśnik;Uczciwy;Białek [?];1;1698;#170
+650;Opaskiewicz;[Pan];Kraśnik;Sławetny;Opaskiewicz [?];1;1698;#170
+651;Chuctry;A.;Kraśnik;Pozwany;Huctry [?] / Chuctry [Huctry?];1;1698;#170
+652;Sitarczyk;Franciszek;Kraśnik;Uczciwy (posłaniec / woźny);Sitarczyk [?];1;1698;#171
+653;Kieniewicz;Jan Onufry;Kraśnik;"Adwokat ordynaryjny kraśnicki; Wójt / Adwokat ordynaryjny kraśnicki; Wójt i sędzia kraśnicki; Wójt kraśnicki; Wójt ordynaryjny kraśnicki";Onupkiewicz [?] / Kieniewicz [Onupkiewicz?] / Onupkiewicz [Kieniewicz?], Onupkiewicz;17;1698–1700;#172, #188, #190, #192, #220, #224, #228, #230, #232, #243, #247, #250, #259, #260, #261, #272, #281
+654;Mrozowski;Adam Karol;Kraśnik;"Magister sztuk wyzwolonych (malarstwa) / Pełnomocnik; Mieszczanin kraśnicki / Magister; Magister sztuk wyzwolonych / Mieszczanin; Prokurator Bractwa Różańca Świętego";;7;1698–1699;#172, #233, #256, #272, #274, #276, #279
+655;Nowacki;Wojciech;Kraśnik / Urzędów;"Landwójt / Wicewójt urzędowski; Landwójt urzędowski";;8;1698–1699;#172, #173, #174, #175, #187, #191, #228, #229
+656;Słomkowski;Wojciech;Kraśnik;"Pasierb Pawła Słomkowskiego / Pełnomocnik; Mieszczanin";Skowroński [?];3;1698–1699;#173, #174, #245
+657;Więckowicz;Jan;Kraśnik;Mieszczanin;Wierckowicz [?] / Więckowicz [Wierckowicz?];1;1698;#176
+658;Wojcikowicz;Wojciech;Kraśnik;Mieszczanin;Woycikowicz [?] / Wojcikowicz [Woycikowicz?];1;1698;#176
+659;Stryczak;Jan;Kraśnik (Przedmieście);Przedmieszczanin;Struczak [?] / Stryczak [Struczak?];2;1698;#177, #180
+660;[Rękojmia roli];Szymon;Kraśnik;Mieszczanin;Szymon [?];1;1698;#177
+661;Markowicz;Wygdor;Kraśnik;Żyd kraśnicki (obywatel kraśnicki);;3;1698;#178, #179, #184
+662;Kuzokowicz;Stanisław;Kraśnik;Sławetny (świadek);Kuzakowicz [?] / Kuzokowicz [Kuzakowicz?];1;1698;#178
+663;Draganek;Szymon;Kraśnik;Winiarz / Przedmieszczanin;;3;1698;#178, #179, #184
+664;Nowak;Benedykt;Kraśnik;Uczciwy (świadek);;1;1698;#178
+665;Peron;Maciej;Kraśnik (Przedmieście);Przedmieszczanin;;6;1698;#179, #186, #187, #192, #196, #207
+666;Wawrzyło;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;;3;1698;#179, #186, #207
+667;Maśniarczyk;Kazimierz;Kraśnik;Uczciwy;Maśniarczyk [?];1;1698;#180
+668;Torański;Stanisław;Kraśnik;Uczciwy;Torański [?];1;1698;#180
+669;Nowacki;Benedykt;Kraśnik;Uczciwy;;2;1698;#181, #225
+670;Ornatowski;Wojciech;Kraśnik;Bedel sądowy;;4;1698;#181, #185, #189, #214
+671;Dalmacki;Wojciech;Kraśnik;Rzemiosło krawieckie / Mieszczanin;Dalmacki [?];1;1698;#181
+672;Zychowiczowa;[Wdowa];Kraśnik;Mieszczanka (zm.);;1;1698;#181
+673;Chmielowicz;Adam;Kraśnik;Delegowany przez wójta / Pisarz;;1;1698;#181
+674;Petek;Stefan;Kraśnik;Ławnik miejski;Petkowicz [?];1;1698;#181
+675;[Prezentująca Zofia];Zofia;Kraśnik;Mieszkanka / Opiekunka;[Prezentująca Zofia];1;1698;#181
+676;Stachowicz;Błażej;Kraśnik (Przedmieście);"Przedmieszczanin / Szewc; Szewc (majster) / Przedmieszczanin; Szewc / Szwagier Studzickiego";Chmielik [?];13;1698–1699;#182, #186, #189, #190, #191, #196, #198, #217, #219, #221, #224, #255, #276
+677;Żmienda;Jan;Kraśnik;"Uczciwy (krewny Barankowicza); Uczciwy (towarzysz Barankowicza); Uczciwy (świadek)";Żmienda [?];5;1698–1699;#182, #189, #190, #198, #237
+678;Trzelowicz;Adam;Kraśnik;"Pisarz urzędu wójtowskiego; Pisarz miejski";Chmielowicz [Trzelowicz?];4;1698–1699;#183, #188, #192, #243
+679;Barankowiczowa;Anna;Kraśnik;Sławetna Pani (żona Jana Barankowicza);;1;1698;#183
+680;Sitarska;Franciszka;Kraśnik;Żona Marcina Sitarskiego;;1;1698;#183
+681;Boron;Marcin;Kraśnik (Przedmieście);Przedmieszczanin;Boron [?];1;1698;#184
+682;Skakha;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;Skakha [?];1;1698;#184
+683;Pałuskiewicz;Baltazar;Kraśnik;Kanonik regularny / Promotor Bractwa Literackiego;;1;1698;#185
+684;Jankowski;Szymon;Kraśnik;Mieszczanin;;1;1698;#185
+685;Pielichowicz;Maciej;Kraśnik;Mieszczanin;;1;1698;#185
+686;Jesurkiewicz;Stanisław;Kraśnik;"Stary rajca (Antiquus Consul); Stary rajca / Cechmistrz kuśnierski; Dawny rajca kraśnicki";;15;1698–1699;#185, #189, #190, #204, #224, #232, #233, #237, #255, #257, #258, #259, #260, #263, #272
+687;Rebiński;Stanisław;Kraśnik;Mieszczanin;;1;1698;#185
+688;Abel;Maciej;Kraśnik;Mieszczanin (Camax);;1;1698;#185
+689;Nowacki;Tomasz;Kraśnik;Mieszczanin;;3;1698;#185, #207, #225
+690;Dubaj;Jakub;Kraśnik;Mieszczanin;;2;1698;#185, #218
+691;Jardzioch;Tomasz;Kraśnik;Uczciwy (świadek);Jardzioch [?];1;1698;#186
+692;Peron;Wojciech;Kraśnik (Przedmieście);"Syn Matyjasza Perona; Syn Macieja Perona";;2;1698;#186, #207
+693;Wawrzyło;Jakub;Kraśnik (Przedmieście);"Brat Wojciecha Perona; Syn / Krewny";;2;1698;#186, #207
+694;Świeczka;Marcin;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#187
+695;Tokarzowa;Jadwiga;Kraśnik (Przedmieście);Wdowa po Janie Tokarzu;;1;1698;#188
+696;Tokarz;Jan;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1698;#188
+697;Jurek;Paweł;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#188
+698;Kowalik;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#188
+699;Skowronek;Jan;Kraśnik (Przedmieście);Przedmieszczanin (zm.);;1;1698;#188
+700;Boruch;[Halka];Kraśnik;Żyd kraśnicki (szynkarz);Halka;5;1698–1699;#189, #198, #249, #252, #253
+701;Stępień;Jan;Kraśnik;Szwagier Błażeja Stachowicza;;1;1698;#189
+702;Brzozowski;Andrzej;Kraśnik;Urodzony / Pełnomocnik;Brzozowski [?];1;1698;#191
+703;Sitarski;Franciszek;Kraśnik;"Mieszczanin; Przedmieszczanin / Woźny";;4;1698–1699;#192, #261, #274, #278
+704;Bzówka;[Mieszczanin];Kraśnik;Mieszczanin;Bzówka [?];1;1698;#192
+705;Pacławkowic;Jan;Kraśnik;Uczciwy (świadek);Pacławkowic [?];1;1698;#192
+706;Piwnik;Bartłomiej;Kraśnik;Syn Piwnika;Piwnik [?];1;1698;#192
+707;Tropycak;Krzysztof;Kraśnik (Przedmieście);Przedmieszczanin;Tropycak [?];2;1698;#192, #193
+708;Kondyszek;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin (sąsiad);Kondyszek [?];1;1698;#193
+709;Dutkiewicz;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#193
+710;Rzepka;Marcin;Kraśnik;Mieszczanin;;1;1698;#193
+711;Petek;Adam;Kraśnik;Uczciwy (świadek);Petek [?];1;1698;#193
+712;Mutkowic;Tomasz;Kraśnik;Towarzysz rzemiosła szewskiego;;2;1698;#194, #204
+713;Solecki;Szymon;Kraśnik;"Majster rzemiosła szewskiego; Mieszczanin";;3;1698–1699;#194, #204, #274
+714;Wierzbicki;Stefan;Kraśnik;Pełnomocnik;Wierzbicki [?];1;1698;#194
+715;Wojtanowski;[Pan];Kraśnik;Szlachcic / Mieszczanin;Wojtanowski [?];1;1698;#195
+716;Koronny;Piotr;Kraśnik;Mieszczanin;Koronny [?];1;1698;#195
+717;Wereszczyna;Agnieszka;Kraśnik;Wdowa po Tomaszu Jutratku;;1;1698;#196
+718;Jutratek;Tomasz;Kraśnik;Mieszczanin;Jutratek [?];1;1698;#196
+719;Parciak;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;Parciak [?];2;1698;#196, #197
+720;Zuławski;[Pan];Kraśnik;Szlachcic / Urzędnik;Zuławski [?];1;1698;#197
+721;Wójcik;Szymon;Kraśnik (Przedmieście);Przedmieszczanin;Wojcik;1;1698;#197
+722;Stadnicki;[Pan];Kraśnik;Stolnik czernihowski;;1;1698;#197
+723;Szmara;Paweł;Kraśnik;Mieszczanin (syn starego Szmary);;1;1664;#200
+724;Szmara;[Stary];Kraśnik;Mieszczanin (ojciec Pawła);;1;1664;#200
+725;Szykowic;Maciej;Kraśnik;Mieszczanin;;1;1664;#200
+726;Biernat;Marcin;Kraśnik;Mieszczanin;;1;1664;#200
+727;Jajczyk;Kasper;Kraśnik;Mieszczanin;;2;1664;#200, #201
+728;Łosika;Katarzyna;Kraśnik;Mieszczanka;Łożyka [?] / Łosika [Łożyka?];2;1664;#201, #202
+729;Łosika;Agnieszka;Kraśnik;Córka Katarzyny Łosiki;Łożyka [?];1;1664;#201
+730;Łowna;Magdalena Piotra;Kraśnik;Mieszczanka;;1;1664;#201
+731;Muszka;Piotr;Kraśnik;Mieszczanin;;2;1664;#202, #203
+732;Smazanowski;Jakub;Kraśnik;Sławetny (gospodarz Jajczyka);;1;1664;#202
+733;Lisik;Maciej;Kraśnik;Mieszczanin;;1;1664;#203
+734;Bąk;Gabriel;Kraśnik;Mieszczanin (zm.);Bąk [?];1;1664;#203
+735;Luterski;Stanisław;Kraśnik (Przedmieście);Przedmieszczanin / Brat cechu kuśnierskiego;;1;1698;#204
+736;Chmielowicz;Adam Michał;Kraśnik;Pisarz kraśnicki;;3;1697–1699;#204, #231, #247
+737;Bartoszek;Grzegorz;Kraśnik;Uczciwy;;2;1698;#204, #205
+738;Smorzik;Jan;Kraśnik;Uczciwy;Smorzik [?];2;1698;#204, #205
+739;Kozak;Paweł;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#205
+740;Rdzonka;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin (syn Bartłomieja);Rdzonek [Rozdzeń?] / Rozdzeń [?];1;1698;#205
+741;Rdzonka;Bartłomiej;Kraśnik (Przedmieście);Przedmieszczanin (ojciec Wojciecha);Rdzonek [Rozdzeń?];1;1698;#205
+742;Rdzonkowa;Zofia;Kraśnik (Przedmieście);Żona Bartłomieja Rdzonka;Rozdzeniowa [?];1;1698;#205
+743;Dzymanowski;Wojciech;Kraśnik;Ławnik przysięgły;Dzimanowski [?] / Dzymanowski [Dzimanowski?];1;1698;#205
+744;Skarz;Matyjasz;Kraśnik (Przedmieście);Przedmieszczanin;Skarz [?] / Skarzyk [Skarz?];7;1698–1699;#206, #208, #209, #210, #239, #244, #246
+745;[Wójt gromadzki];Wojciech;Kraśnik (Karczówka);Wójt gromadzki;[Wójt gromadzki];1;1698;#206
+746;Skowronek;Matyjasz;Kraśnik;Uczciwy (świadek);Skowronek [?];1;1698;#206
+747;Kłopot;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;;5;1698–1699;#207, #240, #246, #273, #274
+748;Kowalczyk;Adam;Kraśnik;Uczciwy;Kowalczyk [?];1;1698;#207
+749;Tokarczyk;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin;;1;1698;#210
+750;Berkowski;Jędrzej;Kraśnik;Pracowity (poszkodowany);Berkowski [?];1;1698;#211
+751;Tokarczyk;Piotr;Kraśnik (Przedmieście);Przedmieszczanin;;4;1698–1699;#211, #212, #238, #239
+752;Michalski;Kazimierz;Kraśnik;Sławetny;;2;1698;#212, #225
+753;Biegajczyk;Stanisław;Kraśnik;Pozwany;Biegajczyk [?] / Biegaj [Biegajczyk?];3;1698–1699;#212, #225, #239
+754;Wierzuk;Jan;Kraśnik;Uczciwy;Wierzuk [?];1;1698;#212
+755;Boron;Matyjasz;Kraśnik;Uczciwy;Boron [?];1;1698;#212
+756;Grotowski;Jan;Kraśnik;Uczciwy (nabywca gruntu);Grotowski [?];1;1698;#213
+757;Grotowska;Ewa;Kraśnik;Żona Jana Grotowskiego;Grotowska [?];1;1698;#213
+758;Józefkowic;Jakub;Kraśnik;Pracowity;Josepkowic;1;1698;#213
+759;Rygar;Jan;Kraśnik;Kowal kraśnicki;Rygar [?];1;1698;#213
+760;Koplowic;Moszek;Kraśnik;Żyd kraśnicki;;1;1698;#214
+761;Pilaskiewicz;Matyjasz;Kraśnik;Sławetny;Bielaszkowic [?] / Pilaskiewicz [Bielaszkowic?];1;1698;#214
+762;Izaak;[Kantor synagogi];Kraśnik;Kantor synagogi kraśnickiej;;1;1698;#214
+763;Grymuza;Jan;Kraśnik;Sławny (syn Jana Grymuzy);;4;1698;#214, #220, #221, #223
+764;Moszek;Jakub;Kraśnik;Żyd kraśnicki;;1;1698;#214
+765;Chmielek;Sebastian;Kraśnik;Uczciwy (sukcesor);;1;1698;#214
+766;Chmielkowa;Anna;Kraśnik;Żona Sebastiana Chmielka;;1;1698;#214
+767;Chmielek;Błażej;Kraśnik;Uczciwy;;1;1698;#214
+768;Chmielkowa;Katarzyna;Kraśnik;Uczciwa;;1;1698;#214
+769;Pradkowski;Stanisław;Kraśnik;Uczciwy;Pradkowski [?];1;1698;#215
+770;[Parobek Dubaja];Kazimierz;Kraśnik;Parobek Wojciecha Dubaja;[Parobek Dubaja];1;1698;#215
+771;Oszmarowic;Kazimierz;Kraśnik;Ławnik przysięgły;Oszmarowic [?];1;1698;#215
+772;Koszykowic;Kazimierz;Kraśnik;Uczciwy;Koszykowic [?];4;1698;#215, #216, #220, #221
+773;Abel;Paweł;Kraśnik;Sławny / Mieszczanin;;4;1698;#215, #216, #220, #221
+774;Bożkowic;Stefan;Kraśnik;Ławnik przysięgły;Bożkowic [?];1;1698;#215
+775;Bożkowic;Wawrzyniec;Kraśnik;Ławnik przysięgły;Bożkowic [?];1;1698;#215
+776;Okoniowa;Elżbieta;Kraśnik (Przedmieście);Wdowa (matka Jana Okonia);;2;1698;#215, #216
+777;Studzicki;Sebastian;Kraśnik;Uczciwy;;5;1698;#217, #219, #221, #222, #224
+778;Tomkowic;Stanisław;Kraśnik;Sławetny;Tomkowic [?];1;1698;#217
+779;Kurcel;Wojciech;Kraśnik;Uczciwy;Kurcel [?];1;1698;#217
+780;Piserek;Jakub;Kraśnik;Uczciwy;Piserek [?];1;1698;#217
+781;Latosek;Stanisław;Kraśnik;Uczciwy;Latosek [?];1;1698;#217
+782;Zdębiówna;Anna;Kraśnik;Żona Jakuba Dubaja;Zdębiówna [?];1;1698;#218
+783;Rakowski;Stanisław;Kraśnik;Uczciwy (kupiec roli);;1;1698;#218
+784;Piotrowczykówna;Marianna;Kraśnik;Żona Stanisława Rakowskiego;;1;1698;#218
+785;Kępa;Szymon;Kraśnik;Uczciwy;;1;1698;#219
+786;Rabak;Józef;Kraśnik;"Pracowity / Powód; Uczciwy";Rabak [?];5;1698–1699;#219, #221, #227, #239, #240
+787;Woszek;Jakub;Kraśnik;Uczciwy;Woszek [?];2;1698;#219, #222
+788;Skowroński;Andrzej;Kraśnik;Uczciwy;Skowroński [?];1;1698;#219
+789;Tokarczyk;Jan;Kraśnik;Pozwany;;1;1698;#219
+790;Araczniak;Maciej;Kraśnik;Mieszczanin;Araczniak [?];1;1698;#219
+791;Kaczorkowic;Grzegorz;Kraśnik;Ślusarz / Mieszczanin;;4;1698;#220, #221, #223, #227
+792;Studzicka;Anna;Kraśnik;"Żona Sebastiana Studzickiego; Uczciwa";Studzicka [?];4;1698–1699;#221, #222, #224, #259
+793;Stachowicowa;Katarzyna;Kraśnik (Przedmieście);Żona Błażeja Stachowica;;1;1698;#221
+794;Michałowic;Franciszek;Kraśnik;Sławny;;1;1698;#223
+795;Michałowicowa;Agnieszka;Kraśnik;Żona Franciszka Michałowica;;1;1698;#223
+796;Gucka;[Wdowa];Kraśnik;"Sławetna (wdowa po Grzegorzu Guckim); Sławetna Pani (Agnieszka Gucka); Sławetna (Agnieszka Gucka)";;4;1698–1699;#223, #235, #267, #270
+797;Stachowicowa;Anna;Kraśnik (Przedmieście);Żona Błażeja Stachowica;;1;1698;#224
+798;Carklina;Krystyna;Kraśnik;Uczciwa;Carklina [?];1;1698;#225
+799;Carklin;[Mąż Krystyny];Kraśnik;Uczciwy;Carklin [?];1;1698;#225
+800;Smok;Jan;Kraśnik (Przedmieście);"Przedmieszczanin; Mieszczanin / Informator";;2;1698–1699;#226, #261
+801;Wilk;Jan;Kraśnik (Przedmieście);Syn Bartłomieja Wilka;;1;1698;#226
+802;Wójcik;Tomasz;Kraśnik;Parobek Bartłomieja Wilka;;1;1698;#226
+803;Tulcuk;Józef;Kraśnik;Uczciwy;Tulcuk [?];1;1698;#227
+804;Łękowski;Andrzej;Kraśnik;Uczciwy;Łękowski [?];1;1698;#227
+805;Grzymałowska;Teresa;Kraśnik;"Żona Wojciecha Grzymałowskiego (córka Ubalda Janaszkowica); Żona ławnika Wojciecha Grzymałowskiego";Janaszkowicowa;4;1699;#228, #229, #272, #273
+806;Kinny;Jan;Kraśnik;Obywatel kraśnicki;Kinny [?];1;1699;#230
+807;Kinna;Regina;Kraśnik;Obywatelka kraśnicka (żona Jana Kinnego);;1;1699;#230
+808;Anczarek;Tomasz;Kraśnik;Mieszczanin / Świadek;Anczarek [?];1;1697;#231
+809;Sikorczyk;Jan;Kraśnik;Mieszczanin / Świadek;Sikorczyk [?];1;1697;#231
+810;Bakałowski;Stanisław;Kraśnik;Mieszczanin / Świadek;;1;1697;#231
+811;Karapek;Jan;Kraśnik;Mieszczanin / Świadek;Karapek [?];1;1697;#231
+812;[Przeor Kanoników Regularnych];Paweł;Kraśnik;Przeor Kanoników Regularnych;Paweł [?];1;1699;#232
+813;Rosiński;Szymon;Kraśnik;Mieszczanin (zm.);;1;1699;#232
+814;Kowalik;Sebastian;Kraśnik;"Uczciwy; Mieszczanin";;6;1699;#233, #235, #236, #237, #238, #254
+815;Zając;Jakub;Kraśnik;Uczciwy;Zajączek [Zając?] / Zajączek;5;1699;#233, #235, #236, #237, #238
+816;Bielaszkowic;Augustyn;Kraśnik;Uczciwy;;4;1699;#233, #234, #238, #245
+817;Mazurek;Paweł;Kraśnik;"Uczciwy (świadek); Uczciwy / Sąsiad";;5;1699;#234, #264, #265, #266, #267
+818;Kudbałka;Józef;Kraśnik;Świadek;Kudbałka [?];1;1699;#234
+819;Brodecki;Jan;Kraśnik;Kopacz / Świadek;Brodecki [?];1;1699;#234
+820;Wilk;Bartosz;Kraśnik;Uczciwy;;1;1699;#235
+821;Szymczak;Michał;Kraśnik;Brat / Mieszczanin;Szymczak [?];1;1699;#235
+822;Raganek;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;;1;1699;#236
+823;Diracek;Sebastian;Kraśnik;Pozwany;Dziadek [?] / Diracek [Dziadek?];1;1699;#236
+824;Piotrowczykowa;Marianna;Kraśnik;Uczciwa (świadek);;1;1699;#236
+825;Mendalka;Bartłomiej;Kraśnik;Uczciwy;Mendalka [?];2;1699;#238, #239
+826;Mutkowic;Szymon;Kraśnik;Uczciwy;Mutkowic [?];1;1699;#239
+827;Witkowski;Andrzej;Kraśnik;Pozwany;Witkowski [?];2;1699;#239, #245
+828;Jurecki;Matyjasz;Kraśnik;Uczciwy;Jurecki [?];1;1699;#239
+829;Kopeć;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;Kopień [?] / Kopeć [Kopień?];2;1699;#239, #240
+830;Kondupkowa;Agnieszka;Kraśnik;Żona Jana Kondupka;Kondupkowa [?] / Kondupek [?];1;1699;#240
+831;Dumański;Jan;Kraśnik (Przedmieście);"Przedmieszczanin / Wicecechmistrz cechu tkackiego; Cechmistrz młodszy cechu tkackiego; Wicecechmistrz tkacki / Mieszczanin";;11;1699;#240, #241, #242, #245, #248, #252, #257, #260, #265, #266, #268
+832;Celej;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin (szwagier J. Dumańskiego);;7;1699;#240, #241, #242, #245, #257, #265, #266
+833;Szarpa;Jan;Kraśnik;Mieszkaniec (incola);Szarpa [?];2;1699;#241, #265
+834;Płóciennik;Michał;Kraśnik;Mieszczanin;Płóciennik [?];1;1699;#241
+835;Wilczek;Andrzej;Kraśnik (Przedmieście);Przedmieszczanin;;2;1699;#243, #254
+836;Krawczyk;Maciej;Kraśnik;Świadek;;1;1699;#243
+837;Dąbrowski;Franciszek;Kraśnik (Przedmieście);Przedmieszczanin;;2;1699;#243, #244
+838;Piwota;Jan;Kraśnik (Przedmieście);Przedmieszczanin;Piwota [?];1;1699;#244
+839;Różyc;Szymon;Kraśnik (Przedmieście);Przedmieszczanin (sąsiad);Różyc [?];1;1699;#244
+840;Piekarczyk;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin (sąsiad);Piekarczyk [?];1;1699;#244
+841;Strużyna;Marina;Kraśnik (Przedmieście);Przedmieszczanka / Sprzedawczyni;Strużyna [?];1;1699;#244
+842;Piotrowczyk;Szymon;Kraśnik;Świadek;;1;1699;#244
+843;Michalik;Grzegorz;Wilkołaz;Pracowity ze wsi Wilkołaz;Wosik [?] / Michalik alias Wosik [?];1;1699;#246
+844;Wojcik;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;Wojcik [?];1;1699;#247
+845;Kępa;Matyjasz;Kraśnik (Przedmieście);Przedmieszczanin;;3;1699;#247, #253, #254
+846;Pawłowski;Michał;Kraśnik;Szlachetny / Sługa dworski;;4;1699;#247, #248, #250, #251
+847;Chmielowski;Jan Wawrzyniec;Kraśnik;Szlachetny / Dworzanin Marszałka W. Kor.;;5;1699;#247, #248, #250, #251, #252
+848;[Cyrulik];Jakub;Kraśnik;Cyrulik kraśnicki;[Cyrulik];1;1699;#248
+849;Pawłowski;Dominik;Kraśnik (gościnnie);Szlachcic;Pawłowski [?];1;1699;#248
+850;Świątek;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;;2;1699;#249, #252
+851;Franikowicz;Stanisław;Stróża;Pracowity ze wsi Stróża;Francyk [?] / Franikowicz [Francyk?], Francyk [?];3;1699;#249, #252, #253
+852;Zamoyska;Anna z Gnińskich;Zamość / Kraśnik;Podskarbina Wielka Koronna / Ordynatowa Zamoyska;z Gnińskich [?];2;1699;#250, #252
+853;Węgliński;Stanisław;Kraśnik / Bełz (gościnnie);Skarbnik bełski;Węgliński [?];1;1699;#250
+854;Subkowski;Aleksander;Kraśnik (gościnnie);Szlachetny;Subkowski [?];1;1699;#251
+855;Poniat;Wojciech;Kraśnik (gościnnie);Szlachetny / Świadek obdukcji;Poniat [?];1;1699;#251
+856;Długopolski;Kazimierz;Kraśnik / Stróża;"Administrator świecki Starostwa Kraśnickiego; Administrator klucza stróskiego";Długopolski [?];2;1699;#251, #252
+857;Wojtkowic;Jakub;Kraśnik;Kucharz konwentu kraśnickiego;Wojtkowic [?];2;1699;#253, #254
+858;Kępa;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin;;1;1699;#254
+859;Zajączek;Jakub;Kraśnik;Mieszczanin;Zając [?];1;1699;#254
+860;Ziętak;Adam;Kraśnik;Uczciwy;Zietaki [?];2;1699;#254, #255
+861;Nowacki;Paweł;Kraśnik;Sławetny;;2;1699;#254, #255
+862;Komiesanka;Marianna;Kraśnik;Wnuczka Sebastiana Węgrzyna;;4;1699;#255, #257, #258, #263
+863;Węgorz;Sebastian;Kraśnik;Mieszczanin (zmarły dziad M. Komiesanki);Węgrzyn, Dziada;2;1699;#255, #263
+864;Wanerka;Katarzyna;Kraśnik;Babka Marianny Komiesanki (zmarła);Wanerka [?];1;1699;#255
+865;Łagodzki;Kazimierz;Kraśnik;Strona procesowa;Łagodzki [?];1;1699;#255
+866;Biegajczyk;Jan;Kraśnik;Strona procesowa;Biegajczyk [?];1;1699;#255
+867;Moszkowic;Kopel;Kraśnik;Starszy synagogi kraśnickiej (Żyd);;1;1699;#256
+868;Koplowic;Abraham;Kraśnik;Żyd kraśnicki (syn Kopla Moszkowica);;1;1699;#256
+869;Soborówna;Agnieszka;Kraśnik (Przedmieście);Żona Jana Dumańskiego (wdowa po Sz. Branku);Soborówka, Soborowska;3;1699;#257, #265, #268
+870;Branek;Szymon;Kraśnik / Budzyń;Mieszczanin / Przedmieszczanin (zmarły);;2;1699;#257, #268
+871;Matkowski;[Wystawca zapisu];Kraśnik;Mieszczanin;Matkowski [?];1;1699;#258
+872;Kasprowa;Zofia;Kamień;Świadek ze wsi Kamień;Kasprowa [?];1;1699;#259
+873;Kostkowic;[Pan];Kraśnik;Sławetny / Szlachetny;Kostkowic [?];1;1699;#259
+874;Bożkowic;Paweł;Kraśnik;Rajca kraśnicki;Bożkowic [Adam?];1;1699;#259
+875;Biernatkowa;Zofia;Kraśnik;Wdowa / Uczciwa;;1;1699;#259
+876;Sobieszczak;Wawrzyniec;Kraśnik;Uczciwy;Sobieszczak [?];1;1699;#259
+877;Kozak;Zachariasz;Kraśnik;Świadek;Kozak [?];1;1699;#262
+878;Baran;Jakub;Kraśnik;Mieszczanin;Baran [?];1;1699;#262
+879;Skrzybkowa;Anna;Kraśnik;Żona Szymona Skrzybka [?];Skrzybek [?];1;1699;#262
+880;Wardęga;Adam;Kraśnik (Przedmieście);Syn Jakuba Wardęgi;;2;1699;#262, #275
+881;Makarewicz;Kazimierz;Kraśnik;Strona procesowa;Makarewicz [?];1;1699;#262
+882;Sądek;Wawrzyniec;Kraśnik;Pozwany / Kontumax;Sądek [?];1;1699;#262
+883;Szmul;Herszek;Kraśnik;Żyd kraśnicki;;1;1699;#263
+884;Mokarski;Stanisław;Kraśnik;Winiarz / Uczciwy;;1;1699;#263
+885;Macalowa;Anna z Wierzbickich;Kraśnik;Żona Józefa Macala;;2;1699;#263, #271
+886;Wolakowa;Katarzyna;Kraśnik (Przedmieście);Żona Matyasza Wolaka;;3;1699;#264, #266, #278
+887;Wolak;Matyjasz;Kraśnik (Przedmieście);Przedmieszczanin;;2;1699;#264, #267
+888;Kuśmierz;Tomasz;Kraśnik (Przedmieście);Uczciwy;;1;1699;#265
+889;Szczygiełek;Szymon;Kraśnik;Uczciwy / Świadek;Szczygiełek [?];1;1699;#265
+890;Madejczyk;Józef;Kraśnik;Uczciwy / Świadek;;2;1699;#265, #267
+891;Szarpa;Franciszek;Kraśnik;Mieszkaniec;Szarpa [?];1;1699;#265
+892;Królik;[Mieszczanin];Kraśnik;Pozwany;Królik [?];1;1699;#265
+893;Ledenski;Matyjasz;Kraśnik;Uczciwy;Ledenski [?];1;1699;#266
+894;Szański;Tomasz;Kraśnik (Przedmieście);Przedmieszczanin / Stryj;Szański [?];2;1699;#266, #274
+895;Kwasowic;Augustyn;Kraśnik;Pełnomocnik;Kwasowic [?];1;1699;#266
+896;Anczarek;Matyjasz;Kraśnik;Uczciwy;Anczarek [?];3;1699;#267, #273, #274
+897;Czyż;Matyjasz;Kraśnik;Kuśmierz;Czyż [?];1;1699;#267
+898;Szczygiełkowa;Katarzyna;Kraśnik;Świadek;;1;1699;#268
+899;Mutkowski;Wojciech;Kraśnik;Asystent prawny;Mutkowski [?];1;1699;#268
+900;Olchowski;Tomasz;Kraśnik / Budzyń;Uczciwy / Nabywca;;1;1699;#269
+901;Olchowska;Katarzyna;Kraśnik (Piaski);Żona Szymona Olchowskiego;;1;1699;#269
+902;Syroka;Wojciech;Budzyń;Właściciel sąsiedniego gruntu;Syroka [?];1;1699;#269
+903;Brankówna;Zofia;Kraśnik / Budzyń;Córka Szymona Branka z pierwszego małżeństwa;;1;1699;#269
+904;Mojtuk;Maciej;Kraśnik;Bedel miejski;Mojtuk [?];1;1699;#270
+905;Wolakowa;Jadwiga;Kraśnik;Poprzednia posiadaczka (zmarła);Wolakowa [?];1;1699;#270
+906;Jurdzik;Tomasz;Kraśnik;Właściciel sąsiedniej roli;Jurdzik [?];1;1699;#270
+907;Jaszynka;Tomasz;Dzierzkowice / Płonia [?];Ksiądz pleban dzierzkowski / Tutor Naturalis;;1;1699;#271
+908;Butka;Jan;Kraśnik;Szewc / Mieszczanin;;1;1699;#271
+909;Laszczyk;Sebastian;Kraśnik;Wierzyciel;Laszczyk [?];1;1699;#271
+910;Gucka;Łucja;Kraśnik;Sławetna / Wierzycielka;Łucja [?];1;1699;#271
+911;Skałka;Jan;Kraśnik (Przedmieście);Przedmieszczanin;;1;1699;#272
+912;Skałczonka;Zofia;Kraśnik (Przedmieście);Ofiara śmiertelnego pobicia (zmarła);Wikówna [?], Skałkowa;2;1699;#272, #277
+913;Piotrowczyk;Wojciech;Kraśnik;Mieszczanin;;1;1699;#272
+914;Zdebiewicz;Tomasz;Kraśnik;Mieszczanin;Zdebiewicz [?];1;1699;#272
+915;Kochanek;Wawrzyniec;Kraśnik (Przedmieście);Przedmieszczanin;Kuchanek [?];6;1699–1700;#272, #273, #275, #279, #280, #281
+916;Bielaszkowic;Michał;Kraśnik;Mieszczanin;;1;1699;#272
+917;Luterek;Stanisław;Kraśnik;Mieszczanin;;1;1699;#272
+918;Tarpański;Jan;Kraśnik;Mieszczanin;;1;1699;#272
+919;Lata;Jan;Kraśnik;Młynarz / Gospodarz;Zającowy;4;1699;#272, #277, #278, #280
+920;Markowicz;Lejbuś;Kraśnik;Żyd kraśnicki;;2;1699;#272, #273
+921;Anczarek;Jakub;Kraśnik;Uczciwy;;1;1699;#273
+922;Maruszewski;[Pan];Kraśnik (okolica);Szlachetny;;1;1699;#273
+923;Foxowa;[Sławetna Pani];Kraśnik;Sławetna;;1;1699;#274
+924;Zakrzewska;Dorota;Kraśnik;Strona zapisu;Zakrzewska [?];1;1699;#274
+925;Chmielik;Błażej;Kraśnik;Uczciwy;;1;1699;#274
+926;Krawczyk;Wojciech;Kraśnik (Piaski);Wójt gromadzki z Piasków;;1;1699;#274
+927;Orlik;Józef;Kraśnik;Młynarz miejski;;1;1699;#274
+928;Skałka;Wojciech;Kraśnik (Przedmieście);Przedmieszczanin (brat Zofii);;4;1699;#274, #277, #279, #280
+929;Łomakowski;Mikołaj;Kraśnik / Dzierzkowice;Administrator dóbr;Łomakowski [?];2;1699;#276, #277
+930;Witkowski;Bartłomiej;Kraśnik (okolica);Były administrator / Pozwany;Witkowski [?];2;1699;#276, #277
+931;Zdebiowa;Marianna;Kraśnik;Żona Tomasza Zdebia;;2;1699;#277, #278
+932;Zdeb;Tomasz;Kraśnik;Mieszczanin;;1;1699;#277
+933;Pacykowa;Elżbieta;Kraśnik;Żona Stanisława Pacyka [?];Pacyka [?];1;1699;#278
+934;Sarapek;Jakub;Kraśnik (Przedmieście);Przedmieszczanin;Jarapek [?], Szarapek [?];1;1699;#279
+935;Brzos;Sobiesław;Kraśnik;Świadek;Brzos [?];1;1699;#279
+936;Madejczyk;Sebastian;Kraśnik;Syn Magdaleny / Świadek;;1;1699;#279
+937;Madejczykowa;Magdalena;Kraśnik;Matka Sebastiana Madejczyka;;1;1699;#279
+938;Mazurczyk;Kazimierz;Kraśnik;Aktor / Powód;;1;1699;#280
+939;Chudzik;Marcin;Kraśnik;Pozwany;Chudzik [?];1;1699;#280
+940;Łupas;Szymon;Stróża;Świadek ze wsi Stróża;Łupas [?];1;1699;#280
+941;Błażkowiak;Grzegorz;Kraśnik;Parobek Jana Laty;Błażkowiak [?];1;1699;#280
+942;Cholewiak;Piotr;Kraśnik;Świadek;;1;1699;#280
+943;Szymonek;Wojciech;Kraśnik;Uczciwy;;1;1700;#281
+944;Stasiak;Kazimierz;Kraśnik;Pozwany;;1;1700;#281
+945;Szafranek;Stanisław;Kraśnik;Aktor / Powód;;1;1700;#281
+946;Tarcha;Jan;Kraśnik;Pozwany / Kontumax;Tarcha [?];1;1700;#281
+947;Wolakowa;Zofia;Kraśnik;Wdowa / Uczciwa;;1;1700;#281
+948;Sieskiwski;Franciszek;Kraśnik;Uczciwy;Sieskiwski [?];1;1700;#281
