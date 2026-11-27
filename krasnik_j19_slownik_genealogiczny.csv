@@ -1,14 +1,14 @@
 ﻿Lp.;Nazwisko;Imie;Miejsce zamieszkania;Funkcja spoleczna;Warianty nazwiska;Numery skanow;Zakres lat;Liczba wystapien
 1;Janaszkowic;Ubald;Kraśnik;Prokonsul (burmistrz) kraśnicki;;#5, #30, #32;1657;3
-2;Sitarski;Marcin;Kraśnik;Rajca kraśnicki;;#5, #6, #8, #16, #20, #28, #31, #51, #52, #57, #60, #64, #65, #68, #75;1657–1660;15
-3;Tharasa;Maciej;Kraśnik;Rajca kraśnicki;;#5, #16, #17, #18, #22, #28, #30, #39, #51, #55, #57, #58, #64, #65, #72, #74, #75;1657–1660;17
-4;Nawrocki;Stanisław;Kraśnik;Rajca kraśnicki;;#5, #24, #25, #26, #29, #51, #55, #64, #65, #68, #72, #74, #75;1657–1660;13
+2;Sitarski;Marcin;Kraśnik;Rajca kraśnicki;;#5, #6, #8, #16, #20, #28, #31, #51, #52, #57, #60, #64, #65, #68, #75, #81, #84, #86, #88, #92, #93, #94, #95;1657–1661;23
+3;Tharasa;Maciej;Kraśnik;Rajca kraśnicki;;#5, #16, #17, #18, #22, #28, #30, #39, #51, #55, #57, #58, #64, #65, #72, #74, #75, #80, #92, #99;1657–1661;20
+4;Nawrocki;Stanisław;Kraśnik;Rajca kraśnicki;;#5, #24, #25, #26, #29, #51, #55, #64, #65, #68, #72, #74, #75, #83, #84, #85, #99;1657–1661;17
 5;Sikor;Stanisław;Kraśnik;Pisarz przysięgły kraśnicki;;#5, #10, #26;1657;3
 6;Piekarowa;Krystyna;Przedmieście Kraśnickie;Aktorka;;#6;1657;1
 7;Nowak;Benedykt;Przedmieście Kraśnickie;Współpowód;;#6, #41, #74, #75;1657–1660;4
-8;Olęcki;Wojciech;Kraśnik;Pozwany / Dłużnik;;#6, #41;1657–1658;2
-9;Kłopot;Gabriel;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;Kłopotek;#6, #34;1657;2
-10;Reszka;Maciej;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;;#6;1657;1
+8;Olęcki;Wojciech;Kraśnik;Pozwany / Dłużnik;;#6, #41, #89, #90;1657–1660;4
+9;Kłopot;Gabriel;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;Kłopotek;#6, #34, #93, #96;1657–1661;4
+10;Reszka;Maciej;Przedmieście Kraśnickie;Opiekun dzieci śp. Deca / Pozwany;;#6, #93;1657–1661;2
 11;Tokarz;Piotr;Przedmieście Kraśnickie;Dłużnik konwentu;;#6, #12;1657;2
 12;Tokarzowa;Zofia;Przedmieście Kraśnickie;Żona Piotra Tokarza;;#6;1657;1
 13;Święcicki;Tomasz;Kraśnik;Ojciec, zakrystian konwentu św. Augustyna;Święcicki [?];#6;1657;1
@@ -20,13 +20,13 @@
 19;Słupecki;Matyjasz;Czerwięcin;Pracowity ze wsi Czerwięcin / Aktor;;#8, #9, #14, #15;1657;4
 20;Gołacka;Zuzanna;Kraśnik;Żona młynarza Jana Gołackiego / Pozwana;;#8, #9, #14;1657;3
 21;Gołacki;Jan;Kraśnik;Młynarz kraśnicki, mąż Zuzanny;;#8, #14, #15;1657;3
-22;Bożęborski;Bartłomiej;Kraśnik;Instygator zeznań świadków;Boięborski [?];#9, #39, #40;1657–1658;3
+22;Bożęborski;Bartłomiej;Kraśnik;Instygator zeznań świadków;Boięborski [?];#9, #39, #40, #92;1657–1661;4
 23;Nowakowa;Jędrzejowa;Kraśnik;Uczestniczka zajścia;;#9;1657;1
 24;Rogalowski;Wojciech;Przedmieście Kraśnickie;Instygator zeznań świadków;;#10;1657;1
 25;Rynarzyk;Stanisław;Przedmieście Kraśnickie;Świadek;Rymarczyk [?];#10;1657;1
 26;Butowa;Regina;Kraśnik;Wdowa po Gabrielu Bucie;Gabrielowa / Gabrielowa Bucina;#10, #26, #27;1657;3
 27;But;Gabriel;Kraśnik;Zmarły mąż Reginy;;#10;1657;1
-28;Konięga;Maciej;Kraśnik;Ławnik kraśnicki i opiekun;;#10, #39;1657–1658;2
+28;Konięga;Maciej;Kraśnik;Ławnik kraśnicki i opiekun;;#10, #39, #92;1657–1661;3
 29;Batusik;Jan;Przedmieście Kraśnickie;Instygator zeznań świadków;Batuś;#10, #12, #13, #37, #40, #52, #53, #54;1657–1659;8
 30;Lis;Wojciech;Przedmieście Kraśnickie;Świadek;;#10;1657;1
 31;Niedźwiadek;Stanisław;Przedmieście Kraśnickie;Świadek;Niedźwiadek [?];#11;1657;1
@@ -49,8 +49,8 @@
 48;Łyckówna;Zofia;Kraśnik;Małoletnia pod opieką Sz. Łycka;Lychówna / Łycka [?];#17;1657;1
 49;Kiedrzakowski;Jan;Kraśnik;Sąsiad placu;Kiedrzakowski [?];#17;1657;1
 50;Fortunowa;Katarzyna;Kraśnik;Żona Mikołaja Fortuny / Nabywczyni;;#17, #18;1657;2
-51;Dzierżek;Piotr;Kraśnik;Szlachetny / Nabywca domu;;#19, #20;1657;2
-52;Janaszkowic;Albert;Kraśnik;Rajca kraśnicki / Zbywca i wierzyciel;Ubald / Sebald;#20, #51, #64, #68, #75;1657–1660;5
+51;Dzierżek;Piotr;Kraśnik;Szlachetny / Nabywca domu;;#19, #20, #79, #80, #91;1657–1660;5
+52;Janaszkowic;Albert;Kraśnik;Rajca kraśnicki / Zbywca i wierzyciel;Ubald / Sebald;#20, #51, #64, #68, #75, #92;1657–1661;6
 53;Dzierżkowa;Zofia;Kraśnik;Żona Piotra Dzierżka;Gąskówna;#20, #32;1657;2
 54;Baczakowski;Łukasz;Urzędów;Zbywca domu w Kraśniku;Bączkowski [?];#21, #22;1657;2
 55;Grzymuszka;Jan;Kraśnik;Nabywca domu pod murem klasztornym;;#21, #22, #27;1657;3
@@ -73,7 +73,7 @@
 72;Kapica;Adam;Kraśnik;Gorzałcznik (crematarius);Kapicha [?];#31, #34;1657;2
 73;Barkowic;Maciej;Przedmieście Kraśnickie;Przedmieszczanin / Zbywca;Barkowic [?];#31;1657;1
 74;Skród;Stanisław;Rzeczyca;Pracowity ze wsi Rzeczycy / Nabywca;Skrod [?];#31;1657;1
-75;Różycki;Paweł;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#32, #33;1657;2
+75;Różycki;Paweł;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#32, #33, #81, #82, #87, #91;1657–1660;6
 76;Niedbałka;Grzegorz;Kraśnik;Pozwany;;#34;1657;1
 77;Dzierżek;Maciej;Kraśnik;Zmarły (sieroty);Dzierżek [?];#34;1657;1
 78;Karwaczek;Jędrzej;Stojeszyn;Pracowity ze wsi Stojeszyn / Aktor;;#35;1657;1
@@ -94,15 +94,15 @@
 93;Dzek;Szymon;Kraśnik;Kowal (serri faber) / Świadek;Dzik [?];#37;1657;1
 94;Dzek;Jakub;Kraśnik;Brat Szymona Dzeka / Dłużnik;Dzik [?] / Rzepka [?];#37, #52;1657–1659;2
 95;Rzepka;Jan;Kraśnik;Zmarły właściciel domu Rzepczyńskiego;;#38, #60;1658–1659;2
-96;Zamoyski;Jan;Zamość;Podczaszy koronny, dziedzic Kraśnika;;#38, #51, #64, #73;1658–1660;4
-97;Brzostowski;Krzysztof;Zamość;Podczaszy czernihowski, komisarz ordynacki;Brzozowski [?];#38, #51, #64;1658–1660;3
+96;Zamoyski;Jan;Zamość;Podczaszy koronny, dziedzic Kraśnika;;#38, #51, #64, #73, #92;1658–1661;5
+97;Brzostowski;Krzysztof;Zamość;Podczaszy czernihowski, komisarz ordynacki;Brzozowski [?];#38, #51, #64, #92;1658–1661;4
 98;Borkowski;Stanisław;Zamość;Komisarz ordynacki;;#38;1658;1
-99;Szafraniec;Wojciech;Kraśnik;Wójt i sędzia ordynaryjny (1658);Albertus Szafraniec / Szafrankowic;#38, #56, #57, #58, #59, #60, #61;1658–1659;7
+99;Szafraniec;Wojciech;Kraśnik;Wójt i sędzia ordynaryjny (1658);Albertus Szafraniec / Szafrankowic;#38, #56, #57, #58, #59, #60, #61, #83, #84, #85, #86, #92;1658–1661;12
 100;Skarzyński;Marcin;Kraśnik;Ławnik kraśnicki (1658);;#39;1658;1
-101;Kołodziejczyk;Błażej;Kraśnik;Ławnik i cechmistrz szewski (1658);;#39, #51, #64, #70;1658–1660;4
+101;Kołodziejczyk;Błażej;Kraśnik;Ławnik i cechmistrz szewski (1658);;#39, #51, #64, #70, #92;1658–1661;5
 102;Zdebikowic;Jan;Kraśnik;Ławnik kraśnicki (1658);;#39, #44;1658;2
 103;Szczurkowic;Jan;Kraśnik;Ławnik kraśnicki (1658);;#39;1658;1
-104;Fox;Grzegorz;Kraśnik;Ławnik kraśnicki (1658);Joch [?];#39, #50, #51, #64, #65;1658–1660;5
+104;Fox;Grzegorz;Kraśnik;Ławnik kraśnicki (1658);Joch [?];#39, #50, #51, #64, #65, #92;1658–1661;6
 105;Święcicki;Bartłomiej;Kraśnik;Cechmistrz kowalski (1658);;#39;1658;1
 106;Różycki;Maciej;Kraśnik;Cechmistrz tkacki (1658);;#39;1658;1
 107;Potokowic;Jan;Kraśnik;Egzaktor miejski (1658);;#39;1658;1
@@ -136,13 +136,13 @@
 135;Grabowski;Mieszkaniec;Kraśnik;Sąsiad przy ul. Lubelskiej;;#49;1659;1
 136;Mikołajewski;Mieszkaniec;Kraśnik;Sąsiad przy ul. Lubelskiej;;#49;1659;1
 137;Szwed;Paweł;Kraśnik;Cechmistrz krawiecki (1659);Szwed [?];#50;1659;1
-138;Kurowic;Wojciech;Kraśnik;Rajca i burmistrz kraśnicki;;#51, #58, #60, #64, #72, #75;1659–1660;6
-139;Starzyński;Marcin;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64;1659–1660;2
-140;Sienkowic;Stanisław;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64;1659–1660;2
-141;Chmielowic;Jan;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64;1659–1660;2
+138;Kurowic;Wojciech;Kraśnik;Rajca i burmistrz kraśnicki;;#51, #58, #60, #64, #72, #75, #80, #82, #92;1659–1661;9
+139;Starzyński;Marcin;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64, #92;1659–1661;3
+140;Sienkowic;Stanisław;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64, #81, #82, #83, #87, #92;1659–1661;7
+141;Chmielowic;Jan;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #64, #92;1659–1661;3
 142;Kozica;Maciej;Kraśnik;Ławnik przysięgły kraśnicki;;#51, #57, #64;1659–1660;3
-143;Cichoń;Jan;Kraśnik;Pisarz przysięgły aktowy;;#51, #58, #59, #64, #65;1659–1660;5
-144;Chmara;Paweł;Kraśnik;Cechmistrz krawców (1659–1660);;#52, #65;1659–1660;2
+143;Cichoń;Jan;Kraśnik;Pisarz przysięgły aktowy;;#51, #58, #59, #64, #65, #94;1659–1661;6
+144;Chmara;Paweł;Kraśnik;Cechmistrz krawców (1659–1660);;#52, #65, #92;1659–1661;3
 145;Szarek;Szymon;Kraśnik;Cechmistrz kowali (1659–1660);;#52, #65;1659–1660;2
 146;Kozicki;Bartłomiej;Kraśnik;Cechmistrz tkaczy (1659–1660);;#52, #65;1659–1660;2
 147;Soszyński;Jan;Kraśnik;Pozwany dłużnik;Soczyński [?];#52;1659;1
@@ -151,10 +151,10 @@
 150;Pezikówna;Anna;Przedmieście Kraśnickie;Spadkodawczyni (1649);;#53;1659;1
 151;Pezikówna;Maryna;Przedmieście Kraśnickie;Spadkodawczyni (1649);;#53;1659;1
 152;Pezikówna;Katarzyna;Przedmieście Kraśnickie;Spadkodawczyni (1649);;#53;1659;1
-153;Kulka;Jan;Kraśnik;Opiekun / Aktor;;#54;1659;1
+153;Kulka;Jan;Kraśnik;Opiekun / Aktor;;#54, #89;1659–1660;2
 154;Jasiński;Sebastian;Kraśnik;Opiekun / Brat śp. Bartłomieja;;#54;1659;1
 155;Jasiński;Bartłomiej;Kraśnik;Zmarły wierzyciel;;#54;1659;1
-156;Stockowski;Paweł;Kraśnik;Nowo przyjęty mieszczanin (1659);Stokowski / Słomkowski [?];#54, #65;1659–1660;2
+156;Stockowski;Paweł;Kraśnik;Nowo przyjęty mieszczanin (1659);Stokowski / Słomkowski [?];#54, #65, #87;1659–1660;3
 157;Delygerski;Bartłomiej;Kraśnik;Nowo przyjęty mieszczanin (1659);Delygerski [?];#54;1659;1
 158;Kilian;Grzegorz;Kraśnik;Nowo przyjęty mieszczanin (1659);;#54;1659;1
 159;Dudek;Łukasz;Piaski;Pracowity / Powód;;#55;1659;1
@@ -172,9 +172,9 @@
 171;Chudzikowa;Katarzyna;Przedmieście Kraśnickie;Żona W. Chudzika / Nabywczyni;Kępianka;#56;1659;1
 172;Gołąbek;Matyjasz;Przedmieście Kraśnickie;Sąsiad;;#56;1659;1
 173;Kłodnicki;Jan;Kraśnik;Ławnik przysięgły kraśnicki;Kłodczyński [?];#57;1659;1
-174;Sydkowic;Wawrzyniec;Kraśnik;Pozwany;;#57, #58;1659;2
+174;Sydkowic;Wawrzyniec;Kraśnik;Pozwany;;#57, #58, #79;1659–1660;3
 175;Zaciągkowicz;Jadwiga;Kraśnik;Pozwana dłużniczka;Zaleźbiorz [?];#58;1659;1
-176;Lotwa;Andrzej;Kraśnik;Pozwany dłużnik;Łotwa [?];#58;1659;1
+176;Lotwa;Andrzej;Kraśnik;Pozwany dłużnik;Łotwa [?];#58, #81;1659–1660;2
 177;Olkowski;Marcin;Kraśnik;Pozwany;Kotlarzyk;#58, #59;1659;2
 178;Kiełbic;Wojciech;Urzędów;Wspomniany w protestacji;Kłobucki [?];#59;1659;1
 179;Berniszkowicz;Mieszkaniec;Kraśnik;Wspomniany w protestacji;Bernyszowicz [?];#59;1659;1
@@ -194,7 +194,7 @@
 193;Rak;Andrzej;Kraśnik;Świadek;Rok [?];#63;1659;1
 194;Piecznik;Andrzej;Kraśnik;Egzaktor składek publicznych (1660);Pięcznik [?];#65;1660;1
 195;Serkówna;Marina;Kraśnik;Szlachetna / Powódka;;#65, #66;1660;2
-196;Boryszowski;Bartłomiej;Kraśnik;Pozwany;Boryszkowski [?];#65, #66;1660;2
+196;Boryszowski;Bartłomiej;Kraśnik;Pozwany;Boryszkowski [?];#65, #66, #91;1660;3
 197;Mączewski;Jan;Zaklików;Sprzedawca krowy na jarmarku;Mączkowski [?];#66;1660;1
 198;Poniatowski;Wojciech;Bełżyce;Mieszczanin i rajca bełżycki / Protestujący;;#67;1660;1
 199;Rudborek;Mieszkaniec;Urzędów;Mieszczanin z Urzędowa / Pozwany;;#67;1660;1
@@ -208,15 +208,54 @@
 207;Włostek;Leon;Kraśnik;Szlachetny mieszczanin kraśnicki / Świadek;Włodek [?];#71;1660;1
 208;Włodek;Mikołaj;Stara Wieś;Szlachetny ze Starej Wsi / Świadek;Włodek [?];#71;1660;1
 209;Kurowski;Jakub;Stara Wieś;Szlachetny ze Starej Wsi / Świadek;Kurowski [?];#71;1660;1
-210;Grzybek;Izaak;Kraśnik;Żyd / Pozwany;Grzybek [?];#71, #72;1660;2
+210;Grzybek;Izaak;Kraśnik;Żyd / Pozwany;Grzybek [?];#71, #72, #80;1660;3
 211;Moskowicz;Chaim;Lublin;Żyd lubelski / Kwitujący;;#72, #73;1660;2
 212;Izraelowicz;Lewek;Lublin;Żyd lubelski / Kwitujący;;#72, #73;1660;2
 213;Tymowski;Szlachcic;Lipa;Dzierżawca wsi Lipa / Kwitowany;Zymowski [?];#72, #73;1660;2
 214;Izaakowicz;Zachariasz;Kraśnik;Żyd / Świadek kwitacji;;#72;1660;1
 215;Dzieniek;Stephan;Kraśnik;Świadek kwitacji;Dzieniecki [?];#72;1660;1
-216;Izaakowicz;Heliasz;Kraśnik;Starszy zboru kraśnickiego;;#73;1660;1
-217;Dławski;Matek;Kraśnik;Starszy zboru kraśnickiego;Dławski [?];#73;1660;1
+216;Izaakowicz;Heliasz;Kraśnik;Starszy zboru kraśnickiego;;#73, #76;1660;2
+217;Dławski;Matek;Kraśnik;Starszy zboru kraśnickiego;Dławski [?];#73, #76;1660;2
 218;Jarosławski;Mosiek;Kraśnik;Starszy zboru kraśnickiego;;#73;1660;1
 219;Wawrzyniec;Poddany;Lipa;Poddany ze wsi Lipa;;#73;1660;1
 220;Dziwkowski;Adam;Lublin;Mieszczanin lubelski / Powód;;#74, #75;1660;2
-221;Pyrek;Szymon;Kraśnik;Ślusarz i cechmistrz szpitala ubogich / Pozwany;;#74, #75;1660;2
+221;Pyrek;Szymon;Kraśnik;Ślusarz i cechmistrz szpitala ubogich / Pozwany;;#74, #75, #81, #87, #88;1660;5
+222;Dębkowic;Jan;Lublin;Cechmistrz czapniczy z Kowalówki / Powód;Dębkowie [?];#77, #78, #87;1660;3
+223;Wiśniewski;Szymon;Szczebrzeszyn;Czapnik / Pozwany;;#77, #78, #87;1660;3
+224;Orniecki;Maciej;Szczebrzeszyn;Towarzysz czapniczy;Ornacki [?];#77, #78;1660;2
+225;Kiełbowicz;Mistrz;Szczebrzeszyn;Mistrz czapniczy;Kielbowczyk [?];#77;1660;1
+226;Cyrulik;Szymon;Kraśnik;Cyrulik spod chorągwi Starosty Sieradzkiego;Chirurgus;#78, #79;1660;2
+227;Gulik;Jan;Kraśnik;Szlachcic / Wystawca atestacji;Gólik [?];#79;1660;1
+228;Jeżykowic;Maciej;Kraśnik;Mieszczanin / Protestujący;;#79, #86, #87, #89;1660;4
+229;Jasielski;Jan;Kraśnik;Mieszczanin / Protestujący;;#79;1660;1
+230;Łochowski;Paweł;Kraśnik;Świadek;Łąchowski [?];#79, #80;1660;2
+231;Zacharski;Jan;Kraśnik;Świadek;;#80;1660;1
+232;Miecznik;Andrzej;Kraśnik;Egzaktor składek / Powód;Gladiator;#81, #87, #88;1660;3
+233;Grad;Bartosz;Kraśnik;Rękojmia;Grad [?];#81;1660;1
+234;Kopiec;Żyd;Branew;Pozwany;Kopiec [?];#82;1660;1
+235;Sadzik;Grzegorz;Przedmieście Kraśnickie;Przedmieszczanin / Nowy posesjonat;;#82;1660;1
+236;Bednarzyk;Szymon;Przedmieście Kraśnickie;Poprzedni posiadacz placu;Bednarzyk [?];#82;1660;1
+237;Rzepka;Maciej;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;;#82, #83;1660;2
+238;Wójcik;Jan;Kraśnik;Sługa przysięgły radziecki (woźny);;#83, #86;1660;2
+239;Oleski;Wojciech;Kraśnik;Mieszczanin kraśnicki / Pozwany;;#86;1660;1
+240;Łotowik;Jakub;Kraśnik;Powód;Łopowik [?];#88;1660;1
+241;Szerbus;Marcin;Kraśnik;Pozwany;Szerebus [?];#88;1660;1
+242;Łopkowski;Kazimierz;Kraśnik;Powód;Łepkowski [?] / Baszkowski [?];#88, #95, #96;1660–1661;3
+243;Delik;Michał;Kraśnik;Starszy cechu szewskiego;Delik [?];#89;1660;1
+244;Kurzal;Wojciech;Włostowice;Pracowity dziadek W. Jajczyka;Kurzel [?] / Urzędów [?];#89;1660;1
+245;Jajczyk;Wojciech;Przedmieście Kraśnickie;Wnuk W. Kurzala (22 lata);Jaicyk;#89, #90;1660;2
+246;Jajczyk;Sebastian;Przedmieście Kraśnickie;Opiekun dóbr Jajczyka;Jaicyk;#89;1660;1
+247;Jajczyk;Jakub;Przedmieście Kraśnickie;Zmarły ojciec Wojciecha;Jaicyk;#89;1660;1
+248;Domatańczyk;Bartłomiej;Kraśnik;Powód;Domatańczyk [?];#90;1660;1
+249;Siecięszek;Andrzej;Kraśnik;Pozwany / Kondemnat;Sieniążek [?];#90;1660;1
+250;Cichy;Piotr;Kraśnik;Ławnik przysięgły (1661);Cichy [?];#92;1661;1
+251;Faliszek;Wawrzyniec;Kraśnik;Opiekun dóbr Dziadka / Powód;Faliszek [?];#94;1661;1
+252;Jarząbski;Grzegorz;Kraśnik;Mieszczanin / Pozwany;Jarząbski [?];#94;1661;1
+253;Balina;Dorota;Kraśnik;Żona G. Jarząbskiego / Pozwana;;#94;1661;1
+254;Żartowski;Wojciech;Ludwinów;Powód;Żarkowski [?] / Budzyń [?];#95;1661;1
+255;Zielik;Tomasz;Przedmieście Kraśnickie;Przedmieszczanin / Pozwany;Zielik [?];#95;1661;1
+256;Sączek;Wawrzyniec;Kraśnik;Opiekun / Powód;Zajączek [?];#96, #97, #100;1661;3
+257;Bybina;Dorota;Kraśnik;Wdowa po W. Bybie / Pozwana;;#96, #97, #98, #99, #100;1661;5
+258;Sołtyszowski;Grzegorz;Kraśnik;Mąż Doroty Bybinej / Pozwany;Sołtyszowski [?];#96, #97, #99, #100;1661;4
+259;Zajączek;Mateusz;Kraśnik;Zmarły wierzyciel;Zajączek [?];#97;1661;1
+260;Byba;Wawrzyniec;Kraśnik;Zmarły dłużnik;;#97, #98;1661;2
